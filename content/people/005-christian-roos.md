@@ -12,8 +12,8 @@ location:
   city: "Innsbruck"
   region: "Tyrol"
   country: "Austria"
-  lat: 47.2692
-  lon: 11.4041
+  lat: 47.2657
+  lon: 11.3444
 education:
   - degree: "PhD Physics"
     institution: "University of Innsbruck"

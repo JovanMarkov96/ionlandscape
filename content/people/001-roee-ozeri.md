@@ -17,8 +17,8 @@ location:
   city: "Rehovot"
   region: "Central District"
   country: "Israel"
-  lat: 31.8947
-  lon: 34.8094
+  lat: 31.9066
+  lon: 34.8106
 education:
   - degree: "BSc (Physics)"
     institution: "Hebrew University of Jerusalem"

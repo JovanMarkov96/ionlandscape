@@ -18,8 +18,8 @@ location:
   city: "Oxford"
   region: "England"
   country: "United Kingdom"
-  lat: 51.7520
-  lon: -1.2577
+  lat: 51.7594
+  lon: -1.2582
 education:
   - degree: "DPhil (PhD) in Physics"
     institution: "University of Oxford"

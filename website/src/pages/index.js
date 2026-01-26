@@ -19,7 +19,11 @@ function HomeContent() {
                 />
             </div>
             <div style={{ width: 420, borderLeft: '1px solid #ddd', overflow: 'auto' }}>
-                <PersonPanel personId={selectedPersonId} location={selectedLocation} />
+                <PersonPanel
+                    personId={selectedPersonId}
+                    location={selectedLocation}
+                    onPersonSelect={setSelectedPersonId}
+                />
             </div>
         </div>
     );

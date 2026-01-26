@@ -15,8 +15,8 @@ location:
   city: "Durham"
   region: "North Carolina"
   country: "USA"
-  lat: 35.9940
-  lon: -78.8986
+  lat: 36.0033
+  lon: -78.9377
 education:
   - degree: "BSc (Physics)"
     institution: "Massachusetts Institute of Technology"
