@@ -50,7 +50,7 @@
     "short_bio": "Jonathan P. Home is a professor at ETH Zürich and leads research in trapped-ion quantum information processing, with a focus on precision control, error correction, and scalable architectures (including integrated trap technologies).",
     "md_filename": "006-jonathan-home.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "002-ziv-meir",
@@ -241,7 +241,7 @@
     "short_bio": "Winfried K. Hensinger is a professor at the University of Sussex leading research toward scalable trapped-ion quantum computing, including architectures designed around microwave control and engineering-driven modularity.",
     "md_filename": "012-winfried-hensinger.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "015-tracy-northup",
@@ -299,7 +299,7 @@
     "short_bio": "Tracy E. Northup is a professor at the University of Innsbruck working on quantum interfaces between light and matter, especially trapped ions coupled to optical cavities, with applications to quantum networking and quantum-enabled sensing.",
     "md_filename": "015-tracy-northup.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "006-david-wineland",
@@ -365,7 +365,7 @@
     "short_bio": "David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder), where his group developed foundational methods for high-fidelity quantum logic with ions, and later joined the University of Oregon as a Research Professor.",
     "md_filename": "006-david-wineland.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "010-jungsang-kim",
@@ -419,7 +419,7 @@
     "short_bio": "Jungsang Kim is a professor at Duke University working on trapped-ion quantum information systems, with strong emphasis on engineering and integration: microfabricated traps, photonics, detectors, compact cryo/vacuum, and system-scale architectures.",
     "md_filename": "010-jungsang-kim.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "008-john-bollinger",
@@ -471,7 +471,7 @@
     "short_bio": "John J. Bollinger is a senior experimental physicist at NIST (Boulder) known for work on Penning-trap ion crystals, precision measurement, and strongly-coupled many-body dynamics in trapped-ion systems.",
     "md_filename": "008-john-bollinger.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "009-hartmut-haeffner",
@@ -522,7 +522,7 @@
     "short_bio": "Hartmut Häffner is a professor at UC Berkeley working on trapped-ion quantum science and precision measurement, with interests including reducing surface noise and developing novel trapped-particle platforms.",
     "md_filename": "009-hartmut-haeffner.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "007-rainer-blatt",
@@ -590,7 +590,7 @@
     "short_bio": "Rainer Blatt is an experimental physicist who helped establish **trapped ions** as a leading platform for **quantum information processing**, **quantum simulation**, and **precision measurement**. He is a Professor at the University of Innsbruck and a Research Director at IQOQI Innsbruck (ÖAW), and he is a co-founder of Alpine Quantum Technologies (AQT), a trapped-ion quantum computing company spun out from Innsbruck.",
     "md_filename": "007-rainer-blatt.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "001-roee-ozeri",
@@ -849,7 +849,7 @@
     "short_bio": "Thomas Monz is an experimental quantum physicist at the University of Innsbruck and a founder of Alpine Quantum Technologies (AQT). His work spans trapped-ion quantum computing, quantum algorithms, and system-level validation, with earlier work also touching ion–photon interfaces and precision spectroscopy.",
     "md_filename": "014-thomas-monz.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "007-dietrich-leibfried",
@@ -901,7 +901,7 @@
     "short_bio": "Dietrich Leibfried is a leading experimental physicist in trapped-ion quantum information science at NIST (Boulder). His work spans high-fidelity trapped-ion operations, quantum control, quantum networking, and precision spectroscopy.",
     "md_filename": "007-dietrich-leibfried.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "011-kihwan-kim",
@@ -953,7 +953,7 @@
     "short_bio": "Kihwan Kim is a leading trapped-ion quantum computing experimentalist known for high-fidelity control, multi-qubit entangling operations, and quantum simulation with ions. Recent reporting indicates a move from Tsinghua University to South Korea to lead a new IBS trapped-ion research group.",
     "md_filename": "011-kihwan-kim.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   },
   {
     "id": "013-ferdinand-schmidt-kaler",
@@ -1004,6 +1004,6 @@
     "short_bio": "Ferdinand Schmidt-Kaler is a professor at Johannes Gutenberg University Mainz working on trapped-ion quantum computing, including segmented-trap technologies, architectures, and improving coherence and gate performance in scalable systems.",
     "md_filename": "013-ferdinand-schmidt-kaler.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   }
 ]
