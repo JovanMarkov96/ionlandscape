@@ -7,6 +7,11 @@ node_modules/
 website/build/
 website/.docusaurus/
 
+# Generated data files (created by CI)
+website/static/data/*.json
+website/static/data/*.geojson
+website/static/data/*.csv
+
 # Cache
 .cache/
 
