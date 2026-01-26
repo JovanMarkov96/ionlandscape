@@ -1,11 +1,14 @@
 // website/src/pages/index.js
 import React, { useState } from 'react';
-import MapPanel from '../components/MapPanel';
-import PersonPanel from '../components/PersonPanel';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
-export default function Home() {
+function HomeContent() {
     const [selectedPersonId, setSelectedPersonId] = useState(null);
     const [selectedLocation, setSelectedLocation] = useState(null);
+    
+    // These components require browser APIs
+    const MapPanel = require('../components/MapPanel').default;
+    const PersonPanel = require('../components/PersonPanel').default;
 
     return (
         <div style={{ display: 'flex', height: '100vh' }}>
@@ -19,5 +22,13 @@ export default function Home() {
                 <PersonPanel personId={selectedPersonId} location={selectedLocation} />
             </div>
         </div>
+    );
+}
+
+export default function Home() {
+    return (
+        <BrowserOnly fallback={<div>Loading...</div>}>
+            {() => <HomeContent />}
+        </BrowserOnly>
     );
 }
