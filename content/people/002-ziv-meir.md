@@ -62,7 +62,7 @@ Dr. Meir earned a dual BSc *magna cum laude* in Physics & Astronomy and Electric
 
 Following his PhD, Dr. Meir held postdoctoral fellowships at the Weizmann Institute of Science and subsequently at the University of Basel in the group of Prof. Stefan Willitsch. At Basel, his work expanded toward quantum-logic spectroscopy and control of molecular ions. In September 2021, he joined the faculty of the Weizmann Institute of Science as an independent principal investigator.
 
-Dr. Meir’s current research explores molecular qubits, precision spectroscopy, and new quantum-information and sensing capabilities enabled by combining atomic and molecular trapped-ion platforms.
+Dr. Meir's current research explores molecular qubits, precision spectroscopy, and new quantum-information and sensing capabilities enabled by combining atomic and molecular trapped-ion platforms.
 
 ## Selected publications (curated)
 See full publication list on Google Scholar.

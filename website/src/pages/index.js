@@ -5,7 +5,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 function HomeContent() {
     const [selectedPersonId, setSelectedPersonId] = useState(null);
     const [selectedLocation, setSelectedLocation] = useState(null);
-    
+
     // These components require browser APIs
     const MapPanel = require('../components/MapPanel').default;
     const PersonPanel = require('../components/PersonPanel').default;
