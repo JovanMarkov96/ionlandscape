@@ -34,6 +34,13 @@
       "integrated ion traps",
       "scaling"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
     "links": {
       "eth_profile": "https://tiqi.ethz.ch/people/person-detail.jhome.html",
       "group_page": "https://iqe.phys.ethz.ch/research/trapped-ion-quantum-information.html",
@@ -111,6 +118,15 @@
       "atom–ion interactions",
       "micromotion"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Sr+",
+      "Yb+",
+      "N2+"
+    ],
     "links": {
       "homepage": "https://www.weizmann.ac.il/complex/meir/",
       "group_page": "https://www.weizmann.ac.il/complex/meir/group",
@@ -174,6 +190,14 @@
       "ion qubit control",
       "coherence"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "Sr+"
+    ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=pgnnU3MAAAAJ",
       "orcid": "https://orcid.org/0000-0002-9654-9510",
@@ -225,6 +249,13 @@
       "microwave trapped-ion computing",
       "scalable architectures",
       "quantum engineering"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
     ],
     "links": {
       "sussex_profile": "https://profiles.sussex.ac.uk/p179227-winfried-hensinger",
@@ -284,6 +315,11 @@
       "quantum networks",
       "hybrid optomechanics"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [],
     "links": {
       "oeaw_profile": "https://www.oeaw.ac.at/esq/home/esq-faculty/tracy-northup/",
       "google_scholar": "https://scholar.google.com/citations?user=BHFu0UwAAAAJ",
@@ -349,6 +385,11 @@
       "optical clocks",
       "precision measurement"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=6quvCpAAAAAJ",
       "uoregon_profile": "https://cas.uoregon.edu/directory/profiles/all/djw34",
@@ -402,6 +443,11 @@
       "photonics for ions",
       "scalable trapped-ion architectures"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [],
     "links": {
       "duke_ece_profile": "https://ece.duke.edu/people/jungsang-kim/",
       "duke_quantum_center": "https://quantum.duke.edu/profile/jungsang-kim/",
@@ -457,6 +503,13 @@
       "precision measurement",
       "many-body physics"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "9Be+"
+    ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=u8hdXb0AAAAJ",
       "orcid": "https://orcid.org/0000-0001-9117-7896",
@@ -508,6 +561,11 @@
       "precision measurements",
       "surface noise"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [],
     "links": {
       "berkeley_profile": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=ORNi6TwAAAAJ",
@@ -573,6 +631,11 @@
       "precision spectroscopy",
       "quantum control"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?user=_34V-4QAAAAJ",
       "orcid": "https://orcid.org/0000-0002-3122-2461",
@@ -648,6 +711,14 @@
       "noise mitigation",
       "decoherence"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Sr+",
+      "Yb+"
+    ],
     "links": {
       "homepage": "http://www.weizmann.ac.il/complex/ozeri/",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ",
@@ -718,6 +789,13 @@
       "entanglement",
       "scalable architectures"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=9rrnu-0AAAAJ",
       "duke_ece_profile": "https://ece.duke.edu/people/christopher-monroe/",
@@ -776,6 +854,13 @@
       "quantum control",
       "many-body physics"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ",
       "orcid": "https://orcid.org/0000-0001-7121-8259",
@@ -833,6 +918,11 @@
       "verification and validation",
       "ion-photon interfaces"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [],
     "links": {
       "uibk_profile": "https://www.uibk.ac.at/en/exphys/team/thomas-monz/",
       "aqt_about": "https://www.aqt.eu/about/",
@@ -886,6 +976,14 @@
       "quantum networking",
       "precision spectroscopy"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "40Ca+",
+      "9Be+"
+    ],
     "links": {
       "nist_group_members": "https://www.nist.gov/pml/time-and-frequency-division/ion-storage/ion-storage-group-members",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=hx5LEOwAAAAJ",
@@ -938,6 +1036,11 @@
       "quantum simulation",
       "scalable architectures"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=4iNn12QAAAAJ",
       "tsinghua_group_page": "https://info.phys.tsinghua.edu.cn/kimkihwan/",
@@ -990,6 +1093,11 @@
       "architectures",
       "coherence and gate performance"
     ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=de&user=1VkTHB4AAAAJ",
       "dfg_gepris_profile": "https://gepris.dfg.de/gepris/person/1260598?language=en",
