@@ -12,7 +12,7 @@
           "Quantum logic spectroscopy",
           "Hybrid atom–ion systems"
         ],
-        "short_bio": "Dr. Ziv Meir is an experimental physicist and principal investigator in the Department of Physics of Complex Systems at the Weizmann Institute of Science, where he leads the Molecular-Qubits Laboratory. His research aims to extend quantum-logic techniques—originally developed for trapped-ion quantum computing and optical clocks—to the control, detection, and manipulation of single trapped molecular ions.",
+        "short_bio": "Dr. Ziv Meir is an experimental physicist and principal investigator at the Weizmann Institute of Science. His research develops quantum-logic techniques—originally created for trapped-ion quantum computing and optical clocks—to control, detect, and manipulate single trapped molecular ions, enabling “molecular qubits” and new precision spectroscopy capabilities.",
         "md_filename": "002-ziv-meir.md"
       },
       "geometry": {
@@ -26,6 +26,25 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "003-chris-ballance",
+        "name": "Chris Ballance",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dr. Chris Ballance is a physicist and quantum-technology leader working on trapped-ion quantum computing across academia and industry. He completed his DPhil (PhD) at the University of Oxford under Prof. David M. Lucas, with a thesis on high-fidelity trapped-ion quantum logic.",
+        "md_filename": "003-chris-ballance.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2577,
+          51.752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "001-roee-ozeri",
         "name": "Roee Ozeri",
         "platforms": [
@@ -33,7 +52,7 @@
           "Optical clocks",
           "Ultracold atoms"
         ],
-        "short_bio": "Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He was born in Israel and earned a BSc in Physics from the Hebrew University of Jerusalem, followed by an MSc and PhD in Physics from the Weizmann Institute of Science.",
+        "short_bio": "Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He earned a BSc in Physics from the Hebrew University of Jerusalem and completed his MSc and PhD in Physics at the Weizmann Institute of Science under Prof. Nir Davidson.",
         "md_filename": "001-roee-ozeri.md"
       },
       "geometry": {
@@ -41,6 +60,44 @@
         "coordinates": [
           34.8094,
           31.8947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "004-christopher-monroe",
+        "name": "Christopher R. Monroe",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Christopher R. Monroe is a physicist and a leading figure in trapped-ion quantum information science. He is the Gilhuly Family Presidential Distinguished Professor of Electrical & Computer Engineering and Physics at Duke University, and a co-founder of IonQ, a company commercializing trapped-ion quantum computers.",
+        "md_filename": "004-christopher-monroe.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8986,
+          35.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "005-christian-roos",
+        "name": "Christian F. Roos",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dr. Christian F. Roos is an experimental physicist working on trapped-ion quantum science, including quantum simulation and precision spectroscopy. He is affiliated with IQOQI Innsbruck (Austrian Academy of Sciences) and the University of Innsbruck.",
+        "md_filename": "005-christian-roos.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4041,
+          47.2692
         ]
       }
     }

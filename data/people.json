@@ -28,15 +28,15 @@
         "details": "Physics & Astronomy; Electrical Engineering"
       },
       {
-        "degree": "MSc",
+        "degree": "MSc (Physics)",
         "institution": "Weizmann Institute of Science",
         "advisor": "Roee Ozeri"
       },
       {
-        "degree": "PhD",
+        "degree": "PhD (Physics)",
         "institution": "Weizmann Institute of Science",
-        "advisor": "Roee Ozeri",
-        "year": 2016
+        "year": 2016,
+        "advisor": "Roee Ozeri"
       }
     ],
     "postdocs": [
@@ -71,8 +71,71 @@
       "link": "https://www.weizmann.ac.il/complex/ozeri/sites/complex.ozeri/files/uploads/ziv_thesis.pdf",
       "year": 2016
     },
-    "short_bio": "Dr. Ziv Meir is an experimental physicist and principal investigator in the Department of Physics of Complex Systems at the Weizmann Institute of Science, where he leads the Molecular-Qubits Laboratory. His research aims to extend quantum-logic techniques—originally developed for trapped-ion quantum computing and optical clocks—to the control, detection, and manipulation of single trapped molecular ions.",
+    "short_bio": "Dr. Ziv Meir is an experimental physicist and principal investigator at the Weizmann Institute of Science. His research develops quantum-logic techniques—originally created for trapped-ion quantum computing and optical clocks—to control, detect, and manipulate single trapped molecular ions, enabling “molecular qubits” and new precision spectroscopy capabilities.",
     "md_filename": "002-ziv-meir.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-27"
+  },
+  {
+    "id": "003-chris-ballance",
+    "name": "Chris Ballance",
+    "sort_name": "Ballance, Chris",
+    "current_position": {
+      "title": "President, Quantum Computing",
+      "institution": "IonQ, Inc."
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [
+      {
+        "name": "Oxford Ionics",
+        "role": "Co-founder & CEO (founding)",
+        "type": "company"
+      },
+      {
+        "name": "IonQ, Inc.",
+        "role": "President, Quantum Computing",
+        "type": "company"
+      }
+    ],
+    "location": {
+      "city": "Oxford",
+      "region": "England",
+      "country": "United Kingdom",
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "education": [
+      {
+        "degree": "DPhil (PhD) in Physics",
+        "institution": "University of Oxford",
+        "year": 2014,
+        "advisor": "David M. Lucas"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "high-fidelity gates",
+      "ion qubit control",
+      "coherence"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=pgnnU3MAAAAJ",
+      "orcid": "https://orcid.org/0000-0002-9654-9510",
+      "oxford_ora_thesis": "https://ora.ox.ac.uk/objects/uuid:1beb7f67-4d92-4d57-8754-50f92f9d27f4",
+      "oxford_profile": "https://www.physics.ox.ac.uk/our-people/ballance",
+      "oxford_ionics_profile": "https://www.oxionics.com/people/chris-ballance/",
+      "ionq_bio": "https://investors.ionq.com/governance/board-of-directors/person-details/default.aspx?ItemId=a5a3affa-e6f6-48e5-9f2f-ec7bd0e6b78c"
+    },
+    "thesis": {
+      "title": "High-fidelity quantum logic in Ca+",
+      "link": "https://ora.ox.ac.uk/objects/uuid:1beb7f67-4d92-4d57-8754-50f92f9d27f4",
+      "year": 2014
+    },
+    "short_bio": "Dr. Chris Ballance is a physicist and quantum-technology leader working on trapped-ion quantum computing across academia and industry. He completed his DPhil (PhD) at the University of Oxford under Prof. David M. Lucas, with a thesis on high-fidelity trapped-ion quantum logic.",
+    "md_filename": "003-chris-ballance.md",
     "created_at": "2026-01-26",
     "updated_at": "2026-01-27"
   },
@@ -105,15 +168,15 @@
     },
     "education": [
       {
-        "degree": "BSc",
+        "degree": "BSc (Physics)",
         "institution": "Hebrew University of Jerusalem"
       },
       {
-        "degree": "MSc",
+        "degree": "MSc (Physics)",
         "institution": "Weizmann Institute of Science"
       },
       {
-        "degree": "PhD",
+        "degree": "PhD (Physics)",
         "institution": "Weizmann Institute of Science",
         "year": 2006,
         "advisor": "Nir Davidson"
@@ -136,17 +199,143 @@
       "homepage": "http://www.weizmann.ac.il/complex/ozeri/",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ",
       "orcid": "https://orcid.org/0000-0001-7843-8801",
-      "weizmann_profile": "https://weizmann.elsevierpure.com/en/persons/roee-ozeri",
-      "iucc_cris": "https://cris.iucc.ac.il/en/persons/roee-ozeri",
+      "weizmann_pure": "https://weizmann.elsevierpure.com/en/persons/roee-ozeri",
+      "iucc_cris": "https://cris.iucc.ac.il/en/persons/roee-ozeri/",
       "quantum_art": "https://www.quantum-art.tech/team"
     },
     "thesis": {
       "title": "",
       "link": "",
-      "note": "PhD thesis not publicly available online; may be accessible via Weizmann Institute library or by request."
+      "year": 2006,
+      "note": "Thesis title/PDF not found in open-access sources; may be available via Weizmann library or by request."
     },
-    "short_bio": "Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He was born in Israel and earned a BSc in Physics from the Hebrew University of Jerusalem, followed by an MSc and PhD in Physics from the Weizmann Institute of Science.",
+    "short_bio": "Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He earned a BSc in Physics from the Hebrew University of Jerusalem and completed his MSc and PhD in Physics at the Weizmann Institute of Science under Prof. Nir Davidson.",
     "md_filename": "001-roee-ozeri.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-27"
+  },
+  {
+    "id": "004-christopher-monroe",
+    "name": "Christopher R. Monroe",
+    "sort_name": "Monroe, Christopher R.",
+    "current_position": {
+      "title": "Gilhuly Family Presidential Distinguished Professor (Physics & ECE)",
+      "institution": "Duke University"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [
+      {
+        "name": "IonQ, Inc.",
+        "role": "Co-founder",
+        "type": "company"
+      }
+    ],
+    "location": {
+      "city": "Durham",
+      "region": "North Carolina",
+      "country": "USA",
+      "lat": 35.994,
+      "lon": -78.8986
+    },
+    "education": [
+      {
+        "degree": "BSc (Physics)",
+        "institution": "Massachusetts Institute of Technology",
+        "year": 1987
+      },
+      {
+        "degree": "PhD Physics",
+        "institution": "University of Colorado Boulder",
+        "year": 1992,
+        "advisor": "Carl Wieman",
+        "note": "Advisor confirmed by multiple bios; Eric Cornell is also cited as a key collaborator during the PhD period."
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "National Institute of Standards and Technology (NIST), Boulder",
+        "advisor": "David J. Wineland"
+      }
+    ],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "quantum simulation",
+      "entanglement",
+      "scalable architectures"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=9rrnu-0AAAAJ",
+      "duke_ece_profile": "https://ece.duke.edu/people/christopher-monroe/",
+      "duke_provost_profile": "https://provost.duke.edu/profile/christopher-r-monroe/",
+      "scholars_at_duke": "https://scholars.duke.edu/person/christopher.monroe/publications",
+      "wikipedia": "https://en.wikipedia.org/wiki/Christopher_Monroe",
+      "ionq": "https://ionq.com/"
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": 1992,
+      "note": "Thesis title not found in open-access sources; may exist in ProQuest/University library catalog."
+    },
+    "short_bio": "Christopher R. Monroe is a physicist and a leading figure in trapped-ion quantum information science. He is the Gilhuly Family Presidential Distinguished Professor of Electrical & Computer Engineering and Physics at Duke University, and a co-founder of IonQ, a company commercializing trapped-ion quantum computers.",
+    "md_filename": "004-christopher-monroe.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-27"
+  },
+  {
+    "id": "005-christian-roos",
+    "name": "Christian F. Roos",
+    "sort_name": "Roos, Christian F.",
+    "current_position": {
+      "title": "Senior Scientist / Associate Professor",
+      "institution": "IQOQI Innsbruck (ÖAW) & University of Innsbruck"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Innsbruck",
+      "region": "Tyrol",
+      "country": "Austria",
+      "lat": 47.2692,
+      "lon": 11.4041
+    },
+    "education": [
+      {
+        "degree": "PhD Physics",
+        "institution": "University of Innsbruck",
+        "year": 2000,
+        "advisor": "Rainer Blatt"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "École Normale Supérieure (Paris)",
+        "advisor": ""
+      }
+    ],
+    "keywords": [
+      "trapped-ion quantum simulation",
+      "precision spectroscopy",
+      "quantum control",
+      "many-body physics"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ",
+      "orcid": "https://orcid.org/0000-0001-7121-8259",
+      "iqoqi_profile": "https://iqoqi.at/en/people/staff/staff/christian-roos",
+      "thesis_pdf": "https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf"
+    },
+    "thesis": {
+      "title": "Controlling the quantum state of trapped ions",
+      "link": "https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf",
+      "year": 2000
+    },
+    "short_bio": "Dr. Christian F. Roos is an experimental physicist working on trapped-ion quantum science, including quantum simulation and precision spectroscopy. He is affiliated with IQOQI Innsbruck (Austrian Academy of Sciences) and the University of Innsbruck.",
+    "md_filename": "005-christian-roos.md",
     "created_at": "2026-01-26",
     "updated_at": "2026-01-27"
   }
