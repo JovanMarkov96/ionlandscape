@@ -8,9 +8,10 @@
         "name": "Roee Ozeri",
         "platforms": [
           "Trapped ions",
-          "Optical clocks"
+          "Optical clocks",
+          "Ultracold atoms"
         ],
-        "short_bio": "Prof. Roee Ozeri leads the trapped-ion and quantum optics group at the Weizmann Institute of Science. His group's research spans ion-based quantum computing, precision optical clocks, and cold atom–ion interactions. He was a postdoctoral researcher in David Wineland's group at NIST before establishing his lab at Weizmann.",
+        "short_bio": "Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He was born in Israel and earned a BSc in Physics from the Hebrew University of Jerusalem, followed by an MSc and PhD in Physics from the Weizmann Institute of Science.",
         "md_filename": "001-roee-ozeri.md"
       },
       "geometry": {

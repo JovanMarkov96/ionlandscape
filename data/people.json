@@ -9,7 +9,8 @@
     },
     "platforms": [
       "Trapped ions",
-      "Optical clocks"
+      "Optical clocks",
+      "Ultracold atoms"
     ],
     "affiliations": [
       {
@@ -27,6 +28,14 @@
     },
     "education": [
       {
+        "degree": "BSc",
+        "institution": "Hebrew University of Jerusalem"
+      },
+      {
+        "degree": "MSc",
+        "institution": "Weizmann Institute of Science"
+      },
+      {
         "degree": "PhD",
         "institution": "Weizmann Institute of Science",
         "year": 2006,
@@ -35,27 +44,33 @@
     ],
     "postdocs": [
       {
-        "institution": "NIST",
+        "institution": "National Institute of Standards and Technology (NIST), Boulder",
         "advisor": "David J. Wineland"
       }
     ],
     "keywords": [
-      "ion qubits",
+      "trapped-ion quantum computing",
       "quantum metrology",
-      "optical clocks"
+      "optical clocks",
+      "noise mitigation",
+      "decoherence"
     ],
     "links": {
-      "homepage": "",
-      "google_scholar": "",
-      "orcid": ""
+      "homepage": "http://www.weizmann.ac.il/complex/ozeri/",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ",
+      "orcid": "https://orcid.org/0000-0001-7843-8801",
+      "weizmann_profile": "https://weizmann.elsevierpure.com/en/persons/roee-ozeri",
+      "iucc_cris": "https://cris.iucc.ac.il/en/persons/roee-ozeri",
+      "quantum_art": "https://www.quantum-art.tech/team"
     },
     "thesis": {
       "title": "",
-      "link": ""
+      "link": "",
+      "note": "PhD thesis not publicly available online; may be accessible via Weizmann Institute library or by request."
     },
-    "short_bio": "Prof. Roee Ozeri leads the trapped-ion and quantum optics group at the Weizmann Institute of Science. His group's research spans ion-based quantum computing, precision optical clocks, and cold atom–ion interactions. He was a postdoctoral researcher in David Wineland's group at NIST before establishing his lab at Weizmann.",
+    "short_bio": "Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He was born in Israel and earned a BSc in Physics from the Hebrew University of Jerusalem, followed by an MSc and PhD in Physics from the Weizmann Institute of Science.",
     "md_filename": "001-roee-ozeri.md",
     "created_at": "2026-01-26",
-    "updated_at": "2026-01-26"
+    "updated_at": "2026-01-27"
   }
 ]
