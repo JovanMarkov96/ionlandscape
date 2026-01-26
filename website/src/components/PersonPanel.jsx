@@ -88,6 +88,23 @@ function PersonPanel({ personId, location, onPersonSelect }) {
             <p><strong>Platforms:</strong> {(person.platforms || []).join(', ')}</p>
             <p><strong>Keywords:</strong> {(person.keywords || []).join(', ')}</p>
 
+            <div style={{ marginBottom: 12 }}>
+                {person.labels?.map(l => (
+                    <a key={l} href={`/ionlandscape/groups?label=${encodeURIComponent(l)}`}
+                        className="badge badge--primary margin-right--xs"
+                        style={{ textDecoration: 'none', color: 'white' }}>
+                        {l}
+                    </a>
+                ))}
+                {person.ion_species?.map(s => (
+                    <a key={s} href={`/ionlandscape/groups?ion=${encodeURIComponent(s)}`}
+                        className="badge badge--secondary margin-right--xs"
+                        style={{ textDecoration: 'none', color: 'black' }}>
+                        {s}
+                    </a>
+                ))}
+            </div>
+
             {person.affiliations && person.affiliations.length > 0 && (
                 <div style={{ marginTop: 12, marginBottom: 12, padding: '8px 12px', backgroundColor: '#f5f5f5', borderRadius: 4 }}>
                     <h4 style={{ margin: '0 0 4px 0', fontSize: '1em', color: '#333' }}>Affiliations</h4>
