@@ -140,6 +140,140 @@
     "updated_at": "2026-01-27"
   },
   {
+    "id": "006-david-wineland",
+    "name": "David J. Wineland",
+    "sort_name": "Wineland, David J.",
+    "current_position": {
+      "title": "Philip H. Knight Distinguished Research Chair; Research Professor (Physics)",
+      "institution": "University of Oregon"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Atomic clocks",
+      "Quantum metrology",
+      "Quantum information"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Eugene",
+      "region": "Oregon",
+      "country": "USA",
+      "lat": 44.0496255,
+      "lon": -123.0728292
+    },
+    "education": [
+      {
+        "degree": "BA (Physics)",
+        "institution": "University of California, Berkeley",
+        "year": 1965
+      },
+      {
+        "degree": "PhD (Physics)",
+        "institution": "Harvard University",
+        "year": 1970,
+        "advisor": "Norman F. Ramsey"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "University of Washington",
+        "advisor": "Hans Dehmelt"
+      }
+    ],
+    "keywords": [
+      "laser cooling",
+      "ion traps",
+      "quantum logic gates",
+      "optical clocks",
+      "precision measurement"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=6quvCpAAAAAJ",
+      "uoregon_profile": "https://cas.uoregon.edu/directory/profiles/all/djw34",
+      "nobel_bio": "https://www.nobelprize.org/prizes/physics/2012/wineland/biographical/",
+      "orcid": "https://orcid.org/0000-0002-9770-5220",
+      "wikipedia": "https://en.wikipedia.org/wiki/David_J._Wineland"
+    },
+    "thesis": {
+      "title": "The Atomic Deuterium Maser",
+      "link": "https://www.proquest.com/docview/302462813",
+      "year": 1971,
+      "note": "ProQuest record (may require institutional access)."
+    },
+    "short_bio": "David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder), where his group developed foundational methods for high-fidelity quantum logic with ions, and later joined the University of Oregon as a Research Professor.",
+    "md_filename": "006-david-wineland.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
+    "id": "007-rainer-blatt",
+    "name": "Rainer Blatt",
+    "sort_name": "Blatt, Rainer",
+    "current_position": {
+      "title": "Professor (Experimental Physics); Research Director (IQOQI Innsbruck, ÖAW)",
+      "institution": "University of Innsbruck & IQOQI Innsbruck (ÖAW)"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Quantum computing",
+      "Quantum simulation",
+      "Quantum metrology"
+    ],
+    "affiliations": [
+      {
+        "name": "Alpine Quantum Technologies (AQT)",
+        "role": "Co-founder",
+        "type": "company"
+      }
+    ],
+    "location": {
+      "city": "Innsbruck",
+      "region": "Tyrol",
+      "country": "Austria",
+      "lat": 47.2578333,
+      "lon": 11.3836639
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Mainz",
+        "year": 1981,
+        "advisor": "Günter Werth"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "JILA (Boulder)",
+        "advisor": "John L. Hall"
+      }
+    ],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "multi-qubit entanglement",
+      "quantum simulation",
+      "precision spectroscopy",
+      "quantum control"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?user=_34V-4QAAAAJ",
+      "orcid": "https://orcid.org/0000-0002-3122-2461",
+      "aqt_about": "https://www.aqt.eu/about/",
+      "oeaw_profile": "https://www.oeaw.ac.at/en/m/blatt-rainer/",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rainer_Blatt",
+      "cv_pdf": "https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf"
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": 1981,
+      "note": "Thesis title/PDF not located in open-access sources yet; CV confirms doctorate at University of Mainz and association with Günter Werth."
+    },
+    "short_bio": "Rainer Blatt is an experimental physicist who helped establish **trapped ions** as a leading platform for **quantum information processing**, **quantum simulation**, and **precision measurement**. He is a Professor at the University of Innsbruck and a Research Director at IQOQI Innsbruck (ÖAW), and he is a co-founder of Alpine Quantum Technologies (AQT), a trapped-ion quantum computing company spun out from Innsbruck.",
+    "md_filename": "007-rainer-blatt.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
     "id": "001-roee-ozeri",
     "name": "Roee Ozeri",
     "sort_name": "Ozeri, Roee",
