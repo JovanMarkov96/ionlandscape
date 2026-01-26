@@ -100,6 +100,50 @@
           47.2657
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "006-david-wineland",
+        "name": "David J. Wineland",
+        "platforms": [
+          "Trapped ions",
+          "Atomic clocks",
+          "Quantum metrology",
+          "Quantum information"
+        ],
+        "short_bio": "David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder), where his group developed foundational methods for high-fidelity quantum logic with ions, and later joined the University of Oregon as a Research Professor.",
+        "md_filename": "006-david-wineland.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0728292,
+          44.0496255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "007-rainer-blatt",
+        "name": "Rainer Blatt",
+        "platforms": [
+          "Trapped ions",
+          "Quantum computing",
+          "Quantum simulation",
+          "Quantum metrology"
+        ],
+        "short_bio": "Rainer Blatt is an experimental physicist who helped establish **trapped ions** as a leading platform for **quantum information processing**, **quantum simulation**, and **precision measurement**. He is a Professor at the University of Innsbruck and a Research Director at IQOQI Innsbruck (ÖAW), and he is a co-founder of Alpine Quantum Technologies (AQT), a trapped-ion quantum computing company spun out from Innsbruck.",
+        "md_filename": "007-rainer-blatt.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3836639,
+          47.2578333
+        ]
+      }
     }
   ]
 }

@@ -88,6 +88,17 @@ function PersonPanel({ personId, location, onPersonSelect }) {
             <p><strong>Platforms:</strong> {(person.platforms || []).join(', ')}</p>
             <p><strong>Keywords:</strong> {(person.keywords || []).join(', ')}</p>
 
+            {person.affiliations && person.affiliations.length > 0 && (
+                <div style={{ marginTop: 12, marginBottom: 12, padding: '8px 12px', backgroundColor: '#f5f5f5', borderRadius: 4 }}>
+                    <h4 style={{ margin: '0 0 4px 0', fontSize: '1em', color: '#333' }}>Affiliations</h4>
+                    {person.affiliations.map((aff, i) => (
+                        <div key={i} style={{ fontSize: '0.9em' }}>
+                            <strong>{aff.name}</strong> — {aff.role}
+                        </div>
+                    ))}
+                </div>
+            )}
+
             <hr />
             <div className="person-bio">
                 <ReactMarkdown>{mdBody}</ReactMarkdown>
