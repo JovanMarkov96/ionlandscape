@@ -1,0 +1,22 @@
+{
+    "name": "ionlandscape-site",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "docusaurus start",
+        "build": "docusaurus build",
+        "serve": "docusaurus serve",
+        "swizzle": "docusaurus swizzle"
+    },
+    "dependencies": {
+        "@docusaurus/core": "^2.4.0",
+        "@docusaurus/preset-classic": "^2.4.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "leaflet": "^1.9.4",
+        "react-leaflet": "^4.2.1",
+        "leaflet.markercluster": "^1.5.3",
+        "cytoscape": "^3.24.0",
+        "react-markdown": "^9.0.1"
+    }
+}
