@@ -21,13 +21,13 @@ education:
   - degree: "BSc (dual), magna cum laude"
     institution: "Tel-Aviv University"
     details: "Physics & Astronomy; Electrical Engineering"
-  - degree: "MSc"
+  - degree: "MSc (Physics)"
     institution: "Weizmann Institute of Science"
     advisor: "Roee Ozeri"
-  - degree: "PhD"
+  - degree: "PhD (Physics)"
     institution: "Weizmann Institute of Science"
-    advisor: "Roee Ozeri"
     year: 2016
+    advisor: "Roee Ozeri"
 postdocs:
   - institution: "Weizmann Institute of Science"
     advisor: "Roee Ozeri"
@@ -56,13 +56,9 @@ created_at: "2026-01-26"
 updated_at: "2026-01-27"
 ---
 
-Dr. Ziv Meir is an experimental physicist and principal investigator in the Department of Physics of Complex Systems at the Weizmann Institute of Science, where he leads the Molecular-Qubits Laboratory. His research aims to extend quantum-logic techniques—originally developed for trapped-ion quantum computing and optical clocks—to the control, detection, and manipulation of single trapped molecular ions.
+Dr. Ziv Meir is an experimental physicist and principal investigator at the Weizmann Institute of Science. His research develops quantum-logic techniques—originally created for trapped-ion quantum computing and optical clocks—to control, detect, and manipulate single trapped molecular ions, enabling “molecular qubits” and new precision spectroscopy capabilities.
 
-Dr. Meir earned a dual BSc *magna cum laude* in Physics & Astronomy and Electrical Engineering from Tel-Aviv University, followed by an MSc and PhD in Physics at the Weizmann Institute of Science under the supervision of Prof. Roee Ozeri. His doctoral research focused on hybrid atom–ion systems, including the dynamics of a single ground-state-cooled trapped ion interacting with ultracold atoms, with particular emphasis on the role of micromotion.
+He earned his MSc and PhD at the Weizmann Institute under Prof. Roee Ozeri, with doctoral work on hybrid atom–ion systems and micromotion effects in atom–ion collisions. He later held postdoctoral positions at the Weizmann Institute and at the University of Basel in the group of Prof. Stefan Willitsch, expanding toward quantum-logic spectroscopy and molecular-ion control, before returning to establish his independent lab at Weizmann.
 
-Following his PhD, Dr. Meir held postdoctoral fellowships at the Weizmann Institute of Science and subsequently at the University of Basel in the group of Prof. Stefan Willitsch. At Basel, his work expanded toward quantum-logic spectroscopy and control of molecular ions. In September 2021, he joined the faculty of the Weizmann Institute of Science as an independent principal investigator.
-
-Dr. Meir's current research explores molecular qubits, precision spectroscopy, and new quantum-information and sensing capabilities enabled by combining atomic and molecular trapped-ion platforms.
-
-## Selected publications (curated)
-See full publication list on Google Scholar.
+## Publications
+See full publication list on Google Scholar (link above).

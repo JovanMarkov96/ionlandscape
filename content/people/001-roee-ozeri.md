@@ -20,11 +20,11 @@ location:
   lat: 31.8947
   lon: 34.8094
 education:
-  - degree: "BSc"
+  - degree: "BSc (Physics)"
     institution: "Hebrew University of Jerusalem"
-  - degree: "MSc"
+  - degree: "MSc (Physics)"
     institution: "Weizmann Institute of Science"
-  - degree: "PhD"
+  - degree: "PhD (Physics)"
     institution: "Weizmann Institute of Science"
     year: 2006
     advisor: "Nir Davidson"
@@ -41,24 +41,23 @@ links:
   homepage: "http://www.weizmann.ac.il/complex/ozeri/"
   google_scholar: "https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ"
   orcid: "https://orcid.org/0000-0001-7843-8801"
-  weizmann_profile: "https://weizmann.elsevierpure.com/en/persons/roee-ozeri"
-  iucc_cris: "https://cris.iucc.ac.il/en/persons/roee-ozeri"
+  weizmann_pure: "https://weizmann.elsevierpure.com/en/persons/roee-ozeri"
+  iucc_cris: "https://cris.iucc.ac.il/en/persons/roee-ozeri/"
   quantum_art: "https://www.quantum-art.tech/team"
 thesis:
   title: ""
   link: ""
-  note: "PhD thesis not publicly available online; may be accessible via Weizmann Institute library or by request."
+  year: 2006
+  note: "Thesis title/PDF not found in open-access sources; may be available via Weizmann library or by request."
 created_at: "2026-01-26"
 updated_at: "2026-01-27"
 ---
 
-Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He was born in Israel and earned a BSc in Physics from the Hebrew University of Jerusalem, followed by an MSc and PhD in Physics from the Weizmann Institute of Science.
+Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He earned a BSc in Physics from the Hebrew University of Jerusalem and completed his MSc and PhD in Physics at the Weizmann Institute of Science under Prof. Nir Davidson.
 
-After completing his PhD, Prof. Ozeri conducted postdoctoral research at the National Institute of Standards and Technology (NIST) in Boulder, Colorado, in the group of David J. Wineland, Nobel Laureate in Physics (2012). Following his postdoctoral work, he joined the faculty of the Weizmann Institute of Science, where he established an experimental research program in trapped ions and ultracold atomic systems.
+After his PhD, he conducted postdoctoral research at NIST in Boulder in the group of David J. Wineland, and subsequently joined the faculty of the Weizmann Institute of Science, where he established a research program spanning trapped-ion quantum computing, precision quantum metrology (including optical clocks), and hybrid ultracold atom–ion systems.
 
-Prof. Ozeri’s research focuses on quantum information processing with atomic systems, including trapped-ion quantum computing, precision quantum metrology, and ultracold atom–ion interactions. A central theme of his work is the mitigation of noise and decoherence in quantum systems, one of the key challenges in scaling quantum computers to practical sizes.
+He is also the founder of Quantum Art, an Israeli trapped-ion quantum computing company.
 
-In addition to his academic research, Prof. Ozeri is a co-founder of Quantum Art, an Israeli quantum computing company developing scalable trapped-ion quantum processors. He has received several prestigious awards, including the Rosa and Emilio Segrè Research Award, the Morris L. Levinson Prize in Physics, and the Rothschild Foundation Postdoctoral Fellowship, and serves on the executive boards of the Davidson Institute of Science Education and the Schwartz/Reisman Science Education Center.
-
-## Selected publications (curated)
-See full publication list on Google Scholar.
+## Publications
+See full publication list on Google Scholar (link above).
