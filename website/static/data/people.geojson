@@ -126,25 +126,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "006-jonathan-home",
-        "name": "Jonathan P. Home",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Jonathan P. Home is a professor at ETH Zürich and leads research in trapped-ion quantum information processing, with a focus on precision control, error correction, and scalable architectures (including integrated trap technologies).",
-        "md_filename": "006-jonathan-home.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.5072,
-          47.4083
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "007-dietrich-leibfried",
         "name": "Dietrich Leibfried",
         "platforms": [
@@ -158,28 +139,6 @@
         "coordinates": [
           -105.2629,
           40.0094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "007-rainer-blatt",
-        "name": "Rainer Blatt",
-        "platforms": [
-          "Trapped ions",
-          "Quantum computing",
-          "Quantum simulation",
-          "Quantum metrology"
-        ],
-        "short_bio": "Rainer Blatt is an experimental physicist who helped establish **trapped ions** as a leading platform for **quantum information processing**, **quantum simulation**, and **precision measurement**. He is a Professor at the University of Innsbruck and a Research Director at IQOQI Innsbruck (ÖAW), and he is a co-founder of Alpine Quantum Technologies (AQT), a trapped-ion quantum computing company spun out from Innsbruck.",
-        "md_filename": "007-rainer-blatt.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.3836639,
-          47.2578333
         ]
       }
     },
@@ -334,6 +293,47 @@
         "coordinates": [
           11.3856,
           47.263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "016-jonathan-home",
+        "name": "Jonathan P. Home",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Jonathan P. Home is a professor at ETH Zürich and leads research in trapped-ion quantum information processing, with a focus on precision control, error correction, and scalable architectures (including integrated trap technologies).",
+        "md_filename": "016-jonathan-home.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5072,
+          47.4083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "017-rainer-blatt",
+        "name": "Rainer Blatt",
+        "platforms": [
+          "Trapped ions",
+          "Quantum computing",
+          "Quantum simulation",
+          "Quantum metrology"
+        ],
+        "short_bio": "Rainer Blatt is an experimental physicist who helped establish **trapped ions** as a leading platform for **quantum information processing**, **quantum simulation**, and **precision measurement**. He is a Professor at the University of Innsbruck and a Research Director at IQOQI Innsbruck (ÖAW), and he is a co-founder of Alpine Quantum Technologies (AQT), a trapped-ion quantum computing company spun out from Innsbruck.",
+        "md_filename": "017-rainer-blatt.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3836639,
+          47.2578333
         ]
       }
     }

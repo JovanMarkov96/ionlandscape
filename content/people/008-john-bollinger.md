@@ -1,48 +1,48 @@
 ---
-id: 008-john-bollinger
-name: John J. Bollinger
-sort_name: Bollinger, John J.
-current_position:
-  title: Staff Scientist / Group Lead (Ion Storage Group)
-  institution: National Institute of Standards and Technology (NIST), Boulder
-platforms:
-- Trapped ions
-- Penning traps
 affiliations: []
-location:
-  city: Boulder
-  region: Colorado
-  country: USA
-  lat: 40.0094
-  lon: -105.2629
+created_at: '2026-01-26'
+current_position:
+  institution: National Institute of Standards and Technology (NIST), Boulder
+  title: Staff Scientist / Group Lead (Ion Storage Group)
 education:
-- degree: PhD (Physics)
-  institution: ''
-  year: ''
-  advisor: ''
+- advisor: null
+  degree: PhD (Physics)
+  institution: null
   note: PhD details not filled yet—add once confirmed from a reliable CV/bio.
-postdocs: []
+  year: null
+group_type: experimental
+id: 008-john-bollinger
+ion_species:
+- 9Be+
 keywords:
 - Penning-trap ion crystals
 - non-neutral plasmas
 - precision measurement
 - many-body physics
-links:
-  google_scholar: https://scholar.google.com/citations?hl=en&user=u8hdXb0AAAAJ
-  orcid: https://orcid.org/0000-0001-9117-7896
-  event_bio_uva: https://iop.uva.nl/content/events/2023/11/colloquium-02-11.html
-thesis:
-  title: ''
-  link: ''
-  year: ''
-  note: Thesis title/PDF not filled yet.
-created_at: '2026-01-26'
-updated_at: '2026-01-27'
-group_type: experimental
 labels:
 - Experimental group
-ion_species:
-- 9Be+
+links:
+  event_bio_uva: https://iop.uva.nl/content/events/2023/11/colloquium-02-11.html
+  google_scholar: https://scholar.google.com/citations?hl=en&user=u8hdXb0AAAAJ
+  orcid: https://orcid.org/0000-0001-9117-7896
+location:
+  city: Boulder
+  country: USA
+  lat: 40.0094
+  lon: -105.2629
+  region: Colorado
+name: John J. Bollinger
+platforms:
+- Trapped ions
+- Penning traps
+postdocs: []
+sort_name: Bollinger, John J.
+thesis:
+  link: null
+  note: Thesis title/PDF not filled yet.
+  title: null
+  year: null
+updated_at: '2026-01-27'
 ---
 
 John J. Bollinger is a senior experimental physicist at NIST (Boulder) known for work on Penning-trap ion crystals, precision measurement, and strongly-coupled many-body dynamics in trapped-ion systems.

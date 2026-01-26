@@ -1,48 +1,48 @@
 ---
-id: 005-christian-roos
-name: Christian F. Roos
-sort_name: Roos, Christian F.
-current_position:
-  title: Senior Scientist / Associate Professor
-  institution: IQOQI Innsbruck (ÖAW) & University of Innsbruck
-platforms:
-- Trapped ions
 affiliations: []
-location:
-  city: Innsbruck
-  region: Tyrol
-  country: Austria
-  lat: 47.2657
-  lon: 11.3444
+created_at: '2026-01-26'
+current_position:
+  institution: IQOQI Innsbruck (ÖAW) & University of Innsbruck
+  title: Senior Scientist / Associate Professor
 education:
-- degree: PhD Physics
+- advisor: Rainer Blatt
+  degree: PhD Physics
   institution: University of Innsbruck
   year: 2000
-  advisor: Rainer Blatt
-postdocs:
-- institution: École Normale Supérieure (Paris)
-  advisor: ''
+group_type: experimental
+id: 005-christian-roos
+ion_species:
+- Ca+
 keywords:
 - trapped-ion quantum simulation
 - precision spectroscopy
 - quantum control
 - many-body physics
-links:
-  google_scholar: https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ
-  orcid: https://orcid.org/0000-0001-7121-8259
-  iqoqi_profile: https://iqoqi.at/en/people/staff/staff/christian-roos
-  thesis_pdf: https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf
-thesis:
-  title: Controlling the quantum state of trapped ions
-  link: https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf
-  year: 2000
-created_at: '2026-01-26'
-updated_at: '2026-01-27'
-group_type: experimental
 labels:
 - Experimental group
-ion_species:
-- Ca+
+links:
+  google_scholar: https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ
+  iqoqi_profile: https://iqoqi.at/en/people/staff/staff/christian-roos
+  orcid: https://orcid.org/0000-0001-7121-8259
+  thesis_pdf: https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf
+location:
+  city: Innsbruck
+  country: Austria
+  lat: 47.2657
+  lon: 11.3444
+  region: Tyrol
+name: Christian F. Roos
+platforms:
+- Trapped ions
+postdocs:
+- advisor: null
+  institution: École Normale Supérieure (Paris)
+sort_name: Roos, Christian F.
+thesis:
+  link: https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf
+  title: Controlling the quantum state of trapped ions
+  year: 2000
+updated_at: '2026-01-27'
 ---
 
 Dr. Christian F. Roos is an experimental physicist working on trapped-ion quantum science, including quantum simulation and precision spectroscopy. He is affiliated with IQOQI Innsbruck (Austrian Academy of Sciences) and the University of Innsbruck.
