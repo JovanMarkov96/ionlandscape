@@ -1,5 +1,58 @@
 [
   {
+    "id": "006-jonathan-home",
+    "name": "Jonathan P. Home",
+    "sort_name": "Home, Jonathan P.",
+    "current_position": {
+      "title": "Full Professor",
+      "institution": "ETH Zürich"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Zürich",
+      "region": "Zürich",
+      "country": "Switzerland",
+      "lat": 47.4083,
+      "lon": 8.5072
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "",
+        "year": "",
+        "advisor": "",
+        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio source."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "quantum error correction",
+      "integrated ion traps",
+      "scaling"
+    ],
+    "links": {
+      "eth_profile": "https://tiqi.ethz.ch/people/person-detail.jhome.html",
+      "group_page": "https://iqe.phys.ethz.ch/research/trapped-ion-quantum-information.html",
+      "optica_speaker_bio": "https://www.optica.org/events/webinar/2025/05_may/integrated_photonics_for_scalable_ion_traps/jonathan_home/",
+      "google_scholar": "",
+      "orcid": ""
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "Jonathan P. Home is a professor at ETH Zürich and leads research in trapped-ion quantum information processing, with a focus on precision control, error correction, and scalable architectures (including integrated trap technologies).",
+    "md_filename": "006-jonathan-home.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
     "id": "002-ziv-meir",
     "name": "Ziv Meir",
     "sort_name": "Meir, Ziv",
@@ -140,6 +193,115 @@
     "updated_at": "2026-01-27"
   },
   {
+    "id": "012-winfried-hensinger",
+    "name": "Winfried K. Hensinger",
+    "sort_name": "Hensinger, Winfried K.",
+    "current_position": {
+      "title": "Professor of Quantum Technologies",
+      "institution": "University of Sussex"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Brighton/Falmer",
+      "region": "England",
+      "country": "United Kingdom",
+      "lat": 50.8674,
+      "lon": -0.0878
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "",
+        "year": "",
+        "advisor": "",
+        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "microwave trapped-ion computing",
+      "scalable architectures",
+      "quantum engineering"
+    ],
+    "links": {
+      "sussex_profile": "https://profiles.sussex.ac.uk/p179227-winfried-hensinger",
+      "nqit_profile": "https://nqit.ox.ac.uk/person/prof-winfried-hensinger.html",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=DuOb8ioAAAAJ",
+      "orcid": ""
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "Winfried K. Hensinger is a professor at the University of Sussex leading research toward scalable trapped-ion quantum computing, including architectures designed around microwave control and engineering-driven modularity.",
+    "md_filename": "012-winfried-hensinger.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
+    "id": "015-tracy-northup",
+    "name": "Tracy E. Northup",
+    "sort_name": "Northup, Tracy E.",
+    "current_position": {
+      "title": "Professor",
+      "institution": "University of Innsbruck"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Cavity QED / ion–photon interfaces"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Innsbruck",
+      "region": "Tyrol",
+      "country": "Austria",
+      "lat": 47.263,
+      "lon": 11.3856
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "California Institute of Technology",
+        "year": 2008,
+        "advisor": "H. Jeff Kimble",
+        "note": "Thesis title appears in open sources; PDF may be via library/catalog."
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "University of Innsbruck",
+        "advisor": "Rainer Blatt"
+      }
+    ],
+    "keywords": [
+      "ion–photon interfaces",
+      "optical cavities",
+      "quantum networks",
+      "hybrid optomechanics"
+    ],
+    "links": {
+      "oeaw_profile": "https://www.oeaw.ac.at/esq/home/esq-faculty/tracy-northup/",
+      "google_scholar": "https://scholar.google.com/citations?user=BHFu0UwAAAAJ",
+      "orcid": "https://orcid.org/0000-0002-1071-2218",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tracy_Northup"
+    },
+    "thesis": {
+      "title": "Coherent control in cavity QED",
+      "link": "http://www.worldcat.org/oclc/437167481",
+      "year": 2008,
+      "note": "WorldCat catalog link; PDF availability depends on library access."
+    },
+    "short_bio": "Tracy E. Northup is a professor at the University of Innsbruck working on quantum interfaces between light and matter, especially trapped ions coupled to optical cavities, with applications to quantum networking and quantum-enabled sensing.",
+    "md_filename": "015-tracy-northup.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
     "id": "006-david-wineland",
     "name": "David J. Wineland",
     "sort_name": "Wineland, David J.",
@@ -202,6 +364,163 @@
     },
     "short_bio": "David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder), where his group developed foundational methods for high-fidelity quantum logic with ions, and later joined the University of Oregon as a Research Professor.",
     "md_filename": "006-david-wineland.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
+    "id": "010-jungsang-kim",
+    "name": "Jungsang Kim",
+    "sort_name": "Kim, Jungsang",
+    "current_position": {
+      "title": "Professor (Electrical & Computer Engineering)",
+      "institution": "Duke University"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Durham",
+      "region": "North Carolina",
+      "country": "USA",
+      "lat": 36.0014,
+      "lon": -78.9382
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "Stanford University",
+        "year": "",
+        "advisor": "",
+        "note": "Stanford PhD confirmed in APS Physics author bio; advisor/year not filled yet."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "microfabricated ion traps",
+      "integrated quantum systems",
+      "photonics for ions",
+      "scalable trapped-ion architectures"
+    ],
+    "links": {
+      "duke_ece_profile": "https://ece.duke.edu/people/jungsang-kim/",
+      "duke_quantum_center": "https://quantum.duke.edu/profile/jungsang-kim/",
+      "scholars_at_duke": "https://scholars.duke.edu/person/jungsang",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=ibITRigAAAAJ",
+      "aps_author_bio": "https://physics.aps.org/authors/jungsang_kim",
+      "orcid": ""
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "Jungsang Kim is a professor at Duke University working on trapped-ion quantum information systems, with strong emphasis on engineering and integration: microfabricated traps, photonics, detectors, compact cryo/vacuum, and system-scale architectures.",
+    "md_filename": "010-jungsang-kim.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
+    "id": "008-john-bollinger",
+    "name": "John J. Bollinger",
+    "sort_name": "Bollinger, John J.",
+    "current_position": {
+      "title": "Staff Scientist / Group Lead (Ion Storage Group)",
+      "institution": "National Institute of Standards and Technology (NIST), Boulder"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Penning traps"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Boulder",
+      "region": "Colorado",
+      "country": "USA",
+      "lat": 40.0094,
+      "lon": -105.2629
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "",
+        "year": "",
+        "advisor": "",
+        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "Penning-trap ion crystals",
+      "non-neutral plasmas",
+      "precision measurement",
+      "many-body physics"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=u8hdXb0AAAAJ",
+      "orcid": "https://orcid.org/0000-0001-9117-7896",
+      "event_bio_uva": "https://iop.uva.nl/content/events/2023/11/colloquium-02-11.html"
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "John J. Bollinger is a senior experimental physicist at NIST (Boulder) known for work on Penning-trap ion crystals, precision measurement, and strongly-coupled many-body dynamics in trapped-ion systems.",
+    "md_filename": "008-john-bollinger.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
+    "id": "009-hartmut-haeffner",
+    "name": "Hartmut Häffner",
+    "sort_name": "Häffner, Hartmut",
+    "current_position": {
+      "title": "Professor of Physics",
+      "institution": "University of California, Berkeley"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "USA",
+      "lat": 37.8719,
+      "lon": -122.2585
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "",
+        "year": "",
+        "advisor": "",
+        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum information",
+      "precision measurements",
+      "surface noise"
+    ],
+    "links": {
+      "berkeley_profile": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=ORNi6TwAAAAJ",
+      "quantnet_profile": "https://quantnet.lbl.gov/team/hartmut-h%C3%A4ffner"
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "Hartmut Häffner is a professor at UC Berkeley working on trapped-ion quantum science and precision measurement, with interests including reducing surface noise and developing novel trapped-particle platforms.",
+    "md_filename": "009-hartmut-haeffner.md",
     "created_at": "2026-01-26",
     "updated_at": "2026-01-26"
   },
@@ -472,5 +791,219 @@
     "md_filename": "005-christian-roos.md",
     "created_at": "2026-01-26",
     "updated_at": "2026-01-27"
+  },
+  {
+    "id": "014-thomas-monz",
+    "name": "Thomas Monz",
+    "sort_name": "Monz, Thomas",
+    "current_position": {
+      "title": "Associate Professor / Researcher",
+      "institution": "University of Innsbruck"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [
+      {
+        "name": "Alpine Quantum Technologies (AQT)",
+        "role": "Co-founder",
+        "type": "company"
+      }
+    ],
+    "location": {
+      "city": "Innsbruck",
+      "region": "Tyrol",
+      "country": "Austria",
+      "lat": 47.263,
+      "lon": 11.3856
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Innsbruck",
+        "year": "",
+        "advisor": "",
+        "note": "PhD at Innsbruck confirmed by multiple bios; advisor/year not filled yet."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "quantum algorithms",
+      "verification and validation",
+      "ion-photon interfaces"
+    ],
+    "links": {
+      "uibk_profile": "https://www.uibk.ac.at/en/exphys/team/thomas-monz/",
+      "aqt_about": "https://www.aqt.eu/about/",
+      "google_scholar": "",
+      "orcid": "https://orcid.org/0000-0001-7410-4804",
+      "oeaw_profile": "https://www.oeaw.ac.at/esq/home/esq-quantum-austria/thomas-monz"
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "Thomas Monz is an experimental quantum physicist at the University of Innsbruck and a founder of Alpine Quantum Technologies (AQT). His work spans trapped-ion quantum computing, quantum algorithms, and system-level validation, with earlier work also touching ion–photon interfaces and precision spectroscopy.",
+    "md_filename": "014-thomas-monz.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
+    "id": "007-dietrich-leibfried",
+    "name": "Dietrich Leibfried",
+    "sort_name": "Leibfried, Dietrich",
+    "current_position": {
+      "title": "Fellow / Group Lead (Ion Storage / Trapped-Ion Quantum Science)",
+      "institution": "National Institute of Standards and Technology (NIST), Boulder"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Boulder",
+      "region": "Colorado",
+      "country": "USA",
+      "lat": 40.0094,
+      "lon": -105.2629
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "",
+        "year": "",
+        "advisor": "",
+        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "quantum control",
+      "quantum networking",
+      "precision spectroscopy"
+    ],
+    "links": {
+      "nist_group_members": "https://www.nist.gov/pml/time-and-frequency-division/ion-storage/ion-storage-group-members",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=hx5LEOwAAAAJ",
+      "orcid": "https://orcid.org/0000-0001-8442-625X",
+      "colorado_qsense_profile": "https://www.colorado.edu/research/qsense/dietrich-leibfried"
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "Dietrich Leibfried is a leading experimental physicist in trapped-ion quantum information science at NIST (Boulder). His work spans high-fidelity trapped-ion operations, quantum control, quantum networking, and precision spectroscopy.",
+    "md_filename": "007-dietrich-leibfried.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
+    "id": "011-kihwan-kim",
+    "name": "Kihwan Kim",
+    "sort_name": "Kim, Kihwan",
+    "current_position": {
+      "title": "Professor / Group Leader (Trapped-Ion Quantum Science)",
+      "institution": "Institute for Basic Science (IBS), South Korea"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Daejeon",
+      "region": "Daejeon",
+      "country": "South Korea",
+      "lat": 36.3741,
+      "lon": 127.365
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "",
+        "year": "",
+        "advisor": "",
+        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "high-fidelity gates",
+      "quantum simulation",
+      "scalable architectures"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=4iNn12QAAAAJ",
+      "tsinghua_group_page": "https://info.phys.tsinghua.edu.cn/kimkihwan/",
+      "orcid": "",
+      "note_recent_move": "https://en.sedaily.com/technology/2025/12/29/quantum-scientist-kim-ki-hwan-returns-to-korea-after-decade"
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "Kihwan Kim is a leading trapped-ion quantum computing experimentalist known for high-fidelity control, multi-qubit entangling operations, and quantum simulation with ions. Recent reporting indicates a move from Tsinghua University to South Korea to lead a new IBS trapped-ion research group.",
+    "md_filename": "011-kihwan-kim.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
+  },
+  {
+    "id": "013-ferdinand-schmidt-kaler",
+    "name": "Ferdinand Schmidt-Kaler",
+    "sort_name": "Schmidt-Kaler, Ferdinand",
+    "current_position": {
+      "title": "Professor",
+      "institution": "Johannes Gutenberg University Mainz"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Mainz",
+      "region": "Rhineland-Palatinate",
+      "country": "Germany",
+      "lat": 49.9929,
+      "lon": 8.2473
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "",
+        "year": "",
+        "advisor": "",
+        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "segmented ion traps",
+      "architectures",
+      "coherence and gate performance"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?hl=de&user=1VkTHB4AAAAJ",
+      "dfg_gepris_profile": "https://gepris.dfg.de/gepris/person/1260598?language=en",
+      "orcid": ""
+    },
+    "thesis": {
+      "title": "",
+      "link": "",
+      "year": "",
+      "note": "Thesis title/PDF not filled yet."
+    },
+    "short_bio": "Ferdinand Schmidt-Kaler is a professor at Johannes Gutenberg University Mainz working on trapped-ion quantum computing, including segmented-trap technologies, architectures, and improving coherence and gate performance in scalable systems.",
+    "md_filename": "013-ferdinand-schmidt-kaler.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-26"
   }
 ]

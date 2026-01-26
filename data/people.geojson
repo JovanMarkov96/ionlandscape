@@ -4,6 +4,25 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "006-jonathan-home",
+        "name": "Jonathan P. Home",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Jonathan P. Home is a professor at ETH Zürich and leads research in trapped-ion quantum information processing, with a focus on precision control, error correction, and scalable architectures (including integrated trap technologies).",
+        "md_filename": "006-jonathan-home.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5072,
+          47.4083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "002-ziv-meir",
         "name": "Ziv Meir",
         "platforms": [
@@ -45,6 +64,45 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "012-winfried-hensinger",
+        "name": "Winfried K. Hensinger",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Winfried K. Hensinger is a professor at the University of Sussex leading research toward scalable trapped-ion quantum computing, including architectures designed around microwave control and engineering-driven modularity.",
+        "md_filename": "012-winfried-hensinger.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0878,
+          50.8674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "015-tracy-northup",
+        "name": "Tracy E. Northup",
+        "platforms": [
+          "Trapped ions",
+          "Cavity QED / ion–photon interfaces"
+        ],
+        "short_bio": "Tracy E. Northup is a professor at the University of Innsbruck working on quantum interfaces between light and matter, especially trapped ions coupled to optical cavities, with applications to quantum networking and quantum-enabled sensing.",
+        "md_filename": "015-tracy-northup.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3856,
+          47.263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "006-david-wineland",
         "name": "David J. Wineland",
         "platforms": [
@@ -61,6 +119,64 @@
         "coordinates": [
           -123.0728292,
           44.0496255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "010-jungsang-kim",
+        "name": "Jungsang Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Jungsang Kim is a professor at Duke University working on trapped-ion quantum information systems, with strong emphasis on engineering and integration: microfabricated traps, photonics, detectors, compact cryo/vacuum, and system-scale architectures.",
+        "md_filename": "010-jungsang-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9382,
+          36.0014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "008-john-bollinger",
+        "name": "John J. Bollinger",
+        "platforms": [
+          "Trapped ions",
+          "Penning traps"
+        ],
+        "short_bio": "John J. Bollinger is a senior experimental physicist at NIST (Boulder) known for work on Penning-trap ion crystals, precision measurement, and strongly-coupled many-body dynamics in trapped-ion systems.",
+        "md_filename": "008-john-bollinger.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2629,
+          40.0094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "009-hartmut-haeffner",
+        "name": "Hartmut Häffner",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Hartmut Häffner is a professor at UC Berkeley working on trapped-ion quantum science and precision measurement, with interests including reducing surface noise and developing novel trapped-particle platforms.",
+        "md_filename": "009-hartmut-haeffner.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2585,
+          37.8719
         ]
       }
     },
@@ -142,6 +258,82 @@
         "coordinates": [
           11.3444,
           47.2657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "014-thomas-monz",
+        "name": "Thomas Monz",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Thomas Monz is an experimental quantum physicist at the University of Innsbruck and a founder of Alpine Quantum Technologies (AQT). His work spans trapped-ion quantum computing, quantum algorithms, and system-level validation, with earlier work also touching ion–photon interfaces and precision spectroscopy.",
+        "md_filename": "014-thomas-monz.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3856,
+          47.263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "007-dietrich-leibfried",
+        "name": "Dietrich Leibfried",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dietrich Leibfried is a leading experimental physicist in trapped-ion quantum information science at NIST (Boulder). His work spans high-fidelity trapped-ion operations, quantum control, quantum networking, and precision spectroscopy.",
+        "md_filename": "007-dietrich-leibfried.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2629,
+          40.0094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "011-kihwan-kim",
+        "name": "Kihwan Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kihwan Kim is a leading trapped-ion quantum computing experimentalist known for high-fidelity control, multi-qubit entangling operations, and quantum simulation with ions. Recent reporting indicates a move from Tsinghua University to South Korea to lead a new IBS trapped-ion research group.",
+        "md_filename": "011-kihwan-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.365,
+          36.3741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "013-ferdinand-schmidt-kaler",
+        "name": "Ferdinand Schmidt-Kaler",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Ferdinand Schmidt-Kaler is a professor at Johannes Gutenberg University Mainz working on trapped-ion quantum computing, including segmented-trap technologies, architectures, and improving coherence and gate performance in scalable systems.",
+        "md_filename": "013-ferdinand-schmidt-kaler.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2473,
+          49.9929
         ]
       }
     }

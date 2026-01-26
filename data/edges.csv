@@ -6,6 +6,8 @@ stefan-willitsch,002-ziv-meir,postdoc_advisor
 david-m-lucas,003-chris-ballance,advisor
 003-chris-ballance,oxford-ionics,affiliated_with
 003-chris-ballance,ionq-inc,affiliated_with
+h-jeff-kimble,015-tracy-northup,advisor
+rainer-blatt,015-tracy-northup,postdoc_advisor
 norman-f-ramsey,006-david-wineland,advisor
 hans-dehmelt,006-david-wineland,postdoc_advisor
 günter-werth,007-rainer-blatt,advisor
@@ -18,3 +20,4 @@ carl-wieman,004-christopher-monroe,advisor
 david-j-wineland,004-christopher-monroe,postdoc_advisor
 004-christopher-monroe,ionq-inc,affiliated_with
 rainer-blatt,005-christian-roos,advisor
+014-thomas-monz,alpine-quantum-technologies-(aqt),affiliated_with
