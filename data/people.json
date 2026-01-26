@@ -1,5 +1,82 @@
 [
   {
+    "id": "002-ziv-meir",
+    "name": "Ziv Meir",
+    "sort_name": "Meir, Ziv",
+    "current_position": {
+      "title": "Principal Investigator (Senior Scientist)",
+      "institution": "Weizmann Institute of Science"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Molecular ions",
+      "Quantum logic spectroscopy",
+      "Hybrid atom–ion systems"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Rehovot",
+      "region": "Central District",
+      "country": "Israel",
+      "lat": 31.8947,
+      "lon": 34.8094
+    },
+    "education": [
+      {
+        "degree": "BSc (dual), magna cum laude",
+        "institution": "Tel-Aviv University",
+        "details": "Physics & Astronomy; Electrical Engineering"
+      },
+      {
+        "degree": "MSc",
+        "institution": "Weizmann Institute of Science",
+        "advisor": "Roee Ozeri"
+      },
+      {
+        "degree": "PhD",
+        "institution": "Weizmann Institute of Science",
+        "advisor": "Roee Ozeri",
+        "year": 2016
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "Weizmann Institute of Science",
+        "advisor": "Roee Ozeri",
+        "note": "Postdoctoral continuation inferred from 2017–2018 Weizmann-affiliated atom–ion publications with Ozeri-group coauthors; official bios do not explicitly name a PI."
+      },
+      {
+        "institution": "University of Basel",
+        "advisor": "Stefan Willitsch"
+      }
+    ],
+    "keywords": [
+      "molecular qubits",
+      "quantum logic",
+      "trapped molecular ions",
+      "precision spectroscopy",
+      "atom–ion interactions",
+      "micromotion"
+    ],
+    "links": {
+      "homepage": "https://www.weizmann.ac.il/complex/meir/",
+      "group_page": "https://www.weizmann.ac.il/complex/meir/group",
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=4JryXL4AAAAJ",
+      "orcid": "https://orcid.org/0000-0002-9321-8687",
+      "weizmann_pure": "https://weizmann.elsevierpure.com/en/persons/ziv-meir",
+      "iucc_cris": "https://cris.iucc.ac.il/en/persons/ziv-meir"
+    },
+    "thesis": {
+      "title": "Dynamics of a single, ground-state cooled and trapped ion colliding with ultracold atoms: A micromotion tale",
+      "link": "https://www.weizmann.ac.il/complex/ozeri/sites/complex.ozeri/files/uploads/ziv_thesis.pdf",
+      "year": 2016
+    },
+    "short_bio": "Dr. Ziv Meir is an experimental physicist and principal investigator in the Department of Physics of Complex Systems at the Weizmann Institute of Science, where he leads the Molecular-Qubits Laboratory. His research aims to extend quantum-logic techniques—originally developed for trapped-ion quantum computing and optical clocks—to the control, detection, and manipulation of single trapped molecular ions.",
+    "md_filename": "0002-ziv-meir.md",
+    "created_at": "2026-01-26",
+    "updated_at": "2026-01-27"
+  },
+  {
     "id": "001-roee-ozeri",
     "name": "Roee Ozeri",
     "sort_name": "Ozeri, Roee",

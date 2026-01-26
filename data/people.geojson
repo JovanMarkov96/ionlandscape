@@ -4,6 +4,28 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "002-ziv-meir",
+        "name": "Ziv Meir",
+        "platforms": [
+          "Trapped ions",
+          "Molecular ions",
+          "Quantum logic spectroscopy",
+          "Hybrid atom–ion systems"
+        ],
+        "short_bio": "Dr. Ziv Meir is an experimental physicist and principal investigator in the Department of Physics of Complex Systems at the Weizmann Institute of Science, where he leads the Molecular-Qubits Laboratory. His research aims to extend quantum-logic techniques—originally developed for trapped-ion quantum computing and optical clocks—to the control, detection, and manipulation of single trapped molecular ions.",
+        "md_filename": "0002-ziv-meir.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8094,
+          31.8947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "001-roee-ozeri",
         "name": "Roee Ozeri",
         "platforms": [
