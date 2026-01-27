@@ -8,11 +8,10 @@ current_position:
   institution: University of Innsbruck
   title: Associate Professor / Researcher
 education:
-- advisor: null
+- advisor: Rainer Blatt
   degree: PhD (Physics)
   institution: University of Innsbruck
-  note: PhD at Innsbruck confirmed by multiple bios; advisor/year not filled yet.
-  year: null
+  year: 2011
 group_type: experimental
 id: 014-thomas-monz
 ion_species: []

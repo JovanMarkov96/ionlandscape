@@ -5,11 +5,10 @@ current_position:
   institution: National Institute of Standards and Technology (NIST), Boulder
   title: Staff Scientist / Group Lead (Ion Storage Group)
 education:
-- advisor: null
+- advisor: Arthur Pipkin
   degree: PhD (Physics)
-  institution: null
-  note: PhD details not filled yet—add once confirmed from a reliable CV/bio.
-  year: null
+  institution: Harvard University
+  year: 1981
 group_type: experimental
 id: 008-john-bollinger
 ion_species:

@@ -5,12 +5,10 @@ current_position:
   institution: Duke University
   title: Professor (Electrical & Computer Engineering)
 education:
-- advisor: null
+- advisor: Yoshihisa Yamamoto
   degree: PhD (Physics)
   institution: Stanford University
-  note: Stanford PhD confirmed in APS Physics author bio; advisor/year not filled
-    yet.
-  year: null
+  year: 1999
 group_type: experimental
 id: 010-jungsang-kim
 ion_species: []

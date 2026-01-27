@@ -5,11 +5,10 @@ current_position:
   institution: Institute for Basic Science (IBS), South Korea
   title: Professor / Group Leader (Trapped-Ion Quantum Science)
 education:
-- advisor: null
+- advisor: Wonho Jhe
   degree: PhD (Physics)
-  institution: null
-  note: PhD details not filled yet—add once confirmed from a reliable CV/bio.
-  year: null
+  institution: Seoul National University
+  year: 2004
 group_type: experimental
 id: 011-kihwan-kim
 ion_species: []

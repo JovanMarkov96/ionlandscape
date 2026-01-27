@@ -5,11 +5,10 @@ current_position:
   institution: ETH Zürich
   title: Full Professor
 education:
-- advisor: null
+- advisor: Andrew Steane
   degree: PhD (Physics)
-  institution: null
-  note: PhD details not filled yet—add once confirmed from a reliable CV/bio source.
-  year: null
+  institution: University of Oxford
+  year: 2006
 group_type: experimental
 id: 016-jonathan-home
 ion_species:

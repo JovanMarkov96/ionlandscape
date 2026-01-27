@@ -5,11 +5,12 @@ current_position:
   institution: University of California, Berkeley
   title: Professor of Physics
 education:
-- advisor: null
+- advisor: Günter Werth
   degree: PhD (Physics)
-  institution: null
-  note: PhD details not filled yet—add once confirmed from a reliable CV/bio.
-  year: null
+  institution: University of Mainz
+  note: Advisor inferred from publications (e.g. PRL 85, 5304) and shared affiliation
+    at Mainz; needs independent confirmation.
+  year: 2000
 group_type: experimental
 id: 009-hartmut-haeffner
 ion_species: []

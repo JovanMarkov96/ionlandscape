@@ -5,11 +5,10 @@ current_position:
   institution: University of Sussex
   title: Professor of Quantum Technologies
 education:
-- advisor: null
+- advisor: Halina Rubinsztein-Dunlop; Norman Heckenberg; Gerard Milburn
   degree: PhD (Physics)
-  institution: null
-  note: PhD details not filled yet—add once confirmed from a reliable CV/bio.
-  year: null
+  institution: University of Queensland
+  year: 2002
 group_type: experimental
 id: 012-winfried-hensinger
 ion_species:

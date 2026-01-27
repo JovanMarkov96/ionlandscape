@@ -5,11 +5,10 @@ current_position:
   institution: Johannes Gutenberg University Mainz
   title: Professor
 education:
-- advisor: null
+- advisor: Theodor W. Hänsch
   degree: PhD (Physics)
-  institution: null
-  note: PhD details not filled yet—add once confirmed from a reliable CV/bio.
-  year: null
+  institution: Ludwig-Maximilians-University Munich
+  year: 1992
 group_type: experimental
 id: 013-ferdinand-schmidt-kaler
 ion_species: []

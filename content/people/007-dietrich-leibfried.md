@@ -5,11 +5,11 @@ current_position:
   institution: National Institute of Standards and Technology (NIST), Boulder
   title: Fellow / Group Lead (Ion Storage / Trapped-Ion Quantum Science)
 education:
-- advisor: null
+- advisor: Theodor W. Hänsch
   degree: PhD (Physics)
-  institution: null
-  note: PhD details not filled yet—add once confirmed from a reliable CV/bio.
-  year: null
+  institution: Ludwig-Maximilians-University Munich
+  note: Thesis research conducted at Max Planck Institute for Quantum Optics (MPQ).
+  year: 1995
 group_type: experimental
 id: 007-dietrich-leibfried
 ion_species:
