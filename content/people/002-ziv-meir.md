@@ -59,8 +59,7 @@ group_type: experimental
 labels:
 - Experimental group
 ion_species:
-- Sr+
-- Yb+
+- Ca+
 - N2+
 ---
 
