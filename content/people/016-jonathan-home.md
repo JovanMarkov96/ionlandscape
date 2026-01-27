@@ -22,7 +22,7 @@ labels:
 - Experimental group
 links:
   eth_profile: https://tiqi.ethz.ch/people/person-detail.jhome.html
-  google_scholar: null
+  google_scholar: https://scholar.google.com/citations?user=hIVXn-EAAAAJ&hl=en
   group_page: https://iqe.phys.ethz.ch/research/trapped-ion-quantum-information.html
   optica_speaker_bio: https://www.optica.org/events/webinar/2025/05_may/integrated_photonics_for_scalable_ion_traps/jonathan_home/
   orcid: null
