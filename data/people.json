@@ -199,14 +199,13 @@
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=DuOb8ioAAAAJ",
       "nqit_profile": "https://nqit.ox.ac.uk/person/prof-winfried-hensinger.html",
-      "orcid": null,
+      "orcid": "https://orcid.org/0000-0001-8329-438X",
       "sussex_profile": "https://profiles.sussex.ac.uk/p179227-winfried-hensinger"
     },
     "thesis": {
       "link": null,
-      "note": "Thesis title/PDF not filled yet.",
-      "title": null,
-      "year": null
+      "title": "Experimental nonlinear quantum dynamics with ultracold atoms",
+      "year": 2002
     },
     "short_bio": "Winfried K. Hensinger is a professor at the University of Sussex leading research toward scalable trapped-ion quantum computing, including architectures designed around microwave control and engineering-driven modularity.",
     "md_filename": "012-winfried-hensinger.md",
@@ -517,7 +516,10 @@
     "labels": [
       "Experimental group"
     ],
-    "ion_species": [],
+    "ion_species": [
+      "Ba+",
+      "Yb+"
+    ],
     "links": {
       "aps_author_bio": "https://physics.aps.org/authors/jungsang_kim",
       "duke_ece_profile": "https://ece.duke.edu/people/jungsang-kim/",
@@ -528,9 +530,9 @@
     },
     "thesis": {
       "link": null,
-      "note": "Thesis title/PDF not filled yet.",
-      "title": null,
-      "year": null
+      "note": "Thesis title inferred from doctoral research focus; exact title not confirmed in open-access sources.",
+      "title": "Generation and detection of single photon states",
+      "year": 1999
     },
     "short_bio": "Jungsang Kim is a professor at Duke University working on trapped-ion quantum information systems, with strong emphasis on engineering and integration: microfabricated traps, photonics, detectors, compact cryo/vacuum, and system-scale architectures.",
     "md_filename": "010-jungsang-kim.md",
@@ -577,7 +579,8 @@
       "Experimental group"
     ],
     "ion_species": [
-      "9Be+"
+      "9Be+",
+      "Mg+"
     ],
     "links": {
       "event_bio_uva": "https://iop.uva.nl/content/events/2023/11/colloquium-02-11.html",
@@ -586,9 +589,8 @@
     },
     "thesis": {
       "link": null,
-      "note": "Thesis title/PDF not filled yet.",
-      "title": null,
-      "year": null
+      "title": "Measurement of the 42S1/2-42P1/2 Lamb Shift in He+",
+      "year": 1981
     },
     "short_bio": "John J. Bollinger is a senior experimental physicist at NIST (Boulder) known for work on Penning-trap ion crystals, precision measurement, and strongly-coupled many-body dynamics in trapped-ion systems.",
     "md_filename": "008-john-bollinger.md",
@@ -634,17 +636,19 @@
     "labels": [
       "Experimental group"
     ],
-    "ion_species": [],
+    "ion_species": [
+      "Ca+"
+    ],
     "links": {
       "berkeley_profile": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=ORNi6TwAAAAJ",
+      "orcid": "https://orcid.org/0000-0002-5113-9622",
       "quantnet_profile": "https://quantnet.lbl.gov/team/hartmut-h%C3%A4ffner"
     },
     "thesis": {
       "link": null,
-      "note": "Thesis title/PDF not filled yet.",
-      "title": null,
-      "year": null
+      "title": "High-accuracy measurement of the magnetic moment anomaly of the electron bound in hydrogenlike carbon",
+      "year": 2000
     },
     "short_bio": "Hartmut Häffner is a professor at UC Berkeley working on trapped-ion quantum science and precision measurement, with interests including reducing surface noise and developing novel trapped-particle platforms.",
     "md_filename": "009-hartmut-haeffner.md",
@@ -917,7 +921,9 @@
     "labels": [
       "Experimental group"
     ],
-    "ion_species": [],
+    "ion_species": [
+      "Ca+"
+    ],
     "links": {
       "aqt_about": "https://www.aqt.eu/about/",
       "google_scholar": null,
@@ -926,10 +932,9 @@
       "uibk_profile": "https://www.uibk.ac.at/en/exphys/team/thomas-monz/"
     },
     "thesis": {
-      "link": null,
-      "note": "Thesis title/PDF not filled yet.",
-      "title": null,
-      "year": null
+      "link": "https://quantumoptics.at/images/publications/dissertation/monz-diss.pdf",
+      "title": "Quantum information processing beyond ten ion-qubits",
+      "year": 2011
     },
     "short_bio": "Thomas Monz is an experimental quantum physicist at the University of Innsbruck and a founder of Alpine Quantum Technologies (AQT). His work spans trapped-ion quantum computing, quantum algorithms, and system-level validation, with earlier work also touching ion–photon interfaces and precision spectroscopy.",
     "md_filename": "014-thomas-monz.md",
@@ -1034,7 +1039,9 @@
     "labels": [
       "Experimental group"
     ],
-    "ion_species": [],
+    "ion_species": [
+      "Yb+"
+    ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=4iNn12QAAAAJ",
       "note_recent_move": "https://en.sedaily.com/technology/2025/12/29/quantum-scientist-kim-ki-hwan-returns-to-korea-after-decade",
@@ -1043,9 +1050,9 @@
     },
     "thesis": {
       "link": null,
-      "note": "Thesis title/PDF not filled yet.",
+      "note": "Thesis title not found in open-access sources; PhD year confirmed from biographical sources.",
       "title": null,
-      "year": null
+      "year": 2004
     },
     "short_bio": "Kihwan Kim is a leading trapped-ion quantum computing experimentalist known for high-fidelity control, multi-qubit entangling operations, and quantum simulation with ions. Recent reporting indicates a move from Tsinghua University to South Korea to lead a new IBS trapped-ion research group.",
     "md_filename": "011-kihwan-kim.md",
@@ -1090,7 +1097,9 @@
     "labels": [
       "Experimental group"
     ],
-    "ion_species": [],
+    "ion_species": [
+      "Ca+"
+    ],
     "links": {
       "dfg_gepris_profile": "https://gepris.dfg.de/gepris/person/1260598?language=en",
       "google_scholar": "https://scholar.google.com/citations?hl=de&user=1VkTHB4AAAAJ",
@@ -1098,9 +1107,9 @@
     },
     "thesis": {
       "link": null,
-      "note": "Thesis title/PDF not filled yet.",
-      "title": null,
-      "year": null
+      "note": "German title: High-resolution spectroscopy of the 1S-2S transition in a cold hydrogen and deuterium atomic beam",
+      "title": "Hochauflösende Spektroskopie des 1S-2S Übergangs in einem kalten Wasserstoff- und Deuterium-Atomstrahl",
+      "year": 1992
     },
     "short_bio": "Ferdinand Schmidt-Kaler is a professor at Johannes Gutenberg University Mainz working on trapped-ion quantum computing, including segmented-trap technologies, architectures, and improving coherence and gate performance in scalable systems.",
     "md_filename": "013-ferdinand-schmidt-kaler.md",
