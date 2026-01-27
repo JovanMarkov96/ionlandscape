@@ -25,7 +25,7 @@ links:
   google_scholar: https://scholar.google.com/citations?user=hIVXn-EAAAAJ&hl=en
   group_page: https://iqe.phys.ethz.ch/research/trapped-ion-quantum-information.html
   optica_speaker_bio: https://www.optica.org/events/webinar/2025/05_may/integrated_photonics_for_scalable_ion_traps/jonathan_home/
-  orcid: null
+  orcid: https://orcid.org/0000-0002-4093-1550
 location:
   city: Zürich
   country: Switzerland
