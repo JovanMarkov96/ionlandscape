@@ -11,7 +11,8 @@ education:
   year: 2004
 group_type: experimental
 id: 011-kihwan-kim
-ion_species: []
+ion_species:
+- Yb+
 keywords:
 - trapped-ion quantum computing
 - high-fidelity gates
@@ -37,9 +38,9 @@ postdocs: []
 sort_name: Kim, Kihwan
 thesis:
   link: null
-  note: Thesis title/PDF not filled yet.
+  note: "Thesis title not found in open-access sources; PhD year confirmed from biographical sources."
   title: null
-  year: null
+  year: 2004
 updated_at: '2026-01-27'
 ---
 

@@ -22,7 +22,7 @@ labels:
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=DuOb8ioAAAAJ
   nqit_profile: https://nqit.ox.ac.uk/person/prof-winfried-hensinger.html
-  orcid: null
+  orcid: https://orcid.org/0000-0001-8329-438X
   sussex_profile: https://profiles.sussex.ac.uk/p179227-winfried-hensinger
 location:
   city: Brighton/Falmer
@@ -37,9 +37,8 @@ postdocs: []
 sort_name: Hensinger, Winfried K.
 thesis:
   link: null
-  note: Thesis title/PDF not filled yet.
-  title: null
-  year: null
+  title: "Experimental nonlinear quantum dynamics with ultracold atoms"
+  year: 2002
 updated_at: '2026-01-27'
 ---
 

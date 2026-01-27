@@ -11,7 +11,9 @@ education:
   year: 1999
 group_type: experimental
 id: 010-jungsang-kim
-ion_species: []
+ion_species:
+- Ba+
+- Yb+
 keywords:
 - microfabricated ion traps
 - integrated quantum systems
@@ -39,9 +41,9 @@ postdocs: []
 sort_name: Kim, Jungsang
 thesis:
   link: null
-  note: Thesis title/PDF not filled yet.
-  title: null
-  year: null
+  note: "Thesis title inferred from doctoral research focus; exact title not confirmed in open-access sources."
+  title: "Generation and detection of single photon states"
+  year: 1999
 updated_at: '2026-01-27'
 ---
 

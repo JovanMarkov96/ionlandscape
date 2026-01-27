@@ -13,6 +13,7 @@ group_type: experimental
 id: 008-john-bollinger
 ion_species:
 - 9Be+
+- Mg+
 keywords:
 - Penning-trap ion crystals
 - non-neutral plasmas
@@ -38,9 +39,8 @@ postdocs: []
 sort_name: Bollinger, John J.
 thesis:
   link: null
-  note: Thesis title/PDF not filled yet.
-  title: null
-  year: null
+  title: "Measurement of the 42S1/2-42P1/2 Lamb Shift in He+"
+  year: 1981
 updated_at: '2026-01-27'
 ---
 

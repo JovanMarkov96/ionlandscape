@@ -14,7 +14,8 @@ education:
   year: 2011
 group_type: experimental
 id: 014-thomas-monz
-ion_species: []
+ion_species:
+- Ca+
 keywords:
 - trapped-ion quantum computing
 - quantum algorithms
@@ -40,10 +41,9 @@ platforms:
 postdocs: []
 sort_name: Monz, Thomas
 thesis:
-  link: null
-  note: Thesis title/PDF not filled yet.
-  title: null
-  year: null
+  link: https://quantumoptics.at/images/publications/dissertation/monz-diss.pdf
+  title: "Quantum information processing beyond ten ion-qubits"
+  year: 2011
 updated_at: '2026-01-27'
 ---
 

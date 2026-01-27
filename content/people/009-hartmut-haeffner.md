@@ -13,7 +13,8 @@ education:
   year: 2000
 group_type: experimental
 id: 009-hartmut-haeffner
-ion_species: []
+ion_species:
+- Ca+
 keywords:
 - trapped ions
 - quantum information
@@ -24,6 +25,7 @@ labels:
 links:
   berkeley_profile: https://physics.berkeley.edu/people/faculty/hartmut-haeffner
   google_scholar: https://scholar.google.com/citations?hl=en&user=ORNi6TwAAAAJ
+  orcid: https://orcid.org/0000-0002-5113-9622
   quantnet_profile: https://quantnet.lbl.gov/team/hartmut-h%C3%A4ffner
 location:
   city: Berkeley
@@ -38,9 +40,8 @@ postdocs: []
 sort_name: Häffner, Hartmut
 thesis:
   link: null
-  note: Thesis title/PDF not filled yet.
-  title: null
-  year: null
+  title: "High-accuracy measurement of the magnetic moment anomaly of the electron bound in hydrogenlike carbon"
+  year: 2000
 updated_at: '2026-01-27'
 ---
 

@@ -11,7 +11,8 @@ education:
   year: 1992
 group_type: experimental
 id: 013-ferdinand-schmidt-kaler
-ion_species: []
+ion_species:
+- Ca+
 keywords:
 - trapped-ion quantum computing
 - segmented ion traps
@@ -36,9 +37,9 @@ postdocs: []
 sort_name: Schmidt-Kaler, Ferdinand
 thesis:
   link: null
-  note: Thesis title/PDF not filled yet.
-  title: null
-  year: null
+  note: "German title: High-resolution spectroscopy of the 1S-2S transition in a cold hydrogen and deuterium atomic beam"
+  title: "Hochauflösende Spektroskopie des 1S-2S Übergangs in einem kalten Wasserstoff- und Deuterium-Atomstrahl"
+  year: 1992
 updated_at: '2026-01-27'
 ---
 
