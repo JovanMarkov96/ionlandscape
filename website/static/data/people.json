@@ -470,11 +470,11 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Theodor W. Hänsch",
         "degree": "PhD (Physics)",
-        "institution": null,
-        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio.",
-        "year": null
+        "institution": "Ludwig-Maximilians-University Munich",
+        "note": "Thesis research conducted at Max Planck Institute for Quantum Optics (MPQ).",
+        "year": 1995
       }
     ],
     "postdocs": [],
@@ -531,11 +531,10 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Arthur Pipkin",
         "degree": "PhD (Physics)",
-        "institution": null,
-        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio.",
-        "year": null
+        "institution": "Harvard University",
+        "year": 1981
       }
     ],
     "postdocs": [],
@@ -589,11 +588,11 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Günter Werth",
         "degree": "PhD (Physics)",
-        "institution": null,
-        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio.",
-        "year": null
+        "institution": "University of Mainz",
+        "note": "Advisor inferred from publications (e.g. PRL 85, 5304) and shared affiliation at Mainz; needs independent confirmation.",
+        "year": 2000
       }
     ],
     "postdocs": [],
@@ -645,11 +644,10 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Yoshihisa Yamamoto",
         "degree": "PhD (Physics)",
         "institution": "Stanford University",
-        "note": "Stanford PhD confirmed in APS Physics author bio; advisor/year not filled yet.",
-        "year": null
+        "year": 1999
       }
     ],
     "postdocs": [],
@@ -704,11 +702,10 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Wonho Jhe",
         "degree": "PhD (Physics)",
-        "institution": null,
-        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio.",
-        "year": null
+        "institution": "Seoul National University",
+        "year": 2004
       }
     ],
     "postdocs": [],
@@ -761,11 +758,10 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Halina Rubinsztein-Dunlop; Norman Heckenberg; Gerard Milburn",
         "degree": "PhD (Physics)",
-        "institution": null,
-        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio.",
-        "year": null
+        "institution": "University of Queensland",
+        "year": 2002
       }
     ],
     "postdocs": [],
@@ -819,11 +815,10 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Theodor W. Hänsch",
         "degree": "PhD (Physics)",
-        "institution": null,
-        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio.",
-        "year": null
+        "institution": "Ludwig-Maximilians-University Munich",
+        "year": 1992
       }
     ],
     "postdocs": [],
@@ -881,11 +876,10 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Rainer Blatt",
         "degree": "PhD (Physics)",
         "institution": "University of Innsbruck",
-        "note": "PhD at Innsbruck confirmed by multiple bios; advisor/year not filled yet.",
-        "year": null
+        "year": 2011
       }
     ],
     "postdocs": [],
@@ -1002,11 +996,10 @@
     },
     "education": [
       {
-        "advisor": null,
+        "advisor": "Andrew Steane",
         "degree": "PhD (Physics)",
-        "institution": null,
-        "note": "PhD details not filled yet—add once confirmed from a reliable CV/bio source.",
-        "year": null
+        "institution": "University of Oxford",
+        "year": 2006
       }
     ],
     "postdocs": [],
