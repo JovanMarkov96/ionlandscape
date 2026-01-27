@@ -20,7 +20,7 @@ group_type: experimental
 id: 001-roee-ozeri
 ion_species:
 - Sr+
-- Yb+
+- Ca+
 keywords:
 - trapped-ion quantum computing
 - quantum metrology
