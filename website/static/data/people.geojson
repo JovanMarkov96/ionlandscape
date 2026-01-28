@@ -4,27 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "001-roee-ozeri",
-        "name": "Roee Ozeri",
-        "platforms": [
-          "Trapped ions",
-          "Optical clocks",
-          "Ultracold atoms"
-        ],
-        "short_bio": "Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He earned a BSc in Physics from the Hebrew University of Jerusalem and completed his MSc and PhD in Physics at the Weizmann Institute of Science under Prof. Nir Davidson.",
-        "md_filename": "001-roee-ozeri.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8106,
-          31.9066
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "002-ziv-meir",
         "name": "Ziv Meir",
         "platforms": [
@@ -66,162 +45,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "004-christopher-monroe",
-        "name": "Christopher R. Monroe",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Christopher R. Monroe is a physicist and a leading figure in trapped-ion quantum information science. He is the Gilhuly Family Presidential Distinguished Professor of Electrical & Computer Engineering and Physics at Duke University, and a co-founder of IonQ, a company commercializing trapped-ion quantum computers.",
-        "md_filename": "004-christopher-monroe.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -78.9377,
-          36.0033
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "005-christian-roos",
-        "name": "Christian F. Roos",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Dr. Christian F. Roos is an experimental physicist working on trapped-ion quantum science, including quantum simulation and precision spectroscopy. He is affiliated with IQOQI Innsbruck (Austrian Academy of Sciences) and the University of Innsbruck.",
-        "md_filename": "005-christian-roos.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.3444,
-          47.2657
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "006-david-wineland",
-        "name": "David J. Wineland",
-        "platforms": [
-          "Trapped ions",
-          "Atomic clocks",
-          "Quantum metrology",
-          "Quantum information"
-        ],
-        "short_bio": "David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder), where his group developed foundational methods for high-fidelity quantum logic with ions, and later joined the University of Oregon as a Research Professor.",
-        "md_filename": "006-david-wineland.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.0728292,
-          44.0496255
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "007-dietrich-leibfried",
-        "name": "Dietrich Leibfried",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Dietrich Leibfried is a leading experimental physicist in trapped-ion quantum information science at NIST (Boulder). His work spans high-fidelity trapped-ion operations, quantum control, quantum networking, and precision spectroscopy.",
-        "md_filename": "007-dietrich-leibfried.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.2629,
-          40.0094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "008-john-bollinger",
-        "name": "John J. Bollinger",
-        "platforms": [
-          "Trapped ions",
-          "Penning traps"
-        ],
-        "short_bio": "John J. Bollinger is a senior experimental physicist at NIST (Boulder) known for work on Penning-trap ion crystals, precision measurement, and strongly-coupled many-body dynamics in trapped-ion systems.",
-        "md_filename": "008-john-bollinger.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.2629,
-          40.0094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "009-hartmut-haeffner",
-        "name": "Hartmut Häffner",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Hartmut Häffner is a professor at UC Berkeley working on trapped-ion quantum science and precision measurement, with interests including reducing surface noise and developing novel trapped-particle platforms.",
-        "md_filename": "009-hartmut-haeffner.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.2585,
-          37.8719
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "010-jungsang-kim",
-        "name": "Jungsang Kim",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Jungsang Kim is a professor at Duke University working on trapped-ion quantum information systems, with strong emphasis on engineering and integration: microfabricated traps, photonics, detectors, compact cryo/vacuum, and system-scale architectures.",
-        "md_filename": "010-jungsang-kim.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -78.9382,
-          36.0014
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "011-kihwan-kim",
-        "name": "Kihwan Kim",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Kihwan Kim is a leading trapped-ion quantum computing experimentalist known for high-fidelity control, multi-qubit entangling operations, and quantum simulation with ions. Recent reporting indicates a move from Tsinghua University to South Korea to lead a new IBS trapped-ion research group.",
-        "md_filename": "011-kihwan-kim.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          127.365,
-          36.3741
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "012-winfried-hensinger",
         "name": "Winfried K. Hensinger",
         "platforms": [
@@ -235,44 +58,6 @@
         "coordinates": [
           -0.0878,
           50.8674
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "013-ferdinand-schmidt-kaler",
-        "name": "Ferdinand Schmidt-Kaler",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Ferdinand Schmidt-Kaler is a professor at Johannes Gutenberg University Mainz working on trapped-ion quantum computing, including segmented-trap technologies, architectures, and improving coherence and gate performance in scalable systems.",
-        "md_filename": "013-ferdinand-schmidt-kaler.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.2473,
-          49.9929
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "014-thomas-monz",
-        "name": "Thomas Monz",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Thomas Monz is an experimental quantum physicist at the University of Innsbruck and a founder of Alpine Quantum Technologies (AQT). His work spans trapped-ion quantum computing, quantum algorithms, and system-level validation, with earlier work also touching ion–photon interfaces and precision spectroscopy.",
-        "md_filename": "014-thomas-monz.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.3856,
-          47.263
         ]
       }
     },
@@ -318,6 +103,28 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "006-david-wineland",
+        "name": "David J. Wineland",
+        "platforms": [
+          "Trapped ions",
+          "Atomic clocks",
+          "Quantum metrology",
+          "Quantum information"
+        ],
+        "short_bio": "David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder), where his group developed foundational methods for high-fidelity quantum logic with ions, and later joined the University of Oregon as a Research Professor.",
+        "md_filename": "006-david-wineland.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0728292,
+          44.0496255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "017-rainer-blatt",
         "name": "Rainer Blatt",
         "platforms": [
@@ -334,6 +141,199 @@
         "coordinates": [
           11.3836639,
           47.2578333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "010-jungsang-kim",
+        "name": "Jungsang Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Jungsang Kim is a professor at Duke University working on trapped-ion quantum information systems, with strong emphasis on engineering and integration: microfabricated traps, photonics, detectors, compact cryo/vacuum, and system-scale architectures.",
+        "md_filename": "010-jungsang-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9382,
+          36.0014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "008-john-bollinger",
+        "name": "John J. Bollinger",
+        "platforms": [
+          "Trapped ions",
+          "Penning traps"
+        ],
+        "short_bio": "John J. Bollinger is a senior experimental physicist at NIST (Boulder) known for work on Penning-trap ion crystals, precision measurement, and strongly-coupled many-body dynamics in trapped-ion systems.",
+        "md_filename": "008-john-bollinger.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2629,
+          40.0094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "009-hartmut-haeffner",
+        "name": "Hartmut Häffner",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Hartmut Häffner is a professor at UC Berkeley working on trapped-ion quantum science and precision measurement, with interests including reducing surface noise and developing novel trapped-particle platforms.",
+        "md_filename": "009-hartmut-haeffner.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2585,
+          37.8719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "001-roee-ozeri",
+        "name": "Roee Ozeri",
+        "platforms": [
+          "Trapped ions",
+          "Optical clocks",
+          "Ultracold atoms"
+        ],
+        "short_bio": "Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He earned a BSc in Physics from the Hebrew University of Jerusalem and completed his MSc and PhD in Physics at the Weizmann Institute of Science under Prof. Nir Davidson.",
+        "md_filename": "001-roee-ozeri.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8106,
+          31.9066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "004-christopher-monroe",
+        "name": "Christopher R. Monroe",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Christopher R. Monroe is a physicist and a leading figure in trapped-ion quantum information science. He is the Gilhuly Family Presidential Distinguished Professor of Electrical & Computer Engineering and Physics at Duke University, and a co-founder of IonQ, a company commercializing trapped-ion quantum computers.",
+        "md_filename": "004-christopher-monroe.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9377,
+          36.0033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "005-christian-roos",
+        "name": "Christian F. Roos",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dr. Christian F. Roos is an experimental physicist working on trapped-ion quantum science, including quantum simulation and precision spectroscopy. He is affiliated with IQOQI Innsbruck (Austrian Academy of Sciences) and the University of Innsbruck.",
+        "md_filename": "005-christian-roos.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3444,
+          47.2657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "014-thomas-monz",
+        "name": "Thomas Monz",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Thomas Monz is an experimental quantum physicist at the University of Innsbruck and a founder of Alpine Quantum Technologies (AQT). His work spans trapped-ion quantum computing, quantum algorithms, and system-level validation, with earlier work also touching ion–photon interfaces and precision spectroscopy.",
+        "md_filename": "014-thomas-monz.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3856,
+          47.263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "007-dietrich-leibfried",
+        "name": "Dietrich Leibfried",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dietrich Leibfried is a leading experimental physicist in trapped-ion quantum information science at NIST (Boulder). His work spans high-fidelity trapped-ion operations, quantum control, quantum networking, and precision spectroscopy.",
+        "md_filename": "007-dietrich-leibfried.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2629,
+          40.0094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "011-kihwan-kim",
+        "name": "Kihwan Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kihwan Kim is a leading trapped-ion quantum computing experimentalist known for high-fidelity control, multi-qubit entangling operations, and quantum simulation with ions. Recent reporting indicates a move from Tsinghua University to South Korea to lead a new IBS trapped-ion research group.",
+        "md_filename": "011-kihwan-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.365,
+          36.3741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "013-ferdinand-schmidt-kaler",
+        "name": "Ferdinand Schmidt-Kaler",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Ferdinand Schmidt-Kaler is a professor at Johannes Gutenberg University Mainz working on trapped-ion quantum computing, including segmented-trap technologies, architectures, and improving coherence and gate performance in scalable systems.",
+        "md_filename": "013-ferdinand-schmidt-kaler.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2473,
+          49.9929
         ]
       }
     }
