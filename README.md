@@ -51,6 +51,40 @@ ionlandscape/
 
 ## Adding a new person
 
+### Quick Method
+Use the interactive profile creator:
+```bash
+python scripts/create_profile_template.py
+```
+
+This will guide you through creating a profile with verified data only.
+
+### Manual Method
 1. Create a new Markdown file in `content/people/` following the existing format
 2. Include YAML frontmatter with required fields (id, name, location, etc.)
-3. Push to `main` - the build will automatically regenerate the data files
+3. Only add information you can verify from authoritative sources
+4. Push to `main` - the build will automatically regenerate the data files
+
+See [INGESTION_GUIDE.md](INGESTION_GUIDE.md) for detailed instructions on data curation and verification.
+
+## Data Curation & Verification
+
+This repository includes automated tools for systematic profile ingestion and verification:
+
+- **`ingest_profiles.py`** - Automated ingestion from authoritative ion-trapping website
+- **`verify_profile_data.py`** - Validate existing profiles against schema
+- **`create_profile_template.py`** - Interactive tool for creating new profiles
+- **`batch_enrich_profiles.py`** - Bulk update profiles from JSON data
+
+### Quick Verification
+```bash
+# Verify a single profile
+python scripts/verify_profile_data.py 001-roee-ozeri
+
+# Verify all profiles
+python scripts/verify_profile_data.py --all
+```
+
+**Important:** All facts must be backed by authoritative sources. Never guess or hallucinate data.
+
+See [INGESTION_GUIDE.md](INGESTION_GUIDE.md) for complete documentation.

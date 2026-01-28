@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Jonathan P. Home",
+    "institution": "ETH Zürich",
+    "homepage": "https://iqe.phys.ethz.ch/research/trapped-ion-quantum-information.html",
+    "group_page": "https://www.phys.ethz.ch/the-department/people/person-detail.jhome.html",
+    "country": "Switzerland",
+    "verified_sources": [
+      "https://www.phys.ethz.ch/the-department/people/person-detail.jhome.html",
+      "https://orcid.org/0000-0002-4093-1550"
+    ]
+  },
+  {
+    "name": "Rainer Blatt",
+    "institution": "University of Innsbruck",
+    "country": "Austria",
+    "verified_sources": [
+      "https://www.uibk.ac.at/exphys/",
+      "https://quantumoptics.at/"
+    ]
+  }
+]

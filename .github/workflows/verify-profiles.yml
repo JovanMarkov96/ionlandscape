@@ -1,0 +1,48 @@
+name: Verify Profile Data
+
+on:
+  pull_request:
+    paths:
+      - 'content/people/**'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+      
+      - name: Verify all profiles
+        id: verify
+        run: |
+          python scripts/verify_profile_data.py --all
+        continue-on-error: true
+      
+      - name: Check verification results
+        if: steps.verify.outcome == 'failure'
+        run: |
+          echo "::warning::Profile verification found issues. Please review the logs above."
+          exit 1
+      
+      - name: Build index to ensure valid data
+        run: |
+          python scripts/build_index.py
+      
+      - name: Verify build artifacts created
+        run: |
+          ls -la website/static/data/
+          test -f website/static/data/people.json
+          test -f website/static/data/people.geojson
+          test -f website/static/data/edges.csv
