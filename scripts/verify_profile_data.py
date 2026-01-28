@@ -37,8 +37,8 @@ class ProfileVerifier:
     
     def verify_profile(self, profile_path: str) -> Dict:
         """Verify a single profile."""
-        post = frontmatter.load(profile_path)
-        meta = post.metadata
+        doc = frontmatter.load(profile_path)
+        meta = doc.metadata
         
         person_id = meta.get('id', '')
         name = meta.get('name', '')
@@ -137,11 +137,11 @@ class ProfileVerifier:
             
             try:
                 # Quick HEAD request to check accessibility
-                response = self.session.head(url, timeout=10, allow_redirects=True)
+                response = self.session.head(url, timeout=30, allow_redirects=True)
                 if response.status_code == 200:
                     results['checks'].append(f"✓ Link accessible: {key}")
                 elif response.status_code == 405:  # Method not allowed, try GET
-                    response = self.session.get(url, timeout=10, stream=True)
+                    response = self.session.get(url, timeout=30, stream=True)
                     if response.status_code == 200:
                         results['checks'].append(f"✓ Link accessible: {key}")
                 else:
