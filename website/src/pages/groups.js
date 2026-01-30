@@ -292,8 +292,6 @@ function Groups() {
     const hasActiveFilters = searchQuery || labelFilters.length > 0 || ionFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
 
     // Available options logic already calculated above
-    console.log('[Groups Render] Filters:', JSON.stringify({ category, country: countryFilters, inst: instFilters }));
-    console.log('[Groups Render] Available Insts:', availableInsts.length);
 
     return (
         <Layout title="Groups">
