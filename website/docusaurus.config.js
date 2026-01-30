@@ -40,7 +40,7 @@ module.exports = {
         navbar: {
             hideOnScroll: true,
             style: 'dark',
-            title: 'Ion Landscape',
+            title: 'Home 🏠',
             items: [
                 {
                     href: '/ionlandscape/groups',
@@ -56,7 +56,13 @@ module.exports = {
         },
         colorMode: {
             defaultMode: 'light',
-            disableSwitch: true,
+            disableSwitch: false,
+            respectPrefersColorScheme: true,
+        },
+        footer: {
+            style: 'dark',
+            links: [],
+            copyright: `Brought to you by <a href="https://jovanmarkov96.github.io" target="_blank" rel="noopener noreferrer">Jovan Markov</a>. Built with Docusaurus.`,
         },
     },
 

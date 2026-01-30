@@ -1,5 +1,6 @@
-// website/src/pages/index.js
 import React, { useState, useEffect } from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function HomeContent() {
@@ -47,37 +48,43 @@ function HomeContent() {
     };
 
     return (
-        <div className="ion-landscape-container">
-            <div className="ion-landscape-map">
-                <MapPanel
-                    onPersonSelect={handlePersonSelect}
-                    onLocationSelect={(loc) => setSelectedLocation(loc)}
-                />
-            </div>
-            <div className={`ion-landscape-panel ${isPanelOpen ? 'panel-open' : ''}`}>
-                <button
-                    className="back-to-map-btn"
-                    onClick={handleClosePanel}
-                >
-                    ← Back to Map
-                </button>
-                <PersonPanel
-                    personId={selectedPersonId}
-                    location={selectedLocation}
-                    onPersonSelect={handlePersonSelect}
-                    onClose={handleClearProfile}
-                />
-            </div>
+        <Layout
+            title="Map"
+            description="Interactive map of ion trap and neutral atom quantum computing groups"
+            noFooter={false}
+        >
+            <div className="ion-landscape-container">
+                <div className="ion-landscape-map">
+                    <MapPanel
+                        onPersonSelect={handlePersonSelect}
+                        onLocationSelect={(loc) => setSelectedLocation(loc)}
+                    />
+                </div>
+                <div className={`ion-landscape-panel ${isPanelOpen ? 'panel-open' : ''}`}>
+                    <button
+                        className="back-to-map-btn"
+                        onClick={handleClosePanel}
+                    >
+                        ← Back to Map
+                    </button>
+                    <PersonPanel
+                        personId={selectedPersonId}
+                        location={selectedLocation}
+                        onPersonSelect={handlePersonSelect}
+                        onClose={handleClearProfile}
+                    />
+                </div>
 
-            {/* Mobile floating button to open panel when no person selected */}
-            <button
-                className="mobile-panel-toggle"
-                onClick={() => setIsPanelOpen(!isPanelOpen)}
-                aria-label={isPanelOpen ? "Close panel" : "Open panel"}
-            >
-                {isPanelOpen ? '✕' : '☰'}
-            </button>
-        </div>
+                {/* Mobile floating button to open panel when no person selected */}
+                <button
+                    className="mobile-panel-toggle"
+                    onClick={() => setIsPanelOpen(!isPanelOpen)}
+                    aria-label={isPanelOpen ? "Close panel" : "Open panel"}
+                >
+                    {isPanelOpen ? '✕' : '☰'}
+                </button>
+            </div>
+        </Layout>
     );
 }
 

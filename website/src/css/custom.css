@@ -30,7 +30,8 @@ body,
 /* ===== Main Layout Container ===== */
 .ion-landscape-container {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - var(--ifm-navbar-height));
+  overflow: hidden;
   width: 100%;
   position: relative;
 }
@@ -382,12 +383,16 @@ html:has(.groups-page),
     justify-content: flex-start;
   }
 }
+
 /* Platform Badge Colors */
 .badge-trapped-ions {
-    background-color: #0044cc; /* Deep Blue */
-    color: #ffffff;
+  background-color: #0044cc;
+  /* Deep Blue */
+  color: #ffffff;
 }
+
 .badge-neutral-atoms {
-    background-color: #ff8800; /* Orange */
-    color: #ffffff;
+  background-color: #ff8800;
+  /* Orange */
+  color: #ffffff;
 }
