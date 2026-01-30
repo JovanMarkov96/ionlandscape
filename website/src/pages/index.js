@@ -11,6 +11,20 @@ function HomeContent() {
     const MapPanel = require('../components/MapPanel').default;
     const PersonPanel = require('../components/PersonPanel').default;
 
+    // Check for ?person=ID in URL
+    useEffect(() => {
+        const searchParams = new URLSearchParams(window.location.search);
+        const personId = searchParams.get('person');
+        if (personId) {
+            setSelectedPersonId(personId);
+            setIsPanelOpen(true);
+
+            // Clean URL without reloading
+            const newUrl = window.location.pathname;
+            window.history.replaceState({}, '', newUrl);
+        }
+    }, []);
+
     // Auto-open panel when a person is selected (mobile)
     useEffect(() => {
         if (selectedPersonId) {

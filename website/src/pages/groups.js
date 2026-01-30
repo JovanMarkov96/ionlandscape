@@ -306,7 +306,7 @@ function Groups() {
                         {['All', 'Trapped Ions', 'Neutral Atoms'].map(cat => (
                             <button
                                 key={cat}
-                                className={`button button--${category === cat ? 'primary' : 'outline-primary'}`}
+                                className={`button button--${category === cat ? 'primary' : 'secondary'}`}
                                 onClick={() => setCategory(cat)}
                                 style={{ margin: '0 5px' }}
                             >
@@ -338,10 +338,13 @@ function Groups() {
                             {availableLabels.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
 
-                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('ion', e.target.value)}>
-                            <option value="">+ Ion Species</option>
-                            {availableIons.map(o => <option key={o} value={o}>{o}</option>)}
-                        </select>
+                        {/* Species Dropdown: Only show if specific category selected */}
+                        {category !== 'All' && (
+                            <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('ion', e.target.value)}>
+                                <option value="">+ {category === 'Neutral Atoms' ? 'Atom Species' : 'Ion Species'}</option>
+                                {availableIons.map(o => <option key={o} value={o}>{o}</option>)}
+                            </select>
+                        )}
 
                         <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('inst', e.target.value)}>
                             <option value="">+ Institution</option>
