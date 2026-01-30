@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-function PersonPanel({ personId, location, onPersonSelect }) {
+function PersonPanel({ personId, location, onPersonSelect, onClose }) {
     const [people, setPeople] = useState([]);
     const [person, setPerson] = useState(null);
     const [mdBody, setMdBody] = useState("");
@@ -82,8 +82,19 @@ function PersonPanel({ personId, location, onPersonSelect }) {
     }
 
     return (
-        <div style={{ padding: 16 }}>
-            <h2>{person.name} <span style={{ fontSize: '0.6em', color: '#ccc' }}>(v1.1)</span></h2>
+        <div style={{ padding: 16, position: 'relative' }}>
+            {onClose && (
+                <button
+                    className="close-panel-btn"
+                    onClick={onClose}
+                    aria-label="Close profile"
+                >
+                    ✕
+                </button>
+            )}
+            <div className="person-panel-header">
+                <h2>{person.name} <span style={{ fontSize: '0.6em', color: '#ccc' }}>(v1.1)</span></h2>
+            </div>
             <p><em>{person.current_position && person.current_position.title} — {person.current_position && person.current_position.institution}</em></p>
             <p><strong>Platforms:</strong> {(person.platforms || []).join(', ')}</p>
             <p><strong>Keywords:</strong> {(person.keywords || []).join(', ')}</p>

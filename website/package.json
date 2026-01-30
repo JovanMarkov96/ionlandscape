@@ -13,17 +13,18 @@
         "@docusaurus/preset-classic": "^3.7.0",
         "@mdx-js/react": "^3.0.0",
         "clsx": "^2.0.0",
+        "cytoscape": "^3.24.0",
+        "leaflet": "^1.9.4",
         "prism-react-renderer": "^2.3.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "leaflet": "^1.9.4",
         "react-leaflet": "^4.2.1",
-        "cytoscape": "^3.24.0",
         "react-markdown": "^9.0.1"
     },
     "devDependencies": {
         "@docusaurus/module-type-aliases": "^3.7.0",
-        "@docusaurus/types": "^3.7.0"
+        "@docusaurus/types": "^3.7.0",
+        "puppeteer": "^24.36.1"
     },
     "browserslist": {
         "production": [
