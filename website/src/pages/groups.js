@@ -63,27 +63,67 @@ function Groups() {
         return () => clearTimeout(timer);
     }, [localSearch, labelFilters, ionFilters, instFilters, countryFilters]);
 
-    // Get unique options for dropdowns
-    const { allLabels, allIons, allInstitutions, allCountries } = useMemo(() => {
-        const labels = new Set();
-        const ions = new Set();
-        const institutions = new Set();
-        const countries = new Set();
+    // --- Dependent Filter Logic ---
 
-        people.forEach(p => {
-            (p.labels || []).forEach(l => labels.add(l));
-            (p.ion_species || []).forEach(i => ions.add(i));
-            if (p.current_position?.institution) institutions.add(p.current_position.institution);
+    // Helper: Get people that match specific filters (ignoring others)
+    const getPeopleInContext = (filters) => {
+        return people.filter(p => {
+            // 0. Category
+            if (category !== 'All') {
+                const platforms = p.platforms || [];
+                const isNeutrals = platforms.some(pl => pl.toLowerCase().includes('neutral'));
+                if (category === 'Neutral Atoms' && !isNeutrals) return false;
+                if (category === 'Trapped Ions' && isNeutrals) return false;
+            }
+
+            // 1. Institution (if provided)
+            if (filters.inst && filters.inst.length > 0) {
+                if (!filters.inst.includes(p.current_position?.institution)) return false;
+            }
+
+            // 2. Country (if provided)
+            if (filters.country && filters.country.length > 0) {
+                if (!filters.country.includes(p.location?.country)) return false;
+            }
+
+            return true;
+        });
+    };
+
+    // Available Institutions: Depends on Category + Country
+    const availableInsts = useMemo(() => {
+        const filtered = getPeopleInContext({ country: countryFilters });
+        const insts = new Set();
+        filtered.forEach(p => {
+            if (p.current_position?.institution) insts.add(p.current_position.institution);
+        });
+        return Array.from(insts).sort().filter(i => !instFilters.includes(i));
+    }, [people, category, countryFilters, instFilters]);
+
+    // Available Countries: Depends on Category + Institution
+    const availableCountries = useMemo(() => {
+        const filtered = getPeopleInContext({ inst: instFilters });
+        const countries = new Set();
+        filtered.forEach(p => {
             if (p.location?.country) countries.add(p.location.country);
         });
+        return Array.from(countries).sort().filter(c => !countryFilters.includes(c));
+    }, [people, category, instFilters, countryFilters]);
 
+    // Available Labels & Ions (Global context within category)
+    const { availableLabels, availableIons } = useMemo(() => {
+        const filtered = getPeopleInContext({}); // Valid in category
+        const labels = new Set();
+        const ions = new Set();
+        filtered.forEach(p => {
+            (p.labels || []).forEach(l => labels.add(l));
+            (p.ion_species || []).forEach(i => ions.add(i));
+        });
         return {
-            allLabels: Array.from(labels).sort(),
-            allIons: Array.from(ions).sort(),
-            allInstitutions: Array.from(institutions).sort(),
-            allCountries: Array.from(countries).sort()
+            availableLabels: Array.from(labels).sort().filter(l => !labelFilters.includes(l)),
+            availableIons: Array.from(ions).sort().filter(i => !ionFilters.includes(i))
         };
-    }, [people]);
+    }, [people, category, labelFilters, ionFilters]);
 
     useEffect(() => {
         // Force body scrolling when on the groups page
@@ -94,12 +134,32 @@ function Groups() {
     }, []);
 
     useEffect(() => {
-        fetch('/ionlandscape/data/people.json')
-            .then(res => res.json())
-            .then(setPeople)
-            .catch(() => {
-                fetch('/data/people.json').then(res => res.json()).then(setPeople);
-            });
+        const loadPeople = async () => {
+            const paths = [
+                '/ionlandscape/data/people.json',
+                '/data/people.json',
+                'data/people.json' // Relative
+            ];
+
+            for (const path of paths) {
+                try {
+                    console.log('[Groups] Trying to fetch:', path);
+                    const res = await fetch(path);
+                    if (res.ok) {
+                        const data = await res.json();
+                        setPeople(data);
+                        return; // Success
+                    } else {
+                        console.log('[Groups] Failed fetch (not ok):', path, res.status);
+                    }
+                } catch (err) {
+                    console.log('[Groups] Error fetching:', path, err);
+                }
+            }
+            console.error('[Groups] All fetch attempts failed.');
+        };
+
+        loadPeople();
     }, []);
 
     // Filter people based on active filters (AND logic)
@@ -179,10 +239,29 @@ function Groups() {
             country: countryFilters
         };
 
-        // Single-select logic for Institution and Country
-        if (type === 'inst' || type === 'country') {
-            // Replace existing selection with new one
-            current[type] = [value];
+        if (type === 'inst') {
+            // Single-select Institution
+            current.inst = [value];
+            // Auto-select Country
+            const personWithInst = people.find(p => p.current_position?.institution === value);
+            console.log('[Groups] Selected Inst:', value);
+            console.log('[Groups] Found Person:', personWithInst ? personWithInst.name : 'None');
+
+            if (personWithInst?.location?.country) {
+                console.log('[Groups] Auto-setting Country:', personWithInst.location.country);
+                current.country = [personWithInst.location.country];
+            }
+        } else if (type === 'country') {
+            // Single-select Country
+            current.country = [value];
+            // Clear Institution if it doesn't match new country
+            if (current.inst.length > 0) {
+                const selectedInst = current.inst[0];
+                const matches = people.some(p => p.current_position?.institution === selectedInst && p.location?.country === value);
+                if (!matches) {
+                    current.inst = []; // Clear invalid institution
+                }
+            }
         } else {
             // Multi-select for others
             if (current[type].includes(value)) return;
@@ -212,11 +291,9 @@ function Groups() {
 
     const hasActiveFilters = searchQuery || labelFilters.length > 0 || ionFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
 
-    // Available options logic
-    const availableLabels = allLabels.filter(l => !labelFilters.includes(l));
-    const availableIons = allIons.filter(i => !ionFilters.includes(i));
-    const availableInsts = allInstitutions.filter(i => !instFilters.includes(i));
-    const availableCountries = allCountries.filter(c => !countryFilters.includes(c));
+    // Available options logic already calculated above
+    console.log('[Groups Render] Filters:', JSON.stringify({ category, country: countryFilters, inst: instFilters }));
+    console.log('[Groups Render] Available Insts:', availableInsts.length);
 
     return (
         <Layout title="Groups">
