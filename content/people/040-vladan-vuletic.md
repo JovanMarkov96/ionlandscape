@@ -26,6 +26,7 @@ keywords:
   - quantum information
 labels:
   - Experimental group
+  - Industry
 links:
   google_scholar: https://scholar.google.com/citations?user=E_7YsOgAAAAJ&hl=en
   group_page: https://cua.mit.edu/people/vladan-vuletic/

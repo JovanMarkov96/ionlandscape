@@ -11,7 +11,7 @@ affiliations:
 - name: Oxford Ionics
   role: Co-founder & CEO (founding)
   type: company
-- name: IonQ, Inc.
+- name: IonQ, Inc. (USA)
   role: President, Quantum Computing
   type: company
 location:

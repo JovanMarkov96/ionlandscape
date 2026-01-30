@@ -185,7 +185,7 @@
         "type": "company"
       },
       {
-        "name": "IonQ, Inc.",
+        "name": "IonQ, Inc. (USA)",
         "role": "President, Quantum Computing",
         "type": "company"
       }
@@ -251,7 +251,7 @@
     ],
     "affiliations": [
       {
-        "name": "IonQ, Inc.",
+        "name": "IonQ, Inc. (USA)",
         "role": "Co-founder",
         "type": "company"
       }
@@ -2468,7 +2468,8 @@
     ],
     "group_type": "experimental",
     "labels": [
-      "Experimental group"
+      "Experimental group",
+      "Industry"
     ],
     "ion_species": [],
     "links": {

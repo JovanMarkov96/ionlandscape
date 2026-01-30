@@ -147,7 +147,7 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
                         <a
                             key={i}
                             href={`/ionlandscape/groups?category=${encodeURIComponent(categoryParam)}`}
-                            className="badge badge--info"
+                            className={`badge ${categoryParam === 'Trapped Ions' ? 'badge-trapped-ions' : categoryParam === 'Neutral Atoms' ? 'badge-neutral-atoms' : 'badge--info'}`}
                             style={{ marginRight: '5px', textDecoration: 'none', color: '#fff' }}
                         >
                             {platform}

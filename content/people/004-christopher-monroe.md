@@ -1,6 +1,6 @@
 ---
 affiliations:
-- name: IonQ, Inc.
+- name: IonQ, Inc. (USA)
   role: Co-founder
   type: company
 created_at: '2026-01-26'

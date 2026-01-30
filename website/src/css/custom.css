@@ -382,3 +382,12 @@ html:has(.groups-page),
     justify-content: flex-start;
   }
 }
+/* Platform Badge Colors */
+.badge-trapped-ions {
+    background-color: #0044cc; /* Deep Blue */
+    color: #ffffff;
+}
+.badge-neutral-atoms {
+    background-color: #ff8800; /* Orange */
+    color: #ffffff;
+}
