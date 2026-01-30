@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Layout from '@theme/Layout';
-import BrowserOnly from '@docusaurus/BrowserOnly';
+
 
 function HomeContent() {
     const [selectedPersonId, setSelectedPersonId] = useState(null);

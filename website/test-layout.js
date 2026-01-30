@@ -34,7 +34,10 @@ async function delay(ms) {
         }
 
         // 2. Check Dark Mode Toggle
-
+        const hasToggle = await page.evaluate(() => {
+            return !!document.querySelector('button[class*="toggleButton"]') ||
+                !!document.querySelector('button[class*="ColorMode"]');
+        });
 
         if (hasToggle) {
             console.log('  ✅ Dark Mode Toggle found.');
