@@ -26,6 +26,8 @@ labels:
 links:
   google_scholar: null
   group_page: null
+  homepage: https://www.nat.vu.nl/~koel/
+  institution_profile: https://research.vu.nl/en/persons/jeroen-koelemeij
   orcid: null
 location:
   city: Amsterdam

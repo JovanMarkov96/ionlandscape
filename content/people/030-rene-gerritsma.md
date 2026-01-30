@@ -24,7 +24,7 @@ labels:
 - Experimental group
 links:
   google_scholar: null
-  group_page: null
+  group_page: http://hyqs.nl
   orcid: null
 location:
   city: Amsterdam
