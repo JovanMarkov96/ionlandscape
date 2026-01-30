@@ -3,6 +3,21 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Link from '@docusaurus/Link';
 
+/**
+ * PersonPanel Component
+ * 
+ * Displays detailed information about a selected researcher/group.
+ * fetched from `people.json`.
+ * 
+ * Features:
+ * - Shows Bio, Affiliations, Education, Postdocs.
+ * - Displays active research tags (Labels, Ion Species) with links to filter on Groups page.
+ * - Includes a "Back" button (Close) to return to the map.
+ * 
+ * @param {Object} props
+ * @param {string} props.personId - ID or md_filename of the person to display
+ * @param {Function} props.onClose - Callback to close the panel
+ */
 function PersonPanel({ personId, location, onPersonSelect, onClose }) {
     const [people, setPeople] = useState([]);
     const [person, setPerson] = useState(null);

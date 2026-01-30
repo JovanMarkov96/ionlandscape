@@ -3,6 +3,19 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { useLocation, useHistory } from 'react-router-dom';
 
+/**
+ * Groups Page Component
+ * 
+ * Displays a searchable and filterable list of research groups/people.
+ * Supports filtering by:
+ * - Search query (Name)
+ * - Label (e.g., "Trapped Ions")
+ * - Ion Species
+ * - Institution
+ * - Country
+ * 
+ * URL Synchronization: All filters are synced with URL query parameters for shareability.
+ */
 function Groups() {
     const location = useLocation();
     const history = useHistory();
