@@ -23,6 +23,7 @@ keywords:
 - ion-photon interfaces
 labels:
 - Experimental group
+- Industry
 links:
   aqt_about: https://www.aqt.eu/about/
   google_scholar: null

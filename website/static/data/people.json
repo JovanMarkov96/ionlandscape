@@ -57,7 +57,8 @@
     ],
     "group_type": "experimental",
     "labels": [
-      "Experimental group"
+      "Experimental group",
+      "Industry"
     ],
     "ion_species": [
       "Sr+",
@@ -214,7 +215,8 @@
     ],
     "group_type": "experimental",
     "labels": [
-      "Experimental group"
+      "Experimental group",
+      "Industry"
     ],
     "ion_species": [
       "Ca+",
@@ -291,7 +293,8 @@
     ],
     "group_type": "experimental",
     "labels": [
-      "Experimental group"
+      "Experimental group",
+      "Industry"
     ],
     "ion_species": [
       "Yb+"
@@ -900,7 +903,8 @@
     ],
     "group_type": "experimental",
     "labels": [
-      "Experimental group"
+      "Experimental group",
+      "Industry"
     ],
     "ion_species": [
       "Ca+"
@@ -1095,7 +1099,8 @@
     ],
     "group_type": "experimental",
     "labels": [
-      "Experimental group"
+      "Experimental group",
+      "Industry"
     ],
     "ion_species": [],
     "links": {
@@ -1325,7 +1330,8 @@
     ],
     "group_type": "experimental",
     "labels": [
-      "Experimental group"
+      "Experimental group",
+      "Industry"
     ],
     "ion_species": [
       "Be+",

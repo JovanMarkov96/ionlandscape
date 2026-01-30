@@ -23,6 +23,7 @@ keywords:
 - quantum control
 labels:
 - Experimental group
+- Industry
 links:
   aqt_about: https://www.aqt.eu/about/
   cv_pdf: https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf

@@ -47,6 +47,7 @@ updated_at: '2026-01-27'
 group_type: experimental
 labels:
 - Experimental group
+- Industry
 ion_species:
 - Ca+
 - Sr+

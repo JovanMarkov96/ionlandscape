@@ -29,6 +29,7 @@ keywords:
 - decoherence
 labels:
 - Experimental group
+- Industry
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ
   homepage: http://www.weizmann.ac.il/complex/ozeri/

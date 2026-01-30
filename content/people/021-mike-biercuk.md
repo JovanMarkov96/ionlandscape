@@ -23,6 +23,7 @@ keywords:
 - quantum sensing
 labels:
 - Experimental group
+- Industry
 links:
   google_scholar: null
   orcid: null

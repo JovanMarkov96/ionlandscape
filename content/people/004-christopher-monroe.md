@@ -28,6 +28,7 @@ keywords:
 - scalable architectures
 labels:
 - Experimental group
+- Industry
 links:
   duke_ece_profile: https://ece.duke.edu/people/christopher-monroe/
   duke_provost_profile: https://provost.duke.edu/profile/christopher-r-monroe/
