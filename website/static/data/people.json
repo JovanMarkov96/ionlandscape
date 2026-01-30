@@ -2590,5 +2590,602 @@
     "md_filename": "042-kenneth-brown.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
+  },
+  {
+    "id": "043-kilian-singer",
+    "name": "Kilian Singer",
+    "sort_name": "Singer, Kilian",
+    "current_position": {
+      "institution": "University of Kassel",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Kassel",
+      "region": "Hesse",
+      "country": "Germany",
+      "lat": 51.3127,
+      "lon": 9.4797
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "thermodynamics",
+      "heat engines",
+      "quantum information"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Kilian Singer leads the Trapped Ion Quantum Information and Thermodynamics group at the University of Kassel. His research focuses on single-ion heat engines, thermodynamics in the quantum regime, and scalable ion trap technologies.",
+    "md_filename": "043-kilian-singer.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "044-johannes-hecker-denschlag",
+    "name": "Johannes Hecker Denschlag",
+    "sort_name": "Hecker Denschlag, Johannes",
+    "current_position": {
+      "institution": "Ulm University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Neutral atoms"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Ulm",
+      "region": "Baden-Württemberg",
+      "country": "Germany",
+      "lat": 48.4011,
+      "lon": 9.9876
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "ultracold atoms",
+      "trapped ions",
+      "cold collisions",
+      "quantum chemistry"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ba+",
+      "Rb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Johannes Hecker Denschlag leads the Institute for Quantum Matter at Ulm University. His group investigates ultracold quantum gases and hybrid systems of trapped ions and neutral atoms (Ba+ and Rb), focusing on cold collisions and quantum chemistry.",
+    "md_filename": "044-johannes-hecker-denschlag.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "045-kazuhiro-hayasaka",
+    "name": "Kazuhiro Hayasaka",
+    "sort_name": "Hayasaka, Kazuhiro",
+    "current_position": {
+      "institution": "National Institute of Information and Communications Technology (NICT)",
+      "title": "Group Leader"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Kobe",
+      "region": "Hyogo",
+      "country": "Japan",
+      "lat": 34.6901,
+      "lon": 135.1955
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "optical clocks",
+      "trapped ions",
+      "quantum metrology",
+      "frequency standards"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "In+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Kazuhiro Hayasaka leads the Space-Time Standards Laboratory at NICT in Kobe, Japan. His research focuses on developing high-precision optical clocks using trapped indium and calcium ions for frequency standards and metrology.",
+    "md_filename": "045-kazuhiro-hayasaka.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "046-kjeld-eikema",
+    "name": "Kjeld S. E. Eikema",
+    "sort_name": "Eikema, Kjeld S. E.",
+    "current_position": {
+      "institution": "VU Amsterdam",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "country": "Netherlands",
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "precision measurement",
+      "frequency combs",
+      "trapped ions",
+      "ultrafast lasers"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Kjeld S. E. Eikema leads the Ultrafast Laser Physics and Precision Metrology group at VU Amsterdam. His research combines frequency combs with trapped ions for extreme precision measurements and tests of fundamental physics.",
+    "md_filename": "046-kjeld-eikema.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "047-klaus-jungmann",
+    "name": "Klaus Jungmann",
+    "sort_name": "Jungmann, Klaus",
+    "current_position": {
+      "institution": "University of Groningen",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Groningen",
+      "region": "Groningen",
+      "country": "Netherlands",
+      "lat": 53.2194,
+      "lon": 6.5665
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "precision measurement",
+      "fundamental symmetries",
+      "trapped ions",
+      "radium ions"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ba+",
+      "Ra+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Klaus Jungmann leads the Fundamental Interactions and Symmetries group at the University of Groningen. His prominent work involves precision measurements with trapped radium ions to test fundamental symmetries and search for physics beyond the Standard Model.",
+    "md_filename": "047-klaus-jungmann.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "048-hermann-uys",
+    "name": "Hermann Uys",
+    "sort_name": "Uys, Hermann",
+    "current_position": {
+      "institution": "Stellenbosch University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Stellenbosch",
+      "region": "Western Cape",
+      "country": "South Africa",
+      "lat": -33.9321,
+      "lon": 18.8602
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum control",
+      "many-body physics",
+      "quantum thermodynamics"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Hermann Uys leads the trapped ion research group at Stellenbosch University and the CSIR in South Africa. His work focuses on trapped ytterbium ions for quantum control, simulation of many-body physics, and quantum thermodynamics.",
+    "md_filename": "048-hermann-uys.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "049-patrick-gill",
+    "name": "Patrick Gill",
+    "sort_name": "Gill, Patrick",
+    "current_position": {
+      "institution": "National Physical Laboratory (NPL)",
+      "title": "Senior Fellow"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Teddington",
+      "region": "London",
+      "country": "United Kingdom",
+      "lat": 51.4275,
+      "lon": -0.3429
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "optical clocks",
+      "precision metrology",
+      "frequency standards",
+      "trapped ions"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Sr+",
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Patrick Gill co-leads the Time & Frequency department at NPL. He is a world-leading pioneer in optical frequency standards and trapped-ion optical clocks, particularly using strontium and ytterbium ions for high-precision metrology.",
+    "md_filename": "049-patrick-gill.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "050-rachel-godun",
+    "name": "Rachel Godun",
+    "sort_name": "Godun, Rachel",
+    "current_position": {
+      "institution": "National Physical Laboratory (NPL)",
+      "title": "Principal Scientist"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Teddington",
+      "region": "London",
+      "country": "United Kingdom",
+      "lat": 51.4275,
+      "lon": -0.3429
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "optical clocks",
+      "trapped ions",
+      "frequency standards",
+      "precision measurement"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Rachel Godun leads the Ytterbium Ion Optical Clock team at the National Physical Laboratory (NPL). Her research focuses on developing and improving trapped-ion optical clocks for next-generation timekeeping and fundamental physics tests.",
+    "md_filename": "050-rachel-godun.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "051-john-chiaverini",
+    "name": "John Chiaverini",
+    "sort_name": "Chiaverini, John",
+    "current_position": {
+      "institution": "MIT Lincoln Laboratory",
+      "title": "Senior Staff"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Lexington",
+      "region": "Massachusetts",
+      "country": "United States",
+      "lat": 42.4473,
+      "lon": -71.2272
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "integrated photonics",
+      "surface traps",
+      "quantum logic"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "Sr+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "John Chiaverini leads trapped-ion research at MIT Lincoln Laboratory. His work focuses on scalable quantum computing architectures, integrated photonics for ion traps, and surface-electrode trap technology.",
+    "md_filename": "051-john-chiaverini.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "052-dan-stick",
+    "name": "Dan Stick",
+    "sort_name": "Stick, Dan",
+    "current_position": {
+      "institution": "Sandia National Laboratories",
+      "title": "Distinguished Member of Technical Staff"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Albuquerque",
+      "region": "New Mexico",
+      "country": "United States",
+      "lat": 35.0844,
+      "lon": -106.6504
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "microfabricated ion traps",
+      "quantum computing",
+      "surface traps",
+      "diffractive optics"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Dan Stick leads the trapped ion trap fabrication and testing efforts at Sandia National Laboratories. His High Optical Access (HOA) surface traps are widely used in the community, and his research focuses on integrating optics and improving trap technologies for quantum computing.",
+    "md_filename": "052-dan-stick.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
   }
 ]
