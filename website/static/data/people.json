@@ -1694,5 +1694,899 @@
     "md_filename": "027-lukas-slodicka.md",
     "created_at": "2026-01-28",
     "updated_at": "2026-01-28"
+  },
+  {
+    "id": "028-juergen-eschner",
+    "name": "Jürgen Eschner",
+    "sort_name": "Eschner, Jürgen",
+    "current_position": {
+      "institution": "Saarland University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Saarbrücken",
+      "region": "Saarland",
+      "country": "Germany",
+      "lat": 49.2401,
+      "lon": 6.9969
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum photonics",
+      "trapped ions",
+      "quantum networks",
+      "atom-photon interfaces"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": "https://www.uni-saarland.de/lehrstuhl/eschner.html",
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Jürgen Eschner leads the Quantum Photonics Group at Saarland University, focusing on trapped-ion quantum information processing with calcium ions, quantum networks, and atom-photon interfaces.",
+    "md_filename": "028-juergen-eschner.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "029-christof-wunderlich",
+    "name": "Christof Wunderlich",
+    "sort_name": "Wunderlich, Christof",
+    "current_position": {
+      "institution": "University of Siegen",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Siegen",
+      "region": "North Rhine-Westphalia",
+      "country": "Germany",
+      "lat": 50.8748,
+      "lon": 8.0243
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "microwave quantum logic",
+      "quantum computing",
+      "magnetic gradient traps"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Christof Wunderlich leads the Quantum Optics Research Group at the University of Siegen. His group is known for pioneering work on microwave-driven quantum logic with trapped ytterbium ions and magnetic gradient traps for quantum information processing.",
+    "md_filename": "029-christof-wunderlich.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "030-rene-gerritsma",
+    "name": "Rene Gerritsma",
+    "sort_name": "Gerritsma, Rene",
+    "current_position": {
+      "institution": "University of Amsterdam",
+      "title": "Associate Professor"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Neutral atoms"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "country": "Netherlands",
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "hybrid atom-ion systems",
+      "trapped ions",
+      "ultracold atoms",
+      "quantum simulation"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Rene Gerritsma leads research on Hybrid Atom-Ion Quantum Systems at the University of Amsterdam. His group explores the interface between ultracold neutral atoms and trapped ions for quantum simulation and quantum information applications.",
+    "md_filename": "030-rene-gerritsma.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "031-jeroen-koelemeij",
+    "name": "Jeroen C. J. Koelemeij",
+    "sort_name": "Koelemeij, Jeroen C. J.",
+    "current_position": {
+      "institution": "VU Amsterdam",
+      "title": "Associate Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Amsterdam",
+      "region": "North Holland",
+      "country": "Netherlands",
+      "lat": 52.3676,
+      "lon": 4.9041
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "molecular ions",
+      "HD+ spectroscopy",
+      "precision measurement",
+      "fundamental constants"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Be+",
+      "HD+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Jeroen C. J. Koelemeij leads the HD+ spectroscopy team at VU Amsterdam. His research focuses on precision spectroscopy of molecular hydrogen ions (HD+) for tests of fundamental physics and determination of fundamental constants.",
+    "md_filename": "031-jeroen-koelemeij.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "032-murray-barrett",
+    "name": "Murray D. Barrett",
+    "sort_name": "Barrett, Murray D.",
+    "current_position": {
+      "institution": "Centre for Quantum Technologies, National University of Singapore",
+      "title": "Principal Investigator"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Singapore",
+      "region": null,
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "microtraps",
+      "quantum networking",
+      "quantum computing"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ba+",
+      "Lu+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Murray D. Barrett leads the Microtraps Group at the Centre for Quantum Technologies (CQT) in Singapore. His research focuses on developing microfabricated ion traps for scalable quantum computing and quantum networking with barium and lutetium ions.",
+    "md_filename": "032-murray-barrett.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "033-dzmitry-matsukevich",
+    "name": "Dzmitry Matsukevich",
+    "sort_name": "Matsukevich, Dzmitry",
+    "current_position": {
+      "institution": "Centre for Quantum Technologies, National University of Singapore",
+      "title": "Principal Investigator"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Singapore",
+      "region": null,
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped molecular ions",
+      "quantum networking",
+      "quantum communication",
+      "ion-photon entanglement"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+",
+      "SiO+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Dzmitry Matsukevich leads research on trapped molecular ions at the Centre for Quantum Technologies (CQT) in Singapore. His group works on quantum networking and quantum communication using ytterbium and molecular ions (SiO+), focusing on ion-photon entanglement.",
+    "md_filename": "033-dzmitry-matsukevich.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "034-manas-mukherjee",
+    "name": "Manas Mukherjee",
+    "sort_name": "Mukherjee, Manas",
+    "current_position": {
+      "institution": "Centre for Quantum Technologies, National University of Singapore",
+      "title": "Principal Investigator"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Singapore",
+      "region": null,
+      "country": "Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum computing",
+      "quantum simulation",
+      "cold ions"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ba+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Manas Mukherjee leads the Cold Ion Group at the Centre for Quantum Technologies (CQT) in Singapore. His research focuses on trapped-ion quantum computing and quantum simulation with barium ions.",
+    "md_filename": "034-manas-mukherjee.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "035-stefan-willitsch",
+    "name": "Stefan Willitsch",
+    "sort_name": "Willitsch, Stefan",
+    "current_position": {
+      "institution": "University of Basel",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Basel",
+      "region": "Basel-Stadt",
+      "country": "Switzerland",
+      "lat": 47.5596,
+      "lon": 7.5886
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "molecular ions",
+      "trapped ions",
+      "ion-molecule reactions",
+      "quantum chemistry"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Stefan Willitsch leads the Willitsch Group at the University of Basel. His research focuses on trapped molecular ions, ion-molecule reactions at ultracold temperatures, and applications of trapped ions to quantum chemistry and chemical physics.",
+    "md_filename": "035-stefan-willitsch.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "036-richard-thompson",
+    "name": "Richard C. Thompson",
+    "sort_name": "Thompson, Richard C.",
+    "current_position": {
+      "institution": "Imperial College London",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "London",
+      "region": "England",
+      "country": "United Kingdom",
+      "lat": 51.5074,
+      "lon": -0.1278
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum computing",
+      "quantum information",
+      "ion trap technology"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Richard C. Thompson leads the Ion Trapping Group at Imperial College London. His group has been a long-established center for trapped-ion quantum information research, working with calcium ions on quantum computing and fundamental ion trap technology.",
+    "md_filename": "036-richard-thompson.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "037-david-lucas",
+    "name": "David M. Lucas",
+    "sort_name": "Lucas, David M.",
+    "current_position": {
+      "institution": "University of Oxford",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Oxford",
+      "region": "England",
+      "country": "United Kingdom",
+      "lat": 51.752,
+      "lon": -1.2577
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "quantum error correction",
+      "quantum gates",
+      "optical clocks"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "Sr+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "David M. Lucas leads the Ion Trap Quantum Computing Group at the University of Oxford alongside Andrew Steane. The Oxford group is one of the world's leading centers for trapped-ion quantum computing, working with calcium and strontium ions on quantum error correction, high-fidelity quantum gates, and optical clocks.",
+    "md_filename": "037-david-lucas.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "038-eric-hudson",
+    "name": "Eric R. Hudson",
+    "sort_name": "Hudson, Eric R.",
+    "current_position": {
+      "institution": "University of California, Los Angeles",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "United States",
+      "lat": 34.0522,
+      "lon": -118.2437
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "molecular ions",
+      "trapped ions",
+      "ultracold chemistry",
+      "quantum simulation"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ba+",
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Eric R. Hudson leads the Hudson Lab at UCLA, focusing on trapped molecular ions, ultracold chemistry, and quantum simulation. His group works with barium, ytterbium, and molecular ions to explore ion-neutral collisions and chemical reactions at ultracold temperatures.",
+    "md_filename": "038-eric-hudson.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "039-wes-campbell",
+    "name": "Wesley C. Campbell",
+    "sort_name": "Campbell, Wesley C.",
+    "current_position": {
+      "institution": "University of California, Los Angeles",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "United States",
+      "lat": 34.0522,
+      "lon": -118.2437
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum simulation",
+      "quantum computing",
+      "optical clocks"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Wesley C. Campbell leads the Campbell Lab at UCLA, focusing on trapped-ion quantum simulation and quantum computing with ytterbium ions. His research also includes precision measurement and optical atomic clocks.",
+    "md_filename": "039-wes-campbell.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "040-vladan-vuletic",
+    "name": "Vladan Vuletić",
+    "sort_name": "Vuletić, Vladan",
+    "current_position": {
+      "institution": "Massachusetts Institute of Technology",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Neutral atoms"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Cambridge",
+      "region": "Massachusetts",
+      "country": "United States",
+      "lat": 42.3601,
+      "lon": -71.0942
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "ultracold atoms",
+      "quantum optics",
+      "cavity QED"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Vladan Vuletić leads the Experimental Atomic Physics Group at MIT's Center for Ultracold Atoms. His research spans trapped ions and ultracold neutral atoms, with focus on cavity QED, quantum optics, and quantum information processing.",
+    "md_filename": "040-vladan-vuletic.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "041-isaac-chuang",
+    "name": "Isaac L. Chuang",
+    "sort_name": "Chuang, Isaac L.",
+    "current_position": {
+      "institution": "Massachusetts Institute of Technology",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Cambridge",
+      "region": "Massachusetts",
+      "country": "United States",
+      "lat": 42.3601,
+      "lon": -71.0942
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum computing",
+      "quantum information",
+      "trapped ions",
+      "NMR quantum computing"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Sr+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Isaac L. Chuang leads the Quanta Group at MIT's Center for Ultracold Atoms. A pioneer in quantum computing, his research includes trapped-ion quantum information processing with strontium ions, quantum algorithms, and quantum error correction.",
+    "md_filename": "041-isaac-chuang.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "042-kenneth-brown",
+    "name": "Kenneth R. Brown",
+    "sort_name": "Brown, Kenneth R.",
+    "current_position": {
+      "institution": "Duke University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Durham",
+      "region": "North Carolina",
+      "country": "United States",
+      "lat": 35.994,
+      "lon": -78.8986
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification from institutional sources"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped-ion quantum computing",
+      "quantum error correction",
+      "quantum control",
+      "fault-tolerant quantum computing"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "Yb+",
+      "B+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Kenneth R. Brown leads a major trapped-ion quantum computing group at Duke University. His research focuses on quantum error correction, fault-tolerant quantum computing, and quantum control with calcium, ytterbium, and boron ions.",
+    "md_filename": "042-kenneth-brown.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
   }
 ]
