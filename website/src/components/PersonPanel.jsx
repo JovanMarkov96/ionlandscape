@@ -130,18 +130,39 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
                 <h2>{person.name}</h2>
             </div>
             <p><em>{person.current_position && person.current_position.title} — {person.current_position && person.current_position.institution}</em></p>
-            <p><strong>Platforms:</strong> {(person.platforms || []).join(', ')}</p>
             <p><strong>Keywords:</strong> {(person.keywords || []).join(', ')}</p>
 
-            <div style={{ marginBottom: 12 }}>
-                {person.labels?.map(l => (
+            <div style={{ marginBottom: '15px' }}>
+                {/* Platforms as Badges */}
+                {person.platforms && person.platforms.map((platform, i) => {
+                    const getCategory = (p) => {
+                        const lower = p.toLowerCase();
+                        if (lower.includes('neutral')) return 'Neutral Atoms';
+                        if (lower.includes('ion')) return 'Trapped Ions';
+                        return p;
+                    };
+                    const categoryParam = getCategory(platform);
+
+                    return (
+                        <a
+                            key={i}
+                            href={`/ionlandscape/groups?category=${encodeURIComponent(categoryParam)}`}
+                            className="badge badge--info"
+                            style={{ marginRight: '5px', textDecoration: 'none', color: '#fff' }}
+                        >
+                            {platform}
+                        </a>
+                    )
+                })}
+                {/* Existing Labels */}
+                {person.labels && person.labels.map((label, i) => (
                     <Link
-                        key={l}
-                        to={`/groups?label=${encodeURIComponent(l)}`}
+                        key={i}
+                        to={`/groups?label=${encodeURIComponent(label)}`}
                         className="badge badge--primary margin-right--xs"
                         style={{ textDecoration: 'none', color: 'white' }}
                     >
-                        {l}
+                        {label}
                     </Link>
                 ))}
                 {person.ion_species?.map(s => (

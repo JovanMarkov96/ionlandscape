@@ -34,7 +34,7 @@ function Groups() {
     const [localSearch, setLocalSearch] = useState(searchQuery);
 
     // Category state (Trapped Ions vs Neutral Atoms)
-    const [category, setCategory] = useState('All');
+    const [category, setCategory] = useState(searchParams.get('category') || 'All');
 
     // Sync local state when external URL changes (e.g. back button)
     // Avoid overwriting if user is actively typing (input focused)
@@ -56,12 +56,13 @@ function Groups() {
                     label: labelFilters,
                     ion: ionFilters,
                     inst: instFilters,
-                    country: countryFilters
+                    country: countryFilters,
+                    category: category // Add category
                 }, true); // push
             }
         }, 300);
         return () => clearTimeout(timer);
-    }, [localSearch, labelFilters, ionFilters, instFilters, countryFilters]);
+    }, [localSearch, labelFilters, ionFilters, instFilters, countryFilters, category]);
 
     // --- Dependent Filter Logic ---
 
@@ -219,6 +220,7 @@ function Groups() {
     const updateUrl = (newParams) => {
         const params = new URLSearchParams();
 
+        if (newParams.category && newParams.category !== 'All') params.set('category', newParams.category);
         if (newParams.q) params.set('q', newParams.q);
 
         (newParams.label || []).forEach(l => params.append('label', l));
