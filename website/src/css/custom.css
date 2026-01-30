@@ -525,13 +525,23 @@ html:has(.groups-page),
     display: none !important;
   }
 
-  /* Force Dark Mode Toggle to show */
+  /* Force Dark Mode Toggle to show on mobile */
   .navbar__items--right> :last-child,
   .clean-btn.toggleButton_gllP,
   .toggleButton_gllP,
   button[class*="toggleButton"],
-  button[class*="ColorMode"] {
-    display: block !important;
+  button[class*="ColorMode"],
+  .navbar__items--right .toggle_vylO,
+  .navbar__items--right button,
+  div[class*="colorModeToggle"] {
+    display: inline-block !important;
     visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  /* Ensure toggle wrapper is visible */
+  .navbar__items--right>div {
+    display: flex !important;
+    align-items: center;
   }
 }
