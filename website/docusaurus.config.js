@@ -62,7 +62,7 @@ module.exports = {
         footer: {
             style: 'dark',
             links: [],
-            copyright: `Brought to you by <a href="https://jovanmarkov96.github.io" target="_blank" rel="noopener noreferrer">Jovan Markov</a>. Built with Docusaurus.`,
+            copyright: `© ${new Date().getFullYear()} Ion Landscape | Developed by <a href="https://jovanmarkov96.github.io" target="_blank" rel="noopener noreferrer" style="color: var(--ifm-color-primary-lightest); font-weight: bold;">Jovan Markov</a>. Open Source Initiative.`,
         },
     },
 

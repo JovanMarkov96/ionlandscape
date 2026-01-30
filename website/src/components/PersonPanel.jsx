@@ -178,10 +178,10 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
             </div>
 
             {person.affiliations && person.affiliations.length > 0 && (
-                <div style={{ marginTop: 12, marginBottom: 12, padding: '8px 12px', backgroundColor: '#f5f5f5', borderRadius: 4 }}>
-                    <h4 style={{ margin: '0 0 4px 0', fontSize: '1em', color: '#333' }}>Affiliations</h4>
+                <div className="affiliation-box">
+                    <h4 className="affiliation-header">Affiliations</h4>
                     {person.affiliations.map((aff, i) => (
-                        <div key={i} style={{ fontSize: '0.9em' }}>
+                        <div key={i} className="affiliation-item">
                             <strong>{aff.name}</strong> — {aff.role}
                         </div>
                     ))}
@@ -200,11 +200,11 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
 
                     {person.education && person.education.length > 0 && (
                         <div style={{ marginBottom: 16 }}>
-                            <h4 style={{ marginBottom: 8, fontSize: '1.1em', color: '#555' }}>Education</h4>
+                            <h4 className="section-header">Education</h4>
                             {person.education.map((edu, idx) => (
-                                <div key={idx} style={{ marginBottom: 12, paddingLeft: 8, borderLeft: '2px solid #eee' }}>
-                                    <div style={{ fontWeight: 600 }}>{edu.degree} — {edu.institution}</div>
-                                    <div style={{ fontSize: '0.9em', color: '#666' }}>
+                                <div key={idx} className="trajectory-item">
+                                    <div className="trajectory-title">{edu.degree} — {edu.institution}</div>
+                                    <div className="trajectory-details">
                                         {edu.year && <span>({edu.year}) </span>}
                                         {edu.advisor && (
                                             <>
@@ -219,11 +219,11 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
 
                     {person.postdocs && person.postdocs.length > 0 && (
                         <div>
-                            <h4 style={{ marginBottom: 8, fontSize: '1.1em', color: '#555' }}>Postdoctoral Training</h4>
+                            <h4 className="section-header">Postdoctoral Training</h4>
                             {person.postdocs.map((pd, idx) => (
-                                <div key={idx} style={{ marginBottom: 12, paddingLeft: 8, borderLeft: '2px solid #eee' }}>
-                                    <div style={{ fontWeight: 600 }}>{pd.institution}</div>
-                                    <div style={{ fontSize: '0.9em', color: '#666' }}>
+                                <div key={idx} className="trajectory-item">
+                                    <div className="trajectory-title">{pd.institution}</div>
+                                    <div className="trajectory-details">
                                         {pd.advisor && (
                                             <>
                                                 Advisor: {renderAdvisor(pd.advisor)}
