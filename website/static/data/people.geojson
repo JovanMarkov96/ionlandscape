@@ -1004,6 +1004,234 @@
           35.0844
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "053-masao-kitano",
+        "name": "Masao Kitano",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Masao Kitano leads research in quantum optics and trapped-ion systems at Kyoto University. His work focuses on quantum information processing with ytterbium ions.",
+        "md_filename": "053-masao-kitano.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7681,
+          35.0116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "054-hiroki-takahashi",
+        "name": "Hiroki Takahashi",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Hiroki Takahashi leads the Quantum Systems Unit at OIST. His research focuses on trapped-ion quantum networks and cavity QED with calcium and barium ions.",
+        "md_filename": "054-hiroki-takahashi.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8308,
+          26.4633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "055-takashi-mukaiyama",
+        "name": "Takashi Mukaiyama",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Takashi Mukaiyama leads ion trap research at Osaka University focusing on quantum logic spectroscopy and optical clock development with calcium and indium ions.",
+        "md_filename": "055-takashi-mukaiyama.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5023,
+          34.6937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "056-kenji-toyoda",
+        "name": "Kenji Toyoda",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kenji Toyoda conducts trapped-ion research at Osaka University focusing on quantum simulation and quantum computing with calcium ions.",
+        "md_filename": "056-kenji-toyoda.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5023,
+          34.6937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "057-utako-tanaka",
+        "name": "Utako Tanaka",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Utako Tanaka conducts trapped-ion research at Osaka University focusing on microfabricated ion traps and quantum computing with calcium ions.",
+        "md_filename": "057-utako-tanaka.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5023,
+          34.6937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "058-atsushi-noguchi",
+        "name": "Atsushi Noguchi",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Atsushi Noguchi leads research at the University of Tokyo on hybrid quantum systems combining trapped beryllium ions with superconducting circuits.",
+        "md_filename": "058-atsushi-noguchi.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6503,
+          35.6762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "059-shuichi-hasegawa",
+        "name": "Shuichi Hasegawa",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Shuichi Hasegawa leads trapped-ion research at the University of Tokyo focusing on laser cooling and quantum control with calcium ions.",
+        "md_filename": "059-shuichi-hasegawa.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6503,
+          35.6762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "060-moonjoo-lee",
+        "name": "Moonjoo Lee",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Moonjoo Lee leads the trapped-ion quantum computing group at POSTECH (Pohang University of Science and Technology). His research focuses on quantum simulation and computing with ytterbium ions.",
+        "md_filename": "060-moonjoo-lee.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3435,
+          36.019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "061-taeyoung-choi",
+        "name": "Taeyoung Choi",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Taeyoung Choi leads trapped-ion research at Ewha Womans University in Seoul, focusing on quantum computing and quantum control with ytterbium ions.",
+        "md_filename": "061-taeyoung-choi.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "062-dan-cho",
+        "name": "Dan Cho",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dan Cho leads trapped-ion research at Seoul National University focusing on quantum information processing with ytterbium ions.",
+        "md_filename": "062-dan-cho.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "063-taehyun-kim",
+        "name": "Taehyun Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Taehyun Kim leads trapped-ion research at Seoul National University focusing on quantum computing and quantum networks with ytterbium ions.",
+        "md_filename": "063-taehyun-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "064-junki-kim",
+        "name": "Junki Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Junki Kim leads trapped-ion research at Sungkyunkwan University (SKKU) focusing on quantum computing and simulation with ytterbium and barium ions.",
+        "md_filename": "064-junki-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0286,
+          37.2636
+        ]
+      }
     }
   ]
 }

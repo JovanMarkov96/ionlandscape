@@ -3187,5 +3187,707 @@
     "md_filename": "052-dan-stick.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
+  },
+  {
+    "id": "053-masao-kitano",
+    "name": "Masao Kitano",
+    "sort_name": "Kitano, Masao",
+    "current_position": {
+      "institution": "Kyoto University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Kyoto",
+      "region": "Kyoto",
+      "country": "Japan",
+      "lat": 35.0116,
+      "lon": 135.7681
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum optics",
+      "trapped ions",
+      "quantum information"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Masao Kitano leads research in quantum optics and trapped-ion systems at Kyoto University. His work focuses on quantum information processing with ytterbium ions.",
+    "md_filename": "053-masao-kitano.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "054-hiroki-takahashi",
+    "name": "Hiroki Takahashi",
+    "sort_name": "Takahashi, Hiroki",
+    "current_position": {
+      "institution": "Okinawa Institute of Science and Technology (OIST)",
+      "title": "Associate Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Onna",
+      "region": "Okinawa",
+      "country": "Japan",
+      "lat": 26.4633,
+      "lon": 127.8308
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum networks",
+      "cavity QED",
+      "quantum information"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "Ba+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Hiroki Takahashi leads the Quantum Systems Unit at OIST. His research focuses on trapped-ion quantum networks and cavity QED with calcium and barium ions.",
+    "md_filename": "054-hiroki-takahashi.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "055-takashi-mukaiyama",
+    "name": "Takashi Mukaiyama",
+    "sort_name": "Mukaiyama, Takashi",
+    "current_position": {
+      "institution": "Osaka University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Osaka",
+      "region": "Osaka",
+      "country": "Japan",
+      "lat": 34.6937,
+      "lon": 135.5023
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum logic spectroscopy",
+      "optical clocks",
+      "precision measurement"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "In+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Takashi Mukaiyama leads ion trap research at Osaka University focusing on quantum logic spectroscopy and optical clock development with calcium and indium ions.",
+    "md_filename": "055-takashi-mukaiyama.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "056-kenji-toyoda",
+    "name": "Kenji Toyoda",
+    "sort_name": "Toyoda, Kenji",
+    "current_position": {
+      "institution": "Osaka University",
+      "title": "Associate Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Osaka",
+      "region": "Osaka",
+      "country": "Japan",
+      "lat": 34.6937,
+      "lon": 135.5023
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum simulation",
+      "quantum computing"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Kenji Toyoda conducts trapped-ion research at Osaka University focusing on quantum simulation and quantum computing with calcium ions.",
+    "md_filename": "056-kenji-toyoda.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "057-utako-tanaka",
+    "name": "Utako Tanaka",
+    "sort_name": "Tanaka, Utako",
+    "current_position": {
+      "institution": "Osaka University",
+      "title": "Associate Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Osaka",
+      "region": "Osaka",
+      "country": "Japan",
+      "lat": 34.6937,
+      "lon": 135.5023
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum computing",
+      "microfabricated traps"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Utako Tanaka conducts trapped-ion research at Osaka University focusing on microfabricated ion traps and quantum computing with calcium ions.",
+    "md_filename": "057-utako-tanaka.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "058-atsushi-noguchi",
+    "name": "Atsushi Noguchi",
+    "sort_name": "Noguchi, Atsushi",
+    "current_position": {
+      "institution": "University of Tokyo",
+      "title": "Associate Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Tokyo",
+      "region": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum electrodynamics",
+      "superconducting circuits",
+      "hybrid quantum systems"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Be+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Atsushi Noguchi leads research at the University of Tokyo on hybrid quantum systems combining trapped beryllium ions with superconducting circuits.",
+    "md_filename": "058-atsushi-noguchi.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "059-shuichi-hasegawa",
+    "name": "Shuichi Hasegawa",
+    "sort_name": "Hasegawa, Shuichi",
+    "current_position": {
+      "institution": "University of Tokyo",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Tokyo",
+      "region": "Tokyo",
+      "country": "Japan",
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum control",
+      "laser cooling"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Shuichi Hasegawa leads trapped-ion research at the University of Tokyo focusing on laser cooling and quantum control with calcium ions.",
+    "md_filename": "059-shuichi-hasegawa.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "060-moonjoo-lee",
+    "name": "Moonjoo Lee",
+    "sort_name": "Lee, Moonjoo",
+    "current_position": {
+      "institution": "POSTECH",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Pohang",
+      "region": "North Gyeongsang",
+      "country": "South Korea",
+      "lat": 36.019,
+      "lon": 129.3435
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum computing",
+      "quantum simulation"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Moonjoo Lee leads the trapped-ion quantum computing group at POSTECH (Pohang University of Science and Technology). His research focuses on quantum simulation and computing with ytterbium ions.",
+    "md_filename": "060-moonjoo-lee.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "061-taeyoung-choi",
+    "name": "Taeyoung Choi",
+    "sort_name": "Choi, Taeyoung",
+    "current_position": {
+      "institution": "Ewha Womans University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Seoul",
+      "region": "Seoul",
+      "country": "South Korea",
+      "lat": 37.5665,
+      "lon": 126.978
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum computing",
+      "quantum control"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Taeyoung Choi leads trapped-ion research at Ewha Womans University in Seoul, focusing on quantum computing and quantum control with ytterbium ions.",
+    "md_filename": "061-taeyoung-choi.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "062-dan-cho",
+    "name": "Dan Cho",
+    "sort_name": "Cho, Dan",
+    "current_position": {
+      "institution": "Seoul National University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Seoul",
+      "region": "Seoul",
+      "country": "South Korea",
+      "lat": 37.5665,
+      "lon": 126.978
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum information",
+      "atomic physics"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Dan Cho leads trapped-ion research at Seoul National University focusing on quantum information processing with ytterbium ions.",
+    "md_filename": "062-dan-cho.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "063-taehyun-kim",
+    "name": "Taehyun Kim",
+    "sort_name": "Kim, Taehyun",
+    "current_position": {
+      "institution": "Seoul National University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Seoul",
+      "region": "Seoul",
+      "country": "South Korea",
+      "lat": 37.5665,
+      "lon": 126.978
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum computing",
+      "quantum networks"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Taehyun Kim leads trapped-ion research at Seoul National University focusing on quantum computing and quantum networks with ytterbium ions.",
+    "md_filename": "063-taehyun-kim.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "064-junki-kim",
+    "name": "Junki Kim",
+    "sort_name": "Kim, Junki",
+    "current_position": {
+      "institution": "Sungkyunkwan University (SKKU)",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Suwon",
+      "region": "Gyeonggi",
+      "country": "South Korea",
+      "lat": 37.2636,
+      "lon": 127.0286
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": null,
+        "year": null,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum computing",
+      "quantum simulation"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+",
+      "Ba+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Junki Kim leads trapped-ion research at Sungkyunkwan University (SKKU) focusing on quantum computing and simulation with ytterbium and barium ions.",
+    "md_filename": "064-junki-kim.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
   }
 ]
