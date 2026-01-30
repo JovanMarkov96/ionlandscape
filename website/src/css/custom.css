@@ -135,7 +135,8 @@ body,
     right: 0;
     width: 100%;
     height: 100%;
-    z-index: 999;
+    z-index: 2000;
+    /* Higher than Leaflet controls (1000) */
     transform: translateX(100%);
     border-left: none;
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.2);
@@ -489,4 +490,37 @@ html:has(.groups-page),
 
 [data-theme='dark'] .trajectory-item {
   border-left-color: var(--ifm-color-emphasis-200);
+}
+
+/* ===== Force Navbar Items on Mobile (No Hamburger) ===== */
+@media screen and (max-width: 996px) {
+
+  /* Hide hamburger */
+  .navbar__toggle {
+    display: none !important;
+  }
+
+  /* Force desktop links to show */
+  .navbar__items,
+  .navbar__items--right {
+    display: flex !important;
+    align-items: center;
+  }
+
+  /* Ensure individual items are visible */
+  .navbar__item {
+    display: inline-block !important;
+    padding: 0 5px;
+    /* Tight padding */
+  }
+
+  /* Reduce brand margin to save space */
+  .navbar__brand {
+    margin-right: 5px !important;
+  }
+
+  /* Hide the mobile sidebar container entirely just in case */
+  .navbar-sidebar {
+    display: none !important;
+  }
 }
