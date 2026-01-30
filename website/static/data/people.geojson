@@ -762,10 +762,9 @@
         "id": "040-vladan-vuletic",
         "name": "Vladan Vuletić",
         "platforms": [
-          "Trapped ions",
           "Neutral atoms"
         ],
-        "short_bio": "Vladan Vuletić leads the Experimental Atomic Physics Group at MIT's Center for Ultracold Atoms. His research spans trapped ions and ultracold neutral atoms, with focus on cavity QED, quantum optics, and quantum information processing.",
+        "short_bio": "Vladan Vuletić is the Lester Wolfe Professor of Physics at MIT. His research focuses on ultracold atoms, quantum optics, and quantum information processing. He is also a co-founder and the Chief Technology Officer (CTO) of QuEra Computing Inc., a company developing neutral-atom quantum computers.",
         "md_filename": "040-vladan-vuletic.md"
       },
       "geometry": {

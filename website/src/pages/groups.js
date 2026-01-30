@@ -8,6 +8,7 @@ import { useLocation, useHistory } from 'react-router-dom';
  * 
  * Displays a searchable and filterable list of research groups/people.
  * Supports filtering by:
+ * - Category (Trapped Ions / Neutral Atoms)
  * - Search query (Name)
  * - Label (e.g., "Trapped Ions")
  * - Ion Species
@@ -31,6 +32,9 @@ function Groups() {
 
     // Local state for search to avoid URL round-trip lag while typing
     const [localSearch, setLocalSearch] = useState(searchQuery);
+
+    // Category state (Trapped Ions vs Neutral Atoms)
+    const [category, setCategory] = useState('All');
 
     // Sync local state when external URL changes (e.g. back button)
     // Avoid overwriting if user is actively typing (input focused)
@@ -103,6 +107,19 @@ function Groups() {
         if (!people.length) return [];
 
         return people.filter(p => {
+            // 0. Category Filter
+            if (category !== 'All') {
+                const platforms = p.platforms || [];
+                const isNeutrals = platforms.some(pl => pl.toLowerCase().includes('neutral'));
+
+                if (category === 'Neutral Atoms') {
+                    if (!isNeutrals) return false;
+                } else if (category === 'Trapped Ions') {
+                    // If specifically Neutral Atoms, exclude from Trapped Ions view (unless they are both, but assume disjoint for now based on user request)
+                    if (isNeutrals) return false;
+                }
+            }
+
             // 1. Search Query (Name)
             if (searchQuery) {
                 const q = searchQuery.toLowerCase();
@@ -136,7 +153,7 @@ function Groups() {
 
             return true;
         });
-    }, [people, searchQuery, labelFilters, ionFilters, instFilters, countryFilters]);
+    }, [people, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
 
     // Update URL with new filters
     const updateUrl = (newParams) => {
@@ -206,6 +223,22 @@ function Groups() {
             <div className="groups-page container margin-vert--lg">
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
                     <h1>Research Groups</h1>
+                </div>
+
+                {/* Category Toggle */}
+                <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
+                    <div className="button-group">
+                        {['All', 'Trapped Ions', 'Neutral Atoms'].map(cat => (
+                            <button
+                                key={cat}
+                                className={`button button--${category === cat ? 'primary' : 'outline-primary'}`}
+                                onClick={() => setCategory(cat)}
+                                style={{ margin: '0 5px' }}
+                            >
+                                {cat}
+                            </button>
+                        ))}
+                    </div>
                 </div>
 
                 {/* Filter Bar */}
