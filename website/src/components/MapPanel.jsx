@@ -1,5 +1,6 @@
 // website/src/components/MapPanel.jsx
 import React, { useEffect, useMemo } from 'react';
+import { useColorMode } from '@docusaurus/theme-common';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -80,11 +81,19 @@ function MapPanel({ onPersonSelect, onLocationSelect }) {
     // Group features by coordinate
     const coordGroups = useMemo(() => groupByCoordinate(people), [people]);
 
+    // Docusaurus color mode hook
+    const { colorMode } = useColorMode();
+    const isDark = colorMode === 'dark';
+
+    // CartoDB Tile URLs
+    const lightTile = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png";
+    const darkTile = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
+
     return (
         <MapContainer center={defaultCenter} zoom={defaultZoom} style={{ height: '100%', width: '100%' }}>
             <TileLayer
-                attribution='&copy; OpenStreetMap contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                url={isDark ? darkTile : lightTile}
             />
             {Array.from(coordGroups.entries()).map(([coordKey, group]) => {
                 const firstFeature = group[0];
