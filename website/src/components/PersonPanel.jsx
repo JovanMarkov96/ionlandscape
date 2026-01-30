@@ -127,7 +127,7 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
                 </button>
             )}
             <div className="person-panel-header">
-                <h2>{person.name} <span style={{ fontSize: '0.6em', color: '#ccc' }}>(v1.1)</span></h2>
+                <h2>{person.name}</h2>
             </div>
             <p><em>{person.current_position && person.current_position.title} — {person.current_position && person.current_position.institution}</em></p>
             <p><strong>Platforms:</strong> {(person.platforms || []).join(', ')}</p>
