@@ -33,12 +33,14 @@ function Groups() {
     const [localSearch, setLocalSearch] = useState(searchQuery);
 
     // Sync local state when external URL changes (e.g. back button)
-    // Only if local state is clearly stale compared to URL (simple check)
-    // Actually, simple sync is risky if user is typing. 
-    // But usually URL changes only via pushes. 
-    // If we only sync when searchQuery changes and it's different.
+    // Avoid overwriting if user is actively typing (input focused)
     useEffect(() => {
-        setLocalSearch(searchQuery);
+        const searchInput = document.getElementById('search-input');
+        const isFocused = document.activeElement === searchInput;
+
+        if (!isFocused && searchQuery !== localSearch) {
+            setLocalSearch(searchQuery);
+        }
     }, [searchQuery]);
 
     // Debounce URL update
@@ -160,8 +162,16 @@ function Groups() {
             country: countryFilters
         };
 
-        if (current[type].includes(value)) return;
-        current[type] = [...current[type], value];
+        // Single-select logic for Institution and Country
+        if (type === 'inst' || type === 'country') {
+            // Replace existing selection with new one
+            current[type] = [value];
+        } else {
+            // Multi-select for others
+            if (current[type].includes(value)) return;
+            current[type] = [...current[type], value];
+        }
+
         updateUrl(current);
     };
 
@@ -203,6 +213,7 @@ function Groups() {
                     {/* Search Input */}
                     <div style={{ marginBottom: '16px' }}>
                         <input
+                            id="search-input"
                             type="text"
                             className="filter-select"
                             style={{ width: '100%', maxWidth: '400px', cursor: 'text' }}
