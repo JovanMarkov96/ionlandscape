@@ -28,6 +28,16 @@ function Groups() {
     }, [people]);
 
     useEffect(() => {
+        // Force body scrolling when on the groups page
+        // This is a robust fix for the "no scrolling" issue regardless of CSS support
+        document.body.style.overflow = 'auto';
+
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, []);
+
+    useEffect(() => {
         fetch('/ionlandscape/data/people.json')
             .then(res => res.json())
             .then(data => {

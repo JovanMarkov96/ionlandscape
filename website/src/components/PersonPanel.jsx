@@ -1,6 +1,7 @@
 // website/src/components/PersonPanel.jsx
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import Link from '@docusaurus/Link';
 
 function PersonPanel({ personId, location, onPersonSelect, onClose }) {
     const [people, setPeople] = useState([]);
@@ -41,8 +42,6 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
     const renderAdvisor = (advisorName) => {
         if (!advisorName) return null;
 
-        // Try to find the advisor in the people list
-        // Normalize comparison (optional, but good for safety)
         const advisor = people.find(p =>
             (p.name && p.name.toLowerCase() === advisorName.toLowerCase()) ||
             (p.sort_name && p.sort_name.toLowerCase() === advisorName.toLowerCase()) ||
@@ -62,16 +61,35 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
         return <span>{advisorName}</span>;
     };
 
+    const handleClose = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (onClose) onClose();
+    };
+
+    // --- Content Rendering Checks ---
+
+    // 1. Location View (No person selected, but location selected)
     if (location && !person) {
         return (
-            <div style={{ padding: 16 }}>
+            <div style={{ padding: 16, position: 'relative' }}>
+                {onClose && (
+                    <button
+                        className="close-panel-btn"
+                        onClick={handleClose}
+                        aria-label="Close location view"
+                    >
+                        ✕
+                    </button>
+                )}
                 <h3>{location.city}, {location.country}</h3>
                 <p>People at this location (click a marker):</p>
-                {/* List people at this location if desired, similar to MapPanel popup logic */}
+                {/* List people at this location if desired */}
             </div>
         );
     }
 
+    // 2. Initial / Empty View
     if (!person) {
         return (
             <div style={{ padding: 16 }}>
@@ -81,12 +99,13 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
         );
     }
 
+    // 3. Person Profile View
     return (
         <div style={{ padding: 16, position: 'relative' }}>
             {onClose && (
                 <button
                     className="close-panel-btn"
-                    onClick={onClose}
+                    onClick={handleClose}
                     aria-label="Close profile"
                 >
                     ✕
@@ -101,18 +120,24 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
 
             <div style={{ marginBottom: 12 }}>
                 {person.labels?.map(l => (
-                    <a key={l} href={`/ionlandscape/groups?label=${encodeURIComponent(l)}`}
+                    <Link
+                        key={l}
+                        to={`/groups?label=${encodeURIComponent(l)}`}
                         className="badge badge--primary margin-right--xs"
-                        style={{ textDecoration: 'none', color: 'white' }}>
+                        style={{ textDecoration: 'none', color: 'white' }}
+                    >
                         {l}
-                    </a>
+                    </Link>
                 ))}
                 {person.ion_species?.map(s => (
-                    <a key={s} href={`/ionlandscape/groups?ion=${encodeURIComponent(s)}`}
+                    <Link
+                        key={s}
+                        to={`/groups?ion=${encodeURIComponent(s)}`}
                         className="badge badge--secondary margin-right--xs"
-                        style={{ textDecoration: 'none', color: 'black' }}>
+                        style={{ textDecoration: 'none', color: 'black' }}
+                    >
                         {s}
-                    </a>
+                    </Link>
                 ))}
             </div>
 
@@ -132,7 +157,6 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
                 <ReactMarkdown>{mdBody}</ReactMarkdown>
             </div>
 
-            {/* Academic Trajectory / Education & Postdocs */}
             {(person.education?.length > 0 || person.postdocs?.length > 0) && (
                 <>
                     <hr />

@@ -197,7 +197,7 @@ async function testMobileResponsive() {
                 if (closeBtn) {
                     // Click it
                     await closeBtn.click();
-                    await delay(500);
+                    await delay(2000);
 
                     // Check if person is deselected (e.g. text "Click a marker" appears in panel)
                     const panelText = await page.evaluate(() => {
@@ -207,6 +207,10 @@ async function testMobileResponsive() {
 
                     const isCleared = panelText.includes('Click a marker') || panelText.includes('Ion Landscape');
                     console.log('  ✅ Panel verified cleared/closed:', isCleared);
+
+                    if (!isCleared) {
+                        console.log('     ❌ FAILED text content check. Got start of text: ', panelText.substring(0, 50).replace(/\n/g, ' '));
+                    }
                 } else {
                     console.log('  ⚠️ Close button NOT found (Profile might not have loaded or CSS issue)');
                 }
