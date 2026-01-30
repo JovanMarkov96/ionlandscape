@@ -2,6 +2,15 @@
 
 Interactive map & academic family tree for trapped-ion and neutral-atom quantum computing.
 
+## Data Sources
+
+This dataset was compiled using various authoritative sources, including:
+
+- **[Ion Trapping Worldwide](https://quantumoptics.at/en/links/ion-trapping-worldwide.html)** - Comprehensive list of ion trapping groups maintained by the Blatt group at the University of Innsbruck
+- Institutional websites and faculty pages
+- Google Scholar and ORCID profiles
+- Published papers and PhD theses
+
 ## Local dev
 
 1. Install Python deps:
