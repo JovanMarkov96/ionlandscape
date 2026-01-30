@@ -1,4 +1,6 @@
 source,target,type
+christopher-monroe,023-crystal-senko,advisor
+023-crystal-senko,open-quantum-design,affiliated_with
 roee-ozeri,002-ziv-meir,advisor
 roee-ozeri,002-ziv-meir,advisor
 roee-ozeri,002-ziv-meir,postdoc_advisor
@@ -16,8 +18,11 @@ günter-werth,017-rainer-blatt,advisor
 john-l-hall,017-rainer-blatt,postdoc_advisor
 017-rainer-blatt,alpine-quantum-technologies-(aqt),affiliated_with
 yoshihisa-yamamoto,010-jungsang-kim,advisor
+christopher-monroe,022-rajibul-islam,advisor
+022-rajibul-islam,open-quantum-design,affiliated_with
 arthur-pipkin,008-john-bollinger,advisor
 günter-werth,009-hartmut-haeffner,advisor
+021-mike-biercuk,q-ctrl,affiliated_with
 nir-davidson,001-roee-ozeri,advisor
 david-j-wineland,001-roee-ozeri,postdoc_advisor
 001-roee-ozeri,quantum-art,affiliated_with
@@ -27,6 +32,7 @@ david-j-wineland,004-christopher-monroe,postdoc_advisor
 rainer-blatt,005-christian-roos,advisor
 rainer-blatt,014-thomas-monz,advisor
 014-thomas-monz,alpine-quantum-technologies-(aqt),affiliated_with
+wolfgang-ketterle,026-erik-streed,advisor
 theodor-w-hänsch,007-dietrich-leibfried,advisor
 wonho-jhe,011-kihwan-kim,advisor
 theodor-w-hänsch,013-ferdinand-schmidt-kaler,advisor

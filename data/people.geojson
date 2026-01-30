@@ -4,6 +4,63 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "023-crystal-senko",
+        "name": "Crystal Senko",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Crystal Senko is an Assistant Professor at the Institute for Quantum Computing (IQC) at the University of Waterloo. Her research focuses on trapped-ion quantum simulation and quantum computing. She co-founded Open Quantum Design alongside Rajibul Islam, Roger Melko, and Greg Dick, creating the world's first open-source, full-stack trapped-ion quantum computer.",
+        "md_filename": "023-crystal-senko.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5204,
+          43.4643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "049-patrick-gill",
+        "name": "Patrick Gill",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Patrick Gill co-leads the Time & Frequency department at NPL. He is a world-leading pioneer in optical frequency standards and trapped-ion optical clocks, particularly using strontium and ytterbium ions for high-precision metrology.",
+        "md_filename": "049-patrick-gill.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3429,
+          51.4275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "031-jeroen-koelemeij",
+        "name": "Jeroen C. J. Koelemeij",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Jeroen C. J. Koelemeij leads the HD+ spectroscopy team at VU Amsterdam. His research focuses on precision spectroscopy of molecular hydrogen ions (HD+) for tests of fundamental physics and determination of fundamental constants.",
+        "md_filename": "031-jeroen-koelemeij.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9041,
+          52.3676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "002-ziv-meir",
         "name": "Ziv Meir",
         "platforms": [
@@ -20,6 +77,139 @@
         "coordinates": [
           34.8106,
           31.9066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "029-christof-wunderlich",
+        "name": "Christof Wunderlich",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Christof Wunderlich leads the Quantum Optics Research Group at the University of Siegen. His group is known for pioneering work on microwave-driven quantum logic with trapped ytterbium ions and magnetic gradient traps for quantum information processing.",
+        "md_filename": "029-christof-wunderlich.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0243,
+          50.8748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "036-richard-thompson",
+        "name": "Richard C. Thompson",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Richard C. Thompson leads the Ion Trapping Group at Imperial College London. His group has been a long-established center for trapped-ion quantum information research, working with calcium ions on quantum computing and fundamental ion trap technology.",
+        "md_filename": "036-richard-thompson.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1278,
+          51.5074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "069-michael-biercuk",
+        "name": "Michael J. Biercuk",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Michael J. Biercuk leads the Quantum Control Laboratory at the University of Sydney and is a founder of Q-CTRL. His research focuses on quantum control techniques for trapped ytterbium ions.",
+        "md_filename": "069-michael-biercuk.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2093,
+          -33.8688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "020-luming-duan",
+        "name": "Luming Duan",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Luming Duan is a Yao Qizhi Chair Professor at Tsinghua University's Institute for Interdisciplinary Information Sciences (IIIS) and an Academician of the Chinese Academy of Sciences. His group has achieved major breakthroughs in trapped-ion quantum simulation, including stable trapping of up to 512 ions and quantum simulations with 300 ion qubits—the largest-scale multi-ion quantum simulation with single-qubit resolution to date. He is known for the DLCZ protocol for long-distance quantum communication.",
+        "md_filename": "020-luming-duan.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "088-jungsang-kim",
+        "name": "Jungsang Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Jungsang Kim is Chief Scientist at Quantinuum and Professor at Duke University. A pioneer in scalable trapped-ion quantum computing and integrated photonics for ion traps.\n</Parameter>\n<parameter name=\"Complexity\">3",
+        "md_filename": "088-jungsang-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8986,
+          35.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "086-tracy-northup",
+        "name": "Tracy E. Northup",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Tracy E. Northup leads the Quantum Interfaces group at the University of Innsbruck, focusing on cavity QED with trapped ions for quantum networks.",
+        "md_filename": "086-tracy-northup.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4041,
+          47.2692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "048-hermann-uys",
+        "name": "Hermann Uys",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Hermann Uys leads the trapped ion research group at Stellenbosch University and the CSIR in South Africa. His work focuses on trapped ytterbium ions for quantum control, simulation of many-body physics, and quantum thermodynamics.",
+        "md_filename": "048-hermann-uys.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8602,
+          -33.9321
         ]
       }
     },
@@ -45,6 +235,159 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "067-wenhui-li",
+        "name": "Wenhui Li",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.",
+        "md_filename": "067-wenhui-li.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "076-matthias-keller",
+        "name": "Matthias Keller",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Matthias Keller leads trapped-ion research at the University of Birmingham focusing on ion-photon interfaces and cavity QED for quantum networks.",
+        "md_filename": "076-matthias-keller.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8904,
+          52.4862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "030-rene-gerritsma",
+        "name": "Rene Gerritsma",
+        "platforms": [
+          "Trapped ions",
+          "Neutral atoms"
+        ],
+        "short_bio": "Rene Gerritsma leads research on Hybrid Atom-Ion Quantum Systems at the University of Amsterdam. His group explores the interface between ultracold neutral atoms and trapped ions for quantum simulation and quantum information applications.",
+        "md_filename": "030-rene-gerritsma.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9041,
+          52.3676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "087-ben-lanyon",
+        "name": "Ben P. Lanyon",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Ben P. Lanyon leads quantum networking research at the University of Innsbruck, demonstrating long-distance entanglement distribution with trapped calcium ions.",
+        "md_filename": "087-ben-lanyon.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4041,
+          47.2692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "041-isaac-chuang",
+        "name": "Isaac L. Chuang",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Isaac L. Chuang leads the Quanta Group at MIT's Center for Ultracold Atoms. A pioneer in quantum computing, his research includes trapped-ion quantum information processing with strontium ions, quantum algorithms, and quantum error correction.",
+        "md_filename": "041-isaac-chuang.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0942,
+          42.3601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "083-boris-blinov",
+        "name": "Boris B. Blinov",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Boris B. Blinov leads the Trapped Ion Quantum Computing group at the University of Washington, focusing on barium ion quantum networks and ion-photon entanglement.",
+        "md_filename": "083-boris-blinov.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321,
+          47.6062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "043-kilian-singer",
+        "name": "Kilian Singer",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kilian Singer leads the Trapped Ion Quantum Information and Thermodynamics group at the University of Kassel. His research focuses on single-ion heat engines, thermodynamics in the quantum regime, and scalable ion trap technologies.",
+        "md_filename": "043-kilian-singer.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4797,
+          51.3127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "018-michael-drewsen",
+        "name": "Michael Drewsen",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Michael Drewsen is a professor at Aarhus University and leads research in trapped-ion physics, with particular focus on molecular ions, Coulomb crystals, and quantum simulation. His group has made significant contributions to sympathetic cooling techniques and precision spectroscopy of molecular ions.",
+        "md_filename": "018-michael-drewsen.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2039,
+          56.1629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "012-winfried-hensinger",
         "name": "Winfried K. Hensinger",
         "platforms": [
@@ -58,6 +401,102 @@
         "coordinates": [
           -0.0878,
           50.8674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "078-david-wineland-jr",
+        "name": "David J. Wineland",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "David J. Wineland is a Nobel Laureate (2012) and pioneer of trapped-ion quantum computing. Currently at the University of Oregon after his foundational work at NIST Boulder.",
+        "md_filename": "078-david-wineland.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0868,
+          44.0521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "028-juergen-eschner",
+        "name": "Jürgen Eschner",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Jürgen Eschner leads the Quantum Photonics Group at Saarland University, focusing on trapped-ion quantum information processing with calcium ions, quantum networks, and atom-photon interfaces.",
+        "md_filename": "028-juergen-eschner.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9969,
+          49.2401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "039-wes-campbell",
+        "name": "Wesley C. Campbell",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Wesley C. Campbell leads the Campbell Lab at UCLA, focusing on trapped-ion quantum simulation and quantum computing with ytterbium ions. His research also includes precision measurement and optical atomic clocks.",
+        "md_filename": "039-wes-campbell.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "033-dzmitry-matsukevich",
+        "name": "Dzmitry Matsukevich",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dzmitry Matsukevich leads research on trapped molecular ions at the Centre for Quantum Technologies (CQT) in Singapore. His group works on quantum networking and quantum communication using ytterbium and molecular ions (SiO+), focusing on ion-photon entanglement.",
+        "md_filename": "033-dzmitry-matsukevich.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "044-johannes-hecker-denschlag",
+        "name": "Johannes Hecker Denschlag",
+        "platforms": [
+          "Trapped ions",
+          "Neutral atoms"
+        ],
+        "short_bio": "Johannes Hecker Denschlag leads the Institute for Quantum Matter at Ulm University. His group investigates ultracold quantum gases and hybrid systems of trapped ions and neutral atoms (Ba+ and Rb), focusing on cold collisions and quantum chemistry.",
+        "md_filename": "044-johannes-hecker-denschlag.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9876,
+          48.4011
         ]
       }
     },
@@ -84,6 +523,120 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "027-lukas-slod icka",
+        "name": "Lukáš Slodička",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Lukáš Slodička leads the Trapped Ions group in the Department of Optics at Palacký University Olomouc, Czech Republic. His research focuses on quantum optics with trapped ions, particularly atom-light interactions and efficient ion-photon interfaces. He completed his PhD at the University of Innsbruck, working on trapped ion crystals for quantum bit implementation.",
+        "md_filename": "027-lukas-slodicka.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2509,
+          49.5938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "038-eric-hudson",
+        "name": "Eric R. Hudson",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Eric R. Hudson leads the Hudson Lab at UCLA, focusing on trapped molecular ions, ultracold chemistry, and quantum simulation. His group works with barium, ytterbium, and molecular ions to explore ion-neutral collisions and chemical reactions at ultracold temperatures.",
+        "md_filename": "038-eric-hudson.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "065-kihwan-kim",
+        "name": "Kihwan Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kihwan Kim leads a major trapped-ion quantum computing group at USTC in Hefei, China. His research focuses on large-scale quantum simulation and computing with ytterbium and barium ions.",
+        "md_filename": "065-kihwan-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2272,
+          31.8206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "045-kazuhiro-hayasaka",
+        "name": "Kazuhiro Hayasaka",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kazuhiro Hayasaka leads the Space-Time Standards Laboratory at NICT in Kobe, Japan. His research focuses on developing high-precision optical clocks using trapped indium and calcium ions for frequency standards and metrology.",
+        "md_filename": "045-kazuhiro-hayasaka.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.1955,
+          34.6901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "068-mirko-lobino",
+        "name": "Mirko Lobino",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Mirko Lobino leads quantum photonics and trapped-ion research at Griffith University in Brisbane, Australia, focusing on hybrid quantum systems.",
+        "md_filename": "068-mirko-lobino.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.026,
+          -27.4705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "054-hiroki-takahashi",
+        "name": "Hiroki Takahashi",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Hiroki Takahashi leads the Quantum Systems Unit at OIST. His research focuses on trapped-ion quantum networks and cavity QED with calcium and barium ions.",
+        "md_filename": "054-hiroki-takahashi.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8308,
+          26.4633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "016-jonathan-home",
         "name": "Jonathan P. Home",
         "platforms": [
@@ -97,6 +650,25 @@
         "coordinates": [
           8.5072,
           47.4083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "077-brian-mcmahon",
+        "name": "Brian McMahon",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Brian McMahon leads trapped-ion research at Georgia Tech focusing on quantum computing and quantum networks.",
+        "md_filename": "077-brian-mcmahon.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.388,
+          33.749
         ]
       }
     },
@@ -119,6 +691,25 @@
         "coordinates": [
           -123.0728292,
           44.0496255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "051-john-chiaverini",
+        "name": "John Chiaverini",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "John Chiaverini leads trapped-ion research at MIT Lincoln Laboratory. His work focuses on scalable quantum computing architectures, integrated photonics for ion traps, and surface-electrode trap technology.",
+        "md_filename": "051-john-chiaverini.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2272,
+          42.4473
         ]
       }
     },
@@ -166,6 +757,82 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "022-rajibul-islam",
+        "name": "K. Rajibul Islam",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "K. Rajibul Islam is an Associate Professor at the Institute for Quantum Computing (IQC) and the Department of Physics and Astronomy at the University of Waterloo. His research focuses on experimental quantum many-body physics, particularly quantum simulation of frustrated spin models with trapped ions. He leads the Laboratory for Quantum Information with Trapped Ions (QITI) and co-founded Open Quantum Design, offering the world's first open-source, full-stack trapped-ion quantum computer.",
+        "md_filename": "022-rajibul-islam.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5204,
+          43.4643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "071-paul-barclay",
+        "name": "Paul Barclay",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Paul Barclay leads quantum photonics research at Simon Fraser University focusing on hybrid quantum systems and diamond-based quantum technologies.",
+        "md_filename": "071-paul-barclay.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1207,
+          49.2827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "085-ferdinand-schmidt-kaler",
+        "name": "Ferdinand Schmidt-Kaler",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Ferdinand Schmidt-Kaler leads the QUANTUM group at Universität Mainz, pioneering work on trapped-ion quantum computing, quantum simulation, and Rydberg excitation of ions.",
+        "md_filename": "085-ferdinand-schmidt-kaler.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2473,
+          49.9929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "035-stefan-willitsch",
+        "name": "Stefan Willitsch",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Stefan Willitsch leads the Willitsch Group at the University of Basel. His research focuses on trapped molecular ions, ion-molecule reactions at ultracold temperatures, and applications of trapped ions to quantum chemistry and chemical physics.",
+        "md_filename": "035-stefan-willitsch.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5886,
+          47.5596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "008-john-bollinger",
         "name": "John J. Bollinger",
         "platforms": [
@@ -205,6 +872,273 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "079-dietrich-leibfried",
+        "name": "Dietrich Leibfried",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dietrich Leibfried leads the Ion Storage Group at NIST Boulder, continuing the foundational work on trapped-ion quantum computing and quantum logic spectroscopy.",
+        "md_filename": "079-dietrich-leibfried.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2705,
+          40.015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "063-taehyun-kim",
+        "name": "Taehyun Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Taehyun Kim leads trapped-ion research at Seoul National University focusing on quantum computing and quantum networks with ytterbium ions.",
+        "md_filename": "063-taehyun-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "021-mike-biercuk",
+        "name": "Michael J. Biercuk",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Michael J. Biercuk is a quantum physicist and Director of the Quantum Control Laboratory at the University of Sydney. He is also the founder and CEO of Q-CTRL, a quantum technology company. His research focuses on quantum control techniques for trapped ions, quantum error suppression, and developing practical quantum technologies.",
+        "md_filename": "021-mike-biercuk.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2093,
+          -33.8688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "037-david-lucas",
+        "name": "David M. Lucas",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "David M. Lucas leads the Ion Trap Quantum Computing Group at the University of Oxford alongside Andrew Steane. The Oxford group is one of the world's leading centers for trapped-ion quantum computing, working with calcium and strontium ions on quantum error correction, high-fidelity quantum gates, and optical clocks.",
+        "md_filename": "037-david-lucas.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2577,
+          51.752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "046-kjeld-eikema",
+        "name": "Kjeld S. E. Eikema",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kjeld S. E. Eikema leads the Ultrafast Laser Physics and Precision Metrology group at VU Amsterdam. His research combines frequency combs with trapped ions for extreme precision measurements and tests of fundamental physics.",
+        "md_filename": "046-kjeld-eikema.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9041,
+          52.3676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "084-tilman-esslinger",
+        "name": "Tilman Esslinger",
+        "platforms": [
+          "Trapped ions",
+          "Neutral atoms"
+        ],
+        "short_bio": "Tilman Esslinger leads the Quantum Optics Group at ETH Zürich, known for ultracold atom experiments and increasingly exploring hybrid ion-atom systems.",
+        "md_filename": "084-tilman-esslinger.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5417,
+          47.3769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "066-luyan-sun",
+        "name": "Luyan Sun",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Luyan Sun leads quantum information research at Tsinghua University focusing on hybrid quantum systems and trapped-ion quantum computing.",
+        "md_filename": "066-luyan-sun.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "061-taeyoung-choi",
+        "name": "Taeyoung Choi",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Taeyoung Choi leads trapped-ion research at Ewha Womans University in Seoul, focusing on quantum computing and quantum control with ytterbium ions.",
+        "md_filename": "061-taeyoung-choi.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "058-atsushi-noguchi",
+        "name": "Atsushi Noguchi",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Atsushi Noguchi leads research at the University of Tokyo on hybrid quantum systems combining trapped beryllium ions with superconducting circuits.",
+        "md_filename": "058-atsushi-noguchi.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6503,
+          35.6762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "034-manas-mukherjee",
+        "name": "Manas Mukherjee",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Manas Mukherjee leads the Cold Ion Group at the Centre for Quantum Technologies (CQT) in Singapore. His research focuses on trapped-ion quantum computing and quantum simulation with barium ions.",
+        "md_filename": "034-manas-mukherjee.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "059-shuichi-hasegawa",
+        "name": "Shuichi Hasegawa",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Shuichi Hasegawa leads trapped-ion research at the University of Tokyo focusing on laser cooling and quantum control with calcium ions.",
+        "md_filename": "059-shuichi-hasegawa.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6503,
+          35.6762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "080-david-hume",
+        "name": "David Hume",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clock using quantum logic spectroscopy.",
+        "md_filename": "080-david-hume.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2705,
+          40.015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "073-michael-drewsen",
+        "name": "Michael Drewsen",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Michael Drewsen leads the Ion Trap Group at Aarhus University, pioneering work on large ion Coulomb crystals, sympathetic cooling, and molecular ion spectroscopy.",
+        "md_filename": "073-michael-drewsen.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2039,
+          56.1629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "072-sadiq-rangwala",
+        "name": "S. A. Rangwala",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "S. A. Rangwala leads cold atoms and ions research at Raman Research Institute/IISER Pune, focusing on hybrid ion-atom systems and cold collisions.",
+        "md_filename": "072-sadiq-rangwala.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8567,
+          18.5204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "001-roee-ozeri",
         "name": "Roee Ozeri",
         "platforms": [
@@ -226,6 +1160,63 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "042-kenneth-brown",
+        "name": "Kenneth R. Brown",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kenneth R. Brown leads a major trapped-ion quantum computing group at Duke University. His research focuses on quantum error correction, fault-tolerant quantum computing, and quantum control with calcium, ytterbium, and boron ions.",
+        "md_filename": "042-kenneth-brown.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8986,
+          35.994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "064-junki-kim",
+        "name": "Junki Kim",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Junki Kim leads trapped-ion research at Sungkyunkwan University (SKKU) focusing on quantum computing and simulation with ytterbium and barium ions.",
+        "md_filename": "064-junki-kim.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0286,
+          37.2636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "052-dan-stick",
+        "name": "Dan Stick",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dan Stick leads the trapped ion trap fabrication and testing efforts at Sandia National Laboratories. His High Optical Access (HOA) surface traps are widely used in the community, and his research focuses on integrating optics and improving trap technologies for quantum computing.",
+        "md_filename": "052-dan-stick.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.6504,
+          35.0844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "004-christopher-monroe",
         "name": "Christopher R. Monroe",
         "platforms": [
@@ -239,6 +1230,82 @@
         "coordinates": [
           -78.9377,
           36.0033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "082-piet-schmidt",
+        "name": "Piet O. Schmidt",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Piet O. Schmidt leads trapped-ion optical clock research at PTB and Leibniz University Hannover, developing ultra-precise frequency standards using quantum logic spectroscopy.",
+        "md_filename": "082-piet-schmidt.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5268,
+          52.2689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "053-masao-kitano",
+        "name": "Masao Kitano",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Masao Kitano leads research in quantum optics and trapped-ion systems at Kyoto University. His work focuses on quantum information processing with ytterbium ions.",
+        "md_filename": "053-masao-kitano.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7681,
+          35.0116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "060-moonjoo-lee",
+        "name": "Moonjoo Lee",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Moonjoo Lee leads the trapped-ion quantum computing group at POSTECH (Pohang University of Science and Technology). His research focuses on quantum simulation and computing with ytterbium ions.",
+        "md_filename": "060-moonjoo-lee.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3435,
+          36.019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "056-kenji-toyoda",
+        "name": "Kenji Toyoda",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Kenji Toyoda conducts trapped-ion research at Osaka University focusing on quantum simulation and quantum computing with calcium ions.",
+        "md_filename": "056-kenji-toyoda.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5023,
+          34.6937
         ]
       }
     },
@@ -283,6 +1350,63 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "074-markus-hennrich",
+        "name": "Markus Hennrich",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Markus Hennrich leads the Trapped Rydberg Ion Group at Stockholm University, pioneering work on Rydberg excitation of trapped ions for quantum computing.",
+        "md_filename": "074-markus-hennrich.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0686,
+          59.3293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "026-erik-streed",
+        "name": "Erik W. Streed",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Erik W. Streed is an Associate Professor at Griffith University and Director of the Queensland Quantum and Advanced Technologies Research Institute. His research applies quantum physics techniques with trapped ions to biological challenges, exploring biomolecular dynamics through ion trapping and advanced microscopy. He also investigates light transmission for quantum computing using segmented optics.",
+        "md_filename": "026-erik-streed.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4,
+          -28.0167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "025-christian-schmiegelow",
+        "name": "Christian Schmiegelow",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Christian Schmiegelow leads the Laboratory of Cold Ions and Atoms at the University of Buenos Aires, Argentina. His research focuses on trapped-ion quantum optics and quantum information processing, representing a key center for ion trapping research in South America.",
+        "md_filename": "025-christian-schmiegelow.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3816,
+          -34.6037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "007-dietrich-leibfried",
         "name": "Dietrich Leibfried",
         "platforms": [
@@ -296,6 +1420,45 @@
         "coordinates": [
           -105.2629,
           40.0094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "024-paul-haljan",
+        "name": "Paul Haljan",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Paul Haljan is an Associate Professor of Physics at Simon Fraser University, where he leads the Trapped Ion Quantum Technology Lab. His research focuses on trapped-ion quantum technologies, including scalable quantum computing with cadmium and ytterbium ions, microstructure development for ion trap designs, and high-fidelity entanglement operations.",
+        "md_filename": "024-paul-haljan.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9199,
+          49.2781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "040-vladan-vuletic",
+        "name": "Vladan Vuletić",
+        "platforms": [
+          "Trapped ions",
+          "Neutral atoms"
+        ],
+        "short_bio": "Vladan Vuletić leads the Experimental Atomic Physics Group at MIT's Center for Ultracold Atoms. His research spans trapped ions and ultracold neutral atoms, with focus on cavity QED, quantum optics, and quantum information processing.",
+        "md_filename": "040-vladan-vuletic.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0942,
+          42.3601
         ]
       }
     },
@@ -321,6 +1484,158 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "050-rachel-godun",
+        "name": "Rachel Godun",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Rachel Godun leads the Ytterbium Ion Optical Clock team at the National Physical Laboratory (NPL). Her research focuses on developing and improving trapped-ion optical clocks for next-generation timekeeping and fundamental physics tests.",
+        "md_filename": "050-rachel-godun.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3429,
+          51.4275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "019-michael-koehl",
+        "name": "Michael Köhl",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Michael Köhl is a professor at the University of Bonn leading research in experimental quantum physics with trapped ions. His group focuses on quantum communication nodes using trapped Ytterbium ions coupled to optical cavities, developing quantum networks and exploring quantum information processing with fiber-based systems.",
+        "md_filename": "019-michael-koehl.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0982,
+          50.7374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "070-rajibul-islam",
+        "name": "Rajibul Islam",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Rajibul Islam leads the Quantum Many-Body Physics Lab at the University of Waterloo and Institute for Quantum Computing (IQC). His research focuses on quantum simulation with trapped ytterbium ions.",
+        "md_filename": "070-rajibul-islam.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5204,
+          43.4643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "057-utako-tanaka",
+        "name": "Utako Tanaka",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Utako Tanaka conducts trapped-ion research at Osaka University focusing on microfabricated ion traps and quantum computing with calcium ions.",
+        "md_filename": "057-utako-tanaka.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5023,
+          34.6937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "047-klaus-jungmann",
+        "name": "Klaus Jungmann",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Klaus Jungmann leads the Fundamental Interactions and Symmetries group at the University of Groningen. His prominent work involves precision measurements with trapped radium ions to test fundamental symmetries and search for physics beyond the Standard Model.",
+        "md_filename": "047-klaus-jungmann.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5665,
+          53.2194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "032-murray-barrett",
+        "name": "Murray D. Barrett",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Murray D. Barrett leads the Microtraps Group at the Centre for Quantum Technologies (CQT) in Singapore. His research focuses on developing microfabricated ion traps for scalable quantum computing and quantum networking with barium and lutetium ions.",
+        "md_filename": "032-murray-barrett.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "055-takashi-mukaiyama",
+        "name": "Takashi Mukaiyama",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Takashi Mukaiyama leads ion trap research at Osaka University focusing on quantum logic spectroscopy and optical clock development with calcium and indium ions.",
+        "md_filename": "055-takashi-mukaiyama.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5023,
+          34.6937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "081-chris-monroe",
+        "name": "Christopher Monroe",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Christopher Monroe is a pioneer of trapped-ion quantum computing at the University of Maryland and JQI. Co-founder of IonQ, his group has demonstrated many landmark results in quantum computing and simulation.",
+        "md_filename": "081-chris-monroe.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9378,
+          38.9897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "013-ferdinand-schmidt-kaler",
         "name": "Ferdinand Schmidt-Kaler",
         "platforms": [
@@ -334,6 +1649,44 @@
         "coordinates": [
           8.2473,
           49.9929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "062-dan-cho",
+        "name": "Dan Cho",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Dan Cho leads trapped-ion research at Seoul National University focusing on quantum information processing with ytterbium ions.",
+        "md_filename": "062-dan-cho.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "075-winfried-hensinger",
+        "name": "Winfried K. Hensinger",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Winfried K. Hensinger leads the Sussex Ion Quantum Technology group, developing scalable trapped-ion quantum computing architectures using microwave-driven gates.",
+        "md_filename": "075-winfried-hensinger.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1372,
+          50.8225
         ]
       }
     }
