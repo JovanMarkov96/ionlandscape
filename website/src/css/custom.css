@@ -60,7 +60,8 @@ body,
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 1000;
+  z-index: 2001;
+  /* Must be above the panel (2000) */
   width: 56px;
   height: 56px;
   border-radius: 50%;
@@ -522,5 +523,15 @@ html:has(.groups-page),
   /* Hide the mobile sidebar container entirely just in case */
   .navbar-sidebar {
     display: none !important;
+  }
+
+  /* Force Dark Mode Toggle to show */
+  .navbar__items--right> :last-child,
+  .clean-btn.toggleButton_gllP,
+  .toggleButton_gllP,
+  button[class*="toggleButton"],
+  button[class*="ColorMode"] {
+    display: block !important;
+    visibility: visible !important;
   }
 }
