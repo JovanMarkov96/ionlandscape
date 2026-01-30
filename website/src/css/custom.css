@@ -30,10 +30,11 @@ body,
 /* ===== Main Layout Container ===== */
 .ion-landscape-container {
   display: flex;
-  height: calc(100vh - var(--ifm-navbar-height));
-  overflow: hidden;
+  /* Subtract Navbar (~60px) + Footer (~80px estimate) to show footer without scrolling */
+  height: calc(100vh - var(--ifm-navbar-height) - 100px);
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .ion-landscape-map {
@@ -48,7 +49,8 @@ body,
   border-left: 1px solid #ddd;
   overflow-y: auto;
   overflow-x: hidden;
-  background: #fff;
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
   transition: transform 0.3s ease;
 }
 
@@ -395,4 +397,29 @@ html:has(.groups-page),
   background-color: #ff8800;
   /* Orange */
   color: #ffffff;
+}
+
+/* ===== Dark Mode Overrides ===== */
+[data-theme='dark'] .filter-bar {
+  background: var(--ifm-background-surface-color);
+  /* Matches card background */
+}
+
+[data-theme='dark'] .filter-select {
+  background: var(--ifm-background-color);
+  color: var(--ifm-color-content);
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .filter-select:focus {
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .close-panel-btn {
+  background: #333;
+  color: #fff;
+}
+
+[data-theme='dark'] .close-panel-btn:hover {
+  background: #444;
 }
