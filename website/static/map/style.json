@@ -1,0 +1,241 @@
+{
+    "version": 8,
+    "name": "Ion Landscape Basemap",
+    "sources": {
+        "protomaps": {
+            "type": "vector",
+            "url": "pmtiles:///ionlandscape/map/world.pmtiles",
+            "attribution": "© OpenStreetMap contributors"
+        },
+        "serbia-boundary": {
+            "type": "geojson",
+            "data": "/ionlandscape/map/serbia.geojson"
+        }
+    },
+    "glyphs": "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
+    "sprite": "https://demotiles.maplibre.org/styles/osm-bright-gl-style/sprite",
+    "layers": [
+        {
+            "id": "background",
+            "type": "background",
+            "paint": {
+                "background-color": "#f8f4f0"
+            }
+        },
+        {
+            "id": "water",
+            "type": "fill",
+            "source": "protomaps",
+            "source-layer": "water",
+            "paint": {
+                "fill-color": "#a0c8f0"
+            }
+        },
+        {
+            "id": "landcover-grass",
+            "type": "fill",
+            "source": "protomaps",
+            "source-layer": "landcover",
+            "filter": [
+                "==",
+                "class",
+                "grass"
+            ],
+            "paint": {
+                "fill-color": "#d8e8c8",
+                "fill-opacity": 0.6
+            }
+        },
+        {
+            "id": "landcover-wood",
+            "type": "fill",
+            "source": "protomaps",
+            "source-layer": "landcover",
+            "filter": [
+                "==",
+                "class",
+                "wood"
+            ],
+            "paint": {
+                "fill-color": "#c0d8a0",
+                "fill-opacity": 0.6
+            }
+        },
+        {
+            "id": "landuse-park",
+            "type": "fill",
+            "source": "protomaps",
+            "source-layer": "landuse",
+            "filter": [
+                "==",
+                "class",
+                "park"
+            ],
+            "paint": {
+                "fill-color": "#d8e8c8",
+                "fill-opacity": 0.5
+            }
+        },
+        {
+            "id": "roads-minor",
+            "type": "line",
+            "source": "protomaps",
+            "source-layer": "transportation",
+            "filter": [
+                "in",
+                "class",
+                "minor",
+                "service"
+            ],
+            "paint": {
+                "line-color": "#ffffff",
+                "line-width": 1
+            },
+            "minzoom": 12
+        },
+        {
+            "id": "roads-secondary",
+            "type": "line",
+            "source": "protomaps",
+            "source-layer": "transportation",
+            "filter": [
+                "==",
+                "class",
+                "secondary"
+            ],
+            "paint": {
+                "line-color": "#fefeb3",
+                "line-width": 2
+            },
+            "minzoom": 8
+        },
+        {
+            "id": "roads-primary",
+            "type": "line",
+            "source": "protomaps",
+            "source-layer": "transportation",
+            "filter": [
+                "==",
+                "class",
+                "primary"
+            ],
+            "paint": {
+                "line-color": "#fcd6a4",
+                "line-width": 3
+            },
+            "minzoom": 6
+        },
+        {
+            "id": "roads-highway",
+            "type": "line",
+            "source": "protomaps",
+            "source-layer": "transportation",
+            "filter": [
+                "==",
+                "class",
+                "motorway"
+            ],
+            "paint": {
+                "line-color": "#e9ac77",
+                "line-width": 4
+            },
+            "minzoom": 4
+        },
+        {
+            "id": "admin-boundaries",
+            "type": "line",
+            "source": "protomaps",
+            "source-layer": "boundary",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "admin_level",
+                    2
+                ],
+                [
+                    "!=",
+                    "maritime",
+                    1
+                ]
+            ],
+            "paint": {
+                "line-color": "#9e9cab",
+                "line-width": 1,
+                "line-dasharray": [
+                    3,
+                    2
+                ]
+            }
+        },
+        {
+            "id": "serbia-fill",
+            "type": "fill",
+            "source": "serbia-boundary",
+            "paint": {
+                "fill-color": "#4f46e5",
+                "fill-opacity": 0.05
+            }
+        },
+        {
+            "id": "serbia-outline",
+            "type": "line",
+            "source": "serbia-boundary",
+            "paint": {
+                "line-color": "#4f46e5",
+                "line-width": 2.5
+            }
+        },
+        {
+            "id": "place-labels-city",
+            "type": "symbol",
+            "source": "protomaps",
+            "source-layer": "place",
+            "filter": [
+                "==",
+                "class",
+                "city"
+            ],
+            "layout": {
+                "text-field": "{name}",
+                "text-font": [
+                    "Noto Sans Regular"
+                ],
+                "text-size": 14,
+                "text-anchor": "center"
+            },
+            "paint": {
+                "text-color": "#333",
+                "text-halo-color": "#fff",
+                "text-halo-width": 1
+            },
+            "minzoom": 4
+        },
+        {
+            "id": "place-labels-country",
+            "type": "symbol",
+            "source": "protomaps",
+            "source-layer": "place",
+            "filter": [
+                "==",
+                "class",
+                "country"
+            ],
+            "layout": {
+                "text-field": "{name}",
+                "text-font": [
+                    "Noto Sans Bold"
+                ],
+                "text-size": 16,
+                "text-transform": "uppercase",
+                "text-letter-spacing": 0.1
+            },
+            "paint": {
+                "text-color": "#555",
+                "text-halo-color": "#fff",
+                "text-halo-width": 2
+            },
+            "minzoom": 2
+        }
+    ]
+}
