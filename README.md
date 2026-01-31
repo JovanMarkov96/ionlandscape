@@ -76,6 +76,10 @@ This will guide you through creating a profile with verified data only.
 
 See [INGESTION_GUIDE.md](INGESTION_GUIDE.md) for detailed instructions on data curation and verification.
 
+## Technical Documentation
+
+For extensive details on the project architecture, map implementation (MapLibre + Custom Tiles), and tile generation pipeline, please see the **[Technical Guide](TECHNICAL_GUIDE.md)**.
+
 ## Data Curation & Verification
 
 This repository includes automated tools for systematic profile ingestion and verification:
