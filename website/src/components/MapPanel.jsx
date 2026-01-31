@@ -273,22 +273,22 @@ function MapPanel({ onPersonSelect }) {
 
     // Create popup HTML
     const createPopupHTML = useCallback((group, locationLabel) => {
-        let html = '<div style="min-width: 200px; max-height: 250px; overflow-y: auto;">';
+        let html = '<div class="popup-container" style="min-width: 200px; max-height: 250px; overflow-y: auto;">';
         if (locationLabel) {
-            html += `<div style="font-weight: bold; margin-bottom: 8px; border-bottom: 1px solid #ccc; padding-bottom: 4px;">${locationLabel}</div>`;
+            html += `<div class="popup-location">${locationLabel}</div>`;
         }
         group.forEach((feature, idx) => {
             const props = feature.properties || {};
-            const borderStyle = idx < group.length - 1 ? 'border-bottom: 1px solid #eee;' : '';
+            // const borderStyle = idx < group.length - 1 ? 'border-bottom: 1px solid #eee;' : ''; // Move to CSS
             const position = props.current_position || (props.short_bio ? props.short_bio.substring(0, 60) + '...' : '');
+
             html += `
-                <div style="padding: 6px 0; ${borderStyle}">
-                    <div style="font-weight: bold;">${props.name || 'Unknown'}</div>
-                    <div style="font-size: 0.85em; color: #666; margin-bottom: 4px;">${position}</div>
+                <div class="popup-item ${idx < group.length - 1 ? 'has-border' : ''}">
+                    <div class="popup-name">${props.name || 'Unknown'}</div>
+                    <div class="popup-position">${position}</div>
                     <button 
                         class="maplibre-popup-btn" 
-                        data-person="${props.md_filename}"
-                        style="font-size: 0.8em; padding: 4px 10px; cursor: pointer; background: #4f46e5; color: white; border: none; border-radius: 4px;">
+                        data-person="${props.md_filename}">
                         Open profile
                     </button>
                 </div>
