@@ -40,15 +40,16 @@ npm install -g pmtiles
 sudo apt install osmium-tool
 ```
 
-## Quick Start (Serbia Region Only)
+## Troubleshooting
 
-For testing with just Serbia + neighbors (~500MB):
+If the script says "Tilemaker not found":
+1. Download `tilemaker-windows.zip` directly from [GitHub Releases](https://github.com/systemed/tilemaker/releases/latest)
+2. Extract it and copy `tilemaker.exe` (and the `resources` folder if present) directly into this `tile-generation` folder.
+3. Run `.\generate-tiles.ps1` again.
 
-```bash
-cd tile-generation
-chmod +x generate-tiles.sh
-./generate-tiles.sh
-```
+If `pmtiles` is not found:
+1. Run `npm install -g pmtiles` 
+2. Or let the script use `npx pmtiles` (it attempts this automatically).
 
 ## Full Planet Generation
 

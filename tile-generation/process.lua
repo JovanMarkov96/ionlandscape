@@ -261,9 +261,32 @@ function relation_function()
             -- ================================================================
             -- 🔴 KOSOVO HANDLING - SERBIAN WORLDVIEW (RS)
             -- Downgrade Kosovo from admin-0 (country) to admin-4 (region)
-            -- This removes the "international border" cartographically
             -- ================================================================
-            if is_kosovo_admin0(Find) then
+            local is_kosovo = false
+            local name = string.lower(Find("name"))
+            
+            -- Check by name
+            if name == "kosovo" or name == "kosova" or name == "република косово" or 
+               name == "republika e kosovës" or name == "republic of kosovo" then
+                is_kosovo = true
+            end
+            
+            -- Check by ISO code
+            if not is_kosovo then
+                local iso = Find("ISO3166-1")
+                local iso2 = Find("ISO3166-1:alpha2")
+                local isoching = Find("iso_a2")
+                if iso == "XK" or iso2 == "XK" or isoching == "XK" then
+                    is_kosovo = true
+                end
+            end
+            
+            -- Check Wikidata
+            if not is_kosovo and Find("wikidata") == "Q1246" then
+                is_kosovo = true
+            end
+
+            if is_kosovo and (admin_level == "2" or level == 2) then
                 -- Option A: Downgrade to regional boundary (admin_level 4)
                 level = 4
                 admin_level = "4"

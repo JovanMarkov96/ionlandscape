@@ -46,3 +46,9 @@ venv/
 scripts/logs/
 scripts/data/*.html
 scripts/data/*.json.bak
+
+# Tile Generation
+tile-generation/tilemaker.exe
+tile-generation/*.pmtiles
+tile-generation/*.mbtiles
+tile-generation/data/

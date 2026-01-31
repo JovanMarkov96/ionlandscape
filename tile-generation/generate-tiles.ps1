@@ -20,7 +20,7 @@ $OutputDir = Join-Path $ScriptDir "output"
 $WebsiteMapDir = Join-Path $ScriptDir "..\website\static\map"
 
 # Ensure directories exist
-Non-TerminatingError -ErrorAction SilentlyContinue
+$ErrorActionPreference = "SilentlyContinue"
 New-Item -ItemType Directory -Force -Path $DataDir | Out-Null
 New-Item -ItemType Directory -Force -Path $OutputDir | Out-Null
 New-Item -ItemType Directory -Force -Path $WebsiteMapDir | Out-Null
@@ -34,19 +34,30 @@ Write-Host "===========================================" -ForegroundColor Cyan
 # CHECK PREREQUISITES
 # ============================================================================
 
-if (-not (Get-Command "tilemaker" -ErrorAction SilentlyContinue)) {
-    Write-Warning "Tilemaker not found in PATH."
-    Write-Host "Please download the latest Windows release from:"
-    Write-Host "https://github.com/systemed/tilemaker/releases"
-    Write-Host "And unzip 'tilemaker.exe' into: $ScriptDir"
+$TilemakerCmd = "tilemaker"
+$TilemakerPath = Get-Command "tilemaker" -ErrorAction SilentlyContinue
+
+if (-not $TilemakerPath) {
+    # Check common locations
+    $PossiblePaths = @(
+        Join-Path $ScriptDir "tilemaker.exe",
+        "C:\Users\jovanm\Downloads\tilemaker-windows\build\RelWithDebInfo\tilemaker.exe",
+        (Join-Path $PSScriptRoot "tilemaker.exe")
+    )
     
-    if (-not (Test-Path (Join-Path $ScriptDir "tilemaker.exe"))) {
-        Write-Error "tilemaker.exe not found. Aborting."
+    foreach ($Path in $PossiblePaths) {
+        if (Test-Path $Path) {
+            $TilemakerCmd = $Path
+            Write-Host "Found tilemaker at: $TilemakerCmd" -ForegroundColor Green
+            break
+        }
+    }
+    
+    if ($TilemakerCmd -eq "tilemaker") {
+        Write-Warning "Tilemaker not found in PATH or common locations."
+        Write-Host "Please ensure 'tilemaker.exe' is in the script directory."
         exit 1
     }
-    $TilemakerCmd = Join-Path $ScriptDir "tilemaker.exe"
-} else {
-    $TilemakerCmd = "tilemaker"
 }
 
 # ============================================================================
@@ -65,15 +76,21 @@ if (-not (Test-Path $KosovoPbf)) {
     Write-Host "Downloading Kosovo data..."
     try {
         Invoke-WebRequest -Uri "https://download.geofabrik.de/europe/kosovo-latest.osm.pbf" -OutFile $KosovoPbf
-    } catch {
-        Write-Warning "Could not download Kosovo data (might be merged in Serbia already). Continuing..."
+    }
+    catch {
+        Write-Warning "Could not download Kosovo data. Continuing..."
     }
 }
 
-# NOTE: Merging requires 'osmium'. Assuming individual processing or pre-merged for now.
-# For simplicity in this Windows script, we'll process just Serbia (which often contains Kosovo data in some extracts)
-# or just run on Serbia.osm.pbf
 $InputFile = $SerbiaPbf
+# NOTE: To truly fix Kosovo, we usually need the Kosovo data merged or included.
+# Geofabrik Serbia might ALREADY include Kosovo (often does).
+# If we need to merge, we'd need osmium. For now, we rely on Serbia PBF containing it.
+if (Test-Path $KosovoPbf) {
+    # Simple check: if Kosovo file exists, maybe use it if Serbia is small?
+    # But for now let's stick to Serbia extract which usually covers the region.
+    # OR: If the user provided a merged file manually.
+}
 
 # ============================================================================
 # STEP 2: GENERATE TILES
@@ -85,10 +102,14 @@ $ConfigFile = Join-Path $ScriptDir "config.json"
 $ProcessFile = Join-Path $ScriptDir "process.lua"
 $OutputMbtiles = Join-Path $OutputDir "tiles.mbtiles"
 
-& $TilemakerCmd --input $InputFile --output $OutputMbtiles --config $ConfigFile --process $ProcessFile --verbose
+# Create temp store dir if needed
+$StoreDir = Join-Path $ScriptDir "store"
+New-Item -ItemType Directory -Force -Path $StoreDir | Out-Null
+
+& $TilemakerCmd --input $InputFile --output $OutputMbtiles --config $ConfigFile --process $ProcessFile --store $StoreDir --verbose
 
 if (-not (Test-Path $OutputMbtiles)) {
-    Write-Error "Tile generation failed."
+    Write-Error "Tile generation failed. Output file not found."
     exit 1
 }
 
@@ -101,12 +122,14 @@ $OutputPmtiles = Join-Path $OutputDir "world.pmtiles"
 
 if (Get-Command "pmtiles" -ErrorAction SilentlyContinue) {
     pmtiles convert $OutputMbtiles $OutputPmtiles
-} else {
+}
+elseif (Get-Command "npx" -ErrorAction SilentlyContinue) {
+    Write-Host "Using npx pmtiles..."
+    npx pmtiles convert $OutputMbtiles $OutputPmtiles
+}
+else {
     Write-Warning "pmtiles CLI not found."
-    Write-Host "Skipping conversion. You can create PMTiles later."
-    Write-Host "Install with: 'npm install -g pmtiles' or 'go install github.com/protomaps/go-pmtiles/cmd/pmtiles@latest'"
-    # Fallback: Just copy .mbtiles if MapLibre supported it (it doesn't directly without server)
-    # But we need PMTiles for static hosting.
+    exit 1
 }
 
 # ============================================================================
