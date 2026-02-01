@@ -38,7 +38,7 @@ postdocs: []
 sort_name: Kim, Kihwan
 thesis:
   link: null
-  note: "Thesis title not found in open-access sources; PhD year confirmed from biographical sources."
+  note: Thesis title not found in open-access sources. Research topics included quantum optics and parametric resonance in MOTs.
   title: null
   year: 2004
 updated_at: '2026-01-27'

@@ -5,9 +5,10 @@ current_position:
   institution: University of Amsterdam
   title: Associate Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: R.J.C. Spreeuw
+  degree: PhD (Physics)
+  institution: University of Amsterdam
+  year: 2007
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -40,8 +41,8 @@ postdocs: []
 sort_name: Gerritsma, Rene
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Permanent magnetic atom chips and Bose-Einstein condensation"
+  year: 2007
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

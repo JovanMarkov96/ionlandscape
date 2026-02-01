@@ -7,7 +7,8 @@ current_position:
 education:
 - degree: PhD (Physics)
   institution: University of Colorado Boulder / JILA
-  year: null
+  year: 2003
+  advisor: Eric A. Cornell
 group_type: experimental
 id: 024-paul-haljan
 ion_species:
@@ -37,8 +38,8 @@ postdocs: []
 sort_name: Haljan, Paul
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Vortices in a Bose-Einstein Condensate"
+  year: 2003
 updated_at: '2026-01-28'
 ---
 

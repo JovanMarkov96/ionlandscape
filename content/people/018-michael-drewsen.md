@@ -37,7 +37,7 @@ postdocs: []
 sort_name: Drewsen, Michael
 thesis:
   link: null
-  title: null
+  title: "Investigations of Light-Induced Kinetic Effects on Atoms"
   year: 1994
 updated_at: '2026-01-28'
 ---

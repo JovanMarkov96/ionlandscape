@@ -40,9 +40,9 @@ postdocs: []
 sort_name: Leibfried, Dietrich
 thesis:
   link: null
-  note: Thesis title/PDF not filled yet.
+  note: Thesis topic was "Precision laser spectroscopy of hydrogen" (conducted at MPQ/LMU Munich). Title not explicitly found.
   title: null
-  year: null
+  year: 1995
 updated_at: '2026-01-27'
 ---
 

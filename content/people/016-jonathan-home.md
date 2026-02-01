@@ -39,9 +39,9 @@ postdocs: []
 sort_name: Home, Jonathan P.
 thesis:
   link: null
-  note: Thesis title/PDF not filled yet.
+  note: "Thesis supervised by Andrew Steane; topics included sideband cooling, temperature diagnostics, and quantum logic gates."
   title: null
-  year: null
+  year: 2006
 updated_at: '2026-01-27'
 ---
 

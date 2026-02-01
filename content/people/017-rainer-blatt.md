@@ -49,8 +49,7 @@ postdocs:
 sort_name: Blatt, Rainer
 thesis:
   link: null
-  note: Thesis title/PDF not located in open-access sources yet; CV confirms doctorate
-    at University of Mainz and association with Günter Werth.
+  note: "Thesis title not found in open online databases. Degree confirmed from Mainz (1981) with Günter Werth."
   title: null
   year: 1981
 updated_at: '2026-01-27'

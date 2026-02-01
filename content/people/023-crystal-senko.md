@@ -40,8 +40,8 @@ postdocs: []
 sort_name: Senko, Crystal
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Dynamics and Excited States of Quantum Many-Body Spin Chains with Trapped ions"
+  year: 2014
 updated_at: '2026-01-28'
 ---
 

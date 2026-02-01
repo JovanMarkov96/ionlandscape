@@ -53,9 +53,8 @@ postdocs:
 sort_name: Monroe, Christopher R.
 thesis:
   link: null
-  note: Thesis title not found in open-access sources; may exist in ProQuest/University
-    library catalog.
-  title: null
+  note: Thesis title found via University of Texas/Colorado archives.
+  title: Experiments with Optically and Magnetically Trapped Cesium Atoms
   year: 1992
 updated_at: '2026-01-27'
 ---

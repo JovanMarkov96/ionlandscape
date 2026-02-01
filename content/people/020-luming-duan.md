@@ -5,9 +5,10 @@ current_position:
   institution: Tsinghua University
   title: Yao Qizhi Chair Professor / Chair Professor of Basic Sciences
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Guo Guangcan
+  degree: PhD (Physics)
+  institution: University of Science and Technology of China (USTC)
+  year: 1998
 group_type: experimental
 id: 020-luming-duan
 ion_species:
@@ -38,7 +39,7 @@ sort_name: Duan, Luming
 thesis:
   link: null
   title: null
-  year: null
+  year: 1998
 updated_at: '2026-01-28'
 ---
 

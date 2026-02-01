@@ -5,12 +5,10 @@ current_position:
   institution: University of Siegen
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
-  advisor: null
-  confidence: not_found
-  note: "PhD details require verification from institutional sources"
+- advisor: Theodor W. Hänsch
+  degree: PhD (Physics)
+  institution: Ludwig-Maximilians-University Munich
+  year: 1996
 group_type: experimental
 id: 029-christof-wunderlich
 ion_species:
@@ -39,9 +37,8 @@ postdocs: []
 sort_name: Wunderlich, Christof
 thesis:
   link: null
-  title: null
-  year: null
-  note: "Thesis information requires verification"
+  title: "Licht-induzierte molekulare Struktur. Eine experimentelle Untersuchung."
+  year: 1996
 updated_at: '2026-01-30'
 ---
 

@@ -36,7 +36,7 @@ postdocs: []
 sort_name: Köhl, Michael
 thesis:
   link: null
-  title: null
+  title: "Kohaerente Atomoptik mit dem Atomlaser"
   year: 2001
 updated_at: '2026-01-28'
 ---

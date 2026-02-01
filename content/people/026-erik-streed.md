@@ -8,7 +8,7 @@ education:
 - advisor: Wolfgang Ketterle
   degree: PhD (Physics)
   institution: Massachusetts Institute of Technology
-  year: 2007
+  year: 2006
   note: Doctoral research on Bose-Einstein condensates
 group_type: experimental
 id: 026-erik-streed
@@ -38,8 +38,8 @@ postdocs: []
 sort_name: Streed, Erik W.
 thesis:
   link: null
-  title: null
-  year: 2007
+  title: "87Rubidium Bose-Einstein condensates: Machine Construction and Quantum Zeno Experiments"
+  year: 2006
 updated_at: '2026-01-28'
 ---
 

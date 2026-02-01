@@ -5,9 +5,10 @@ current_position:
   institution: University of Buenos Aires
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Juan Pablo Paz
+  degree: PhD (Physics)
+  institution: University of Buenos Aires
+  year: 2011
 group_type: experimental
 id: 025-christian-schmiegelow
 ion_species:
@@ -35,8 +36,8 @@ postdocs: []
 sort_name: Schmiegelow, Christian
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Photonic Experiments on Selective Efficient Quantum Process Tomography"
+  year: 2011
 updated_at: '2026-01-28'
 ---
 

@@ -8,9 +8,10 @@ current_position:
   institution: University of Sydney
   title: Director, Quantum Control Laboratory
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Charles M. Marcus
+  degree: PhD (Physics)
+  institution: Harvard University
+  year: 2005
 group_type: experimental
 id: 021-mike-biercuk
 ion_species:
@@ -41,8 +42,8 @@ postdocs: []
 sort_name: Biercuk, Michael J.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Local Gate Control in Carbon Nanotube Quantum Dots"
+  year: 2005
 updated_at: '2026-01-28'
 ---
 
