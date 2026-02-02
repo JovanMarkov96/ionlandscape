@@ -127,21 +127,42 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
                 </button>
             )}
             <div className="person-panel-header">
-                <h2>{person.name} <span style={{ fontSize: '0.6em', color: '#ccc' }}>(v1.1)</span></h2>
+                <h2>{person.name}</h2>
             </div>
             <p><em>{person.current_position && person.current_position.title} — {person.current_position && person.current_position.institution}</em></p>
-            <p><strong>Platforms:</strong> {(person.platforms || []).join(', ')}</p>
             <p><strong>Keywords:</strong> {(person.keywords || []).join(', ')}</p>
 
-            <div style={{ marginBottom: 12 }}>
-                {person.labels?.map(l => (
+            <div style={{ marginBottom: '15px' }}>
+                {/* Platforms as Badges */}
+                {person.platforms && person.platforms.map((platform, i) => {
+                    const getCategory = (p) => {
+                        const lower = p.toLowerCase();
+                        if (lower.includes('neutral')) return 'Neutral Atoms';
+                        if (lower.includes('ion')) return 'Trapped Ions';
+                        return p;
+                    };
+                    const categoryParam = getCategory(platform);
+
+                    return (
+                        <a
+                            key={i}
+                            href={`/ionlandscape/groups?category=${encodeURIComponent(categoryParam)}`}
+                            className={`badge ${categoryParam === 'Trapped Ions' ? 'badge-trapped-ions' : categoryParam === 'Neutral Atoms' ? 'badge-neutral-atoms' : 'badge--info'}`}
+                            style={{ marginRight: '5px', textDecoration: 'none', color: '#fff' }}
+                        >
+                            {platform}
+                        </a>
+                    )
+                })}
+                {/* Existing Labels */}
+                {person.labels && person.labels.map((label, i) => (
                     <Link
-                        key={l}
-                        to={`/groups?label=${encodeURIComponent(l)}`}
+                        key={i}
+                        to={`/groups?label=${encodeURIComponent(label)}`}
                         className="badge badge--primary margin-right--xs"
                         style={{ textDecoration: 'none', color: 'white' }}
                     >
-                        {l}
+                        {label}
                     </Link>
                 ))}
                 {person.ion_species?.map(s => (
@@ -157,10 +178,10 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
             </div>
 
             {person.affiliations && person.affiliations.length > 0 && (
-                <div style={{ marginTop: 12, marginBottom: 12, padding: '8px 12px', backgroundColor: '#f5f5f5', borderRadius: 4 }}>
-                    <h4 style={{ margin: '0 0 4px 0', fontSize: '1em', color: '#333' }}>Affiliations</h4>
+                <div className="affiliation-box">
+                    <h4 className="affiliation-header">Affiliations</h4>
                     {person.affiliations.map((aff, i) => (
-                        <div key={i} style={{ fontSize: '0.9em' }}>
+                        <div key={i} className="affiliation-item">
                             <strong>{aff.name}</strong> — {aff.role}
                         </div>
                     ))}
@@ -179,11 +200,11 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
 
                     {person.education && person.education.length > 0 && (
                         <div style={{ marginBottom: 16 }}>
-                            <h4 style={{ marginBottom: 8, fontSize: '1.1em', color: '#555' }}>Education</h4>
+                            <h4 className="section-header">Education</h4>
                             {person.education.map((edu, idx) => (
-                                <div key={idx} style={{ marginBottom: 12, paddingLeft: 8, borderLeft: '2px solid #eee' }}>
-                                    <div style={{ fontWeight: 600 }}>{edu.degree} — {edu.institution}</div>
-                                    <div style={{ fontSize: '0.9em', color: '#666' }}>
+                                <div key={idx} className="trajectory-item">
+                                    <div className="trajectory-title">{edu.degree} — {edu.institution}</div>
+                                    <div className="trajectory-details">
                                         {edu.year && <span>({edu.year}) </span>}
                                         {edu.advisor && (
                                             <>
@@ -198,11 +219,11 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
 
                     {person.postdocs && person.postdocs.length > 0 && (
                         <div>
-                            <h4 style={{ marginBottom: 8, fontSize: '1.1em', color: '#555' }}>Postdoctoral Training</h4>
+                            <h4 className="section-header">Postdoctoral Training</h4>
                             {person.postdocs.map((pd, idx) => (
-                                <div key={idx} style={{ marginBottom: 12, paddingLeft: 8, borderLeft: '2px solid #eee' }}>
-                                    <div style={{ fontWeight: 600 }}>{pd.institution}</div>
-                                    <div style={{ fontSize: '0.9em', color: '#666' }}>
+                                <div key={idx} className="trajectory-item">
+                                    <div className="trajectory-title">{pd.institution}</div>
+                                    <div className="trajectory-details">
                                         {pd.advisor && (
                                             <>
                                                 Advisor: {renderAdvisor(pd.advisor)}
