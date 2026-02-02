@@ -36,6 +36,18 @@ function groupByCoordinate(features) {
     return groups;
 }
 
+/**
+ * MapPanel Component
+ * 
+ * Renders an interactive Leaflet map displaying researchers/groups as markers.
+ * - Clusters people by location (city/coordinates).
+ * - Clicking a marker opens a Popup with a list of people at that location.
+ * - Clicking "Open profile" selects a person.
+ * 
+ * @param {Object} props
+ * @param {Function} props.onPersonSelect - Callback when a person is selected (md_filename)
+ * @param {Function} props.onLocationSelect - Callback when a location is selected (unused currently)
+ */
 function MapPanel({ onPersonSelect, onLocationSelect }) {
     const [people, setPeople] = React.useState([]);
 

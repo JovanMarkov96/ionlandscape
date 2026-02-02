@@ -27,6 +27,11 @@ function HomeContent() {
         setIsPanelOpen(false);
     };
 
+    const handleClearProfile = () => {
+        setSelectedPersonId(null);
+        setSelectedLocation(null);
+    };
+
     return (
         <div className="ion-landscape-container">
             <div className="ion-landscape-map">
@@ -46,6 +51,7 @@ function HomeContent() {
                     personId={selectedPersonId}
                     location={selectedLocation}
                     onPersonSelect={handlePersonSelect}
+                    onClose={handleClearProfile}
                 />
             </div>
 
