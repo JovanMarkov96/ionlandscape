@@ -12,7 +12,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 072-sadiq-rangwala
+id: 069-sadiq-rangwala
 ion_species:
 - Ca+
 - Rb+

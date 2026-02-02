@@ -2,25 +2,23 @@
 affiliations: []
 created_at: '2026-01-30'
 current_position:
-  institution: Tsinghua University
+  institution: Peking University
   title: Professor
 education:
-- advisor: Bruce E. Kane
-  degree: PhD (Physics)
-  institution: University of Maryland
-  year: 2008
+- degree: PhD (Physics)
+  institution: University of Virginia
+  year: 2005
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 066-luyan-sun
+id: 066-wenhui-li
 ion_species:
 - Ca+
 keywords:
 - trapped ions
-- quantum computing
-- superconducting circuits
-- hybrid systems
+- Rydberg atoms
+- quantum simulation
 labels:
 - Experimental group
 links:
@@ -33,19 +31,19 @@ location:
   lat: 39.9042
   lon: 116.4074
   region: Beijing
-name: Luyan Sun
+name: Wenhui Li
 platforms:
 - Trapped ions
 postdocs: []
-sort_name: Sun, Luyan
+sort_name: Li, Wenhui
 thesis:
   link: null
   title: null
-  year: 2008
+  year: 2005
   note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---
 
-Luyan Sun leads quantum information research at Tsinghua University focusing on hybrid quantum systems and trapped-ion quantum computing.
+Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.

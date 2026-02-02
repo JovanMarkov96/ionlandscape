@@ -13,7 +13,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 087-ben-lanyon
+id: 077-ben-lanyon
 ion_species:
 - Ca+
 keywords:

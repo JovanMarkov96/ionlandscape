@@ -12,7 +12,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 077-brian-mcmahon
+id: 072-brian-mcmahon
 ion_species:
 - Yb+
 keywords:

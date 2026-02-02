@@ -13,7 +13,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 074-markus-hennrich
+id: 070-markus-hennrich
 ion_species:
 - Ca+
 - Sr+

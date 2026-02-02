@@ -12,7 +12,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 082-piet-schmidt
+id: 074-piet-schmidt
 ion_species:
 - Yb+
 - Al+

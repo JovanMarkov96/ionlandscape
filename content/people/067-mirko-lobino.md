@@ -2,23 +2,24 @@
 affiliations: []
 created_at: '2026-01-30'
 current_position:
-  institution: Peking University
+  institution: Griffith University
   title: Professor
 education:
 - degree: PhD (Physics)
-  institution: University of Virginia
-  year: 2005
+  institution: Politecnico di Milano
+  year: 2007
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 067-wenhui-li
+id: 067-mirko-lobino
 ion_species:
-- Ca+
+- Yb+
 keywords:
 - trapped ions
-- Rydberg atoms
-- quantum simulation
+- quantum photonics
+- diamond NV centers
+- hybrid systems
 labels:
 - Experimental group
 links:
@@ -26,24 +27,24 @@ links:
   group_page: null
   orcid: null
 location:
-  city: Beijing
-  country: China
-  lat: 39.9042
-  lon: 116.4074
-  region: Beijing
-name: Wenhui Li
+  city: Brisbane
+  country: Australia
+  lat: -27.4705
+  lon: 153.0260
+  region: Queensland
+name: Mirko Lobino
 platforms:
 - Trapped ions
 postdocs: []
-sort_name: Li, Wenhui
+sort_name: Lobino, Mirko
 thesis:
   link: null
   title: null
-  year: 2005
+  year: 2007
   note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---
 
-Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.
+Mirko Lobino leads quantum photonics and trapped-ion research at Griffith University in Brisbane, Australia, focusing on hybrid quantum systems.

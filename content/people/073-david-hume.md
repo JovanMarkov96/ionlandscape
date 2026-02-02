@@ -12,7 +12,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 080-david-hume
+id: 073-david-hume
 ion_species:
 - Al+
 - Mg+

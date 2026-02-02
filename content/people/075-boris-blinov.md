@@ -13,7 +13,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 083-boris-blinov
+id: 075-boris-blinov
 ion_species:
 - Ba+
 keywords:

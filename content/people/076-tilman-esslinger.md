@@ -13,7 +13,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 084-tilman-esslinger
+id: 076-tilman-esslinger
 ion_species:
 - Li+
 keywords:

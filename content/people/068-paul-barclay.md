@@ -13,7 +13,7 @@ education:
   confidence: not_found
   note: "PhD details require verification"
 group_type: experimental
-id: 071-paul-barclay
+id: 068-paul-barclay
 ion_species:
 - Yb+
 keywords:
