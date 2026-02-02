@@ -49,9 +49,14 @@ body,
   border-left: 1px solid #ddd;
   overflow-y: auto;
   overflow-x: hidden;
-  background: var(--ifm-background-color);
+  overflow-x: hidden;
+  background: #ffffff;
   color: var(--ifm-color-content);
   transition: transform 0.3s ease;
+}
+
+[data-theme='dark'] .ion-landscape-panel {
+  background: var(--ifm-background-color);
 }
 
 /* ===== Mobile Toggle Button ===== */
