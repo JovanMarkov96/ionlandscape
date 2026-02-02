@@ -486,6 +486,25 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "089-yuval-shagam",
+        "name": "Yuval Shagam",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Prof. Yuval Shagam is an experimental physicist and Assistant Professor at the Technion – Israel Institute of Technology, where he leads the **Molecular Quantum Technology Lab**. His research centers on **precision molecular ion trapping**, **quantum control of molecular systems**, cold quantum chemistry, and **precision spectroscopy** for tests of fundamental symmetry (such as parity violation) and searches for physics beyond the Standard Model.",
+        "md_filename": "089-yuval-shagam.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9896,
+          32.794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "045-kazuhiro-hayasaka",
         "name": "Kazuhiro Hayasaka",
         "platforms": [

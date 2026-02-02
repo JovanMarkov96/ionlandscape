@@ -1528,6 +1528,84 @@
     "updated_at": "2026-01-30"
   },
   {
+    "id": "089-yuval-shagam",
+    "name": "Yuval Shagam",
+    "sort_name": "Shagam, Yuval",
+    "current_position": {
+      "institution": "Technion – Israel Institute of Technology",
+      "title": "Assistant Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Haifa",
+      "region": "Haifa District",
+      "country": "Israel",
+      "lat": 32.794,
+      "lon": 34.9896
+    },
+    "education": [
+      {
+        "degree": "BSc (Physics and Computer Science)",
+        "institution": "Hebrew University of Jerusalem",
+        "year": 2010
+      },
+      {
+        "degree": "MSc (Physics)",
+        "institution": "Weizmann Institute of Science",
+        "year": 2012,
+        "advisor": "Edvardas Narevicius"
+      },
+      {
+        "degree": "PhD (Chemical Physics)",
+        "institution": "Weizmann Institute of Science",
+        "year": 2016,
+        "advisor": "Edvardas Narevicius"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "JILA (University of Colorado & NIST), Boulder",
+        "advisor": "Eric A. Cornell; Jun Ye",
+        "years": "2016–2020",
+        "note": "Postdoctoral research at JILA focused on precision measurement of the electron electric dipole moment using trapped molecular ions."
+      }
+    ],
+    "keywords": [
+      "molecular ion quantum technology",
+      "cold quantum chemistry",
+      "precision spectroscopy",
+      "parity violation",
+      "chiral molecules",
+      "ion-neutral collisions"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "molecular ions"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=tbFFEyMAAAAJ",
+      "homepage": "https://shagam.net.technion.ac.il/",
+      "orcid": "https://orcid.org/0000-0002-6994-4814",
+      "technion_profile": "https://chemistry.technion.ac.il/en/team/yuval-shagam/"
+    },
+    "thesis": {
+      "title": "Cold chemistry with cold molecules",
+      "link": null,
+      "year": 2016,
+      "note": "Thesis title confirmed from Technion faculty profile; no open PDF found."
+    },
+    "short_bio": "Prof. Yuval Shagam is an experimental physicist and Assistant Professor at the Technion – Israel Institute of Technology, where he leads the **Molecular Quantum Technology Lab**. His research centers on **precision molecular ion trapping**, **quantum control of molecular systems**, cold quantum chemistry, and **precision spectroscopy** for tests of fundamental symmetry (such as parity violation) and searches for physics beyond the Standard Model.",
+    "md_filename": "089-yuval-shagam.md",
+    "created_at": "2026-02-02",
+    "updated_at": "2026-02-02"
+  },
+  {
     "id": "045-kazuhiro-hayasaka",
     "name": "Kazuhiro Hayasaka",
     "sort_name": "Hayasaka, Kazuhiro",
