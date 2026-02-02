@@ -5,6 +5,8 @@ roee-ozeri,002-ziv-meir,advisor
 roee-ozeri,002-ziv-meir,advisor
 roee-ozeri,002-ziv-meir,postdoc_advisor
 stefan-willitsch,002-ziv-meir,postdoc_advisor
+theodor-w-hänsch,029-christof-wunderlich,advisor
+guo-guangcan,020-luming-duan,advisor
 david-m-lucas,003-chris-ballance,advisor
 003-chris-ballance,oxford-ionics,affiliated_with
 003-chris-ballance,ionq-inc-(usa),affiliated_with
@@ -22,6 +24,7 @@ christopher-monroe,022-rajibul-islam,advisor
 022-rajibul-islam,open-quantum-design,affiliated_with
 arthur-pipkin,008-john-bollinger,advisor
 günter-werth,009-hartmut-haeffner,advisor
+charles-m-marcus,021-mike-biercuk,advisor
 021-mike-biercuk,q-ctrl,affiliated_with
 nir-davidson,001-roee-ozeri,advisor
 david-j-wineland,001-roee-ozeri,postdoc_advisor
@@ -33,7 +36,9 @@ rainer-blatt,005-christian-roos,advisor
 rainer-blatt,014-thomas-monz,advisor
 014-thomas-monz,alpine-quantum-technologies-(aqt),affiliated_with
 wolfgang-ketterle,026-erik-streed,advisor
+juan-pablo-paz,025-christian-schmiegelow,advisor
 theodor-w-hänsch,007-dietrich-leibfried,advisor
+eric-a-cornell,024-paul-haljan,advisor
 theodor-w-hänsch,040-vladan-vuletic,advisor
 theodor-w-hänsch,040-vladan-vuletic,postdoc_advisor
 steven-chu,040-vladan-vuletic,postdoc_advisor
