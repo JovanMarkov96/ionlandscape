@@ -13,9 +13,6 @@ david-m-lucas,003-chris-ballance,advisor
 halina-rubinsztein-dunlop;-norman-heckenberg;-gerard-milburn,012-winfried-hensinger,advisor
 h-jeff-kimble,015-tracy-northup,advisor
 rainer-blatt,015-tracy-northup,postdoc_advisor
-edvardas-narevicius,089-yuval-shagam,advisor
-edvardas-narevicius,089-yuval-shagam,advisor
-eric-a-cornell;-jun-ye,089-yuval-shagam,postdoc_advisor
 andrew-steane,016-jonathan-home,advisor
 norman-f-ramsey,006-david-wineland,advisor
 hans-dehmelt,006-david-wineland,postdoc_advisor
@@ -29,6 +26,9 @@ arthur-pipkin,008-john-bollinger,advisor
 günter-werth,009-hartmut-haeffner,advisor
 charles-m-marcus,021-mike-biercuk,advisor
 021-mike-biercuk,q-ctrl,affiliated_with
+edvardas-narevicius,078-yuval-shagam,advisor
+edvardas-narevicius,078-yuval-shagam,advisor
+eric-a-cornell;-jun-ye,078-yuval-shagam,postdoc_advisor
 nir-davidson,001-roee-ozeri,advisor
 david-j-wineland,001-roee-ozeri,postdoc_advisor
 001-roee-ozeri,quantum-art,affiliated_with

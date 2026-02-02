@@ -83,6 +83,25 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "065-luyan-sun",
+        "name": "Luyan Sun",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Luyan Sun leads quantum information research at Tsinghua University focusing on hybrid quantum systems and trapped-ion quantum computing.",
+        "md_filename": "065-luyan-sun.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "029-christof-wunderlich",
         "name": "Christof Wunderlich",
         "platforms": [
@@ -178,38 +197,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "067-wenhui-li",
-        "name": "Wenhui Li",
+        "id": "072-brian-mcmahon",
+        "name": "Brian McMahon",
         "platforms": [
           "Trapped ions"
         ],
-        "short_bio": "Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.",
-        "md_filename": "067-wenhui-li.md"
+        "short_bio": "Brian McMahon leads trapped-ion research at Georgia Tech focusing on quantum computing and quantum networks.",
+        "md_filename": "072-brian-mcmahon.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.4074,
-          39.9042
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "076-matthias-keller",
-        "name": "Matthias Keller",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Matthias Keller leads trapped-ion research at the University of Birmingham focusing on ion-photon interfaces and cavity QED for quantum networks.",
-        "md_filename": "076-matthias-keller.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8904,
-          52.4862
+          -84.388,
+          33.749
         ]
       }
     },
@@ -236,25 +236,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "087-ben-lanyon",
-        "name": "Ben P. Lanyon",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Ben P. Lanyon leads quantum networking research at the University of Innsbruck, demonstrating long-distance entanglement distribution with trapped calcium ions.",
-        "md_filename": "087-ben-lanyon.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.4041,
-          47.2692
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "041-isaac-chuang",
         "name": "Isaac L. Chuang",
         "platforms": [
@@ -268,25 +249,6 @@
         "coordinates": [
           -71.0942,
           42.3601
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "083-boris-blinov",
-        "name": "Boris B. Blinov",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Boris B. Blinov leads the Trapped Ion Quantum Computing group at the University of Washington, focusing on barium ion quantum networks and ion-photon entanglement.",
-        "md_filename": "083-boris-blinov.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.3321,
-          47.6062
         ]
       }
     },
@@ -325,6 +287,25 @@
         "coordinates": [
           10.2039,
           56.1629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "066-wenhui-li",
+        "name": "Wenhui Li",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.",
+        "md_filename": "066-wenhui-li.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4074,
+          39.9042
         ]
       }
     },
@@ -486,25 +467,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "089-yuval-shagam",
-        "name": "Yuval Shagam",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Prof. Yuval Shagam is an experimental physicist and Assistant Professor at the Technion – Israel Institute of Technology, where he leads the **Molecular Quantum Technology Lab**. His research centers on **precision molecular ion trapping**, **quantum control of molecular systems**, cold quantum chemistry, and **precision spectroscopy** for tests of fundamental symmetry (such as parity violation) and searches for physics beyond the Standard Model.",
-        "md_filename": "089-yuval-shagam.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.9896,
-          32.794
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "045-kazuhiro-hayasaka",
         "name": "Kazuhiro Hayasaka",
         "platforms": [
@@ -524,19 +486,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "068-mirko-lobino",
-        "name": "Mirko Lobino",
+        "id": "069-sadiq-rangwala",
+        "name": "S. A. Rangwala",
         "platforms": [
           "Trapped ions"
         ],
-        "short_bio": "Mirko Lobino leads quantum photonics and trapped-ion research at Griffith University in Brisbane, Australia, focusing on hybrid quantum systems.",
-        "md_filename": "068-mirko-lobino.md"
+        "short_bio": "S. A. Rangwala leads cold atoms and ions research at Raman Research Institute/IISER Pune, focusing on hybrid ion-atom systems and cold collisions.",
+        "md_filename": "069-sadiq-rangwala.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          153.026,
-          -27.4705
+          73.8567,
+          18.5204
         ]
       }
     },
@@ -581,19 +543,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "077-brian-mcmahon",
-        "name": "Brian McMahon",
+        "id": "067-mirko-lobino",
+        "name": "Mirko Lobino",
         "platforms": [
           "Trapped ions"
         ],
-        "short_bio": "Brian McMahon leads trapped-ion research at Georgia Tech focusing on quantum computing and quantum networks.",
-        "md_filename": "077-brian-mcmahon.md"
+        "short_bio": "Mirko Lobino leads quantum photonics and trapped-ion research at Griffith University in Brisbane, Australia, focusing on hybrid quantum systems.",
+        "md_filename": "067-mirko-lobino.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.388,
-          33.749
+          153.026,
+          -27.4705
         ]
       }
     },
@@ -701,25 +663,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "071-paul-barclay",
-        "name": "Paul Barclay",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Paul Barclay leads quantum photonics research at Simon Fraser University focusing on hybrid quantum systems and diamond-based quantum technologies.",
-        "md_filename": "071-paul-barclay.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.1207,
-          49.2827
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "035-stefan-willitsch",
         "name": "Stefan Willitsch",
         "platforms": [
@@ -797,6 +740,25 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "068-paul-barclay",
+        "name": "Paul Barclay",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Paul Barclay leads quantum photonics research at Simon Fraser University focusing on hybrid quantum systems and diamond-based quantum technologies.",
+        "md_filename": "068-paul-barclay.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.1207,
+          49.2827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "021-mike-biercuk",
         "name": "Michael J. Biercuk",
         "platforms": [
@@ -810,6 +772,26 @@
         "coordinates": [
           151.2093,
           -33.8688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "076-tilman-esslinger",
+        "name": "Tilman Esslinger",
+        "platforms": [
+          "Trapped ions",
+          "Neutral atoms"
+        ],
+        "short_bio": "Tilman Esslinger leads the Quantum Optics Group at ETH Zürich, known for ultracold atom experiments and increasingly exploring hybrid ion-atom systems.",
+        "md_filename": "076-tilman-esslinger.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5417,
+          47.3769
         ]
       }
     },
@@ -854,39 +836,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "084-tilman-esslinger",
-        "name": "Tilman Esslinger",
-        "platforms": [
-          "Trapped ions",
-          "Neutral atoms"
-        ],
-        "short_bio": "Tilman Esslinger leads the Quantum Optics Group at ETH Zürich, known for ultracold atom experiments and increasingly exploring hybrid ion-atom systems.",
-        "md_filename": "084-tilman-esslinger.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.5417,
-          47.3769
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "066-luyan-sun",
-        "name": "Luyan Sun",
+        "id": "078-yuval-shagam",
+        "name": "Yuval Shagam",
         "platforms": [
           "Trapped ions"
         ],
-        "short_bio": "Luyan Sun leads quantum information research at Tsinghua University focusing on hybrid quantum systems and trapped-ion quantum computing.",
-        "md_filename": "066-luyan-sun.md"
+        "short_bio": "Prof. Yuval Shagam is an experimental physicist and Assistant Professor at the Technion – Israel Institute of Technology, where he leads the **Molecular Quantum Technology Lab**. His research centers on **precision molecular ion trapping**, **quantum control of molecular systems**, cold quantum chemistry, and **precision spectroscopy** for tests of fundamental symmetry (such as parity violation) and searches for physics beyond the Standard Model.",
+        "md_filename": "078-yuval-shagam.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          116.4074,
-          39.9042
+          34.9896,
+          32.794
         ]
       }
     },
@@ -963,44 +925,6 @@
         "coordinates": [
           139.6503,
           35.6762
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "080-david-hume",
-        "name": "David Hume",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clock using quantum logic spectroscopy.",
-        "md_filename": "080-david-hume.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.2705,
-          40.015
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "072-sadiq-rangwala",
-        "name": "S. A. Rangwala",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "S. A. Rangwala leads cold atoms and ions research at Raman Research Institute/IISER Pune, focusing on hybrid ion-atom systems and cold collisions.",
-        "md_filename": "072-sadiq-rangwala.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          73.8567,
-          18.5204
         ]
       }
     },
@@ -1104,25 +1028,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "082-piet-schmidt",
-        "name": "Piet O. Schmidt",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "short_bio": "Piet O. Schmidt leads trapped-ion optical clock research at PTB and Leibniz University Hannover, developing ultra-precise frequency standards using quantum logic spectroscopy.",
-        "md_filename": "082-piet-schmidt.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.5268,
-          52.2689
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "053-masao-kitano",
         "name": "Masao Kitano",
         "platforms": [
@@ -1218,19 +1123,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "074-markus-hennrich",
-        "name": "Markus Hennrich",
+        "id": "071-matthias-keller",
+        "name": "Matthias Keller",
         "platforms": [
           "Trapped ions"
         ],
-        "short_bio": "Markus Hennrich leads the Trapped Rydberg Ion Group at Stockholm University, pioneering work on Rydberg excitation of trapped ions for quantum computing.",
-        "md_filename": "074-markus-hennrich.md"
+        "short_bio": "Matthias Keller leads trapped-ion research at the University of Birmingham focusing on ion-photon interfaces and cavity QED for quantum networks.",
+        "md_filename": "071-matthias-keller.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.0686,
-          59.3293
+          -1.8904,
+          52.4862
         ]
       }
     },
@@ -1250,6 +1155,44 @@
         "coordinates": [
           153.4,
           -28.0167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "077-ben-lanyon",
+        "name": "Ben P. Lanyon",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Ben P. Lanyon leads quantum networking research at the University of Innsbruck, demonstrating long-distance entanglement distribution with trapped calcium ions.",
+        "md_filename": "077-ben-lanyon.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4041,
+          47.2692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "070-markus-hennrich",
+        "name": "Markus Hennrich",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Markus Hennrich leads the Trapped Rydberg Ion Group at Stockholm University, pioneering work on Rydberg excitation of trapped ions for quantum computing.",
+        "md_filename": "070-markus-hennrich.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0686,
+          59.3293
         ]
       }
     },
@@ -1351,6 +1294,44 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "075-boris-blinov",
+        "name": "Boris B. Blinov",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Boris B. Blinov leads the Trapped Ion Quantum Computing group at the University of Washington, focusing on barium ion quantum networks and ion-photon entanglement.",
+        "md_filename": "075-boris-blinov.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321,
+          47.6062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "073-david-hume",
+        "name": "David Hume",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clock using quantum logic spectroscopy.",
+        "md_filename": "073-david-hume.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2705,
+          40.015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "050-rachel-godun",
         "name": "Rachel Godun",
         "platforms": [
@@ -1383,6 +1364,25 @@
         "coordinates": [
           7.0982,
           50.7374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "074-piet-schmidt",
+        "name": "Piet O. Schmidt",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Piet O. Schmidt leads trapped-ion optical clock research at PTB and Leibniz University Hannover, developing ultra-precise frequency standards using quantum logic spectroscopy.",
+        "md_filename": "074-piet-schmidt.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5268,
+          52.2689
         ]
       }
     },

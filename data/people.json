@@ -269,6 +269,65 @@
     "updated_at": "2026-01-27"
   },
   {
+    "id": "065-luyan-sun",
+    "name": "Luyan Sun",
+    "sort_name": "Sun, Luyan",
+    "current_position": {
+      "institution": "Tsinghua University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Beijing",
+      "region": "Beijing",
+      "country": "China",
+      "lat": 39.9042,
+      "lon": 116.4074
+    },
+    "education": [
+      {
+        "advisor": null,
+        "degree": "PhD (Physics)",
+        "institution": "University of Maryland",
+        "year": 2008,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum computing",
+      "superconducting circuits",
+      "hybrid systems"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Luyan Sun leads quantum information research at Tsinghua University focusing on hybrid quantum systems and trapped-ion quantum computing.",
+    "md_filename": "065-luyan-sun.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
     "id": "029-christof-wunderlich",
     "name": "Christof Wunderlich",
     "sort_name": "Wunderlich, Christof",
@@ -572,11 +631,11 @@
     "updated_at": "2026-01-27"
   },
   {
-    "id": "067-wenhui-li",
-    "name": "Wenhui Li",
-    "sort_name": "Li, Wenhui",
+    "id": "072-brian-mcmahon",
+    "name": "Brian McMahon",
+    "sort_name": "McMahon, Brian",
     "current_position": {
-      "institution": "Peking University",
+      "institution": "Georgia Tech",
       "title": "Professor"
     },
     "platforms": [
@@ -584,17 +643,17 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Beijing",
-      "region": "Beijing",
-      "country": "China",
-      "lat": 39.9042,
-      "lon": 116.4074
+      "city": "Atlanta",
+      "region": "Georgia",
+      "country": "United States",
+      "lat": 33.749,
+      "lon": -84.388
     },
     "education": [
       {
         "degree": "PhD (Physics)",
-        "institution": "University of Virginia",
-        "year": 2005,
+        "institution": "Georgia Institute of Technology",
+        "year": 2021,
         "advisor": null,
         "confidence": "not_found",
         "note": "PhD details require verification"
@@ -603,66 +662,7 @@
     "postdocs": [],
     "keywords": [
       "trapped ions",
-      "Rydberg atoms",
-      "quantum simulation"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "Ca+"
-    ],
-    "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
-    },
-    "thesis": {
-      "link": null,
-      "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
-    },
-    "short_bio": "Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.",
-    "md_filename": "067-wenhui-li.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
-  },
-  {
-    "id": "076-matthias-keller",
-    "name": "Matthias Keller",
-    "sort_name": "Keller, Matthias",
-    "current_position": {
-      "institution": "University of Birmingham",
-      "title": "Professor"
-    },
-    "platforms": [
-      "Trapped ions"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Birmingham",
-      "region": "West Midlands",
-      "country": "United Kingdom",
-      "lat": 52.4862,
-      "lon": -1.8904
-    },
-    "education": [
-      {
-        "advisor": null,
-        "degree": "PhD (Physics)",
-        "institution": "Max Planck Institute of Quantum Optics",
-        "year": 2004,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
-      }
-    ],
-    "postdocs": [],
-    "keywords": [
-      "trapped ions",
-      "cavity QED",
-      "ion-photon interfaces",
+      "quantum computing",
       "quantum networks"
     ],
     "group_type": "experimental",
@@ -670,7 +670,7 @@
       "Experimental group"
     ],
     "ion_species": [
-      "Ca+"
+      "Yb+"
     ],
     "links": {
       "google_scholar": null,
@@ -679,12 +679,12 @@
     },
     "thesis": {
       "link": null,
-      "title": null,
-      "year": null,
+      "title": "Compact, reconfigurable Penning ion traps and Doppler laser cooling",
+      "year": 2021,
       "note": "Thesis information requires verification"
     },
-    "short_bio": "Matthias Keller leads trapped-ion research at the University of Birmingham focusing on ion-photon interfaces and cavity QED for quantum networks.",
-    "md_filename": "076-matthias-keller.md",
+    "short_bio": "Brian McMahon leads trapped-ion research at Georgia Tech focusing on quantum computing and quantum networks.",
+    "md_filename": "072-brian-mcmahon.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
   },
@@ -749,65 +749,6 @@
     "updated_at": "2026-01-30"
   },
   {
-    "id": "087-ben-lanyon",
-    "name": "Ben P. Lanyon",
-    "sort_name": "Lanyon, Ben P.",
-    "current_position": {
-      "institution": "University of Innsbruck",
-      "title": "Professor"
-    },
-    "platforms": [
-      "Trapped ions"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Innsbruck",
-      "region": "Tyrol",
-      "country": "Austria",
-      "lat": 47.2692,
-      "lon": 11.4041
-    },
-    "education": [
-      {
-        "advisor": null,
-        "degree": "PhD (Physics)",
-        "institution": "University of Queensland",
-        "year": 2009,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
-      }
-    ],
-    "postdocs": [],
-    "keywords": [
-      "trapped ions",
-      "quantum networks",
-      "quantum communication",
-      "long-range entanglement"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "Ca+"
-    ],
-    "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
-    },
-    "thesis": {
-      "link": null,
-      "title": "Optical quantum information: new states, gates and algorithms",
-      "year": 2009,
-      "note": "Thesis information requires verification"
-    },
-    "short_bio": "Ben P. Lanyon leads quantum networking research at the University of Innsbruck, demonstrating long-distance entanglement distribution with trapped calcium ions.",
-    "md_filename": "087-ben-lanyon.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
-  },
-  {
     "id": "041-isaac-chuang",
     "name": "Isaac L. Chuang",
     "sort_name": "Chuang, Isaac L.",
@@ -863,65 +804,6 @@
     },
     "short_bio": "Isaac L. Chuang leads the Quanta Group at MIT's Center for Ultracold Atoms. A pioneer in quantum computing, his research includes trapped-ion quantum information processing with strontium ions, quantum algorithms, and quantum error correction.",
     "md_filename": "041-isaac-chuang.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
-  },
-  {
-    "id": "083-boris-blinov",
-    "name": "Boris B. Blinov",
-    "sort_name": "Blinov, Boris B.",
-    "current_position": {
-      "institution": "University of Washington",
-      "title": "Professor"
-    },
-    "platforms": [
-      "Trapped ions"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Seattle",
-      "region": "Washington",
-      "country": "United States",
-      "lat": 47.6062,
-      "lon": -122.3321
-    },
-    "education": [
-      {
-        "advisor": null,
-        "degree": "PhD (Physics)",
-        "institution": "University of Michigan",
-        "year": 2000,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
-      }
-    ],
-    "postdocs": [],
-    "keywords": [
-      "trapped ions",
-      "quantum networks",
-      "ion-photon entanglement",
-      "quantum computing"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "Ba+"
-    ],
-    "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
-    },
-    "thesis": {
-      "link": null,
-      "title": "RF DEPOLARIZING RESONANCES IN THE PRESENCE OF A FULL SIBERIAN SNAKE AND FULL SNAKE SPIN-FLIPPING",
-      "year": 2000,
-      "note": "Thesis information requires verification"
-    },
-    "short_bio": "Boris B. Blinov leads the Trapped Ion Quantum Computing group at the University of Washington, focusing on barium ion quantum networks and ion-photon entanglement.",
-    "md_filename": "083-boris-blinov.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
   },
@@ -1039,6 +921,64 @@
     "md_filename": "018-michael-drewsen.md",
     "created_at": "2026-01-28",
     "updated_at": "2026-01-28"
+  },
+  {
+    "id": "066-wenhui-li",
+    "name": "Wenhui Li",
+    "sort_name": "Li, Wenhui",
+    "current_position": {
+      "institution": "Peking University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Beijing",
+      "region": "Beijing",
+      "country": "China",
+      "lat": 39.9042,
+      "lon": 116.4074
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Virginia",
+        "year": 2005,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "Rydberg atoms",
+      "quantum simulation"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.",
+    "md_filename": "066-wenhui-li.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
   },
   {
     "id": "012-winfried-hensinger",
@@ -1528,84 +1468,6 @@
     "updated_at": "2026-01-30"
   },
   {
-    "id": "089-yuval-shagam",
-    "name": "Yuval Shagam",
-    "sort_name": "Shagam, Yuval",
-    "current_position": {
-      "institution": "Technion – Israel Institute of Technology",
-      "title": "Assistant Professor"
-    },
-    "platforms": [
-      "Trapped ions"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Haifa",
-      "region": "Haifa District",
-      "country": "Israel",
-      "lat": 32.794,
-      "lon": 34.9896
-    },
-    "education": [
-      {
-        "degree": "BSc (Physics and Computer Science)",
-        "institution": "Hebrew University of Jerusalem",
-        "year": 2010
-      },
-      {
-        "degree": "MSc (Physics)",
-        "institution": "Weizmann Institute of Science",
-        "year": 2012,
-        "advisor": "Edvardas Narevicius"
-      },
-      {
-        "degree": "PhD (Chemical Physics)",
-        "institution": "Weizmann Institute of Science",
-        "year": 2016,
-        "advisor": "Edvardas Narevicius"
-      }
-    ],
-    "postdocs": [
-      {
-        "institution": "JILA (University of Colorado & NIST), Boulder",
-        "advisor": "Eric A. Cornell; Jun Ye",
-        "years": "2016–2020",
-        "note": "Postdoctoral research at JILA focused on precision measurement of the electron electric dipole moment using trapped molecular ions."
-      }
-    ],
-    "keywords": [
-      "molecular ion quantum technology",
-      "cold quantum chemistry",
-      "precision spectroscopy",
-      "parity violation",
-      "chiral molecules",
-      "ion-neutral collisions"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "molecular ions"
-    ],
-    "links": {
-      "google_scholar": "https://scholar.google.com/citations?hl=en&user=tbFFEyMAAAAJ",
-      "homepage": "https://shagam.net.technion.ac.il/",
-      "orcid": "https://orcid.org/0000-0002-6994-4814",
-      "technion_profile": "https://chemistry.technion.ac.il/en/team/yuval-shagam/"
-    },
-    "thesis": {
-      "title": "Cold chemistry with cold molecules",
-      "link": null,
-      "year": 2016,
-      "note": "Thesis title confirmed from Technion faculty profile; no open PDF found."
-    },
-    "short_bio": "Prof. Yuval Shagam is an experimental physicist and Assistant Professor at the Technion – Israel Institute of Technology, where he leads the **Molecular Quantum Technology Lab**. His research centers on **precision molecular ion trapping**, **quantum control of molecular systems**, cold quantum chemistry, and **precision spectroscopy** for tests of fundamental symmetry (such as parity violation) and searches for physics beyond the Standard Model.",
-    "md_filename": "089-yuval-shagam.md",
-    "created_at": "2026-02-02",
-    "updated_at": "2026-02-02"
-  },
-  {
     "id": "045-kazuhiro-hayasaka",
     "name": "Kazuhiro Hayasaka",
     "sort_name": "Hayasaka, Kazuhiro",
@@ -1666,11 +1528,11 @@
     "updated_at": "2026-01-30"
   },
   {
-    "id": "068-mirko-lobino",
-    "name": "Mirko Lobino",
-    "sort_name": "Lobino, Mirko",
+    "id": "069-sadiq-rangwala",
+    "name": "S. A. Rangwala",
+    "sort_name": "Rangwala, S. A.",
     "current_position": {
-      "institution": "Griffith University",
+      "institution": "Indian Institute of Science Education and Research (IISER) Pune",
       "title": "Professor"
     },
     "platforms": [
@@ -1678,17 +1540,17 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Brisbane",
-      "region": "Queensland",
-      "country": "Australia",
-      "lat": -27.4705,
-      "lon": 153.026
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "India",
+      "lat": 18.5204,
+      "lon": 73.8567
     },
     "education": [
       {
         "degree": "PhD (Physics)",
-        "institution": "Politecnico di Milano",
-        "year": 2007,
+        "institution": "Tata Institute of Fundamental Research",
+        "year": 1999,
         "advisor": null,
         "confidence": "not_found",
         "note": "PhD details require verification"
@@ -1697,8 +1559,8 @@
     "postdocs": [],
     "keywords": [
       "trapped ions",
-      "quantum photonics",
-      "diamond NV centers",
+      "ultracold atoms",
+      "cold collisions",
       "hybrid systems"
     ],
     "group_type": "experimental",
@@ -1706,7 +1568,8 @@
       "Experimental group"
     ],
     "ion_species": [
-      "Yb+"
+      "Ca+",
+      "Rb+"
     ],
     "links": {
       "google_scholar": null,
@@ -1715,12 +1578,11 @@
     },
     "thesis": {
       "link": null,
-      "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "title": "Resonant electron capture to molecules and Dissociative electron attachment",
+      "year": 1999
     },
-    "short_bio": "Mirko Lobino leads quantum photonics and trapped-ion research at Griffith University in Brisbane, Australia, focusing on hybrid quantum systems.",
-    "md_filename": "068-mirko-lobino.md",
+    "short_bio": "S. A. Rangwala leads cold atoms and ions research at Raman Research Institute/IISER Pune, focusing on hybrid ion-atom systems and cold collisions.",
+    "md_filename": "069-sadiq-rangwala.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
   },
@@ -1844,11 +1706,11 @@
     "updated_at": "2026-01-27"
   },
   {
-    "id": "077-brian-mcmahon",
-    "name": "Brian McMahon",
-    "sort_name": "McMahon, Brian",
+    "id": "067-mirko-lobino",
+    "name": "Mirko Lobino",
+    "sort_name": "Lobino, Mirko",
     "current_position": {
-      "institution": "Georgia Tech",
+      "institution": "Griffith University",
       "title": "Professor"
     },
     "platforms": [
@@ -1856,17 +1718,17 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Atlanta",
-      "region": "Georgia",
-      "country": "United States",
-      "lat": 33.749,
-      "lon": -84.388
+      "city": "Brisbane",
+      "region": "Queensland",
+      "country": "Australia",
+      "lat": -27.4705,
+      "lon": 153.026
     },
     "education": [
       {
         "degree": "PhD (Physics)",
-        "institution": "Georgia Institute of Technology",
-        "year": 2021,
+        "institution": "Politecnico di Milano",
+        "year": 2007,
         "advisor": null,
         "confidence": "not_found",
         "note": "PhD details require verification"
@@ -1875,8 +1737,9 @@
     "postdocs": [],
     "keywords": [
       "trapped ions",
-      "quantum computing",
-      "quantum networks"
+      "quantum photonics",
+      "diamond NV centers",
+      "hybrid systems"
     ],
     "group_type": "experimental",
     "labels": [
@@ -1892,12 +1755,12 @@
     },
     "thesis": {
       "link": null,
-      "title": "Compact, reconfigurable Penning ion traps and Doppler laser cooling",
-      "year": 2021,
+      "title": null,
+      "year": null,
       "note": "Thesis information requires verification"
     },
-    "short_bio": "Brian McMahon leads trapped-ion research at Georgia Tech focusing on quantum computing and quantum networks.",
-    "md_filename": "077-brian-mcmahon.md",
+    "short_bio": "Mirko Lobino leads quantum photonics and trapped-ion research at Griffith University in Brisbane, Australia, focusing on hybrid quantum systems.",
+    "md_filename": "067-mirko-lobino.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
   },
@@ -2232,64 +2095,6 @@
     "updated_at": "2026-01-28"
   },
   {
-    "id": "071-paul-barclay",
-    "name": "Paul Barclay",
-    "sort_name": "Barclay, Paul",
-    "current_position": {
-      "institution": "Simon Fraser University",
-      "title": "Professor"
-    },
-    "platforms": [
-      "Trapped ions"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Vancouver",
-      "region": "British Columbia",
-      "country": "Canada",
-      "lat": 49.2827,
-      "lon": -123.1207
-    },
-    "education": [
-      {
-        "advisor": null,
-        "degree": "PhD (Applied Physics)",
-        "institution": "California Institute of Technology",
-        "year": 2007,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
-      }
-    ],
-    "postdocs": [],
-    "keywords": [
-      "quantum photonics",
-      "diamond photonics",
-      "hybrid quantum systems"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "Yb+"
-    ],
-    "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
-    },
-    "thesis": {
-      "link": null,
-      "title": "Fiber-coupled nanophotonic devices for nonlinear optics and cavity QED",
-      "year": 2007,
-      "note": "Thesis information requires verification"
-    },
-    "short_bio": "Paul Barclay leads quantum photonics research at Simon Fraser University focusing on hybrid quantum systems and diamond-based quantum technologies.",
-    "md_filename": "071-paul-barclay.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
-  },
-  {
     "id": "035-stefan-willitsch",
     "name": "Stefan Willitsch",
     "sort_name": "Willitsch, Stefan",
@@ -2523,6 +2328,64 @@
     "updated_at": "2026-01-30"
   },
   {
+    "id": "068-paul-barclay",
+    "name": "Paul Barclay",
+    "sort_name": "Barclay, Paul",
+    "current_position": {
+      "institution": "Simon Fraser University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Vancouver",
+      "region": "British Columbia",
+      "country": "Canada",
+      "lat": 49.2827,
+      "lon": -123.1207
+    },
+    "education": [
+      {
+        "advisor": null,
+        "degree": "PhD (Applied Physics)",
+        "institution": "California Institute of Technology",
+        "year": 2007,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum photonics",
+      "diamond photonics",
+      "hybrid quantum systems"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": "Fiber-coupled nanophotonic devices for nonlinear optics and cavity QED",
+      "year": 2007,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Paul Barclay leads quantum photonics research at Simon Fraser University focusing on hybrid quantum systems and diamond-based quantum technologies.",
+    "md_filename": "068-paul-barclay.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
     "id": "021-mike-biercuk",
     "name": "Michael J. Biercuk",
     "sort_name": "Biercuk, Michael J.",
@@ -2585,6 +2448,66 @@
     "md_filename": "021-mike-biercuk.md",
     "created_at": "2026-01-28",
     "updated_at": "2026-01-28"
+  },
+  {
+    "id": "076-tilman-esslinger",
+    "name": "Tilman Esslinger",
+    "sort_name": "Esslinger, Tilman",
+    "current_position": {
+      "institution": "ETH Zürich",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions",
+      "Neutral atoms"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Zürich",
+      "region": "Zürich",
+      "country": "Switzerland",
+      "lat": 47.3769,
+      "lon": 8.5417
+    },
+    "education": [
+      {
+        "advisor": null,
+        "degree": "PhD (Physics)",
+        "institution": "Ludwig Maximilian University of Munich",
+        "year": 1995,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "ultracold atoms",
+      "optical lattices",
+      "quantum simulation",
+      "hybrid systems"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Li+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Tilman Esslinger leads the Quantum Optics Group at ETH Zürich, known for ultracold atom experiments and increasingly exploring hybrid ion-atom systems.",
+    "md_filename": "076-tilman-esslinger.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
   },
   {
     "id": "037-david-lucas",
@@ -2706,123 +2629,82 @@
     "updated_at": "2026-01-30"
   },
   {
-    "id": "084-tilman-esslinger",
-    "name": "Tilman Esslinger",
-    "sort_name": "Esslinger, Tilman",
+    "id": "078-yuval-shagam",
+    "name": "Yuval Shagam",
+    "sort_name": "Shagam, Yuval",
     "current_position": {
-      "institution": "ETH Zürich",
-      "title": "Professor"
-    },
-    "platforms": [
-      "Trapped ions",
-      "Neutral atoms"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Zürich",
-      "region": "Zürich",
-      "country": "Switzerland",
-      "lat": 47.3769,
-      "lon": 8.5417
-    },
-    "education": [
-      {
-        "advisor": null,
-        "degree": "PhD (Physics)",
-        "institution": "Ludwig Maximilian University of Munich",
-        "year": 1995,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
-      }
-    ],
-    "postdocs": [],
-    "keywords": [
-      "ultracold atoms",
-      "optical lattices",
-      "quantum simulation",
-      "hybrid systems"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "Li+"
-    ],
-    "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
-    },
-    "thesis": {
-      "link": null,
-      "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
-    },
-    "short_bio": "Tilman Esslinger leads the Quantum Optics Group at ETH Zürich, known for ultracold atom experiments and increasingly exploring hybrid ion-atom systems.",
-    "md_filename": "084-tilman-esslinger.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
-  },
-  {
-    "id": "066-luyan-sun",
-    "name": "Luyan Sun",
-    "sort_name": "Sun, Luyan",
-    "current_position": {
-      "institution": "Tsinghua University",
-      "title": "Professor"
+      "institution": "Technion – Israel Institute of Technology",
+      "title": "Assistant Professor"
     },
     "platforms": [
       "Trapped ions"
     ],
     "affiliations": [],
     "location": {
-      "city": "Beijing",
-      "region": "Beijing",
-      "country": "China",
-      "lat": 39.9042,
-      "lon": 116.4074
+      "city": "Haifa",
+      "region": "Haifa District",
+      "country": "Israel",
+      "lat": 32.794,
+      "lon": 34.9896
     },
     "education": [
       {
-        "advisor": null,
-        "degree": "PhD (Physics)",
-        "institution": "University of Maryland",
-        "year": 2008,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "BSc (Physics and Computer Science)",
+        "institution": "Hebrew University of Jerusalem",
+        "year": 2010
+      },
+      {
+        "degree": "MSc (Physics)",
+        "institution": "Weizmann Institute of Science",
+        "year": 2012,
+        "advisor": "Edvardas Narevicius"
+      },
+      {
+        "degree": "PhD (Chemical Physics)",
+        "institution": "Weizmann Institute of Science",
+        "year": 2016,
+        "advisor": "Edvardas Narevicius"
       }
     ],
-    "postdocs": [],
+    "postdocs": [
+      {
+        "institution": "JILA (University of Colorado & NIST), Boulder",
+        "advisor": "Eric A. Cornell; Jun Ye",
+        "years": "2016–2020",
+        "note": "Postdoctoral research at JILA focused on precision measurement of the electron electric dipole moment using trapped molecular ions."
+      }
+    ],
     "keywords": [
-      "trapped ions",
-      "quantum computing",
-      "superconducting circuits",
-      "hybrid systems"
+      "molecular ion quantum technology",
+      "cold quantum chemistry",
+      "precision spectroscopy",
+      "parity violation",
+      "chiral molecules",
+      "ion-neutral collisions"
     ],
     "group_type": "experimental",
     "labels": [
       "Experimental group"
     ],
     "ion_species": [
-      "Ca+"
+      "molecular ions"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?hl=en&user=tbFFEyMAAAAJ",
+      "homepage": "https://shagam.net.technion.ac.il/",
+      "orcid": "https://orcid.org/0000-0002-6994-4814",
+      "technion_profile": "https://chemistry.technion.ac.il/en/team/yuval-shagam/"
     },
     "thesis": {
+      "title": "Cold chemistry with cold molecules",
       "link": null,
-      "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": 2016,
+      "note": "Thesis title confirmed from Technion faculty profile; no open PDF found."
     },
-    "short_bio": "Luyan Sun leads quantum information research at Tsinghua University focusing on hybrid quantum systems and trapped-ion quantum computing.",
-    "md_filename": "066-luyan-sun.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
+    "short_bio": "Prof. Yuval Shagam is an experimental physicist and Assistant Professor at the Technion – Israel Institute of Technology, where he leads the **Molecular Quantum Technology Lab**. His research centers on **precision molecular ion trapping**, **quantum control of molecular systems**, cold quantum chemistry, and **precision spectroscopy** for tests of fundamental symmetry (such as parity violation) and searches for physics beyond the Standard Model.",
+    "md_filename": "078-yuval-shagam.md",
+    "created_at": "2026-02-02",
+    "updated_at": "2026-02-02"
   },
   {
     "id": "061-taeyoung-choi",
@@ -3055,125 +2937,6 @@
     },
     "short_bio": "Shuichi Hasegawa leads trapped-ion research at the University of Tokyo focusing on laser cooling and quantum control with calcium ions.",
     "md_filename": "059-shuichi-hasegawa.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
-  },
-  {
-    "id": "080-david-hume",
-    "name": "David Hume",
-    "sort_name": "Hume, David",
-    "current_position": {
-      "institution": "NIST Boulder",
-      "title": "Physicist"
-    },
-    "platforms": [
-      "Trapped ions"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Boulder",
-      "region": "Colorado",
-      "country": "United States",
-      "lat": 40.015,
-      "lon": -105.2705
-    },
-    "education": [
-      {
-        "degree": "PhD (Physics)",
-        "institution": "University of Colorado Boulder",
-        "year": 2010,
-        "advisor": null,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
-      }
-    ],
-    "postdocs": [],
-    "keywords": [
-      "optical clocks",
-      "quantum logic spectroscopy",
-      "precision measurement",
-      "trapped ions"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "Al+",
-      "Mg+"
-    ],
-    "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
-    },
-    "thesis": {
-      "link": null,
-      "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
-    },
-    "short_bio": "David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clock using quantum logic spectroscopy.",
-    "md_filename": "080-david-hume.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
-  },
-  {
-    "id": "072-sadiq-rangwala",
-    "name": "S. A. Rangwala",
-    "sort_name": "Rangwala, S. A.",
-    "current_position": {
-      "institution": "Indian Institute of Science Education and Research (IISER) Pune",
-      "title": "Professor"
-    },
-    "platforms": [
-      "Trapped ions"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Pune",
-      "region": "Maharashtra",
-      "country": "India",
-      "lat": 18.5204,
-      "lon": 73.8567
-    },
-    "education": [
-      {
-        "degree": "PhD (Physics)",
-        "institution": "Tata Institute of Fundamental Research",
-        "year": 1999,
-        "advisor": null,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
-      }
-    ],
-    "postdocs": [],
-    "keywords": [
-      "trapped ions",
-      "ultracold atoms",
-      "cold collisions",
-      "hybrid systems"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "Ca+",
-      "Rb+"
-    ],
-    "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
-    },
-    "thesis": {
-      "link": null,
-      "title": "Resonant electron capture to molecules and Dissociative electron attachment",
-      "year": 1999
-    },
-    "short_bio": "S. A. Rangwala leads cold atoms and ions research at Raman Research Institute/IISER Pune, focusing on hybrid ion-atom systems and cold collisions.",
-    "md_filename": "072-sadiq-rangwala.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
   },
@@ -3522,67 +3285,6 @@
     "updated_at": "2026-01-27"
   },
   {
-    "id": "082-piet-schmidt",
-    "name": "Piet O. Schmidt",
-    "sort_name": "Schmidt, Piet O.",
-    "current_position": {
-      "institution": "Physikalisch-Technische Bundesanstalt (PTB)",
-      "title": "Group Leader"
-    },
-    "platforms": [
-      "Trapped ions"
-    ],
-    "affiliations": [],
-    "location": {
-      "city": "Braunschweig",
-      "region": "Lower Saxony",
-      "country": "Germany",
-      "lat": 52.2689,
-      "lon": 10.5268
-    },
-    "education": [
-      {
-        "degree": "PhD (Physics)",
-        "institution": "University of Stuttgart",
-        "year": 2003,
-        "advisor": null,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
-      }
-    ],
-    "postdocs": [],
-    "keywords": [
-      "optical clocks",
-      "trapped ions",
-      "precision measurement",
-      "quantum logic spectroscopy"
-    ],
-    "group_type": "experimental",
-    "labels": [
-      "Experimental group"
-    ],
-    "ion_species": [
-      "Yb+",
-      "Al+",
-      "Ca+"
-    ],
-    "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
-    },
-    "thesis": {
-      "link": null,
-      "title": "Scattering Properties of Ultra-cold Chromium Atoms",
-      "year": 2003,
-      "note": "Thesis information requires verification"
-    },
-    "short_bio": "Piet O. Schmidt leads trapped-ion optical clock research at PTB and Leibniz University Hannover, developing ultra-precise frequency standards using quantum logic spectroscopy.",
-    "md_filename": "082-piet-schmidt.md",
-    "created_at": "2026-01-30",
-    "updated_at": "2026-01-30"
-  },
-  {
     "id": "053-masao-kitano",
     "name": "Masao Kitano",
     "sort_name": "Kitano, Masao",
@@ -3884,11 +3586,11 @@
     "updated_at": "2026-01-27"
   },
   {
-    "id": "074-markus-hennrich",
-    "name": "Markus Hennrich",
-    "sort_name": "Hennrich, Markus",
+    "id": "071-matthias-keller",
+    "name": "Matthias Keller",
+    "sort_name": "Keller, Matthias",
     "current_position": {
-      "institution": "Stockholm University",
+      "institution": "University of Birmingham",
       "title": "Professor"
     },
     "platforms": [
@@ -3896,36 +3598,35 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Stockholm",
-      "region": "Stockholm",
-      "country": "Sweden",
-      "lat": 59.3293,
-      "lon": 18.0686
+      "city": "Birmingham",
+      "region": "West Midlands",
+      "country": "United Kingdom",
+      "lat": 52.4862,
+      "lon": -1.8904
     },
     "education": [
       {
+        "advisor": null,
         "degree": "PhD (Physics)",
         "institution": "Max Planck Institute of Quantum Optics",
-        "year": null,
-        "note": "PhD details require verification",
-        "advisor": null,
-        "confidence": "not_found"
+        "year": 2004,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
       }
     ],
     "postdocs": [],
     "keywords": [
       "trapped ions",
-      "Rydberg ions",
-      "quantum computing",
-      "quantum simulation"
+      "cavity QED",
+      "ion-photon interfaces",
+      "quantum networks"
     ],
     "group_type": "experimental",
     "labels": [
       "Experimental group"
     ],
     "ion_species": [
-      "Ca+",
-      "Sr+"
+      "Ca+"
     ],
     "links": {
       "google_scholar": null,
@@ -3934,12 +3635,12 @@
     },
     "thesis": {
       "link": null,
-      "title": "Coherent manipulation of ultracold atoms on atom chips",
+      "title": null,
       "year": null,
       "note": "Thesis information requires verification"
     },
-    "short_bio": "Markus Hennrich leads the Trapped Rydberg Ion Group at Stockholm University, pioneering work on Rydberg excitation of trapped ions for quantum computing.",
-    "md_filename": "074-markus-hennrich.md",
+    "short_bio": "Matthias Keller leads trapped-ion research at the University of Birmingham focusing on ion-photon interfaces and cavity QED for quantum networks.",
+    "md_filename": "071-matthias-keller.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
   },
@@ -3999,6 +3700,125 @@
     "md_filename": "026-erik-streed.md",
     "created_at": "2026-01-28",
     "updated_at": "2026-01-28"
+  },
+  {
+    "id": "077-ben-lanyon",
+    "name": "Ben P. Lanyon",
+    "sort_name": "Lanyon, Ben P.",
+    "current_position": {
+      "institution": "University of Innsbruck",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Innsbruck",
+      "region": "Tyrol",
+      "country": "Austria",
+      "lat": 47.2692,
+      "lon": 11.4041
+    },
+    "education": [
+      {
+        "advisor": null,
+        "degree": "PhD (Physics)",
+        "institution": "University of Queensland",
+        "year": 2009,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum networks",
+      "quantum communication",
+      "long-range entanglement"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": "Optical quantum information: new states, gates and algorithms",
+      "year": 2009,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Ben P. Lanyon leads quantum networking research at the University of Innsbruck, demonstrating long-distance entanglement distribution with trapped calcium ions.",
+    "md_filename": "077-ben-lanyon.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "070-markus-hennrich",
+    "name": "Markus Hennrich",
+    "sort_name": "Hennrich, Markus",
+    "current_position": {
+      "institution": "Stockholm University",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Stockholm",
+      "region": "Stockholm",
+      "country": "Sweden",
+      "lat": 59.3293,
+      "lon": 18.0686
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "Max Planck Institute of Quantum Optics",
+        "year": null,
+        "note": "PhD details require verification",
+        "advisor": null,
+        "confidence": "not_found"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "Rydberg ions",
+      "quantum computing",
+      "quantum simulation"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "Sr+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": "Coherent manipulation of ultracold atoms on atom chips",
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Markus Hennrich leads the Trapped Rydberg Ion Group at Stockholm University, pioneering work on Rydberg excitation of trapped ions for quantum computing.",
+    "md_filename": "070-markus-hennrich.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
   },
   {
     "id": "025-christian-schmiegelow",
@@ -4308,6 +4128,125 @@
     "updated_at": "2026-01-27"
   },
   {
+    "id": "075-boris-blinov",
+    "name": "Boris B. Blinov",
+    "sort_name": "Blinov, Boris B.",
+    "current_position": {
+      "institution": "University of Washington",
+      "title": "Professor"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Seattle",
+      "region": "Washington",
+      "country": "United States",
+      "lat": 47.6062,
+      "lon": -122.3321
+    },
+    "education": [
+      {
+        "advisor": null,
+        "degree": "PhD (Physics)",
+        "institution": "University of Michigan",
+        "year": 2000,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "trapped ions",
+      "quantum networks",
+      "ion-photon entanglement",
+      "quantum computing"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ba+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": "RF DEPOLARIZING RESONANCES IN THE PRESENCE OF A FULL SIBERIAN SNAKE AND FULL SNAKE SPIN-FLIPPING",
+      "year": 2000,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Boris B. Blinov leads the Trapped Ion Quantum Computing group at the University of Washington, focusing on barium ion quantum networks and ion-photon entanglement.",
+    "md_filename": "075-boris-blinov.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
+    "id": "073-david-hume",
+    "name": "David Hume",
+    "sort_name": "Hume, David",
+    "current_position": {
+      "institution": "NIST Boulder",
+      "title": "Physicist"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Boulder",
+      "region": "Colorado",
+      "country": "United States",
+      "lat": 40.015,
+      "lon": -105.2705
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Colorado Boulder",
+        "year": 2010,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "optical clocks",
+      "quantum logic spectroscopy",
+      "precision measurement",
+      "trapped ions"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Al+",
+      "Mg+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": null,
+      "year": null,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clock using quantum logic spectroscopy.",
+    "md_filename": "073-david-hume.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
+  },
+  {
     "id": "050-rachel-godun",
     "name": "Rachel Godun",
     "sort_name": "Godun, Rachel",
@@ -4420,6 +4359,67 @@
     "md_filename": "019-michael-koehl.md",
     "created_at": "2026-01-28",
     "updated_at": "2026-01-28"
+  },
+  {
+    "id": "074-piet-schmidt",
+    "name": "Piet O. Schmidt",
+    "sort_name": "Schmidt, Piet O.",
+    "current_position": {
+      "institution": "Physikalisch-Technische Bundesanstalt (PTB)",
+      "title": "Group Leader"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Braunschweig",
+      "region": "Lower Saxony",
+      "country": "Germany",
+      "lat": 52.2689,
+      "lon": 10.5268
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Stuttgart",
+        "year": 2003,
+        "advisor": null,
+        "confidence": "not_found",
+        "note": "PhD details require verification"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "optical clocks",
+      "trapped ions",
+      "precision measurement",
+      "quantum logic spectroscopy"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Yb+",
+      "Al+",
+      "Ca+"
+    ],
+    "links": {
+      "google_scholar": null,
+      "group_page": null,
+      "orcid": null
+    },
+    "thesis": {
+      "link": null,
+      "title": "Scattering Properties of Ultra-cold Chromium Atoms",
+      "year": 2003,
+      "note": "Thesis information requires verification"
+    },
+    "short_bio": "Piet O. Schmidt leads trapped-ion optical clock research at PTB and Leibniz University Hannover, developing ultra-precise frequency standards using quantum logic spectroscopy.",
+    "md_filename": "074-piet-schmidt.md",
+    "created_at": "2026-01-30",
+    "updated_at": "2026-01-30"
   },
   {
     "id": "057-utako-tanaka",
