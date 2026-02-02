@@ -116,7 +116,7 @@ function PersonPanel({ personId, location, onPersonSelect, onClose }) {
 
     // 3. Person Profile View
     return (
-        <div style={{ padding: 16, position: 'relative' }}>
+        <div style={{ padding: 16, position: 'relative', backgroundColor: 'var(--ifm-background-color)' }}>
             {onClose && (
                 <button
                     className="close-panel-btn"
