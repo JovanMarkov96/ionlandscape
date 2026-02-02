@@ -6,8 +6,8 @@ current_position:
   title: Group Leader
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: University of Stuttgart
+  year: 2003
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -41,8 +41,8 @@ postdocs: []
 sort_name: Schmidt, Piet O.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Scattering Properties of Ultra-cold Chromium Atoms"
+  year: 2003
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

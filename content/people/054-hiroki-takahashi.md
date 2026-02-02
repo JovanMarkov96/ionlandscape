@@ -5,8 +5,8 @@ current_position:
   institution: Okinawa Institute of Science and Technology (OIST)
   title: Associate Professor
 education:
-- degree: PhD (Physics)
-  institution: null
+- degree: PhD (Quantum Optics)
+  institution: University of Tokyo
   year: null
   advisor: null
   confidence: not_found
@@ -41,6 +41,8 @@ sort_name: Takahashi, Hiroki
 thesis:
   link: null
   title: null
+  year: null
+  note: "Thesis title not found; degree obtained prior to 2009."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

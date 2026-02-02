@@ -5,9 +5,10 @@ current_position:
   institution: University of Basel
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Frédéric Merkt
+  degree: PhD (Physics)
+  institution: ETH Zurich
+  year: 2004
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -39,8 +40,8 @@ postdocs: []
 sort_name: Willitsch, Stefan
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer Radikale und Kationen"
+  year: 2004
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

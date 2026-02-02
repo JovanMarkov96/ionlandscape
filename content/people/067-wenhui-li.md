@@ -6,8 +6,8 @@ current_position:
   title: Professor
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: University of Virginia
+  year: 2005
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -39,6 +39,8 @@ sort_name: Li, Wenhui
 thesis:
   link: null
   title: null
+  year: 2005
+  note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

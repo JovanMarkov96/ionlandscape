@@ -5,9 +5,10 @@ current_position:
   institution: Simon Fraser University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Oskar Painter
+  degree: PhD (Applied Physics)
+  institution: California Institute of Technology
+  year: 2007
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -38,8 +39,8 @@ postdocs: []
 sort_name: Barclay, Paul
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Fiber-coupled nanophotonic devices for nonlinear optics and cavity QED"
+  year: 2007
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

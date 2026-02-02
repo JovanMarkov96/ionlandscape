@@ -5,9 +5,9 @@ current_position:
   institution: Kyoto University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- degree: PhD (Engineering)
+  institution: Kyoto University
+  year: 1977
   advisor: null
   confidence: not_found
   note: "PhD details require verification"

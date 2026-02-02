@@ -5,9 +5,10 @@ current_position:
   institution: University of California, Los Angeles
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Jun Ye
+  degree: PhD (Physics)
+  institution: University of Colorado Boulder
+  year: 2006
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -41,6 +42,8 @@ sort_name: Hudson, Eric R.
 thesis:
   link: null
   title: null
+  year: 2006
+  note: "Thesis on trapping and cooling hydroxyl radicals; title not found."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

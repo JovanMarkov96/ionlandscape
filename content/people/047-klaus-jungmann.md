@@ -6,8 +6,9 @@ current_position:
   title: Professor
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: University of Heidelberg
+  year: 1985
+  note: Research in Atomic and Muon Physics
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -41,6 +42,8 @@ sort_name: Jungmann, Klaus
 thesis:
   link: null
   title: null
+  year: 1985
+  note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

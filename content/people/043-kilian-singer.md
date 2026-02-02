@@ -5,9 +5,10 @@ current_position:
   institution: University of Kassel
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Matthias Weidemüller
+  degree: PhD (Physics)
+  institution: University of Heidelberg
+  year: 2004
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -39,8 +40,8 @@ postdocs: []
 sort_name: Singer, Kilian
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Interactions in an ultracold gas of Rydberg atoms"
+  year: 2004
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

@@ -6,8 +6,8 @@ current_position:
   title: Professor
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: Georgia Institute of Technology
+  year: 2021
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -38,8 +38,8 @@ postdocs: []
 sort_name: McMahon, Brian
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Compact, reconfigurable Penning ion traps and Doppler laser cooling"
+  year: 2021
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

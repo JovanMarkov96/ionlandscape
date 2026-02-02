@@ -6,8 +6,8 @@ current_position:
   title: Professor
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: Seoul National University
+  year: 2011
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -38,8 +38,8 @@ postdocs: []
 sort_name: Lee, Moonjoo
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Imaging the vacuum fluctuations in a cavity with single atoms"
+  year: 2011
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

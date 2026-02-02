@@ -5,9 +5,10 @@ current_position:
   institution: National Physical Laboratory (NPL)
   title: Principal Scientist
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Keith Burnett
+  degree: PhD (Physics)
+  institution: University of Oxford
+  year: 2000
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -39,8 +40,8 @@ postdocs: []
 sort_name: Godun, Rachel
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Beam splitting mechanisms for a caesium atom interferometer"
+  year: 2000
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

@@ -6,8 +6,9 @@ current_position:
   title: Associate Professor
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: Vrije Universiteit Amsterdam
+  year: 2004
+  note: Research on precision measurements and enhancement cavities
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -43,6 +44,8 @@ sort_name: Koelemeij, Jeroen C. J.
 thesis:
   link: null
   title: null
+  year: 2004
+  note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

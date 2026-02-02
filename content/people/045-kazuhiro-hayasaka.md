@@ -6,7 +6,7 @@ current_position:
   title: Group Leader
 education:
 - degree: PhD (Physics)
-  institution: null
+  institution: Osaka University
   year: null
   advisor: null
   confidence: not_found
@@ -40,8 +40,9 @@ postdocs: []
 sort_name: Hayasaka, Kazuhiro
 thesis:
   link: null
-  title: null
+  title: "Research on control of interaction between accumulated ions and quantized electromagnetic field"
   year: null
+  note: "Title translated from Japanese: 蓄積イオンと量子化された電磁場の相互作用制御に関する研究"
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

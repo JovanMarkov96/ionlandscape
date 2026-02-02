@@ -6,8 +6,9 @@ current_position:
   title: Professor
 education:
 - degree: PhD (Physics)
-  institution: null
+  institution: Max Planck Institute of Quantum Optics
   year: null
+  note: "Degree likely granted by LMU or TU Munich"
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -40,7 +41,7 @@ postdocs: []
 sort_name: Hennrich, Markus
 thesis:
   link: null
-  title: null
+  title: "Coherent manipulation of ultracold atoms on atom chips"
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

@@ -5,8 +5,8 @@ current_position:
   institution: Sungkyunkwan University (SKKU)
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
+- degree: PhD (Electrical and Computer Engineering)
+  institution: Duke University
   year: null
   advisor: null
   confidence: not_found
@@ -40,6 +40,8 @@ sort_name: Kim, Junki
 thesis:
   link: null
   title: null
+  year: null
+  note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

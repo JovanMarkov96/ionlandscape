@@ -5,9 +5,10 @@ current_position:
   institution: University of California, Los Angeles
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: John M. Doyle
+  degree: PhD (Physics)
+  institution: Harvard University
+  year: 2008
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -39,8 +40,8 @@ postdocs: []
 sort_name: Campbell, Wesley C.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Magnetic Trapping of Imidogen Molecules"
+  year: 2008
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

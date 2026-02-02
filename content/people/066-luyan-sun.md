@@ -5,9 +5,10 @@ current_position:
   institution: Tsinghua University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Bruce E. Kane
+  degree: PhD (Physics)
+  institution: University of Maryland
+  year: 2008
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -40,6 +41,8 @@ sort_name: Sun, Luyan
 thesis:
   link: null
   title: null
+  year: 2008
+  note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

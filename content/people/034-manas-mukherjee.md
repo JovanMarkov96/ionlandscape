@@ -6,8 +6,8 @@ current_position:
   title: Principal Investigator
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: University of Heidelberg
+  year: 2004
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -39,7 +39,8 @@ postdocs: []
 sort_name: Mukherjee, Manas
 thesis:
   link: null
-  title: null
+  title: "The mass of 22^Mg and a concept for a novel laser ion source trap"
+  year: 2004
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

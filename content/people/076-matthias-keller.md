@@ -5,9 +5,10 @@ current_position:
   institution: University of Birmingham
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Herbert Walther
+  degree: PhD (Physics)
+  institution: Max Planck Institute of Quantum Optics
+  year: 2004
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -40,6 +41,8 @@ sort_name: Keller, Matthias
 thesis:
   link: null
   title: null
+  year: 2004
+  note: "Thesis on cavity QED with trapped ions"
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

@@ -5,8 +5,8 @@ current_position:
   institution: University of Tokyo
   title: Associate Professor
 education:
-- degree: PhD (Physics)
-  institution: null
+- degree: PhD (Science)
+  institution: Osaka University
   year: null
   advisor: null
   confidence: not_found
@@ -40,6 +40,8 @@ sort_name: Noguchi, Atsushi
 thesis:
   link: null
   title: null
+  year: null
+  note: "Thesis title and year not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

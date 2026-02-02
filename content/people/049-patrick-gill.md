@@ -5,9 +5,10 @@ current_position:
   institution: National Physical Laboratory (NPL)
   title: Senior Fellow
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Colin Webb
+  degree: PhD (Physics)
+  institution: University of Oxford
+  year: 1975
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -40,8 +41,8 @@ postdocs: []
 sort_name: Gill, Patrick
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Charge Transfer as a Laser Excitation Mechanism"
+  year: 1975
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

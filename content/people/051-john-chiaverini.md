@@ -5,9 +5,10 @@ current_position:
   institution: MIT Lincoln Laboratory
   title: Senior Staff
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Aharon Kapitulnik
+  degree: PhD (Physics)
+  institution: Stanford University
+  year: 2002
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -41,6 +42,8 @@ sort_name: Chiaverini, John
 thesis:
   link: null
   title: null
+  year: 2002
+  note: "Thesis on non-Newtonian gravity at small length scales; title not found in open sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

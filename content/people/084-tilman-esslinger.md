@@ -5,9 +5,10 @@ current_position:
   institution: ETH Zürich
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Theodor W. Hänsch
+  degree: PhD (Physics)
+  institution: Ludwig Maximilian University of Munich
+  year: 1995
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -41,6 +42,8 @@ sort_name: Esslinger, Tilman
 thesis:
   link: null
   title: null
+  year: 1995
+  note: "Thesis on subrecoil laser cooling and optical lattices"
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

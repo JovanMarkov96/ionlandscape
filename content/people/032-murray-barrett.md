@@ -5,9 +5,10 @@ current_position:
   institution: Centre for Quantum Technologies, National University of Singapore
   title: Principal Investigator
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Mike Chapman
+  degree: PhD (Physics)
+  institution: Georgia Institute of Technology
+  year: 2002
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -40,8 +41,8 @@ postdocs: []
 sort_name: Barrett, Murray D.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "A QUEST for BEC : An all optical alternative"
+  year: 2002
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

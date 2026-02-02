@@ -50,7 +50,7 @@ thesis:
   link: null
   title: null
   year: 1997
-  note: Thesis title not found in CV snippet provided; add once verified from an institutional thesis repository or catalog.
+  note: "Thesis title not found; topic related to magnetic trapping of cold atoms."
 updated_at: '2026-01-30'
 ---
 

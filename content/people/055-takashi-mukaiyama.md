@@ -5,8 +5,8 @@ current_position:
   institution: Osaka University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
+- degree: Doctor of Engineering
+  institution: University of Tokyo
   year: null
   advisor: null
   confidence: not_found
@@ -41,6 +41,8 @@ sort_name: Mukaiyama, Takashi
 thesis:
   link: null
   title: null
+  year: null
+  note: "Thesis title n/a."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

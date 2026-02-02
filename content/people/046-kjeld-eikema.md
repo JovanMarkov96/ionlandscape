@@ -5,9 +5,10 @@ current_position:
   institution: VU Amsterdam
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Wim Hogervorst
+  degree: PhD (Physics)
+  institution: Vrije Universiteit Amsterdam
+  year: 1996
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -39,8 +40,8 @@ postdocs: []
 sort_name: Eikema, Kjeld S. E.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "QED and the ground state of helium, precision extreme ultraviolet spectroscopy"
+  year: 1996
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

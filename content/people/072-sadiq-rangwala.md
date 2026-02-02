@@ -6,8 +6,8 @@ current_position:
   title: Professor
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: Tata Institute of Fundamental Research
+  year: 1999
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -40,9 +40,8 @@ postdocs: []
 sort_name: Rangwala, S. A.
 thesis:
   link: null
-  title: null
-  year: null
-  note: "Thesis information requires verification"
+  title: "Resonant electron capture to molecules and Dissociative electron attachment"
+  year: 1999
 updated_at: '2026-01-30'
 ---
 

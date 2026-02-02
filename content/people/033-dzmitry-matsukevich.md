@@ -5,9 +5,10 @@ current_position:
   institution: Centre for Quantum Technologies, National University of Singapore
   title: Principal Investigator
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Alex Kuzmich
+  degree: PhD (Physics)
+  institution: Georgia Institute of Technology
+  year: 2006
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -41,6 +42,8 @@ sort_name: Matsukevich, Dzmitry
 thesis:
   link: null
   title: null
+  year: 2006
+  note: "Thesis on quantum networks utilizing atomic ensembles; title not found."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

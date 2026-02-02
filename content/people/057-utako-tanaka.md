@@ -6,7 +6,7 @@ current_position:
   title: Associate Professor
 education:
 - degree: PhD (Physics)
-  institution: null
+  institution: Kyoto University
   year: null
   advisor: null
   confidence: not_found
@@ -39,6 +39,8 @@ sort_name: Tanaka, Utako
 thesis:
   link: null
   title: null
+  year: null
+  note: "Thesis title and year not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

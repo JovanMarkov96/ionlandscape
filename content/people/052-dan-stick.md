@@ -5,9 +5,10 @@ current_position:
   institution: Sandia National Laboratories
   title: Distinguished Member of Technical Staff
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Christopher Monroe
+  degree: PhD (Physics)
+  institution: University of Michigan
+  year: 2007
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -40,8 +41,8 @@ postdocs: []
 sort_name: Stick, Dan
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Development and Operation of Miniaturised Ion Traps for Scalable Quantum Computation"
+  year: 2007
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

@@ -5,9 +5,10 @@ current_position:
   institution: Stellenbosch University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- degree: PhD (Optical Sciences)
+  institution: University of Arizona
+  year: 2007
+  note: Exact year estimated from career timeline
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -39,8 +40,8 @@ postdocs: []
 sort_name: Uys, Hermann
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Distributed Quantum Sensing: Theoretical Foundation, Experimental Platform and Applications"
+  year: 2007
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

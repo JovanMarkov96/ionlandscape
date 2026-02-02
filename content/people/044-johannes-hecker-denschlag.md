@@ -5,9 +5,10 @@ current_position:
   institution: Ulm University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Anton Zeilinger; Jörg Schmiedmayer
+  degree: PhD (Physics)
+  institution: University of Innsbruck
+  year: 1998
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -41,8 +42,8 @@ postdocs: []
 sort_name: Hecker Denschlag, Johannes
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Kalte Atome in singulären Potentialen"
+  year: 1998
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

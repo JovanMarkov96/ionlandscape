@@ -5,9 +5,10 @@ current_position:
   institution: University of Washington
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Alan D. Krisch
+  degree: PhD (Physics)
+  institution: University of Michigan
+  year: 2000
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -39,8 +40,8 @@ postdocs: []
 sort_name: Blinov, Boris B.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "RF DEPOLARIZING RESONANCES IN THE PRESENCE OF A FULL SIBERIAN SNAKE AND FULL SNAKE SPIN-FLIPPING"
+  year: 2000
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

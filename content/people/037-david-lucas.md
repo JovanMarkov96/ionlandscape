@@ -5,8 +5,9 @@ current_position:
   institution: University of Oxford
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
+- advisor: D. N. Stacy
+  degree: PhD (Physics)
+  institution: University of Oxford
   year: null
   advisor: null
   confidence: not_found
@@ -40,7 +41,7 @@ postdocs: []
 sort_name: Lucas, David M.
 thesis:
   link: null
-  title: null
+  title: "Parity violation in atomic samarium"
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

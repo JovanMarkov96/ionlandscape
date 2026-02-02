@@ -5,9 +5,9 @@ current_position:
   institution: Seoul National University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- degree: PhD (Mechanical Engineering)
+  institution: Massachusetts Institute of Technology
+  year: 1988
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -39,6 +39,8 @@ sort_name: Cho, Dan
 thesis:
   link: null
   title: null
+  year: 1988
+  note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'

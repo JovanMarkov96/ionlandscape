@@ -5,9 +5,9 @@ current_position:
   institution: Massachusetts Institute of Technology
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- degree: PhD (Electrical Engineering)
+  institution: Stanford University
+  year: 1996
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -39,8 +39,8 @@ postdocs: []
 sort_name: Chuang, Isaac L.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Quantum information and computation: theory and practice"
+  year: 1996
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

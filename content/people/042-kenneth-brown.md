@@ -5,9 +5,10 @@ current_position:
   institution: Duke University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: K. B. Whaley
+  degree: PhD (Theoretical Chemistry)
+  institution: University of California, Berkeley
+  year: 2003
   advisor: null
   confidence: not_found
   note: "PhD details require verification from institutional sources"
@@ -41,8 +42,8 @@ postdocs: []
 sort_name: Brown, Kenneth R.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Theoretical Issues in Quantum Information Technologies"
+  year: 2003
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

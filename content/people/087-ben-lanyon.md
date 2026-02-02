@@ -5,9 +5,10 @@ current_position:
   institution: University of Innsbruck
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: null
-  year: null
+- advisor: Andrew White
+  degree: PhD (Physics)
+  institution: University of Queensland
+  year: 2009
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -39,8 +40,8 @@ postdocs: []
 sort_name: Lanyon, Ben P.
 thesis:
   link: null
-  title: null
-  year: null
+  title: "Optical quantum information: new states, gates and algorithms"
+  year: 2009
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---

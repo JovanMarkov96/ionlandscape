@@ -6,8 +6,8 @@ current_position:
   title: Physicist
 education:
 - degree: PhD (Physics)
-  institution: null
-  year: null
+  institution: University of Colorado Boulder
+  year: 2010
   advisor: null
   confidence: not_found
   note: "PhD details require verification"
@@ -41,6 +41,8 @@ sort_name: Hume, David
 thesis:
   link: null
   title: null
+  year: 2010
+  note: "Thesis title not found in open-access sources."
   year: null
   note: "Thesis information requires verification"
 updated_at: '2026-01-30'
