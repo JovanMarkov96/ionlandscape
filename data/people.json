@@ -3702,6 +3702,89 @@
     "updated_at": "2026-01-28"
   },
   {
+    "id": "079-daniel-rodriguez",
+    "name": "Daniel Rodríguez Rubiales",
+    "sort_name": "Rodríguez Rubiales, Daniel",
+    "current_position": {
+      "institution": "University of Granada",
+      "title": "Catedrático de Universidad (Full Professor of Physics)"
+    },
+    "platforms": [
+      "Trapped ions"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Granada",
+      "region": "Andalusia",
+      "country": "Spain",
+      "lat": 37.1773,
+      "lon": -3.5986
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "GSI Helmholtz Centre for Heavy Ion Research / IFIC-CSIC (Darmstadt/Valencia, Germany & Spain)",
+        "year": 2003,
+        "advisor": null,
+        "confidence": "confirmed",
+        "note": "PhD on Penning trap mass spectrometry with heavy ions; advisor not listed in profile sources."
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "LPC Caen, France",
+        "advisor": null,
+        "years": "2004–2006",
+        "note": "Postdoctoral research funded by a Marie Curie fellowship. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "institution": "Max Planck Institute for Nuclear Physics, Heidelberg, Germany",
+        "advisor": null,
+        "years": 2008,
+        "note": "José Castillejo fellowship. :contentReference[oaicite:2]{index=2}"
+      },
+      {
+        "institution": "University of Huelva, Spain",
+        "advisor": null,
+        "years": "2006–2008",
+        "note": "Juan de la Cierva postdoctoral researcher. :contentReference[oaicite:3]{index=3}"
+      }
+    ],
+    "keywords": [
+      "ion traps",
+      "Penning trap mass spectrometry",
+      "laser cooling",
+      "quantum sensing",
+      "ion detection",
+      "Paul traps",
+      "resonant detection of trapped ions"
+    ],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "Ca+",
+      "Th+",
+      "ThO+"
+    ],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?user=kKe8PnkAAAAJ",
+      "ugr_profile": "https://trapsensor.ugr.es/pages/iones/presentation?lang=en",
+      "orcid": null
+    },
+    "thesis": {
+      "title": "An RFQ buncher for accumulation and cooling of heavy radionuclides at SHIPTRAP and high precision mass measurements on unstable Kr isotopes at ISOLTRAP",
+      "link": null,
+      "year": 2003,
+      "note": "Thesis title confirmed from University profile; PDF not found in open sources. :contentReference[oaicite:4]{index=4}"
+    },
+    "short_bio": "Prof. **Daniel Rodríguez Rubiales** is a Spanish experimental physicist and *Catedrático de Universidad* at the **University of Granada**, where he leads the **Ion Traps and Lasers Laboratory** — Spain’s *only* experimental ion-trapping facility of its kind. :contentReference[oaicite:5]{index=5}",
+    "md_filename": "079-daniel-rodriguez.md",
+    "created_at": "2026-02-03",
+    "updated_at": "2026-02-03"
+  },
+  {
     "id": "077-ben-lanyon",
     "name": "Ben P. Lanyon",
     "sort_name": "Lanyon, Ben P.",

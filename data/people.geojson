@@ -1161,6 +1161,25 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "079-daniel-rodriguez",
+        "name": "Daniel Rodríguez Rubiales",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "short_bio": "Prof. **Daniel Rodríguez Rubiales** is a Spanish experimental physicist and *Catedrático de Universidad* at the **University of Granada**, where he leads the **Ion Traps and Lasers Laboratory** — Spain’s *only* experimental ion-trapping facility of its kind. :contentReference[oaicite:5]{index=5}",
+        "md_filename": "079-daniel-rodriguez.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5986,
+          37.1773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "077-ben-lanyon",
         "name": "Ben P. Lanyon",
         "platforms": [
