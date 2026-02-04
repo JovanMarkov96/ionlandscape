@@ -3735,19 +3735,19 @@
         "institution": "LPC Caen, France",
         "advisor": null,
         "years": "2004–2006",
-        "note": "Postdoctoral research funded by a Marie Curie fellowship. :contentReference[oaicite:1]{index=1}"
+        "note": "Postdoctoral research funded by a Marie Curie fellowship."
       },
       {
         "institution": "Max Planck Institute for Nuclear Physics, Heidelberg, Germany",
         "advisor": null,
         "years": 2008,
-        "note": "José Castillejo fellowship. :contentReference[oaicite:2]{index=2}"
+        "note": "José Castillejo fellowship."
       },
       {
         "institution": "University of Huelva, Spain",
         "advisor": null,
         "years": "2006–2008",
-        "note": "Juan de la Cierva postdoctoral researcher. :contentReference[oaicite:3]{index=3}"
+        "note": "Juan de la Cierva postdoctoral researcher."
       }
     ],
     "keywords": [
@@ -3777,9 +3777,9 @@
       "title": "An RFQ buncher for accumulation and cooling of heavy radionuclides at SHIPTRAP and high precision mass measurements on unstable Kr isotopes at ISOLTRAP",
       "link": null,
       "year": 2003,
-      "note": "Thesis title confirmed from University profile; PDF not found in open sources. :contentReference[oaicite:4]{index=4}"
+      "note": "Thesis title confirmed from University profile; PDF not found in open sources."
     },
-    "short_bio": "Prof. **Daniel Rodríguez Rubiales** is a Spanish experimental physicist and *Catedrático de Universidad* at the **University of Granada**, where he leads the **Ion Traps and Lasers Laboratory** — Spain’s *only* experimental ion-trapping facility of its kind. :contentReference[oaicite:5]{index=5}",
+    "short_bio": "Prof. **Daniel Rodríguez Rubiales** is a Spanish experimental physicist and *Catedrático de Universidad* at the **University of Granada**, where he leads the **Ion Traps and Lasers Laboratory** — Spain’s *only* experimental ion-trapping facility of its kind.",
     "md_filename": "079-daniel-rodriguez.md",
     "created_at": "2026-02-03",
     "updated_at": "2026-02-03"
