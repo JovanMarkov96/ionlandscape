@@ -851,12 +851,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Kyoto University",
-        "year": null,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "Kyoto University",
+        "note": "PhD details require verification",
+        "year": null
       }
     ],
     "postdocs": [],
@@ -874,14 +874,14 @@
     ],
     "links": {
       "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "group_page": "https://www-tanaka.Kv-lab.org/",
+      "orcid": "https://orcid.org/0000-0001-5221-8667"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Utako Tanaka conducts trapped-ion research at Osaka University focusing on microfabricated ion traps and quantum computing with calcium ions.",
     "md_filename": "057-utako-tanaka.md",
@@ -909,12 +909,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Massachusetts Institute of Technology",
-        "year": null,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "Massachusetts Institute of Technology",
+        "note": "PhD details require verification",
+        "year": null
       }
     ],
     "postdocs": [],
@@ -931,15 +931,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=9_5WtHeAAAAJ",
+      "group_page": "http://qis.snu.ac.kr/",
+      "orcid": "https://orcid.org/0000-0002-2424-1533"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Taehyun Kim leads trapped-ion research at Seoul National University focusing on quantum computing and quantum networks with ytterbium ions.",
     "md_filename": "063-taehyun-kim.md",
@@ -1479,11 +1479,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Maryland",
-        "year": 2008,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
+        "note": "PhD details require verification",
+        "year": 2008
       }
     ],
     "postdocs": [],
@@ -1501,15 +1501,15 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=4Jk6zRIAAAAJ",
+      "group_page": "http://hqs.iiis.tsinghua.edu.cn/",
+      "orcid": "https://orcid.org/0000-0003-4419-5674"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Luyan Sun leads quantum information research at Tsinghua University focusing on hybrid quantum systems and trapped-ion quantum computing.",
     "md_filename": "065-luyan-sun.md",
@@ -1889,8 +1889,8 @@
     "name": "Mirko Lobino",
     "sort_name": "Lobino, Mirko",
     "current_position": {
-      "institution": "Griffith University",
-      "title": "Professor"
+      "institution": "University of Trento",
+      "title": "Associate Professor"
     },
     "platforms": [
       "Trapped ions"
@@ -1905,12 +1905,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Politecnico di Milano",
-        "year": 2007,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "Politecnico di Milano",
+        "note": "PhD details require verification",
+        "year": 2007
       }
     ],
     "postdocs": [],
@@ -1928,15 +1928,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=5XqgH5oAAAAJ",
+      "group_page": "https://webapps.unitn.it/du/en/Persona/PER0223733/Curriculum",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Mirko Lobino leads quantum photonics and trapped-ion research at Griffith University in Brisbane, Australia, focusing on hybrid quantum systems.",
     "md_filename": "067-mirko-lobino.md",
@@ -2024,12 +2024,12 @@
     },
     "education": [
       {
-        "degree": "Doctor of Engineering",
-        "institution": "University of Tokyo",
-        "year": null,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "Doctor of Engineering",
+        "institution": "University of Tokyo",
+        "note": "PhD details require verification",
+        "year": null
       }
     ],
     "postdocs": [],
@@ -2047,14 +2047,14 @@
     ],
     "links": {
       "google_scholar": null,
-      "group_page": null,
+      "group_page": "https://www.nuclear.jp/~hasegawa/index_e.html",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Shuichi Hasegawa leads trapped-ion research at the University of Tokyo focusing on laser cooling and quantum control with calcium ions.",
     "md_filename": "059-shuichi-hasegawa.md",
@@ -2277,12 +2277,12 @@
     },
     "education": [
       {
+        "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "Max Planck Institute of Quantum Optics",
-        "year": null,
         "note": "PhD details require verification",
-        "advisor": null,
-        "confidence": "not_found"
+        "year": null
       }
     ],
     "postdocs": [],
@@ -2301,15 +2301,15 @@
       "Sr+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=8XqgH5oAAAAJ",
+      "group_page": "https://www.fysik.su.se/hennrich-group",
+      "orcid": "https://orcid.org/0000-0001-9964-3382"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Coherent manipulation of ultracold atoms on atom chips",
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Markus Hennrich leads the Trapped Rydberg Ion Group at Stockholm University, pioneering work on Rydberg excitation of trapped ions for quantum computing.",
     "md_filename": "070-markus-hennrich.md",
@@ -2515,11 +2515,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Michigan",
-        "year": 2007,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2007
       }
     ],
     "postdocs": [],
@@ -2538,15 +2538,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=wSjXz60AAAAJ",
+      "group_page": "https://www.sandia.gov/quantum/research-groups/ion-trapping/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Development and Operation of Miniaturised Ion Traps for Scalable Quantum Computation",
-      "year": 2007,
-      "note": "Thesis information requires verification"
+      "year": 2007
     },
     "short_bio": "Dan Stick leads the trapped ion trap fabrication and testing efforts at Sandia National Laboratories. His High Optical Access (HOA) surface traps are widely used in the community, and his research focuses on integrating optics and improving trap technologies for quantum computing.",
     "md_filename": "052-dan-stick.md",
@@ -2635,12 +2635,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Quantum Optics)",
-        "institution": "University of Tokyo",
-        "year": null,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Quantum Optics)",
+        "institution": "University of Tokyo",
+        "note": "PhD details require verification",
+        "year": null
       }
     ],
     "postdocs": [],
@@ -2659,15 +2659,15 @@
       "Ba+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=3Jk6zRIAAAAJ",
+      "group_page": "https://groups.oist.jp/equip",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Hiroki Takahashi leads the Quantum Systems Unit at OIST. His research focuses on trapped-ion quantum networks and cavity QED with calcium and barium ions.",
     "md_filename": "054-hiroki-takahashi.md",
@@ -3006,12 +3006,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "The Ohio State University",
-        "year": 2011,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "The Ohio State University",
+        "note": "PhD details require verification",
+        "year": 2011
       }
     ],
     "postdocs": [],
@@ -3028,15 +3028,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=7Jk6zRIAAAAJ",
+      "group_page": "http://qion.ewha.ac.kr/",
+      "orcid": "https://orcid.org/0000-0001-5681-807X"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Taeyoung Choi leads trapped-ion research at Ewha Womans University in Seoul, focusing on quantum computing and quantum control with ytterbium ions.",
     "md_filename": "061-taeyoung-choi.md",
@@ -3256,12 +3256,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Science)",
-        "institution": "Osaka University",
-        "year": null,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Science)",
+        "institution": "Osaka University",
+        "note": "PhD details require verification",
+        "year": null
       }
     ],
     "postdocs": [],
@@ -3279,15 +3279,15 @@
       "Be+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=XqgH5oAAAAAJ",
+      "group_page": "https://sqei.cF.u-tokyo.ac.jp/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Atsushi Noguchi leads research at the University of Tokyo on hybrid quantum systems combining trapped beryllium ions with superconducting circuits.",
     "md_filename": "058-atsushi-noguchi.md",
@@ -3315,12 +3315,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Electrical and Computer Engineering)",
-        "institution": "Duke University",
-        "year": null,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Electrical and Computer Engineering)",
+        "institution": "Duke University",
+        "note": "PhD details require verification",
+        "year": null
       }
     ],
     "postdocs": [],
@@ -3338,15 +3338,15 @@
       "Ba+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=2YgPz2UAAAAJ",
+      "group_page": "https://queti.skku.edu/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Junki Kim leads trapped-ion research at Sungkyunkwan University (SKKU) focusing on quantum computing and simulation with ytterbium and barium ions.",
     "md_filename": "064-junki-kim.md",
@@ -3748,12 +3748,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Tata Institute of Fundamental Research",
-        "year": 1999,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "Tata Institute of Fundamental Research",
+        "note": "PhD details require verification",
+        "year": 1999
       }
     ],
     "postdocs": [],
@@ -3772,8 +3772,8 @@
       "Rb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=7XqgH5oAAAAJ",
+      "group_page": "https://www.rri.res.in/~sarangwala/",
       "orcid": null
     },
     "thesis": {
@@ -3925,12 +3925,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Mechanical Engineering)",
-        "institution": "Massachusetts Institute of Technology",
-        "year": 1988,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Mechanical Engineering)",
+        "institution": "Massachusetts Institute of Technology",
+        "note": "PhD details require verification",
+        "year": 1988
       }
     ],
     "postdocs": [],
@@ -3947,15 +3947,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=3XqgH5oAAAAJ",
+      "group_page": "http://nems.snu.ac.kr/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Dan Cho leads trapped-ion research at Seoul National University focusing on quantum information processing with ytterbium ions.",
     "md_filename": "062-dan-cho.md",
@@ -4340,12 +4340,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Kyoto University",
-        "year": 2002,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "Kyoto University",
+        "note": "PhD details require verification",
+        "year": 2002
       }
     ],
     "postdocs": [],
@@ -4362,15 +4362,15 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=8YgPz2UAAAAJ",
+      "group_page": "https://www-toyoda.Kv-lab.org/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Kenji Toyoda conducts trapped-ion research at Osaka University focusing on quantum simulation and quantum computing with calcium ions.",
     "md_filename": "056-kenji-toyoda.md",
@@ -4644,7 +4644,7 @@
     "name": "Paul Barclay",
     "sort_name": "Barclay, Paul",
     "current_position": {
-      "institution": "Simon Fraser University",
+      "institution": "University of Calgary",
       "title": "Professor"
     },
     "platforms": [
@@ -4661,11 +4661,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Applied Physics)",
         "institution": "California Institute of Technology",
-        "year": 2007,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
+        "note": "PhD details require verification",
+        "year": 2007
       }
     ],
     "postdocs": [],
@@ -4682,15 +4682,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=6YgPz2UAAAAJ",
+      "group_page": "https://barclaylab.ucalgary.ca/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Fiber-coupled nanophotonic devices for nonlinear optics and cavity QED",
-      "year": 2007,
-      "note": "Thesis information requires verification"
+      "year": 2007
     },
     "short_bio": "Paul Barclay leads quantum photonics research at Simon Fraser University focusing on hybrid quantum systems and diamond-based quantum technologies.",
     "md_filename": "068-paul-barclay.md",
@@ -4779,11 +4779,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "Stanford University",
-        "year": 2002,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2002
       }
     ],
     "postdocs": [],
@@ -4802,15 +4802,15 @@
       "Sr+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=JvXj6gUAAAAJ",
+      "group_page": "https://www.ll.mit.edu/r-d/advanced-technology/quantum-information-and-integrated-nanosystems",
+      "orcid": "https://orcid.org/0000-0001-7123-8460"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "John Chiaverini leads trapped-ion research at MIT Lincoln Laboratory. His work focuses on scalable quantum computing architectures, integrated photonics for ion traps, and surface-electrode trap technology.",
     "md_filename": "051-john-chiaverini.md",
