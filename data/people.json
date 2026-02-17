@@ -139,11 +139,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Oxford",
-        "year": 1975,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 1975
       }
     ],
     "postdocs": [],
@@ -163,14 +163,14 @@
     ],
     "links": {
       "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "group_page": "https://www.npl.co.uk/people/patrick-gill",
+      "orcid": "https://orcid.org/0000-0002-1332-0842"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Charge Transfer as a Laser Excitation Mechanism",
-      "year": 1975,
-      "note": "Thesis information requires verification"
+      "year": 1975
     },
     "short_bio": "Patrick Gill co-leads the Time & Frequency department at NPL. He is a world-leading pioneer in optical frequency standards and trapped-ion optical clocks, particularly using strontium and ytterbium ions for high-precision metrology.",
     "md_filename": "049-patrick-gill.md",
@@ -219,8 +219,8 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=5Wz0VTEAAAAJ",
+      "group_page": "https://www.physik.uni-siegen.de/quantenoptik/",
       "orcid": null
     },
     "thesis": {
@@ -710,11 +710,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Heidelberg",
-        "year": 2004,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2004
       }
     ],
     "postdocs": [],
@@ -733,14 +733,14 @@
     ],
     "links": {
       "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "group_page": "https://www.uni-kassel.de/fb10/institute/physik/arbeitsgruppen/experimentalphysik-i-licht-materie-wechselwirkung",
+      "orcid": "https://orcid.org/0000-0001-9726-0367"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Interactions in an ultracold gas of Rydberg atoms",
-      "year": 2004,
-      "note": "Thesis information requires verification"
+      "year": 2004
     },
     "short_bio": "Kilian Singer leads the Trapped Ion Quantum Information and Thermodynamics group at the University of Kassel. His research focuses on single-ion heat engines, thermodynamics in the quantum regime, and scalable ion trap technologies.",
     "md_filename": "043-kilian-singer.md",
@@ -968,11 +968,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "Harvard University",
-        "year": 2008,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2008
       }
     ],
     "postdocs": [],
@@ -990,15 +990,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=JU1-giAAAAAJ",
+      "group_page": "https://campbellgroup.physics.ucla.edu/",
+      "orcid": "https://orcid.org/0000-0003-1578-906X"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Magnetic Trapping of Imidogen Molecules",
-      "year": 2008,
-      "note": "Thesis information requires verification"
+      "year": 2008
     },
     "short_bio": "Wesley C. Campbell leads the Campbell Lab at UCLA, focusing on trapped-ion quantum simulation and quantum computing with ytterbium ions. His research also includes precision measurement and optical atomic clocks.",
     "md_filename": "039-wes-campbell.md",
@@ -1106,15 +1106,28 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Seoul National University",
-        "year": 2011,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "Seoul National University",
+        "note": "PhD details require verification",
+        "year": 2011
       }
     ],
-    "postdocs": [],
+    "postdocs": [
+      {
+        "institution": "CEA-Saclay",
+        "years": "2018-2020"
+      },
+      {
+        "institution": "University of Innsbruck",
+        "years": "2014-2018"
+      },
+      {
+        "institution": "ETH Zürich",
+        "years": "2012-2014"
+      }
+    ],
     "keywords": [
       "trapped ions",
       "quantum computing",
@@ -1130,13 +1143,13 @@
     "links": {
       "google_scholar": null,
       "group_page": null,
-      "orcid": null
+      "orcid": "https://orcid.org/0000-0002-4054-0963"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Imaging the vacuum fluctuations in a cavity with single atoms",
-      "year": 2011,
-      "note": "Thesis information requires verification"
+      "year": 2011
     },
     "short_bio": "Moonjoo Lee leads the trapped-ion quantum computing group at POSTECH (Pohang University of Science and Technology). His research focuses on quantum simulation and computing with ytterbium ions.",
     "md_filename": "060-moonjoo-lee.md",
@@ -1165,11 +1178,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "Georgia Institute of Technology",
-        "year": 2002,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2002
       }
     ],
     "postdocs": [],
@@ -1188,15 +1201,15 @@
       "Lu+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=xPKjx_UAAAAJ",
+      "group_page": "https://www.cqt.sg/research/murray-barrett",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "A QUEST for BEC : An all optical alternative",
-      "year": 2002,
-      "note": "Thesis information requires verification"
+      "year": 2002
     },
     "short_bio": "Murray D. Barrett leads the Microtraps Group at the Centre for Quantum Technologies (CQT) in Singapore. His research focuses on developing microfabricated ion traps for scalable quantum computing and quantum networking with barium and lutetium ions.",
     "md_filename": "032-murray-barrett.md",
@@ -1224,12 +1237,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Electrical Engineering)",
-        "institution": "Stanford University",
-        "year": 1996,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "degree": "PhD (Electrical Engineering)",
+        "institution": "Stanford University",
+        "note": "PhD details require verification from institutional sources",
+        "year": 1996
       }
     ],
     "postdocs": [],
@@ -1247,15 +1260,15 @@
       "Sr+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=xsNy6jcAAAAJ",
+      "group_page": "https://quanta.mit.edu/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Quantum information and computation: theory and practice",
-      "year": 1996,
-      "note": "Thesis information requires verification"
+      "year": 1996
     },
     "short_bio": "Isaac L. Chuang leads the Quanta Group at MIT's Center for Ultracold Atoms. A pioneer in quantum computing, his research includes trapped-ion quantum information processing with strontium ions, quantum algorithms, and quantum error correction.",
     "md_filename": "041-isaac-chuang.md",
@@ -1348,11 +1361,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Amsterdam",
-        "year": 2007,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2007
       }
     ],
     "postdocs": [],
@@ -1370,15 +1383,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=uGeNcfAAAAAJ",
       "group_page": "http://hyqs.nl",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Permanent magnetic atom chips and Bose-Einstein condensation",
-      "year": 2007,
-      "note": "Thesis information requires verification"
+      "year": 2007
     },
     "short_bio": "Rene Gerritsma leads research on Hybrid Atom-Ion Quantum Systems at the University of Amsterdam. His group explores the interface between ultracold neutral atoms and trapped ions for quantum simulation and quantum information applications.",
     "md_filename": "030-rene-gerritsma.md",
@@ -1525,11 +1538,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Colorado Boulder",
-        "year": 2006,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2006
       }
     ],
     "postdocs": [],
@@ -1548,15 +1561,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=TvhzuKYAAAAJ",
+      "group_page": "https://www.physics.ucla.edu/~hudson/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Eric R. Hudson leads the Hudson Lab at UCLA, focusing on trapped molecular ions, ultracold chemistry, and quantum simulation. His group works with barium, ytterbium, and molecular ions to explore ion-neutral collisions and chemical reactions at ultracold temperatures.",
     "md_filename": "038-eric-hudson.md",
@@ -1673,7 +1686,10 @@
       "Experimental group",
       "Industry"
     ],
-    "ion_species": [],
+    "ion_species": [
+      "Ca+",
+      "Yb+"
+    ],
     "links": {
       "aqt_about": "https://www.aqt.eu/about/",
       "cv_pdf": "https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf",
@@ -1830,12 +1846,12 @@
     },
     "education": [
       {
+        "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Optical Sciences)",
         "institution": "University of Arizona",
-        "year": 2007,
         "note": "PhD details require verification from institutional sources",
-        "advisor": null,
-        "confidence": "not_found"
+        "year": 2007
       }
     ],
     "postdocs": [],
@@ -1853,15 +1869,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=2cWt_OIAAAAJ",
       "group_page": null,
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Distributed Quantum Sensing: Theoretical Foundation, Experimental Platform and Applications",
-      "year": 2007,
-      "note": "Thesis information requires verification"
+      "year": 2007
     },
     "short_bio": "Hermann Uys leads the trapped ion research group at Stellenbosch University and the CSIR in South Africa. His work focuses on trapped ytterbium ions for quantum control, simulation of many-body physics, and quantum thermodynamics.",
     "md_filename": "048-hermann-uys.md",
@@ -2202,11 +2218,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "Georgia Institute of Technology",
-        "year": 2006,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2006
       }
     ],
     "postdocs": [],
@@ -2225,15 +2241,15 @@
       "SiO+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=yDbgjnIAAAAJ",
+      "group_page": "https://www.cqt.sg/research/dzmitry-matsukevich",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Dzmitry Matsukevich leads research on trapped molecular ions at the Centre for Quantum Technologies (CQT) in Singapore. His group works on quantum networking and quantum communication using ytterbium and molecular ions (SiO+), focusing on ion-photon entanglement.",
     "md_filename": "033-dzmitry-matsukevich.md",
@@ -2384,11 +2400,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Oxford",
-        "year": null,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": null
       }
     ],
     "postdocs": [],
@@ -2407,15 +2423,15 @@
       "Sr+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=pREa_vkAAAAJ",
+      "group_page": "https://www.physics.ox.ac.uk/research/ion-trap-quantum-computing-group",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Parity violation in atomic samarium",
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "David M. Lucas leads the Ion Trap Quantum Computing Group at the University of Oxford alongside Andrew Steane. The Oxford group is one of the world's leading centers for trapped-ion quantum computing, working with calcium and strontium ions on quantum error correction, high-fidelity quantum gates, and optical clocks.",
     "md_filename": "037-david-lucas.md",
@@ -2559,11 +2575,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Theoretical Chemistry)",
         "institution": "University of California, Berkeley",
-        "year": 2003,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2003
       }
     ],
     "postdocs": [],
@@ -2583,15 +2599,15 @@
       "B+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=5RFsz9IAAAAJ",
+      "group_page": "https://sites.duke.edu/brownlab/",
+      "orcid": "https://orcid.org/0000-0001-6498-3120"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Theoretical Issues in Quantum Information Technologies",
-      "year": 2003,
-      "note": "Thesis information requires verification"
+      "year": 2003
     },
     "short_bio": "Kenneth R. Brown leads a major trapped-ion quantum computing group at Duke University. His research focuses on quantum error correction, fault-tolerant quantum computing, and quantum control with calcium, ytterbium, and boron ions.",
     "md_filename": "042-kenneth-brown.md",
@@ -3110,11 +3126,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Oxford",
-        "year": 2000,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2000
       }
     ],
     "postdocs": [],
@@ -3132,15 +3148,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=TkWO3PgAAAAJ",
+      "group_page": "https://www.npl.co.uk/people/rachel-godun",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Beam splitting mechanisms for a caesium atom interferometer",
-      "year": 2000,
-      "note": "Thesis information requires verification"
+      "year": 2000
     },
     "short_bio": "Rachel Godun leads the Ytterbium Ion Optical Clock team at the National Physical Laboratory (NPL). Her research focuses on developing and improving trapped-ion optical clocks for next-generation timekeeping and fundamental physics tests.",
     "md_filename": "050-rachel-godun.md",
@@ -3549,12 +3565,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "University of Heidelberg",
-        "year": 2004,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "degree": "PhD (Physics)",
+        "institution": "University of Heidelberg",
+        "note": "PhD details require verification from institutional sources",
+        "year": 2004
       }
     ],
     "postdocs": [],
@@ -3572,15 +3588,15 @@
       "Ba+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=VJE3z6IAAAAJ",
+      "group_page": "https://www.cqt.sg/research/manas-mukherjee",
+      "orcid": "https://orcid.org/0000-0003-3706-406X"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "The mass of 22^Mg and a concept for a novel laser ion source trap",
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Manas Mukherjee leads the Cold Ion Group at the Centre for Quantum Technologies (CQT) in Singapore. His research focuses on trapped-ion quantum computing and quantum simulation with barium ions.",
     "md_filename": "034-manas-mukherjee.md",
@@ -3674,11 +3690,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "ETH Zurich",
-        "year": 2004,
-        "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "note": "PhD details require verification from institutional sources",
+        "year": 2004
       }
     ],
     "postdocs": [],
@@ -3696,15 +3712,15 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=51D_dOIAAAAJ",
+      "group_page": "https://willitsch.chemie.unibas.ch/",
+      "orcid": "https://orcid.org/0000-0002-8376-0579"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer Radikale und Kationen",
-      "year": 2004,
-      "note": "Thesis information requires verification"
+      "year": 2004
     },
     "short_bio": "Stefan Willitsch leads the Willitsch Group at the University of Basel. His research focuses on trapped molecular ions, ion-molecule reactions at ultracold temperatures, and applications of trapped ions to quantum chemistry and chemical physics.",
     "md_filename": "035-stefan-willitsch.md",
