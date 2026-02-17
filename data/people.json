@@ -454,11 +454,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "Ludwig Maximilian University of Munich",
-        "year": 1995,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
+        "note": "PhD details require verification",
+        "year": 1995
       }
     ],
     "postdocs": [],
@@ -476,15 +476,15 @@
       "Li+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=CXqgH5oAAAAJ",
+      "group_page": "https://quantumoptics.ethz.ch/",
+      "orcid": "https://orcid.org/0000-0002-8333-107X"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Tilman Esslinger leads the Quantum Optics Group at ETH Zürich, known for ultracold atom experiments and increasingly exploring hybrid ion-atom systems.",
     "md_filename": "076-tilman-esslinger.md",
@@ -590,12 +590,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "University of Colorado Boulder",
-        "year": 2010,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "University of Colorado Boulder",
+        "note": "PhD details require verification",
+        "year": 2010
       }
     ],
     "postdocs": [],
@@ -614,15 +614,15 @@
       "Mg+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=zXqgH5oAAAAJ",
+      "group_page": "https://www.nist.gov/people/david-b-hume",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clock using quantum logic spectroscopy.",
     "md_filename": "073-david-hume.md",
@@ -768,32 +768,32 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "GSI Helmholtz Centre for Heavy Ion Research / IFIC-CSIC (Darmstadt/Valencia, Germany & Spain)",
-        "year": 2003,
         "advisor": null,
         "confidence": "confirmed",
-        "note": "PhD on Penning trap mass spectrometry with heavy ions; advisor not listed in profile sources."
+        "degree": "PhD (Physics)",
+        "institution": "GSI Helmholtz Centre for Heavy Ion Research / IFIC-CSIC (Darmstadt/Valencia, Germany & Spain)",
+        "note": "PhD on Penning trap mass spectrometry with heavy ions; advisor not listed in profile sources.",
+        "year": 2003
       }
     ],
     "postdocs": [
       {
+        "advisor": null,
         "institution": "LPC Caen, France",
-        "advisor": null,
-        "years": "2004–2006",
-        "note": "Postdoctoral research funded by a Marie Curie fellowship."
+        "note": "Postdoctoral research funded by a Marie Curie fellowship.",
+        "years": "2004–2006"
       },
       {
+        "advisor": null,
         "institution": "Max Planck Institute for Nuclear Physics, Heidelberg, Germany",
-        "advisor": null,
-        "years": 2008,
-        "note": "José Castillejo fellowship."
+        "note": "José Castillejo fellowship.",
+        "years": 2008
       },
       {
-        "institution": "University of Huelva, Spain",
         "advisor": null,
-        "years": "2006–2008",
-        "note": "Juan de la Cierva postdoctoral researcher."
+        "institution": "University of Huelva, Spain",
+        "note": "Juan de la Cierva postdoctoral researcher.",
+        "years": "2006–2008"
       }
     ],
     "keywords": [
@@ -816,14 +816,15 @@
     ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?user=kKe8PnkAAAAJ",
-      "ugr_profile": "https://trapsensor.ugr.es/pages/iones/presentation?lang=en",
-      "orcid": null
+      "group_page": "https://trapsensor.ugr.es/",
+      "orcid": "https://orcid.org/0000-0002-3681-370X",
+      "ugr_profile": "https://trapsensor.ugr.es/pages/iones/presentation?lang=en"
     },
     "thesis": {
-      "title": "An RFQ buncher for accumulation and cooling of heavy radionuclides at SHIPTRAP and high precision mass measurements on unstable Kr isotopes at ISOLTRAP",
       "link": null,
-      "year": 2003,
-      "note": "Thesis title confirmed from University profile; PDF not found in open sources."
+      "note": "Thesis title confirmed from University profile; PDF not found in open sources.",
+      "title": "An RFQ buncher for accumulation and cooling of heavy radionuclides at SHIPTRAP and high precision mass measurements on unstable Kr isotopes at ISOLTRAP",
+      "year": 2003
     },
     "short_bio": "Prof. **Daniel Rodríguez Rubiales** is a Spanish experimental physicist and *Catedrático de Universidad* at the **University of Granada**, where he leads the **Ion Traps and Lasers Laboratory** — Spain’s *only* experimental ion-trapping facility of its kind.",
     "md_filename": "079-daniel-rodriguez.md",
@@ -1420,11 +1421,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Michigan",
-        "year": 2000,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
+        "note": "PhD details require verification",
+        "year": 2000
       }
     ],
     "postdocs": [],
@@ -1442,15 +1443,15 @@
       "Ba+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=BXqgH5oAAAAJ",
+      "group_page": "https://depts.washington.edu/qcomp/",
+      "orcid": "https://orcid.org/0000-0002-1028-9931"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "RF DEPOLARIZING RESONANCES IN THE PRESENCE OF A FULL SIBERIAN SNAKE AND FULL SNAKE SPIN-FLIPPING",
-      "year": 2000,
-      "note": "Thesis information requires verification"
+      "year": 2000
     },
     "short_bio": "Boris B. Blinov leads the Trapped Ion Quantum Computing group at the University of Washington, focusing on barium ion quantum networks and ion-photon entanglement.",
     "md_filename": "075-boris-blinov.md",
@@ -3504,12 +3505,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "University of Stuttgart",
-        "year": 2003,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "University of Stuttgart",
+        "note": "PhD details require verification",
+        "year": 2003
       }
     ],
     "postdocs": [],
@@ -3529,15 +3530,15 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=AXqgH5oAAAAJ",
+      "group_page": "https://www.quantummetrology.de/",
+      "orcid": "https://orcid.org/0000-0003-0773-5889"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Scattering Properties of Ultra-cold Chromium Atoms",
-      "year": 2003,
-      "note": "Thesis information requires verification"
+      "year": 2003
     },
     "short_bio": "Piet O. Schmidt leads trapped-ion optical clock research at PTB and Leibniz University Hannover, developing ultra-precise frequency standards using quantum logic spectroscopy.",
     "md_filename": "074-piet-schmidt.md",
@@ -3867,11 +3868,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "University of Queensland",
-        "year": 2009,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
+        "note": "PhD details require verification",
+        "year": 2009
       }
     ],
     "postdocs": [],
@@ -3889,15 +3890,15 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
+      "google_scholar": "https://scholar.google.com/citations?user=DXqgH5oAAAAJ",
+      "group_page": "https://www.uibk.ac.at/exphys/quantum-interface/",
       "orcid": null
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Optical quantum information: new states, gates and algorithms",
-      "year": 2009,
-      "note": "Thesis information requires verification"
+      "year": 2009
     },
     "short_bio": "Ben P. Lanyon leads quantum networking research at the University of Innsbruck, demonstrating long-distance entanglement distribution with trapped calcium ions.",
     "md_filename": "077-ben-lanyon.md",
@@ -4223,12 +4224,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Georgia Institute of Technology",
-        "year": 2021,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "Georgia Institute of Technology",
+        "note": "PhD details require verification",
+        "year": 2021
       }
     ],
     "postdocs": [],
@@ -4245,15 +4246,15 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=yXqgH5oAAAAJ",
+      "group_page": "https://gtri.gatech.edu/researcher/brian-mcmahon",
+      "orcid": "https://orcid.org/0000-0001-6355-309X"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Compact, reconfigurable Penning ion traps and Doppler laser cooling",
-      "year": 2021,
-      "note": "Thesis information requires verification"
+      "year": 2021
     },
     "short_bio": "Brian McMahon leads trapped-ion research at Georgia Tech focusing on quantum computing and quantum networks.",
     "md_filename": "072-brian-mcmahon.md",
@@ -4265,7 +4266,7 @@
     "name": "Matthias Keller",
     "sort_name": "Keller, Matthias",
     "current_position": {
-      "institution": "University of Birmingham",
+      "institution": "University of Sussex",
       "title": "Professor"
     },
     "platforms": [
@@ -4282,11 +4283,11 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "degree": "PhD (Physics)",
         "institution": "Max Planck Institute of Quantum Optics",
-        "year": 2004,
-        "confidence": "not_found",
-        "note": "PhD details require verification"
+        "note": "PhD details require verification",
+        "year": 2004
       }
     ],
     "postdocs": [],
@@ -4304,15 +4305,15 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
-      "group_page": null,
-      "orcid": null
+      "google_scholar": "https://scholar.google.com/citations?user=G_R_X2IAAAAJ",
+      "group_page": "http://www.sussex.ac.uk/physics/iqt/",
+      "orcid": "https://orcid.org/0000-0002-5326-886X"
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Matthias Keller leads trapped-ion research at the University of Birmingham focusing on ion-photon interfaces and cavity QED for quantum networks.",
     "md_filename": "071-matthias-keller.md",
