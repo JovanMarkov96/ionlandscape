@@ -42,6 +42,7 @@
     ],
     "links": {
       "google_scholar": null,
+      "group_page": "https://phys.au.dk/en/research/research-areas/amo/drewsen-lab",
       "orcid": "https://orcid.org/0000-0003-4767-3498",
       "university_profile": "https://pure.au.dk/portal/en/persons/michael-drewsen"
     },
@@ -103,6 +104,7 @@
     ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ",
+      "group_page": "https://www.uibk.ac.at/exphys/qos/people/roos/",
       "iqoqi_profile": "https://iqoqi.at/en/people/staff/staff/christian-roos",
       "orcid": "https://orcid.org/0000-0001-7121-8259",
       "thesis_pdf": "https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf"
@@ -419,7 +421,7 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=q-PAyDIAAAAJ",
       "group_page": "https://df.uba.ar/en/research/cold-ions-and-atoms-lab",
       "orcid": null
     },
@@ -618,7 +620,7 @@
     "links": {
       "google_scholar": "https://scholar.google.com/citations?user=zXqgH5oAAAAJ",
       "group_page": "https://www.nist.gov/people/david-b-hume",
-      "orcid": null
+      "orcid": "https://orcid.org/0000-0001-7797-2033"
     },
     "thesis": {
       "link": null,
@@ -675,7 +677,7 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=zTQAsSgAAAAJ",
       "group_page": "https://www.imperial.ac.uk/ion-trapping",
       "orcid": "https://orcid.org/0000-0003-1351-4135"
     },
@@ -1622,7 +1624,7 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=2zBEXPoAAAAJ",
       "group_page": "https://www.opticsolomouc.org/",
       "orcid": null,
       "upol_profile": "https://www.opticsolomouc.org/people/lukas-slodicka/"
@@ -1758,7 +1760,7 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=XXw35CcAAAAJ",
       "group_page": null,
       "orcid": "https://orcid.org/0000-0003-1065-8028"
     },
@@ -1877,7 +1879,7 @@
     ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?user=2cWt_OIAAAAJ",
-      "group_page": null,
+      "group_page": "https://www.csir.co.za/quantum-optics",
       "orcid": null
     },
     "thesis": {
@@ -1995,7 +1997,7 @@
       "Ra+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=gmbozcIAAAAJ",
       "group_page": "https://www.rug.nl/research/vsi/research/ions/",
       "orcid": "https://orcid.org/0000-0003-0571-4072"
     },
@@ -2190,7 +2192,7 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=wV7m0q8AAAAJ",
       "group_page": "https://uwaterloo.ca/ion-trap-quantum-computing/",
       "iqc_profile": "https://uwaterloo.ca/institute-for-quantum-computing/profiles/rajibul-islam",
       "orcid": "https://orcid.org/0000-0002-6483-8932"
@@ -2370,7 +2372,7 @@
       "HD+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=hKApNbYAAAAJ",
       "group_page": null,
       "homepage": "https://www.nat.vu.nl/~koel/",
       "institution_profile": "https://research.vu.nl/en/persons/jeroen-koelemeij",
@@ -2488,7 +2490,8 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Cw9P5UkAAAAJ",
+      "group_page": "https://www.koellab.uni-bonn.de/",
       "orcid": "https://orcid.org/0000-0003-3967-1816",
       "university_profile": "https://www.pi.uni-bonn.de/koehl/en"
     },
@@ -2920,7 +2923,7 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=ULkJQpkAAAAJ",
       "group_page": "https://iiis.tsinghua.edu.cn/duanluming/",
       "orcid": "https://orcid.org/0000-0001-6675-9413",
       "tsinghua_profile": "https://iiis.tsinghua.edu.cn/duanlm/"
@@ -3103,6 +3106,7 @@
       "duke_ece_profile": "https://ece.duke.edu/people/jungsang-kim/",
       "duke_quantum_center": "https://quantum.duke.edu/profile/jungsang-kim/",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=ibITRigAAAAJ",
+      "group_page": "https://mist.pratt.duke.edu/",
       "orcid": null,
       "scholars_at_duke": "https://scholars.duke.edu/person/jungsang"
     },
@@ -3429,8 +3433,8 @@
     "name": "Chris Ballance",
     "sort_name": "Ballance, Chris",
     "current_position": {
-      "title": "President, Quantum Computing",
-      "institution": "IonQ, Inc."
+      "institution": "IonQ, Inc.",
+      "title": "President, Quantum Computing"
     },
     "platforms": [
       "Trapped ions"
@@ -3456,10 +3460,10 @@
     },
     "education": [
       {
+        "advisor": "David M. Lucas",
         "degree": "DPhil (PhD) in Physics",
         "institution": "University of Oxford",
-        "year": 2014,
-        "advisor": "David M. Lucas"
+        "year": 2014
       }
     ],
     "postdocs": [],
@@ -3480,15 +3484,16 @@
     ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=pgnnU3MAAAAJ",
+      "group_page": "https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group",
+      "ionq_bio": "https://investors.ionq.com/governance/board-of-directors/person-details/default.aspx?ItemId=a5a3affa-e6f6-48e5-9f2f-ec7bd0e6b78c",
       "orcid": "https://orcid.org/0000-0002-9654-9510",
-      "oxford_ora_thesis": "https://ora.ox.ac.uk/objects/uuid:1beb7f67-4d92-4d57-8754-50f92f9d27f4",
-      "oxford_profile": "https://www.physics.ox.ac.uk/our-people/ballance",
       "oxford_ionics_profile": "https://www.oxionics.com/people/chris-ballance/",
-      "ionq_bio": "https://investors.ionq.com/governance/board-of-directors/person-details/default.aspx?ItemId=a5a3affa-e6f6-48e5-9f2f-ec7bd0e6b78c"
+      "oxford_ora_thesis": "https://ora.ox.ac.uk/objects/uuid:1beb7f67-4d92-4d57-8754-50f92f9d27f4",
+      "oxford_profile": "https://www.physics.ox.ac.uk/our-people/ballance"
     },
     "thesis": {
-      "title": "High-fidelity quantum logic in Ca+",
       "link": "https://ora.ox.ac.uk/objects/uuid:1beb7f67-4d92-4d57-8754-50f92f9d27f4",
+      "title": "High-fidelity quantum logic in Ca+",
       "year": 2014
     },
     "short_bio": "Dr. Chris Ballance is a physicist and quantum-technology leader working on trapped-ion quantum computing across academia and industry. He completed his DPhil (PhD) at the University of Oxford under Prof. David M. Lucas, with a thesis on high-fidelity trapped-ion quantum logic.",
@@ -4021,7 +4026,7 @@
       "In+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=PM_aLhoAAAAJ",
       "group_page": "https://www.phys.titech.ac.jp/lab/mukaiyama/",
       "orcid": null
     },
@@ -4079,7 +4084,7 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=ajeoFYMAAAAJ",
       "griffith_profile": "https://experts.griffith.edu.au/7796-erik-streed",
       "group_page": "https://iqtlab.net/",
       "orcid": "https://orcid.org/0000-0001-6234-4560"
@@ -4144,7 +4149,8 @@
       "Yb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=Pf5u3hcAAAAJ",
+      "group_page": "https://www.q-ctrl.com/",
       "orcid": "https://orcid.org/0000-0002-4371-2580",
       "sydney_profile": "https://www.sydney.edu.au/science/about/our-people/academic-staff/michael-biercuk.html"
     },
@@ -4202,7 +4208,7 @@
       "Ca+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=obso9DoAAAAJ",
       "group_page": "https://research.vu.nl/en/persons/kjeld-eikema",
       "orcid": "https://orcid.org/0000-0002-2546-3584"
     },
@@ -4519,7 +4525,7 @@
       "Cd+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=5E3WQM8AAAAJ",
       "group_page": "https://www.sfu.ca/physics/haljanlab.html",
       "orcid": null,
       "sfu_profile": "https://www.sfu.ca/physics/people/faculty/haljan.html"
@@ -4580,7 +4586,7 @@
       "Rb+"
     ],
     "links": {
-      "google_scholar": null,
+      "google_scholar": "https://scholar.google.com/citations?user=h9DoV-oAAAAJ",
       "group_page": "https://www.uni-ulm.de/en/nawi/quantum-matter/",
       "orcid": null
     },
@@ -4700,7 +4706,7 @@
     "links": {
       "google_scholar": "https://scholar.google.com/citations?user=6YgPz2UAAAAJ",
       "group_page": "https://barclaylab.ucalgary.ca/",
-      "orcid": null
+      "orcid": "https://orcid.org/0000-0002-3642-1279"
     },
     "thesis": {
       "link": null,
