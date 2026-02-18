@@ -1,0 +1,114 @@
+[
+  {
+    "id": "c001-quantum-art",
+    "name": "Quantum Art",
+    "sort_name": "Quantum Art",
+    "entity_type": "company",
+    "platforms": [
+      "Trapped ions"
+    ],
+    "location": {
+      "city": "Ness Ziona",
+      "region": "Central",
+      "country": "Israel",
+      "lat": 31.93,
+      "lon": 34.8
+    },
+    "short_summary": "Developer of scalable, multi-core quantum computers using trapped-ion qubits.",
+    "approach": {
+      "elevator_pitch": "We employ multi-qubit gates, implementing up to 1,000 standard two-qubit gates in a single operation... Made possible by multi-tone, multi-mode coherent control.",
+      "differentiators": [
+        "Dynamically reconfigurable multi-core architecture",
+        "Multi-tone, multi-mode coherent control over all qubits at once"
+      ],
+      "architecture_tags": [
+        "Multi-core",
+        "2D architecture"
+      ]
+    },
+    "focus_areas": [
+      "Scalable quantum computing",
+      "Error correction"
+    ],
+    "products": [
+      "Perspective (1000-qubit system)"
+    ],
+    "people": {
+      "founders": [
+        {
+          "name": "Tal David",
+          "role": "CEO & Co-Founder"
+        },
+        {
+          "name": "Amit Ben Kish",
+          "role": "CTO & Co-Founder"
+        },
+        {
+          "name": "Roee Ozeri",
+          "role": "Co-Founder & Chief Scientist"
+        }
+      ],
+      "leadership": [],
+      "spun_out_of": [
+        "Weizmann Institute of Science"
+      ]
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": 124000000,
+      "rounds": [
+        {
+          "round": "Series A",
+          "amount_usd": 100000000,
+          "date": "2025-12-10",
+          "lead_investors": [
+            "Bedford Ridge Capital"
+          ],
+          "other_investors": [
+            "Battery Ventures",
+            "Amiti Ventures",
+            "Vertex Ventures"
+          ]
+        }
+      ]
+    },
+    "milestones": [],
+    "links": {
+      "website": "https://quantum-art.tech",
+      "careers": "https://quantum-art.tech/careers",
+      "news": "https://quantum-art.tech/news",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "sources": [
+      {
+        "url": "https://quantum-art.tech",
+        "note": "Official website (Tech quotes)"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-funding-302328222.html",
+        "note": "PR Newswire: Funding & Founders"
+      },
+      {
+        "url": "https://tracxn.com/d/companies/quantum-art/__AwK...",
+        "note": "Tracxn: Location & Founders"
+      }
+    ],
+    "md_filename": "c001-quantum-art.md",
+    "updated_at": ""
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c001-quantum-art",
+        "name": "Quantum Art",
+        "entity_type": "company",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "city": "Ness Ziona",
+        "country": "Israel",
+        "short_summary": "Developer of scalable, multi-core quantum computers using trapped-ion qubits.",
+        "md_filename": "c001-quantum-art.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8,
+          31.93
+        ]
+      }
+    }
+  ]
+}
