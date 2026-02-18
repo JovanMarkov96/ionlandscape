@@ -13,6 +13,7 @@
         "city": "Ness Ziona",
         "country": "Israel",
         "short_summary": "Developer of scalable, multi-core quantum computers using trapped-ion qubits.",
+        "logo_path": "/img/companies/quantum-art.png",
         "md_filename": "c001-quantum-art.md"
       },
       "geometry": {
