@@ -432,73 +432,80 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
                 style={{ height: '100%', width: '100%' }}
             />
             {/* Filter Controls */}
-            {/* Filter Controls */}
+            {/* Filter Controls - Horizontal Pill */}
             <div style={{
                 position: 'absolute',
-                top: '20px',
-                left: '20px',
-                background: isDark ? 'rgba(30, 30, 50, 0.75)' : 'rgba(255, 255, 255, 0.75)',
-                backdropFilter: 'blur(12px) saturate(1.8)',
-                WebkitBackdropFilter: 'blur(12px) saturate(1.8)',
-                padding: '16px',
-                borderRadius: '16px',
-                boxShadow: isDark ? '0 8px 32px rgba(0,0,0,0.4)' : '0 8px 32px rgba(0,0,0,0.1)',
-                border: isDark ? '1px solid rgba(255, 255, 255, 0.1)' : '1px solid rgba(255, 255, 255, 0.4)',
-                zIndex: 1,
-                fontSize: '0.9em',
-                minWidth: '140px',
+                top: '24px',
+                left: '24px',
                 display: 'flex',
-                flexDirection: 'column',
-                gap: '12px',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '8px 12px',
+                borderRadius: '50px',
+                background: isDark ? 'rgba(18, 18, 28, 0.8)' : 'rgba(255, 255, 255, 0.8)',
+                backdropFilter: 'blur(16px) saturate(1.8)',
+                WebkitBackdropFilter: 'blur(16px) saturate(1.8)',
+                boxShadow: isDark ? '0 4px 20px rgba(0,0,0,0.4)' : '0 4px 20px rgba(0,0,0,0.1)',
+                border: isDark ? '1px solid rgba(255, 255, 255, 0.1)' : '1px solid rgba(255, 255, 255, 0.6)',
+                zIndex: 10,
                 transition: 'all 0.3s ease'
             }}>
                 <div style={{
-                    fontSize: '0.7em',
-                    fontWeight: 800,
-                    letterSpacing: '0.1em',
+                    fontSize: '0.75em',
+                    fontWeight: 700,
+                    letterSpacing: '0.05em',
                     textTransform: 'uppercase',
-                    color: isDark ? 'rgba(255,255,255,0.5)' : 'rgba(0,0,0,0.4)',
-                    marginBottom: '4px'
+                    color: isDark ? 'rgba(255,255,255,0.6)' : 'rgba(0,0,0,0.5)',
+                    marginRight: '8px',
+                    paddingRight: '12px',
+                    borderRight: isDark ? '1px solid rgba(255,255,255,0.1)' : '1px solid rgba(0,0,0,0.1)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    height: '20px'
                 }}>
                     Filters
                 </div>
 
+                {/* People Toggle */}
                 <div
                     onClick={() => setFilters(prev => ({ ...prev, people: !prev.people }))}
                     style={{
                         display: 'flex',
                         alignItems: 'center',
                         cursor: 'pointer',
-                        padding: '6px 8px',
-                        borderRadius: '8px',
-                        background: filters.people ? (isDark ? 'rgba(79, 70, 229, 0.2)' : 'rgba(79, 70, 229, 0.1)') : 'transparent',
+                        padding: '6px 12px',
+                        borderRadius: '20px',
+                        background: filters.people ? (isDark ? 'rgba(79, 70, 229, 0.25)' : 'rgba(79, 70, 229, 0.15)') : 'transparent',
+                        border: filters.people ? (isDark ? '1px solid rgba(79, 70, 229, 0.4)' : '1px solid rgba(79, 70, 229, 0.2)') : '1px solid transparent',
                         transition: 'all 0.2s',
                     }}
                     title="Toggle People"
                 >
-                    <svg viewBox="0 0 24 24" width="20" height="20" style={{ marginRight: '10px', fill: filters.people ? '#4f46e5' : (isDark ? '#666' : '#999'), transition: 'fill 0.2s' }}>
+                    <svg viewBox="0 0 24 24" width="16" height="16" style={{ marginRight: '6px', fill: filters.people ? '#6366f1' : (isDark ? '#888' : '#999'), transition: 'fill 0.2s' }}>
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
-                    <span style={{ color: filters.people ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.people ? 600 : 400 }}>People</span>
+                    <span style={{ fontSize: '0.85em', color: filters.people ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.people ? 600 : 500 }}>People</span>
                 </div>
 
+                {/* Companies Toggle */}
                 <div
                     onClick={() => setFilters(prev => ({ ...prev, companies: !prev.companies }))}
                     style={{
                         display: 'flex',
                         alignItems: 'center',
                         cursor: 'pointer',
-                        padding: '6px 8px',
-                        borderRadius: '8px',
-                        background: filters.companies ? (isDark ? 'rgba(230, 81, 0, 0.2)' : 'rgba(230, 81, 0, 0.1)') : 'transparent',
+                        padding: '6px 12px',
+                        borderRadius: '20px',
+                        background: filters.companies ? (isDark ? 'rgba(230, 81, 0, 0.25)' : 'rgba(230, 81, 0, 0.15)') : 'transparent',
+                        border: filters.companies ? (isDark ? '1px solid rgba(230, 81, 0, 0.4)' : '1px solid rgba(230, 81, 0, 0.2)') : '1px solid transparent',
                         transition: 'all 0.2s',
                     }}
                     title="Toggle Companies"
                 >
-                    <svg viewBox="0 0 24 24" width="20" height="20" style={{ marginRight: '10px', fill: filters.companies ? '#e65100' : (isDark ? '#666' : '#999'), transition: 'fill 0.2s' }}>
+                    <svg viewBox="0 0 24 24" width="16" height="16" style={{ marginRight: '6px', fill: filters.companies ? '#f97316' : (isDark ? '#888' : '#999'), transition: 'fill 0.2s' }}>
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
-                    <span style={{ color: filters.companies ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.companies ? 600 : 400 }}>Companies</span>
+                    <span style={{ fontSize: '0.85em', color: filters.companies ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.companies ? 600 : 500 }}>Companies</span>
                 </div>
             </div>
         </div>
