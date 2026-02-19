@@ -121,14 +121,17 @@ body,
 .ion-landscape-panel {
   width: var(--panel-width);
   height: 100%;
-  border-left: 1px solid var(--ion-border);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
   overflow-y: auto;
   overflow-x: hidden;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px) saturate(1.8);
+  -webkit-backdrop-filter: blur(20px) saturate(1.8);
   color: var(--ifm-color-content);
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s ease;
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+  box-shadow: -8px 0 32px rgba(0, 0, 0, 0.08);
 }
 
 .ion-landscape-panel::-webkit-scrollbar {
@@ -141,8 +144,10 @@ body,
 }
 
 [data-theme='dark'] .ion-landscape-panel {
-  background: var(--ion-surface-dark);
-  border-left-color: var(--ion-border-dark);
+  background: rgba(30, 30, 50, 0.95);
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  ,
+  box-shadow: -8px 0 32px rgba(0, 0, 0, 0.4);
 }
 
 [data-theme='dark'] .ion-landscape-panel::-webkit-scrollbar-thumb {
