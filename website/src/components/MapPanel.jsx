@@ -349,7 +349,7 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
             minZoom: 1
         });
 
-        map.addControl(new maplibregl.NavigationControl(), 'top-right');
+        map.addControl(new maplibregl.NavigationControl(), 'bottom-right');
         map.addControl(new maplibregl.AttributionControl({
             compact: true,
             customAttribution: '© OpenStreetMap contributors'
@@ -372,6 +372,10 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
         map.on('load', () => {
             console.log('MapLibre GL JS loaded - Self-hosted, zero external dependencies');
         });
+
+        // Add markers when styled data changes... (omitted for brevity in replacement, but wait, this is inside useEffect)
+        // I need to be careful not to delete the marker logic.
+        // The target content I selected below is just the map init block.
 
         mapRef.current = map;
 
@@ -405,8 +409,6 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
             const props = firstFeature.properties || {};
 
             const isCompanyGroup = group.some(f => f.properties?.entity_type === 'company');
-            // Check if mixed or purely one type (priority to company color if mixed? or purple?)
-            // For now: Orange if contains company, Blue otherwise
             const markerColor = isCompanyGroup ? '#e65100' : '#4f46e5';
 
             const locationLabel = props.city && props.country
@@ -416,7 +418,12 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
             const popup = new maplibregl.Popup({ offset: 25, maxWidth: '300px' })
                 .setHTML(createPopupHTML(group, locationLabel));
 
-            const marker = new maplibregl.Marker({ color: markerColor })
+            // Create custom marker element
+            const el = document.createElement('div');
+            el.className = 'ion-marker';
+            el.style.backgroundColor = markerColor;
+
+            const marker = new maplibregl.Marker({ element: el })
                 .setLngLat([lon, lat])
                 .setPopup(popup)
                 .addTo(mapRef.current);
@@ -432,23 +439,7 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
                 style={{ height: '100%', width: '100%' }}
             />
             {/* Filter Controls - Liquid Glass Vertical */}
-            <div style={{
-                position: 'absolute',
-                top: '20px',
-                left: '20px',
-                background: isDark ? 'rgba(20, 20, 35, 0.65)' : 'rgba(255, 255, 255, 0.65)',
-                backdropFilter: 'blur(16px) saturate(1.8)',
-                WebkitBackdropFilter: 'blur(16px) saturate(1.8)',
-                padding: '12px',
-                borderRadius: '16px',
-                boxShadow: isDark ? '0 8px 32px rgba(0,0,0,0.3)' : '0 8px 32px rgba(0,0,0,0.1)',
-                border: isDark ? '1px solid rgba(255, 255, 255, 0.08)' : '1px solid rgba(255, 255, 255, 0.4)',
-                zIndex: 1,
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '8px',
-                transition: 'all 0.3s ease'
-            }}>
+            <div className="map-filters-container">
                 <div
                     className="map-filter-btn"
                     onClick={() => setFilters(prev => ({ ...prev, people: !prev.people }))}
