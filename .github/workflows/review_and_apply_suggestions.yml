@@ -1,0 +1,43 @@
+name: Review & Apply Suggestions
+
+on:
+  workflow_dispatch:
+    inputs:
+      suggestions_json:
+        description: "Path to suggestions.json in repo (or artifact ID)"
+        required: true
+        default: "reports/suggestions.json"
+      apply_confidence:
+        description: "Minimum confidence to apply (confirmed, academictree_only)"
+        required: true
+        default: "confirmed"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - name: Apply Suggestions
+        run: |
+          # Ideally, fetch the artifact or file. Assuming it's checked in or uploaded.
+          # Here we run a script to patch .md files based on the JSON.
+          # For now, this is a placeholder for the actual patching logic.
+          echo "Applying suggestions from ${{ inputs.suggestions_json }} with confidence >= ${{ inputs.apply_confidence }}"
+          
+          # TODO: write apply_suggestions.py script logic here or call it
+          # python scripts/enrichment/apply_suggestions.py --input ${{ inputs.suggestions_json }} --confidence ${{ inputs.apply_confidence }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          branch: "enrichment/apply-suggestions"
+          title: "Apply Enrichment Suggestions"
+          body: "Automated PR applying suggestions from ${{ inputs.suggestions_json }}."
+          base: main

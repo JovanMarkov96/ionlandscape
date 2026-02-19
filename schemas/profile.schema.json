@@ -1,0 +1,324 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://github.com/JovanMarkov96/ionlandscape/schemas/profile.schema.json",
+    "title": "Ion Landscape Researcher Profile",
+    "description": "Validation schema for researcher profiles in content/people/.",
+    "type": "object",
+    "required": [
+        "id",
+        "name",
+        "location",
+        "group_type",
+        "labels"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Unique identifier (NNN-slug)",
+            "pattern": "^\\d{3}-[a-z0-9-]+$"
+        },
+        "name": {
+            "type": "string",
+            "minLength": 2
+        },
+        "sort_name": {
+            "type": "string",
+            "description": "Name for sorting (Last, First)"
+        },
+        "location": {
+            "type": "object",
+            "required": [
+                "city",
+                "country"
+            ],
+            "properties": {
+                "city": {
+                    "type": "string"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "region": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "lat": {
+                    "type": [
+                        "number",
+                        "null"
+                    ],
+                    "minimum": -90,
+                    "maximum": 90
+                },
+                "lon": {
+                    "type": [
+                        "number",
+                        "null"
+                    ],
+                    "minimum": -180,
+                    "maximum": 180
+                }
+            }
+        },
+        "current_position": {
+            "type": "object",
+            "required": [
+                "institution",
+                "title"
+            ],
+            "properties": {
+                "institution": {
+                    "type": "string"
+                },
+                "title": {
+                    "type": "string"
+                }
+            }
+        },
+        "group_type": {
+            "type": "string",
+            "enum": [
+                "experimental",
+                "theory"
+            ]
+        },
+        "labels": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "platforms": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "ion_species": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^[A-Z][a-z]?\\d*\\+?$"
+            }
+        },
+        "education": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "degree"
+                ],
+                "properties": {
+                    "degree": {
+                        "type": "string"
+                    },
+                    "institution": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "year": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ],
+                        "minimum": 1950,
+                        "maximum": 2030
+                    },
+                    "advisor": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "confidence": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "enum": [
+                            "confirmed",
+                            "academictree_only",
+                            "not_found",
+                            "ambiguous",
+                            null
+                        ]
+                    },
+                    "note": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "source": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "format": "uri"
+                    }
+                }
+            }
+        },
+        "postdocs": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "institution"
+                ],
+                "properties": {
+                    "institution": {
+                        "type": "string"
+                    },
+                    "advisor": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "years": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "year": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "confidence": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "enum": [
+                            "confirmed",
+                            "academictree_only",
+                            "not_found",
+                            "ambiguous",
+                            null
+                        ]
+                    },
+                    "source": {
+                        "type": [
+                            "string",
+                            "null"
+                        ],
+                        "format": "uri"
+                    }
+                }
+            }
+        },
+        "thesis": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {
+                "title": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "year": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "link": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "format": "uri"
+                },
+                "note": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            }
+        },
+        "links": {
+            "type": "object",
+            "properties": {
+                "homepage": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "format": "uri"
+                },
+                "group_page": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "format": "uri"
+                },
+                "google_scholar": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "format": "uri"
+                },
+                "orcid": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "pattern": "^https://orcid\\.org/\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$"
+                },
+                "institution_profile": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "format": "uri"
+                }
+            }
+        },
+        "research_focus": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "maxItems": 2
+        },
+        "keywords": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "affiliations": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "active": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": "string"
+        }
+    }
+}

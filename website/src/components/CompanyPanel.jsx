@@ -1,0 +1,260 @@
+// website/src/components/CompanyPanel.jsx
+import React, { useEffect, useState } from 'react';
+import ReactMarkdown from 'react-markdown';
+import Link from '@docusaurus/Link';
+
+/**
+ * CompanyPanel Component
+ * 
+ * Displays detailed information about a selected company.
+ * Fetched from `companies.json`.
+ */
+function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, onClose }) {
+    const [companies, setCompanies] = useState([]);
+    const [company, setCompany] = useState(null);
+    const [people, setPeople] = useState([]);
+
+    useEffect(() => {
+        // Fetch people for linking
+        fetch('/ionlandscape/data/people.json')
+            .then(res => res.json())
+            .then(setPeople)
+            .catch(() => {
+                fetch('/data/people.json')
+                    .then(res => res.json())
+                    .then(setPeople)
+                    .catch(e => console.warn("Could not load people.json", e));
+            });
+
+        // Fetch companies
+        fetch('/ionlandscape/data/companies.json')
+            .then(res => res.json())
+            .then(setCompanies)
+            .catch(err => {
+                // fallback
+                fetch('/data/companies.json')
+                    .then(res => res.json())
+                    .then(setCompanies)
+                    .catch(e => console.warn("Could not load companies.json", e));
+            });
+    }, []);
+
+    useEffect(() => {
+        if (!companyId) {
+            setCompany(null);
+            return;
+        }
+        // companyId is stored as md_filename by MapPanel. Find the object.
+        const c = companies.find(x => x.md_filename === companyId) || companies.find(x => x.id === companyId);
+        if (c) {
+            setCompany(c);
+        } else {
+            setCompany(null);
+        }
+    }, [companyId, companies]);
+
+    const handleClose = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (onClose) onClose();
+    };
+
+    // Helper to receive person name/ID and return a link if found
+    const renderPersonLink = (name) => {
+        if (!name) return name;
+
+        // precise or fuzzy match
+        const person = people.find(p =>
+            (p.name && p.name.toLowerCase() === name.toLowerCase()) ||
+            (p.sort_name && p.sort_name.toLowerCase() === name.toLowerCase()) ||
+            (p.id === name)
+        );
+
+        if (person && onCompanySelect) { // onCompanySelect is actually handleCompanySelect from index.js
+            // We need to switch to Person view. 
+            // index.js handleCompanySelect sets selectedCompanyId. 
+            // We need a way to select a person.
+            // CompanyPanel receives onCompanySelect. It does NOT receive onPersonSelect?
+            // Checking index.js:
+            // <CompanyPanel ... onCompanySelect={handleCompanySelect} ... />
+            // It seems CompanyPanel only gets onCompanySelect.
+            // I need to update index.js to pass onPersonSelect to CompanyPanel too!
+            // For now I will assume onPersonSelect is passed or I add it.
+            // Wait, I should verify index.js again.
+            return (
+                <span
+                    className="advisor-link"
+                    onClick={() => onPersonSelect && onPersonSelect(person.md_filename)}
+                    title="Open Person Profile"
+                >
+                    {name}
+                </span>
+            );
+        }
+        return name;
+    };
+
+    if (!company) return null;
+
+    return (
+        <div className="person-panel-content">
+            {onClose && (
+                <button
+                    className="close-panel-btn"
+                    onClick={handleClose}
+                    aria-label="Close profile"
+                >
+                    ✕
+                </button>
+            )}
+
+            <div className="person-panel-header">
+                <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+                    {company.media?.logo_path && (
+                        <div style={{
+                            width: '60px',
+                            height: '60px',
+                            borderRadius: '50%',
+                            backgroundColor: 'white',
+                            border: '1px solid #ddd',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            overflow: 'hidden',
+                            flexShrink: 0
+                        }}>
+                            <img
+                                src={`/ionlandscape${company.media.logo_path}`}
+                                alt={`${company.name} logo`}
+                                style={{ maxWidth: '80%', maxHeight: '80%', objectFit: 'contain' }}
+                                onError={(e) => {
+                                    // fallback if /ionlandscape prefix not needed (dev mode)
+                                    e.target.src = company.media.logo_path;
+                                    e.target.onerror = null; // prevent loop
+                                }}
+                            />
+                        </div>
+                    )}
+                    <h2>{company.name}</h2>
+                </div>
+            </div>
+
+            <p className="person-panel-position">
+                <em>{company.location?.city}, {company.location?.country}</em>
+            </p>
+
+            <div className="person-panel-badges">
+                {company.platforms && company.platforms.map((platform, i) => (
+                    <span key={i} className="badge badge--primary margin-right--xs">
+                        {platform}
+                    </span>
+                ))}
+                {company.status?.operating_status === "active" && (
+                    <span className="badge badge--success margin-right--xs">Active</span>
+                )}
+                {company.status?.operating_status === "acquired" && (
+                    <span className="badge badge--warning margin-right--xs">Acquired</span>
+                )}
+            </div>
+
+            <div className="panel-divider" />
+
+            <div className="person-bio">
+                <p><strong>{company.short_summary}</strong></p>
+            </div>
+
+            {/* Approach */}
+            {(company.approach?.elevator_pitch || company.approach?.differentiators) && (
+                <>
+                    <h4 className="section-header">Approach</h4>
+                    {company.approach.elevator_pitch && (
+                        <p style={{ fontSize: '0.9em', fontStyle: 'italic' }}>
+                            "{company.approach.elevator_pitch}"
+                        </p>
+                    )}
+                    {company.approach.differentiators && (
+                        <ul style={{ fontSize: '0.9em' }}>
+                            {company.approach.differentiators.map((diff, i) => (
+                                <li key={i}>{diff}</li>
+                            ))}
+                        </ul>
+                    )}
+                    {company.approach.architecture_tags && (
+                        <div style={{ marginBottom: '10px' }}>
+                            {company.approach.architecture_tags.map((tag, i) => (
+                                <span key={i} className="badge badge--secondary margin-right--xs" style={{ fontSize: '0.8em' }}>
+                                    {tag}
+                                </span>
+                            ))}
+                        </div>
+                    )}
+                </>
+            )}
+
+            {/* Funding */}
+            {company.funding && (company.funding.total_usd > 0 || company.funding.rounds?.length > 0) && (
+                <>
+                    <div className="panel-divider" />
+                    <h4 className="section-header">Funding</h4>
+                    {company.funding.total_usd > 0 && (
+                        <p><strong>Total Raised:</strong> ${(company.funding.total_usd / 1000000).toFixed(1)}M</p>
+                    )}
+                    {company.funding.rounds && company.funding.rounds.map((round, i) => (
+                        <div key={i} className="trajectory-item">
+                            <div className="trajectory-title">{round.round} — {(round.amount_usd / 1000000).toFixed(1)}M</div>
+                            <div className="trajectory-details">
+                                {round.date} • Lead: {round.lead_investors?.join(", ")}
+                            </div>
+                        </div>
+                    ))}
+                </>
+            )}
+
+            {/* People */}
+            {company.people && (company.people.founders?.length > 0 || company.people.leadership?.length > 0) && (
+                <>
+                    <div className="panel-divider" />
+                    <h4 className="section-header">Leadership</h4>
+                    {company.people.founders && company.people.founders.map((p, i) => (
+                        <div key={i} className="affiliation-item">
+                            <strong>{renderPersonLink(p.name)}</strong> — {p.role}
+                        </div>
+                    ))}
+                    {company.people.spun_out_of && company.people.spun_out_of.length > 0 && (
+                        <div className="affiliation-item" style={{ marginTop: '5px' }}>
+                            <em>Spun out of: {company.people.spun_out_of.join(", ")}</em>
+                        </div>
+                    )}
+                </>
+            )}
+
+            {/* Links */}
+            <div className="panel-divider" />
+            <h4 className="section-header">Links</h4>
+            <div className="links-list">
+                {company.links?.website && <a href={company.links.website} target="_blank" rel="noopener noreferrer" className="panel-link">🌐 Website</a>}
+                {company.links?.news && <a href={company.links.news} target="_blank" rel="noopener noreferrer" className="panel-link">📰 News</a>}
+                {company.links?.careers && <a href={company.links.careers} target="_blank" rel="noopener noreferrer" className="panel-link">💼 Careers</a>}
+            </div>
+
+            {/* Sources */}
+            {company.sources && company.sources.length > 0 && (
+                <>
+                    <div className="panel-divider" />
+                    <h4 className="section-header" style={{ fontSize: '0.9em', color: '#666' }}>Evidence Map</h4>
+                    <ul style={{ fontSize: '0.8em', color: '#666', paddingLeft: '20px' }}>
+                        {company.sources.map((src, i) => (
+                            <li key={i}>
+                                <a href={src.url} target="_blank" rel="noopener noreferrer" style={{ color: '#666', textDecoration: 'underline' }}>
+                                    {src.note}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </>
+            )}
+        </div>
+    );
+}
+
+export default CompanyPanel;

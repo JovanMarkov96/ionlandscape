@@ -1,0 +1,36 @@
+# validate_profiles.yml
+# GitHub Action to validate Ion Landscape researcher profiles against the JSON Schema.
+# Runs on push and pull_request to prevent invalid data from merging.
+
+name: Validate Profiles
+
+on:
+  push:
+    paths:
+      - 'content/people/**'
+      - 'schemas/**'
+      - 'scripts/validation/validate_profiles.py'
+  pull_request:
+    paths:
+      - 'content/people/**'
+      - 'schemas/**'
+      - 'scripts/validation/validate_profiles.py'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          pip install pyyaml jsonschema
+          
+      - name: Validate Profiles
+        run: python scripts/validation/validate_profiles.py

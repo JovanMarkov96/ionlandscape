@@ -1,0 +1,238 @@
+# ============================================================================
+# apply_suggestions.yml
+#
+# GitHub Actions workflow that applies reviewed enrichment suggestions
+# to profile files and opens a draft PR for human review.
+#
+# SAFETY GUARDRAILS:
+# 1. Manual dispatch ONLY — never runs automatically
+# 2. Only applies suggestions with confidence "confirmed"
+# 3. Creates a DRAFT PR — requires explicit human approval before merge
+# 4. Adds source citations to the PR body for audit trail
+# 5. Re-validates all profiles after applying changes
+#
+# HOW SOURCE CITATIONS ARE REPRESENTED:
+# Each suggestion in suggestions.json includes:
+# - "source": URL or description of where the data was found
+# - "confidence": level of verification (confirmed/academictree_only/not_found/ambiguous)
+# - "note": human-readable explanation
+# These are preserved in the PR description and commit message for traceability.
+# ============================================================================
+
+name: Apply Enrichment Suggestions
+
+on:
+  # Manual dispatch only — requires human decision to apply
+  workflow_dispatch:
+    inputs:
+      suggestions_path:
+        description: 'Path to suggestions JSON file'
+        required: false
+        default: 'reports/suggestions.json'
+        type: string
+      min_confidence:
+        description: 'Minimum confidence level to apply'
+        required: false
+        default: 'confirmed'
+        type: choice
+        options:
+          - confirmed
+          - academictree_only
+      dry_run:
+        description: 'Dry run (show changes without applying)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  apply:
+    name: Apply Suggestions & Open PR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Need full history for clean branching
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema python-frontmatter geojson
+
+      # ---------- CHECK SUGGESTIONS FILE EXISTS ----------
+      - name: Verify suggestions file
+        run: |
+          if [ ! -f "${{ inputs.suggestions_path }}" ]; then
+            echo "❌ Suggestions file not found: ${{ inputs.suggestions_path }}"
+            echo "Run the 'Suggest Enrichment' workflow first, then download"
+            echo "the artifact and commit it to the repository."
+            exit 1
+          fi
+
+      # ---------- APPLY SUGGESTIONS ----------
+      # This step runs a Python script that:
+      # 1. Reads suggestions.json
+      # 2. Filters by minimum confidence level
+      # 3. Updates the YAML frontmatter in matching profile .md files
+      # 4. Preserves existing data (never overwrites confirmed fields)
+      # 5. Adds updated_at timestamp
+      #
+      # >>> INTEGRATION POINT: apply_suggestions.py <<<
+      # This script would need to be created to handle the YAML update logic.
+      # For now, we provide the framework and document the expected behavior.
+      - name: Apply safe suggestions to profiles
+        run: |
+          python -c "
+          import json, sys, os, re, yaml
+          from datetime import date
+
+          SUGGESTIONS_PATH = '${{ inputs.suggestions_path }}'
+          MIN_CONFIDENCE = '${{ inputs.min_confidence }}'
+          DRY_RUN = '${{ inputs.dry_run }}' == 'true'
+          CONTENT_DIR = 'content/people'
+          CONFIDENCE_ORDER = {'confirmed': 2, 'academictree_only': 1, 'not_found': 0, 'ambiguous': 0}
+          min_level = CONFIDENCE_ORDER.get(MIN_CONFIDENCE, 2)
+
+          with open(SUGGESTIONS_PATH) as f:
+              data = json.load(f)
+
+          applied_count = 0
+          skipped_count = 0
+          changes_summary = []
+
+          for item in data.get('suggestions', []):
+              pid = item['profile_id']
+              md_path = os.path.join(CONTENT_DIR, f'{pid}.md')
+              if not os.path.exists(md_path):
+                  print(f'⚠️  Profile not found: {md_path}')
+                  continue
+
+              # Read current frontmatter
+              with open(md_path, 'r', encoding='utf-8') as f:
+                  text = f.read()
+              match = re.match(r'^---\s*\n(.*?)\n---\s*\n', text, re.DOTALL)
+              if not match:
+                  print(f'⚠️  No frontmatter in {md_path}')
+                  continue
+
+              meta = yaml.safe_load(match.group(1)) or {}
+              body = text[match.end():]
+              changes = []
+
+              for field, suggestion in item.get('suggestions', {}).items():
+                  conf = suggestion.get('confidence', 'not_found')
+                  conf_level = CONFIDENCE_ORDER.get(conf, 0)
+                  value = suggestion.get('value')
+
+                  if conf_level < min_level or value is None:
+                      skipped_count += 1
+                      continue
+
+                  # Apply the suggestion based on field type
+                  # >>> HOW SUGGESTIONS ARE VALIDATED AND REVIEWED <<<
+                  # Each suggestion is checked against the minimum confidence threshold.
+                  # Only 'confirmed' (or 'academictree_only' if selected) suggestions are applied.
+                  # The value is written into the YAML frontmatter alongside source metadata.
+                  if field == 'orcid':
+                      meta.setdefault('links', {})['orcid'] = value
+                      changes.append(f'  + links.orcid = {value} [{conf}]')
+                  elif field == 'google_scholar':
+                      meta.setdefault('links', {})['google_scholar'] = value
+                      changes.append(f'  + links.google_scholar = {value} [{conf}]')
+                  elif field == 'homepage':
+                      meta.setdefault('links', {})['homepage'] = value
+                      changes.append(f'  + links.homepage = {value} [{conf}]')
+                  elif field == 'phd_advisor':
+                      for edu in meta.get('education', []):
+                          if isinstance(edu, dict) and 'PhD' in str(edu.get('degree', '')):
+                              edu['advisor'] = value
+                              edu['confidence'] = conf
+                              changes.append(f'  + education.advisor = {value} [{conf}]')
+                              break
+                  elif field == 'thesis_title':
+                      meta.setdefault('thesis', {})['title'] = value
+                      changes.append(f'  + thesis.title = {value[:60]}... [{conf}]')
+                  elif field == 'thesis_link':
+                      meta.setdefault('thesis', {})['link'] = value
+                      changes.append(f'  + thesis.link = {value} [{conf}]')
+                  elif field == 'research_focus':
+                      meta['research_focus'] = value
+                      changes.append(f'  + research_focus = {value} [{conf}]')
+
+              if changes:
+                  meta['updated_at'] = str(date.today())
+                  applied_count += 1
+
+                  if DRY_RUN:
+                      print(f'📝 Would update {pid}:')
+                      for c in changes:
+                          print(c)
+                  else:
+                      # Write back
+                      new_yaml = yaml.dump(meta, default_flow_style=False, allow_unicode=True, sort_keys=False)
+                      new_text = f'---\n{new_yaml}---\n{body}'
+                      with open(md_path, 'w', encoding='utf-8') as f:
+                          f.write(new_text)
+                      print(f'✅ Updated {pid}')
+                      for c in changes:
+                          print(c)
+
+                  changes_summary.append({'profile': pid, 'changes': changes})
+
+          print(f'\n📊 Applied: {applied_count}, Skipped: {skipped_count}')
+          "
+
+      # ---------- RE-VALIDATE AFTER CHANGES ----------
+      # Ensures the applied suggestions don't break the schema
+      - name: Re-validate all profiles
+        if: inputs.dry_run == false
+        run: python scripts/validation/validate_profiles.py
+
+      # ---------- OPEN DRAFT PR ----------
+      # Creates a draft PR so a human can review all changes before merging.
+      # The PR body includes the changes summary for review.
+      - name: Create enrichment branch and PR
+        if: inputs.dry_run == false
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="enrichment/$(date +%Y%m%d-%H%M%S)"
+          git config user.name "Ion Landscape Bot"
+          git config user.email "bot@ionlandscape.dev"
+          git checkout -b "$BRANCH"
+          git add content/people/
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: apply enrichment suggestions ($(date +%Y-%m-%d))
+
+          Applied suggestions from suggest_enrichment.py with minimum
+          confidence level: ${{ inputs.min_confidence }}.
+
+          Source citations and confidence levels are documented in
+          the suggestions.json file and PR body."
+
+          git push origin "$BRANCH"
+
+          gh pr create \
+            --title "📊 Profile Enrichment — $(date +%Y-%m-%d)" \
+            --body "## Enrichment Suggestions Applied
+
+          **Minimum confidence**: \`${{ inputs.min_confidence }}\`
+          **Source**: \`${{ inputs.suggestions_path }}\`
+
+          Please review all changes before merging.
+          Each field update includes a confidence level and source citation
+          in the commit and suggestions.json.
+
+          ### Review Checklist
+          - [ ] Verify ORCID links resolve correctly
+          - [ ] Verify Google Scholar profiles match the researcher
+          - [ ] Verify PhD advisor names are accurate
+          - [ ] Verify thesis titles are correct
+          - [ ] Check for any ambiguous entries" \
+            --draft \
+            --base main

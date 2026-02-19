@@ -1,0 +1,38 @@
+name: Suggest Enrichment
+
+on:
+  schedule:
+    - cron: '0 3 * * 0' # Weekly Sunday 3AM
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        type: boolean
+        description: "Dry Run (no LLM calls)"
+        default: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+
+      - name: Run Enrichment
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" == "true" ]; then ARGS="--dry-run"; fi
+          # In production, add --call-llm here if not dry run
+          python scripts/enrichment/suggest_enrichment.py $ARGS --output reports/suggestions.json
+      
+      - name: Upload Suggestions
+        if: ${{ !inputs.dry_run }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: suggestions-json
+          path: reports/suggestions.json

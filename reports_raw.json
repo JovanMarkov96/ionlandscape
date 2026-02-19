@@ -1,0 +1,557 @@
+﻿[
+  {
+    "file": "001-roee-ozeri.md",
+    "id": "001-roee-ozeri",
+    "name": "Roee Ozeri",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "002-ziv-meir.md",
+    "id": "002-ziv-meir",
+    "name": "Ziv Meir",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "003-chris-ballance.md",
+    "id": "003-chris-ballance",
+    "name": "Chris Ballance",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "004-christopher-monroe.md",
+    "id": "004-christopher-monroe",
+    "name": "Christopher R. Monroe",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "005-christian-roos.md",
+    "id": "005-christian-roos",
+    "name": "Christian F. Roos",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "006-david-wineland.md",
+    "id": "006-david-wineland",
+    "name": "David J. Wineland",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "007-dietrich-leibfried.md",
+    "id": "007-dietrich-leibfried",
+    "name": "Dietrich Leibfried",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "008-john-bollinger.md",
+    "id": "008-john-bollinger",
+    "name": "John J. Bollinger",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "009-hartmut-haeffner.md",
+    "id": "009-hartmut-haeffner",
+    "name": "Hartmut H\u00e4ffner",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "010-jungsang-kim.md",
+    "id": "010-jungsang-kim",
+    "name": "Jungsang Kim",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "011-kihwan-kim.md",
+    "id": "011-kihwan-kim",
+    "name": "Kihwan Kim",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "012-winfried-hensinger.md",
+    "id": "012-winfried-hensinger",
+    "name": "Winfried K. Hensinger",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "013-ferdinand-schmidt-kaler.md",
+    "id": "013-ferdinand-schmidt-kaler",
+    "name": "Ferdinand Schmidt-Kaler",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "014-thomas-monz.md",
+    "id": "014-thomas-monz",
+    "name": "Thomas Monz",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "015-tracy-northup.md",
+    "id": "015-tracy-northup",
+    "name": "Tracy E. Northup",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "016-jonathan-home.md",
+    "id": "016-jonathan-home",
+    "name": "Jonathan P. Home",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "017-rainer-blatt.md",
+    "id": "017-rainer-blatt",
+    "name": "Rainer Blatt",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "018-michael-drewsen.md",
+    "id": "018-michael-drewsen",
+    "name": "Michael Drewsen",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "019-michael-koehl.md",
+    "id": "019-michael-koehl",
+    "name": "Michael K\u00f6hl",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "020-luming-duan.md",
+    "id": "020-luming-duan",
+    "name": "Luming Duan",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "021-mike-biercuk.md",
+    "id": "021-mike-biercuk",
+    "name": "Michael J. Biercuk",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "022-rajibul-islam.md",
+    "id": "022-rajibul-islam",
+    "name": "K. Rajibul Islam",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "023-crystal-senko.md",
+    "id": "023-crystal-senko",
+    "name": "Crystal Senko",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "024-paul-haljan.md",
+    "id": "024-paul-haljan",
+    "name": "Paul Haljan",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "025-christian-schmiegelow.md",
+    "id": "025-christian-schmiegelow",
+    "name": "Christian Schmiegelow",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "026-erik-streed.md",
+    "id": "026-erik-streed",
+    "name": "Erik W. Streed",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "027-lukas-slodicka.md",
+    "id": "027-lukas-slod icka",
+    "name": "Luk\u00e1\u0161 Slodi\u010dka",
+    "errors": [
+      "  Invalid id format: '027-lukas-slod icka' (expected NNN-slug)"
+    ],
+    "warnings": []
+  },
+  {
+    "file": "028-juergen-eschner.md",
+    "id": "028-juergen-eschner",
+    "name": "J\u00fcrgen Eschner",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "029-christof-wunderlich.md",
+    "id": "029-christof-wunderlich",
+    "name": "Christof Wunderlich",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "030-rene-gerritsma.md",
+    "id": "030-rene-gerritsma",
+    "name": "Rene Gerritsma",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "031-jeroen-koelemeij.md",
+    "id": "031-jeroen-koelemeij",
+    "name": "Jeroen C. J. Koelemeij",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "032-murray-barrett.md",
+    "id": "032-murray-barrett",
+    "name": "Murray D. Barrett",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "033-dzmitry-matsukevich.md",
+    "id": "033-dzmitry-matsukevich",
+    "name": "Dzmitry Matsukevich",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "034-manas-mukherjee.md",
+    "id": "034-manas-mukherjee",
+    "name": "Manas Mukherjee",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "035-stefan-willitsch.md",
+    "id": "035-stefan-willitsch",
+    "name": "Stefan Willitsch",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "036-richard-thompson.md",
+    "id": "036-richard-thompson",
+    "name": "Richard C. Thompson",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "037-david-lucas.md",
+    "id": "037-david-lucas",
+    "name": "David M. Lucas",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "038-eric-hudson.md",
+    "id": "038-eric-hudson",
+    "name": "Eric R. Hudson",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "039-wes-campbell.md",
+    "id": "039-wes-campbell",
+    "name": "Wesley C. Campbell",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "040-vladan-vuletic.md",
+    "id": "040-vladan-vuletic",
+    "name": "Vladan Vuleti\u0107",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "041-isaac-chuang.md",
+    "id": "041-isaac-chuang",
+    "name": "Isaac L. Chuang",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "042-kenneth-brown.md",
+    "id": "042-kenneth-brown",
+    "name": "Kenneth R. Brown",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "043-kilian-singer.md",
+    "id": "043-kilian-singer",
+    "name": "Kilian Singer",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "044-johannes-hecker-denschlag.md",
+    "id": "044-johannes-hecker-denschlag",
+    "name": "Johannes Hecker Denschlag",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "045-kazuhiro-hayasaka.md",
+    "id": "045-kazuhiro-hayasaka",
+    "name": "Kazuhiro Hayasaka",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "046-kjeld-eikema.md",
+    "id": "046-kjeld-eikema",
+    "name": "Kjeld S. E. Eikema",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "047-klaus-jungmann.md",
+    "id": "047-klaus-jungmann",
+    "name": "Klaus Jungmann",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "048-hermann-uys.md",
+    "id": "048-hermann-uys",
+    "name": "Hermann Uys",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "049-patrick-gill.md",
+    "id": "049-patrick-gill",
+    "name": "Patrick Gill",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "050-rachel-godun.md",
+    "id": "050-rachel-godun",
+    "name": "Rachel Godun",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "051-john-chiaverini.md",
+    "id": "051-john-chiaverini",
+    "name": "John Chiaverini",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "052-dan-stick.md",
+    "id": "052-dan-stick",
+    "name": "Dan Stick",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "053-masao-kitano.md",
+    "id": "053-masao-kitano",
+    "name": "Masao Kitano",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "054-hiroki-takahashi.md",
+    "id": "054-hiroki-takahashi",
+    "name": "Hiroki Takahashi",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "055-takashi-mukaiyama.md",
+    "id": "055-takashi-mukaiyama",
+    "name": "Takashi Mukaiyama",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "056-kenji-toyoda.md",
+    "id": "056-kenji-toyoda",
+    "name": "Kenji Toyoda",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "057-utako-tanaka.md",
+    "id": "057-utako-tanaka",
+    "name": "Utako Tanaka",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "058-atsushi-noguchi.md",
+    "id": "058-atsushi-noguchi",
+    "name": "Atsushi Noguchi",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "059-shuichi-hasegawa.md",
+    "id": "059-shuichi-hasegawa",
+    "name": "Shuichi Hasegawa",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "060-moonjoo-lee.md",
+    "id": "060-moonjoo-lee",
+    "name": "Moonjoo Lee",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "061-taeyoung-choi.md",
+    "id": "061-taeyoung-choi",
+    "name": "Taeyoung Choi",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "062-dan-cho.md",
+    "id": "062-dan-cho",
+    "name": "Dan Cho",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "063-taehyun-kim.md",
+    "id": "063-taehyun-kim",
+    "name": "Taehyun Kim",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "064-junki-kim.md",
+    "id": "064-junki-kim",
+    "name": "Junki Kim",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "065-luyan-sun.md",
+    "id": "065-luyan-sun",
+    "name": "Luyan Sun",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "066-wenhui-li.md",
+    "id": "066-wenhui-li",
+    "name": "Wenhui Li",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "067-mirko-lobino.md",
+    "id": "067-mirko-lobino",
+    "name": "Mirko Lobino",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "068-paul-barclay.md",
+    "id": "068-paul-barclay",
+    "name": "Paul Barclay",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "069-sadiq-rangwala.md",
+    "id": "069-sadiq-rangwala",
+    "name": "S. A. Rangwala",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "070-markus-hennrich.md",
+    "id": "070-markus-hennrich",
+    "name": "Markus Hennrich",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "071-matthias-keller.md",
+    "id": "071-matthias-keller",
+    "name": "Matthias Keller",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "072-brian-mcmahon.md",
+    "id": "072-brian-mcmahon",
+    "name": "Brian McMahon",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "073-david-hume.md",
+    "id": "073-david-hume",
+    "name": "David Hume",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "074-piet-schmidt.md",
+    "id": "074-piet-schmidt",
+    "name": "Piet O. Schmidt",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "075-boris-blinov.md",
+    "id": "075-boris-blinov",
+    "name": "Boris B. Blinov",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "076-tilman-esslinger.md",
+    "id": "076-tilman-esslinger",
+    "name": "Tilman Esslinger",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "077-ben-lanyon.md",
+    "id": "077-ben-lanyon",
+    "name": "Ben P. Lanyon",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "078-yuval-shagam.md",
+    "id": "078-yuval-shagam",
+    "name": "Yuval Shagam",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "file": "079-daniel-rodriguez.md",
+    "id": "079-daniel-rodriguez",
+    "name": "Daniel Rodr\u00edguez Rubiales",
+    "errors": [],
+    "warnings": []
+  }
+]

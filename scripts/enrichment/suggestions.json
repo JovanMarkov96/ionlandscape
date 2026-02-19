@@ -1,0 +1,58 @@
+[
+    {
+        "profile_id": "068-paul-barclay",
+        "suggested_fields": {
+            "links.orcid": "https://orcid.org/0000-0002-3642-1279"
+        },
+        "confidence": "confirmed",
+        "notes": "ORCID confirmed from applykite.com/UCalgary profile."
+    },
+    {
+        "profile_id": "073-david-hume",
+        "suggested_fields": {
+            "links.orcid": "https://orcid.org/0000-0001-7797-2033"
+        },
+        "confidence": "confirmed",
+        "notes": "ORCID confirmed from NIST profile."
+    },
+    {
+        "profile_id": "018-michael-drewsen",
+        "suggested_fields": {
+            "links.group_page": "https://phys.au.dk/en/research/research-areas/amo/drewsen-lab"
+        },
+        "confidence": "confirmed",
+        "notes": "Aarhus Drewsen Lab group page."
+    },
+    {
+        "profile_id": "005-christian-roos",
+        "suggested_fields": {
+            "links.group_page": "https://www.uibk.ac.at/exphys/qos/people/roos/"
+        },
+        "confidence": "confirmed",
+        "notes": "Innsbruck QOS Roos subpage."
+    },
+    {
+        "profile_id": "003-chris-ballance",
+        "suggested_fields": {
+            "links.group_page": "https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group"
+        },
+        "confidence": "confirmed",
+        "notes": "Oxford Ion Trap QC group page (Ballance is part of Lucas group at Oxford)."
+    },
+    {
+        "profile_id": "010-jungsang-kim",
+        "suggested_fields": {
+            "links.group_page": "https://mist.pratt.duke.edu/"
+        },
+        "confidence": "confirmed",
+        "notes": "Duke MIST group page confirmed."
+    },
+    {
+        "profile_id": "048-hermann-uys",
+        "suggested_fields": {
+            "links.group_page": "https://www.csir.co.za/quantum-optics"
+        },
+        "confidence": "probable",
+        "notes": "CSIR Quantum Optics page."
+    }
+]

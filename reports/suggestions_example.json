@@ -1,0 +1,129 @@
+{
+    "generated_at": "2026-02-17T18:00:00",
+    "total_profiles_scanned": 79,
+    "profiles_needing_enrichment": 65,
+    "llm_mode": "example",
+    "suggestions": [
+        {
+            "profile_id": "060-moonjoo-lee",
+            "name": "Moonjoo Lee",
+            "institution": "Seoul National University",
+            "missing_fields": [
+                "orcid",
+                "google_scholar",
+                "phd_advisor",
+                "thesis_title",
+                "thesis_link",
+                "research_focus"
+            ],
+            "prompt_generated_at": "2026-02-17T18:00:00",
+            "suggestions": {
+                "orcid": {
+                    "value": null,
+                    "confidence": "not_found",
+                    "source": "Searched ORCID public API by name + institution",
+                    "note": "No matching ORCID record found for 'Moonjoo Lee' at Seoul National University"
+                },
+                "google_scholar": {
+                    "value": "https://scholar.google.com/citations?user=EXAMPLE_ID",
+                    "confidence": "confirmed",
+                    "source": "https://scholar.google.com/citations?user=EXAMPLE_ID",
+                    "note": "Verified by checking publication list matches known ion-trapping work"
+                },
+                "phd_advisor": {
+                    "value": null,
+                    "confidence": "not_found",
+                    "source": "Checked university thesis repository and AcademicTree",
+                    "note": "No thesis record found; university repository may not be publicly indexed"
+                },
+                "thesis_title": {
+                    "value": null,
+                    "confidence": "not_found",
+                    "source": "ProQuest / institutional repository search",
+                    "note": "Thesis information requires verification from institutional sources"
+                },
+                "thesis_link": {
+                    "value": null,
+                    "confidence": "not_found",
+                    "source": "ProQuest / institutional repository search",
+                    "note": "No accessible thesis PDF found"
+                },
+                "research_focus": {
+                    "value": [
+                        "quantum_computing"
+                    ],
+                    "confidence": "confirmed",
+                    "source": "https://example.com/group-page",
+                    "note": "Group page describes research focus as quantum computing with trapped ions"
+                }
+            }
+        },
+        {
+            "profile_id": "042-kenneth-brown",
+            "name": "Kenneth Brown",
+            "institution": "Duke University",
+            "missing_fields": [
+                "orcid",
+                "google_scholar",
+                "phd_advisor",
+                "thesis_title",
+                "thesis_link",
+                "research_focus",
+                "postdocs"
+            ],
+            "prompt_generated_at": "2026-02-17T18:00:01",
+            "suggestions": {
+                "orcid": {
+                    "value": "https://orcid.org/0000-0002-0000-0000",
+                    "confidence": "confirmed",
+                    "source": "https://orcid.org/0000-0002-0000-0000",
+                    "note": "ORCID record matches Duke University affiliation and publication list"
+                },
+                "google_scholar": {
+                    "value": "https://scholar.google.com/citations?user=EXAMPLE_ID2",
+                    "confidence": "confirmed",
+                    "source": "https://scholar.google.com/citations?user=EXAMPLE_ID2",
+                    "note": "Top publications match known trapped-ion QEC work"
+                },
+                "phd_advisor": {
+                    "value": "Example Advisor Name",
+                    "confidence": "academictree_only",
+                    "source": "https://academictree.org/physics/tree.php?pid=EXAMPLE",
+                    "note": "Found on AcademicTree only; should be confirmed from thesis or faculty page"
+                },
+                "thesis_title": {
+                    "value": "Example Thesis Title on Quantum Error Correction",
+                    "confidence": "confirmed",
+                    "source": "https://example-university.edu/thesis/12345",
+                    "note": "Found in university thesis repository"
+                },
+                "thesis_link": {
+                    "value": "https://example-university.edu/thesis/12345.pdf",
+                    "confidence": "confirmed",
+                    "source": "https://example-university.edu/thesis/12345",
+                    "note": "Direct PDF link verified"
+                },
+                "research_focus": {
+                    "value": [
+                        "quantum_computing"
+                    ],
+                    "confidence": "confirmed",
+                    "source": "https://brown.pratt.duke.edu/",
+                    "note": "Group website clearly states quantum computing focus"
+                },
+                "postdocs": {
+                    "value": [
+                        {
+                            "institution": "Example University",
+                            "advisor": "Example PI",
+                            "year": 2010
+                        }
+                    ],
+                    "confidence": "confirmed",
+                    "source": "https://example.com/cv",
+                    "note": "Found on researcher's public CV"
+                }
+            }
+        }
+    ]
+}
