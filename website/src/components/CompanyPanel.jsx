@@ -204,6 +204,18 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                             <div className="trajectory-title">{round.round} — {(round.amount_usd / 1000000).toFixed(1)}M</div>
                             <div className="trajectory-details">
                                 {round.date} • Lead: {round.lead_investors?.join(", ")}
+                                {round.other_investors?.length > 0 && (
+                                    <div style={{ marginTop: '4px' }}>
+                                        <details style={{ cursor: 'pointer', color: '#666', fontSize: '0.9em' }}>
+                                            <summary style={{ outline: 'none' }}>
+                                                + {round.other_investors.length} other investors
+                                            </summary>
+                                            <div style={{ paddingLeft: '10px', marginTop: '2px', lineHeight: '1.4' }}>
+                                                {round.other_investors.join(", ")}
+                                            </div>
+                                        </details>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     ))}

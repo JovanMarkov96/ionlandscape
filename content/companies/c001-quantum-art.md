@@ -61,8 +61,8 @@ funding:
     - round: "Series A"
       amount_usd: 100000000
       date: "2025-12-10"
-      lead_investors: ["Bedford Ridge Capital"]
-      other_investors: ["Battery Ventures", "Amiti Ventures", "Vertex Ventures"]
+      lead_investors: ["Bedford Ridge Capital", "Battery Ventures"]
+      other_investors: ["Amiti Ventures", "Destra Investments", "Lumir Growth Partners", "Disruptive AI", "Harel Insurance", "Karen W. Davidson", "GTV", "Yasmin Lukatz", "Corner Capital", "Qbeat Ventures", "StageOne Ventures", "Vertex Ventures", "Entrée Capital", "Weizmann Institute of Science"]
 
 milestones: []
 
