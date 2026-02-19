@@ -415,13 +415,30 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
                 ? `${props.city}, ${props.country}`
                 : null;
 
-            const popup = new maplibregl.Popup({ offset: 25, maxWidth: '300px' })
+            const popup = new maplibregl.Popup({ offset: 35, maxWidth: '300px' })
                 .setHTML(createPopupHTML(group, locationLabel));
 
             // Create custom marker element
             const el = document.createElement('div');
-            el.className = 'ion-marker';
-            el.style.backgroundColor = markerColor;
+
+            // Check for logo (Quantum Art or other companies)
+            const logoFeature = group.find(f => f.properties?.logo_path);
+
+            if (logoFeature && logoFeature.properties.logo_path) {
+                // Logo Marker
+                el.className = 'ion-marker-logo';
+                // Ensure correct path (prepend /ionlandscape if needed, or if path is absolute/relative correctly)
+                // Assuming logo_path starts with /, e.g. /img/logos/quantum-art.png
+                // Locally or on prod, might need prefix. logic in popup used /ionlandscape prefix.
+                // Let's use CSS background-image.
+                const src = `/ionlandscape${logoFeature.properties.logo_path}`;
+                el.style.backgroundImage = `url('${src}')`;
+                // Add fallback error handling? Hard with bg image.
+            } else {
+                // Teardrop Pin Marker
+                el.className = 'ion-marker-pin';
+                el.style.backgroundColor = markerColor;
+            }
 
             const marker = new maplibregl.Marker({ element: el })
                 .setLngLat([lon, lat])
