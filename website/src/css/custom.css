@@ -163,9 +163,49 @@ body,
 }
 
 /* ===== Compact Footer ===== */
+/* ===== Compact Footer (Glass Overlay) ===== */
 .footer {
-  display: none;
-  /* Hide footer to maximize map */
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+
+  /* Glass Effect */
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px) saturate(1.8);
+  -webkit-backdrop-filter: blur(20px) saturate(1.8);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 16px !important;
+
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+[data-theme='dark'] .footer {
+  background: rgba(20, 20, 35, 0.85);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .footer__copyright {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+  letter-spacing: -0.01em;
+  opacity: 0.8;
+}
+
+/* Adjust Map Controls to clear the Footer */
+.maplibregl-ctrl-bottom-right,
+.maplibregl-ctrl-bottom-left {
+  bottom: 60px !important;
+  /* Push up above footer */
+}
+
+.map-filters-container {
+  bottom: 90px !important;
+  /* Push higher to be safe */
 }
 
 .ion-landscape-map {
