@@ -230,6 +230,15 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
     const [people, setPeople] = React.useState([]);
     const [companies, setCompanies] = React.useState([]);
     const [filters, setFilters] = React.useState({ people: true, companies: true });
+    // Collapsible Filters State
+    const [showFilters, setShowFilters] = React.useState(false);
+
+    useEffect(() => {
+        // Expand by default on desktop
+        if (typeof window !== 'undefined' && window.innerWidth > 768) {
+            setShowFilters(true);
+        }
+    }, []);
 
     // Docusaurus color mode
     const { colorMode } = useColorMode();
@@ -458,38 +467,60 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
             />
             {/* Filter Controls - Liquid Glass Vertical */}
             <div className="map-filters-container">
-                <div
-                    className="map-filter-btn"
-                    onClick={() => setFilters(prev => ({ ...prev, people: !prev.people }))}
-                    style={{
-                        background: filters.people ? (isDark ? 'rgba(79, 70, 229, 0.3)' : 'rgba(79, 70, 229, 0.15)') : 'transparent',
-                        border: filters.people ? (isDark ? '1px solid rgba(79, 70, 229, 0.4)' : '1px solid rgba(79, 70, 229, 0.2)') : '1px solid transparent',
-                    }}
-                    title="Toggle People"
-                >
-                    <svg viewBox="0 0 24 24" width="22" height="22" style={{ marginRight: '8px', fill: filters.people ? '#6366f1' : (isDark ? '#888' : '#999'), transition: 'fill 0.2s' }}>
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                    </svg>
-                    <span style={{ fontSize: '0.9em', color: filters.people ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.people ? 600 : 500 }}>People</span>
-                </div>
+                {!showFilters ? (
+                    <div
+                        className="map-filter-btn"
+                        onClick={() => setShowFilters(true)}
+                        style={{ background: isDark ? 'rgba(30, 30, 50, 0.8)' : 'rgba(255, 255, 255, 0.8)', justifyContent: 'center' }}
+                        title="Show Filters"
+                    >
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z" />
+                        </svg>
+                    </div>
+                ) : (
+                    <>
+                        <div
+                            className="map-filter-btn mobile-only-close"
+                            onClick={() => setShowFilters(false)}
+                            style={{
+                                display: (typeof window !== 'undefined' && window.innerWidth <= 768) ? 'flex' : 'none',
+                                justifyContent: 'center', background: 'rgba(200, 50, 50, 0.1)', border: '1px solid rgba(200, 50, 50, 0.2)'
+                            }}
+                        >
+                            <span style={{ fontSize: '12px', fontWeight: 'bold', color: 'red' }}>✕</span>
+                        </div>
+                        <div
+                            className="map-filter-btn"
+                            onClick={() => setFilters(prev => ({ ...prev, people: !prev.people }))}
+                            style={{
+                                background: filters.people ? (isDark ? 'rgba(79, 70, 229, 0.3)' : 'rgba(79, 70, 229, 0.15)') : 'transparent',
+                                border: filters.people ? (isDark ? '1px solid rgba(79, 70, 229, 0.4)' : '1px solid rgba(79, 70, 229, 0.2)') : '1px solid transparent',
+                            }}
+                            title="Toggle People"
+                        >
+                            <svg viewBox="0 0 24 24" width="22" height="22" style={{ marginRight: '8px', fill: filters.people ? '#6366f1' : (isDark ? '#888' : '#999'), transition: 'fill 0.2s' }}>
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>
+                            <span style={{ fontSize: '0.9em', color: filters.people ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.people ? 600 : 500 }}>People</span>
+                        </div>
 
-                <div
-                    className="map-filter-btn"
-                    onClick={() => setFilters(prev => ({ ...prev, companies: !prev.companies }))}
-                    style={{
-                        background: filters.companies ? (isDark ? 'rgba(230, 81, 0, 0.3)' : 'rgba(230, 81, 0, 0.15)') : 'transparent',
-                        border: filters.companies ? (isDark ? '1px solid rgba(230, 81, 0, 0.4)' : '1px solid rgba(230, 81, 0, 0.2)') : '1px solid transparent',
-                    }}
-                    title="Toggle Companies"
-                >
-                    <svg viewBox="0 0 24 24" width="22" height="22" style={{ marginRight: '8px', fill: filters.companies ? '#f97316' : (isDark ? '#888' : '#999'), transition: 'fill 0.2s' }}>
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
-                    </svg>
-                    <span style={{ fontSize: '0.9em', color: filters.companies ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.companies ? 600 : 500 }}>Companies</span>
-                </div>
+                        <div
+                            className="map-filter-btn"
+                            onClick={() => setFilters(prev => ({ ...prev, companies: !prev.companies }))}
+                            style={{
+                                background: filters.companies ? (isDark ? 'rgba(230, 81, 0, 0.3)' : 'rgba(230, 81, 0, 0.15)') : 'transparent',
+                                border: filters.companies ? (isDark ? '1px solid rgba(230, 81, 0, 0.4)' : '1px solid rgba(230, 81, 0, 0.2)') : '1px solid transparent',
+                            }}
+                            title="Toggle Companies"
+                        >
+                            <svg viewBox="0 0 24 24" width="22" height="22" style={{ marginRight: '8px', fill: filters.companies ? '#f97316' : (isDark ? '#888' : '#999'), transition: 'fill 0.2s' }}>
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>
+                            <span style={{ fontSize: '0.9em', color: filters.companies ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.companies ? 600 : 500 }}>Companies</span>
+                        </div>
+                    </>
+                )}
             </div>
-        </div>
-    );
-}
 
-export default MapPanel;
+            export default MapPanel;
