@@ -112,8 +112,8 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                 <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                     {company.media?.logo_path && (
                         <div style={{
-                            width: '60px',
-                            height: '60px',
+                            width: '80px', /* Increased from 60px */
+                            height: '80px',
                             borderRadius: '50%',
                             backgroundColor: 'white',
                             border: '1px solid #ddd',
@@ -121,16 +121,18 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                             alignItems: 'center',
                             justifyContent: 'center',
                             overflow: 'hidden',
-                            flexShrink: 0
+                            flexShrink: 0,
+                            boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
                         }}>
                             <img
-                                src={`/ionlandscape${company.media.logo_path}`}
+                                src={company.media.logo_path.startsWith('http') ? company.media.logo_path : `/ionlandscape${company.media.logo_path}`}
                                 alt={`${company.name} logo`}
-                                style={{ maxWidth: '80%', maxHeight: '80%', objectFit: 'contain' }}
+                                style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '8px' }}
                                 onError={(e) => {
-                                    // fallback if /ionlandscape prefix not needed (dev mode)
-                                    e.target.src = company.media.logo_path;
-                                    e.target.onerror = null; // prevent loop
+                                    // Try without prefix if failed
+                                    if (e.target.src.includes('/ionlandscape')) {
+                                        e.target.src = company.media.logo_path;
+                                    }
                                 }}
                             />
                         </div>

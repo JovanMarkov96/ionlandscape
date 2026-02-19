@@ -299,16 +299,17 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
 
                 logoHtml = `
                 <div style="
-                    width: 24px; height: 24px;
+                    width: 40px; height: 40px;
                     border-radius: 50%;
                     background-color: white;
-                    border: 1px solid #666;
+                    border: 1px solid #ccc;
                     display: flex; align-items: center; justify-content: center;
                     overflow: hidden;
-                    margin-right: 8px;
+                    margin-right: 10px;
                     flex-shrink: 0;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
                 ">
-                    <img src="${src}" onerror="this.src='${fallback}'" style="max-width: 80%; max-height: 80%; object-fit: contain;" />
+                    <img src="${src}" onerror="this.src='${fallback}'" style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
                 </div>`;
             }
 
