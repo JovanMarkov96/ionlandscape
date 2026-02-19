@@ -42,20 +42,53 @@ body,
 }
 
 /* ===== Navbar Polish ===== */
+/* ===== Navbar Polish ===== */
 .navbar {
-  backdrop-filter: blur(12px) saturate(1.8);
-  -webkit-backdrop-filter: blur(12px) saturate(1.8);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(16px) saturate(1.8);
+  -webkit-backdrop-filter: blur(16px) saturate(1.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 [data-theme='dark'] .navbar {
-  background: rgba(18, 18, 30, 0.85);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+  background: rgba(10, 10, 20, 0.85);
+  /* Deeper dark */
+  border-bottom: 1px solid transparent;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  /* Premium Gradient Border at bottom */
+  background-image: linear-gradient(rgba(10, 10, 20, 0.85), rgba(10, 10, 20, 0.85)),
+    linear-gradient(90deg, transparent, rgba(79, 70, 229, 0.5), rgba(236, 72, 153, 0.5), transparent);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
 }
 
 [data-theme='light'] .navbar {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Map Filter Button Styles for Animation */
+.map-filter-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 12px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.map-filter-btn:hover {
+  transform: translateY(-2px) scale(1.02);
+  filter: brightness(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.map-filter-btn:active {
+  transform: translateY(0) scale(0.98);
 }
 
 /* Force dark text in light mode for all navbar elements */
