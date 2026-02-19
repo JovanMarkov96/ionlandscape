@@ -432,41 +432,73 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
                 style={{ height: '100%', width: '100%' }}
             />
             {/* Filter Controls */}
+            {/* Filter Controls */}
             <div style={{
                 position: 'absolute',
-                top: '10px',
-                left: '10px',
-                background: isDark ? '#1a1a2e' : 'white',
-                padding: '12px',
-                borderRadius: '8px',
-                boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+                top: '20px',
+                left: '20px',
+                background: isDark ? 'rgba(30, 30, 50, 0.75)' : 'rgba(255, 255, 255, 0.75)',
+                backdropFilter: 'blur(12px) saturate(1.8)',
+                WebkitBackdropFilter: 'blur(12px) saturate(1.8)',
+                padding: '16px',
+                borderRadius: '16px',
+                boxShadow: isDark ? '0 8px 32px rgba(0,0,0,0.4)' : '0 8px 32px rgba(0,0,0,0.1)',
+                border: isDark ? '1px solid rgba(255, 255, 255, 0.1)' : '1px solid rgba(255, 255, 255, 0.4)',
                 zIndex: 1,
                 fontSize: '0.9em',
-                minWidth: 'auto',
+                minWidth: '140px',
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '8px'
+                gap: '12px',
+                transition: 'all 0.3s ease'
             }}>
+                <div style={{
+                    fontSize: '0.7em',
+                    fontWeight: 800,
+                    letterSpacing: '0.1em',
+                    textTransform: 'uppercase',
+                    color: isDark ? 'rgba(255,255,255,0.5)' : 'rgba(0,0,0,0.4)',
+                    marginBottom: '4px'
+                }}>
+                    Filters
+                </div>
+
                 <div
                     onClick={() => setFilters(prev => ({ ...prev, people: !prev.people }))}
-                    style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', margin: 0 }}
+                    style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        cursor: 'pointer',
+                        padding: '6px 8px',
+                        borderRadius: '8px',
+                        background: filters.people ? (isDark ? 'rgba(79, 70, 229, 0.2)' : 'rgba(79, 70, 229, 0.1)') : 'transparent',
+                        transition: 'all 0.2s',
+                    }}
                     title="Toggle People"
                 >
-                    <svg viewBox="0 0 24 24" width="24" height="24" style={{ marginRight: '8px', fill: filters.people ? '#4f46e5' : '#ccc', transition: 'fill 0.2s' }}>
+                    <svg viewBox="0 0 24 24" width="20" height="20" style={{ marginRight: '10px', fill: filters.people ? '#4f46e5' : (isDark ? '#666' : '#999'), transition: 'fill 0.2s' }}>
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
-                    <span style={{ color: filters.people ? (isDark ? '#e0e0e0' : '#333') : '#888', fontWeight: filters.people ? 'bold' : 'normal' }}>People</span>
+                    <span style={{ color: filters.people ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.people ? 600 : 400 }}>People</span>
                 </div>
 
                 <div
                     onClick={() => setFilters(prev => ({ ...prev, companies: !prev.companies }))}
-                    style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', margin: 0 }}
+                    style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        cursor: 'pointer',
+                        padding: '6px 8px',
+                        borderRadius: '8px',
+                        background: filters.companies ? (isDark ? 'rgba(230, 81, 0, 0.2)' : 'rgba(230, 81, 0, 0.1)') : 'transparent',
+                        transition: 'all 0.2s',
+                    }}
                     title="Toggle Companies"
                 >
-                    <svg viewBox="0 0 24 24" width="24" height="24" style={{ marginRight: '8px', fill: filters.companies ? '#e65100' : '#ccc', transition: 'fill 0.2s' }}>
+                    <svg viewBox="0 0 24 24" width="20" height="20" style={{ marginRight: '10px', fill: filters.companies ? '#e65100' : (isDark ? '#666' : '#999'), transition: 'fill 0.2s' }}>
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
-                    <span style={{ color: filters.companies ? (isDark ? '#e0e0e0' : '#333') : '#888', fontWeight: filters.companies ? 'bold' : 'normal' }}>Companies</span>
+                    <span style={{ color: filters.companies ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.companies ? 600 : 400 }}>Companies</span>
                 </div>
             </div>
         </div>
