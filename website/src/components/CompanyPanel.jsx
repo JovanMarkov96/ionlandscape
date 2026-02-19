@@ -231,10 +231,25 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             {/* Links */}
             <div className="panel-divider" />
             <h4 className="section-header">Links</h4>
-            <div className="links-list">
-                {company.links?.website && <a href={company.links.website} target="_blank" rel="noopener noreferrer" className="panel-link">🌐 Website</a>}
-                {company.links?.news && <a href={company.links.news} target="_blank" rel="noopener noreferrer" className="panel-link">📰 News</a>}
-                {company.links?.careers && <a href={company.links.careers} target="_blank" rel="noopener noreferrer" className="panel-link">💼 Careers</a>}
+            <div className="links-list" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                {company.links?.website && (
+                    <a href={company.links.website} target="_blank" rel="noopener noreferrer" className="badge badge--secondary" style={{ display: 'flex', alignItems: 'center', gap: '5px', padding: '8px 12px', borderRadius: '20px', textDecoration: 'none' }}>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" /></svg>
+                        Website
+                    </a>
+                )}
+                {company.links?.news && (
+                    <a href={company.links.news} target="_blank" rel="noopener noreferrer" className="badge badge--secondary" style={{ display: 'flex', alignItems: 'center', gap: '5px', padding: '8px 12px', borderRadius: '20px', textDecoration: 'none' }}>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M22 3c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V3zm-2.5 12.5h-10v-1h10v1zm0-3.5h-10v-1h10v1zm0-3.5h-10v-1h10v1zM6 15.5h2v-7H6v7z" /></svg>
+                        News
+                    </a>
+                )}
+                {company.links?.careers && (
+                    <a href={company.links.careers} target="_blank" rel="noopener noreferrer" className="badge badge--secondary" style={{ display: 'flex', alignItems: 'center', gap: '5px', padding: '8px 12px', borderRadius: '20px', textDecoration: 'none' }}>
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" /></svg>
+                        Careers
+                    </a>
+                )}
             </div>
 
             {/* Sources */}
