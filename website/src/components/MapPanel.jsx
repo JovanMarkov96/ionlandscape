@@ -431,8 +431,6 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
                 ref={mapContainerRef}
                 style={{ height: '100%', width: '100%' }}
             />
-            {/* Filter Controls */}
-            {/* Filter Controls - Horizontal Pill */}
             {/* Filter Controls - Liquid Glass Vertical */}
             <div style={{
                 position: 'absolute',
