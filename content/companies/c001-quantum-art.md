@@ -3,6 +3,8 @@ id: c001-quantum-art
 name: Quantum Art
 sort_name: Quantum Art
 entity_type: "company"
+media:
+  logo_path: "/img/companies/quantum-art.png"
 
 location:
   city: Ness Ziona
