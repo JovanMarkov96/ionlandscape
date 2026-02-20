@@ -8,6 +8,13 @@ import Link from '@docusaurus/Link';
  * 
  * Displays detailed information about a selected company.
  * Fetched from `companies.json`.
+ * 
+ * @param {Object} props
+ * @param {string} props.companyId - ID or md_filename of the company to display
+ * @param {Object} props.location - Location selected object
+ * @param {Function} props.onCompanySelect - Callback to select another company
+ * @param {Function} props.onPersonSelect - Callback to select a person
+ * @param {Function} props.onClose - Callback to close the panel
  */
 function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, onClose }) {
     const [companies, setCompanies] = useState([]);
@@ -111,23 +118,10 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             <div className="person-panel-header">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                     {company.media?.logo_path && (
-                        <div style={{
-                            width: '80px', /* Increased from 60px */
-                            height: '80px',
-                            borderRadius: '50%',
-                            backgroundColor: 'white',
-                            border: '1px solid #ddd',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            overflow: 'hidden',
-                            flexShrink: 0,
-                            boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
-                        }}>
+                        <div className="panel-logo-container">
                             <img
                                 src={company.media.logo_path.startsWith('http') ? company.media.logo_path : `/ionlandscape${company.media.logo_path}`}
                                 alt={`${company.name} logo`}
-                                style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '8px' }}
                                 onError={(e) => {
                                     // Try without prefix if failed
                                     if (e.target.src.includes('/ionlandscape')) {
@@ -247,19 +241,19 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             <h4 className="section-header">Links</h4>
             <div className="links-list" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
                 {company.links?.website && (
-                    <a href={company.links.website} target="_blank" rel="noopener noreferrer" className="badge badge--secondary" style={{ display: 'flex', alignItems: 'center', gap: '5px', padding: '8px 12px', borderRadius: '20px', textDecoration: 'none' }}>
+                    <a href={company.links.website} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" /></svg>
                         Website
                     </a>
                 )}
                 {company.links?.news && (
-                    <a href={company.links.news} target="_blank" rel="noopener noreferrer" className="badge badge--secondary" style={{ display: 'flex', alignItems: 'center', gap: '5px', padding: '8px 12px', borderRadius: '20px', textDecoration: 'none' }}>
+                    <a href={company.links.news} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M22 3c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V3zm-2.5 12.5h-10v-1h10v1zm0-3.5h-10v-1h10v1zm0-3.5h-10v-1h10v1zM6 15.5h2v-7H6v7z" /></svg>
                         News
                     </a>
                 )}
                 {company.links?.careers && (
-                    <a href={company.links.careers} target="_blank" rel="noopener noreferrer" className="badge badge--secondary" style={{ display: 'flex', alignItems: 'center', gap: '5px', padding: '8px 12px', borderRadius: '20px', textDecoration: 'none' }}>
+                    <a href={company.links.careers} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" /></svg>
                         Careers
                     </a>

@@ -2,7 +2,11 @@ import React, { useState, useEffect } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Layout from '@theme/Layout';
 
-
+/**
+ * Private inner component that handles map state and side panels 
+ * when the map view is active. Note that this component relies
+ * on browser APIs like window and URLSearchParams.
+ */
 function HomeContent() {
     const [selectedPersonId, setSelectedPersonId] = useState(null);
     const [selectedCompanyId, setSelectedCompanyId] = useState(null);

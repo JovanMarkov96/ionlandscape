@@ -1513,3 +1513,161 @@ html:has(.groups-page),
 .clickable-badge:hover {
   transform: translateY(-1px);
 }
+
+/* ===== New Utility Classes for UI Cleanup ===== */
+.panel-logo-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.panel-logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+}
+
+.popup-logo-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 10px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.popup-logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+}
+
+.link-badge {
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+  padding: 8px 12px !important;
+  border-radius: 20px !important;
+  text-decoration: none !important;
+}
+
+.link-badge:hover {
+  filter: brightness(0.95);
+}
+
+[data-theme='dark'] .link-badge:hover {
+  filter: brightness(1.1);
+}
+
+/* Map Filter Toggle Enhancements */
+.filter-btn-people {
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.filter-btn-people[data-active="true"] {
+  background: rgba(79, 70, 229, 0.15);
+  border: 1px solid rgba(79, 70, 229, 0.2);
+}
+
+[data-theme='dark'] .filter-btn-people[data-active="true"] {
+  background: rgba(79, 70, 229, 0.3);
+  border: 1px solid rgba(79, 70, 229, 0.4);
+}
+
+.filter-btn-people svg {
+  margin-right: 8px;
+  fill: #999;
+  transition: fill 0.2s;
+}
+
+[data-theme='dark'] .filter-btn-people svg {
+  fill: #888;
+}
+
+.filter-btn-people[data-active="true"] svg {
+  fill: #6366f1;
+}
+
+.filter-btn-people span {
+  font-size: 0.9em;
+  color: #666;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .filter-btn-people span {
+  color: #888;
+}
+
+.filter-btn-people[data-active="true"] span {
+  color: #000;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .filter-btn-people[data-active="true"] span {
+  color: #fff;
+}
+
+.filter-btn-companies {
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.filter-btn-companies[data-active="true"] {
+  background: rgba(230, 81, 0, 0.15);
+  border: 1px solid rgba(230, 81, 0, 0.2);
+}
+
+[data-theme='dark'] .filter-btn-companies[data-active="true"] {
+  background: rgba(230, 81, 0, 0.3);
+  border: 1px solid rgba(230, 81, 0, 0.4);
+}
+
+.filter-btn-companies svg {
+  margin-right: 8px;
+  fill: #999;
+  transition: fill 0.2s;
+}
+
+[data-theme='dark'] .filter-btn-companies svg {
+  fill: #888;
+}
+
+.filter-btn-companies[data-active="true"] svg {
+  fill: #f97316;
+}
+
+.filter-btn-companies span {
+  font-size: 0.9em;
+  color: #666;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .filter-btn-companies span {
+  color: #888;
+}
+
+.filter-btn-companies[data-active="true"] span {
+  color: #000;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .filter-btn-companies[data-active="true"] span {
+  color: #fff;
+}

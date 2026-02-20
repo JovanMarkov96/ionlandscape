@@ -222,6 +222,10 @@ function groupByCoordinate(features) {
  * - Serbia boundary overlay (Kosovo as Serbia)
  * - Interactive markers and popups
  * - Dark/light mode support
+ * 
+ * @param {Object} props
+ * @param {Function} props.onPersonSelect - Callback for when a person is clicked from map marker popup
+ * @param {Function} props.onCompanySelect - Callback for when a company is clicked from map marker popup 
  */
 function MapPanel({ onPersonSelect, onCompanySelect }) {
     const mapContainerRef = useRef(null);
@@ -312,18 +316,8 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
                     : `/ionlandscape${src}`;
 
                 logoHtml = `
-                <div style="
-                    width: 40px; height: 40px;
-                    border-radius: 50%;
-                    background-color: white; /* Try white, if logo is white, this is bad. But usually logos are colored/black. */
-                    border: 1px solid #ccc;
-                    display: flex; align-items: center; justify-content: center;
-                    overflow: hidden;
-                    margin-right: 10px;
-                    flex-shrink: 0;
-                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                ">
-                    <img src="${safeSrc}" onerror="this.onerror=null; this.src='${src}'; /* Try without prefix as backup */" style="width: 100%; height: 100%; object-fit: contain; padding: 4px;" />
+                <div class="popup-logo-container">
+                    <img src="${safeSrc}" onerror="this.onerror=null; this.src='${src}';" />
                 </div>`;
             }
 
@@ -473,33 +467,27 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
             {/* Filter Controls - Liquid Glass Vertical */}
             <div className="map-filters-container">
                 <div
-                    className="map-filter-btn"
+                    className="map-filter-btn filter-btn-people"
                     onClick={() => setFilters(prev => ({ ...prev, people: !prev.people }))}
-                    style={{
-                        background: filters.people ? (isDark ? 'rgba(79, 70, 229, 0.3)' : 'rgba(79, 70, 229, 0.15)') : 'transparent',
-                        border: filters.people ? (isDark ? '1px solid rgba(79, 70, 229, 0.4)' : '1px solid rgba(79, 70, 229, 0.2)') : '1px solid transparent',
-                    }}
+                    data-active={filters.people}
                     title="Toggle People"
                 >
-                    <svg viewBox="0 0 24 24" width="22" height="22" style={{ marginRight: '8px', fill: filters.people ? '#6366f1' : (isDark ? '#888' : '#999'), transition: 'fill 0.2s' }}>
+                    <svg viewBox="0 0 24 24" width="22" height="22">
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
-                    <span style={{ fontSize: '0.9em', color: filters.people ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.people ? 600 : 500 }}>People</span>
+                    <span>People</span>
                 </div>
 
                 <div
-                    className="map-filter-btn"
+                    className="map-filter-btn filter-btn-companies"
                     onClick={() => setFilters(prev => ({ ...prev, companies: !prev.companies }))}
-                    style={{
-                        background: filters.companies ? (isDark ? 'rgba(230, 81, 0, 0.3)' : 'rgba(230, 81, 0, 0.15)') : 'transparent',
-                        border: filters.companies ? (isDark ? '1px solid rgba(230, 81, 0, 0.4)' : '1px solid rgba(230, 81, 0, 0.2)') : '1px solid transparent',
-                    }}
+                    data-active={filters.companies}
                     title="Toggle Companies"
                 >
-                    <svg viewBox="0 0 24 24" width="22" height="22" style={{ marginRight: '8px', fill: filters.companies ? '#f97316' : (isDark ? '#888' : '#999'), transition: 'fill 0.2s' }}>
+                    <svg viewBox="0 0 24 24" width="22" height="22">
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
-                    <span style={{ fontSize: '0.9em', color: filters.companies ? (isDark ? '#fff' : '#000') : (isDark ? '#888' : '#666'), fontWeight: filters.companies ? 600 : 500 }}>Companies</span>
+                    <span>Companies</span>
                 </div>
             </div>
         </div>
