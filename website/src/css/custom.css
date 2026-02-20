@@ -152,7 +152,7 @@ body,
 
 /* ===== Main Layout Container ===== */
 .ion-landscape-container {
-  display: flex;
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -160,7 +160,6 @@ body,
   height: 100vh;
   overflow: hidden;
   z-index: 0;
-  /* Removes dependency on navbar padding which caused gaps */
 }
 
 /* ===== Compact Footer ===== */
@@ -221,31 +220,117 @@ body,
 }
 
 .ion-landscape-map {
-  flex: 1;
+  width: 100%;
   height: 100%;
-  min-width: 0;
 }
 
-/* ===== Matte Liquid Glass Panels ===== */
+/* ===== Welcome Popup ===== */
+.welcome-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3000;
+  width: 90%;
+  max-width: 440px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(30px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 24px;
+  padding: 36px 30px;
+  text-align: center;
+  box-shadow: var(--ion-shadow-lg);
+  color: var(--ifm-color-content);
+  animation: popupFadeIn 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes popupFadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -45%) scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+[data-theme='dark'] .welcome-popup {
+  background: rgba(18, 18, 30, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.welcome-popup h2 {
+  font-size: 1.6em;
+  margin-bottom: 12px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.welcome-popup p {
+  font-size: 1.1em;
+  color: var(--ion-text-muted);
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
+
+.welcome-popup .btn-primary {
+  background: linear-gradient(135deg, var(--ion-accent), var(--ifm-color-primary-light));
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.welcome-popup .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+}
+
+/* ===== Floating Liquid Glass Panels ===== */
 .ion-landscape-panel {
+  position: absolute;
+  top: 90px;
+  right: 20px;
   width: var(--panel-width);
-  height: 100%;
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  max-width: calc(100vw - 40px);
+  height: calc(100vh - 160px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
   overflow-y: auto;
   overflow-x: hidden;
+  z-index: 1000;
 
   /* Light Mode: Matte Liquid Glass */
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.65);
   backdrop-filter: blur(30px) saturate(180%);
   -webkit-backdrop-filter: blur(30px) saturate(180%);
 
   color: var(--ifm-color-content);
   /* Smooth "Spring" Transition */
-  transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s ease;
+  transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1), opacity 0.4s ease, visibility 0.4s;
+
+  /* Hidden state by default */
+  transform: translateX(120%);
+  opacity: 0;
+  visibility: hidden;
 
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
-  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--ion-shadow-lg);
+}
+
+.ion-landscape-panel.panel-open {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
 }
 
 .ion-landscape-panel::-webkit-scrollbar {
@@ -259,9 +344,9 @@ body,
 
 [data-theme='dark'] .ion-landscape-panel {
   /* Dark Mode: Matte Liquid Glass */
-  background: rgba(18, 18, 30, 0.85);
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.5);
+  background: rgba(18, 18, 30, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--ion-shadow-lg);
 }
 
 [data-theme='dark'] .ion-landscape-panel::-webkit-scrollbar-thumb {
@@ -406,7 +491,7 @@ body,
 /* Mobile (600px and below) - Side-by-side to overlay transition */
 @media screen and (max-width: 600px) {
   .ion-landscape-container {
-    flex-direction: column;
+    display: block;
   }
 
   .ion-landscape-map {
@@ -416,19 +501,21 @@ body,
 
   .ion-landscape-panel {
     position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+    top: 80px;
+    /* Below the navbar */
+    right: 10px;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 150px);
+    /* Leave space above the footer */
     z-index: 2000;
     /* Higher than Leaflet controls (1000) */
-    transform: translateX(100%);
-    border-left: none;
-    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(120%) translateX(0);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.3);
   }
 
   .ion-landscape-panel.panel-open {
-    transform: translateX(0);
+    transform: translateY(0) translateX(0);
   }
 
   .mobile-panel-toggle {
@@ -505,8 +592,11 @@ body,
 /* ===== Landscape Orientation on Mobile ===== */
 @media screen and (max-width: 900px) and (orientation: landscape) {
   .ion-landscape-panel {
-    width: 50%;
-    max-width: 400px;
+    width: 45vw;
+    top: 70px;
+    height: calc(100vh - 130px);
+    right: 15px;
+    transform: translateX(120%);
   }
 
   .ion-landscape-panel.panel-open {

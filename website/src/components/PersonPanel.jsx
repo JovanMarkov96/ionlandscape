@@ -146,12 +146,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
 
     // 2. Initial / Empty View
     if (!person) {
-        return (
-            <div className="panel-empty-state">
-                <h3>Ion Landscape</h3>
-                <p>Click a marker on the map to view a person profile.</p>
-            </div>
-        );
+        return null;
     }
 
     // 3. Person Profile View

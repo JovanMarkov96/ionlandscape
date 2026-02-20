@@ -12,6 +12,7 @@ function HomeContent() {
     const [selectedCompanyId, setSelectedCompanyId] = useState(null);
     const [selectedLocation, setSelectedLocation] = useState(null);
     const [isPanelOpen, setIsPanelOpen] = useState(false);
+    const [showWelcome, setShowWelcome] = useState(false);
 
     // These components require browser APIs
     const MapPanel = require('../components/MapPanel').default;
@@ -29,6 +30,11 @@ function HomeContent() {
             // Clean URL without reloading
             const newUrl = window.location.pathname;
             window.history.replaceState({}, '', newUrl);
+        } else {
+            const hasSeenWelcome = localStorage.getItem('hasSeenIonWelcome');
+            if (!hasSeenWelcome) {
+                setShowWelcome(true);
+            }
         }
     }, []);
 
@@ -43,12 +49,22 @@ function HomeContent() {
         setSelectedPersonId(id);
         setSelectedCompanyId(null);
         setIsPanelOpen(true); // Open panel when person selected
+        setShowWelcome(false);
     };
 
     const handleCompanySelect = (id) => {
         setSelectedCompanyId(id);
         setSelectedPersonId(null);
         setIsPanelOpen(true);
+        setShowWelcome(false);
+    };
+
+    const handleLocationSelect = (loc) => {
+        setSelectedLocation(loc);
+        setSelectedPersonId(null);
+        setSelectedCompanyId(null);
+        setIsPanelOpen(true);
+        setShowWelcome(false);
     };
 
     const handleClosePanel = () => {
@@ -59,6 +75,12 @@ function HomeContent() {
         setSelectedPersonId(null);
         setSelectedCompanyId(null);
         setSelectedLocation(null);
+        setIsPanelOpen(false);
+    };
+
+    const handleDismissWelcome = () => {
+        setShowWelcome(false);
+        localStorage.setItem('hasSeenIonWelcome', 'true');
     };
 
     return (
@@ -72,9 +94,19 @@ function HomeContent() {
                     <MapPanel
                         onPersonSelect={handlePersonSelect}
                         onCompanySelect={handleCompanySelect}
-                        onLocationSelect={(loc) => setSelectedLocation(loc)}
+                        onLocationSelect={handleLocationSelect}
                     />
                 </div>
+
+                {showWelcome && !isPanelOpen && (
+                    <div className="welcome-popup">
+                        <button className="close-panel-btn" onClick={handleDismissWelcome} aria-label="Dismiss welcome popup" style={{ top: '16px', right: '16px' }}>✕</button>
+                        <h2>Ion Landscape</h2>
+                        <p>Click a marker on the map to view a personal or company profile.</p>
+                        <button className="btn-primary" onClick={handleDismissWelcome}>Get Started</button>
+                    </div>
+                )}
+
                 <div className={`ion-landscape-panel ${isPanelOpen ? 'panel-open' : ''}`}>
                     <button
                         className="back-to-map-btn"
@@ -101,14 +133,16 @@ function HomeContent() {
                     )}
                 </div>
 
-                {/* Mobile floating button to open panel when no person selected */}
-                <button
-                    className="mobile-panel-toggle"
-                    onClick={() => setIsPanelOpen(!isPanelOpen)}
-                    aria-label={isPanelOpen ? "Close panel" : "Open panel"}
-                >
-                    {isPanelOpen ? '✕' : '☰'}
-                </button>
+                {/* Mobile floating button to reopen panel if a profile is selected */}
+                {(selectedPersonId || selectedCompanyId || selectedLocation) && !isPanelOpen && (
+                    <button
+                        className="mobile-panel-toggle"
+                        onClick={() => setIsPanelOpen(true)}
+                        aria-label="Open profile panel"
+                    >
+                        👤
+                    </button>
+                )}
             </div>
         </Layout>
     );
