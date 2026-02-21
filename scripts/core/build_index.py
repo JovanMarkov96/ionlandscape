@@ -19,6 +19,7 @@ from datetime import datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CONTENT_DIR = os.path.join(ROOT, "content", "people")
 COMPANIES_DIR = os.path.join(ROOT, "content", "companies")
+INSTITUTIONS_DIR = os.path.join(ROOT, "content", "institutions")
 OUT_DIR = os.path.join(ROOT, "website", "static", "data")
 os.makedirs(OUT_DIR, exist_ok=True)
 
@@ -27,8 +28,10 @@ def slugify(name):
 
 people = []
 companies = []
+institutions = []
 features = []
 company_features = []
+institution_features = []
 edges = []  # tuples: (source_id, target_id, type)
 
 for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
@@ -196,6 +199,107 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
     except Exception as e:
         print(f"Error processing company {md_path}: {e}")
 
+# Process Institutions
+for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
+    try:
+        post = frontmatter.load(md_path)
+        meta = post.metadata
+        iid = meta.get("id") or slugify(meta.get("name", os.path.basename(md_path)))
+        name = meta.get("name", "")
+        location = meta.get("location", {})
+        lat = location.get("lat")
+        lon = location.get("lon")
+
+        # Auto-generate directories
+        current_members = []
+        alumni = []
+        
+        # Build set of matching names for the institution (its name + aliases)
+        match_names = {name.lower().strip()}
+        for alias in meta.get("aliases", []):
+            match_names.add(alias.lower().strip())
+        
+        for person in people:
+            pid = person["md_filename"]
+            is_current = False
+            
+            # Check current position
+            cp = person.get("current_position", {})
+            if isinstance(cp, dict):
+                p_inst = cp.get("institution", "").lower().strip()
+                if p_inst in match_names:
+                    is_current = True
+            
+            if is_current:
+                current_members.append(pid)
+            else:
+                # Check education & postdocs for alumni
+                is_alumni = False
+                for edu in person.get("education", []):
+                    edu_inst = edu.get("institution", "")
+                    if edu_inst and edu_inst.lower().strip() in match_names:
+                        is_alumni = True
+                        break
+                if not is_alumni:
+                    for pd in person.get("postdocs", []):
+                        pd_inst = pd.get("institution", "")
+                        if pd_inst and pd_inst.lower().strip() in match_names:
+                            is_alumni = True
+                            break
+                if is_alumni:
+                    alumni.append(pid)
+
+        inst_obj = {
+            "id": iid,
+            "name": name,
+            "sort_name": meta.get("sort_name", name),
+            "entity_type": "institution",
+            "aliases": meta.get("aliases", []),
+            "abbreviations": meta.get("abbreviations", []),
+            "location": location,
+            "institution_type": meta.get("institution_type", "unknown"),
+            "short_description": meta.get("short_description", ""),
+            "focus_areas": meta.get("focus_areas", []),
+            "links": meta.get("links", {}),
+            "media": meta.get("media", {}),
+            "directory": {
+                "current_members": current_members,
+                "alumni": alumni,
+                "member_count": len(current_members),
+                "alumni_count": len(alumni)
+            },
+            "sources": meta.get("sources", []),
+            "md_filename": os.path.basename(md_path),
+            "updated_at": meta.get("updated_at", "")
+        }
+        institutions.append(inst_obj)
+
+        # GeoJSON Feature
+        properties = {
+            "id": iid,
+            "name": name,
+            "entity_type": "institution",
+            "city": location.get("city", ""),
+            "country": location.get("country", ""),
+            "short_description": inst_obj["short_description"],
+            "logo_path": meta.get("media", {}).get("logo_path", ""),
+            "md_filename": inst_obj["md_filename"]
+        }
+        feature = {
+            "type": "Feature",
+            "properties": properties,
+            "geometry": None
+        }
+        if lat is not None and lon is not None:
+            feature["geometry"] = {
+                "type": "Point",
+                "coordinates": [lon, lat]
+            }
+        institution_features.append(feature)
+
+    except Exception as e:
+        print(f"Error processing institution {md_path}: {e}")
+
 # Write people.json (existing)
 people_json_path = os.path.join(OUT_DIR, "people.json")
 with open(people_json_path, "w", encoding="utf-8") as f:
@@ -205,6 +309,11 @@ with open(people_json_path, "w", encoding="utf-8") as f:
 companies_json_path = os.path.join(OUT_DIR, "companies.json")
 with open(companies_json_path, "w", encoding="utf-8") as f:
     json.dump(companies, f, ensure_ascii=False, indent=2)
+
+# Write institutions.json (new)
+institutions_json_path = os.path.join(OUT_DIR, "institutions.json")
+with open(institutions_json_path, "w", encoding="utf-8") as f:
+    json.dump(institutions, f, ensure_ascii=False, indent=2)
 
 # Write people.geojson (existing)
 geojson_obj = {
@@ -224,6 +333,15 @@ comp_geojson_path = os.path.join(OUT_DIR, "companies.geojson")
 with open(comp_geojson_path, "w", encoding="utf-8") as f:
     json.dump(comp_geojson_obj, f, ensure_ascii=False, indent=2)
 
+# Write institutions.geojson (new)
+inst_geojson_obj = {
+    "type": "FeatureCollection",
+    "features": institution_features
+}
+inst_geojson_path = os.path.join(OUT_DIR, "institutions.geojson")
+with open(inst_geojson_path, "w", encoding="utf-8") as f:
+    json.dump(inst_geojson_obj, f, ensure_ascii=False, indent=2)
+
 # Write edges.csv
 edges_path = os.path.join(OUT_DIR, "edges.csv")
 with open(edges_path, "w", newline='', encoding="utf-8") as f:
@@ -234,6 +352,8 @@ with open(edges_path, "w", newline='', encoding="utf-8") as f:
 
 print("Wrote:", people_json_path)
 print("Wrote:", companies_json_path)
+print("Wrote:", institutions_json_path)
 print("Wrote:", geojson_path)
 print("Wrote:", comp_geojson_path)
+print("Wrote:", inst_geojson_path)
 print("Wrote:", edges_path)

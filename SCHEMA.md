@@ -12,6 +12,12 @@ Fields are categorized by:
 
 ## Complete Schema
 
+### Entity Type (Required)
+
+```yaml
+entity_type: "person" | "company" | "institution"
+```
+
 ### Identity (Required)
 
 ```yaml
@@ -267,6 +273,53 @@ updated_at: string  # Format: "YYYY-MM-DD"
 - Set automatically by creation/update tools
 - Updated whenever frontmatter changes
 - ISO 8601 date format
+
+## Institution Schema (Specific)
+
+For `entity_type: "institution"`, the following fields uniquely apply:
+
+### Identity & Location
+```yaml
+id: string  # Format: "iNNN-slug" (e.g., "i001-weizmann-institute-of-science")
+name: string
+sort_name: string
+aliases: array<string>  # Alternate spellings used in people.current_position.institution
+abbreviations: array<string>
+institution_type: "research_institute" | "university" | "national_lab" | "company_lab" | "other" | "unknown"
+```
+
+### Content
+```yaml
+short_description: string  # 1–2 factual sentences
+focus_areas: array<string>  # Optional, only if source-supported
+```
+
+### Links & Media
+```yaml
+links:
+  website: string | null
+  department: string | null
+  quantum_center: string | null
+  wikipedia: string | null
+  linkedin: string | null
+
+media:
+  logo_path: string | null # Must be verified explicitly (or empty string/null)
+  hero_image_path: string | null
+```
+
+### Directory (Auto-generated)
+```yaml
+directory:
+  current_members: array<string> # List of person IDs (md_filenames) currently there
+  alumni: array<string>          # List of person IDs historically tied
+  member_count: int
+  alumni_count: int
+```
+
+**Rules for Directory Auto-generation:**
+1. **Current Members**: People where `person.current_position.institution` matches the institution `name` OR any of its `aliases` (case-insensitive).
+2. **Alumni**: People who are NOT current members, but the institution appears in their `education[].institution` or `postdocs[].institution`.
 
 ## Read-Only Fields
 

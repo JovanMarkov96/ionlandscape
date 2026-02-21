@@ -1766,3 +1766,52 @@ html:has(.groups-page),
 [data-theme='dark'] .filter-btn-companies[data-active="true"] span {
   color: #fff;
 }
+
+/* Institutions Map Filter Button - Teal */
+.filter-btn-institutions {
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.filter-btn-institutions[data-active="true"] {
+  background: rgba(20, 184, 166, 0.15);
+  border: 1px solid rgba(20, 184, 166, 0.2);
+}
+
+[data-theme='dark'] .filter-btn-institutions[data-active="true"] {
+  background: rgba(20, 184, 166, 0.3);
+  border: 1px solid rgba(20, 184, 166, 0.4);
+}
+
+.filter-btn-institutions svg {
+  margin-right: 8px;
+  fill: #999;
+  transition: fill 0.2s;
+}
+
+[data-theme='dark'] .filter-btn-institutions svg {
+  fill: #888;
+}
+
+.filter-btn-institutions[data-active="true"] svg {
+  fill: #14B8A6;
+}
+
+.filter-btn-institutions span {
+  font-size: 0.9em;
+  color: #666;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .filter-btn-institutions span {
+  color: #888;
+}
+
+.filter-btn-institutions[data-active="true"] span {
+  color: #000;
+  font-weight: 600;
+}
+
+[data-theme='dark'] .filter-btn-institutions[data-active="true"] span {
+  color: #fff;
+}

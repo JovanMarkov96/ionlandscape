@@ -14,6 +14,7 @@ import Layout from '@theme/Layout';
 function HomeContent() {
     const [selectedPersonId, setSelectedPersonId] = useState(null);
     const [selectedCompanyId, setSelectedCompanyId] = useState(null);
+    const [selectedInstitutionId, setSelectedInstitutionId] = useState(null);
     const [selectedLocation, setSelectedLocation] = useState(null);
     const [isPanelOpen, setIsPanelOpen] = useState(false);
     const [showWelcome, setShowWelcome] = useState(false);
@@ -22,6 +23,7 @@ function HomeContent() {
     const MapPanel = require('../components/MapPanel').default;
     const PersonPanel = require('../components/PersonPanel').default;
     const CompanyPanel = require('../components/CompanyPanel').default;
+    const InstitutionPanel = require('../components/InstitutionPanel').default;
 
     // Check for ?person=ID in URL
     useEffect(() => {
@@ -52,6 +54,7 @@ function HomeContent() {
     const handlePersonSelect = (id) => {
         setSelectedPersonId(id);
         setSelectedCompanyId(null);
+        setSelectedInstitutionId(null);
         setIsPanelOpen(true); // Open panel when person selected
         setShowWelcome(false);
     };
@@ -59,6 +62,15 @@ function HomeContent() {
     const handleCompanySelect = (id) => {
         setSelectedCompanyId(id);
         setSelectedPersonId(null);
+        setSelectedInstitutionId(null);
+        setIsPanelOpen(true);
+        setShowWelcome(false);
+    };
+
+    const handleInstitutionSelect = (id) => {
+        setSelectedInstitutionId(id);
+        setSelectedPersonId(null);
+        setSelectedCompanyId(null);
         setIsPanelOpen(true);
         setShowWelcome(false);
     };
@@ -67,6 +79,7 @@ function HomeContent() {
         setSelectedLocation(loc);
         setSelectedPersonId(null);
         setSelectedCompanyId(null);
+        setSelectedInstitutionId(null);
         setIsPanelOpen(true);
         setShowWelcome(false);
     };
@@ -78,6 +91,7 @@ function HomeContent() {
     const handleClearProfile = () => {
         setSelectedPersonId(null);
         setSelectedCompanyId(null);
+        setSelectedInstitutionId(null);
         setSelectedLocation(null);
         setIsPanelOpen(false);
     };
@@ -98,6 +112,7 @@ function HomeContent() {
                     <MapPanel
                         onPersonSelect={handlePersonSelect}
                         onCompanySelect={handleCompanySelect}
+                        onInstitutionSelect={handleInstitutionSelect}
                         onLocationSelect={handleLocationSelect}
                     />
                 </div>
@@ -118,7 +133,13 @@ function HomeContent() {
                     >
                         ← Back to Map
                     </button>
-                    {selectedCompanyId ? (
+                    {selectedInstitutionId ? (
+                        <InstitutionPanel
+                            institutionId={selectedInstitutionId}
+                            onPersonSelect={handlePersonSelect}
+                            onClose={handleClearProfile}
+                        />
+                    ) : selectedCompanyId ? (
                         <CompanyPanel
                             companyId={selectedCompanyId}
                             location={selectedLocation}

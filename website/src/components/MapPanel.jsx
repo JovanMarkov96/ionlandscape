@@ -234,16 +234,18 @@ function groupByCoordinate(features) {
  * @param {Object} props
  * @param {Function} props.onPersonSelect - Callback executed when a person's profile is clicked in a popup
  * @param {Function} props.onCompanySelect - Callback executed when a company's profile is clicked in a popup 
+ * @param {Function} props.onInstitutionSelect - Callback executed when an institution's profile is clicked in a popup 
  * @param {Function} [props.onLocationSelect] - Optional callback for purely location-based clicks
  * @returns {JSX.Element} Interactive map rendering
  */
-function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
+function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLocationSelect }) {
     const mapContainerRef = useRef(null);
     const mapRef = useRef(null);
     const markersRef = useRef([]);
     const [people, setPeople] = React.useState([]);
     const [companies, setCompanies] = React.useState([]);
-    const [filters, setFilters] = React.useState({ people: true, companies: true });
+    const [institutions, setInstitutions] = React.useState([]);
+    const [filters, setFilters] = React.useState({ people: true, companies: true, institutions: true });
     // Collapsible Filters State
     const [showFilters, setShowFilters] = React.useState(false);
 
@@ -281,6 +283,17 @@ function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
                     .then(data => setCompanies(data.features || []))
                     .catch(e => console.warn('Could not load companies.json', e));
             });
+
+        // Load institutions
+        fetch('/ionlandscape/data/institutions.geojson')
+            .then(res => res.json())
+            .then(data => { if (data?.features) setInstitutions(data.features); })
+            .catch(() => {
+                fetch('/data/institutions.geojson')
+                    .then(res => res.json())
+                    .then(data => setInstitutions(data.features || []))
+                    .catch(e => console.warn('Could not load institutions.geojson', e));
+            });
     }, []);
 
     // Filter and group features
@@ -288,8 +301,9 @@ function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
         let features = [];
         if (filters.people) features = features.concat(people);
         if (filters.companies) features = features.concat(companies);
+        if (filters.institutions) features = features.concat(institutions);
         return features;
-    }, [people, companies, filters]);
+    }, [people, companies, institutions, filters]);
 
     const coordGroups = useMemo(() => groupByCoordinate(displayFeatures), [displayFeatures]);
 
@@ -316,18 +330,23 @@ function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
             const institutionHtml = affiliations.length > 0
                 ? affiliations.map(inst => `<div class="popup-institution">${inst}</div>`).join('')
                 : (cpInstitution ? `<div class="popup-institution">${cpInstitution}</div>` : '');
+
             const isCompany = props.entity_type === 'company';
-            const detailText = isCompany ? (props.short_summary || '') : institutionHtml;
-            const btnColor = isCompany ? '#e65100' : '#4f46e5';
+            const isInstitution = props.entity_type === 'institution';
+
+            let detailText = institutionHtml;
+            if (isCompany || isInstitution) {
+                detailText = props.short_summary || props.short_description || '';
+            }
+
+            let btnColor = '#4f46e5'; // Person
+            if (isCompany) btnColor = '#e65100'; // Company
+            if (isInstitution) btnColor = '#14B8A6'; // Institution
 
             // Logo HTML
             let logoHtml = '';
-            if (isCompany && props.logo_path) {
-                // Ensure /ionlandscape prefix if needed, or handle it via onerror in img tag (harder in string, so simple first)
+            if ((isCompany || isInstitution) && props.logo_path) {
                 const src = `/ionlandscape${props.logo_path}`;
-                const fallback = props.logo_path;
-
-                // Ensure path has prefix for GitHub Pages
                 const safeSrc = src.startsWith('http') || src.startsWith('/ionlandscape')
                     ? src
                     : `/ionlandscape${src}`;
@@ -338,6 +357,9 @@ function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
                 </div>`;
             }
 
+            const dataType = isCompany ? 'company' : (isInstitution ? 'institution' : 'person');
+            const typeLabel = isCompany ? '<span style="font-size: 0.7em; background: #e65100; color: white; padding: 1px 4px; border-radius: 3px;">Co</span>' : (isInstitution ? '<span style="font-size: 0.7em; background: #14B8A6; color: white; padding: 1px 4px; border-radius: 3px;">Inst</span>' : '');
+
             html += `
                 <div style="padding: 6px 0; ${borderStyle}">
                     <div style="font-weight: bold; display: flex; align-items: center; justify-content: space-between;">
@@ -345,13 +367,13 @@ function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
                             ${logoHtml}
                             <span>${props.name || 'Unknown'}</span>
                         </span>
-                        ${isCompany ? '<span style="font-size: 0.7em; background: #e65100; color: white; padding: 1px 4px; border-radius: 3px;">Co</span>' : ''}
+                        ${typeLabel}
                     </div>
                     <div style="font-size: 0.85em; margin-bottom: 4px;" class="popup-detail-text">${detailText}</div>
                     <button 
                         class="maplibre-popup-btn" 
                         data-id="${props.id}"
-                        data-type="${isCompany ? 'company' : 'person'}"
+                        data-type="${dataType}"
                         style="font-size: 0.8em; padding: 4px 10px; cursor: pointer; background: ${btnColor}; color: white; border: none; border-radius: 4px;">
                         Open profile
                     </button>
@@ -389,6 +411,8 @@ function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
 
                 if (type === 'company' && onCompanySelect) {
                     onCompanySelect(id);
+                } else if (type === 'institution' && onInstitutionSelect) {
+                    onInstitutionSelect(id);
                 } else if (onPersonSelect) {
                     onPersonSelect(id);
                 }
@@ -435,7 +459,11 @@ function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
             const props = firstFeature.properties || {};
 
             const isCompanyGroup = group.some(f => f.properties?.entity_type === 'company');
-            const markerColor = isCompanyGroup ? '#e65100' : '#4f46e5';
+            const isInstitutionGroup = group.some(f => f.properties?.entity_type === 'institution');
+
+            let markerColor = '#4f46e5'; // Person default
+            if (isCompanyGroup) markerColor = '#e65100'; // Company
+            if (isInstitutionGroup) markerColor = '#14B8A6'; // Institution
 
             const locationLabel = props.city && props.country
                 ? `${props.city}, ${props.country}`
@@ -505,6 +533,18 @@ function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
                     <span>Companies</span>
+                </div>
+
+                <div
+                    className="map-filter-btn filter-btn-institutions"
+                    onClick={() => setFilters(prev => ({ ...prev, institutions: !prev.institutions }))}
+                    data-active={filters.institutions}
+                    title="Toggle Institutions"
+                >
+                    <svg viewBox="0 0 24 24" width="22" height="22">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                    </svg>
+                    <span>Institutions</span>
                 </div>
             </div>
         </div>
