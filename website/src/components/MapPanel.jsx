@@ -475,20 +475,41 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
             // Create custom marker element
             const el = document.createElement('div');
 
-            const logoFeature = group.find(f => f.properties?.logo_path);
+            // Force institutions to use standard pins, only companies get logos
+            const logoFeature = group.find(f => f.properties?.logo_path && f.properties?.entity_type === 'company');
             if (logoFeature && logoFeature.properties.logo_path) {
                 // Logo Marker
                 el.className = 'ion-marker-logo';
                 const src = `/ionlandscape${logoFeature.properties.logo_path}`;
                 el.style.backgroundImage = `url('${src}')`;
             } else {
-                // Vertical Glass Pin Marker
+                // Liquid Glass SVG Pin Marker (Matches Legend Icon)
                 el.className = 'ion-marker-pin';
-                el.style.setProperty('--pin-color', markerColor);
 
-                const needle = document.createElement('div');
-                needle.className = 'ion-marker-pin-needle';
-                el.appendChild(needle);
+                // Construct inline SVG with dynamic color and glass overlay
+                el.innerHTML = `
+                    <svg viewBox="0 0 24 24" width="36" height="36" style="filter: drop-shadow(0 4px 6px rgba(0,0,0,0.35)); transition: filter 0.3s ease;">
+                        <defs>
+                            <linearGradient id="glassGrad-${props.id || 'new'}" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="${markerColor}" stop-opacity="0.6" />
+                                <stop offset="100%" stop-color="${markerColor}" stop-opacity="0.95" />
+                            </linearGradient>
+                            <radialGradient id="glassReflect-${props.id || 'new'}" cx="30%" cy="30%" r="50%">
+                                <stop offset="0%" stop-color="white" stop-opacity="0.6"/>
+                                <stop offset="100%" stop-color="white" stop-opacity="0"/>
+                            </radialGradient>
+                        </defs>
+                        <!-- Stroke/Outline -->
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" 
+                              fill="url(#glassGrad-${props.id || 'new'})" 
+                              stroke="rgba(255,255,255,0.9)" 
+                              stroke-width="1.2" />
+                        <!-- Specular Highlight Overlay -->
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" 
+                              fill="url(#glassReflect-${props.id || 'new'})" 
+                              pointer-events="none" />
+                    </svg>
+                `;
             }
 
             const marker = new maplibregl.Marker({ element: el })
