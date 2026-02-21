@@ -353,7 +353,7 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
 
                 logoHtml = `
                 <div class="popup-logo-container">
-                    <img src="${safeSrc}" onerror="this.onerror=null; this.src='${src}';" />
+                    <img src="${safeSrc}" onerror="this.onerror=null; this.src='${src}';" style="background-color: white; padding: 2px; border-radius: 4px;" />
                 </div>`;
             }
 

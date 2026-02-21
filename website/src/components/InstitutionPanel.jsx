@@ -100,7 +100,7 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
                     <img
                         src={media.logo_path.startsWith('http') ? media.logo_path : `/ionlandscape${media.logo_path}`}
                         alt={`${name} logo`}
-                        style={{ width: '50px', height: '50px', objectFit: 'contain' }}
+                        style={{ width: '50px', height: '50px', objectFit: 'contain', backgroundColor: 'white', padding: '4px', borderRadius: '4px' }}
                         onError={(e) => {
                             if (e.target.src.includes('/ionlandscape')) {
                                 e.target.src = media.logo_path;
