@@ -6,15 +6,17 @@ import Link from '@docusaurus/Link';
 /**
  * CompanyPanel Component
  * 
- * Displays detailed information about a selected company.
- * Fetched from `companies.json`.
+ * Displays detailed information about a selected company or startup.
+ * Fetches backing data from `companies.json` and supports cross-referencing
+ * founders with `people.json`.
  * 
  * @param {Object} props
  * @param {string} props.companyId - ID or md_filename of the company to display
- * @param {Object} props.location - Location selected object
- * @param {Function} props.onCompanySelect - Callback to select another company
- * @param {Function} props.onPersonSelect - Callback to select a person
+ * @param {Object} [props.location] - Parent location selected object
+ * @param {Function} props.onCompanySelect - Callback to select another nested company
+ * @param {Function} props.onPersonSelect - Callback to select a person (e.g., founder)
  * @param {Function} props.onClose - Callback to close the panel
+ * @returns {JSX.Element|null} Company Profile visual component
  */
 function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, onClose }) {
     const [companies, setCompanies] = useState([]);
@@ -66,7 +68,13 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
         if (onClose) onClose();
     };
 
-    // Helper to receive person name/ID and return a link if found
+    /**
+     * Attempts to resolve a plain person name into an interactive profile link 
+     * by querying the loaded `people.json` cache.
+     * 
+     * @param {string} name - Name, ID, or sort_name to lookup
+     * @returns {JSX.Element|string} A clickable link or the original plain string
+     */
     const renderPersonLink = (name) => {
         if (!name) return name;
 
@@ -77,17 +85,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             (p.id === name)
         );
 
-        if (person && onCompanySelect) { // onCompanySelect is actually handleCompanySelect from index.js
-            // We need to switch to Person view. 
-            // index.js handleCompanySelect sets selectedCompanyId. 
-            // We need a way to select a person.
-            // CompanyPanel receives onCompanySelect. It does NOT receive onPersonSelect?
-            // Checking index.js:
-            // <CompanyPanel ... onCompanySelect={handleCompanySelect} ... />
-            // It seems CompanyPanel only gets onCompanySelect.
-            // I need to update index.js to pass onPersonSelect to CompanyPanel too!
-            // For now I will assume onPersonSelect is passed or I add it.
-            // Wait, I should verify index.js again.
+        if (person && onPersonSelect) {
             return (
                 <span
                     className="advisor-link"

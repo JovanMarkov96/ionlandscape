@@ -6,17 +6,21 @@ import Link from '@docusaurus/Link';
 /**
  * PersonPanel Component
  * 
- * Displays detailed information about a selected researcher/group.
+ * Displays detailed information about a selected researcher/group
  * fetched from `people.json`.
  * 
  * Features:
- * - Shows Bio, Affiliations, Education, Postdocs.
- * - Displays active research tags (Labels, Ion Species) with links to filter on Groups page.
- * - Includes a "Back" button (Close) to return to the map.
+ * - Shows Bio, Affiliations, Education, Postdocs
+ * - Displays active research tags (Labels, Ion Species) with links to filter on Groups page
+ * - Includes a "Back" button (Close) to return to the map
  * 
  * @param {Object} props
  * @param {string} props.personId - ID or md_filename of the person to display
+ * @param {Object} [props.location] - Selected map location (unused in typical fallback scope)
+ * @param {Function} props.onPersonSelect - Callback to select another person from within the profile
+ * @param {Function} props.onCompanySelect - Callback to select a company from an affiliation link
  * @param {Function} props.onClose - Callback to close the panel
+ * @returns {JSX.Element|null} Person Profile visual component
  */
 function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onClose }) {
     const [people, setPeople] = useState([]);
@@ -66,7 +70,13 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
         }
     }, [personId, people]);
 
-    // Helper to render advisor link or text
+    /**
+     * Resolves an advisor name string into an interactive profile link if 
+     * the advisor exists in the known `people.json` dataset.
+     * 
+     * @param {string} advisorName - Real name or ID string
+     * @returns {JSX.Element} A clickable link or plain text span fallback
+     */
     const renderAdvisor = (advisorName) => {
         if (!advisorName) return null;
 
@@ -89,19 +99,22 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
         return <span>{advisorName}</span>;
     };
 
+    /**
+     * Resolves a company name string into an interactive profile link if
+     * the company exists in the known `companies.json` dataset. Uses fuzzy matching.
+     * 
+     * @param {string} companyName - Company name, acronym, or entity ID
+     * @returns {JSX.Element} A clickable link or plain text span fallback
+     */
     const renderCompanyLink = (companyName) => {
         if (!companyName) return null;
 
-        // Exact or fuzzy match logic
-        // companies have 'name', 'id'
         const comp = companies.find(c =>
             (c.name && c.name.toLowerCase() === companyName.toLowerCase()) ||
             (c.id === companyName) ||
-            (c.name && c.name.toLowerCase().includes(companyName.toLowerCase()) && companyName.length > 3) // Basic partial match
+            (c.name && c.name.toLowerCase().includes(companyName.toLowerCase()) && companyName.length > 3)
         );
 
-        // Note: We need onCompanySelect passed to PersonPanel
-        // If passed, use it.
         if (comp && onCompanySelect) {
             return (
                 <span

@@ -10,7 +10,13 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 const defaultCenter = [10, 50]; // Centered on Europe
 const defaultZoom = 2;
 
-// Light and dark style configurations (inline for zero external deps)
+/**
+ * Generates the MapLibre style object containing map layers and sources.
+ * We use an inline style configuration to utilize OpenFreeMap without an API key.
+ * 
+ * @param {boolean} isDark - Whether the UI is in dark mode
+ * @returns {Object} A standalone MapLibre GL style object
+ */
 const createStyle = (isDark) => ({
     version: 8,
     name: isDark ? 'Ion Landscape Dark' : 'Ion Landscape Light',
@@ -190,7 +196,11 @@ const createStyle = (isDark) => ({
 });
 
 /**
- * Groups GeoJSON features by their coordinate key.
+ * Groups raw GeoJSON feature entries by their exact lat/long coordinate.
+ * This is used so multiple groups at the exact same location show up in the same popup.
+ *
+ * @param {Array<Object>} features - List of GeoJSON features
+ * @returns {Map<string, Array<Object>>} A map of coordinate keys to feature arrays
  */
 function groupByCoordinate(features) {
     const groups = new Map();
@@ -217,17 +227,17 @@ function groupByCoordinate(features) {
 /**
  * MapPanel Component
  * 
- * Self-hosted MapLibre GL JS map with:
- * - OpenFreeMap tiles (no API key required)
- * - Serbia boundary overlay (Kosovo as Serbia)
- * - Interactive markers and popups
- * - Dark/light mode support
+ * Self-hosted MapLibre GL JS interactive map using OpenFreeMap vector tiles.
+ * Handles fetching markers, rendering popups, mapping coordinates, and 
+ * responding to user marker clicks.
  * 
  * @param {Object} props
- * @param {Function} props.onPersonSelect - Callback for when a person is clicked from map marker popup
- * @param {Function} props.onCompanySelect - Callback for when a company is clicked from map marker popup 
+ * @param {Function} props.onPersonSelect - Callback executed when a person's profile is clicked in a popup
+ * @param {Function} props.onCompanySelect - Callback executed when a company's profile is clicked in a popup 
+ * @param {Function} [props.onLocationSelect] - Optional callback for purely location-based clicks
+ * @returns {JSX.Element} Interactive map rendering
  */
-function MapPanel({ onPersonSelect, onCompanySelect }) {
+function MapPanel({ onPersonSelect, onCompanySelect, onLocationSelect }) {
     const mapContainerRef = useRef(null);
     const mapRef = useRef(null);
     const markersRef = useRef([]);
@@ -283,7 +293,14 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
 
     const coordGroups = useMemo(() => groupByCoordinate(displayFeatures), [displayFeatures]);
 
-    // Create popup HTML
+    /**
+     * Builds HTML content for a single map marker popup based on the 
+     * array of features matching that location.
+     * 
+     * @param {Array<Object>} group - GeoJSON features at this marker
+     * @param {string} locationLabel - The calculated City/Country label for this area
+     * @returns {string} Raw HTML string required by MapLibre Popup
+     */
     const createPopupHTML = useCallback((group, locationLabel) => {
         let html = '<div style="min-width: 200px; max-height: 250px; overflow-y: auto;">';
         if (locationLabel) {
@@ -382,9 +399,9 @@ function MapPanel({ onPersonSelect, onCompanySelect }) {
             console.log('MapLibre GL JS loaded - Self-hosted, zero external dependencies');
         });
 
-        // Add markers when styled data changes... (omitted for brevity in replacement, but wait, this is inside useEffect)
-        // I need to be careful not to delete the marker logic.
-        // The target content I selected below is just the map init block.
+        map.on('load', () => {
+            console.log('MapLibre GL JS loaded successfully');
+        });
 
         mapRef.current = map;
 

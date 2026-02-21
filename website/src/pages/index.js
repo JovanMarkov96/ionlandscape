@@ -4,8 +4,12 @@ import Layout from '@theme/Layout';
 
 /**
  * Private inner component that handles map state and side panels 
- * when the map view is active. Note that this component relies
- * on browser APIs like window and URLSearchParams.
+ * when the map view is active. Must be rendered client-side 
+ * because it interacts with `window` and `localStorage`.
+ * 
+ * Manages the layout state, welcome modal, and floating profile panels.
+ * 
+ * @returns {JSX.Element} The rendered map content layout
  */
 function HomeContent() {
     const [selectedPersonId, setSelectedPersonId] = useState(null);
@@ -137,6 +141,15 @@ function HomeContent() {
     );
 }
 
+/**
+ * Main Entry Page (`/`)
+ * 
+ * Renders the map application inside a generic Docusaurus Layout.
+ * We wrap `HomeContent` in `BrowserOnly` because the MapLibre engine 
+ * cannot be initialized during static server-side rendering (SSR).
+ * 
+ * @returns {JSX.Element} The page layout
+ */
 export default function Home() {
     return (
         <BrowserOnly fallback={<div style={{ padding: 20 }}>Loading map...</div>}>
