@@ -4,6 +4,766 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "i008-griffith-university",
+        "name": "Griffith University",
+        "entity_type": "institution",
+        "city": "Brisbane",
+        "country": "Australia",
+        "short_description": "Griffith University is an Australian research university based in Brisbane with research in quantum optics and atom-photon interfaces.",
+        "logo_path": "",
+        "md_filename": "i008-griffith-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.046,
+          -27.5557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i047-university-of-kassel",
+        "name": "University of Kassel",
+        "entity_type": "institution",
+        "city": "Kassel",
+        "country": "Germany",
+        "short_description": "The University of Kassel is a German university with research groups in precision spectroscopy and highly charged ions.",
+        "logo_path": "",
+        "md_filename": "i047-university-of-kassel.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.456,
+          51.3131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i049-university-of-oxford",
+        "name": "University of Oxford",
+        "entity_type": "institution",
+        "city": "Oxford",
+        "country": "United Kingdom",
+        "short_description": "The University of Oxford is one of the world's oldest and most prestigious universities, with leading trapped-ion quantum computing research in its Department of Physics.",
+        "logo_path": "",
+        "md_filename": "i049-university-of-oxford.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2577,
+          51.752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i013-ionq-inc",
+        "name": "IonQ, Inc.",
+        "entity_type": "institution",
+        "city": "College Park",
+        "country": "United States",
+        "short_description": "IonQ is a leading quantum computing company building general-purpose trapped-ion quantum computers, founded by Christopher Monroe and Jungsang Kim.",
+        "logo_path": "",
+        "md_filename": "i013-ionq-inc.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9378,
+          38.9897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i009-imperial-college-london",
+        "name": "Imperial College London",
+        "entity_type": "institution",
+        "city": "London",
+        "country": "United Kingdom",
+        "short_description": "Imperial College London is a world-leading science and technology university with research groups in precision measurement and trapped-ion physics.",
+        "logo_path": "",
+        "md_filename": "i009-imperial-college-london.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1749,
+          51.4988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i023-postech",
+        "name": "POSTECH",
+        "entity_type": "institution",
+        "city": "Pohang",
+        "country": "South Korea",
+        "short_description": "POSTECH (Pohang University of Science and Technology) is a top South Korean research university with emerging programs in quantum information and trapped-ion experiments.",
+        "logo_path": "",
+        "md_filename": "i023-postech.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3238,
+          36.0111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i039-university-of-bonn",
+        "name": "University of Bonn",
+        "entity_type": "institution",
+        "city": "Bonn",
+        "country": "Germany",
+        "short_description": "The University of Bonn is a leading German research university with experimental groups in quantum optics and trapped-ion physics.",
+        "logo_path": "",
+        "md_filename": "i039-university-of-bonn.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0842,
+          50.7274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i030-simon-fraser-university",
+        "name": "Simon Fraser University",
+        "entity_type": "institution",
+        "city": "Burnaby",
+        "country": "Canada",
+        "short_description": "Simon Fraser University is a major Canadian research university with active programs in AMO physics and trapped-ion experiments.",
+        "logo_path": "",
+        "md_filename": "i030-simon-fraser-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9199,
+          49.2781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i042-university-of-california-berkeley",
+        "name": "University of California, Berkeley",
+        "entity_type": "institution",
+        "city": "Berkeley",
+        "country": "United States",
+        "short_description": "UC Berkeley is a world-class public research university with pioneering trapped-ion quantum computing and AMO physics groups.",
+        "logo_path": "",
+        "md_filename": "i042-university-of-california-berkeley.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2585,
+          37.8719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i014-johannes-gutenberg-university-mainz",
+        "name": "Johannes Gutenberg University Mainz",
+        "entity_type": "institution",
+        "city": "Mainz",
+        "country": "Germany",
+        "short_description": "Johannes Gutenberg University Mainz is a major German research university with an active trapped-ion quantum computing group.",
+        "logo_path": "",
+        "md_filename": "i014-johannes-gutenberg-university-mainz.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2473,
+          49.9929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i016-mit-lincoln-laboratory",
+        "name": "MIT Lincoln Laboratory",
+        "entity_type": "institution",
+        "city": "Lexington",
+        "country": "United States",
+        "short_description": "MIT Lincoln Laboratory is a federally funded research center that develops advanced technologies for national security, including trapped-ion quantum systems.",
+        "logo_path": "",
+        "md_filename": "i016-mit-lincoln-laboratory.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.268,
+          42.4584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i050-university-of-siegen",
+        "name": "University of Siegen",
+        "entity_type": "institution",
+        "city": "Siegen",
+        "country": "Germany",
+        "short_description": "The University of Siegen is a German university with research in trapped-ion quantum information processing using microwave techniques.",
+        "logo_path": "",
+        "md_filename": "i050-university-of-siegen.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0226,
+          50.9093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i037-university-of-amsterdam",
+        "name": "University of Amsterdam",
+        "entity_type": "institution",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "short_description": "The University of Amsterdam is a major Dutch research university with trapped-ion research groups in its Institute of Physics.",
+        "logo_path": "",
+        "md_filename": "i037-university-of-amsterdam.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9554,
+          52.3559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i022-osaka-university",
+        "name": "Osaka University",
+        "entity_type": "institution",
+        "city": "Osaka",
+        "country": "Japan",
+        "short_description": "Osaka University is a leading national university in Japan, with strong programs in physics including trapped-ion experiments and quantum optics.",
+        "logo_path": "",
+        "md_filename": "i022-osaka-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5249,
+          34.8225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i033-sungkyunkwan-university-skku",
+        "name": "Sungkyunkwan University (SKKU)",
+        "entity_type": "institution",
+        "city": "Suwon",
+        "country": "South Korea",
+        "short_description": "SKKU is a leading South Korean university with emerging quantum information research programs.",
+        "logo_path": "",
+        "md_filename": "i033-sungkyunkwan-university-skku.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9753,
+          37.2939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i004-duke-university",
+        "name": "Duke University",
+        "entity_type": "institution",
+        "city": "Durham",
+        "country": "United States",
+        "short_description": "Duke University is a prestigious private research university in Durham, North Carolina, home to a major ion-trap quantum computing program.",
+        "logo_path": "",
+        "md_filename": "i004-duke-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9382,
+          36.0014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i006-ewha-womans-university",
+        "name": "Ewha Womans University",
+        "entity_type": "institution",
+        "city": "Seoul",
+        "country": "South Korea",
+        "short_description": "Ewha Womans University is a prestigious private university in Seoul, South Korea, with emerging research in quantum information science.",
+        "logo_path": "",
+        "md_filename": "i006-ewha-womans-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9468,
+          37.5618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i035-tsinghua-university",
+        "name": "Tsinghua University",
+        "entity_type": "institution",
+        "city": "Beijing",
+        "country": "China",
+        "short_description": "Tsinghua University is one of China's most elite research universities, with leading programs in quantum computing and quantum information science.",
+        "logo_path": "",
+        "md_filename": "i035-tsinghua-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3267,
+          40.0003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i051-university-of-sussex",
+        "name": "University of Sussex",
+        "entity_type": "institution",
+        "city": "Brighton",
+        "country": "United Kingdom",
+        "short_description": "The University of Sussex hosts the Sussex Centre for Quantum Technologies, a leading hub for trapped-ion quantum computing and scalable quantum engineering.",
+        "logo_path": "",
+        "md_filename": "i051-university-of-sussex.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0873,
+          50.866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i045-university-of-groningen",
+        "name": "University of Groningen",
+        "entity_type": "institution",
+        "city": "Groningen",
+        "country": "Netherlands",
+        "short_description": "The University of Groningen is a leading Dutch research university with work in fundamental physics and precision measurements.",
+        "logo_path": "",
+        "md_filename": "i045-university-of-groningen.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5665,
+          53.2194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i005-eth-zurich",
+        "name": "ETH Zürich",
+        "entity_type": "institution",
+        "city": "Zürich",
+        "country": "Switzerland",
+        "short_description": "ETH Zürich is one of the world's leading universities for science and technology, hosting premier trapped-ion quantum information groups.",
+        "logo_path": "",
+        "md_filename": "i005-eth-zurich.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5417,
+          47.3769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i002-aarhus-university",
+        "name": "Aarhus University",
+        "entity_type": "institution",
+        "city": "Aarhus",
+        "country": "Denmark",
+        "short_description": "Aarhus University is one of Denmark's largest research universities, with active programs in AMO physics and cold molecular ions.",
+        "logo_path": "",
+        "md_filename": "i002-aarhus-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2039,
+          56.1629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i054-university-of-trento",
+        "name": "University of Trento",
+        "entity_type": "institution",
+        "city": "Trento",
+        "country": "Italy",
+        "short_description": "The University of Trento is an Italian research university with work in integrated photonics and quantum technologies.",
+        "logo_path": "",
+        "md_filename": "i054-university-of-trento.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1501,
+          46.0664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i024-palacky-university-olomouc",
+        "name": "Palacký University Olomouc",
+        "entity_type": "institution",
+        "city": "Olomouc",
+        "country": "Czech Republic",
+        "short_description": "Palacký University Olomouc is the oldest university in Moravia with active research in quantum optics and single-ion experiments.",
+        "logo_path": "",
+        "md_filename": "i024-palacky-university-olomouc.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2518,
+          49.5955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
+        "name": "Centre for Quantum Technologies, National University of Singapore",
+        "entity_type": "institution",
+        "city": "Singapore",
+        "country": "Singapore",
+        "short_description": "The Centre for Quantum Technologies (CQT) is a national research center of excellence at the National University of Singapore, focused on the fundamental physics of quantum mechanics and the building of quantum devices.",
+        "logo_path": "",
+        "md_filename": "i003-centre-for-quantum-technologies-national-university-of-singapore.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7764,
+          1.2966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i044-university-of-granada",
+        "name": "University of Granada",
+        "entity_type": "institution",
+        "city": "Granada",
+        "country": "Spain",
+        "short_description": "The University of Granada is a major Spanish research university with experimental programs in Penning trap mass spectrometry for nuclear and particle physics.",
+        "logo_path": "",
+        "md_filename": "i044-university-of-granada.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6006,
+          37.1809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i012-institute-for-quantum-computing-university-of-waterloo",
+        "name": "Institute for Quantum Computing, University of Waterloo",
+        "entity_type": "institution",
+        "city": "Waterloo",
+        "country": "Canada",
+        "short_description": "The Institute for Quantum Computing (IQC) at the University of Waterloo is a world-class research center for quantum information science and technology.",
+        "logo_path": "",
+        "md_filename": "i012-institute-for-quantum-computing-university-of-waterloo.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5479,
+          43.4779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i027-saarland-university",
+        "name": "Saarland University",
+        "entity_type": "institution",
+        "city": "Saarbrücken",
+        "country": "Germany",
+        "short_description": "Saarland University is a German university with research programs in quantum optics and trapped-ion quantum information processing.",
+        "logo_path": "",
+        "md_filename": "i027-saarland-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0413,
+          49.2547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i036-ulm-university",
+        "name": "Ulm University",
+        "entity_type": "institution",
+        "city": "Ulm",
+        "country": "Germany",
+        "short_description": "Ulm University is a German research university with active trapped-ion and cold molecular ion research groups.",
+        "logo_path": "",
+        "md_filename": "i036-ulm-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9565,
+          48.4225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i019-national-institute-of-standards-and-technology-nist-boulder",
+        "name": "National Institute of Standards and Technology (NIST), Boulder",
+        "entity_type": "institution",
+        "city": "Boulder",
+        "country": "United States",
+        "short_description": "NIST Boulder is a U.S. government research laboratory that has been at the forefront of trapped-ion physics, precision measurement, and quantum information since the pioneering work of David Wineland.",
+        "logo_path": "",
+        "md_filename": "i019-national-institute-of-standards-and-technology-nist-boulder.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2615,
+          39.9951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i048-university-of-oregon",
+        "name": "University of Oregon",
+        "entity_type": "institution",
+        "city": "Eugene",
+        "country": "United States",
+        "short_description": "The University of Oregon is a public research university where Nobel laureate David Wineland holds an appointment working on quantum physics.",
+        "logo_path": "",
+        "md_filename": "i048-university-of-oregon.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0726,
+          44.0448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i034-technion-israel-institute-of-technology",
+        "name": "Technion – Israel Institute of Technology",
+        "entity_type": "institution",
+        "city": "Haifa",
+        "country": "Israel",
+        "short_description": "The Technion is Israel's oldest university and a leading institute of technology, with strong programs in physics including cold ion-molecule experiments.",
+        "logo_path": "",
+        "md_filename": "i034-technion-israel-institute-of-technology.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0218,
+          32.777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i040-university-of-buenos-aires",
+        "name": "University of Buenos Aires",
+        "entity_type": "institution",
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "short_description": "The University of Buenos Aires is Argentina's largest and most prestigious university, with research in quantum optics and trapped-ion experiments.",
+        "logo_path": "",
+        "md_filename": "i040-university-of-buenos-aires.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3735,
+          -34.5997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
+        "name": "Indian Institute of Science Education and Research (IISER) Pune",
+        "entity_type": "institution",
+        "city": "Pune",
+        "country": "India",
+        "short_description": "IISER Pune is a premier Indian research and teaching institute with growing activities in cold and ultracold molecule-ion physics.",
+        "logo_path": "",
+        "md_filename": "i010-indian-institute-of-science-education-and-research-iiser-pune.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8029,
+          18.5493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i055-university-of-washington",
+        "name": "University of Washington",
+        "entity_type": "institution",
+        "city": "Seattle",
+        "country": "United States",
+        "short_description": "The University of Washington is a major U.S. research university with experimental trapped-ion physics programs.",
+        "logo_path": "",
+        "md_filename": "i055-university-of-washington.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3035,
+          47.6553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i018-national-institute-of-information-and-communications-technology-nict",
+        "name": "National Institute of Information and Communications Technology (NICT)",
+        "entity_type": "institution",
+        "city": "Koganei",
+        "country": "Japan",
+        "short_description": "NICT is Japan's national research institute for information and communications technologies, conducting research in optical clocks and frequency standards using trapped ions.",
+        "logo_path": "",
+        "md_filename": "i018-national-institute-of-information-and-communications-technology-nict.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.4895,
+          35.7107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i053-university-of-tokyo",
+        "name": "University of Tokyo",
+        "entity_type": "institution",
+        "city": "Tokyo",
+        "country": "Japan",
+        "short_description": "The University of Tokyo is Japan's most prestigious university, with strong research programs in experimental physics including trapped-ion quantum information.",
+        "logo_path": "",
+        "md_filename": "i053-university-of-tokyo.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7621,
+          35.7128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i021-okinawa-institute-of-science-and-technology-oist",
+        "name": "Okinawa Institute of Science and Technology (OIST)",
+        "entity_type": "institution",
+        "city": "Onna",
+        "country": "Japan",
+        "short_description": "OIST is an interdisciplinary graduate university in Okinawa, Japan, with growing research programs in quantum information and ion-trap experiments.",
+        "logo_path": "",
+        "md_filename": "i021-okinawa-institute-of-science-and-technology-oist.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8314,
+          26.4615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "i001-weizmann-institute-of-science",
         "name": "Weizmann Institute of Science",
         "entity_type": "institution",
@@ -18,6 +778,346 @@
         "coordinates": [
           34.809,
           31.907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i046-university-of-innsbruck",
+        "name": "University of Innsbruck",
+        "entity_type": "institution",
+        "city": "Innsbruck",
+        "country": "Austria",
+        "short_description": "The University of Innsbruck is a world-leading center for trapped-ion quantum computing and quantum simulation, hosting pioneering groups at both the Institute for Experimental Physics and the IQOQI (Austrian Academy of Sciences).",
+        "logo_path": "",
+        "md_filename": "i046-university-of-innsbruck.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3927,
+          47.2654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i031-stellenbosch-university",
+        "name": "Stellenbosch University",
+        "entity_type": "institution",
+        "city": "Stellenbosch",
+        "country": "South Africa",
+        "short_description": "Stellenbosch University is a leading South African research university with the National Laser Centre and research in quantum control of trapped ions.",
+        "logo_path": "",
+        "md_filename": "i031-stellenbosch-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8602,
+          -33.9321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i020-national-physical-laboratory-npl",
+        "name": "National Physical Laboratory (NPL)",
+        "entity_type": "institution",
+        "city": "Teddington",
+        "country": "United Kingdom",
+        "short_description": "The National Physical Laboratory (NPL) is the UK's national measurement standards laboratory, leading research in optical clocks and precision measurement with trapped ions.",
+        "logo_path": "",
+        "md_filename": "i020-national-physical-laboratory-npl.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3451,
+          51.4247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i028-sandia-national-laboratories",
+        "name": "Sandia National Laboratories",
+        "entity_type": "institution",
+        "city": "Albuquerque",
+        "country": "United States",
+        "short_description": "Sandia National Laboratories is a major U.S. government research facility with programs in quantum computing using microfabricated ion traps.",
+        "logo_path": "",
+        "md_filename": "i028-sandia-national-laboratories.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5381,
+          35.0584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i007-georgia-institute-of-technology",
+        "name": "Georgia Institute of Technology",
+        "entity_type": "institution",
+        "city": "Atlanta",
+        "country": "United States",
+        "short_description": "Georgia Institute of Technology is a top-tier public research university in Atlanta with emerging programs in quantum science and engineering.",
+        "logo_path": "",
+        "md_filename": "i007-georgia-institute-of-technology.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3963,
+          33.7756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i032-stockholm-university",
+        "name": "Stockholm University",
+        "entity_type": "institution",
+        "city": "Stockholm",
+        "country": "Sweden",
+        "short_description": "Stockholm University is a major Swedish research university with research groups in trapped-ion quantum information.",
+        "logo_path": "",
+        "md_filename": "i032-stockholm-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0583,
+          59.3639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i038-university-of-basel",
+        "name": "University of Basel",
+        "entity_type": "institution",
+        "city": "Basel",
+        "country": "Switzerland",
+        "short_description": "The University of Basel hosts research groups in quantum physics and trapped-ion precision spectroscopy within its Department of Physics.",
+        "logo_path": "",
+        "md_filename": "i038-university-of-basel.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5833,
+          47.5581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i029-seoul-national-university",
+        "name": "Seoul National University",
+        "entity_type": "institution",
+        "city": "Seoul",
+        "country": "South Korea",
+        "short_description": "Seoul National University is South Korea's most prestigious university, with growing research groups in quantum information and trapped-ion systems.",
+        "logo_path": "",
+        "md_filename": "i029-seoul-national-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9526,
+          37.4602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i015-kyoto-university",
+        "name": "Kyoto University",
+        "entity_type": "institution",
+        "city": "Kyoto",
+        "country": "Japan",
+        "short_description": "Kyoto University is one of Japan's top research universities with contributions to fundamental physics and quantum optics.",
+        "logo_path": "",
+        "md_filename": "i015-kyoto-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7808,
+          35.0267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i056-vu-amsterdam",
+        "name": "VU Amsterdam",
+        "entity_type": "institution",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "short_description": "VU Amsterdam (Vrije Universiteit Amsterdam) is a major Dutch research university with strong programs in precision measurements and fundamental physics.",
+        "logo_path": "",
+        "md_filename": "i056-vu-amsterdam.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.866,
+          52.334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i041-university-of-calgary",
+        "name": "University of Calgary",
+        "entity_type": "institution",
+        "city": "Calgary",
+        "country": "Canada",
+        "short_description": "The University of Calgary is a major Canadian research university with programs in quantum technologies and nanophotonics.",
+        "logo_path": "",
+        "md_filename": "i041-university-of-calgary.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.13,
+          51.0776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i017-massachusetts-institute-of-technology",
+        "name": "Massachusetts Institute of Technology",
+        "entity_type": "institution",
+        "city": "Cambridge",
+        "country": "United States",
+        "short_description": "The Massachusetts Institute of Technology (MIT) is a world-renowned research university with pioneering contributions to quantum computing, cold atoms, and trapped-ion systems.",
+        "logo_path": "",
+        "md_filename": "i017-massachusetts-institute-of-technology.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0942,
+          42.3601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i052-university-of-sydney",
+        "name": "University of Sydney",
+        "entity_type": "institution",
+        "city": "Sydney",
+        "country": "Australia",
+        "short_description": "The University of Sydney hosts leading quantum control and trapped-ion research, including work on quantum sensing and noise-engineered quantum gates.",
+        "logo_path": "",
+        "md_filename": "i052-university-of-sydney.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1877,
+          -33.8882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i025-peking-university",
+        "name": "Peking University",
+        "entity_type": "institution",
+        "city": "Beijing",
+        "country": "China",
+        "short_description": "Peking University is one of China's most prestigious research universities, with research groups in cold atoms and quantum optics.",
+        "logo_path": "",
+        "md_filename": "i025-peking-university.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3059,
+          39.9869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i026-physikalisch-technische-bundesanstalt-ptb",
+        "name": "Physikalisch-Technische Bundesanstalt (PTB)",
+        "entity_type": "institution",
+        "city": "Braunschweig",
+        "country": "Germany",
+        "short_description": "PTB is Germany's national metrology institute, conducting world-leading research in optical clocks and precision measurements with trapped ions.",
+        "logo_path": "",
+        "md_filename": "i026-physikalisch-technische-bundesanstalt-ptb.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4607,
+          52.2919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i043-university-of-california-los-angeles",
+        "name": "University of California, Los Angeles",
+        "entity_type": "institution",
+        "city": "Los Angeles",
+        "country": "United States",
+        "short_description": "UCLA is a leading public research university with strong programs in AMO physics, including trapped molecular ions and laser-cooled atomic systems.",
+        "logo_path": "",
+        "md_filename": "i043-university-of-california-los-angeles.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4452,
+          34.0689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i011-institute-for-basic-science-ibs-south-korea",
+        "name": "Institute for Basic Science (IBS), South Korea",
+        "entity_type": "institution",
+        "city": "Daejeon",
+        "country": "South Korea",
+        "short_description": "The Institute for Basic Science (IBS) is South Korea's flagship basic research institute, with a dedicated Center for Quantum Information that conducts world-class trapped-ion experiments.",
+        "logo_path": "",
+        "md_filename": "i011-institute-for-basic-science-ibs-south-korea.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.362,
+          36.3722
         ]
       }
     }
