@@ -144,6 +144,7 @@ function HomeContent() {
                             companyId={selectedCompanyId}
                             location={selectedLocation}
                             onCompanySelect={handleCompanySelect}
+                            onInstitutionSelect={handleInstitutionSelect}
                             onPersonSelect={handlePersonSelect}
                             onClose={handleClearProfile}
                         />
@@ -153,6 +154,7 @@ function HomeContent() {
                             location={selectedLocation}
                             onPersonSelect={handlePersonSelect}
                             onCompanySelect={handleCompanySelect}
+                            onInstitutionSelect={handleInstitutionSelect}
                             onClose={handleClearProfile}
                         />
                     )}

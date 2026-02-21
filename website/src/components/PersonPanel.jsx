@@ -22,11 +22,12 @@ import Link from '@docusaurus/Link';
  * @param {Function} props.onClose - Callback to close the panel
  * @returns {JSX.Element|null} Person Profile visual component
  */
-function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onClose }) {
+function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onInstitutionSelect, onClose }) {
     const [people, setPeople] = useState([]);
     const [person, setPerson] = useState(null);
     const [mdBody, setMdBody] = useState("");
     const [companies, setCompanies] = useState([]);
+    const [institutions, setInstitutions] = useState([]);
 
     useEffect(() => {
         // Fetch people
@@ -50,6 +51,17 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
                     .then(res => res.json())
                     .then(setCompanies)
                     .catch(e => console.warn("Could not load companies.json", e));
+            });
+
+        // Fetch institutions for linking
+        fetch('/ionlandscape/data/institutions.json')
+            .then(res => res.json())
+            .then(setInstitutions)
+            .catch(() => {
+                fetch('/data/institutions.json')
+                    .then(res => res.json())
+                    .then(setInstitutions)
+                    .catch(e => console.warn("Could not load institutions.json", e));
             });
     }, []);
 
@@ -100,19 +112,40 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
     };
 
     /**
-     * Resolves a company name string into an interactive profile link if
-     * the company exists in the known `companies.json` dataset. Uses fuzzy matching.
+     * Resolves a company or institution name string into an interactive profile link if
+     * the entity exists in the known datasets. Uses fuzzy matching.
      * 
-     * @param {string} companyName - Company name, acronym, or entity ID
+     * @param {string} entityName - Company or Institution name, acronym, or entity ID
      * @returns {JSX.Element} A clickable link or plain text span fallback
      */
-    const renderCompanyLink = (companyName) => {
-        if (!companyName) return null;
+    const renderEntityLink = (entityName) => {
+        if (!entityName) return null;
 
+        // Try Institution first
+        const inst = institutions.find(i =>
+            (i.name && i.name.toLowerCase() === entityName.toLowerCase()) ||
+            (i.id === entityName) ||
+            (i.aliases && i.aliases.some(a => a.toLowerCase() === entityName.toLowerCase())) ||
+            (i.name && i.name.toLowerCase().includes(entityName.toLowerCase()) && entityName.length > 3)
+        );
+
+        if (inst && onInstitutionSelect) {
+            return (
+                <span
+                    className="advisor-link"
+                    onClick={() => onInstitutionSelect(inst.md_filename)}
+                    title="Open Institution Profile"
+                >
+                    {entityName}
+                </span>
+            );
+        }
+
+        // Try Company
         const comp = companies.find(c =>
-            (c.name && c.name.toLowerCase() === companyName.toLowerCase()) ||
-            (c.id === companyName) ||
-            (c.name && c.name.toLowerCase().includes(companyName.toLowerCase()) && companyName.length > 3)
+            (c.name && c.name.toLowerCase() === entityName.toLowerCase()) ||
+            (c.id === entityName) ||
+            (c.name && c.name.toLowerCase().includes(entityName.toLowerCase()) && entityName.length > 3)
         );
 
         if (comp && onCompanySelect) {
@@ -122,11 +155,11 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
                     onClick={() => onCompanySelect(comp.md_filename)}
                     title="Open Company Profile"
                 >
-                    {companyName}
+                    {entityName}
                 </span>
             );
         }
-        return <span>{companyName}</span>;
+        return <span>{entityName}</span>;
     };
 
     const handleClose = (e) => {
@@ -178,7 +211,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
                 <h2>{person.name}</h2>
             </div>
             <p className="person-panel-position">
-                <em>{person.current_position && person.current_position.title} — {person.current_position && person.current_position.institution}</em>
+                <em>{person.current_position && person.current_position.title} — {person.current_position && renderEntityLink(person.current_position.institution)}</em>
             </p>
             {(person.keywords || []).length > 0 && (
                 <p className="person-panel-keywords"><strong>Keywords:</strong> {person.keywords.join(', ')}</p>
@@ -232,7 +265,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
                     <h4 className="affiliation-header">Affiliations</h4>
                     {person.affiliations.map((aff, i) => (
                         <div key={i} className="affiliation-item">
-                            <strong>{renderCompanyLink(aff.name)}</strong> — {aff.role}
+                            <strong>{renderEntityLink(aff.name)}</strong> — {aff.role}
                         </div>
                     ))}
                 </div>
@@ -253,7 +286,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
                             <h4 className="section-header">Education</h4>
                             {person.education.map((edu, idx) => (
                                 <div key={idx} className="trajectory-item">
-                                    <div className="trajectory-title">{edu.degree} — {edu.institution}</div>
+                                    <div className="trajectory-title">{edu.degree} — {renderEntityLink(edu.institution)}</div>
                                     <div className="trajectory-details">
                                         {edu.year && <span>({edu.year}) </span>}
                                         {edu.advisor && (
@@ -272,7 +305,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onCl
                             <h4 className="section-header">Postdoctoral Training</h4>
                             {person.postdocs.map((pd, idx) => (
                                 <div key={idx} className="trajectory-item">
-                                    <div className="trajectory-title">{pd.institution}</div>
+                                    <div className="trajectory-title">{renderEntityLink(pd.institution)}</div>
                                     <div className="trajectory-details">
                                         {pd.advisor && (
                                             <>

@@ -18,10 +18,11 @@ import Link from '@docusaurus/Link';
  * @param {Function} props.onClose - Callback to close the panel
  * @returns {JSX.Element|null} Company Profile visual component
  */
-function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, onClose }) {
+function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, onInstitutionSelect, onClose }) {
     const [companies, setCompanies] = useState([]);
     const [company, setCompany] = useState(null);
     const [people, setPeople] = useState([]);
+    const [institutions, setInstitutions] = useState([]);
 
     useEffect(() => {
         // Fetch people for linking
@@ -45,6 +46,17 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                     .then(res => res.json())
                     .then(setCompanies)
                     .catch(e => console.warn("Could not load companies.json", e));
+            });
+
+        // Fetch institutions
+        fetch('/ionlandscape/data/institutions.json')
+            .then(res => res.json())
+            .then(setInstitutions)
+            .catch(() => {
+                fetch('/data/institutions.json')
+                    .then(res => res.json())
+                    .then(setInstitutions)
+                    .catch(e => console.warn("Could not load institutions.json", e));
             });
     }, []);
 
@@ -91,6 +103,33 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                     className="advisor-link"
                     onClick={() => onPersonSelect && onPersonSelect(person.md_filename)}
                     title="Open Person Profile"
+                >
+                    {name}
+                </span>
+            );
+        }
+        return name;
+    };
+
+    /**
+     * Resolves an institution name into an interactive profile link.
+     */
+    const renderInstitutionLink = (name) => {
+        if (!name) return name;
+
+        const inst = institutions.find(i =>
+            (i.name && i.name.toLowerCase() === name.toLowerCase()) ||
+            (i.id === name) ||
+            (i.aliases && i.aliases.some(a => a.toLowerCase() === name.toLowerCase())) ||
+            (i.name && i.name.toLowerCase().includes(name.toLowerCase()) && name.length > 3)
+        );
+
+        if (inst && onInstitutionSelect) {
+            return (
+                <span
+                    className="advisor-link"
+                    onClick={() => onInstitutionSelect(inst.md_filename)}
+                    title="Open Institution Profile"
                 >
                     {name}
                 </span>
@@ -228,7 +267,12 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                     ))}
                     {company.people.spun_out_of && company.people.spun_out_of.length > 0 && (
                         <div className="affiliation-item" style={{ marginTop: '5px' }}>
-                            <em>Spun out of: {company.people.spun_out_of.join(", ")}</em>
+                            <em>Spun out of: {company.people.spun_out_of.map((inst, idx) => (
+                                <React.Fragment key={idx}>
+                                    {renderInstitutionLink(inst)}
+                                    {idx < company.people.spun_out_of.length - 1 ? ", " : ""}
+                                </React.Fragment>
+                            ))}</em>
                         </div>
                     )}
                 </>
