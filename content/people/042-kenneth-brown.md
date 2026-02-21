@@ -31,8 +31,8 @@ links:
 location:
   city: Durham
   country: United States
-  lat: 35.994
-  lon: -78.8986
+  lat: 36.0014
+  lon: -78.9382
   region: North Carolina
 name: Kenneth R. Brown
 platforms:
