@@ -469,11 +469,11 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
                 ? `${props.city}, ${props.country}`
                 : null;
 
-            const popup = new maplibregl.Popup({ offset: 35, maxWidth: '300px' })
-                .setHTML(createPopupHTML(group, locationLabel));
-
             // Create custom marker element
             const el = document.createElement('div');
+
+            let anchorType = 'bottom';
+            let popupOffset = [0, -40]; // Popup floats above the pin tip
 
             // Force institutions to use standard pins, only companies get logos
             const logoFeature = group.find(f => f.properties?.logo_path && f.properties?.entity_type === 'company');
@@ -482,6 +482,9 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
                 el.className = 'ion-marker-logo';
                 const src = `/ionlandscape${logoFeature.properties.logo_path}`;
                 el.style.backgroundImage = `url('${src}')`;
+
+                anchorType = 'center'; // Circles anchor in their true center
+                popupOffset = [0, -28];
             } else {
                 // Liquid Glass SVG Pin Marker (Matches Legend Icon)
                 el.className = 'ion-marker-pin';
@@ -513,7 +516,10 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
                 `;
             }
 
-            const marker = new maplibregl.Marker({ element: el })
+            const popup = new maplibregl.Popup({ offset: popupOffset, maxWidth: '300px' })
+                .setHTML(createPopupHTML(group, locationLabel));
+
+            const marker = new maplibregl.Marker({ element: el, anchor: anchorType })
                 .setLngLat([lon, lat])
                 .setPopup(popup)
                 .addTo(mapRef.current);
