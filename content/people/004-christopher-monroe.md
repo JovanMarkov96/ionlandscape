@@ -40,7 +40,7 @@ links:
   wikipedia: https://en.wikipedia.org/wiki/Christopher_Monroe
 location:
   city: Durham
-  country: USA
+  country: United States
   lat: 36.0033
   lon: -78.9377
   region: North Carolina

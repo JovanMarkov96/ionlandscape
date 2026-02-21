@@ -2,8 +2,8 @@
 affiliations: []
 created_at: '2026-01-26'
 current_position:
-  institution: IQOQI Innsbruck (ÖAW) & University of Innsbruck
-  title: Senior Scientist / Associate Professor
+  institution: University of Innsbruck
+  title: Senior Scientist
 education:
 - advisor: Rainer Blatt
   degree: PhD Physics

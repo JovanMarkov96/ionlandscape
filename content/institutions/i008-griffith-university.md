@@ -7,7 +7,7 @@ entity_type: "institution"
 aliases: ["Griffith"]
 
 location:
-  city: "Brisbane"
+  city: "Brisbane/Gold Coast"
   region: "Queensland"
   country: "Australia"
   lat: -27.5557

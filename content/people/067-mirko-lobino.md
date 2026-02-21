@@ -27,11 +27,11 @@ links:
   group_page: https://webapps.unitn.it/du/en/Persona/PER0223733/Curriculum
   orcid: null
 location:
-  city: Brisbane
-  country: Australia
-  lat: -27.4705
-  lon: 153.026
-  region: Queensland
+  city: Trento
+  country: Italy
+  lat: 46.0664
+  lon: 11.1501
+  region: Trentino-Alto Adige
 name: Mirko Lobino
 platforms:
 - Trapped ions

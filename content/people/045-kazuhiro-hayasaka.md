@@ -5,12 +5,12 @@ current_position:
   institution: National Institute of Information and Communications Technology (NICT)
   title: Group Leader
 education:
-- degree: PhD (Physics)
-  institution: Osaka University
-  year: null
-  advisor: null
+- advisor: null
   confidence: not_found
-  note: "PhD details require verification from institutional sources"
+  degree: PhD (Physics)
+  institution: Osaka University
+  note: PhD details require verification from institutional sources
+  year: null
 group_type: experimental
 id: 045-kazuhiro-hayasaka
 ion_species:
@@ -28,11 +28,11 @@ links:
   group_page: null
   orcid: null
 location:
-  city: Kobe
+  city: Koganei
   country: Japan
-  lat: 34.6901
-  lon: 135.1955
-  region: Hyogo
+  lat: 35.7107
+  lon: 139.4895
+  region: Tokyo
 name: Kazuhiro Hayasaka
 platforms:
 - Trapped ions
@@ -40,10 +40,10 @@ postdocs: []
 sort_name: Hayasaka, Kazuhiro
 thesis:
   link: null
-  title: "Research on control of interaction between accumulated ions and quantized electromagnetic field"
+  note: Thesis information requires verification
+  title: Research on control of interaction between accumulated ions and quantized
+    electromagnetic field
   year: null
-  note: "Title translated from Japanese: 蓄積イオンと量子化された電磁場の相互作用制御に関する研究"
-  note: "Thesis information requires verification"
 updated_at: '2026-01-30'
 ---
 

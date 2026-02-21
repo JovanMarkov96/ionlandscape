@@ -2,7 +2,7 @@
 affiliations: []
 created_at: '2026-01-30'
 current_position:
-  institution: NIST Boulder
+  institution: National Institute of Standards and Technology (NIST), Boulder
   title: Physicist
 education:
 - advisor: null

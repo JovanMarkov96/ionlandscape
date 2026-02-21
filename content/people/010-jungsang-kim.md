@@ -31,7 +31,7 @@ links:
   scholars_at_duke: https://scholars.duke.edu/person/jungsang
 location:
   city: Durham
-  country: USA
+  country: United States
   lat: 36.0014
   lon: -78.9382
   region: North Carolina

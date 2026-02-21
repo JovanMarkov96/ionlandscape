@@ -32,7 +32,7 @@ links:
   wikipedia: https://en.wikipedia.org/wiki/David_J._Wineland
 location:
   city: Eugene
-  country: USA
+  country: United States
   lat: 44.0496255
   lon: -123.0728292
   region: Oregon

@@ -26,7 +26,7 @@ links:
   orcid: https://orcid.org/0000-0001-8329-438X
   sussex_profile: https://profiles.sussex.ac.uk/p179227-winfried-hensinger
 location:
-  city: Brighton/Falmer
+  city: Brighton
   country: United Kingdom
   lat: 50.8674
   lon: -0.0878

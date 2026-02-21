@@ -26,11 +26,11 @@ links:
   group_page: https://barclaylab.ucalgary.ca/
   orcid: https://orcid.org/0000-0002-3642-1279
 location:
-  city: Vancouver
+  city: Calgary
   country: Canada
-  lat: 49.2827
-  lon: -123.1207
-  region: British Columbia
+  lat: 51.0776
+  lon: -114.13
+  region: Alberta
 name: Paul Barclay
 platforms:
 - Trapped ions

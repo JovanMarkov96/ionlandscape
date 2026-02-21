@@ -5,8 +5,8 @@ affiliations:
   type: company
 created_at: '2026-01-26'
 current_position:
-  institution: University of Innsbruck & IQOQI Innsbruck (ÖAW)
-  title: Professor (Experimental Physics); Research Director (IQOQI Innsbruck, ÖAW)
+  institution: University of Innsbruck
+  title: Professor Emeritus
 education:
 - advisor: Günter Werth
   degree: PhD (Physics)

@@ -30,7 +30,7 @@ links:
   orcid: https://orcid.org/0000-0001-8442-625X
 location:
   city: Boulder
-  country: USA
+  country: United States
   lat: 40.0094
   lon: -105.2629
   region: Colorado

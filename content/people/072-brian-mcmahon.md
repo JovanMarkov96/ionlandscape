@@ -2,7 +2,7 @@
 affiliations: []
 created_at: '2026-01-30'
 current_position:
-  institution: Georgia Tech
+  institution: Georgia Institute of Technology
   title: Professor
 education:
 - advisor: null

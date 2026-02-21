@@ -30,7 +30,7 @@ links:
   quantnet_profile: https://quantnet.lbl.gov/team/hartmut-h%C3%A4ffner
 location:
   city: Berkeley
-  country: USA
+  country: United States
   lat: 37.8719
   lon: -122.2585
   region: California
