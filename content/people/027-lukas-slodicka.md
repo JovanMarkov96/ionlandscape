@@ -10,7 +10,7 @@ education:
   note: Dissertation on single ion-single photon interactions in free space
   year: 2013
 group_type: experimental
-id: 027-lukas-slod icka
+id: 027-lukas-slodicka
 ion_species:
 - Ca+
 keywords:
