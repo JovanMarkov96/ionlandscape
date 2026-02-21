@@ -3630,11 +3630,11 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Birmingham",
-      "region": "West Midlands",
+      "city": "Brighton",
+      "region": "East Sussex",
       "country": "United Kingdom",
-      "lat": 52.4862,
-      "lon": -1.8904
+      "lat": 50.8671,
+      "lon": -0.0875
     },
     "education": [
       {
@@ -3671,7 +3671,7 @@
       "title": null,
       "year": null
     },
-    "short_bio": "Matthias Keller leads trapped-ion research at the University of Birmingham focusing on ion-photon interfaces and cavity QED for quantum networks.",
+    "short_bio": "Matthias Keller leads trapped-ion research at the University of Sussex focusing on ion-photon interfaces and cavity QED for quantum networks.",
     "md_filename": "071-matthias-keller.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-01-30"
