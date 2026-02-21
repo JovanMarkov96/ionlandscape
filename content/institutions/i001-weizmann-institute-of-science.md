@@ -31,10 +31,13 @@ media:
   hero_image_path: ""
 
 directory:
-  current_members: []
-  alumni: []
-  member_count: 0
-  alumni_count: 0
+  current_members:
+    - "001-roee-ozeri.md"
+    - "002-ziv-meir.md"
+  alumni:
+    - "078-yuval-shagam.md"
+  member_count: 2
+  alumni_count: 1
 
 sources:
   - url: "https://www.weizmann.ac.il/"
