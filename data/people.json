@@ -638,7 +638,7 @@
     "name": "Brian McMahon",
     "sort_name": "McMahon, Brian",
     "current_position": {
-      "institution": "Georgia Tech",
+      "institution": "Georgia Institute of Technology",
       "title": "Professor"
     },
     "platforms": [
@@ -997,7 +997,7 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Brighton/Falmer",
+      "city": "Brighton",
       "region": "England",
       "country": "United Kingdom",
       "lat": 50.8674,
@@ -1487,20 +1487,20 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Kobe",
-      "region": "Hyogo",
+      "city": "Koganei",
+      "region": "Tokyo",
       "country": "Japan",
-      "lat": 34.6901,
-      "lon": 135.1955
+      "lat": 35.7107,
+      "lon": 139.4895
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Osaka University",
-        "year": null,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification from institutional sources"
+        "degree": "PhD (Physics)",
+        "institution": "Osaka University",
+        "note": "PhD details require verification from institutional sources",
+        "year": null
       }
     ],
     "postdocs": [],
@@ -1525,9 +1525,9 @@
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": "Research on control of interaction between accumulated ions and quantized electromagnetic field",
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Kazuhiro Hayasaka leads the Space-Time Standards Laboratory at NICT in Kobe, Japan. His research focuses on developing high-precision optical clocks using trapped indium and calcium ions for frequency standards and metrology.",
     "md_filename": "045-kazuhiro-hayasaka.md",
@@ -1725,11 +1725,11 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Brisbane",
-      "region": "Queensland",
-      "country": "Australia",
-      "lat": -27.4705,
-      "lon": 153.026
+      "city": "Trento",
+      "region": "Trentino-Alto Adige",
+      "country": "Italy",
+      "lat": 46.0664,
+      "lon": 11.1501
     },
     "education": [
       {
@@ -1789,7 +1789,7 @@
     "location": {
       "city": "Eugene",
       "region": "Oregon",
-      "country": "USA",
+      "country": "United States",
       "lat": 44.0496255,
       "lon": -123.0728292
     },
@@ -1908,8 +1908,8 @@
     "name": "Rainer Blatt",
     "sort_name": "Blatt, Rainer",
     "current_position": {
-      "institution": "University of Innsbruck & IQOQI Innsbruck (ÖAW)",
-      "title": "Professor (Experimental Physics); Research Director (IQOQI Innsbruck, ÖAW)"
+      "institution": "University of Innsbruck",
+      "title": "Professor Emeritus"
     },
     "platforms": [
       "Trapped ions",
@@ -1996,7 +1996,7 @@
     "location": {
       "city": "Durham",
       "region": "North Carolina",
-      "country": "USA",
+      "country": "United States",
       "lat": 36.0014,
       "lon": -78.9382
     },
@@ -2183,7 +2183,7 @@
     "location": {
       "city": "Boulder",
       "region": "Colorado",
-      "country": "USA",
+      "country": "United States",
       "lat": 40.0094,
       "lon": -105.2629
     },
@@ -2241,7 +2241,7 @@
     "location": {
       "city": "Berkeley",
       "region": "California",
-      "country": "USA",
+      "country": "United States",
       "lat": 37.8719,
       "lon": -122.2585
     },
@@ -2356,11 +2356,11 @@
     ],
     "affiliations": [],
     "location": {
-      "city": "Vancouver",
-      "region": "British Columbia",
+      "city": "Calgary",
+      "region": "Alberta",
       "country": "Canada",
-      "lat": 49.2827,
-      "lon": -123.1207
+      "lat": 51.0776,
+      "lon": -114.13
     },
     "education": [
       {
@@ -3242,7 +3242,7 @@
     "location": {
       "city": "Durham",
       "region": "North Carolina",
-      "country": "USA",
+      "country": "United States",
       "lat": 36.0033,
       "lon": -78.9377
     },
@@ -3493,8 +3493,8 @@
     "name": "Christian F. Roos",
     "sort_name": "Roos, Christian F.",
     "current_position": {
-      "institution": "IQOQI Innsbruck (ÖAW) & University of Innsbruck",
-      "title": "Senior Scientist / Associate Professor"
+      "institution": "University of Innsbruck",
+      "title": "Senior Scientist"
     },
     "platforms": [
       "Trapped ions"
@@ -4008,7 +4008,7 @@
     "location": {
       "city": "Boulder",
       "region": "Colorado",
-      "country": "USA",
+      "country": "United States",
       "lat": 40.0094,
       "lon": -105.2629
     },
@@ -4312,7 +4312,7 @@
     "name": "David Hume",
     "sort_name": "Hume, David",
     "current_position": {
-      "institution": "NIST Boulder",
+      "institution": "National Institute of Standards and Technology (NIST), Boulder",
       "title": "Physicist"
     },
     "platforms": [

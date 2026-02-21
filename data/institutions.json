@@ -9,7 +9,7 @@
     ],
     "abbreviations": [],
     "location": {
-      "city": "Brisbane",
+      "city": "Brisbane/Gold Coast",
       "region": "Queensland",
       "country": "Australia",
       "lat": -27.5557,
@@ -2107,17 +2107,18 @@
     "directory": {
       "current_members": [
         "015-tracy-northup.md",
+        "017-rainer-blatt.md",
+        "005-christian-roos.md",
         "014-thomas-monz.md",
         "077-ben-lanyon.md"
       ],
       "alumni": [
         "044-johannes-hecker-denschlag.md",
         "027-lukas-slodicka.md",
-        "060-moonjoo-lee.md",
-        "005-christian-roos.md"
+        "060-moonjoo-lee.md"
       ],
-      "member_count": 3,
-      "alumni_count": 4
+      "member_count": 5,
+      "alumni_count": 3
     },
     "sources": [
       {
