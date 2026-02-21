@@ -27,11 +27,11 @@ links:
   group_page: http://www.sussex.ac.uk/physics/iqt/
   orcid: https://orcid.org/0000-0002-5326-886X
 location:
-  city: Birmingham
+  city: Brighton
   country: United Kingdom
-  lat: 52.4862
-  lon: -1.8904
-  region: West Midlands
+  lat: 50.8671
+  lon: -0.0875
+  region: East Sussex
 name: Matthias Keller
 platforms:
 - Trapped ions
@@ -45,4 +45,4 @@ thesis:
 updated_at: '2026-01-30'
 ---
 
-Matthias Keller leads trapped-ion research at the University of Birmingham focusing on ion-photon interfaces and cavity QED for quantum networks.
+Matthias Keller leads trapped-ion research at the University of Sussex focusing on ion-photon interfaces and cavity QED for quantum networks.
