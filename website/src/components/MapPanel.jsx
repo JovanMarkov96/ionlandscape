@@ -5,7 +5,6 @@ import React, { useEffect, useRef, useMemo, useCallback } from 'react';
 import { useColorMode } from '@docusaurus/theme-common';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import 'maplibre-gl/dist/maplibre-gl.css';
 
 const defaultCenter = [10, 50]; // Centered on Europe
 const defaultZoom = 2;
@@ -246,15 +245,6 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
     const [companies, setCompanies] = React.useState([]);
     const [institutions, setInstitutions] = React.useState([]);
     const [filters, setFilters] = React.useState({ people: true, companies: true, institutions: true });
-    // Collapsible Filters State
-    const [showFilters, setShowFilters] = React.useState(false);
-
-    useEffect(() => {
-        // Expand by default on desktop
-        if (typeof window !== 'undefined' && window.innerWidth > 768) {
-            setShowFilters(true);
-        }
-    }, []);
 
     // Docusaurus color mode
     const { colorMode } = useColorMode();
@@ -420,11 +410,7 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
         });
 
         map.on('load', () => {
-            console.log('MapLibre GL JS loaded - Self-hosted, zero external dependencies');
-        });
-
-        map.on('load', () => {
-            console.log('MapLibre GL JS loaded successfully');
+            console.log('MapLibre GL JS loaded successfully - Self-hosted, zero external dependencies');
         });
 
         mapRef.current = map;

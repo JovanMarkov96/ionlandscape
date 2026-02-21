@@ -60,6 +60,13 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
         if (onClose) onClose();
     };
 
+    /**
+     * Renders a clickable link for a person based on their ID.
+     * Falls back to rendering just the ID string if the person is not found in the database.
+     * 
+     * @param {string} pid - The person ID or md_filename
+     * @returns {JSX.Element} The rendered link or text span
+     */
     const renderPersonLink = (pid) => {
         const p = people.find(x => x.md_filename === pid || x.id === pid);
         if (p) {
