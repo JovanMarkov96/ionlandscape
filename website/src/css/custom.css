@@ -366,9 +366,6 @@ body,
   position: relative;
   cursor: pointer;
   z-index: 10;
-  /* Center tip on coordinate: tip of the SVG path is at the bottom center. */
-  margin-top: -36px;
-  margin-left: -18px;
   display: flex !important;
   align-items: center;
   justify-content: center;
