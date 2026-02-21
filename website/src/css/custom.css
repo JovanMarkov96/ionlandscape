@@ -1568,15 +1568,49 @@ html:has(.groups-page),
   position: relative;
 }
 
+/* ===== Elegant Link Styles (Panels & Popups) ===== */
+
+/* Base: all links inside panels look like regular text */
+.person-panel-content a,
 .advisor-link {
-  color: var(--ifm-color-primary);
+  color: inherit;
+  text-decoration: none;
   cursor: pointer;
-  text-decoration: underline;
-  transition: color 0.15s ease;
+  border-bottom: 1.5px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
+/* Hover: reveal a refined deep indigo accent and subtle underline */
+.person-panel-content a:hover,
 .advisor-link:hover {
   color: var(--ifm-color-primary-dark);
+  border-bottom-color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .person-panel-content a:hover,
+[data-theme='dark'] .advisor-link:hover {
+  color: var(--ifm-color-primary-lighter);
+  border-bottom-color: var(--ifm-color-primary-light);
+}
+
+/* Exclude badge links from inheriting panel link styles */
+.person-panel-content a.badge,
+.person-panel-content a.link-badge {
+  color: white;
+  border-bottom: none;
+}
+
+/* Map popup links */
+.maplibregl-popup-content a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.maplibregl-popup-content a:hover {
+  color: var(--ifm-color-primary-dark);
+  border-bottom-color: var(--ifm-color-primary-lighter);
 }
 
 .education-section-container {
