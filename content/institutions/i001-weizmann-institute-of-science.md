@@ -27,7 +27,7 @@ links:
   linkedin: ""
 
 media:
-  logo_path: "/img/institutions/Weizmann_Institute_of_Science_Logo.svg.png"
+  logo_path: "/img/institutions/weizmann_logo.png"
   hero_image_path: ""
 
 directory:

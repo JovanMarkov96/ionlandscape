@@ -97,7 +97,16 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
 
             <div className="person-panel-header" style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                 {media?.logo_path ? (
-                    <img src={media.logo_path} alt={`${name} logo`} style={{ width: '50px', height: '50px', objectFit: 'contain' }} />
+                    <img
+                        src={media.logo_path.startsWith('http') ? media.logo_path : `/ionlandscape${media.logo_path}`}
+                        alt={`${name} logo`}
+                        style={{ width: '50px', height: '50px', objectFit: 'contain' }}
+                        onError={(e) => {
+                            if (e.target.src.includes('/ionlandscape')) {
+                                e.target.src = media.logo_path;
+                            }
+                        }}
+                    />
                 ) : (
                     <div style={{
                         width: '50px', height: '50px',
