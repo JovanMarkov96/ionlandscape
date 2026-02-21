@@ -132,17 +132,6 @@ function HomeContent() {
                         />
                     )}
                 </div>
-
-                {/* Mobile floating button to reopen panel if a profile is selected */}
-                {(selectedPersonId || selectedCompanyId || selectedLocation) && !isPanelOpen && (
-                    <button
-                        className="mobile-panel-toggle"
-                        onClick={() => setIsPanelOpen(true)}
-                        aria-label="Open profile panel"
-                    >
-                        👤
-                    </button>
-                )}
             </div>
         </Layout>
     );

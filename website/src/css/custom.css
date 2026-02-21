@@ -424,32 +424,7 @@ body,
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
-/* ===== Mobile Toggle Button ===== */
-.mobile-panel-toggle {
-  display: none;
-  position: fixed;
-  bottom: 85px;
-  /* Stay above footer */
-  right: 20px;
-  z-index: 2001;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--ion-accent), var(--ifm-color-primary-light));
-  color: white;
-  border: none;
-  box-shadow: var(--ion-shadow-lg);
-  font-size: 24px;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.mobile-panel-toggle:hover {
-  transform: scale(1.05);
-  box-shadow: 0 16px 48px rgba(79, 70, 229, 0.3);
-}
+/* Removed .mobile-panel-toggle styles */
 
 /* ===== Back to Map Button (mobile only) ===== */
 .back-to-map-btn {
@@ -474,6 +449,14 @@ body,
 }
 
 /* ===== Responsive Breakpoints ===== */
+
+/* ===== Filter Badges Fix ===== */
+.badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  line-height: 1.2 !important;
+}
 
 /* Tablet (768px and below) */
 @media screen and (max-width: 768px) {
@@ -511,22 +494,23 @@ body,
     bottom: 80px;
     /* Safely above the footer */
     height: auto;
-    width: auto;
-    left: 10px;
-    right: 10px;
+    width: 95%;
+    max-width: 500px;
+    left: 50%;
     z-index: 2000;
     /* Higher than Leaflet controls (1000) */
-    transform: translateY(120%) translateX(0);
+    transform: translateY(120%) translateX(-50%);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.3);
   }
 
   .ion-landscape-panel.panel-open {
-    transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(-50%);
   }
 
-  .mobile-panel-toggle {
-    display: flex;
+  /* Lift map filters safely above footer/device tabs */
+  .map-filters-container {
+    bottom: 115px !important;
   }
 
   .back-to-map-btn {
