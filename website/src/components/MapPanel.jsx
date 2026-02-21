@@ -475,6 +475,7 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
             // Create custom marker element
             const el = document.createElement('div');
 
+            const logoFeature = group.find(f => f.properties?.logo_path);
             if (logoFeature && logoFeature.properties.logo_path) {
                 // Logo Marker
                 el.className = 'ion-marker-logo';
