@@ -310,7 +310,8 @@ body,
   border-radius: 20px;
   overflow-y: auto;
   overflow-x: hidden;
-  z-index: 1000;
+  z-index: 99999;
+  /* Elevated above MapLibre popups */
 
   /* Light Mode: Matte Liquid Glass */
   background: rgba(255, 255, 255, 0.65);
