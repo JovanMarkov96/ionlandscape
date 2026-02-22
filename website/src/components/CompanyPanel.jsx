@@ -256,27 +256,46 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             )}
 
             {/* People */}
-            {company.people && (company.people.founders?.length > 0 || company.people.leadership?.length > 0) && (
-                <>
-                    <div className="panel-divider" />
-                    <h4 className="section-header">Leadership</h4>
-                    {company.people.founders && company.people.founders.map((p, i) => (
-                        <div key={i} className="affiliation-item">
-                            <strong>{renderPersonLink(p.name)}</strong> — {p.role}
-                        </div>
-                    ))}
-                    {company.people.spun_out_of && company.people.spun_out_of.length > 0 && (
-                        <div className="affiliation-item" style={{ marginTop: '5px' }}>
-                            <em>Spun out of: {company.people.spun_out_of.map((inst, idx) => (
-                                <React.Fragment key={idx}>
-                                    {renderInstitutionLink(inst)}
-                                    {idx < company.people.spun_out_of.length - 1 ? ", " : ""}
-                                </React.Fragment>
-                            ))}</em>
-                        </div>
-                    )}
-                </>
-            )}
+            {((company.people && (company.people.founders?.length > 0 || company.people.leadership?.length > 0)) ||
+                (company.directory?.current_members?.length > 0)) && (
+                    <>
+                        <div className="panel-divider" />
+                        <h4 className="section-header">Team & Leadership</h4>
+
+                        {company.people?.founders && company.people.founders.map((p, i) => (
+                            <div key={i} className="affiliation-item">
+                                <strong>{renderPersonLink(p.name)}</strong> — {p.role}
+                            </div>
+                        ))}
+
+                        {company.directory?.current_members && company.directory.current_members.length > 0 && (
+                            <div className="affiliation-item" style={{ marginTop: '8px' }}>
+                                <strong>Team Members: </strong>
+                                {company.directory.current_members.map((pID, idx) => {
+                                    const matchedPerson = people.find(p => p.md_filename === pID);
+                                    const displayName = matchedPerson ? matchedPerson.name : pID;
+                                    return (
+                                        <React.Fragment key={idx}>
+                                            {renderPersonLink(displayName)}
+                                            {idx < company.directory.current_members.length - 1 ? ", " : ""}
+                                        </React.Fragment>
+                                    );
+                                })}
+                            </div>
+                        )}
+
+                        {company.people?.spun_out_of && company.people.spun_out_of.length > 0 && (
+                            <div className="affiliation-item" style={{ marginTop: '5px' }}>
+                                <em>Spun out of: {company.people.spun_out_of.map((inst, idx) => (
+                                    <React.Fragment key={idx}>
+                                        {renderInstitutionLink(inst)}
+                                        {idx < company.people.spun_out_of.length - 1 ? ", " : ""}
+                                    </React.Fragment>
+                                ))}</em>
+                            </div>
+                        )}
+                    </>
+                )}
 
             {/* Links */}
             <div className="panel-divider" />

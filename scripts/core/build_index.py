@@ -170,6 +170,40 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
             "md_filename": os.path.basename(md_path),
             "updated_at": meta.get("updated_at", "")
         }
+
+        # Auto-generate directories
+        current_members = []
+        
+        # Build set of matching names for the company (its name + aliases)
+        match_names = {name.lower().strip()}
+        for alias in meta.get("aliases", []):
+            match_names.add(alias.lower().strip())
+        
+        for person in people:
+            pid = person["md_filename"]
+            is_current = False
+            
+            # Check current position
+            cp = person.get("current_position", {})
+            if isinstance(cp, dict):
+                p_inst = cp.get("institution", "").lower().strip()
+                if p_inst in match_names:
+                    is_current = True
+            
+            # Check affiliations
+            for aff in person.get("affiliations", []):
+                aff_name = aff.get("name", "").lower().strip()
+                if aff_name in match_names:
+                    is_current = True
+            
+            if is_current:
+                current_members.append(pid)
+
+        company_obj["directory"] = {
+            "current_members": current_members,
+            "member_count": len(current_members)
+        }
+
         companies.append(company_obj)
 
         # GeoJSON Feature
