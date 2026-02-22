@@ -517,8 +517,8 @@ body,
     width: 95%;
     max-width: 500px;
     left: 50%;
-    z-index: 2000;
-    /* Higher than Leaflet controls (1000) */
+    z-index: 99999;
+    /* Higher than all Leaflet/MapLibre controls and popups */
     transform: translateY(120%) translateX(-50%);
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.3);
