@@ -154,18 +154,26 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
 
             <div className="person-panel-header">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-                    {company.media?.logo_path && (
+                    {company.media?.logo_path ? (
                         <div className="panel-logo-container">
                             <img
                                 src={company.media.logo_path.startsWith('http') ? company.media.logo_path : `/ionlandscape${company.media.logo_path}`}
                                 alt={`${company.name} logo`}
                                 onError={(e) => {
-                                    // Try without prefix if failed
                                     if (e.target.src.includes('/ionlandscape')) {
                                         e.target.src = company.media.logo_path;
                                     }
                                 }}
                             />
+                        </div>
+                    ) : (
+                        <div className="panel-logo-placeholder" title="No logo available">
+                            {(() => {
+                                const nameParts = (company.name || '').split(' ').filter(p => p.trim() !== '');
+                                if (nameParts.length > 1) return (nameParts[0][0] + nameParts[1][0]).toUpperCase();
+                                if (nameParts.length === 1) return nameParts[0].substring(0, 2).toUpperCase();
+                                return 'CO';
+                            })()}
                         </div>
                     )}
                     <h2>{company.name}</h2>

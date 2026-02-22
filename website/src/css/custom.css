@@ -426,7 +426,31 @@ body,
   pointer-events: none;
 }
 
-.ion-marker-logo:hover {
+.ion-marker-placeholder {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  background: linear-gradient(135deg, #e65100, #ff9800);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, 0.2),
+    inset 0 0 12px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  margin-top: -24px;
+  margin-left: -24px;
+  z-index: 10;
+}
+
+.ion-marker-logo:hover,
+.ion-marker-placeholder:hover {
   transform: translateY(-8px) scale(1.15);
   z-index: 1001 !important;
   box-shadow:
@@ -434,10 +458,93 @@ body,
     inset 0 0 16px rgba(255, 255, 255, 1);
 }
 
-[data-theme='dark'] .ion-marker-logo {
+[data-theme='dark'] .ion-marker-logo,
+[data-theme='dark'] .ion-marker-placeholder {
   border: 3px solid rgba(255, 255, 255, 0.85);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .ion-marker-logo {
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Company Panel Logos */
+.panel-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 1px solid var(--ion-border);
+}
+
+.panel-logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.panel-logo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e65100, #ffb74d);
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+  user-select: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+[data-theme='dark'] .panel-logo-placeholder {
+  background: linear-gradient(135deg, #e65100, #bf360c);
+}
+
+/* Map Popup Logos */
+.popup-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-right: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.popup-logo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.popup-logo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e65100, #ffb74d);
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-right: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* Ensure map popups are never concealed by pins */

@@ -335,16 +335,28 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
 
             // Logo HTML
             let logoHtml = '';
-            if ((isCompany || isInstitution) && props.logo_path) {
-                const src = `/ionlandscape${props.logo_path}`;
-                const safeSrc = src.startsWith('http') || src.startsWith('/ionlandscape')
-                    ? src
-                    : `/ionlandscape${src}`;
+            if (isCompany || isInstitution) {
+                if (props.logo_path) {
+                    const src = `/ionlandscape${props.logo_path}`;
+                    const safeSrc = src.startsWith('http') || src.startsWith('/ionlandscape')
+                        ? src
+                        : `/ionlandscape${src}`;
 
-                logoHtml = `
-                <div class="popup-logo-container">
-                    <img src="${safeSrc}" onerror="this.onerror=null; this.src='${src}';" style="background-color: white; padding: 2px; border-radius: 4px;" />
-                </div>`;
+                    logoHtml = `
+                    <div class="popup-logo-container">
+                        <img src="${safeSrc}" onerror="this.onerror=null; this.src='${src}';" />
+                    </div>`;
+                } else if (isCompany) {
+                    const nameParts = (props.name || '').split(' ').filter(p => p.trim() !== '');
+                    let initials = 'CO';
+                    if (nameParts.length > 1) initials = (nameParts[0][0] + nameParts[1][0]).toUpperCase();
+                    else if (nameParts.length === 1) initials = nameParts[0].substring(0, 2).toUpperCase();
+
+                    logoHtml = `
+                    <div class="popup-logo-placeholder">
+                        ${initials}
+                    </div>`;
+                }
             }
 
             const dataType = isCompany ? 'company' : (isInstitution ? 'institution' : 'person');
@@ -462,13 +474,22 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
             let popupOffset = [0, -40]; // Popup floats above the pin tip
 
             // Force institutions to use standard pins, only companies get logos
-            const logoFeature = group.find(f => f.properties?.logo_path && f.properties?.entity_type === 'company');
-            if (logoFeature && logoFeature.properties.logo_path) {
-                // Logo Marker
-                el.className = 'ion-marker-logo';
-                const src = `/ionlandscape${logoFeature.properties.logo_path}`;
-                el.style.backgroundImage = `url('${src}')`;
-
+            const companyFeature = group.find(f => f.properties?.entity_type === 'company');
+            if (companyFeature) {
+                if (companyFeature.properties?.logo_path) {
+                    // Logo Marker
+                    el.className = 'ion-marker-logo';
+                    const src = `/ionlandscape${companyFeature.properties.logo_path}`;
+                    el.style.backgroundImage = `url('${src}')`;
+                } else {
+                    // Placeholder Logo Marker
+                    el.className = 'ion-marker-placeholder';
+                    const nameParts = (companyFeature.properties.name || '').split(' ').filter(p => p.trim() !== '');
+                    let initials = 'CO';
+                    if (nameParts.length > 1) initials = (nameParts[0][0] + nameParts[1][0]).toUpperCase();
+                    else if (nameParts.length === 1) initials = nameParts[0].substring(0, 2).toUpperCase();
+                    el.innerHTML = `<span>${initials}</span>`;
+                }
                 anchorType = 'center'; // Circles anchor in their true center
                 popupOffset = [0, -28];
             } else {
