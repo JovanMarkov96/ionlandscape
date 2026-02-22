@@ -153,7 +153,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             )}
 
             <div className="person-panel-header">
-                <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+                <div className="panel-flex-header">
                     {company.media?.logo_path ? (
                         <div className="panel-logo-container">
                             <img
@@ -209,21 +209,21 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                 <>
                     <h4 className="section-header">Approach</h4>
                     {company.approach.elevator_pitch && (
-                        <p style={{ fontSize: '0.9em', fontStyle: 'italic' }}>
+                        <p className="company-approach-pitch">
                             "{company.approach.elevator_pitch}"
                         </p>
                     )}
                     {company.approach.differentiators && (
-                        <ul style={{ fontSize: '0.9em' }}>
+                        <ul className="company-approach-list">
                             {company.approach.differentiators.map((diff, i) => (
                                 <li key={i}>{diff}</li>
                             ))}
                         </ul>
                     )}
                     {company.approach.architecture_tags && (
-                        <div style={{ marginBottom: '10px' }}>
+                        <div className="company-architecture-tags">
                             {company.approach.architecture_tags.map((tag, i) => (
-                                <span key={i} className="badge badge--secondary margin-right--xs" style={{ fontSize: '0.8em' }}>
+                                <span key={i} className="badge badge--secondary margin-right--xs architecture-tag">
                                     {tag}
                                 </span>
                             ))}
@@ -247,7 +247,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                                 {round.date} • Lead: {round.lead_investors?.join(", ")}
                                 {round.other_investors?.length > 0 && (
                                     <div style={{ marginTop: '4px' }}>
-                                        <details style={{ cursor: 'pointer', color: '#666', fontSize: '0.9em' }}>
+                                        <details className="funding-round-details-toggle">
                                             <summary style={{ outline: 'none' }}>
                                                 + {round.other_investors.length} other investors
                                             </summary>

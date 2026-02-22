@@ -102,12 +102,12 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
                 </button>
             )}
 
-            <div className="person-panel-header" style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+            <div className="person-panel-header panel-flex-header">
                 {media?.logo_path ? (
                     <img
                         src={media.logo_path.startsWith('http') ? media.logo_path : `/ionlandscape${media.logo_path}`}
                         alt={`${name} logo`}
-                        style={{ width: '50px', height: '50px', objectFit: 'contain', backgroundColor: 'white', padding: '4px', borderRadius: '4px' }}
+                        className="institution-logo-img"
                         onError={(e) => {
                             if (e.target.src.includes('/ionlandscape')) {
                                 e.target.src = media.logo_path;
@@ -115,13 +115,7 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
                         }}
                     />
                 ) : (
-                    <div style={{
-                        width: '50px', height: '50px',
-                        backgroundColor: 'var(--institution-color, #14B8A6)',
-                        color: 'white',
-                        display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        fontSize: '24px', fontWeight: 'bold', borderRadius: '4px'
-                    }}>
+                    <div className="institution-logo-placeholder">
                         {name.charAt(0)}
                     </div>
                 )}
@@ -150,7 +144,7 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
                 <>
                     <div className="panel-divider" />
                     <h4 className="section-header">Current Members ({directory.member_count})</h4>
-                    <div style={{ margin: '10px 0' }}>
+                    <div className="scrollable-list-container">
                         {directory.current_members.map(pid => renderPersonLink(pid))}
                     </div>
                 </>
@@ -159,12 +153,12 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
             {directory && directory.alumni_count > 0 && (
                 <>
                     <div className="panel-divider" />
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer' }} onClick={() => setShowAlumni(!showAlumni)}>
+                    <div className="section-collapse-header" onClick={() => setShowAlumni(!showAlumni)}>
                         <h4 className="section-header" style={{ margin: 0 }}>Alumni ({directory.alumni_count})</h4>
                         <span>{showAlumni ? '▲' : '▼'}</span>
                     </div>
                     {showAlumni && (
-                        <div style={{ margin: '10px 0', maxHeight: '200px', overflowY: 'auto' }}>
+                        <div className="scrollable-list-container">
                             {directory.alumni.map(pid => renderPersonLink(pid))}
                         </div>
                     )}

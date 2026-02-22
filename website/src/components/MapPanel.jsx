@@ -306,13 +306,13 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
      * @returns {string} Raw HTML string required by MapLibre Popup
      */
     const createPopupHTML = useCallback((group, locationLabel) => {
-        let html = '<div style="min-width: 200px; max-height: 250px; overflow-y: auto;">';
+        let html = '<div class="popup-scroll-container">';
         if (locationLabel) {
-            html += `<div style="font-weight: bold; margin-bottom: 8px; border-bottom: 1px solid #ccc; padding-bottom: 4px;">${locationLabel}</div>`;
+            html += `<div class="popup-location-header">${locationLabel}</div>`;
         }
         group.forEach((feature, idx) => {
             const props = feature.properties || {};
-            const borderStyle = idx < group.length - 1 ? 'border-bottom: 1px solid #eee;' : '';
+            const borderClass = idx < group.length - 1 ? 'popup-feature-border' : '';
             // Show institutions instead of description
             const affiliations = props.affiliations || [];
             const cpObj = props.current_position || {};
@@ -329,9 +329,9 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
                 detailText = props.short_summary || props.short_description || '';
             }
 
-            let btnColor = '#4f46e5'; // Person
-            if (isCompany) btnColor = '#e65100'; // Company
-            if (isInstitution) btnColor = '#14B8A6'; // Institution
+            let btnTypeClass = 'person'; // Person
+            if (isCompany) btnTypeClass = 'company'; // Company
+            if (isInstitution) btnTypeClass = 'institution'; // Institution
 
             // Logo HTML
             let logoHtml = '';
@@ -360,12 +360,12 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
             }
 
             const dataType = isCompany ? 'company' : (isInstitution ? 'institution' : 'person');
-            const typeLabel = isCompany ? '<span style="font-size: 0.7em; background: #e65100; color: white; padding: 1px 4px; border-radius: 3px;">Co</span>' : (isInstitution ? '<span style="font-size: 0.7em; background: #14B8A6; color: white; padding: 1px 4px; border-radius: 3px;">Inst</span>' : '');
+            const typeLabel = isCompany ? '<span class="popup-badge company">Co</span>' : (isInstitution ? '<span class="popup-badge institution">Inst</span>' : '');
 
             html += `
-                <div style="padding: 6px 0; ${borderStyle}">
-                    <div style="font-weight: bold; display: flex; align-items: center; justify-content: space-between;">
-                        <span style="display: flex; align-items: center;">
+                <div class="popup-feature-wrapper ${borderClass}">
+                    <div class="popup-feature-header">
+                        <span class="popup-feature-title">
                             ${logoHtml}
                             <span>${props.name || 'Unknown'}</span>
                         </span>
@@ -373,10 +373,9 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
                     </div>
                     <div style="font-size: 0.85em; margin-bottom: 4px;" class="popup-detail-text">${detailText}</div>
                     <button 
-                        class="maplibre-popup-btn" 
+                        class="maplibre-popup-btn popup-button ${btnTypeClass}" 
                         data-id="${props.id}"
-                        data-type="${dataType}"
-                        style="font-size: 0.8em; padding: 4px 10px; cursor: pointer; background: ${btnColor}; color: white; border: none; border-radius: 4px;">
+                        data-type="${dataType}">
                         Open profile
                     </button>
                 </div>
@@ -536,10 +535,10 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
     }, [coordGroups, createPopupHTML]);
 
     return (
-        <div style={{ position: 'relative', height: '100%', width: '100%' }}>
+        <div className="map-layout-wrapper">
             <div
                 ref={mapContainerRef}
-                style={{ height: '100%', width: '100%' }}
+                className="map-viewport"
             />
             {/* Filter Controls - Liquid Glass Vertical */}
             <div className="map-filters-container">
