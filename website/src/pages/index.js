@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Layout from '@theme/Layout';
 
@@ -96,6 +96,21 @@ function HomeContent() {
         setIsPanelOpen(false);
     };
 
+    const mapPanelRef = useRef(null);
+
+    /**
+     * Flies the map to the given coordinates and optionally closes the panel.
+     * Used by the "Show in Map" button in profile panels.
+     * @param {number} lat
+     * @param {number} lon
+     */
+    const handleShowInMap = (lat, lon) => {
+        if (mapPanelRef.current) {
+            mapPanelRef.current.flyTo(lat, lon, 10);
+        }
+        setIsPanelOpen(false);
+    };
+
     const handleDismissWelcome = () => {
         setShowWelcome(false);
         localStorage.setItem('hasSeenIonWelcome', 'true');
@@ -110,6 +125,7 @@ function HomeContent() {
             <div className="ion-landscape-container">
                 <div className="ion-landscape-map">
                     <MapPanel
+                        ref={mapPanelRef}
                         onPersonSelect={handlePersonSelect}
                         onCompanySelect={handleCompanySelect}
                         onInstitutionSelect={handleInstitutionSelect}
@@ -138,6 +154,7 @@ function HomeContent() {
                             institutionId={selectedInstitutionId}
                             onPersonSelect={handlePersonSelect}
                             onClose={handleClearProfile}
+                            onShowInMap={handleShowInMap}
                         />
                     ) : selectedCompanyId ? (
                         <CompanyPanel
@@ -147,6 +164,7 @@ function HomeContent() {
                             onInstitutionSelect={handleInstitutionSelect}
                             onPersonSelect={handlePersonSelect}
                             onClose={handleClearProfile}
+                            onShowInMap={handleShowInMap}
                         />
                     ) : (
                         <PersonPanel
@@ -156,6 +174,7 @@ function HomeContent() {
                             onCompanySelect={handleCompanySelect}
                             onInstitutionSelect={handleInstitutionSelect}
                             onClose={handleClearProfile}
+                            onShowInMap={handleShowInMap}
                         />
                     )}
                 </div>

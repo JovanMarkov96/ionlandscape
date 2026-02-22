@@ -2141,3 +2141,62 @@ html:has(.groups-page),
   align-items: center;
   cursor: pointer;
 }
+
+/* ===== Show in Map Button ===== */
+.show-in-map-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 8px;
+  background: linear-gradient(135deg, var(--ion-accent, #4f46e5), var(--ifm-color-primary-light, #6366f1));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: filter 0.2s ease, transform 0.2s ease;
+  letter-spacing: -0.01em;
+}
+
+.show-in-map-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.show-in-map-btn:active {
+  transform: translateY(0);
+}
+
+.show-in-map-btn svg {
+  flex-shrink: 0;
+}
+
+[data-theme='dark'] .show-in-map-btn {
+  background: linear-gradient(135deg, #6366f1, #818cf8);
+}
+
+/* ===== Marker Entrance Animation ===== */
+@keyframes markerEnter {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) translateY(10px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.1) translateY(-2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.ion-marker-enter {
+  animation: markerEnter 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}

@@ -13,7 +13,7 @@ import Link from '@docusaurus/Link';
  * @param {Function} props.onClose - Callback to close the panel
  * @returns {JSX.Element|null} Institution Profile visual component
  */
-function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
+function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap }) {
     const [institutions, setInstitutions] = useState([]);
     const [people, setPeople] = useState([]);
     const [institution, setInstitution] = useState(null);
@@ -206,6 +206,20 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose }) {
                             </li>
                         ))}
                     </ul>
+                </>
+            )}
+
+            {/* Show in Map */}
+            {location?.lat && location?.lon && onShowInMap && (
+                <>
+                    <div className="panel-divider" />
+                    <button
+                        className="show-in-map-btn"
+                        onClick={() => onShowInMap(location.lat, location.lon)}
+                    >
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
+                        Show in Map
+                    </button>
                 </>
             )}
         </div>

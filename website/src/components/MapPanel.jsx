@@ -1,7 +1,7 @@
 // website/src/components/MapPanel.jsx
 // Self-hosted MapLibre GL JS implementation with PMTiles
 // Zero external dependencies - fully static file hosting
-import React, { useEffect, useRef, useMemo, useCallback } from 'react';
+import React, { useEffect, useRef, useMemo, useCallback, useImperativeHandle, forwardRef } from 'react';
 import { useColorMode } from '@docusaurus/theme-common';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
@@ -237,7 +237,7 @@ function groupByCoordinate(features) {
  * @param {Function} [props.onLocationSelect] - Optional callback for purely location-based clicks
  * @returns {JSX.Element} Interactive map rendering
  */
-function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLocationSelect }) {
+const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLocationSelect }, ref) {
     const mapContainerRef = useRef(null);
     const mapRef = useRef(null);
     const markersRef = useRef([]);
@@ -441,6 +441,18 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
         }
     }, [isDark]);
 
+    /**
+     * Expose a `flyTo` method so the parent component can programmatically
+     * zoom the map to a given coordinate (used by "Show in Map" buttons).
+     */
+    useImperativeHandle(ref, () => ({
+        flyTo(lat, lon, zoom = 10) {
+            if (mapRef.current) {
+                mapRef.current.flyTo({ center: [lon, lat], zoom, duration: 1500 });
+            }
+        }
+    }), []);
+
     // Add markers when data changes
     useEffect(() => {
         if (!mapRef.current) return;
@@ -468,6 +480,7 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
 
             // Create custom marker element
             const el = document.createElement('div');
+            el.classList.add('ion-marker-enter'); // entrance animation
 
             let anchorType = 'bottom';
             let popupOffset = [0, -40]; // Popup floats above the pin tip
@@ -580,6 +593,6 @@ function MapPanel({ onPersonSelect, onCompanySelect, onInstitutionSelect, onLoca
             </div>
         </div>
     );
-}
-
+});
 export default MapPanel;
+
