@@ -1,5 +1,232 @@
 [
   {
+    "id": "c005-q-ctrl",
+    "name": "Q-CTRL",
+    "sort_name": "Q-CTRL",
+    "entity_type": "company",
+    "platforms": [
+      "Software"
+    ],
+    "location": {
+      "city": "Sydney",
+      "region": "New South Wales",
+      "country": "Australia",
+      "lat": -33.886,
+      "lon": 151.2
+    },
+    "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://qctrl.com"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c005-q-ctrl.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "021-mike-biercuk.md"
+      ],
+      "member_count": 1
+    }
+  },
+  {
+    "id": "c006-quera-computing",
+    "name": "QuEra Computing",
+    "sort_name": "QuEra Computing",
+    "entity_type": "company",
+    "platforms": [
+      "Neutral atoms"
+    ],
+    "location": {
+      "city": "Boston",
+      "region": "Massachusetts",
+      "country": "United States",
+      "lat": 42.36,
+      "lon": -71.058
+    },
+    "short_summary": "Builder of advanced quantum computers based on neutral atoms.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://www.quera.com"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c006-quera-computing.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "040-vladan-vuletic.md"
+      ],
+      "member_count": 1
+    }
+  },
+  {
+    "id": "c003-alpine-quantum-technologies-aqt",
+    "name": "Alpine Quantum Technologies",
+    "sort_name": "Alpine Quantum Technologies",
+    "entity_type": "company",
+    "platforms": [
+      "Trapped ions"
+    ],
+    "location": {
+      "city": "Innsbruck",
+      "region": "Tyrol",
+      "country": "Austria",
+      "lat": 47.269,
+      "lon": 11.393
+    },
+    "short_summary": "A commercial provider of trapped-ion quantum computers.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://www.aqt.eu"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c003-alpine-quantum-technologies-aqt.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "017-rainer-blatt.md",
+        "014-thomas-monz.md"
+      ],
+      "member_count": 2
+    }
+  },
+  {
+    "id": "c002-ionq",
+    "name": "IonQ",
+    "sort_name": "IonQ",
+    "entity_type": "company",
+    "platforms": [
+      "Trapped ions"
+    ],
+    "location": {
+      "city": "College Park",
+      "region": "Maryland",
+      "country": "United States",
+      "lat": 38.98,
+      "lon": -76.92
+    },
+    "short_summary": "Develops general-purpose trapped ion quantum computers and software.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://ionq.com"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c002-ionq.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "003-chris-ballance.md",
+        "004-christopher-monroe.md"
+      ],
+      "member_count": 2
+    }
+  },
+  {
+    "id": "c004-oxford-ionics",
+    "name": "Oxford Ionics",
+    "sort_name": "Oxford Ionics",
+    "entity_type": "company",
+    "platforms": [
+      "Trapped ions"
+    ],
+    "location": {
+      "city": "Kidlington",
+      "region": "Oxfordshire",
+      "country": "United Kingdom",
+      "lat": 51.826,
+      "lon": -1.291
+    },
+    "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://www.oxionics.com"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c004-oxford-ionics.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "003-chris-ballance.md"
+      ],
+      "member_count": 1
+    }
+  },
+  {
     "id": "c001-quantum-art",
     "name": "Quantum Art",
     "sort_name": "Quantum Art",
@@ -121,6 +348,12 @@
       }
     ],
     "md_filename": "c001-quantum-art.md",
-    "updated_at": ""
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "001-roee-ozeri.md"
+      ],
+      "member_count": 1
+    }
   }
 ]

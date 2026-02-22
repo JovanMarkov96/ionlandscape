@@ -4,6 +4,121 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "c005-q-ctrl",
+        "name": "Q-CTRL",
+        "entity_type": "company",
+        "platforms": [
+          "Software"
+        ],
+        "city": "Sydney",
+        "country": "Australia",
+        "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
+        "logo_path": "",
+        "md_filename": "c005-q-ctrl.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2,
+          -33.886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c006-quera-computing",
+        "name": "QuEra Computing",
+        "entity_type": "company",
+        "platforms": [
+          "Neutral atoms"
+        ],
+        "city": "Boston",
+        "country": "United States",
+        "short_summary": "Builder of advanced quantum computers based on neutral atoms.",
+        "logo_path": "",
+        "md_filename": "c006-quera-computing.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.058,
+          42.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c003-alpine-quantum-technologies-aqt",
+        "name": "Alpine Quantum Technologies",
+        "entity_type": "company",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "city": "Innsbruck",
+        "country": "Austria",
+        "short_summary": "A commercial provider of trapped-ion quantum computers.",
+        "logo_path": "",
+        "md_filename": "c003-alpine-quantum-technologies-aqt.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.393,
+          47.269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c002-ionq",
+        "name": "IonQ",
+        "entity_type": "company",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "city": "College Park",
+        "country": "United States",
+        "short_summary": "Develops general-purpose trapped ion quantum computers and software.",
+        "logo_path": "",
+        "md_filename": "c002-ionq.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.92,
+          38.98
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c004-oxford-ionics",
+        "name": "Oxford Ionics",
+        "entity_type": "company",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "city": "Kidlington",
+        "country": "United Kingdom",
+        "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
+        "logo_path": "",
+        "md_filename": "c004-oxford-ionics.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.291,
+          51.826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "c001-quantum-art",
         "name": "Quantum Art",
         "entity_type": "company",
