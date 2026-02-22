@@ -664,6 +664,26 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "i057-open-quantum-design",
+        "name": "Open Quantum Design",
+        "entity_type": "institution",
+        "city": "Waterloo",
+        "country": "Canada",
+        "short_description": "A non-profit organization dedicated to building the world's first open-source, full-stack trapped-ion quantum computer, aiming to democratize quantum technology access.",
+        "logo_path": "",
+        "md_filename": "i057-open-quantum-design.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5204,
+          43.4643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
         "name": "Indian Institute of Science Education and Research (IISER) Pune",
         "entity_type": "institution",
