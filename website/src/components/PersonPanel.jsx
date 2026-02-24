@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Link from '@docusaurus/Link';
+import FeedbackForm from './FeedbackForm';
 
 /**
  * PersonPanel Component
@@ -356,6 +357,15 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
                     </button>
                 </>
             )}
+
+            {/* Feedback Form below all content */}
+            <div style={{ marginTop: '30px', marginBottom: '10px', display: 'flex', justifyContent: 'flex-start' }}>
+                <FeedbackForm
+                    entityType="Person"
+                    entityName={person.name}
+                    entityId={person.md_filename}
+                />
+            </div>
         </div>
     );
 }

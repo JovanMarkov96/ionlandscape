@@ -24,7 +24,7 @@ keywords:
 labels:
 - Experimental group
 links:
-  google_scholar: https://scholar.google.com/citations?user=7XqgH5oAAAAJ
+  google_scholar: https://scholar.google.com/citations?user=8Ptfb9EAAAAJ&hl=en
   group_page: https://www.rri.res.in/~sarangwala/
   orcid: null
 location:

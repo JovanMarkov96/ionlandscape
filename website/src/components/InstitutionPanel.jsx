@@ -1,6 +1,7 @@
 // website/src/components/InstitutionPanel.jsx
 import React, { useEffect, useState } from 'react';
 import Link from '@docusaurus/Link';
+import FeedbackForm from './FeedbackForm';
 
 /**
  * InstitutionPanel Component
@@ -102,24 +103,32 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
                 </button>
             )}
 
-            <div className="person-panel-header panel-flex-header">
-                {media?.logo_path ? (
-                    <img
-                        src={media.logo_path.startsWith('http') ? media.logo_path : `/ionlandscape${media.logo_path}`}
-                        alt={`${name} logo`}
-                        className="institution-logo-img"
-                        onError={(e) => {
-                            if (e.target.src.includes('/ionlandscape')) {
-                                e.target.src = media.logo_path;
-                            }
-                        }}
-                    />
-                ) : (
-                    <div className="institution-logo-placeholder">
-                        {name.charAt(0)}
-                    </div>
-                )}
-                <h2 style={{ margin: 0 }}>{name}</h2>
+            <div className="person-panel-header panel-flex-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', width: '100%' }}>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                    {media?.logo_path ? (
+                        <img
+                            src={media.logo_path.startsWith('http') ? media.logo_path : `/ionlandscape${media.logo_path}`}
+                            alt={`${name} logo`}
+                            className="institution-logo-img"
+                            onError={(e) => {
+                                if (e.target.src.includes('/ionlandscape')) {
+                                    e.target.src = media.logo_path;
+                                }
+                            }}
+                        />
+                    ) : (
+                        <div className="institution-logo-placeholder">
+                            {name.charAt(0)}
+                        </div>
+                    )}
+                    <h2 style={{ margin: 0, marginLeft: '12px' }}>{name}</h2>
+                </div>
+
+                <FeedbackForm
+                    entityType="Institution"
+                    entityName={name}
+                    entityId={institutionId}
+                />
             </div>
 
             <p className="person-panel-position" style={{ marginTop: '10px' }}>
@@ -222,6 +231,15 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
                     </button>
                 </>
             )}
+
+            {/* Feedback Form below all content */}
+            <div style={{ marginTop: '30px', marginBottom: '10px', display: 'flex', justifyContent: 'flex-start' }}>
+                <FeedbackForm
+                    entityType="Institution"
+                    entityName={name}
+                    entityId={institutionId}
+                />
+            </div>
         </div>
     );
 }
