@@ -1693,6 +1693,53 @@
     "updated_at": ""
   },
   {
+    "id": "o001-quantum-hub",
+    "name": "Quantum Hub",
+    "sort_name": "Quantum Hub",
+    "entity_type": "institution",
+    "aliases": [],
+    "abbreviations": [],
+    "location": {
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "country": "Israel",
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "institution_type": "unknown",
+    "short_description": "",
+    "focus_areas": [
+      "Quantum computing ecosystem development",
+      "Startup support",
+      "Industry–academia collaboration"
+    ],
+    "links": {
+      "website": "",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "directory": {
+      "current_members": [],
+      "alumni": [],
+      "member_count": 0,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://finder.startupnationcentral.org",
+        "note": "Startup Nation Central ecosystem listing"
+      },
+      {
+        "url": "https://www.calcalistech.com",
+        "note": "Israeli quantum ecosystem overview mentioning Quantum Hub"
+      }
+    ],
+    "md_filename": "o001-quantum-hub.md",
+    "updated_at": ""
+  },
+  {
     "id": "i040-university-of-buenos-aires",
     "name": "University of Buenos Aires",
     "sort_name": "University of Buenos Aires",

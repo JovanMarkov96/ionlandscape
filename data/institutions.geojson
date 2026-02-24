@@ -644,6 +644,26 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "o001-quantum-hub",
+        "name": "Quantum Hub",
+        "entity_type": "institution",
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_description": "",
+        "logo_path": "",
+        "md_filename": "o001-quantum-hub.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "i040-university-of-buenos-aires",
         "name": "University of Buenos Aires",
         "entity_type": "institution",

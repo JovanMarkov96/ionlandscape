@@ -4,6 +4,102 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "c011-quancilla",
+        "name": "Quancilla",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum software development",
+          "Quantum algorithm design tools"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
+        "logo_path": "",
+        "md_filename": "c011-quancilla.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c003-classiq-technologies",
+        "name": "Classiq Technologies",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum software development platform",
+          "Hardware-agnostic circuit synthesis"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of an enterprise-grade quantum software platform that automatically synthesizes high-level functional logic into optimized quantum circuits for deployment across cloud and hardware backends.",
+        "logo_path": "",
+        "md_filename": "c008-classiq-technologies.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c005-quantum-source-labs",
+        "name": "Quantum Source Labs",
+        "entity_type": "company",
+        "platforms": [
+          "Photonic quantum computing",
+          "Hybrid photon-atom qubit architecture"
+        ],
+        "city": "Ness Ziona",
+        "country": "Israel",
+        "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
+        "logo_path": "",
+        "md_filename": "c005-quantum-source-labs.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8,
+          31.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c010-quantum-transistors",
+        "name": "Quantum Transistors",
+        "entity_type": "company",
+        "platforms": [
+          "Semiconductor-based quantum devices",
+          "Spin qubits"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
+        "logo_path": "",
+        "md_filename": "c010-quantum-transistors.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "c005-q-ctrl",
         "name": "Q-CTRL",
         "entity_type": "company",
@@ -50,6 +146,30 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "c002-quantum-machines",
+        "name": "Quantum Machines",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum control hardware",
+          "Hybrid quantum-classical orchestration"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of universal quantum control systems (hardware + software) enabling coherent and real-time orchestration of quantum processors across different technologies.",
+        "logo_path": "",
+        "md_filename": "c007-quantum-machines.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "c003-alpine-quantum-technologies-aqt",
         "name": "Alpine Quantum Technologies",
         "entity_type": "company",
@@ -67,6 +187,55 @@
         "coordinates": [
           11.393,
           47.269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c012-enquantum",
+        "name": "enQuantum",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum communication",
+          "Quantum key distribution (QKD)",
+          "Quantum-safe networking"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of quantum communication infrastructure focused on practical deployment of quantum key distribution (QKD) and quantum-secure networking solutions.",
+        "logo_path": "",
+        "md_filename": "c012-enquantum.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c006-quamcore",
+        "name": "QuamCore",
+        "entity_type": "company",
+        "platforms": [
+          "Superconducting quantum computing",
+          "Scalable million-qubit architectures"
+        ],
+        "city": "Herzliya",
+        "country": "Israel",
+        "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
+        "logo_path": "",
+        "md_filename": "c006-quamcore.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.81,
+          32.16
         ]
       }
     },
@@ -119,6 +288,29 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "c004-qedma",
+        "name": "Qedma",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum error mitigation & noise resilience software"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
+        "logo_path": "",
+        "md_filename": "c004-qedma.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "c001-quantum-art",
         "name": "Quantum Art",
         "entity_type": "company",
@@ -136,6 +328,31 @@
         "coordinates": [
           34.8,
           31.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c009-quantlr",
+        "name": "QuantLR",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum communication",
+          "Quantum key distribution (QKD)",
+          "Quantum repeaters"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of quantum-secure communication infrastructure, building quantum repeaters and entanglement-based networking technologies for long-distance quantum communication.",
+        "logo_path": "",
+        "md_filename": "c009-quantlr.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
         ]
       }
     }
