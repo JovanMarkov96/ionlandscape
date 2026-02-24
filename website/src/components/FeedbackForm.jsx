@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 
 /**
  * FeedbackForm Component
@@ -72,12 +73,17 @@ export default function FeedbackForm({ entityType, entityName, entityId }) {
                 onMouseLeave={() => setIsHovered(false)}
                 aria-label="Report Issue"
             >
-                <span className="feedback-icon" role="img" aria-label="flag">🚩</span>
+                <span className="feedback-icon" aria-label="flag">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                        <line x1="4" y1="22" x2="4" y2="15"></line>
+                    </svg>
+                </span>
                 <span className="feedback-text">Report an issue</span>
             </button>
 
-            {/* Centralized Modal Overlay */}
-            {isOpen && (
+            {/* Centralized Modal Overlay using Portal */}
+            {isOpen && typeof document !== 'undefined' && createPortal(
                 <div className="feedback-modal-overlay" onClick={() => setIsOpen(false)}>
                     <div className="feedback-modal-content" onClick={(e) => e.stopPropagation()}>
                         <div className="feedback-modal-header">
@@ -156,7 +162,8 @@ export default function FeedbackForm({ entityType, entityName, entityId }) {
                             </form>
                         )}
                     </div>
-                </div>
+                </div>,
+                document.body
             )}
         </div>
     );
