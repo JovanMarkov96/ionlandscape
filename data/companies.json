@@ -1,86 +1,48 @@
 [
   {
-    "id": "c011-quancilla",
-    "name": "Quancilla",
-    "sort_name": "Quancilla",
+    "id": "c002-ionq",
+    "name": "IonQ",
+    "sort_name": "IonQ",
     "entity_type": "company",
     "platforms": [
-      "Quantum software development",
-      "Quantum algorithm design tools"
+      "Trapped ions"
     ],
     "location": {
-      "city": "Tel Aviv",
-      "region": "Tel Aviv District",
-      "country": "Israel",
-      "lat": 32.0853,
-      "lon": 34.7818
+      "city": "College Park",
+      "region": "Maryland",
+      "country": "United States",
+      "lat": 38.98,
+      "lon": -76.92
     },
-    "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
-    "approach": {
-      "elevator_pitch": "Quancilla develops software tools that abstract hardware-level complexity, enabling researchers and enterprises to design and test quantum algorithms more efficiently.",
-      "differentiators": [
-        "High-level abstraction layer for quantum programming",
-        "Focus on usability and accessibility for developers",
-        "Hardware-agnostic development approach"
-      ],
-      "architecture_tags": [
-        "Quantum software",
-        "Algorithm design",
-        "Developer tools"
-      ]
-    },
-    "focus_areas": [
-      "Quantum software platforms",
-      "Algorithm prototyping",
-      "Developer enablement"
-    ],
-    "products": [
-      "Quantum development toolkit (early-stage / under development)"
-    ],
+    "short_summary": "Develops general-purpose trapped ion quantum computers and software.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
     "people": {
       "founders": [],
       "leadership": [],
       "spun_out_of": []
     },
     "status": {
-      "operating_status": "active",
-      "acquired": {
-        "is_acquired": false,
-        "acquired_by": null,
-        "acquisition_date": null,
-        "acquisition_type": null,
-        "deal_value_usd": null,
-        "announcement_url": null,
-        "notes": ""
-      }
+      "operating_status": "active"
     },
-    "funding": {
-      "total_usd": null,
-      "rounds": []
-    },
+    "funding": {},
     "milestones": [],
     "links": {
-      "website": "",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
+      "website": "https://ionq.com"
     },
-    "media": {},
-    "sources": [
-      {
-        "url": "https://finder.startupnationcentral.org",
-        "note": "Startup Nation Central listing (category: quantum software)"
-      },
-      {
-        "url": "https://www.calcalistech.com",
-        "note": "Israeli quantum ecosystem overview mentioning Quancilla"
-      }
-    ],
-    "md_filename": "c011-quancilla.md",
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c002-ionq.md",
     "updated_at": "",
     "directory": {
-      "current_members": [],
-      "member_count": 0
+      "current_members": [
+        "004-christopher-monroe.md",
+        "003-chris-ballance.md"
+      ],
+      "member_count": 2
     }
   },
   {
@@ -220,6 +182,483 @@
     "directory": {
       "current_members": [],
       "member_count": 0
+    }
+  },
+  {
+    "id": "c004-qedma",
+    "name": "Qedma",
+    "sort_name": "Qedma",
+    "entity_type": "company",
+    "platforms": [
+      "Quantum error mitigation & noise resilience software"
+    ],
+    "location": {
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "country": "Israel",
+      "lat": 32.1066,
+      "lon": 34.8121
+    },
+    "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
+    "approach": {
+      "elevator_pitch": "Qedma improves quantum computing performance by transforming algorithms designed for error-free processors into forms that can run accurately on current noisy quantum hardware, using error suppression, characterization, and mitigation techniques.",
+      "differentiators": [
+        "Platform-agnostic error suppression and mitigation solutions for noisy quantum processors",
+        "High-precision characterization of multi-qubit systems with rapid speed-to-accuracy trade-offs",
+        "Integration with major quantum ecosystems (e.g., IBM’s Qiskit Functions)"
+      ],
+      "architecture_tags": [
+        "Error mitigation",
+        "Quantum software layer"
+      ]
+    },
+    "focus_areas": [
+      "Quantum error mitigation software",
+      "Quantum hardware characterization",
+      "Performance optimization for NISQ devices"
+    ],
+    "products": [
+      "QESEM (Quantum Error Suppression & Error Mitigation)",
+      "Characterization software for detailed, high-accuracy noise profiling"
+    ],
+    "people": {
+      "founders": [
+        {
+          "name": "Dr. Asif Sinay",
+          "role": "CEO & Co-Founder"
+        },
+        {
+          "name": "Prof. Dorit Aharonov",
+          "role": "CSO & Co-Founder"
+        },
+        {
+          "name": "Prof. Netanel Lindner",
+          "role": "CTO & Co-Founder"
+        }
+      ],
+      "leadership": [],
+      "spun_out_of": [
+        "Independent Israeli quantum software startup founded by research leaders in quantum computing"
+      ]
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": 26000000,
+      "rounds": [
+        {
+          "round": "Series A",
+          "amount_usd": 26000000,
+          "date": "2025-07-03",
+          "lead_investors": [
+            "Glilot Capital Partners (Glilot+)"
+          ],
+          "other_investors": [
+            "IBM",
+            "TPY Capital",
+            "Korean Investment Partners"
+          ],
+          "notes": "Series A round to scale noise resilience and error mitigation software."
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "description": "Raised $26M in Series A funding to accelerate development of quantum error mitigation and characterization products.",
+        "date": "2025-07-03",
+        "sources": [
+          "https://en.globes.co.il/en/article-Quantum-computing-co-Qedma-raises-23m-1001514980"
+        ]
+      },
+      {
+        "description": "Qedma’s software integrated into IBM’s Qiskit Functions ecosystem.",
+        "date": "2025",
+        "sources": [
+          "https://www.prnewswire.com/news-releases/qedma-raises-26m-with-participation-from-ibm-to-tackle-quantum-computing-errors-and-accelerate-pace-to-quantum-advantage-302497701.html"
+        ]
+      }
+    ],
+    "links": {
+      "website": "https://www.qedma.com/",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "sources": [
+      {
+        "url": "https://www.qedma.com/",
+        "note": "Official company site describing mission and products"
+      },
+      {
+        "url": "https://en.globes.co.il/en/article-Quantum-computing-co-Qedma-raises-23m-1001514980",
+        "note": "Globes news reporting on funding and founders"
+      }
+    ],
+    "md_filename": "c004-qedma.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [],
+      "member_count": 0
+    }
+  },
+  {
+    "id": "c003-alpine-quantum-technologies-aqt",
+    "name": "Alpine Quantum Technologies",
+    "sort_name": "Alpine Quantum Technologies",
+    "entity_type": "company",
+    "platforms": [
+      "Trapped ions"
+    ],
+    "location": {
+      "city": "Innsbruck",
+      "region": "Tyrol",
+      "country": "Austria",
+      "lat": 47.269,
+      "lon": 11.393
+    },
+    "short_summary": "A commercial provider of trapped-ion quantum computers.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://www.aqt.eu"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c003-alpine-quantum-technologies-aqt.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "017-rainer-blatt.md",
+        "014-thomas-monz.md"
+      ],
+      "member_count": 2
+    }
+  },
+  {
+    "id": "c006-quera-computing",
+    "name": "QuEra Computing",
+    "sort_name": "QuEra Computing",
+    "entity_type": "company",
+    "platforms": [
+      "Neutral atoms"
+    ],
+    "location": {
+      "city": "Boston",
+      "region": "Massachusetts",
+      "country": "United States",
+      "lat": 42.36,
+      "lon": -71.058
+    },
+    "short_summary": "Builder of advanced quantum computers based on neutral atoms.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://www.quera.com"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c006-quera-computing.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "040-vladan-vuletic.md"
+      ],
+      "member_count": 1
+    }
+  },
+  {
+    "id": "c011-quancilla",
+    "name": "Quancilla",
+    "sort_name": "Quancilla",
+    "entity_type": "company",
+    "platforms": [
+      "Quantum software development",
+      "Quantum algorithm design tools"
+    ],
+    "location": {
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "country": "Israel",
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
+    "approach": {
+      "elevator_pitch": "Quancilla develops software tools that abstract hardware-level complexity, enabling researchers and enterprises to design and test quantum algorithms more efficiently.",
+      "differentiators": [
+        "High-level abstraction layer for quantum programming",
+        "Focus on usability and accessibility for developers",
+        "Hardware-agnostic development approach"
+      ],
+      "architecture_tags": [
+        "Quantum software",
+        "Algorithm design",
+        "Developer tools"
+      ]
+    },
+    "focus_areas": [
+      "Quantum software platforms",
+      "Algorithm prototyping",
+      "Developer enablement"
+    ],
+    "products": [
+      "Quantum development toolkit (early-stage / under development)"
+    ],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": null,
+      "rounds": []
+    },
+    "milestones": [],
+    "links": {
+      "website": "",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "sources": [
+      {
+        "url": "https://finder.startupnationcentral.org",
+        "note": "Startup Nation Central listing (category: quantum software)"
+      },
+      {
+        "url": "https://www.calcalistech.com",
+        "note": "Israeli quantum ecosystem overview mentioning Quancilla"
+      }
+    ],
+    "md_filename": "c011-quancilla.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [],
+      "member_count": 0
+    }
+  },
+  {
+    "id": "c002-quantum-machines",
+    "name": "Quantum Machines",
+    "sort_name": "Quantum Machines",
+    "entity_type": "company",
+    "platforms": [
+      "Quantum control hardware",
+      "Hybrid quantum-classical orchestration"
+    ],
+    "location": {
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "country": "Israel",
+      "lat": 32.0621,
+      "lon": 34.782
+    },
+    "short_summary": "Developer of universal quantum control systems (hardware + software) enabling coherent and real-time orchestration of quantum processors across different technologies.",
+    "approach": {
+      "elevator_pitch": "Quantum Machines creates integrated control and orchestration solutions that connect quantum processors with classical computing resources, enabling precise quantum system operations and real-time error management.",
+      "differentiators": [
+        "Universal processor-agnostic quantum orchestration platform used by a majority of quantum hardware developers worldwide",
+        "Hybrid quantum-classical control enabling seamless real-time workflows",
+        "Scalable FPGA-based control hardware (OPX) paired with QUA programming language"
+      ],
+      "architecture_tags": [
+        "Quantum control",
+        "Hybrid orchestration",
+        "Software + FPGA hardware"
+      ]
+    },
+    "focus_areas": [
+      "Quantum control systems",
+      "Hybrid quantum-classical orchestration",
+      "Software for quantum operations"
+    ],
+    "products": [
+      "Quantum Orchestration Platform (QOP) with OPX control hardware",
+      "QUA universal quantum programming language"
+    ],
+    "people": {
+      "founders": [
+        {
+          "name": "Dr. Itamar Sivan",
+          "role": "CEO & Co-Founder"
+        },
+        {
+          "name": "Dr. Yonatan Cohen",
+          "role": "CTO & Co-Founder"
+        },
+        {
+          "name": "Dr. Nissim Ofek",
+          "role": "VP R&D & Co-Founder"
+        }
+      ],
+      "leadership": [],
+      "spun_out_of": [
+        "Independent Israeli tech startup (founders with academic backgrounds at Weizmann Institute of Science and related physics research)"
+      ]
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": 280000000,
+      "rounds": [
+        {
+          "round": "Series C",
+          "amount_usd": 170000000,
+          "date": "2025-02-25",
+          "lead_investors": [
+            "PSG Equity"
+          ],
+          "other_investors": [
+            "Intel Capital",
+            "Red Dot Capital Partners"
+          ],
+          "notes": "Oversubscribed round raising $170M, bringing company funding to ~$280M. Existing investors also participated."
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "description": "Completed a $170M Series C funding round, expanding global market position and technology adoption.",
+        "date": "2025-02-25",
+        "sources": [
+          "https://quantum-machines.co/press-release/quantum-machines-raises-170-million-in-series-c-funding/"
+        ]
+      },
+      {
+        "description": "Selected to establish the Israeli Quantum Computing Center at Tel Aviv University, serving industry and academia.",
+        "date": "2024-06-24",
+        "sources": [
+          "https://www.prnewswire.com/il/news-releases/quantum-machines-opens-the-israeli-quantum-computing-center-302181680.html"
+        ]
+      }
+    ],
+    "links": {
+      "website": "https://quantum-machines.co",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "sources": [
+      {
+        "url": "https://quantum-machines.co/press-release/quantum-machines-raises-170-million-in-series-c-funding/",
+        "note": "Official description of business focus, technology, and Series C press release"
+      },
+      {
+        "url": "https://en.globes.co.il/en/article-israeli-co-quantum-machines-raises-170m-1001502993",
+        "note": "Funding overview and company role"
+      }
+    ],
+    "md_filename": "c007-quantum-machines.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [],
+      "member_count": 0
+    }
+  },
+  {
+    "id": "c005-q-ctrl",
+    "name": "Q-CTRL",
+    "sort_name": "Q-CTRL",
+    "entity_type": "company",
+    "platforms": [
+      "Software"
+    ],
+    "location": {
+      "city": "Sydney",
+      "region": "New South Wales",
+      "country": "Australia",
+      "lat": -33.886,
+      "lon": 151.2
+    },
+    "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://qctrl.com"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c005-q-ctrl.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "021-mike-biercuk.md"
+      ],
+      "member_count": 1
     }
   },
   {
@@ -376,440 +815,6 @@
     }
   },
   {
-    "id": "c010-quantum-transistors",
-    "name": "Quantum Transistors",
-    "sort_name": "Quantum Transistors",
-    "entity_type": "company",
-    "platforms": [
-      "Semiconductor-based quantum devices",
-      "Spin qubits"
-    ],
-    "location": {
-      "city": "Binyamina",
-      "region": "Haifa",
-      "country": "Israel",
-      "lat": 32.5203,
-      "lon": 34.9436
-    },
-    "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
-    "approach": {
-      "elevator_pitch": "Quantum Transistors develops scalable quantum processor technology based on semiconductor spin qubits, aiming to leverage CMOS-compatible fabrication techniques for large-scale quantum computing.",
-      "differentiators": [
-        "CMOS-compatible semiconductor approach",
-        "Spin-qubit based processor design",
-        "Focus on manufacturability and scalability"
-      ],
-      "architecture_tags": [
-        "Semiconductor",
-        "Spin qubits",
-        "CMOS-compatible"
-      ]
-    },
-    "focus_areas": [
-      "Scalable quantum processors",
-      "Semiconductor quantum hardware",
-      "Spin-based quantum computation"
-    ],
-    "products": [
-      "Semiconductor quantum processor architecture (in development)"
-    ],
-    "people": {
-      "founders": [],
-      "leadership": [],
-      "spun_out_of": []
-    },
-    "status": {
-      "operating_status": "active",
-      "acquired": {
-        "is_acquired": false,
-        "acquired_by": null,
-        "acquisition_date": null,
-        "acquisition_type": null,
-        "deal_value_usd": null,
-        "announcement_url": null,
-        "notes": ""
-      }
-    },
-    "funding": {
-      "total_usd": null,
-      "rounds": []
-    },
-    "milestones": [],
-    "links": {
-      "website": "",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
-    },
-    "media": {},
-    "sources": [
-      {
-        "url": "https://finder.startupnationcentral.org",
-        "note": "Startup Nation Central listing (company category and focus)"
-      },
-      {
-        "url": "https://www.calcalistech.com",
-        "note": "Israeli quantum startup ecosystem overview mentioning Quantum Transistors"
-      }
-    ],
-    "md_filename": "c010-quantum-transistors.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [],
-      "member_count": 0
-    }
-  },
-  {
-    "id": "c005-q-ctrl",
-    "name": "Q-CTRL",
-    "sort_name": "Q-CTRL",
-    "entity_type": "company",
-    "platforms": [
-      "Software"
-    ],
-    "location": {
-      "city": "Sydney",
-      "region": "New South Wales",
-      "country": "Australia",
-      "lat": -33.886,
-      "lon": 151.2
-    },
-    "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
-    "approach": {},
-    "focus_areas": [],
-    "products": [],
-    "people": {
-      "founders": [],
-      "leadership": [],
-      "spun_out_of": []
-    },
-    "status": {
-      "operating_status": "active"
-    },
-    "funding": {},
-    "milestones": [],
-    "links": {
-      "website": "https://qctrl.com"
-    },
-    "media": {
-      "logo_path": ""
-    },
-    "sources": [],
-    "md_filename": "c005-q-ctrl.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [
-        "021-mike-biercuk.md"
-      ],
-      "member_count": 1
-    }
-  },
-  {
-    "id": "c006-quera-computing",
-    "name": "QuEra Computing",
-    "sort_name": "QuEra Computing",
-    "entity_type": "company",
-    "platforms": [
-      "Neutral atoms"
-    ],
-    "location": {
-      "city": "Boston",
-      "region": "Massachusetts",
-      "country": "United States",
-      "lat": 42.36,
-      "lon": -71.058
-    },
-    "short_summary": "Builder of advanced quantum computers based on neutral atoms.",
-    "approach": {},
-    "focus_areas": [],
-    "products": [],
-    "people": {
-      "founders": [],
-      "leadership": [],
-      "spun_out_of": []
-    },
-    "status": {
-      "operating_status": "active"
-    },
-    "funding": {},
-    "milestones": [],
-    "links": {
-      "website": "https://www.quera.com"
-    },
-    "media": {
-      "logo_path": ""
-    },
-    "sources": [],
-    "md_filename": "c006-quera-computing.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [
-        "040-vladan-vuletic.md"
-      ],
-      "member_count": 1
-    }
-  },
-  {
-    "id": "c002-quantum-machines",
-    "name": "Quantum Machines",
-    "sort_name": "Quantum Machines",
-    "entity_type": "company",
-    "platforms": [
-      "Quantum control hardware",
-      "Hybrid quantum-classical orchestration"
-    ],
-    "location": {
-      "city": "Tel Aviv",
-      "region": "Tel Aviv District",
-      "country": "Israel",
-      "lat": 32.0621,
-      "lon": 34.782
-    },
-    "short_summary": "Developer of universal quantum control systems (hardware + software) enabling coherent and real-time orchestration of quantum processors across different technologies.",
-    "approach": {
-      "elevator_pitch": "Quantum Machines creates integrated control and orchestration solutions that connect quantum processors with classical computing resources, enabling precise quantum system operations and real-time error management.",
-      "differentiators": [
-        "Universal processor-agnostic quantum orchestration platform used by a majority of quantum hardware developers worldwide",
-        "Hybrid quantum-classical control enabling seamless real-time workflows",
-        "Scalable FPGA-based control hardware (OPX) paired with QUA programming language"
-      ],
-      "architecture_tags": [
-        "Quantum control",
-        "Hybrid orchestration",
-        "Software + FPGA hardware"
-      ]
-    },
-    "focus_areas": [
-      "Quantum control systems",
-      "Hybrid quantum-classical orchestration",
-      "Software for quantum operations"
-    ],
-    "products": [
-      "Quantum Orchestration Platform (QOP) with OPX control hardware",
-      "QUA universal quantum programming language"
-    ],
-    "people": {
-      "founders": [
-        {
-          "name": "Dr. Itamar Sivan",
-          "role": "CEO & Co-Founder"
-        },
-        {
-          "name": "Dr. Yonatan Cohen",
-          "role": "CTO & Co-Founder"
-        },
-        {
-          "name": "Dr. Nissim Ofek",
-          "role": "VP R&D & Co-Founder"
-        }
-      ],
-      "leadership": [],
-      "spun_out_of": [
-        "Independent Israeli tech startup (founders with academic backgrounds at Weizmann Institute of Science and related physics research)"
-      ]
-    },
-    "status": {
-      "operating_status": "active",
-      "acquired": {
-        "is_acquired": false,
-        "acquired_by": null,
-        "acquisition_date": null,
-        "acquisition_type": null,
-        "deal_value_usd": null,
-        "announcement_url": null,
-        "notes": ""
-      }
-    },
-    "funding": {
-      "total_usd": 280000000,
-      "rounds": [
-        {
-          "round": "Series C",
-          "amount_usd": 170000000,
-          "date": "2025-02-25",
-          "lead_investors": [
-            "PSG Equity"
-          ],
-          "other_investors": [
-            "Intel Capital",
-            "Red Dot Capital Partners"
-          ],
-          "notes": "Oversubscribed round raising $170M, bringing company funding to ~$280M. Existing investors also participated."
-        }
-      ]
-    },
-    "milestones": [
-      {
-        "description": "Completed a $170M Series C funding round, expanding global market position and technology adoption.",
-        "date": "2025-02-25",
-        "sources": [
-          "https://quantum-machines.co/press-release/quantum-machines-raises-170-million-in-series-c-funding/"
-        ]
-      },
-      {
-        "description": "Selected to establish the Israeli Quantum Computing Center at Tel Aviv University, serving industry and academia.",
-        "date": "2024-06-24",
-        "sources": [
-          "https://www.prnewswire.com/il/news-releases/quantum-machines-opens-the-israeli-quantum-computing-center-302181680.html"
-        ]
-      }
-    ],
-    "links": {
-      "website": "https://quantum-machines.co",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
-    },
-    "media": {},
-    "sources": [
-      {
-        "url": "https://quantum-machines.co/press-release/quantum-machines-raises-170-million-in-series-c-funding/",
-        "note": "Official description of business focus, technology, and Series C press release"
-      },
-      {
-        "url": "https://en.globes.co.il/en/article-israeli-co-quantum-machines-raises-170m-1001502993",
-        "note": "Funding overview and company role"
-      }
-    ],
-    "md_filename": "c007-quantum-machines.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [],
-      "member_count": 0
-    }
-  },
-  {
-    "id": "c003-alpine-quantum-technologies-aqt",
-    "name": "Alpine Quantum Technologies",
-    "sort_name": "Alpine Quantum Technologies",
-    "entity_type": "company",
-    "platforms": [
-      "Trapped ions"
-    ],
-    "location": {
-      "city": "Innsbruck",
-      "region": "Tyrol",
-      "country": "Austria",
-      "lat": 47.269,
-      "lon": 11.393
-    },
-    "short_summary": "A commercial provider of trapped-ion quantum computers.",
-    "approach": {},
-    "focus_areas": [],
-    "products": [],
-    "people": {
-      "founders": [],
-      "leadership": [],
-      "spun_out_of": []
-    },
-    "status": {
-      "operating_status": "active"
-    },
-    "funding": {},
-    "milestones": [],
-    "links": {
-      "website": "https://www.aqt.eu"
-    },
-    "media": {
-      "logo_path": ""
-    },
-    "sources": [],
-    "md_filename": "c003-alpine-quantum-technologies-aqt.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [
-        "017-rainer-blatt.md",
-        "014-thomas-monz.md"
-      ],
-      "member_count": 2
-    }
-  },
-  {
-    "id": "c012-enquantum",
-    "name": "enQuantum",
-    "sort_name": "enQuantum",
-    "entity_type": "company",
-    "platforms": [
-      "Quantum communication",
-      "Quantum key distribution (QKD)",
-      "Quantum-safe networking"
-    ],
-    "location": {
-      "city": "Tel Aviv",
-      "region": "Tel Aviv District",
-      "country": "Israel",
-      "lat": 32.0154,
-      "lon": 34.7937
-    },
-    "short_summary": "Developer of quantum communication infrastructure focused on practical deployment of quantum key distribution (QKD) and quantum-secure networking solutions.",
-    "approach": {
-      "elevator_pitch": "enQuantum builds deployable quantum communication systems designed to integrate with existing fiber infrastructure, enabling quantum-secure key distribution and network protection.",
-      "differentiators": [
-        "Deployment-ready QKD systems",
-        "Integration with classical telecom infrastructure",
-        "Focus on near-term commercial quantum security"
-      ],
-      "architecture_tags": [
-        "Quantum networking",
-        "QKD",
-        "Fiber-based systems"
-      ]
-    },
-    "focus_areas": [
-      "Quantum-secure communication",
-      "Critical infrastructure protection",
-      "Telecom-grade QKD deployment"
-    ],
-    "products": [
-      "Quantum key distribution systems (commercial deployment focus)"
-    ],
-    "people": {
-      "founders": [],
-      "leadership": [],
-      "spun_out_of": []
-    },
-    "status": {
-      "operating_status": "active",
-      "acquired": {
-        "is_acquired": false,
-        "acquired_by": null,
-        "acquisition_date": null,
-        "acquisition_type": null,
-        "deal_value_usd": null,
-        "announcement_url": null,
-        "notes": ""
-      }
-    },
-    "funding": {
-      "total_usd": null,
-      "rounds": []
-    },
-    "milestones": [],
-    "links": {
-      "website": "",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
-    },
-    "media": {},
-    "sources": [
-      {
-        "url": "https://finder.startupnationcentral.org",
-        "note": "Startup Nation Central listing (quantum communication category)"
-      },
-      {
-        "url": "https://www.calcalistech.com",
-        "note": "Israeli quantum ecosystem overview referencing quantum communication startups"
-      }
-    ],
-    "md_filename": "c012-enquantum.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [],
-      "member_count": 0
-    }
-  },
-  {
     "id": "c006-quamcore",
     "name": "QuamCore",
     "sort_name": "QuamCore",
@@ -953,225 +958,6 @@
     }
   },
   {
-    "id": "c002-ionq",
-    "name": "IonQ",
-    "sort_name": "IonQ",
-    "entity_type": "company",
-    "platforms": [
-      "Trapped ions"
-    ],
-    "location": {
-      "city": "College Park",
-      "region": "Maryland",
-      "country": "United States",
-      "lat": 38.98,
-      "lon": -76.92
-    },
-    "short_summary": "Develops general-purpose trapped ion quantum computers and software.",
-    "approach": {},
-    "focus_areas": [],
-    "products": [],
-    "people": {
-      "founders": [],
-      "leadership": [],
-      "spun_out_of": []
-    },
-    "status": {
-      "operating_status": "active"
-    },
-    "funding": {},
-    "milestones": [],
-    "links": {
-      "website": "https://ionq.com"
-    },
-    "media": {
-      "logo_path": ""
-    },
-    "sources": [],
-    "md_filename": "c002-ionq.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [
-        "003-chris-ballance.md",
-        "004-christopher-monroe.md"
-      ],
-      "member_count": 2
-    }
-  },
-  {
-    "id": "c004-oxford-ionics",
-    "name": "Oxford Ionics",
-    "sort_name": "Oxford Ionics",
-    "entity_type": "company",
-    "platforms": [
-      "Trapped ions"
-    ],
-    "location": {
-      "city": "Kidlington",
-      "region": "Oxfordshire",
-      "country": "United Kingdom",
-      "lat": 51.826,
-      "lon": -1.291
-    },
-    "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
-    "approach": {},
-    "focus_areas": [],
-    "products": [],
-    "people": {
-      "founders": [],
-      "leadership": [],
-      "spun_out_of": []
-    },
-    "status": {
-      "operating_status": "active"
-    },
-    "funding": {},
-    "milestones": [],
-    "links": {
-      "website": "https://www.oxionics.com"
-    },
-    "media": {
-      "logo_path": ""
-    },
-    "sources": [],
-    "md_filename": "c004-oxford-ionics.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [
-        "003-chris-ballance.md"
-      ],
-      "member_count": 1
-    }
-  },
-  {
-    "id": "c004-qedma",
-    "name": "Qedma",
-    "sort_name": "Qedma",
-    "entity_type": "company",
-    "platforms": [
-      "Quantum error mitigation & noise resilience software"
-    ],
-    "location": {
-      "city": "Tel Aviv",
-      "region": "Tel Aviv District",
-      "country": "Israel",
-      "lat": 32.1066,
-      "lon": 34.8121
-    },
-    "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
-    "approach": {
-      "elevator_pitch": "Qedma improves quantum computing performance by transforming algorithms designed for error-free processors into forms that can run accurately on current noisy quantum hardware, using error suppression, characterization, and mitigation techniques.",
-      "differentiators": [
-        "Platform-agnostic error suppression and mitigation solutions for noisy quantum processors",
-        "High-precision characterization of multi-qubit systems with rapid speed-to-accuracy trade-offs",
-        "Integration with major quantum ecosystems (e.g., IBM’s Qiskit Functions)"
-      ],
-      "architecture_tags": [
-        "Error mitigation",
-        "Quantum software layer"
-      ]
-    },
-    "focus_areas": [
-      "Quantum error mitigation software",
-      "Quantum hardware characterization",
-      "Performance optimization for NISQ devices"
-    ],
-    "products": [
-      "QESEM (Quantum Error Suppression & Error Mitigation)",
-      "Characterization software for detailed, high-accuracy noise profiling"
-    ],
-    "people": {
-      "founders": [
-        {
-          "name": "Dr. Asif Sinay",
-          "role": "CEO & Co-Founder"
-        },
-        {
-          "name": "Prof. Dorit Aharonov",
-          "role": "CSO & Co-Founder"
-        },
-        {
-          "name": "Prof. Netanel Lindner",
-          "role": "CTO & Co-Founder"
-        }
-      ],
-      "leadership": [],
-      "spun_out_of": [
-        "Independent Israeli quantum software startup founded by research leaders in quantum computing"
-      ]
-    },
-    "status": {
-      "operating_status": "active",
-      "acquired": {
-        "is_acquired": false,
-        "acquired_by": null,
-        "acquisition_date": null,
-        "acquisition_type": null,
-        "deal_value_usd": null,
-        "announcement_url": null,
-        "notes": ""
-      }
-    },
-    "funding": {
-      "total_usd": 26000000,
-      "rounds": [
-        {
-          "round": "Series A",
-          "amount_usd": 26000000,
-          "date": "2025-07-03",
-          "lead_investors": [
-            "Glilot Capital Partners (Glilot+)"
-          ],
-          "other_investors": [
-            "IBM",
-            "TPY Capital",
-            "Korean Investment Partners"
-          ],
-          "notes": "Series A round to scale noise resilience and error mitigation software."
-        }
-      ]
-    },
-    "milestones": [
-      {
-        "description": "Raised $26M in Series A funding to accelerate development of quantum error mitigation and characterization products.",
-        "date": "2025-07-03",
-        "sources": [
-          "https://en.globes.co.il/en/article-Quantum-computing-co-Qedma-raises-23m-1001514980"
-        ]
-      },
-      {
-        "description": "Qedma’s software integrated into IBM’s Qiskit Functions ecosystem.",
-        "date": "2025",
-        "sources": [
-          "https://www.prnewswire.com/news-releases/qedma-raises-26m-with-participation-from-ibm-to-tackle-quantum-computing-errors-and-accelerate-pace-to-quantum-advantage-302497701.html"
-        ]
-      }
-    ],
-    "links": {
-      "website": "https://www.qedma.com/",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
-    },
-    "media": {},
-    "sources": [
-      {
-        "url": "https://www.qedma.com/",
-        "note": "Official company site describing mission and products"
-      },
-      {
-        "url": "https://en.globes.co.il/en/article-Quantum-computing-co-Qedma-raises-23m-1001514980",
-        "note": "Globes news reporting on funding and founders"
-      }
-    ],
-    "md_filename": "c004-qedma.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [],
-      "member_count": 0
-    }
-  },
-  {
     "id": "c001-quantum-art",
     "name": "Quantum Art",
     "sort_name": "Quantum Art",
@@ -1302,6 +1088,51 @@
     }
   },
   {
+    "id": "c004-oxford-ionics",
+    "name": "Oxford Ionics",
+    "sort_name": "Oxford Ionics",
+    "entity_type": "company",
+    "platforms": [
+      "Trapped ions"
+    ],
+    "location": {
+      "city": "Kidlington",
+      "region": "Oxfordshire",
+      "country": "United Kingdom",
+      "lat": 51.826,
+      "lon": -1.291
+    },
+    "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://www.oxionics.com"
+    },
+    "media": {
+      "logo_path": ""
+    },
+    "sources": [],
+    "md_filename": "c004-oxford-ionics.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [
+        "003-chris-ballance.md"
+      ],
+      "member_count": 1
+    }
+  },
+  {
     "id": "c009-quantlr",
     "name": "QuantLR",
     "sort_name": "QuantLR",
@@ -1396,6 +1227,175 @@
       }
     ],
     "md_filename": "c009-quantlr.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [],
+      "member_count": 0
+    }
+  },
+  {
+    "id": "c012-enquantum",
+    "name": "enQuantum",
+    "sort_name": "enQuantum",
+    "entity_type": "company",
+    "platforms": [
+      "Quantum communication",
+      "Quantum key distribution (QKD)",
+      "Quantum-safe networking"
+    ],
+    "location": {
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "country": "Israel",
+      "lat": 32.0154,
+      "lon": 34.7937
+    },
+    "short_summary": "Developer of quantum communication infrastructure focused on practical deployment of quantum key distribution (QKD) and quantum-secure networking solutions.",
+    "approach": {
+      "elevator_pitch": "enQuantum builds deployable quantum communication systems designed to integrate with existing fiber infrastructure, enabling quantum-secure key distribution and network protection.",
+      "differentiators": [
+        "Deployment-ready QKD systems",
+        "Integration with classical telecom infrastructure",
+        "Focus on near-term commercial quantum security"
+      ],
+      "architecture_tags": [
+        "Quantum networking",
+        "QKD",
+        "Fiber-based systems"
+      ]
+    },
+    "focus_areas": [
+      "Quantum-secure communication",
+      "Critical infrastructure protection",
+      "Telecom-grade QKD deployment"
+    ],
+    "products": [
+      "Quantum key distribution systems (commercial deployment focus)"
+    ],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": null,
+      "rounds": []
+    },
+    "milestones": [],
+    "links": {
+      "website": "",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "sources": [
+      {
+        "url": "https://finder.startupnationcentral.org",
+        "note": "Startup Nation Central listing (quantum communication category)"
+      },
+      {
+        "url": "https://www.calcalistech.com",
+        "note": "Israeli quantum ecosystem overview referencing quantum communication startups"
+      }
+    ],
+    "md_filename": "c012-enquantum.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [],
+      "member_count": 0
+    }
+  },
+  {
+    "id": "c010-quantum-transistors",
+    "name": "Quantum Transistors",
+    "sort_name": "Quantum Transistors",
+    "entity_type": "company",
+    "platforms": [
+      "Semiconductor-based quantum devices",
+      "Spin qubits"
+    ],
+    "location": {
+      "city": "Binyamina",
+      "region": "Haifa",
+      "country": "Israel",
+      "lat": 32.5203,
+      "lon": 34.9436
+    },
+    "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
+    "approach": {
+      "elevator_pitch": "Quantum Transistors develops scalable quantum processor technology based on semiconductor spin qubits, aiming to leverage CMOS-compatible fabrication techniques for large-scale quantum computing.",
+      "differentiators": [
+        "CMOS-compatible semiconductor approach",
+        "Spin-qubit based processor design",
+        "Focus on manufacturability and scalability"
+      ],
+      "architecture_tags": [
+        "Semiconductor",
+        "Spin qubits",
+        "CMOS-compatible"
+      ]
+    },
+    "focus_areas": [
+      "Scalable quantum processors",
+      "Semiconductor quantum hardware",
+      "Spin-based quantum computation"
+    ],
+    "products": [
+      "Semiconductor quantum processor architecture (in development)"
+    ],
+    "people": {
+      "founders": [],
+      "leadership": [],
+      "spun_out_of": []
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": null,
+      "rounds": []
+    },
+    "milestones": [],
+    "links": {
+      "website": "",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "sources": [
+      {
+        "url": "https://finder.startupnationcentral.org",
+        "note": "Startup Nation Central listing (company category and focus)"
+      },
+      {
+        "url": "https://www.calcalistech.com",
+        "note": "Israeli quantum startup ecosystem overview mentioning Quantum Transistors"
+      }
+    ],
+    "md_filename": "c010-quantum-transistors.md",
     "updated_at": "",
     "directory": {
       "current_members": [],

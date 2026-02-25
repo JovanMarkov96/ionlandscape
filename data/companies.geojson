@@ -4,24 +4,23 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c011-quancilla",
-        "name": "Quancilla",
+        "id": "c002-ionq",
+        "name": "IonQ",
         "entity_type": "company",
         "platforms": [
-          "Quantum software development",
-          "Quantum algorithm design tools"
+          "Trapped ions"
         ],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
+        "city": "College Park",
+        "country": "United States",
+        "short_summary": "Develops general-purpose trapped ion quantum computers and software.",
         "logo_path": "",
-        "md_filename": "c011-quancilla.md"
+        "md_filename": "c002-ionq.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7818,
-          32.0853
+          -76.92,
+          38.98
         ]
       }
     },
@@ -52,71 +51,46 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c005-quantum-source-labs",
-        "name": "Quantum Source Labs",
+        "id": "c004-qedma",
+        "name": "Qedma",
         "entity_type": "company",
         "platforms": [
-          "Photonic quantum computing",
-          "Hybrid photon-atom qubit architecture"
+          "Quantum error mitigation & noise resilience software"
         ],
-        "city": "Ness Ziona",
+        "city": "Tel Aviv",
         "country": "Israel",
-        "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
+        "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
         "logo_path": "",
-        "md_filename": "c005-quantum-source-labs.md"
+        "md_filename": "c004-qedma.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.806,
-          31.9182
+          34.8121,
+          32.1066
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "c010-quantum-transistors",
-        "name": "Quantum Transistors",
+        "id": "c003-alpine-quantum-technologies-aqt",
+        "name": "Alpine Quantum Technologies",
         "entity_type": "company",
         "platforms": [
-          "Semiconductor-based quantum devices",
-          "Spin qubits"
+          "Trapped ions"
         ],
-        "city": "Binyamina",
-        "country": "Israel",
-        "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
+        "city": "Innsbruck",
+        "country": "Austria",
+        "short_summary": "A commercial provider of trapped-ion quantum computers.",
         "logo_path": "",
-        "md_filename": "c010-quantum-transistors.md"
+        "md_filename": "c003-alpine-quantum-technologies-aqt.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.9436,
-          32.5203
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c005-q-ctrl",
-        "name": "Q-CTRL",
-        "entity_type": "company",
-        "platforms": [
-          "Software"
-        ],
-        "city": "Sydney",
-        "country": "Australia",
-        "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
-        "logo_path": "",
-        "md_filename": "c005-q-ctrl.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.2,
-          -33.886
+          11.393,
+          47.269
         ]
       }
     },
@@ -140,6 +114,30 @@
         "coordinates": [
           -71.058,
           42.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c011-quancilla",
+        "name": "Quancilla",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum software development",
+          "Quantum algorithm design tools"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
+        "logo_path": "",
+        "md_filename": "c011-quancilla.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
         ]
       }
     },
@@ -170,23 +168,142 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c003-alpine-quantum-technologies-aqt",
-        "name": "Alpine Quantum Technologies",
+        "id": "c005-q-ctrl",
+        "name": "Q-CTRL",
         "entity_type": "company",
         "platforms": [
-          "Trapped ions"
+          "Software"
         ],
-        "city": "Innsbruck",
-        "country": "Austria",
-        "short_summary": "A commercial provider of trapped-ion quantum computers.",
+        "city": "Sydney",
+        "country": "Australia",
+        "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
         "logo_path": "",
-        "md_filename": "c003-alpine-quantum-technologies-aqt.md"
+        "md_filename": "c005-q-ctrl.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.393,
-          47.269
+          151.2,
+          -33.886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c005-quantum-source-labs",
+        "name": "Quantum Source Labs",
+        "entity_type": "company",
+        "platforms": [
+          "Photonic quantum computing",
+          "Hybrid photon-atom qubit architecture"
+        ],
+        "city": "Ness Ziona",
+        "country": "Israel",
+        "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
+        "logo_path": "",
+        "md_filename": "c005-quantum-source-labs.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.806,
+          31.9182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c006-quamcore",
+        "name": "QuamCore",
+        "entity_type": "company",
+        "platforms": [
+          "Superconducting quantum computing",
+          "Scalable million-qubit architectures"
+        ],
+        "city": "Herzliya",
+        "country": "Israel",
+        "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
+        "logo_path": "",
+        "md_filename": "c006-quamcore.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8117,
+          32.167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c001-quantum-art",
+        "name": "Quantum Art",
+        "entity_type": "company",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "city": "Ness Ziona",
+        "country": "Israel",
+        "short_summary": "Developer of scalable, multi-core quantum computers using trapped-ion qubits.",
+        "logo_path": "/img/companies/quantum-art.png",
+        "md_filename": "c001-quantum-art.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8025,
+          31.9284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c004-oxford-ionics",
+        "name": "Oxford Ionics",
+        "entity_type": "company",
+        "platforms": [
+          "Trapped ions"
+        ],
+        "city": "Kidlington",
+        "country": "United Kingdom",
+        "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
+        "logo_path": "",
+        "md_filename": "c004-oxford-ionics.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.291,
+          51.826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c009-quantlr",
+        "name": "QuantLR",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum communication",
+          "Quantum key distribution (QKD)",
+          "Quantum repeaters"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of quantum-secure communication infrastructure, building quantum repeaters and entanglement-based networking technologies for long-distance quantum communication.",
+        "logo_path": "",
+        "md_filename": "c009-quantlr.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0003,
+          31.8906
         ]
       }
     },
@@ -218,141 +335,24 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c006-quamcore",
-        "name": "QuamCore",
+        "id": "c010-quantum-transistors",
+        "name": "Quantum Transistors",
         "entity_type": "company",
         "platforms": [
-          "Superconducting quantum computing",
-          "Scalable million-qubit architectures"
+          "Semiconductor-based quantum devices",
+          "Spin qubits"
         ],
-        "city": "Herzliya",
+        "city": "Binyamina",
         "country": "Israel",
-        "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
+        "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
         "logo_path": "",
-        "md_filename": "c006-quamcore.md"
+        "md_filename": "c010-quantum-transistors.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.8117,
-          32.167
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c002-ionq",
-        "name": "IonQ",
-        "entity_type": "company",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "city": "College Park",
-        "country": "United States",
-        "short_summary": "Develops general-purpose trapped ion quantum computers and software.",
-        "logo_path": "",
-        "md_filename": "c002-ionq.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.92,
-          38.98
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c004-oxford-ionics",
-        "name": "Oxford Ionics",
-        "entity_type": "company",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "city": "Kidlington",
-        "country": "United Kingdom",
-        "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
-        "logo_path": "",
-        "md_filename": "c004-oxford-ionics.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.291,
-          51.826
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c004-qedma",
-        "name": "Qedma",
-        "entity_type": "company",
-        "platforms": [
-          "Quantum error mitigation & noise resilience software"
-        ],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
-        "logo_path": "",
-        "md_filename": "c004-qedma.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8121,
-          32.1066
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c001-quantum-art",
-        "name": "Quantum Art",
-        "entity_type": "company",
-        "platforms": [
-          "Trapped ions"
-        ],
-        "city": "Ness Ziona",
-        "country": "Israel",
-        "short_summary": "Developer of scalable, multi-core quantum computers using trapped-ion qubits.",
-        "logo_path": "/img/companies/quantum-art.png",
-        "md_filename": "c001-quantum-art.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8025,
-          31.9284
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c009-quantlr",
-        "name": "QuantLR",
-        "entity_type": "company",
-        "platforms": [
-          "Quantum communication",
-          "Quantum key distribution (QKD)",
-          "Quantum repeaters"
-        ],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Developer of quantum-secure communication infrastructure, building quantum repeaters and entanglement-based networking technologies for long-distance quantum communication.",
-        "logo_path": "",
-        "md_filename": "c009-quantlr.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.0003,
-          31.8906
+          34.9436,
+          32.5203
         ]
       }
     }
