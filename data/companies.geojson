@@ -44,8 +44,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7818,
-          32.0853
+          34.7833,
+          32.0746
         ]
       }
     },
@@ -68,8 +68,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.8,
-          31.93
+          34.806,
+          31.9182
         ]
       }
     },
@@ -83,7 +83,7 @@
           "Semiconductor-based quantum devices",
           "Spin qubits"
         ],
-        "city": "Tel Aviv",
+        "city": "Binyamina",
         "country": "Israel",
         "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
         "logo_path": "",
@@ -92,8 +92,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7818,
-          32.0853
+          34.9436,
+          32.5203
         ]
       }
     },
@@ -162,8 +162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7818,
-          32.0853
+          34.782,
+          32.0621
         ]
       }
     },
@@ -210,8 +210,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7818,
-          32.0853
+          34.7937,
+          32.0154
         ]
       }
     },
@@ -234,8 +234,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.81,
-          32.16
+          34.8117,
+          32.167
         ]
       }
     },
@@ -303,8 +303,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7818,
-          32.0853
+          34.8121,
+          32.1066
         ]
       }
     },
@@ -326,8 +326,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.8,
-          31.93
+          34.8025,
+          31.9284
         ]
       }
     },
@@ -351,8 +351,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7818,
-          32.0853
+          35.0003,
+          31.8906
         ]
       }
     }
