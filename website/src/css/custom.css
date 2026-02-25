@@ -390,7 +390,74 @@ body,
 }
 
 
-/* 2. Logo Marker (Companies & Institutions) */
+/* 2. Scalable Dual-State Marker Wrapper (Companies) */
+.ion-marker-company {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Initially hide logos */
+.ion-marker-company .ion-marker-logo,
+.ion-marker-company .ion-marker-placeholder {
+  display: none;
+  position: absolute;
+  /* Pull down by half height so the circle centroid aligns with the geometric pin tip (bottom center of container) */
+  bottom: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+/* Ensure standard pin scales within its parent wrapper */
+.ion-marker-company .ion-marker-pin {
+  display: flex !important;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Company hover animations */
+.ion-marker-company:hover {
+  z-index: 1000 !important;
+}
+
+.ion-marker-company:hover .ion-marker-pin {
+  transform: translateY(-10px) scale(1.35);
+}
+
+.ion-marker-company:hover .ion-marker-pin svg {
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.5)) !important;
+}
+
+.ion-marker-company:hover .ion-marker-logo,
+.ion-marker-company:hover .ion-marker-placeholder {
+  transform: translateX(-50%) translateY(-8px) scale(1.15);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3), inset 0 0 16px rgba(255, 255, 255, 1);
+}
+
+/* ---- Zoomed-in Logic ---- */
+.map-zoomed-in .ion-marker-company .ion-marker-pin {
+  display: none !important;
+}
+
+.map-zoomed-in .ion-marker-company .ion-marker-logo,
+.map-zoomed-in .ion-marker-company .ion-marker-placeholder {
+  display: flex;
+}
+
+.map-zoomed-in .ion-marker-company .ion-marker-logo {
+  display: block;
+}
+
+/* Logo Markers (Shared appearance properties only) */
 .ion-marker-logo {
   position: relative;
   width: 48px;
@@ -400,16 +467,13 @@ body,
   background-color: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px) saturate(180%);
   -webkit-backdrop-filter: blur(10px) saturate(180%);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   box-shadow:
     0 6px 16px rgba(0, 0, 0, 0.2),
     inset 0 0 12px rgba(255, 255, 255, 0.9);
-  cursor: pointer;
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-  margin-top: -24px;
-  margin-left: -24px;
   z-index: 10;
 }
 
@@ -442,20 +506,8 @@ body,
   box-shadow:
     0 6px 16px rgba(0, 0, 0, 0.2),
     inset 0 0 12px rgba(255, 255, 255, 0.4);
-  cursor: pointer;
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-  margin-top: -24px;
-  margin-left: -24px;
   z-index: 10;
-}
-
-.ion-marker-logo:hover,
-.ion-marker-placeholder:hover {
-  transform: translateY(-8px) scale(1.15);
-  z-index: 1001 !important;
-  box-shadow:
-    0 12px 24px rgba(0, 0, 0, 0.3),
-    inset 0 0 16px rgba(255, 255, 255, 1);
 }
 
 [data-theme='dark'] .ion-marker-logo,

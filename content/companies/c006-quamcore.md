@@ -8,8 +8,8 @@ location:
   city: Herzliya
   region: Central
   country: Israel
-  lat: 32.1600
-  lon: 34.8100
+  lat: 32.1670
+  lon: 34.8117
 
 platforms:
   - "Superconducting quantum computing"

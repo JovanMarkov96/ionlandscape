@@ -8,8 +8,8 @@ location:
   city: Tel Aviv
   region: Tel Aviv District
   country: Israel
-  lat: 32.0853
-  lon: 34.7818
+  lat: 31.8906
+  lon: 35.0003
 
 platforms:
   - "Quantum communication"

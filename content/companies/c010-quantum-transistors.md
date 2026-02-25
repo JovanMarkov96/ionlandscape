@@ -5,11 +5,11 @@ sort_name: Quantum Transistors
 entity_type: "company"
 
 location:
-  city: Tel Aviv
-  region: Tel Aviv District
+  city: Binyamina
+  region: Haifa
   country: Israel
-  lat: 32.0853
-  lon: 34.7818
+  lat: 32.5203
+  lon: 34.9436
 
 platforms:
   - "Semiconductor-based quantum devices"

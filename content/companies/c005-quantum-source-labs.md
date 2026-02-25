@@ -8,8 +8,8 @@ location:
   city: Ness Ziona
   region: Central
   country: Israel
-  lat: 31.9300
-  lon: 34.8000
+  lat: 31.9182
+  lon: 34.8060
 
 platforms:
   - "Photonic quantum computing"

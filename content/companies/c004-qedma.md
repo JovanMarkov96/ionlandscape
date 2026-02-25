@@ -8,8 +8,8 @@ location:
   city: Tel Aviv
   region: Tel Aviv District
   country: Israel
-  lat: 32.0853
-  lon: 34.7818
+  lat: 32.1066
+  lon: 34.8121
 
 platforms:
   - "Quantum error mitigation & noise resilience software"
