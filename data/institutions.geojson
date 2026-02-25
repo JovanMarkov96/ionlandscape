@@ -764,6 +764,26 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "i002-cqiqc",
+        "name": "Centre for Quantum Information and Quantum Control",
+        "entity_type": "institution",
+        "city": "Toronto",
+        "country": "Canada",
+        "short_description": "The Centre for Quantum Information and Quantum Control (CQIQC) is a multidisciplinary research center at the University of Toronto dedicated to advancing quantum information science, quantum control, and quantum technologies.",
+        "logo_path": "",
+        "md_filename": "i002-cqiqc.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3957,
+          43.6629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "i053-university-of-tokyo",
         "name": "University of Tokyo",
         "entity_type": "institution",
