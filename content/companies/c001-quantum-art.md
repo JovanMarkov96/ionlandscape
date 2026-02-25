@@ -10,8 +10,8 @@ location:
   city: Ness Ziona
   region: Central
   country: Israel
-  lat: 31.93
-  lon: 34.80
+  lat: 31.9284
+  lon: 34.8025
 
 platforms:
   - "Trapped ions"
