@@ -11,8 +11,8 @@ location:
   city: "Rehovot"
   region: ""
   country: "Israel"
-  lat: 31.9070
-  lon: 34.8090
+  lat: 31.916340784475373
+  lon: 34.80493723330932
 
 institution_type: "research_institute"
 
