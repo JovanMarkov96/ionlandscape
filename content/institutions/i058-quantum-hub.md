@@ -1,8 +1,9 @@
 ---
-id: o001-quantum-hub
+id: i058-quantum-hub
 name: Quantum Hub
 sort_name: Quantum Hub
-entity_type: "organization"
+entity_type: "institution"
+institution_type: "consortium"
 
 location:
   city: Tel Aviv

@@ -26,6 +26,7 @@ This directory contains automation tools for profile ingestion, verification, an
 |--------|---------|-------|
 | `verify_profile_data.py` | Validate data & links | `python scripts/validation/verify_profile_data.py --all` |
 | `validate_profiles.py` | Strict JSON Schema check | `python scripts/validation/validate_profiles.py` |
+| `audit_data.py` | Cross-check person/institution consistency (locations, member dirs) | `python scripts/validation/audit_data.py` |
 
 ### Utilities (`scripts/utils/`)
 
@@ -34,6 +35,21 @@ This directory contains automation tools for profile ingestion, verification, an
 | `create_profile_template.py` | Interactive profile wizard | `python scripts/utils/create_profile_template.py` |
 | `cite_sources.py` | Document sources | `python scripts/utils/cite_sources.py <id> --add` |
 | `normalize_markdown.py` | Normalize frontmatter | `python scripts/utils/normalize_markdown.py` |
+| `update_coords.py` | Geocode / refresh lat-lon | `python scripts/utils/update_coords.py` |
+
+### Archived (`scripts/_archive/`)
+
+One-shot or superseded scripts kept for reference. Not part of the active
+pipeline. Do not run unless you know why.
+
+| Script | Why archived |
+|--------|---------|
+| `extract_companies_tmp.py` | One-shot diagnostic — heuristic listing of companies from `people.json` |
+| `extract_institutions.py` | Superseded by auto-directory population in `core/build_index.py` |
+| `generate_companies.py` | One-shot bootstrap — created the initial company skeletons |
+| `generate_institutions.py` | One-shot bootstrap — created the initial institution skeletons |
+| `fix_data_issues.py` | One-shot — applied a specific batch of country/location standardizations |
+| `list_*_tmp.py` (3 files) | Throwaway diagnostics — listing institutions, countries, affiliations |
 
 ## Installation
 
