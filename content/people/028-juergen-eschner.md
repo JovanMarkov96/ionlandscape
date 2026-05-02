@@ -1,35 +1,38 @@
 ---
+active: active
 affiliations: []
+applications:
+- networking
 created_at: '2026-01-30'
 current_position:
   institution: Saarland University
   title: Professor
 education:
-  - degree: PhD (Physics)
-    institution: Universität Hamburg
-    year: 1993
-    advisor: null
-    confidence: academictree_only
-    note: "PhD (Promotion) at Universität Hamburg confirmed by institutional profile; advisor not reliably available from public sources."
+- advisor: null
+  confidence: academictree_only
+  degree: PhD (Physics)
+  institution: Universität Hamburg
+  note: PhD (Promotion) at Universität Hamburg confirmed by institutional profile;
+    advisor not reliably available from public sources.
+  year: 1993
+entity_type: person
 group_type: experimental
 id: 028-juergen-eschner
 ion_species:
-  - Ca+
-  - Yb
-platforms:
-  - Trapped ions
-  - Neutral atoms
+- Ca+
+- Yb
 keywords:
-  - trapped ions
-  - atom-photon interfaces
-  - quantum photonics
-  - quantum networking
-  - quantum frequency conversion
-  - single-photon absorption
-  - cavity QED
+- trapped ions
+- atom-photon interfaces
+- quantum photonics
+- quantum networking
+- quantum frequency conversion
+- single-photon absorption
+- cavity QED
 labels:
-  - Experimental group
-  - Quantum networking
+- Experimental group
+- Quantum networking
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=4nXxpqwAAAAJ
   group_page: https://www.uni-saarland.de/lehrstuhl/eschner.html
@@ -41,18 +44,25 @@ location:
   lon: 6.9969
   region: Saarland
 name: Jürgen Eschner
+platforms:
+- trapped_ion
+- neutral_atom
 postdocs:
-  - institution: Australian National University
-    advisor: null
-    years: 1995–1996
-    note: "Postdoctoral researcher at Australian National University confirmed by institutional profile; specific advisor not listed."
+- advisor: null
+  institution: Australian National University
+  note: Postdoctoral researcher at Australian National University confirmed by institutional
+    profile; specific advisor not listed.
+  years: 1995–1996
+schema_version: 2
 sort_name: Eschner, Jürgen
 thesis:
-  title: null
   link: null
+  note: Thesis title not found in open online sources; add once verified from university
+    catalog.
+  title: null
   year: 1993
-  note: "Thesis title not found in open online sources; add once verified from university catalog."
 updated_at: '2026-02-02'
+verification_source_count: null
 ---
 
 Jürgen Eschner leads the **Quantum Photonics Group** at Saarland University, where the research program is dedicated to the controlled interaction between light and matter in the quantum mechanical regime. The main objective of his group’s work is to study and experimentally realize the transformation between **quantum states of individual photons and individual atoms/ions**, employing high-finesse optical resonators, single trapped particles, and entangled photon pairs.

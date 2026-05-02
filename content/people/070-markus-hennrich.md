@@ -1,5 +1,9 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
+- simulation
 created_at: '2026-01-30'
 current_position:
   institution: Stockholm University
@@ -11,6 +15,7 @@ education:
   institution: Max Planck Institute of Quantum Optics
   note: PhD details require verification
   year: null
+entity_type: person
 group_type: experimental
 id: 070-markus-hennrich
 ion_species:
@@ -23,6 +28,7 @@ keywords:
 - quantum simulation
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=8XqgH5oAAAAJ
   group_page: https://www.fysik.su.se/hennrich-group
@@ -35,8 +41,9 @@ location:
   region: Stockholm
 name: Markus Hennrich
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Hennrich, Markus
 thesis:
   link: null
@@ -44,6 +51,7 @@ thesis:
   title: Coherent manipulation of ultracold atoms on atom chips
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Markus Hennrich leads the Trapped Rydberg Ion Group at Stockholm University, pioneering work on Rydberg excitation of trapped ions for quantum computing.

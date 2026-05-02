@@ -1,43 +1,43 @@
 ---
-id: "i048-university-of-oregon"
-name: "University of Oregon"
-sort_name: "University of Oregon"
-entity_type: "institution"
-
-aliases: ["UO", "U of O"]
-
+aliases:
+- UO
+- U of O
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 006-david-wineland.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Quantum Physics
+- AMO Physics
+id: i048-university-of-oregon
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.uoregon.edu/
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Oregon
 location:
-  city: "Eugene"
-  region: "Oregon"
-  country: "United States"
+  city: Eugene
+  country: United States
   lat: 44.0448
   lon: -123.0726
-
-institution_type: "university"
-
-short_description: "The University of Oregon is a public research university where Nobel laureate David Wineland holds an appointment working on quantum physics."
-focus_areas: ["Quantum Physics", "AMO Physics"]
-
-links:
-  website: "https://www.uoregon.edu/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/University_of_Oregon"
-  linkedin: ""
-
+  region: Oregon
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "006-david-wineland.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: University of Oregon
+schema_version: 1
+short_description: The University of Oregon is a public research university where
+  Nobel laureate David Wineland holds an appointment working on quantum physics.
+sort_name: University of Oregon
 sources:
-  - url: "https://www.uoregon.edu/"
-    note: "Official website"
+- note: Official website
+  url: https://www.uoregon.edu/
+verification_source_count: null
 ---

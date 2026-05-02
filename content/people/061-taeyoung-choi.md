@@ -1,5 +1,9 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
+- software_control
 created_at: '2026-01-30'
 current_position:
   institution: Ewha Womans University
@@ -11,6 +15,7 @@ education:
   institution: The Ohio State University
   note: PhD details require verification
   year: 2011
+entity_type: person
 group_type: experimental
 id: 061-taeyoung-choi
 ion_species:
@@ -21,6 +26,7 @@ keywords:
 - quantum control
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=7Jk6zRIAAAAJ
   group_page: http://qion.ewha.ac.kr/
@@ -33,8 +39,9 @@ location:
   region: Seoul
 name: Taeyoung Choi
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Choi, Taeyoung
 thesis:
   link: null
@@ -42,6 +49,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Taeyoung Choi leads trapped-ion research at Ewha Womans University in Seoul, focusing on quantum computing and quantum control with ytterbium ions.

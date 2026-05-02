@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- optical_clocks
 created_at: '2026-01-30'
 current_position:
   institution: National Physical Laboratory (NPL)
@@ -11,6 +14,7 @@ education:
   institution: University of Oxford
   note: PhD details require verification from institutional sources
   year: 1975
+entity_type: person
 group_type: experimental
 id: 049-patrick-gill
 ion_species:
@@ -23,6 +27,7 @@ keywords:
 - trapped ions
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: null
   group_page: https://www.npl.co.uk/people/patrick-gill
@@ -35,8 +40,9 @@ location:
   region: London
 name: Patrick Gill
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Gill, Patrick
 thesis:
   link: null
@@ -44,6 +50,7 @@ thesis:
   title: Charge Transfer as a Laser Excitation Mechanism
   year: 1975
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Patrick Gill co-leads the Time & Frequency department at NPL. He is a world-leading pioneer in optical frequency standards and trapped-ion optical clocks, particularly using strontium and ytterbium ions for high-precision metrology.

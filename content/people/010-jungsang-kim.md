@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-26'
 current_position:
   institution: Duke University
@@ -9,6 +12,7 @@ education:
   degree: PhD (Physics)
   institution: Stanford University
   year: 1999
+entity_type: person
 group_type: experimental
 id: 010-jungsang-kim
 ion_species:
@@ -21,6 +25,7 @@ keywords:
 - scalable trapped-ion architectures
 labels:
 - Experimental group
+last_verified_at: null
 links:
   aps_author_bio: https://physics.aps.org/authors/jungsang_kim
   duke_ece_profile: https://ece.duke.edu/people/jungsang-kim/
@@ -37,8 +42,9 @@ location:
   region: North Carolina
 name: Jungsang Kim
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Kim, Jungsang
 thesis:
   link: null
@@ -47,6 +53,7 @@ thesis:
   title: Generation and detection of single photon states
   year: 1999
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Jungsang Kim is a professor at Duke University working on trapped-ion quantum information systems, with strong emphasis on engineering and integration: microfabricated traps, photonics, detectors, compact cryo/vacuum, and system-scale architectures.

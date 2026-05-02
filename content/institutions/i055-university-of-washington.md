@@ -1,43 +1,45 @@
 ---
-id: "i055-university-of-washington"
-name: "University of Washington"
-sort_name: "University of Washington"
-entity_type: "institution"
-
-aliases: ["UW", "UDub"]
-
+aliases:
+- UW
+- UDub
+directory:
+  alumni:
+  - 006-david-wineland.md
+  alumni_count: 1
+  company_spinouts: []
+  current_members:
+  - 075-boris-blinov.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Trapped Ions
+- AMO Physics
+- Quantum Information
+id: i055-university-of-washington
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.washington.edu/
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Washington
 location:
-  city: "Seattle"
-  region: "Washington"
-  country: "United States"
+  city: Seattle
+  country: United States
   lat: 47.6553
   lon: -122.3035
-
-institution_type: "university"
-
-short_description: "The University of Washington is a major U.S. research university with experimental trapped-ion physics programs."
-focus_areas: ["Trapped Ions", "AMO Physics", "Quantum Information"]
-
-links:
-  website: "https://www.washington.edu/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/University_of_Washington"
-  linkedin: ""
-
+  region: Washington
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "075-boris-blinov.md"
-  alumni:
-    - "006-david-wineland.md"
-  member_count: 1
-  alumni_count: 1
-
+  hero_image_path: ''
+  logo_path: ''
+name: University of Washington
+schema_version: 1
+short_description: The University of Washington is a major U.S. research university
+  with experimental trapped-ion physics programs.
+sort_name: University of Washington
 sources:
-  - url: "https://www.washington.edu/"
-    note: "Official website"
+- note: Official website
+  url: https://www.washington.edu/
+verification_source_count: null
 ---

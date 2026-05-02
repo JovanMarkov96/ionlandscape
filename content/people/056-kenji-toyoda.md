@@ -1,5 +1,9 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
+- simulation
 created_at: '2026-01-30'
 current_position:
   institution: Osaka University
@@ -11,6 +15,7 @@ education:
   institution: Kyoto University
   note: PhD details require verification
   year: 2002
+entity_type: person
 group_type: experimental
 id: 056-kenji-toyoda
 ion_species:
@@ -21,6 +26,7 @@ keywords:
 - quantum computing
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=8YgPz2UAAAAJ
   group_page: https://www-toyoda.Kv-lab.org/
@@ -33,8 +39,9 @@ location:
   region: Osaka
 name: Kenji Toyoda
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Toyoda, Kenji
 thesis:
   link: null
@@ -42,6 +49,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Kenji Toyoda conducts trapped-ion research at Osaka University focusing on quantum simulation and quantum computing with calcium ions.

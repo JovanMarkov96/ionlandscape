@@ -1,43 +1,44 @@
 ---
-id: "i023-postech"
-name: "POSTECH"
-sort_name: "POSTECH"
-entity_type: "institution"
-
-aliases: ["Pohang University of Science and Technology"]
-
+aliases:
+- Pohang University of Science and Technology
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 060-moonjoo-lee.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Physics
+- Quantum Information
+- Trapped Ions
+id: i023-postech
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.postech.ac.kr/eng/
+  wikipedia: https://en.wikipedia.org/wiki/POSTECH
 location:
-  city: "Pohang"
-  region: "North Gyeongsang"
-  country: "South Korea"
+  city: Pohang
+  country: South Korea
   lat: 36.0111
   lon: 129.3238
-
-institution_type: "university"
-
-short_description: "POSTECH (Pohang University of Science and Technology) is a top South Korean research university with emerging programs in quantum information and trapped-ion experiments."
-focus_areas: ["Physics", "Quantum Information", "Trapped Ions"]
-
-links:
-  website: "https://www.postech.ac.kr/eng/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/POSTECH"
-  linkedin: ""
-
+  region: North Gyeongsang
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "060-moonjoo-lee.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: POSTECH
+schema_version: 1
+short_description: POSTECH (Pohang University of Science and Technology) is a top
+  South Korean research university with emerging programs in quantum information and
+  trapped-ion experiments.
+sort_name: POSTECH
 sources:
-  - url: "https://www.postech.ac.kr/eng/"
-    note: "Official website"
+- note: Official website
+  url: https://www.postech.ac.kr/eng/
+verification_source_count: null
 ---

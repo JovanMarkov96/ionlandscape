@@ -1,5 +1,9 @@
 ---
+active: active
 affiliations: []
+applications:
+- simulation
+- software_control
 created_at: '2026-01-30'
 current_position:
   institution: Stellenbosch University
@@ -11,6 +15,7 @@ education:
   institution: University of Arizona
   note: PhD details require verification from institutional sources
   year: 2007
+entity_type: person
 group_type: experimental
 id: 048-hermann-uys
 ion_species:
@@ -22,6 +27,7 @@ keywords:
 - quantum thermodynamics
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=2cWt_OIAAAAJ
   group_page: https://www.csir.co.za/quantum-optics
@@ -34,8 +40,9 @@ location:
   region: Western Cape
 name: Hermann Uys
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Uys, Hermann
 thesis:
   link: null
@@ -44,6 +51,7 @@ thesis:
     and Applications'
   year: 2007
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Hermann Uys leads the trapped ion research group at Stellenbosch University and the CSIR in South Africa. His work focuses on trapped ytterbium ions for quantum control, simulation of many-body physics, and quantum thermodynamics.

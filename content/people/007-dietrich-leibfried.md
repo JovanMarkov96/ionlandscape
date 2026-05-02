@@ -1,5 +1,10 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
+- networking
+- software_control
 created_at: '2026-01-26'
 current_position:
   institution: National Institute of Standards and Technology (NIST), Boulder
@@ -10,6 +15,7 @@ education:
   institution: Ludwig-Maximilians-University Munich
   note: Thesis research conducted at Max Planck Institute for Quantum Optics (MPQ).
   year: 1995
+entity_type: person
 group_type: experimental
 id: 007-dietrich-leibfried
 ion_species:
@@ -22,6 +28,7 @@ keywords:
 - precision spectroscopy
 labels:
 - Experimental group
+last_verified_at: null
 links:
   colorado_qsense_profile: https://www.colorado.edu/research/qsense/dietrich-leibfried
   google_scholar: https://scholar.google.com/citations?hl=en&user=hx5LEOwAAAAJ
@@ -36,8 +43,9 @@ location:
   region: Colorado
 name: Dietrich Leibfried
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Leibfried, Dietrich
 thesis:
   link: null
@@ -46,6 +54,7 @@ thesis:
   title: null
   year: 1995
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Dietrich Leibfried is a leading experimental physicist in trapped-ion quantum information science at NIST (Boulder). His work spans high-fidelity trapped-ion operations, quantum control, quantum networking, and precision spectroscopy.

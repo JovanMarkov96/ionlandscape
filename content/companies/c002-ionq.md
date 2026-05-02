@@ -1,30 +1,33 @@
 ---
-id: c002-ionq
-name: IonQ
-sort_name: IonQ
-entity_type: company
-location:
-  city: College Park
-  region: Maryland
-  country: United States
-  lat: 38.98
-  lon: -76.92
-platforms:
-- Trapped ions
-short_summary: Develops general-purpose trapped ion quantum computers and software.
 aliases:
 - IonQ, Inc.
 - IonQ, Inc. (USA)
+entity_type: company
+id: c002-ionq
+last_verified_at: null
+links:
+  website: https://ionq.com
+location:
+  city: College Park
+  country: United States
+  lat: 38.98
+  lon: -76.92
+  region: Maryland
+media:
+  logo_path: ''
+modality: hardware
+name: IonQ
 people:
   founders: []
   leadership: []
   spun_out_of: []
-status:
-  operating_status: active
-links:
-  website: https://ionq.com
-media:
-  logo_path: ''
+platforms:
+- trapped_ion
+schema_version: 1
+short_summary: Develops general-purpose trapped ion quantum computers and software.
+sort_name: IonQ
 sources: []
+status:
+  operating_status: public
+verification_source_count: null
 ---
-

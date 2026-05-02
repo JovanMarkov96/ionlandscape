@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: VU Amsterdam
@@ -11,6 +14,7 @@ education:
   institution: Vrije Universiteit Amsterdam
   note: PhD details require verification from institutional sources
   year: 1996
+entity_type: person
 group_type: experimental
 id: 046-kjeld-eikema
 ion_species:
@@ -22,6 +26,7 @@ keywords:
 - ultrafast lasers
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=obso9DoAAAAJ
   group_page: https://research.vu.nl/en/persons/kjeld-eikema
@@ -34,8 +39,9 @@ location:
   region: North Holland
 name: Kjeld S. E. Eikema
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Eikema, Kjeld S. E.
 thesis:
   link: null
@@ -43,6 +49,7 @@ thesis:
   title: QED and the ground state of helium, precision extreme ultraviolet spectroscopy
   year: 1996
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Kjeld S. E. Eikema leads the Ultrafast Laser Physics and Precision Metrology group at VU Amsterdam. His research combines frequency combs with trapped ions for extreme precision measurements and tests of fundamental physics.

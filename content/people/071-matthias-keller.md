@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: University of Sussex
@@ -11,6 +14,7 @@ education:
   institution: Max Planck Institute of Quantum Optics
   note: PhD details require verification
   year: 2004
+entity_type: person
 group_type: experimental
 id: 071-matthias-keller
 ion_species:
@@ -22,6 +26,7 @@ keywords:
 - quantum networks
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=G_R_X2IAAAAJ
   group_page: http://www.sussex.ac.uk/physics/iqt/
@@ -34,8 +39,9 @@ location:
   region: East Sussex
 name: Matthias Keller
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Keller, Matthias
 thesis:
   link: null
@@ -43,6 +49,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Matthias Keller leads trapped-ion research at the University of Sussex focusing on ion-photon interfaces and cavity QED for quantum networks.

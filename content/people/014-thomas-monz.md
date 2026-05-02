@@ -1,8 +1,11 @@
 ---
+active: active
 affiliations:
 - name: Alpine Quantum Technologies (AQT)
   role: Co-founder
   type: company
+applications:
+- computing
 created_at: '2026-01-26'
 current_position:
   institution: University of Innsbruck
@@ -12,6 +15,7 @@ education:
   degree: PhD (Physics)
   institution: University of Innsbruck
   year: 2011
+entity_type: person
 group_type: experimental
 id: 014-thomas-monz
 ion_species:
@@ -24,6 +28,7 @@ keywords:
 labels:
 - Experimental group
 - Industry
+last_verified_at: null
 links:
   aqt_about: https://www.aqt.eu/about/
   google_scholar: null
@@ -39,14 +44,16 @@ location:
   region: Tyrol
 name: Thomas Monz
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Monz, Thomas
 thesis:
   link: https://quantumoptics.at/images/publications/dissertation/monz-diss.pdf
   title: Quantum information processing beyond ten ion-qubits
   year: 2011
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Thomas Monz is an experimental quantum physicist at the University of Innsbruck and a founder of Alpine Quantum Technologies (AQT). His work spans trapped-ion quantum computing, quantum algorithms, and system-level validation, with earlier work also touching ion–photon interfaces and precision spectroscopy.

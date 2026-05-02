@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- simulation
 created_at: '2026-01-28'
 current_position:
   institution: Aarhus University
@@ -10,6 +13,7 @@ education:
   note: Spent 10 months at l'Ecole Normale Supérieure in Paris with C. Cohen-Tannoudji
     during PhD
   year: 1994
+entity_type: person
 group_type: experimental
 id: 018-michael-drewsen
 ion_species:
@@ -21,6 +25,7 @@ keywords:
 - Coulomb crystals
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: null
   group_page: https://phys.au.dk/en/research/research-areas/amo/drewsen-lab
@@ -34,14 +39,16 @@ location:
   region: Central Denmark
 name: Michael Drewsen
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Drewsen, Michael
 thesis:
   link: null
   title: Investigations of Light-Induced Kinetic Effects on Atoms
   year: 1994
 updated_at: '2026-01-28'
+verification_source_count: null
 ---
 
 Michael Drewsen is a professor at Aarhus University and leads research in trapped-ion physics, with particular focus on molecular ions, Coulomb crystals, and quantum simulation. His group has made significant contributions to sympathetic cooling techniques and precision spectroscopy of molecular ions.

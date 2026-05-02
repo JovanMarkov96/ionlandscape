@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: University of Kassel
@@ -11,6 +14,7 @@ education:
   institution: University of Heidelberg
   note: PhD details require verification from institutional sources
   year: 2004
+entity_type: person
 group_type: experimental
 id: 043-kilian-singer
 ion_species:
@@ -22,6 +26,7 @@ keywords:
 - quantum information
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: null
   group_page: https://www.uni-kassel.de/fb10/institute/physik/forschungsgruppen/experimentalphysik-i-licht-materie-wechselwirkung.html
@@ -34,8 +39,9 @@ location:
   region: Hesse
 name: Kilian Singer
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Singer, Kilian
 thesis:
   link: null
@@ -43,6 +49,7 @@ thesis:
   title: Interactions in an ultracold gas of Rydberg atoms
   year: 2004
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Kilian Singer leads the Trapped Ion Quantum Information and Thermodynamics group at the University of Kassel. His research focuses on single-ion heat engines, thermodynamics in the quantum regime, and scalable ion trap technologies.

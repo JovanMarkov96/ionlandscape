@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-26'
 current_position:
   institution: ETH Zürich
@@ -9,6 +12,7 @@ education:
   degree: PhD (Physics)
   institution: University of Oxford
   year: 2006
+entity_type: person
 group_type: experimental
 id: 016-jonathan-home
 ion_species:
@@ -20,6 +24,7 @@ keywords:
 - scaling
 labels:
 - Experimental group
+last_verified_at: null
 links:
   eth_profile: https://www.phys.ethz.ch/the-department/people/person-detail.jhome.html
   google_scholar: https://scholar.google.com/citations?user=hIVXn-EAAAAJ&hl=en
@@ -34,15 +39,18 @@ location:
   region: Zürich
 name: Jonathan P. Home
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Home, Jonathan P.
 thesis:
   link: null
-  note: "Thesis supervised by Andrew Steane; topics included sideband cooling, temperature diagnostics, and quantum logic gates."
+  note: Thesis supervised by Andrew Steane; topics included sideband cooling, temperature
+    diagnostics, and quantum logic gates.
   title: null
   year: 2006
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Jonathan P. Home is a professor at ETH Zürich and leads research in trapped-ion quantum information processing, with a focus on precision control, error correction, and scalable architectures (including integrated trap technologies).

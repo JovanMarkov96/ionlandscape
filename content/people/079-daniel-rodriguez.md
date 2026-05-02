@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- sensing_metrology
 created_at: '2026-02-03'
 current_position:
   institution: University of Granada
@@ -13,6 +16,7 @@ education:
   note: PhD on Penning trap mass spectrometry with heavy ions; advisor not listed
     in profile sources.
   year: 2003
+entity_type: person
 group_type: experimental
 id: 079-daniel-rodriguez
 ion_species:
@@ -29,6 +33,7 @@ keywords:
 - resonant detection of trapped ions
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=kKe8PnkAAAAJ
   group_page: https://trapsensor.ugr.es/
@@ -42,7 +47,7 @@ location:
   region: Andalusia
 name: Daniel Rodríguez Rubiales
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs:
 - advisor: null
   institution: LPC Caen, France
@@ -51,11 +56,12 @@ postdocs:
 - advisor: null
   institution: Max Planck Institute for Nuclear Physics, Heidelberg, Germany
   note: José Castillejo fellowship.
-  years: 2008
+  years: '2008'
 - advisor: null
   institution: University of Huelva, Spain
   note: Juan de la Cierva postdoctoral researcher.
   years: 2006–2008
+schema_version: 2
 sort_name: Rodríguez Rubiales, Daniel
 thesis:
   link: null
@@ -64,6 +70,7 @@ thesis:
     and high precision mass measurements on unstable Kr isotopes at ISOLTRAP
   year: 2003
 updated_at: '2026-02-03'
+verification_source_count: null
 ---
 
 Prof. **Daniel Rodríguez Rubiales** is a Spanish experimental physicist and *Catedrático de Universidad* at the **University of Granada**, where he leads the **Ion Traps and Lasers Laboratory** — Spain’s *only* experimental ion-trapping facility of its kind.

@@ -1,43 +1,45 @@
 ---
-id: "i028-sandia-national-laboratories"
-name: "Sandia National Laboratories"
-sort_name: "Sandia National Laboratories"
-entity_type: "institution"
-
-aliases: ["Sandia", "SNL"]
-
+aliases:
+- Sandia
+- SNL
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 052-dan-stick.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Quantum Computing
+- Trapped Ions
+- Microfabricated Ion Traps
+- National Security
+id: i028-sandia-national-laboratories
+institution_type: national_lab
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.sandia.gov/
+  wikipedia: https://en.wikipedia.org/wiki/Sandia_National_Laboratories
 location:
-  city: "Albuquerque"
-  region: "New Mexico"
-  country: "United States"
+  city: Albuquerque
+  country: United States
   lat: 35.0584
   lon: -106.5381
-
-institution_type: "government_lab"
-
-short_description: "Sandia National Laboratories is a major U.S. government research facility with programs in quantum computing using microfabricated ion traps."
-focus_areas: ["Quantum Computing", "Trapped Ions", "Microfabricated Ion Traps", "National Security"]
-
-links:
-  website: "https://www.sandia.gov/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/Sandia_National_Laboratories"
-  linkedin: ""
-
+  region: New Mexico
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "052-dan-stick.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: Sandia National Laboratories
+schema_version: 1
+short_description: Sandia National Laboratories is a major U.S. government research
+  facility with programs in quantum computing using microfabricated ion traps.
+sort_name: Sandia National Laboratories
 sources:
-  - url: "https://www.sandia.gov/"
-    note: "Official website"
+- note: Official website
+  url: https://www.sandia.gov/
+verification_source_count: null
 ---

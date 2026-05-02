@@ -1,43 +1,44 @@
 ---
-id: "i054-university-of-trento"
-name: "University of Trento"
-sort_name: "University of Trento"
-entity_type: "institution"
-
-aliases: ["UniTrento", "UNITN"]
-
+aliases:
+- UniTrento
+- UNITN
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 067-mirko-lobino.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Integrated Photonics
+- Quantum Technologies
+- Physics
+id: i054-university-of-trento
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.unitn.it/en
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Trento
 location:
-  city: "Trento"
-  region: "Trentino-Alto Adige"
-  country: "Italy"
+  city: Trento
+  country: Italy
   lat: 46.0664
   lon: 11.1501
-
-institution_type: "university"
-
-short_description: "The University of Trento is an Italian research university with work in integrated photonics and quantum technologies."
-focus_areas: ["Integrated Photonics", "Quantum Technologies", "Physics"]
-
-links:
-  website: "https://www.unitn.it/en"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/University_of_Trento"
-  linkedin: ""
-
+  region: Trentino-Alto Adige
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "067-mirko-lobino.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: University of Trento
+schema_version: 1
+short_description: The University of Trento is an Italian research university with
+  work in integrated photonics and quantum technologies.
+sort_name: University of Trento
 sources:
-  - url: "https://www.unitn.it/en"
-    note: "Official website"
+- note: Official website
+  url: https://www.unitn.it/en
+verification_source_count: null
 ---

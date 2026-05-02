@@ -1,43 +1,44 @@
 ---
-id: "i044-university-of-granada"
-name: "University of Granada"
-sort_name: "University of Granada"
-entity_type: "institution"
-
-aliases: ["UGR"]
-
+aliases:
+- UGR
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 079-daniel-rodriguez.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Penning Traps
+- Mass Spectrometry
+- Nuclear Physics
+id: i044-university-of-granada
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.ugr.es/en
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Granada
 location:
-  city: "Granada"
-  region: "Andalusia"
-  country: "Spain"
+  city: Granada
+  country: Spain
   lat: 37.1809
   lon: -3.6006
-
-institution_type: "university"
-
-short_description: "The University of Granada is a major Spanish research university with experimental programs in Penning trap mass spectrometry for nuclear and particle physics."
-focus_areas: ["Penning Traps", "Mass Spectrometry", "Nuclear Physics"]
-
-links:
-  website: "https://www.ugr.es/en"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/University_of_Granada"
-  linkedin: ""
-
+  region: Andalusia
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "079-daniel-rodriguez.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: University of Granada
+schema_version: 1
+short_description: The University of Granada is a major Spanish research university
+  with experimental programs in Penning trap mass spectrometry for nuclear and particle
+  physics.
+sort_name: University of Granada
 sources:
-  - url: "https://www.ugr.es/en"
-    note: "Official website"
+- note: Official website
+  url: https://www.ugr.es/en
+verification_source_count: null
 ---

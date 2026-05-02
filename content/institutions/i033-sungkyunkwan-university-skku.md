@@ -1,43 +1,42 @@
 ---
-id: "i033-sungkyunkwan-university-skku"
-name: "Sungkyunkwan University (SKKU)"
-sort_name: "Sungkyunkwan University (SKKU)"
-entity_type: "institution"
-
-aliases: ["SKKU"]
-
+aliases:
+- SKKU
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 064-junki-kim.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Physics
+- Quantum Information
+id: i033-sungkyunkwan-university-skku
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.skku.edu/eng/
+  wikipedia: https://en.wikipedia.org/wiki/Sungkyunkwan_University
 location:
-  city: "Suwon"
-  region: "Gyeonggi"
-  country: "South Korea"
+  city: Suwon
+  country: South Korea
   lat: 37.2939
   lon: 126.9753
-
-institution_type: "university"
-
-short_description: "SKKU is a leading South Korean university with emerging quantum information research programs."
-focus_areas: ["Physics", "Quantum Information"]
-
-links:
-  website: "https://www.skku.edu/eng/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/Sungkyunkwan_University"
-  linkedin: ""
-
+  region: Gyeonggi
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "064-junki-kim.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: Sungkyunkwan University (SKKU)
+schema_version: 1
+short_description: SKKU is a leading South Korean university with emerging quantum
+  information research programs.
+sort_name: Sungkyunkwan University (SKKU)
 sources:
-  - url: "https://www.skku.edu/eng/"
-    note: "Official website"
+- note: Official website
+  url: https://www.skku.edu/eng/
+verification_source_count: null
 ---

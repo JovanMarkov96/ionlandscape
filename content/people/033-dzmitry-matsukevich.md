@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- networking
 created_at: '2026-01-30'
 current_position:
   institution: Centre for Quantum Technologies, National University of Singapore
@@ -11,6 +14,7 @@ education:
   institution: Georgia Institute of Technology
   note: PhD details require verification from institutional sources
   year: 2006
+entity_type: person
 group_type: experimental
 id: 033-dzmitry-matsukevich
 ion_species:
@@ -23,6 +27,7 @@ keywords:
 - ion-photon entanglement
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=yDbgjnIAAAAJ
   group_page: https://ions-sg.org/
@@ -35,8 +40,9 @@ location:
   region: null
 name: Dzmitry Matsukevich
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Matsukevich, Dzmitry
 thesis:
   link: null
@@ -44,6 +50,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Dzmitry Matsukevich leads research on trapped molecular ions at the Centre for Quantum Technologies (CQT) in Singapore. His group works on quantum networking and quantum communication using ytterbium and molecular ions (SiO+), focusing on ion-photon entanglement.

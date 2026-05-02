@@ -1,5 +1,9 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
+- simulation
 created_at: '2026-01-26'
 current_position:
   institution: Institute for Basic Science (IBS), South Korea
@@ -9,6 +13,7 @@ education:
   degree: PhD (Physics)
   institution: Seoul National University
   year: 2004
+entity_type: person
 group_type: experimental
 id: 011-kihwan-kim
 ion_species:
@@ -20,6 +25,7 @@ keywords:
 - scalable architectures
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=4iNn12QAAAAJ
   group_page: https://sites.google.com/view/kihwankim-lab
@@ -34,8 +40,9 @@ location:
   region: Daejeon
 name: Kihwan Kim
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Kim, Kihwan
 thesis:
   link: null
@@ -44,6 +51,7 @@ thesis:
   title: null
   year: 2004
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Kihwan Kim is a leading trapped-ion quantum computing experimentalist known for high-fidelity control, multi-qubit entangling operations, and quantum simulation with ions. Recent reporting indicates a move from Tsinghua University to South Korea to lead a new IBS trapped-ion research group.

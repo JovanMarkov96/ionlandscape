@@ -1,5 +1,9 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
+- simulation
 created_at: '2026-01-28'
 current_position:
   institution: Tsinghua University
@@ -9,6 +13,7 @@ education:
   degree: PhD (Physics)
   institution: University of Science and Technology of China (USTC)
   year: 1998
+entity_type: person
 group_type: experimental
 id: 020-luming-duan
 ion_species:
@@ -21,6 +26,7 @@ keywords:
 - DLCZ protocol
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=ULkJQpkAAAAJ
   group_page: https://iiis.tsinghua.edu.cn/duanluming/
@@ -34,14 +40,16 @@ location:
   region: Beijing
 name: Luming Duan
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Duan, Luming
 thesis:
   link: null
   title: null
   year: 1998
 updated_at: '2026-01-28'
+verification_source_count: null
 ---
 
 Luming Duan is a Yao Qizhi Chair Professor at Tsinghua University's Institute for Interdisciplinary Information Sciences (IIIS) and an Academician of the Chinese Academy of Sciences. His group has achieved major breakthroughs in trapped-ion quantum simulation, including stable trapping of up to 512 ions and quantum simulations with 300 ion qubits—the largest-scale multi-ion quantum simulation with single-qubit resolution to date. He is known for the DLCZ protocol for long-distance quantum communication.

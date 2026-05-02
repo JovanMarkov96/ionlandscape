@@ -232,11 +232,12 @@
                 ]
               },
               "round":            { "type": ["string", "null"], "description": "Free-form label (e.g. 'Series A', 'Seed extension'). Prefer `stage` for the controlled value." },
-              "date":             { "type": ["string", "null"], "format": "date" },
+              "date":             { "type": ["string", "null"] },
               "amount_usd":       { "type": ["number", "null"], "minimum": 0 },
               "lead_investor":    { "type": ["string", "null"] },
               "lead_investors":   { "type": "array", "items": { "type": "string" } },
               "other_investors":  { "type": "array", "items": { "type": "string" } },
+              "notes":            { "type": ["string", "null"] },
               "source":           { "type": ["string", "null"], "format": "uri" },
               "announcement_url": { "type": ["string", "null"], "format": "uri" }
             }

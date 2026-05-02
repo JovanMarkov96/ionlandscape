@@ -1,44 +1,46 @@
 ---
-id: "i007-georgia-institute-of-technology"
-name: "Georgia Institute of Technology"
-sort_name: "Georgia Institute of Technology"
-entity_type: "institution"
-
-aliases: ["Georgia Tech", "GT"]
-
+aliases:
+- Georgia Tech
+- GT
+directory:
+  alumni:
+  - 032-murray-barrett.md
+  - 033-dzmitry-matsukevich.md
+  alumni_count: 2
+  company_spinouts: []
+  current_members:
+  - 072-brian-mcmahon.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Quantum Science
+- Physics
+- Engineering
+id: i007-georgia-institute-of-technology
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.gatech.edu/
+  wikipedia: https://en.wikipedia.org/wiki/Georgia_Institute_of_Technology
 location:
-  city: "Atlanta"
-  region: "Georgia"
-  country: "United States"
+  city: Atlanta
+  country: United States
   lat: 33.7756
   lon: -84.3963
-
-institution_type: "university"
-
-short_description: "Georgia Institute of Technology is a top-tier public research university in Atlanta with emerging programs in quantum science and engineering."
-focus_areas: ["Quantum Science", "Physics", "Engineering"]
-
-links:
-  website: "https://www.gatech.edu/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/Georgia_Institute_of_Technology"
-  linkedin: ""
-
+  region: Georgia
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "072-brian-mcmahon.md"
-  alumni:
-    - "032-murray-barrett.md"
-    - "033-dzmitry-matsukevich.md"
-  member_count: 1
-  alumni_count: 2
-
+  hero_image_path: ''
+  logo_path: ''
+name: Georgia Institute of Technology
+schema_version: 1
+short_description: Georgia Institute of Technology is a top-tier public research university
+  in Atlanta with emerging programs in quantum science and engineering.
+sort_name: Georgia Institute of Technology
 sources:
-  - url: "https://www.gatech.edu/"
-    note: "Official website"
+- note: Official website
+  url: https://www.gatech.edu/
+verification_source_count: null
 ---

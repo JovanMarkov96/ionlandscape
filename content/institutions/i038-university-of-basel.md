@@ -1,43 +1,44 @@
 ---
-id: "i038-university-of-basel"
-name: "University of Basel"
-sort_name: "University of Basel"
-entity_type: "institution"
-
-aliases: ["Uni Basel"]
-
+aliases:
+- Uni Basel
+directory:
+  alumni:
+  - 002-ziv-meir.md
+  alumni_count: 1
+  company_spinouts: []
+  current_members:
+  - 035-stefan-willitsch.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Precision Spectroscopy
+- Trapped Ions
+- Quantum Physics
+id: i038-university-of-basel
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.unibas.ch/en.html
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Basel
 location:
-  city: "Basel"
-  region: "Basel-Stadt"
-  country: "Switzerland"
+  city: Basel
+  country: Switzerland
   lat: 47.5581
   lon: 7.5833
-
-institution_type: "university"
-
-short_description: "The University of Basel hosts research groups in quantum physics and trapped-ion precision spectroscopy within its Department of Physics."
-focus_areas: ["Precision Spectroscopy", "Trapped Ions", "Quantum Physics"]
-
-links:
-  website: "https://www.unibas.ch/en.html"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/University_of_Basel"
-  linkedin: ""
-
+  region: Basel-Stadt
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "035-stefan-willitsch.md"
-  alumni:
-    - "002-ziv-meir.md"
-  member_count: 1
-  alumni_count: 1
-
+  hero_image_path: ''
+  logo_path: ''
+name: University of Basel
+schema_version: 1
+short_description: The University of Basel hosts research groups in quantum physics
+  and trapped-ion precision spectroscopy within its Department of Physics.
+sort_name: University of Basel
 sources:
-  - url: "https://www.unibas.ch/en.html"
-    note: "Official website"
+- note: Official website
+  url: https://www.unibas.ch/en.html
+verification_source_count: null
 ---

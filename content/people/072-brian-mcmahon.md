@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: Georgia Institute of Technology
@@ -11,6 +14,7 @@ education:
   institution: Georgia Institute of Technology
   note: PhD details require verification
   year: 2021
+entity_type: person
 group_type: experimental
 id: 072-brian-mcmahon
 ion_species:
@@ -21,6 +25,7 @@ keywords:
 - quantum networks
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=yXqgH5oAAAAJ
   group_page: https://gtri.gatech.edu/researcher/brian-mcmahon
@@ -33,8 +38,9 @@ location:
   region: Georgia
 name: Brian McMahon
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: McMahon, Brian
 thesis:
   link: null
@@ -42,6 +48,7 @@ thesis:
   title: Compact, reconfigurable Penning ion traps and Doppler laser cooling
   year: 2021
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Brian McMahon leads trapped-ion research at Georgia Tech focusing on quantum computing and quantum networks.

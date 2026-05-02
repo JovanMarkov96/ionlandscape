@@ -1,8 +1,14 @@
 ---
+active: active
 affiliations:
 - name: Alpine Quantum Technologies (AQT)
   role: Co-founder
   type: company
+applications:
+- computing
+- sensing_metrology
+- simulation
+- software_control
 created_at: '2026-01-26'
 current_position:
   institution: University of Innsbruck
@@ -12,6 +18,7 @@ education:
   degree: PhD (Physics)
   institution: University of Mainz
   year: 1981
+entity_type: person
 group_type: experimental
 id: 017-rainer-blatt
 ion_species:
@@ -26,6 +33,7 @@ keywords:
 labels:
 - Experimental group
 - Industry
+last_verified_at: null
 links:
   aqt_about: https://www.aqt.eu/about/
   cv_pdf: https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf
@@ -42,13 +50,11 @@ location:
   region: Tyrol
 name: Rainer Blatt
 platforms:
-- Trapped ions
-- Quantum computing
-- Quantum simulation
-- Quantum metrology
+- trapped_ion
 postdocs:
 - advisor: John L. Hall
   institution: JILA (Boulder)
+schema_version: 2
 sort_name: Blatt, Rainer
 thesis:
   link: null
@@ -57,6 +63,7 @@ thesis:
   title: null
   year: 1981
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Rainer Blatt is an experimental physicist who helped establish **trapped ions** as a leading platform for **quantum information processing**, **quantum simulation**, and **precision measurement**. He is a Professor at the University of Innsbruck and a Research Director at IQOQI Innsbruck (ÖAW), and he is a co-founder of Alpine Quantum Technologies (AQT), a trapped-ion quantum computing company spun out from Innsbruck.

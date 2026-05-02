@@ -1,43 +1,43 @@
 ---
-id: "i030-simon-fraser-university"
-name: "Simon Fraser University"
-sort_name: "Simon Fraser University"
-entity_type: "institution"
-
-aliases: ["SFU"]
-
+aliases:
+- SFU
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 024-paul-haljan.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- AMO Physics
+- Trapped Ions
+- Quantum Information
+id: i030-simon-fraser-university
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.sfu.ca/
+  wikipedia: https://en.wikipedia.org/wiki/Simon_Fraser_University
 location:
-  city: "Burnaby"
-  region: "British Columbia"
-  country: "Canada"
+  city: Burnaby
+  country: Canada
   lat: 49.2781
   lon: -122.9199
-
-institution_type: "university"
-
-short_description: "Simon Fraser University is a major Canadian research university with active programs in AMO physics and trapped-ion experiments."
-focus_areas: ["AMO Physics", "Trapped Ions", "Quantum Information"]
-
-links:
-  website: "https://www.sfu.ca/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/Simon_Fraser_University"
-  linkedin: ""
-
+  region: British Columbia
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "024-paul-haljan.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: Simon Fraser University
+schema_version: 1
+short_description: Simon Fraser University is a major Canadian research university
+  with active programs in AMO physics and trapped-ion experiments.
+sort_name: Simon Fraser University
 sources:
-  - url: "https://www.sfu.ca/"
-    note: "Official website"
+- note: Official website
+  url: https://www.sfu.ca/
+verification_source_count: null
 ---

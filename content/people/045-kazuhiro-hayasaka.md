@@ -1,5 +1,9 @@
 ---
+active: active
 affiliations: []
+applications:
+- optical_clocks
+- sensing_metrology
 created_at: '2026-01-30'
 current_position:
   institution: National Institute of Information and Communications Technology (NICT)
@@ -11,6 +15,7 @@ education:
   institution: Osaka University
   note: PhD details require verification from institutional sources
   year: null
+entity_type: person
 group_type: experimental
 id: 045-kazuhiro-hayasaka
 ion_species:
@@ -23,6 +28,7 @@ keywords:
 - frequency standards
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: null
   group_page: null
@@ -35,8 +41,9 @@ location:
   region: Tokyo
 name: Kazuhiro Hayasaka
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Hayasaka, Kazuhiro
 thesis:
   link: null
@@ -45,6 +52,7 @@ thesis:
     electromagnetic field
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Kazuhiro Hayasaka leads the Space-Time Standards Laboratory at NICT in Kobe, Japan. His research focuses on developing high-precision optical clocks using trapped indium and calcium ions for frequency standards and metrology.

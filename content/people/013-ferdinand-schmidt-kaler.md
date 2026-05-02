@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-26'
 current_position:
   institution: Johannes Gutenberg University Mainz
@@ -9,6 +12,7 @@ education:
   degree: PhD (Physics)
   institution: Ludwig-Maximilians-University Munich
   year: 1992
+entity_type: person
 group_type: experimental
 id: 013-ferdinand-schmidt-kaler
 ion_species:
@@ -20,6 +24,7 @@ keywords:
 - coherence and gate performance
 labels:
 - Experimental group
+last_verified_at: null
 links:
   dfg_gepris_profile: https://gepris.dfg.de/gepris/person/1260598?language=en
   google_scholar: https://scholar.google.com/citations?hl=de&user=1VkTHB4AAAAJ
@@ -33,8 +38,9 @@ location:
   region: Rhineland-Palatinate
 name: Ferdinand Schmidt-Kaler
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Schmidt-Kaler, Ferdinand
 thesis:
   link: null
@@ -44,6 +50,7 @@ thesis:
     und Deuterium-Atomstrahl
   year: 1992
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Ferdinand Schmidt-Kaler is a professor at Johannes Gutenberg University Mainz working on trapped-ion quantum computing, including segmented-trap technologies, architectures, and improving coherence and gate performance in scalable systems.

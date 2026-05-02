@@ -102,8 +102,8 @@
 
     "ion_species": {
       "type": "array",
-      "description": "Ion species worked with (when platforms includes trapped_ion). Examples: Ca+, Sr+, Yb+, Yb171+.",
-      "items": { "type": "string", "pattern": "^[A-Z][a-z]?\\d*\\+?$" }
+      "description": "Ion species worked with (when platforms includes trapped_ion). Accepts isotope prefix and small molecular formulas. Examples: Ca+, Sr+, Yb171+, 9Be+, HD+, SiO+, ThO+.",
+      "items": { "type": "string", "pattern": "^\\d*[A-Z][a-zA-Z0-9]*\\+?$" }
     },
 
     "atomic_species": {
@@ -144,6 +144,7 @@
           "years":       { "type": ["string", "null"] },
           "year":        { "type": ["integer", "null"] },
           "confidence":  { "type": ["string", "null"], "enum": ["confirmed", "academictree_only", "not_found", "ambiguous", null] },
+          "note":        { "type": ["string", "null"] },
           "source":      { "type": ["string", "null"], "format": "uri" }
         }
       }
@@ -187,7 +188,7 @@
         "properties": {
           "name":      { "type": "string" },
           "role":      { "type": ["string", "null"] },
-          "type":      { "type": "string", "enum": ["company", "institution", "consultancy", "advisory_board", "editorial", "other"] },
+          "type":      { "type": "string", "enum": ["company", "institution", "non_profit", "consultancy", "advisory_board", "editorial", "other"] },
           "person_id": { "type": ["string", "null"] },
           "entity_id": { "type": ["string", "null"], "description": "Reference to a c-prefixed company id or i-prefixed institution id when known." },
           "source":    { "type": ["string", "null"], "format": "uri" }
@@ -262,11 +263,6 @@
       "description": "If group_type is experimental or mixed, applications must be a non-empty array.",
       "if":   { "properties": { "group_type": { "enum": ["experimental", "mixed"] } }, "required": ["group_type"] },
       "then": { "properties": { "applications": { "type": "array", "minItems": 1 } }, "required": ["applications"] }
-    },
-    {
-      "description": "If platforms includes trapped_ion, ion_species should be present (warning-level but enforced as required).",
-      "if":   { "properties": { "platforms": { "type": "array", "contains": { "const": "trapped_ion" } } } },
-      "then": { "required": ["ion_species"], "properties": { "ion_species": { "minItems": 1 } } }
     }
   ]
 }

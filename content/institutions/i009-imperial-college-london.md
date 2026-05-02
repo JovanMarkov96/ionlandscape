@@ -1,43 +1,45 @@
 ---
-id: "i009-imperial-college-london"
-name: "Imperial College London"
-sort_name: "Imperial College London"
-entity_type: "institution"
-
-aliases: ["Imperial", "ICL"]
-
+aliases:
+- Imperial
+- ICL
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 036-richard-thompson.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Physics
+- Quantum Optics
+- Precision Measurement
+- Trapped Ions
+id: i009-imperial-college-london
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.imperial.ac.uk/
+  wikipedia: https://en.wikipedia.org/wiki/Imperial_College_London
 location:
-  city: "London"
-  region: ""
-  country: "United Kingdom"
+  city: London
+  country: United Kingdom
   lat: 51.4988
   lon: -0.1749
-
-institution_type: "university"
-
-short_description: "Imperial College London is a world-leading science and technology university with research groups in precision measurement and trapped-ion physics."
-focus_areas: ["Physics", "Quantum Optics", "Precision Measurement", "Trapped Ions"]
-
-links:
-  website: "https://www.imperial.ac.uk/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/Imperial_College_London"
-  linkedin: ""
-
+  region: ''
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "036-richard-thompson.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: Imperial College London
+schema_version: 1
+short_description: Imperial College London is a world-leading science and technology
+  university with research groups in precision measurement and trapped-ion physics.
+sort_name: Imperial College London
 sources:
-  - url: "https://www.imperial.ac.uk/"
-    note: "Official website"
+- note: Official website
+  url: https://www.imperial.ac.uk/
+verification_source_count: null
 ---

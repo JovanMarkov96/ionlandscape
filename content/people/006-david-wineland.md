@@ -1,5 +1,9 @@
 ---
+active: active
 affiliations: []
+applications:
+- optical_clocks
+- sensing_metrology
 created_at: '2026-01-26'
 current_position:
   institution: University of Oregon
@@ -12,6 +16,7 @@ education:
   degree: PhD (Physics)
   institution: Harvard University
   year: 1970
+entity_type: person
 group_type: experimental
 id: 006-david-wineland
 ion_species: []
@@ -23,6 +28,7 @@ keywords:
 - precision measurement
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=6quvCpAAAAAJ
   group_page: https://www.nist.gov/people/david-j-wineland
@@ -38,13 +44,11 @@ location:
   region: Oregon
 name: David J. Wineland
 platforms:
-- Trapped ions
-- Atomic clocks
-- Quantum metrology
-- Quantum information
+- trapped_ion
 postdocs:
 - advisor: Hans Dehmelt
   institution: University of Washington
+schema_version: 2
 sort_name: Wineland, David J.
 thesis:
   link: https://www.proquest.com/docview/302462813
@@ -52,6 +56,7 @@ thesis:
   title: The Atomic Deuterium Maser
   year: 1971
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder), where his group developed foundational methods for high-fidelity quantum logic with ions, and later joined the University of Oregon as a Research Professor.

@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-28'
 current_position:
   institution: Palacký University Olomouc
@@ -9,6 +12,7 @@ education:
   institution: University of Innsbruck
   note: Dissertation on single ion-single photon interactions in free space
   year: 2013
+entity_type: person
 group_type: experimental
 id: 027-lukas-slodicka
 ion_species:
@@ -20,6 +24,7 @@ keywords:
 - quantum information
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=2zBEXPoAAAAJ
   group_page: https://www.opticsolomouc.org/
@@ -33,14 +38,16 @@ location:
   region: Olomouc
 name: Lukáš Slodička
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Slodička, Lukáš
 thesis:
   link: null
   title: Single ion - single photon interactions in free space
   year: 2013
 updated_at: '2026-01-28'
+verification_source_count: null
 ---
 
 Lukáš Slodička leads the Trapped Ions group in the Department of Optics at Palacký University Olomouc, Czech Republic. His research focuses on quantum optics with trapped ions, particularly atom-light interactions and efficient ion-photon interfaces. He completed his PhD at the University of Innsbruck, working on trapped ion crystals for quantum bit implementation.

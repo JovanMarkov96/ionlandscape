@@ -1,8 +1,12 @@
 ---
+active: active
 affiliations:
 - name: IonQ, Inc. (USA)
   role: Co-founder
   type: company
+applications:
+- computing
+- simulation
 created_at: '2026-01-26'
 current_position:
   institution: Duke University
@@ -17,6 +21,7 @@ education:
   note: Advisor confirmed by multiple bios; Eric Cornell is also cited as a key collaborator
     during the PhD period.
   year: 1992
+entity_type: person
 group_type: experimental
 id: 004-christopher-monroe
 ion_species:
@@ -29,6 +34,7 @@ keywords:
 labels:
 - Experimental group
 - Industry
+last_verified_at: null
 links:
   duke_ece_profile: https://ece.duke.edu/people/christopher-monroe/
   duke_provost_profile: https://provost.duke.edu/profile/christopher-r-monroe/
@@ -46,10 +52,11 @@ location:
   region: North Carolina
 name: Christopher R. Monroe
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs:
 - advisor: David J. Wineland
   institution: National Institute of Standards and Technology (NIST), Boulder
+schema_version: 2
 sort_name: Monroe, Christopher R.
 thesis:
   link: null
@@ -57,6 +64,7 @@ thesis:
   title: Experiments with Optically and Magnetically Trapped Cesium Atoms
   year: 1992
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Christopher R. Monroe is a physicist and a leading figure in trapped-ion quantum information science. He is the Gilhuly Family Presidential Distinguished Professor of Electrical & Computer Engineering and Physics at Duke University, and a co-founder of IonQ, a company commercializing trapped-ion quantum computers.

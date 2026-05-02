@@ -1,8 +1,14 @@
 ---
+active: active
 affiliations:
 - name: Quantum Art
   role: Chief Science Officer and Co-founder
   type: company
+applications:
+- computing
+- optical_clocks
+- sensing_metrology
+- software_control
 created_at: '2026-01-26'
 current_position:
   institution: Weizmann Institute of Science
@@ -16,6 +22,7 @@ education:
   degree: PhD (Physics)
   institution: Weizmann Institute of Science
   year: 2006
+entity_type: person
 group_type: experimental
 id: 001-roee-ozeri
 ion_species:
@@ -30,6 +37,7 @@ keywords:
 labels:
 - Experimental group
 - Industry
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ
   homepage: http://www.weizmann.ac.il/complex/ozeri/
@@ -45,12 +53,12 @@ location:
   region: Central District
 name: Roee Ozeri
 platforms:
-- Trapped ions
-- Optical clocks
-- Ultracold atoms
+- trapped_ion
+- neutral_atom
 postdocs:
 - advisor: David J. Wineland
   institution: National Institute of Standards and Technology (NIST), Boulder
+schema_version: 2
 sort_name: Ozeri, Roee
 thesis:
   link: null
@@ -59,6 +67,7 @@ thesis:
   title: null
   year: 2006
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He earned a BSc in Physics from the Hebrew University of Jerusalem and completed his MSc and PhD in Physics at the Weizmann Institute of Science under Prof. Nir Davidson.

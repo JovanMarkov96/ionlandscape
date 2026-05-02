@@ -1,123 +1,128 @@
 #!/usr/bin/env python3
 """
-validate_profiles.py
+validate_profiles.py — JSON-Schema validation for all three entity types.
 
-A script to validate Ion Landscape researcher profiles against the JSON Schema.
-It parses YAML frontmatter from Markdown files and checks it against
-schemas/profile.schema.json.
+Routes each profile to the right schema based on the directory it lives in:
+  content/people/        → schemas/person.schema.json
+  content/companies/     → schemas/company.schema.json
+  content/institutions/  → schemas/institution.schema.json
 
-This script is used in GitHub Actions (validate_profiles.yml) to prevent
-invalid data from merging.
+Used by .github/workflows/validate_profiles.yml in CI.
 
 Usage:
-  python scripts/validate_profiles.py
+    python scripts/validation/validate_profiles.py            # all entity types
+    python scripts/validation/validate_profiles.py --people   # subset
 """
 
-import os
-import sys
-import glob
-import re
-import json
-import yaml
 import argparse
+import json
+import os
+import re
+import sys
+from pathlib import Path
 
-# Try to import jsonschema; fall back to manual checks if missing
+import yaml
+
 try:
     import jsonschema
     HAS_JSONSCHEMA = True
 except ImportError:
     HAS_JSONSCHEMA = False
 
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-SCHEMA_PATH = os.path.join(ROOT_DIR, "schemas", "profile.schema.json")
-CONTENT_DIR = os.path.join(ROOT_DIR, "content", "people")
+ROOT = Path(__file__).resolve().parents[2]
+SCHEMA_DIR = ROOT / "schemas"
+CONTENT_DIR = ROOT / "content"
 
-FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+ENTITY_DIRS = {
+    "people":       ("person",      CONTENT_DIR / "people",       SCHEMA_DIR / "person.schema.json"),
+    "companies":    ("company",     CONTENT_DIR / "companies",    SCHEMA_DIR / "company.schema.json"),
+    "institutions": ("institution", CONTENT_DIR / "institutions", SCHEMA_DIR / "institution.schema.json"),
+}
 
-def load_schema():
-    if not os.path.exists(SCHEMA_PATH):
-        print(f"❌ Schema not found at {SCHEMA_PATH}")
-        sys.exit(1)
-    with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n?", re.DOTALL)
+
 
 def parse_frontmatter(fpath):
-    with open(fpath, "r", encoding="utf-8") as f:
-        content = f.read()
-    match = FRONTMATTER_RE.match(content)
-    if not match:
+    text = fpath.read_text(encoding="utf-8")
+    m = FRONTMATTER_RE.match(text)
+    if not m:
         return None
     try:
-        return yaml.safe_load(match.group(1))
+        return yaml.safe_load(m.group(1))
     except yaml.YAMLError as e:
-        print(f"❌ YAML error in {os.path.basename(fpath)}: {e}")
-        return None
+        return {"__yaml_error__": str(e)}
 
-def validate_profile(meta, schema, filename):
-    errors = []
-    
-    if HAS_JSONSCHEMA:
-        validator = jsonschema.Draft7Validator(schema)
-        for error in validator.iter_errors(meta):
-            path = ".".join(str(p) for p in error.path) or "root"
-            errors.append(f"[{path}] {error.message}")
-    else:
-        # Fallback manual validation (simplified)
-        required = schema.get("required", [])
-        for field in required:
-            if field not in meta:
-                errors.append(f"Missing required field: {field}")
-        
-        # Check ORCID format if present
-        orcid = (meta.get("links") or {}).get("orcid")
-        if orcid and not re.match(r"^https://orcid\.org/\d{4}-\d{4}-\d{4}-\d{3}[\dX]$", orcid):
-             errors.append(f"Invalid ORCID format: {orcid}")
 
-    return errors
+def validate_dir(label, entity_type, content_dir, schema_path):
+    if not content_dir.exists():
+        print(f"  (no {label} directory)")
+        return 0, 0
+    if not schema_path.exists():
+        print(f"  FAILschema missing: {schema_path}")
+        return 0, 1
 
-def main():
-    print(f"🔍 Validating profiles in {CONTENT_DIR}...")
-    
-    if not HAS_JSONSCHEMA:
-        print("⚠️  'jsonschema' library not found. Using limited manual validation.")
-        print("   (Install with `pip install jsonschema` for full validation)")
+    with schema_path.open(encoding="utf-8") as f:
+        schema = json.load(f)
+    validator = jsonschema.Draft7Validator(schema)
 
-    schema = load_schema()
-    files = glob.glob(os.path.join(CONTENT_DIR, "*.md"))
-    
-    failed_count = 0
-    total_count = 0
-    
-    for fpath in sorted(files):
-        total_count += 1
-        fname = os.path.basename(fpath)
+    files = sorted(content_dir.glob("*.md"))
+    failed = 0
+    for fpath in files:
         meta = parse_frontmatter(fpath)
-        
         if meta is None:
-            print(f"❌ {fname}: Failed to parse frontmatter")
-            failed_count += 1
+            print(f"  FAIL{fpath.name}: no frontmatter")
+            failed += 1
+            continue
+        if isinstance(meta, dict) and "__yaml_error__" in meta:
+            print(f"  FAIL{fpath.name}: YAML error: {meta['__yaml_error__']}")
+            failed += 1
             continue
 
-        errors = validate_profile(meta, schema, fname)
-        
+        errors = list(validator.iter_errors(meta))
         if errors:
-            print(f"❌ {fname}:")
+            print(f"  FAIL{fpath.name}:")
             for err in errors:
-                print(f"  - {err}")
-            failed_count += 1
-        else:
-            # print(f"✅ {fname}")
-            pass
+                path = ".".join(str(p) for p in err.absolute_path) or "(root)"
+                print(f"     [{path}] {err.message}")
+            failed += 1
 
-    print("-" * 40)
-    print(f"Processed {total_count} profiles.")
-    
-    if failed_count > 0:
-        print(f"❌ Validation FAILED: {failed_count} profiles have errors.")
+    print(f"  {label}: {len(files)} files, {failed} failed")
+    return len(files), failed
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
+    ap.add_argument("--people",       action="store_true")
+    ap.add_argument("--companies",    action="store_true")
+    ap.add_argument("--institutions", action="store_true")
+    args = ap.parse_args()
+
+    if not HAS_JSONSCHEMA:
+        print("ERROR: jsonschema not installed (pip install jsonschema)")
+        sys.exit(2)
+
+    selected = [k for k in ("people", "companies", "institutions") if getattr(args, k)]
+    if not selected:
+        selected = ["people", "companies", "institutions"]
+
+    print("Validating profiles against v2/v1 schemas")
+    total = 0
+    total_failed = 0
+    for label in selected:
+        entity_type, content_dir, schema_path = ENTITY_DIRS[label]
+        print(f"\n-- {label} ({entity_type}) --")
+        n, f = validate_dir(label, entity_type, content_dir, schema_path)
+        total += n
+        total_failed += f
+
+    print()
+    print("-" * 50)
+    print(f"Total: {total} files, {total_failed} failed")
+    if total_failed:
         sys.exit(1)
-    else:
-        print("✅ Validation PASSED: All profiles are valid.")
-        sys.exit(0)
+    print("OK: all valid.")
+    sys.exit(0)
+
 
 if __name__ == "__main__":
     main()

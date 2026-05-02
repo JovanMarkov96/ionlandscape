@@ -1,43 +1,43 @@
 ---
-id: "i013-ionq-inc"
-name: "IonQ, Inc."
-sort_name: "IonQ, Inc."
-entity_type: "institution"
-
-aliases: ["IonQ"]
-
+aliases:
+- IonQ
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 003-chris-ballance.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Quantum Computing
+- Trapped Ions
+- Quantum Hardware
+id: i013-ionq-inc
+institution_type: industry_research_lab
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://ionq.com/
+  wikipedia: https://en.wikipedia.org/wiki/IonQ
 location:
-  city: "College Park"
-  region: "Maryland"
-  country: "United States"
+  city: College Park
+  country: United States
   lat: 38.9897
   lon: -76.9378
-
-institution_type: "company"
-
-short_description: "IonQ is a leading quantum computing company building general-purpose trapped-ion quantum computers, founded by Christopher Monroe and Jungsang Kim."
-focus_areas: ["Quantum Computing", "Trapped Ions", "Quantum Hardware"]
-
-links:
-  website: "https://ionq.com/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/IonQ"
-  linkedin: ""
-
+  region: Maryland
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "003-chris-ballance.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: IonQ, Inc.
+schema_version: 1
+short_description: IonQ is a leading quantum computing company building general-purpose
+  trapped-ion quantum computers, founded by Christopher Monroe and Jungsang Kim.
+sort_name: IonQ, Inc.
 sources:
-  - url: "https://ionq.com/"
-    note: "Official website"
+- note: Official website
+  url: https://ionq.com/
+verification_source_count: null
 ---

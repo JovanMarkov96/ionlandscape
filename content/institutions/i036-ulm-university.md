@@ -1,43 +1,43 @@
 ---
-id: "i036-ulm-university"
-name: "Ulm University"
-sort_name: "Ulm University"
-entity_type: "institution"
-
-aliases: ["Uni Ulm"]
-
+aliases:
+- Uni Ulm
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 044-johannes-hecker-denschlag.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Trapped Ions
+- Cold Molecular Ions
+- AMO Physics
+id: i036-ulm-university
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.uni-ulm.de/en/
+  wikipedia: https://en.wikipedia.org/wiki/Ulm_University
 location:
-  city: "Ulm"
-  region: "Baden-Württemberg"
-  country: "Germany"
+  city: Ulm
+  country: Germany
   lat: 48.4225
   lon: 9.9565
-
-institution_type: "university"
-
-short_description: "Ulm University is a German research university with active trapped-ion and cold molecular ion research groups."
-focus_areas: ["Trapped Ions", "Cold Molecular Ions", "AMO Physics"]
-
-links:
-  website: "https://www.uni-ulm.de/en/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/Ulm_University"
-  linkedin: ""
-
+  region: Baden-Württemberg
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "044-johannes-hecker-denschlag.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: Ulm University
+schema_version: 1
+short_description: Ulm University is a German research university with active trapped-ion
+  and cold molecular ion research groups.
+sort_name: Ulm University
 sources:
-  - url: "https://www.uni-ulm.de/en/"
-    note: "Official website"
+- note: Official website
+  url: https://www.uni-ulm.de/en/
+verification_source_count: null
 ---

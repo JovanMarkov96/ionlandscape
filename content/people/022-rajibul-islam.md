@@ -1,8 +1,11 @@
 ---
+active: active
 affiliations:
 - name: Open Quantum Design
   role: Co-founder
-  type: nonprofit
+  type: non_profit
+applications:
+- simulation
 created_at: '2026-01-28'
 current_position:
   institution: Institute for Quantum Computing, University of Waterloo
@@ -13,6 +16,7 @@ education:
   institution: University of Maryland, College Park
   note: Distinguished Dissertation Award 2013
   year: 2013
+entity_type: person
 group_type: experimental
 id: 022-rajibul-islam
 ion_species:
@@ -25,6 +29,7 @@ keywords:
 - quantum computation
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=wV7m0q8AAAAJ
   group_page: https://uwaterloo.ca/ion-trap-quantum-computing/
@@ -38,14 +43,16 @@ location:
   region: Ontario
 name: K. Rajibul Islam
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Islam, K. Rajibul
 thesis:
   link: null
   title: Quantum Simulation of Interacting Spin Models with Trapped Ions
   year: 2013
 updated_at: '2026-01-28'
+verification_source_count: null
 ---
 
 K. Rajibul Islam is an Associate Professor at the Institute for Quantum Computing (IQC) and the Department of Physics and Astronomy at the University of Waterloo. His research focuses on experimental quantum many-body physics, particularly quantum simulation of frustrated spin models with trapped ions. He leads the Laboratory for Quantum Information with Trapped Ions (QITI) and co-founded Open Quantum Design, offering the world's first open-source, full-stack trapped-ion quantum computer.

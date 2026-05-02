@@ -1,83 +1,78 @@
 ---
+applications:
+- networking
+approach:
+  architecture_tags:
+  - Quantum networking
+  - Quantum repeaters
+  - Photon-atom interface
+  differentiators:
+  - Deterministic quantum repeater architecture
+  - Photon-matter interface for entanglement distribution
+  - Focus on scalable quantum networking infrastructure
+  elevator_pitch: QuantLR develops deterministic photon-atom interfaces and quantum
+    repeater technology to enable scalable, long-distance quantum networks and secure
+    communication systems.
+entity_type: company
+focus_areas:
+- Quantum communication infrastructure
+- Quantum networking
+- Secure quantum key distribution
+funding:
+  rounds: []
+  total_raised_usd: null
 id: c009-quantlr
-name: QuantLR
-sort_name: QuantLR
-entity_type: "company"
-
+last_verified_at: null
+links:
+  careers: ''
+  linkedin: ''
+  news: ''
+  website: https://quantlr.com
 location:
   city: Tel Aviv
-  region: Tel Aviv District
   country: Israel
   lat: 31.8906
   lon: 35.0003
-
-platforms:
-  - "Quantum communication"
-  - "Quantum key distribution (QKD)"
-  - "Quantum repeaters"
-
-short_summary: "Developer of quantum-secure communication infrastructure, building quantum repeaters and entanglement-based networking technologies for long-distance quantum communication."  
-
-approach:
-  elevator_pitch: "QuantLR develops deterministic photon-atom interfaces and quantum repeater technology to enable scalable, long-distance quantum networks and secure communication systems."  
-  differentiators:
-    - "Deterministic quantum repeater architecture"
-    - "Photon-matter interface for entanglement distribution"
-    - "Focus on scalable quantum networking infrastructure"
-  architecture_tags:
-    - "Quantum networking"
-    - "Quantum repeaters"
-    - "Photon-atom interface"
-
-focus_areas:
-  - "Quantum communication infrastructure"
-  - "Quantum networking"
-  - "Secure quantum key distribution"
-
-products:
-  - "Quantum repeater modules (under development)"
-  - "Entanglement distribution networking systems"
-
+  region: Tel Aviv District
+milestones: []
+modality: software
+name: QuantLR
 people:
   founders:
-    - name: "Dr. Shai Machnes"
-      role: "Co-Founder"
-    - name: "Dr. Nir Bar-Gill"
-      role: "Co-Founder"
+  - name: Dr. Shai Machnes
+    role: Co-Founder
+  - name: Dr. Nir Bar-Gill
+    role: Co-Founder
   leadership: []
   spun_out_of:
-    - "Hebrew University of Jerusalem"
-
+  - Hebrew University of Jerusalem
+platforms: []
+products:
+- Quantum repeater modules (under development)
+- Entanglement distribution networking systems
+schema_version: 1
+short_summary: Developer of quantum-secure communication infrastructure, building
+  quantum repeaters and entanglement-based networking technologies for long-distance
+  quantum communication.
+sort_name: QuantLR
+sources:
+- note: Official website (technology overview)
+  url: https://quantlr.com
+- note: Israeli quantum ecosystem overview mentioning QuantLR
+  url: https://www.calcalistech.com/ctechnews/article/hyqbeowsge
+- note: Startup Nation Central profile (location & focus)
+  url: https://finder.startupnationcentral.org/company_page/quantlr
 status:
-  operating_status: "active"
   acquired:
-    is_acquired: false
     acquired_by: null
     acquisition_date: null
     acquisition_type: null
-    deal_value_usd: null
     announcement_url: null
-    notes: ""
-
-funding:
-  total_usd: null
-  rounds: []
-
-milestones: []
-
-links:
-  website: "https://quantlr.com"
-  careers: ""
-  news: ""
-  linkedin: ""
-
-sources:
-  - url: "https://quantlr.com"
-    note: "Official website (technology overview)"
-  - url: "https://www.calcalistech.com/ctechnews/article/hyqbeowsge"
-    note: "Israeli quantum ecosystem overview mentioning QuantLR"
-  - url: "https://finder.startupnationcentral.org/company_page/quantlr"
-    note: "Startup Nation Central profile (location & focus)"
+    deal_value_usd: null
+    is_acquired: false
+    notes: ''
+  operating_status: private
+verification_source_count: null
 ---
 
 QuantLR is an Israeli quantum technology startup focused on building the foundational infrastructure for the quantum internet. Spun out of research conducted at the Hebrew University of Jerusalem, the company is developing components necessary for secure, long-distance quantum communication. 

@@ -1,43 +1,43 @@
 ---
-id: "i010-indian-institute-of-science-education-and-research-iiser-pune"
-name: "Indian Institute of Science Education and Research (IISER) Pune"
-sort_name: "Indian Institute of Science Education and Research (IISER) Pune"
-entity_type: "institution"
-
-aliases: ["IISER Pune"]
-
+aliases:
+- IISER Pune
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 069-sadiq-rangwala.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- AMO Physics
+- Cold Molecules
+- Ion-Neutral Chemistry
+id: i010-indian-institute-of-science-education-and-research-iiser-pune
+institution_type: research_centre
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.iiserpune.ac.in/
+  wikipedia: https://en.wikipedia.org/wiki/Indian_Institute_of_Science_Education_and_Research,_Pune
 location:
-  city: "Pune"
-  region: "Maharashtra"
-  country: "India"
+  city: Pune
+  country: India
   lat: 18.5493
   lon: 73.8029
-
-institution_type: "research_institute"
-
-short_description: "IISER Pune is a premier Indian research and teaching institute with growing activities in cold and ultracold molecule-ion physics."
-focus_areas: ["AMO Physics", "Cold Molecules", "Ion-Neutral Chemistry"]
-
-links:
-  website: "https://www.iiserpune.ac.in/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/Indian_Institute_of_Science_Education_and_Research,_Pune"
-  linkedin: ""
-
+  region: Maharashtra
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "069-sadiq-rangwala.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: Indian Institute of Science Education and Research (IISER) Pune
+schema_version: 1
+short_description: IISER Pune is a premier Indian research and teaching institute
+  with growing activities in cold and ultracold molecule-ion physics.
+sort_name: Indian Institute of Science Education and Research (IISER) Pune
 sources:
-  - url: "https://www.iiserpune.ac.in/"
-    note: "Official website"
+- note: Official website
+  url: https://www.iiserpune.ac.in/
+verification_source_count: null
 ---

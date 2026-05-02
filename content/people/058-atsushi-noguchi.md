@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: University of Tokyo
@@ -11,6 +14,7 @@ education:
   institution: Osaka University
   note: PhD details require verification
   year: null
+entity_type: person
 group_type: experimental
 id: 058-atsushi-noguchi
 ion_species:
@@ -22,6 +26,7 @@ keywords:
 - hybrid quantum systems
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=XqgH5oAAAAAJ
   group_page: https://sqei.cF.u-tokyo.ac.jp/
@@ -34,8 +39,9 @@ location:
   region: Tokyo
 name: Atsushi Noguchi
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Noguchi, Atsushi
 thesis:
   link: null
@@ -43,6 +49,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Atsushi Noguchi leads research at the University of Tokyo on hybrid quantum systems combining trapped beryllium ions with superconducting circuits.

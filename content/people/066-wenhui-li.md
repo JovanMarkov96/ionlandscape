@@ -1,16 +1,20 @@
 ---
+active: active
 affiliations: []
+applications:
+- simulation
 created_at: '2026-01-30'
 current_position:
   institution: Peking University
   title: Professor
 education:
-- degree: PhD (Physics)
-  institution: University of Virginia
-  year: 2005
-  advisor: null
+- advisor: null
   confidence: not_found
-  note: "PhD details require verification"
+  degree: PhD (Physics)
+  institution: University of Virginia
+  note: PhD details require verification
+  year: 2005
+entity_type: person
 group_type: experimental
 id: 066-wenhui-li
 ion_species:
@@ -21,6 +25,7 @@ keywords:
 - quantum simulation
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: null
   group_page: null
@@ -33,17 +38,17 @@ location:
   region: Beijing
 name: Wenhui Li
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Li, Wenhui
 thesis:
   link: null
+  note: Thesis information requires verification
   title: null
-  year: 2005
-  note: "Thesis title not found in open-access sources."
   year: null
-  note: "Thesis information requires verification"
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.

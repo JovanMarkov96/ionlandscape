@@ -1,43 +1,43 @@
 ---
-id: "i040-university-of-buenos-aires"
-name: "University of Buenos Aires"
-sort_name: "University of Buenos Aires"
-entity_type: "institution"
-
-aliases: ["UBA"]
-
+aliases:
+- UBA
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members:
+  - 025-christian-schmiegelow.md
+  member_count: 1
+entity_type: institution
+focus_areas:
+- Quantum Optics
+- Trapped Ions
+- AMO Physics
+id: i040-university-of-buenos-aires
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://www.uba.ar/
+  wikipedia: https://en.wikipedia.org/wiki/University_of_Buenos_Aires
 location:
-  city: "Buenos Aires"
-  region: ""
-  country: "Argentina"
+  city: Buenos Aires
+  country: Argentina
   lat: -34.5997
   lon: -58.3735
-
-institution_type: "university"
-
-short_description: "The University of Buenos Aires is Argentina's largest and most prestigious university, with research in quantum optics and trapped-ion experiments."
-focus_areas: ["Quantum Optics", "Trapped Ions", "AMO Physics"]
-
-links:
-  website: "https://www.uba.ar/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/University_of_Buenos_Aires"
-  linkedin: ""
-
+  region: ''
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "025-christian-schmiegelow.md"
-  alumni:
-
-  member_count: 1
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: University of Buenos Aires
+schema_version: 1
+short_description: The University of Buenos Aires is Argentina's largest and most
+  prestigious university, with research in quantum optics and trapped-ion experiments.
+sort_name: University of Buenos Aires
 sources:
-  - url: "https://www.uba.ar/"
-    note: "Official website"
+- note: Official website
+  url: https://www.uba.ar/
+verification_source_count: null
 ---

@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-28'
 current_position:
   institution: Griffith University
@@ -11,6 +14,7 @@ education:
   institution: Massachusetts Institute of Technology
   note: Doctoral research on Bose-Einstein condensates
   year: 2006
+entity_type: person
 group_type: experimental
 id: 026-erik-streed
 ion_species:
@@ -22,6 +26,7 @@ keywords:
 - segmented optics
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=ajeoFYMAAAAJ
   griffith_profile: https://experts.griffith.edu.au/7796-erik-streed
@@ -35,8 +40,9 @@ location:
   region: Queensland
 name: Erik W. Streed
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Streed, Erik W.
 thesis:
   link: null
@@ -44,6 +50,7 @@ thesis:
     Experiments'
   year: 2006
 updated_at: '2026-01-28'
+verification_source_count: null
 ---
 
 Erik W. Streed is an Associate Professor at Griffith University and Director of the Queensland Quantum and Advanced Technologies Research Institute. His research applies quantum physics techniques with trapped ions to biological challenges, exploring biomolecular dynamics through ion trapping and advanced microscopy. He also investigates light transmission for quantum computing using segmented optics.

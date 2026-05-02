@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- simulation
 created_at: '2026-01-30'
 current_position:
   institution: University of California, Los Angeles
@@ -11,6 +14,7 @@ education:
   institution: University of Colorado Boulder
   note: PhD details require verification from institutional sources
   year: 2006
+entity_type: person
 group_type: experimental
 id: 038-eric-hudson
 ion_species:
@@ -23,6 +27,7 @@ keywords:
 - quantum simulation
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=TvhzuKYAAAAJ
   group_page: https://www.physics.ucla.edu/~hudson/
@@ -35,8 +40,9 @@ location:
   region: California
 name: Eric R. Hudson
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Hudson, Eric R.
 thesis:
   link: null
@@ -44,6 +50,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Eric R. Hudson leads the Hudson Lab at UCLA, focusing on trapped molecular ions, ultracold chemistry, and quantum simulation. His group works with barium, ytterbium, and molecular ions to explore ion-neutral collisions and chemical reactions at ultracold temperatures.

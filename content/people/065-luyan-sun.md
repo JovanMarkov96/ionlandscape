@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: Tsinghua University
@@ -11,6 +14,7 @@ education:
   institution: University of Maryland
   note: PhD details require verification
   year: 2008
+entity_type: person
 group_type: experimental
 id: 065-luyan-sun
 ion_species:
@@ -22,6 +26,7 @@ keywords:
 - hybrid systems
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=4Jk6zRIAAAAJ
   group_page: http://hqs.iiis.tsinghua.edu.cn/
@@ -34,8 +39,9 @@ location:
   region: Beijing
 name: Luyan Sun
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Sun, Luyan
 thesis:
   link: null
@@ -43,6 +49,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Luyan Sun leads quantum information research at Tsinghua University focusing on hybrid quantum systems and trapped-ion quantum computing.

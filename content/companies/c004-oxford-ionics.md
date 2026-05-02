@@ -1,30 +1,33 @@
 ---
-id: c004-oxford-ionics
-name: Oxford Ionics
-sort_name: Oxford Ionics
+aliases:
+- Oxford Ionics
 entity_type: company
+id: c004-oxford-ionics
+last_verified_at: null
+links:
+  website: https://www.oxionics.com
 location:
   city: Kidlington
-  region: Oxfordshire
   country: United Kingdom
   lat: 51.826
   lon: -1.291
-platforms:
-- Trapped ions
-short_summary: High-performance quantum computers based on trapped ions and electronic
-  qubit control.
-aliases:
-- Oxford Ionics
+  region: Oxfordshire
+media:
+  logo_path: ''
+modality: hardware
+name: Oxford Ionics
 people:
   founders: []
   leadership: []
   spun_out_of: []
-status:
-  operating_status: active
-links:
-  website: https://www.oxionics.com
-media:
-  logo_path: ''
+platforms:
+- trapped_ion
+schema_version: 1
+short_summary: High-performance quantum computers based on trapped ions and electronic
+  qubit control.
+sort_name: Oxford Ionics
 sources: []
+status:
+  operating_status: private
+verification_source_count: null
 ---
-

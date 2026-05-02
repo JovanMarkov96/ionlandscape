@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- simulation
 created_at: '2026-01-30'
 current_position:
   institution: ETH Zürich
@@ -11,6 +14,7 @@ education:
   institution: Ludwig Maximilian University of Munich
   note: PhD details require verification
   year: 1995
+entity_type: person
 group_type: experimental
 id: 076-tilman-esslinger
 ion_species:
@@ -22,6 +26,7 @@ keywords:
 - hybrid systems
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=CXqgH5oAAAAJ
   group_page: https://quantumoptics.ethz.ch/
@@ -34,9 +39,10 @@ location:
   region: Zürich
 name: Tilman Esslinger
 platforms:
-- Trapped ions
-- Neutral atoms
+- trapped_ion
+- neutral_atom
 postdocs: []
+schema_version: 2
 sort_name: Esslinger, Tilman
 thesis:
   link: null
@@ -44,6 +50,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Tilman Esslinger leads the Quantum Optics Group at ETH Zürich, known for ultracold atom experiments and increasingly exploring hybrid ion-atom systems.

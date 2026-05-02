@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: Osaka University
@@ -11,6 +14,7 @@ education:
   institution: Kyoto University
   note: PhD details require verification
   year: null
+entity_type: person
 group_type: experimental
 id: 057-utako-tanaka
 ion_species:
@@ -21,6 +25,7 @@ keywords:
 - microfabricated traps
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: null
   group_page: https://www-tanaka.Kv-lab.org/
@@ -33,8 +38,9 @@ location:
   region: Osaka
 name: Utako Tanaka
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Tanaka, Utako
 thesis:
   link: null
@@ -42,6 +48,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Utako Tanaka conducts trapped-ion research at Osaka University focusing on microfabricated ion traps and quantum computing with calcium ions.

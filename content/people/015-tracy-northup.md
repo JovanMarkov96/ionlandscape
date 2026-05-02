@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-26'
 current_position:
   institution: University of Innsbruck
@@ -10,6 +13,7 @@ education:
   institution: California Institute of Technology
   note: Thesis title appears in open sources; PDF may be via library/catalog.
   year: 2008
+entity_type: person
 group_type: experimental
 id: 015-tracy-northup
 ion_species: []
@@ -20,6 +24,7 @@ keywords:
 - hybrid optomechanics
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=BHFu0UwAAAAJ
   group_page: https://www.uibk.ac.at/exphys/quantum-interfaces/
@@ -34,11 +39,12 @@ location:
   region: Tyrol
 name: Tracy E. Northup
 platforms:
-- Trapped ions
-- Cavity QED / ion–photon interfaces
+- trapped_ion
+- cavity_qed_hybrid
 postdocs:
 - advisor: Rainer Blatt
   institution: University of Innsbruck
+schema_version: 2
 sort_name: Northup, Tracy E.
 thesis:
   link: http://www.worldcat.org/oclc/437167481
@@ -46,6 +52,7 @@ thesis:
   title: Coherent control in cavity QED
   year: 2008
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Tracy E. Northup is a professor at the University of Innsbruck working on quantum interfaces between light and matter, especially trapped ions coupled to optical cavities, with applications to quantum networking and quantum-enabled sensing.

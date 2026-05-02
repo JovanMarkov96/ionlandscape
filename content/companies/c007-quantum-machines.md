@@ -1,96 +1,99 @@
 ---
+applications:
+- software_control
+approach:
+  architecture_tags:
+  - Quantum control
+  - Hybrid orchestration
+  - Software + FPGA hardware
+  differentiators:
+  - Universal processor-agnostic quantum orchestration platform used by a majority
+    of quantum hardware developers worldwide
+  - Hybrid quantum-classical control enabling seamless real-time workflows
+  - Scalable FPGA-based control hardware (OPX) paired with QUA programming language
+  elevator_pitch: Quantum Machines creates integrated control and orchestration solutions
+    that connect quantum processors with classical computing resources, enabling precise
+    quantum system operations and real-time error management.
+entity_type: company
+focus_areas:
+- Quantum control systems
+- Hybrid quantum-classical orchestration
+- Software for quantum operations
+funding:
+  rounds:
+  - amount_usd: 170000000
+    date: '2025-02-25'
+    lead_investors:
+    - PSG Equity
+    notes: Oversubscribed round raising $170M, bringing company funding to ~$280M.
+      Existing investors also participated.
+    other_investors:
+    - Intel Capital
+    - Red Dot Capital Partners
+    round: Series C
+    stage: series_c
+  total_raised_usd: 280000000
 id: c002-quantum-machines
-name: Quantum Machines
-sort_name: Quantum Machines
-entity_type: "company"
-
+last_verified_at: null
+links:
+  careers: ''
+  linkedin: ''
+  news: ''
+  website: https://quantum-machines.co
 location:
   city: Tel Aviv
-  region: Tel Aviv District
   country: Israel
   lat: 32.0621
   lon: 34.782
-
-platforms:
-  - "Quantum control hardware"
-  - "Hybrid quantum-classical orchestration"
-
-short_summary: "Developer of universal quantum control systems (hardware + software) enabling coherent and real-time orchestration of quantum processors across different technologies."
-
-approach:
-  elevator_pitch: "Quantum Machines creates integrated control and orchestration solutions that connect quantum processors with classical computing resources, enabling precise quantum system operations and real-time error management."  
-  differentiators:
-    - "Universal processor-agnostic quantum orchestration platform used by a majority of quantum hardware developers worldwide"
-    - "Hybrid quantum-classical control enabling seamless real-time workflows"
-    - "Scalable FPGA-based control hardware (OPX) paired with QUA programming language"
-  architecture_tags:
-    - "Quantum control"
-    - "Hybrid orchestration"
-    - "Software + FPGA hardware"
-
-focus_areas:
-  - "Quantum control systems"
-  - "Hybrid quantum-classical orchestration"
-  - "Software for quantum operations"
-
-products:
-  - "Quantum Orchestration Platform (QOP) with OPX control hardware"
-  - "QUA universal quantum programming language"
-
+  region: Tel Aviv District
+milestones:
+- claim: Completed a $170M Series C funding round, expanding global market position
+    and technology adoption.
+  date: '2025-02-25'
+  source: https://quantum-machines.co/press-release/quantum-machines-raises-170-million-in-series-c-funding/
+- claim: Selected to establish the Israeli Quantum Computing Center at Tel Aviv University,
+    serving industry and academia.
+  date: '2024-06-24'
+  source: https://www.prnewswire.com/il/news-releases/quantum-machines-opens-the-israeli-quantum-computing-center-302181680.html
+modality: both
+name: Quantum Machines
 people:
   founders:
-    - name: "Dr. Itamar Sivan"
-      role: "CEO & Co-Founder"
-    - name: "Dr. Yonatan Cohen"
-      role: "CTO & Co-Founder"
-    - name: "Dr. Nissim Ofek"
-      role: "VP R&D & Co-Founder"
+  - name: Dr. Itamar Sivan
+    role: CEO & Co-Founder
+  - name: Dr. Yonatan Cohen
+    role: CTO & Co-Founder
+  - name: Dr. Nissim Ofek
+    role: VP R&D & Co-Founder
   leadership: []
   spun_out_of:
-    - "Independent Israeli tech startup (founders with academic backgrounds at Weizmann Institute of Science and related physics research)"
-
+  - Independent Israeli tech startup (founders with academic backgrounds at Weizmann
+    Institute of Science and related physics research)
+platforms: []
+products:
+- Quantum Orchestration Platform (QOP) with OPX control hardware
+- QUA universal quantum programming language
+schema_version: 1
+short_summary: Developer of universal quantum control systems (hardware + software)
+  enabling coherent and real-time orchestration of quantum processors across different
+  technologies.
+sort_name: Quantum Machines
+sources:
+- note: Official description of business focus, technology, and Series C press release
+  url: https://quantum-machines.co/press-release/quantum-machines-raises-170-million-in-series-c-funding/
+- note: Funding overview and company role
+  url: https://en.globes.co.il/en/article-israeli-co-quantum-machines-raises-170m-1001502993
 status:
-  operating_status: "active"
   acquired:
-    is_acquired: false
     acquired_by: null
     acquisition_date: null
     acquisition_type: null
-    deal_value_usd: null
     announcement_url: null
-    notes: ""
-
-funding:
-  total_usd: 280000000
-  rounds:
-    - round: "Series C"
-      amount_usd: 170000000
-      date: "2025-02-25"
-      lead_investors: ["PSG Equity"]
-      other_investors: ["Intel Capital", "Red Dot Capital Partners"]
-      notes: "Oversubscribed round raising $170M, bringing company funding to ~$280M. Existing investors also participated."
-
-milestones:
-  - description: "Completed a $170M Series C funding round, expanding global market position and technology adoption." 
-    date: "2025-02-25"
-    sources:
-      - "https://quantum-machines.co/press-release/quantum-machines-raises-170-million-in-series-c-funding/"
-  - description: "Selected to establish the Israeli Quantum Computing Center at Tel Aviv University, serving industry and academia." 
-    date: "2024-06-24"
-    sources:
-      - "https://www.prnewswire.com/il/news-releases/quantum-machines-opens-the-israeli-quantum-computing-center-302181680.html"
-
-links:
-  website: "https://quantum-machines.co"
-  careers: ""
-  news: ""
-  linkedin: ""
-
-sources:
-  - url: "https://quantum-machines.co/press-release/quantum-machines-raises-170-million-in-series-c-funding/"
-    note: "Official description of business focus, technology, and Series C press release"
-  - url: "https://en.globes.co.il/en/article-israeli-co-quantum-machines-raises-170m-1001502993"
-    note: "Funding overview and company role"
+    deal_value_usd: null
+    is_acquired: false
+    notes: ''
+  operating_status: private
+verification_source_count: null
 ---
 
 Quantum Machines (QM) is a global leader in providing quantum control and orchestration systems. Founded in 2018 in Tel Aviv, Israel, their mission is to bring about the era of quantum computing by creating the operational foundation—both hardware and software—that makes practical quantum computers possible. 

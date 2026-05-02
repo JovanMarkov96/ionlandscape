@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: Indian Institute of Science Education and Research (IISER) Pune
@@ -11,6 +14,7 @@ education:
   institution: Tata Institute of Fundamental Research
   note: PhD details require verification
   year: 1999
+entity_type: person
 group_type: experimental
 id: 069-sadiq-rangwala
 ion_species:
@@ -23,6 +27,7 @@ keywords:
 - hybrid systems
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=8Ptfb9EAAAAJ&hl=en
   group_page: https://www.rri.res.in/~sarangwala/
@@ -35,14 +40,16 @@ location:
   region: Maharashtra
 name: S. A. Rangwala
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Rangwala, S. A.
 thesis:
   link: null
   title: Resonant electron capture to molecules and Dissociative electron attachment
   year: 1999
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 S. A. Rangwala leads cold atoms and ions research at Raman Research Institute/IISER Pune, focusing on hybrid ion-atom systems and cold collisions.

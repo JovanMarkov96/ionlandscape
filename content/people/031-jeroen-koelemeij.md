@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: VU Amsterdam
@@ -11,6 +14,7 @@ education:
   institution: Vrije Universiteit Amsterdam
   note: PhD details require verification from institutional sources
   year: 2004
+entity_type: person
 group_type: experimental
 id: 031-jeroen-koelemeij
 ion_species:
@@ -23,6 +27,7 @@ keywords:
 - fundamental constants
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=hKApNbYAAAAJ
   group_page: null
@@ -37,8 +42,9 @@ location:
   region: North Holland
 name: Jeroen C. J. Koelemeij
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Koelemeij, Jeroen C. J.
 thesis:
   link: null
@@ -46,6 +52,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Jeroen C. J. Koelemeij leads the HD+ spectroscopy team at VU Amsterdam. His research focuses on precision spectroscopy of molecular hydrogen ions (HD+) for tests of fundamental physics and determination of fundamental constants.

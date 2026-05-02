@@ -1,8 +1,12 @@
 ---
+active: active
 affiliations:
 - name: Open Quantum Design
   role: Co-founder
-  type: nonprofit
+  type: non_profit
+applications:
+- computing
+- simulation
 created_at: '2026-01-28'
 current_position:
   institution: Institute for Quantum Computing, University of Waterloo
@@ -12,6 +16,7 @@ education:
   degree: PhD (Physics)
   institution: University of Maryland, College Park
   year: 2014
+entity_type: person
 group_type: experimental
 id: 023-crystal-senko
 ion_species:
@@ -23,6 +28,7 @@ keywords:
 - open-source quantum systems
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=c_E97UoAAAAJ
   group_page: https://uwaterloo.ca/trapped-ion-quantum-control-lab/
@@ -36,8 +42,9 @@ location:
   region: Ontario
 name: Crystal Senko
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Senko, Crystal
 thesis:
   link: null
@@ -45,6 +52,7 @@ thesis:
     ions
   year: 2014
 updated_at: '2026-01-28'
+verification_source_count: null
 ---
 
 Crystal Senko is an Assistant Professor at the Institute for Quantum Computing (IQC) at the University of Waterloo. Her research focuses on trapped-ion quantum simulation and quantum computing. She co-founded Open Quantum Design alongside Rajibul Islam, Roger Melko, and Greg Dick, creating the world's first open-source, full-stack trapped-ion quantum computer.

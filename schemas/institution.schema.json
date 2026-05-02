@@ -145,9 +145,9 @@
       "description": "Auto-populated by core/build_index.py from people / company affiliations. Hand-edits will be overwritten.",
       "additionalProperties": false,
       "properties": {
-        "current_members":  { "type": "array", "items": { "type": "string" } },
-        "alumni":           { "type": "array", "items": { "type": "string" } },
-        "company_spinouts": { "type": "array", "items": { "type": "string" } },
+        "current_members":  { "type": ["array", "null"], "items": { "type": "string" } },
+        "alumni":           { "type": ["array", "null"], "items": { "type": "string" } },
+        "company_spinouts": { "type": ["array", "null"], "items": { "type": "string" } },
         "member_count":     { "type": ["integer", "null"], "minimum": 0 },
         "alumni_count":     { "type": ["integer", "null"], "minimum": 0 }
       }

@@ -8,11 +8,15 @@ on:
   push:
     paths:
       - 'content/people/**'
+      - 'content/companies/**'
+      - 'content/institutions/**'
       - 'schemas/**'
       - 'scripts/validation/validate_profiles.py'
   pull_request:
     paths:
       - 'content/people/**'
+      - 'content/companies/**'
+      - 'content/institutions/**'
       - 'schemas/**'
       - 'scripts/validation/validate_profiles.py'
   workflow_dispatch:

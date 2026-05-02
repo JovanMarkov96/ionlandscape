@@ -1,42 +1,46 @@
 ---
-id: "i057-open-quantum-design"
-name: "Open Quantum Design"
-sort_name: "Open Quantum Design"
-entity_type: "institution"
-
-aliases: ["OQD"]
-abbreviations: ["OQD"]
-
+abbreviations:
+- OQD
+aliases:
+- OQD
+directory:
+  alumni: []
+  alumni_count: 0
+  company_spinouts: []
+  current_members: []
+  member_count: 0
+entity_type: institution
+focus_areas:
+- Quantum Computing
+- Open Source Hardware
+- Trapped Ions
+- Quantum Engineering
+id: i057-open-quantum-design
+institution_type: non_profit
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://openquantumdesign.org/
+  wikipedia: ''
 location:
-  city: "Waterloo"
-  region: "Ontario"
-  country: "Canada"
+  city: Waterloo
+  country: Canada
   lat: 43.4643
   lon: -80.5204
-
-institution_type: "non_profit"
-
-short_description: "A non-profit organization dedicated to building the world's first open-source, full-stack trapped-ion quantum computer, aiming to democratize quantum technology access."
-focus_areas: ["Quantum Computing", "Open Source Hardware", "Trapped Ions", "Quantum Engineering"]
-
-links:
-  website: "https://openquantumdesign.org/"
-  department: ""
-  quantum_center: ""
-  wikipedia: ""
-  linkedin: ""
-
+  region: Ontario
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members: []
-  alumni: []
-  member_count: 0
-  alumni_count: 0
-
+  hero_image_path: ''
+  logo_path: ''
+name: Open Quantum Design
+schema_version: 1
+short_description: A non-profit organization dedicated to building the world's first
+  open-source, full-stack trapped-ion quantum computer, aiming to democratize quantum
+  technology access.
+sort_name: Open Quantum Design
 sources:
-  - url: "https://openquantumdesign.org/"
-    note: "Official OQD Website"
+- note: Official OQD Website
+  url: https://openquantumdesign.org/
+verification_source_count: null
 ---

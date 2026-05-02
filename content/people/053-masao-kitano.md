@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: Kyoto University
@@ -11,6 +14,7 @@ education:
   institution: Kyoto University
   note: PhD details require verification
   year: 1977
+entity_type: person
 group_type: experimental
 id: 053-masao-kitano
 ion_species:
@@ -21,6 +25,7 @@ keywords:
 - quantum information
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=XXw35CcAAAAJ
   group_page: null
@@ -33,8 +38,9 @@ location:
   region: Kyoto
 name: Masao Kitano
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Kitano, Masao
 thesis:
   link: null
@@ -42,6 +48,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Masao Kitano leads research in quantum optics and trapped-ion systems at Kyoto University. His work focuses on quantum information processing with ytterbium ions.

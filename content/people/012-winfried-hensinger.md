@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-26'
 current_position:
   institution: University of Sussex
@@ -9,6 +12,7 @@ education:
   degree: PhD (Physics)
   institution: University of Queensland
   year: 2002
+entity_type: person
 group_type: experimental
 id: 012-winfried-hensinger
 ion_species:
@@ -19,6 +23,7 @@ keywords:
 - quantum engineering
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=DuOb8ioAAAAJ
   group_page: https://www.sussex.ac.uk/research/centres/ion-quantum-technology/
@@ -33,14 +38,16 @@ location:
   region: England
 name: Winfried K. Hensinger
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Hensinger, Winfried K.
 thesis:
   link: null
   title: Experimental nonlinear quantum dynamics with ultracold atoms
   year: 2002
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Winfried K. Hensinger is a professor at the University of Sussex leading research toward scalable trapped-ion quantum computing, including architectures designed around microwave control and engineering-driven modularity.

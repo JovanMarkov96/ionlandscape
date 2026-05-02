@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: University of Washington
@@ -11,6 +14,7 @@ education:
   institution: University of Michigan
   note: PhD details require verification
   year: 2000
+entity_type: person
 group_type: experimental
 id: 075-boris-blinov
 ion_species:
@@ -22,6 +26,7 @@ keywords:
 - quantum computing
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=BXqgH5oAAAAJ
   group_page: https://depts.washington.edu/qcomp/
@@ -34,8 +39,9 @@ location:
   region: Washington
 name: Boris B. Blinov
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Blinov, Boris B.
 thesis:
   link: null
@@ -44,6 +50,7 @@ thesis:
     SNAKE SPIN-FLIPPING
   year: 2000
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Boris B. Blinov leads the Trapped Ion Quantum Computing group at the University of Washington, focusing on barium ion quantum networks and ion-photon entanglement.

@@ -1,45 +1,47 @@
 ---
-id: "i029-seoul-national-university"
-name: "Seoul National University"
-sort_name: "Seoul National University"
-entity_type: "institution"
-
-aliases: ["SNU"]
-
+aliases:
+- SNU
+directory:
+  alumni:
+  - 011-kihwan-kim.md
+  - 060-moonjoo-lee.md
+  alumni_count: 2
+  company_spinouts: []
+  current_members:
+  - 062-dan-cho.md
+  - 063-taehyun-kim.md
+  member_count: 2
+entity_type: institution
+focus_areas:
+- Physics
+- Quantum Information
+- Trapped Ions
+- AMO Physics
+id: i029-seoul-national-university
+institution_type: university
+last_verified_at: null
+links:
+  department: ''
+  linkedin: ''
+  quantum_center: ''
+  website: https://en.snu.ac.kr/
+  wikipedia: https://en.wikipedia.org/wiki/Seoul_National_University
 location:
-  city: "Seoul"
-  region: ""
-  country: "South Korea"
+  city: Seoul
+  country: South Korea
   lat: 37.4602
   lon: 126.9526
-
-institution_type: "university"
-
-short_description: "Seoul National University is South Korea's most prestigious university, with growing research groups in quantum information and trapped-ion systems."
-focus_areas: ["Physics", "Quantum Information", "Trapped Ions", "AMO Physics"]
-
-links:
-  website: "https://en.snu.ac.kr/"
-  department: ""
-  quantum_center: ""
-  wikipedia: "https://en.wikipedia.org/wiki/Seoul_National_University"
-  linkedin: ""
-
+  region: ''
 media:
-  logo_path: ""
-  hero_image_path: ""
-
-directory:
-  current_members:
-    - "062-dan-cho.md"
-    - "063-taehyun-kim.md"
-  alumni:
-    - "011-kihwan-kim.md"
-    - "060-moonjoo-lee.md"
-  member_count: 2
-  alumni_count: 2
-
+  hero_image_path: ''
+  logo_path: ''
+name: Seoul National University
+schema_version: 1
+short_description: Seoul National University is South Korea's most prestigious university,
+  with growing research groups in quantum information and trapped-ion systems.
+sort_name: Seoul National University
 sources:
-  - url: "https://en.snu.ac.kr/"
-    note: "Official website"
+- note: Official website
+  url: https://en.snu.ac.kr/
+verification_source_count: null
 ---

@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- optical_clocks
 created_at: '2026-01-30'
 current_position:
   institution: National Institute of Standards and Technology (NIST), Boulder
@@ -11,6 +14,7 @@ education:
   institution: University of Colorado Boulder
   note: PhD details require verification
   year: 2010
+entity_type: person
 group_type: experimental
 id: 073-david-hume
 ion_species:
@@ -23,6 +27,7 @@ keywords:
 - trapped ions
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=zXqgH5oAAAAJ
   group_page: https://www.nist.gov/people/david-b-hume
@@ -35,8 +40,9 @@ location:
   region: Colorado
 name: David Hume
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Hume, David
 thesis:
   link: null
@@ -44,6 +50,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clock using quantum logic spectroscopy.

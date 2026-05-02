@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- software_control
 created_at: '2026-01-30'
 current_position:
   institution: University of Tokyo
@@ -11,6 +14,7 @@ education:
   institution: University of Tokyo
   note: PhD details require verification
   year: null
+entity_type: person
 group_type: experimental
 id: 059-shuichi-hasegawa
 ion_species:
@@ -21,6 +25,7 @@ keywords:
 - laser cooling
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: null
   group_page: https://www.nuclear.jp/~hasegawa/index_e.html
@@ -33,8 +38,9 @@ location:
   region: Tokyo
 name: Shuichi Hasegawa
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Hasegawa, Shuichi
 thesis:
   link: null
@@ -42,6 +48,7 @@ thesis:
   title: null
   year: null
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Shuichi Hasegawa leads trapped-ion research at the University of Tokyo focusing on laser cooling and quantum control with calcium ions.

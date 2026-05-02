@@ -1,4 +1,5 @@
 ---
+active: active
 affiliations:
 - name: Oxford Ionics
   role: Co-founder & CEO (founding)
@@ -6,6 +7,8 @@ affiliations:
 - name: IonQ, Inc. (USA)
   role: President, Quantum Computing
   type: company
+applications:
+- computing
 created_at: '2026-01-26'
 current_position:
   institution: IonQ, Inc.
@@ -15,6 +18,7 @@ education:
   degree: DPhil (PhD) in Physics
   institution: University of Oxford
   year: 2014
+entity_type: person
 group_type: experimental
 id: 003-chris-ballance
 ion_species:
@@ -28,6 +32,7 @@ keywords:
 labels:
 - Experimental group
 - Industry
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=pgnnU3MAAAAJ
   group_page: https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group
@@ -44,14 +49,16 @@ location:
   region: England
 name: Chris Ballance
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Ballance, Chris
 thesis:
   link: https://ora.ox.ac.uk/objects/uuid:1beb7f67-4d92-4d57-8754-50f92f9d27f4
   title: High-fidelity quantum logic in Ca+
   year: 2014
 updated_at: '2026-01-27'
+verification_source_count: null
 ---
 
 Dr. Chris Ballance is a physicist and quantum-technology leader working on trapped-ion quantum computing across academia and industry. He completed his DPhil (PhD) at the University of Oxford under Prof. David M. Lucas, with a thesis on high-fidelity trapped-ion quantum logic.

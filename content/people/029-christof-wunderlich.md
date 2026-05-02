@@ -1,5 +1,8 @@
 ---
+active: active
 affiliations: []
+applications:
+- computing
 created_at: '2026-01-30'
 current_position:
   institution: University of Siegen
@@ -9,6 +12,7 @@ education:
   degree: PhD (Physics)
   institution: Ludwig-Maximilians-University Munich
   year: 1996
+entity_type: person
 group_type: experimental
 id: 029-christof-wunderlich
 ion_species:
@@ -20,6 +24,7 @@ keywords:
 - magnetic gradient traps
 labels:
 - Experimental group
+last_verified_at: null
 links:
   google_scholar: https://scholar.google.com/citations?user=5Wz0VTEAAAAJ
   group_page: https://www.physik.uni-siegen.de/quantenoptik/
@@ -32,14 +37,16 @@ location:
   region: North Rhine-Westphalia
 name: Christof Wunderlich
 platforms:
-- Trapped ions
+- trapped_ion
 postdocs: []
+schema_version: 2
 sort_name: Wunderlich, Christof
 thesis:
   link: null
   title: Licht-induzierte molekulare Struktur. Eine experimentelle Untersuchung.
   year: 1996
 updated_at: '2026-01-30'
+verification_source_count: null
 ---
 
 Christof Wunderlich leads the Quantum Optics Research Group at the University of Siegen. His group is known for pioneering work on microwave-driven quantum logic with trapped ytterbium ions and magnetic gradient traps for quantum information processing.
