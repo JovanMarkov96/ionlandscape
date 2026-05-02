@@ -44,6 +44,26 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "i059-cqiqc",
+        "name": "Centre for Quantum Information and Quantum Control",
+        "entity_type": "institution",
+        "city": "Toronto",
+        "country": "Canada",
+        "short_description": "The Centre for Quantum Information and Quantum Control (CQIQC) is a multidisciplinary research center at the University of Toronto dedicated to advancing quantum information science, quantum control, and quantum technologies.",
+        "logo_path": "",
+        "md_filename": "i059-cqiqc.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3957,
+          43.6629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "i024-palacky-university-olomouc",
         "name": "Palacký University Olomouc",
         "entity_type": "institution",
@@ -118,26 +138,6 @@
         "coordinates": [
           -0.1749,
           51.4988
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "i002-cqiqc",
-        "name": "Centre for Quantum Information and Quantum Control",
-        "entity_type": "institution",
-        "city": "Toronto",
-        "country": "Canada",
-        "short_description": "The Centre for Quantum Information and Quantum Control (CQIQC) is a multidisciplinary research center at the University of Toronto dedicated to advancing quantum information science, quantum control, and quantum technologies.",
-        "logo_path": "",
-        "md_filename": "i002-cqiqc.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.3957,
-          43.6629
         ]
       }
     },
@@ -329,7 +329,7 @@
         "entity_type": "institution",
         "city": "Tel Aviv",
         "country": "Israel",
-        "short_description": "",
+        "short_description": "Israeli quantum technology ecosystem initiative supporting collaboration between startups, academia, industry, and government in quantum computing and related technologies.",
         "logo_path": "",
         "md_filename": "i058-quantum-hub.md"
       },

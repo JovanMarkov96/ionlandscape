@@ -8,7 +8,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -67,7 +67,7 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -129,7 +129,7 @@
       "title": "Principal Investigator"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -189,7 +189,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -250,10 +250,7 @@
       "title": "Professor Emeritus"
     },
     "platforms": [
-      "Trapped ions",
-      "Quantum computing",
-      "Quantum simulation",
-      "Quantum metrology"
+      "trapped_ion"
     ],
     "affiliations": [
       {
@@ -328,7 +325,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -388,7 +385,7 @@
       "title": "Distinguished Member of Technical Staff"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -448,7 +445,7 @@
       "title": "Fellow / Group Lead (Ion Storage / Trapped-Ion Quantum Science)"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -509,7 +506,7 @@
       "title": "Gilhuly Family Presidential Distinguished Professor (Physics & ECE)"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [
       {
@@ -589,7 +586,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -648,7 +645,7 @@
       "title": "Professor of Quantum Technologies"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -705,7 +702,7 @@
       "title": "Principal Scientist"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -764,8 +761,8 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions",
-      "Neutral atoms"
+      "trapped_ion",
+      "neutral_atom"
     ],
     "affiliations": [],
     "location": {
@@ -825,8 +822,8 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions",
-      "Neutral atoms"
+      "trapped_ion",
+      "neutral_atom"
     ],
     "affiliations": [],
     "location": {
@@ -838,20 +835,20 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "Universität Hamburg",
-        "year": 1993,
         "advisor": null,
         "confidence": "academictree_only",
-        "note": "PhD (Promotion) at Universität Hamburg confirmed by institutional profile; advisor not reliably available from public sources."
+        "degree": "PhD (Physics)",
+        "institution": "Universität Hamburg",
+        "note": "PhD (Promotion) at Universität Hamburg confirmed by institutional profile; advisor not reliably available from public sources.",
+        "year": 1993
       }
     ],
     "postdocs": [
       {
-        "institution": "Australian National University",
         "advisor": null,
-        "years": "1995–1996",
-        "note": "Postdoctoral researcher at Australian National University confirmed by institutional profile; specific advisor not listed."
+        "institution": "Australian National University",
+        "note": "Postdoctoral researcher at Australian National University confirmed by institutional profile; specific advisor not listed.",
+        "years": "1995–1996"
       }
     ],
     "keywords": [
@@ -878,10 +875,10 @@
       "orcid": "https://orcid.org/0000-0002-8393-7258"
     },
     "thesis": {
-      "title": null,
       "link": null,
-      "year": 1993,
-      "note": "Thesis title not found in open online sources; add once verified from university catalog."
+      "note": "Thesis title not found in open online sources; add once verified from university catalog.",
+      "title": null,
+      "year": 1993
     },
     "short_bio": "Jürgen Eschner leads the **Quantum Photonics Group** at Saarland University, where the research program is dedicated to the controlled interaction between light and matter in the quantum mechanical regime. The main objective of his group’s work is to study and experimentally realize the transformation between **quantum states of individual photons and individual atoms/ions**, employing high-finesse optical resonators, single trapped particles, and entangled photon pairs.",
     "md_filename": "028-juergen-eschner.md",
@@ -897,13 +894,13 @@
       "title": "Associate Professor / Canada Research Chair in Trapped Ion Quantum Computing"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [
       {
         "name": "Open Quantum Design",
         "role": "Co-founder",
-        "type": "nonprofit"
+        "type": "non_profit"
       }
     ],
     "location": {
@@ -960,7 +957,7 @@
       "title": "Associate Professor / Researcher"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [
       {
@@ -1026,7 +1023,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1083,7 +1080,7 @@
       "title": "Professor (Electrical & Computer Engineering)"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1145,7 +1142,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1204,7 +1201,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1260,7 +1257,7 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1318,7 +1315,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1377,8 +1374,7 @@
       "title": "Staff Scientist / Group Lead (Ion Storage Group)"
     },
     "platforms": [
-      "Trapped ions",
-      "Penning traps"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1436,7 +1432,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1495,7 +1491,7 @@
       "title": "Director, Quantum Control Laboratory"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [
       {
@@ -1560,7 +1556,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1619,7 +1615,7 @@
       "title": "Group Leader"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1679,7 +1675,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1735,8 +1731,8 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions",
-      "Cavity QED / ion–photon interfaces"
+      "trapped_ion",
+      "cavity_qed_hybrid"
     ],
     "affiliations": [],
     "location": {
@@ -1799,7 +1795,7 @@
       "title": "Professor of Physics"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1858,7 +1854,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1916,7 +1912,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -1975,10 +1971,7 @@
       "title": "Philip H. Knight Distinguished Research Chair; Research Professor (Physics)"
     },
     "platforms": [
-      "Trapped ions",
-      "Atomic clocks",
-      "Quantum metrology",
-      "Quantum information"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2047,7 +2040,7 @@
       "title": "Full Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2106,7 +2099,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2164,8 +2157,8 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions",
-      "Neutral atoms"
+      "trapped_ion",
+      "neutral_atom"
     ],
     "affiliations": [],
     "location": {
@@ -2220,14 +2213,13 @@
     "name": "Ziv Meir",
     "sort_name": "Meir, Ziv",
     "current_position": {
-      "title": "Principal Investigator (Senior Scientist)",
-      "institution": "Weizmann Institute of Science"
+      "institution": "Weizmann Institute of Science",
+      "title": "Principal Investigator (Senior Scientist)"
     },
     "platforms": [
-      "Trapped ions",
-      "Molecular ions",
-      "Quantum logic spectroscopy",
-      "Hybrid atom–ion systems"
+      "trapped_ion",
+      "trapped_molecule",
+      "cavity_qed_hybrid"
     ],
     "affiliations": [],
     "location": {
@@ -2240,30 +2232,29 @@
     "education": [
       {
         "degree": "BSc (dual), magna cum laude",
-        "institution": "Tel-Aviv University",
-        "details": "Physics & Astronomy; Electrical Engineering"
+        "institution": "Tel-Aviv University"
       },
       {
+        "advisor": "Roee Ozeri",
         "degree": "MSc (Physics)",
-        "institution": "Weizmann Institute of Science",
-        "advisor": "Roee Ozeri"
+        "institution": "Weizmann Institute of Science"
       },
       {
+        "advisor": "Roee Ozeri",
         "degree": "PhD (Physics)",
         "institution": "Weizmann Institute of Science",
-        "year": 2016,
-        "advisor": "Roee Ozeri"
+        "year": 2016
       }
     ],
     "postdocs": [
       {
-        "institution": "Weizmann Institute of Science",
         "advisor": "Roee Ozeri",
+        "institution": "Weizmann Institute of Science",
         "note": "Postdoctoral continuation inferred from 2017–2018 Weizmann-affiliated atom–ion publications with Ozeri-group coauthors; official bios do not explicitly name a PI."
       },
       {
-        "institution": "University of Basel",
-        "advisor": "Stefan Willitsch"
+        "advisor": "Stefan Willitsch",
+        "institution": "University of Basel"
       }
     ],
     "keywords": [
@@ -2283,16 +2274,16 @@
       "N2+"
     ],
     "links": {
-      "homepage": "https://www.weizmann.ac.il/complex/meir/",
-      "group_page": "https://www.weizmann.ac.il/complex/meir/group",
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=4JryXL4AAAAJ",
+      "group_page": "https://www.weizmann.ac.il/complex/meir/group",
+      "homepage": "https://www.weizmann.ac.il/complex/meir/",
+      "iucc_cris": "https://cris.iucc.ac.il/en/persons/ziv-meir",
       "orcid": "https://orcid.org/0000-0002-9321-8687",
-      "weizmann_pure": "https://weizmann.elsevierpure.com/en/persons/ziv-meir",
-      "iucc_cris": "https://cris.iucc.ac.il/en/persons/ziv-meir"
+      "weizmann_pure": "https://weizmann.elsevierpure.com/en/persons/ziv-meir"
     },
     "thesis": {
-      "title": "Dynamics of a single, ground-state cooled and trapped ion colliding with ultracold atoms: A micromotion tale",
       "link": "https://www.weizmann.ac.il/complex/ozeri/sites/complex.ozeri/files/uploads/ziv_thesis.pdf",
+      "title": "Dynamics of a single, ground-state cooled and trapped ion colliding with ultracold atoms: A micromotion tale",
       "year": 2016
     },
     "short_bio": "Dr. Ziv Meir is an experimental physicist and principal investigator at the Weizmann Institute of Science. His research develops quantum-logic techniques—originally created for trapped-ion quantum computing and optical clocks—to control, detect, and manipulate single trapped molecular ions, enabling “molecular qubits” and new precision spectroscopy capabilities.",
@@ -2309,7 +2300,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2365,7 +2356,7 @@
       "title": "Yao Qizhi Chair Professor / Chair Professor of Basic Sciences"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2423,7 +2414,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2483,7 +2474,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2542,7 +2533,7 @@
       "title": "Senior Scientist"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2605,7 +2596,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2663,7 +2654,7 @@
       "title": "President, Quantum Computing"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [
       {
@@ -2736,7 +2727,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2794,7 +2785,7 @@
       "title": "PostDoc / Research Group Leader"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2851,7 +2842,7 @@
       "title": "Assistant Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2868,24 +2859,24 @@
         "year": 2010
       },
       {
+        "advisor": "Edvardas Narevicius",
         "degree": "MSc (Physics)",
         "institution": "Weizmann Institute of Science",
-        "year": 2012,
-        "advisor": "Edvardas Narevicius"
+        "year": 2012
       },
       {
+        "advisor": "Edvardas Narevicius",
         "degree": "PhD (Chemical Physics)",
         "institution": "Weizmann Institute of Science",
-        "year": 2016,
-        "advisor": "Edvardas Narevicius"
+        "year": 2016
       }
     ],
     "postdocs": [
       {
-        "institution": "JILA (University of Colorado & NIST), Boulder",
         "advisor": "Eric A. Cornell; Jun Ye",
-        "years": "2016–2020",
-        "note": "Postdoctoral research at JILA focused on precision measurement of the electron electric dipole moment using trapped molecular ions."
+        "institution": "JILA (University of Colorado & NIST), Boulder",
+        "note": "Postdoctoral research at JILA focused on precision measurement of the electron electric dipole moment using trapped molecular ions.",
+        "years": "2016–2020"
       }
     ],
     "keywords": [
@@ -2900,9 +2891,7 @@
     "labels": [
       "Experimental group"
     ],
-    "ion_species": [
-      "molecular ions"
-    ],
+    "ion_species": [],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?hl=en&user=tbFFEyMAAAAJ",
       "homepage": "https://shagam.net.technion.ac.il/",
@@ -2910,10 +2899,10 @@
       "technion_profile": "https://chemistry.technion.ac.il/en/team/yuval-shagam/"
     },
     "thesis": {
-      "title": "Cold chemistry with cold molecules",
       "link": null,
-      "year": 2016,
-      "note": "Thesis title confirmed from Technion faculty profile; no open PDF found."
+      "note": "Thesis title confirmed from Technion faculty profile; no open PDF found.",
+      "title": "Cold chemistry with cold molecules",
+      "year": 2016
     },
     "short_bio": "Prof. Yuval Shagam is an experimental physicist and Assistant Professor at the Technion – Israel Institute of Technology, where he leads the **Molecular Quantum Technology Lab**. His research centers on **precision molecular ion trapping**, **quantum control of molecular systems**, cold quantum chemistry, and **precision spectroscopy** for tests of fundamental symmetry (such as parity violation) and searches for physics beyond the Standard Model.",
     "md_filename": "078-yuval-shagam.md",
@@ -2929,7 +2918,7 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -2988,7 +2977,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3046,7 +3035,7 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3104,7 +3093,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3162,7 +3151,7 @@
       "title": "Senior Staff"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3222,7 +3211,7 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3282,7 +3271,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3294,12 +3283,12 @@
     },
     "education": [
       {
-        "degree": "PhD (Physics)",
-        "institution": "University of Virginia",
-        "year": 2005,
         "advisor": null,
         "confidence": "not_found",
-        "note": "PhD details require verification"
+        "degree": "PhD (Physics)",
+        "institution": "University of Virginia",
+        "note": "PhD details require verification",
+        "year": 2005
       }
     ],
     "postdocs": [],
@@ -3322,9 +3311,9 @@
     },
     "thesis": {
       "link": null,
+      "note": "Thesis information requires verification",
       "title": null,
-      "year": null,
-      "note": "Thesis information requires verification"
+      "year": null
     },
     "short_bio": "Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.",
     "md_filename": "066-wenhui-li.md",
@@ -3340,7 +3329,7 @@
       "title": "Catedrático de Universidad (Full Professor of Physics)"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3371,7 +3360,7 @@
         "advisor": null,
         "institution": "Max Planck Institute for Nuclear Physics, Heidelberg, Germany",
         "note": "José Castillejo fellowship.",
-        "years": 2008
+        "years": "2008"
       },
       {
         "advisor": null,
@@ -3424,7 +3413,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3483,7 +3472,7 @@
       "title": "Principal Investigator"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3542,7 +3531,7 @@
       "title": "Physicist"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3602,7 +3591,7 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3661,7 +3650,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3721,7 +3710,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3779,7 +3768,7 @@
       "title": "Group Leader"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3840,9 +3829,8 @@
       "title": "Professor of Physics"
     },
     "platforms": [
-      "Trapped ions",
-      "Optical clocks",
-      "Ultracold atoms"
+      "trapped_ion",
+      "neutral_atom"
     ],
     "affiliations": [
       {
@@ -3924,7 +3912,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -3984,13 +3972,13 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [
       {
         "name": "Open Quantum Design",
         "role": "Co-founder",
-        "type": "nonprofit"
+        "type": "non_profit"
       }
     ],
     "location": {
@@ -4049,7 +4037,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4109,7 +4097,7 @@
       "title": "Principal Investigator"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4169,7 +4157,7 @@
       "title": "Professor / Group Leader (Trapped-Ion Quantum Science)"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4228,7 +4216,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4299,7 +4287,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4357,7 +4345,7 @@
       "title": "Associate Professor / Director, Queensland Quantum and Advanced Technologies Research Institute"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4415,7 +4403,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4474,7 +4462,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4533,7 +4521,7 @@
       "title": "Lester Wolfe Professor of Physics"
     },
     "platforms": [
-      "Neutral atoms"
+      "neutral_atom"
     ],
     "affiliations": [
       {
@@ -4556,20 +4544,20 @@
         "year": 1992
       },
       {
+        "advisor": "Theodor W. Hänsch",
         "degree": "PhD (Physics), summa cum laude",
         "institution": "Ludwig-Maximilians-Universität München (LMU Munich)",
-        "year": 1997,
-        "advisor": "Theodor W. Hänsch"
+        "year": 1997
       }
     ],
     "postdocs": [
       {
-        "institution": "Max-Planck-Institut für Quantenoptik (MPQ)",
-        "advisor": "Theodor W. Hänsch"
+        "advisor": "Theodor W. Hänsch",
+        "institution": "Max-Planck-Institut für Quantenoptik (MPQ)"
       },
       {
-        "institution": "Stanford University",
-        "advisor": "Steven Chu"
+        "advisor": "Steven Chu",
+        "institution": "Stanford University"
       }
     ],
     "keywords": [
@@ -4592,9 +4580,9 @@
     },
     "thesis": {
       "link": null,
+      "note": "Thesis title not found; topic related to magnetic trapping of cold atoms.",
       "title": null,
-      "year": 1997,
-      "note": "Thesis title not found; topic related to magnetic trapping of cold atoms."
+      "year": 1997
     },
     "short_bio": "Vladan Vuletić is the Lester Wolfe Professor of Physics at MIT. His research focuses on ultracold atoms, quantum optics, and quantum information processing. He is also a co-founder and the Chief Technology Officer (CTO) of QuEra Computing Inc., a company developing neutral-atom quantum computers.",
     "md_filename": "040-vladan-vuletic.md",
@@ -4610,8 +4598,8 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions",
-      "Neutral atoms"
+      "trapped_ion",
+      "neutral_atom"
     ],
     "affiliations": [],
     "location": {
@@ -4670,7 +4658,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4729,7 +4717,7 @@
       "title": "Associate Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4787,7 +4775,7 @@
       "title": "Senior Fellow"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {
@@ -4847,7 +4835,7 @@
       "title": "Professor"
     },
     "platforms": [
-      "Trapped ions"
+      "trapped_ion"
     ],
     "affiliations": [],
     "location": {

@@ -7,11 +7,7 @@
         "id": "c012-enquantum",
         "name": "enQuantum",
         "entity_type": "company",
-        "platforms": [
-          "Quantum communication",
-          "Quantum key distribution (QKD)",
-          "Quantum-safe networking"
-        ],
+        "platforms": [],
         "city": "Tel Aviv",
         "country": "Israel",
         "short_summary": "Developer of quantum communication infrastructure focused on practical deployment of quantum key distribution (QKD) and quantum-secure networking solutions.",
@@ -33,8 +29,7 @@
         "name": "Quantum Transistors",
         "entity_type": "company",
         "platforms": [
-          "Semiconductor-based quantum devices",
-          "Spin qubits"
+          "silicon_spin"
         ],
         "city": "Binyamina",
         "country": "Israel",
@@ -57,8 +52,7 @@
         "name": "Quantum Source Labs",
         "entity_type": "company",
         "platforms": [
-          "Photonic quantum computing",
-          "Hybrid photon-atom qubit architecture"
+          "photonic"
         ],
         "city": "Ness Ziona",
         "country": "Israel",
@@ -80,9 +74,7 @@
         "id": "c013-qedma",
         "name": "Qedma",
         "entity_type": "company",
-        "platforms": [
-          "Quantum error mitigation & noise resilience software"
-        ],
+        "platforms": [],
         "city": "Tel Aviv",
         "country": "Israel",
         "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
@@ -104,7 +96,7 @@
         "name": "Quantum Art",
         "entity_type": "company",
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "city": "Ness Ziona",
         "country": "Israel",
@@ -126,10 +118,7 @@
         "id": "c003-classiq-technologies",
         "name": "Classiq Technologies",
         "entity_type": "company",
-        "platforms": [
-          "Quantum software development platform",
-          "Hardware-agnostic circuit synthesis"
-        ],
+        "platforms": [],
         "city": "Tel Aviv",
         "country": "Israel",
         "short_summary": "Developer of an enterprise-grade quantum software platform that automatically synthesizes high-level functional logic into optimized quantum circuits for deployment across cloud and hardware backends.",
@@ -151,7 +140,7 @@
         "name": "IonQ",
         "entity_type": "company",
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "city": "College Park",
         "country": "United States",
@@ -174,8 +163,7 @@
         "name": "QuamCore",
         "entity_type": "company",
         "platforms": [
-          "Superconducting quantum computing",
-          "Scalable million-qubit architectures"
+          "superconducting"
         ],
         "city": "Herzliya",
         "country": "Israel",
@@ -197,11 +185,7 @@
         "id": "c009-quantlr",
         "name": "QuantLR",
         "entity_type": "company",
-        "platforms": [
-          "Quantum communication",
-          "Quantum key distribution (QKD)",
-          "Quantum repeaters"
-        ],
+        "platforms": [],
         "city": "Tel Aviv",
         "country": "Israel",
         "short_summary": "Developer of quantum-secure communication infrastructure, building quantum repeaters and entanglement-based networking technologies for long-distance quantum communication.",
@@ -222,10 +206,7 @@
         "id": "c002-quantum-machines",
         "name": "Quantum Machines",
         "entity_type": "company",
-        "platforms": [
-          "Quantum control hardware",
-          "Hybrid quantum-classical orchestration"
-        ],
+        "platforms": [],
         "city": "Tel Aviv",
         "country": "Israel",
         "short_summary": "Developer of universal quantum control systems (hardware + software) enabling coherent and real-time orchestration of quantum processors across different technologies.",
@@ -246,10 +227,7 @@
         "id": "c011-quancilla",
         "name": "Quancilla",
         "entity_type": "company",
-        "platforms": [
-          "Quantum software development",
-          "Quantum algorithm design tools"
-        ],
+        "platforms": [],
         "city": "Tel Aviv",
         "country": "Israel",
         "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
@@ -271,7 +249,7 @@
         "name": "Alpine Quantum Technologies",
         "entity_type": "company",
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "city": "Innsbruck",
         "country": "Austria",
@@ -293,9 +271,7 @@
         "id": "c005-q-ctrl",
         "name": "Q-CTRL",
         "entity_type": "company",
-        "platforms": [
-          "Software"
-        ],
+        "platforms": [],
         "city": "Sydney",
         "country": "Australia",
         "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
@@ -317,7 +293,7 @@
         "name": "Oxford Ionics",
         "entity_type": "company",
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "city": "Kidlington",
         "country": "United Kingdom",
@@ -340,7 +316,7 @@
         "name": "QuEra Computing",
         "entity_type": "company",
         "platforms": [
-          "Neutral atoms"
+          "neutral_atom"
         ],
         "city": "Boston",
         "country": "United States",

@@ -11,7 +11,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Innsbruck",
@@ -37,7 +37,7 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Amsterdam",
@@ -63,7 +63,7 @@
           "title": "Principal Investigator"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Singapore",
@@ -89,7 +89,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Durham",
@@ -115,10 +115,7 @@
           "title": "Professor Emeritus"
         },
         "platforms": [
-          "Trapped ions",
-          "Quantum computing",
-          "Quantum simulation",
-          "Quantum metrology"
+          "trapped_ion"
         ],
         "affiliations": [
           "Alpine Quantum Technologies (AQT)"
@@ -146,7 +143,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Oxford",
@@ -172,7 +169,7 @@
           "title": "Distinguished Member of Technical Staff"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Albuquerque",
@@ -198,7 +195,7 @@
           "title": "Fellow / Group Lead (Ion Storage / Trapped-Ion Quantum Science)"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Boulder",
@@ -224,7 +221,7 @@
           "title": "Gilhuly Family Presidential Distinguished Professor (Physics & ECE)"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [
           "IonQ, Inc. (USA)"
@@ -252,7 +249,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Kassel",
@@ -278,7 +275,7 @@
           "title": "Professor of Quantum Technologies"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Brighton",
@@ -304,7 +301,7 @@
           "title": "Principal Scientist"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Teddington",
@@ -330,8 +327,8 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions",
-          "Neutral atoms"
+          "trapped_ion",
+          "neutral_atom"
         ],
         "affiliations": [],
         "city": "Ulm",
@@ -357,8 +354,8 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions",
-          "Neutral atoms"
+          "trapped_ion",
+          "neutral_atom"
         ],
         "affiliations": [],
         "city": "Saarbrücken",
@@ -384,7 +381,7 @@
           "title": "Associate Professor / Canada Research Chair in Trapped Ion Quantum Computing"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [
           "Open Quantum Design"
@@ -412,7 +409,7 @@
           "title": "Associate Professor / Researcher"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [
           "Alpine Quantum Technologies (AQT)"
@@ -440,7 +437,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Aarhus",
@@ -466,7 +463,7 @@
           "title": "Professor (Electrical & Computer Engineering)"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Durham",
@@ -492,7 +489,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Beijing",
@@ -518,7 +515,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Buenos Aires",
@@ -544,7 +541,7 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Osaka",
@@ -570,7 +567,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Pune",
@@ -596,8 +593,7 @@
           "title": "Staff Scientist / Group Lead (Ion Storage Group)"
         },
         "platforms": [
-          "Trapped ions",
-          "Penning traps"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Boulder",
@@ -623,7 +619,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "London",
@@ -649,7 +645,7 @@
           "title": "Director, Quantum Control Laboratory"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [
           "Q-CTRL"
@@ -677,7 +673,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Basel",
@@ -703,7 +699,7 @@
           "title": "Group Leader"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Koganei",
@@ -729,7 +725,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Siegen",
@@ -755,8 +751,8 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions",
-          "Cavity QED / ion–photon interfaces"
+          "trapped_ion",
+          "cavity_qed_hybrid"
         ],
         "affiliations": [],
         "city": "Innsbruck",
@@ -782,7 +778,7 @@
           "title": "Professor of Physics"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Berkeley",
@@ -808,7 +804,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Kyoto",
@@ -834,7 +830,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Brighton",
@@ -860,10 +856,7 @@
           "title": "Philip H. Knight Distinguished Research Chair; Research Professor (Physics)"
         },
         "platforms": [
-          "Trapped ions",
-          "Atomic clocks",
-          "Quantum metrology",
-          "Quantum information"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Eugene",
@@ -889,7 +882,7 @@
           "title": "Full Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Zürich",
@@ -915,7 +908,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Tokyo",
@@ -941,8 +934,8 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions",
-          "Neutral atoms"
+          "trapped_ion",
+          "neutral_atom"
         ],
         "affiliations": [],
         "city": "Zürich",
@@ -964,14 +957,13 @@
         "id": "002-ziv-meir",
         "name": "Ziv Meir",
         "current_position": {
-          "title": "Principal Investigator (Senior Scientist)",
-          "institution": "Weizmann Institute of Science"
+          "institution": "Weizmann Institute of Science",
+          "title": "Principal Investigator (Senior Scientist)"
         },
         "platforms": [
-          "Trapped ions",
-          "Molecular ions",
-          "Quantum logic spectroscopy",
-          "Hybrid atom–ion systems"
+          "trapped_ion",
+          "trapped_molecule",
+          "cavity_qed_hybrid"
         ],
         "affiliations": [],
         "city": "Rehovot",
@@ -997,7 +989,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Bonn",
@@ -1023,7 +1015,7 @@
           "title": "Yao Qizhi Chair Professor / Chair Professor of Basic Sciences"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Beijing",
@@ -1049,7 +1041,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Osaka",
@@ -1075,7 +1067,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Cambridge",
@@ -1101,7 +1093,7 @@
           "title": "Senior Scientist"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Innsbruck",
@@ -1127,7 +1119,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Seoul",
@@ -1153,7 +1145,7 @@
           "title": "President, Quantum Computing"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [
           "Oxford Ionics",
@@ -1182,7 +1174,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Mainz",
@@ -1208,7 +1200,7 @@
           "title": "PostDoc / Research Group Leader"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Olomouc",
@@ -1234,7 +1226,7 @@
           "title": "Assistant Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Haifa",
@@ -1260,7 +1252,7 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Trento",
@@ -1286,7 +1278,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Seoul",
@@ -1312,7 +1304,7 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Burnaby",
@@ -1338,7 +1330,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Calgary",
@@ -1364,7 +1356,7 @@
           "title": "Senior Staff"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Lexington",
@@ -1390,7 +1382,7 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Onna",
@@ -1416,7 +1408,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Beijing",
@@ -1442,7 +1434,7 @@
           "title": "Catedrático de Universidad (Full Professor of Physics)"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Granada",
@@ -1468,7 +1460,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Suwon",
@@ -1494,7 +1486,7 @@
           "title": "Principal Investigator"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Singapore",
@@ -1520,7 +1512,7 @@
           "title": "Physicist"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Boulder",
@@ -1546,7 +1538,7 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Tokyo",
@@ -1572,7 +1564,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Groningen",
@@ -1598,7 +1590,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Seoul",
@@ -1624,7 +1616,7 @@
           "title": "Group Leader"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Braunschweig",
@@ -1650,9 +1642,8 @@
           "title": "Professor of Physics"
         },
         "platforms": [
-          "Trapped ions",
-          "Optical clocks",
-          "Ultracold atoms"
+          "trapped_ion",
+          "neutral_atom"
         ],
         "affiliations": [
           "Quantum Art"
@@ -1680,7 +1671,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Los Angeles",
@@ -1706,7 +1697,7 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [
           "Open Quantum Design"
@@ -1734,7 +1725,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Stockholm",
@@ -1760,7 +1751,7 @@
           "title": "Principal Investigator"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Singapore",
@@ -1786,7 +1777,7 @@
           "title": "Professor / Group Leader (Trapped-Ion Quantum Science)"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Daejeon",
@@ -1812,7 +1803,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Pohang",
@@ -1838,7 +1829,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Atlanta",
@@ -1864,7 +1855,7 @@
           "title": "Associate Professor / Director, Queensland Quantum and Advanced Technologies Research Institute"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Gold Coast",
@@ -1890,7 +1881,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Amsterdam",
@@ -1916,7 +1907,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Seattle",
@@ -1942,7 +1933,7 @@
           "title": "Lester Wolfe Professor of Physics"
         },
         "platforms": [
-          "Neutral atoms"
+          "neutral_atom"
         ],
         "affiliations": [
           "QuEra Computing Inc."
@@ -1970,8 +1961,8 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions",
-          "Neutral atoms"
+          "trapped_ion",
+          "neutral_atom"
         ],
         "affiliations": [],
         "city": "Amsterdam",
@@ -1997,7 +1988,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Los Angeles",
@@ -2023,7 +2014,7 @@
           "title": "Associate Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Osaka",
@@ -2049,7 +2040,7 @@
           "title": "Senior Fellow"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Teddington",
@@ -2075,7 +2066,7 @@
           "title": "Professor"
         },
         "platforms": [
-          "Trapped ions"
+          "trapped_ion"
         ],
         "affiliations": [],
         "city": "Stellenbosch",
