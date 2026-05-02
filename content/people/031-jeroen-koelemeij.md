@@ -3,6 +3,8 @@ active: active
 affiliations: []
 applications:
 - computing
+- fundamental_physics
+- sensing_metrology
 created_at: '2026-01-30'
 current_position:
   institution: VU Amsterdam

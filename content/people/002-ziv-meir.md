@@ -2,6 +2,7 @@
 active: active
 affiliations: []
 applications:
+- computing
 - fundamental_physics
 created_at: '2026-01-26'
 current_position:

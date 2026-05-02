@@ -3,6 +3,7 @@ active: active
 affiliations: []
 applications:
 - computing
+- fundamental_physics
 - networking
 - software_control
 created_at: '2026-01-26'

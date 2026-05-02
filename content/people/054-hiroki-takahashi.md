@@ -3,6 +3,7 @@ active: active
 affiliations: []
 applications:
 - computing
+- networking
 created_at: '2026-01-30'
 current_position:
   institution: Okinawa Institute of Science and Technology (OIST)

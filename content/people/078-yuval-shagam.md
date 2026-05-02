@@ -2,6 +2,7 @@
 active: active
 affiliations: []
 applications:
+- fundamental_physics
 - simulation
 created_at: '2026-02-02'
 current_position:

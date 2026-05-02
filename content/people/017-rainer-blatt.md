@@ -6,6 +6,7 @@ affiliations:
   type: company
 applications:
 - computing
+- fundamental_physics
 - sensing_metrology
 - simulation
 - software_control

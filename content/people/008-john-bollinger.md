@@ -2,6 +2,7 @@
 active: active
 affiliations: []
 applications:
+- sensing_metrology
 - simulation
 created_at: '2026-01-26'
 current_position:

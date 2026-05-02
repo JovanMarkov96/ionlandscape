@@ -3,6 +3,7 @@ active: active
 affiliations: []
 applications:
 - computing
+- sensing_metrology
 created_at: '2026-01-26'
 current_position:
   institution: University of California, Berkeley

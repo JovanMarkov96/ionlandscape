@@ -5,6 +5,7 @@ affiliations:
   role: Chief Technology Officer (CTO)
   type: company
 applications:
+- computing
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:

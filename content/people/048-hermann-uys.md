@@ -2,6 +2,7 @@
 active: active
 affiliations: []
 applications:
+- fundamental_physics
 - simulation
 - software_control
 created_at: '2026-01-30'

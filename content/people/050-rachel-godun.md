@@ -3,6 +3,7 @@ active: active
 affiliations: []
 applications:
 - optical_clocks
+- sensing_metrology
 created_at: '2026-01-30'
 current_position:
   institution: National Physical Laboratory (NPL)

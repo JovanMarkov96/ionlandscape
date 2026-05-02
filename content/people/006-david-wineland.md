@@ -2,6 +2,7 @@
 active: active
 affiliations: []
 applications:
+- computing
 - optical_clocks
 - sensing_metrology
 created_at: '2026-01-26'

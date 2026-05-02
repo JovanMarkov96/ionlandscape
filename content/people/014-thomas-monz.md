@@ -6,6 +6,7 @@ affiliations:
   type: company
 applications:
 - computing
+- networking
 created_at: '2026-01-26'
 current_position:
   institution: University of Innsbruck

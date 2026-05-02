@@ -2,6 +2,7 @@
 active: active
 affiliations: []
 applications:
+- networking
 - simulation
 created_at: '2026-01-28'
 current_position:

@@ -3,6 +3,7 @@ active: active
 affiliations: []
 applications:
 - computing
+- fundamental_physics
 created_at: '2026-01-30'
 current_position:
   institution: University of Kassel
