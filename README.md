@@ -74,11 +74,11 @@ This will guide you through creating a profile with verified data only.
 3. Only add information you can verify from authoritative sources
 4. Push to `main` - the build will automatically regenerate the data files
 
-See [INGESTION_GUIDE.md](INGESTION_GUIDE.md) for detailed instructions on data curation and verification.
+See [docs/guides/ingestion.md](docs/guides/ingestion.md) for detailed instructions on data curation and verification.
 
 ## Technical Documentation
 
-For details on the frontend architecture and components, please see **[Frontend Architecture](docs/FRONTEND_ARCHITECTURE.md)**.
+For details on the frontend architecture and components, please see **[Frontend Architecture](docs/frontend-architecture.md)**.
 
 ## Data Curation & Verification
 
@@ -100,4 +100,4 @@ python scripts/verify_profile_data.py --all
 
 **Important:** All facts must be backed by authoritative sources. Never guess or hallucinate data.
 
-See [INGESTION_GUIDE.md](INGESTION_GUIDE.md) for complete documentation.
+See [docs/guides/ingestion.md](docs/guides/ingestion.md) for complete documentation.

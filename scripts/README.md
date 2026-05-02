@@ -209,10 +209,10 @@ python scripts/verify_profile_data.py <person-id>
 
 See the project root for detailed guides:
 
-- **[INGESTION_GUIDE.md](../INGESTION_GUIDE.md)** - Complete ingestion workflow
-- **[QUICKSTART.md](../QUICKSTART.md)** - Quick start examples
-- **[SCHEMA.md](../SCHEMA.md)** - Field reference documentation
-- **[EXAMPLE_WORKFLOW.md](../EXAMPLE_WORKFLOW.md)** - End-to-end example
+- **[docs/guides/ingestion.md](../docs/guides/ingestion.md)** - Complete ingestion workflow
+- **[docs/guides/quickstart.md](../docs/guides/quickstart.md)** - Quick start examples
+- **[docs/schema.md](../docs/schema.md)** - Field reference documentation
+- **[docs/guides/example-workflow.md](../docs/guides/example-workflow.md)** - End-to-end example
 
 ## Support
 

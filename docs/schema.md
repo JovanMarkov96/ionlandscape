@@ -455,5 +455,5 @@ Every non-obvious fact should be backed by a source:
 
 ## Questions?
 
-See [INGESTION_GUIDE.md](INGESTION_GUIDE.md) for workflow documentation.
-See [QUICKSTART.md](QUICKSTART.md) for practical examples.
+See [guides/ingestion.md](guides/ingestion.md) for workflow documentation.
+See [guides/quickstart.md](guides/quickstart.md) for practical examples.

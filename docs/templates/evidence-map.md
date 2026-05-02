@@ -1,4 +1,27 @@
-# Evidence Map: Quantum Art
+# Evidence Map — Template
+
+A field-by-field mapping from each non-trivial value in a profile's YAML
+frontmatter to the source it was drawn from, including a quote when possible.
+The point is reproducibility: a future maintainer (or LLM agent) should be able
+to re-verify any claim without redoing the original research.
+
+## How to use
+
+For every populated field that isn't self-evident (i.e. not just a name or an
+internal id), add a bullet of the form:
+
+```
+*   **`field.path`**: "value as recorded"
+    *   *Source*: <URL> (location within page, e.g. section/header)
+    *   *Quote*: "verbatim sentence from the source" (when the source is text)
+```
+
+Group cross-references (e.g. confirmation from another profile in this repo)
+as additional `*Source*` lines.
+
+---
+
+## Worked example — Quantum Art
 
 *   **`short_summary`**: "Developer of scalable, multi-core quantum computers using trapped-ion qubits."
     *   *Source*: https://quantum-art.tech (Header: "Scalable Quantum Computing Solutions")
