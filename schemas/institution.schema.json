@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/JovanMarkov96/ionlandscape/schemas/institution.schema.json",
+  "title": "Ion Landscape Institution Profile (v1)",
+  "description": "YAML frontmatter schema for content/institutions/*.md. Enums sourced from schemas/vocabularies.yaml.",
+  "vocab_source": "schemas/vocabularies.yaml",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "entity_type",
+    "name",
+    "location",
+    "institution_type"
+  ],
+  "additionalProperties": false,
+
+  "properties": {
+    "schema_version": { "const": 1 },
+
+    "id": {
+      "type": "string",
+      "description": "iNNN-slug. 'i' prefix + three-digit sequence + lowercase slug.",
+      "pattern": "^i\\d{3}-[a-z0-9-]+$"
+    },
+
+    "entity_type": { "const": "institution" },
+
+    "name":          { "type": "string", "minLength": 2 },
+    "sort_name":     { "type": "string" },
+    "aliases":       { "type": "array", "items": { "type": "string" } },
+    "abbreviations": { "type": "array", "items": { "type": "string" } },
+
+    "location": {
+      "type": "object",
+      "required": ["city", "country"],
+      "additionalProperties": false,
+      "properties": {
+        "city":    { "type": "string" },
+        "region":  { "type": ["string", "null"] },
+        "country": { "type": "string" },
+        "lat":     { "type": ["number", "null"], "minimum": -90,  "maximum": 90  },
+        "lon":     { "type": ["number", "null"], "minimum": -180, "maximum": 180 }
+      }
+    },
+
+    "institution_type": {
+      "type": "string",
+      "enum": [
+        "university", "national_lab", "dedicated_quantum_centre",
+        "research_centre", "consortium", "government_agency",
+        "industry_research_lab", "non_profit"
+      ]
+    },
+
+    "is_dedicated_quantum_centre": {
+      "type": "boolean",
+      "description": "True if the entity's stated purpose is quantum-information research. Independent of `institution_type` (a university with a dedicated quantum centre keeps institution_type=university and adds the centre as a separate entry)."
+    },
+
+    "short_description": { "type": "string" },
+
+    "platforms_represented": {
+      "type": "array",
+      "description": "Physical platforms with active groups at this institution.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "trapped_ion", "neutral_atom", "rydberg_array", "superconducting",
+          "nv_center", "color_center", "photonic", "trapped_molecule",
+          "topological", "silicon_spin", "quantum_dot", "cavity_qed_hybrid"
+        ]
+      }
+    },
+
+    "applications_represented": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "computing", "simulation", "networking", "sensing_metrology",
+          "optical_clocks", "fundamental_physics", "software_control"
+        ]
+      }
+    },
+
+    "focus_areas": {
+      "type": "array",
+      "description": "Free-form topical tags. Prefer applications_represented when the value is a known application.",
+      "items": { "type": "string" }
+    },
+
+    "group_count": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "description": "Number of distinct quantum-information groups at the institution."
+    },
+
+    "leadership": {
+      "type": "array",
+      "description": "Director / quantum-strategy lead / equivalent.",
+      "items": {
+        "type": "object",
+        "required": ["name", "role"],
+        "additionalProperties": false,
+        "properties": {
+          "name":      { "type": "string" },
+          "role":      { "type": "string" },
+          "person_id": { "type": ["string", "null"], "pattern": "^\\d{3}-[a-z0-9-]+$" },
+          "source":    { "type": ["string", "null"], "format": "uri" }
+        }
+      }
+    },
+
+    "national_programs": {
+      "type": "array",
+      "description": "Government / national-strategy programmes the institution participates in. See vocabularies.yaml for canonical ids.",
+      "items": { "type": "string" }
+    },
+
+    "networks": {
+      "type": "array",
+      "description": "Consortia / hubs / networks. See vocabularies.yaml.",
+      "items": { "type": "string" }
+    },
+
+    "mous": {
+      "type": "array",
+      "description": "Memoranda of understanding and similar formal partnerships.",
+      "items": {
+        "type": "object",
+        "required": ["partner", "summary"],
+        "additionalProperties": false,
+        "properties": {
+          "date":    { "type": ["string", "null"], "format": "date" },
+          "partner": { "type": "string" },
+          "summary": { "type": "string" },
+          "source":  { "type": ["string", "null"], "format": "uri" }
+        }
+      }
+    },
+
+    "directory": {
+      "type": ["object", "null"],
+      "description": "Auto-populated by core/build_index.py from people / company affiliations. Hand-edits will be overwritten.",
+      "additionalProperties": false,
+      "properties": {
+        "current_members":  { "type": "array", "items": { "type": "string" } },
+        "alumni":           { "type": "array", "items": { "type": "string" } },
+        "company_spinouts": { "type": "array", "items": { "type": "string" } },
+        "member_count":     { "type": ["integer", "null"], "minimum": 0 },
+        "alumni_count":     { "type": ["integer", "null"], "minimum": 0 }
+      }
+    },
+
+    "news": {
+      "type": "array",
+      "description": "Major strategic news (new building, large grant, new centre).",
+      "items": {
+        "type": "object",
+        "required": ["headline"],
+        "additionalProperties": false,
+        "properties": {
+          "date":     { "type": ["string", "null"], "format": "date" },
+          "headline": { "type": "string" },
+          "summary":  { "type": ["string", "null"] },
+          "source":   { "type": ["string", "null"], "format": "uri" }
+        }
+      }
+    },
+
+    "links": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "null"] },
+      "properties": {
+        "website":         { "type": ["string", "null"], "format": "uri" },
+        "department":      { "type": ["string", "null"], "format": "uri" },
+        "quantum_program": { "type": ["string", "null"], "format": "uri" },
+        "quantum_center":  { "type": ["string", "null"], "format": "uri" },
+        "wikipedia":       { "type": ["string", "null"], "format": "uri" },
+        "linkedin":        { "type": ["string", "null"] }
+      }
+    },
+
+    "media": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "logo_path":       { "type": ["string", "null"] },
+        "hero_image_path": { "type": ["string", "null"] }
+      }
+    },
+
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "additionalProperties": false,
+        "properties": {
+          "url":  { "type": "string", "format": "uri" },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+
+    "last_verified_at":          { "type": ["string", "null"], "format": "date" },
+    "verification_source_count": { "type": ["integer", "null"], "minimum": 0 },
+
+    "stub": {
+      "type": "boolean",
+      "description": "True if this entry exists only to satisfy a relationship graph reference."
+    },
+
+    "created_at": { "type": "string", "format": "date" },
+    "updated_at": { "type": "string", "format": "date" }
+  }
+}

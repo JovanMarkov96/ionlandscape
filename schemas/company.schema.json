@@ -1,0 +1,383 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/JovanMarkov96/ionlandscape/schemas/company.schema.json",
+  "title": "Ion Landscape Company Profile (v1)",
+  "description": "YAML frontmatter schema for content/companies/*.md. Enums sourced from schemas/vocabularies.yaml.",
+  "vocab_source": "schemas/vocabularies.yaml",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "entity_type",
+    "name",
+    "location",
+    "platforms",
+    "modality",
+    "status"
+  ],
+  "additionalProperties": false,
+
+  "properties": {
+    "schema_version": { "const": 1 },
+
+    "id": {
+      "type": "string",
+      "description": "cNNN-slug. 'c' prefix + three-digit sequence + lowercase slug.",
+      "pattern": "^c\\d{3}-[a-z0-9-]+$"
+    },
+
+    "entity_type": { "const": "company" },
+
+    "name":      { "type": "string", "minLength": 1 },
+    "sort_name": { "type": "string" },
+    "aliases":   { "type": "array", "items": { "type": "string" } },
+
+    "location": {
+      "type": "object",
+      "description": "Headquarters location. Additional offices go in `offices`.",
+      "required": ["city", "country"],
+      "additionalProperties": false,
+      "properties": {
+        "city":    { "type": "string" },
+        "region":  { "type": ["string", "null"] },
+        "country": { "type": "string" },
+        "lat":     { "type": ["number", "null"], "minimum": -90,  "maximum": 90  },
+        "lon":     { "type": ["number", "null"], "minimum": -180, "maximum": 180 }
+      }
+    },
+
+    "founded_year": {
+      "type": ["integer", "null"],
+      "minimum": 1900,
+      "maximum": 2099
+    },
+
+    "status": {
+      "type": "object",
+      "required": ["operating_status"],
+      "additionalProperties": false,
+      "properties": {
+        "operating_status": {
+          "type": "string",
+          "enum": ["private", "public", "acquired", "defunct", "non_profit", "stealth"]
+        },
+        "ticker": {
+          "type": ["string", "null"],
+          "description": "Stock ticker symbol when operating_status is public."
+        },
+        "ipo_date": { "type": ["string", "null"], "format": "date" },
+        "acquired": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "is_acquired":      { "type": "boolean" },
+            "acquired_by":      { "type": ["string", "null"] },
+            "acquired_by_id":   { "type": ["string", "null"], "pattern": "^c\\d{3}-[a-z0-9-]+$" },
+            "acquisition_date": { "type": ["string", "null"], "format": "date" },
+            "acquisition_type": { "type": ["string", "null"], "enum": ["cash", "stock", "mixed", "asset", "merger", null] },
+            "deal_value_usd":   { "type": ["number", "null"], "minimum": 0 },
+            "announcement_url": { "type": ["string", "null"], "format": "uri" },
+            "notes":            { "type": ["string", "null"] }
+          }
+        },
+        "defunct_date": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+
+    "platforms": {
+      "type": "array",
+      "description": "Physical platforms. For software-only companies, populate with the platforms the software *targets*.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "trapped_ion", "neutral_atom", "rydberg_array", "superconducting",
+          "nv_center", "color_center", "photonic", "trapped_molecule",
+          "topological", "silicon_spin", "quantum_dot", "cavity_qed_hybrid"
+        ]
+      }
+    },
+
+    "modality": {
+      "type": "string",
+      "enum": ["hardware", "software", "both", "services"]
+    },
+
+    "applications": {
+      "type": "array",
+      "description": "Intended applications of the product / technology.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "computing", "simulation", "networking", "sensing_metrology",
+          "optical_clocks", "fundamental_physics", "software_control"
+        ]
+      }
+    },
+
+    "short_summary": { "type": "string", "minLength": 10 },
+
+    "approach": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "elevator_pitch":     { "type": ["string", "null"] },
+        "differentiators":    { "type": "array", "items": { "type": "string" }, "maxItems": 5 },
+        "architecture_tags":  { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "focus_areas": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "products": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          { "type": "string" },
+          {
+            "type": "object",
+            "required": ["name"],
+            "additionalProperties": false,
+            "properties": {
+              "name":         { "type": "string" },
+              "description":  { "type": ["string", "null"] },
+              "stage":        { "type": ["string", "null"], "enum": ["concept", "prototype", "limited_release", "ga", "deprecated", null] },
+              "release_date": { "type": ["string", "null"], "format": "date" },
+              "source":       { "type": ["string", "null"], "format": "uri" }
+            }
+          }
+        ]
+      }
+    },
+
+    "people": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "founders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "additionalProperties": false,
+            "properties": {
+              "name":      { "type": "string" },
+              "role":      { "type": ["string", "null"] },
+              "person_id": { "type": ["string", "null"], "pattern": "^\\d{3}-[a-z0-9-]+$" },
+              "source":    { "type": ["string", "null"], "format": "uri" }
+            }
+          }
+        },
+        "leadership": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "role"],
+            "additionalProperties": false,
+            "properties": {
+              "name":      { "type": "string" },
+              "role":      { "type": "string" },
+              "person_id": { "type": ["string", "null"], "pattern": "^\\d{3}-[a-z0-9-]+$" },
+              "source":    { "type": ["string", "null"], "format": "uri" }
+            }
+          }
+        },
+        "spun_out_of": {
+          "type": "array",
+          "description": "Institution(s) the company spun out from. Strings (names) or objects with institution_id.",
+          "items": {
+            "oneOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "required": ["name"],
+                "additionalProperties": false,
+                "properties": {
+                  "name":            { "type": "string" },
+                  "institution_id":  { "type": ["string", "null"], "pattern": "^i\\d{3}-[a-z0-9-]+$" },
+                  "spinout_year":    { "type": ["integer", "null"], "minimum": 1950, "maximum": 2099 },
+                  "source":          { "type": ["string", "null"], "format": "uri" }
+                }
+              }
+            ]
+          }
+        },
+        "headcount": { "type": ["integer", "null"], "minimum": 0 },
+        "headcount_source": { "type": ["string", "null"], "format": "uri" },
+        "headcount_retrieved_at": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+
+    "funding": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "total_raised_usd": { "type": ["number", "null"], "minimum": 0 },
+        "last_round_date":  { "type": ["string", "null"], "format": "date" },
+        "rounds": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["stage"],
+            "additionalProperties": false,
+            "properties": {
+              "stage": {
+                "type": "string",
+                "enum": [
+                  "pre_seed", "seed", "series_a", "series_b", "series_c", "series_d", "series_e_plus",
+                  "bridge", "convertible_note", "grant", "government_contract", "ipo", "secondary",
+                  "acquisition", "undisclosed"
+                ]
+              },
+              "round":            { "type": ["string", "null"], "description": "Free-form label (e.g. 'Series A', 'Seed extension'). Prefer `stage` for the controlled value." },
+              "date":             { "type": ["string", "null"], "format": "date" },
+              "amount_usd":       { "type": ["number", "null"], "minimum": 0 },
+              "lead_investor":    { "type": ["string", "null"] },
+              "lead_investors":   { "type": "array", "items": { "type": "string" } },
+              "other_investors":  { "type": "array", "items": { "type": "string" } },
+              "source":           { "type": ["string", "null"], "format": "uri" },
+              "announcement_url": { "type": ["string", "null"], "format": "uri" }
+            }
+          }
+        }
+      }
+    },
+
+    "offices": {
+      "type": "array",
+      "description": "Sites beyond HQ. Each carries its function so users can see which office does what.",
+      "items": {
+        "type": "object",
+        "required": ["location", "function"],
+        "additionalProperties": false,
+        "properties": {
+          "location": {
+            "type": "object",
+            "required": ["city", "country"],
+            "additionalProperties": false,
+            "properties": {
+              "city":    { "type": "string" },
+              "country": { "type": "string" },
+              "region":  { "type": ["string", "null"] },
+              "lat":     { "type": ["number", "null"], "minimum": -90,  "maximum": 90  },
+              "lon":     { "type": ["number", "null"], "minimum": -180, "maximum": 180 }
+            }
+          },
+          "function": {
+            "type": "string",
+            "enum": ["hq", "r_and_d", "manufacturing", "sales_support", "data_center"]
+          },
+          "headcount": { "type": ["integer", "null"], "minimum": 0 },
+          "source":    { "type": ["string", "null"], "format": "uri" }
+        }
+      }
+    },
+
+    "milestones": {
+      "type": "array",
+      "description": "Public, dated, sourced events.",
+      "items": {
+        "type": "object",
+        "required": ["claim"],
+        "additionalProperties": false,
+        "properties": {
+          "date":   { "type": ["string", "null"], "format": "date" },
+          "claim":  { "type": "string" },
+          "source": { "type": ["string", "null"], "format": "uri" }
+        }
+      }
+    },
+
+    "roadmap": {
+      "type": "array",
+      "description": "Forward-looking commitments. Must be sourced (no speculation).",
+      "items": {
+        "type": "object",
+        "required": ["target_claim", "source"],
+        "additionalProperties": false,
+        "properties": {
+          "target_date":  { "type": ["string", "null"], "format": "date" },
+          "target_claim": { "type": "string" },
+          "source":       { "type": "string", "format": "uri" }
+        }
+      }
+    },
+
+    "partnerships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "additionalProperties": false,
+        "properties": {
+          "name":   { "type": "string" },
+          "type":   { "type": ["string", "null"], "enum": ["technology", "go_to_market", "research", "investor", "customer", "supply", null] },
+          "source": { "type": ["string", "null"], "format": "uri" }
+        }
+      }
+    },
+
+    "customers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "patents": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "count":         { "type": ["integer", "null"], "minimum": 0 },
+        "portfolio_url": { "type": ["string", "null"], "format": "uri" },
+        "retrieved_at":  { "type": ["string", "null"], "format": "date" }
+      }
+    },
+
+    "links": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "null"] },
+      "properties": {
+        "website":   { "type": ["string", "null"], "format": "uri" },
+        "careers":   { "type": ["string", "null"], "format": "uri" },
+        "news":      { "type": ["string", "null"], "format": "uri" },
+        "linkedin":  { "type": ["string", "null"] },
+        "wikipedia": { "type": ["string", "null"], "format": "uri" }
+      }
+    },
+
+    "media": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "logo_path":       { "type": ["string", "null"] },
+        "hero_image_path": { "type": ["string", "null"] }
+      }
+    },
+
+    "sources": {
+      "type": "array",
+      "description": "Top-level source list. Prefer per-field source attribution where structurally possible.",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "additionalProperties": false,
+        "properties": {
+          "url":  { "type": "string", "format": "uri" },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+
+    "last_verified_at":          { "type": ["string", "null"], "format": "date" },
+    "verification_source_count": { "type": ["integer", "null"], "minimum": 0 },
+
+    "stub": {
+      "type": "boolean",
+      "description": "True if this entry exists only to satisfy a relationship graph reference."
+    },
+
+    "created_at": { "type": "string", "format": "date" },
+    "updated_at": { "type": "string", "format": "date" }
+  }
+}

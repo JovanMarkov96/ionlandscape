@@ -1,0 +1,286 @@
+# Ion Landscape — Controlled Vocabularies
+#
+# Canonical source for every enum value referenced by the v2 person schema,
+# the v1 company schema, and the v1 institution schema. Schemas inline these
+# enums (JSON Schema doesn't read YAML); when adding values here, also add
+# them to the corresponding schemas/*.schema.json file. The schema files
+# carry a `vocab_source` annotation pointing back at this file.
+#
+# Versioning: when a vocabulary is changed in a backwards-incompatible way
+# (renaming, removing a value), bump the schema_version of the affected
+# schemas. Adding a value is non-breaking.
+
+# ── Platforms ────────────────────────────────────────────────────────────
+# The physical-system axis. An entity (person, company, institution) can
+# carry multiple platforms when it spans them (e.g. a hybrid trapped-ion +
+# neutral-atom group). For software-only companies, populate platforms with
+# the platforms their software *targets* (e.g. Q-CTRL → [trapped_ion,
+# superconducting, neutral_atom]).
+
+platforms:
+  - id: trapped_ion
+    label: "Trapped ions"
+    notes: "Linear / 2D / segmented Paul traps; Penning traps."
+  - id: neutral_atom
+    label: "Neutral atoms"
+    notes: "Single atoms / arrays; non-Rydberg-engaged use cases."
+  - id: rydberg_array
+    label: "Rydberg atom arrays"
+    notes: "Specifically Rydberg-mediated computing/simulation."
+  - id: superconducting
+    label: "Superconducting qubits"
+    notes: "Transmon, fluxonium, cQED, etc."
+  - id: nv_center
+    label: "NV centres"
+    notes: "Nitrogen-vacancy centres in diamond."
+  - id: color_center
+    label: "Other colour centres"
+    notes: "SiV, GeV in diamond; defects in SiC, hBN."
+  - id: photonic
+    label: "Photonic qubits"
+    notes: "Linear-optical, measurement-based, integrated photonics."
+  - id: trapped_molecule
+    label: "Trapped molecules"
+    notes: "Polyatomic / diatomic molecular qubits."
+  - id: topological
+    label: "Topological qubits"
+    notes: "Majorana / TQC efforts."
+  - id: silicon_spin
+    label: "Silicon spin qubits"
+    notes: "Donor / quantum-dot spin qubits in silicon."
+  - id: quantum_dot
+    label: "Quantum dots"
+    notes: "Non-silicon QD platforms (GaAs, etc.)."
+  - id: cavity_qed_hybrid
+    label: "Cavity QED / hybrid"
+    notes: "Atoms in cavities, hybrid mechanical-photonic systems."
+
+# ── Applications ────────────────────────────────────────────────────────
+# The "what is the platform being used for" axis. Independent of platform.
+
+applications:
+  - id: computing
+    label: "Quantum computing"
+    notes: "Gate-model, analog, fault-tolerant; the application that uses the platform to compute."
+  - id: simulation
+    label: "Quantum simulation"
+    notes: "Analog simulation of condensed matter, lattice gauge, chemistry."
+  - id: networking
+    label: "Quantum networking & communication"
+    notes: "Repeaters, QKD, quantum internet."
+  - id: sensing_metrology
+    label: "Quantum sensing & metrology"
+    notes: "Magnetometry, gravimetry, general high-precision measurement."
+  - id: optical_clocks
+    label: "Optical clocks"
+    notes: "Broken out from sensing_metrology because the community is large and distinct."
+  - id: fundamental_physics
+    label: "Fundamental physics tests"
+    notes: "BSM searches, EDMs, alpha-variation, QED tests via precision measurement."
+  - id: software_control
+    label: "Software / control / compilation"
+    notes: "Control electronics, compilers, EDA, error-correction software."
+
+# ── Modality (companies only) ───────────────────────────────────────────
+
+company_modality:
+  - id: hardware
+    label: "Hardware"
+  - id: software
+    label: "Software"
+  - id: both
+    label: "Hardware + software"
+  - id: services
+    label: "Services / consulting"
+
+# ── Activity status (people) ────────────────────────────────────────────
+
+person_activity:
+  - id: active
+    label: "Active"
+  - id: retired
+    label: "Retired (still listed)"
+  - id: deceased
+    label: "Deceased"
+  - id: unknown
+    label: "Unknown / unverified"
+
+# ── Operating status (companies) ────────────────────────────────────────
+
+company_status:
+  - id: private
+    label: "Privately held"
+  - id: public
+    label: "Publicly traded"
+  - id: acquired
+    label: "Acquired"
+  - id: defunct
+    label: "Defunct / wound down"
+  - id: non_profit
+    label: "Non-profit"
+  - id: stealth
+    label: "Stealth (not yet publicly disclosed)"
+
+# ── Funding stages (companies) ──────────────────────────────────────────
+
+funding_stages:
+  - id: pre_seed
+  - id: seed
+  - id: series_a
+  - id: series_b
+  - id: series_c
+  - id: series_d
+  - id: series_e_plus
+  - id: bridge
+  - id: convertible_note
+  - id: grant
+    notes: "Government / agency grants (DOE, DARPA, EU, etc.)"
+  - id: government_contract
+    notes: "Direct government procurement contracts."
+  - id: ipo
+  - id: secondary
+  - id: acquisition
+  - id: undisclosed
+
+# ── Office function (companies) ─────────────────────────────────────────
+
+office_function:
+  - id: hq
+    label: "Headquarters"
+  - id: r_and_d
+    label: "Research & development"
+  - id: manufacturing
+    label: "Manufacturing / fab"
+  - id: sales_support
+    label: "Sales / customer support"
+  - id: data_center
+    label: "Data centre / cloud-access site"
+
+# ── Institution type ────────────────────────────────────────────────────
+
+institution_type:
+  - id: university
+    label: "University"
+  - id: national_lab
+    label: "National laboratory"
+  - id: dedicated_quantum_centre
+    label: "Dedicated quantum centre"
+    notes: "An organisation whose stated purpose is quantum-information research."
+  - id: research_centre
+    label: "General research centre"
+    notes: "A research centre with quantum activity but broader scope."
+  - id: consortium
+    label: "Consortium / network / hub"
+  - id: government_agency
+    label: "Government agency"
+  - id: industry_research_lab
+    label: "Industry research lab"
+    notes: "e.g. IBM Research, Google AI Quantum site (when treated as an institution rather than as the parent company)."
+  - id: non_profit
+    label: "Non-profit organisation"
+
+# ── Edge types (relationship graph) ─────────────────────────────────────
+
+edge_types:
+  - id: advised
+    notes: "PhD advisor → student."
+  - id: postdoc_with
+    notes: "Postdoc supervisor → postdoc."
+  - id: cofounded
+    notes: "Person → company they co-founded."
+  - id: affiliated_with
+    notes: "Person → institution / company they are presently affiliated with."
+  - id: alumnus_of
+    notes: "Person → institution where they trained (PhD/postdoc) but no longer work."
+  - id: spun_out_of
+    notes: "Company → institution it spun out from."
+  - id: acquired_by
+    notes: "Company → company that acquired it."
+  - id: current_member_of
+    notes: "Person → institution where they currently work (cleaner version of affiliated_with for the primary affiliation)."
+
+# ── National programs (extensible) ──────────────────────────────────────
+# This list is expected to grow. Schemas treat it as an open string list
+# (no enum constraint) but we recommend using an id from this table when
+# possible.
+
+national_programs:
+  - id: us_NQI
+    label: "US National Quantum Initiative (2018)"
+  - id: us_NSF_QIS
+    label: "NSF Quantum Information Science"
+  - id: us_NSF_QLCI
+    label: "NSF Quantum Leap Challenge Institutes (Q-NEXT, Q-SEnSE, HQAN, QSA, SQMS, C2QA)"
+  - id: us_DOE_NQISRC
+    label: "DOE National QIS Research Centers"
+  - id: uk_NQTP
+    label: "UK National Quantum Technologies Programme"
+  - id: uk_EPSRC_quantum_hubs
+    label: "EPSRC Quantum Technology Hubs"
+  - id: eu_quantum_flagship
+    label: "EU Quantum Flagship"
+  - id: eu_chips_act
+    label: "EU Chips Act (quantum portion)"
+  - id: de_BMBF_quantum
+    label: "Germany BMBF Quantum Computing Initiative"
+  - id: de_munich_quantum_valley
+    label: "Munich Quantum Valley"
+  - id: at_FWF_quantum
+    label: "Austrian FWF / WWTF quantum funding"
+  - id: jp_Q_LEAP
+    label: "Japan Q-LEAP (Quantum Leap Flagship Programme)"
+  - id: jp_MOONSHOT
+    label: "Japan Moonshot R&D (Quantum Computer)"
+  - id: kr_quantum_strategy
+    label: "Korea National Quantum Strategy"
+  - id: cn_NSFC_quantum
+    label: "China NSFC quantum programme"
+  - id: ca_NQS
+    label: "Canada National Quantum Strategy"
+  - id: au_quantum_strategy
+    label: "Australia National Quantum Strategy"
+  - id: il_QSP
+    label: "Israel National Quantum Programme"
+  - id: nl_QSC
+    label: "Netherlands Quantum Software Consortium / Quantum Delta NL"
+  - id: sg_NRF_quantum
+    label: "Singapore NRF quantum programmes"
+  - id: in_QM
+    label: "India National Mission on Quantum Technologies"
+
+# ── Networks / consortia (extensible) ───────────────────────────────────
+
+networks:
+  - id: ibm_quantum_network
+  - id: aws_braket_partner
+  - id: q_next
+    label: "Q-NEXT (Argonne-led DOE NQISRC)"
+  - id: qsa
+    label: "Quantum Systems Accelerator (LBNL-led DOE NQISRC)"
+  - id: c2qa
+    label: "Co-design Center for Quantum Advantage (BNL-led)"
+  - id: sqms
+    label: "Superconducting Quantum Materials and Systems Center (Fermilab-led)"
+  - id: hqan
+    label: "Hybrid Quantum Architectures and Networks (NSF QLCI)"
+  - id: q_sense
+    label: "Q-SEnSE (NSF QLCI, sensing)"
+  - id: euroqci
+    label: "EuroQCI (EU quantum communications infrastructure)"
+  - id: open_qkd
+    label: "OpenQKD"
+  - id: chicago_quantum_exchange
+  - id: jqi
+    label: "Joint Quantum Institute (Maryland-NIST)"
+  - id: iqim
+    label: "Institute for Quantum Information and Matter (Caltech)"
+
+# ── Affiliation type (people) ───────────────────────────────────────────
+
+affiliation_type:
+  - id: company
+  - id: institution
+  - id: consultancy
+  - id: advisory_board
+  - id: editorial
+  - id: other

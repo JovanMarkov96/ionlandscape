@@ -35,7 +35,6 @@ This directory contains automation tools for profile ingestion, verification, an
 | `create_profile_template.py` | Interactive profile wizard | `python scripts/utils/create_profile_template.py` |
 | `cite_sources.py` | Document sources | `python scripts/utils/cite_sources.py <id> --add` |
 | `normalize_markdown.py` | Normalize frontmatter | `python scripts/utils/normalize_markdown.py` |
-| `update_coords.py` | Geocode / refresh lat-lon | `python scripts/utils/update_coords.py` |
 
 ### Archived (`scripts/_archive/`)
 
@@ -50,6 +49,7 @@ pipeline. Do not run unless you know why.
 | `generate_institutions.py` | One-shot bootstrap — created the initial institution skeletons |
 | `fix_data_issues.py` | One-shot — applied a specific batch of country/location standardizations |
 | `list_*_tmp.py` (3 files) | Throwaway diagnostics — listing institutions, countries, affiliations |
+| `update_coords.py` | One-shot geocoder for the initial Israeli company batch (already executed) |
 
 ## Installation
 

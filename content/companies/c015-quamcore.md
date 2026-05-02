@@ -1,5 +1,5 @@
 ---
-id: c006-quamcore
+id: c015-quamcore
 name: QuamCore
 sort_name: QuamCore
 entity_type: "company"

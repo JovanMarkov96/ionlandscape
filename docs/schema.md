@@ -1,459 +1,464 @@
-# Profile Schema Documentation
+# Profile Schemas
 
-This document defines the allowed YAML frontmatter fields for Ion Landscape profiles.
+This document is the human-readable reference for the three Ion Landscape
+profile schemas: **person**, **company**, and **institution**. Machine-
+readable JSON Schemas live in `schemas/` and are the source of truth for
+validation; this document is the source of truth for *intent*. When the two
+disagree, fix this document and the schemas in the same commit.
 
-## Field Categories
+| Entity type   | JSON Schema                              | Version |
+|---------------|------------------------------------------|---------|
+| Person        | `schemas/person.schema.json`             | v2      |
+| Company       | `schemas/company.schema.json`            | v1      |
+| Institution   | `schemas/institution.schema.json`        | v1      |
+| Vocabularies  | `schemas/vocabularies.yaml`              | -       |
 
-Fields are categorized by:
-- **Required**: Must be present in every profile
-- **Recommended**: Should be included when available
-- **Optional**: Include only if verified from authoritative sources
-- **Auto-generated**: Set automatically by tools
+> **Note on v1/v2 transition.** The original `schemas/profile.schema.json`
+> validated only people and is referenced by current CI. It remains in place
+> until the Stage 2 migration script rewrites all entries to the new schemas
+> and updates the validator to use them. During the transition, expect
+> existing entries to *not* yet validate against the v2/v1 schemas described
+> below — that is the migration's job.
 
-## Complete Schema
+---
 
-### Entity Type (Required)
+## Shared conventions
+
+These apply to all three entity types.
+
+### Identifiers
 
 ```yaml
+id: string  # see per-entity pattern below
+schema_version: integer  # required, locks the schema this entry is written for
 entity_type: "person" | "company" | "institution"
 ```
 
-### Identity (Required)
+| Entity type   | `id` pattern              | Example                     |
+|---------------|---------------------------|-----------------------------|
+| Person        | `^\d{3}-[a-z0-9-]+$`      | `001-roee-ozeri`            |
+| Company       | `^c\d{3}-[a-z0-9-]+$`     | `c001-quantum-art`          |
+| Institution   | `^i\d{3}-[a-z0-9-]+$`     | `i058-quantum-hub`          |
 
-```yaml
-id: string  # Format: "NNN-slug" (e.g., "016-jonathan-home")
-name: string  # Full name as commonly used (e.g., "Jonathan P. Home")
-sort_name: string  # For alphabetical sorting (e.g., "Home, Jonathan P.")
-```
+The numeric portion is a zero-padded sequence and is permanent for the life
+of the entry. When you add a new entry, take `max + 1` from the existing set.
 
-### Current Position (Required)
+### Location
 
-```yaml
-current_position:
-  institution: string  # Current primary affiliation
-  title: string  # Academic title (e.g., "Professor", "Assistant Professor")
-```
-
-### Location (Required)
+Required for every entity:
 
 ```yaml
 location:
-  city: string  # City name
-  country: string  # Country name
-  region: string | null  # State/province/canton (optional)
-  lat: float | null  # Latitude (decimal degrees)
-  lon: float | null  # Longitude (decimal degrees)
+  city: string
+  region: string | null
+  country: string
+  lat: number | null   # WGS-84
+  lon: number | null
 ```
 
-**Coordinates:** Should be verified from reliable geocoding. Can be `null` if not yet determined.
-
-### Classification (Required)
+### Provenance fields (all entities)
 
 ```yaml
-group_type: "experimental" | "theory"
-labels: array<string>  # Should match group_type: ["Experimental group"] or ["Theory group"]
+last_verified_at: date           # ISO date of last manual/automated re-check
+verification_source_count: int   # how many distinct authoritative sources back this entry
+sources:                         # top-level fallback when per-field provenance isn't structurally possible
+  - url: string
+    note: string | null
 ```
 
-**Rules:**
-- Experimental: Has lab infrastructure, hardware, measurements
-- Theory: Analytical/numerical work, no lab infrastructure
+Per-field source URLs are preferred where the schema permits (most arrays
+of objects: education, postdocs, milestones, funding rounds, mous, etc.).
+Use the top-level `sources` block for entries where field-level attribution
+is impractical.
 
-### Platforms (Recommended)
+### Stub entries
+
+Any entity may carry `stub: true` if it exists only to satisfy a graph
+reference (e.g. an advisor mentioned by another profile but not yet
+researched). Stubs have minimal fields populated and exist to keep the
+relationship graph complete. They are visible in queries but flagged.
+
+### Auto fields
 
 ```yaml
-platforms: array<string>
+created_at: date
+updated_at: date
 ```
 
-**Common values:**
-- "Trapped ions"
-- "Neutral atoms"
-- "Superconducting qubits"
-- "Photonics"
-- "NV centers"
+The `directory` block on companies and institutions is also auto-populated
+by `scripts/core/build_index.py` and should not be hand-edited (changes
+will be overwritten on next build).
 
-**Rules:**
-- Use standard names consistently
-- Based on actual research work
-- Can have multiple platforms
+---
 
-### Education (Recommended)
+## Controlled vocabularies
 
-```yaml
-education: array<object>
-```
+The full vocabulary lives in `schemas/vocabularies.yaml`; the JSON schemas
+inline the enum values. Summary of the five canonical axes used across
+schemas:
 
-**Structure for each degree:**
+### Platforms (12)
 
-```yaml
-- degree: string  # Format: "PhD (Physics)", "MSc (Physics)", "BSc (Physics)"
-  institution: string | null
-  year: int | null  # Four-digit year
-  advisor: string | null  # Full name of PhD/MSc advisor
-  confidence: "confirmed" | "academictree_only" | "not_found" | "ambiguous" | null
-  note: string | null  # Explanation of verification status
-```
+`trapped_ion`, `neutral_atom`, `rydberg_array`, `superconducting`,
+`nv_center`, `color_center`, `photonic`, `trapped_molecule`, `topological`,
+`silicon_spin`, `quantum_dot`, `cavity_qed_hybrid`.
 
-**Confidence levels:**
-- `confirmed`: Verified from official university records, thesis, or faculty page
-- `academictree_only`: Found only on AcademicTree (not independently verified)
-- `not_found`: Attempted verification but information not publicly available
-- `ambiguous`: Multiple conflicting sources
+### Applications (7)
 
-**PhD-specific rules:**
-- Only add advisor if verified from authoritative source
-- Acceptable sources: thesis PDF, university records, official CV, faculty bio
-- AcademicTree alone is NOT sufficient for "confirmed" status
-- If uncertain, use appropriate confidence level and add note
+`computing`, `simulation`, `networking`, `sensing_metrology`,
+`optical_clocks`, `fundamental_physics`, `software_control`.
 
-### Postdocs (Optional)
+### Company modality (4)
 
-```yaml
-postdocs: array<object>
-```
+`hardware`, `software`, `both`, `services`.
 
-**Structure:**
+### Person activity (4)
 
-```yaml
-- advisor: string  # Full name of postdoc advisor/host
-  institution: string
-  year: int | null  # Start year or approximate year
-```
+`active`, `retired`, `deceased`, `unknown`.
 
-**Rules:**
-- Only add if verified from CV, bio, or official records
-- If timeline unclear, year can be `null`
+### Institution type (8)
 
-### Thesis (Optional, high bar)
+`university`, `national_lab`, `dedicated_quantum_centre`, `research_centre`,
+`consortium`, `government_agency`, `industry_research_lab`, `non_profit`.
+
+For company funding stages, office functions, edge types, national programs,
+and networks: see `schemas/vocabularies.yaml` directly. National programs and
+networks are kept as open lists (string, not enum) so they can grow without
+schema bumps; we strongly recommend reusing the canonical ids in the YAML.
+
+---
+
+## Person schema (v2)
+
+`schemas/person.schema.json` validates `content/people/*.md`.
+
+### Required fields
 
 ```yaml
-thesis:
-  title: string | null
-  year: int | null
-  link: string | null  # Direct link to PDF or repository entry
-  note: string | null  # Explanation if title/link not found
-```
-
-**Acceptable sources:**
-- Institutional repositories (ORA, DSpace, etc.)
-- ProQuest
-- WorldCat
-- Direct links from faculty pages
-
-**If not found:**
-```yaml
-thesis:
-  title: null
-  year: null
-  link: null
-  note: "Thesis not found in public repositories; may be available via library request"
-```
-
-### Research Focus (Optional)
-
-```yaml
-research_focus: array<string>  # Maximum 2 items
-```
-
-**Allowed values:**
-- `quantum_computing`
-- `quantum_simulation`
-- `optical_clocks`
-- `metrology`
-- `quantum_networking`
-- `quantum_logic_spectroscopy`
-- `other`
-
-**Rules:**
-- Assign ONLY if clearly stated on group website or in multiple papers
-- Choose dominant focus areas (max 2)
-- If uncertain or truly mixed, use `other`
-- Do not guess based on single paper
-
-### Ion Species (Optional, very high bar)
-
-```yaml
-ion_species: array<string>
-```
-
-**Format examples:**
-- `Ca+`
-- `Yb+`
-- `Sr+`
-- `Ba+`
-- `Be+`
-
-**Rules:**
-- Only add if EXPLICITLY stated on:
-  - Group website
-  - Thesis abstract/introduction
-  - Multiple experimental papers
-- Must be current or recent work
-- Do NOT infer from old papers
-- If uncertain, leave empty
-
-### Keywords (Optional)
-
-```yaml
-keywords: array<string>
-```
-
-**Examples:**
-- "trapped-ion quantum computing"
-- "quantum metrology"
-- "optical clocks"
-- "quantum error correction"
-- "quantum simulation"
-
-**Rules:**
-- Use lowercase
-- Hyphenate compound terms consistently
-- Based on actual research themes
-- Avoid generic terms
-
-### Links (Recommended)
-
-```yaml
-links:
-  homepage: string | null  # Personal or group website
-  group_page: string | null  # University group page
-  google_scholar: string | null  # Full Google Scholar profile URL
-  orcid: string | null  # Full ORCID URL (https://orcid.org/0000-...)
-  institution_profile: string | null  # University faculty profile
-  # Other domain-specific links as needed
-```
-
-**Rules:**
-- URLs must be complete (include https://)
-- Verify links are active before adding
-- Use official/authoritative pages only
-- ORCID format: `https://orcid.org/0000-XXXX-XXXX-XXXX`
-
-### Affiliations (Optional)
-
-```yaml
-affiliations: array<object>
-```
-
-**Structure:**
-
-```yaml
-- name: string  # Company or organization name
-  role: string  # E.g., "Founder", "CTO", "Scientific Advisor"
-  type: "company" | "nonprofit" | "government" | "other"
-```
-
-**Rules:**
-- Only add if publicly disclosed
-- Verify from company website or LinkedIn
-- Include startups, consultancies, advisory roles
-
-### Activity Status (Optional)
-
-```yaml
-active: boolean
-```
-
-**Definition:**
-- `true`: Recent publications (last ~5 years) OR active group page OR recent news
-- `false`: No recent activity, retired, or passed away
-
-**Rules:**
-- Check Google Scholar for recent papers
-- Check group website for recent updates
-- If uncertain, omit field (defaults to assumed active)
-
-### Timestamps (Auto-generated)
-
-```yaml
-created_at: string  # Format: "YYYY-MM-DD"
-updated_at: string  # Format: "YYYY-MM-DD"
-```
-
-**Rules:**
-- Set automatically by creation/update tools
-- Updated whenever frontmatter changes
-- ISO 8601 date format
-
-## Institution Schema (Specific)
-
-For `entity_type: "institution"`, the following fields uniquely apply:
-
-### Identity & Location
-```yaml
-id: string  # Format: "iNNN-slug" (e.g., "i001-weizmann-institute-of-science")
+schema_version: 2
+id: string              # NNN-slug
+entity_type: person
 name: string
+location: { city, country, ... }
+group_type: "experimental" | "theory" | "mixed"
+platforms: [enum]       # may be empty for theorists
+active: "active" | "retired" | "deceased" | "unknown"
+```
+
+### Conditional requirements
+
+- If `group_type` is `experimental` or `mixed`, then `applications` must be
+  a non-empty array.
+- If `platforms` includes `trapped_ion`, then `ion_species` must be a
+  non-empty array.
+
+### Recommended fields
+
+```yaml
+sort_name: "Last, First"
+current_position:
+  institution: string
+  title: string
+  since_year: integer | null
+applications: [enum]      # research-application axis (independent of platforms)
+atomic_species: [string]  # when neutral_atom or rydberg_array
+education:
+  - degree: string
+    institution: string
+    year: integer
+    advisor: string
+    advisor_id: string | null     # NEW — link to person id when known
+    confidence: enum
+    source: uri
+postdocs:
+  - institution: string
+    advisor: string
+    advisor_id: string | null     # NEW
+    years: string
+    source: uri
+thesis: { title, year, link, note }
+links: { homepage, group_page, google_scholar, orcid, institution_profile, ... }
+keywords: [string]                 # free-form; prefer applications + platforms
+affiliations:
+  - name: string
+    role: string
+    type: "company" | "institution" | "consultancy" | "advisory_board" | "editorial" | "other"
+    entity_id: string | null       # NEW — c-prefixed company or i-prefixed institution
+    source: uri
+```
+
+### Optional / enrichment fields
+
+```yaml
+key_papers:                # max 10 representative papers
+  - title: string
+    year: integer
+    doi: string
+    role: "first_author" | "senior_author" | "corresponding" | "co_author"
+metrics:                   # populated by API enrichment in later stages
+  h_index: integer
+  citation_count: integer
+  publication_count: integer
+  source: "google_scholar" | "scopus" | "orcid_works" | "semantic_scholar"
+  retrieved_at: date
+lineage_check:
+  advisor_verified: bool
+  postdoc_verified: bool
+  last_checked: date
+```
+
+### Notable changes from v1
+
+- **`research_focus` removed** — replaced by `applications` (controlled
+  vocabulary, allows >2 entries, shared across entity types).
+- **`active`** changed from optional boolean to required enum.
+- **`platforms`** is now a controlled vocabulary, not free-form strings.
+- **`schema_version`, `entity_type`** added as required.
+- **`atomic_species`** added (mirrors `ion_species` for neutral atoms).
+- **`key_papers`, `metrics`, `lineage_check`** added as enrichment slots.
+- **`advisor_id`, `entity_id`** added so cross-references are unambiguous
+  in the relationship graph.
+- **`last_verified_at`, `verification_source_count`** added (provenance).
+
+---
+
+## Company schema (v1)
+
+`schemas/company.schema.json` validates `content/companies/*.md`.
+
+### Required fields
+
+```yaml
+schema_version: 1
+id: string                  # cNNN-slug
+entity_type: company
+name: string
+location: { city, country, ... }   # HQ location
+platforms: [enum]                  # for software-only, list the platforms it targets
+modality: "hardware" | "software" | "both" | "services"
+status:
+  operating_status: "private" | "public" | "acquired" | "defunct" | "non_profit" | "stealth"
+```
+
+### Recommended fields
+
+```yaml
 sort_name: string
-aliases: array<string>  # Alternate spellings used in people.current_position.institution
-abbreviations: array<string>
-institution_type: "research_institute" | "university" | "national_lab" | "company_lab" | "other" | "unknown"
+aliases: [string]
+founded_year: integer
+short_summary: string                  # >= 10 chars
+applications: [enum]                   # what the technology is for
+approach:
+  elevator_pitch: string
+  differentiators: [string]            # max 5
+  architecture_tags: [string]
+focus_areas: [string]
+products:
+  - name: string
+    description: string
+    stage: "concept" | "prototype" | "limited_release" | "ga" | "deprecated"
+    release_date: date
+    source: uri
+  # OR a string for shorthand: products: ["Product Name"]
+people:
+  founders:
+    - name: string
+      role: string
+      person_id: string | null   # NNN-slug, when in this repo
+      source: uri
+  leadership:
+    - name: string
+      role: string
+      person_id: string | null
+      source: uri
+  spun_out_of:
+    - name: string
+      institution_id: string | null   # iNNN-slug
+      spinout_year: integer
+      source: uri
+  headcount: integer | null
+  headcount_source: uri
+  headcount_retrieved_at: date
+funding:
+  total_raised_usd: number
+  last_round_date: date
+  rounds:
+    - stage: enum   # see funding_stages in vocabularies.yaml
+      round: string                 # free-form label, secondary to `stage`
+      date: date
+      amount_usd: number
+      lead_investor: string
+      lead_investors: [string]      # plural variant when multi-lead
+      other_investors: [string]
+      source: uri
+      announcement_url: uri
+offices:
+  - location: { city, country, ... }
+    function: "hq" | "r_and_d" | "manufacturing" | "sales_support" | "data_center"
+    headcount: integer | null
+    source: uri
+milestones:
+  - date: date
+    claim: string
+    source: uri
+roadmap:
+  - target_date: date
+    target_claim: string
+    source: uri               # required for roadmap entries (no speculation)
 ```
 
-### Content
+### Optional / enrichment fields
+
 ```yaml
-short_description: string  # 1–2 factual sentences
-focus_areas: array<string>  # Optional, only if source-supported
+partnerships:
+  - name: string
+    type: "technology" | "go_to_market" | "research" | "investor" | "customer" | "supply"
+    source: uri
+customers: [string]
+patents:
+  count: integer
+  portfolio_url: uri
+  retrieved_at: date
+links: { website, careers, news, linkedin, wikipedia, ... }
+media: { logo_path, hero_image_path }
 ```
 
-### Links & Media
+### Status sub-fields
+
+When `operating_status` is:
+- `public`: populate `status.ticker` and `status.ipo_date`.
+- `acquired`: populate `status.acquired` block (acquirer, date, type, deal value, announcement URL).
+- `defunct`: populate `status.defunct_date`.
+
+---
+
+## Institution schema (v1)
+
+`schemas/institution.schema.json` validates `content/institutions/*.md`.
+
+### Required fields
+
 ```yaml
-links:
-  website: string | null
-  department: string | null
-  quantum_center: string | null
-  wikipedia: string | null
-  linkedin: string | null
-
-media:
-  logo_path: string | null # Must be verified explicitly (or empty string/null)
-  hero_image_path: string | null
+schema_version: 1
+id: string                  # iNNN-slug
+entity_type: institution
+name: string
+location: { city, country, ... }
+institution_type: "university" | "national_lab" | "dedicated_quantum_centre"
+                | "research_centre" | "consortium" | "government_agency"
+                | "industry_research_lab" | "non_profit"
 ```
 
-### Directory (Auto-generated)
+### Recommended fields
+
+```yaml
+sort_name: string
+aliases: [string]
+abbreviations: [string]
+short_description: string
+is_dedicated_quantum_centre: bool   # true even for university sub-centres
+platforms_represented: [enum]
+applications_represented: [enum]
+focus_areas: [string]               # free-form; prefer applications_represented when known
+group_count: integer | null
+leadership:
+  - name: string
+    role: string                    # e.g. "Director, Quantum Initiative"
+    person_id: string | null
+    source: uri
+national_programs: [string]         # see vocabularies.yaml; open list
+networks: [string]                  # see vocabularies.yaml; open list
+mous:
+  - date: date
+    partner: string
+    summary: string
+    source: uri
+news:
+  - date: date
+    headline: string
+    summary: string
+    source: uri
+links: { website, department, quantum_program, quantum_center, wikipedia, linkedin }
+```
+
+### Auto-populated
+
 ```yaml
 directory:
-  current_members: array<string> # List of person IDs (md_filenames) currently there
-  alumni: array<string>          # List of person IDs historically tied
-  member_count: int
-  alumni_count: int
+  current_members: [filename]
+  alumni: [filename]
+  company_spinouts: [filename]
+  member_count: integer
+  alumni_count: integer
 ```
 
-**Rules for Directory Auto-generation:**
-1. **Current Members**: People where `person.current_position.institution` matches the institution `name` OR any of its `aliases` (case-insensitive).
-2. **Alumni**: People who are NOT current members, but the institution appears in their `education[].institution` or `postdocs[].institution`.
+The `directory` block is rebuilt by `scripts/core/build_index.py` from
+person and company affiliations. Hand edits will be overwritten.
 
-## Read-Only Fields
-
-These fields exist but should NOT be modified by ingestion tools:
-
-- **Content body**: Prose biography below frontmatter
-- **Custom fields**: Any domain-specific fields not listed above
-
-## Null vs. Empty Array vs. Omitted
-
-**Use `null` for:**
-- Single-value fields where information is not available
-- Example: `advisor: null`
-
-**Use empty array `[]` for:**
-- Array fields when explicitly known to be empty
-- Example: `postdocs: []` (no postdoc positions)
-
-**Omit field entirely when:**
-- Optional field has no data
-- Haven't attempted verification yet
-
-## Validation Rules
-
-Profiles should validate against these rules:
-
-1. **Required fields present**: id, name, current_position, location, group_type
-2. **Type correctness**: Strings are strings, ints are ints, etc.
-3. **Enum values**: group_type, confidence, research_focus use allowed values
-4. **Coordinate ranges**: lat ∈ [-90, 90], lon ∈ [-180, 180]
-5. **Year reasonability**: 1950 ≤ year ≤ current_year + 1
-6. **URL format**: Links start with http:// or https://
-7. **Label consistency**: labels match group_type
-8. **Research focus limit**: Maximum 2 items
-
-## Example Valid Profile
-
-```yaml
----
-id: 016-jonathan-home
-name: Jonathan P. Home
-sort_name: Home, Jonathan P.
-current_position:
-  institution: ETH Zürich
-  title: Full Professor
-location:
-  city: Zürich
-  country: Switzerland
-  region: Zürich
-  lat: 47.4083
-  lon: 8.5072
-group_type: experimental
-labels:
-  - Experimental group
-platforms:
-  - Trapped ions
-education:
-  - degree: PhD (Physics)
-    institution: University of Oxford
-    year: 2006
-    advisor: Andrew Steane
-    confidence: confirmed
-    note: null
-postdocs: []
-affiliations: []
-research_focus:
-  - quantum_computing
-  - quantum_error_correction
-keywords:
-  - trapped-ion quantum computing
-  - quantum error correction
-  - integrated ion traps
-ion_species:
-  - Ca+
-links:
-  homepage: https://iqe.phys.ethz.ch/...
-  group_page: https://www.phys.ethz.ch/.../jhome.html
-  google_scholar: https://scholar.google.com/citations?user=...
-  orcid: https://orcid.org/0000-0002-4093-1550
-thesis:
-  title: "High Fidelity Operations for Quantum Information Processing"
-  year: 2006
-  link: https://ora.ox.ac.uk/objects/uuid:...
-  note: null
-active: true
-created_at: '2026-01-26'
-updated_at: '2026-01-28'
 ---
 
-Jonathan P. Home is a professor at ETH Zürich...
-```
+## Authoritative sources, by entity type
 
-## Field Addition Policy
+This is the trust hierarchy used during ingestion (`docs/guides/ingestion.md`
+covers the workflow).
 
-**Can you add new fields?**
+### People
 
-- ✅ Yes, if documented and justified
-- ✅ Must be added to this schema documentation
-- ✅ Should be optional unless truly universal
-- ❌ Do not create duplicate or overlapping fields
-- ❌ Do not add fields for single-profile use cases
+1. Official group / lab websites
+2. Official university faculty pages
+3. CV PDFs hosted on institutional domains
+4. ORCID profiles (for self-asserted bibliography)
+5. Published papers (for advisor confirmation)
+6. AcademicTree Physics (lead, not final authority)
 
-**Process for adding new fields:**
+### Companies
 
-1. Discuss in issue or PR
-2. Update this schema documentation
-3. Update validation scripts
-4. Add to multiple profiles consistently
-5. Update build script if needed
+1. Official corporate website (About / Team / Investor pages)
+2. SEC filings (for public companies)
+3. Official press releases
+4. Government press releases (for grants and contracts)
+5. Reputable trade press (Quantum Computing Report, IQT News, Nature News)
+6. Tracxn / Crunchbase / Pitchbook (secondary; verify against primary)
+7. LinkedIn (for current leadership; verify employment dates against primary)
 
-## Sources and Verification
+### Institutions
 
-Every non-obvious fact should be backed by a source:
+1. Official institution website (quantum centre / department / strategy pages)
+2. Government program pages (BMBF, NSF, EPSRC, EU Quantum Flagship, …)
+3. Annual reports and strategic plans
+4. Press releases for MoUs, building openings, major grants
+5. Wikipedia (orientation only — never as a sole source)
 
-**Document sources by:**
-1. Adding `note` field with source citation
-2. Including source URLs in commit message
-3. Creating source tracking file in `scripts/logs/`
+### Never as a sole source
 
-**Source hierarchy (most to least authoritative):**
-1. Official university pages
-2. Institutional repositories
-3. ORCID (for self-reported data)
-4. CV PDFs on institutional domains
-5. Google Scholar (for activity only)
-6. AcademicTree (lead, not confirmation)
-
-**Never use as sole source:**
 - Wikipedia
-- Personal blogs
-- Social media
-- Unverified user-submitted databases
+- Personal blogs and Twitter/X
+- LinkedIn (for non-employment claims)
+- Unverified user-submitted databases (AcademicTree for non-physics, …)
+
+---
+
+## Cross-references and the relationship graph
+
+When you populate any field that names another entity in this repo
+(advisor, founder, current institution, acquirer, spinout origin), populate
+the corresponding `*_id` field with the canonical id. The Stage 6
+relationship-graph build step ingests these ids and emits an edge dataset.
+Free-form name strings remain (for display), but the ids are what the
+graph queries against.
+
+Edge types emitted:
+
+`advised`, `postdoc_with`, `cofounded`, `affiliated_with`, `alumnus_of`,
+`spun_out_of`, `acquired_by`, `current_member_of`.
+
+See `schemas/vocabularies.yaml` for the canonical id list and notes.
+
+---
 
 ## Questions?
 
-See [guides/ingestion.md](guides/ingestion.md) for workflow documentation.
-See [guides/quickstart.md](guides/quickstart.md) for practical examples.
+- For the workflow itself, see [guides/ingestion.md](guides/ingestion.md).
+- For a worked example, see [guides/example-workflow.md](guides/example-workflow.md).
+- For the controlled vocabulary master list, see
+  [`schemas/vocabularies.yaml`](../schemas/vocabularies.yaml).

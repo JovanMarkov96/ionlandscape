@@ -1,5 +1,5 @@
 ---
-id: c004-qedma
+id: c013-qedma
 name: Qedma
 sort_name: Qedma
 entity_type: "company"
