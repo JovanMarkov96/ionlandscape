@@ -1,34 +1,33 @@
 [
   {
-    "id": "i049-university-of-oxford",
-    "name": "University of Oxford",
-    "sort_name": "University of Oxford",
+    "id": "i051-university-of-sussex",
+    "name": "University of Sussex",
+    "sort_name": "University of Sussex",
     "entity_type": "institution",
     "aliases": [
-      "Oxford",
-      "Oxon"
+      "Sussex"
     ],
     "abbreviations": [],
     "location": {
-      "city": "Oxford",
-      "region": "Oxfordshire",
+      "city": "Brighton",
+      "region": "East Sussex",
       "country": "United Kingdom",
-      "lat": 51.752,
-      "lon": -1.2577
+      "lat": 50.866,
+      "lon": -0.0873
     },
     "institution_type": "university",
-    "short_description": "The University of Oxford is one of the world's oldest and most prestigious universities, with leading trapped-ion quantum computing research in its Department of Physics.",
+    "short_description": "The University of Sussex hosts the Sussex Centre for Quantum Technologies, a leading hub for trapped-ion quantum computing and scalable quantum engineering.",
     "focus_areas": [
       "Quantum Computing",
+      "Quantum Engineering",
       "Trapped Ions",
-      "Quantum Error Correction",
-      "Quantum Networks"
+      "Scalable Architectures"
     ],
     "links": {
-      "website": "https://www.ox.ac.uk/",
+      "website": "https://www.sussex.ac.uk/",
       "department": "",
       "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Oxford",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Sussex",
       "linkedin": ""
     },
     "media": {
@@ -37,57 +36,49 @@
     },
     "directory": {
       "current_members": [
-        "037-david-lucas.md"
+        "012-winfried-hensinger.md",
+        "071-matthias-keller.md"
       ],
-      "alumni": [
-        "049-patrick-gill.md",
-        "036-richard-thompson.md",
-        "050-rachel-godun.md",
-        "003-chris-ballance.md",
-        "016-jonathan-home.md"
-      ],
-      "member_count": 1,
-      "alumni_count": 5
+      "alumni": [],
+      "member_count": 2,
+      "alumni_count": 0
     },
     "sources": [
       {
-        "url": "https://www.ox.ac.uk/",
+        "url": "https://www.sussex.ac.uk/",
         "note": "Official website"
       }
     ],
-    "md_filename": "i049-university-of-oxford.md",
+    "md_filename": "i051-university-of-sussex.md",
     "updated_at": ""
   },
   {
-    "id": "i022-osaka-university",
-    "name": "Osaka University",
-    "sort_name": "Osaka University",
+    "id": "i006-ewha-womans-university",
+    "name": "Ewha Womans University",
+    "sort_name": "Ewha Womans University",
     "entity_type": "institution",
     "aliases": [
-      "Osaka U",
-      "Handai"
+      "Ewha"
     ],
     "abbreviations": [],
     "location": {
-      "city": "Osaka",
-      "region": "Osaka Prefecture",
-      "country": "Japan",
-      "lat": 34.8225,
-      "lon": 135.5249
+      "city": "Seoul",
+      "region": "",
+      "country": "South Korea",
+      "lat": 37.5618,
+      "lon": 126.9468
     },
     "institution_type": "university",
-    "short_description": "Osaka University is a leading national university in Japan, with strong programs in physics including trapped-ion experiments and quantum optics.",
+    "short_description": "Ewha Womans University is a prestigious private university in Seoul, South Korea, with emerging research in quantum information science.",
     "focus_areas": [
       "Physics",
-      "Quantum Optics",
-      "Trapped Ions",
-      "AMO Physics"
+      "Quantum Information"
     ],
     "links": {
-      "website": "https://www.osaka-u.ac.jp/en",
+      "website": "https://www.ewha.ac.kr/ewhaen/",
       "department": "",
       "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Osaka_University",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ewha_Womans_University",
       "linkedin": ""
     },
     "media": {
@@ -96,24 +87,176 @@
     },
     "directory": {
       "current_members": [
-        "057-utako-tanaka.md",
-        "055-takashi-mukaiyama.md",
-        "056-kenji-toyoda.md"
+        "061-taeyoung-choi.md"
       ],
-      "alumni": [
-        "058-atsushi-noguchi.md",
-        "045-kazuhiro-hayasaka.md"
-      ],
-      "member_count": 3,
-      "alumni_count": 2
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
     },
     "sources": [
       {
-        "url": "https://www.osaka-u.ac.jp/en",
+        "url": "https://www.ewha.ac.kr/ewhaen/",
         "note": "Official website"
       }
     ],
-    "md_filename": "i022-osaka-university.md",
+    "md_filename": "i006-ewha-womans-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i024-palacky-university-olomouc",
+    "name": "Palacký University Olomouc",
+    "sort_name": "Palacký University Olomouc",
+    "entity_type": "institution",
+    "aliases": [
+      "UPOL",
+      "Palacký University"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Olomouc",
+      "region": "",
+      "country": "Czech Republic",
+      "lat": 49.5955,
+      "lon": 17.2518
+    },
+    "institution_type": "university",
+    "short_description": "Palacký University Olomouc is the oldest university in Moravia with active research in quantum optics and single-ion experiments.",
+    "focus_areas": [
+      "Quantum Optics",
+      "Single-Ion Experiments",
+      "Physics"
+    ],
+    "links": {
+      "website": "https://www.upol.cz/en/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Palack%C3%BD_University_Olomouc",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "027-lukas-slodicka.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.upol.cz/en/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i024-palacky-university-olomouc.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i028-sandia-national-laboratories",
+    "name": "Sandia National Laboratories",
+    "sort_name": "Sandia National Laboratories",
+    "entity_type": "institution",
+    "aliases": [
+      "Sandia",
+      "SNL"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Albuquerque",
+      "region": "New Mexico",
+      "country": "United States",
+      "lat": 35.0584,
+      "lon": -106.5381
+    },
+    "institution_type": "government_lab",
+    "short_description": "Sandia National Laboratories is a major U.S. government research facility with programs in quantum computing using microfabricated ion traps.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Trapped Ions",
+      "Microfabricated Ion Traps",
+      "National Security"
+    ],
+    "links": {
+      "website": "https://www.sandia.gov/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sandia_National_Laboratories",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "052-dan-stick.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.sandia.gov/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i028-sandia-national-laboratories.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i041-university-of-calgary",
+    "name": "University of Calgary",
+    "sort_name": "University of Calgary",
+    "entity_type": "institution",
+    "aliases": [
+      "UCalgary",
+      "U of C"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Calgary",
+      "region": "Alberta",
+      "country": "Canada",
+      "lat": 51.0776,
+      "lon": -114.13
+    },
+    "institution_type": "university",
+    "short_description": "The University of Calgary is a major Canadian research university with programs in quantum technologies and nanophotonics.",
+    "focus_areas": [
+      "Quantum Technologies",
+      "Nanophotonics",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.ucalgary.ca/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Calgary",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "068-paul-barclay.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.ucalgary.ca/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i041-university-of-calgary.md",
     "updated_at": ""
   },
   {
@@ -167,109 +310,6 @@
       }
     ],
     "md_filename": "i009-imperial-college-london.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i016-mit-lincoln-laboratory",
-    "name": "MIT Lincoln Laboratory",
-    "sort_name": "MIT Lincoln Laboratory",
-    "entity_type": "institution",
-    "aliases": [
-      "Lincoln Lab",
-      "MIT LL"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Lexington",
-      "region": "Massachusetts",
-      "country": "United States",
-      "lat": 42.4584,
-      "lon": -71.268
-    },
-    "institution_type": "government_lab",
-    "short_description": "MIT Lincoln Laboratory is a federally funded research center that develops advanced technologies for national security, including trapped-ion quantum systems.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Trapped Ions",
-      "Defense Technology"
-    ],
-    "links": {
-      "website": "https://www.ll.mit.edu/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/MIT_Lincoln_Laboratory",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "051-john-chiaverini.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.ll.mit.edu/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i016-mit-lincoln-laboratory.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i002-aarhus-university",
-    "name": "Aarhus University",
-    "sort_name": "Aarhus University",
-    "entity_type": "institution",
-    "aliases": [
-      "AU"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Aarhus",
-      "region": "",
-      "country": "Denmark",
-      "lat": 56.1629,
-      "lon": 10.2039
-    },
-    "institution_type": "university",
-    "short_description": "Aarhus University is one of Denmark's largest research universities, with active programs in AMO physics and cold molecular ions.",
-    "focus_areas": [
-      "AMO Physics",
-      "Molecular Physics",
-      "Cold Ions"
-    ],
-    "links": {
-      "website": "https://www.au.dk/en/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Aarhus_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "018-michael-drewsen.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.au.dk/en/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i002-aarhus-university.md",
     "updated_at": ""
   },
   {
@@ -332,6 +372,65 @@
     "updated_at": ""
   },
   {
+    "id": "i019-national-institute-of-standards-and-technology-nist-boulder",
+    "name": "National Institute of Standards and Technology (NIST), Boulder",
+    "sort_name": "National Institute of Standards and Technology (NIST), Boulder",
+    "entity_type": "institution",
+    "aliases": [
+      "NIST",
+      "NIST Boulder",
+      "NIST Ion Storage Group"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Boulder",
+      "region": "Colorado",
+      "country": "United States",
+      "lat": 39.9951,
+      "lon": -105.2615
+    },
+    "institution_type": "government_lab",
+    "short_description": "NIST Boulder is a U.S. government research laboratory that has been at the forefront of trapped-ion physics, precision measurement, and quantum information since the pioneering work of David Wineland.",
+    "focus_areas": [
+      "Precision Measurement",
+      "Quantum Computing",
+      "Optical Clocks",
+      "Trapped Ions"
+    ],
+    "links": {
+      "website": "https://www.nist.gov/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "007-dietrich-leibfried.md",
+        "008-john-bollinger.md",
+        "073-david-hume.md"
+      ],
+      "alumni": [
+        "004-christopher-monroe.md",
+        "001-roee-ozeri.md"
+      ],
+      "member_count": 3,
+      "alumni_count": 2
+    },
+    "sources": [
+      {
+        "url": "https://www.nist.gov/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i019-national-institute-of-standards-and-technology-nist-boulder.md",
+    "updated_at": ""
+  },
+  {
     "id": "i021-okinawa-institute-of-science-and-technology-oist",
     "name": "Okinawa Institute of Science and Technology (OIST)",
     "sort_name": "Okinawa Institute of Science and Technology (OIST)",
@@ -383,189 +482,35 @@
     "updated_at": ""
   },
   {
-    "id": "i035-tsinghua-university",
-    "name": "Tsinghua University",
-    "sort_name": "Tsinghua University",
+    "id": "i022-osaka-university",
+    "name": "Osaka University",
+    "sort_name": "Osaka University",
     "entity_type": "institution",
     "aliases": [
-      "Tsinghua",
-      "THU"
+      "Osaka U",
+      "Handai"
     ],
     "abbreviations": [],
     "location": {
-      "city": "Beijing",
-      "region": "",
-      "country": "China",
-      "lat": 40.0003,
-      "lon": 116.3267
+      "city": "Osaka",
+      "region": "Osaka Prefecture",
+      "country": "Japan",
+      "lat": 34.8225,
+      "lon": 135.5249
     },
     "institution_type": "university",
-    "short_description": "Tsinghua University is one of China's most elite research universities, with leading programs in quantum computing and quantum information science.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Quantum Information",
-      "Physics",
-      "Computer Science"
-    ],
-    "links": {
-      "website": "https://www.tsinghua.edu.cn/en/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Tsinghua_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "065-luyan-sun.md",
-        "020-luming-duan.md"
-      ],
-      "alumni": [],
-      "member_count": 2,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.tsinghua.edu.cn/en/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i035-tsinghua-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i026-physikalisch-technische-bundesanstalt-ptb",
-    "name": "Physikalisch-Technische Bundesanstalt (PTB)",
-    "sort_name": "Physikalisch-Technische Bundesanstalt (PTB)",
-    "entity_type": "institution",
-    "aliases": [
-      "PTB"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Braunschweig",
-      "region": "Lower Saxony",
-      "country": "Germany",
-      "lat": 52.2919,
-      "lon": 10.4607
-    },
-    "institution_type": "government_lab",
-    "short_description": "PTB is Germany's national metrology institute, conducting world-leading research in optical clocks and precision measurements with trapped ions.",
-    "focus_areas": [
-      "Precision Measurement",
-      "Optical Clocks",
-      "Quantum Metrology",
-      "Trapped Ions"
-    ],
-    "links": {
-      "website": "https://www.ptb.de/cms/en.html",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Physikalisch-Technische_Bundesanstalt",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "074-piet-schmidt.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.ptb.de/cms/en.html",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i026-physikalisch-technische-bundesanstalt-ptb.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i033-sungkyunkwan-university-skku",
-    "name": "Sungkyunkwan University (SKKU)",
-    "sort_name": "Sungkyunkwan University (SKKU)",
-    "entity_type": "institution",
-    "aliases": [
-      "SKKU"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Suwon",
-      "region": "Gyeonggi",
-      "country": "South Korea",
-      "lat": 37.2939,
-      "lon": 126.9753
-    },
-    "institution_type": "university",
-    "short_description": "SKKU is a leading South Korean university with emerging quantum information research programs.",
+    "short_description": "Osaka University is a leading national university in Japan, with strong programs in physics including trapped-ion experiments and quantum optics.",
     "focus_areas": [
       "Physics",
-      "Quantum Information"
-    ],
-    "links": {
-      "website": "https://www.skku.edu/eng/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Sungkyunkwan_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "064-junki-kim.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.skku.edu/eng/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i033-sungkyunkwan-university-skku.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i048-university-of-oregon",
-    "name": "University of Oregon",
-    "sort_name": "University of Oregon",
-    "entity_type": "institution",
-    "aliases": [
-      "UO",
-      "U of O"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Eugene",
-      "region": "Oregon",
-      "country": "United States",
-      "lat": 44.0448,
-      "lon": -123.0726
-    },
-    "institution_type": "university",
-    "short_description": "The University of Oregon is a public research university where Nobel laureate David Wineland holds an appointment working on quantum physics.",
-    "focus_areas": [
-      "Quantum Physics",
+      "Quantum Optics",
+      "Trapped Ions",
       "AMO Physics"
     ],
     "links": {
-      "website": "https://www.uoregon.edu/",
+      "website": "https://www.osaka-u.ac.jp/en",
       "department": "",
       "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Oregon",
+      "wikipedia": "https://en.wikipedia.org/wiki/Osaka_University",
       "linkedin": ""
     },
     "media": {
@@ -574,220 +519,54 @@
     },
     "directory": {
       "current_members": [
-        "006-david-wineland.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.uoregon.edu/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i048-university-of-oregon.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
-    "name": "Centre for Quantum Technologies, National University of Singapore",
-    "sort_name": "Centre for Quantum Technologies, National University of Singapore",
-    "entity_type": "institution",
-    "aliases": [
-      "CQT",
-      "CQT Singapore",
-      "NUS CQT"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Singapore",
-      "region": "",
-      "country": "Singapore",
-      "lat": 1.2966,
-      "lon": 103.7764
-    },
-    "institution_type": "research_center",
-    "short_description": "The Centre for Quantum Technologies (CQT) is a national research center of excellence at the National University of Singapore, focused on the fundamental physics of quantum mechanics and the building of quantum devices.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Quantum Information",
-      "Quantum Optics",
-      "Trapped Ions",
-      "Neutral Atoms"
-    ],
-    "links": {
-      "website": "https://www.quantumlah.org/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Centre_for_Quantum_Technologies",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "032-murray-barrett.md",
-        "033-dzmitry-matsukevich.md",
-        "034-manas-mukherjee.md"
-      ],
-      "alumni": [],
-      "member_count": 3,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.quantumlah.org/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i003-centre-for-quantum-technologies-national-university-of-singapore.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i012-institute-for-quantum-computing-university-of-waterloo",
-    "name": "Institute for Quantum Computing, University of Waterloo",
-    "sort_name": "Institute for Quantum Computing, University of Waterloo",
-    "entity_type": "institution",
-    "aliases": [
-      "IQC",
-      "IQC Waterloo",
-      "University of Waterloo IQC"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Waterloo",
-      "region": "Ontario",
-      "country": "Canada",
-      "lat": 43.4779,
-      "lon": -80.5479
-    },
-    "institution_type": "research_center",
-    "short_description": "The Institute for Quantum Computing (IQC) at the University of Waterloo is a world-class research center for quantum information science and technology.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Quantum Information",
-      "Trapped Ions",
-      "Quantum Cryptography"
-    ],
-    "links": {
-      "website": "https://uwaterloo.ca/institute-for-quantum-computing/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Institute_for_Quantum_Computing",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "022-rajibul-islam.md",
-        "023-crystal-senko.md"
-      ],
-      "alumni": [],
-      "member_count": 2,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://uwaterloo.ca/institute-for-quantum-computing/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i012-institute-for-quantum-computing-university-of-waterloo.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i017-massachusetts-institute-of-technology",
-    "name": "Massachusetts Institute of Technology",
-    "sort_name": "Massachusetts Institute of Technology",
-    "entity_type": "institution",
-    "aliases": [
-      "MIT"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Cambridge",
-      "region": "Massachusetts",
-      "country": "United States",
-      "lat": 42.3601,
-      "lon": -71.0942
-    },
-    "institution_type": "university",
-    "short_description": "The Massachusetts Institute of Technology (MIT) is a world-renowned research university with pioneering contributions to quantum computing, cold atoms, and trapped-ion systems.",
-    "focus_areas": [
-      "Quantum Computing",
-      "AMO Physics",
-      "Quantum Information",
-      "Quantum Simulation"
-    ],
-    "links": {
-      "website": "https://www.mit.edu/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "041-isaac-chuang.md",
-        "040-vladan-vuletic.md"
+        "057-utako-tanaka.md",
+        "055-takashi-mukaiyama.md",
+        "056-kenji-toyoda.md"
       ],
       "alumni": [
-        "063-taehyun-kim.md",
-        "004-christopher-monroe.md",
-        "062-dan-cho.md",
-        "026-erik-streed.md"
+        "045-kazuhiro-hayasaka.md",
+        "058-atsushi-noguchi.md"
       ],
-      "member_count": 2,
-      "alumni_count": 4
+      "member_count": 3,
+      "alumni_count": 2
     },
     "sources": [
       {
-        "url": "https://www.mit.edu/",
+        "url": "https://www.osaka-u.ac.jp/en",
         "note": "Official website"
       }
     ],
-    "md_filename": "i017-massachusetts-institute-of-technology.md",
+    "md_filename": "i022-osaka-university.md",
     "updated_at": ""
   },
   {
-    "id": "i024-palacky-university-olomouc",
-    "name": "Palacký University Olomouc",
-    "sort_name": "Palacký University Olomouc",
+    "id": "i018-national-institute-of-information-and-communications-technology-nict",
+    "name": "National Institute of Information and Communications Technology (NICT)",
+    "sort_name": "National Institute of Information and Communications Technology (NICT)",
     "entity_type": "institution",
     "aliases": [
-      "UPOL",
-      "Palacký University"
+      "NICT"
     ],
     "abbreviations": [],
     "location": {
-      "city": "Olomouc",
-      "region": "",
-      "country": "Czech Republic",
-      "lat": 49.5955,
-      "lon": 17.2518
+      "city": "Koganei",
+      "region": "Tokyo",
+      "country": "Japan",
+      "lat": 35.7107,
+      "lon": 139.4895
     },
-    "institution_type": "university",
-    "short_description": "Palacký University Olomouc is the oldest university in Moravia with active research in quantum optics and single-ion experiments.",
+    "institution_type": "government_lab",
+    "short_description": "NICT is Japan's national research institute for information and communications technologies, conducting research in optical clocks and frequency standards using trapped ions.",
     "focus_areas": [
-      "Quantum Optics",
-      "Single-Ion Experiments",
-      "Physics"
+      "Optical Clocks",
+      "Frequency Standards",
+      "Trapped Ions"
     ],
     "links": {
-      "website": "https://www.upol.cz/en/",
+      "website": "https://www.nict.go.jp/en/",
       "department": "",
       "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Palack%C3%BD_University_Olomouc",
+      "wikipedia": "https://en.wikipedia.org/wiki/National_Institute_of_Information_and_Communications_Technology",
       "linkedin": ""
     },
     "media": {
@@ -796,7 +575,7 @@
     },
     "directory": {
       "current_members": [
-        "027-lukas-slodicka.md"
+        "045-kazuhiro-hayasaka.md"
       ],
       "alumni": [],
       "member_count": 1,
@@ -804,11 +583,219 @@
     },
     "sources": [
       {
-        "url": "https://www.upol.cz/en/",
+        "url": "https://www.nict.go.jp/en/",
         "note": "Official website"
       }
     ],
-    "md_filename": "i024-palacky-university-olomouc.md",
+    "md_filename": "i018-national-institute-of-information-and-communications-technology-nict.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i014-johannes-gutenberg-university-mainz",
+    "name": "Johannes Gutenberg University Mainz",
+    "sort_name": "Johannes Gutenberg University Mainz",
+    "entity_type": "institution",
+    "aliases": [
+      "JGU Mainz",
+      "Uni Mainz"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Mainz",
+      "region": "Rhineland-Palatinate",
+      "country": "Germany",
+      "lat": 49.9929,
+      "lon": 8.2473
+    },
+    "institution_type": "university",
+    "short_description": "Johannes Gutenberg University Mainz is a major German research university with an active trapped-ion quantum computing group.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Trapped Ions",
+      "Experimental Physics"
+    ],
+    "links": {
+      "website": "https://www.uni-mainz.de/eng/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Mainz",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "013-ferdinand-schmidt-kaler.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uni-mainz.de/eng/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i014-johannes-gutenberg-university-mainz.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i052-university-of-sydney",
+    "name": "University of Sydney",
+    "sort_name": "University of Sydney",
+    "entity_type": "institution",
+    "aliases": [
+      "USYD",
+      "Sydney"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Sydney",
+      "region": "New South Wales",
+      "country": "Australia",
+      "lat": -33.8882,
+      "lon": 151.1877
+    },
+    "institution_type": "university",
+    "short_description": "The University of Sydney hosts leading quantum control and trapped-ion research, including work on quantum sensing and noise-engineered quantum gates.",
+    "focus_areas": [
+      "Quantum Control",
+      "Trapped Ions",
+      "Quantum Sensing"
+    ],
+    "links": {
+      "website": "https://www.sydney.edu.au/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Sydney",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "021-mike-biercuk.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.sydney.edu.au/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i052-university-of-sydney.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i050-university-of-siegen",
+    "name": "University of Siegen",
+    "sort_name": "University of Siegen",
+    "entity_type": "institution",
+    "aliases": [
+      "Uni Siegen"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Siegen",
+      "region": "North Rhine-Westphalia",
+      "country": "Germany",
+      "lat": 50.9093,
+      "lon": 8.0226
+    },
+    "institution_type": "university",
+    "short_description": "The University of Siegen is a German university with research in trapped-ion quantum information processing using microwave techniques.",
+    "focus_areas": [
+      "Quantum Information",
+      "Trapped Ions",
+      "Microwave Control"
+    ],
+    "links": {
+      "website": "https://www.uni-siegen.de/start/index.html.en",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Siegen",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "029-christof-wunderlich.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uni-siegen.de/start/index.html.en",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i050-university-of-siegen.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i034-technion-israel-institute-of-technology",
+    "name": "Technion – Israel Institute of Technology",
+    "sort_name": "Technion – Israel Institute of Technology",
+    "entity_type": "institution",
+    "aliases": [
+      "Technion",
+      "IIT"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Haifa",
+      "region": "",
+      "country": "Israel",
+      "lat": 32.777,
+      "lon": 35.0218
+    },
+    "institution_type": "university",
+    "short_description": "The Technion is Israel's oldest university and a leading institute of technology, with strong programs in physics including cold ion-molecule experiments.",
+    "focus_areas": [
+      "Physics",
+      "Cold Chemistry",
+      "Ion-Molecule Interactions",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.technion.ac.il/en/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Technion_%E2%80%93_Israel_Institute_of_Technology",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "078-yuval-shagam.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.technion.ac.il/en/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i034-technion-israel-institute-of-technology.md",
     "updated_at": ""
   },
   {
@@ -866,6 +853,262 @@
     "updated_at": ""
   },
   {
+    "id": "i042-university-of-california-berkeley",
+    "name": "University of California, Berkeley",
+    "sort_name": "University of California, Berkeley",
+    "entity_type": "institution",
+    "aliases": [
+      "UC Berkeley",
+      "Berkeley",
+      "Cal"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Berkeley",
+      "region": "California",
+      "country": "United States",
+      "lat": 37.8719,
+      "lon": -122.2585
+    },
+    "institution_type": "university",
+    "short_description": "UC Berkeley is a world-class public research university with pioneering trapped-ion quantum computing and AMO physics groups.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Trapped Ions",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.berkeley.edu/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "009-hartmut-haeffner.md"
+      ],
+      "alumni": [
+        "042-kenneth-brown.md",
+        "006-david-wineland.md"
+      ],
+      "member_count": 1,
+      "alumni_count": 2
+    },
+    "sources": [
+      {
+        "url": "https://www.berkeley.edu/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i042-university-of-california-berkeley.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
+    "name": "Indian Institute of Science Education and Research (IISER) Pune",
+    "sort_name": "Indian Institute of Science Education and Research (IISER) Pune",
+    "entity_type": "institution",
+    "aliases": [
+      "IISER Pune"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Pune",
+      "region": "Maharashtra",
+      "country": "India",
+      "lat": 18.5493,
+      "lon": 73.8029
+    },
+    "institution_type": "research_institute",
+    "short_description": "IISER Pune is a premier Indian research and teaching institute with growing activities in cold and ultracold molecule-ion physics.",
+    "focus_areas": [
+      "AMO Physics",
+      "Cold Molecules",
+      "Ion-Neutral Chemistry"
+    ],
+    "links": {
+      "website": "https://www.iiserpune.ac.in/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Indian_Institute_of_Science_Education_and_Research,_Pune",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "069-sadiq-rangwala.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.iiserpune.ac.in/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i010-indian-institute-of-science-education-and-research-iiser-pune.md",
+    "updated_at": ""
+  },
+  {
+    "id": "o001-quantum-hub",
+    "name": "Quantum Hub",
+    "sort_name": "Quantum Hub",
+    "entity_type": "institution",
+    "aliases": [],
+    "abbreviations": [],
+    "location": {
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "country": "Israel",
+      "lat": 32.0853,
+      "lon": 34.7818
+    },
+    "institution_type": "unknown",
+    "short_description": "",
+    "focus_areas": [
+      "Quantum computing ecosystem development",
+      "Startup support",
+      "Industry–academia collaboration"
+    ],
+    "links": {
+      "website": "",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "directory": {
+      "current_members": [],
+      "alumni": [],
+      "member_count": 0,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://finder.startupnationcentral.org",
+        "note": "Startup Nation Central ecosystem listing"
+      },
+      {
+        "url": "https://www.calcalistech.com",
+        "note": "Israeli quantum ecosystem overview mentioning Quantum Hub"
+      }
+    ],
+    "md_filename": "o001-quantum-hub.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i030-simon-fraser-university",
+    "name": "Simon Fraser University",
+    "sort_name": "Simon Fraser University",
+    "entity_type": "institution",
+    "aliases": [
+      "SFU"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Burnaby",
+      "region": "British Columbia",
+      "country": "Canada",
+      "lat": 49.2781,
+      "lon": -122.9199
+    },
+    "institution_type": "university",
+    "short_description": "Simon Fraser University is a major Canadian research university with active programs in AMO physics and trapped-ion experiments.",
+    "focus_areas": [
+      "AMO Physics",
+      "Trapped Ions",
+      "Quantum Information"
+    ],
+    "links": {
+      "website": "https://www.sfu.ca/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Simon_Fraser_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "024-paul-haljan.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.sfu.ca/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i030-simon-fraser-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i045-university-of-groningen",
+    "name": "University of Groningen",
+    "sort_name": "University of Groningen",
+    "entity_type": "institution",
+    "aliases": [
+      "RUG"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Groningen",
+      "region": "",
+      "country": "Netherlands",
+      "lat": 53.2194,
+      "lon": 6.5665
+    },
+    "institution_type": "university",
+    "short_description": "The University of Groningen is a leading Dutch research university with work in fundamental physics and precision measurements.",
+    "focus_areas": [
+      "Fundamental Physics",
+      "Precision Measurement",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.rug.nl/?lang=en",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Groningen",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "047-klaus-jungmann.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.rug.nl/?lang=en",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i045-university-of-groningen.md",
+    "updated_at": ""
+  },
+  {
     "id": "i046-university-of-innsbruck",
     "name": "University of Innsbruck",
     "sort_name": "University of Innsbruck",
@@ -905,16 +1148,16 @@
     },
     "directory": {
       "current_members": [
-        "005-christian-roos.md",
-        "015-tracy-northup.md",
+        "077-ben-lanyon.md",
         "017-rainer-blatt.md",
         "014-thomas-monz.md",
-        "077-ben-lanyon.md"
+        "015-tracy-northup.md",
+        "005-christian-roos.md"
       ],
       "alumni": [
-        "060-moonjoo-lee.md",
+        "044-johannes-hecker-denschlag.md",
         "027-lukas-slodicka.md",
-        "044-johannes-hecker-denschlag.md"
+        "060-moonjoo-lee.md"
       ],
       "member_count": 5,
       "alumni_count": 3
@@ -929,34 +1172,34 @@
     "updated_at": ""
   },
   {
-    "id": "i014-johannes-gutenberg-university-mainz",
-    "name": "Johannes Gutenberg University Mainz",
-    "sort_name": "Johannes Gutenberg University Mainz",
+    "id": "i016-mit-lincoln-laboratory",
+    "name": "MIT Lincoln Laboratory",
+    "sort_name": "MIT Lincoln Laboratory",
     "entity_type": "institution",
     "aliases": [
-      "JGU Mainz",
-      "Uni Mainz"
+      "Lincoln Lab",
+      "MIT LL"
     ],
     "abbreviations": [],
     "location": {
-      "city": "Mainz",
-      "region": "Rhineland-Palatinate",
-      "country": "Germany",
-      "lat": 49.9929,
-      "lon": 8.2473
+      "city": "Lexington",
+      "region": "Massachusetts",
+      "country": "United States",
+      "lat": 42.4584,
+      "lon": -71.268
     },
-    "institution_type": "university",
-    "short_description": "Johannes Gutenberg University Mainz is a major German research university with an active trapped-ion quantum computing group.",
+    "institution_type": "government_lab",
+    "short_description": "MIT Lincoln Laboratory is a federally funded research center that develops advanced technologies for national security, including trapped-ion quantum systems.",
     "focus_areas": [
       "Quantum Computing",
       "Trapped Ions",
-      "Experimental Physics"
+      "Defense Technology"
     ],
     "links": {
-      "website": "https://www.uni-mainz.de/eng/",
+      "website": "https://www.ll.mit.edu/",
       "department": "",
       "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Mainz",
+      "wikipedia": "https://en.wikipedia.org/wiki/MIT_Lincoln_Laboratory",
       "linkedin": ""
     },
     "media": {
@@ -965,7 +1208,7 @@
     },
     "directory": {
       "current_members": [
-        "013-ferdinand-schmidt-kaler.md"
+        "051-john-chiaverini.md"
       ],
       "alumni": [],
       "member_count": 1,
@@ -973,11 +1216,1540 @@
     },
     "sources": [
       {
-        "url": "https://www.uni-mainz.de/eng/",
+        "url": "https://www.ll.mit.edu/",
         "note": "Official website"
       }
     ],
-    "md_filename": "i014-johannes-gutenberg-university-mainz.md",
+    "md_filename": "i016-mit-lincoln-laboratory.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i005-eth-zurich",
+    "name": "ETH Zürich",
+    "sort_name": "ETH Zürich",
+    "entity_type": "institution",
+    "aliases": [
+      "ETH Zurich",
+      "ETHZ",
+      "Swiss Federal Institute of Technology"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Zürich",
+      "region": "Zurich",
+      "country": "Switzerland",
+      "lat": 47.3769,
+      "lon": 8.5417
+    },
+    "institution_type": "university",
+    "short_description": "ETH Zürich is one of the world's leading universities for science and technology, hosting premier trapped-ion quantum information groups.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Trapped Ions",
+      "Condensed Matter Physics"
+    ],
+    "links": {
+      "website": "https://ethz.ch/en.html",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/ETH_Zurich",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "016-jonathan-home.md",
+        "076-tilman-esslinger.md"
+      ],
+      "alumni": [
+        "035-stefan-willitsch.md",
+        "060-moonjoo-lee.md"
+      ],
+      "member_count": 2,
+      "alumni_count": 2
+    },
+    "sources": [
+      {
+        "url": "https://ethz.ch/en.html",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i005-eth-zurich.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i037-university-of-amsterdam",
+    "name": "University of Amsterdam",
+    "sort_name": "University of Amsterdam",
+    "entity_type": "institution",
+    "aliases": [
+      "UvA"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Amsterdam",
+      "region": "",
+      "country": "Netherlands",
+      "lat": 52.3559,
+      "lon": 4.9554
+    },
+    "institution_type": "university",
+    "short_description": "The University of Amsterdam is a major Dutch research university with trapped-ion research groups in its Institute of Physics.",
+    "focus_areas": [
+      "Trapped Ions",
+      "Quantum Simulation",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.uva.nl/en",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Amsterdam",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "030-rene-gerritsma.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uva.nl/en",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i037-university-of-amsterdam.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i026-physikalisch-technische-bundesanstalt-ptb",
+    "name": "Physikalisch-Technische Bundesanstalt (PTB)",
+    "sort_name": "Physikalisch-Technische Bundesanstalt (PTB)",
+    "entity_type": "institution",
+    "aliases": [
+      "PTB"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Braunschweig",
+      "region": "Lower Saxony",
+      "country": "Germany",
+      "lat": 52.2919,
+      "lon": 10.4607
+    },
+    "institution_type": "government_lab",
+    "short_description": "PTB is Germany's national metrology institute, conducting world-leading research in optical clocks and precision measurements with trapped ions.",
+    "focus_areas": [
+      "Precision Measurement",
+      "Optical Clocks",
+      "Quantum Metrology",
+      "Trapped Ions"
+    ],
+    "links": {
+      "website": "https://www.ptb.de/cms/en.html",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Physikalisch-Technische_Bundesanstalt",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "074-piet-schmidt.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.ptb.de/cms/en.html",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i026-physikalisch-technische-bundesanstalt-ptb.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i035-tsinghua-university",
+    "name": "Tsinghua University",
+    "sort_name": "Tsinghua University",
+    "entity_type": "institution",
+    "aliases": [
+      "Tsinghua",
+      "THU"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Beijing",
+      "region": "",
+      "country": "China",
+      "lat": 40.0003,
+      "lon": 116.3267
+    },
+    "institution_type": "university",
+    "short_description": "Tsinghua University is one of China's most elite research universities, with leading programs in quantum computing and quantum information science.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Physics",
+      "Computer Science"
+    ],
+    "links": {
+      "website": "https://www.tsinghua.edu.cn/en/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tsinghua_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "065-luyan-sun.md",
+        "020-luming-duan.md"
+      ],
+      "alumni": [],
+      "member_count": 2,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.tsinghua.edu.cn/en/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i035-tsinghua-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i043-university-of-california-los-angeles",
+    "name": "University of California, Los Angeles",
+    "sort_name": "University of California, Los Angeles",
+    "entity_type": "institution",
+    "aliases": [
+      "UCLA"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "United States",
+      "lat": 34.0689,
+      "lon": -118.4452
+    },
+    "institution_type": "university",
+    "short_description": "UCLA is a leading public research university with strong programs in AMO physics, including trapped molecular ions and laser-cooled atomic systems.",
+    "focus_areas": [
+      "AMO Physics",
+      "Molecular Physics",
+      "Trapped Ions",
+      "Quantum Simulation"
+    ],
+    "links": {
+      "website": "https://www.ucla.edu/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "038-eric-hudson.md",
+        "039-wes-campbell.md"
+      ],
+      "alumni": [],
+      "member_count": 2,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.ucla.edu/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i043-university-of-california-los-angeles.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i031-stellenbosch-university",
+    "name": "Stellenbosch University",
+    "sort_name": "Stellenbosch University",
+    "entity_type": "institution",
+    "aliases": [
+      "SU",
+      "Maties"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Stellenbosch",
+      "region": "Western Cape",
+      "country": "South Africa",
+      "lat": -33.9321,
+      "lon": 18.8602
+    },
+    "institution_type": "university",
+    "short_description": "Stellenbosch University is a leading South African research university with the National Laser Centre and research in quantum control of trapped ions.",
+    "focus_areas": [
+      "Quantum Control",
+      "Trapped Ions",
+      "Laser Physics"
+    ],
+    "links": {
+      "website": "https://www.sun.ac.za/english",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stellenbosch_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "048-hermann-uys.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.sun.ac.za/english",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i031-stellenbosch-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i012-institute-for-quantum-computing-university-of-waterloo",
+    "name": "Institute for Quantum Computing, University of Waterloo",
+    "sort_name": "Institute for Quantum Computing, University of Waterloo",
+    "entity_type": "institution",
+    "aliases": [
+      "IQC",
+      "IQC Waterloo",
+      "University of Waterloo IQC"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Waterloo",
+      "region": "Ontario",
+      "country": "Canada",
+      "lat": 43.4779,
+      "lon": -80.5479
+    },
+    "institution_type": "research_center",
+    "short_description": "The Institute for Quantum Computing (IQC) at the University of Waterloo is a world-class research center for quantum information science and technology.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Trapped Ions",
+      "Quantum Cryptography"
+    ],
+    "links": {
+      "website": "https://uwaterloo.ca/institute-for-quantum-computing/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Institute_for_Quantum_Computing",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "023-crystal-senko.md",
+        "022-rajibul-islam.md"
+      ],
+      "alumni": [],
+      "member_count": 2,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://uwaterloo.ca/institute-for-quantum-computing/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i012-institute-for-quantum-computing-university-of-waterloo.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i057-open-quantum-design",
+    "name": "Open Quantum Design",
+    "sort_name": "Open Quantum Design",
+    "entity_type": "institution",
+    "aliases": [
+      "OQD"
+    ],
+    "abbreviations": [
+      "OQD"
+    ],
+    "location": {
+      "city": "Waterloo",
+      "region": "Ontario",
+      "country": "Canada",
+      "lat": 43.4643,
+      "lon": -80.5204
+    },
+    "institution_type": "non_profit",
+    "short_description": "A non-profit organization dedicated to building the world's first open-source, full-stack trapped-ion quantum computer, aiming to democratize quantum technology access.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Open Source Hardware",
+      "Trapped Ions",
+      "Quantum Engineering"
+    ],
+    "links": {
+      "website": "https://openquantumdesign.org/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [],
+      "alumni": [],
+      "member_count": 0,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://openquantumdesign.org/",
+        "note": "Official OQD Website"
+      }
+    ],
+    "md_filename": "i057-open-quantum-design.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i038-university-of-basel",
+    "name": "University of Basel",
+    "sort_name": "University of Basel",
+    "entity_type": "institution",
+    "aliases": [
+      "Uni Basel"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Basel",
+      "region": "Basel-Stadt",
+      "country": "Switzerland",
+      "lat": 47.5581,
+      "lon": 7.5833
+    },
+    "institution_type": "university",
+    "short_description": "The University of Basel hosts research groups in quantum physics and trapped-ion precision spectroscopy within its Department of Physics.",
+    "focus_areas": [
+      "Precision Spectroscopy",
+      "Trapped Ions",
+      "Quantum Physics"
+    ],
+    "links": {
+      "website": "https://www.unibas.ch/en.html",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Basel",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "035-stefan-willitsch.md"
+      ],
+      "alumni": [
+        "002-ziv-meir.md"
+      ],
+      "member_count": 1,
+      "alumni_count": 1
+    },
+    "sources": [
+      {
+        "url": "https://www.unibas.ch/en.html",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i038-university-of-basel.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i027-saarland-university",
+    "name": "Saarland University",
+    "sort_name": "Saarland University",
+    "entity_type": "institution",
+    "aliases": [
+      "Universität des Saarlandes",
+      "UdS"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Saarbrücken",
+      "region": "Saarland",
+      "country": "Germany",
+      "lat": 49.2547,
+      "lon": 7.0413
+    },
+    "institution_type": "university",
+    "short_description": "Saarland University is a German university with research programs in quantum optics and trapped-ion quantum information processing.",
+    "focus_areas": [
+      "Quantum Information",
+      "Trapped Ions",
+      "Quantum Optics"
+    ],
+    "links": {
+      "website": "https://www.uni-saarland.de/en/home.html",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Saarland_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "028-juergen-eschner.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uni-saarland.de/en/home.html",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i027-saarland-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i029-seoul-national-university",
+    "name": "Seoul National University",
+    "sort_name": "Seoul National University",
+    "entity_type": "institution",
+    "aliases": [
+      "SNU"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Seoul",
+      "region": "",
+      "country": "South Korea",
+      "lat": 37.4602,
+      "lon": 126.9526
+    },
+    "institution_type": "university",
+    "short_description": "Seoul National University is South Korea's most prestigious university, with growing research groups in quantum information and trapped-ion systems.",
+    "focus_areas": [
+      "Physics",
+      "Quantum Information",
+      "Trapped Ions",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://en.snu.ac.kr/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Seoul_National_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "063-taehyun-kim.md",
+        "062-dan-cho.md"
+      ],
+      "alumni": [
+        "011-kihwan-kim.md",
+        "060-moonjoo-lee.md"
+      ],
+      "member_count": 2,
+      "alumni_count": 2
+    },
+    "sources": [
+      {
+        "url": "https://en.snu.ac.kr/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i029-seoul-national-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i002-aarhus-university",
+    "name": "Aarhus University",
+    "sort_name": "Aarhus University",
+    "entity_type": "institution",
+    "aliases": [
+      "AU"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Aarhus",
+      "region": "",
+      "country": "Denmark",
+      "lat": 56.1629,
+      "lon": 10.2039
+    },
+    "institution_type": "university",
+    "short_description": "Aarhus University is one of Denmark's largest research universities, with active programs in AMO physics and cold molecular ions.",
+    "focus_areas": [
+      "AMO Physics",
+      "Molecular Physics",
+      "Cold Ions"
+    ],
+    "links": {
+      "website": "https://www.au.dk/en/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Aarhus_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "018-michael-drewsen.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.au.dk/en/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i002-aarhus-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i039-university-of-bonn",
+    "name": "University of Bonn",
+    "sort_name": "University of Bonn",
+    "entity_type": "institution",
+    "aliases": [
+      "Uni Bonn"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Bonn",
+      "region": "North Rhine-Westphalia",
+      "country": "Germany",
+      "lat": 50.7274,
+      "lon": 7.0842
+    },
+    "institution_type": "university",
+    "short_description": "The University of Bonn is a leading German research university with experimental groups in quantum optics and trapped-ion physics.",
+    "focus_areas": [
+      "Quantum Optics",
+      "Trapped Ions",
+      "Cold Atoms"
+    ],
+    "links": {
+      "website": "https://www.uni-bonn.de/en",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Bonn",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "019-michael-koehl.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uni-bonn.de/en",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i039-university-of-bonn.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i055-university-of-washington",
+    "name": "University of Washington",
+    "sort_name": "University of Washington",
+    "entity_type": "institution",
+    "aliases": [
+      "UW",
+      "UDub"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Seattle",
+      "region": "Washington",
+      "country": "United States",
+      "lat": 47.6553,
+      "lon": -122.3035
+    },
+    "institution_type": "university",
+    "short_description": "The University of Washington is a major U.S. research university with experimental trapped-ion physics programs.",
+    "focus_areas": [
+      "Trapped Ions",
+      "AMO Physics",
+      "Quantum Information"
+    ],
+    "links": {
+      "website": "https://www.washington.edu/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Washington",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "075-boris-blinov.md"
+      ],
+      "alumni": [
+        "006-david-wineland.md"
+      ],
+      "member_count": 1,
+      "alumni_count": 1
+    },
+    "sources": [
+      {
+        "url": "https://www.washington.edu/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i055-university-of-washington.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i023-postech",
+    "name": "POSTECH",
+    "sort_name": "POSTECH",
+    "entity_type": "institution",
+    "aliases": [
+      "Pohang University of Science and Technology"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Pohang",
+      "region": "North Gyeongsang",
+      "country": "South Korea",
+      "lat": 36.0111,
+      "lon": 129.3238
+    },
+    "institution_type": "university",
+    "short_description": "POSTECH (Pohang University of Science and Technology) is a top South Korean research university with emerging programs in quantum information and trapped-ion experiments.",
+    "focus_areas": [
+      "Physics",
+      "Quantum Information",
+      "Trapped Ions"
+    ],
+    "links": {
+      "website": "https://www.postech.ac.kr/eng/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/POSTECH",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "060-moonjoo-lee.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.postech.ac.kr/eng/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i023-postech.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i004-duke-university",
+    "name": "Duke University",
+    "sort_name": "Duke University",
+    "entity_type": "institution",
+    "aliases": [
+      "Duke"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Durham",
+      "region": "North Carolina",
+      "country": "United States",
+      "lat": 36.0014,
+      "lon": -78.9382
+    },
+    "institution_type": "university",
+    "short_description": "Duke University is a prestigious private research university in Durham, North Carolina, home to a major ion-trap quantum computing program.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Quantum Information Science",
+      "Ion Trap Engineering",
+      "Physics"
+    ],
+    "links": {
+      "website": "https://www.duke.edu/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Duke_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "042-kenneth-brown.md",
+        "004-christopher-monroe.md",
+        "010-jungsang-kim.md"
+      ],
+      "alumni": [
+        "064-junki-kim.md"
+      ],
+      "member_count": 3,
+      "alumni_count": 1
+    },
+    "sources": [
+      {
+        "url": "https://www.duke.edu/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i004-duke-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i033-sungkyunkwan-university-skku",
+    "name": "Sungkyunkwan University (SKKU)",
+    "sort_name": "Sungkyunkwan University (SKKU)",
+    "entity_type": "institution",
+    "aliases": [
+      "SKKU"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Suwon",
+      "region": "Gyeonggi",
+      "country": "South Korea",
+      "lat": 37.2939,
+      "lon": 126.9753
+    },
+    "institution_type": "university",
+    "short_description": "SKKU is a leading South Korean university with emerging quantum information research programs.",
+    "focus_areas": [
+      "Physics",
+      "Quantum Information"
+    ],
+    "links": {
+      "website": "https://www.skku.edu/eng/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sungkyunkwan_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "064-junki-kim.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.skku.edu/eng/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i033-sungkyunkwan-university-skku.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i040-university-of-buenos-aires",
+    "name": "University of Buenos Aires",
+    "sort_name": "University of Buenos Aires",
+    "entity_type": "institution",
+    "aliases": [
+      "UBA"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Buenos Aires",
+      "region": "",
+      "country": "Argentina",
+      "lat": -34.5997,
+      "lon": -58.3735
+    },
+    "institution_type": "university",
+    "short_description": "The University of Buenos Aires is Argentina's largest and most prestigious university, with research in quantum optics and trapped-ion experiments.",
+    "focus_areas": [
+      "Quantum Optics",
+      "Trapped Ions",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.uba.ar/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Buenos_Aires",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "025-christian-schmiegelow.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uba.ar/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i040-university-of-buenos-aires.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i053-university-of-tokyo",
+    "name": "University of Tokyo",
+    "sort_name": "University of Tokyo",
+    "entity_type": "institution",
+    "aliases": [
+      "UTokyo",
+      "Todai"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Tokyo",
+      "region": "",
+      "country": "Japan",
+      "lat": 35.7128,
+      "lon": 139.7621
+    },
+    "institution_type": "university",
+    "short_description": "The University of Tokyo is Japan's most prestigious university, with strong research programs in experimental physics including trapped-ion quantum information.",
+    "focus_areas": [
+      "Physics",
+      "Quantum Information",
+      "Trapped Ions",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.u-tokyo.ac.jp/en/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Tokyo",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "059-shuichi-hasegawa.md",
+        "058-atsushi-noguchi.md"
+      ],
+      "alumni": [
+        "055-takashi-mukaiyama.md",
+        "054-hiroki-takahashi.md"
+      ],
+      "member_count": 2,
+      "alumni_count": 2
+    },
+    "sources": [
+      {
+        "url": "https://www.u-tokyo.ac.jp/en/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i053-university-of-tokyo.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i011-institute-for-basic-science-ibs-south-korea",
+    "name": "Institute for Basic Science (IBS), South Korea",
+    "sort_name": "Institute for Basic Science (IBS), South Korea",
+    "entity_type": "institution",
+    "aliases": [
+      "IBS"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Daejeon",
+      "region": "",
+      "country": "South Korea",
+      "lat": 36.3722,
+      "lon": 127.362
+    },
+    "institution_type": "research_institute",
+    "short_description": "The Institute for Basic Science (IBS) is South Korea's flagship basic research institute, with a dedicated Center for Quantum Information that conducts world-class trapped-ion experiments.",
+    "focus_areas": [
+      "Quantum Information",
+      "Trapped Ions",
+      "Quantum Computing"
+    ],
+    "links": {
+      "website": "https://www.ibs.re.kr/eng.do",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Institute_for_Basic_Science",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "011-kihwan-kim.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.ibs.re.kr/eng.do",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i011-institute-for-basic-science-ibs-south-korea.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i048-university-of-oregon",
+    "name": "University of Oregon",
+    "sort_name": "University of Oregon",
+    "entity_type": "institution",
+    "aliases": [
+      "UO",
+      "U of O"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Eugene",
+      "region": "Oregon",
+      "country": "United States",
+      "lat": 44.0448,
+      "lon": -123.0726
+    },
+    "institution_type": "university",
+    "short_description": "The University of Oregon is a public research university where Nobel laureate David Wineland holds an appointment working on quantum physics.",
+    "focus_areas": [
+      "Quantum Physics",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.uoregon.edu/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Oregon",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "006-david-wineland.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uoregon.edu/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i048-university-of-oregon.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i008-griffith-university",
+    "name": "Griffith University",
+    "sort_name": "Griffith University",
+    "entity_type": "institution",
+    "aliases": [
+      "Griffith"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Brisbane/Gold Coast",
+      "region": "Queensland",
+      "country": "Australia",
+      "lat": -27.5557,
+      "lon": 153.046
+    },
+    "institution_type": "university",
+    "short_description": "Griffith University is an Australian research university based in Brisbane with research in quantum optics and atom-photon interfaces.",
+    "focus_areas": [
+      "Quantum Optics",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.griffith.edu.au/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Griffith_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "026-erik-streed.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.griffith.edu.au/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i008-griffith-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
+    "name": "Centre for Quantum Technologies, National University of Singapore",
+    "sort_name": "Centre for Quantum Technologies, National University of Singapore",
+    "entity_type": "institution",
+    "aliases": [
+      "CQT",
+      "CQT Singapore",
+      "NUS CQT"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Singapore",
+      "region": "",
+      "country": "Singapore",
+      "lat": 1.2966,
+      "lon": 103.7764
+    },
+    "institution_type": "research_center",
+    "short_description": "The Centre for Quantum Technologies (CQT) is a national research center of excellence at the National University of Singapore, focused on the fundamental physics of quantum mechanics and the building of quantum devices.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Quantum Information",
+      "Quantum Optics",
+      "Trapped Ions",
+      "Neutral Atoms"
+    ],
+    "links": {
+      "website": "https://www.quantumlah.org/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Centre_for_Quantum_Technologies",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "033-dzmitry-matsukevich.md",
+        "034-manas-mukherjee.md",
+        "032-murray-barrett.md"
+      ],
+      "alumni": [],
+      "member_count": 3,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.quantumlah.org/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i003-centre-for-quantum-technologies-national-university-of-singapore.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i044-university-of-granada",
+    "name": "University of Granada",
+    "sort_name": "University of Granada",
+    "entity_type": "institution",
+    "aliases": [
+      "UGR"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Granada",
+      "region": "Andalusia",
+      "country": "Spain",
+      "lat": 37.1809,
+      "lon": -3.6006
+    },
+    "institution_type": "university",
+    "short_description": "The University of Granada is a major Spanish research university with experimental programs in Penning trap mass spectrometry for nuclear and particle physics.",
+    "focus_areas": [
+      "Penning Traps",
+      "Mass Spectrometry",
+      "Nuclear Physics"
+    ],
+    "links": {
+      "website": "https://www.ugr.es/en",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Granada",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "079-daniel-rodriguez.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.ugr.es/en",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i044-university-of-granada.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i025-peking-university",
+    "name": "Peking University",
+    "sort_name": "Peking University",
+    "entity_type": "institution",
+    "aliases": [
+      "PKU",
+      "Beida"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Beijing",
+      "region": "",
+      "country": "China",
+      "lat": 39.9869,
+      "lon": 116.3059
+    },
+    "institution_type": "university",
+    "short_description": "Peking University is one of China's most prestigious research universities, with research groups in cold atoms and quantum optics.",
+    "focus_areas": [
+      "AMO Physics",
+      "Cold Atoms",
+      "Quantum Optics"
+    ],
+    "links": {
+      "website": "https://english.pku.edu.cn/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Peking_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "066-wenhui-li.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://english.pku.edu.cn/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i025-peking-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i047-university-of-kassel",
+    "name": "University of Kassel",
+    "sort_name": "University of Kassel",
+    "entity_type": "institution",
+    "aliases": [
+      "Uni Kassel"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Kassel",
+      "region": "Hesse",
+      "country": "Germany",
+      "lat": 51.3131,
+      "lon": 9.456
+    },
+    "institution_type": "university",
+    "short_description": "The University of Kassel is a German university with research groups in precision spectroscopy and highly charged ions.",
+    "focus_areas": [
+      "Precision Spectroscopy",
+      "Highly Charged Ions",
+      "Atomic Physics"
+    ],
+    "links": {
+      "website": "https://www.uni-kassel.de/uni/en/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Kassel",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "043-kilian-singer.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uni-kassel.de/uni/en/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i047-university-of-kassel.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i032-stockholm-university",
+    "name": "Stockholm University",
+    "sort_name": "Stockholm University",
+    "entity_type": "institution",
+    "aliases": [
+      "SU Stockholm"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Stockholm",
+      "region": "",
+      "country": "Sweden",
+      "lat": 59.3639,
+      "lon": 18.0583
+    },
+    "institution_type": "university",
+    "short_description": "Stockholm University is a major Swedish research university with research groups in trapped-ion quantum information.",
+    "focus_areas": [
+      "Quantum Information",
+      "Trapped Ions",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.su.se/english/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Stockholm_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "070-markus-hennrich.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.su.se/english/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i032-stockholm-university.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i007-georgia-institute-of-technology",
+    "name": "Georgia Institute of Technology",
+    "sort_name": "Georgia Institute of Technology",
+    "entity_type": "institution",
+    "aliases": [
+      "Georgia Tech",
+      "GT"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Atlanta",
+      "region": "Georgia",
+      "country": "United States",
+      "lat": 33.7756,
+      "lon": -84.3963
+    },
+    "institution_type": "university",
+    "short_description": "Georgia Institute of Technology is a top-tier public research university in Atlanta with emerging programs in quantum science and engineering.",
+    "focus_areas": [
+      "Quantum Science",
+      "Physics",
+      "Engineering"
+    ],
+    "links": {
+      "website": "https://www.gatech.edu/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Georgia_Institute_of_Technology",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "072-brian-mcmahon.md"
+      ],
+      "alumni": [
+        "033-dzmitry-matsukevich.md",
+        "032-murray-barrett.md"
+      ],
+      "member_count": 1,
+      "alumni_count": 2
+    },
+    "sources": [
+      {
+        "url": "https://www.gatech.edu/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i007-georgia-institute-of-technology.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i013-ionq-inc",
+    "name": "IonQ, Inc.",
+    "sort_name": "IonQ, Inc.",
+    "entity_type": "institution",
+    "aliases": [
+      "IonQ"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "College Park",
+      "region": "Maryland",
+      "country": "United States",
+      "lat": 38.9897,
+      "lon": -76.9378
+    },
+    "institution_type": "company",
+    "short_description": "IonQ is a leading quantum computing company building general-purpose trapped-ion quantum computers, founded by Christopher Monroe and Jungsang Kim.",
+    "focus_areas": [
+      "Quantum Computing",
+      "Trapped Ions",
+      "Quantum Hardware"
+    ],
+    "links": {
+      "website": "https://ionq.com/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/IonQ",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "003-chris-ballance.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://ionq.com/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i013-ionq-inc.md",
     "updated_at": ""
   },
   {
@@ -1018,8 +2790,8 @@
     },
     "directory": {
       "current_members": [
-        "049-patrick-gill.md",
-        "050-rachel-godun.md"
+        "050-rachel-godun.md",
+        "049-patrick-gill.md"
       ],
       "alumni": [],
       "member_count": 2,
@@ -1032,6 +2804,115 @@
       }
     ],
     "md_filename": "i020-national-physical-laboratory-npl.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i017-massachusetts-institute-of-technology",
+    "name": "Massachusetts Institute of Technology",
+    "sort_name": "Massachusetts Institute of Technology",
+    "entity_type": "institution",
+    "aliases": [
+      "MIT"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Cambridge",
+      "region": "Massachusetts",
+      "country": "United States",
+      "lat": 42.3601,
+      "lon": -71.0942
+    },
+    "institution_type": "university",
+    "short_description": "The Massachusetts Institute of Technology (MIT) is a world-renowned research university with pioneering contributions to quantum computing, cold atoms, and trapped-ion systems.",
+    "focus_areas": [
+      "Quantum Computing",
+      "AMO Physics",
+      "Quantum Information",
+      "Quantum Simulation"
+    ],
+    "links": {
+      "website": "https://www.mit.edu/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "041-isaac-chuang.md",
+        "040-vladan-vuletic.md"
+      ],
+      "alumni": [
+        "004-christopher-monroe.md",
+        "063-taehyun-kim.md",
+        "062-dan-cho.md",
+        "026-erik-streed.md"
+      ],
+      "member_count": 2,
+      "alumni_count": 4
+    },
+    "sources": [
+      {
+        "url": "https://www.mit.edu/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i017-massachusetts-institute-of-technology.md",
+    "updated_at": ""
+  },
+  {
+    "id": "i036-ulm-university",
+    "name": "Ulm University",
+    "sort_name": "Ulm University",
+    "entity_type": "institution",
+    "aliases": [
+      "Uni Ulm"
+    ],
+    "abbreviations": [],
+    "location": {
+      "city": "Ulm",
+      "region": "Baden-Württemberg",
+      "country": "Germany",
+      "lat": 48.4225,
+      "lon": 9.9565
+    },
+    "institution_type": "university",
+    "short_description": "Ulm University is a German research university with active trapped-ion and cold molecular ion research groups.",
+    "focus_areas": [
+      "Trapped Ions",
+      "Cold Molecular Ions",
+      "AMO Physics"
+    ],
+    "links": {
+      "website": "https://www.uni-ulm.de/en/",
+      "department": "",
+      "quantum_center": "",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ulm_University",
+      "linkedin": ""
+    },
+    "media": {
+      "logo_path": "",
+      "hero_image_path": ""
+    },
+    "directory": {
+      "current_members": [
+        "044-johannes-hecker-denschlag.md"
+      ],
+      "alumni": [],
+      "member_count": 1,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "url": "https://www.uni-ulm.de/en/",
+        "note": "Official website"
+      }
+    ],
+    "md_filename": "i036-ulm-university.md",
     "updated_at": ""
   },
   {
@@ -1094,273 +2975,6 @@
     "updated_at": ""
   },
   {
-    "id": "i025-peking-university",
-    "name": "Peking University",
-    "sort_name": "Peking University",
-    "entity_type": "institution",
-    "aliases": [
-      "PKU",
-      "Beida"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Beijing",
-      "region": "",
-      "country": "China",
-      "lat": 39.9869,
-      "lon": 116.3059
-    },
-    "institution_type": "university",
-    "short_description": "Peking University is one of China's most prestigious research universities, with research groups in cold atoms and quantum optics.",
-    "focus_areas": [
-      "AMO Physics",
-      "Cold Atoms",
-      "Quantum Optics"
-    ],
-    "links": {
-      "website": "https://english.pku.edu.cn/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Peking_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "066-wenhui-li.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://english.pku.edu.cn/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i025-peking-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i028-sandia-national-laboratories",
-    "name": "Sandia National Laboratories",
-    "sort_name": "Sandia National Laboratories",
-    "entity_type": "institution",
-    "aliases": [
-      "Sandia",
-      "SNL"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Albuquerque",
-      "region": "New Mexico",
-      "country": "United States",
-      "lat": 35.0584,
-      "lon": -106.5381
-    },
-    "institution_type": "government_lab",
-    "short_description": "Sandia National Laboratories is a major U.S. government research facility with programs in quantum computing using microfabricated ion traps.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Trapped Ions",
-      "Microfabricated Ion Traps",
-      "National Security"
-    ],
-    "links": {
-      "website": "https://www.sandia.gov/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Sandia_National_Laboratories",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "052-dan-stick.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.sandia.gov/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i028-sandia-national-laboratories.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i007-georgia-institute-of-technology",
-    "name": "Georgia Institute of Technology",
-    "sort_name": "Georgia Institute of Technology",
-    "entity_type": "institution",
-    "aliases": [
-      "Georgia Tech",
-      "GT"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Atlanta",
-      "region": "Georgia",
-      "country": "United States",
-      "lat": 33.7756,
-      "lon": -84.3963
-    },
-    "institution_type": "university",
-    "short_description": "Georgia Institute of Technology is a top-tier public research university in Atlanta with emerging programs in quantum science and engineering.",
-    "focus_areas": [
-      "Quantum Science",
-      "Physics",
-      "Engineering"
-    ],
-    "links": {
-      "website": "https://www.gatech.edu/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Georgia_Institute_of_Technology",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "072-brian-mcmahon.md"
-      ],
-      "alumni": [
-        "032-murray-barrett.md",
-        "033-dzmitry-matsukevich.md"
-      ],
-      "member_count": 1,
-      "alumni_count": 2
-    },
-    "sources": [
-      {
-        "url": "https://www.gatech.edu/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i007-georgia-institute-of-technology.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i051-university-of-sussex",
-    "name": "University of Sussex",
-    "sort_name": "University of Sussex",
-    "entity_type": "institution",
-    "aliases": [
-      "Sussex"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Brighton",
-      "region": "East Sussex",
-      "country": "United Kingdom",
-      "lat": 50.866,
-      "lon": -0.0873
-    },
-    "institution_type": "university",
-    "short_description": "The University of Sussex hosts the Sussex Centre for Quantum Technologies, a leading hub for trapped-ion quantum computing and scalable quantum engineering.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Quantum Engineering",
-      "Trapped Ions",
-      "Scalable Architectures"
-    ],
-    "links": {
-      "website": "https://www.sussex.ac.uk/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Sussex",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "071-matthias-keller.md",
-        "012-winfried-hensinger.md"
-      ],
-      "alumni": [],
-      "member_count": 2,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.sussex.ac.uk/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i051-university-of-sussex.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i055-university-of-washington",
-    "name": "University of Washington",
-    "sort_name": "University of Washington",
-    "entity_type": "institution",
-    "aliases": [
-      "UW",
-      "UDub"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Seattle",
-      "region": "Washington",
-      "country": "United States",
-      "lat": 47.6553,
-      "lon": -122.3035
-    },
-    "institution_type": "university",
-    "short_description": "The University of Washington is a major U.S. research university with experimental trapped-ion physics programs.",
-    "focus_areas": [
-      "Trapped Ions",
-      "AMO Physics",
-      "Quantum Information"
-    ],
-    "links": {
-      "website": "https://www.washington.edu/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Washington",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "075-boris-blinov.md"
-      ],
-      "alumni": [
-        "006-david-wineland.md"
-      ],
-      "member_count": 1,
-      "alumni_count": 1
-    },
-    "sources": [
-      {
-        "url": "https://www.washington.edu/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i055-university-of-washington.md",
-    "updated_at": ""
-  },
-  {
     "id": "i015-kyoto-university",
     "name": "Kyoto University",
     "sort_name": "Kyoto University",
@@ -1412,110 +3026,6 @@
       }
     ],
     "md_filename": "i015-kyoto-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i043-university-of-california-los-angeles",
-    "name": "University of California, Los Angeles",
-    "sort_name": "University of California, Los Angeles",
-    "entity_type": "institution",
-    "aliases": [
-      "UCLA"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Los Angeles",
-      "region": "California",
-      "country": "United States",
-      "lat": 34.0689,
-      "lon": -118.4452
-    },
-    "institution_type": "university",
-    "short_description": "UCLA is a leading public research university with strong programs in AMO physics, including trapped molecular ions and laser-cooled atomic systems.",
-    "focus_areas": [
-      "AMO Physics",
-      "Molecular Physics",
-      "Trapped Ions",
-      "Quantum Simulation"
-    ],
-    "links": {
-      "website": "https://www.ucla.edu/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_California,_Los_Angeles",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "039-wes-campbell.md",
-        "038-eric-hudson.md"
-      ],
-      "alumni": [],
-      "member_count": 2,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.ucla.edu/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i043-university-of-california-los-angeles.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i040-university-of-buenos-aires",
-    "name": "University of Buenos Aires",
-    "sort_name": "University of Buenos Aires",
-    "entity_type": "institution",
-    "aliases": [
-      "UBA"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Buenos Aires",
-      "region": "",
-      "country": "Argentina",
-      "lat": -34.5997,
-      "lon": -58.3735
-    },
-    "institution_type": "university",
-    "short_description": "The University of Buenos Aires is Argentina's largest and most prestigious university, with research in quantum optics and trapped-ion experiments.",
-    "focus_areas": [
-      "Quantum Optics",
-      "Trapped Ions",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.uba.ar/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Buenos_Aires",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "025-christian-schmiegelow.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.uba.ar/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i040-university-of-buenos-aires.md",
     "updated_at": ""
   },
   {
@@ -1571,915 +3081,35 @@
     "updated_at": ""
   },
   {
-    "id": "i029-seoul-national-university",
-    "name": "Seoul National University",
-    "sort_name": "Seoul National University",
+    "id": "i049-university-of-oxford",
+    "name": "University of Oxford",
+    "sort_name": "University of Oxford",
     "entity_type": "institution",
     "aliases": [
-      "SNU"
+      "Oxford",
+      "Oxon"
     ],
     "abbreviations": [],
     "location": {
-      "city": "Seoul",
-      "region": "",
-      "country": "South Korea",
-      "lat": 37.4602,
-      "lon": 126.9526
+      "city": "Oxford",
+      "region": "Oxfordshire",
+      "country": "United Kingdom",
+      "lat": 51.752,
+      "lon": -1.2577
     },
     "institution_type": "university",
-    "short_description": "Seoul National University is South Korea's most prestigious university, with growing research groups in quantum information and trapped-ion systems.",
-    "focus_areas": [
-      "Physics",
-      "Quantum Information",
-      "Trapped Ions",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://en.snu.ac.kr/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Seoul_National_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "063-taehyun-kim.md",
-        "062-dan-cho.md"
-      ],
-      "alumni": [
-        "011-kihwan-kim.md",
-        "060-moonjoo-lee.md"
-      ],
-      "member_count": 2,
-      "alumni_count": 2
-    },
-    "sources": [
-      {
-        "url": "https://en.snu.ac.kr/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i029-seoul-national-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
-    "name": "Indian Institute of Science Education and Research (IISER) Pune",
-    "sort_name": "Indian Institute of Science Education and Research (IISER) Pune",
-    "entity_type": "institution",
-    "aliases": [
-      "IISER Pune"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Pune",
-      "region": "Maharashtra",
-      "country": "India",
-      "lat": 18.5493,
-      "lon": 73.8029
-    },
-    "institution_type": "research_institute",
-    "short_description": "IISER Pune is a premier Indian research and teaching institute with growing activities in cold and ultracold molecule-ion physics.",
-    "focus_areas": [
-      "AMO Physics",
-      "Cold Molecules",
-      "Ion-Neutral Chemistry"
-    ],
-    "links": {
-      "website": "https://www.iiserpune.ac.in/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Indian_Institute_of_Science_Education_and_Research,_Pune",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "069-sadiq-rangwala.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.iiserpune.ac.in/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i010-indian-institute-of-science-education-and-research-iiser-pune.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i027-saarland-university",
-    "name": "Saarland University",
-    "sort_name": "Saarland University",
-    "entity_type": "institution",
-    "aliases": [
-      "Universität des Saarlandes",
-      "UdS"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Saarbrücken",
-      "region": "Saarland",
-      "country": "Germany",
-      "lat": 49.2547,
-      "lon": 7.0413
-    },
-    "institution_type": "university",
-    "short_description": "Saarland University is a German university with research programs in quantum optics and trapped-ion quantum information processing.",
-    "focus_areas": [
-      "Quantum Information",
-      "Trapped Ions",
-      "Quantum Optics"
-    ],
-    "links": {
-      "website": "https://www.uni-saarland.de/en/home.html",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Saarland_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "028-juergen-eschner.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.uni-saarland.de/en/home.html",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i027-saarland-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i047-university-of-kassel",
-    "name": "University of Kassel",
-    "sort_name": "University of Kassel",
-    "entity_type": "institution",
-    "aliases": [
-      "Uni Kassel"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Kassel",
-      "region": "Hesse",
-      "country": "Germany",
-      "lat": 51.3131,
-      "lon": 9.456
-    },
-    "institution_type": "university",
-    "short_description": "The University of Kassel is a German university with research groups in precision spectroscopy and highly charged ions.",
-    "focus_areas": [
-      "Precision Spectroscopy",
-      "Highly Charged Ions",
-      "Atomic Physics"
-    ],
-    "links": {
-      "website": "https://www.uni-kassel.de/uni/en/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Kassel",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "043-kilian-singer.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.uni-kassel.de/uni/en/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i047-university-of-kassel.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i011-institute-for-basic-science-ibs-south-korea",
-    "name": "Institute for Basic Science (IBS), South Korea",
-    "sort_name": "Institute for Basic Science (IBS), South Korea",
-    "entity_type": "institution",
-    "aliases": [
-      "IBS"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Daejeon",
-      "region": "",
-      "country": "South Korea",
-      "lat": 36.3722,
-      "lon": 127.362
-    },
-    "institution_type": "research_institute",
-    "short_description": "The Institute for Basic Science (IBS) is South Korea's flagship basic research institute, with a dedicated Center for Quantum Information that conducts world-class trapped-ion experiments.",
-    "focus_areas": [
-      "Quantum Information",
-      "Trapped Ions",
-      "Quantum Computing"
-    ],
-    "links": {
-      "website": "https://www.ibs.re.kr/eng.do",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Institute_for_Basic_Science",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "011-kihwan-kim.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.ibs.re.kr/eng.do",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i011-institute-for-basic-science-ibs-south-korea.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i036-ulm-university",
-    "name": "Ulm University",
-    "sort_name": "Ulm University",
-    "entity_type": "institution",
-    "aliases": [
-      "Uni Ulm"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Ulm",
-      "region": "Baden-Württemberg",
-      "country": "Germany",
-      "lat": 48.4225,
-      "lon": 9.9565
-    },
-    "institution_type": "university",
-    "short_description": "Ulm University is a German research university with active trapped-ion and cold molecular ion research groups.",
-    "focus_areas": [
-      "Trapped Ions",
-      "Cold Molecular Ions",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.uni-ulm.de/en/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Ulm_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "044-johannes-hecker-denschlag.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.uni-ulm.de/en/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i036-ulm-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i044-university-of-granada",
-    "name": "University of Granada",
-    "sort_name": "University of Granada",
-    "entity_type": "institution",
-    "aliases": [
-      "UGR"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Granada",
-      "region": "Andalusia",
-      "country": "Spain",
-      "lat": 37.1809,
-      "lon": -3.6006
-    },
-    "institution_type": "university",
-    "short_description": "The University of Granada is a major Spanish research university with experimental programs in Penning trap mass spectrometry for nuclear and particle physics.",
-    "focus_areas": [
-      "Penning Traps",
-      "Mass Spectrometry",
-      "Nuclear Physics"
-    ],
-    "links": {
-      "website": "https://www.ugr.es/en",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Granada",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "079-daniel-rodriguez.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.ugr.es/en",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i044-university-of-granada.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i006-ewha-womans-university",
-    "name": "Ewha Womans University",
-    "sort_name": "Ewha Womans University",
-    "entity_type": "institution",
-    "aliases": [
-      "Ewha"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Seoul",
-      "region": "",
-      "country": "South Korea",
-      "lat": 37.5618,
-      "lon": 126.9468
-    },
-    "institution_type": "university",
-    "short_description": "Ewha Womans University is a prestigious private university in Seoul, South Korea, with emerging research in quantum information science.",
-    "focus_areas": [
-      "Physics",
-      "Quantum Information"
-    ],
-    "links": {
-      "website": "https://www.ewha.ac.kr/ewhaen/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Ewha_Womans_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "061-taeyoung-choi.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.ewha.ac.kr/ewhaen/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i006-ewha-womans-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i023-postech",
-    "name": "POSTECH",
-    "sort_name": "POSTECH",
-    "entity_type": "institution",
-    "aliases": [
-      "Pohang University of Science and Technology"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Pohang",
-      "region": "North Gyeongsang",
-      "country": "South Korea",
-      "lat": 36.0111,
-      "lon": 129.3238
-    },
-    "institution_type": "university",
-    "short_description": "POSTECH (Pohang University of Science and Technology) is a top South Korean research university with emerging programs in quantum information and trapped-ion experiments.",
-    "focus_areas": [
-      "Physics",
-      "Quantum Information",
-      "Trapped Ions"
-    ],
-    "links": {
-      "website": "https://www.postech.ac.kr/eng/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/POSTECH",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "060-moonjoo-lee.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.postech.ac.kr/eng/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i023-postech.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i052-university-of-sydney",
-    "name": "University of Sydney",
-    "sort_name": "University of Sydney",
-    "entity_type": "institution",
-    "aliases": [
-      "USYD",
-      "Sydney"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Sydney",
-      "region": "New South Wales",
-      "country": "Australia",
-      "lat": -33.8882,
-      "lon": 151.1877
-    },
-    "institution_type": "university",
-    "short_description": "The University of Sydney hosts leading quantum control and trapped-ion research, including work on quantum sensing and noise-engineered quantum gates.",
-    "focus_areas": [
-      "Quantum Control",
-      "Trapped Ions",
-      "Quantum Sensing"
-    ],
-    "links": {
-      "website": "https://www.sydney.edu.au/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Sydney",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "021-mike-biercuk.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.sydney.edu.au/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i052-university-of-sydney.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i019-national-institute-of-standards-and-technology-nist-boulder",
-    "name": "National Institute of Standards and Technology (NIST), Boulder",
-    "sort_name": "National Institute of Standards and Technology (NIST), Boulder",
-    "entity_type": "institution",
-    "aliases": [
-      "NIST",
-      "NIST Boulder",
-      "NIST Ion Storage Group"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Boulder",
-      "region": "Colorado",
-      "country": "United States",
-      "lat": 39.9951,
-      "lon": -105.2615
-    },
-    "institution_type": "government_lab",
-    "short_description": "NIST Boulder is a U.S. government research laboratory that has been at the forefront of trapped-ion physics, precision measurement, and quantum information since the pioneering work of David Wineland.",
-    "focus_areas": [
-      "Precision Measurement",
-      "Quantum Computing",
-      "Optical Clocks",
-      "Trapped Ions"
-    ],
-    "links": {
-      "website": "https://www.nist.gov/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "073-david-hume.md",
-        "008-john-bollinger.md",
-        "007-dietrich-leibfried.md"
-      ],
-      "alumni": [
-        "004-christopher-monroe.md",
-        "001-roee-ozeri.md"
-      ],
-      "member_count": 3,
-      "alumni_count": 2
-    },
-    "sources": [
-      {
-        "url": "https://www.nist.gov/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i019-national-institute-of-standards-and-technology-nist-boulder.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i034-technion-israel-institute-of-technology",
-    "name": "Technion – Israel Institute of Technology",
-    "sort_name": "Technion – Israel Institute of Technology",
-    "entity_type": "institution",
-    "aliases": [
-      "Technion",
-      "IIT"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Haifa",
-      "region": "",
-      "country": "Israel",
-      "lat": 32.777,
-      "lon": 35.0218
-    },
-    "institution_type": "university",
-    "short_description": "The Technion is Israel's oldest university and a leading institute of technology, with strong programs in physics including cold ion-molecule experiments.",
-    "focus_areas": [
-      "Physics",
-      "Cold Chemistry",
-      "Ion-Molecule Interactions",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.technion.ac.il/en/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Technion_%E2%80%93_Israel_Institute_of_Technology",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "078-yuval-shagam.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.technion.ac.il/en/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i034-technion-israel-institute-of-technology.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i045-university-of-groningen",
-    "name": "University of Groningen",
-    "sort_name": "University of Groningen",
-    "entity_type": "institution",
-    "aliases": [
-      "RUG"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Groningen",
-      "region": "",
-      "country": "Netherlands",
-      "lat": 53.2194,
-      "lon": 6.5665
-    },
-    "institution_type": "university",
-    "short_description": "The University of Groningen is a leading Dutch research university with work in fundamental physics and precision measurements.",
-    "focus_areas": [
-      "Fundamental Physics",
-      "Precision Measurement",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.rug.nl/?lang=en",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Groningen",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "047-klaus-jungmann.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.rug.nl/?lang=en",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i045-university-of-groningen.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i031-stellenbosch-university",
-    "name": "Stellenbosch University",
-    "sort_name": "Stellenbosch University",
-    "entity_type": "institution",
-    "aliases": [
-      "SU",
-      "Maties"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Stellenbosch",
-      "region": "Western Cape",
-      "country": "South Africa",
-      "lat": -33.9321,
-      "lon": 18.8602
-    },
-    "institution_type": "university",
-    "short_description": "Stellenbosch University is a leading South African research university with the National Laser Centre and research in quantum control of trapped ions.",
-    "focus_areas": [
-      "Quantum Control",
-      "Trapped Ions",
-      "Laser Physics"
-    ],
-    "links": {
-      "website": "https://www.sun.ac.za/english",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Stellenbosch_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "048-hermann-uys.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.sun.ac.za/english",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i031-stellenbosch-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "o001-quantum-hub",
-    "name": "Quantum Hub",
-    "sort_name": "Quantum Hub",
-    "entity_type": "institution",
-    "aliases": [],
-    "abbreviations": [],
-    "location": {
-      "city": "Tel Aviv",
-      "region": "Tel Aviv District",
-      "country": "Israel",
-      "lat": 32.0853,
-      "lon": 34.7818
-    },
-    "institution_type": "unknown",
-    "short_description": "",
-    "focus_areas": [
-      "Quantum computing ecosystem development",
-      "Startup support",
-      "Industry–academia collaboration"
-    ],
-    "links": {
-      "website": "",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
-    },
-    "media": {},
-    "directory": {
-      "current_members": [],
-      "alumni": [],
-      "member_count": 0,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://finder.startupnationcentral.org",
-        "note": "Startup Nation Central ecosystem listing"
-      },
-      {
-        "url": "https://www.calcalistech.com",
-        "note": "Israeli quantum ecosystem overview mentioning Quantum Hub"
-      }
-    ],
-    "md_filename": "o001-quantum-hub.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i041-university-of-calgary",
-    "name": "University of Calgary",
-    "sort_name": "University of Calgary",
-    "entity_type": "institution",
-    "aliases": [
-      "UCalgary",
-      "U of C"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Calgary",
-      "region": "Alberta",
-      "country": "Canada",
-      "lat": 51.0776,
-      "lon": -114.13
-    },
-    "institution_type": "university",
-    "short_description": "The University of Calgary is a major Canadian research university with programs in quantum technologies and nanophotonics.",
-    "focus_areas": [
-      "Quantum Technologies",
-      "Nanophotonics",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.ucalgary.ca/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Calgary",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "068-paul-barclay.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.ucalgary.ca/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i041-university-of-calgary.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i008-griffith-university",
-    "name": "Griffith University",
-    "sort_name": "Griffith University",
-    "entity_type": "institution",
-    "aliases": [
-      "Griffith"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Brisbane/Gold Coast",
-      "region": "Queensland",
-      "country": "Australia",
-      "lat": -27.5557,
-      "lon": 153.046
-    },
-    "institution_type": "university",
-    "short_description": "Griffith University is an Australian research university based in Brisbane with research in quantum optics and atom-photon interfaces.",
-    "focus_areas": [
-      "Quantum Optics",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.griffith.edu.au/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Griffith_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "026-erik-streed.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.griffith.edu.au/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i008-griffith-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i042-university-of-california-berkeley",
-    "name": "University of California, Berkeley",
-    "sort_name": "University of California, Berkeley",
-    "entity_type": "institution",
-    "aliases": [
-      "UC Berkeley",
-      "Berkeley",
-      "Cal"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Berkeley",
-      "region": "California",
-      "country": "United States",
-      "lat": 37.8719,
-      "lon": -122.2585
-    },
-    "institution_type": "university",
-    "short_description": "UC Berkeley is a world-class public research university with pioneering trapped-ion quantum computing and AMO physics groups.",
+    "short_description": "The University of Oxford is one of the world's oldest and most prestigious universities, with leading trapped-ion quantum computing research in its Department of Physics.",
     "focus_areas": [
       "Quantum Computing",
       "Trapped Ions",
-      "AMO Physics"
+      "Quantum Error Correction",
+      "Quantum Networks"
     ],
     "links": {
-      "website": "https://www.berkeley.edu/",
+      "website": "https://www.ox.ac.uk/",
       "department": "",
       "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
+      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Oxford",
       "linkedin": ""
     },
     "media": {
@@ -2488,655 +3118,25 @@
     },
     "directory": {
       "current_members": [
-        "009-hartmut-haeffner.md"
+        "037-david-lucas.md"
       ],
       "alumni": [
-        "006-david-wineland.md",
-        "042-kenneth-brown.md"
+        "050-rachel-godun.md",
+        "036-richard-thompson.md",
+        "016-jonathan-home.md",
+        "003-chris-ballance.md",
+        "049-patrick-gill.md"
       ],
       "member_count": 1,
-      "alumni_count": 2
+      "alumni_count": 5
     },
     "sources": [
       {
-        "url": "https://www.berkeley.edu/",
+        "url": "https://www.ox.ac.uk/",
         "note": "Official website"
       }
     ],
-    "md_filename": "i042-university-of-california-berkeley.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i039-university-of-bonn",
-    "name": "University of Bonn",
-    "sort_name": "University of Bonn",
-    "entity_type": "institution",
-    "aliases": [
-      "Uni Bonn"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Bonn",
-      "region": "North Rhine-Westphalia",
-      "country": "Germany",
-      "lat": 50.7274,
-      "lon": 7.0842
-    },
-    "institution_type": "university",
-    "short_description": "The University of Bonn is a leading German research university with experimental groups in quantum optics and trapped-ion physics.",
-    "focus_areas": [
-      "Quantum Optics",
-      "Trapped Ions",
-      "Cold Atoms"
-    ],
-    "links": {
-      "website": "https://www.uni-bonn.de/en",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Bonn",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "019-michael-koehl.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.uni-bonn.de/en",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i039-university-of-bonn.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i005-eth-zurich",
-    "name": "ETH Zürich",
-    "sort_name": "ETH Zürich",
-    "entity_type": "institution",
-    "aliases": [
-      "ETH Zurich",
-      "ETHZ",
-      "Swiss Federal Institute of Technology"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Zürich",
-      "region": "Zurich",
-      "country": "Switzerland",
-      "lat": 47.3769,
-      "lon": 8.5417
-    },
-    "institution_type": "university",
-    "short_description": "ETH Zürich is one of the world's leading universities for science and technology, hosting premier trapped-ion quantum information groups.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Quantum Information",
-      "Trapped Ions",
-      "Condensed Matter Physics"
-    ],
-    "links": {
-      "website": "https://ethz.ch/en.html",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/ETH_Zurich",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "076-tilman-esslinger.md",
-        "016-jonathan-home.md"
-      ],
-      "alumni": [
-        "060-moonjoo-lee.md",
-        "035-stefan-willitsch.md"
-      ],
-      "member_count": 2,
-      "alumni_count": 2
-    },
-    "sources": [
-      {
-        "url": "https://ethz.ch/en.html",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i005-eth-zurich.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i030-simon-fraser-university",
-    "name": "Simon Fraser University",
-    "sort_name": "Simon Fraser University",
-    "entity_type": "institution",
-    "aliases": [
-      "SFU"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Burnaby",
-      "region": "British Columbia",
-      "country": "Canada",
-      "lat": 49.2781,
-      "lon": -122.9199
-    },
-    "institution_type": "university",
-    "short_description": "Simon Fraser University is a major Canadian research university with active programs in AMO physics and trapped-ion experiments.",
-    "focus_areas": [
-      "AMO Physics",
-      "Trapped Ions",
-      "Quantum Information"
-    ],
-    "links": {
-      "website": "https://www.sfu.ca/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Simon_Fraser_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "024-paul-haljan.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.sfu.ca/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i030-simon-fraser-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i057-open-quantum-design",
-    "name": "Open Quantum Design",
-    "sort_name": "Open Quantum Design",
-    "entity_type": "institution",
-    "aliases": [
-      "OQD"
-    ],
-    "abbreviations": [
-      "OQD"
-    ],
-    "location": {
-      "city": "Waterloo",
-      "region": "Ontario",
-      "country": "Canada",
-      "lat": 43.4643,
-      "lon": -80.5204
-    },
-    "institution_type": "non_profit",
-    "short_description": "A non-profit organization dedicated to building the world's first open-source, full-stack trapped-ion quantum computer, aiming to democratize quantum technology access.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Open Source Hardware",
-      "Trapped Ions",
-      "Quantum Engineering"
-    ],
-    "links": {
-      "website": "https://openquantumdesign.org/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [],
-      "alumni": [],
-      "member_count": 0,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://openquantumdesign.org/",
-        "note": "Official OQD Website"
-      }
-    ],
-    "md_filename": "i057-open-quantum-design.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i004-duke-university",
-    "name": "Duke University",
-    "sort_name": "Duke University",
-    "entity_type": "institution",
-    "aliases": [
-      "Duke"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Durham",
-      "region": "North Carolina",
-      "country": "United States",
-      "lat": 36.0014,
-      "lon": -78.9382
-    },
-    "institution_type": "university",
-    "short_description": "Duke University is a prestigious private research university in Durham, North Carolina, home to a major ion-trap quantum computing program.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Quantum Information Science",
-      "Ion Trap Engineering",
-      "Physics"
-    ],
-    "links": {
-      "website": "https://www.duke.edu/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Duke_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "004-christopher-monroe.md",
-        "042-kenneth-brown.md",
-        "010-jungsang-kim.md"
-      ],
-      "alumni": [
-        "064-junki-kim.md"
-      ],
-      "member_count": 3,
-      "alumni_count": 1
-    },
-    "sources": [
-      {
-        "url": "https://www.duke.edu/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i004-duke-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i038-university-of-basel",
-    "name": "University of Basel",
-    "sort_name": "University of Basel",
-    "entity_type": "institution",
-    "aliases": [
-      "Uni Basel"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Basel",
-      "region": "Basel-Stadt",
-      "country": "Switzerland",
-      "lat": 47.5581,
-      "lon": 7.5833
-    },
-    "institution_type": "university",
-    "short_description": "The University of Basel hosts research groups in quantum physics and trapped-ion precision spectroscopy within its Department of Physics.",
-    "focus_areas": [
-      "Precision Spectroscopy",
-      "Trapped Ions",
-      "Quantum Physics"
-    ],
-    "links": {
-      "website": "https://www.unibas.ch/en.html",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Basel",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "035-stefan-willitsch.md"
-      ],
-      "alumni": [
-        "002-ziv-meir.md"
-      ],
-      "member_count": 1,
-      "alumni_count": 1
-    },
-    "sources": [
-      {
-        "url": "https://www.unibas.ch/en.html",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i038-university-of-basel.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i050-university-of-siegen",
-    "name": "University of Siegen",
-    "sort_name": "University of Siegen",
-    "entity_type": "institution",
-    "aliases": [
-      "Uni Siegen"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Siegen",
-      "region": "North Rhine-Westphalia",
-      "country": "Germany",
-      "lat": 50.9093,
-      "lon": 8.0226
-    },
-    "institution_type": "university",
-    "short_description": "The University of Siegen is a German university with research in trapped-ion quantum information processing using microwave techniques.",
-    "focus_areas": [
-      "Quantum Information",
-      "Trapped Ions",
-      "Microwave Control"
-    ],
-    "links": {
-      "website": "https://www.uni-siegen.de/start/index.html.en",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Siegen",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "029-christof-wunderlich.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.uni-siegen.de/start/index.html.en",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i050-university-of-siegen.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i013-ionq-inc",
-    "name": "IonQ, Inc.",
-    "sort_name": "IonQ, Inc.",
-    "entity_type": "institution",
-    "aliases": [
-      "IonQ"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "College Park",
-      "region": "Maryland",
-      "country": "United States",
-      "lat": 38.9897,
-      "lon": -76.9378
-    },
-    "institution_type": "company",
-    "short_description": "IonQ is a leading quantum computing company building general-purpose trapped-ion quantum computers, founded by Christopher Monroe and Jungsang Kim.",
-    "focus_areas": [
-      "Quantum Computing",
-      "Trapped Ions",
-      "Quantum Hardware"
-    ],
-    "links": {
-      "website": "https://ionq.com/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/IonQ",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "003-chris-ballance.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://ionq.com/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i013-ionq-inc.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i053-university-of-tokyo",
-    "name": "University of Tokyo",
-    "sort_name": "University of Tokyo",
-    "entity_type": "institution",
-    "aliases": [
-      "UTokyo",
-      "Todai"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Tokyo",
-      "region": "",
-      "country": "Japan",
-      "lat": 35.7128,
-      "lon": 139.7621
-    },
-    "institution_type": "university",
-    "short_description": "The University of Tokyo is Japan's most prestigious university, with strong research programs in experimental physics including trapped-ion quantum information.",
-    "focus_areas": [
-      "Physics",
-      "Quantum Information",
-      "Trapped Ions",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.u-tokyo.ac.jp/en/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Tokyo",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "059-shuichi-hasegawa.md",
-        "058-atsushi-noguchi.md"
-      ],
-      "alumni": [
-        "054-hiroki-takahashi.md",
-        "055-takashi-mukaiyama.md"
-      ],
-      "member_count": 2,
-      "alumni_count": 2
-    },
-    "sources": [
-      {
-        "url": "https://www.u-tokyo.ac.jp/en/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i053-university-of-tokyo.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i032-stockholm-university",
-    "name": "Stockholm University",
-    "sort_name": "Stockholm University",
-    "entity_type": "institution",
-    "aliases": [
-      "SU Stockholm"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Stockholm",
-      "region": "",
-      "country": "Sweden",
-      "lat": 59.3639,
-      "lon": 18.0583
-    },
-    "institution_type": "university",
-    "short_description": "Stockholm University is a major Swedish research university with research groups in trapped-ion quantum information.",
-    "focus_areas": [
-      "Quantum Information",
-      "Trapped Ions",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.su.se/english/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/Stockholm_University",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "070-markus-hennrich.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.su.se/english/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i032-stockholm-university.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i018-national-institute-of-information-and-communications-technology-nict",
-    "name": "National Institute of Information and Communications Technology (NICT)",
-    "sort_name": "National Institute of Information and Communications Technology (NICT)",
-    "entity_type": "institution",
-    "aliases": [
-      "NICT"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Koganei",
-      "region": "Tokyo",
-      "country": "Japan",
-      "lat": 35.7107,
-      "lon": 139.4895
-    },
-    "institution_type": "government_lab",
-    "short_description": "NICT is Japan's national research institute for information and communications technologies, conducting research in optical clocks and frequency standards using trapped ions.",
-    "focus_areas": [
-      "Optical Clocks",
-      "Frequency Standards",
-      "Trapped Ions"
-    ],
-    "links": {
-      "website": "https://www.nict.go.jp/en/",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/National_Institute_of_Information_and_Communications_Technology",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "045-kazuhiro-hayasaka.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.nict.go.jp/en/",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i018-national-institute-of-information-and-communications-technology-nict.md",
-    "updated_at": ""
-  },
-  {
-    "id": "i037-university-of-amsterdam",
-    "name": "University of Amsterdam",
-    "sort_name": "University of Amsterdam",
-    "entity_type": "institution",
-    "aliases": [
-      "UvA"
-    ],
-    "abbreviations": [],
-    "location": {
-      "city": "Amsterdam",
-      "region": "",
-      "country": "Netherlands",
-      "lat": 52.3559,
-      "lon": 4.9554
-    },
-    "institution_type": "university",
-    "short_description": "The University of Amsterdam is a major Dutch research university with trapped-ion research groups in its Institute of Physics.",
-    "focus_areas": [
-      "Trapped Ions",
-      "Quantum Simulation",
-      "AMO Physics"
-    ],
-    "links": {
-      "website": "https://www.uva.nl/en",
-      "department": "",
-      "quantum_center": "",
-      "wikipedia": "https://en.wikipedia.org/wiki/University_of_Amsterdam",
-      "linkedin": ""
-    },
-    "media": {
-      "logo_path": "",
-      "hero_image_path": ""
-    },
-    "directory": {
-      "current_members": [
-        "030-rene-gerritsma.md"
-      ],
-      "alumni": [],
-      "member_count": 1,
-      "alumni_count": 0
-    },
-    "sources": [
-      {
-        "url": "https://www.uva.nl/en",
-        "note": "Official website"
-      }
-    ],
-    "md_filename": "i037-university-of-amsterdam.md",
+    "md_filename": "i049-university-of-oxford.md",
     "updated_at": ""
   }
 ]
