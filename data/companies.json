@@ -1,158 +1,5 @@
 [
   {
-    "id": "c005-quantum-source-labs",
-    "name": "Quantum Source Labs",
-    "sort_name": "Quantum Source Labs",
-    "entity_type": "company",
-    "platforms": [
-      "Photonic quantum computing",
-      "Hybrid photon-atom qubit architecture"
-    ],
-    "location": {
-      "city": "Ness Ziona",
-      "region": "Central",
-      "country": "Israel",
-      "lat": 31.9182,
-      "lon": 34.806
-    },
-    "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
-    "approach": {
-      "elevator_pitch": "Quantum Source Labs is building practical photonic quantum computers by coupling single atoms with photonic qubits, aiming for deterministic light-matter interactions that support fault-tolerant and scalable systems.",
-      "differentiators": [
-        "Photon-atom hybrid qubit architecture aimed at scalable, fault-tolerant quantum computing",
-        "Deterministic entangling gates via strong photon-atom interactions",
-        "Architecture targeted to scale to millions of qubits with reduced infrastructure complexity"
-      ],
-      "architecture_tags": [
-        "Photonic",
-        "Hybrid photon-atom",
-        "Cavity-QED"
-      ]
-    },
-    "focus_areas": [
-      "Scalable photonic quantum computing",
-      "Fault-tolerant quantum architectures",
-      "Hardware innovation for quantum processors"
-    ],
-    "products": [
-      "Photonic quantum computing systems (ORIGIN core engine initiative)"
-    ],
-    "people": {
-      "founders": [
-        {
-          "name": "Oded Melamed",
-          "role": "CEO & Co-Founder"
-        },
-        {
-          "name": "Gil Semo",
-          "role": "VP R&D & Co-Founder"
-        },
-        {
-          "name": "Dan Charash",
-          "role": "Chairman & Co-Founder"
-        },
-        {
-          "name": "Prof. Barak Dayan",
-          "role": "Chief Scientist & Co-Founder"
-        }
-      ],
-      "leadership": [],
-      "spun_out_of": [
-        "Independent research-driven startup leveraging quantum optics expertise"
-      ]
-    },
-    "status": {
-      "operating_status": "active",
-      "acquired": {
-        "is_acquired": false,
-        "acquired_by": null,
-        "acquisition_date": null,
-        "acquisition_type": null,
-        "deal_value_usd": null,
-        "announcement_url": null,
-        "notes": ""
-      }
-    },
-    "funding": {
-      "total_usd": 77000000,
-      "rounds": [
-        {
-          "round": "Series A",
-          "amount_usd": 50000000,
-          "date": "2024-09-10",
-          "lead_investors": [
-            "Eclipse Ventures"
-          ],
-          "other_investors": [
-            "Standard Investments",
-            "Level VC",
-            "Canon Equity",
-            "Dell Technologies Capital",
-            "Pitango First",
-            "Grove Ventures",
-            "10D"
-          ],
-          "notes": "Series A financing to advance photonic quantum computing hardware and scale technology."
-        },
-        {
-          "round": "Seed & extensions",
-          "amount_usd": 27000000,
-          "date": "2022-2023",
-          "lead_investors": [
-            "Grove Ventures",
-            "Pitango First",
-            "Eclipse Ventures",
-            "Dell Technologies Capital"
-          ],
-          "notes": "Initial seed plus extended seed rounds to develop core photonic hardware and expand engineering team."
-        }
-      ]
-    },
-    "milestones": [
-      {
-        "description": "Raised $50M in Series A funding to accelerate development of scalable photonic quantum computing systems.",
-        "date": "2024-09-10",
-        "sources": [
-          "https://en.globes.co.il/en/article-photonic-quantum-computer-co-quantum-source-raises-50m-1001488820"
-        ]
-      },
-      {
-        "description": "Announced ORIGIN core engine at the Quantum World Congress, featuring board member and former Israeli Prime Minister Naftali Bennett.",
-        "date": "2025",
-        "sources": [
-          "https://en.wikipedia.org/wiki/Quantum_Source_Labs"
-        ]
-      }
-    ],
-    "links": {
-      "website": "https://www.qs-labs.com/",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
-    },
-    "media": {},
-    "sources": [
-      {
-        "url": "https://www.qs-labs.com/",
-        "note": "Official company site — mission and technology"
-      },
-      {
-        "url": "https://en.globes.co.il/en/article-photonic-quantum-computer-co-quantum-source-raises-50m-1001488820",
-        "note": "Globes funding and company overview"
-      },
-      {
-        "url": "https://en.wikipedia.org/wiki/Quantum_Source_Labs",
-        "note": "Wikipedia company profile"
-      }
-    ],
-    "md_filename": "c005-quantum-source-labs.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [],
-      "member_count": 0
-    }
-  },
-  {
     "id": "c012-enquantum",
     "name": "enQuantum",
     "sort_name": "enQuantum",
@@ -322,6 +169,287 @@
     }
   },
   {
+    "id": "c014-quantum-source-labs",
+    "name": "Quantum Source Labs",
+    "sort_name": "Quantum Source Labs",
+    "entity_type": "company",
+    "platforms": [
+      "Photonic quantum computing",
+      "Hybrid photon-atom qubit architecture"
+    ],
+    "location": {
+      "city": "Ness Ziona",
+      "region": "Central",
+      "country": "Israel",
+      "lat": 31.9182,
+      "lon": 34.806
+    },
+    "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
+    "approach": {
+      "elevator_pitch": "Quantum Source Labs is building practical photonic quantum computers by coupling single atoms with photonic qubits, aiming for deterministic light-matter interactions that support fault-tolerant and scalable systems.",
+      "differentiators": [
+        "Photon-atom hybrid qubit architecture aimed at scalable, fault-tolerant quantum computing",
+        "Deterministic entangling gates via strong photon-atom interactions",
+        "Architecture targeted to scale to millions of qubits with reduced infrastructure complexity"
+      ],
+      "architecture_tags": [
+        "Photonic",
+        "Hybrid photon-atom",
+        "Cavity-QED"
+      ]
+    },
+    "focus_areas": [
+      "Scalable photonic quantum computing",
+      "Fault-tolerant quantum architectures",
+      "Hardware innovation for quantum processors"
+    ],
+    "products": [
+      "Photonic quantum computing systems (ORIGIN core engine initiative)"
+    ],
+    "people": {
+      "founders": [
+        {
+          "name": "Oded Melamed",
+          "role": "CEO & Co-Founder"
+        },
+        {
+          "name": "Gil Semo",
+          "role": "VP R&D & Co-Founder"
+        },
+        {
+          "name": "Dan Charash",
+          "role": "Chairman & Co-Founder"
+        },
+        {
+          "name": "Prof. Barak Dayan",
+          "role": "Chief Scientist & Co-Founder"
+        }
+      ],
+      "leadership": [],
+      "spun_out_of": [
+        "Independent research-driven startup leveraging quantum optics expertise"
+      ]
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": 77000000,
+      "rounds": [
+        {
+          "round": "Series A",
+          "amount_usd": 50000000,
+          "date": "2024-09-10",
+          "lead_investors": [
+            "Eclipse Ventures"
+          ],
+          "other_investors": [
+            "Standard Investments",
+            "Level VC",
+            "Canon Equity",
+            "Dell Technologies Capital",
+            "Pitango First",
+            "Grove Ventures",
+            "10D"
+          ],
+          "notes": "Series A financing to advance photonic quantum computing hardware and scale technology."
+        },
+        {
+          "round": "Seed & extensions",
+          "amount_usd": 27000000,
+          "date": "2022-2023",
+          "lead_investors": [
+            "Grove Ventures",
+            "Pitango First",
+            "Eclipse Ventures",
+            "Dell Technologies Capital"
+          ],
+          "notes": "Initial seed plus extended seed rounds to develop core photonic hardware and expand engineering team."
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "description": "Raised $50M in Series A funding to accelerate development of scalable photonic quantum computing systems.",
+        "date": "2024-09-10",
+        "sources": [
+          "https://en.globes.co.il/en/article-photonic-quantum-computer-co-quantum-source-raises-50m-1001488820"
+        ]
+      },
+      {
+        "description": "Announced ORIGIN core engine at the Quantum World Congress, featuring board member and former Israeli Prime Minister Naftali Bennett.",
+        "date": "2025",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Quantum_Source_Labs"
+        ]
+      }
+    ],
+    "links": {
+      "website": "https://www.qs-labs.com/",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "sources": [
+      {
+        "url": "https://www.qs-labs.com/",
+        "note": "Official company site — mission and technology"
+      },
+      {
+        "url": "https://en.globes.co.il/en/article-photonic-quantum-computer-co-quantum-source-raises-50m-1001488820",
+        "note": "Globes funding and company overview"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Quantum_Source_Labs",
+        "note": "Wikipedia company profile"
+      }
+    ],
+    "md_filename": "c014-quantum-source-labs.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [],
+      "member_count": 0
+    }
+  },
+  {
+    "id": "c013-qedma",
+    "name": "Qedma",
+    "sort_name": "Qedma",
+    "entity_type": "company",
+    "platforms": [
+      "Quantum error mitigation & noise resilience software"
+    ],
+    "location": {
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "country": "Israel",
+      "lat": 32.1066,
+      "lon": 34.8121
+    },
+    "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
+    "approach": {
+      "elevator_pitch": "Qedma improves quantum computing performance by transforming algorithms designed for error-free processors into forms that can run accurately on current noisy quantum hardware, using error suppression, characterization, and mitigation techniques.",
+      "differentiators": [
+        "Platform-agnostic error suppression and mitigation solutions for noisy quantum processors",
+        "High-precision characterization of multi-qubit systems with rapid speed-to-accuracy trade-offs",
+        "Integration with major quantum ecosystems (e.g., IBM’s Qiskit Functions)"
+      ],
+      "architecture_tags": [
+        "Error mitigation",
+        "Quantum software layer"
+      ]
+    },
+    "focus_areas": [
+      "Quantum error mitigation software",
+      "Quantum hardware characterization",
+      "Performance optimization for NISQ devices"
+    ],
+    "products": [
+      "QESEM (Quantum Error Suppression & Error Mitigation)",
+      "Characterization software for detailed, high-accuracy noise profiling"
+    ],
+    "people": {
+      "founders": [
+        {
+          "name": "Dr. Asif Sinay",
+          "role": "CEO & Co-Founder"
+        },
+        {
+          "name": "Prof. Dorit Aharonov",
+          "role": "CSO & Co-Founder"
+        },
+        {
+          "name": "Prof. Netanel Lindner",
+          "role": "CTO & Co-Founder"
+        }
+      ],
+      "leadership": [],
+      "spun_out_of": [
+        "Independent Israeli quantum software startup founded by research leaders in quantum computing"
+      ]
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": 26000000,
+      "rounds": [
+        {
+          "round": "Series A",
+          "amount_usd": 26000000,
+          "date": "2025-07-03",
+          "lead_investors": [
+            "Glilot Capital Partners (Glilot+)"
+          ],
+          "other_investors": [
+            "IBM",
+            "TPY Capital",
+            "Korean Investment Partners"
+          ],
+          "notes": "Series A round to scale noise resilience and error mitigation software."
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "description": "Raised $26M in Series A funding to accelerate development of quantum error mitigation and characterization products.",
+        "date": "2025-07-03",
+        "sources": [
+          "https://en.globes.co.il/en/article-Quantum-computing-co-Qedma-raises-23m-1001514980"
+        ]
+      },
+      {
+        "description": "Qedma’s software integrated into IBM’s Qiskit Functions ecosystem.",
+        "date": "2025",
+        "sources": [
+          "https://www.prnewswire.com/news-releases/qedma-raises-26m-with-participation-from-ibm-to-tackle-quantum-computing-errors-and-accelerate-pace-to-quantum-advantage-302497701.html"
+        ]
+      }
+    ],
+    "links": {
+      "website": "https://www.qedma.com/",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "sources": [
+      {
+        "url": "https://www.qedma.com/",
+        "note": "Official company site describing mission and products"
+      },
+      {
+        "url": "https://en.globes.co.il/en/article-Quantum-computing-co-Qedma-raises-23m-1001514980",
+        "note": "Globes news reporting on funding and founders"
+      }
+    ],
+    "md_filename": "c013-qedma.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [],
+      "member_count": 0
+    }
+  },
+  {
     "id": "c001-quantum-art",
     "name": "Quantum Art",
     "sort_name": "Quantum Art",
@@ -449,149 +577,6 @@
         "001-roee-ozeri.md"
       ],
       "member_count": 1
-    }
-  },
-  {
-    "id": "c006-quamcore",
-    "name": "QuamCore",
-    "sort_name": "QuamCore",
-    "entity_type": "company",
-    "platforms": [
-      "Superconducting quantum computing",
-      "Scalable million-qubit architectures"
-    ],
-    "location": {
-      "city": "Herzliya",
-      "region": "Central",
-      "country": "Israel",
-      "lat": 32.167,
-      "lon": 34.8117
-    },
-    "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
-    "approach": {
-      "elevator_pitch": "QuamCore pioneers architecture-first superconducting quantum computing, embedding ultra-low-power digital control logic inside the cryostat to overcome scaling limits and enable fault-tolerant systems with up to one million qubits.",
-      "differentiators": [
-        "Architecture-first superconducting processor design aimed at scaling beyond typical limits",
-        "Built-in error correction and high qubit density within a single cryogenic chamber",
-        "Reduces cabling and thermal bottlenecks via integrated control logic"
-      ],
-      "architecture_tags": [
-        "Superconducting",
-        "Digital control integrated cryostat",
-        "Fault-tolerance focus"
-      ]
-    },
-    "focus_areas": [
-      "Scalable quantum hardware",
-      "Superconducting architectures",
-      "Fault-tolerant system engineering"
-    ],
-    "products": [
-      "Million-qubit superconducting quantum processor architecture (design & roadmap)"
-    ],
-    "people": {
-      "founders": [
-        {
-          "name": "Alon Cohen",
-          "role": "CEO & Co-Founder"
-        },
-        {
-          "name": "Prof. Shay Hacohen-Gourgy",
-          "role": "CTO & Co-Founder"
-        },
-        {
-          "name": "Prof. Serge Rosenblum",
-          "role": "Chief Scientist & Co-Founder"
-        }
-      ],
-      "leadership": [],
-      "spun_out_of": [
-        "Independent deep-tech startup with academic and industry expertise"
-      ]
-    },
-    "status": {
-      "operating_status": "active",
-      "acquired": {
-        "is_acquired": false,
-        "acquired_by": null,
-        "acquisition_date": null,
-        "acquisition_type": null,
-        "deal_value_usd": null,
-        "announcement_url": null,
-        "notes": ""
-      }
-    },
-    "funding": {
-      "total_usd": 35000000,
-      "rounds": [
-        {
-          "round": "Series A",
-          "amount_usd": 26000000,
-          "date": "2025-08-04",
-          "lead_investors": [
-            "Sentinel Global"
-          ],
-          "other_investors": [
-            "Arkin Capital",
-            "Viola Ventures",
-            "Earth & Beyond Ventures",
-            "Surround Ventures",
-            "Rhodium",
-            "Qbeat Ventures"
-          ],
-          "notes": "Series A brought total funding to ~$35M including a $4M grant from Israel Innovation Authority."
-        },
-        {
-          "round": "Seed",
-          "amount_usd": 9000000,
-          "date": "2025-03-12",
-          "lead_investors": [
-            "Viola Ventures",
-            "Earth & Beyond Ventures"
-          ],
-          "other_investors": [],
-          "notes": "Emergence from stealth with seed funding."
-        }
-      ]
-    },
-    "milestones": [
-      {
-        "description": "Company emerged from stealth with $9M seed funding to build a scalable million-qubit platform.",
-        "date": "2025-03-12",
-        "sources": [
-          "https://www.prnewswire.com/il/news-releases/quamcore-emerges-from-stealth-with-9-million-in-seed-funding-to-build-worlds-first-scalable-1-million-qubit-quantum-computer-302399694.html"
-        ]
-      },
-      {
-        "description": "Completed $26M Series A, raising total funding to ~$35M for architecture development and prototype commercialization.",
-        "date": "2025-08-04",
-        "sources": [
-          "https://en.globes.co.il/en/article-israeli-quantum-computing-co-quamcore-raises-26m-1001518007"
-        ]
-      }
-    ],
-    "links": {
-      "website": "https://www.quamcore.com",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
-    },
-    "media": {},
-    "sources": [
-      {
-        "url": "https://www.quamcore.com",
-        "note": "Official site overview of company mission and technology"
-      },
-      {
-        "url": "https://www.prnewswire.com/il/news-releases/quamcore-emerges-from-stealth-with-9-million-in-seed-funding-to-build-worlds-first-scalable-1-million-qubit-quantum-computer-302399694.html",
-        "note": "PR Newswire: seed funding and leadership"
-      }
-    ],
-    "md_filename": "c006-quamcore.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [],
-      "member_count": 0
     }
   },
   {
@@ -780,6 +765,149 @@
     }
   },
   {
+    "id": "c015-quamcore",
+    "name": "QuamCore",
+    "sort_name": "QuamCore",
+    "entity_type": "company",
+    "platforms": [
+      "Superconducting quantum computing",
+      "Scalable million-qubit architectures"
+    ],
+    "location": {
+      "city": "Herzliya",
+      "region": "Central",
+      "country": "Israel",
+      "lat": 32.167,
+      "lon": 34.8117
+    },
+    "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
+    "approach": {
+      "elevator_pitch": "QuamCore pioneers architecture-first superconducting quantum computing, embedding ultra-low-power digital control logic inside the cryostat to overcome scaling limits and enable fault-tolerant systems with up to one million qubits.",
+      "differentiators": [
+        "Architecture-first superconducting processor design aimed at scaling beyond typical limits",
+        "Built-in error correction and high qubit density within a single cryogenic chamber",
+        "Reduces cabling and thermal bottlenecks via integrated control logic"
+      ],
+      "architecture_tags": [
+        "Superconducting",
+        "Digital control integrated cryostat",
+        "Fault-tolerance focus"
+      ]
+    },
+    "focus_areas": [
+      "Scalable quantum hardware",
+      "Superconducting architectures",
+      "Fault-tolerant system engineering"
+    ],
+    "products": [
+      "Million-qubit superconducting quantum processor architecture (design & roadmap)"
+    ],
+    "people": {
+      "founders": [
+        {
+          "name": "Alon Cohen",
+          "role": "CEO & Co-Founder"
+        },
+        {
+          "name": "Prof. Shay Hacohen-Gourgy",
+          "role": "CTO & Co-Founder"
+        },
+        {
+          "name": "Prof. Serge Rosenblum",
+          "role": "Chief Scientist & Co-Founder"
+        }
+      ],
+      "leadership": [],
+      "spun_out_of": [
+        "Independent deep-tech startup with academic and industry expertise"
+      ]
+    },
+    "status": {
+      "operating_status": "active",
+      "acquired": {
+        "is_acquired": false,
+        "acquired_by": null,
+        "acquisition_date": null,
+        "acquisition_type": null,
+        "deal_value_usd": null,
+        "announcement_url": null,
+        "notes": ""
+      }
+    },
+    "funding": {
+      "total_usd": 35000000,
+      "rounds": [
+        {
+          "round": "Series A",
+          "amount_usd": 26000000,
+          "date": "2025-08-04",
+          "lead_investors": [
+            "Sentinel Global"
+          ],
+          "other_investors": [
+            "Arkin Capital",
+            "Viola Ventures",
+            "Earth & Beyond Ventures",
+            "Surround Ventures",
+            "Rhodium",
+            "Qbeat Ventures"
+          ],
+          "notes": "Series A brought total funding to ~$35M including a $4M grant from Israel Innovation Authority."
+        },
+        {
+          "round": "Seed",
+          "amount_usd": 9000000,
+          "date": "2025-03-12",
+          "lead_investors": [
+            "Viola Ventures",
+            "Earth & Beyond Ventures"
+          ],
+          "other_investors": [],
+          "notes": "Emergence from stealth with seed funding."
+        }
+      ]
+    },
+    "milestones": [
+      {
+        "description": "Company emerged from stealth with $9M seed funding to build a scalable million-qubit platform.",
+        "date": "2025-03-12",
+        "sources": [
+          "https://www.prnewswire.com/il/news-releases/quamcore-emerges-from-stealth-with-9-million-in-seed-funding-to-build-worlds-first-scalable-1-million-qubit-quantum-computer-302399694.html"
+        ]
+      },
+      {
+        "description": "Completed $26M Series A, raising total funding to ~$35M for architecture development and prototype commercialization.",
+        "date": "2025-08-04",
+        "sources": [
+          "https://en.globes.co.il/en/article-israeli-quantum-computing-co-quamcore-raises-26m-1001518007"
+        ]
+      }
+    ],
+    "links": {
+      "website": "https://www.quamcore.com",
+      "careers": "",
+      "news": "",
+      "linkedin": ""
+    },
+    "media": {},
+    "sources": [
+      {
+        "url": "https://www.quamcore.com",
+        "note": "Official site overview of company mission and technology"
+      },
+      {
+        "url": "https://www.prnewswire.com/il/news-releases/quamcore-emerges-from-stealth-with-9-million-in-seed-funding-to-build-worlds-first-scalable-1-million-qubit-quantum-computer-302399694.html",
+        "note": "PR Newswire: seed funding and leadership"
+      }
+    ],
+    "md_filename": "c015-quamcore.md",
+    "updated_at": "",
+    "directory": {
+      "current_members": [],
+      "member_count": 0
+    }
+  },
+  {
     "id": "c009-quantlr",
     "name": "QuantLR",
     "sort_name": "QuantLR",
@@ -874,134 +1002,6 @@
       }
     ],
     "md_filename": "c009-quantlr.md",
-    "updated_at": "",
-    "directory": {
-      "current_members": [],
-      "member_count": 0
-    }
-  },
-  {
-    "id": "c004-qedma",
-    "name": "Qedma",
-    "sort_name": "Qedma",
-    "entity_type": "company",
-    "platforms": [
-      "Quantum error mitigation & noise resilience software"
-    ],
-    "location": {
-      "city": "Tel Aviv",
-      "region": "Tel Aviv District",
-      "country": "Israel",
-      "lat": 32.1066,
-      "lon": 34.8121
-    },
-    "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
-    "approach": {
-      "elevator_pitch": "Qedma improves quantum computing performance by transforming algorithms designed for error-free processors into forms that can run accurately on current noisy quantum hardware, using error suppression, characterization, and mitigation techniques.",
-      "differentiators": [
-        "Platform-agnostic error suppression and mitigation solutions for noisy quantum processors",
-        "High-precision characterization of multi-qubit systems with rapid speed-to-accuracy trade-offs",
-        "Integration with major quantum ecosystems (e.g., IBM’s Qiskit Functions)"
-      ],
-      "architecture_tags": [
-        "Error mitigation",
-        "Quantum software layer"
-      ]
-    },
-    "focus_areas": [
-      "Quantum error mitigation software",
-      "Quantum hardware characterization",
-      "Performance optimization for NISQ devices"
-    ],
-    "products": [
-      "QESEM (Quantum Error Suppression & Error Mitigation)",
-      "Characterization software for detailed, high-accuracy noise profiling"
-    ],
-    "people": {
-      "founders": [
-        {
-          "name": "Dr. Asif Sinay",
-          "role": "CEO & Co-Founder"
-        },
-        {
-          "name": "Prof. Dorit Aharonov",
-          "role": "CSO & Co-Founder"
-        },
-        {
-          "name": "Prof. Netanel Lindner",
-          "role": "CTO & Co-Founder"
-        }
-      ],
-      "leadership": [],
-      "spun_out_of": [
-        "Independent Israeli quantum software startup founded by research leaders in quantum computing"
-      ]
-    },
-    "status": {
-      "operating_status": "active",
-      "acquired": {
-        "is_acquired": false,
-        "acquired_by": null,
-        "acquisition_date": null,
-        "acquisition_type": null,
-        "deal_value_usd": null,
-        "announcement_url": null,
-        "notes": ""
-      }
-    },
-    "funding": {
-      "total_usd": 26000000,
-      "rounds": [
-        {
-          "round": "Series A",
-          "amount_usd": 26000000,
-          "date": "2025-07-03",
-          "lead_investors": [
-            "Glilot Capital Partners (Glilot+)"
-          ],
-          "other_investors": [
-            "IBM",
-            "TPY Capital",
-            "Korean Investment Partners"
-          ],
-          "notes": "Series A round to scale noise resilience and error mitigation software."
-        }
-      ]
-    },
-    "milestones": [
-      {
-        "description": "Raised $26M in Series A funding to accelerate development of quantum error mitigation and characterization products.",
-        "date": "2025-07-03",
-        "sources": [
-          "https://en.globes.co.il/en/article-Quantum-computing-co-Qedma-raises-23m-1001514980"
-        ]
-      },
-      {
-        "description": "Qedma’s software integrated into IBM’s Qiskit Functions ecosystem.",
-        "date": "2025",
-        "sources": [
-          "https://www.prnewswire.com/news-releases/qedma-raises-26m-with-participation-from-ibm-to-tackle-quantum-computing-errors-and-accelerate-pace-to-quantum-advantage-302497701.html"
-        ]
-      }
-    ],
-    "links": {
-      "website": "https://www.qedma.com/",
-      "careers": "",
-      "news": "",
-      "linkedin": ""
-    },
-    "media": {},
-    "sources": [
-      {
-        "url": "https://www.qedma.com/",
-        "note": "Official company site describing mission and products"
-      },
-      {
-        "url": "https://en.globes.co.il/en/article-Quantum-computing-co-Qedma-raises-23m-1001514980",
-        "note": "Globes news reporting on funding and founders"
-      }
-    ],
-    "md_filename": "c004-qedma.md",
     "updated_at": "",
     "directory": {
       "current_members": [],

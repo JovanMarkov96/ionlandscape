@@ -4,30 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c005-quantum-source-labs",
-        "name": "Quantum Source Labs",
-        "entity_type": "company",
-        "platforms": [
-          "Photonic quantum computing",
-          "Hybrid photon-atom qubit architecture"
-        ],
-        "city": "Ness Ziona",
-        "country": "Israel",
-        "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
-        "logo_path": "",
-        "md_filename": "c005-quantum-source-labs.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.806,
-          31.9182
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "c012-enquantum",
         "name": "enQuantum",
         "entity_type": "company",
@@ -77,6 +53,53 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "c014-quantum-source-labs",
+        "name": "Quantum Source Labs",
+        "entity_type": "company",
+        "platforms": [
+          "Photonic quantum computing",
+          "Hybrid photon-atom qubit architecture"
+        ],
+        "city": "Ness Ziona",
+        "country": "Israel",
+        "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
+        "logo_path": "",
+        "md_filename": "c014-quantum-source-labs.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.806,
+          31.9182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c013-qedma",
+        "name": "Qedma",
+        "entity_type": "company",
+        "platforms": [
+          "Quantum error mitigation & noise resilience software"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
+        "logo_path": "",
+        "md_filename": "c013-qedma.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8121,
+          32.1066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "c001-quantum-art",
         "name": "Quantum Art",
         "entity_type": "company",
@@ -94,30 +117,6 @@
         "coordinates": [
           34.8025,
           31.9284
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c006-quamcore",
-        "name": "QuamCore",
-        "entity_type": "company",
-        "platforms": [
-          "Superconducting quantum computing",
-          "Scalable million-qubit architectures"
-        ],
-        "city": "Herzliya",
-        "country": "Israel",
-        "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
-        "logo_path": "",
-        "md_filename": "c006-quamcore.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8117,
-          32.167
         ]
       }
     },
@@ -171,6 +170,30 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "c015-quamcore",
+        "name": "QuamCore",
+        "entity_type": "company",
+        "platforms": [
+          "Superconducting quantum computing",
+          "Scalable million-qubit architectures"
+        ],
+        "city": "Herzliya",
+        "country": "Israel",
+        "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
+        "logo_path": "",
+        "md_filename": "c015-quamcore.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8117,
+          32.167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "c009-quantlr",
         "name": "QuantLR",
         "entity_type": "company",
@@ -190,29 +213,6 @@
         "coordinates": [
           35.0003,
           31.8906
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c004-qedma",
-        "name": "Qedma",
-        "entity_type": "company",
-        "platforms": [
-          "Quantum error mitigation & noise resilience software"
-        ],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
-        "logo_path": "",
-        "md_filename": "c004-qedma.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8121,
-          32.1066
         ]
       }
     },
