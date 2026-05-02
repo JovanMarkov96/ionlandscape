@@ -324,6 +324,26 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "i058-quantum-hub",
+        "name": "Quantum Hub",
+        "entity_type": "institution",
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_description": "",
+        "logo_path": "",
+        "md_filename": "i058-quantum-hub.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "i042-university-of-california-berkeley",
         "name": "University of California, Berkeley",
         "entity_type": "institution",
@@ -358,26 +378,6 @@
         "coordinates": [
           73.8029,
           18.5493
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "o001-quantum-hub",
-        "name": "Quantum Hub",
-        "entity_type": "institution",
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_description": "",
-        "logo_path": "",
-        "md_filename": "o001-quantum-hub.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.7818,
-          32.0853
         ]
       }
     },
