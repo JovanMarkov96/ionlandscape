@@ -52,3 +52,6 @@ tile-generation/tilemaker.exe
 tile-generation/*.pmtiles
 tile-generation/*.mbtiles
 tile-generation/data/
+
+# Private working notes (vision, refactor plans, scratchpad)
+private/

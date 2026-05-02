@@ -18,8 +18,3 @@ install and deploy; this folder is for everything else.
 
 - [templates/data-quality.md](templates/data-quality.md) — Per-profile data-quality notes
 - [templates/evidence-map.md](templates/evidence-map.md) — Field-to-source mapping
-
-## Planning
-
-- [planning/todo.md](planning/todo.md) — Roadmap and feature backlog
-- [planning/repo-audit.md](planning/repo-audit.md) — Notes on key files relied upon
