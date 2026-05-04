@@ -1,6 +1,9 @@
 ---
 aliases:
 - Uni Basel
+applications_represented:
+- fundamental_physics
+- simulation
 directory:
   alumni:
   - 002-ziv-meir.md
@@ -14,9 +17,11 @@ focus_areas:
 - Precision Spectroscopy
 - Trapped Ions
 - Quantum Physics
+group_count: 1
 id: i038-university-of-basel
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -33,6 +38,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Basel
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Basel hosts research groups in quantum physics
   and trapped-ion precision spectroscopy within its Department of Physics.
@@ -40,5 +47,5 @@ sort_name: University of Basel
 sources:
 - note: Official website
   url: https://www.unibas.ch/en.html
-verification_source_count: null
+verification_source_count: 2
 ---

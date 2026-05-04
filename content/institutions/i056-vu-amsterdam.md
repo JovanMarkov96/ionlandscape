@@ -2,6 +2,11 @@
 aliases:
 - VU
 - Vrije Universiteit Amsterdam
+applications_represented:
+- computing
+- fundamental_physics
+- optical_clocks
+- sensing_metrology
 directory:
   alumni: []
   alumni_count: 0
@@ -16,9 +21,11 @@ focus_areas:
 - Fundamental Physics
 - AMO Physics
 - Optical Frequency Metrology
+group_count: 2
 id: i056-vu-amsterdam
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -35,6 +42,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: VU Amsterdam
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: VU Amsterdam (Vrije Universiteit Amsterdam) is a major Dutch research
   university with strong programs in precision measurements and fundamental physics.
@@ -42,5 +51,5 @@ sort_name: VU Amsterdam
 sources:
 - note: Official website
   url: https://vu.nl/en
-verification_source_count: null
+verification_source_count: 2
 ---

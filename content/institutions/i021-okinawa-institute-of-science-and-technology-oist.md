@@ -1,6 +1,9 @@
 ---
 aliases:
 - OIST
+applications_represented:
+- computing
+- networking
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +16,11 @@ focus_areas:
 - Quantum Information
 - Trapped Ions
 - AMO Physics
+group_count: 1
 id: i021-okinawa-institute-of-science-and-technology-oist
 institution_type: research_centre
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +37,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Okinawa Institute of Science and Technology (OIST)
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: OIST is an interdisciplinary graduate university in Okinawa, Japan,
   with growing research programs in quantum information and ion-trap experiments.
@@ -39,5 +46,5 @@ sort_name: Okinawa Institute of Science and Technology (OIST)
 sources:
 - note: Official website
   url: https://www.oist.jp/
-verification_source_count: null
+verification_source_count: 2
 ---

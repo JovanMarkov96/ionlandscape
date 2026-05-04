@@ -1,6 +1,9 @@
 ---
 aliases:
 - MIT
+applications_represented:
+- computing
+- sensing_metrology
 directory:
   alumni:
   - 004-christopher-monroe.md
@@ -19,9 +22,11 @@ focus_areas:
 - AMO Physics
 - Quantum Information
 - Quantum Simulation
+group_count: 2
 id: i017-massachusetts-institute-of-technology
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -38,6 +43,9 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Massachusetts Institute of Technology
+platforms_represented:
+- neutral_atom
+- trapped_ion
 schema_version: 1
 short_description: The Massachusetts Institute of Technology (MIT) is a world-renowned
   research university with pioneering contributions to quantum computing, cold atoms,
@@ -46,5 +54,5 @@ sort_name: Massachusetts Institute of Technology
 sources:
 - note: Official website
   url: https://www.mit.edu/
-verification_source_count: null
+verification_source_count: 2
 ---

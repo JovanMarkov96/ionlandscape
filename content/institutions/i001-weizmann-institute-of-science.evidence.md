@@ -1,3 +1,10 @@
+---
+institution_type: university
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
+verification_source_count: 2
+---
+
 # Weizmann Institute of Science (i001-weizmann-institute-of-science) Evidence Map
 
 ## Identity & Institution Type

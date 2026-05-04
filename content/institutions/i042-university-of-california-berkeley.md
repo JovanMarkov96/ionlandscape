@@ -3,6 +3,11 @@ aliases:
 - UC Berkeley
 - Berkeley
 - Cal
+applications_represented:
+- computing
+- fundamental_physics
+- sensing_metrology
+- simulation
 directory:
   alumni:
   - 006-david-wineland.md
@@ -17,9 +22,11 @@ focus_areas:
 - Quantum Computing
 - Trapped Ions
 - AMO Physics
+group_count: 1
 id: i042-university-of-california-berkeley
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -36,6 +43,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of California, Berkeley
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: UC Berkeley is a world-class public research university with pioneering
   trapped-ion quantum computing and AMO physics groups.
@@ -43,5 +52,5 @@ sort_name: University of California, Berkeley
 sources:
 - note: Official website
   url: https://www.berkeley.edu/
-verification_source_count: null
+verification_source_count: 2
 ---

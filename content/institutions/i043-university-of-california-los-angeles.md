@@ -1,6 +1,11 @@
 ---
 aliases:
 - UCLA
+applications_represented:
+- computing
+- optical_clocks
+- sensing_metrology
+- simulation
 directory:
   alumni: []
   alumni_count: 0
@@ -15,9 +20,11 @@ focus_areas:
 - Molecular Physics
 - Trapped Ions
 - Quantum Simulation
+group_count: 2
 id: i043-university-of-california-los-angeles
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -34,6 +41,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of California, Los Angeles
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: UCLA is a leading public research university with strong programs
   in AMO physics, including trapped molecular ions and laser-cooled atomic systems.
@@ -41,5 +50,5 @@ sort_name: University of California, Los Angeles
 sources:
 - note: Official website
   url: https://www.ucla.edu/
-verification_source_count: null
+verification_source_count: 2
 ---

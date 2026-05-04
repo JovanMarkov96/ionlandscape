@@ -2,6 +2,8 @@
 aliases:
 - Sandia
 - SNL
+applications_represented:
+- computing
 directory:
   alumni: []
   alumni_count: 0
@@ -15,9 +17,11 @@ focus_areas:
 - Trapped Ions
 - Microfabricated Ion Traps
 - National Security
+group_count: 1
 id: i028-sandia-national-laboratories
 institution_type: national_lab
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -34,6 +38,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Sandia National Laboratories
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Sandia National Laboratories is a major U.S. government research
   facility with programs in quantum computing using microfabricated ion traps.
@@ -41,5 +47,5 @@ sort_name: Sandia National Laboratories
 sources:
 - note: Official website
   url: https://www.sandia.gov/
-verification_source_count: null
+verification_source_count: 2
 ---

@@ -1,6 +1,9 @@
 ---
 aliases:
 - SU Stockholm
+applications_represented:
+- computing
+- simulation
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +16,11 @@ focus_areas:
 - Quantum Information
 - Trapped Ions
 - AMO Physics
+group_count: 1
 id: i032-stockholm-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +37,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Stockholm University
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Stockholm University is a major Swedish research university with
   research groups in trapped-ion quantum information.
@@ -39,5 +46,5 @@ sort_name: Stockholm University
 sources:
 - note: Official website
   url: https://www.su.se/english/
-verification_source_count: null
+verification_source_count: 2
 ---

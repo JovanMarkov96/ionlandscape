@@ -1,6 +1,8 @@
 ---
 aliases:
 - SFU
+applications_represented:
+- computing
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +15,11 @@ focus_areas:
 - AMO Physics
 - Trapped Ions
 - Quantum Information
+group_count: 1
 id: i030-simon-fraser-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +36,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Simon Fraser University
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Simon Fraser University is a major Canadian research university
   with active programs in AMO physics and trapped-ion experiments.
@@ -39,5 +45,5 @@ sort_name: Simon Fraser University
 sources:
 - note: Official website
   url: https://www.sfu.ca/
-verification_source_count: null
+verification_source_count: 2
 ---

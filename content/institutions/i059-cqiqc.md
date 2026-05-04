@@ -19,8 +19,9 @@ focus_areas:
 - Quantum error correction
 - Quantum algorithms
 id: i059-cqiqc
-institution_type: research_centre
-last_verified_at: null
+institution_type: dedicated_quantum_centre
+is_dedicated_quantum_centre: true
+last_verified_at: '2026-05-04'
 links:
   department: https://www.physics.utoronto.ca/
   linkedin: ''
@@ -49,7 +50,7 @@ sources:
 - note: University of Toronto Physics Department page describing quantum information
     research and CQIQC affiliation.
   url: https://www.physics.utoronto.ca/research/research-areas/quantum-information/
-verification_source_count: null
+verification_source_count: 2
 ---
 
 The Centre for Quantum Information and Quantum Control (CQIQC) is a multidisciplinary research hub based at the University of Toronto. It brings together researchers from Physics, Chemistry, Mathematics, Computer Science, and Engineering to collaborate on fundamental and applied topics in quantum technologies. The center promotes theoretical and experimental research in quantum computing, quantum cryptography, quantum optics, and coherent control.

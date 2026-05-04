@@ -1,6 +1,8 @@
 ---
 aliases:
 - Uni Siegen
+applications_represented:
+- computing
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +15,11 @@ focus_areas:
 - Quantum Information
 - Trapped Ions
 - Microwave Control
+group_count: 1
 id: i050-university-of-siegen
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +36,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Siegen
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Siegen is a German university with research in
   trapped-ion quantum information processing using microwave techniques.
@@ -39,5 +45,5 @@ sort_name: University of Siegen
 sources:
 - note: Official website
   url: https://www.uni-siegen.de/start/index.html.en
-verification_source_count: null
+verification_source_count: 2
 ---

@@ -1,6 +1,9 @@
 ---
 aliases:
 - Griffith
+applications_represented:
+- computing
+- sensing_metrology
 directory:
   alumni: []
   alumni_count: 0
@@ -12,9 +15,11 @@ entity_type: institution
 focus_areas:
 - Quantum Optics
 - AMO Physics
+group_count: 1
 id: i008-griffith-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -31,6 +36,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Griffith University
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Griffith University is an Australian research university based
   in Brisbane with research in quantum optics and atom-photon interfaces.
@@ -38,5 +45,5 @@ sort_name: Griffith University
 sources:
 - note: Official website
   url: https://www.griffith.edu.au/
-verification_source_count: null
+verification_source_count: 2
 ---

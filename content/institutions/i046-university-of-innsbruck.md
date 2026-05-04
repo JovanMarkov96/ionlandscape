@@ -3,6 +3,13 @@ aliases:
 - UIBK
 - Innsbruck
 - IQOQI Innsbruck
+applications_represented:
+- computing
+- fundamental_physics
+- networking
+- sensing_metrology
+- simulation
+- software_control
 directory:
   alumni:
   - 027-lukas-slodicka.md
@@ -24,9 +31,11 @@ focus_areas:
 - Quantum Networking
 - Trapped Ions
 - Cold Atoms
+group_count: 5
 id: i046-university-of-innsbruck
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -43,6 +52,9 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Innsbruck
+platforms_represented:
+- cavity_qed_hybrid
+- trapped_ion
 schema_version: 1
 short_description: The University of Innsbruck is a world-leading center for trapped-ion
   quantum computing and quantum simulation, hosting pioneering groups at both the
@@ -51,5 +63,5 @@ sort_name: University of Innsbruck
 sources:
 - note: Official website
   url: https://www.uibk.ac.at/
-verification_source_count: null
+verification_source_count: 2
 ---

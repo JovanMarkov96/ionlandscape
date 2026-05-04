@@ -1,6 +1,9 @@
 ---
 aliases:
 - Sussex
+applications_represented:
+- computing
+- networking
 directory:
   alumni: []
   alumni_count: 0
@@ -15,9 +18,11 @@ focus_areas:
 - Quantum Engineering
 - Trapped Ions
 - Scalable Architectures
+group_count: 2
 id: i051-university-of-sussex
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -34,6 +39,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Sussex
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Sussex hosts the Sussex Centre for Quantum Technologies,
   a leading hub for trapped-ion quantum computing and scalable quantum engineering.
@@ -41,5 +48,5 @@ sort_name: University of Sussex
 sources:
 - note: Official website
   url: https://www.sussex.ac.uk/
-verification_source_count: null
+verification_source_count: 2
 ---

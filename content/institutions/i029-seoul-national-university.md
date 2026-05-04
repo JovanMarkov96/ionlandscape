@@ -1,6 +1,9 @@
 ---
 aliases:
 - SNU
+applications_represented:
+- computing
+- networking
 directory:
   alumni:
   - 011-kihwan-kim.md
@@ -17,9 +20,11 @@ focus_areas:
 - Quantum Information
 - Trapped Ions
 - AMO Physics
+group_count: 2
 id: i029-seoul-national-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -36,6 +41,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Seoul National University
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Seoul National University is South Korea's most prestigious university,
   with growing research groups in quantum information and trapped-ion systems.
@@ -43,5 +50,5 @@ sort_name: Seoul National University
 sources:
 - note: Official website
   url: https://en.snu.ac.kr/
-verification_source_count: null
+verification_source_count: 2
 ---

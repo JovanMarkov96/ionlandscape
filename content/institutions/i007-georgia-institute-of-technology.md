@@ -2,6 +2,9 @@
 aliases:
 - Georgia Tech
 - GT
+applications_represented:
+- computing
+- networking
 directory:
   alumni:
   - 032-murray-barrett.md
@@ -16,9 +19,11 @@ focus_areas:
 - Quantum Science
 - Physics
 - Engineering
+group_count: 1
 id: i007-georgia-institute-of-technology
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -35,6 +40,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Georgia Institute of Technology
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Georgia Institute of Technology is a top-tier public research university
   in Atlanta with emerging programs in quantum science and engineering.
@@ -42,5 +49,5 @@ sort_name: Georgia Institute of Technology
 sources:
 - note: Official website
   url: https://www.gatech.edu/
-verification_source_count: null
+verification_source_count: 2
 ---

@@ -2,6 +2,10 @@
 aliases:
 - UTokyo
 - Todai
+applications_represented:
+- computing
+- fundamental_physics
+- software_control
 directory:
   alumni:
   - 054-hiroki-takahashi.md
@@ -18,9 +22,11 @@ focus_areas:
 - Quantum Information
 - Trapped Ions
 - AMO Physics
+group_count: 2
 id: i053-university-of-tokyo
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -37,6 +43,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Tokyo
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Tokyo is Japan's most prestigious university,
   with strong research programs in experimental physics including trapped-ion quantum
@@ -45,5 +53,5 @@ sort_name: University of Tokyo
 sources:
 - note: Official website
   url: https://www.u-tokyo.ac.jp/en/
-verification_source_count: null
+verification_source_count: 2
 ---

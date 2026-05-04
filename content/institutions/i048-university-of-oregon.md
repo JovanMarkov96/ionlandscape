@@ -2,6 +2,10 @@
 aliases:
 - UO
 - U of O
+applications_represented:
+- computing
+- optical_clocks
+- sensing_metrology
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +17,11 @@ entity_type: institution
 focus_areas:
 - Quantum Physics
 - AMO Physics
+group_count: 1
 id: i048-university-of-oregon
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +38,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Oregon
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Oregon is a public research university where
   Nobel laureate David Wineland holds an appointment working on quantum physics.
@@ -39,5 +47,5 @@ sort_name: University of Oregon
 sources:
 - note: Official website
   url: https://www.uoregon.edu/
-verification_source_count: null
+verification_source_count: 2
 ---

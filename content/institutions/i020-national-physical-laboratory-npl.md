@@ -2,6 +2,9 @@
 aliases:
 - NPL
 - NPL Teddington
+applications_represented:
+- optical_clocks
+- sensing_metrology
 directory:
   alumni: []
   alumni_count: 0
@@ -16,9 +19,11 @@ focus_areas:
 - Optical Clocks
 - Quantum Metrology
 - Trapped Ions
+group_count: 2
 id: i020-national-physical-laboratory-npl
 institution_type: national_lab
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -35,6 +40,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: National Physical Laboratory (NPL)
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The National Physical Laboratory (NPL) is the UK's national measurement
   standards laboratory, leading research in optical clocks and precision measurement
@@ -43,5 +50,5 @@ sort_name: National Physical Laboratory (NPL)
 sources:
 - note: Official website
   url: https://www.npl.co.uk/
-verification_source_count: null
+verification_source_count: 2
 ---

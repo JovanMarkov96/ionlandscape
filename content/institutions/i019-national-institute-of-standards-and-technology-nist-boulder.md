@@ -3,6 +3,13 @@ aliases:
 - NIST
 - NIST Boulder
 - NIST Ion Storage Group
+applications_represented:
+- computing
+- fundamental_physics
+- networking
+- optical_clocks
+- sensing_metrology
+- simulation
 directory:
   alumni:
   - 001-roee-ozeri.md
@@ -20,9 +27,11 @@ focus_areas:
 - Quantum Computing
 - Optical Clocks
 - Trapped Ions
+group_count: 3
 id: i019-national-institute-of-standards-and-technology-nist-boulder
 institution_type: national_lab
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -39,6 +48,9 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: National Institute of Standards and Technology (NIST), Boulder
+platforms_represented:
+- trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: NIST Boulder is a U.S. government research laboratory that has
   been at the forefront of trapped-ion physics, precision measurement, and quantum
@@ -47,5 +59,5 @@ sort_name: National Institute of Standards and Technology (NIST), Boulder
 sources:
 - note: Official website
   url: https://www.nist.gov/
-verification_source_count: null
+verification_source_count: 2
 ---

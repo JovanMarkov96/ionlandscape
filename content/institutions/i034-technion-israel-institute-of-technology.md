@@ -2,6 +2,9 @@
 aliases:
 - Technion
 - IIT
+applications_represented:
+- fundamental_physics
+- simulation
 directory:
   alumni: []
   alumni_count: 0
@@ -15,9 +18,11 @@ focus_areas:
 - Cold Chemistry
 - Ion-Molecule Interactions
 - AMO Physics
+group_count: 1
 id: i034-technion-israel-institute-of-technology
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -34,6 +39,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Technion – Israel Institute of Technology
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The Technion is Israel's oldest university and a leading institute
   of technology, with strong programs in physics including cold ion-molecule experiments.
@@ -41,5 +48,5 @@ sort_name: Technion – Israel Institute of Technology
 sources:
 - note: Official website
   url: https://www.technion.ac.il/en/
-verification_source_count: null
+verification_source_count: 2
 ---

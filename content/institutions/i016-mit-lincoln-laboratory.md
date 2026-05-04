@@ -2,6 +2,8 @@
 aliases:
 - Lincoln Lab
 - MIT LL
+applications_represented:
+- computing
 directory:
   alumni: []
   alumni_count: 0
@@ -14,9 +16,11 @@ focus_areas:
 - Quantum Computing
 - Trapped Ions
 - Defense Technology
+group_count: 1
 id: i016-mit-lincoln-laboratory
 institution_type: national_lab
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -33,6 +37,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: MIT Lincoln Laboratory
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: MIT Lincoln Laboratory is a federally funded research center that
   develops advanced technologies for national security, including trapped-ion quantum
@@ -41,5 +47,5 @@ sort_name: MIT Lincoln Laboratory
 sources:
 - note: Official website
   url: https://www.ll.mit.edu/
-verification_source_count: null
+verification_source_count: 2
 ---

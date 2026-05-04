@@ -1,6 +1,9 @@
 ---
 aliases:
 - Pohang University of Science and Technology
+applications_represented:
+- computing
+- simulation
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +16,11 @@ focus_areas:
 - Physics
 - Quantum Information
 - Trapped Ions
+group_count: 1
 id: i023-postech
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +37,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: POSTECH
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: POSTECH (Pohang University of Science and Technology) is a top
   South Korean research university with emerging programs in quantum information and
@@ -40,5 +47,5 @@ sort_name: POSTECH
 sources:
 - note: Official website
   url: https://www.postech.ac.kr/eng/
-verification_source_count: null
+verification_source_count: 2
 ---

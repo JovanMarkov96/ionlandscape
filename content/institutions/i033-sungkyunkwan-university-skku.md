@@ -1,6 +1,9 @@
 ---
 aliases:
 - SKKU
+applications_represented:
+- computing
+- simulation
 directory:
   alumni: []
   alumni_count: 0
@@ -12,9 +15,11 @@ entity_type: institution
 focus_areas:
 - Physics
 - Quantum Information
+group_count: 1
 id: i033-sungkyunkwan-university-skku
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -31,6 +36,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Sungkyunkwan University (SKKU)
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: SKKU is a leading South Korean university with emerging quantum
   information research programs.
@@ -38,5 +45,5 @@ sort_name: Sungkyunkwan University (SKKU)
 sources:
 - note: Official website
   url: https://www.skku.edu/eng/
-verification_source_count: null
+verification_source_count: 2
 ---

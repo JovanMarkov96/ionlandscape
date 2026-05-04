@@ -1,6 +1,10 @@
 ---
 aliases:
 - RUG
+applications_represented:
+- computing
+- fundamental_physics
+- sensing_metrology
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +17,11 @@ focus_areas:
 - Fundamental Physics
 - Precision Measurement
 - AMO Physics
+group_count: 1
 id: i045-university-of-groningen
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +38,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Groningen
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Groningen is a leading Dutch research university
   with work in fundamental physics and precision measurements.
@@ -39,5 +47,5 @@ sort_name: University of Groningen
 sources:
 - note: Official website
   url: https://www.rug.nl/?lang=en
-verification_source_count: null
+verification_source_count: 2
 ---

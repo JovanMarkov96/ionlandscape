@@ -2,6 +2,9 @@
 aliases:
 - UW
 - UDub
+applications_represented:
+- computing
+- networking
 directory:
   alumni:
   - 006-david-wineland.md
@@ -15,9 +18,11 @@ focus_areas:
 - Trapped Ions
 - AMO Physics
 - Quantum Information
+group_count: 1
 id: i055-university-of-washington
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -34,6 +39,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Washington
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Washington is a major U.S. research university
   with experimental trapped-ion physics programs.
@@ -41,5 +48,5 @@ sort_name: University of Washington
 sources:
 - note: Official website
   url: https://www.washington.edu/
-verification_source_count: null
+verification_source_count: 2
 ---

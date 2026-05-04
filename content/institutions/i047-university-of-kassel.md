@@ -1,6 +1,9 @@
 ---
 aliases:
 - Uni Kassel
+applications_represented:
+- computing
+- fundamental_physics
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +16,11 @@ focus_areas:
 - Precision Spectroscopy
 - Highly Charged Ions
 - Atomic Physics
+group_count: 1
 id: i047-university-of-kassel
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +37,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Kassel
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Kassel is a German university with research groups
   in precision spectroscopy and highly charged ions.
@@ -39,5 +46,5 @@ sort_name: University of Kassel
 sources:
 - note: Official website
   url: https://www.uni-kassel.de/uni/en/
-verification_source_count: null
+verification_source_count: 2
 ---

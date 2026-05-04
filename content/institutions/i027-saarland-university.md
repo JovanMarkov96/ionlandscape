@@ -2,6 +2,8 @@
 aliases:
 - Universität des Saarlandes
 - UdS
+applications_represented:
+- networking
 directory:
   alumni: []
   alumni_count: 0
@@ -14,9 +16,11 @@ focus_areas:
 - Quantum Information
 - Trapped Ions
 - Quantum Optics
+group_count: 1
 id: i027-saarland-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -33,6 +37,9 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Saarland University
+platforms_represented:
+- neutral_atom
+- trapped_ion
 schema_version: 1
 short_description: Saarland University is a German university with research programs
   in quantum optics and trapped-ion quantum information processing.
@@ -40,5 +47,5 @@ sort_name: Saarland University
 sources:
 - note: Official website
   url: https://www.uni-saarland.de/en/home.html
-verification_source_count: null
+verification_source_count: 2
 ---

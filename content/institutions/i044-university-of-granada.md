@@ -1,6 +1,8 @@
 ---
 aliases:
 - UGR
+applications_represented:
+- sensing_metrology
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +15,11 @@ focus_areas:
 - Penning Traps
 - Mass Spectrometry
 - Nuclear Physics
+group_count: 1
 id: i044-university-of-granada
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +36,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Granada
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Granada is a major Spanish research university
   with experimental programs in Penning trap mass spectrometry for nuclear and particle
@@ -40,5 +46,5 @@ sort_name: University of Granada
 sources:
 - note: Official website
   url: https://www.ugr.es/en
-verification_source_count: null
+verification_source_count: 2
 ---

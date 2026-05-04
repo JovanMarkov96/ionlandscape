@@ -1,3 +1,10 @@
+---
+institution_type: university
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
+verification_source_count: 2
+---
+
 # ETH Zürich (i005-eth-zurich) Evidence Map
 
 ## Identity & Institution Type

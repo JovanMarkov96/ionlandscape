@@ -2,6 +2,10 @@
 aliases:
 - Tsinghua
 - THU
+applications_represented:
+- computing
+- networking
+- simulation
 directory:
   alumni: []
   alumni_count: 0
@@ -16,9 +20,11 @@ focus_areas:
 - Quantum Information
 - Physics
 - Computer Science
+group_count: 2
 id: i035-tsinghua-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -35,6 +41,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Tsinghua University
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Tsinghua University is one of China's most elite research universities,
   with leading programs in quantum computing and quantum information science.
@@ -42,5 +50,5 @@ sort_name: Tsinghua University
 sources:
 - note: Official website
   url: https://www.tsinghua.edu.cn/en/
-verification_source_count: null
+verification_source_count: 2
 ---

@@ -2,6 +2,10 @@
 aliases:
 - SU
 - Maties
+applications_represented:
+- fundamental_physics
+- simulation
+- software_control
 directory:
   alumni: []
   alumni_count: 0
@@ -14,9 +18,11 @@ focus_areas:
 - Quantum Control
 - Trapped Ions
 - Laser Physics
+group_count: 1
 id: i031-stellenbosch-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -33,6 +39,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Stellenbosch University
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Stellenbosch University is a leading South African research university
   with the National Laser Centre and research in quantum control of trapped ions.
@@ -40,5 +48,5 @@ sort_name: Stellenbosch University
 sources:
 - note: Official website
   url: https://www.sun.ac.za/english
-verification_source_count: null
+verification_source_count: 2
 ---

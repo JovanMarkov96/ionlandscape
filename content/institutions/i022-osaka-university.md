@@ -2,6 +2,11 @@
 aliases:
 - Osaka U
 - Handai
+applications_represented:
+- computing
+- optical_clocks
+- sensing_metrology
+- simulation
 directory:
   alumni:
   - 045-kazuhiro-hayasaka.md
@@ -19,9 +24,11 @@ focus_areas:
 - Quantum Optics
 - Trapped Ions
 - AMO Physics
+group_count: 3
 id: i022-osaka-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -38,6 +45,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Osaka University
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Osaka University is a leading national university in Japan, with
   strong programs in physics including trapped-ion experiments and quantum optics.
@@ -45,5 +54,5 @@ sort_name: Osaka University
 sources:
 - note: Official website
   url: https://www.osaka-u.ac.jp/en
-verification_source_count: null
+verification_source_count: 2
 ---

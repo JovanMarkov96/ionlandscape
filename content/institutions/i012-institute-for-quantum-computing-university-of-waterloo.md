@@ -3,6 +3,9 @@ aliases:
 - IQC
 - IQC Waterloo
 - University of Waterloo IQC
+applications_represented:
+- computing
+- simulation
 directory:
   alumni: []
   alumni_count: 0
@@ -17,9 +20,11 @@ focus_areas:
 - Quantum Information
 - Trapped Ions
 - Quantum Cryptography
+group_count: 2
 id: i012-institute-for-quantum-computing-university-of-waterloo
-institution_type: research_centre
-last_verified_at: null
+institution_type: dedicated_quantum_centre
+is_dedicated_quantum_centre: true
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -36,6 +41,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Institute for Quantum Computing, University of Waterloo
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The Institute for Quantum Computing (IQC) at the University of
   Waterloo is a world-class research center for quantum information science and technology.
@@ -43,5 +50,5 @@ sort_name: Institute for Quantum Computing, University of Waterloo
 sources:
 - note: Official website
   url: https://uwaterloo.ca/institute-for-quantum-computing/
-verification_source_count: null
+verification_source_count: 2
 ---

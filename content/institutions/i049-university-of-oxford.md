@@ -2,6 +2,9 @@
 aliases:
 - Oxford
 - Oxon
+applications_represented:
+- computing
+- optical_clocks
 directory:
   alumni:
   - 003-chris-ballance.md
@@ -20,9 +23,11 @@ focus_areas:
 - Trapped Ions
 - Quantum Error Correction
 - Quantum Networks
+group_count: 1
 id: i049-university-of-oxford
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -39,6 +44,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Oxford
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Oxford is one of the world's oldest and most
   prestigious universities, with leading trapped-ion quantum computing research in
@@ -47,5 +54,5 @@ sort_name: University of Oxford
 sources:
 - note: Official website
   url: https://www.ox.ac.uk/
-verification_source_count: null
+verification_source_count: 2
 ---

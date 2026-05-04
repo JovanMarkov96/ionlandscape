@@ -1,6 +1,8 @@
 ---
 aliases:
 - UvA
+applications_represented:
+- simulation
 directory:
   alumni: []
   alumni_count: 0
@@ -13,9 +15,11 @@ focus_areas:
 - Trapped Ions
 - Quantum Simulation
 - AMO Physics
+group_count: 1
 id: i037-university-of-amsterdam
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -32,6 +36,9 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Amsterdam
+platforms_represented:
+- neutral_atom
+- trapped_ion
 schema_version: 1
 short_description: The University of Amsterdam is a major Dutch research university
   with trapped-ion research groups in its Institute of Physics.
@@ -39,5 +46,5 @@ sort_name: University of Amsterdam
 sources:
 - note: Official website
   url: https://www.uva.nl/en
-verification_source_count: null
+verification_source_count: 2
 ---

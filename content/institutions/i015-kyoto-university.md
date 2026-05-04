@@ -1,6 +1,8 @@
 ---
 aliases:
 - Kyodai
+applications_represented:
+- computing
 directory:
   alumni:
   - 056-kenji-toyoda.md
@@ -15,9 +17,11 @@ focus_areas:
 - Physics
 - Quantum Optics
 - AMO Physics
+group_count: 1
 id: i015-kyoto-university
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -34,6 +38,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Kyoto University
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: Kyoto University is one of Japan's top research universities with
   contributions to fundamental physics and quantum optics.
@@ -41,5 +47,5 @@ sort_name: Kyoto University
 sources:
 - note: Official website
   url: https://www.kyoto-u.ac.jp/en
-verification_source_count: null
+verification_source_count: 2
 ---

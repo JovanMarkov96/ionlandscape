@@ -17,7 +17,8 @@ focus_areas:
 - Quantum Engineering
 id: i057-open-quantum-design
 institution_type: non_profit
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -42,5 +43,5 @@ sort_name: Open Quantum Design
 sources:
 - note: Official OQD Website
   url: https://openquantumdesign.org/
-verification_source_count: null
+verification_source_count: 2
 ---

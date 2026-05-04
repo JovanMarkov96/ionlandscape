@@ -2,6 +2,8 @@
 aliases:
 - UniTrento
 - UNITN
+applications_represented:
+- computing
 directory:
   alumni: []
   alumni_count: 0
@@ -14,9 +16,11 @@ focus_areas:
 - Integrated Photonics
 - Quantum Technologies
 - Physics
+group_count: 1
 id: i054-university-of-trento
 institution_type: university
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -33,6 +37,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: University of Trento
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The University of Trento is an Italian research university with
   work in integrated photonics and quantum technologies.
@@ -40,5 +46,5 @@ sort_name: University of Trento
 sources:
 - note: Official website
   url: https://www.unitn.it/en
-verification_source_count: null
+verification_source_count: 2
 ---

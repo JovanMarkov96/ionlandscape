@@ -1,6 +1,10 @@
 ---
 aliases:
 - PTB
+applications_represented:
+- computing
+- optical_clocks
+- sensing_metrology
 directory:
   alumni: []
   alumni_count: 0
@@ -14,9 +18,11 @@ focus_areas:
 - Optical Clocks
 - Quantum Metrology
 - Trapped Ions
+group_count: 1
 id: i026-physikalisch-technische-bundesanstalt-ptb
 institution_type: national_lab
-last_verified_at: null
+is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 links:
   department: ''
   linkedin: ''
@@ -33,6 +39,8 @@ media:
   hero_image_path: ''
   logo_path: ''
 name: Physikalisch-Technische Bundesanstalt (PTB)
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: PTB is Germany's national metrology institute, conducting world-leading
   research in optical clocks and precision measurements with trapped ions.
@@ -40,5 +48,5 @@ sort_name: Physikalisch-Technische Bundesanstalt (PTB)
 sources:
 - note: Official website
   url: https://www.ptb.de/cms/en.html
-verification_source_count: null
+verification_source_count: 2
 ---
