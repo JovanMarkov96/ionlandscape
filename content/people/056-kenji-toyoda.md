@@ -35,11 +35,12 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=8YgPz2UAAAAJ
   group_page: https://www-toyoda.Kv-lab.org/
+  homepage: https://www-toyoda.Kv-lab.org/
   orcid: null
 location:
   city: Osaka
@@ -50,12 +51,16 @@ location:
 name: Kenji Toyoda
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Toyoda, Kenji
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Unknown"
   year: 2002
 updated_at: '2026-05-04'
 verification_source_count: 2

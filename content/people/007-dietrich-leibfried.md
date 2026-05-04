@@ -94,9 +94,9 @@ postdocs:
 schema_version: 2
 sort_name: Leibfried, Dietrich
 thesis:
-  title: null
+  title: "Unknown"
   year: 1995
-  link: null
+  link: "Unknown"
   note: 'Dr. rer. nat. thesis on precision laser spectroscopy of hydrogen at MPQ/LMU
     Munich under T. W. Hänsch. Exact thesis title not found in open-access sources;
     NIST bio states "precision laser spectroscopy of hydrogen".'

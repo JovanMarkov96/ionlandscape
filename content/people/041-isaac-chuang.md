@@ -71,7 +71,7 @@ postdocs:
 schema_version: 2
 sort_name: Chuang, Isaac L.
 thesis:
-  link: null
+  link: "Unknown"
   note: Thesis topic in quantum information.
   title: "Quantum information and computation: theory and practice"
   year: 1997

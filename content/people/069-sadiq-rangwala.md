@@ -5,21 +5,22 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
-  institution: Indian Institute of Science Education and Research (IISER) Pune
-  title: Professor
+  institution: Raman Research Institute
+  title: Senior Professor
+  since_year: null
 education:
 - advisor: null
   confidence: not_found
   degree: PhD (Physics)
   institution: Tata Institute of Fundamental Research
-  note: PhD details require verification
   year: 1999
 entity_type: person
 group_type: experimental
 id: 069-sadiq-rangwala
 ion_species:
-- Ca+
-- Rb+
+- 40Ca+
+- 87Rb+
+key_papers: []
 keywords:
 - trapped ions
 - ultracold atoms
@@ -27,29 +28,44 @@ keywords:
 - hybrid systems
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: true
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=8Ptfb9EAAAAJ&hl=en
   group_page: https://www.rri.res.in/~sarangwala/
   orcid: null
 location:
-  city: Pune
+  city: Bengaluru
   country: India
-  lat: 18.5204
-  lon: 73.8567
-  region: Maharashtra
+  lat: 12.9716
+  lon: 77.5946
+  region: Karnataka
 name: S. A. Rangwala
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: Gerhard Rempe
+  advisor_id: 014-gerhard-rempe
+  institution: Max Planck Institute of Quantum Optics (MPQ)
+  years: '2001-2004'
+  note: Postdoctoral researcher focusing on cold atoms.
+  confidence: confirmed
 schema_version: 2
 sort_name: Rangwala, S. A.
 thesis:
-  link: null
-  title: Resonant electron capture to molecules and Dissociative electron attachment
+  link: "Unknown"
+  title: "Resonant electron capture to molecules and Dissociative electron attachment"
   year: 1999
-updated_at: '2026-01-30'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-S. A. Rangwala leads cold atoms and ions research at Raman Research Institute/IISER Pune, focusing on hybrid ion-atom systems and cold collisions.
+S. A. Rangwala is a Senior Professor leading cold atoms and ions research at the Raman Research Institute, focusing on hybrid ion-atom systems and cold collisions.
+
+He completed his PhD at the Tata Institute of Fundamental Research in 1999. Following postdoctoral work at the Institut d'Optique and the Max Planck Institute of Quantum Optics under Gerhard Rempe, he joined the faculty at RRI.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=8Ptfb9EAAAAJ&hl=en).

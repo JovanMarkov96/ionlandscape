@@ -52,13 +52,17 @@ name: Tilman Esslinger
 platforms:
 - trapped_ion
 - neutral_atom
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Esslinger, Tilman
 thesis:
-  link: null
+  link: "Unknown"
   note: Doctoral research on subrecoil laser cooling and optical lattices. Exact thesis title not indexed online.
-  title: null
+  title: "Unknown"
   year: 1995
 updated_at: '2026-05-04'
 verification_source_count: 2

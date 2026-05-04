@@ -70,7 +70,7 @@ postdocs:
 schema_version: 2
 sort_name: Hensinger, Winfried K.
 thesis:
-  link: null
+  link: "Unknown"
   title: Experimental nonlinear quantum dynamics with ultracold atoms
   year: 2002
 updated_at: '2026-05-04'

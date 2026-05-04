@@ -36,11 +36,12 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: null
-  group_page: null
+  group_page: https://www2.nict.go.jp/stsi/sr22/en/index.html
+  homepage: https://www.nict.go.jp/en/info/researcher/003444/
   orcid: null
 location:
   city: Koganei
@@ -51,11 +52,15 @@ location:
 name: Kazuhiro Hayasaka
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Hayasaka, Kazuhiro
 thesis:
-  link: null
+  link: "Unknown"
   title: "Research on control of interaction between accumulated ions and quantized electromagnetic field"
   year: null
 updated_at: '2026-05-04'

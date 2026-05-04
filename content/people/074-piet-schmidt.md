@@ -7,30 +7,40 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  institution: Physikalisch-Technische Bundesanstalt (PTB)
-  title: Group Leader
+  institution: Physikalisch-Technische Bundesanstalt (PTB) / Leibniz University Hannover
+  title: Professor / Group Leader
+  since_year: null
 education:
-- advisor: null
-  confidence: not_found
+- advisor: Tilman Pfau
   degree: PhD (Physics)
   institution: University of Stuttgart
-  note: PhD details require verification
   year: 2003
+  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 074-piet-schmidt
 ion_species:
-- Yb+
-- Al+
-- Ca+
+- 171Yb+
+- 27Al+
+- 40Ca+
+key_papers:
+- title: "Quantum logic spectroscopy"
+  year: 2005
+  doi: 10.1126/science.1114375
+  role: first_author
 keywords:
 - optical clocks
 - trapped ions
 - precision measurement
 - quantum logic spectroscopy
+- highly charged ions
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=AXqgH5oAAAAJ
   group_page: https://www.quantummetrology.de/
@@ -44,16 +54,26 @@ location:
 name: Piet O. Schmidt
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: David Wineland
+  advisor_id: 001-david-wineland
+  institution: National Institute of Standards and Technology (NIST)
+  years: '2004-2005'
+  note: Postdoctoral researcher (Feodor-Lynen Fellow).
+  confidence: confirmed
 schema_version: 2
 sort_name: Schmidt, Piet O.
 thesis:
-  link: null
-  note: Thesis information requires verification
-  title: Scattering Properties of Ultra-cold Chromium Atoms
+  link: "Unknown"
+  title: "Scattering Properties of Ultra-cold Chromium Atoms"
   year: 2003
-updated_at: '2026-01-30'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-Piet O. Schmidt leads trapped-ion optical clock research at PTB and Leibniz University Hannover, developing ultra-precise frequency standards using quantum logic spectroscopy.
+Piet O. Schmidt leads the QUEST Institute for Experimental Quantum Metrology at PTB and Leibniz University Hannover. His research group is renowned for developing ultra-precise optical atomic clocks using trapped ions. He is a pioneer of quantum logic spectroscopy, a technique he co-developed during his postdoc, which allows the spectroscopy of ions that lack suitable transitions for direct laser cooling and detection (such as aluminum and highly charged ions).
+
+He received his PhD from the University of Stuttgart in 2003 under Tilman Pfau, working on ultra-cold chromium atoms. He then completed a postdoctoral fellowship at NIST Boulder under David Wineland, where they published the seminal demonstration of quantum logic spectroscopy.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=AXqgH5oAAAAJ).

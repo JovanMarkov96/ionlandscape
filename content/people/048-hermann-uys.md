@@ -9,18 +9,19 @@ created_at: '2026-01-30'
 current_position:
   institution: Stellenbosch University
   title: Professor
+  since_year: null
 education:
 - advisor: null
   confidence: not_found
   degree: PhD (Optical Sciences)
   institution: University of Arizona
-  note: PhD details require verification from institutional sources
   year: 2007
 entity_type: person
 group_type: experimental
 id: 048-hermann-uys
 ion_species:
-- Yb+
+- 171Yb+
+key_papers: []
 keywords:
 - trapped ions
 - quantum control
@@ -28,7 +29,11 @@ keywords:
 - quantum thermodynamics
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=2cWt_OIAAAAJ
   group_page: https://www.csir.co.za/quantum-optics
@@ -42,20 +47,24 @@ location:
 name: Hermann Uys
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Uys, Hermann
 thesis:
-  link: null
-  note: Thesis information requires verification
-  title: 'Distributed Quantum Sensing: Theoretical Foundation, Experimental Platform
-    and Applications'
+  link: "Unknown"
+  title: "Distributed Quantum Sensing: Theoretical Foundation, Experimental Platform and Applications"
   year: 2007
-updated_at: '2026-01-30'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 1
 ---
 
 Hermann Uys leads the trapped ion research group at Stellenbosch University and the CSIR in South Africa. His work focuses on trapped ytterbium ions for quantum control, simulation of many-body physics, and quantum thermodynamics.
 
+He received his PhD from the University of Arizona in 2007.
+
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=2cWt_OIAAAAJ).

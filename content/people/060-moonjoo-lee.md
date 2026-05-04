@@ -78,7 +78,7 @@ postdocs:
 schema_version: 2
 sort_name: Lee, Moonjoo
 thesis:
-  link: null
+  link: "Unknown"
   title: Imaging the vacuum fluctuations in a cavity with single atoms
   year: 2011
 updated_at: '2026-05-04'

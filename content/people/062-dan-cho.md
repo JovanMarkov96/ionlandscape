@@ -9,11 +9,11 @@ current_position:
   title: Professor
   since_year: null
 education:
-- advisor: null
-  confidence: not_found
+- advisor: J. Karl Hedrick
   degree: PhD (Mechanical Engineering)
   institution: Massachusetts Institute of Technology
   year: 1988
+  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 062-dan-cho
@@ -34,12 +34,13 @@ labels:
 - Experimental group
 last_verified_at: '2026-05-04'
 lineage_check:
-  advisor_verified: false
-  postdoc_verified: false
+  advisor_verified: true
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=3XqgH5oAAAAJ
   group_page: http://nems.snu.ac.kr/
+  homepage: http://nems.snu.ac.kr/
   orcid: null
 location:
   city: Seoul
@@ -50,12 +51,16 @@ location:
 name: Dan Cho
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Cho, Dan
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Nonlinear control methods for automotive powertrain systems"
   year: 1988
 updated_at: '2026-05-04'
 verification_source_count: 2

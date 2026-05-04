@@ -76,7 +76,7 @@ postdocs:
 schema_version: 2
 sort_name: Shagam, Yuval
 thesis:
-  link: null
+  link: "Unknown"
   title: Cold chemistry with cold molecules
   year: 2016
 updated_at: '2026-05-04'

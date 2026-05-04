@@ -50,11 +50,15 @@ location:
 name: Manas Mukherjee
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Mukherjee, Manas
 thesis:
-  link: null
+  link: "Unknown"
   title: "The mass of 22^Mg and a concept for a novel laser ion source trap"
   year: 2004
 updated_at: '2026-05-04'

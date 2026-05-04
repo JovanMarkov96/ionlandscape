@@ -74,7 +74,7 @@ postdocs:
 schema_version: 2
 sort_name: Home, Jonathan P.
 thesis:
-  link: null
+  link: "Unknown"
   title: Entanglement of two trapped-ion spin qubits
   year: 2006
 updated_at: '2026-05-04'

@@ -61,7 +61,7 @@ postdocs:
 schema_version: 2
 sort_name: Campbell, Wesley C.
 thesis:
-  link: null
+  link: "Unknown"
   title: "Magnetic Trapping of Imidogen Molecules"
   year: 2008
 updated_at: '2026-05-04'

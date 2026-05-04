@@ -21,7 +21,11 @@ id: 064-junki-kim
 ion_species:
 - 171Yb+
 - 138Ba+
-key_papers: []
+key_papers:
+- title: "Design and operation of a scalable trapped-ion quantum computer"
+  year: 2021
+  doi: 10.1038/s41467-021-25244-z
+  role: co_author
 keywords:
 - trapped ions
 - quantum computing
@@ -37,6 +41,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=2YgPz2UAAAAJ
   group_page: https://queti.skku.edu/
+  homepage: https://queti.skku.edu/
   orcid: null
 location:
   city: Suwon
@@ -63,8 +68,8 @@ postdocs:
 schema_version: 2
 sort_name: Kim, Junki
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Unknown"
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 2

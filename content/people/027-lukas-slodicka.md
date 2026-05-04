@@ -36,13 +36,13 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=2zBEXPoAAAAJ
   group_page: https://www.opticsolomouc.org/
+  homepage: https://www.opticsolomouc.org/people/lukas-slodicka/
   orcid: null
-  upol_profile: https://www.opticsolomouc.org/people/lukas-slodicka/
 location:
   city: Olomouc
   country: Czech Republic
@@ -52,11 +52,17 @@ location:
 name: Lukáš Slodička
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: Rainer Blatt
+  advisor_id: 017-rainer-blatt
+  institution: University of Innsbruck
+  years: '2013-2015'
+  note: Postdoctoral researcher
+  confidence: confirmed
 schema_version: 2
 sort_name: Slodička, Lukáš
 thesis:
-  link: null
+  link: "Unknown"
   title: Single ion - single photon interactions in free space
   year: 2013
 updated_at: '2026-05-04'

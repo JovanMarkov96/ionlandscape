@@ -56,11 +56,15 @@ location:
 name: David M. Lucas
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Lucas, David M.
 thesis:
-  link: null
+  link: "Unknown"
   title: Parity violation in atomic samarium
   year: null
 updated_at: '2026-05-04'

@@ -91,7 +91,7 @@ postdocs:
 schema_version: 2
 sort_name: "H\xE4ffner, Hartmut"
 thesis:
-  link: null
+  link: "Unknown"
   title: High-accuracy measurement of the magnetic moment anomaly of the electron
     bound in hydrogenlike carbon
   year: 2000

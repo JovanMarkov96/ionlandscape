@@ -82,7 +82,7 @@ postdocs:
 schema_version: 2
 sort_name: Schmidt-Kaler, Ferdinand
 thesis:
-  link: null
+  link: "Unknown"
   note: 'German title: Hochauflösende Spektroskopie des 1S-2S Übergangs in einem kalten Wasserstoff- und Deuterium-Atomstrahl'
   title: High-resolution spectroscopy of the 1S-2S transition in a cold hydrogen and deuterium atomic beam
   year: 1992

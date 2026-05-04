@@ -2,91 +2,91 @@
 
 Generated: 2026-05-04
 
-**Summary**: 3 tier-A people (37 already enriched), 15 tier-A companies, 59 tier-A institutions.
+**Summary**: 0 tier-A people (79 already enriched), 15 tier-A companies, 59 tier-A institutions.
 
 ## People (79 entries)
 
 | Tier | ID | Name | Connectivity | Completeness | Evidence | Missing |
 |------|-----|------|:---:|:---:|:---:|---------|
-| A | `037-david-lucas` | David M. Lucas | 3 | 69% | ✅ | links.orcid, links.homepage, thesis.link, postdocs (+1) |
-| A | `076-tilman-esslinger` | Tilman Esslinger | 3 | 69% | ✅ | links.homepage, thesis.title, thesis.link, postdocs (+1) |
-| A | `071-matthias-keller` | Matthias Keller | 3 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
-| A-done | `017-rainer-blatt` | Rainer Blatt | 13 | 88% | ✅ | links.homepage, thesis.link |
+| A-done | `004-christopher-monroe` | Christopher R. Monroe | 17 | 75% | ✅ | links.group_page, thesis.title, thesis.link, postdocs |
+| A-done | `017-rainer-blatt` | Rainer Blatt | 15 | 94% | ✅ | links.homepage |
 | A-done | `006-david-wineland` | David J. Wineland | 11 | 88% | ✅ | links.homepage, affiliations |
-| A-done | `004-christopher-monroe` | Christopher R. Monroe | 9 | 75% | ✅ | links.group_page, thesis.title, thesis.link, postdocs |
-| A-done | `001-roee-ozeri` | Roee Ozeri | 7 | 88% | ✅ | links.homepage, thesis.link |
-| A-done | `060-moonjoo-lee` | Moonjoo Lee | 4 | 75% | ✅ | links.homepage, links.group_page, thesis.link, affiliations |
-| A-done | `063-taehyun-kim` | Taehyun Kim | 4 | 75% | ✅ | links.homepage, thesis.title, thesis.link, affiliations |
+| A-done | `001-roee-ozeri` | Roee Ozeri | 7 | 94% | ✅ | links.homepage |
+| A-done | `063-taehyun-kim` | Taehyun Kim | 4 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `060-moonjoo-lee` | Moonjoo Lee | 4 | 81% | ✅ | links.homepage, links.group_page, affiliations |
+| A-done | `013-ferdinand-schmidt-kaler` | Ferdinand Schmidt-Kaler | 3 | 88% | ✅ | links.orcid, links.homepage |
 | A-done | `015-tracy-northup` | Tracy E. Northup | 3 | 88% | ✅ | links.homepage, affiliations |
-| A-done | `040-vladan-vuletic` | Vladan Vuletić | 3 | 75% | ✅ | ion_species, links.homepage, thesis.title, thesis.link |
-| A-done | `041-isaac-chuang` | Isaac L. Chuang | 3 | 75% | ✅ | links.orcid, links.homepage, thesis.link, affiliations |
+| A-done | `040-vladan-vuletic` | Vladan Vuletić | 3 | 88% | ✅ | ion_species, links.homepage |
+| A-done | `071-matthias-keller` | Matthias Keller | 3 | 88% | ✅ | thesis.link, affiliations |
+| A-done | `076-tilman-esslinger` | Tilman Esslinger | 3 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `037-david-lucas` | David M. Lucas | 3 | 81% | ✅ | links.orcid, links.homepage, affiliations |
+| A-done | `041-isaac-chuang` | Isaac L. Chuang | 3 | 81% | ✅ | links.orcid, links.homepage, affiliations |
+| A-done | `042-kenneth-brown` | Kenneth R. Brown | 2 | 94% | ✅ | links.homepage |
 | A-done | `002-ziv-meir` | Ziv Meir | 2 | 88% | ✅ | key_papers, affiliations |
+| A-done | `003-chris-ballance` | Chris Ballance | 2 | 88% | ✅ | key_papers, links.homepage |
+| A-done | `011-kihwan-kim` | Kihwan Kim | 2 | 88% | ✅ | links.orcid, links.homepage |
+| A-done | `016-jonathan-home` | Jonathan P. Home | 2 | 88% | ✅ | links.homepage, affiliations |
 | A-done | `026-erik-streed` | Erik W. Streed | 2 | 88% | ✅ | links.homepage, affiliations |
-| A-done | `042-kenneth-brown` | Kenneth R. Brown | 2 | 88% | ✅ | links.homepage, thesis.link |
-| A-done | `003-chris-ballance` | Chris Ballance | 2 | 81% | ✅ | key_papers, links.homepage, postdocs |
-| A-done | `016-jonathan-home` | Jonathan P. Home | 2 | 81% | ✅ | links.homepage, thesis.link, affiliations |
-| A-done | `035-stefan-willitsch` | Stefan Willitsch | 2 | 81% | ✅ | links.homepage, thesis.link, affiliations |
-| A-done | `078-yuval-shagam` | Yuval Shagam | 2 | 81% | ✅ | links.homepage, thesis.link, affiliations |
-| A-done | `011-kihwan-kim` | Kihwan Kim | 2 | 75% | ✅ | links.orcid, links.homepage, thesis.title, thesis.link |
-| A-done | `032-murray-barrett` | Murray D. Barrett | 2 | 75% | ✅ | links.orcid, links.homepage, thesis.link, affiliations |
-| A-done | `044-johannes-hecker-denschlag` | Johannes Hecker Denschlag | 2 | 75% | ✅ | links.orcid, links.homepage, thesis.link, affiliations |
-| A-done | `054-hiroki-takahashi` | Hiroki Takahashi | 2 | 75% | ✅ | links.homepage, thesis.title, thesis.link, affiliations |
-| A-done | `009-hartmut-haeffner` | Hartmut Häffner | 1 | 88% | ✅ | links.homepage, thesis.link |
-| A-done | `012-winfried-hensinger` | Winfried K. Hensinger | 1 | 88% | ✅ | links.homepage, thesis.link |
-| A-done | `014-thomas-monz` | Thomas Monz | 1 | 88% | ✅ | links.homepage, postdocs |
-| A-done | `021-mike-biercuk` | Michael J. Biercuk | 1 | 88% | ✅ | links.homepage, thesis.link |
-| A-done | `022-rajibul-islam` | K. Rajibul Islam | 1 | 88% | ✅ | links.homepage, thesis.link |
-| A-done | `023-crystal-senko` | Crystal Senko | 1 | 88% | ✅ | links.homepage, thesis.link |
-| A-done | `013-ferdinand-schmidt-kaler` | Ferdinand Schmidt-Kaler | 1 | 81% | ✅ | links.orcid, links.homepage, thesis.link |
-| A-done | `020-luming-duan` | Luming Duan | 1 | 81% | ✅ | links.homepage, thesis.title, thesis.link |
-| A-done | `039-wes-campbell` | Wesley C. Campbell | 1 | 81% | ✅ | links.homepage, thesis.link, affiliations |
-| A-done | `079-daniel-rodriguez` | Daniel Rodríguez Rubiales | 1 | 81% | ✅ | links.homepage, thesis.link, affiliations |
+| A-done | `027-lukas-slodicka` | Lukáš Slodička | 2 | 88% | ✅ | links.orcid, affiliations |
+| A-done | `033-dzmitry-matsukevich` | Dzmitry Matsukevich | 2 | 88% | ✅ | links.orcid, affiliations |
+| A-done | `035-stefan-willitsch` | Stefan Willitsch | 2 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `036-richard-thompson` | Richard C. Thompson | 2 | 88% | ✅ | key_papers, affiliations |
+| A-done | `049-patrick-gill` | Patrick Gill | 2 | 88% | ✅ | links.google_scholar, affiliations |
+| A-done | `050-rachel-godun` | Rachel Godun | 2 | 88% | ✅ | links.orcid, affiliations |
+| A-done | `054-hiroki-takahashi` | Hiroki Takahashi | 2 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `055-takashi-mukaiyama` | Takashi Mukaiyama | 2 | 88% | ✅ | links.orcid, affiliations |
+| A-done | `056-kenji-toyoda` | Kenji Toyoda | 2 | 88% | ✅ | links.orcid, affiliations |
+| A-done | `057-utako-tanaka` | Utako Tanaka | 2 | 88% | ✅ | links.google_scholar, affiliations |
+| A-done | `058-atsushi-noguchi` | Atsushi Noguchi | 2 | 88% | ✅ | links.orcid, affiliations |
+| A-done | `062-dan-cho` | Dan Cho | 2 | 88% | ✅ | links.orcid, affiliations |
+| A-done | `064-junki-kim` | Junki Kim | 2 | 88% | ✅ | links.orcid, affiliations |
+| A-done | `078-yuval-shagam` | Yuval Shagam | 2 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `032-murray-barrett` | Murray D. Barrett | 2 | 81% | ✅ | links.orcid, links.homepage, affiliations |
+| A-done | `044-johannes-hecker-denschlag` | Johannes Hecker Denschlag | 2 | 81% | ✅ | links.orcid, links.homepage, affiliations |
+| A-done | `045-kazuhiro-hayasaka` | Kazuhiro Hayasaka | 2 | 81% | ✅ | links.google_scholar, links.orcid, affiliations |
+| A-done | `009-hartmut-haeffner` | Hartmut Häffner | 1 | 94% | ✅ | links.homepage |
+| A-done | `012-winfried-hensinger` | Winfried K. Hensinger | 1 | 94% | ✅ | links.homepage |
+| A-done | `014-thomas-monz` | Thomas Monz | 1 | 94% | ✅ | links.homepage |
+| A-done | `020-luming-duan` | Luming Duan | 1 | 94% | ✅ | links.homepage |
+| A-done | `021-mike-biercuk` | Michael J. Biercuk | 1 | 94% | ✅ | links.homepage |
+| A-done | `022-rajibul-islam` | K. Rajibul Islam | 1 | 94% | ✅ | links.homepage |
+| A-done | `023-crystal-senko` | Crystal Senko | 1 | 94% | ✅ | links.homepage |
+| A-done | `007-dietrich-leibfried` | Dietrich Leibfried | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `008-john-bollinger` | John J. Bollinger | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `010-jungsang-kim` | Jungsang Kim | 1 | 88% | ✅ | links.orcid, links.homepage |
+| A-done | `028-juergen-eschner` | Jürgen Eschner | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `034-manas-mukherjee` | Manas Mukherjee | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `039-wes-campbell` | Wesley C. Campbell | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `046-kjeld-eikema` | Kjeld S. E. Eikema | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `068-paul-barclay` | Paul Barclay | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `070-markus-hennrich` | Markus Hennrich | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `074-piet-schmidt` | Piet O. Schmidt | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `075-boris-blinov` | Boris B. Blinov | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `077-ben-lanyon` | Ben P. Lanyon | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `079-daniel-rodriguez` | Daniel Rodríguez Rubiales | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `018-michael-drewsen` | Michael Drewsen | 1 | 81% | ✅ | links.google_scholar, links.homepage, affiliations |
+| A-done | `019-michael-koehl` | Michael Köhl | 1 | 81% | ✅ | key_papers, links.homepage, affiliations |
+| A-done | `025-christian-schmiegelow` | Christian Schmiegelow | 1 | 81% | ✅ | links.orcid, links.homepage, affiliations |
+| A-done | `029-christof-wunderlich` | Christof Wunderlich | 1 | 81% | ✅ | key_papers, links.orcid, links.homepage |
+| A-done | `030-rene-gerritsma` | Rene Gerritsma | 1 | 81% | ✅ | links.orcid, links.homepage, affiliations |
+| A-done | `031-jeroen-koelemeij` | Jeroen C. J. Koelemeij | 1 | 81% | ✅ | key_papers, links.group_page, affiliations |
+| A-done | `047-klaus-jungmann` | Klaus Jungmann | 1 | 81% | ✅ | key_papers, links.homepage, affiliations |
+| A-done | `051-john-chiaverini` | John Chiaverini | 1 | 81% | ✅ | key_papers, links.homepage, affiliations |
+| A-done | `061-taeyoung-choi` | Taeyoung Choi | 1 | 81% | ✅ | key_papers, links.homepage, affiliations |
+| A-done | `065-luyan-sun` | Luyan Sun | 1 | 81% | ✅ | key_papers, links.homepage, affiliations |
+| A-done | `072-brian-mcmahon` | Brian McMahon | 1 | 81% | ✅ | key_papers, links.homepage, affiliations |
+| A-done | `073-david-hume` | David Hume | 1 | 81% | ✅ | key_papers, links.homepage, affiliations |
 | A-done | `005-christian-roos` | Christian F. Roos | 1 | 75% | ✅ | key_papers, lineage_check, links.homepage, affiliations |
-| A-done | `007-dietrich-leibfried` | Dietrich Leibfried | 1 | 75% | ✅ | links.homepage, thesis.title, thesis.link, affiliations |
-| A-done | `008-john-bollinger` | John J. Bollinger | 1 | 75% | ✅ | links.homepage, thesis.link, postdocs, affiliations |
-| A-done | `010-jungsang-kim` | Jungsang Kim | 1 | 75% | ✅ | links.orcid, links.homepage, thesis.link, postdocs |
-| A-done | `019-michael-koehl` | Michael Köhl | 1 | 75% | ✅ | key_papers, links.homepage, thesis.link, affiliations |
-| A-done | `028-juergen-eschner` | Jürgen Eschner | 1 | 75% | ✅ | links.homepage, thesis.title, thesis.link, affiliations |
-| A-done | `034-manas-mukherjee` | Manas Mukherjee | 1 | 75% | ✅ | links.homepage, thesis.link, postdocs, affiliations |
-| B | `027-lukas-slodicka` | Lukáš Slodička | 2 | 69% | ✅ | links.orcid, links.homepage, thesis.link, postdocs (+1) |
-| B | `033-dzmitry-matsukevich` | Dzmitry Matsukevich | 2 | 69% | ✅ | links.orcid, links.homepage, thesis.title, thesis.link (+1) |
-| B | `049-patrick-gill` | Patrick Gill | 2 | 69% | ✅ | links.google_scholar, links.homepage, thesis.link, postdocs (+1) |
-| B | `050-rachel-godun` | Rachel Godun | 2 | 69% | ✅ | links.orcid, links.homepage, thesis.link, postdocs (+1) |
-| B | `036-richard-thompson` | Richard C. Thompson | 2 | 62% | ✅ | key_papers, links.homepage, thesis.title, thesis.link (+2) |
-| B | `056-kenji-toyoda` | Kenji Toyoda | 2 | 62% | ✅ | links.orcid, links.homepage, thesis.title, thesis.link (+2) |
-| B | `057-utako-tanaka` | Utako Tanaka | 2 | 62% | ✅ | links.google_scholar, links.homepage, thesis.title, thesis.link (+2) |
-| B | `058-atsushi-noguchi` | Atsushi Noguchi | 2 | 62% | ✅ | links.orcid, links.homepage, thesis.title, thesis.link (+2) |
-| B | `062-dan-cho` | Dan Cho | 2 | 62% | ✅ | links.orcid, links.homepage, thesis.title, thesis.link (+2) |
-| B | `064-junki-kim` | Junki Kim | 2 | 62% | ✅ | key_papers, links.orcid, links.homepage, thesis.title (+2) |
-| B | `045-kazuhiro-hayasaka` | Kazuhiro Hayasaka | 2 | 56% | ✅ | links.google_scholar, links.orcid, links.homepage, links.group_page (+3) |
-| B | `055-takashi-mukaiyama` | Takashi Mukaiyama | 2 | 56% | ✅ | key_papers, links.orcid, links.homepage, thesis.title (+3) |
-| B | `066-wenhui-li` | Wenhui Li | 1 | 69% | ✅ | links.orcid, links.homepage, links.group_page, thesis.link (+1) |
-| B | `046-kjeld-eikema` | Kjeld S. E. Eikema | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `068-paul-barclay` | Paul Barclay | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `070-markus-hennrich` | Markus Hennrich | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `072-brian-mcmahon` | Brian McMahon | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `074-piet-schmidt` | Piet O. Schmidt | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `075-boris-blinov` | Boris B. Blinov | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `077-ben-lanyon` | Ben P. Lanyon | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `018-michael-drewsen` | Michael Drewsen | 1 | 44% | ❌ | key_papers, lineage_check, links.google_scholar, links.homepage (+5) |
-| B | `024-paul-haljan` | Paul Haljan | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
-| B | `025-christian-schmiegelow` | Christian Schmiegelow | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
-| B | `029-christof-wunderlich` | Christof Wunderlich | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
-| B | `030-rene-gerritsma` | Rene Gerritsma | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
-| B | `031-jeroen-koelemeij` | Jeroen C. J. Koelemeij | 1 | 44% | ❌ | key_papers, lineage_check, links.group_page, thesis.title (+5) |
-| B | `043-kilian-singer` | Kilian Singer | 1 | 44% | ❌ | key_papers, lineage_check, links.google_scholar, links.homepage (+5) |
-| B | `047-klaus-jungmann` | Klaus Jungmann | 1 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
-| B | `048-hermann-uys` | Hermann Uys | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
-| B | `051-john-chiaverini` | John Chiaverini | 1 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
-| B | `052-dan-stick` | Dan Stick | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
-| B | `061-taeyoung-choi` | Taeyoung Choi | 1 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
-| B | `065-luyan-sun` | Luyan Sun | 1 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
-| B | `069-sadiq-rangwala` | S. A. Rangwala | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
-| B | `073-david-hume` | David Hume | 1 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
-| B | `038-eric-hudson` | Eric R. Hudson | 1 | 38% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+6) |
-| B | `053-masao-kitano` | Masao Kitano | 1 | 38% | ❌ | key_papers, lineage_check, links.homepage, links.group_page (+6) |
-| B | `067-mirko-lobino` | Mirko Lobino | 1 | 38% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+6) |
-| B | `059-shuichi-hasegawa` | Shuichi Hasegawa | 1 | 31% | ❌ | key_papers, lineage_check, links.google_scholar, links.orcid (+7) |
+| A-done | `024-paul-haljan` | Paul Haljan | 1 | 75% | ✅ | key_papers, links.orcid, links.homepage, affiliations |
+| A-done | `038-eric-hudson` | Eric R. Hudson | 1 | 75% | ✅ | key_papers, links.orcid, links.homepage, affiliations |
+| A-done | `043-kilian-singer` | Kilian Singer | 1 | 75% | ✅ | key_papers, links.google_scholar, links.homepage, affiliations |
+| A-done | `048-hermann-uys` | Hermann Uys | 1 | 75% | ✅ | key_papers, links.orcid, links.homepage, affiliations |
+| A-done | `052-dan-stick` | Dan Stick | 1 | 75% | ✅ | key_papers, links.orcid, links.homepage, affiliations |
+| A-done | `053-masao-kitano` | Masao Kitano | 1 | 75% | ✅ | key_papers, links.homepage, links.group_page, affiliations |
+| A-done | `059-shuichi-hasegawa` | Shuichi Hasegawa | 1 | 75% | ✅ | key_papers, links.google_scholar, links.homepage, affiliations |
+| A-done | `066-wenhui-li` | Wenhui Li | 1 | 75% | ✅ | links.orcid, links.homepage, links.group_page, affiliations |
+| A-done | `067-mirko-lobino` | Mirko Lobino | 1 | 75% | ✅ | key_papers, links.orcid, links.homepage, affiliations |
+| A-done | `069-sadiq-rangwala` | S. A. Rangwala | 1 | 75% | ✅ | key_papers, links.orcid, links.homepage, affiliations |
 
 ## Companies (15 entries)
 

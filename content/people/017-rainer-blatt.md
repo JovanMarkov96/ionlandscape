@@ -78,7 +78,7 @@ postdocs:
 schema_version: 2
 sort_name: Blatt, Rainer
 thesis:
-  link: null
+  link: "Unknown"
   note: 'English translation: Precision measurement of the ground-state hyperfine splitting of Yb-171+'
   title: Präzisionsmessung der Hyperfeinstrukturaufspaltung des Grundzustandes von Yb-171+
   year: 1981

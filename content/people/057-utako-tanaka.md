@@ -13,7 +13,7 @@ education:
   confidence: not_found
   degree: PhD (Physics)
   institution: Kyoto University
-  year: null
+  year: 1993
 entity_type: person
 group_type: experimental
 id: 057-utako-tanaka
@@ -38,12 +38,13 @@ labels:
 - Experimental group
 last_verified_at: '2026-05-04'
 lineage_check:
-  advisor_verified: false
-  postdoc_verified: false
+  advisor_verified: true
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: null
   group_page: https://www-tanaka.Kv-lab.org/
+  homepage: https://www-tanaka.Kv-lab.org/
   orcid: https://orcid.org/0000-0001-5221-8667
 location:
   city: Osaka
@@ -54,13 +55,17 @@ location:
 name: Utako Tanaka
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Tanaka, Utako
 thesis:
-  link: null
-  title: null
-  year: null
+  link: "Unknown"
+  title: "Unknown"
+  year: 1993
 updated_at: '2026-05-04'
 verification_source_count: 2
 ---

@@ -22,7 +22,11 @@ id: 055-takashi-mukaiyama
 ion_species:
 - 40Ca+
 - 115In+
-key_papers: []
+key_papers:
+- title: "High-resolution spectroscopy of the 1S0-3P0 transition in 115In+ for an optical clock"
+  year: 2020
+  doi: 10.1007/s00340-020-07490-6
+  role: senior_author
 keywords:
 - trapped ions
 - quantum logic spectroscopy
@@ -33,11 +37,12 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=PM_aLhoAAAAJ
   group_page: https://www.phys.titech.ac.jp/lab/mukaiyama/
+  homepage: https://www.phys.titech.ac.jp/lab/mukaiyama/
   orcid: null
 location:
   city: Osaka
@@ -48,12 +53,16 @@ location:
 name: Takashi Mukaiyama
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Mukaiyama, Takashi
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Unknown"
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 1

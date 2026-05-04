@@ -62,8 +62,8 @@ postdocs:
 schema_version: 2
 sort_name: Takahashi, Hiroki
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Unknown"
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 2

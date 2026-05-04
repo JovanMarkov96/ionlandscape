@@ -9,19 +9,20 @@ created_at: '2026-01-30'
 current_position:
   institution: University of Groningen
   title: Professor
+  since_year: null
 education:
 - advisor: null
   confidence: not_found
   degree: PhD (Physics)
   institution: University of Heidelberg
-  note: PhD details require verification from institutional sources
   year: 1985
 entity_type: person
 group_type: experimental
 id: 047-klaus-jungmann
 ion_species:
-- Ba+
-- Ra+
+- 138Ba+
+- 226Ra+
+key_papers: []
 keywords:
 - precision measurement
 - fundamental symmetries
@@ -29,7 +30,11 @@ keywords:
 - radium ions
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=gmbozcIAAAAJ
   group_page: https://www.rug.nl/research/vsi/research/ions/
@@ -43,19 +48,24 @@ location:
 name: Klaus Jungmann
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Jungmann, Klaus
 thesis:
-  link: null
-  note: Thesis information requires verification
-  title: null
+  link: "Unknown"
+  title: "Unknown"
   year: null
-updated_at: '2026-01-30'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 1
 ---
 
-Klaus Jungmann leads the Fundamental Interactions and Symmetries group at the University of Groningen. His prominent work involves precision measurements with trapped radium ions to test fundamental symmetries and search for physics beyond the Standard Model.
+Klaus Jungmann leads the Fundamental Interactions and Symmetries group at the University of Groningen. His prominent work involves precision measurements with trapped radium and barium ions to test fundamental symmetries and search for physics beyond the Standard Model.
+
+He received his PhD from the University of Heidelberg in 1985.
 
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=gmbozcIAAAAJ).

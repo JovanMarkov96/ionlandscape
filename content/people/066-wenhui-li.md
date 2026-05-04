@@ -60,7 +60,7 @@ postdocs:
 schema_version: 2
 sort_name: Li, Wenhui
 thesis:
-  link: null
+  link: "Unknown"
   title: "Probing Dipole-Dipole Interactions in a Frozen Rydberg Gas with Millimeter Waves"
   year: 2005
 updated_at: '2026-05-04'

@@ -64,7 +64,7 @@ postdocs:
 schema_version: 2
 sort_name: Hecker Denschlag, Johannes
 thesis:
-  link: null
+  link: "Unknown"
   title: Kalte Atome in singulären Potentialen
   year: 1998
 updated_at: '2026-05-04'

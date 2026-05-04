@@ -74,7 +74,7 @@ postdocs:
 schema_version: 2
 sort_name: Rodríguez Rubiales, Daniel
 thesis:
-  link: null
+  link: "Unknown"
   title: "An RFQ buncher for accumulation and cooling of heavy radionuclides at SHIPTRAP and high precision mass measurements on unstable Kr isotopes at ISOLTRAP"
   year: 2003
 updated_at: '2026-05-04'

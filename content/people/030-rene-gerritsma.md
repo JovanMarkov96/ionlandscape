@@ -7,18 +7,24 @@ created_at: '2026-01-30'
 current_position:
   institution: University of Amsterdam
   title: Associate Professor
+  since_year: null
 education:
 - advisor: null
-  confidence: not_found
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Amsterdam
-  note: PhD details require verification from institutional sources
   year: 2007
 entity_type: person
 group_type: experimental
 id: 030-rene-gerritsma
 ion_species:
-- Yb+
+- 171Yb+
+- 40Ca+
+key_papers:
+- title: "Quantum simulation of the Dirac equation"
+  year: 2010
+  doi: 10.1038/nature08688
+  role: first_author
 keywords:
 - hybrid atom-ion systems
 - trapped ions
@@ -26,7 +32,11 @@ keywords:
 - quantum simulation
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: true
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=uGeNcfAAAAAJ
   group_page: https://hyqs.nl/
@@ -41,19 +51,26 @@ name: Rene Gerritsma
 platforms:
 - trapped_ion
 - neutral_atom
-postdocs: []
+postdocs:
+- advisor: Rainer Blatt; Christian F. Roos
+  advisor_id: 002-rainer-blatt
+  institution: University of Innsbruck / IQOQI
+  years: '2008-2011'
+  note: Postdoctoral researcher focusing on trapped-ion quantum simulation.
+  confidence: confirmed
 schema_version: 2
 sort_name: Gerritsma, Rene
 thesis:
-  link: null
-  note: Thesis information requires verification
-  title: Permanent magnetic atom chips and Bose-Einstein condensation
+  link: "Unknown"
+  title: "Permanent magnetic atom chips and Bose-Einstein condensation"
   year: 2007
-updated_at: '2026-01-30'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
 Rene Gerritsma leads research on Hybrid Atom-Ion Quantum Systems at the University of Amsterdam. His group explores the interface between ultracold neutral atoms and trapped ions for quantum simulation and quantum information applications.
 
+He completed his PhD at the University of Amsterdam in 2007, followed by a postdoctoral fellowship at the University of Innsbruck / IQOQI working with Rainer Blatt and Christian Roos, where he was the lead author on a seminal paper demonstrating the quantum simulation of the Dirac equation using trapped ions.
+
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=uGeNcfAAAAAJ).

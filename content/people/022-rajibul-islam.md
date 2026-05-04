@@ -79,7 +79,7 @@ postdocs:
 schema_version: 2
 sort_name: Islam, K. Rajibul
 thesis:
-  link: null
+  link: "Unknown"
   note: Received the Distinguished Dissertation Award in 2013.
   title: Quantum Simulation of Interacting Spin Models with Trapped Ions
   year: 2013

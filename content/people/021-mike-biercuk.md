@@ -73,7 +73,7 @@ postdocs:
 schema_version: 2
 sort_name: Biercuk, Michael J.
 thesis:
-  link: null
+  link: "Unknown"
   title: Local Gate Control in Carbon Nanotube Quantum Dots
   year: 2005
 updated_at: '2026-05-04'

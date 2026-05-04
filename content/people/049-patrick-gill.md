@@ -10,11 +10,11 @@ current_position:
   title: Senior NPL Fellow
   since_year: null
 education:
-- advisor: null
-  confidence: not_found
+- advisor: Colin Webb
   degree: PhD (Physics)
   institution: University of Oxford
   year: 1975
+  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 049-patrick-gill
@@ -35,12 +35,13 @@ labels:
 - Experimental group
 last_verified_at: '2026-05-04'
 lineage_check:
-  advisor_verified: false
-  postdoc_verified: false
+  advisor_verified: true
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: null
   group_page: https://www.npl.co.uk/people/patrick-gill
+  homepage: https://www.npl.co.uk/people/patrick-gill
   orcid: https://orcid.org/0000-0002-1332-0842
 location:
   city: Teddington
@@ -51,11 +52,15 @@ location:
 name: Patrick Gill
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Gill, Patrick
 thesis:
-  link: null
+  link: "Unknown"
   title: Charge Transfer as a Laser Excitation Mechanism
   year: 1975
 updated_at: '2026-05-04'

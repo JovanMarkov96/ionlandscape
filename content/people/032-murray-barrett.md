@@ -62,7 +62,7 @@ postdocs:
 schema_version: 2
 sort_name: Barrett, Murray D.
 thesis:
-  link: null
+  link: "Unknown"
   title: "A QUEST for BEC: An all optical alternative"
   year: 2002
 updated_at: '2026-05-04'

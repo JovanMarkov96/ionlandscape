@@ -7,26 +7,33 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Georgia Institute of Technology
-  title: Professor
+  title: Research Scientist
+  since_year: null
 education:
 - advisor: null
   confidence: not_found
   degree: PhD (Physics)
   institution: Georgia Institute of Technology
-  note: PhD details require verification
   year: 2021
 entity_type: person
 group_type: experimental
 id: 072-brian-mcmahon
 ion_species:
-- Yb+
+- 171Yb+
+key_papers: []
 keywords:
 - trapped ions
 - quantum computing
 - quantum networks
+- Penning traps
+- Doppler cooling
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=yXqgH5oAAAAJ
   group_page: https://gtri.gatech.edu/researcher/brian-mcmahon
@@ -40,16 +47,24 @@ location:
 name: Brian McMahon
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: McMahon, Brian
 thesis:
-  link: null
-  note: Thesis information requires verification
-  title: Compact, reconfigurable Penning ion traps and Doppler laser cooling
+  link: "Unknown"
+  title: "Compact, reconfigurable Penning ion traps and Doppler laser cooling"
   year: 2021
-updated_at: '2026-01-30'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 1
 ---
 
-Brian McMahon leads trapped-ion research at Georgia Tech focusing on quantum computing and quantum networks.
+Brian McMahon is a Research Scientist at the Georgia Tech Research Institute (GTRI), leading trapped-ion research focused on quantum computing and quantum networks. His work has involved the development of compact, reconfigurable Penning ion traps and advanced Doppler cooling techniques for quantum simulation.
+
+He earned his PhD in Physics from the Georgia Institute of Technology in 2021.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=yXqgH5oAAAAJ).

@@ -69,11 +69,15 @@ location:
 name: John J. Bollinger
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Bollinger, John J.
 thesis:
-  link: null
+  link: "Unknown"
   title: Measurement of the 42S1/2-42P1/2 Lamb Shift in He+
   year: 1981
   note: PhD under Arthur Pipkin at Harvard, 1981. Title from prior record; not independently

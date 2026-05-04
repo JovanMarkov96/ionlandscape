@@ -82,7 +82,7 @@ postdocs:
 schema_version: 2
 sort_name: Ozeri, Roee
 thesis:
-  link: null
+  link: "Unknown"
   title: Optical manipulation of atomic clouds
   year: 2006
 updated_at: '2026-05-04'

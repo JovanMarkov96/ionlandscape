@@ -7,25 +7,37 @@ created_at: '2026-01-28'
 current_position:
   institution: Aarhus University
   title: Professor
+  since_year: null
 education:
-- degree: PhD (Physics)
+- advisor: null
+  degree: PhD (Physics)
   institution: Aarhus University
-  note: Spent 10 months at l'Ecole Normale Supérieure in Paris with C. Cohen-Tannoudji
-    during PhD
+  note: Spent 10 months at l'Ecole Normale Supérieure in Paris with C. Cohen-Tannoudji during PhD
   year: 1994
+  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 018-michael-drewsen
 ion_species:
-- Ca+
+- 40Ca+
+key_papers:
+- title: "Large Ion Crystals in a Linear Paul Trap"
+  year: 1998
+  doi: 10.1103/PhysRevLett.81.2922
+  role: first_author
 keywords:
 - trapped ions
 - molecular ions
 - quantum simulation
 - Coulomb crystals
+- sympathetic cooling
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: null
   group_page: https://phys.au.dk/en/research/research-areas/amo/drewsen-lab
@@ -40,18 +52,24 @@ location:
 name: Michael Drewsen
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Drewsen, Michael
 thesis:
-  link: null
-  title: Investigations of Light-Induced Kinetic Effects on Atoms
+  link: "Unknown"
+  title: "Investigations of Light-Induced Kinetic Effects on Atoms"
   year: 1994
-updated_at: '2026-01-28'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-Michael Drewsen is a professor at Aarhus University and leads research in trapped-ion physics, with particular focus on molecular ions, Coulomb crystals, and quantum simulation. His group has made significant contributions to sympathetic cooling techniques and precision spectroscopy of molecular ions.
+Michael Drewsen is a professor at Aarhus University and leads research in trapped-ion physics, with particular focus on molecular ions, large Coulomb crystals, and quantum simulation. His group has made significant contributions to sympathetic cooling techniques and precision spectroscopy of molecular ions, and he authored early seminal work on forming large ion crystals in linear Paul traps.
+
+He received his PhD from Aarhus University in 1994.
 
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on scientific databases.

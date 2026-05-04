@@ -70,11 +70,15 @@ location:
 name: Jungsang Kim
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Kim, Jungsang
 thesis:
-  link: null
+  link: "Unknown"
   note: Thesis title inferred from doctoral research focus; exact title not confirmed
     in open-access sources.
   title: Generation and detection of single photon states

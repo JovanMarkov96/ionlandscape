@@ -67,7 +67,7 @@ postdocs:
 schema_version: 2
 sort_name: Brown, Kenneth R.
 thesis:
-  link: null
+  link: "Unknown"
   title: Theoretical Issues in Quantum Information Technologies
   year: 2003
 updated_at: '2026-05-04'

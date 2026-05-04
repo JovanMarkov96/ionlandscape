@@ -63,8 +63,8 @@ postdocs:
 schema_version: 2
 sort_name: Eschner, Jürgen
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Unknown"
   year: 1993
 updated_at: '2026-05-04'
 verification_source_count: 2

@@ -36,11 +36,12 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=TkWO3PgAAAAJ
   group_page: https://www.npl.co.uk/people/rachel-godun
+  homepage: https://www.npl.co.uk/people/rachel-godun
   orcid: null
 location:
   city: Teddington
@@ -51,11 +52,15 @@ location:
 name: Rachel Godun
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: University of Oxford
+  years: '2000-2008'
+  confidence: confirmed
 schema_version: 2
 sort_name: Godun, Rachel
 thesis:
-  link: null
+  link: "Unknown"
   title: Beam splitting mechanisms for a caesium atom interferometer
   year: 2000
 updated_at: '2026-05-04'

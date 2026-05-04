@@ -60,8 +60,8 @@ postdocs:
 schema_version: 2
 sort_name: Kim, Taehyun
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Unknown"
   year: 2008
 updated_at: '2026-05-04'
 verification_source_count: 2

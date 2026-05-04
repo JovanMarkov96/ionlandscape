@@ -42,6 +42,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=yDbgjnIAAAAJ
   group_page: https://ions-sg.org/
+  homepage: https://cqt.nus.edu.sg/people/principal-investigators/dzmitry-matsukevich/
   orcid: null
 location:
   city: Singapore
@@ -54,7 +55,7 @@ platforms:
 - trapped_ion
 postdocs:
 - advisor: Christopher Monroe
-  advisor_id: 005-christopher-monroe
+  advisor_id: 004-christopher-monroe
   institution: University of Maryland (JQI)
   years: '2006-2010'
   note: Postdoctoral researcher working on trapped ion quantum computing and networks.
@@ -62,8 +63,8 @@ postdocs:
 schema_version: 2
 sort_name: Matsukevich, Dzmitry
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Unknown"
   year: 2006
 updated_at: '2026-05-04'
 verification_source_count: 2

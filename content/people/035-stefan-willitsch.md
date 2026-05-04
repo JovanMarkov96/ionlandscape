@@ -66,7 +66,7 @@ postdocs:
 schema_version: 2
 sort_name: Willitsch, Stefan
 thesis:
-  link: null
+  link: "Unknown"
   title: "Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer Radikale und Kationen"
   year: 2004
 updated_at: '2026-05-04'

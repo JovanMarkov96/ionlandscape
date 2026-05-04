@@ -79,9 +79,9 @@ postdocs:
 schema_version: 2
 sort_name: Vuletić, Vladan
 thesis:
-  link: null
+  link: "Unknown"
   note: Thesis title topic related to magnetic trapping of cold atoms. Exact title not readily available.
-  title: null
+  title: "Unknown"
   year: 1997
 updated_at: '2026-05-04'
 verification_source_count: 3

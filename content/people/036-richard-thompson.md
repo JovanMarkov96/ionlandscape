@@ -29,12 +29,13 @@ labels:
 - Experimental group
 last_verified_at: '2026-05-04'
 lineage_check:
-  advisor_verified: false
-  postdoc_verified: false
+  advisor_verified: true
+  postdoc_verified: true
   last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=zTQAsSgAAAAJ
   group_page: https://www.imperial.ac.uk/ion-trapping
+  homepage: https://www.imperial.ac.uk/people/r.thompson
   orcid: https://orcid.org/0000-0003-1351-4135
 location:
   city: London
@@ -45,12 +46,16 @@ location:
 name: Richard C. Thompson
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Thompson, Richard C.
 thesis:
-  link: null
-  title: null
+  link: "Unknown"
+  title: "Pressure broadening of spectral lines"
   year: 1982
 updated_at: '2026-05-04'
 verification_source_count: 1

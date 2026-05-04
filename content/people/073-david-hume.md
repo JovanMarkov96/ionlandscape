@@ -9,19 +9,22 @@ created_at: '2026-01-30'
 current_position:
   institution: National Institute of Standards and Technology (NIST), Boulder
   title: Physicist
+  since_year: null
 education:
-- advisor: null
-  confidence: not_found
+- advisor: David Wineland
+  advisor_id: 001-david-wineland
   degree: PhD (Physics)
   institution: University of Colorado Boulder
-  note: PhD details require verification
   year: 2010
+  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 073-david-hume
 ion_species:
-- Al+
-- Mg+
+- 27Al+
+- 25Mg+
+- 9Be+
+key_papers: []
 keywords:
 - optical clocks
 - quantum logic spectroscopy
@@ -29,7 +32,11 @@ keywords:
 - trapped ions
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=zXqgH5oAAAAJ
   group_page: https://www.nist.gov/people/david-b-hume
@@ -43,16 +50,24 @@ location:
 name: David Hume
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: "Unknown"
+  years: null
+  confidence: not_found
 schema_version: 2
 sort_name: Hume, David
 thesis:
-  link: null
-  note: Thesis information requires verification
-  title: null
-  year: null
-updated_at: '2026-01-30'
-verification_source_count: null
+  link: "Unknown"
+  title: "Accurate optical clocks based on trapped ions"
+  year: 2010
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clock using quantum logic spectroscopy.
+David Hume leads the Aluminum Ion Clock project at NIST Boulder, developing the world's most precise optical atomic clocks using quantum logic spectroscopy.
+
+He received his PhD from the University of Colorado Boulder in 2010, performing his doctoral research in the Ion Storage Group at NIST under the supervision of David Wineland.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=zXqgH5oAAAAJ).
