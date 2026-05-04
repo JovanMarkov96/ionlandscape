@@ -72,7 +72,7 @@
     {
       "id": "006-david-wineland",
       "name": "David J. Wineland",
-      "connectivity": 4,
+      "connectivity": 6,
       "completeness_pct": 69,
       "has_evidence": true,
       "tier": "A",
@@ -88,165 +88,117 @@
       "id": "007-dietrich-leibfried",
       "name": "Dietrich Leibfried",
       "connectivity": 1,
-      "completeness_pct": 44,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
         "thesis.title",
         "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "affiliations"
       ]
     },
     {
       "id": "008-john-bollinger",
       "name": "John J. Bollinger",
       "connectivity": 1,
-      "completeness_pct": 50,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
         "thesis.link",
         "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "affiliations"
       ]
     },
     {
       "id": "009-hartmut-haeffner",
       "name": "Hartmut H\u00e4ffner",
       "connectivity": 1,
-      "completeness_pct": 50,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 88,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
-        "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
       "id": "010-jungsang-kim",
       "name": "Jungsang Kim",
       "connectivity": 1,
-      "completeness_pct": 44,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.orcid",
         "links.homepage",
         "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "postdocs"
       ]
     },
     {
       "id": "011-kihwan-kim",
       "name": "Kihwan Kim",
       "connectivity": 2,
-      "completeness_pct": 38,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.orcid",
         "links.homepage",
         "thesis.title",
-        "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
       "id": "012-winfried-hensinger",
       "name": "Winfried K. Hensinger",
       "connectivity": 1,
-      "completeness_pct": 50,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 88,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
-        "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
       "id": "013-ferdinand-schmidt-kaler",
       "name": "Ferdinand Schmidt-Kaler",
       "connectivity": 1,
-      "completeness_pct": 44,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 81,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.orcid",
         "links.homepage",
-        "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
       "id": "014-thomas-monz",
       "name": "Thomas Monz",
       "connectivity": 1,
-      "completeness_pct": 56,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 88,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
-        "links.google_scholar",
         "links.homepage",
-        "postdocs",
-        "last_verified_at",
-        "verification_source_count"
+        "postdocs"
       ]
     },
     {
       "id": "015-tracy-northup",
       "name": "Tracy E. Northup",
       "connectivity": 1,
-      "completeness_pct": 56,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 88,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "ion_species",
-        "key_papers",
-        "lineage_check",
         "links.homepage",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "affiliations"
       ]
     },
     {
@@ -267,7 +219,7 @@
     {
       "id": "017-rainer-blatt",
       "name": "Rainer Blatt",
-      "connectivity": 6,
+      "connectivity": 12,
       "completeness_pct": 69,
       "has_evidence": true,
       "tier": "A",
@@ -320,53 +272,37 @@
       "id": "020-luming-duan",
       "name": "Luming Duan",
       "connectivity": 1,
-      "completeness_pct": 44,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 81,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
         "thesis.title",
-        "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
       "id": "021-mike-biercuk",
       "name": "Michael J. Biercuk",
       "connectivity": 1,
-      "completeness_pct": 56,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 88,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
-        "thesis.link",
-        "postdocs",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
       "id": "022-rajibul-islam",
       "name": "K. Rajibul Islam",
       "connectivity": 1,
-      "completeness_pct": 56,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 88,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
-        "thesis.link",
-        "postdocs",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
@@ -690,56 +626,41 @@
     {
       "id": "040-vladan-vuletic",
       "name": "Vladan Vuleti\u0107",
-      "connectivity": 1,
-      "completeness_pct": 50,
-      "has_evidence": false,
-      "tier": "B",
+      "connectivity": 3,
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
         "ion_species",
-        "key_papers",
-        "lineage_check",
         "links.homepage",
         "thesis.title",
-        "thesis.link",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
       "id": "041-isaac-chuang",
       "name": "Isaac L. Chuang",
-      "connectivity": 1,
-      "completeness_pct": 44,
-      "has_evidence": false,
-      "tier": "B",
+      "connectivity": 3,
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.orcid",
         "links.homepage",
         "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "affiliations"
       ]
     },
     {
       "id": "042-kenneth-brown",
       "name": "Kenneth R. Brown",
       "connectivity": 2,
-      "completeness_pct": 50,
-      "has_evidence": false,
-      "tier": "B",
+      "completeness_pct": 88,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
-        "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "thesis.link"
       ]
     },
     {
@@ -1495,7 +1416,7 @@
     {
       "id": "c003-alpine-quantum-technologies-aqt",
       "name": "Alpine Quantum Technologies",
-      "connectivity": 1,
+      "connectivity": 2,
       "completeness_pct": 12,
       "tier": "A",
       "missing": [
@@ -1541,7 +1462,7 @@
     {
       "id": "c005-q-ctrl",
       "name": "Q-CTRL",
-      "connectivity": 0,
+      "connectivity": 1,
       "completeness_pct": 12,
       "tier": "A",
       "missing": [
@@ -1564,7 +1485,7 @@
     {
       "id": "c006-quera-computing",
       "name": "QuEra Computing",
-      "connectivity": 0,
+      "connectivity": 1,
       "completeness_pct": 12,
       "tier": "A",
       "missing": [

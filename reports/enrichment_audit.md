@@ -2,26 +2,40 @@
 
 Generated: 2026-05-04
 
-**Summary**: 6 tier-A people (4 already enriched), 15 tier-A companies, 59 tier-A institutions.
+**Summary**: 6 tier-A people (19 already enriched), 15 tier-A companies, 59 tier-A institutions.
 
 ## People (79 entries)
 
 | Tier | ID | Name | Connectivity | Completeness | Evidence | Missing |
 |------|-----|------|:---:|:---:|:---:|---------|
+| A | `017-rainer-blatt` | Rainer Blatt | 12 | 69% | ✅ | ion_species, links.homepage, thesis.title, thesis.link (+1) |
 | A | `001-roee-ozeri` | Roee Ozeri | 7 | 69% | ✅ | key_papers, lineage_check, links.group_page, thesis.title (+1) |
-| A | `017-rainer-blatt` | Rainer Blatt | 6 | 69% | ✅ | ion_species, links.homepage, thesis.title, thesis.link (+1) |
-| A | `006-david-wineland` | David J. Wineland | 4 | 69% | ✅ | ion_species, key_papers, lineage_check, links.homepage (+1) |
+| A | `006-david-wineland` | David J. Wineland | 6 | 69% | ✅ | ion_species, key_papers, lineage_check, links.homepage (+1) |
 | A | `060-moonjoo-lee` | Moonjoo Lee | 4 | 44% | ❌ | key_papers, lineage_check, links.google_scholar, links.homepage (+5) |
 | A | `037-david-lucas` | David M. Lucas | 3 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | A | `066-wenhui-li` | Wenhui Li | 1 | 25% | ❌ | key_papers, lineage_check, links.google_scholar, links.orcid (+8) |
 | A-done | `004-christopher-monroe` | Christopher R. Monroe | 7 | 75% | ✅ | links.group_page, thesis.title, thesis.link, postdocs |
+| A-done | `040-vladan-vuletic` | Vladan Vuletić | 3 | 75% | ✅ | ion_species, links.homepage, thesis.title, thesis.link |
+| A-done | `041-isaac-chuang` | Isaac L. Chuang | 3 | 75% | ✅ | links.orcid, links.homepage, thesis.link, affiliations |
 | A-done | `002-ziv-meir` | Ziv Meir | 2 | 88% | ✅ | key_papers, affiliations |
+| A-done | `042-kenneth-brown` | Kenneth R. Brown | 2 | 88% | ✅ | links.homepage, thesis.link |
 | A-done | `003-chris-ballance` | Chris Ballance | 2 | 81% | ✅ | key_papers, links.homepage, postdocs |
+| A-done | `011-kihwan-kim` | Kihwan Kim | 2 | 75% | ✅ | links.orcid, links.homepage, thesis.title, thesis.link |
+| A-done | `009-hartmut-haeffner` | Hartmut Häffner | 1 | 88% | ✅ | links.homepage, thesis.link |
+| A-done | `012-winfried-hensinger` | Winfried K. Hensinger | 1 | 88% | ✅ | links.homepage, thesis.link |
+| A-done | `014-thomas-monz` | Thomas Monz | 1 | 88% | ✅ | links.homepage, postdocs |
+| A-done | `015-tracy-northup` | Tracy E. Northup | 1 | 88% | ✅ | links.homepage, affiliations |
+| A-done | `021-mike-biercuk` | Michael J. Biercuk | 1 | 88% | ✅ | links.homepage, thesis.link |
+| A-done | `022-rajibul-islam` | K. Rajibul Islam | 1 | 88% | ✅ | links.homepage, thesis.link |
+| A-done | `013-ferdinand-schmidt-kaler` | Ferdinand Schmidt-Kaler | 1 | 81% | ✅ | links.orcid, links.homepage, thesis.link |
+| A-done | `020-luming-duan` | Luming Duan | 1 | 81% | ✅ | links.homepage, thesis.title, thesis.link |
 | A-done | `005-christian-roos` | Christian F. Roos | 1 | 75% | ✅ | key_papers, lineage_check, links.homepage, affiliations |
+| A-done | `007-dietrich-leibfried` | Dietrich Leibfried | 1 | 75% | ✅ | links.homepage, thesis.title, thesis.link, affiliations |
+| A-done | `008-john-bollinger` | John J. Bollinger | 1 | 75% | ✅ | links.homepage, thesis.link, postdocs, affiliations |
+| A-done | `010-jungsang-kim` | Jungsang Kim | 1 | 75% | ✅ | links.orcid, links.homepage, thesis.link, postdocs |
 | B | `016-jonathan-home` | Jonathan P. Home | 2 | 69% | ✅ | links.homepage, thesis.title, thesis.link, postdocs (+1) |
 | B | `026-erik-streed` | Erik W. Streed | 2 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `035-stefan-willitsch` | Stefan Willitsch | 2 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `042-kenneth-brown` | Kenneth R. Brown | 2 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `078-yuval-shagam` | Yuval Shagam | 2 | 50% | ❌ | ion_species, key_papers, lineage_check, links.group_page (+4) |
 | B | `027-lukas-slodicka` | Lukáš Slodička | 2 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | B | `032-murray-barrett` | Murray D. Barrett | 2 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
@@ -31,7 +45,6 @@ Generated: 2026-05-04
 | B | `050-rachel-godun` | Rachel Godun | 2 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | B | `054-hiroki-takahashi` | Hiroki Takahashi | 2 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
 | B | `063-taehyun-kim` | Taehyun Kim | 2 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
-| B | `011-kihwan-kim` | Kihwan Kim | 2 | 38% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+6) |
 | B | `033-dzmitry-matsukevich` | Dzmitry Matsukevich | 2 | 38% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+6) |
 | B | `055-takashi-mukaiyama` | Takashi Mukaiyama | 2 | 38% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+6) |
 | B | `056-kenji-toyoda` | Kenji Toyoda | 2 | 38% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+6) |
@@ -40,20 +53,12 @@ Generated: 2026-05-04
 | B | `062-dan-cho` | Dan Cho | 2 | 38% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+6) |
 | B | `064-junki-kim` | Junki Kim | 2 | 38% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+6) |
 | B | `045-kazuhiro-hayasaka` | Kazuhiro Hayasaka | 2 | 31% | ❌ | key_papers, lineage_check, links.google_scholar, links.orcid (+7) |
-| B | `014-thomas-monz` | Thomas Monz | 1 | 56% | ❌ | key_papers, lineage_check, links.google_scholar, links.homepage (+3) |
-| B | `015-tracy-northup` | Tracy E. Northup | 1 | 56% | ❌ | ion_species, key_papers, lineage_check, links.homepage (+3) |
-| B | `021-mike-biercuk` | Michael J. Biercuk | 1 | 56% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+3) |
-| B | `022-rajibul-islam` | K. Rajibul Islam | 1 | 56% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+3) |
 | B | `023-crystal-senko` | Crystal Senko | 1 | 56% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+3) |
 | B | `079-daniel-rodriguez` | Daniel Rodríguez Rubiales | 1 | 56% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+3) |
-| B | `008-john-bollinger` | John J. Bollinger | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `009-hartmut-haeffner` | Hartmut Häffner | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `012-winfried-hensinger` | Winfried K. Hensinger | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `019-michael-koehl` | Michael Köhl | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `028-juergen-eschner` | Jürgen Eschner | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+4) |
 | B | `034-manas-mukherjee` | Manas Mukherjee | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `039-wes-campbell` | Wesley C. Campbell | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `040-vladan-vuletic` | Vladan Vuletić | 1 | 50% | ❌ | ion_species, key_papers, lineage_check, links.homepage (+4) |
 | B | `046-kjeld-eikema` | Kjeld S. E. Eikema | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `068-paul-barclay` | Paul Barclay | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `070-markus-hennrich` | Markus Hennrich | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
@@ -61,17 +66,12 @@ Generated: 2026-05-04
 | B | `074-piet-schmidt` | Piet O. Schmidt | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `075-boris-blinov` | Boris B. Blinov | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
 | B | `077-ben-lanyon` | Ben P. Lanyon | 1 | 50% | ❌ | key_papers, lineage_check, links.homepage, thesis.link (+4) |
-| B | `007-dietrich-leibfried` | Dietrich Leibfried | 1 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
-| B | `010-jungsang-kim` | Jungsang Kim | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
-| B | `013-ferdinand-schmidt-kaler` | Ferdinand Schmidt-Kaler | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | B | `018-michael-drewsen` | Michael Drewsen | 1 | 44% | ❌ | key_papers, lineage_check, links.google_scholar, links.homepage (+5) |
-| B | `020-luming-duan` | Luming Duan | 1 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
 | B | `024-paul-haljan` | Paul Haljan | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | B | `025-christian-schmiegelow` | Christian Schmiegelow | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | B | `029-christof-wunderlich` | Christof Wunderlich | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | B | `030-rene-gerritsma` | Rene Gerritsma | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | B | `031-jeroen-koelemeij` | Jeroen C. J. Koelemeij | 1 | 44% | ❌ | key_papers, lineage_check, links.group_page, thesis.title (+5) |
-| B | `041-isaac-chuang` | Isaac L. Chuang | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
 | B | `043-kilian-singer` | Kilian Singer | 1 | 44% | ❌ | key_papers, lineage_check, links.google_scholar, links.homepage (+5) |
 | B | `047-klaus-jungmann` | Klaus Jungmann | 1 | 44% | ❌ | key_papers, lineage_check, links.homepage, thesis.title (+5) |
 | B | `048-hermann-uys` | Hermann Uys | 1 | 44% | ❌ | key_papers, lineage_check, links.orcid, links.homepage (+5) |
@@ -99,14 +99,14 @@ Generated: 2026-05-04
 | A | `c013-qedma` | Qedma | 4 | 56% | founded_year, people.leadership, offices, partnerships (+3) |
 | A | `c001-quantum-art` | Quantum Art | 4 | 50% | founded_year, people.leadership, milestones, offices (+4) |
 | A | `c009-quantlr` | QuantLR | 2 | 44% | founded_year, people.leadership, funding, milestones (+5) |
+| A | `c003-alpine-quantum-technologies-aqt` | Alpine Quantum Technologies | 2 | 12% | founded_year, approach, focus_areas, products (+10) |
 | A | `c002-ionq` | IonQ | 1 | 12% | founded_year, approach, focus_areas, products (+10) |
-| A | `c003-alpine-quantum-technologies-aqt` | Alpine Quantum Technologies | 1 | 12% | founded_year, approach, focus_areas, products (+10) |
+| A | `c005-q-ctrl` | Q-CTRL | 1 | 12% | founded_year, approach, focus_areas, products (+10) |
+| A | `c006-quera-computing` | QuEra Computing | 1 | 12% | founded_year, approach, focus_areas, products (+10) |
 | A | `c011-quancilla` | Quancilla | 0 | 31% | founded_year, people.founders, people.leadership, funding (+7) |
 | A | `c012-enquantum` | enQuantum | 0 | 31% | founded_year, people.founders, people.leadership, funding (+7) |
 | A | `c010-quantum-transistors` | Quantum Transistors | 0 | 25% | founded_year, people.founders, people.leadership, funding (+8) |
 | A | `c004-oxford-ionics` | Oxford Ionics | 0 | 12% | founded_year, approach, focus_areas, products (+10) |
-| A | `c005-q-ctrl` | Q-CTRL | 0 | 12% | founded_year, approach, focus_areas, products (+10) |
-| A | `c006-quera-computing` | QuEra Computing | 0 | 12% | founded_year, approach, focus_areas, products (+10) |
 
 ## Institutions (59 entries)
 
