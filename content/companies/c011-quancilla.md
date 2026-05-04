@@ -22,7 +22,7 @@ funding:
   rounds: []
   total_raised_usd: null
 id: c011-quancilla
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -34,6 +34,7 @@ location:
   lat: 32.0853
   lon: 34.7818
   region: Tel Aviv District
+media: {}
 milestones: []
 modality: software
 name: Quancilla
@@ -63,7 +64,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 2
 ---
 
 Quancilla is an early-stage Israeli software company working to lower the barrier to entry for quantum programming. They focus on building developer tools and platforms that provide higher-level abstractions, allowing users to design and test algorithms without needing deep, hardware-specific expertise of the underlying quantum processors.

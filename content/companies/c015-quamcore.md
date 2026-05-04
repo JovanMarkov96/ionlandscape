@@ -47,7 +47,7 @@ funding:
     stage: seed
   total_raised_usd: 35000000
 id: c015-quamcore
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -59,6 +59,7 @@ location:
   lat: 32.167
   lon: 34.8117
   region: Central
+media: {}
 milestones:
 - claim: Company emerged from stealth with $9M seed funding to build a scalable million-qubit
     platform.
@@ -104,7 +105,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 2
 ---
 
 QuamCore targets one of the most significant engineering bottlenecks in superconducting quantum computing: the input/output (I/O) wiring crisis. As superconducting processors scale, the number of coaxial cables required to connect room-temperature control electronics to milli-Kelvin qubits grows proportionally, leading to massive heat load and physical space constraints.

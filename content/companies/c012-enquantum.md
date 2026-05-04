@@ -22,7 +22,7 @@ funding:
   rounds: []
   total_raised_usd: null
 id: c012-enquantum
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -34,6 +34,7 @@ location:
   lat: 32.0154
   lon: 34.7937
   region: Tel Aviv District
+media: {}
 milestones: []
 modality: software
 name: enQuantum
@@ -63,7 +64,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 2
 ---
 
 enQuantum is an Israeli technology company focused on commercializing quantum-secure communications. They specialize in Quantum Key Distribution (QKD) systems designed to map onto and integrate with existing optical fiber infrastructure. Their aim is to provide robust, near-term defense against "harvest now, decrypt later" strategies by enabling telecom providers and enterprises to establish provably secure communication links based on the laws of physics.

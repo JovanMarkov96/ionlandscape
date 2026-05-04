@@ -51,7 +51,7 @@ funding:
     stage: seed
   total_raised_usd: 77000000
 id: c014-quantum-source-labs
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -63,6 +63,8 @@ location:
   lat: 31.9182
   lon: 34.806
   region: Central
+media:
+  logo_path: /logos/c014-quantum-source-labs.png
 milestones:
 - claim: Raised $50M in Series A funding to accelerate development of scalable photonic
     quantum computing systems.
@@ -112,7 +114,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 3
 ---
 
 Quantum Source Labs, located in Ness Ziona, Israel, approaches scalable quantum computing by addressing the fundamental inefficiencies of pure photonic architectures. While photons are superb carriers of quantum information for computation and networking without significant decoherence, interacting them deterministically (for two-qubit logic gates) is notoriously difficult. 

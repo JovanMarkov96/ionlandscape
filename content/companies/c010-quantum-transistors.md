@@ -20,7 +20,7 @@ funding:
   rounds: []
   total_raised_usd: null
 id: c010-quantum-transistors
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -32,6 +32,7 @@ location:
   lat: 32.5203
   lon: 34.9436
   region: Haifa
+media: {}
 milestones: []
 modality: hardware
 name: Quantum Transistors
@@ -62,7 +63,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 2
 ---
 
 Quantum Transistors is an Israeli hardware startup focused on building scalable quantum processors utilizing semiconductor spin qubits. By designing architectures compatible with existing CMOS manufacturing processes, the company aims to leverage the mature, multi-billion-dollar semiconductor industry to overcome the profound scaling challenges inherent to quantum computing hardware, paving the way for densely packed, manufacturable quantum chips.

@@ -3,7 +3,7 @@ aliases:
 - Q-CTRL
 entity_type: company
 id: c005-q-ctrl
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   website: https://qctrl.com
 location:
@@ -28,5 +28,5 @@ sort_name: Q-CTRL
 sources: []
 status:
   operating_status: private
-verification_source_count: null
+verification_source_count: 0
 ---

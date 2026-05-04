@@ -4,7 +4,7 @@ aliases:
 - AQT
 entity_type: company
 id: c003-alpine-quantum-technologies-aqt
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   website: https://www.aqt.eu
 location:
@@ -14,7 +14,7 @@ location:
   lon: 11.393
   region: Tyrol
 media:
-  logo_path: ''
+  logo_path: /logos/c003-alpine-quantum-technologies-aqt.png
 modality: hardware
 name: Alpine Quantum Technologies
 people:
@@ -29,5 +29,5 @@ sort_name: Alpine Quantum Technologies
 sources: []
 status:
   operating_status: private
-verification_source_count: null
+verification_source_count: 0
 ---

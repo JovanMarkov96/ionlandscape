@@ -42,7 +42,7 @@ funding:
     stage: series_c
   total_raised_usd: 200000000
 id: c003-classiq-technologies
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -54,6 +54,8 @@ location:
   lat: 32.0746
   lon: 34.7833
   region: Tel Aviv District
+media:
+  logo_path: /logos/c003-classiq-technologies.png
 milestones:
 - claim: Completed a $110M Series C financing, the largest ever for a quantum software
     company.
@@ -100,7 +102,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 2
 ---
 
 Classiq Technologies is a leading quantum software company based in Tel Aviv, Israel. They have developed an enterprise-grade platform that automates the creation of complex quantum algorithms. By allowing developers to work at a higher level of abstraction, Classiq's synthesis engine automatically translates functional intentions into highly optimized quantum circuits, greatly simplifying quantum software development.

@@ -22,7 +22,7 @@ funding:
   rounds: []
   total_raised_usd: null
 id: c009-quantlr
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -34,6 +34,8 @@ location:
   lat: 31.8906
   lon: 35.0003
   region: Tel Aviv District
+media:
+  logo_path: /logos/c009-quantlr.png
 milestones: []
 modality: software
 name: QuantLR
@@ -72,7 +74,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 3
 ---
 
 QuantLR is an Israeli quantum technology startup focused on building the foundational infrastructure for the quantum internet. Spun out of research conducted at the Hebrew University of Jerusalem, the company is developing components necessary for secure, long-distance quantum communication. 

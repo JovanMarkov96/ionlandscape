@@ -41,7 +41,7 @@ funding:
     stage: series_a
   total_raised_usd: 124000000
 id: c001-quantum-art
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: https://quantum-art.tech/careers
   linkedin: ''
@@ -55,7 +55,7 @@ location:
   region: Central
 media:
   hero_image_path: ''
-  logo_path: /img/companies/quantum-art.png
+  logo_path: /logos/c001-quantum-art.png
 milestones: []
 modality: hardware
 name: Quantum Art
@@ -95,5 +95,5 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 3
 ---

@@ -34,7 +34,7 @@ funding:
     stage: series_c
   total_raised_usd: 280000000
 id: c002-quantum-machines
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -46,6 +46,8 @@ location:
   lat: 32.0621
   lon: 34.782
   region: Tel Aviv District
+media:
+  logo_path: /logos/c002-quantum-machines.png
 milestones:
 - claim: Completed a $170M Series C funding round, expanding global market position
     and technology adoption.
@@ -93,7 +95,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 2
 ---
 
 Quantum Machines (QM) is a global leader in providing quantum control and orchestration systems. Founded in 2018 in Tel Aviv, Israel, their mission is to bring about the era of quantum computing by creating the operational foundation—both hardware and software—that makes practical quantum computers possible. 

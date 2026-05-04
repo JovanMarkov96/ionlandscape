@@ -35,7 +35,7 @@ funding:
     stage: series_a
   total_raised_usd: 26000000
 id: c013-qedma
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
@@ -47,6 +47,7 @@ location:
   lat: 32.1066
   lon: 34.8121
   region: Tel Aviv District
+media: {}
 milestones:
 - claim: Raised $26M in Series A funding to accelerate development of quantum error
     mitigation and characterization products.
@@ -93,7 +94,7 @@ status:
     is_acquired: false
     notes: ''
   operating_status: private
-verification_source_count: null
+verification_source_count: 2
 ---
 
 Qedma is an Israeli quantum software company focusing on error characterization and mitigation. By integrating directly with near-term, noisy hardware, Qedma acts as an optimization layer that translates error-free algorithmic logic into circuits that execute accurately despite hardware imperfections. The system provides tools for detailed operational benchmarking and subsequent suppression of the identified error channels, crucial for achieving near-term quantum utility.
