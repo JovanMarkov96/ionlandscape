@@ -5,14 +5,11 @@
       "id": "001-roee-ozeri",
       "name": "Roee Ozeri",
       "connectivity": 7,
-      "completeness_pct": 69,
+      "completeness_pct": 88,
       "has_evidence": true,
-      "tier": "A",
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
-        "links.group_page",
-        "thesis.title",
+        "links.homepage",
         "thesis.link"
       ]
     },
@@ -72,14 +69,11 @@
     {
       "id": "006-david-wineland",
       "name": "David J. Wineland",
-      "connectivity": 6,
-      "completeness_pct": 69,
+      "connectivity": 7,
+      "completeness_pct": 88,
       "has_evidence": true,
-      "tier": "A",
+      "tier": "A-done",
       "missing": [
-        "ion_species",
-        "key_papers",
-        "lineage_check",
         "links.homepage",
         "affiliations"
       ]
@@ -192,7 +186,7 @@
     {
       "id": "015-tracy-northup",
       "name": "Tracy E. Northup",
-      "connectivity": 1,
+      "connectivity": 3,
       "completeness_pct": 88,
       "has_evidence": true,
       "tier": "A-done",
@@ -220,15 +214,12 @@
       "id": "017-rainer-blatt",
       "name": "Rainer Blatt",
       "connectivity": 12,
-      "completeness_pct": 69,
+      "completeness_pct": 88,
       "has_evidence": true,
-      "tier": "A",
+      "tier": "A-done",
       "missing": [
-        "ion_species",
         "links.homepage",
-        "thesis.title",
-        "thesis.link",
-        "postdocs"
+        "thesis.link"
       ]
     },
     {
@@ -570,19 +561,15 @@
       "id": "037-david-lucas",
       "name": "David M. Lucas",
       "connectivity": 3,
-      "completeness_pct": 44,
-      "has_evidence": false,
+      "completeness_pct": 69,
+      "has_evidence": true,
       "tier": "A",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.orcid",
         "links.homepage",
         "thesis.link",
         "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "affiliations"
       ]
     },
     {
@@ -998,19 +985,14 @@
       "id": "060-moonjoo-lee",
       "name": "Moonjoo Lee",
       "connectivity": 4,
-      "completeness_pct": 44,
-      "has_evidence": false,
-      "tier": "A",
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
       "missing": [
-        "key_papers",
-        "lineage_check",
-        "links.google_scholar",
         "links.homepage",
         "links.group_page",
         "thesis.link",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "affiliations"
       ]
     },
     {
@@ -1114,22 +1096,15 @@
       "id": "066-wenhui-li",
       "name": "Wenhui Li",
       "connectivity": 1,
-      "completeness_pct": 25,
-      "has_evidence": false,
-      "tier": "A",
+      "completeness_pct": 69,
+      "has_evidence": true,
+      "tier": "B",
       "missing": [
-        "key_papers",
-        "lineage_check",
-        "links.google_scholar",
         "links.orcid",
         "links.homepage",
         "links.group_page",
-        "thesis.title",
         "thesis.link",
-        "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "affiliations"
       ]
     },
     {
@@ -1302,20 +1277,16 @@
     {
       "id": "076-tilman-esslinger",
       "name": "Tilman Esslinger",
-      "connectivity": 1,
-      "completeness_pct": 44,
-      "has_evidence": false,
-      "tier": "B",
+      "connectivity": 3,
+      "completeness_pct": 69,
+      "has_evidence": true,
+      "tier": "A",
       "missing": [
-        "key_papers",
-        "lineage_check",
         "links.homepage",
         "thesis.title",
         "thesis.link",
         "postdocs",
-        "affiliations",
-        "last_verified_at",
-        "verification_source_count"
+        "affiliations"
       ]
     },
     {
@@ -1376,7 +1347,7 @@
     {
       "id": "c001-quantum-art",
       "name": "Quantum Art",
-      "connectivity": 4,
+      "connectivity": 5,
       "completeness_pct": 50,
       "tier": "A",
       "missing": [

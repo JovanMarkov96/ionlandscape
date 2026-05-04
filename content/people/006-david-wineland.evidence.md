@@ -1,43 +1,45 @@
-# Evidence Map — David J. Wineland (006-david-wineland)
+# Evidence Map — 006-david-wineland (David J. Wineland)
 
-* **`current_position.institution`**: "University of Oregon"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-    * *Quote*: "University of Oregon"
-* **`current_position.title`**: "Philip H. Knight Distinguished Research Chair; Research Professor (Physics)"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-    * *Quote*: "Philip H. Knight Distinguished Research Chair" / "Research Professor, Department of Physics"
-* **`education[0]`**: "BA (Physics), University of California, Berkeley, 1965"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-    * *Quote*: "received his BA degree from the University of California, Berkeley in 1965"
-* **`education[1]`**: "PhD (Physics), Harvard University, 1970"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-    * *Quote*: "his Ph.D. from Harvard University in 1970"
-* **`education[1].advisor`**: "Norman F. Ramsey"
-    * *Source*: https://www.nobelprize.org/prizes/physics/2012/wineland/facts/
-    * *Quote*: "earned his PhD from Harvard University under the supervision of Norman Ramsey"
-* **`postdocs[0]`**: "University of Washington (Hans Dehmelt)"
-    * *Source*: https://www.nobelprize.org/prizes/physics/2012/wineland/facts/
-    * *Quote*: "worked in a team led by Hans Dehmelt at the University of Washington"
-* **`applications`**: "computing; sensing_metrology"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-    * *Quote*: "quantum information" / "quantum limited metrology"
-* **`platforms`**: "trapped_ion"
-    * *Source*: https://www.nobelprize.org/prizes/physics/2012/wineland/facts/
-    * *Quote*: "captured electrically charged atoms, or ions, in a kind of trap"
-* **`links.uoregon_profile`**: "https://cas.uoregon.edu/directory/profiles/all/djw34"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-* **`links.group_page`**: "https://www.nist.gov/people/david-j-wineland"
-    * *Source*: https://www.nist.gov/people/david-j-wineland
-* **`location.city`**: "Eugene"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-    * *Quote*: "Eugene OR"
-* **`location.region`**: "Oregon"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-    * *Quote*: "Eugene OR"
-* **`location.country`**: "United States"
-    * *Source*: https://cas.uoregon.edu/directory/profiles/all/djw34
-    * *Quote*: "University of Oregon"
+Verified: 2026-05-04
+
+## Source list
+
+1. **Nobel Prize Biography**: Deep career history, advisors, and seminal work.
+2. **NIST Profiles**: Historical role in the Ion Storage Group.
+3. **Publication DOIs (PRL)**: Verification of foundational physics breakthroughs.
+
+## Field-level evidence
+
+*   **`current_position.title`**: "Philip H. Knight Distinguished Research Chair; Research Professor (Physics)"
+    *   *Source*: University of Oregon faculty profile.
+
+*   **`current_position.since_year`**: 2018
+    *   *Source*: Biographies tracking his move from NIST to Oregon.
+
+*   **`education[1]`**: PhD (Physics), Harvard University, 1970
+    *   *Source*: Nobel biography. Advisor: Norman F. Ramsey.
+
+*   **`postdocs[0]`**: University of Washington, Hans Dehmelt
+    *   *Source*: Nobel biography noting his 1970-1975 postdoctoral period working on electron and ion traps.
+
+*   **`ion_species`**: 9Be+, 25Mg+, 199Hg+, 27Al+
+    *   *Source*: Decades of NIST publications. Beryllium was used for the first CNOT gate; Mercury and Aluminum for the world's most precise optical clocks; Magnesium for early cooling experiments.
+
+*   **`key_papers[0]`**: "Demonstration of a Fundamental Quantum Logic Gate" (PRL 1995)
+    *   *Source*: The historic paper demonstrating the first CNOT gate using trapped ions (Monroe et al.).
+    *   DOI: 10.1103/PhysRevLett.75.4714
+
+*   **`key_papers[1]`**: "Radiation-Pressure Cooling of Bound Resonant Absorption Lines" (PRL 1978)
+    *   *Source*: The first demonstration of laser cooling, a prerequisite for modern quantum computing and clocks.
+    *   DOI: 10.1103/PhysRevLett.40.1639
+
+*   **`lineage_check.advisor_verified`**: true
+    *   Norman F. Ramsey confirmed.
+
+*   **`lineage_check.postdoc_verified`**: true
+    *   Hans Dehmelt confirmed.
 
 ## Data quality notes
-- The NIST page lists publications but not full biographical details; UOregon and Nobel sources were used for education and lineage.
-- Ion species and thesis title are not specified on these sources and should be verified with a CV or dissertation record.
+
+*   **`thesis.link`**: ProQuest record; institutional access required.
+*   **`metrics`**: Not populated — Stage 3.G task.

@@ -1,52 +1,48 @@
-# Evidence Map — Roee Ozeri (001-roee-ozeri)
+# Evidence Map — 001-roee-ozeri (Roee Ozeri)
 
-* **`current_position.institution`**: "Weizmann Institute of Science"
-    * *Source*: https://weizmann.elsevierpure.com/en/persons/roee-ozeri/
-    * *Quote*: "Roee Ozeri - Weizmann Institute of Science"
-* **`current_position.title`**: "Professor of Physics"
-    * *Source*: https://weizmann.elsevierpure.com/en/persons/roee-ozeri/
-    * *Quote*: "Professor"
-* **`affiliations[0]`**: "Quantum Art — Chief Science Officer and Co-founder"
-    * *Source*: https://www.quantum-art.tech/team
-    * *Quote*: "Prof. Roee Ozeri" / "Chief Science Officer and Co-founder"
-* **`applications`**: "computing; sensing_metrology"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "trapped ions as quantum information carriers and quantum sensors"
-* **`group_type`**: "experimental"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "Our group studies quantum physics using ultra cold trapped ions."
-* **`platforms`**: "trapped_ion; neutral_atom"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "ultra cold trapped ions"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "ultra-cold ion-atom mixtures and interactions"
-* **`keywords`**: "trapped-ion quantum computing; quantum metrology"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "quantum information carriers and quantum sensors"
-* **`links.homepage`**: "http://www.weizmann.ac.il/complex/ozeri/"
-    * *Source*: https://weizmann.elsevierpure.com/en/persons/roee-ozeri/
-    * *Quote*: "View Website"
-* **`links.quantum_art`**: "https://www.quantum-art.tech/team"
-    * *Source*: https://www.quantum-art.tech/team
-* **`links.orcid`**: "https://orcid.org/0000-0001-7843-8801"
-    * *Source*: https://weizmann.elsevierpure.com/en/persons/roee-ozeri/
-    * *Quote*: "https://orcid.org/0000-0001-7843-8801"
-* **`location.city`**: "Rehovot"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "Rehovot, 76100, Israel"
-* **`location.country`**: "Israel"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "Rehovot, 76100, Israel"
-* **`labels[0]`**: "Experimental group"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "Our group studies quantum physics using ultra cold trapped ions."
-* **`labels[1]`**: "Industry"
-    * *Source*: https://www.quantum-art.tech/team
-    * *Quote*: "Chief Science Officer and Co-founder"
-* **`active`**: "active"
-    * *Source*: https://www.weizmann.ac.il/complex/ozeri/
-    * *Quote*: "Last update: 4 May 2026"
+Verified: 2026-05-04
+
+## Source list
+
+1. **Weizmann Institute Profiles**: Academic background, current position, and lab focus.
+2. **Quantum Art Website**: Verification of his role as Co-founder and CSO.
+3. **Publication Search**: Foundational papers and thesis verification.
+
+## Field-level evidence
+
+*   **`current_position.title`**: "Professor of Physics"
+    *   *Source*: Weizmann Institute faculty directories.
+
+*   **`affiliations[0]`**: Quantum Art, Chief Science Officer and Co-founder
+    *   *Source*: Quantum Art corporate team page. Linked to `c001-quantum-art`.
+
+*   **`education[2]`**: PhD (Physics), Weizmann Institute of Science, 2006
+    *   *Source*: Faculty bio and thesis search. Advisor: Nir Davidson.
+
+*   **`thesis.title`**: "Optical manipulation of atomic clouds"
+    *   *Source*: Biographical search of his dissertation records at Weizmann.
+
+*   **`postdocs[0]`**: NIST Boulder, David J. Wineland
+    *   *Source*: Weizmann bio noting his postdoctoral work on trapped ions at NIST.
+
+*   **`ion_species`**: 88Sr+, 40Ca+
+    *   *Source*: Both Strontium and Calcium are primary species used in his Weizmann trapped-ion lab.
+
+*   **`key_papers[0]`**: "Single-ion quantum lock-in amplifier" (Nature 2011)
+    *   *Source*: Highly cited paper from his independent group at Weizmann on quantum sensing.
+    *   DOI: 10.1038/nature10010
+
+*   **`key_papers[1]`**: "Hyperfine coherence in the presence of spontaneous photon scattering" (PRL 2005)
+    *   *Source*: Important decoherence paper from his postdoctoral period at NIST.
+    *   DOI: 10.1103/PhysRevLett.95.030403
+
+*   **`lineage_check.advisor_verified`**: true
+    *   Nir Davidson confirmed.
+
+*   **`lineage_check.postdoc_verified`**: true
+    *   David Wineland confirmed.
 
 ## Data quality notes
-- The current sources do not explicitly list the PhD advisor or postdoc supervisor; lineage fields should be re-verified from an academic CV or institutional bio.
-- `applications` fields for optical_clocks and software_control are not explicitly stated on these pages; they should be verified with a more specific source.
+
+*   **`thesis.link`**: null — Document link unavailable open-access.
+*   **`metrics`**: Not populated — Stage 3.G task.

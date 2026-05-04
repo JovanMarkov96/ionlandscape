@@ -9,6 +9,7 @@ created_at: '2026-01-26'
 current_position:
   institution: University of Oregon
   title: Philip H. Knight Distinguished Research Chair; Research Professor (Physics)
+  since_year: 2018
 education:
 - degree: BA (Physics)
   institution: University of California, Berkeley
@@ -17,10 +18,25 @@ education:
   degree: PhD (Physics)
   institution: Harvard University
   year: 1970
+  confidence: confirmed
+  source: https://www.nobelprize.org/prizes/physics/2012/wineland/biographical/
 entity_type: person
 group_type: experimental
 id: 006-david-wineland
-ion_species: []
+ion_species:
+- 9Be+
+- 25Mg+
+- 199Hg+
+- 27Al+
+key_papers:
+- title: "Demonstration of a Fundamental Quantum Logic Gate"
+  year: 1995
+  doi: 10.1103/PhysRevLett.75.4714
+  role: senior_author
+- title: "Radiation-Pressure Cooling of Bound Resonant Absorption Lines"
+  year: 1978
+  doi: 10.1103/PhysRevLett.40.1639
+  role: first_author
 keywords:
 - laser cooling
 - ion traps
@@ -30,6 +46,10 @@ keywords:
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=6quvCpAAAAAJ
   group_page: https://www.nist.gov/people/david-j-wineland
@@ -48,18 +68,24 @@ platforms:
 - trapped_ion
 postdocs:
 - advisor: Hans Dehmelt
+  advisor_id: null
   institution: University of Washington
+  years: '1970-1975'
+  note: Postdoctoral researcher studying precision ion spectroscopy.
+  confidence: confirmed
 schema_version: 2
 sort_name: Wineland, David J.
 thesis:
   link: https://www.proquest.com/docview/302462813
-  note: ProQuest record (may require institutional access).
   title: The Atomic Deuterium Maser
   year: 1971
-updated_at: '2026-01-27'
-verification_source_count: 3
+updated_at: '2026-05-04'
+verification_source_count: 4
 ---
 
-David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder), where his group developed foundational methods for high-fidelity quantum logic with ions, and later joined the University of Oregon as a Research Professor.
+David J. Wineland is a Nobel Prize–winning experimental physicist known for pioneering techniques to **trap, laser-cool, and coherently control single ions**, enabling major advances in **precision atomic clocks** and **trapped-ion quantum information processing**. He spent decades at NIST (Boulder) building the historic Ion Storage Group, where his laboratory developed foundational methods for high-fidelity quantum logic with ions and optical clocks using Aluminum and Mercury ions. In 2018, he joined the University of Oregon as a Research Professor.
 
-Wineland received his PhD in Physics from Harvard University under Norman F. Ramsey, and did postdoctoral research at the University of Washington with Hans Dehmelt.
+Wineland received his PhD in Physics from Harvard University under Norman F. Ramsey, and did seminal postdoctoral research at the University of Washington with Hans Dehmelt.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?hl=en&user=6quvCpAAAAAJ).

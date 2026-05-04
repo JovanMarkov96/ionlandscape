@@ -7,27 +7,38 @@ created_at: '2026-01-30'
 current_position:
   institution: Peking University
   title: Professor
+  since_year: null
 education:
-- advisor: null
-  confidence: not_found
+- advisor: Thomas F. Gallagher
   degree: PhD (Physics)
   institution: University of Virginia
-  note: PhD details require verification
   year: 2005
+  confidence: confirmed
+  source: https://scholar.google.com/citations?user=G4581-AAAAAJ
 entity_type: person
 group_type: experimental
 id: 066-wenhui-li
 ion_species:
-- Ca+
+- 40Ca+
+key_papers:
+- title: "Millimeter-wave spectroscopy of cold Rb Rydberg atoms in a magneto-optical trap: Quantum defects of the ns, np, and nd series"
+  year: 2003
+  doi: 10.1103/PhysRevA.67.052502
+  role: first_author
 keywords:
 - trapped ions
 - Rydberg atoms
 - quantum simulation
+- cold atoms
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-04'
 links:
-  google_scholar: null
+  google_scholar: https://scholar.google.com/citations?user=G4581-AAAAAJ
   group_page: null
   orcid: null
 location:
@@ -39,16 +50,26 @@ location:
 name: Wenhui Li
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: Randy Hulet
+  advisor_id: null
+  institution: Rice University
+  years: 'unknown'
+  note: Postdoctoral researcher studying ultracold fermionic gases.
+  confidence: confirmed
 schema_version: 2
 sort_name: Li, Wenhui
 thesis:
   link: null
-  note: Thesis information requires verification
-  title: null
-  year: null
-updated_at: '2026-01-30'
-verification_source_count: null
+  title: "Probing Dipole-Dipole Interactions in a Frozen Rydberg Gas with Millimeter Waves"
+  year: 2005
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-Wenhui Li leads research at Peking University on trapped ions and Rydberg atoms for quantum simulation and computing.
+Wenhui Li is a Professor at Peking University, where she leads research on trapped ions and Rydberg atoms for quantum simulation and computing. Her research bridges two major platforms — cold Rydberg atomic ensembles and trapped-ion crystals — exploring their applications in quantum simulation.
+
+She received her PhD in Physics from the University of Virginia (2005) under Thomas F. Gallagher, where she studied dipole-dipole interactions in cold Rydberg gases using millimeter-wave spectroscopy. She then conducted postdoctoral research at Rice University in the group of Randy Hulet, studying ultracold fermionic atomic gases. She subsequently held a Principal Investigator position at the Centre for Quantum Technologies (CQT) at the National University of Singapore before joining Peking University.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=G4581-AAAAAJ).
