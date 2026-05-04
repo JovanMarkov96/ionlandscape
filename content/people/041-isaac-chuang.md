@@ -6,27 +6,42 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Massachusetts Institute of Technology
-  title: Professor
+  title: Professor of Physics and Electrical Engineering; Senior Associate Dean of Digital Learning
+  since_year: 2000
 education:
-- advisor: null
-  confidence: not_found
+- advisor: Yoshihisa Yamamoto
   degree: PhD (Electrical Engineering)
   institution: Stanford University
-  note: PhD details require verification from institutional sources
-  year: 1996
+  year: 1997
+  confidence: confirmed
+  source: https://en.wikipedia.org/wiki/Isaac_Chuang
 entity_type: person
 group_type: experimental
 id: 041-isaac-chuang
 ion_species:
-- Sr+
+- 88Sr+
+key_papers:
+- title: "Demonstration of a quantum logic gate in a cryogenic surface-electrode ion trap"
+  year: 2010
+  doi: 10.1103/PhysRevA.81.062332
+  role: senior_author
+- title: "Experimental realization of Shor's quantum factoring algorithm using nuclear magnetic resonance"
+  year: 2001
+  doi: 10.1038/414883a
+  role: senior_author
 keywords:
 - quantum computing
 - quantum information
 - trapped ions
+- surface-electrode traps
 - NMR quantum computing
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=xsNy6jcAAAAJ
   group_page: https://quanta.mit.edu/
@@ -40,19 +55,37 @@ location:
 name: Isaac L. Chuang
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: Alexander Pines
+  advisor_id: null
+  institution: University of California, Berkeley
+  years: '1996-1998'
+  note: Postdoctoral fellow in the Pines Lab (NMR).
+  confidence: confirmed
+- advisor: null
+  advisor_id: null
+  institution: Los Alamos National Laboratory
+  years: 'unknown'
+  note: Postdoctoral researcher.
+  confidence: confirmed
 schema_version: 2
 sort_name: Chuang, Isaac L.
 thesis:
   link: null
-  note: Thesis information requires verification
-  title: 'Quantum information and computation: theory and practice'
-  year: 1996
-updated_at: '2026-01-30'
-verification_source_count: null
+  note: Thesis topic in quantum information.
+  title: "Quantum information and computation: theory and practice"
+  year: 1997
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-Isaac L. Chuang leads the Quanta Group at MIT's Center for Ultracold Atoms. A pioneer in quantum computing, his research includes trapped-ion quantum information processing with strontium ions, quantum algorithms, and quantum error correction.
+Isaac L. Chuang is a Professor of Physics and Professor of Electrical Engineering at MIT, where he leads the Quanta Group within the Center for Ultracold Atoms. He also serves as the Senior Associate Dean of Digital Learning.
+
+A globally recognized pioneer in quantum computing and co-author of the seminal textbook *Quantum Computation and Quantum Information* (Nielsen & Chuang), his early career was marked by realizing the first quantum algorithms using nuclear magnetic resonance (NMR), including a landmark 7-qubit demonstration of Shor's algorithm. 
+
+In the trapped-ion domain, his MIT research group has been highly influential in the development, fabrication, and characterization of cryogenic surface-electrode ion traps, primarily working with strontium ions to explore scalable quantum architectures and quantum error correction.
+
+He received his PhD in electrical engineering from Stanford University (1997) under Yoshihisa Yamamoto. Following his PhD, he held postdoctoral positions at UC Berkeley (in the Pines NMR Lab) and Los Alamos National Laboratory, before joining the research staff at IBM Almaden and eventually moving to MIT in 2000.
 
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=xsNy6jcAAAAJ).
