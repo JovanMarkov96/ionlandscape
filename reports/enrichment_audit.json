@@ -1,0 +1,2927 @@
+{
+  "generated": "2026-05-04",
+  "people": [
+    {
+      "id": "001-roee-ozeri",
+      "name": "Roee Ozeri",
+      "connectivity": 7,
+      "completeness_pct": 69,
+      "has_evidence": true,
+      "tier": "A",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.group_page",
+        "thesis.title",
+        "thesis.link"
+      ]
+    },
+    {
+      "id": "002-ziv-meir",
+      "name": "Ziv Meir",
+      "connectivity": 2,
+      "completeness_pct": 88,
+      "has_evidence": true,
+      "tier": "A-done",
+      "missing": [
+        "key_papers",
+        "affiliations"
+      ]
+    },
+    {
+      "id": "003-chris-ballance",
+      "name": "Chris Ballance",
+      "connectivity": 2,
+      "completeness_pct": 81,
+      "has_evidence": true,
+      "tier": "A-done",
+      "missing": [
+        "key_papers",
+        "links.homepage",
+        "postdocs"
+      ]
+    },
+    {
+      "id": "004-christopher-monroe",
+      "name": "Christopher R. Monroe",
+      "connectivity": 7,
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
+      "missing": [
+        "links.group_page",
+        "thesis.title",
+        "thesis.link",
+        "postdocs"
+      ]
+    },
+    {
+      "id": "005-christian-roos",
+      "name": "Christian F. Roos",
+      "connectivity": 1,
+      "completeness_pct": 75,
+      "has_evidence": true,
+      "tier": "A-done",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "affiliations"
+      ]
+    },
+    {
+      "id": "006-david-wineland",
+      "name": "David J. Wineland",
+      "connectivity": 4,
+      "completeness_pct": 69,
+      "has_evidence": true,
+      "tier": "A",
+      "missing": [
+        "ion_species",
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "affiliations"
+      ]
+    },
+    {
+      "id": "007-dietrich-leibfried",
+      "name": "Dietrich Leibfried",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "008-john-bollinger",
+      "name": "John J. Bollinger",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "009-hartmut-haeffner",
+      "name": "Hartmut H\u00e4ffner",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "010-jungsang-kim",
+      "name": "Jungsang Kim",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "011-kihwan-kim",
+      "name": "Kihwan Kim",
+      "connectivity": 2,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "012-winfried-hensinger",
+      "name": "Winfried K. Hensinger",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "013-ferdinand-schmidt-kaler",
+      "name": "Ferdinand Schmidt-Kaler",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "014-thomas-monz",
+      "name": "Thomas Monz",
+      "connectivity": 1,
+      "completeness_pct": 56,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.homepage",
+        "postdocs",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "015-tracy-northup",
+      "name": "Tracy E. Northup",
+      "connectivity": 1,
+      "completeness_pct": 56,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "ion_species",
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "016-jonathan-home",
+      "name": "Jonathan P. Home",
+      "connectivity": 2,
+      "completeness_pct": 69,
+      "has_evidence": true,
+      "tier": "B",
+      "missing": [
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations"
+      ]
+    },
+    {
+      "id": "017-rainer-blatt",
+      "name": "Rainer Blatt",
+      "connectivity": 6,
+      "completeness_pct": 69,
+      "has_evidence": true,
+      "tier": "A",
+      "missing": [
+        "ion_species",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs"
+      ]
+    },
+    {
+      "id": "018-michael-drewsen",
+      "name": "Michael Drewsen",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "019-michael-koehl",
+      "name": "Michael K\u00f6hl",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "020-luming-duan",
+      "name": "Luming Duan",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "021-mike-biercuk",
+      "name": "Michael J. Biercuk",
+      "connectivity": 1,
+      "completeness_pct": 56,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "022-rajibul-islam",
+      "name": "K. Rajibul Islam",
+      "connectivity": 1,
+      "completeness_pct": 56,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "023-crystal-senko",
+      "name": "Crystal Senko",
+      "connectivity": 1,
+      "completeness_pct": 56,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "024-paul-haljan",
+      "name": "Paul Haljan",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "025-christian-schmiegelow",
+      "name": "Christian Schmiegelow",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "026-erik-streed",
+      "name": "Erik W. Streed",
+      "connectivity": 2,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "027-lukas-slodicka",
+      "name": "Luk\u00e1\u0161 Slodi\u010dka",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "028-juergen-eschner",
+      "name": "J\u00fcrgen Eschner",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "029-christof-wunderlich",
+      "name": "Christof Wunderlich",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "030-rene-gerritsma",
+      "name": "Rene Gerritsma",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "031-jeroen-koelemeij",
+      "name": "Jeroen C. J. Koelemeij",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.group_page",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "032-murray-barrett",
+      "name": "Murray D. Barrett",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "033-dzmitry-matsukevich",
+      "name": "Dzmitry Matsukevich",
+      "connectivity": 2,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "034-manas-mukherjee",
+      "name": "Manas Mukherjee",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "035-stefan-willitsch",
+      "name": "Stefan Willitsch",
+      "connectivity": 2,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "036-richard-thompson",
+      "name": "Richard C. Thompson",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "037-david-lucas",
+      "name": "David M. Lucas",
+      "connectivity": 3,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "A",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "038-eric-hudson",
+      "name": "Eric R. Hudson",
+      "connectivity": 1,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "039-wes-campbell",
+      "name": "Wesley C. Campbell",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "040-vladan-vuletic",
+      "name": "Vladan Vuleti\u0107",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "ion_species",
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "041-isaac-chuang",
+      "name": "Isaac L. Chuang",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "042-kenneth-brown",
+      "name": "Kenneth R. Brown",
+      "connectivity": 2,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "043-kilian-singer",
+      "name": "Kilian Singer",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "044-johannes-hecker-denschlag",
+      "name": "Johannes Hecker Denschlag",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "045-kazuhiro-hayasaka",
+      "name": "Kazuhiro Hayasaka",
+      "connectivity": 2,
+      "completeness_pct": 31,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.orcid",
+        "links.homepage",
+        "links.group_page",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "046-kjeld-eikema",
+      "name": "Kjeld S. E. Eikema",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "047-klaus-jungmann",
+      "name": "Klaus Jungmann",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "048-hermann-uys",
+      "name": "Hermann Uys",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "049-patrick-gill",
+      "name": "Patrick Gill",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "050-rachel-godun",
+      "name": "Rachel Godun",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "051-john-chiaverini",
+      "name": "John Chiaverini",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "052-dan-stick",
+      "name": "Dan Stick",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "053-masao-kitano",
+      "name": "Masao Kitano",
+      "connectivity": 1,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "links.group_page",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "054-hiroki-takahashi",
+      "name": "Hiroki Takahashi",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "055-takashi-mukaiyama",
+      "name": "Takashi Mukaiyama",
+      "connectivity": 2,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "056-kenji-toyoda",
+      "name": "Kenji Toyoda",
+      "connectivity": 2,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "057-utako-tanaka",
+      "name": "Utako Tanaka",
+      "connectivity": 2,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "058-atsushi-noguchi",
+      "name": "Atsushi Noguchi",
+      "connectivity": 2,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "059-shuichi-hasegawa",
+      "name": "Shuichi Hasegawa",
+      "connectivity": 1,
+      "completeness_pct": 31,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "060-moonjoo-lee",
+      "name": "Moonjoo Lee",
+      "connectivity": 4,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "A",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.homepage",
+        "links.group_page",
+        "thesis.link",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "061-taeyoung-choi",
+      "name": "Taeyoung Choi",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "062-dan-cho",
+      "name": "Dan Cho",
+      "connectivity": 2,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "063-taehyun-kim",
+      "name": "Taehyun Kim",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "064-junki-kim",
+      "name": "Junki Kim",
+      "connectivity": 2,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "065-luyan-sun",
+      "name": "Luyan Sun",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "066-wenhui-li",
+      "name": "Wenhui Li",
+      "connectivity": 1,
+      "completeness_pct": 25,
+      "has_evidence": false,
+      "tier": "A",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.google_scholar",
+        "links.orcid",
+        "links.homepage",
+        "links.group_page",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "067-mirko-lobino",
+      "name": "Mirko Lobino",
+      "connectivity": 1,
+      "completeness_pct": 38,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "068-paul-barclay",
+      "name": "Paul Barclay",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "069-sadiq-rangwala",
+      "name": "S. A. Rangwala",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.orcid",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "070-markus-hennrich",
+      "name": "Markus Hennrich",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "071-matthias-keller",
+      "name": "Matthias Keller",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "072-brian-mcmahon",
+      "name": "Brian McMahon",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "073-david-hume",
+      "name": "David Hume",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "074-piet-schmidt",
+      "name": "Piet O. Schmidt",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "075-boris-blinov",
+      "name": "Boris B. Blinov",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "076-tilman-esslinger",
+      "name": "Tilman Esslinger",
+      "connectivity": 1,
+      "completeness_pct": 44,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.title",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "077-ben-lanyon",
+      "name": "Ben P. Lanyon",
+      "connectivity": 1,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "postdocs",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "078-yuval-shagam",
+      "name": "Yuval Shagam",
+      "connectivity": 2,
+      "completeness_pct": 50,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "ion_species",
+        "key_papers",
+        "lineage_check",
+        "links.group_page",
+        "thesis.link",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "079-daniel-rodriguez",
+      "name": "Daniel Rodr\u00edguez Rubiales",
+      "connectivity": 1,
+      "completeness_pct": 56,
+      "has_evidence": false,
+      "tier": "B",
+      "missing": [
+        "key_papers",
+        "lineage_check",
+        "links.homepage",
+        "thesis.link",
+        "affiliations",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "c001-quantum-art",
+      "name": "Quantum Art",
+      "connectivity": 4,
+      "completeness_pct": 50,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.leadership",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "c002-ionq",
+      "name": "IonQ",
+      "connectivity": 1,
+      "completeness_pct": 12,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "approach",
+        "focus_areas",
+        "products",
+        "people.founders",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count",
+        "applications"
+      ]
+    },
+    {
+      "id": "c003-alpine-quantum-technologies-aqt",
+      "name": "Alpine Quantum Technologies",
+      "connectivity": 1,
+      "completeness_pct": 12,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "approach",
+        "focus_areas",
+        "products",
+        "people.founders",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count",
+        "applications"
+      ]
+    },
+    {
+      "id": "c004-oxford-ionics",
+      "name": "Oxford Ionics",
+      "connectivity": 0,
+      "completeness_pct": 12,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "approach",
+        "focus_areas",
+        "products",
+        "people.founders",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count",
+        "applications"
+      ]
+    },
+    {
+      "id": "c005-q-ctrl",
+      "name": "Q-CTRL",
+      "connectivity": 0,
+      "completeness_pct": 12,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "approach",
+        "focus_areas",
+        "products",
+        "people.founders",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count",
+        "applications"
+      ]
+    },
+    {
+      "id": "c006-quera-computing",
+      "name": "QuEra Computing",
+      "connectivity": 0,
+      "completeness_pct": 12,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "approach",
+        "focus_areas",
+        "products",
+        "people.founders",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count",
+        "applications"
+      ]
+    },
+    {
+      "id": "c002-quantum-machines",
+      "name": "Quantum Machines",
+      "connectivity": 4,
+      "completeness_pct": 56,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.leadership",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "c003-classiq-technologies",
+      "name": "Classiq Technologies",
+      "connectivity": 4,
+      "completeness_pct": 56,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.leadership",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "c009-quantlr",
+      "name": "QuantLR",
+      "connectivity": 2,
+      "completeness_pct": 44,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "c010-quantum-transistors",
+      "name": "Quantum Transistors",
+      "connectivity": 0,
+      "completeness_pct": 25,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.founders",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.website",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count",
+        "applications"
+      ]
+    },
+    {
+      "id": "c011-quancilla",
+      "name": "Quancilla",
+      "connectivity": 0,
+      "completeness_pct": 31,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.founders",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.website",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "c012-enquantum",
+      "name": "enQuantum",
+      "connectivity": 0,
+      "completeness_pct": 31,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.founders",
+        "people.leadership",
+        "funding",
+        "milestones",
+        "offices",
+        "partnerships",
+        "links.website",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "c013-qedma",
+      "name": "Qedma",
+      "connectivity": 4,
+      "completeness_pct": 56,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.leadership",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "c014-quantum-source-labs",
+      "name": "Quantum Source Labs",
+      "connectivity": 6,
+      "completeness_pct": 56,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.leadership",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "c015-quamcore",
+      "name": "QuamCore",
+      "connectivity": 5,
+      "completeness_pct": 56,
+      "tier": "A",
+      "missing": [
+        "founded_year",
+        "people.leadership",
+        "offices",
+        "partnerships",
+        "links.linkedin",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    }
+  ],
+  "institutions": [
+    {
+      "id": "i001-weizmann-institute-of-science",
+      "name": "Weizmann Institute of Science",
+      "connectivity": 3,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i002-aarhus-university",
+      "name": "Aarhus University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
+      "name": "Centre for Quantum Technologies, National University of Singapore",
+      "connectivity": 3,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i004-duke-university",
+      "name": "Duke University",
+      "connectivity": 4,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i005-eth-zurich",
+      "name": "ETH Z\u00fcrich",
+      "connectivity": 3,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i006-ewha-womans-university",
+      "name": "Ewha Womans University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i007-georgia-institute-of-technology",
+      "name": "Georgia Institute of Technology",
+      "connectivity": 3,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i008-griffith-university",
+      "name": "Griffith University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i009-imperial-college-london",
+      "name": "Imperial College London",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
+      "name": "Indian Institute of Science Education and Research (IISER) Pune",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i011-institute-for-basic-science-ibs-south-korea",
+      "name": "Institute for Basic Science (IBS), South Korea",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i012-institute-for-quantum-computing-university-of-waterloo",
+      "name": "Institute for Quantum Computing, University of Waterloo",
+      "connectivity": 2,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i013-ionq-inc",
+      "name": "IonQ, Inc.",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i014-johannes-gutenberg-university-mainz",
+      "name": "Johannes Gutenberg University Mainz",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i015-kyoto-university",
+      "name": "Kyoto University",
+      "connectivity": 3,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i016-mit-lincoln-laboratory",
+      "name": "MIT Lincoln Laboratory",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i017-massachusetts-institute-of-technology",
+      "name": "Massachusetts Institute of Technology",
+      "connectivity": 6,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i018-national-institute-of-information-and-communications-technology-nict",
+      "name": "National Institute of Information and Communications Technology (NICT)",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i019-national-institute-of-standards-and-technology-nist-boulder",
+      "name": "National Institute of Standards and Technology (NIST), Boulder",
+      "connectivity": 5,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i020-national-physical-laboratory-npl",
+      "name": "National Physical Laboratory (NPL)",
+      "connectivity": 2,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i021-okinawa-institute-of-science-and-technology-oist",
+      "name": "Okinawa Institute of Science and Technology (OIST)",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i022-osaka-university",
+      "name": "Osaka University",
+      "connectivity": 5,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i023-postech",
+      "name": "POSTECH",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i024-palacky-university-olomouc",
+      "name": "Palack\u00fd University Olomouc",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i025-peking-university",
+      "name": "Peking University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i026-physikalisch-technische-bundesanstalt-ptb",
+      "name": "Physikalisch-Technische Bundesanstalt (PTB)",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i027-saarland-university",
+      "name": "Saarland University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i028-sandia-national-laboratories",
+      "name": "Sandia National Laboratories",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i029-seoul-national-university",
+      "name": "Seoul National University",
+      "connectivity": 4,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i030-simon-fraser-university",
+      "name": "Simon Fraser University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i031-stellenbosch-university",
+      "name": "Stellenbosch University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i032-stockholm-university",
+      "name": "Stockholm University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i033-sungkyunkwan-university-skku",
+      "name": "Sungkyunkwan University (SKKU)",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i034-technion-israel-institute-of-technology",
+      "name": "Technion \u2013 Israel Institute of Technology",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i035-tsinghua-university",
+      "name": "Tsinghua University",
+      "connectivity": 2,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i036-ulm-university",
+      "name": "Ulm University",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i037-university-of-amsterdam",
+      "name": "University of Amsterdam",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i038-university-of-basel",
+      "name": "University of Basel",
+      "connectivity": 2,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i039-university-of-bonn",
+      "name": "University of Bonn",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i040-university-of-buenos-aires",
+      "name": "University of Buenos Aires",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i041-university-of-calgary",
+      "name": "University of Calgary",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i042-university-of-california-berkeley",
+      "name": "University of California, Berkeley",
+      "connectivity": 3,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i043-university-of-california-los-angeles",
+      "name": "University of California, Los Angeles",
+      "connectivity": 2,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i044-university-of-granada",
+      "name": "University of Granada",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i045-university-of-groningen",
+      "name": "University of Groningen",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i046-university-of-innsbruck",
+      "name": "University of Innsbruck",
+      "connectivity": 8,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i047-university-of-kassel",
+      "name": "University of Kassel",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i048-university-of-oregon",
+      "name": "University of Oregon",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i049-university-of-oxford",
+      "name": "University of Oxford",
+      "connectivity": 6,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i050-university-of-siegen",
+      "name": "University of Siegen",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i051-university-of-sussex",
+      "name": "University of Sussex",
+      "connectivity": 2,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i052-university-of-sydney",
+      "name": "University of Sydney",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i053-university-of-tokyo",
+      "name": "University of Tokyo",
+      "connectivity": 4,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i054-university-of-trento",
+      "name": "University of Trento",
+      "connectivity": 1,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i055-university-of-washington",
+      "name": "University of Washington",
+      "connectivity": 2,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i056-vu-amsterdam",
+      "name": "VU Amsterdam",
+      "connectivity": 2,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i057-open-quantum-design",
+      "name": "Open Quantum Design",
+      "connectivity": 0,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i058-quantum-hub",
+      "name": "Quantum Hub",
+      "connectivity": 0,
+      "completeness_pct": 8,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "links.department",
+        "links.quantum_center",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    },
+    {
+      "id": "i059-cqiqc",
+      "name": "Centre for Quantum Information and Quantum Control",
+      "connectivity": 0,
+      "completeness_pct": 25,
+      "tier": "A",
+      "missing": [
+        "platforms_represented",
+        "applications_represented",
+        "group_count",
+        "leadership",
+        "national_programs",
+        "networks",
+        "news",
+        "last_verified_at",
+        "verification_source_count"
+      ]
+    }
+  ]
+}
