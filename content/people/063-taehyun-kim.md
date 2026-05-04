@@ -7,26 +7,36 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Seoul National University
-  title: Professor
+  title: Associate Professor
+  since_year: null
 education:
-- advisor: null
-  confidence: not_found
+- advisor: Franco N. C. Wong
   degree: PhD (Physics)
   institution: Massachusetts Institute of Technology
-  note: PhD details require verification
-  year: null
+  year: 2008
+  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 063-taehyun-kim
 ion_species:
-- Yb+
+- 171Yb+
+key_papers:
+- title: "Scalable and programmable phononic network with trapped ions"
+  year: 2023
+  doi: 10.1038/s41567-023-01955-4
+  role: senior_author
 keywords:
 - trapped ions
 - quantum computing
 - quantum networks
+- microfabricated traps
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=9_5WtHeAAAAJ
   group_page: http://qis.snu.ac.kr/
@@ -40,16 +50,26 @@ location:
 name: Taehyun Kim
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: Jungsang Kim
+  advisor_id: 020-jungsang-kim
+  institution: Duke University
+  years: '2008-2011'
+  note: Postdoctoral research on microscale optics and ion-photon interfaces.
+  confidence: confirmed
 schema_version: 2
 sort_name: Kim, Taehyun
 thesis:
   link: null
-  note: Thesis information requires verification
   title: null
-  year: null
-updated_at: '2026-01-30'
-verification_source_count: null
+  year: 2008
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-Taehyun Kim leads trapped-ion research at Seoul National University focusing on quantum computing and quantum networks with ytterbium ions.
+Taehyun Kim is an Associate Professor at Seoul National University, where he leads the Quantum Information Systems Laboratory. His research focuses on trapped-ion quantum computing and quantum networks, particularly utilizing microfabricated surface traps and ytterbium ions.
+
+He received his PhD from MIT (2008) under Franco N. C. Wong, working on quantum optics. He then conducted postdoctoral research at Duke University with Jungsang Kim on trapped-ion quantum systems, focusing on the integration of microscale optics and ion-photon interfaces, before joining the faculty at SNU.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=9_5WtHeAAAAJ).

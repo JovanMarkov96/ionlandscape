@@ -7,25 +7,36 @@ created_at: '2026-01-30'
 current_position:
   institution: Seoul National University
   title: Professor
+  since_year: null
 education:
 - advisor: null
   confidence: not_found
   degree: PhD (Mechanical Engineering)
   institution: Massachusetts Institute of Technology
-  note: PhD details require verification
   year: 1988
 entity_type: person
 group_type: experimental
 id: 062-dan-cho
 ion_species:
-- Yb+
+- 171Yb+
+key_papers:
+- title: "A microfabricated ion trap chip with a sloped loading slot to minimize exposing trapped ions to stray charges"
+  year: 2021
+  doi: 10.1088/2058-9565/abf935
+  role: senior_author
 keywords:
 - trapped ions
 - quantum information
 - atomic physics
+- microfabricated traps
+- MEMS
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=3XqgH5oAAAAJ
   group_page: http://nems.snu.ac.kr/
@@ -44,11 +55,15 @@ schema_version: 2
 sort_name: Cho, Dan
 thesis:
   link: null
-  note: Thesis information requires verification
   title: null
-  year: null
-updated_at: '2026-01-30'
-verification_source_count: null
+  year: 1988
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-Dan Cho leads trapped-ion research at Seoul National University focusing on quantum information processing with ytterbium ions.
+Dong-il "Dan" Cho is a Professor at Seoul National University. His research group focuses on the engineering and microfabrication aspects of ion traps, specializing in MEMS technology to create scalable surface-electrode traps for quantum information processing with ytterbium ions.
+
+He received his PhD in Mechanical Engineering from MIT in 1988.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=3XqgH5oAAAAJ).

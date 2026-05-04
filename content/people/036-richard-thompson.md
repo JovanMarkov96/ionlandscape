@@ -6,19 +6,20 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Imperial College London
-  title: Professor
+  title: Professor of Experimental Physics
+  since_year: null
 education:
 - advisor: null
   confidence: not_found
-  degree: PhD (Physics)
+  degree: PhD (Atomic Spectroscopy)
   institution: University of Oxford
-  note: PhD details require verification from institutional sources
   year: 1982
 entity_type: person
 group_type: experimental
 id: 036-richard-thompson
 ion_species:
-- Ca+
+- 40Ca+
+key_papers: []
 keywords:
 - trapped ions
 - quantum computing
@@ -26,7 +27,11 @@ keywords:
 - ion trap technology
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=zTQAsSgAAAAJ
   group_page: https://www.imperial.ac.uk/ion-trapping
@@ -45,14 +50,15 @@ schema_version: 2
 sort_name: Thompson, Richard C.
 thesis:
   link: null
-  note: Thesis information requires verification
   title: null
-  year: null
-updated_at: '2026-01-30'
-verification_source_count: null
+  year: 1982
+updated_at: '2026-05-04'
+verification_source_count: 1
 ---
 
-Richard C. Thompson leads the Ion Trapping Group at Imperial College London. His group has been a long-established center for trapped-ion quantum information research, working with calcium ions on quantum computing and fundamental ion trap technology.
+Richard C. Thompson is a Professor of Experimental Physics at Imperial College London, where he leads the Ion Trapping Group within the Quantum Optics and Laser Science (QOLS) section. His group has been a long-established center for trapped-ion quantum information research, working with calcium ions on quantum computing and fundamental ion trap technology.
+
+He received his PhD in Atomic Spectroscopy from the University of Oxford (1982).
 
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=zTQAsSgAAAAJ).
