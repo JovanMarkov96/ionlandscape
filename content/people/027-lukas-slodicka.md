@@ -6,25 +6,38 @@ applications:
 created_at: '2026-01-28'
 current_position:
   institution: Palacký University Olomouc
-  title: PostDoc / Research Group Leader
+  title: Research Group Leader
+  since_year: null
 education:
-- degree: PhD (Physics)
+- advisor: Rainer Blatt
+  degree: PhD (Physics)
   institution: University of Innsbruck
-  note: Dissertation on single ion-single photon interactions in free space
   year: 2013
+  confidence: confirmed
+  source: https://www.opticsolomouc.org/people/lukas-slodicka/
 entity_type: person
 group_type: experimental
 id: 027-lukas-slodicka
 ion_species:
-- Ca+
+- 40Ca+
+key_papers:
+- title: "Atom-Atom Entanglement by Single-Photon Detection"
+  year: 2013
+  doi: 10.1103/PhysRevLett.110.083603
+  role: first_author
 keywords:
 - trapped ions
 - quantum optics
 - atom-light interaction
 - quantum information
+- ion-photon entanglement
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=2zBEXPoAAAAJ
   group_page: https://www.opticsolomouc.org/
@@ -46,11 +59,13 @@ thesis:
   link: null
   title: Single ion - single photon interactions in free space
   year: 2013
-updated_at: '2026-01-28'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-Lukáš Slodička leads the Trapped Ions group in the Department of Optics at Palacký University Olomouc, Czech Republic. His research focuses on quantum optics with trapped ions, particularly atom-light interactions and efficient ion-photon interfaces. He completed his PhD at the University of Innsbruck, working on trapped ion crystals for quantum bit implementation.
+Lukáš Slodička leads the Trapped Ions group in the Department of Optics at Palacký University Olomouc, Czech Republic. His research focuses on quantum optics with trapped ions, particularly atom-light interactions and efficient ion-photon interfaces for quantum networking.
+
+He completed his PhD at the University of Innsbruck (2013) in the group of Rainer Blatt, working on single ion - single photon interactions in free space. His landmark 2013 PRL paper demonstrated atom-atom entanglement via single-photon detection, a crucial building block for quantum networking with trapped ions.
 
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=2zBEXPoAAAAJ).

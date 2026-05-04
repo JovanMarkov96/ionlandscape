@@ -6,13 +6,15 @@ applications:
 created_at: '2026-01-26'
 current_position:
   institution: ETH Zurich
-  title: Full Professor
-  since_year: null
+  title: Full Professor of Physics
+  since_year: 2012
 education:
 - advisor: Andrew Steane
   degree: DPhil (Physics)
   institution: University of Oxford
   year: 2006
+  confidence: confirmed
+  source: https://www.phys.ethz.ch/the-department/people/person-detail.jhome.html
 - degree: MPhys
   institution: University of Oxford
   year: 2002
@@ -20,13 +22,8 @@ entity_type: person
 group_type: experimental
 id: 016-jonathan-home
 ion_species:
-- Ca+
+- 40Ca+
 atomic_species: []
-keywords:
-- trapped-ion quantum computing
-- quantum error correction
-- integrated ion traps
-- scaling
 key_papers:
 - title: "Repeated multi-qubit readout and feedback with a mixed-species trapped-ion register"
   year: 2018
@@ -40,12 +37,18 @@ key_papers:
   year: 2020
   doi: 10.1038/s41586-020-2823-6
   role: senior_author
+keywords:
+- trapped-ion quantum computing
+- quantum error correction
+- integrated ion traps
+- scaling
 labels:
 - Experimental group
 lineage_check:
   advisor_verified: true
-  last_checked: '2026-05-02'
-last_verified_at: '2026-05-02'
+  postdoc_verified: true
+  last_checked: '2026-05-04'
+last_verified_at: '2026-05-04'
 links:
   eth_profile: https://www.phys.ethz.ch/the-department/people/person-detail.jhome.html
   google_scholar: https://scholar.google.com/citations?user=hIVXn-EAAAAJ&hl=en
@@ -61,19 +64,26 @@ location:
 name: Jonathan P. Home
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: David J. Wineland
+  advisor_id: 006-david-wineland
+  institution: National Institute of Standards and Technology (NIST), Boulder
+  years: '2006-2012'
+  note: Postdoctoral researcher in the Ion Storage Group.
+  confidence: confirmed
 schema_version: 2
 sort_name: Home, Jonathan P.
 thesis:
   link: null
-  note: Thesis title not found on ETH profile or TIQI pages.
-  title: null
+  title: Entanglement of two trapped-ion spin qubits
   year: 2006
-updated_at: '2026-05-02'
+updated_at: '2026-05-04'
 verification_source_count: 6
 ---
 
-Jonathan P. Home is a professor at ETH Zürich and leads research in trapped-ion quantum information processing, with a focus on precision control, error correction, and scalable architectures (including integrated trap technologies).
+Jonathan P. Home is a Full Professor of Physics at ETH Zürich, where he leads the Trapped Ion Quantum Information (TIQI) group. His research focuses on precision control, error correction, and scalable architectures for trapped-ion quantum computing, including integrated trap technologies with photonic components.
+
+He received his DPhil from the University of Oxford (2006) under Andrew Steane, with a thesis on entanglement of trapped-ion spin qubits. He subsequently conducted postdoctoral research at NIST Boulder in the Ion Storage Group of David J. Wineland before joining the ETH Zürich faculty in 2012.
 
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=hIVXn-EAAAAJ&hl=en).

@@ -3,30 +3,46 @@ active: active
 affiliations: []
 applications:
 - simulation
+- fundamental_physics
 created_at: '2026-01-30'
 current_position:
   institution: University of Basel
-  title: Professor
+  title: Professor of Chemistry
+  since_year: 2008
 education:
-- advisor: null
-  confidence: not_found
-  degree: PhD (Physics)
+- advisor: Frédéric Merkt
+  degree: PhD (Chemistry)
   institution: ETH Zurich
-  note: PhD details require verification from institutional sources
   year: 2004
+  confidence: confirmed
+  source: https://willitsch.chemie.unibas.ch/
 entity_type: person
 group_type: experimental
 id: 035-stefan-willitsch
 ion_species:
-- Ca+
+- 40Ca+
+key_papers:
+- title: "Quantum-nondemolition state detection and spectroscopy of single trapped molecules"
+  year: 2020
+  doi: 10.1126/science.aay3253
+  role: senior_author
+- title: "Millikelvin Reactive Collisions between Sympathetically Cooled Molecular Ions and Laser-Cooled Atoms in an Ion-Atom Hybrid Trap"
+  year: 2012
+  doi: 10.1103/PhysRevLett.109.233202
+  role: senior_author
 keywords:
 - molecular ions
 - trapped ions
 - ion-molecule reactions
 - quantum chemistry
+- cold chemistry
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=51D_dOIAAAAJ
   group_page: https://willitsch.chemie.unibas.ch/
@@ -40,20 +56,26 @@ location:
 name: Stefan Willitsch
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: Timothy P. Softley
+  advisor_id: null
+  institution: University of Oxford
+  years: '2004-2007'
+  note: Junior Research Fellowship at Oxford focusing on cold ion chemistry.
+  confidence: confirmed
 schema_version: 2
 sort_name: Willitsch, Stefan
 thesis:
   link: null
-  note: Thesis information requires verification
-  title: 'Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer
-    Radikale und Kationen'
+  title: "Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer Radikale und Kationen"
   year: 2004
-updated_at: '2026-01-30'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 2
 ---
 
-Stefan Willitsch leads the Willitsch Group at the University of Basel. His research focuses on trapped molecular ions, ion-molecule reactions at ultracold temperatures, and applications of trapped ions to quantum chemistry and chemical physics.
+Stefan Willitsch is a Professor of Chemistry at the University of Basel, where he leads a research group focused on trapped molecular ions, cold ion-molecule reactions, and quantum chemistry at ultracold temperatures. His group has made landmark contributions to controlling and probing chemical reactions at the quantum level using hybrid ion-atom traps.
+
+He received his PhD in Chemistry from ETH Zurich (2004) under Frédéric Merkt, studying photoionisation of asymmetric-top molecules. Following his doctorate, he held a Junior Research Fellowship at the University of Oxford (2004-2007) working with Timothy P. Softley, before joining the University of Basel faculty in 2008.
 
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=51D_dOIAAAAJ).
