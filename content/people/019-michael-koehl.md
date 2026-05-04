@@ -8,23 +8,32 @@ created_at: '2026-01-28'
 current_position:
   institution: University of Bonn
   title: Professor
+  since_year: null
 education:
-- degree: PhD (Physics)
+- advisor: null
+  confidence: not_found
+  degree: PhD (Physics)
   institution: Ludwig-Maximilians-University Munich
   year: 2001
 entity_type: person
 group_type: experimental
 id: 019-michael-koehl
 ion_species:
-- Yb+
+- 171Yb+
+key_papers: []
 keywords:
 - trapped ions
 - quantum simulation
 - quantum networks
 - cavity QED
+- ultracold quantum gases
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?user=Cw9P5UkAAAAJ
   group_page: https://www.koellab.uni-bonn.de/
@@ -39,18 +48,25 @@ location:
 name: Michael Köhl
 platforms:
 - trapped_ion
-postdocs: []
+postdocs:
+- advisor: null
+  institution: University of Geneva
+  years: '2005-2007'
+  note: Postdoctoral research.
+  confidence: confirmed
 schema_version: 2
 sort_name: Köhl, Michael
 thesis:
   link: null
-  title: Kohaerente Atomoptik mit dem Atomlaser
+  title: "Kohaerente Atomoptik mit dem Atomlaser"
   year: 2001
-updated_at: '2026-01-28'
-verification_source_count: null
+updated_at: '2026-05-04'
+verification_source_count: 1
 ---
 
-Michael Köhl is a professor at the University of Bonn leading research in experimental quantum physics with trapped ions. His group focuses on quantum communication nodes using trapped Ytterbium ions coupled to optical cavities, developing quantum networks and exploring quantum information processing with fiber-based systems.
+Michael Köhl is a professor at the University of Bonn leading research in experimental quantum physics with trapped ions and ultracold atomic gases. His group focuses on quantum communication nodes using trapped ytterbium ions coupled to optical cavities, developing quantum networks, and exploring quantum information processing with fiber-based systems.
+
+He earned his PhD from LMU Munich in 2001 and completed postdoctoral research at the University of Geneva.
 
 ## Publications
-See full publication list on Google Scholar (if/when linked).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=Cw9P5UkAAAAJ).
