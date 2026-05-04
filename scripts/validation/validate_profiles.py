@@ -65,7 +65,10 @@ def validate_dir(label, entity_type, content_dir, schema_path):
         schema = json.load(f)
     validator = jsonschema.Draft7Validator(schema)
 
-    files = sorted(content_dir.glob("*.md"))
+    files = sorted(
+        fpath for fpath in content_dir.glob("*.md")
+        if not fpath.name.endswith(".evidence.md")
+    )
     failed = 0
     for fpath in files:
         meta = parse_frontmatter(fpath)

@@ -13,6 +13,7 @@ current_position:
   title: Associate Professor / Researcher
 education:
 - advisor: Rainer Blatt
+  advisor_id: 017-rainer-blatt
   degree: PhD (Physics)
   institution: University of Innsbruck
   year: 2011

@@ -37,7 +37,7 @@ keywords:
 labels:
 - Experimental group
 - Industry
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ
   homepage: http://www.weizmann.ac.il/complex/ozeri/
@@ -67,7 +67,7 @@ thesis:
   title: null
   year: 2006
 updated_at: '2026-01-27'
-verification_source_count: null
+verification_source_count: 3
 ---
 
 Prof. Roee Ozeri is an experimental physicist working in atomic physics and quantum information science. He earned a BSc in Physics from the Hebrew University of Jerusalem and completed his MSc and PhD in Physics at the Weizmann Institute of Science under Prof. Nir Davidson.

@@ -13,6 +13,7 @@ current_position:
   title: Associate Professor / Canada Research Chair in Trapped Ion Quantum Computing
 education:
 - advisor: Christopher Monroe
+  advisor_id: 004-christopher-monroe
   degree: PhD (Physics)
   institution: University of Maryland, College Park
   year: 2014

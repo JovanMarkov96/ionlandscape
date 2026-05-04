@@ -15,6 +15,7 @@ current_position:
   title: President, Quantum Computing
 education:
 - advisor: David M. Lucas
+  advisor_id: 037-david-lucas
   degree: DPhil (PhD) in Physics
   institution: University of Oxford
   year: 2014
@@ -32,7 +33,10 @@ keywords:
 labels:
 - Experimental group
 - Industry
-last_verified_at: null
+last_verified_at: '2026-05-04'
+lineage_check:
+  advisor_verified: true
+  last_checked: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=pgnnU3MAAAAJ
   group_page: https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group
@@ -58,7 +62,7 @@ thesis:
   title: High-fidelity quantum logic in Ca+
   year: 2014
 updated_at: '2026-01-27'
-verification_source_count: null
+verification_source_count: 4
 ---
 
 Dr. Chris Ballance is a physicist and quantum-technology leader working on trapped-ion quantum computing across academia and industry. He completed his DPhil (PhD) at the University of Oxford under Prof. David M. Lucas, with a thesis on high-fidelity trapped-ion quantum logic.

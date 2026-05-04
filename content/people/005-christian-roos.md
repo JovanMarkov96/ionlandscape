@@ -11,6 +11,7 @@ current_position:
   title: Senior Scientist
 education:
 - advisor: Rainer Blatt
+  advisor_id: 017-rainer-blatt
   degree: PhD Physics
   institution: University of Innsbruck
   year: 2000
@@ -26,7 +27,7 @@ keywords:
 - many-body physics
 labels:
 - Experimental group
-last_verified_at: null
+last_verified_at: '2026-05-04'
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ
   group_page: https://www.uibk.ac.at/exphys/qos/people/roos/
@@ -52,7 +53,7 @@ thesis:
   title: Controlling the quantum state of trapped ions
   year: 2000
 updated_at: '2026-01-27'
-verification_source_count: null
+verification_source_count: 1
 ---
 
 Dr. Christian F. Roos is an experimental physicist working on trapped-ion quantum science, including quantum simulation and precision spectroscopy. He is affiliated with IQOQI Innsbruck (Austrian Academy of Sciences) and the University of Innsbruck.

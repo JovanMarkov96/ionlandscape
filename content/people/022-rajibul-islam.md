@@ -12,6 +12,7 @@ current_position:
   title: Associate Professor
 education:
 - advisor: Christopher Monroe
+  advisor_id: 004-christopher-monroe
   degree: PhD (Physics)
   institution: University of Maryland, College Park
   note: Distinguished Dissertation Award 2013

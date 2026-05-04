@@ -4,37 +4,43 @@ affiliations:
 - name: Alpine Quantum Technologies (AQT)
   role: Co-founder
   type: company
+  entity_id: c003-alpine-quantum-technologies-aqt
+  source: https://www.aqt.eu/about/
 applications:
 - computing
-- fundamental_physics
-- sensing_metrology
 - simulation
-- software_control
 created_at: '2026-01-26'
 current_position:
-  institution: University of Innsbruck
-  title: Professor Emeritus
+  institution: Institute for Quantum Optics and Quantum Information (IQOQI) Innsbruck
+  title: Emeritus Research Director
+  since_year: null
 education:
-- advisor: Günter Werth
-  degree: PhD (Physics)
+- degree: PhD (Physics)
   institution: University of Mainz
   year: 1981
+  advisor: Günter Werth
 entity_type: person
 group_type: experimental
 id: 017-rainer-blatt
-ion_species:
-- Ca+
-- Yb+
+ion_species: []
+key_papers:
+- title: Universal Digital Quantum Simulation with Trapped Ions
+  year: 2011
+  doi: null
+- title: An open-system quantum simulator with trapped ions
+  year: 2011
+  doi: null
+- title: Scalable multi-particle entanglement of trapped ions
+  year: 2005
+  doi: null
 keywords:
-- trapped-ion quantum computing
-- multi-qubit entanglement
+- trapped ions
+- quantum information processing
 - quantum simulation
-- precision spectroscopy
-- quantum control
 labels:
 - Experimental group
 - Industry
-last_verified_at: null
+last_verified_at: '2026-05-02'
 links:
   aqt_about: https://www.aqt.eu/about/
   cv_pdf: https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf
@@ -52,19 +58,20 @@ location:
 name: Rainer Blatt
 platforms:
 - trapped_ion
-postdocs:
-- advisor: John L. Hall
-  institution: JILA (Boulder)
+postdocs: []
 schema_version: 2
 sort_name: Blatt, Rainer
 thesis:
   link: null
-  note: Thesis title not found in open online databases. Degree confirmed from Mainz
-    (1981) with Günter Werth.
+  note: Thesis title not found in available sources.
   title: null
   year: 1981
-updated_at: '2026-01-27'
-verification_source_count: null
+updated_at: '2026-05-02'
+verification_source_count: 3
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: false
+  last_checked: '2026-05-02'
 ---
 
 Rainer Blatt is an experimental physicist who helped establish **trapped ions** as a leading platform for **quantum information processing**, **quantum simulation**, and **precision measurement**. He is a Professor at the University of Innsbruck and a Research Director at IQOQI Innsbruck (ÖAW), and he is a co-founder of Alpine Quantum Technologies (AQT), a trapped-ion quantum computing company spun out from Innsbruck.
