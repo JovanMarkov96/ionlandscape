@@ -19,7 +19,16 @@ focus_areas:
 - Physics
 id: i004-duke-university
 institution_type: university
-last_verified_at: null
+last_verified_at: '2026-05-04'
+applications_represented:
+- computing
+- simulation
+- networking
+- software_control
+group_count: 3
+is_dedicated_quantum_centre: false
+platforms_represented:
+- trapped_ion
 links:
   department: ''
   linkedin: ''
@@ -43,5 +52,6 @@ sort_name: Duke University
 sources:
 - note: Official website
   url: https://www.duke.edu/
-verification_source_count: null
+verification_source_count: 2
 ---
+

@@ -20,8 +20,19 @@ focus_areas:
 - Trapped Ions
 - Neutral Atoms
 id: i003-centre-for-quantum-technologies-national-university-of-singapore
-institution_type: research_centre
-last_verified_at: null
+institution_type: dedicated_quantum_centre
+last_verified_at: '2026-05-04'
+applications_represented:
+- computing
+- networking
+- simulation
+group_count: 3
+is_dedicated_quantum_centre: true
+leadership:
+- name: Jos? Ignacio Latorre
+  role: Director
+platforms_represented:
+- trapped_ion
 links:
   department: ''
   linkedin: ''
@@ -46,5 +57,6 @@ sort_name: Centre for Quantum Technologies, National University of Singapore
 sources:
 - note: Official website
   url: https://www.quantumlah.org/
-verification_source_count: null
+verification_source_count: 2
 ---
+

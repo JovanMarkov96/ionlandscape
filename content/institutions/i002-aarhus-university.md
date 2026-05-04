@@ -15,7 +15,13 @@ focus_areas:
 - Cold Ions
 id: i002-aarhus-university
 institution_type: university
-last_verified_at: null
+last_verified_at: '2026-05-04'
+applications_represented:
+- simulation
+group_count: 1
+is_dedicated_quantum_centre: false
+platforms_represented:
+- trapped_ion
 links:
   department: ''
   linkedin: ''
@@ -39,5 +45,6 @@ sort_name: Aarhus University
 sources:
 - note: Official website
   url: https://www.au.dk/en/
-verification_source_count: null
+verification_source_count: 2
 ---
+

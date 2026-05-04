@@ -20,7 +20,15 @@ focus_areas:
 - Condensed Matter Physics
 id: i005-eth-zurich
 institution_type: university
-last_verified_at: null
+last_verified_at: '2026-05-04'
+applications_represented:
+- computing
+- simulation
+group_count: 2
+is_dedicated_quantum_centre: false
+platforms_represented:
+- trapped_ion
+- neutral_atom
 links:
   department: ''
   linkedin: ''
@@ -44,5 +52,6 @@ sort_name: ETH Zürich
 sources:
 - note: Official website
   url: https://ethz.ch/en.html
-verification_source_count: null
+verification_source_count: 2
 ---
+

@@ -14,7 +14,14 @@ focus_areas:
 - Quantum Information
 id: i006-ewha-womans-university
 institution_type: university
-last_verified_at: null
+last_verified_at: '2026-05-04'
+applications_represented:
+- computing
+- software_control
+group_count: 1
+is_dedicated_quantum_centre: false
+platforms_represented:
+- trapped_ion
 links:
   department: ''
   linkedin: ''
@@ -38,5 +45,6 @@ sort_name: Ewha Womans University
 sources:
 - note: Official website
   url: https://www.ewha.ac.kr/ewhaen/
-verification_source_count: null
+verification_source_count: 2
 ---
+

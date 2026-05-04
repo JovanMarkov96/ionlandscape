@@ -22,7 +22,20 @@ focus_areas:
 - Physics
 id: i001-weizmann-institute-of-science
 institution_type: research_centre
-last_verified_at: null
+last_verified_at: '2026-05-04'
+applications_represented:
+- computing
+- simulation
+- sensing_metrology
+- optical_clocks
+- software_control
+group_count: 2
+is_dedicated_quantum_centre: false
+leadership:
+- name: Ofer Firstenberg
+  role: Director
+platforms_represented:
+- trapped_ion
 links:
   department: ''
   linkedin: ''
@@ -47,5 +60,6 @@ sources:
 - note: The Weizmann Institute of Science is a leading multidisciplinary basic research
     institution located in Rehovot, Israel
   url: https://www.weizmann.ac.il/
-verification_source_count: null
+verification_source_count: 2
 ---
+
