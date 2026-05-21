@@ -17,27 +17,45 @@ focus_areas:
 - Semiconductor quantum hardware
 - Spin-based quantum computation
 funding:
-  rounds: []
-  total_raised_usd: null
+  rounds:
+  - amount_usd: 18500000
+    date: '2024-01-01'
+    other_investors:
+    - European Innovation Council
+    - 10D
+    - Awz Ventures
+    - Entrée Capital
+    - Tal Ventures
+    round: Grant/Seed
+    stage: seed
+  total_raised_usd: 18500000
 id: c010-quantum-transistors
 last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
   news: ''
-  website: ''
+  website: https://quantumtransistors.com
 location:
   city: Binyamina
   country: Israel
   lat: 32.5203
   lon: 34.9436
   region: Haifa
-media: {}
-milestones: []
+media:
+  logo_path: /logos/c010-quantum-transistors.png
+milestones:
+- claim: Achieved quantum gate fidelity of 99.9988%
+  date: '2025-12-01'
+  source_url: https://techtime.news
 modality: hardware
 name: Quantum Transistors
 people:
-  founders: []
+  founders:
+  - name: Shmuel Bachinsky
+    role: CEO & Co-Founder
+  - name: Moshe Tordjman
+    role: CTO & Co-Founder
   leadership: []
   spun_out_of: []
 platforms:

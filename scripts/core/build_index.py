@@ -35,6 +35,8 @@ institution_features = []
 edges = []  # tuples: (source_id, target_id, type)
 
 for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
+    if md_path.endswith(".evidence.md"):
+        continue
     post = frontmatter.load(md_path)
     meta = post.metadata
     pid = meta.get("id") or slugify(meta.get("name", os.path.basename(md_path)))
@@ -134,6 +136,8 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
 
 # Process Companies
 for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
+    if md_path.endswith(".evidence.md"):
+        continue
     try:
         post = frontmatter.load(md_path)
         meta = post.metadata
@@ -235,6 +239,8 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
 
 # Process Institutions
 for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
+    if md_path.endswith(".evidence.md"):
+        continue
     try:
         post = frontmatter.load(md_path)
         meta = post.metadata

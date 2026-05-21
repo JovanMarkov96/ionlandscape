@@ -23,31 +23,31 @@ focus_areas:
 funding:
   rounds:
   - amount_usd: 26000000
-    date: '2025-07-03'
+    date: '2025-07-01'
     lead_investors:
-    - Glilot Capital Partners (Glilot+)
-    notes: Series A round to scale noise resilience and error mitigation software.
+    - Glilot Capital Partners
     other_investors:
     - IBM
+    - Korea Investment Partners
     - TPY Capital
-    - Korean Investment Partners
     round: Series A
     stage: series_a
-  total_raised_usd: 26000000
+  total_raised_usd: 30700000
 id: c013-qedma
 last_verified_at: '2026-05-04'
 links:
   careers: ''
   linkedin: ''
   news: ''
-  website: https://www.qedma.com/
+  website: https://qedma.com
 location:
   city: Tel Aviv
   country: Israel
   lat: 32.1066
   lon: 34.8121
   region: Tel Aviv District
-media: {}
+media:
+  logo_path: ''
 milestones:
 - claim: Raised $26M in Series A funding to accelerate development of quantum error
     mitigation and characterization products.
@@ -60,11 +60,11 @@ modality: software
 name: Qedma
 people:
   founders:
-  - name: Dr. Asif Sinay
+  - name: Asif Sinay
     role: CEO & Co-Founder
-  - name: Prof. Dorit Aharonov
+  - name: Dorit Aharonov
     role: CSO & Co-Founder
-  - name: Prof. Netanel Lindner
+  - name: Netanel Lindner
     role: CTO & Co-Founder
   leadership: []
   spun_out_of:

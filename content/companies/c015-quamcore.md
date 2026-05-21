@@ -22,27 +22,20 @@ focus_areas:
 funding:
   rounds:
   - amount_usd: 26000000
-    date: '2025-08-04'
+    date: '2025-08-01'
     lead_investors:
     - Sentinel Global
-    notes: Series A brought total funding to ~$35M including a $4M grant from Israel
-      Innovation Authority.
     other_investors:
     - Arkin Capital
-    - Viola Ventures
-    - Earth & Beyond Ventures
-    - Surround Ventures
-    - Rhodium
-    - Qbeat Ventures
     round: Series A
     stage: series_a
   - amount_usd: 9000000
-    date: '2025-03-12'
+    date: '2025-03-01'
     lead_investors:
     - Viola Ventures
+    other_investors:
     - Earth & Beyond Ventures
-    notes: Emergence from stealth with seed funding.
-    other_investors: []
+    - Surround Ventures
     round: Seed
     stage: seed
   total_raised_usd: 35000000
@@ -52,14 +45,15 @@ links:
   careers: ''
   linkedin: ''
   news: ''
-  website: https://www.quamcore.com
+  website: https://quamcore.com
 location:
   city: Herzliya
   country: Israel
   lat: 32.167
   lon: 34.8117
   region: Central
-media: {}
+media:
+  logo_path: ''
 milestones:
 - claim: Company emerged from stealth with $9M seed funding to build a scalable million-qubit
     platform.
@@ -75,9 +69,9 @@ people:
   founders:
   - name: Alon Cohen
     role: CEO & Co-Founder
-  - name: Prof. Shay Hacohen-Gourgy
+  - name: Shay Hacohen-Gourgy
     role: CTO & Co-Founder
-  - name: Prof. Serge Rosenblum
+  - name: Serge Rosenblum
     role: Chief Scientist & Co-Founder
   leadership: []
   spun_out_of:

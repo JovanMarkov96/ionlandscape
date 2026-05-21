@@ -27,19 +27,24 @@ links:
   careers: ''
   linkedin: ''
   news: ''
-  website: ''
+  website: https://quancilla.com
 location:
   city: Tel Aviv
   country: Israel
   lat: 32.0853
   lon: 34.7818
   region: Tel Aviv District
-media: {}
+media:
+  logo_path: /logos/c011-quancilla.png
 milestones: []
 modality: software
 name: Quancilla
 people:
-  founders: []
+  founders:
+  - name: Saar Barak
+    role: Co-Founder
+  - name: Uri Almedon
+    role: Co-Founder
   leadership: []
   spun_out_of: []
 platforms: []

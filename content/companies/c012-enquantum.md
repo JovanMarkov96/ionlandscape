@@ -27,19 +27,22 @@ links:
   careers: ''
   linkedin: ''
   news: ''
-  website: ''
+  website: https://enquantum.io
 location:
   city: Tel Aviv
   country: Israel
   lat: 32.0154
   lon: 34.7937
   region: Tel Aviv District
-media: {}
+media:
+  logo_path: /logos/c012-enquantum.png
 milestones: []
 modality: software
 name: enQuantum
 people:
-  founders: []
+  founders:
+  - name: Roman Vercetti
+    role: Founder
   leadership: []
   spun_out_of: []
 platforms: []
@@ -56,13 +59,10 @@ sources:
   url: https://www.calcalistech.com
 status:
   acquired:
-    acquired_by: null
-    acquisition_date: null
-    acquisition_type: null
-    announcement_url: null
-    deal_value_usd: null
-    is_acquired: false
-    notes: ''
+    acquired_by: Reliance Global Group
+    acquisition_date: '2026-01-01'
+    deal_value_usd: 2041000
+    is_acquired: true
   operating_status: private
 verification_source_count: 2
 ---
