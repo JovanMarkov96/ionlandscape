@@ -47,7 +47,7 @@ media:
 milestones:
 - claim: Achieved quantum gate fidelity of 99.9988%
   date: '2025-12-01'
-  source_url: https://techtime.news
+  source: https://techtime.news
 modality: hardware
 name: Quantum Transistors
 people:

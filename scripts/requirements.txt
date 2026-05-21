@@ -3,6 +3,5 @@ PyYAML>=6.0
 geojson>=2.5.0
 beautifulsoup4>=4.12.0
 requests>=2.31.0
-# Force cache invalidation
-serpapi>=2.3.0
-trafilatura>=1.5.1
+# Optional enrichment utilities (install manually):
+#   pip install google-search-results trafilatura
