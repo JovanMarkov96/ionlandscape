@@ -4,9 +4,9 @@ import Link from '@docusaurus/Link';
 import { useLocation, useHistory } from 'react-router-dom';
 
 /**
- * Groups Page Component
+ * Institutions Page Component
  * 
- * Displays a searchable and filterable list of research groups/people.
+ * Displays a searchable and filterable list of research institutions/institutions.
  * Supports filtering by:
  * - Category (Trapped Ions / Neutral Atoms)
  * - Search query (Name)
@@ -17,16 +17,15 @@ import { useLocation, useHistory } from 'react-router-dom';
  * 
  * URL Synchronization: All filters are synced with URL query parameters for shareability.
  */
-function Groups() {
+function Institutions() {
     const location = useLocation();
     const history = useHistory();
-    const [people, setPeople] = useState([]);
+    const [institutions, setInstitutions] = useState([]);
 
     // Parse query params
     const searchParams = new URLSearchParams(location.search);
     const searchQuery = searchParams.get('q') || '';
     const labelFilters = searchParams.getAll('label');
-    const appFilters = searchParams.getAll('app');
     const ionFilters = searchParams.getAll('ion');
     const instFilters = searchParams.getAll('inst');
     const countryFilters = searchParams.getAll('country');
@@ -55,7 +54,6 @@ function Groups() {
                 updateUrl({
                     q: localSearch,
                     label: labelFilters,
-                    app: appFilters,
                     ion: ionFilters,
                     inst: instFilters,
                     country: countryFilters,
@@ -68,9 +66,9 @@ function Groups() {
 
     // --- Dependent Filter Logic ---
 
-    // Helper: Get people that match specific filters (ignoring others)
-    const getPeopleInContext = (filters) => {
-        return people.filter(p => {
+    // Helper: Get institutions that match specific filters (ignoring others)
+    const getInstitutionsInContext = (filters) => {
+        return institutions.filter(p => {
             // 0. Category
             if (category !== 'All') {
                 const platforms = p.platforms || [];
@@ -95,44 +93,41 @@ function Groups() {
 
     // Available Institutions: Depends on Category + Country
     const availableInsts = useMemo(() => {
-        const filtered = getPeopleInContext({ country: countryFilters });
+        const filtered = getInstitutionsInContext({ country: countryFilters });
         const insts = new Set();
         filtered.forEach(p => {
             if (p.current_position?.institution) insts.add(p.current_position.institution);
         });
         return Array.from(insts).sort().filter(i => !instFilters.includes(i));
-    }, [people, category, countryFilters, instFilters]);
+    }, [institutions, category, countryFilters, instFilters]);
 
     // Available Countries: Depends on Category + Institution
     const availableCountries = useMemo(() => {
-        const filtered = getPeopleInContext({ inst: instFilters });
+        const filtered = getInstitutionsInContext({ inst: instFilters });
         const countries = new Set();
         filtered.forEach(p => {
             if (p.location?.country) countries.add(p.location.country);
         });
         return Array.from(countries).sort().filter(c => !countryFilters.includes(c));
-    }, [people, category, instFilters, countryFilters]);
+    }, [institutions, category, instFilters, countryFilters]);
 
-    // Available Labels, Apps & Ions (Global context within category)
-    const { availableLabels, availableApps, availableIons } = useMemo(() => {
-        const filtered = getPeopleInContext({}); // Valid in category
+    // Available Labels & Ions (Global context within category)
+    const { availableLabels, availableIons } = useMemo(() => {
+        const filtered = getInstitutionsInContext({}); // Valid in category
         const labels = new Set();
-        const apps = new Set();
         const ions = new Set();
         filtered.forEach(p => {
             (p.labels || []).forEach(l => labels.add(l));
-            (p.applications || []).forEach(a => apps.add(a));
             (p.ion_species || []).forEach(i => ions.add(i));
         });
         return {
             availableLabels: Array.from(labels).sort().filter(l => !labelFilters.includes(l)),
-            availableApps: Array.from(apps).sort().filter(a => !appFilters.includes(a)),
             availableIons: Array.from(ions).sort().filter(i => !ionFilters.includes(i))
         };
-    }, [people, category, labelFilters, appFilters, ionFilters]);
+    }, [institutions, category, labelFilters, ionFilters]);
 
     useEffect(() => {
-        // Force body scrolling when on the groups page
+        // Force body scrolling when on the institutions page
         document.body.style.overflow = 'auto';
         return () => {
             document.body.style.overflow = '';
@@ -140,39 +135,39 @@ function Groups() {
     }, []);
 
     useEffect(() => {
-        const loadPeople = async () => {
+        const loadInstitutions = async () => {
             const paths = [
-                '/ionlandscape/data/people.json',
-                '/data/people.json',
-                'data/people.json' // Relative
+                '/ionlandscape/data/institutions.json',
+                '/data/institutions.json',
+                'data/institutions.json' // Relative
             ];
 
             for (const path of paths) {
                 try {
-                    console.log('[Groups] Trying to fetch:', path);
+                    console.log('[Institutions] Trying to fetch:', path);
                     const res = await fetch(path);
                     if (res.ok) {
                         const data = await res.json();
-                        setPeople(data);
+                        setInstitutions(data);
                         return; // Success
                     } else {
-                        console.log('[Groups] Failed fetch (not ok):', path, res.status);
+                        console.log('[Institutions] Failed fetch (not ok):', path, res.status);
                     }
                 } catch (err) {
-                    console.log('[Groups] Error fetching:', path, err);
+                    console.log('[Institutions] Error fetching:', path, err);
                 }
             }
-            console.error('[Groups] All fetch attempts failed.');
+            console.error('[Institutions] All fetch attempts failed.');
         };
 
-        loadPeople();
+        loadInstitutions();
     }, []);
 
-    // Filter people based on active filters (AND logic)
-    const filteredPeople = useMemo(() => {
-        if (!people.length) return [];
+    // Filter institutions based on active filters (AND logic)
+    const filteredInstitutions = useMemo(() => {
+        if (!institutions.length) return [];
 
-        return people.filter(p => {
+        return institutions.filter(p => {
             // 0. Category Filter
             if (category !== 'All') {
                 const platforms = p.platforms || [];
@@ -199,12 +194,6 @@ function Groups() {
                 if (!hasAllLabels) return false;
             }
 
-            // 2b. App Filters (ALL selected)
-            if (appFilters.length > 0) {
-                const hasAllApps = appFilters.every(app => p.applications && p.applications.includes(app));
-                if (!hasAllApps) return false;
-            }
-
             // 3. Ion Filters (ALL selected)
             if (ionFilters.length > 0) {
                 const hasAllIons = ionFilters.every(ion => p.ion_species && p.ion_species.includes(ion));
@@ -225,7 +214,7 @@ function Groups() {
 
             return true;
         });
-    }, [people, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
+    }, [institutions, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
 
     // Update URL with new filters
     const updateUrl = (newParams) => {
@@ -235,7 +224,6 @@ function Groups() {
         if (newParams.q) params.set('q', newParams.q);
 
         (newParams.label || []).forEach(l => params.append('label', l));
-        (newParams.app || []).forEach(a => params.append('app', a));
         (newParams.ion || []).forEach(i => params.append('ion', i));
         (newParams.inst || []).forEach(i => params.append('inst', i));
         (newParams.country || []).forEach(c => params.append('country', c));
@@ -248,7 +236,6 @@ function Groups() {
         const current = {
             q: localSearch, // use local search value
             label: labelFilters,
-            app: appFilters,
             ion: ionFilters,
             inst: instFilters,
             country: countryFilters
@@ -258,12 +245,12 @@ function Groups() {
             // Single-select Institution
             current.inst = [value];
             // Auto-select Country
-            const personWithInst = people.find(p => p.current_position?.institution === value);
-            console.log('[Groups] Selected Inst:', value);
-            console.log('[Groups] Found Person:', personWithInst ? personWithInst.name : 'None');
+            const personWithInst = institutions.find(p => p.current_position?.institution === value);
+            console.log('[Institutions] Selected Inst:', value);
+            console.log('[Institutions] Found Person:', personWithInst ? personWithInst.name : 'None');
 
             if (personWithInst?.location?.country) {
-                console.log('[Groups] Auto-setting Country:', personWithInst.location.country);
+                console.log('[Institutions] Auto-setting Country:', personWithInst.location.country);
                 current.country = [personWithInst.location.country];
             }
         } else if (type === 'country') {
@@ -272,7 +259,7 @@ function Groups() {
             // Clear Institution if it doesn't match new country
             if (current.inst.length > 0) {
                 const selectedInst = current.inst[0];
-                const matches = people.some(p => p.current_position?.institution === selectedInst && p.location?.country === value);
+                const matches = institutions.some(p => p.current_position?.institution === selectedInst && p.location?.country === value);
                 if (!matches) {
                     current.inst = []; // Clear invalid institution
                 }
@@ -290,7 +277,6 @@ function Groups() {
         const current = {
             q: localSearch,
             label: labelFilters,
-            app: appFilters,
             ion: ionFilters,
             inst: instFilters,
             country: countryFilters
@@ -305,15 +291,15 @@ function Groups() {
         history.push({ search: '' });
     };
 
-    const hasActiveFilters = searchQuery || labelFilters.length > 0 || appFilters.length > 0 || ionFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
+    const hasActiveFilters = searchQuery || labelFilters.length > 0 || ionFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
 
     // Available options logic already calculated above
 
     return (
-        <Layout title="Search">
+        <Layout title="Quantum Research Institutions" description="Search and filter research universities, national labs, and institutes working in quantum computing.">
             <div className="groups-page container margin-vert--lg">
-                <div className="groups-header">
-                    <h1>Search Research Groups</h1>
+                <div className="institutions-header">
+                    <h1>Search Institutions</h1>
                 </div>
 
                 {/* Category Toggle */}
@@ -352,11 +338,6 @@ function Groups() {
                             {availableLabels.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
 
-                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('app', e.target.value)}>
-                            <option value="">+ Application</option>
-                            {availableApps.map(o => <option key={o} value={o}>{o}</option>)}
-                        </select>
-
                         {/* Species Dropdown: Only show if specific category selected */}
                         {category !== 'All' && (
                             <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('ion', e.target.value)}>
@@ -391,11 +372,6 @@ function Groups() {
                                     {v} <button className="filter-chip-remove" onClick={() => removeFilter('label', v)}>×</button>
                                 </span>
                             ))}
-                            {appFilters.map(v => (
-                                <span key={`app-${v}`} className="filter-chip filter-chip--app">
-                                    {v} <button className="filter-chip-remove" onClick={() => removeFilter('app', v)}>×</button>
-                                </span>
-                            ))}
                             {ionFilters.map(v => (
                                 <span key={`ion-${v}`} className="filter-chip filter-chip--ion">
                                     {v} <button className="filter-chip-remove" onClick={() => removeFilter('ion', v)}>×</button>
@@ -416,12 +392,12 @@ function Groups() {
                 </div>
 
                 <p className="results-count">
-                    Found {filteredPeople.length} researchers
+                    Found {filteredInstitutions.length} institutions
                 </p>
 
                 {/* Results Grid */}
                 <div className="row">
-                    {filteredPeople.map(person => (
+                    {filteredInstitutions.map(person => (
                         <div key={person.id} className="col col--4 margin-bottom--lg">
                             <div className="card">
                                 <div className="card__header">
@@ -437,15 +413,6 @@ function Groups() {
                                                 onClick={() => addFilter('label', label)}
                                             >
                                                 {label}
-                                            </span>
-                                        ))}
-                                        {person.applications?.map(app => (
-                                            <span
-                                                key={app}
-                                                className="badge badge--info margin-right--xs clickable-badge"
-                                                onClick={() => addFilter('app', app)}
-                                            >
-                                                {app}
                                             </span>
                                         ))}
                                     </div>
@@ -469,10 +436,10 @@ function Groups() {
                             </div>
                         </div>
                     ))}
-                    {filteredPeople.length === 0 && (
+                    {filteredInstitutions.length === 0 && (
                         <div className="col col--12">
                             <div className="alert alert--warning">
-                                <p>No groups found matching criteria.</p>
+                                <p>No institutions found matching criteria.</p>
                             </div>
                         </div>
                     )}
@@ -482,4 +449,4 @@ function Groups() {
     );
 }
 
-export default Groups;
+export default Institutions;

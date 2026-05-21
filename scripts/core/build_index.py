@@ -232,6 +232,26 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
                 "type": "Point",
                 "coordinates": [lon, lat]
             }
+
+        # Edges from company founders, leadership, and spinouts
+        people_block = meta.get("people", {})
+        for founder in people_block.get("founders", []):
+            f_name = founder.get("name")
+            if f_name:
+                f_id = founder.get("person_id") or slugify(f_name)
+                edges.append((f_id, cid, "founder"))
+        for leader in people_block.get("leadership", []):
+            l_name = leader.get("name")
+            if l_name:
+                l_id = leader.get("person_id") or slugify(l_name)
+                edges.append((l_id, cid, "leadership"))
+        for spin in people_block.get("spun_out_of", []):
+            if isinstance(spin, str):
+                edges.append((cid, slugify(spin), "spun_out_from"))
+            elif isinstance(spin, dict) and spin.get("name"):
+                s_id = spin.get("institution_id") or slugify(spin.get("name"))
+                edges.append((cid, s_id, "spun_out_from"))
+
         company_features.append(feature)
 
     except Exception as e:
@@ -289,6 +309,24 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
                 if is_alumni:
                     alumni.append(pid)
 
+        company_spinouts = []
+        for company in companies:
+            c_spinouts = company.get("people", {}).get("spun_out_of", [])
+            for spin in c_spinouts:
+                if isinstance(spin, str):
+                    if spin.lower().strip() in match_names:
+                        company_spinouts.append(company["id"])
+                elif isinstance(spin, dict):
+                    if spin.get("institution_id") == iid or spin.get("name", "").lower().strip() in match_names:
+                        company_spinouts.append(company["id"])
+
+        # Edges from leadership
+        for leader in meta.get("leadership", []):
+            l_name = leader.get("name")
+            if l_name:
+                l_id = leader.get("person_id") or slugify(l_name)
+                edges.append((l_id, iid, "leadership"))
+
         inst_obj = {
             "id": iid,
             "name": name,
@@ -305,6 +343,7 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
             "directory": {
                 "current_members": current_members,
                 "alumni": alumni,
+                "company_spinouts": company_spinouts,
                 "member_count": len(current_members),
                 "alumni_count": len(alumni)
             },
@@ -382,13 +421,30 @@ inst_geojson_path = os.path.join(OUT_DIR, "institutions.geojson")
 with open(inst_geojson_path, "w", encoding="utf-8") as f:
     json.dump(inst_geojson_obj, f, ensure_ascii=False, indent=2)
 
-# Write edges.csv
+# Validate and resolve edges
+valid_ids = {p["id"] for p in people} | {c["id"] for c in companies} | {i["id"] for i in institutions}
+valid_edges = []
+for src, tgt, etype in edges:
+    if src in valid_ids and tgt in valid_ids:
+        valid_edges.append({"source": src, "target": tgt, "type": etype})
+    else:
+        try:
+            print(f"Warning: Dangling edge dropped ({src} -> {tgt} [{etype}])".encode('ascii', 'ignore').decode('ascii'))
+        except:
+            pass
+
+# Write edges.json
+edges_json_path = os.path.join(OUT_DIR, "edges.json")
+with open(edges_json_path, "w", encoding="utf-8") as f:
+    json.dump(valid_edges, f, ensure_ascii=False, indent=2)
+
+# Write edges.csv (legacy)
 edges_path = os.path.join(OUT_DIR, "edges.csv")
 with open(edges_path, "w", newline='', encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(["source", "target", "type"])
-    for src, tgt, etype in edges:
-        writer.writerow([src, tgt, etype])
+    for e in valid_edges:
+        writer.writerow([e["source"], e["target"], e["type"]])
 
 print("Wrote:", people_json_path)
 print("Wrote:", companies_json_path)
@@ -396,4 +452,5 @@ print("Wrote:", institutions_json_path)
 print("Wrote:", geojson_path)
 print("Wrote:", comp_geojson_path)
 print("Wrote:", inst_geojson_path)
+print("Wrote:", edges_json_path)
 print("Wrote:", edges_path)

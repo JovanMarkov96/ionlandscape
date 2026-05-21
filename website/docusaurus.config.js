@@ -55,7 +55,22 @@ module.exports = {
                 {
                     type: 'html',
                     position: 'right',
-                    value: '<a href="/ionlandscape/groups" class="navbar-custom-btn" title="Search" aria-label="Search"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg><span class="navbar-btn-label">Search</span></a>',
+                    value: '<a href="/ionlandscape/groups" class="navbar-custom-btn" title="People" aria-label="People"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg><span class="navbar-btn-label">People</span></a>',
+                },
+                {
+                    type: 'html',
+                    position: 'right',
+                    value: '<a href="/ionlandscape/companies" class="navbar-custom-btn" title="Companies" aria-label="Companies"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg><span class="navbar-btn-label">Companies</span></a>',
+                },
+                {
+                    type: 'html',
+                    position: 'right',
+                    value: '<a href="/ionlandscape/institutions" class="navbar-custom-btn" title="Institutions" aria-label="Institutions"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22v-8"></path><path d="M21 22v-8"></path><path d="M12 2v20"></path><path d="M8 6l4-4 4 4"></path><path d="M5 14h14"></path></svg><span class="navbar-btn-label">Institutions</span></a>',
+                },
+                {
+                    type: 'html',
+                    position: 'right',
+                    value: '<a href="/ionlandscape/lineages" class="navbar-custom-btn" title="Graph" aria-label="Graph"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg><span class="navbar-btn-label">Graph</span></a>',
                 },
                 {
                     type: 'html',
