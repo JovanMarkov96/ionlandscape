@@ -117,69 +117,63 @@ function HomeContent() {
     };
 
     return (
-        <Layout
-            title="Map"
-            description="Interactive map of ion trap and neutral atom quantum computing groups"
-            noFooter={false}
-        >
-            <div className="ion-landscape-container">
-                <div className="ion-landscape-map">
-                    <MapPanel
-                        ref={mapPanelRef}
+        <div className="ion-landscape-container">
+            <div className="ion-landscape-map">
+                <MapPanel
+                    ref={mapPanelRef}
+                    onPersonSelect={handlePersonSelect}
+                    onCompanySelect={handleCompanySelect}
+                    onInstitutionSelect={handleInstitutionSelect}
+                    onLocationSelect={handleLocationSelect}
+                />
+            </div>
+
+            {showWelcome && !isPanelOpen && (
+                <div className="welcome-popup">
+                    <button className="close-panel-btn" onClick={handleDismissWelcome} aria-label="Dismiss welcome popup" style={{ top: '16px', right: '16px' }}>✕</button>
+                    <h2>Ion Landscape</h2>
+                    <p>Click a marker on the map to view a personal or company profile.</p>
+                    <button className="btn-primary" onClick={handleDismissWelcome}>Get Started</button>
+                </div>
+            )}
+
+            <div className={`ion-landscape-panel ${isPanelOpen ? 'panel-open' : ''}`}>
+                <button
+                    className="back-to-map-btn"
+                    onClick={handleClosePanel}
+                >
+                    ← Back to Map
+                </button>
+                {selectedInstitutionId ? (
+                    <InstitutionPanel
+                        institutionId={selectedInstitutionId}
+                        onPersonSelect={handlePersonSelect}
+                        onClose={handleClearProfile}
+                        onShowInMap={handleShowInMap}
+                    />
+                ) : selectedCompanyId ? (
+                    <CompanyPanel
+                        companyId={selectedCompanyId}
+                        location={selectedLocation}
+                        onCompanySelect={handleCompanySelect}
+                        onInstitutionSelect={handleInstitutionSelect}
+                        onPersonSelect={handlePersonSelect}
+                        onClose={handleClearProfile}
+                        onShowInMap={handleShowInMap}
+                    />
+                ) : (
+                    <PersonPanel
+                        personId={selectedPersonId}
+                        location={selectedLocation}
                         onPersonSelect={handlePersonSelect}
                         onCompanySelect={handleCompanySelect}
                         onInstitutionSelect={handleInstitutionSelect}
-                        onLocationSelect={handleLocationSelect}
+                        onClose={handleClearProfile}
+                        onShowInMap={handleShowInMap}
                     />
-                </div>
-
-                {showWelcome && !isPanelOpen && (
-                    <div className="welcome-popup">
-                        <button className="close-panel-btn" onClick={handleDismissWelcome} aria-label="Dismiss welcome popup" style={{ top: '16px', right: '16px' }}>✕</button>
-                        <h2>Ion Landscape</h2>
-                        <p>Click a marker on the map to view a personal or company profile.</p>
-                        <button className="btn-primary" onClick={handleDismissWelcome}>Get Started</button>
-                    </div>
                 )}
-
-                <div className={`ion-landscape-panel ${isPanelOpen ? 'panel-open' : ''}`}>
-                    <button
-                        className="back-to-map-btn"
-                        onClick={handleClosePanel}
-                    >
-                        ← Back to Map
-                    </button>
-                    {selectedInstitutionId ? (
-                        <InstitutionPanel
-                            institutionId={selectedInstitutionId}
-                            onPersonSelect={handlePersonSelect}
-                            onClose={handleClearProfile}
-                            onShowInMap={handleShowInMap}
-                        />
-                    ) : selectedCompanyId ? (
-                        <CompanyPanel
-                            companyId={selectedCompanyId}
-                            location={selectedLocation}
-                            onCompanySelect={handleCompanySelect}
-                            onInstitutionSelect={handleInstitutionSelect}
-                            onPersonSelect={handlePersonSelect}
-                            onClose={handleClearProfile}
-                            onShowInMap={handleShowInMap}
-                        />
-                    ) : (
-                        <PersonPanel
-                            personId={selectedPersonId}
-                            location={selectedLocation}
-                            onPersonSelect={handlePersonSelect}
-                            onCompanySelect={handleCompanySelect}
-                            onInstitutionSelect={handleInstitutionSelect}
-                            onClose={handleClearProfile}
-                            onShowInMap={handleShowInMap}
-                        />
-                    )}
-                </div>
             </div>
-        </Layout>
+        </div>
     );
 }
 
@@ -194,8 +188,14 @@ function HomeContent() {
  */
 export default function Home() {
     return (
-        <BrowserOnly fallback={<div style={{ padding: 20 }}>Loading map...</div>}>
-            {() => <HomeContent />}
-        </BrowserOnly>
+        <Layout
+            title="Map"
+            description="Interactive map of quantum computing groups"
+            noFooter={false}
+        >
+            <BrowserOnly fallback={<div style={{ padding: 20 }}>Loading map...</div>}>
+                {() => <HomeContent />}
+            </BrowserOnly>
+        </Layout>
     );
 }
