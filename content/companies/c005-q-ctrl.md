@@ -13,7 +13,7 @@ location:
   lon: 151.2
   region: New South Wales
 media:
-  logo_path: ''
+  logo_path: /logos/c005-q-ctrl.avif
 modality: software
 name: Q-CTRL
 people:

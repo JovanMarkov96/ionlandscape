@@ -1,3 +1,3 @@
 # Evidence Map: QuamCore
 ## Sources
-1. [quamcore.com](https://quamcore.com)
+1. [QuamCore home page](https://www.quamcore.com/)

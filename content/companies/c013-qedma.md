@@ -47,7 +47,7 @@ location:
   lon: 34.8121
   region: Tel Aviv District
 media:
-  logo_path: ''
+  logo_path: /logos/c013-qedma.png
 milestones:
 - claim: Raised $26M in Series A funding to accelerate development of quantum error
     mitigation and characterization products.

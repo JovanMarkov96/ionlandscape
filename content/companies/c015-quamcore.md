@@ -53,7 +53,7 @@ location:
   lon: 34.8117
   region: Central
 media:
-  logo_path: ''
+  logo_path: /logos/c015-quamcore.svg
 milestones:
 - claim: Company emerged from stealth with $9M seed funding to build a scalable million-qubit
     platform.
