@@ -32,7 +32,7 @@
         "city": "Tel Aviv",
         "country": "Israel",
         "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
-        "logo_path": "",
+        "logo_path": "/logos/c013-qedma.png",
         "md_filename": "c013-qedma.md"
       },
       "geometry": {
@@ -166,7 +166,7 @@
         "city": "Sydney",
         "country": "Australia",
         "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
-        "logo_path": "",
+        "logo_path": "/logos/c005-q-ctrl.avif",
         "md_filename": "c005-q-ctrl.md"
       },
       "geometry": {
@@ -189,7 +189,7 @@
         "city": "Herzliya",
         "country": "Israel",
         "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
-        "logo_path": "",
+        "logo_path": "/logos/c015-quamcore.svg",
         "md_filename": "c015-quamcore.md"
       },
       "geometry": {

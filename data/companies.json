@@ -239,7 +239,7 @@
       "website": "https://qedma.com"
     },
     "media": {
-      "logo_path": ""
+      "logo_path": "/logos/c013-qedma.png"
     },
     "sources": [
       {
@@ -724,7 +724,7 @@
       "website": "https://qctrl.com"
     },
     "media": {
-      "logo_path": ""
+      "logo_path": "/logos/c005-q-ctrl.avif"
     },
     "sources": [],
     "md_filename": "c005-q-ctrl.md",
@@ -854,7 +854,7 @@
       "website": "https://quamcore.com"
     },
     "media": {
-      "logo_path": ""
+      "logo_path": "/logos/c015-quamcore.svg"
     },
     "sources": [
       {
