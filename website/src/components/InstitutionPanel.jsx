@@ -85,6 +85,39 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
         return <span key={pid} style={{ display: 'block', marginBottom: '4px' }}>{pid}</span>;
     };
 
+    // Group current members by platform
+    const groupedMembers = React.useMemo(() => {
+        if (!institution || !institution.directory || !institution.directory.current_members) return {};
+        const groups = {};
+        const platformMap = {
+            "trapped_ion": "Trapped Ion",
+            "neutral_atom": "Neutral Atom",
+            "rydberg_array": "Neutral Atom",
+            "superconducting": "Superconducting",
+            "photonic": "Photonic",
+            "nv_center": "Color Center",
+            "color_center": "Color Center",
+            "quantum_dot": "Semiconductor",
+            "silicon_spin": "Semiconductor",
+            "topological": "Topological",
+            "trapped_molecule": "Molecule",
+            "cavity_qed_hybrid": "Hybrid"
+        };
+        
+        institution.directory.current_members.forEach(pid => {
+            const p = people.find(x => x.md_filename === pid || x.id === pid);
+            if (p && p.platforms && p.platforms.length > 0) {
+                const mapped = platformMap[p.platforms[0]] || "Other";
+                if (!groups[mapped]) groups[mapped] = [];
+                groups[mapped].push(pid);
+            } else {
+                if (!groups["Other"]) groups["Other"] = [];
+                groups["Other"].push(pid);
+            }
+        });
+        return groups;
+    }, [institution, people]);
+
     if (!institution) {
         return null;
     }
@@ -149,12 +182,21 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
                 </div>
             )}
 
-            {directory && directory.member_count > 0 && (
+            {institution.directory && institution.directory.member_count > 0 && (
                 <>
                     <div className="panel-divider" />
-                    <h4 className="section-header">Current Members ({directory.member_count})</h4>
+                    <h4 className="section-header">In-House Groups ({institution.directory.member_count})</h4>
                     <div className="scrollable-list-container">
-                        {directory.current_members.map(pid => renderPersonLink(pid))}
+                        {Object.keys(groupedMembers).sort().map(platform => (
+                            <div key={platform} style={{ marginBottom: '12px' }}>
+                                <strong style={{ fontSize: '0.9em', color: '#666', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                                    {platform}
+                                </strong>
+                                <div style={{ marginTop: '4px', paddingLeft: '8px', borderLeft: '2px solid #eee' }}>
+                                    {groupedMembers[platform].map(pid => renderPersonLink(pid))}
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </>
             )}

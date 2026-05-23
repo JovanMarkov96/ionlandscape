@@ -35,11 +35,11 @@ keywords:
 - micromotion
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=4JryXL4AAAAJ
   group_page: https://www.weizmann.ac.il/complex/meir/group
@@ -53,6 +53,12 @@ location:
   lat: 31.9066
   lon: 34.8106
   region: Central District
+metrics:
+  citation_count: 593
+  h_index: 12
+  publication_count: 42
+  retrieved_at: '2026-05-21'
+  source: null
 name: Ziv Meir
 platforms:
 - trapped_ion
@@ -61,14 +67,17 @@ platforms:
 postdocs:
 - advisor: Roee Ozeri
   institution: Weizmann Institute of Science
-  note: Postdoctoral continuation inferred from 2017-2018 Weizmann-affiliated atom-ion publications with Ozeri-group coauthors; official bios do not explicitly name a PI.
+  note: Postdoctoral continuation inferred from 2017-2018 Weizmann-affiliated atom-ion
+    publications with Ozeri-group coauthors; official bios do not explicitly name
+    a PI.
 - advisor: Stefan Willitsch
   institution: University of Basel
 schema_version: 2
 sort_name: Meir, Ziv
 thesis:
   link: https://www.weizmann.ac.il/complex/ozeri/sites/complex.ozeri/files/uploads/ziv_thesis.pdf
-  title: "Dynamics of a single, ground-state cooled and trapped ion colliding with ultracold atoms: A micromotion tale"
+  title: 'Dynamics of a single, ground-state cooled and trapped ion colliding with
+    ultracold atoms: A micromotion tale'
   year: 2016
 updated_at: '2026-01-27'
 verification_source_count: 2

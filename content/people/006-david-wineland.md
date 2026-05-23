@@ -8,18 +8,18 @@ applications:
 created_at: '2026-01-26'
 current_position:
   institution: University of Oregon
-  title: Philip H. Knight Distinguished Research Chair; Research Professor (Physics)
   since_year: 2018
+  title: Philip H. Knight Distinguished Research Chair; Research Professor (Physics)
 education:
 - degree: BA (Physics)
   institution: University of California, Berkeley
   year: 1965
 - advisor: Norman F. Ramsey
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Harvard University
-  year: 1970
-  confidence: confirmed
   source: https://www.nobelprize.org/prizes/physics/2012/wineland/biographical/
+  year: 1970
 entity_type: person
 group_type: experimental
 id: 006-david-wineland
@@ -29,14 +29,14 @@ ion_species:
 - 199Hg+
 - 27Al+
 key_papers:
-- title: "Demonstration of a Fundamental Quantum Logic Gate"
-  year: 1995
-  doi: 10.1103/PhysRevLett.75.4714
+- doi: 10.1103/PhysRevLett.75.4714
   role: senior_author
-- title: "Radiation-Pressure Cooling of Bound Resonant Absorption Lines"
-  year: 1978
-  doi: 10.1103/PhysRevLett.40.1639
+  title: Demonstration of a Fundamental Quantum Logic Gate
+  year: 1995
+- doi: 10.1103/PhysRevLett.40.1639
   role: first_author
+  title: Radiation-Pressure Cooling of Bound Resonant Absorption Lines
+  year: 1978
 keywords:
 - laser cooling
 - ion traps
@@ -45,11 +45,11 @@ keywords:
 - precision measurement
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=6quvCpAAAAAJ
   group_page: https://www.nist.gov/people/david-j-wineland
@@ -63,16 +63,22 @@ location:
   lat: 44.0496255
   lon: -123.0728292
   region: Oregon
+metrics:
+  citation_count: 37465
+  h_index: 87
+  publication_count: 456
+  retrieved_at: '2026-05-21'
+  source: null
 name: David J. Wineland
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Hans Dehmelt
   advisor_id: null
-  institution: University of Washington
-  years: '1970-1975'
-  note: Postdoctoral researcher studying precision ion spectroscopy.
   confidence: confirmed
+  institution: University of Washington
+  note: Postdoctoral researcher studying precision ion spectroscopy.
+  years: 1970-1975
 schema_version: 2
 sort_name: Wineland, David J.
 thesis:

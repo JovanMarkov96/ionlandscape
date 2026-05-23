@@ -1,25 +1,25 @@
 ---
 active: active
 affiliations:
-- name: Q-CTRL
-  type: company
+- entity_id: c005-q-ctrl
+  name: Q-CTRL
   role: Founder and CEO
-  entity_id: c005-q-ctrl
+  type: company
 applications:
 - sensing_metrology
 - software_control
 created_at: '2026-01-28'
 current_position:
   institution: University of Sydney
-  title: Professor of Quantum Physics; Director, Quantum Control Laboratory
   since_year: null
+  title: Professor of Quantum Physics; Director, Quantum Control Laboratory
 education:
 - advisor: Charles M. Marcus
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Harvard University
-  year: 2005
-  confidence: confirmed
   source: https://www.sydney.edu.au/science/about/our-people/academic-staff/michael-biercuk.html
+  year: 2005
 entity_type: person
 group_type: experimental
 id: 021-mike-biercuk
@@ -27,14 +27,14 @@ ion_species:
 - 9Be+
 - 171Yb+
 key_papers:
-- title: "Optimized dynamical decoupling in a model quantum memory"
+- doi: 10.1038/nature07951
+  role: senior_author
+  title: Optimized dynamical decoupling in a model quantum memory
   year: 2009
-  doi: 10.1038/nature07951
+- doi: 10.1038/ncomms3045
   role: senior_author
-- title: "Designing a practical high-fidelity long-time quantum memory"
+  title: Designing a practical high-fidelity long-time quantum memory
   year: 2013
-  doi: 10.1038/ncomms3045
-  role: senior_author
 keywords:
 - quantum control
 - trapped ions
@@ -44,11 +44,11 @@ keywords:
 labels:
 - Experimental group
 - Industry
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=Pf5u3hcAAAAJ
   group_page: https://www.q-ctrl.com/
@@ -60,20 +60,26 @@ location:
   lat: -33.8688
   lon: 151.2093
   region: New South Wales
+metrics:
+  citation_count: 5528
+  h_index: 36
+  publication_count: 185
+  retrieved_at: '2026-05-21'
+  source: null
 name: Michael J. Biercuk
 platforms:
 - trapped_ion
 postdocs:
 - advisor: David J. Wineland
   advisor_id: 001-david-wineland
-  institution: National Institute of Standards and Technology (NIST)
-  years: 'unknown'
-  note: Postdoctoral researcher in the Ion Storage Group.
   confidence: confirmed
+  institution: National Institute of Standards and Technology (NIST)
+  note: Postdoctoral researcher in the Ion Storage Group.
+  years: unknown
 schema_version: 2
 sort_name: Biercuk, Michael J.
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Local Gate Control in Carbon Nanotube Quantum Dots
   year: 2005
 updated_at: '2026-05-04'

@@ -3,18 +3,19 @@ active: active
 affiliations: []
 applications:
 - computing
+atomic_species: []
 created_at: '2026-01-26'
 current_position:
   institution: ETH Zurich
-  title: Full Professor of Physics
   since_year: 2012
+  title: Full Professor of Physics
 education:
 - advisor: Andrew Steane
+  confidence: confirmed
   degree: DPhil (Physics)
   institution: University of Oxford
-  year: 2006
-  confidence: confirmed
   source: https://www.phys.ethz.ch/the-department/people/person-detail.jhome.html
+  year: 2006
 - degree: MPhys
   institution: University of Oxford
   year: 2002
@@ -23,20 +24,20 @@ group_type: experimental
 id: 016-jonathan-home
 ion_species:
 - 40Ca+
-atomic_species: []
 key_papers:
-- title: "Repeated multi-qubit readout and feedback with a mixed-species trapped-ion register"
+- doi: 10.1038/s41586-018-0668-z
+  role: senior_author
+  title: Repeated multi-qubit readout and feedback with a mixed-species trapped-ion
+    register
   year: 2018
-  doi: 10.1038/s41586-018-0668-z
+- doi: 10.1038/s41586-019-0960-6
   role: senior_author
-- title: "Encoding a qubit in a trapped-ion mechanical oscillator"
+  title: Encoding a qubit in a trapped-ion mechanical oscillator
   year: 2019
-  doi: 10.1038/s41586-019-0960-6
+- doi: 10.1038/s41586-020-2823-6
   role: senior_author
-- title: "Integrated optical multi-ion quantum logic"
+  title: Integrated optical multi-ion quantum logic
   year: 2020
-  doi: 10.1038/s41586-020-2823-6
-  role: senior_author
 keywords:
 - trapped-ion quantum computing
 - quantum error correction
@@ -44,11 +45,11 @@ keywords:
 - scaling
 labels:
 - Experimental group
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
-last_verified_at: '2026-05-04'
+  postdoc_verified: true
 links:
   eth_profile: https://www.phys.ethz.ch/the-department/people/person-detail.jhome.html
   google_scholar: https://scholar.google.com/citations?user=hIVXn-EAAAAJ&hl=en
@@ -61,20 +62,26 @@ location:
   lat: 47.4083
   lon: 8.5072
   region: Zürich
+metrics:
+  citation_count: 4233
+  h_index: 31
+  publication_count: 153
+  retrieved_at: '2026-05-21'
+  source: null
 name: Jonathan P. Home
 platforms:
 - trapped_ion
 postdocs:
 - advisor: David J. Wineland
   advisor_id: 006-david-wineland
-  institution: National Institute of Standards and Technology (NIST), Boulder
-  years: '2006-2012'
-  note: Postdoctoral researcher in the Ion Storage Group.
   confidence: confirmed
+  institution: National Institute of Standards and Technology (NIST), Boulder
+  note: Postdoctoral researcher in the Ion Storage Group.
+  years: 2006-2012
 schema_version: 2
 sort_name: Home, Jonathan P.
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Entanglement of two trapped-ion spin qubits
   year: 2006
 updated_at: '2026-05-04'

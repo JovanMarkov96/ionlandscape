@@ -1,10 +1,10 @@
 ---
 active: active
 affiliations:
-- name: Quantum Art
-  type: company
+- entity_id: c001-quantum-art
+  name: Quantum Art
   role: Chief Science Officer and Co-founder
-  entity_id: c001-quantum-art
+  type: company
 applications:
 - computing
 - optical_clocks
@@ -13,19 +13,19 @@ applications:
 created_at: '2026-01-26'
 current_position:
   institution: Weizmann Institute of Science
-  title: Professor of Physics
   since_year: null
+  title: Professor of Physics
 education:
 - degree: BSc (Physics)
   institution: Hebrew University of Jerusalem
 - degree: MSc (Physics)
   institution: Weizmann Institute of Science
 - advisor: Nir Davidson
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Weizmann Institute of Science
-  year: 2006
-  confidence: confirmed
   source: https://www.weizmann.ac.il/complex/ozeri/
+  year: 2006
 entity_type: person
 group_type: experimental
 id: 001-roee-ozeri
@@ -33,14 +33,14 @@ ion_species:
 - 88Sr+
 - 40Ca+
 key_papers:
-- title: "Single-ion quantum lock-in amplifier"
-  year: 2011
-  doi: 10.1038/nature10010
+- doi: 10.1038/nature10010
   role: senior_author
-- title: "Hyperfine coherence in the presence of spontaneous photon scattering"
-  year: 2005
-  doi: 10.1103/PhysRevLett.95.030403
+  title: Single-ion quantum lock-in amplifier
+  year: 2011
+- doi: 10.1103/PhysRevLett.95.030403
   role: co_author
+  title: Hyperfine coherence in the presence of spontaneous photon scattering
+  year: 2005
 keywords:
 - trapped-ion quantum computing
 - quantum metrology
@@ -50,11 +50,11 @@ keywords:
 labels:
 - Experimental group
 - Industry
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ
   group_page: http://www.weizmann.ac.il/complex/ozeri/
@@ -68,6 +68,12 @@ location:
   lat: 31.9066
   lon: 34.8106
   region: Central District
+metrics:
+  citation_count: 9308
+  h_index: 44
+  publication_count: 219
+  retrieved_at: '2026-05-21'
+  source: null
 name: Roee Ozeri
 platforms:
 - trapped_ion
@@ -75,14 +81,14 @@ platforms:
 postdocs:
 - advisor: David J. Wineland
   advisor_id: 006-david-wineland
-  institution: National Institute of Standards and Technology (NIST), Boulder
-  years: 'unknown'
-  note: Postdoctoral researcher studying decoherence and trapped-ion quantum computing.
   confidence: confirmed
+  institution: National Institute of Standards and Technology (NIST), Boulder
+  note: Postdoctoral researcher studying decoherence and trapped-ion quantum computing.
+  years: unknown
 schema_version: 2
 sort_name: Ozeri, Roee
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Optical manipulation of atomic clouds
   year: 2006
 updated_at: '2026-05-04'

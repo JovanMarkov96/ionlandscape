@@ -1,10 +1,10 @@
 ---
 active: active
 affiliations:
-- name: Tsinghua University
-  type: institution
+- entity_id: null
+  name: Tsinghua University
   role: Professor (2011-2025)
-  entity_id: null
+  type: institution
 applications:
 - computing
 - simulation
@@ -12,15 +12,15 @@ applications:
 created_at: '2026-01-26'
 current_position:
   institution: Institute for Basic Science (IBS), South Korea
-  title: Director, Center for Trapped Ion Quantum Science
   since_year: 2025
+  title: Director, Center for Trapped Ion Quantum Science
 education:
 - advisor: Wonho Jhe
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Seoul National University
-  year: 2004
-  confidence: confirmed
   source: https://en.sedaily.com/technology/2025/12/29/quantum-scientist-kim-ki-hwan-returns-to-korea-after-decade
+  year: 2004
 entity_type: person
 group_type: experimental
 id: 011-kihwan-kim
@@ -28,22 +28,22 @@ ion_species:
 - 171Yb+
 - 138Ba+
 key_papers:
-- title: "Tunable quantum simulation of spin models with a two-dimensional ion crystal"
+- doi: 10.1038/s41567-023-02378-9
+  role: senior_author
+  title: Tunable quantum simulation of spin models with a two-dimensional ion crystal
   year: 2024
-  doi: 10.1038/s41567-023-02378-9
+- doi: 10.1038/s41467-020-20330-w
   role: senior_author
-- title: "Single ion qubit with estimated coherence time exceeding one hour"
+  title: Single ion qubit with estimated coherence time exceeding one hour
   year: 2021
-  doi: 10.1038/s41467-020-20330-w
+- doi: 10.1038/s41586-019-1428-4
   role: senior_author
-- title: "Global entangling gates on arbitrary ion qubits"
+  title: Global entangling gates on arbitrary ion qubits
   year: 2019
-  doi: 10.1038/s41586-019-1428-4
-  role: senior_author
-- title: "Programmable quantum simulations of spin systems with trapped ions"
-  year: 2021
-  doi: 10.1103/RevModPhys.93.025001
+- doi: 10.1103/RevModPhys.93.025001
   role: co_author
+  title: Programmable quantum simulations of spin systems with trapped ions
+  year: 2021
 keywords:
 - trapped-ion quantum computing
 - high-fidelity gates
@@ -52,11 +52,11 @@ keywords:
 - 2D ion crystals
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=4iNn12QAAAAJ
   group_page: https://sites.google.com/view/kihwankim-lab
@@ -69,29 +69,35 @@ location:
   lat: 36.3741
   lon: 127.365
   region: Daejeon
+metrics:
+  citation_count: 10120
+  h_index: 49
+  publication_count: 267
+  retrieved_at: '2026-05-21'
+  source: null
 name: Kihwan Kim
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Rainer Blatt
   advisor_id: 017-rainer-blatt
-  institution: University of Innsbruck
-  years: 'unknown'
-  note: Postdoctoral researcher at University of Innsbruck.
   confidence: confirmed
+  institution: University of Innsbruck
+  note: Postdoctoral researcher at University of Innsbruck.
+  years: unknown
 - advisor: Christopher Monroe
   advisor_id: 005-chris-monroe
-  institution: University of Maryland (JQI)
-  years: 'unknown'
-  note: Postdoctoral researcher at UMD.
   confidence: confirmed
+  institution: University of Maryland (JQI)
+  note: Postdoctoral researcher at UMD.
+  years: unknown
 schema_version: 2
 sort_name: Kim, Kihwan
 thesis:
-  link: "Unknown"
+  link: Unknown
   note: Thesis title not found in open-access sources. Research topics included quantum
     optics and parametric resonance in MOTs.
-  title: "Unknown"
+  title: Unknown
   year: 2004
 updated_at: '2026-05-04'
 verification_source_count: 3

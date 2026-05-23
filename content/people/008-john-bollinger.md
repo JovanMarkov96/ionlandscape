@@ -8,18 +8,18 @@ applications:
 created_at: '2026-01-26'
 current_position:
   institution: National Institute of Standards and Technology (NIST), Boulder
-  title: Staff Scientist / Group Leader, Ion Storage Group
   since_year: null
+  title: Staff Scientist / Group Leader, Ion Storage Group
 education:
 - degree: BS (Physics and Mathematics)
   institution: Cornell University
   year: 1974
 - advisor: Arthur Pipkin
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Harvard University
-  year: 1981
-  confidence: confirmed
   source: https://www.nist.gov/people/john-j-bollinger
+  year: 1981
 entity_type: person
 group_type: experimental
 id: 008-john-bollinger
@@ -27,20 +27,20 @@ ion_species:
 - 9Be+
 - 25Mg+
 key_papers:
-- title: "Ion Coulomb crystals: an exotic form of condensed matter"
-  year: 2024
-  doi: null
+- doi: null
   role: co_author
-- title: Generating Einstein-Podolsky-Rosen correlations for teleporting collective
+  title: 'Ion Coulomb crystals: an exotic form of condensed matter'
+  year: 2024
+- doi: null
+  role: co_author
+  title: Generating Einstein-Podolsky-Rosen correlations for teleporting collective
     spin states in a two dimensional trapped ion crystal
   year: 2024
-  doi: null
+- doi: null
   role: co_author
-- title: Numerical Simulations of 3D Ion Crystal Dynamics in a Penning Trap using
+  title: Numerical Simulations of 3D Ion Crystal Dynamics in a Penning Trap using
     the Fast Multipole Method
   year: 2024
-  doi: null
-  role: co_author
 keywords:
 - Penning-trap ion crystals
 - non-neutral plasmas
@@ -49,11 +49,11 @@ keywords:
 - quantum simulation with ion crystals
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   event_bio_uva: https://iop.uva.nl/content/events/2023/11/colloquium-02-11.html
   google_scholar: https://scholar.google.com/citations?hl=en&user=u8hdXb0AAAAJ
@@ -66,22 +66,28 @@ location:
   lat: 40.0094
   lon: -105.2629
   region: Colorado
+metrics:
+  citation_count: 15663
+  h_index: 54
+  publication_count: 328
+  retrieved_at: '2026-05-21'
+  source: null
 name: John J. Bollinger
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Bollinger, John J.
 thesis:
-  link: "Unknown"
-  title: Measurement of the 42S1/2-42P1/2 Lamb Shift in He+
-  year: 1981
+  link: Unknown
   note: PhD under Arthur Pipkin at Harvard, 1981. Title from prior record; not independently
     re-verified.
+  title: Measurement of the 42S1/2-42P1/2 Lamb Shift in He+
+  year: 1981
 updated_at: '2026-05-04'
 verification_source_count: 2
 ---

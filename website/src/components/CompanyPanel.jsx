@@ -233,6 +233,28 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                 </>
             )}
 
+            {/* Milestones */}
+            {company.milestones && company.milestones.length > 0 && (
+                <>
+                    <div className="panel-divider" />
+                    <h4 className="section-header">Milestones</h4>
+                    <div className="milestones-timeline" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        {/* Sort by date descending (assuming format YYYY-MM or similar is string sortable, or just preserve array order which is usually chronological) */}
+                        {company.milestones.map((ms, i) => (
+                            <div key={i} className="trajectory-item">
+                                <div className="trajectory-title">{ms.date}</div>
+                                <div className="trajectory-details">{ms.description}</div>
+                                {ms.link && (
+                                    <div className="trajectory-details">
+                                        <a href={ms.link} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.9em' }}>Source</a>
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </>
+            )}
+
             {/* Funding */}
             {company.funding && (company.funding.total_usd > 0 || company.funding.rounds?.length > 0) && (
                 <>

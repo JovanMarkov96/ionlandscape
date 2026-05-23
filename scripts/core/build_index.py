@@ -14,6 +14,8 @@ import glob
 import json
 import csv
 import frontmatter
+import re
+import unicodedata
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -24,7 +26,9 @@ OUT_DIR = os.path.join(ROOT, "website", "static", "data")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 def slugify(name):
-    return name.strip().lower().replace(" ", "-").replace(",", "").replace(".", "")
+    name = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
+    name = name.strip().lower().replace(" ", "-")
+    return re.sub(r'[^a-z0-9\-]', '', name)
 
 people = []
 companies = []

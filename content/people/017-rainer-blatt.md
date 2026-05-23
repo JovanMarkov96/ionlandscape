@@ -1,44 +1,44 @@
 ---
 active: active
 affiliations:
-- name: Alpine Quantum Technologies (AQT)
-  type: company
+- entity_id: c003-alpine-quantum-technologies-aqt
+  name: Alpine Quantum Technologies (AQT)
   role: Co-founder
-  entity_id: c003-alpine-quantum-technologies-aqt
   source: https://www.aqt.eu/about/
+  type: company
 applications:
 - computing
 - simulation
 created_at: '2026-01-26'
 current_position:
   institution: Institute for Quantum Optics and Quantum Information (IQOQI) Innsbruck
-  title: Emeritus Research Director
   since_year: null
+  title: Emeritus Research Director
 education:
 - advisor: Günter Werth
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Mainz
-  year: 1981
-  confidence: confirmed
   source: https://en.wikipedia.org/wiki/Rainer_Blatt
+  year: 1981
 entity_type: person
 group_type: experimental
 id: 017-rainer-blatt
 ion_species:
 - 40Ca+
 key_papers:
-- title: Universal Digital Quantum Simulation with Trapped Ions
-  year: 2011
-  doi: 10.1126/science.1208001
+- doi: 10.1126/science.1208001
   role: senior_author
-- title: An open-system quantum simulator with trapped ions
+  title: Universal Digital Quantum Simulation with Trapped Ions
   year: 2011
-  doi: 10.1038/nature09801
+- doi: 10.1038/nature09801
   role: senior_author
-- title: Scalable multi-particle entanglement of trapped ions
+  title: An open-system quantum simulator with trapped ions
+  year: 2011
+- doi: 10.1038/nature04279
+  role: senior_author
+  title: Scalable multi-particle entanglement of trapped ions
   year: 2005
-  doi: 10.1038/nature04279
-  role: senior_author
 keywords:
 - trapped ions
 - quantum information processing
@@ -46,11 +46,11 @@ keywords:
 labels:
 - Experimental group
 - Industry
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   aqt_about: https://www.aqt.eu/about/
   cv_pdf: https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf
@@ -65,22 +65,30 @@ location:
   lat: 47.2578333
   lon: 11.3836639
   region: Tyrol
+metrics:
+  citation_count: 40361
+  h_index: 93
+  publication_count: 488
+  retrieved_at: '2026-05-21'
+  source: null
 name: Rainer Blatt
 platforms:
 - trapped_ion
 postdocs:
 - advisor: John L. Hall
   advisor_id: null
-  institution: Joint Institute for Laboratory Astrophysics (JILA)
-  years: 'unknown'
-  note: Postdoctoral fellowship working on laser cooling and precision spectroscopy.
   confidence: confirmed
+  institution: Joint Institute for Laboratory Astrophysics (JILA)
+  note: Postdoctoral fellowship working on laser cooling and precision spectroscopy.
+  years: unknown
 schema_version: 2
 sort_name: Blatt, Rainer
 thesis:
-  link: "Unknown"
-  note: 'English translation: Precision measurement of the ground-state hyperfine splitting of Yb-171+'
-  title: Präzisionsmessung der Hyperfeinstrukturaufspaltung des Grundzustandes von Yb-171+
+  link: Unknown
+  note: 'English translation: Precision measurement of the ground-state hyperfine
+    splitting of Yb-171+'
+  title: Präzisionsmessung der Hyperfeinstrukturaufspaltung des Grundzustandes von
+    Yb-171+
   year: 1981
 updated_at: '2026-05-04'
 verification_source_count: 4

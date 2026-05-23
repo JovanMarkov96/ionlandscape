@@ -244,7 +244,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
     const [people, setPeople] = React.useState([]);
     const [companies, setCompanies] = React.useState([]);
     const [institutions, setInstitutions] = React.useState([]);
-    const [filters, setFilters] = React.useState({ people: true, companies: true, institutions: true });
+    const [filters, setFilters] = React.useState({ people: true, companies: true, institutions: true, platform: 'all' });
 
     // Docusaurus color mode
     const { colorMode } = useColorMode();
@@ -292,6 +292,13 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
         if (filters.people) features = features.concat(people);
         if (filters.companies) features = features.concat(companies);
         if (filters.institutions) features = features.concat(institutions);
+
+        if (filters.platform !== 'all') {
+            features = features.filter(f => {
+                const platforms = f.properties?.platforms || [];
+                return platforms.includes(filters.platform);
+            });
+        }
         return features;
     }, [people, companies, institutions, filters]);
 
@@ -609,6 +616,40 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
                     <span>Institutions</span>
+                </div>
+
+                {/* Platform Filter Dropdown */}
+                <div className="map-filter-dropdown" style={{ marginTop: '10px' }}>
+                    <select 
+                        value={filters.platform} 
+                        onChange={(e) => setFilters(prev => ({ ...prev, platform: e.target.value }))}
+                        style={{
+                            background: 'var(--ifm-color-emphasis-100)',
+                            color: 'var(--ifm-color-content)',
+                            border: '1px solid var(--ifm-color-emphasis-300)',
+                            borderRadius: '8px',
+                            padding: '6px',
+                            fontSize: '0.85em',
+                            cursor: 'pointer',
+                            width: '100%',
+                            outline: 'none',
+                            boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+                        }}
+                    >
+                        <option value="all">All Platforms</option>
+                        <option value="trapped_ion">Trapped Ion</option>
+                        <option value="neutral_atom">Neutral Atom</option>
+                        <option value="rydberg_array">Rydberg Array</option>
+                        <option value="superconducting">Superconducting</option>
+                        <option value="photonic">Photonic</option>
+                        <option value="nv_center">Color Center (NV)</option>
+                        <option value="color_center">Color Center</option>
+                        <option value="quantum_dot">Quantum Dot</option>
+                        <option value="silicon_spin">Silicon Spin</option>
+                        <option value="topological">Topological</option>
+                        <option value="trapped_molecule">Trapped Molecule</option>
+                        <option value="cavity_qed_hybrid">Hybrid / Cavity QED</option>
+                    </select>
                 </div>
             </div>
         </div>

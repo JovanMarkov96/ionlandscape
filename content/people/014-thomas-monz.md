@@ -1,39 +1,39 @@
 ---
 active: active
 affiliations:
-- name: Alpine Quantum Technologies (AQT)
-  type: company
+- entity_id: c003-alpine-quantum-technologies-aqt
+  name: Alpine Quantum Technologies (AQT)
   role: Co-founder and CEO
-  entity_id: c003-alpine-quantum-technologies-aqt
+  type: company
 applications:
 - computing
 - networking
 created_at: '2026-01-26'
 current_position:
   institution: University of Innsbruck
-  title: Senior Scientist
   since_year: 2011
+  title: Senior Scientist
 education:
 - advisor: Rainer Blatt
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Innsbruck
-  year: 2011
-  confidence: confirmed
   source: https://www.oeaw.ac.at/esq/home/esq-quantum-austria/thomas-monz
+  year: 2011
 entity_type: person
 group_type: experimental
 id: 014-thomas-monz
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Realization of a scalable Shor algorithm"
-  year: 2016
-  doi: 10.1126/science.aad9480
+- doi: 10.1126/science.aad9480
   role: senior_author
-- title: "14-Qubit Entanglement: Creation and Coherence"
-  year: 2011
-  doi: 10.1103/PhysRevLett.106.130506
+  title: Realization of a scalable Shor algorithm
+  year: 2016
+- doi: 10.1103/PhysRevLett.106.130506
   role: co_author
+  title: '14-Qubit Entanglement: Creation and Coherence'
+  year: 2011
 keywords:
 - trapped-ion quantum computing
 - quantum algorithms
@@ -43,11 +43,11 @@ keywords:
 labels:
 - Experimental group
 - Industry
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   aqt_about: https://www.aqt.eu/about/
   google_scholar: https://scholar.google.com/citations?user=X6a64kUAAAAJ
@@ -61,14 +61,20 @@ location:
   lat: 47.263
   lon: 11.3856
   region: Tyrol
+metrics:
+  citation_count: 9604
+  h_index: 39
+  publication_count: 188
+  retrieved_at: '2026-05-21'
+  source: null
 name: Thomas Monz
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Monz, Thomas
 thesis:

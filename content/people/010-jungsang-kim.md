@@ -1,25 +1,26 @@
 ---
 active: active
 affiliations:
-- name: Duke Quantum Center
-  type: institution
+- entity_id: null
+  name: Duke Quantum Center
   role: Associate Director
-  entity_id: null
+  type: institution
 applications:
 - computing
 - networking
 created_at: '2026-01-26'
 current_position:
   institution: Duke University
-  title: Schiciano Family Distinguished Professor of Electrical and Computer Engineering; Professor of Physics
   since_year: null
+  title: Schiciano Family Distinguished Professor of Electrical and Computer Engineering;
+    Professor of Physics
 education:
 - advisor: Yoshihisa Yamamoto
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Stanford University
-  year: 1999
-  confidence: confirmed
   source: https://ece.duke.edu/people/jungsang-kim/
+  year: 1999
 entity_type: person
 group_type: experimental
 id: 010-jungsang-kim
@@ -28,18 +29,19 @@ ion_species:
 - 138Ba+
 - 174Yb+
 key_papers:
-- title: "Scaling the Ion Trap Quantum Processor"
+- doi: 10.1126/science.1231298
+  role: co_author
+  title: Scaling the Ion Trap Quantum Processor
   year: 2013
-  doi: 10.1126/science.1231298
+- doi: 10.1038/npjqi.2016.34
   role: co_author
-- title: "Co-designing a scalable quantum computer with trapped atomic ions"
+  title: Co-designing a scalable quantum computer with trapped atomic ions
   year: 2016
-  doi: 10.1038/npjqi.2016.34
+- doi: 10.1103/PhysRevA.89.022317
   role: co_author
-- title: "Large-scale modular quantum-computer architecture with atomic memory and photonic interconnects"
+  title: Large-scale modular quantum-computer architecture with atomic memory and
+    photonic interconnects
   year: 2014
-  doi: 10.1103/PhysRevA.89.022317
-  role: co_author
 keywords:
 - microfabricated ion traps
 - integrated quantum systems
@@ -48,11 +50,11 @@ keywords:
 - quantum communication
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   aps_author_bio: https://physics.aps.org/authors/jungsang_kim
   duke_ece_profile: https://ece.duke.edu/people/jungsang-kim/
@@ -67,18 +69,24 @@ location:
   lat: 36.0014
   lon: -78.9382
   region: North Carolina
+metrics:
+  citation_count: 4723
+  h_index: 32
+  publication_count: 258
+  retrieved_at: '2026-05-21'
+  source: null
 name: Jungsang Kim
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Kim, Jungsang
 thesis:
-  link: "Unknown"
+  link: Unknown
   note: Thesis title inferred from doctoral research focus; exact title not confirmed
     in open-access sources.
   title: Generation and detection of single photon states

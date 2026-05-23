@@ -1,26 +1,26 @@
 ---
 active: active
 affiliations:
-- name: Open Quantum Design
-  type: non_profit
+- entity_id: null
+  name: Open Quantum Design
   role: Co-founder
-  entity_id: null
+  type: non_profit
 applications:
 - computing
 - simulation
 created_at: '2026-01-28'
 current_position:
   institution: Institute for Quantum Computing, University of Waterloo
-  title: Associate Professor
   since_year: null
+  title: Associate Professor
 education:
 - advisor: Christopher Monroe
   advisor_id: 004-christopher-monroe
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Maryland, College Park
-  year: 2013
-  confidence: confirmed
   source: https://uwaterloo.ca/institute-for-quantum-computing/profiles/rajibul-islam
+  year: 2013
 entity_type: person
 group_type: experimental
 id: 022-rajibul-islam
@@ -28,14 +28,14 @@ ion_species:
 - 138Ba+
 - 171Yb+
 key_papers:
-- title: "Onset of a quantum phase transition with a trapped ion quantum simulator"
+- doi: 10.1038/ncomms1374
+  role: co_author
+  title: Onset of a quantum phase transition with a trapped ion quantum simulator
   year: 2011
-  doi: 10.1038/ncomms1374
+- doi: 10.1038/nature15750
   role: co_author
-- title: "Measuring entanglement entropy in a quantum many-body system"
+  title: Measuring entanglement entropy in a quantum many-body system
   year: 2015
-  doi: 10.1038/nature15750
-  role: co_author
 keywords:
 - trapped-ion quantum simulation
 - quantum many-body physics
@@ -44,11 +44,11 @@ keywords:
 - quantum entanglement
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=dZpP2-sAAAAJ
   group_page: https://uwaterloo.ca/ion-trap-quantum-computing/
@@ -60,26 +60,33 @@ location:
   lat: 43.4643
   lon: -80.5204
   region: Ontario
+metrics:
+  citation_count: 5360
+  h_index: 21
+  publication_count: 93
+  retrieved_at: '2026-05-21'
+  source: null
 name: K. Rajibul Islam
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Markus Greiner
   advisor_id: null
-  institution: Harvard University (Center for Ultracold Atoms)
-  years: '2012-2015'
-  note: Postdoctoral Fellow working on entanglement in ultra-cold neutral bosonic atoms.
   confidence: confirmed
+  institution: Harvard University (Center for Ultracold Atoms)
+  note: Postdoctoral Fellow working on entanglement in ultra-cold neutral bosonic
+    atoms.
+  years: 2012-2015
 - advisor: Vladan Vuletic
   advisor_id: 040-vladan-vuletic
-  institution: Massachusetts Institute of Technology (Center for Ultracold Atoms)
-  years: '2015-2016'
-  note: Postdoctoral Researcher working with ions in optical potentials.
   confidence: confirmed
+  institution: Massachusetts Institute of Technology (Center for Ultracold Atoms)
+  note: Postdoctoral Researcher working with ions in optical potentials.
+  years: 2015-2016
 schema_version: 2
 sort_name: Islam, K. Rajibul
 thesis:
-  link: "Unknown"
+  link: Unknown
   note: Received the Distinguished Dissertation Award in 2013.
   title: Quantum Simulation of Interacting Spin Models with Trapped Ions
   year: 2013

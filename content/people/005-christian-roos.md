@@ -27,7 +27,7 @@ keywords:
 - many-body physics
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ
   group_page: https://www.uibk.ac.at/exphys/qos/people/roos/
@@ -40,6 +40,12 @@ location:
   lat: 47.2657
   lon: 11.3444
   region: Tyrol
+metrics:
+  citation_count: 20234
+  h_index: 61
+  publication_count: 202
+  retrieved_at: '2026-05-21'
+  source: null
 name: Christian F. Roos
 platforms:
 - trapped_ion

@@ -33,7 +33,7 @@ keywords:
 labels:
 - Experimental group
 - Industry
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
   last_checked: '2026-05-04'
@@ -51,14 +51,20 @@ location:
   lat: 51.7594
   lon: -1.2582
   region: England
+metrics:
+  citation_count: 3279
+  h_index: 21
+  publication_count: 69
+  retrieved_at: '2026-05-21'
+  source: null
 name: Chris Ballance
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Ballance, Chris
 thesis:

@@ -1,11 +1,11 @@
 ---
 active: active
 affiliations:
-- name: IonQ, Inc. (USA)
+- entity_id: c002-ionq
+  name: IonQ, Inc. (USA)
   role: Co-founder
-  type: company
-  entity_id: c002-ionq
   source: https://www.ionq.com/company
+  type: company
 applications:
 - computing
 - simulation
@@ -14,34 +14,35 @@ atomic_species: []
 created_at: '2026-01-26'
 current_position:
   institution: Duke University
-  title: Gilhuly Family Presidential Distinguished Professor; Professor of Electrical and Computer Engineering and Physics
   since_year: null
+  title: Gilhuly Family Presidential Distinguished Professor; Professor of Electrical
+    and Computer Engineering and Physics
 education:
 - degree: BSc
   institution: Massachusetts Institute of Technology
   year: 1987
-- degree: PhD
+- advisor: Carl Wieman
+  degree: PhD
   institution: University of Colorado Boulder
   year: 1992
-  advisor: Carl Wieman
 entity_type: person
 group_type: experimental
 id: 004-christopher-monroe
 ion_species:
 - Yb+
 key_papers:
-- title: Demonstration of three- and four-body interactions between trapped-ion spins
-  year: 2023
-  doi: 10.1038/s41567-023-02102-7
+- doi: 10.1038/s41567-023-02102-7
   role: co_author
-- title: N-body interactions between trapped ion qubits via spin-dependent squeezing
+  title: Demonstration of three- and four-body interactions between trapped-ion spins
+  year: 2023
+- doi: 10.1103/PhysRevLett.129.063603
+  role: co_author
+  title: N-body interactions between trapped ion qubits via spin-dependent squeezing
   year: 2022
-  doi: 10.1103/PhysRevLett.129.063603
+- doi: 10.1103/PRXQuantum.4.030311
   role: co_author
-- title: Programmable N-body interactions with trapped ions
+  title: Programmable N-body interactions with trapped ions
   year: 2023
-  doi: 10.1103/PRXQuantum.4.030311
-  role: co_author
 keywords:
 - trapped atomic ions
 - quantum computing
@@ -50,11 +51,11 @@ keywords:
 labels:
 - Experimental group
 - Industry
-last_verified_at: '2026-05-02'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-02'
+  postdoc_verified: false
 links:
   duke_ece_profile: https://ece.duke.edu/people/christopher-monroe/
   duke_provost_profile: https://provost.duke.edu/profile/christopher-r-monroe/
@@ -70,6 +71,12 @@ location:
   lat: 36.0033
   lon: -78.9377
   region: North Carolina
+metrics:
+  citation_count: 49259
+  h_index: 92
+  publication_count: 511
+  retrieved_at: '2026-05-21'
+  source: null
 name: Christopher R. Monroe
 platforms:
 - trapped_ion

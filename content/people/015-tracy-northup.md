@@ -8,25 +8,25 @@ applications:
 created_at: '2026-01-26'
 current_position:
   institution: University of Innsbruck
-  title: Full Professor of Experimental Physics
   since_year: 2015
+  title: Full Professor of Experimental Physics
 education:
 - advisor: H. Jeff Kimble
+  confidence: confirmed
   degree: PhD (Physics)
   institution: California Institute of Technology
-  year: 2008
-  confidence: confirmed
   source: https://en.wikipedia.org/wiki/Tracy_Northup
+  year: 2008
 entity_type: person
 group_type: experimental
 id: 015-tracy-northup
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Tunable ion-photon entanglement in an optical cavity"
-  year: 2012
-  doi: 10.1038/nature11120
+- doi: 10.1038/nature11120
   role: co_author
+  title: Tunable ion-photon entanglement in an optical cavity
+  year: 2012
 keywords:
 - ion–photon interfaces
 - optical cavities
@@ -35,11 +35,11 @@ keywords:
 - cavity QED
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=BHFu0UwAAAAJ
   group_page: https://www.uibk.ac.at/exphys/quantum-interfaces/
@@ -52,6 +52,12 @@ location:
   lat: 47.263
   lon: 11.3856
   region: Tyrol
+metrics:
+  citation_count: 5207
+  h_index: 24
+  publication_count: 110
+  retrieved_at: '2026-05-21'
+  source: null
 name: Tracy E. Northup
 platforms:
 - trapped_ion
@@ -59,10 +65,10 @@ platforms:
 postdocs:
 - advisor: Rainer Blatt
   advisor_id: 017-rainer-blatt
-  institution: University of Innsbruck
-  years: 'unknown'
-  note: Postdoctoral researcher, recipient of Marie Curie and Elise Richter Fellowships.
   confidence: confirmed
+  institution: University of Innsbruck
+  note: Postdoctoral researcher, recipient of Marie Curie and Elise Richter Fellowships.
+  years: unknown
 schema_version: 2
 sort_name: Northup, Tracy E.
 thesis:

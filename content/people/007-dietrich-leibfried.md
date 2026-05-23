@@ -10,20 +10,21 @@ atomic_species: []
 created_at: '2026-01-26'
 current_position:
   institution: National Institute of Standards and Technology (NIST), Boulder
-  title: Staff Physicist / Co-Leader, Ion Storage Group (Quantum Information)
   since_year: 2001
+  title: Staff Physicist / Co-Leader, Ion Storage Group (Quantum Information)
 education:
 - degree: Diplom-Physiker
   institution: Ludwig-Maximilians-Universität München
-  year: 1991
   note: With highest honors; research at Max Planck Institute for Quantum Optics (MPQ).
+  year: 1991
 - advisor: Theodor W. Hänsch
+  confidence: confirmed
   degree: Dr. rer. nat. (Physics)
   institution: Ludwig-Maximilians-Universität München
-  year: 1995
-  note: Summa cum laude; thesis research on precision laser spectroscopy of hydrogen at MPQ Garching.
-  confidence: confirmed
+  note: Summa cum laude; thesis research on precision laser spectroscopy of hydrogen
+    at MPQ Garching.
   source: https://www.nist.gov/people/dietrich-leibfried
+  year: 1995
 entity_type: person
 group_type: experimental
 id: 007-dietrich-leibfried
@@ -32,28 +33,28 @@ ion_species:
 - 25Mg+
 - 40Ca+
 key_papers:
-- title: Quantum dynamics of single trapped ions
-  year: 2003
-  doi: 10.1103/RevModPhys.75.281
+- doi: 10.1103/RevModPhys.75.281
   role: first_author
-- title: Creation of a six-atom 'Schrödinger cat' state
+  title: Quantum dynamics of single trapped ions
+  year: 2003
+- doi: 10.1038/nature04251
+  role: senior_author
+  title: Creation of a six-atom 'Schrödinger cat' state
   year: 2005
-  doi: 10.1038/nature04251
+- doi: 10.1126/science.1104149
   role: senior_author
-- title: Toward Heisenberg-Limited Spectroscopy with Multiparticle Entangled States
+  title: Toward Heisenberg-Limited Spectroscopy with Multiparticle Entangled States
   year: 2004
-  doi: 10.1126/science.1104149
-  role: senior_author
-- title: High-Fidelity Quantum State Control of a Polar Molecular Ion in a Cryogenic
+- doi: null
+  role: co_author
+  title: High-Fidelity Quantum State Control of a Polar Molecular Ion in a Cryogenic
     Environment
   year: 2024
-  doi: null
+- doi: null
   role: co_author
-- title: Towards a quantum repeater using a surface-trap-integrated microcavity and
+  title: Towards a quantum repeater using a surface-trap-integrated microcavity and
     trapped ions
   year: 2024
-  doi: null
-  role: co_author
 keywords:
 - trapped-ion quantum computing
 - quantum control
@@ -62,11 +63,11 @@ keywords:
 - molecular ion quantum control
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   colorado_qsense_profile: https://www.colorado.edu/research/qsense/dietrich-leibfried
   google_scholar: https://scholar.google.com/citations?user=OXvCc1QAAAAJ&hl=en
@@ -80,6 +81,12 @@ location:
   lat: 40.0094
   lon: -105.2629
   region: Colorado
+metrics:
+  citation_count: 20805
+  h_index: 70
+  publication_count: 352
+  retrieved_at: '2026-05-21'
+  source: null
 name: Dietrich Leibfried
 platforms:
 - trapped_ion
@@ -87,19 +94,19 @@ platforms:
 postdocs:
 - advisor: David J. Wineland
   advisor_id: 006-david-wineland
-  institution: National Institute of Standards and Technology (NIST), Boulder
-  years: '1995-1998'
   confidence: confirmed
+  institution: National Institute of Standards and Technology (NIST), Boulder
   source: https://www.nist.gov/people/dietrich-leibfried
+  years: 1995-1998
 schema_version: 2
 sort_name: Leibfried, Dietrich
 thesis:
-  title: "Unknown"
-  year: 1995
-  link: "Unknown"
-  note: 'Dr. rer. nat. thesis on precision laser spectroscopy of hydrogen at MPQ/LMU
+  link: Unknown
+  note: Dr. rer. nat. thesis on precision laser spectroscopy of hydrogen at MPQ/LMU
     Munich under T. W. Hänsch. Exact thesis title not found in open-access sources;
-    NIST bio states "precision laser spectroscopy of hydrogen".'
+    NIST bio states "precision laser spectroscopy of hydrogen".
+  title: Unknown
+  year: 1995
 updated_at: '2026-05-04'
 verification_source_count: 3
 ---

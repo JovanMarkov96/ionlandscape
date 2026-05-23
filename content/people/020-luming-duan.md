@@ -1,10 +1,10 @@
 ---
 active: active
 affiliations:
-- name: Shanghai Qi Zhi Institute
-  type: institution
+- entity_id: null
+  name: Shanghai Qi Zhi Institute
   role: Principal Investigator
-  entity_id: null
+  type: institution
 applications:
 - computing
 - networking
@@ -12,15 +12,15 @@ applications:
 created_at: '2026-01-28'
 current_position:
   institution: Tsinghua University (IIIS)
-  title: Yao Qizhi Chair Professor / Chair Professor of Basic Sciences
   since_year: 2018
+  title: Yao Qizhi Chair Professor / Chair Professor of Basic Sciences
 education:
 - advisor: Guo Guangcan
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Science and Technology of China (USTC)
-  year: 1998
-  confidence: confirmed
   source: https://sqz.ac.cn/
+  year: 1998
 entity_type: person
 group_type: experimental
 id: 020-luming-duan
@@ -28,14 +28,15 @@ ion_species:
 - 40Ca+
 - 171Yb+
 key_papers:
-- title: "A site-resolved two-dimensional quantum simulator with hundreds of trapped ions"
-  year: 2024
-  doi: 10.1038/s41586-024-07466-9
+- doi: 10.1038/s41586-024-07466-9
   role: senior_author
-- title: "Long-distance quantum communication with atomic ensembles and linear optics"
-  year: 2001
-  doi: 10.1038/35106500
+  title: A site-resolved two-dimensional quantum simulator with hundreds of trapped
+    ions
+  year: 2024
+- doi: 10.1038/35106500
   role: co_author
+  title: Long-distance quantum communication with atomic ensembles and linear optics
+  year: 2001
 keywords:
 - trapped-ion quantum computing
 - quantum simulation
@@ -44,11 +45,11 @@ keywords:
 - large-scale 2D ion crystals
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=ULkJQpkAAAAJ
   group_page: https://iiis.tsinghua.edu.cn/duanluming/
@@ -60,21 +61,27 @@ location:
   lat: 39.9042
   lon: 116.4074
   region: Beijing
+metrics:
+  citation_count: 11128
+  h_index: 48
+  publication_count: 262
+  retrieved_at: '2026-05-21'
+  source: null
 name: Luming Duan
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Peter Zoller
   advisor_id: null
-  institution: University of Innsbruck
-  years: '1999-2001'
-  note: Postdoctoral researcher at the Institute for Theoretical Physics.
   confidence: confirmed
+  institution: University of Innsbruck
+  note: Postdoctoral researcher at the Institute for Theoretical Physics.
+  years: 1999-2001
 schema_version: 2
 sort_name: Duan, Luming
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: 1998
 updated_at: '2026-05-04'
 verification_source_count: 3

@@ -1,38 +1,38 @@
 ---
 active: active
 affiliations:
-- name: Universal Quantum
-  type: company
+- entity_id: null
+  name: Universal Quantum
   role: Co-founder, Chief Scientist and Chairman
-  entity_id: null
+  type: company
 applications:
 - computing
 created_at: '2026-01-26'
 current_position:
   institution: University of Sussex
-  title: Professor of Quantum Technologies; Director, Sussex Centre for Quantum Technologies
   since_year: null
+  title: Professor of Quantum Technologies; Director, Sussex Centre for Quantum Technologies
 education:
 - advisor: Halina Rubinsztein-Dunlop; Norman Heckenberg; Gerard Milburn
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Queensland
-  year: 2002
-  confidence: confirmed
   source: https://profiles.sussex.ac.uk/p179227-winfried-hensinger
+  year: 2002
 entity_type: person
 group_type: experimental
 id: 012-winfried-hensinger
 ion_species:
 - 171Yb+
 key_papers:
-- title: "Blueprint for a microwave trapped ion quantum computer"
+- doi: 10.1126/sciadv.1601540
+  role: senior_author
+  title: Blueprint for a microwave trapped ion quantum computer
   year: 2017
-  doi: 10.1126/sciadv.1601540
+- doi: 10.1103/PhysRevLett.117.220501
   role: senior_author
-- title: "Trapped-ion quantum logic with global radiation fields"
+  title: Trapped-ion quantum logic with global radiation fields
   year: 2016
-  doi: 10.1103/PhysRevLett.117.220501
-  role: senior_author
 keywords:
 - microwave trapped-ion computing
 - scalable architectures
@@ -40,11 +40,11 @@ keywords:
 - utility-scale quantum computing
 labels:
 - Experimental group
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-05-21'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=DuOb8ioAAAAJ
   group_page: https://www.sussex.ac.uk/research/centres/ion-quantum-technology/
@@ -57,20 +57,26 @@ location:
   lat: 50.8674
   lon: -0.0878
   region: England
+metrics:
+  citation_count: 2607
+  h_index: 23
+  publication_count: 105
+  retrieved_at: '2026-05-21'
+  source: null
 name: Winfried K. Hensinger
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Christopher Monroe
   advisor_id: 005-chris-monroe
-  institution: University of Michigan
-  years: '2002-2005'
-  note: FOCUS Fellow in the Monroe group.
   confidence: confirmed
+  institution: University of Michigan
+  note: FOCUS Fellow in the Monroe group.
+  years: 2002-2005
 schema_version: 2
 sort_name: Hensinger, Winfried K.
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Experimental nonlinear quantum dynamics with ultracold atoms
   year: 2002
 updated_at: '2026-05-04'
