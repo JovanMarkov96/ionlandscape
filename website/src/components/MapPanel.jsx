@@ -1,5 +1,5 @@
 // website/src/components/MapPanel.jsx
-// Self-hosted MapLibre GL JS implementation with PMTiles
+// Self-hosted MapLibre GL JS implementation with a raster basemap
 // Zero external dependencies - fully static file hosting
 import React, { useEffect, useRef, useMemo, useCallback, useImperativeHandle, forwardRef } from 'react';
 import { useColorMode } from '@docusaurus/theme-common';
@@ -11,7 +11,8 @@ const defaultZoom = 2;
 
 /**
  * Generates the MapLibre style object containing map layers and sources.
- * We use an inline style configuration to utilize OpenFreeMap without an API key.
+ * We use an inline style configuration with public raster tiles so the map
+ * can render without an API key or cross-origin failures.
  * 
  * @param {boolean} isDark - Whether the UI is in dark mode
  * @returns {Object} A standalone MapLibre GL style object
@@ -20,176 +21,26 @@ const createStyle = (isDark) => ({
     version: 8,
     name: isDark ? 'Ion Landscape Dark' : 'Ion Landscape Light',
     sources: {
-        // Using OpenFreeMap - completely free, no API key required
-        'openmaptiles': {
-            type: 'vector',
-            url: 'https://tiles.openfreemap.org/planet'
+        basemap: {
+            type: 'raster',
+            tiles: [
+                isDark
+                    ? 'https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png'
+                    : 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
+            ],
+            tileSize: 256,
+            attribution: '© OpenStreetMap contributors © CARTO'
         }
     },
-    glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
     layers: [
-        // Background
         {
-            id: 'background',
-            type: 'background',
+            id: 'basemap',
+            type: 'raster',
+            source: 'basemap',
             paint: {
-                'background-color': isDark ? '#1a1a2e' : '#f8f4f0'
+                'raster-opacity': 1,
+                'raster-fade-duration': 0
             }
-        },
-        // Water
-        {
-            id: 'water',
-            type: 'fill',
-            source: 'openmaptiles',
-            'source-layer': 'water',
-            paint: {
-                'fill-color': isDark ? '#1e3a5f' : '#a0c8f0'
-            }
-        },
-        // Landcover
-        {
-            id: 'landcover',
-            type: 'fill',
-            source: 'openmaptiles',
-            'source-layer': 'landcover',
-            paint: {
-                'fill-color': isDark ? '#2d4a3e' : '#d8e8c8',
-                'fill-opacity': 0.4
-            }
-        },
-        // Parks
-        {
-            id: 'park',
-            type: 'fill',
-            source: 'openmaptiles',
-            'source-layer': 'park',
-            paint: {
-                'fill-color': isDark ? '#2d4a3e' : '#c8e6c8',
-                'fill-opacity': 0.5
-            }
-        },
-        // Buildings
-        {
-            id: 'building',
-            type: 'fill',
-            source: 'openmaptiles',
-            'source-layer': 'building',
-            paint: {
-                'fill-color': isDark ? '#2a2a3e' : '#ddd',
-                'fill-opacity': 0.7
-            },
-            minzoom: 13
-        },
-        // Roads - minor
-        {
-            id: 'road-minor',
-            type: 'line',
-            source: 'openmaptiles',
-            'source-layer': 'transportation',
-            filter: ['in', 'class', 'minor', 'service', 'path'],
-            paint: {
-                'line-color': isDark ? '#3a3a4e' : '#fff',
-                'line-width': 1
-            },
-            minzoom: 12
-        },
-        // Roads - secondary
-        {
-            id: 'road-secondary',
-            type: 'line',
-            source: 'openmaptiles',
-            'source-layer': 'transportation',
-            filter: ['in', 'class', 'secondary', 'tertiary'],
-            paint: {
-                'line-color': isDark ? '#4a4a5e' : '#fefeb3',
-                'line-width': 2
-            },
-            minzoom: 8
-        },
-        // Roads - primary
-        {
-            id: 'road-primary',
-            type: 'line',
-            source: 'openmaptiles',
-            'source-layer': 'transportation',
-            filter: ['==', 'class', 'primary'],
-            paint: {
-                'line-color': isDark ? '#5a5a6e' : '#fcd6a4',
-                'line-width': 3
-            },
-            minzoom: 6
-        },
-        // Roads - highway
-        {
-            id: 'road-motorway',
-            type: 'line',
-            source: 'openmaptiles',
-            'source-layer': 'transportation',
-            filter: ['==', 'class', 'motorway'],
-            paint: {
-                'line-color': isDark ? '#e9ac77' : '#e9ac77',
-                'line-width': 4
-            },
-            minzoom: 4
-        },
-        // Admin boundaries
-        {
-            id: 'admin-boundary',
-            type: 'line',
-            source: 'openmaptiles',
-            'source-layer': 'boundary',
-            filter: ['all',
-                ['==', 'admin_level', 2],
-                ['!=', 'disputed', 1],
-                ['!=', 'maritime', 1]
-            ],
-            paint: {
-                'line-color': isDark ? '#6a6a7e' : '#9e9cab',
-                'line-width': 1,
-                'line-dasharray': [3, 2]
-            }
-        },
-
-        // Place labels - cities
-        {
-            id: 'place-city',
-            type: 'symbol',
-            source: 'openmaptiles',
-            'source-layer': 'place',
-            filter: ['==', 'class', 'city'],
-            layout: {
-                'text-field': ['get', 'name'],
-                'text-font': ['Noto Sans Regular'],
-                'text-size': 14
-            },
-            paint: {
-                'text-color': isDark ? '#e0e0e0' : '#333',
-                'text-halo-color': isDark ? '#1a1a2e' : '#fff',
-                'text-halo-width': 1.5
-            },
-            minzoom: 5
-        },
-        // Place labels - countries
-        {
-            id: 'place-country',
-            type: 'symbol',
-            source: 'openmaptiles',
-            'source-layer': 'place',
-            filter: ['==', 'class', 'country'],
-            layout: {
-                'text-field': ['get', 'name'],
-                'text-font': ['Noto Sans Bold'],
-                'text-size': 14,
-                'text-transform': 'uppercase',
-                'text-letter-spacing': 0.1
-            },
-            paint: {
-                'text-color': isDark ? '#b0b0b0' : '#555',
-                'text-halo-color': isDark ? '#1a1a2e' : '#fff',
-                'text-halo-width': 2
-            },
-            minzoom: 2,
-            maxzoom: 6
         }
     ]
 });
