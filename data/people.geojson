@@ -766,21 +766,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "000-matthias-weidemüller",
-        "name": "Matthias Weidemüller",
-        "current_position": {},
-        "platforms": [],
-        "affiliations": [],
-        "city": "Unknown",
-        "country": "Unknown",
-        "short_bio": "",
-        "md_filename": "000-matthias-weidemüller.md"
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "000-juan-pablo-paz",
         "name": "Juan Pablo Paz",
         "current_position": {},
@@ -1685,6 +1670,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-halina-rubinsztein-dunlop-norman-heckenberg-gerard-milburn",
+        "name": "Halina Rubinsztein-Dunlop; Norman Heckenberg; Gerard Milburn",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-halina-rubinsztein-dunlop-norman-heckenberg-gerard-milburn.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-alex-kuzmich",
         "name": "Alex Kuzmich",
         "current_position": {},
@@ -1826,6 +1826,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-jungsang-kim-kenneth-r-brown",
+        "name": "Jungsang Kim; Kenneth R. Brown",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-jungsang-kim-kenneth-r-brown.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-guo-guangcan",
         "name": "Guo Guangcan",
         "current_position": {},
@@ -1879,21 +1894,6 @@
           12.9716
         ]
       }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "000-jungsang-kim;-kenneth-r-brown",
-        "name": "Jungsang Kim; Kenneth R. Brown",
-        "current_position": {},
-        "platforms": [],
-        "affiliations": [],
-        "city": "Unknown",
-        "country": "Unknown",
-        "short_bio": "",
-        "md_filename": "000-jungsang-kim;-kenneth-r-brown.md"
-      },
-      "geometry": null
     },
     {
       "type": "Feature",
@@ -2201,21 +2201,6 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-norman-f-ramsey.md"
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "000-halina-rubinsztein-dunlop;-norman-heckenberg;-gerard-milburn",
-        "name": "Halina Rubinsztein-Dunlop; Norman Heckenberg; Gerard Milburn",
-        "current_position": {},
-        "platforms": [],
-        "affiliations": [],
-        "city": "Unknown",
-        "country": "Unknown",
-        "short_bio": "",
-        "md_filename": "000-halina-rubinsztein-dunlop;-norman-heckenberg;-gerard-milburn.md"
       },
       "geometry": null
     },
@@ -3348,6 +3333,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-matthias-weidemuller",
+        "name": "Matthias Weidemüller",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-matthias-weidemuller.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "055-takashi-mukaiyama",
         "name": "Takashi Mukaiyama",
         "current_position": {
@@ -3375,21 +3375,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "000-anton-zeilinger;-jörg-schmiedmayer",
-        "name": "Anton Zeilinger; Jörg Schmiedmayer",
-        "current_position": {},
-        "platforms": [],
-        "affiliations": [],
-        "city": "Unknown",
-        "country": "Unknown",
-        "short_bio": "",
-        "md_filename": "000-anton-zeilinger;-jörg-schmiedmayer.md"
-      },
-      "geometry": null
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "067-mirko-lobino",
         "name": "Mirko Lobino",
         "current_position": {
@@ -3413,6 +3398,21 @@
           -27.4698
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-anton-zeilinger-jorg-schmiedmayer",
+        "name": "Anton Zeilinger; Jörg Schmiedmayer",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-anton-zeilinger-jorg-schmiedmayer.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
