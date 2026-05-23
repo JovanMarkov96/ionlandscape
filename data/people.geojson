@@ -4,12 +4,27 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-serge-rosenblum",
+        "name": "Serge Rosenblum",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-serge-rosenblum.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "020-luming-duan",
         "name": "Luming Duan",
         "current_position": {
           "institution": "Tsinghua University (IIIS)",
-          "title": "Yao Qizhi Chair Professor / Chair Professor of Basic Sciences",
-          "since_year": 2018
+          "since_year": 2018,
+          "title": "Yao Qizhi Chair Professor / Chair Professor of Basic Sciences"
         },
         "platforms": [
           "trapped_ion"
@@ -29,6 +44,21 @@
           39.9042
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-andy-ory",
+        "name": "Andy Ory",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-andy-ory.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -60,6 +90,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-keith-burnett",
+        "name": "Keith Burnett",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-keith-burnett.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "065-luyan-sun",
         "name": "Luyan Sun",
         "current_position": {
@@ -83,6 +128,21 @@
           39.9042
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-jos-ignacio-latorre",
+        "name": "Jos? Ignacio Latorre",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-jos-ignacio-latorre.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -223,6 +283,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-alexander-pines",
+        "name": "Alexander Pines",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-alexander-pines.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "037-david-lucas",
         "name": "David M. Lucas",
         "current_position": {
@@ -246,6 +321,36 @@
           51.752
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-frederic-merkt",
+        "name": "Frédéric Merkt",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-frederic-merkt.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dirk-englund",
+        "name": "Dirk Englund",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dirk-englund.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -281,8 +386,8 @@
         "name": "Dietrich Leibfried",
         "current_position": {
           "institution": "National Institute of Standards and Technology (NIST), Boulder",
-          "title": "Staff Physicist / Co-Leader, Ion Storage Group (Quantum Information)",
-          "since_year": 2001
+          "since_year": 2001,
+          "title": "Staff Physicist / Co-Leader, Ion Storage Group (Quantum Information)"
         },
         "platforms": [
           "trapped_ion",
@@ -305,12 +410,27 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-gerhard-rempe",
+        "name": "Gerhard Rempe",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-gerhard-rempe.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "022-rajibul-islam",
         "name": "K. Rajibul Islam",
         "current_position": {
           "institution": "Institute for Quantum Computing, University of Waterloo",
-          "title": "Associate Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Associate Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -444,6 +564,96 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-timothy-p-softley",
+        "name": "Timothy P. Softley",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-timothy-p-softley.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-eric-a-cornell",
+        "name": "Eric A. Cornell",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-eric-a-cornell.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-wonho-jhe",
+        "name": "Wonho Jhe",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-wonho-jhe.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-prof-barak-dayan",
+        "name": "Prof. Barak Dayan",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-prof-barak-dayan.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-edvardas-narevicius",
+        "name": "Edvardas Narevicius",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-edvardas-narevicius.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-netanel-lindner",
+        "name": "Netanel Lindner",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-netanel-lindner.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "002-ziv-meir",
         "name": "Ziv Meir",
         "current_position": {
@@ -526,6 +736,111 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-david-kielpinski",
+        "name": "David Kielpinski",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-david-kielpinski.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-amir-naveh",
+        "name": "Amir Naveh",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-amir-naveh.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-matthias-weidemüller",
+        "name": "Matthias Weidemüller",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-matthias-weidemüller.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-juan-pablo-paz",
+        "name": "Juan Pablo Paz",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-juan-pablo-paz.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-nir-minerbi",
+        "name": "Nir Minerbi",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-nir-minerbi.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-uri-almedon",
+        "name": "Uri Almedon",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-uri-almedon.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-asif-sinay",
+        "name": "Asif Sinay",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-asif-sinay.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "042-kenneth-brown",
         "name": "Kenneth R. Brown",
         "current_position": {
@@ -559,8 +874,8 @@
         "name": "Winfried K. Hensinger",
         "current_position": {
           "institution": "University of Sussex",
-          "title": "Professor of Quantum Technologies; Director, Sussex Centre for Quantum Technologies",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor of Quantum Technologies; Director, Sussex Centre for Quantum Technologies"
         },
         "platforms": [
           "trapped_ion"
@@ -580,6 +895,21 @@
           50.8674
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-shinji-urabe",
+        "name": "Shinji Urabe",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-shinji-urabe.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -638,6 +968,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-alon-cohen",
+        "name": "Alon Cohen",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-alon-cohen.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "040-vladan-vuletic",
         "name": "Vladan Vuletić",
         "current_position": {
@@ -671,8 +1016,8 @@
         "name": "Roee Ozeri",
         "current_position": {
           "institution": "Weizmann Institute of Science",
-          "title": "Professor of Physics",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor of Physics"
         },
         "platforms": [
           "trapped_ion",
@@ -724,6 +1069,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-hans-dehmelt",
+        "name": "Hans Dehmelt",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-hans-dehmelt.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "059-shuichi-hasegawa",
         "name": "Shuichi Hasegawa",
         "current_position": {
@@ -747,6 +1107,21 @@
           35.6762
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-david-demille",
+        "name": "David DeMille",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-david-demille.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -861,12 +1236,87 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-peter-zoller",
+        "name": "Peter Zoller",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-peter-zoller.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-andrew-white",
+        "name": "Andrew White",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-andrew-white.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-christopher-monroe",
+        "name": "Christopher Monroe",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-christopher-monroe.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dr-yonatan-cohen",
+        "name": "Dr. Yonatan Cohen",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dr-yonatan-cohen.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-arthur-pipkin",
+        "name": "Arthur Pipkin",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-arthur-pipkin.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "017-rainer-blatt",
         "name": "Rainer Blatt",
         "current_position": {
           "institution": "Institute for Quantum Optics and Quantum Information (IQOQI) Innsbruck",
-          "title": "Emeritus Research Director",
-          "since_year": null
+          "since_year": null,
+          "title": "Emeritus Research Director"
         },
         "platforms": [
           "trapped_ion"
@@ -886,6 +1336,21 @@
           47.2578333
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-mikhail-lukin",
+        "name": "Mikhail Lukin",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-mikhail-lukin.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -946,6 +1411,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-dr-itamar-sivan",
+        "name": "Dr. Itamar Sivan",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dr-itamar-sivan.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-gil-semo",
+        "name": "Gil Semo",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-gil-semo.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "078-yuval-shagam",
         "name": "Yuval Shagam",
         "current_position": {
@@ -973,6 +1468,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-wolfgang-ketterle",
+        "name": "Wolfgang Ketterle",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-wolfgang-ketterle.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-ofer-firstenberg",
+        "name": "Ofer Firstenberg",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-ofer-firstenberg.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "066-wenhui-li",
         "name": "Wenhui Li",
         "current_position": {
@@ -996,6 +1521,21 @@
           39.9042
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-robert-schoelkopf-michel-devoret",
+        "name": "Robert Schoelkopf; Michel Devoret",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-robert-schoelkopf-michel-devoret.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -1028,6 +1568,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-herbert-walther",
+        "name": "Herbert Walther",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-herbert-walther.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "062-dan-cho",
         "name": "Dan Cho",
         "current_position": {
@@ -1051,6 +1606,96 @@
           37.5665
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-roman-vercetti",
+        "name": "Roman Vercetti",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-roman-vercetti.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-aharon-kapitulnik",
+        "name": "Aharon Kapitulnik",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-aharon-kapitulnik.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-k-birgitta-whaley",
+        "name": "K. Birgitta Whaley",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-k-birgitta-whaley.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-oskar-painter",
+        "name": "Oskar Painter",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-oskar-painter.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-colin-webb",
+        "name": "Colin Webb",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-colin-webb.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-alex-kuzmich",
+        "name": "Alex Kuzmich",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-alex-kuzmich.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -1110,12 +1755,27 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-h-jeff-kimble",
+        "name": "H. Jeff Kimble",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-h-jeff-kimble.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "004-christopher-monroe",
         "name": "Christopher R. Monroe",
         "current_position": {
           "institution": "Duke University",
-          "title": "Gilhuly Family Presidential Distinguished Professor; Professor of Electrical and Computer Engineering and Physics",
-          "since_year": null
+          "since_year": null,
+          "title": "Gilhuly Family Presidential Distinguished Professor; Professor of Electrical and Computer Engineering and Physics"
         },
         "platforms": [
           "trapped_ion"
@@ -1166,6 +1826,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-guo-guangcan",
+        "name": "Guo Guangcan",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-guo-guangcan.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-jun-ye",
+        "name": "Jun Ye",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-jun-ye.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "069-sadiq-rangwala",
         "name": "S. A. Rangwala",
         "current_position": {
@@ -1193,6 +1883,51 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-jungsang-kim;-kenneth-r-brown",
+        "name": "Jungsang Kim; Kenneth R. Brown",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-jungsang-kim;-kenneth-r-brown.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-shinji-urabe-kenji-toyoda",
+        "name": "Shinji Urabe; Kenji Toyoda",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-shinji-urabe-kenji-toyoda.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-markus-greiner",
+        "name": "Markus Greiner",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-markus-greiner.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "043-kilian-singer",
         "name": "Kilian Singer",
         "current_position": {
@@ -1216,6 +1951,36 @@
           51.3127
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-david-wineland",
+        "name": "David Wineland",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-david-wineland.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-nathan-gemelke",
+        "name": "Nathan Gemelke",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-nathan-gemelke.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -1382,6 +2147,96 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-shay-hacohen-gourgy",
+        "name": "Shay Hacohen-Gourgy",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-shay-hacohen-gourgy.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dorit-aharonov",
+        "name": "Dorit Aharonov",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dorit-aharonov.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-amit-ben-kish",
+        "name": "Amit Ben Kish",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-amit-ben-kish.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-norman-f-ramsey",
+        "name": "Norman F. Ramsey",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-norman-f-ramsey.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-halina-rubinsztein-dunlop;-norman-heckenberg;-gerard-milburn",
+        "name": "Halina Rubinsztein-Dunlop; Norman Heckenberg; Gerard Milburn",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-halina-rubinsztein-dunlop;-norman-heckenberg;-gerard-milburn.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-serge-haroche",
+        "name": "Serge Haroche",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-serge-haroche.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "068-paul-barclay",
         "name": "Paul Barclay",
         "current_position": {
@@ -1436,6 +2291,21 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-michael-s-chapman",
+        "name": "Michael S. Chapman",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-michael-s-chapman.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "003-chris-ballance",
         "name": "Chris Ballance",
         "current_position": {
@@ -1461,6 +2331,21 @@
           51.7594
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-tal-david",
+        "name": "Tal David",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-tal-david.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -1492,12 +2377,57 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-kyungwon-an",
+        "name": "Kyungwon An",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-kyungwon-an.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dr-nir-bar-gill",
+        "name": "Dr. Nir Bar-Gill",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dr-nir-bar-gill.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-rainer-blatt-christian-f-roos",
+        "name": "Rainer Blatt; Christian F. Roos",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-rainer-blatt-christian-f-roos.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "014-thomas-monz",
         "name": "Thomas Monz",
         "current_position": {
           "institution": "University of Innsbruck",
-          "title": "Senior Scientist",
-          "since_year": 2011
+          "since_year": 2011,
+          "title": "Senior Scientist"
         },
         "platforms": [
           "trapped_ion"
@@ -1575,6 +2505,51 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-randy-hulet",
+        "name": "Randy Hulet",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-randy-hulet.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-yoshihisa-yamamoto",
+        "name": "Yoshihisa Yamamoto",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-yoshihisa-yamamoto.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-john-l-hall",
+        "name": "John L. Hall",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-john-l-hall.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "046-kjeld-eikema",
         "name": "Kjeld S. E. Eikema",
         "current_position": {
@@ -1602,6 +2577,51 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-oded-melamed",
+        "name": "Oded Melamed",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-oded-melamed.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-moshe-tordjman",
+        "name": "Moshe Tordjman",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-moshe-tordjman.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-wim-hogervorst",
+        "name": "Wim Hogervorst",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-wim-hogervorst.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "061-taeyoung-choi",
         "name": "Taeyoung Choi",
         "current_position": {
@@ -1625,6 +2645,21 @@
           37.5665
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-john-m-doyle",
+        "name": "John M. Doyle",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-john-m-doyle.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -1683,6 +2718,126 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-william-d-phillips",
+        "name": "William D. Phillips",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-william-d-phillips.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-roberta-ramponi",
+        "name": "Roberta Ramponi",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-roberta-ramponi.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-shmuel-bachinsky",
+        "name": "Shmuel Bachinsky",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-shmuel-bachinsky.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-tilman-pfau",
+        "name": "Tilman Pfau",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-tilman-pfau.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-gunter-werth",
+        "name": "Günter Werth",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-gunter-werth.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-andrew-steane",
+        "name": "Andrew Steane",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-andrew-steane.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-eric-a-cornell-jun-ye",
+        "name": "Eric A. Cornell; Jun Ye",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-eric-a-cornell-jun-ye.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-nir-davidson",
+        "name": "Nir Davidson",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-nir-davidson.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "047-klaus-jungmann",
         "name": "Klaus Jungmann",
         "current_position": {
@@ -1714,8 +2869,8 @@
         "name": "Jonathan P. Home",
         "current_position": {
           "institution": "ETH Zurich",
-          "title": "Full Professor of Physics",
-          "since_year": 2012
+          "since_year": 2012,
+          "title": "Full Professor of Physics"
         },
         "platforms": [
           "trapped_ion"
@@ -1741,8 +2896,8 @@
         "name": "Tracy E. Northup",
         "current_position": {
           "institution": "University of Innsbruck",
-          "title": "Full Professor of Experimental Physics",
-          "since_year": 2015
+          "since_year": 2015,
+          "title": "Full Professor of Experimental Physics"
         },
         "platforms": [
           "trapped_ion",
@@ -1793,12 +2948,27 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-dr-nissim-ofek",
+        "name": "Dr. Nissim Ofek",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dr-nissim-ofek.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "011-kihwan-kim",
         "name": "Kihwan Kim",
         "current_position": {
           "institution": "Institute for Basic Science (IBS), South Korea",
-          "title": "Director, Center for Trapped Ion Quantum Science",
-          "since_year": 2025
+          "since_year": 2025,
+          "title": "Director, Center for Trapped Ion Quantum Science"
         },
         "platforms": [
           "trapped_ion"
@@ -1826,8 +2996,8 @@
         "name": "John J. Bollinger",
         "current_position": {
           "institution": "National Institute of Standards and Technology (NIST), Boulder",
-          "title": "Staff Scientist / Group Leader, Ion Storage Group",
-          "since_year": null
+          "since_year": null,
+          "title": "Staff Scientist / Group Leader, Ion Storage Group"
         },
         "platforms": [
           "trapped_ion"
@@ -1845,6 +3015,21 @@
           40.0094
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-saar-barak",
+        "name": "Saar Barak",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-saar-barak.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -1876,6 +3061,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-charles-m-marcus",
+        "name": "Charles M. Marcus",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-charles-m-marcus.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-carl-wieman",
+        "name": "Carl Wieman",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-carl-wieman.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "056-kenji-toyoda",
         "name": "Kenji Toyoda",
         "current_position": {
@@ -1903,12 +3118,27 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-dr-shai-machnes",
+        "name": "Dr. Shai Machnes",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dr-shai-machnes.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "006-david-wineland",
         "name": "David J. Wineland",
         "current_position": {
           "institution": "University of Oregon",
-          "title": "Philip H. Knight Distinguished Research Chair; Research Professor (Physics)",
-          "since_year": 2018
+          "since_year": 2018,
+          "title": "Philip H. Knight Distinguished Research Chair; Research Professor (Physics)"
         },
         "platforms": [
           "trapped_ion"
@@ -1984,12 +3214,72 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-jay-gupta",
+        "name": "Jay Gupta",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-jay-gupta.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-steven-chu",
+        "name": "Steven Chu",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-steven-chu.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-franco-n-c-wong",
+        "name": "Franco N. C. Wong",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-franco-n-c-wong.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dan-charash",
+        "name": "Dan Charash",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dan-charash.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "010-jungsang-kim",
         "name": "Jungsang Kim",
         "current_position": {
           "institution": "Duke University",
-          "title": "Schiciano Family Distinguished Professor of Electrical and Computer Engineering; Professor of Physics",
-          "since_year": null
+          "since_year": null,
+          "title": "Schiciano Family Distinguished Professor of Electrical and Computer Engineering; Professor of Physics"
         },
         "platforms": [
           "trapped_ion"
@@ -2009,6 +3299,51 @@
           36.0014
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-theodor-w-hansch",
+        "name": "Theodor W. Hänsch",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-theodor-w-hansch.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-j-karl-hedrick",
+        "name": "J. Karl Hedrick",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-j-karl-hedrick.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dr-yehuda-naveh",
+        "name": "Dr. Yehuda Naveh",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dr-yehuda-naveh.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -2036,6 +3371,21 @@
           34.6937
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-anton-zeilinger;-jörg-schmiedmayer",
+        "name": "Anton Zeilinger; Jörg Schmiedmayer",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-anton-zeilinger;-jörg-schmiedmayer.md"
+      },
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -2121,12 +3471,27 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-thomas-f-gallagher",
+        "name": "Thomas F. Gallagher",
+        "current_position": {},
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-thomas-f-gallagher.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "021-mike-biercuk",
         "name": "Michael J. Biercuk",
         "current_position": {
           "institution": "University of Sydney",
-          "title": "Professor of Quantum Physics; Director, Quantum Control Laboratory",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor of Quantum Physics; Director, Quantum Control Laboratory"
         },
         "platforms": [
           "trapped_ion"
