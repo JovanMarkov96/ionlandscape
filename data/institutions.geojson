@@ -770,7 +770,7 @@
         "city": "Rehovot",
         "country": "Israel",
         "short_description": "The Weizmann Institute of Science is a leading multidisciplinary basic research institution located in Rehovot, Israel.",
-        "logo_path": "/img/institutions/weizmann_logo.png",
+        "logo_path": "/img/institutions/weizmann_logo_mark.png",
         "md_filename": "i001-weizmann-institute-of-science.md"
       },
       "geometry": {
