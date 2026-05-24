@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'optical_clocks']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i049-university-of-oxford.png
+- Cropped square mark created: i049-university-of-oxford_mark.png

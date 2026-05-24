@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'optical_clocks', 'sensing_metrology', 'simulation']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i043-university-of-california-los-angeles.svg

@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['cavity_qed_hybrid', 'trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'fundamental_physics', 'networking', 'sensing_metrology', 'simulation', 'software_control']`
   - **Field:** `group_count: 5`
+
+## Sources
+- Logo populated from assets: i046-university-of-innsbruck.svg

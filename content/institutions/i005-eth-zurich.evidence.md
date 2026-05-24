@@ -18,3 +18,7 @@ verification_source_count: 2
   - **Field:** `platforms_represented: ["trapped_ion", "neutral_atom"]`
   - **Field:** `applications_represented: ["computing", "simulation"]`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i005-eth-zurich.jpg
+- Cropped square mark created: i005-eth-zurich_mark.png

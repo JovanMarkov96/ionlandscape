@@ -21,3 +21,7 @@ verification_source_count: 2
   - **Field:** `platforms_represented: ["trapped_ion"]`
   - **Field:** `applications_represented: ["computing", "simulation", "networking", "software_control"]`
   - **Field:** `group_count: 3`
+
+## Sources
+- Logo populated from assets: i004-duke-university.png
+- Cropped square mark created: i004-duke-university_mark.png

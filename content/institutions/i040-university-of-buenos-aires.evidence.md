@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i040-university-of-buenos-aires.png
+- Cropped square mark created: i040-university-of-buenos-aires_mark.png

@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['neutral_atom', 'trapped_ion']`
   - **Field:** `applications_represented: ['fundamental_physics', 'simulation']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i036-ulm-university.svg

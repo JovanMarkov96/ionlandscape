@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'networking']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i051-university-of-sussex.svg

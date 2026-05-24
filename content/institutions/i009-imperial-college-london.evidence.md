@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i009-imperial-college-london.png
+- Cropped square mark created: i009-imperial-college-london_mark.png

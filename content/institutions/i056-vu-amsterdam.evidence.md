@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'fundamental_physics', 'optical_clocks', 'sensing_metrology']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i056-vu-amsterdam.jpg
+- Cropped square mark created: i056-vu-amsterdam_mark.png

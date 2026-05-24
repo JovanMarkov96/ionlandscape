@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'simulation']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i033-sungkyunkwan-university-skku.png
+- Cropped square mark created: i033-sungkyunkwan-university-skku_mark.png

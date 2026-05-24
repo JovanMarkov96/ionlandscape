@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['neutral_atom', 'trapped_ion']`
   - **Field:** `applications_represented: ['networking']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i027-saarland-university.svg

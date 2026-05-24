@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'fundamental_physics', 'simulation']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i011-institute-for-basic-science-ibs-south-korea.png
+- Cropped square mark created: i011-institute-for-basic-science-ibs-south-korea_mark.png

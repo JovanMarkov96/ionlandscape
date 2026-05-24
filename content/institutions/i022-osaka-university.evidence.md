@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'optical_clocks', 'sensing_metrology', 'simulation']`
   - **Field:** `group_count: 3`
+
+## Sources
+- Logo populated from assets: i022-osaka-university.svg

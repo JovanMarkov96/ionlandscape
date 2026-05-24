@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i050-university-of-siegen.jpg
+- Cropped square mark created: i050-university-of-siegen_mark.png

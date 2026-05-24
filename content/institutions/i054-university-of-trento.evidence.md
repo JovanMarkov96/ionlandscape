@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i054-university-of-trento.png
+- Cropped square mark created: i054-university-of-trento_mark.png

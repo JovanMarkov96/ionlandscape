@@ -7,3 +7,7 @@
 ## Quantum Profile
 - **Source:** Pending detailed external enrichment.
   - **Field:** General quantum program presence inferred.
+
+## Sources
+- Logo populated from assets: i059-cqiqc.png
+- Cropped square mark created: i059-cqiqc_mark.png

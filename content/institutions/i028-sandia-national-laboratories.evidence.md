@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i028-sandia-national-laboratories.png
+- Cropped square mark created: i028-sandia-national-laboratories_mark.png

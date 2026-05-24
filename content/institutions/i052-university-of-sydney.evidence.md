@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['sensing_metrology', 'software_control']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i052-university-of-sydney.svg

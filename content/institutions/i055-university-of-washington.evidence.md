@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'networking']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i055-university-of-washington.jpg
+- Cropped square mark created: i055-university-of-washington_mark.png

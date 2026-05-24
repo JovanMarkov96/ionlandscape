@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion', 'trapped_molecule']`
   - **Field:** `applications_represented: ['computing', 'fundamental_physics', 'networking', 'optical_clocks', 'sensing_metrology', 'simulation']`
   - **Field:** `group_count: 3`
+
+## Sources
+- Logo populated from assets: i019-national-institute-of-standards-and-technology-nist-boulder.png
+- Cropped square mark created: i019-national-institute-of-standards-and-technology-nist-boulder_mark.png

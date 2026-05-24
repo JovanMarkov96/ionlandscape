@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'networking', 'simulation']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i035-tsinghua-university.png
+- Cropped square mark created: i035-tsinghua-university_mark.png

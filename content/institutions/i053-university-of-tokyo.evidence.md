@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'fundamental_physics', 'software_control']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i053-university-of-tokyo.svg

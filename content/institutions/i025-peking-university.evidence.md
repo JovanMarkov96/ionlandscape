@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['simulation']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i025-peking-university.png
+- Cropped square mark created: i025-peking-university_mark.png

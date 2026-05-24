@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['networking', 'simulation']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i039-university-of-bonn.svg

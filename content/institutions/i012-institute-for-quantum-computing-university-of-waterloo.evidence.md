@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'simulation']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i012-institute-for-quantum-computing-university-of-waterloo.png
+- Cropped square mark created: i012-institute-for-quantum-computing-university-of-waterloo_mark.png

@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['optical_clocks', 'sensing_metrology']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i020-national-physical-laboratory-npl.png
+- Cropped square mark created: i020-national-physical-laboratory-npl_mark.png

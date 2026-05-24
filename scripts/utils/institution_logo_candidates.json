@@ -1,0 +1,594 @@
+{
+  "i001-weizmann-institute-of-science": {
+    "name": "Weizmann Institute of Science",
+    "website": "https://www.weizmann.ac.il/",
+    "wiki_link": "https://en.wikipedia.org/wiki/Weizmann_Institute_of_Science",
+    "probe": {
+      "logo": "https://www.weizmann.ac.il/pages/sites/default/files/group_1262x_1.png",
+      "meta": "http://www.weizmann.ac.il/pages/sites/default/files/uploads/About/about_landing_general.jpg"
+    },
+    "wiki_search": "https://en.wikipedia.org/wiki/Weizmann_Institute_of_Science",
+    "wiki_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Weizmann_Institute_of_Science.svg/250px-Weizmann_Institute_of_Science.svg.png"
+  },
+  "i002-aarhus-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i003-centre-for-quantum-technologies-national-university-of-singapore": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i004-duke-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i005-eth-zurich": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i006-ewha-womans-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i007-georgia-institute-of-technology": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i008-griffith-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i009-imperial-college-london": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i010-indian-institute-of-science-education-and-research-iiser-pune": {
+    "name": "Indian Institute of Science Education and Research (IISER) Pune",
+    "website": "https://www.iiserpune.ac.in/",
+    "wiki_link": "https://en.wikipedia.org/wiki/Indian_Institute_of_Science_Education_and_Research,_Pune",
+    "probe": {
+      "logo": "https://www.iiserpune.ac.in/images/brand/iiser-pune-logo-color-en.svg?v=4",
+      "meta": "https://www.iiserpune.ac.in/favicon.png"
+    },
+    "wiki_search": "https://en.wikipedia.org/wiki/Indian_Institute_of_Science_Education_and_Research,_Pune",
+    "wiki_logo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/IISER%2C_PUNE_Logo.svg/250px-IISER%2C_PUNE_Logo.svg.png"
+  },
+  "i011-institute-for-basic-science-ibs-south-korea": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i012-institute-for-quantum-computing-university-of-waterloo": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i013-ionq-inc": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i014-johannes-gutenberg-university-mainz": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i015-kyoto-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i016-mit-lincoln-laboratory": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i017-massachusetts-institute-of-technology": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i018-national-institute-of-information-and-communications-technology-nict": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i019-national-institute-of-standards-and-technology-nist-boulder": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i020-national-physical-laboratory-npl": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i021-okinawa-institute-of-science-and-technology-oist": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i022-osaka-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i023-postech": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i024-palacky-university-olomouc": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i025-peking-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i026-physikalisch-technische-bundesanstalt-ptb": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i027-saarland-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i028-sandia-national-laboratories": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i029-seoul-national-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i030-simon-fraser-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i031-stellenbosch-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i032-stockholm-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i033-sungkyunkwan-university-skku": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i034-technion-israel-institute-of-technology": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i035-tsinghua-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i036-ulm-university": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i037-university-of-amsterdam": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i038-university-of-basel": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i039-university-of-bonn": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i040-university-of-buenos-aires": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i041-university-of-calgary": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i042-university-of-california-berkeley": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i043-university-of-california-los-angeles": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i044-university-of-granada": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i045-university-of-groningen": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i046-university-of-innsbruck": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i047-university-of-kassel": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i048-university-of-oregon": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i049-university-of-oxford": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i050-university-of-siegen": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i051-university-of-sussex": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i052-university-of-sydney": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i053-university-of-tokyo": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i054-university-of-trento": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i055-university-of-washington": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i056-vu-amsterdam": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i057-open-quantum-design": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  },
+  "i058-quantum-hub": {
+    "name": "Quantum Hub",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": "https://en.wikipedia.org/wiki/Amaravati_Quantum_Valley",
+    "wiki_logo": null
+  },
+  "i059-cqiqc": {
+    "name": "",
+    "website": "",
+    "wiki_link": "",
+    "probe": {
+      "error": "no_website"
+    },
+    "wiki_search": null,
+    "wiki_logo": null
+  }
+}

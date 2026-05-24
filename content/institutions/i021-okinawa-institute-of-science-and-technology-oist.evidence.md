@@ -10,3 +10,6 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'networking']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i021-okinawa-institute-of-science-and-technology-oist.svg

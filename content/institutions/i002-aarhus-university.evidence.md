@@ -18,3 +18,7 @@ verification_source_count: 2
   - **Field:** `platforms_represented: ["trapped_ion"]`
   - **Field:** `applications_represented: ["simulation"]`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i002-aarhus-university.png
+- Cropped square mark created: i002-aarhus-university_mark.png

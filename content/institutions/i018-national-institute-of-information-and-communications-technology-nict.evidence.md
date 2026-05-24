@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['optical_clocks', 'sensing_metrology']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i018-national-institute-of-information-and-communications-technology-nict.png
+- Cropped square mark created: i018-national-institute-of-information-and-communications-technology-nict_mark.png

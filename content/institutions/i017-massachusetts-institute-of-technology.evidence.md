@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['neutral_atom', 'trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'sensing_metrology']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i017-massachusetts-institute-of-technology.png
+- Cropped square mark created: i017-massachusetts-institute-of-technology_mark.png

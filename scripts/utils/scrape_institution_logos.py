@@ -65,6 +65,30 @@ def find_logo_url(html: str, base_url: str) -> str | None:
     return urljoin(base_url, best_src)
 
 
+def find_meta_or_icon(html: str, base_url: str) -> str | None:
+    soup = BeautifulSoup(html, 'html.parser')
+    # Common social image metadata
+    metas = [
+        ('property', 'og:logo'),
+        ('property', 'og:image'),
+        ('name', 'twitter:image'),
+        ('name', 'twitter:image:src'),
+        ('name', 'image')
+    ]
+    for attr, val in metas:
+        tag = soup.find('meta', attrs={attr: val})
+        if tag and tag.get('content'):
+            return urljoin(base_url, tag.get('content'))
+
+    # Check link rel icons
+    for rel in ('icon', 'shortcut icon', 'apple-touch-icon', 'apple-touch-icon-precomposed'):
+        tag = soup.find('link', rel=lambda r: r and rel in r)
+        if tag and tag.get('href'):
+            return urljoin(base_url, tag.get('href'))
+
+    return None
+
+
 def find_wikipedia_logo(wiki_url: str) -> str | None:
     try:
         resp = SESSION.get(wiki_url, timeout=15)
@@ -88,6 +112,46 @@ def find_wikipedia_logo(wiki_url: str) -> str | None:
     if src.startswith('//'):
         return f"https:{src}"
     return src
+
+
+def search_wikipedia_for_institution(name: str) -> str | None:
+    if not name:
+        return None
+    api = 'https://en.wikipedia.org/w/api.php'
+    params = {
+        'action': 'query',
+        'list': 'search',
+        'srsearch': name,
+        'format': 'json',
+        'srlimit': 3,
+    }
+    try:
+        resp = SESSION.get(api, params=params, timeout=15)
+    except requests.RequestException:
+        return None
+    if resp.status_code >= 400:
+        return None
+    data = resp.json()
+    results = data.get('query', {}).get('search', [])
+    if not results:
+        return None
+    title = results[0].get('title')
+    if not title:
+        return None
+    return f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}"
+
+
+def slug_to_name(slug: str) -> str:
+    # slug like 'i002-aarhus-university' -> 'Aarhus University'
+    parts = slug.split('-', 1)
+    if len(parts) == 2:
+        name_part = parts[1]
+    else:
+        name_part = slug
+    name = name_part.replace('-', ' ')
+    # simple title case, keep common uppercase tokens
+    name = ' '.join([w.upper() if w.isupper() else w.capitalize() for w in name.split()])
+    return name
 
 
 def find_inline_logo_svg(html: str) -> str | None:
@@ -154,25 +218,47 @@ def main() -> None:
         if not website.startswith('http'):
             website = ''
 
+        print(f'Processing {inst_id} (file={md_path.name})')
         try:
             resp = None
             logo_url = None
             if website:
-                resp = SESSION.get(website, timeout=15)
-                if resp.status_code < 400:
-                    logo_url = find_logo_url(resp.text, website)
+                try:
+                    resp = SESSION.get(website, timeout=15)
+                    if resp.status_code < 400:
+                        logo_url = find_logo_url(resp.text, website)
+                        if not logo_url:
+                            # try meta tags and favicons as fallback
+                            logo_url = find_meta_or_icon(resp.text, website)
+                except Exception:
+                    # ignore website fetch errors (SSL, timeouts) and try fallbacks
+                    resp = None
             inline_svg = None
             if not logo_url and resp is not None:
                 inline_svg = find_inline_logo_svg(resp.text)
-
             if not logo_url and not inline_svg:
                 wiki_url = links.get('wikipedia') or ''
                 if wiki_url:
                     logo_url = find_wikipedia_logo(wiki_url)
+                else:
+                    # try searching Wikipedia by name when no wiki link present
+                    name = post.get('name') or ''
+                    if not name:
+                        name = slug_to_name(inst_id)
+                    wiki_url = search_wikipedia_for_institution(name)
+                    if wiki_url:
+                        logo_url = find_wikipedia_logo(wiki_url)
+            if not logo_url and not inline_svg:
+                # final attempt: try meta/icon on an empty website by probing root
+                if website:
+                    meta_logo = find_meta_or_icon(resp.text if resp is not None else '', website)
+                    if meta_logo:
+                        logo_url = meta_logo
             if not logo_url and not inline_svg:
                 failed.append((inst_id, 'no_logo_found'))
                 continue
 
+            print(f'  found logo_url={logo_url} inline_svg={bool(inline_svg)}')
             if inline_svg:
                 if isinstance(inline_svg, bytes):
                     inline_svg = inline_svg.decode('utf-8', errors='ignore')
@@ -199,7 +285,9 @@ def main() -> None:
 
             media['logo_path'] = f"/img/institutions/{filename}"
             post['media'] = media
-            frontmatter.dump(post, md_path.open('w', encoding='utf-8'))
+            # Use dumps + write_text to avoid binary/text write issues
+            content = frontmatter.dumps(post)
+            md_path.write_text(content, encoding='utf-8')
 
             evidence_path = md_path.with_suffix('.evidence.md')
             if logo_url:
@@ -208,6 +296,10 @@ def main() -> None:
             success.append((inst_id, logo_url or 'inline_svg'))
             time.sleep(0.4)
         except Exception as exc:
+            import traceback
+            tb = traceback.format_exc()
+            print(f'EXCEPTION for {inst_id}:')
+            print(tb)
             failed.append((inst_id, f'error:{exc}'))
 
     print('success', len(success))

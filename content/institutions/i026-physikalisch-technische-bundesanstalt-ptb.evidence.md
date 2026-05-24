@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'optical_clocks', 'sensing_metrology']`
   - **Field:** `group_count: 1`
+
+## Sources
+- Logo populated from assets: i026-physikalisch-technische-bundesanstalt-ptb.png
+- Cropped square mark created: i026-physikalisch-technische-bundesanstalt-ptb_mark.png

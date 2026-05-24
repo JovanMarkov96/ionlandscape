@@ -10,3 +10,7 @@
   - **Field:** `platforms_represented: ['trapped_ion']`
   - **Field:** `applications_represented: ['computing', 'networking']`
   - **Field:** `group_count: 2`
+
+## Sources
+- Logo populated from assets: i029-seoul-national-university.png
+- Cropped square mark created: i029-seoul-national-university_mark.png
