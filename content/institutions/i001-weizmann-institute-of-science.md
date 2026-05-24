@@ -50,7 +50,7 @@ location:
   region: ''
 media:
   hero_image_path: ''
-  logo_path: /img/institutions/weizmann_logo.png
+  logo_path: /img/institutions/weizmann_logo_mark.png
 name: Weizmann Institute of Science
 schema_version: 1
 short_description: The Weizmann Institute of Science is a leading multidisciplinary
