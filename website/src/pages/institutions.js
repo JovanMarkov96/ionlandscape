@@ -397,39 +397,49 @@ function Institutions() {
 
                 {/* Results Grid */}
                 <div className="row">
-                    {filteredInstitutions.map(person => (
-                        <div key={person.id} className="col col--4 margin-bottom--lg">
+                    {filteredInstitutions.map(institution => (
+                        <div key={institution.id} className="col col--4 margin-bottom--lg">
                             <div className="card">
-                                <div className="card__header">
-                                    <h3>{person.name}</h3>
+                                <div className="card__header company-card-header">
+                                    {institution.media?.logo_path ? (
+                                        <div
+                                            className="company-card-logo ion-marker-logo"
+                                            role="img"
+                                            aria-label={`${institution.name} logo`}
+                                            style={{
+                                                backgroundImage: `url('${institution.media.logo_path.startsWith('http') ? institution.media.logo_path : `/ionlandscape${institution.media.logo_path}`}')`
+                                            }}
+                                        />
+                                    ) : (
+                                        <div className="company-card-logo ion-marker-placeholder" title="No logo available">
+                                            {(() => {
+                                                const nameParts = (institution.name || '').split(' ').filter(p => p.trim() !== '');
+                                                if (nameParts.length > 1) return (nameParts[0][0] + nameParts[1][0]).toUpperCase();
+                                                if (nameParts.length === 1) return nameParts[0].substring(0, 2).toUpperCase();
+                                                return 'IN';
+                                            })()}
+                                        </div>
+                                    )}
+                                    <div>
+                                        <h3>{institution.name}</h3>
+                                        <p className="company-card-location">{institution.location?.city}, {institution.location?.country}</p>
+                                    </div>
                                 </div>
                                 <div className="card__body">
-                                    <p>{person.current_position?.institution}</p>
+                                    <p>{institution.short_description}</p>
                                     <div className="card-badges-container">
-                                        {person.labels?.map(label => (
+                                        {institution.focus_areas?.map(area => (
                                             <span
-                                                key={label}
-                                                className="badge badge--primary margin-right--xs clickable-badge"
-                                                onClick={() => addFilter('label', label)}
+                                                key={area}
+                                                className="badge badge--primary margin-right--xs"
                                             >
-                                                {label}
-                                            </span>
-                                        ))}
-                                    </div>
-                                    <div>
-                                        {person.ion_species?.map(ion => (
-                                            <span
-                                                key={ion}
-                                                className="badge badge--secondary margin-right--xs clickable-badge"
-                                                onClick={() => addFilter('ion', ion)}
-                                            >
-                                                {ion}
+                                                {area}
                                             </span>
                                         ))}
                                     </div>
                                 </div>
                                 <div className="card__footer">
-                                    <Link to={`/?person=${person.id}`} className="button button--primary button--block">
+                                    <Link to={`/?institution=${institution.id}`} className="button button--primary button--block">
                                         View on Map
                                     </Link>
                                 </div>

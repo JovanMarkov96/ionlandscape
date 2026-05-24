@@ -402,19 +402,16 @@ function Companies() {
                             <div className="card">
                                 <div className="card__header company-card-header">
                                     {company.media?.logo_path ? (
-                                        <div className="panel-logo-container company-card-logo">
-                                            <img
-                                                src={company.media.logo_path.startsWith('http') ? company.media.logo_path : `/ionlandscape${company.media.logo_path}`}
-                                                alt={`${company.name} logo`}
-                                                onError={(e) => {
-                                                    if (e.target.src.includes('/ionlandscape')) {
-                                                        e.target.src = company.media.logo_path;
-                                                    }
-                                                }}
-                                            />
-                                        </div>
+                                        <div
+                                            className="company-card-logo ion-marker-logo"
+                                            role="img"
+                                            aria-label={`${company.name} logo`}
+                                            style={{
+                                                backgroundImage: `url('${company.media.logo_path.startsWith('http') ? company.media.logo_path : `/ionlandscape${company.media.logo_path}`}')`
+                                            }}
+                                        />
                                     ) : (
-                                        <div className="panel-logo-placeholder company-card-logo" title="No logo available">
+                                        <div className="company-card-logo ion-marker-placeholder" title="No logo available">
                                             {(() => {
                                                 const nameParts = (company.name || '').split(' ').filter(p => p.trim() !== '');
                                                 if (nameParts.length > 1) return (nameParts[0][0] + nameParts[1][0]).toUpperCase();
