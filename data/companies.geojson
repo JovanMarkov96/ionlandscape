@@ -189,7 +189,7 @@
         "city": "Herzliya",
         "country": "Israel",
         "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
-        "logo_path": "/logos/c015-quamcore.svg",
+        "logo_path": "/logos/c015-quamcore.webp",
         "md_filename": "c015-quamcore.md"
       },
       "geometry": {
