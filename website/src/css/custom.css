@@ -541,6 +541,28 @@ body,
   object-fit: cover;
 }
 
+/* Companies list card header */
+.company-card-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.company-card-header h3 {
+  margin: 0;
+}
+
+.company-card-location {
+  margin: 4px 0 0;
+  color: var(--ion-text-muted);
+  font-size: 0.9em;
+}
+
+.company-card-logo {
+  width: 48px;
+  height: 48px;
+}
+
 .panel-logo-placeholder {
   display: flex;
   align-items: center;

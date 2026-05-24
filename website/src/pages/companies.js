@@ -397,39 +397,52 @@ function Companies() {
 
                 {/* Results Grid */}
                 <div className="row">
-                    {filteredCompanies.map(person => (
-                        <div key={person.id} className="col col--4 margin-bottom--lg">
+                    {filteredCompanies.map(company => (
+                        <div key={company.id} className="col col--4 margin-bottom--lg">
                             <div className="card">
-                                <div className="card__header">
-                                    <h3>{person.name}</h3>
+                                <div className="card__header company-card-header">
+                                    {company.media?.logo_path ? (
+                                        <div className="panel-logo-container company-card-logo">
+                                            <img
+                                                src={company.media.logo_path.startsWith('http') ? company.media.logo_path : `/ionlandscape${company.media.logo_path}`}
+                                                alt={`${company.name} logo`}
+                                                onError={(e) => {
+                                                    if (e.target.src.includes('/ionlandscape')) {
+                                                        e.target.src = company.media.logo_path;
+                                                    }
+                                                }}
+                                            />
+                                        </div>
+                                    ) : (
+                                        <div className="panel-logo-placeholder company-card-logo" title="No logo available">
+                                            {(() => {
+                                                const nameParts = (company.name || '').split(' ').filter(p => p.trim() !== '');
+                                                if (nameParts.length > 1) return (nameParts[0][0] + nameParts[1][0]).toUpperCase();
+                                                if (nameParts.length === 1) return nameParts[0].substring(0, 2).toUpperCase();
+                                                return 'CO';
+                                            })()}
+                                        </div>
+                                    )}
+                                    <div>
+                                        <h3>{company.name}</h3>
+                                        <p className="company-card-location">{company.location?.city}, {company.location?.country}</p>
+                                    </div>
                                 </div>
                                 <div className="card__body">
-                                    <p>{person.current_position?.institution}</p>
+                                    <p>{company.short_summary}</p>
                                     <div className="card-badges-container">
-                                        {person.labels?.map(label => (
+                                        {company.platforms?.map(platform => (
                                             <span
-                                                key={label}
-                                                className="badge badge--primary margin-right--xs clickable-badge"
-                                                onClick={() => addFilter('label', label)}
+                                                key={platform}
+                                                className="badge badge--primary margin-right--xs"
                                             >
-                                                {label}
-                                            </span>
-                                        ))}
-                                    </div>
-                                    <div>
-                                        {person.ion_species?.map(ion => (
-                                            <span
-                                                key={ion}
-                                                className="badge badge--secondary margin-right--xs clickable-badge"
-                                                onClick={() => addFilter('ion', ion)}
-                                            >
-                                                {ion}
+                                                {platform}
                                             </span>
                                         ))}
                                     </div>
                                 </div>
                                 <div className="card__footer">
-                                    <Link to={`/?person=${person.id}`} className="button button--primary button--block">
+                                    <Link to={`/?company=${company.id}`} className="button button--primary button--block">
                                         View on Map
                                     </Link>
                                 </div>

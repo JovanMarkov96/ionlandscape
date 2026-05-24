@@ -25,15 +25,29 @@ function HomeContent() {
     const CompanyPanel = require('../components/CompanyPanel').default;
     const InstitutionPanel = require('../components/InstitutionPanel').default;
 
-    // Check for ?person=ID in URL
+    // Check for profile query params in URL
     useEffect(() => {
         const searchParams = new URLSearchParams(window.location.search);
         const personId = searchParams.get('person');
+        const companyId = searchParams.get('company');
+        const institutionId = searchParams.get('institution');
         if (personId) {
             setSelectedPersonId(personId);
             setIsPanelOpen(true);
 
             // Clean URL without reloading
+            const newUrl = window.location.pathname;
+            window.history.replaceState({}, '', newUrl);
+        } else if (companyId) {
+            setSelectedCompanyId(companyId);
+            setIsPanelOpen(true);
+
+            const newUrl = window.location.pathname;
+            window.history.replaceState({}, '', newUrl);
+        } else if (institutionId) {
+            setSelectedInstitutionId(institutionId);
+            setIsPanelOpen(true);
+
             const newUrl = window.location.pathname;
             window.history.replaceState({}, '', newUrl);
         } else {
