@@ -421,12 +421,12 @@ function Institutions() {
                                         </div>
                                     )}
                                     <div>
-                                        <h3>{institution.name}</h3>
-                                        <p className="company-card-location">{institution.location?.city}, {institution.location?.country}</p>
+                                        <h3>{institution.name || institution.sort_name || (institution.id || '').replace(/^(i\d+-)?/, '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}</h3>
+                                        <p className="company-card-location">{(institution.location?.city ? `${institution.location.city}, ` : '') + (institution.location?.country || '')}</p>
                                     </div>
                                 </div>
                                 <div className="card__body">
-                                    <p>{institution.short_description}</p>
+                                    <p>{institution.short_description || (institution.directory?.member_count ? `${institution.directory.member_count} associated people` : 'No description available')}</p>
                                     <div className="card-badges-container">
                                         {institution.focus_areas?.map(area => (
                                             <span
