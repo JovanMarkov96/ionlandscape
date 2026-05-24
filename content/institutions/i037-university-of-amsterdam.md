@@ -1,4 +1,4 @@
 ---
 media:
-  logo_path: /img/institutions/i037-university-of-amsterdam.svg
+  logo_path: /img/institutions/i037-university-of-amsterdam_mark.png
 ---

@@ -1,4 +1,4 @@
 ---
 media:
-  logo_path: /img/institutions/i015-kyoto-university.svg
+  logo_path: /img/institutions/i015-kyoto-university_mark.png
 ---
