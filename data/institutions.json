@@ -11,7 +11,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i002-aarhus-university_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -127,7 +129,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i029-seoul-national-university_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -243,7 +247,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i054-university-of-trento_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -359,7 +365,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i048-university-of-oregon.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -475,7 +483,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i049-university-of-oxford_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -591,7 +601,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i037-university-of-amsterdam.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -707,7 +719,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i045-university-of-groningen.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -823,7 +837,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i050-university-of-siegen_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -939,7 +955,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i009-imperial-college-london_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1055,7 +1073,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i011-institute-for-basic-science-ibs-south-korea_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1171,7 +1191,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i032-stockholm-university.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1287,7 +1309,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i023-postech_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1403,7 +1427,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i044-university-of-granada.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1519,7 +1545,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i051-university-of-sussex.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1635,7 +1663,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i040-university-of-buenos-aires_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1751,7 +1781,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i034-technion-israel-institute-of-technology_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1867,7 +1899,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i053-university-of-tokyo.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -1983,7 +2017,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i013-ionq-inc.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -2099,7 +2135,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i003-centre-for-quantum-technologies-national-university-of-singapore_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -2215,7 +2253,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i004-duke-university_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -2331,7 +2371,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i024-palacky-university-olomouc.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -2447,7 +2489,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i052-university-of-sydney.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -2563,7 +2607,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i056-vu-amsterdam_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -2679,7 +2725,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i020-national-physical-laboratory-npl_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -2795,7 +2843,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i057-open-quantum-design_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -2911,7 +2961,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i039-university-of-bonn.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -3027,7 +3079,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i026-physikalisch-technische-bundesanstalt-ptb_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -3143,7 +3197,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i035-tsinghua-university_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -3259,7 +3315,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i033-sungkyunkwan-university-skku_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -3423,7 +3481,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i007-georgia-institute-of-technology.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -3539,7 +3599,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i028-sandia-national-laboratories_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -3655,7 +3717,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i014-johannes-gutenberg-university-mainz_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -3771,7 +3835,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i018-national-institute-of-information-and-communications-technology-nict_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -3887,7 +3953,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i012-institute-for-quantum-computing-university-of-waterloo_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4003,7 +4071,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i043-university-of-california-los-angeles.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4119,7 +4189,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i038-university-of-basel.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4235,7 +4307,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i006-ewha-womans-university_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4413,7 +4487,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i015-kyoto-university.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4529,7 +4605,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i059-cqiqc_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4645,7 +4723,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i019-national-institute-of-standards-and-technology-nist-boulder_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4761,7 +4841,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i055-university-of-washington_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4877,7 +4959,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i031-stellenbosch-university.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -4982,52 +5066,120 @@
     "updated_at": ""
   },
   {
-    "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
-    "name": "Indian Institute of Science Education and Research (IISER) Pune",
-    "sort_name": "Indian Institute of Science Education and Research (IISER) Pune",
+    "id": "i010-indian-institute-of-science-education-and-research-iiser-punemd",
+    "name": "",
+    "sort_name": "",
     "entity_type": "institution",
-    "aliases": [
-      "IISER Pune"
-    ],
+    "aliases": [],
     "abbreviations": [],
-    "location": {
-      "city": "Pune",
-      "country": "India",
-      "lat": 18.5493,
-      "lon": 73.8029,
-      "region": "Maharashtra"
-    },
-    "institution_type": "research_centre",
-    "short_description": "IISER Pune is a premier Indian research and teaching institute with growing activities in cold and ultracold molecule-ion physics.",
-    "focus_areas": [
-      "AMO Physics",
-      "Cold Molecules",
-      "Ion-Neutral Chemistry"
-    ],
-    "links": {
-      "department": "",
-      "linkedin": "",
-      "quantum_center": "",
-      "website": "https://www.iiserpune.ac.in/",
-      "wikipedia": "https://en.wikipedia.org/wiki/Indian_Institute_of_Science_Education_and_Research,_Pune"
-    },
+    "location": {},
+    "institution_type": "unknown",
+    "short_description": "",
+    "focus_areas": [],
+    "links": {},
     "media": {
-      "hero_image_path": "",
-      "logo_path": ""
+      "logo_path": "/img/institutions/i010-indian-institute-of-science-education-and-research-iiser-pune_mark.png"
     },
     "directory": {
-      "current_members": [],
+      "current_members": [
+        "000-serge-rosenblum.md",
+        "000-andy-ory.md",
+        "000-keith-burnett.md",
+        "000-jos-ignacio-latorre.md",
+        "000-alexander-pines.md",
+        "000-frederic-merkt.md",
+        "000-dirk-englund.md",
+        "000-gerhard-rempe.md",
+        "000-timothy-p-softley.md",
+        "000-eric-a-cornell.md",
+        "000-wonho-jhe.md",
+        "000-prof-barak-dayan.md",
+        "000-edvardas-narevicius.md",
+        "000-netanel-lindner.md",
+        "000-david-kielpinski.md",
+        "000-amir-naveh.md",
+        "000-juan-pablo-paz.md",
+        "000-nir-minerbi.md",
+        "000-uri-almedon.md",
+        "000-asif-sinay.md",
+        "000-shinji-urabe.md",
+        "000-alon-cohen.md",
+        "000-hans-dehmelt.md",
+        "000-david-demille.md",
+        "000-peter-zoller.md",
+        "000-andrew-white.md",
+        "000-christopher-monroe.md",
+        "000-dr-yonatan-cohen.md",
+        "000-arthur-pipkin.md",
+        "000-mikhail-lukin.md",
+        "000-dr-itamar-sivan.md",
+        "000-gil-semo.md",
+        "000-wolfgang-ketterle.md",
+        "000-ofer-firstenberg.md",
+        "000-robert-schoelkopf-michel-devoret.md",
+        "000-herbert-walther.md",
+        "000-roman-vercetti.md",
+        "000-aharon-kapitulnik.md",
+        "000-k-birgitta-whaley.md",
+        "000-oskar-painter.md",
+        "000-colin-webb.md",
+        "000-halina-rubinsztein-dunlop-norman-heckenberg-gerard-milburn.md",
+        "000-alex-kuzmich.md",
+        "000-h-jeff-kimble.md",
+        "000-jungsang-kim-kenneth-r-brown.md",
+        "000-guo-guangcan.md",
+        "000-jun-ye.md",
+        "000-shinji-urabe-kenji-toyoda.md",
+        "000-markus-greiner.md",
+        "000-david-wineland.md",
+        "000-nathan-gemelke.md",
+        "000-shay-hacohen-gourgy.md",
+        "000-dorit-aharonov.md",
+        "000-amit-ben-kish.md",
+        "000-norman-f-ramsey.md",
+        "000-serge-haroche.md",
+        "000-michael-s-chapman.md",
+        "000-tal-david.md",
+        "000-kyungwon-an.md",
+        "000-dr-nir-bar-gill.md",
+        "000-rainer-blatt-christian-f-roos.md",
+        "000-randy-hulet.md",
+        "000-yoshihisa-yamamoto.md",
+        "000-john-l-hall.md",
+        "000-oded-melamed.md",
+        "000-moshe-tordjman.md",
+        "000-wim-hogervorst.md",
+        "000-john-m-doyle.md",
+        "000-william-d-phillips.md",
+        "000-roberta-ramponi.md",
+        "000-shmuel-bachinsky.md",
+        "000-tilman-pfau.md",
+        "000-gunter-werth.md",
+        "000-andrew-steane.md",
+        "000-eric-a-cornell-jun-ye.md",
+        "000-nir-davidson.md",
+        "000-dr-nissim-ofek.md",
+        "000-saar-barak.md",
+        "000-charles-m-marcus.md",
+        "000-carl-wieman.md",
+        "000-dr-shai-machnes.md",
+        "000-jay-gupta.md",
+        "000-steven-chu.md",
+        "000-franco-n-c-wong.md",
+        "000-dan-charash.md",
+        "000-theodor-w-hansch.md",
+        "000-j-karl-hedrick.md",
+        "000-dr-yehuda-naveh.md",
+        "000-matthias-weidemuller.md",
+        "000-anton-zeilinger-jorg-schmiedmayer.md",
+        "000-thomas-f-gallagher.md"
+      ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 0,
+      "member_count": 91,
       "alumni_count": 0
     },
-    "sources": [
-      {
-        "note": "Official website",
-        "url": "https://www.iiserpune.ac.in/"
-      }
-    ],
+    "sources": [],
     "md_filename": "i010-indian-institute-of-science-education-and-research-iiser-pune.md",
     "updated_at": ""
   },
@@ -5043,7 +5195,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i030-simon-fraser-university_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -5159,7 +5313,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i005-eth-zurich_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -5275,7 +5431,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i047-university-of-kassel.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -5391,7 +5549,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i017-massachusetts-institute-of-technology_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -5507,7 +5667,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i046-university-of-innsbruck.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -5623,7 +5785,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i021-okinawa-institute-of-science-and-technology-oist.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -5739,7 +5903,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i008-griffith-university_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -5855,7 +6021,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i025-peking-university_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -5971,7 +6139,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i022-osaka-university.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -6087,7 +6257,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i041-university-of-calgary_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -6203,7 +6375,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i036-ulm-university.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -6319,7 +6493,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i027-saarland-university.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -6435,7 +6611,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i042-university-of-california-berkeley.svg"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
@@ -6551,7 +6729,9 @@
     "short_description": "",
     "focus_areas": [],
     "links": {},
-    "media": {},
+    "media": {
+      "logo_path": "/img/institutions/i016-mit-lincoln-laboratory_mark.png"
+    },
     "directory": {
       "current_members": [
         "000-serge-rosenblum.md",
