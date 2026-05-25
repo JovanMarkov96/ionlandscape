@@ -5,10 +5,8 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
   institution: Kyoto University
   since_year: null
-  source: https://openalex.org/A5022735068
   title: Professor
 education:
 - advisor: null

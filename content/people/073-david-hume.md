@@ -7,10 +7,8 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: National Institute of Standards and Technology
+  institution: National Institute of Standards and Technology (NIST), Boulder
   since_year: null
-  source: https://openalex.org/A5069415035
   title: Physicist
 education:
 - advisor: David Wineland

@@ -7,10 +7,8 @@ applications:
 - sensing_metrology
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: Universität Innsbruck
+  institution: University of Innsbruck
   since_year: 2015
-  source: https://openalex.org/A5082160956
   title: Full Professor of Experimental Physics
 education:
 - advisor: H. Jeff Kimble

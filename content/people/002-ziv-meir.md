@@ -6,9 +6,7 @@ applications:
 - sensing_metrology
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: University Of Basel
-  source: https://openalex.org/A5014411256
+  institution: Weizmann Institute of Science
   title: Principal Investigator (Senior Scientist)
 education:
 - degree: BSc (dual), magna cum laude

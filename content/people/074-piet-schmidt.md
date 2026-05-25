@@ -7,10 +7,8 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Leibniz University Hannover
+  institution: Physikalisch-Technische Bundesanstalt (PTB) / Leibniz University Hannover
   since_year: null
-  source: https://openalex.org/A5060830868
   title: Professor / Group Leader
 education:
 - advisor: Tilman Pfau

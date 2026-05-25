@@ -6,10 +6,8 @@ applications:
 atomic_species: []
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
   institution: ETH Zurich
   since_year: 2012
-  source: https://openalex.org/A5035728336
   title: Full Professor of Physics
 education:
 - advisor: Andrew Steane

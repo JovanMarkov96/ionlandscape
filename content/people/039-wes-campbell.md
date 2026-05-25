@@ -7,10 +7,8 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: QB3
+  institution: University of California, Los Angeles
   since_year: null
-  source: https://openalex.org/A5014512253
   title: Professor
 education:
 - advisor: John M. Doyle

@@ -6,10 +6,8 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Agency for Science, Technology and Research
+  institution: Centre for Quantum Technologies, National University of Singapore
   since_year: null
-  source: https://openalex.org/A5084652325
   title: Principal Investigator
 education:
 - advisor: null

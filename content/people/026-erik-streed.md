@@ -6,10 +6,8 @@ applications:
 - sensing_metrology
 created_at: '2026-01-28'
 current_position:
-  confidence: openalex_inferred
   institution: Griffith University
   since_year: null
-  source: https://openalex.org/A5046341775
   title: Associate Professor; Director, Queensland Quantum and Advanced Technologies
     Research Institute
 education:

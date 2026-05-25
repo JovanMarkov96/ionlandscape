@@ -11,10 +11,8 @@ applications:
 - simulation
 created_at: '2026-01-28'
 current_position:
-  confidence: openalex_inferred
-  institution: Cornerstone University
+  institution: Tsinghua University (IIIS)
   since_year: 2018
-  source: https://openalex.org/A5034703407
   title: Yao Qizhi Chair Professor / Chair Professor of Basic Sciences
 education:
 - advisor: Guo Guangcan

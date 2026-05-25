@@ -9,10 +9,8 @@ applications:
 - simulation
 created_at: '2026-01-28'
 current_position:
-  confidence: openalex_inferred
-  institution: Universität Innsbruck
+  institution: Institute for Quantum Computing, University of Waterloo
   since_year: null
-  source: https://openalex.org/A5085789425
   title: Associate Professor / Canada Research Chair in Trapped Ion Quantum Computing
 education:
 - advisor: Christopher Monroe

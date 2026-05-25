@@ -11,10 +11,8 @@ applications:
 - simulation
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: Austrian Academy of Sciences
+  institution: Institute for Quantum Optics and Quantum Information (IQOQI) Innsbruck
   since_year: null
-  source: https://openalex.org/A5040977712
   title: Emeritus Research Director
 education:
 - advisor: Günter Werth

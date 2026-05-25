@@ -10,10 +10,8 @@ applications:
 - simulation
 created_at: '2026-01-28'
 current_position:
-  confidence: openalex_inferred
-  institution: University of Waterloo
+  institution: Institute for Quantum Computing, University of Waterloo
   since_year: null
-  source: https://openalex.org/A5053336892
   title: Associate Professor
 education:
 - advisor: Christopher Monroe

@@ -5,10 +5,8 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Quantum (Australia)
+  institution: Osaka University
   since_year: null
-  source: https://openalex.org/A5041895625
   title: Associate Professor
 education:
 - advisor: null

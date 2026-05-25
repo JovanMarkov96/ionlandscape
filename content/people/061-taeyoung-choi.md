@@ -6,10 +6,8 @@ applications:
 - software_control
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Korea Institute of Oriental Medicine
+  institution: Ewha Womans University
   since_year: null
-  source: https://openalex.org/A5102889325
   title: Professor
 education:
 - advisor: Jay Gupta

@@ -5,10 +5,8 @@ applications:
 - software_control
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Tokai University
+  institution: University of Tokyo
   since_year: null
-  source: https://openalex.org/A5101487275
   title: Professor
 education:
 - advisor: null

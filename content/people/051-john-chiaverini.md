@@ -5,10 +5,8 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
   institution: MIT Lincoln Laboratory
   since_year: null
-  source: https://openalex.org/A5083419298
   title: Senior Staff
 education:
 - advisor: Aharon Kapitulnik

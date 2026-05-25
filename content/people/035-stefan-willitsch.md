@@ -6,10 +6,8 @@ applications:
 - fundamental_physics
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: University Of Basel
+  institution: University of Basel
   since_year: 2008
-  source: https://openalex.org/A5090094344
   title: Professor of Chemistry
 education:
 - advisor: Frédéric Merkt

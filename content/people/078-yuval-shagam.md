@@ -6,10 +6,8 @@ applications:
 - simulation
 created_at: '2026-02-02'
 current_position:
-  confidence: openalex_inferred
-  institution: Technion – Israel Institute of Technology
+  institution: Technion ג€“ Israel Institute of Technology
   since_year: 2020
-  source: https://openalex.org/A5054325134
   title: Assistant Professor
 education:
 - degree: BSc (Physics and Computer Science)

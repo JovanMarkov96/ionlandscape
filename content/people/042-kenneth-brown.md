@@ -10,10 +10,8 @@ applications:
 - software_control
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Helen Keller International
+  institution: Duke University
   since_year: null
-  source: https://openalex.org/A5063733395
   title: Michael J. Fitzpatrick Distinguished Professor of Engineering; Director of
     the Duke Quantum Center
 education:

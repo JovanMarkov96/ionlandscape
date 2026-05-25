@@ -9,10 +9,8 @@ applications:
 - computing
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: University Of Sussex
+  institution: University of Sussex
   since_year: null
-  source: https://openalex.org/A5027716155
   title: Professor of Quantum Technologies; Director, Sussex Centre for Quantum Technologies
 education:
 - advisor: Halina Rubinsztein-Dunlop; Norman Heckenberg; Gerard Milburn

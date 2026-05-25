@@ -7,10 +7,8 @@ applications:
 - fundamental_physics
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: National Institute of Standards and Technology
+  institution: National Institute of Standards and Technology (NIST), Boulder
   since_year: null
-  source: https://openalex.org/A5086425769
   title: Staff Scientist / Group Leader, Ion Storage Group
 education:
 - degree: BS (Physics and Mathematics)

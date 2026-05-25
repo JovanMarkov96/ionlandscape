@@ -7,10 +7,8 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: University Of Groningen
+  institution: University of Groningen
   since_year: null
-  source: https://openalex.org/A5032279219
   title: Professor
 education:
 - advisor: null

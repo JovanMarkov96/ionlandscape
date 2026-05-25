@@ -10,10 +10,8 @@ applications:
 - networking
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: Universität Innsbruck
+  institution: University of Innsbruck
   since_year: 2011
-  source: https://openalex.org/A5066295139
   title: Senior Scientist
 education:
 - advisor: Rainer Blatt

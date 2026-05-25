@@ -7,9 +7,7 @@ applications:
 - software_control
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: German Primate Center
-  source: https://openalex.org/A5012485450
+  institution: University of Innsbruck
   title: Senior Scientist
 education:
 - advisor: Rainer Blatt

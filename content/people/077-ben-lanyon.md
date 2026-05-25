@@ -7,10 +7,8 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Universität Innsbruck
+  institution: University of Innsbruck
   since_year: null
-  source: https://openalex.org/A5016115632
   title: Professor
 education:
 - advisor: Andrew White

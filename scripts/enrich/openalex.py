@@ -290,21 +290,12 @@ def process_person(path: Path, author_cache: dict, inst_cache: dict,
             result["matched_inst_id"] = matched_id
             result["canonical_inst_name"] = canonical_name
 
-            # Write current_position — skip if already confirmed
-            if only in (None, "position"):
-                existing_pos = meta.get("current_position") or {}
-                if existing_pos.get("confidence") != "confirmed":
-                    new_pos = dict(existing_pos)
-                    new_pos["institution"] = canonical_name
-                    new_pos.setdefault("title", "")
-                    new_pos["confidence"] = "openalex_inferred"
-                    new_pos["source"] = author_data.get("id") or ""
-                    if not dry_run:
-                        meta["current_position"] = new_pos
-                    result["changes"].append("current_position")
-                    changed = True
-
             # Write location from institution geo — never downgrade precision
+            # NOTE: We deliberately do NOT write current_position.institution from
+            # OpenAlex. OpenAlex last_known_institutions are derived from paper
+            # affiliations and are frequently wrong (e.g. instrument co. affiliations
+            # appearing as primary institution). Affiliation must come from human
+            # curation or the manual_institution column in shortlist CSVs.
             if only in (None, "geo") and inst_geo:
                 geo_city = inst_geo.get("city")
                 geo_lat = inst_geo.get("lat")

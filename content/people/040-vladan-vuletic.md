@@ -10,10 +10,8 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: MIT-Harvard Center for Ultracold Atoms
+  institution: Massachusetts Institute of Technology
   since_year: 2011
-  source: https://openalex.org/A5110481134
   title: Lester Wolfe Professor of Physics
 education:
 - degree: Physics Diploma (Diplom)

@@ -6,10 +6,8 @@ applications:
 - networking
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: University of Tsukuba
+  institution: Okinawa Institute of Science and Technology (OIST)
   since_year: 2019
-  source: https://openalex.org/A5115013848
   title: Associate Professor
 education:
 - advisor: null

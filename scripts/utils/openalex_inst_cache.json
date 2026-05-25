@@ -246,5 +246,203 @@
     "country": "Israel",
     "lat": 32.81840896606445,
     "lon": 34.98849868774414
+  },
+  "I136199984": {
+    "display_name": "Harvard University",
+    "ror": "https://ror.org/03vek6s52",
+    "homepage_url": "https://www.harvard.edu",
+    "type": "education",
+    "city": "Cambridge",
+    "country": "United States",
+    "lat": 42.3751,
+    "lon": -71.10561,
+    "openalex_id": "https://openalex.org/I136199984"
+  },
+  "I3019243323": {
+    "display_name": "Center for Theoretical Physics",
+    "ror": "https://ror.org/04kfyt897",
+    "homepage_url": "https://www.cft.edu.pl/",
+    "type": "facility",
+    "city": "Warsaw",
+    "country": "Poland",
+    "lat": 52.17692947387695,
+    "lon": 21.008512496948242,
+    "openalex_id": "https://openalex.org/I3019243323"
+  },
+  "I1294671590": {
+    "display_name": "Centre National de la Recherche Scientifique",
+    "ror": "https://ror.org/02feahw73",
+    "homepage_url": "https://www.cnrs.fr",
+    "type": "government",
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.85341,
+    "lon": 2.3488,
+    "openalex_id": "https://openalex.org/I1294671590"
+  },
+  "I122411786": {
+    "display_name": "California Institute of Technology",
+    "ror": "https://ror.org/05dxps055",
+    "homepage_url": "https://www.caltech.edu",
+    "type": "education",
+    "city": "Pasadena",
+    "country": "United States",
+    "lat": 34.14778,
+    "lon": -118.14452,
+    "openalex_id": "https://openalex.org/I122411786"
+  },
+  "I137473845": {
+    "display_name": "Joint Institute for Laboratory Astrophysics",
+    "ror": "https://ror.org/008hybe55",
+    "homepage_url": "https://jila.colorado.edu/",
+    "type": "facility",
+    "city": "Boulder",
+    "country": "United States",
+    "lat": 40.00751876831055,
+    "lon": -105.26873779296875,
+    "openalex_id": "https://openalex.org/I137473845"
+  },
+  "I20089843": {
+    "display_name": "Princeton University",
+    "ror": "https://ror.org/00hx57361",
+    "homepage_url": "https://www.princeton.edu",
+    "type": "education",
+    "city": "Princeton",
+    "country": "United States",
+    "lat": 40.34872,
+    "lon": -74.65905,
+    "openalex_id": "https://openalex.org/I20089843"
+  },
+  "I110675161": {
+    "display_name": "Infosys (India)",
+    "ror": "https://ror.org/03bs18y54",
+    "homepage_url": "https://www.infosys.com/",
+    "type": "company",
+    "city": "Bengaluru",
+    "country": "India",
+    "lat": 12.97194,
+    "lon": 77.59369,
+    "openalex_id": "https://openalex.org/I110675161"
+  },
+  "I148283060": {
+    "display_name": "Lawrence Berkeley National Laboratory",
+    "ror": "https://ror.org/02jbv0t02",
+    "homepage_url": "https://www.lbl.gov/",
+    "type": "facility",
+    "city": "Berkeley",
+    "country": "United States",
+    "lat": 37.87158966064453,
+    "lon": -122.27275085449219,
+    "openalex_id": "https://openalex.org/I148283060"
+  },
+  "I3131433586": {
+    "display_name": "Hochschule für Musik Freiburg",
+    "ror": "https://ror.org/03bavdz78",
+    "homepage_url": "http://www.mh-freiburg.de/en/home/",
+    "type": "education",
+    "city": "Freiburg",
+    "country": "Germany",
+    "lat": 47.98904800415039,
+    "lon": 7.8724870681762695,
+    "openalex_id": "https://openalex.org/I3131433586"
+  },
+  "I157725225": {
+    "display_name": "University of Illinois Urbana-Champaign",
+    "ror": "https://ror.org/047426m28",
+    "homepage_url": "https://illinois.edu",
+    "type": "education",
+    "city": "Urbana",
+    "country": "United States",
+    "lat": 40.11059,
+    "lon": -88.20727,
+    "openalex_id": "https://openalex.org/I157725225"
+  },
+  "I181647926": {
+    "display_name": "University of Strathclyde",
+    "ror": "https://ror.org/00n3w3b69",
+    "homepage_url": "https://www.strath.ac.uk",
+    "type": "education",
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "lat": 55.86515,
+    "lon": -4.25763,
+    "openalex_id": "https://openalex.org/I181647926"
+  },
+  "I124055696": {
+    "display_name": "University of Copenhagen",
+    "ror": "https://ror.org/035b05819",
+    "homepage_url": "https://www.ku.dk",
+    "type": "education",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.67594,
+    "lon": 12.56553,
+    "openalex_id": "https://openalex.org/I124055696"
+  },
+  "I4210108409": {
+    "display_name": "Joint Center for Quantum Information and Computer Science",
+    "ror": "https://ror.org/02048n894",
+    "homepage_url": "https://quics.umd.edu/",
+    "type": "facility",
+    "city": "College Park",
+    "country": "United States",
+    "lat": 38.99104690551758,
+    "lon": -76.94235229492188,
+    "openalex_id": "https://openalex.org/I4210108409"
+  },
+  "I171892758": {
+    "display_name": "Forschungszentrum Jülich",
+    "ror": "https://ror.org/02nv7yv05",
+    "homepage_url": "https://www.fz-juelich.de",
+    "type": "facility",
+    "city": "Jülich",
+    "country": "Germany",
+    "lat": 50.92149,
+    "lon": 6.36267,
+    "openalex_id": "https://openalex.org/I171892758"
+  },
+  "I145847075": {
+    "display_name": "TU Wien",
+    "ror": "https://ror.org/04d836q62",
+    "homepage_url": "https://www.tuwien.at",
+    "type": "education",
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.20849,
+    "lon": 16.37208,
+    "openalex_id": "https://openalex.org/I145847075"
+  },
+  "I100066346": {
+    "display_name": "University of Stuttgart",
+    "ror": "https://ror.org/04vnq7t77",
+    "homepage_url": "http://www.uni-stuttgart.de/home/index.en.html",
+    "type": "education",
+    "city": "Stuttgart",
+    "country": "Germany",
+    "lat": 48.782318115234375,
+    "lon": 9.177020072937012,
+    "openalex_id": "https://openalex.org/I100066346"
+  },
+  "I142263535": {
+    "display_name": "University of Nottingham",
+    "ror": "https://ror.org/01ee9ar58",
+    "homepage_url": "http://www.nottingham.ac.uk/",
+    "type": "education",
+    "city": "Nottingham",
+    "country": "United Kingdom",
+    "lat": 52.9536,
+    "lon": -1.15047,
+    "openalex_id": "https://openalex.org/I142263535"
+  },
+  "I4210127973": {
+    "display_name": "Institute for Science and International Security",
+    "ror": "https://ror.org/02djg6z12",
+    "homepage_url": "http://www.isis-online.org/",
+    "type": "nonprofit",
+    "city": "Washington D.C.",
+    "country": "United States",
+    "lat": 38.89543914794922,
+    "lon": -77.01246643066406,
+    "openalex_id": "https://openalex.org/I4210127973"
   }
 }

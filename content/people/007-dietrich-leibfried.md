@@ -9,10 +9,8 @@ applications:
 atomic_species: []
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: National Institute of Standards and Technology
+  institution: National Institute of Standards and Technology (NIST), Boulder
   since_year: 2001
-  source: https://openalex.org/A5064543500
   title: Staff Physicist / Co-Leader, Ion Storage Group (Quantum Information)
 education:
 - degree: Diplom-Physiker

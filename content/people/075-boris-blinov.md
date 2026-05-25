@@ -6,10 +6,8 @@ applications:
 - networking
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: University Of Washington
+  institution: University of Washington
   since_year: null
-  source: https://openalex.org/A5050998584
   title: Professor
 education:
 - advisor: null

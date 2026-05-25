@@ -5,10 +5,8 @@ applications:
 - networking
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
   institution: Saarland University
   since_year: 2009
-  source: https://openalex.org/A5030019513
   title: Professor
 education:
 - advisor: null

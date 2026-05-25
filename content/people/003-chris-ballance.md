@@ -11,9 +11,7 @@ applications:
 - computing
 created_at: '2026-01-26'
 current_position:
-  confidence: openalex_inferred
-  institution: University Of Oxford
-  source: https://openalex.org/A5031512677
+  institution: IonQ, Inc.
   title: President, Quantum Computing
 education:
 - advisor: David M. Lucas

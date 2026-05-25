@@ -7,10 +7,8 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Advanced Research Center for Nanolithography (Netherlands)
+  institution: VU Amsterdam
   since_year: null
-  source: https://openalex.org/A5089317802
   title: Professor
 education:
 - advisor: Wim Hogervorst

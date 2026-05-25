@@ -5,10 +5,8 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Hefei University
+  institution: Tsinghua University
   since_year: null
-  source: https://openalex.org/A5008867233
   title: Professor
 education:
 - advisor: null

@@ -5,10 +5,8 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: ETH Zurich
+  institution: ETH Zֳ¼rich
   since_year: 2001
-  source: https://openalex.org/A5020623477
   title: Professor of Physics
 education:
 - advisor: Theodor W. Hänsch

@@ -7,10 +7,8 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Vrije Universiteit Amsterdam
+  institution: VU Amsterdam
   since_year: null
-  source: https://openalex.org/A5013718580
   title: Associate Professor
 education:
 - advisor: null

@@ -6,10 +6,8 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  confidence: openalex_inferred
-  institution: Pohang University of Science and Technology
+  institution: POSTECH
   since_year: 2020
-  source: https://openalex.org/A5059548002
   title: Associate Professor
 education:
 - advisor: Kyungwon An
