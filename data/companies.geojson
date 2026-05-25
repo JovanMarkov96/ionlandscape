@@ -256,7 +256,7 @@
         "city": "Siegen",
         "country": "Germany",
         "short_summary": "eleQtron is a German quantum computing company developing trapped-ion hardware based on its MAGIC (magnetic gradient induced coupling) technology.",
-        "logo_path": "",
+        "logo_path": "/logos/c017-eleqtron.png",
         "md_filename": "c017-eleqtron.md"
       },
       "geometry": {
@@ -279,7 +279,7 @@
         "city": "Brighton",
         "country": "United Kingdom",
         "short_summary": "Universal Quantum is a UK company building scalable trapped-ion quantum computers using modular architecture and electric-field-link qubit connections.",
-        "logo_path": "",
+        "logo_path": "/logos/c016-universal-quantum.png",
         "md_filename": "c016-universal-quantum.md"
       },
       "geometry": {

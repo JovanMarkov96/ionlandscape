@@ -1111,7 +1111,9 @@
     "links": {
       "website": "https://eleqtron.com/"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c017-eleqtron.png"
+    },
     "sources": [],
     "md_filename": "c017-eleqtron.md",
     "updated_at": "",
@@ -1150,7 +1152,9 @@
     "links": {
       "website": "https://universalquantum.com/"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c016-universal-quantum.png"
+    },
     "sources": [],
     "md_filename": "c016-universal-quantum.md",
     "updated_at": "",
