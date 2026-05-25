@@ -111,9 +111,73 @@ drift slowly; a quarterly pass keeps the data current without hammering the API.
 
 ---
 
+---
+
+## geocode.py — Location precision tiers + coordinate inheritance
+
+Stamps `location.precision` on every entity that has coordinates, inherits
+institution coordinates for people who lack their own, and geocodes any entity
+with a known city but no lat/lon via Nominatim.
+
+### What it fills
+
+```yaml
+location:
+  city: College Park
+  country: United States
+  lat: 38.9897
+  lon: -76.9402
+  precision: city          # building | campus | city | inherited | none
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+```
+
+### Precision tiers
+
+| Tier | Meaning |
+|---|---|
+| `building` | Exact street address geocoded |
+| `campus` | Department/lab building (future campus-level pass) |
+| `city` | City centroid — the current default for most entities |
+| `inherited` | Person with no own location; copied from their institution |
+| `none` | Nothing known; entity stays off the map |
+
+### How to run
+
+```bash
+python scripts/enrich/geocode.py           # full pass (safe to re-run)
+python scripts/enrich/geocode.py --dry-run  # preview without writing files
+python scripts/enrich/geocode.py --force    # re-geocode even cached entries
+```
+
+### Cache
+
+`scripts/utils/geocode_cache.json` — keyed by `"city||country"`. Nominatim
+requires 1 req/s; the cache makes re-runs free. Never downgrades a higher
+precision tier with a lower one.
+
+### Report
+
+`reports/geocode_report.md` — lists geocoded entries, inherited people, misses,
+and off-map entities (no location data).
+
+### Current coverage (2026-05-25)
+
+- **144** entities stamped with `precision: city`
+- **2** people got coordinates via institution inheritance
+- **1** institution geocoded (IonQ Inc., College Park MD)
+- **87** stubs / lineage-only people have no location data and stay off the map
+
+### What this script does NOT do (future pass)
+
+Campus-level address upgrades (institution → `precision: campus`) require
+finding the physics dept / lab building address per institution from their own
+website. That is a separate research pass tracked in `private/todo/04-geocoding.md`.
+
+---
+
 ## Future scripts planned for this directory
 
 | Script | Status | Purpose |
 |---|---|---|
-| `geocode.py` | planned | Fill `location.precision`, `address`, `lat/lon` via Nominatim (OSM) |
 | `freshness_report.py` | planned | Scan all entities, emit staleness queue sorted by `last_verified_at` |

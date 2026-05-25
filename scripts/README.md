@@ -20,6 +20,7 @@ required. Cache-backed and idempotent — safe to re-run at any time.
 | Script | Purpose | Usage |
 |--------|---------|-------|
 | `metrics.py` | h-index / citations / pub count from OpenAlex (by ORCID) | `python scripts/enrich/metrics.py [--force] [--person ID] [--dry-run]` |
+| `geocode.py` | Precision tiers + lat/lon via Nominatim (city-level) | `python scripts/enrich/geocode.py [--force] [--dry-run]` |
 
 See `scripts/enrich/README.md` for full documentation.
 
