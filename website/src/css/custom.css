@@ -675,6 +675,10 @@ body,
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
 }
 
+[data-theme='dark'] .graph-legend-panel small {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .graph-legend-panel h2 {
   margin: 0;
   font-size: 1.05rem;

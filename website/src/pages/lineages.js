@@ -84,7 +84,7 @@ function LineageGraph() {
 
     if (loading) return <div style={{ padding: '50px', textAlign: 'center' }}>Loading Graph Data...</div>;
 
-    const labelColor = dark ? 'rgba(225,228,240,0.95)' : 'rgba(60,60,70,0.95)';
+    const labelColor = dark ? 'rgba(255,255,255,0.95)' : 'rgba(60,60,70,0.95)';
     const labelHalo = dark ? 'rgba(10,12,20,0.85)' : 'rgba(255,255,255,0.85)';
 
     const Panel = () => (
