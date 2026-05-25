@@ -61,11 +61,11 @@ location:
   lon: -80.5204
   region: Ontario
 metrics:
-  citation_count: 5360
+  citation_count: 5363
   h_index: 21
   publication_count: 93
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: K. Rajibul Islam
 platforms:
 - trapped_ion

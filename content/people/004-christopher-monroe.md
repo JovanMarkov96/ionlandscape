@@ -72,11 +72,11 @@ location:
   lon: -78.9377
   region: North Carolina
 metrics:
-  citation_count: 49259
+  citation_count: 49278
   h_index: 92
   publication_count: 511
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Christopher R. Monroe
 platforms:
 - trapped_ion

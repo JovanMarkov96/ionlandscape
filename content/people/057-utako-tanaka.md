@@ -6,8 +6,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Osaka University
-  title: Associate Professor
   since_year: null
+  title: Associate Professor
 education:
 - advisor: null
   confidence: not_found
@@ -21,14 +21,15 @@ ion_species:
 - 40Ca+
 - 43Ca+
 key_papers:
-- title: "Isotope-selective Ion trapping via sympathetic cooling using a surface-electrode trap with a hole for collimated atomic loading"
+- doi: 10.1038/s41598-025-29512-2
+  role: senior_author
+  title: Isotope-selective Ion trapping via sympathetic cooling using a surface-electrode
+    trap with a hole for collimated atomic loading
   year: 2025
-  doi: 10.1038/s41598-025-29512-2
+- doi: 10.1088/0953-4075/47/3/035301
   role: senior_author
-- title: "Design of a surface electrode trap for parallel ion strings"
+  title: Design of a surface electrode trap for parallel ion strings
   year: 2014
-  doi: 10.1088/0953-4075/47/3/035301
-  role: senior_author
 keywords:
 - trapped ions
 - quantum computing
@@ -39,8 +40,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: null
   group_page: https://www-tanaka.Kv-lab.org/
@@ -52,19 +53,25 @@ location:
   lat: 34.6937
   lon: 135.5023
   region: Osaka
+metrics:
+  citation_count: 907
+  h_index: 16
+  publication_count: 79
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Utako Tanaka
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Tanaka, Utako
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: 1993
 updated_at: '2026-05-04'
 verification_source_count: 2

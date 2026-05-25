@@ -8,8 +8,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: VU Amsterdam
-  title: Associate Professor
   since_year: null
+  title: Associate Professor
 education:
 - advisor: null
   confidence: confirmed
@@ -33,8 +33,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=hKApNbYAAAAJ
   group_page: null
@@ -47,21 +47,27 @@ location:
   lat: 52.3676
   lon: 4.9041
   region: North Holland
+metrics:
+  citation_count: 2981
+  h_index: 22
+  publication_count: 79
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Jeroen C. J. Koelemeij
 platforms:
 - trapped_ion
 postdocs:
 - advisor: David Wineland
   advisor_id: 001-david-wineland
-  institution: National Institute of Standards and Technology (NIST)
-  years: 'unknown'
-  note: Postdoctoral researcher focusing on optical atomic clocks.
   confidence: confirmed
+  institution: National Institute of Standards and Technology (NIST)
+  note: Postdoctoral researcher focusing on optical atomic clocks.
+  years: unknown
 schema_version: 2
 sort_name: Koelemeij, Jeroen C. J.
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 2

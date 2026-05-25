@@ -64,11 +64,11 @@ location:
   lon: -123.0728292
   region: Oregon
 metrics:
-  citation_count: 37465
+  citation_count: 37475
   h_index: 87
   publication_count: 456
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: David J. Wineland
 platforms:
 - trapped_ion

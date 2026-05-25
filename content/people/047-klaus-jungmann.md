@@ -8,8 +8,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Groningen
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
   confidence: not_found
@@ -33,8 +33,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=gmbozcIAAAAJ
   group_page: https://www.rug.nl/research/vsi/research/ions/
@@ -45,19 +45,25 @@ location:
   lat: 53.2194
   lon: 6.5665
   region: Groningen
+metrics:
+  citation_count: 9752
+  h_index: 36
+  publication_count: 348
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Klaus Jungmann
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Jungmann, Klaus
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 1

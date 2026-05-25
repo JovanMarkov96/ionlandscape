@@ -8,24 +8,24 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of California, Los Angeles
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: John M. Doyle
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Harvard University
   year: 2008
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 039-wes-campbell
 ion_species:
 - 171Yb+
 key_papers:
-- title: "Coherent imaging spectroscopy of a quantum many-body spin system"
-  year: 2014
-  doi: 10.1126/science.1252063
+- doi: 10.1126/science.1252063
   role: co_author
+  title: Coherent imaging spectroscopy of a quantum many-body spin system
+  year: 2014
 keywords:
 - trapped ions
 - quantum simulation
@@ -36,8 +36,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=JU1-giAAAAAJ
   group_page: https://campbellgroup.physics.ucla.edu/
@@ -48,21 +48,27 @@ location:
   lat: 34.0522
   lon: -118.2437
   region: California
+metrics:
+  citation_count: 5152
+  h_index: 32
+  publication_count: 223
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Wesley C. Campbell
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Christopher Monroe
   advisor_id: 004-christopher-monroe
-  institution: University of Maryland (JQI)
-  years: '2008-2011'
-  note: Postdoctoral researcher focusing on trapped ion quantum simulation.
   confidence: confirmed
+  institution: University of Maryland (JQI)
+  note: Postdoctoral researcher focusing on trapped ion quantum simulation.
+  years: 2008-2011
 schema_version: 2
 sort_name: Campbell, Wesley C.
 thesis:
-  link: "Unknown"
-  title: "Magnetic Trapping of Imidogen Molecules"
+  link: Unknown
+  title: Magnetic Trapping of Imidogen Molecules
   year: 2008
 updated_at: '2026-05-04'
 verification_source_count: 2

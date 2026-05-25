@@ -6,14 +6,14 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: MIT Lincoln Laboratory
-  title: Senior Staff
   since_year: null
+  title: Senior Staff
 education:
 - advisor: Aharon Kapitulnik
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Stanford University
   year: 2002
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 051-john-chiaverini
@@ -31,8 +31,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=JvXj6gUAAAAJ
   group_page: https://www.ll.mit.edu/r-d/advanced-technology/quantum-information-and-integrated-nanosystems
@@ -43,21 +43,28 @@ location:
   lat: 42.4473
   lon: -71.2272
   region: Massachusetts
+metrics:
+  citation_count: 7660
+  h_index: 35
+  publication_count: 172
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: John Chiaverini
 platforms:
 - trapped_ion
 postdocs:
 - advisor: David Wineland
   advisor_id: 001-david-wineland
-  institution: National Institute of Standards and Technology (NIST)
-  years: 'unknown'
-  note: Postdoctoral researcher focusing on trapped-ion quantum computing and surface traps.
   confidence: confirmed
+  institution: National Institute of Standards and Technology (NIST)
+  note: Postdoctoral researcher focusing on trapped-ion quantum computing and surface
+    traps.
+  years: unknown
 schema_version: 2
 sort_name: Chiaverini, John
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 2

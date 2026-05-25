@@ -61,8 +61,8 @@ metrics:
   citation_count: 2607
   h_index: 23
   publication_count: 105
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Winfried K. Hensinger
 platforms:
 - trapped_ion

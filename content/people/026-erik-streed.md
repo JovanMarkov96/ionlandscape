@@ -7,29 +7,31 @@ applications:
 created_at: '2026-01-28'
 current_position:
   institution: Griffith University
-  title: Associate Professor; Director, Queensland Quantum and Advanced Technologies Research Institute
   since_year: null
+  title: Associate Professor; Director, Queensland Quantum and Advanced Technologies
+    Research Institute
 education:
 - advisor: Wolfgang Ketterle
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Massachusetts Institute of Technology
-  year: 2006
-  confidence: confirmed
   source: https://dspace.mit.edu/handle/1721.1/34429
+  year: 2006
 entity_type: person
 group_type: experimental
 id: 026-erik-streed
 ion_species:
 - 171Yb+
 key_papers:
-- title: "Imaging of trapped ions with a microfabricated optic for quantum information processing"
+- doi: 10.1103/PhysRevLett.106.010502
+  role: first_author
+  title: Imaging of trapped ions with a microfabricated optic for quantum information
+    processing
   year: 2011
-  doi: 10.1103/PhysRevLett.106.010502
+- doi: 10.1038/ncomms1667
   role: first_author
-- title: "Absorption imaging of a single atom"
+  title: Absorption imaging of a single atom
   year: 2012
-  doi: 10.1038/ncomms1667
-  role: first_author
 keywords:
 - trapped ions
 - quantum computing
@@ -41,8 +43,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=ajeoFYMAAAAJ
   griffith_profile: https://experts.griffith.edu.au/7796-erik-streed
@@ -54,21 +56,28 @@ location:
   lat: -28.0167
   lon: 153.4
   region: Queensland
+metrics:
+  citation_count: 2123
+  h_index: 18
+  publication_count: 113
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Erik W. Streed
 platforms:
 - trapped_ion
 postdocs:
 - advisor: David Kielpinski
   advisor_id: null
-  institution: Griffith University
-  years: 'unknown'
-  note: Postdoctoral researcher in trapped-ion quantum optics.
   confidence: confirmed
+  institution: Griffith University
+  note: Postdoctoral researcher in trapped-ion quantum optics.
+  years: unknown
 schema_version: 2
 sort_name: Streed, Erik W.
 thesis:
   link: https://dspace.mit.edu/handle/1721.1/34429
-  title: "87Rubidium Bose-Einstein condensates: Machine Construction and Quantum Zeno Experiments"
+  title: '87Rubidium Bose-Einstein condensates: Machine Construction and Quantum Zeno
+    Experiments'
   year: 2006
 updated_at: '2026-05-04'
 verification_source_count: 2

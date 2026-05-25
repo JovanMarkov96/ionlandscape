@@ -6,8 +6,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Tokyo
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
   confidence: not_found
@@ -29,8 +29,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: null
   group_page: https://www.nuclear.jp/~hasegawa/index_e.html
@@ -41,19 +41,25 @@ location:
   lat: 35.6762
   lon: 139.6503
   region: Tokyo
+metrics:
+  citation_count: 2225
+  h_index: 26
+  publication_count: 222
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Shuichi Hasegawa
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Hasegawa, Shuichi
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 1

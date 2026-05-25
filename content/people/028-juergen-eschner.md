@@ -6,8 +6,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Saarland University
-  title: Professor
   since_year: 2009
+  title: Professor
 education:
 - advisor: null
   confidence: confirmed
@@ -21,10 +21,11 @@ ion_species:
 - 40Ca+
 - Yb
 key_papers:
-- title: "High-fidelity entanglement between a trapped ion and a telecom photon via quantum frequency conversion"
-  year: 2018
-  doi: 10.1038/s41467-018-04341-2
+- doi: 10.1038/s41467-018-04341-2
   role: senior_author
+  title: High-fidelity entanglement between a trapped ion and a telecom photon via
+    quantum frequency conversion
+  year: 2018
 keywords:
 - trapped ions
 - atom-photon interfaces
@@ -38,8 +39,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=4nXxpqwAAAAJ
   group_page: https://www.uni-saarland.de/lehrstuhl/eschner.html
@@ -50,21 +51,27 @@ location:
   lat: 49.2401
   lon: 6.9969
   region: Saarland
+metrics:
+  citation_count: 6832
+  h_index: 37
+  publication_count: 198
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Jürgen Eschner
 platforms:
 - trapped_ion
 - neutral_atom
 postdocs:
 - advisor: null
-  institution: Australian National University
-  years: '1995-1996'
-  note: Postdoctoral researcher.
   confidence: confirmed
+  institution: Australian National University
+  note: Postdoctoral researcher.
+  years: 1995-1996
 schema_version: 2
 sort_name: Eschner, Jürgen
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: 1993
 updated_at: '2026-05-04'
 verification_source_count: 2

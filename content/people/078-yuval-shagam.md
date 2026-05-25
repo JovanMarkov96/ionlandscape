@@ -7,8 +7,8 @@ applications:
 created_at: '2026-02-02'
 current_position:
   institution: Technion – Israel Institute of Technology
-  title: Assistant Professor
   since_year: 2020
+  title: Assistant Professor
 education:
 - degree: BSc (Physics and Computer Science)
   institution: Hebrew University of Jerusalem
@@ -18,11 +18,11 @@ education:
   institution: Weizmann Institute of Science
   year: 2012
 - advisor: Edvardas Narevicius
+  confidence: confirmed
   degree: PhD (Chemical Physics)
   institution: Weizmann Institute of Science
-  year: 2016
-  confidence: confirmed
   source: https://shagam.net.technion.ac.il/
+  year: 2016
 entity_type: person
 group_type: experimental
 id: 078-yuval-shagam
@@ -30,14 +30,14 @@ ion_species:
 - HfF+
 - ThF+
 key_papers:
-- title: "An improved measurement of the electron electric dipole moment"
+- doi: 10.1126/science.adg4084
+  role: co_author
+  title: An improved measurement of the electron electric dipole moment
   year: 2023
-  doi: 10.1126/science.adg4084
+- doi: 10.1038/s41467-020-14732-4
   role: co_author
-- title: "Phase protection of Fano-Feshbach resonances"
+  title: Phase protection of Fano-Feshbach resonances
   year: 2020
-  doi: 10.1038/s41467-020-14732-4
-  role: co_author
 keywords:
 - molecular ion quantum technology
 - cold quantum chemistry
@@ -50,8 +50,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=tbFFEyMAAAAJ
   group_page: https://shagam.net.technion.ac.il/
@@ -63,20 +63,27 @@ location:
   lat: 32.794
   lon: 34.9896
   region: Haifa District
+metrics:
+  citation_count: 1320
+  h_index: 14
+  publication_count: 52
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Yuval Shagam
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Eric A. Cornell; Jun Ye
   advisor_id: null
-  institution: JILA (University of Colorado & NIST), Boulder
-  years: '2016-2020'
-  note: Postdoctoral research on precision measurement of the electron electric dipole moment using trapped molecular ions.
   confidence: confirmed
+  institution: JILA (University of Colorado & NIST), Boulder
+  note: Postdoctoral research on precision measurement of the electron electric dipole
+    moment using trapped molecular ions.
+  years: 2016-2020
 schema_version: 2
 sort_name: Shagam, Yuval
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Cold chemistry with cold molecules
   year: 2016
 updated_at: '2026-05-04'

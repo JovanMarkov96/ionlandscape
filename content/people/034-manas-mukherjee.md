@@ -7,8 +7,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Centre for Quantum Technologies, National University of Singapore
-  title: Principal Investigator
   since_year: null
+  title: Principal Investigator
 education:
 - advisor: null
   confidence: confirmed
@@ -21,10 +21,10 @@ id: 034-manas-mukherjee
 ion_species:
 - 138Ba+
 key_papers:
-- title: "Squeezing enhances quantum synchronization"
-  year: 2018
-  doi: 10.1103/PhysRevLett.120.163601
+- doi: 10.1103/PhysRevLett.120.163601
   role: co_author
+  title: Squeezing enhances quantum synchronization
+  year: 2018
 keywords:
 - trapped ions
 - quantum computing
@@ -35,8 +35,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=VJE3z6IAAAAJ
   group_page: https://coldiongroup.wixsite.com/cqt-nus
@@ -47,19 +47,25 @@ location:
   lat: 1.3521
   lon: 103.8198
   region: null
+metrics:
+  citation_count: 2198
+  h_index: 25
+  publication_count: 138
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Manas Mukherjee
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Mukherjee, Manas
 thesis:
-  link: "Unknown"
-  title: "The mass of 22^Mg and a concept for a novel laser ion source trap"
+  link: Unknown
+  title: The mass of 22^Mg and a concept for a novel laser ion source trap
   year: 2004
 updated_at: '2026-05-04'
 verification_source_count: 2

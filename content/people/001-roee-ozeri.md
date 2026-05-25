@@ -69,11 +69,11 @@ location:
   lon: 34.8106
   region: Central District
 metrics:
-  citation_count: 9308
+  citation_count: 9311
   h_index: 44
   publication_count: 219
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Roee Ozeri
 platforms:
 - trapped_ion

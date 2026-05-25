@@ -7,29 +7,31 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Basel
-  title: Professor of Chemistry
   since_year: 2008
+  title: Professor of Chemistry
 education:
 - advisor: Frédéric Merkt
+  confidence: confirmed
   degree: PhD (Chemistry)
   institution: ETH Zurich
-  year: 2004
-  confidence: confirmed
   source: https://willitsch.chemie.unibas.ch/
+  year: 2004
 entity_type: person
 group_type: experimental
 id: 035-stefan-willitsch
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Quantum-nondemolition state detection and spectroscopy of single trapped molecules"
+- doi: 10.1126/science.aay3253
+  role: senior_author
+  title: Quantum-nondemolition state detection and spectroscopy of single trapped
+    molecules
   year: 2020
-  doi: 10.1126/science.aay3253
+- doi: 10.1103/PhysRevLett.109.233202
   role: senior_author
-- title: "Millikelvin Reactive Collisions between Sympathetically Cooled Molecular Ions and Laser-Cooled Atoms in an Ion-Atom Hybrid Trap"
+  title: Millikelvin Reactive Collisions between Sympathetically Cooled Molecular
+    Ions and Laser-Cooled Atoms in an Ion-Atom Hybrid Trap
   year: 2012
-  doi: 10.1103/PhysRevLett.109.233202
-  role: senior_author
 keywords:
 - molecular ions
 - trapped ions
@@ -41,8 +43,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=51D_dOIAAAAJ
   group_page: https://willitsch.chemie.unibas.ch/
@@ -53,21 +55,28 @@ location:
   lat: 47.5596
   lon: 7.5886
   region: Basel-Stadt
+metrics:
+  citation_count: 2987
+  h_index: 31
+  publication_count: 201
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Stefan Willitsch
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Timothy P. Softley
   advisor_id: null
-  institution: University of Oxford
-  years: '2004-2007'
-  note: Junior Research Fellowship at Oxford focusing on cold ion chemistry.
   confidence: confirmed
+  institution: University of Oxford
+  note: Junior Research Fellowship at Oxford focusing on cold ion chemistry.
+  years: 2004-2007
 schema_version: 2
 sort_name: Willitsch, Stefan
 thesis:
-  link: "Unknown"
-  title: "Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer Radikale und Kationen"
+  link: Unknown
+  title: 'Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer
+    Radikale und Kationen'
   year: 2004
 updated_at: '2026-05-04'
 verification_source_count: 2

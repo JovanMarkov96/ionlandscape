@@ -6,8 +6,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Kyoto University
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
   confidence: not_found
@@ -29,8 +29,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=XXw35CcAAAAJ
   group_page: null
@@ -41,19 +41,25 @@ location:
   lat: 35.0116
   lon: 135.7681
   region: Kyoto
+metrics:
+  citation_count: 1966
+  h_index: 25
+  publication_count: 143
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Masao Kitano
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Kitano, Masao
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 1

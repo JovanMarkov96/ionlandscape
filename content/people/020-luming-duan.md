@@ -62,11 +62,11 @@ location:
   lon: 116.4074
   region: Beijing
 metrics:
-  citation_count: 11128
+  citation_count: 11133
   h_index: 48
   publication_count: 262
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Luming Duan
 platforms:
 - trapped_ion

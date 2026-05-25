@@ -6,8 +6,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Tsinghua University
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
   confidence: not_found
@@ -30,8 +30,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=4Jk6zRIAAAAJ
   group_page: http://hqs.iiis.tsinghua.edu.cn/
@@ -42,20 +42,26 @@ location:
   lat: 39.9042
   lon: 116.4074
   region: Beijing
+metrics:
+  citation_count: 3902
+  h_index: 27
+  publication_count: 113
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Luyan Sun
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Robert Schoelkopf; Michel Devoret
-  institution: Yale University
-  years: '2009-2013'
-  note: Postdoctoral researcher focusing on superconducting circuits.
   confidence: confirmed
+  institution: Yale University
+  note: Postdoctoral researcher focusing on superconducting circuits.
+  years: 2009-2013
 schema_version: 2
 sort_name: Sun, Luyan
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 2

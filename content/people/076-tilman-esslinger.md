@@ -6,25 +6,26 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: ETH Zürich
-  title: Professor of Physics
   since_year: 2001
+  title: Professor of Physics
 education:
 - advisor: Theodor W. Hänsch
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Ludwig Maximilian University of Munich
-  year: 1995
-  confidence: confirmed
   source: https://en.wikipedia.org/wiki/Tilman_Esslinger
+  year: 1995
 entity_type: person
 group_type: experimental
 id: 076-tilman-esslinger
 ion_species:
 - Li+
 key_papers:
-- title: "Quantum phase transition from a superfluid to a Mott insulator in a gas of ultracold atoms"
-  year: 2002
-  doi: 10.1038/415039a
+- doi: 10.1038/415039a
   role: co_author
+  title: Quantum phase transition from a superfluid to a Mott insulator in a gas of
+    ultracold atoms
+  year: 2002
 keywords:
 - ultracold atoms
 - optical lattices
@@ -36,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=CXqgH5oAAAAJ
   group_page: https://quantumoptics.ethz.ch/
@@ -48,21 +49,28 @@ location:
   lat: 47.3769
   lon: 8.5417
   region: Zürich
+metrics:
+  citation_count: 29303
+  h_index: 70
+  publication_count: 295
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Tilman Esslinger
 platforms:
 - trapped_ion
 - neutral_atom
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Esslinger, Tilman
 thesis:
-  link: "Unknown"
-  note: Doctoral research on subrecoil laser cooling and optical lattices. Exact thesis title not indexed online.
-  title: "Unknown"
+  link: Unknown
+  note: Doctoral research on subrecoil laser cooling and optical lattices. Exact thesis
+    title not indexed online.
+  title: Unknown
   year: 1995
 updated_at: '2026-05-04'
 verification_source_count: 2

@@ -1,25 +1,26 @@
 ---
 active: active
 affiliations:
-- name: IonQ
-  type: company
+- entity_id: c001-ionq
+  name: IonQ
   role: Scientific Advisor
-  entity_id: c001-ionq
+  type: company
 applications:
 - computing
 - software_control
 created_at: '2026-01-30'
 current_position:
   institution: Duke University
-  title: Michael J. Fitzpatrick Distinguished Professor of Engineering; Director of the Duke Quantum Center
   since_year: null
+  title: Michael J. Fitzpatrick Distinguished Professor of Engineering; Director of
+    the Duke Quantum Center
 education:
 - advisor: K. Birgitta Whaley
+  confidence: confirmed
   degree: PhD (Theoretical Chemistry)
   institution: University of California, Berkeley
-  year: 2003
-  confidence: confirmed
   source: https://brownlab.pratt.duke.edu/
+  year: 2003
 entity_type: person
 group_type: experimental
 id: 042-kenneth-brown
@@ -28,10 +29,10 @@ ion_species:
 - 171Yb+
 - 10B+
 key_papers:
-- title: "Fault-tolerant control of an error-corrected qubit"
-  year: 2021
-  doi: 10.1038/s41586-021-03928-y
+- doi: 10.1038/s41586-021-03928-y
   role: senior_author
+  title: Fault-tolerant control of an error-corrected qubit
+  year: 2021
 keywords:
 - trapped-ion quantum computing
 - quantum error correction
@@ -42,8 +43,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=5RFsz9IAAAAJ
   group_page: https://sites.duke.edu/brownlab/
@@ -54,20 +55,26 @@ location:
   lat: 36.0014
   lon: -78.9382
   region: North Carolina
+metrics:
+  citation_count: 25929
+  h_index: 81
+  publication_count: 465
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Kenneth R. Brown
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Isaac L. Chuang
   advisor_id: 041-isaac-chuang
-  institution: Massachusetts Institute of Technology
-  years: 'unknown'
-  note: Postdoctoral training in quantum information.
   confidence: confirmed
+  institution: Massachusetts Institute of Technology
+  note: Postdoctoral training in quantum information.
+  years: unknown
 schema_version: 2
 sort_name: Brown, Kenneth R.
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Theoretical Issues in Quantum Information Technologies
   year: 2003
 updated_at: '2026-05-04'

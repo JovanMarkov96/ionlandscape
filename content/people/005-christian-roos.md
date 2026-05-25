@@ -41,11 +41,11 @@ location:
   lon: 11.3444
   region: Tyrol
 metrics:
-  citation_count: 20234
+  citation_count: 20256
   h_index: 61
   publication_count: 202
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Christian F. Roos
 platforms:
 - trapped_ion

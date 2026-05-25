@@ -66,11 +66,11 @@ location:
   lon: 11.3836639
   region: Tyrol
 metrics:
-  citation_count: 40361
+  citation_count: 40395
   h_index: 93
   publication_count: 488
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Rainer Blatt
 platforms:
 - trapped_ion

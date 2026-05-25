@@ -7,8 +7,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Okinawa Institute of Science and Technology (OIST)
-  title: Associate Professor
   since_year: 2019
+  title: Associate Professor
 education:
 - advisor: null
   confidence: not_found
@@ -22,10 +22,10 @@ ion_species:
 - 40Ca+
 - 138Ba+
 key_papers:
-- title: "Strong Coupling of a Single Ion to an Optical Cavity"
-  year: 2020
-  doi: 10.1103/PhysRevLett.124.013602
+- doi: 10.1103/PhysRevLett.124.013602
   role: first_author
+  title: Strong Coupling of a Single Ion to an Optical Cavity
+  year: 2020
 keywords:
 - trapped ions
 - quantum networks
@@ -37,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=3Jk6zRIAAAAJ
   group_page: https://groups.oist.jp/equip
@@ -49,21 +49,27 @@ location:
   lat: 26.4633
   lon: 127.8308
   region: Okinawa
+metrics:
+  citation_count: 1
+  h_index: 1
+  publication_count: 2
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Hiroki Takahashi
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Matthias Keller
   advisor_id: 071-matthias-keller
-  institution: University of Sussex
-  years: 'unknown'
-  note: Research on ion-cavity QED and quantum networking.
   confidence: confirmed
+  institution: University of Sussex
+  note: Research on ion-cavity QED and quantum networking.
+  years: unknown
 schema_version: 2
 sort_name: Takahashi, Hiroki
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 2

@@ -15,9 +15,6 @@ location:
 name: Keith Burnett
 platforms: []
 schema_version: 2
-sources:
-- note: Affiliation from Wikipedia infobox
-  url: https://en.wikipedia.org/wiki/Keith_Burnett
 stub: true
 updated_at: '2026-05-21'
 ---

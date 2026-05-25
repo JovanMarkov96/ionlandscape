@@ -53,11 +53,11 @@ location:
   lon: 11.3856
   region: Tyrol
 metrics:
-  citation_count: 5207
+  citation_count: 5220
   h_index: 24
   publication_count: 110
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Tracy E. Northup
 platforms:
 - trapped_ion

@@ -7,8 +7,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Stockholm University
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
   confidence: confirmed
@@ -22,10 +22,10 @@ ion_species:
 - 40Ca+
 - 88Sr+
 key_papers:
-- title: "Sub-microsecond entangling gate between trapped ions via Rydberg interaction"
-  year: 2020
-  doi: 10.1038/s41586-020-2152-6
+- doi: 10.1038/s41586-020-2152-6
   role: senior_author
+  title: Sub-microsecond entangling gate between trapped ions via Rydberg interaction
+  year: 2020
 keywords:
 - trapped ions
 - Rydberg ions
@@ -36,8 +36,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=8XqgH5oAAAAJ
   group_page: https://www.fysik.su.se/hennrich-group
@@ -48,21 +48,27 @@ location:
   lat: 59.3293
   lon: 18.0686
   region: Stockholm
+metrics:
+  citation_count: 7400
+  h_index: 29
+  publication_count: 102
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Markus Hennrich
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Rainer Blatt
   advisor_id: 002-rainer-blatt
-  institution: University of Innsbruck (IQOQI)
-  years: 'unknown'
-  note: Postdoctoral researcher focusing on trapped-ion quantum computing.
   confidence: confirmed
+  institution: University of Innsbruck (IQOQI)
+  note: Postdoctoral researcher focusing on trapped-ion quantum computing.
+  years: unknown
 schema_version: 2
 sort_name: Hennrich, Markus
 thesis:
-  link: "Unknown"
-  title: "Coherent manipulation of ultracold atoms on atom chips"
+  link: Unknown
+  title: Coherent manipulation of ultracold atoms on atom chips
   year: 2004
 updated_at: '2026-05-04'
 verification_source_count: 2

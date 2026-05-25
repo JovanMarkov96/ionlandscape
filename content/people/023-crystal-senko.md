@@ -10,15 +10,15 @@ applications:
 created_at: '2026-01-28'
 current_position:
   institution: Institute for Quantum Computing, University of Waterloo
-  title: Associate Professor / Canada Research Chair in Trapped Ion Quantum Computing
   since_year: null
+  title: Associate Professor / Canada Research Chair in Trapped Ion Quantum Computing
 education:
 - advisor: Christopher Monroe
   advisor_id: 004-christopher-monroe
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Maryland, College Park
   year: 2014
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 023-crystal-senko
@@ -26,10 +26,10 @@ ion_species:
 - 133Ba+
 - 137Ba+
 key_papers:
-- title: "Realization of a Quantum Integer-Spin Chain with Controllable Interactions"
-  year: 2015
-  doi: 10.1103/PhysRevX.5.021026
+- doi: 10.1103/PhysRevX.5.021026
   role: first_author
+  title: Realization of a Quantum Integer-Spin Chain with Controllable Interactions
+  year: 2015
 keywords:
 - trapped ions
 - quantum simulation
@@ -41,8 +41,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=c_E97UoAAAAJ
   group_page: https://uwaterloo.ca/trapped-ion-quantum-control-lab/
@@ -54,21 +54,29 @@ location:
   lat: 43.4643
   lon: -80.5204
   region: Ontario
+metrics:
+  citation_count: 14676
+  h_index: 46
+  publication_count: 257
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Crystal Senko
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Mikhail Lukin
   advisor_id: null
-  institution: MIT-Harvard Center for Ultracold Atoms (CUA)
-  years: 'unknown'
-  note: Postdoctoral fellowship focusing on photonic crystal waveguides for atom-photon interfaces.
   confidence: confirmed
+  institution: MIT-Harvard Center for Ultracold Atoms (CUA)
+  note: Postdoctoral fellowship focusing on photonic crystal waveguides for atom-photon
+    interfaces.
+  years: unknown
 schema_version: 2
 sort_name: Senko, Crystal
 thesis:
-  link: "Unknown"
-  title: "Dynamics and Excited States of Quantum Many-Body Spin Chains with Trapped ions"
+  link: Unknown
+  title: Dynamics and Excited States of Quantum Many-Body Spin Chains with Trapped
+    ions
   year: 2014
 updated_at: '2026-05-04'
 verification_source_count: 2

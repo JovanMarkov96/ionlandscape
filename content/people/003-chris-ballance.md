@@ -52,11 +52,11 @@ location:
   lon: -1.2582
   region: England
 metrics:
-  citation_count: 3279
+  citation_count: 3284
   h_index: 21
   publication_count: 69
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Chris Ballance
 platforms:
 - trapped_ion

@@ -15,9 +15,6 @@ location:
 name: Jun Ye
 platforms: []
 schema_version: 2
-sources:
-- note: Affiliation from Wikipedia infobox
-  url: https://en.wikipedia.org/wiki/Jun_Ye
 stub: true
 updated_at: '2026-05-21'
 ---

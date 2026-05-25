@@ -1,41 +1,42 @@
 ---
 active: active
 affiliations:
-- name: QuEra Computing Inc.
-  type: company
+- entity_id: c006-quera-computing
+  name: QuEra Computing Inc.
   role: Co-founder and Chief Technology Officer (CTO)
-  entity_id: c006-quera-computing
+  type: company
 applications:
 - computing
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
   institution: Massachusetts Institute of Technology
-  title: Lester Wolfe Professor of Physics
   since_year: 2011
+  title: Lester Wolfe Professor of Physics
 education:
 - degree: Physics Diploma (Diplom)
   institution: Ludwig-Maximilians-Universität München (LMU Munich)
   year: 1992
 - advisor: Theodor W. Hänsch
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Ludwig-Maximilians-Universität München (LMU Munich)
-  year: 1997
-  confidence: confirmed
   source: https://physics.mit.edu/faculty/vladan-vuletic/
+  year: 1997
 entity_type: person
 group_type: experimental
 id: 040-vladan-vuletic
 ion_species: []
 key_papers:
-- title: "Logical quantum processor based on reconfigurable atom arrays"
-  year: 2024
-  doi: 10.1038/s41586-023-06927-3
+- doi: 10.1038/s41586-023-06927-3
   role: co_author
-- title: "Ion crystal transducer for strong coupling between single ions and single photons"
-  year: 2011
-  doi: 10.1103/PhysRevLett.107.030501
+  title: Logical quantum processor based on reconfigurable atom arrays
+  year: 2024
+- doi: 10.1103/PhysRevLett.107.030501
   role: senior_author
+  title: Ion crystal transducer for strong coupling between single ions and single
+    photons
+  year: 2011
 keywords:
 - ultracold atoms
 - quantum optics
@@ -48,8 +49,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=E_7YsOgAAAAJ&hl=en
   group_page: https://cua.mit.edu/people/vladan-vuletic/
@@ -60,28 +61,35 @@ location:
   lat: 42.3601
   lon: -71.0942
   region: Massachusetts
+metrics:
+  citation_count: 24698
+  h_index: 73
+  publication_count: 372
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Vladan Vuletić
 platforms:
 - neutral_atom
 postdocs:
 - advisor: Theodor W. Hänsch
   advisor_id: null
-  institution: Max Planck Institute for Quantum Optics (MPQ)
-  years: '1997'
-  note: Brief postdoctoral stint following PhD.
   confidence: confirmed
+  institution: Max Planck Institute for Quantum Optics (MPQ)
+  note: Brief postdoctoral stint following PhD.
+  years: '1997'
 - advisor: Steven Chu
   advisor_id: null
-  institution: Stanford University
-  years: '1997-2000'
-  note: Feodor Lynen Fellowship from the Alexander von Humboldt Foundation.
   confidence: confirmed
+  institution: Stanford University
+  note: Feodor Lynen Fellowship from the Alexander von Humboldt Foundation.
+  years: 1997-2000
 schema_version: 2
 sort_name: Vuletić, Vladan
 thesis:
-  link: "Unknown"
-  note: Thesis title topic related to magnetic trapping of cold atoms. Exact title not readily available.
-  title: "Unknown"
+  link: Unknown
+  note: Thesis title topic related to magnetic trapping of cold atoms. Exact title
+    not readily available.
+  title: Unknown
   year: 1997
 updated_at: '2026-05-04'
 verification_source_count: 3

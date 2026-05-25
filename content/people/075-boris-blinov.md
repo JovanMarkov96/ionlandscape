@@ -7,8 +7,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Washington
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
   confidence: not_found
@@ -23,10 +23,10 @@ ion_species:
 - 137Ba+
 - 138Ba+
 key_papers:
-- title: "Observation of entanglement between a single trapped atom and a single photon"
-  year: 2004
-  doi: 10.1038/nature02377
+- doi: 10.1038/nature02377
   role: first_author
+  title: Observation of entanglement between a single trapped atom and a single photon
+  year: 2004
 keywords:
 - trapped ions
 - quantum networks
@@ -37,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=BXqgH5oAAAAJ
   group_page: https://depts.washington.edu/qcomp/
@@ -49,21 +49,28 @@ location:
   lat: 47.6062
   lon: -122.3321
   region: Washington
+metrics:
+  citation_count: 2075
+  h_index: 22
+  publication_count: 164
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Boris B. Blinov
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Christopher Monroe
   advisor_id: 004-christopher-monroe
-  institution: University of Michigan
-  years: '2001-2004'
-  note: Postdoctoral researcher focusing on trapped-ion quantum computing.
   confidence: confirmed
+  institution: University of Michigan
+  note: Postdoctoral researcher focusing on trapped-ion quantum computing.
+  years: 2001-2004
 schema_version: 2
 sort_name: Blinov, Boris B.
 thesis:
-  link: "Unknown"
-  title: "RF DEPOLARIZING RESONANCES IN THE PRESENCE OF A FULL SIBERIAN SNAKE AND FULL SNAKE SPIN-FLIPPING"
+  link: Unknown
+  title: RF DEPOLARIZING RESONANCES IN THE PRESENCE OF A FULL SIBERIAN SNAKE AND FULL
+    SNAKE SPIN-FLIPPING
   year: 2000
 updated_at: '2026-05-04'
 verification_source_count: 2

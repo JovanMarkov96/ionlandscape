@@ -8,24 +8,24 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Innsbruck
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: Andrew White
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Queensland
   year: 2009
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 077-ben-lanyon
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Universal digital quantum simulation with trapped ions"
-  year: 2011
-  doi: 10.1126/science.1208001
+- doi: 10.1126/science.1208001
   role: first_author
+  title: Universal digital quantum simulation with trapped ions
+  year: 2011
 keywords:
 - trapped ions
 - quantum networks
@@ -37,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=DXqgH5oAAAAJ
   group_page: https://www.uibk.ac.at/exphys/distributed-quantum-systems/
@@ -49,21 +49,27 @@ location:
   lat: 47.2692
   lon: 11.4041
   region: Tyrol
+metrics:
+  citation_count: 9324
+  h_index: 31
+  publication_count: 78
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Ben P. Lanyon
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Rainer Blatt
   advisor_id: 002-rainer-blatt
-  institution: University of Innsbruck
-  years: 'unknown'
-  note: Postdoctoral researcher focusing on trapped-ion quantum simulation.
   confidence: confirmed
+  institution: University of Innsbruck
+  note: Postdoctoral researcher focusing on trapped-ion quantum simulation.
+  years: unknown
 schema_version: 2
 sort_name: Lanyon, Ben P.
 thesis:
-  link: "Unknown"
-  title: "Optical quantum information: new states, gates and algorithms"
+  link: Unknown
+  title: 'Optical quantum information: new states, gates and algorithms'
   year: 2009
 updated_at: '2026-05-04'
 verification_source_count: 2

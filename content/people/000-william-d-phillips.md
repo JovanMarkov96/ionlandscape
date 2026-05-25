@@ -15,9 +15,6 @@ location:
 name: William D. Phillips
 platforms: []
 schema_version: 2
-sources:
-- note: Affiliation from Wikipedia infobox
-  url: https://en.wikipedia.org/wiki/William_D._Phillips
 stub: true
 updated_at: '2026-05-21'
 ---

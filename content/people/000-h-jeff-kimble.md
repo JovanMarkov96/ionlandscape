@@ -15,9 +15,6 @@ location:
 name: H. Jeff Kimble
 platforms: []
 schema_version: 2
-sources:
-- note: Affiliation from Wikipedia infobox
-  url: https://en.wikipedia.org/wiki/H._Jeff_Kimble
 stub: true
 updated_at: '2026-05-21'
 ---

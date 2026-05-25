@@ -82,11 +82,11 @@ location:
   lon: -105.2629
   region: Colorado
 metrics:
-  citation_count: 20805
+  citation_count: 20813
   h_index: 70
   publication_count: 352
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Dietrich Leibfried
 platforms:
 - trapped_ion

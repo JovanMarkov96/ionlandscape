@@ -70,8 +70,8 @@ metrics:
   citation_count: 15663
   h_index: 54
   publication_count: 328
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: John J. Bollinger
 platforms:
 - trapped_ion

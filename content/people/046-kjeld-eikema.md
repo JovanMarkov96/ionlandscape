@@ -8,24 +8,24 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: VU Amsterdam
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: Wim Hogervorst
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Vrije Universiteit Amsterdam
   year: 1996
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 046-kjeld-eikema
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Precision spectroscopy of helium in a magic wavelength optical dipole trap"
-  year: 2018
-  doi: 10.1038/s41567-018-0263-x
+- doi: 10.1038/s41567-018-0263-x
   role: senior_author
+  title: Precision spectroscopy of helium in a magic wavelength optical dipole trap
+  year: 2018
 keywords:
 - precision measurement
 - frequency combs
@@ -37,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=obso9DoAAAAJ
   group_page: https://research.vu.nl/en/persons/kjeld-eikema
@@ -49,19 +49,25 @@ location:
   lat: 52.3676
   lon: 4.9041
   region: North Holland
+metrics:
+  citation_count: 5449
+  h_index: 43
+  publication_count: 256
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Kjeld S. E. Eikema
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Eikema, Kjeld S. E.
 thesis:
-  link: "Unknown"
-  title: "QED and the ground state of helium, precision extreme ultraviolet spectroscopy"
+  link: Unknown
+  title: QED and the ground state of helium, precision extreme ultraviolet spectroscopy
   year: 1996
 updated_at: '2026-05-04'
 verification_source_count: 2

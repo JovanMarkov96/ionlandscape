@@ -61,11 +61,11 @@ location:
   lon: 151.2093
   region: New South Wales
 metrics:
-  citation_count: 5528
+  citation_count: 5531
   h_index: 36
   publication_count: 185
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Michael J. Biercuk
 platforms:
 - trapped_ion

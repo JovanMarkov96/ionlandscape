@@ -57,8 +57,8 @@ metrics:
   citation_count: 593
   h_index: 12
   publication_count: 42
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Ziv Meir
 platforms:
 - trapped_ion

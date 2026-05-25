@@ -7,24 +7,24 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Seoul National University
-  title: Associate Professor
   since_year: null
+  title: Associate Professor
 education:
 - advisor: Franco N. C. Wong
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Massachusetts Institute of Technology
   year: 2008
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 063-taehyun-kim
 ion_species:
 - 171Yb+
 key_papers:
-- title: "Scalable and programmable phononic network with trapped ions"
-  year: 2023
-  doi: 10.1038/s41567-023-01955-4
+- doi: 10.1038/s41567-023-01955-4
   role: senior_author
+  title: Scalable and programmable phononic network with trapped ions
+  year: 2023
 keywords:
 - trapped ions
 - quantum computing
@@ -35,8 +35,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=9_5WtHeAAAAJ
   group_page: http://qis.snu.ac.kr/
@@ -47,21 +47,27 @@ location:
   lat: 37.5665
   lon: 126.978
   region: Seoul
+metrics:
+  citation_count: 86
+  h_index: 2
+  publication_count: 3
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Taehyun Kim
 platforms:
 - trapped_ion
 postdocs:
 - advisor: Jungsang Kim
   advisor_id: 020-jungsang-kim
-  institution: Duke University
-  years: '2008-2011'
-  note: Postdoctoral research on microscale optics and ion-photon interfaces.
   confidence: confirmed
+  institution: Duke University
+  note: Postdoctoral research on microscale optics and ion-photon interfaces.
+  years: 2008-2011
 schema_version: 2
 sort_name: Kim, Taehyun
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: 2008
 updated_at: '2026-05-04'
 verification_source_count: 2

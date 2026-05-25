@@ -8,15 +8,15 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: National Institute of Standards and Technology (NIST), Boulder
-  title: Physicist
   since_year: null
+  title: Physicist
 education:
 - advisor: David Wineland
   advisor_id: 001-david-wineland
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Colorado Boulder
   year: 2010
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 073-david-hume
@@ -35,8 +35,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=zXqgH5oAAAAJ
   group_page: https://www.nist.gov/people/david-b-hume
@@ -47,19 +47,25 @@ location:
   lat: 40.015
   lon: -105.2705
   region: Colorado
+metrics:
+  citation_count: 8543
+  h_index: 29
+  publication_count: 124
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: David Hume
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Hume, David
 thesis:
-  link: "Unknown"
-  title: "Accurate optical clocks based on trapped ions"
+  link: Unknown
+  title: Accurate optical clocks based on trapped ions
   year: 2010
 updated_at: '2026-05-04'
 verification_source_count: 2

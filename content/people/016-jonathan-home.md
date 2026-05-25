@@ -63,11 +63,11 @@ location:
   lon: 8.5072
   region: Zürich
 metrics:
-  citation_count: 4233
+  citation_count: 4238
   h_index: 31
   publication_count: 153
-  retrieved_at: '2026-05-21'
-  source: null
+  retrieved_at: '2026-05-25'
+  source: openalex
 name: Jonathan P. Home
 platforms:
 - trapped_ion
