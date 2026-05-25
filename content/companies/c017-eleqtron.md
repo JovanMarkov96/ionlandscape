@@ -10,6 +10,8 @@ location:
   country: Germany
   lat: 50.8748
   lon: 8.0243
+media:
+  logo_path: /logos/c017-eleqtron.png
 name: eleQtron
 platforms:
 - trapped_ion

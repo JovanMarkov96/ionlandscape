@@ -12,6 +12,16 @@ function LineageGraph() {
     const [showLineage, setShowLineage] = useState(true);
     const [showAffiliation, setShowAffiliation] = useState(true);
     const [hideIsolated, setHideIsolated] = useState(true);
+    const [dark, setDark] = useState(false);
+
+    // Track Docusaurus light/dark theme so the canvas + labels adapt
+    useEffect(() => {
+        const read = () => setDark(document.documentElement.getAttribute('data-theme') === 'dark');
+        read();
+        const obs = new MutationObserver(read);
+        obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+        return () => obs.disconnect();
+    }, []);
 
     useEffect(() => {
         const loadData = async () => {
@@ -74,18 +84,25 @@ function LineageGraph() {
 
     if (loading) return <div style={{ padding: '50px', textAlign: 'center' }}>Loading Graph Data...</div>;
 
-    const Legend = () => (
-        <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', alignItems: 'center', fontSize: '0.85rem' }}>
-            {Object.entries({ People: TYPE_COLORS.person, Companies: TYPE_COLORS.company, Institutions: TYPE_COLORS.institution }).map(([label, color]) => (
-                <span key={label} style={{ display: 'inline-flex', alignItems: 'center', gap: '5px' }}>
-                    <span style={{ width: 11, height: 11, borderRadius: '50%', background: color, display: 'inline-block' }} /> {label}
-                </span>
-            ))}
-            <span style={{ borderLeft: '1px solid #ccc', paddingLeft: '14px', display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
-                <label style={{ cursor: 'pointer' }}><input type="checkbox" checked={showLineage} onChange={e => setShowLineage(e.target.checked)} /> Lineage (advisor)</label>
-                <label style={{ cursor: 'pointer' }}><input type="checkbox" checked={showAffiliation} onChange={e => setShowAffiliation(e.target.checked)} /> Affiliation / founding</label>
-                <label style={{ cursor: 'pointer' }}><input type="checkbox" checked={hideIsolated} onChange={e => setHideIsolated(e.target.checked)} /> Hide unconnected</label>
-            </span>
+    const labelColor = dark ? 'rgba(225,228,240,0.95)' : 'rgba(60,60,70,0.95)';
+    const labelHalo = dark ? 'rgba(10,12,20,0.85)' : 'rgba(255,255,255,0.85)';
+
+    const Panel = () => (
+        <div className="graph-legend-panel">
+            <h2>Lineage &amp; Affiliation Graph</h2>
+            <div className="graph-legend-dots">
+                {Object.entries({ People: TYPE_COLORS.person, Companies: TYPE_COLORS.company, Institutions: TYPE_COLORS.institution }).map(([label, color]) => (
+                    <span key={label}>
+                        <span className="graph-dot" style={{ background: color }} /> {label}
+                    </span>
+                ))}
+            </div>
+            <div className="graph-legend-filters">
+                <label><input type="checkbox" checked={showLineage} onChange={e => setShowLineage(e.target.checked)} /> Lineage (advisor)</label>
+                <label><input type="checkbox" checked={showAffiliation} onChange={e => setShowAffiliation(e.target.checked)} /> Affiliation / founding</label>
+                <label><input type="checkbox" checked={hideIsolated} onChange={e => setHideIsolated(e.target.checked)} /> Hide unconnected</label>
+            </div>
+            <small>{graphData.nodes.length} nodes · {graphData.links.length} connections · click a node to open its profile</small>
         </div>
     );
 
@@ -94,49 +111,47 @@ function LineageGraph() {
             {() => {
                 const ForceGraph2D = require('react-force-graph-2d').default;
                 return (
-                    <div style={{ width: '100vw', height: 'calc(100vh - 60px)', display: 'flex', flexDirection: 'column' }}>
-                        <div style={{ padding: '10px 20px', background: 'var(--ion-surface, #f8f9fa)', borderBottom: '1px solid #ddd' }}>
-                            <h2 style={{ margin: '0 0 6px', fontSize: '1.2rem' }}>Lineage &amp; Affiliation Graph</h2>
-                            <Legend />
-                            <small style={{ color: '#888' }}>{graphData.nodes.length} nodes · {graphData.links.length} connections · click a node to open its profile</small>
-                        </div>
-                        <div style={{ flex: 1, position: 'relative' }}>
-                            <ForceGraph2D
-                                graphData={graphData}
-                                nodeLabel="name"
-                                nodeVal="val"
-                                nodeColor={n => n.color}
-                                onNodeClick={handleNodeClick}
-                                linkDirectionalArrowLength={3.5}
-                                linkDirectionalArrowRelPos={1}
-                                linkCurvature={0.15}
-                                linkColor={() => 'rgba(150,150,150,0.4)'}
-                                linkLabel="name"
-                                nodeCanvasObject={(node, ctx, globalScale) => {
-                                    const r = Math.sqrt(node.val) * 1.8;
-                                    ctx.beginPath();
-                                    ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
-                                    ctx.fillStyle = node.color;
-                                    ctx.fill();
-                                    if (globalScale > 1.4 || node.kind !== 'person') {
-                                        const label = node.name;
-                                        const fontSize = Math.max(3, 11 / globalScale);
-                                        ctx.font = `${fontSize}px Sans-Serif`;
-                                        ctx.textAlign = 'center';
-                                        ctx.textBaseline = 'top';
-                                        ctx.fillStyle = 'rgba(80,80,80,0.95)';
-                                        ctx.fillText(label, node.x, node.y + r + 1);
-                                    }
-                                }}
-                                nodePointerAreaPaint={(node, color, ctx) => {
-                                    const r = Math.sqrt(node.val) * 1.8 + 2;
-                                    ctx.beginPath();
-                                    ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
-                                    ctx.fillStyle = color;
-                                    ctx.fill();
-                                }}
-                            />
-                        </div>
+                    <div style={{ width: '100vw', height: 'calc(100vh - 60px)', position: 'relative' }}>
+                        <Panel />
+                        <ForceGraph2D
+                            graphData={graphData}
+                            backgroundColor={dark ? '#0d1018' : '#ffffff'}
+                            nodeLabel="name"
+                            nodeVal="val"
+                            nodeColor={n => n.color}
+                            onNodeClick={handleNodeClick}
+                            linkDirectionalArrowLength={3.5}
+                            linkDirectionalArrowRelPos={1}
+                            linkCurvature={0.15}
+                            linkColor={() => dark ? 'rgba(150,160,190,0.35)' : 'rgba(120,120,140,0.4)'}
+                            linkLabel="name"
+                            nodeCanvasObject={(node, ctx, globalScale) => {
+                                const r = Math.sqrt(node.val) * 1.8;
+                                ctx.beginPath();
+                                ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
+                                ctx.fillStyle = node.color;
+                                ctx.fill();
+                                if (globalScale > 1.4 || node.kind !== 'person') {
+                                    const label = node.name;
+                                    const fontSize = Math.max(3, 11 / globalScale);
+                                    ctx.font = `${fontSize}px Sans-Serif`;
+                                    ctx.textAlign = 'center';
+                                    ctx.textBaseline = 'top';
+                                    ctx.lineWidth = 3 / globalScale;
+                                    ctx.strokeStyle = labelHalo;
+                                    ctx.strokeText(label, node.x, node.y + r + 1);
+                                    ctx.fillStyle = labelColor;
+                                    ctx.fillText(label, node.x, node.y + r + 1);
+                                }
+                            }}
+                            nodePointerAreaPaint={(node, color, ctx) => {
+                                const r = Math.sqrt(node.val) * 1.8 + 2;
+                                ctx.beginPath();
+                                ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
+                                ctx.fillStyle = color;
+                                ctx.fill();
+                            }}
+                        />
                     </div>
                 );
             }}

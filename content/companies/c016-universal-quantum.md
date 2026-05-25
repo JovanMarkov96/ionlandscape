@@ -10,6 +10,8 @@ location:
   country: United Kingdom
   lat: 50.8225
   lon: -0.1372
+media:
+  logo_path: /logos/c016-universal-quantum.png
 name: Universal Quantum
 platforms:
 - trapped_ion
