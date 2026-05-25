@@ -101,8 +101,8 @@
   },
   {
     "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
-    "name": "Centre For Quantum Technologies National University Of Singapore",
-    "sort_name": "Centre For Quantum Technologies National University Of Singapore",
+    "name": "Centre for Quantum Technologies National University of Singapore",
+    "sort_name": "Centre for Quantum Technologies National University of Singapore",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -179,9 +179,9 @@
     "updated_at": ""
   },
   {
-    "id": "i005-eth-zurich",
-    "name": "Eth Zurich",
-    "sort_name": "Eth Zurich",
+    "id": "eth-zurich",
+    "name": "ETH Zurich",
+    "sort_name": "ETH Zurich",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -258,8 +258,8 @@
   },
   {
     "id": "i007-georgia-institute-of-technology",
-    "name": "Georgia Institute Of Technology",
-    "sort_name": "Georgia Institute Of Technology",
+    "name": "Georgia Institute of Technology",
+    "sort_name": "Georgia Institute of Technology",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -373,15 +373,17 @@
     "updated_at": ""
   },
   {
-    "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
-    "name": "Indian Institute Of Science Education And Research Iiser Pune",
-    "sort_name": "Indian Institute Of Science Education And Research Iiser Pune",
+    "id": "iiser-pune",
+    "name": "IISER Pune",
+    "sort_name": "IISER Pune",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
     "location": {
-      "city": "Maharashtra",
-      "country": "IISER Bhopal in Madhya Pradesh"
+      "city": "Pune",
+      "country": "India",
+      "lat": 18.5548,
+      "lon": 73.8069
     },
     "institution_type": "unknown",
     "short_description": "Indian Institutes of Science Education and Research or IISERs (pronunciation: \"EYE-sir\") are a group of autonomous institutions established by the Government of India through the Ministry of Education for teaching and research in natural science and to provide collegiate education in basic sciences integrated with research at the undergraduate level.\nThe institutes were formally established by the Parliament of India through the Science Education and Research (Amendment) Act, 2010. Seven IISERs have been established across the country, namely IISER Pune in Maharashtra, IISER Bhopal in Madhya Pradesh, IISER Mohali in Punjab, IISER Kolkata in West Bengal, IISER Thiruvananthapuram in Kerala, IISER Tirupati in Andhra Pradesh, and IISER Berhampur in Odisha. All IISERs were declared as Institutes of National Importance by the Parliament of India in 2012, to promote them as leading institutions in the country in the field of basic sciences along with institutes like Indian Institute of...",
@@ -407,9 +409,9 @@
     "updated_at": ""
   },
   {
-    "id": "i011-institute-for-basic-science-ibs-south-korea",
-    "name": "Institute For Basic Science Ibs South Korea",
-    "sort_name": "Institute For Basic Science Ibs South Korea",
+    "id": "institute-for-basic-science-ibs",
+    "name": "Institute for Basic Science (IBS)",
+    "sort_name": "Institute for Basic Science (IBS)",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -444,8 +446,8 @@
   },
   {
     "id": "i012-institute-for-quantum-computing-university-of-waterloo",
-    "name": "Institute For Quantum Computing University Of Waterloo",
-    "sort_name": "Institute For Quantum Computing University Of Waterloo",
+    "name": "Institute for Quantum Computing University of Waterloo",
+    "sort_name": "Institute for Quantum Computing University of Waterloo",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -479,15 +481,15 @@
     "updated_at": ""
   },
   {
-    "id": "i013-ionq-inc",
-    "name": "Ionq Inc",
-    "sort_name": "Ionq Inc",
+    "id": "ionq-inc",
+    "name": "IonQ Inc.",
+    "sort_name": "IonQ Inc.",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
     "location": {
       "city": "College Park",
-      "country": "Maryland. The company develops general-purpose trapped ion quantum computers and accompanying software to generate"
+      "country": "United States"
     },
     "institution_type": "unknown",
     "short_description": "IonQ, Inc. is an American quantum computing hardware and software company headquartered in College Park, Maryland. The company develops general-purpose trapped ion quantum computers and accompanying software to generate, optimize, and execute quantum circuits.",
@@ -594,9 +596,9 @@
     "updated_at": ""
   },
   {
-    "id": "i016-mit-lincoln-laboratory",
-    "name": "Mit Lincoln Laboratory",
-    "sort_name": "Mit Lincoln Laboratory",
+    "id": "mit-lincoln-laboratory",
+    "name": "MIT Lincoln Laboratory",
+    "sort_name": "MIT Lincoln Laboratory",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -633,8 +635,8 @@
   },
   {
     "id": "i017-massachusetts-institute-of-technology",
-    "name": "Massachusetts Institute Of Technology",
-    "sort_name": "Massachusetts Institute Of Technology",
+    "name": "Massachusetts Institute of Technology",
+    "sort_name": "Massachusetts Institute of Technology",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -679,9 +681,9 @@
     "updated_at": ""
   },
   {
-    "id": "i018-national-institute-of-information-and-communications-technology-nict",
-    "name": "National Institute Of Information And Communications Technology Nict",
-    "sort_name": "National Institute Of Information And Communications Technology Nict",
+    "id": "national-institute-of-information-and-communications-technology-nict",
+    "name": "National Institute of Information and Communications Technology (NICT)",
+    "sort_name": "National Institute of Information and Communications Technology (NICT)",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -699,10 +701,12 @@
       "logo_path": "/img/institutions/i018-national-institute-of-information-and-communications-technology-nict_mark.png"
     },
     "directory": {
-      "current_members": [],
+      "current_members": [
+        "045-kazuhiro-hayasaka.md"
+      ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 0,
+      "member_count": 1,
       "alumni_count": 0
     },
     "sources": [
@@ -715,13 +719,18 @@
     "updated_at": ""
   },
   {
-    "id": "i019-national-institute-of-standards-and-technology-nist-boulder",
-    "name": "National Institute Of Standards And Technology Nist Boulder",
-    "sort_name": "National Institute Of Standards And Technology Nist Boulder",
+    "id": "nist-boulder",
+    "name": "NIST Boulder",
+    "sort_name": "NIST Boulder",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
-    "location": {},
+    "location": {
+      "city": "Boulder",
+      "country": "United States",
+      "lat": 40.0076,
+      "lon": -105.2659
+    },
     "institution_type": "unknown",
     "short_description": "The National Institute of Standards and Technology (NIST) is an agency of the United States Department of Commerce whose mission is to promote American innovation and industrial competitiveness. NIST's activities are organized into physical science laboratory programs that include nanoscale science and technology, engineering, information technology, neutron research, material measurement, and physical measurement.  From 1901 to 1988, the agency was named the National Bureau of Standards.\nThe NIST Historic District was listed on the National Register of Historic Places in 2021.",
     "focus_areas": [],
@@ -746,9 +755,9 @@
     "updated_at": ""
   },
   {
-    "id": "i020-national-physical-laboratory-npl",
-    "name": "National Physical Laboratory Npl",
-    "sort_name": "National Physical Laboratory Npl",
+    "id": "national-physical-laboratory-npl",
+    "name": "National Physical Laboratory (NPL)",
+    "sort_name": "National Physical Laboratory (NPL)",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -766,10 +775,13 @@
       "logo_path": "/img/institutions/i020-national-physical-laboratory-npl_mark.png"
     },
     "directory": {
-      "current_members": [],
+      "current_members": [
+        "049-patrick-gill.md",
+        "050-rachel-godun.md"
+      ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 0,
+      "member_count": 2,
       "alumni_count": 0
     },
     "sources": [
@@ -782,9 +794,9 @@
     "updated_at": ""
   },
   {
-    "id": "i021-okinawa-institute-of-science-and-technology-oist",
-    "name": "Okinawa Institute Of Science And Technology Oist",
-    "sort_name": "Okinawa Institute Of Science And Technology Oist",
+    "id": "okinawa-institute-of-science-and-technology-oist",
+    "name": "Okinawa Institute of Science and Technology (OIST)",
+    "sort_name": "Okinawa Institute of Science and Technology (OIST)",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -802,10 +814,12 @@
       "logo_path": "/img/institutions/i021-okinawa-institute-of-science-and-technology-oist_mark.png"
     },
     "directory": {
-      "current_members": [],
+      "current_members": [
+        "054-hiroki-takahashi.md"
+      ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 0,
+      "member_count": 1,
       "alumni_count": 0
     },
     "sources": [
@@ -861,9 +875,9 @@
     "updated_at": ""
   },
   {
-    "id": "i023-postech",
-    "name": "Postech",
-    "sort_name": "Postech",
+    "id": "postech",
+    "name": "POSTECH",
+    "sort_name": "POSTECH",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -973,9 +987,9 @@
     "updated_at": ""
   },
   {
-    "id": "i026-physikalisch-technische-bundesanstalt-ptb",
-    "name": "Physikalisch Technische Bundesanstalt Ptb",
-    "sort_name": "Physikalisch Technische Bundesanstalt Ptb",
+    "id": "physikalisch-technische-bundesanstalt-ptb",
+    "name": "Physikalisch-Technische Bundesanstalt (PTB)",
+    "sort_name": "Physikalisch-Technische Bundesanstalt (PTB)",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1240,9 +1254,9 @@
     "updated_at": ""
   },
   {
-    "id": "i033-sungkyunkwan-university-skku",
-    "name": "Sungkyunkwan University Skku",
-    "sort_name": "Sungkyunkwan University Skku",
+    "id": "sungkyunkwan-university-skku",
+    "name": "Sungkyunkwan University (SKKU)",
+    "sort_name": "Sungkyunkwan University (SKKU)",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1260,10 +1274,12 @@
       "logo_path": "/img/institutions/i033-sungkyunkwan-university-skku_mark.png"
     },
     "directory": {
-      "current_members": [],
+      "current_members": [
+        "064-junki-kim.md"
+      ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 0,
+      "member_count": 1,
       "alumni_count": 0
     },
     "sources": [
@@ -1277,8 +1293,8 @@
   },
   {
     "id": "i034-technion-israel-institute-of-technology",
-    "name": "Technion Israel Institute Of Technology",
-    "sort_name": "Technion Israel Institute Of Technology",
+    "name": "Technion Israel Institute of Technology",
+    "sort_name": "Technion Israel Institute of Technology",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1387,8 +1403,8 @@
   },
   {
     "id": "i037-university-of-amsterdam",
-    "name": "University Of Amsterdam",
-    "sort_name": "University Of Amsterdam",
+    "name": "University of Amsterdam",
+    "sort_name": "University of Amsterdam",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1425,12 +1441,17 @@
   },
   {
     "id": "i038-university-of-basel",
-    "name": "University Of Basel",
-    "sort_name": "University Of Basel",
+    "name": "University of Basel",
+    "sort_name": "University of Basel",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
-    "location": {},
+    "location": {
+      "city": "Basel",
+      "country": "Switzerland",
+      "lat": 47.5596,
+      "lon": 7.5806
+    },
     "institution_type": "unknown",
     "short_description": "The University of Basel (Latin: Universitas Basiliensis; German: Universität Basel) is a public research university in Basel, Switzerland. Founded on 4 April 1460, it is Switzerland's oldest university and among the world's oldest universities. The university is traditionally counted among the leading institutions of higher learning in the country.\nThe associated Basel University Library is the largest and among the most important libraries in Switzerland. The university hosts the faculties of theology, law, medicine, humanities and social sciences, science, psychology, and business and economics, as well as numerous cross-disciplinary subjects and institutes, such as the Biozentrum for biomedical research and the Institute for European Global Studies. In 2020, the university had 13,139 students and 378 professors. International students accounted for 27 percent of the student body.\nIn its over 500-year history, the university has been home to Erasmus of Rotterdam, Paracelsus, Daniel...",
     "focus_areas": [],
@@ -1460,8 +1481,8 @@
   },
   {
     "id": "i039-university-of-bonn",
-    "name": "University Of Bonn",
-    "sort_name": "University Of Bonn",
+    "name": "University of Bonn",
+    "sort_name": "University of Bonn",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1498,8 +1519,8 @@
   },
   {
     "id": "i040-university-of-buenos-aires",
-    "name": "University Of Buenos Aires",
-    "sort_name": "University Of Buenos Aires",
+    "name": "University of Buenos Aires",
+    "sort_name": "University of Buenos Aires",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1536,8 +1557,8 @@
   },
   {
     "id": "i041-university-of-calgary",
-    "name": "University Of Calgary",
-    "sort_name": "University Of Calgary",
+    "name": "University of Calgary",
+    "sort_name": "University of Calgary",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1576,8 +1597,8 @@
   },
   {
     "id": "i042-university-of-california-berkeley",
-    "name": "University Of California Berkeley",
-    "sort_name": "University Of California Berkeley",
+    "name": "University of California Berkeley",
+    "sort_name": "University of California Berkeley",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1612,8 +1633,8 @@
   },
   {
     "id": "i043-university-of-california-los-angeles",
-    "name": "University Of California Los Angeles",
-    "sort_name": "University Of California Los Angeles",
+    "name": "University of California Los Angeles",
+    "sort_name": "University of California Los Angeles",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1648,8 +1669,8 @@
   },
   {
     "id": "i044-university-of-granada",
-    "name": "University Of Granada",
-    "sort_name": "University Of Granada",
+    "name": "University of Granada",
+    "sort_name": "University of Granada",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1684,8 +1705,8 @@
   },
   {
     "id": "i045-university-of-groningen",
-    "name": "University Of Groningen",
-    "sort_name": "University Of Groningen",
+    "name": "University of Groningen",
+    "sort_name": "University of Groningen",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1722,8 +1743,8 @@
   },
   {
     "id": "i046-university-of-innsbruck",
-    "name": "University Of Innsbruck",
-    "sort_name": "University Of Innsbruck",
+    "name": "University of Innsbruck",
+    "sort_name": "University of Innsbruck",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1771,8 +1792,8 @@
   },
   {
     "id": "i047-university-of-kassel",
-    "name": "University Of Kassel",
-    "sort_name": "University Of Kassel",
+    "name": "University of Kassel",
+    "sort_name": "University of Kassel",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1809,8 +1830,8 @@
   },
   {
     "id": "i048-university-of-oregon",
-    "name": "University Of Oregon",
-    "sort_name": "University Of Oregon",
+    "name": "University of Oregon",
+    "sort_name": "University of Oregon",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1847,8 +1868,8 @@
   },
   {
     "id": "i049-university-of-oxford",
-    "name": "University Of Oxford",
-    "sort_name": "University Of Oxford",
+    "name": "University of Oxford",
+    "sort_name": "University of Oxford",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1892,8 +1913,8 @@
   },
   {
     "id": "i050-university-of-siegen",
-    "name": "University Of Siegen",
-    "sort_name": "University Of Siegen",
+    "name": "University of Siegen",
+    "sort_name": "University of Siegen",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1930,8 +1951,8 @@
   },
   {
     "id": "i051-university-of-sussex",
-    "name": "University Of Sussex",
-    "sort_name": "University Of Sussex",
+    "name": "University of Sussex",
+    "sort_name": "University of Sussex",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1971,8 +1992,8 @@
   },
   {
     "id": "i052-university-of-sydney",
-    "name": "University Of Sydney",
-    "sort_name": "University Of Sydney",
+    "name": "University of Sydney",
+    "sort_name": "University of Sydney",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -2009,8 +2030,8 @@
   },
   {
     "id": "i053-university-of-tokyo",
-    "name": "University Of Tokyo",
-    "sort_name": "University Of Tokyo",
+    "name": "University of Tokyo",
+    "sort_name": "University of Tokyo",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -2051,8 +2072,8 @@
   },
   {
     "id": "i054-university-of-trento",
-    "name": "University Of Trento",
-    "sort_name": "University Of Trento",
+    "name": "University of Trento",
+    "sort_name": "University of Trento",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -2087,8 +2108,8 @@
   },
   {
     "id": "i055-university-of-washington",
-    "name": "University Of Washington",
-    "sort_name": "University Of Washington",
+    "name": "University of Washington",
+    "sort_name": "University of Washington",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -2126,9 +2147,9 @@
     "updated_at": ""
   },
   {
-    "id": "i056-vu-amsterdam",
-    "name": "Vu Amsterdam",
-    "sort_name": "Vu Amsterdam",
+    "id": "vu-amsterdam",
+    "name": "VU Amsterdam",
+    "sort_name": "VU Amsterdam",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -2171,7 +2192,12 @@
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
-    "location": {},
+    "location": {
+      "city": "Aarhus",
+      "country": "Denmark",
+      "lat": 56.1629,
+      "lon": 10.2039
+    },
     "institution_type": "unknown",
     "short_description": "Quantum programming refers to the process of designing and implementing algorithms that operate on quantum systems, typically using quantum circuits composed of quantum gates, measurements, and classical control logic. These circuits are developed to manipulate quantum states for specific computational tasks or experimental outcomes. Quantum programs may be executed on quantum processors, simulated on classical hardware, or implemented through laboratory instrumentation for research purposes.\nWhen working with quantum processor-based systems, quantum programming languages provide high-level abstractions to express quantum algorithms efficiently. These languages often integrate with classical programming environments and support hybrid quantum-classical workflows. The development of quantum software has been strongly influenced by the open-source community, with many toolkits and frameworks—such as Qrisp, Qiskit, Cirq, PennyLane, and qBraid SDK—available under open licenses.\nQuantum...",
     "focus_areas": [],
@@ -2244,13 +2270,16 @@
     "updated_at": ""
   },
   {
-    "id": "i059-cqiqc",
-    "name": "Cqiqc",
-    "sort_name": "Cqiqc",
+    "id": "cqiqc",
+    "name": "CQIQC",
+    "sort_name": "CQIQC",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
-    "location": {},
+    "location": {
+      "city": "Toronto",
+      "country": "Canada"
+    },
     "institution_type": "unknown",
     "short_description": "The John Stewart Bell Prize for Research on Fundamental Issues in Quantum Mechanics and their Applications (short form: Bell Prize) was established in 2009, funded and managed by the Centre for Quantum Information and Quantum Control (CQIQC) in the University of Toronto Faculty of Arts and Science. Named after John Stewart Bell (the physicist behind Bell's theorem, a theorem whose experimental vindication led to a Nobel Prize), it is awarded every odd-numbered year, for significant contributions relating to the foundations of quantum mechanics and to the applications of these principles – this covers, but is not limited to, quantum information theory, quantum computation, quantum foundations, quantum cryptography and quantum control. The selection committee has included Gilles Brassard, Peter Zoller, Alain Aspect, John Preskill, and Juan Ignacio Cirac Sasturain, in addition to previous winners Sandu Popescu, Michel Devoret and Nicolas Gisin.",
     "focus_areas": [],

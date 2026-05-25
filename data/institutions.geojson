@@ -45,7 +45,7 @@
       "type": "Feature",
       "properties": {
         "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
-        "name": "Centre For Quantum Technologies National University Of Singapore",
+        "name": "Centre for Quantum Technologies National University of Singapore",
         "entity_type": "institution",
         "city": "Singapore",
         "country": "Singapore",
@@ -84,8 +84,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i005-eth-zurich",
-        "name": "Eth Zurich",
+        "id": "eth-zurich",
+        "name": "ETH Zurich",
         "entity_type": "institution",
         "city": "Zürich",
         "country": "Schweiz/Suisse/Svizzera/Svizra",
@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "id": "i007-georgia-institute-of-technology",
-        "name": "Georgia Institute Of Technology",
+        "name": "Georgia Institute of Technology",
         "entity_type": "institution",
         "city": "Atlanta",
         "country": "United States",
@@ -178,22 +178,28 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
-        "name": "Indian Institute Of Science Education And Research Iiser Pune",
+        "id": "iiser-pune",
+        "name": "IISER Pune",
         "entity_type": "institution",
-        "city": "Maharashtra",
-        "country": "IISER Bhopal in Madhya Pradesh",
+        "city": "Pune",
+        "country": "India",
         "short_description": "Indian Institutes of Science Education and Research or IISERs (pronunciation: \"EYE-sir\") are a group of autonomous institutions established by the Government of India through the Ministry of Education for teaching and research in natural science and to provide collegiate education in basic sciences integrated with research at the undergraduate level.\nThe institutes were formally established by the Parliament of India through the Science Education and Research (Amendment) Act, 2010. Seven IISERs have been established across the country, namely IISER Pune in Maharashtra, IISER Bhopal in Madhya Pradesh, IISER Mohali in Punjab, IISER Kolkata in West Bengal, IISER Thiruvananthapuram in Kerala, IISER Tirupati in Andhra Pradesh, and IISER Berhampur in Odisha. All IISERs were declared as Institutes of National Importance by the Parliament of India in 2012, to promote them as leading institutions in the country in the field of basic sciences along with institutes like Indian Institute of...",
         "logo_path": "/img/institutions/i010-indian-institute-of-science-education-and-research-iiser-pune_mark.png",
         "md_filename": "i010-indian-institute-of-science-education-and-research-iiser-pune.md"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8069,
+          18.5548
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "i011-institute-for-basic-science-ibs-south-korea",
-        "name": "Institute For Basic Science Ibs South Korea",
+        "id": "institute-for-basic-science-ibs",
+        "name": "Institute for Basic Science (IBS)",
         "entity_type": "institution",
         "city": "대전광역시",
         "country": "대한민국",
@@ -213,7 +219,7 @@
       "type": "Feature",
       "properties": {
         "id": "i012-institute-for-quantum-computing-university-of-waterloo",
-        "name": "Institute For Quantum Computing University Of Waterloo",
+        "name": "Institute for Quantum Computing University of Waterloo",
         "entity_type": "institution",
         "city": "Waterloo",
         "country": "Canada",
@@ -232,11 +238,11 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i013-ionq-inc",
-        "name": "Ionq Inc",
+        "id": "ionq-inc",
+        "name": "IonQ Inc.",
         "entity_type": "institution",
         "city": "College Park",
-        "country": "Maryland. The company develops general-purpose trapped ion quantum computers and accompanying software to generate",
+        "country": "United States",
         "short_description": "IonQ, Inc. is an American quantum computing hardware and software company headquartered in College Park, Maryland. The company develops general-purpose trapped ion quantum computers and accompanying software to generate, optimize, and execute quantum circuits.",
         "logo_path": "/img/institutions/i013-ionq-inc_mark.png",
         "md_filename": "i013-ionq-inc.md"
@@ -286,8 +292,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i016-mit-lincoln-laboratory",
-        "name": "Mit Lincoln Laboratory",
+        "id": "mit-lincoln-laboratory",
+        "name": "MIT Lincoln Laboratory",
         "entity_type": "institution",
         "city": "Lexington",
         "country": "United States",
@@ -307,7 +313,7 @@
       "type": "Feature",
       "properties": {
         "id": "i017-massachusetts-institute-of-technology",
-        "name": "Massachusetts Institute Of Technology",
+        "name": "Massachusetts Institute of Technology",
         "entity_type": "institution",
         "city": "Cambridge",
         "country": "United States",
@@ -326,8 +332,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i018-national-institute-of-information-and-communications-technology-nict",
-        "name": "National Institute Of Information And Communications Technology Nict",
+        "id": "national-institute-of-information-and-communications-technology-nict",
+        "name": "National Institute of Information and Communications Technology (NICT)",
         "entity_type": "institution",
         "city": "小平市",
         "country": "日本",
@@ -346,22 +352,28 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i019-national-institute-of-standards-and-technology-nist-boulder",
-        "name": "National Institute Of Standards And Technology Nist Boulder",
+        "id": "nist-boulder",
+        "name": "NIST Boulder",
         "entity_type": "institution",
-        "city": "",
-        "country": "",
+        "city": "Boulder",
+        "country": "United States",
         "short_description": "The National Institute of Standards and Technology (NIST) is an agency of the United States Department of Commerce whose mission is to promote American innovation and industrial competitiveness. NIST's activities are organized into physical science laboratory programs that include nanoscale science and technology, engineering, information technology, neutron research, material measurement, and physical measurement.  From 1901 to 1988, the agency was named the National Bureau of Standards.\nThe NIST Historic District was listed on the National Register of Historic Places in 2021.",
         "logo_path": "/img/institutions/i019-national-institute-of-standards-and-technology-nist-boulder_mark.png",
         "md_filename": "i019-national-institute-of-standards-and-technology-nist-boulder.md"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.2659,
+          40.0076
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "i020-national-physical-laboratory-npl",
-        "name": "National Physical Laboratory Npl",
+        "id": "national-physical-laboratory-npl",
+        "name": "National Physical Laboratory (NPL)",
         "entity_type": "institution",
         "city": "Greater London",
         "country": "United Kingdom",
@@ -380,8 +392,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i021-okinawa-institute-of-science-and-technology-oist",
-        "name": "Okinawa Institute Of Science And Technology Oist",
+        "id": "okinawa-institute-of-science-and-technology-oist",
+        "name": "Okinawa Institute of Science and Technology (OIST)",
         "entity_type": "institution",
         "city": "恩納村",
         "country": "日本",
@@ -420,8 +432,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i023-postech",
-        "name": "Postech",
+        "id": "postech",
+        "name": "POSTECH",
         "entity_type": "institution",
         "city": "포항시",
         "country": "대한민국",
@@ -480,8 +492,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i026-physikalisch-technische-bundesanstalt-ptb",
-        "name": "Physikalisch Technische Bundesanstalt Ptb",
+        "id": "physikalisch-technische-bundesanstalt-ptb",
+        "name": "Physikalisch-Technische Bundesanstalt (PTB)",
         "entity_type": "institution",
         "city": "Braunschweig",
         "country": "Deutschland",
@@ -614,8 +626,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i033-sungkyunkwan-university-skku",
-        "name": "Sungkyunkwan University Skku",
+        "id": "sungkyunkwan-university-skku",
+        "name": "Sungkyunkwan University (SKKU)",
         "entity_type": "institution",
         "city": "서울특별시",
         "country": "대한민국",
@@ -635,7 +647,7 @@
       "type": "Feature",
       "properties": {
         "id": "i034-technion-israel-institute-of-technology",
-        "name": "Technion Israel Institute Of Technology",
+        "name": "Technion Israel Institute of Technology",
         "entity_type": "institution",
         "city": "חיפה",
         "country": "ישראל",
@@ -689,7 +701,7 @@
       "type": "Feature",
       "properties": {
         "id": "i037-university-of-amsterdam",
-        "name": "University Of Amsterdam",
+        "name": "University of Amsterdam",
         "entity_type": "institution",
         "city": "Amsterdam",
         "country": "Nederland",
@@ -709,21 +721,27 @@
       "type": "Feature",
       "properties": {
         "id": "i038-university-of-basel",
-        "name": "University Of Basel",
+        "name": "University of Basel",
         "entity_type": "institution",
-        "city": "",
-        "country": "",
+        "city": "Basel",
+        "country": "Switzerland",
         "short_description": "The University of Basel (Latin: Universitas Basiliensis; German: Universität Basel) is a public research university in Basel, Switzerland. Founded on 4 April 1460, it is Switzerland's oldest university and among the world's oldest universities. The university is traditionally counted among the leading institutions of higher learning in the country.\nThe associated Basel University Library is the largest and among the most important libraries in Switzerland. The university hosts the faculties of theology, law, medicine, humanities and social sciences, science, psychology, and business and economics, as well as numerous cross-disciplinary subjects and institutes, such as the Biozentrum for biomedical research and the Institute for European Global Studies. In 2020, the university had 13,139 students and 378 professors. International students accounted for 27 percent of the student body.\nIn its over 500-year history, the university has been home to Erasmus of Rotterdam, Paracelsus, Daniel...",
         "logo_path": "/img/institutions/i038-university-of-basel_mark.png",
         "md_filename": "i038-university-of-basel.md"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5806,
+          47.5596
+        ]
+      }
     },
     {
       "type": "Feature",
       "properties": {
         "id": "i039-university-of-bonn",
-        "name": "University Of Bonn",
+        "name": "University of Bonn",
         "entity_type": "institution",
         "city": "Bonn",
         "country": "Deutschland",
@@ -743,7 +761,7 @@
       "type": "Feature",
       "properties": {
         "id": "i040-university-of-buenos-aires",
-        "name": "University Of Buenos Aires",
+        "name": "University of Buenos Aires",
         "entity_type": "institution",
         "city": "Buenos Aires",
         "country": "Argentina",
@@ -763,7 +781,7 @@
       "type": "Feature",
       "properties": {
         "id": "i041-university-of-calgary",
-        "name": "University Of Calgary",
+        "name": "University of Calgary",
         "entity_type": "institution",
         "city": "Calgary",
         "country": "Canada",
@@ -783,7 +801,7 @@
       "type": "Feature",
       "properties": {
         "id": "i042-university-of-california-berkeley",
-        "name": "University Of California Berkeley",
+        "name": "University of California Berkeley",
         "entity_type": "institution",
         "city": "Berkeley",
         "country": "United States",
@@ -803,7 +821,7 @@
       "type": "Feature",
       "properties": {
         "id": "i043-university-of-california-los-angeles",
-        "name": "University Of California Los Angeles",
+        "name": "University of California Los Angeles",
         "entity_type": "institution",
         "city": "Los Angeles",
         "country": "United States",
@@ -823,7 +841,7 @@
       "type": "Feature",
       "properties": {
         "id": "i044-university-of-granada",
-        "name": "University Of Granada",
+        "name": "University of Granada",
         "entity_type": "institution",
         "city": "Spain. Apart from the city of Granada",
         "country": "UGR also has campuses in Ceuta and Melilla.\nThe university",
@@ -837,7 +855,7 @@
       "type": "Feature",
       "properties": {
         "id": "i045-university-of-groningen",
-        "name": "University Of Groningen",
+        "name": "University of Groningen",
         "entity_type": "institution",
         "city": "Groningen",
         "country": "Nederland",
@@ -857,7 +875,7 @@
       "type": "Feature",
       "properties": {
         "id": "i046-university-of-innsbruck",
-        "name": "University Of Innsbruck",
+        "name": "University of Innsbruck",
         "entity_type": "institution",
         "city": "Innsbruck",
         "country": "Österreich",
@@ -877,7 +895,7 @@
       "type": "Feature",
       "properties": {
         "id": "i047-university-of-kassel",
-        "name": "University Of Kassel",
+        "name": "University of Kassel",
         "entity_type": "institution",
         "city": "Kassel",
         "country": "Deutschland",
@@ -897,7 +915,7 @@
       "type": "Feature",
       "properties": {
         "id": "i048-university-of-oregon",
-        "name": "University Of Oregon",
+        "name": "University of Oregon",
         "entity_type": "institution",
         "city": "Eugene",
         "country": "United States",
@@ -917,7 +935,7 @@
       "type": "Feature",
       "properties": {
         "id": "i049-university-of-oxford",
-        "name": "University Of Oxford",
+        "name": "University of Oxford",
         "entity_type": "institution",
         "city": "Oxford",
         "country": "United Kingdom",
@@ -937,7 +955,7 @@
       "type": "Feature",
       "properties": {
         "id": "i050-university-of-siegen",
-        "name": "University Of Siegen",
+        "name": "University of Siegen",
         "entity_type": "institution",
         "city": "Siegen",
         "country": "Deutschland",
@@ -957,7 +975,7 @@
       "type": "Feature",
       "properties": {
         "id": "i051-university-of-sussex",
-        "name": "University Of Sussex",
+        "name": "University of Sussex",
         "entity_type": "institution",
         "city": "Brighton",
         "country": "United Kingdom",
@@ -977,7 +995,7 @@
       "type": "Feature",
       "properties": {
         "id": "i052-university-of-sydney",
-        "name": "University Of Sydney",
+        "name": "University of Sydney",
         "entity_type": "institution",
         "city": "Sydney",
         "country": "Australia",
@@ -997,7 +1015,7 @@
       "type": "Feature",
       "properties": {
         "id": "i053-university-of-tokyo",
-        "name": "University Of Tokyo",
+        "name": "University of Tokyo",
         "entity_type": "institution",
         "city": "文京区",
         "country": "日本",
@@ -1017,7 +1035,7 @@
       "type": "Feature",
       "properties": {
         "id": "i054-university-of-trento",
-        "name": "University Of Trento",
+        "name": "University of Trento",
         "entity_type": "institution",
         "city": "Trento",
         "country": "Italia",
@@ -1037,7 +1055,7 @@
       "type": "Feature",
       "properties": {
         "id": "i055-university-of-washington",
-        "name": "University Of Washington",
+        "name": "University of Washington",
         "entity_type": "institution",
         "city": "Seattle",
         "country": "United States",
@@ -1056,8 +1074,8 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i056-vu-amsterdam",
-        "name": "Vu Amsterdam",
+        "id": "vu-amsterdam",
+        "name": "VU Amsterdam",
         "entity_type": "institution",
         "city": "Amsterdam",
         "country": "Nederland",
@@ -1079,13 +1097,19 @@
         "id": "i057-open-quantum-design",
         "name": "Open Quantum Design",
         "entity_type": "institution",
-        "city": "",
-        "country": "",
+        "city": "Aarhus",
+        "country": "Denmark",
         "short_description": "Quantum programming refers to the process of designing and implementing algorithms that operate on quantum systems, typically using quantum circuits composed of quantum gates, measurements, and classical control logic. These circuits are developed to manipulate quantum states for specific computational tasks or experimental outcomes. Quantum programs may be executed on quantum processors, simulated on classical hardware, or implemented through laboratory instrumentation for research purposes.\nWhen working with quantum processor-based systems, quantum programming languages provide high-level abstractions to express quantum algorithms efficiently. These languages often integrate with classical programming environments and support hybrid quantum-classical workflows. The development of quantum software has been strongly influenced by the open-source community, with many toolkits and frameworks—such as Qrisp, Qiskit, Cirq, PennyLane, and qBraid SDK—available under open licenses.\nQuantum...",
         "logo_path": "/img/institutions/i057-open-quantum-design_mark.png",
         "md_filename": "i057-open-quantum-design.md"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2039,
+          56.1629
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1110,11 +1134,11 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "i059-cqiqc",
-        "name": "Cqiqc",
+        "id": "cqiqc",
+        "name": "CQIQC",
         "entity_type": "institution",
-        "city": "",
-        "country": "",
+        "city": "Toronto",
+        "country": "Canada",
         "short_description": "The John Stewart Bell Prize for Research on Fundamental Issues in Quantum Mechanics and their Applications (short form: Bell Prize) was established in 2009, funded and managed by the Centre for Quantum Information and Quantum Control (CQIQC) in the University of Toronto Faculty of Arts and Science. Named after John Stewart Bell (the physicist behind Bell's theorem, a theorem whose experimental vindication led to a Nobel Prize), it is awarded every odd-numbered year, for significant contributions relating to the foundations of quantum mechanics and to the applications of these principles – this covers, but is not limited to, quantum information theory, quantum computation, quantum foundations, quantum cryptography and quantum control. The selection committee has included Gilles Brassard, Peter Zoller, Alain Aspect, John Preskill, and Juan Ignacio Cirac Sasturain, in addition to previous winners Sandu Popescu, Michel Devoret and Nicolas Gisin.",
         "logo_path": "/img/institutions/i059-cqiqc_mark.png",
         "md_filename": "i059-cqiqc.md"
