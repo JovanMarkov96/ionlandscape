@@ -30,6 +30,20 @@ def slugify(name):
     name = name.strip().lower().replace(" ", "-")
     return re.sub(r'[^a-z0-9\-]', '', name)
 
+_LOWER_WORDS = {'a', 'an', 'the', 'and', 'but', 'or', 'nor', 'for', 'yet', 'so',
+                'in', 'on', 'at', 'to', 'of', 'with', 'by', 'from', 'as', 'into',
+                'via', 'per', 'vs'}
+
+def smart_title(s):
+    words = s.split()
+    result = []
+    for i, word in enumerate(words):
+        if i == 0 or word.lower() not in _LOWER_WORDS:
+            result.append(word.capitalize())
+        else:
+            result.append(word.lower())
+    return ' '.join(result)
+
 people = []
 companies = []
 institutions = []
@@ -43,8 +57,11 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
         continue
     post = frontmatter.load(md_path)
     meta = post.metadata
-    pid = meta.get("id") or slugify(meta.get("name", os.path.basename(md_path)))
-    name = meta.get("name", "")
+    # Derive a sane filename base (basename without extension)
+    base = os.path.splitext(os.path.basename(md_path))[0]
+    pid = meta.get("id") or slugify(meta.get("name") or base)
+    # Prefer explicit frontmatter name; otherwise derive from filename base
+    name = meta.get("name") or smart_title(re.sub(r'^(i\d+-)?', '', base).replace('-', ' ').strip())
     location = meta.get("location", {})
     lat = location.get("lat")
     lon = location.get("lon")
@@ -145,8 +162,9 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
     try:
         post = frontmatter.load(md_path)
         meta = post.metadata
-        cid = meta.get("id") or slugify(meta.get("name", os.path.basename(md_path)))
-        name = meta.get("name", "")
+        base = os.path.splitext(os.path.basename(md_path))[0]
+        cid = meta.get("id") or slugify(meta.get("name") or base)
+        name = meta.get("name") or smart_title(re.sub(r'^(c\d+-)?', '', base).replace('-', ' ').strip())
         location = meta.get("location", {})
         lat = location.get("lat")
         lon = location.get("lon")
@@ -268,8 +286,9 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
     try:
         post = frontmatter.load(md_path)
         meta = post.metadata
-        iid = meta.get("id") or slugify(meta.get("name", os.path.basename(md_path)))
-        name = meta.get("name", "")
+        base = os.path.splitext(os.path.basename(md_path))[0]
+        iid = meta.get("id") or slugify(meta.get("name") or base)
+        name = meta.get("name") or smart_title(re.sub(r'^(i\d+-)?', '', base).replace('-', ' ').strip())
         location = meta.get("location", {})
         lat = location.get("lat")
         lon = location.get("lon")

@@ -551,6 +551,13 @@ body,
 .company-card-header h3 {
   margin: 0;
 }
+.company-card-header h3 {
+  /* Ensure titles are visible in both light and dark themes */
+  color: var(--ifm-color-content) !important;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
 
 .company-card-location {
   margin: 4px 0 0;
@@ -561,6 +568,20 @@ body,
 .company-card-logo {
   width: 48px;
   height: 48px;
+}
+
+/* Card logos: contain (not cover) and solid white background so full logo is visible */
+.company-card-logo.ion-marker-logo {
+  background-size: 80%;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+[data-theme='dark'] .company-card-logo.ion-marker-logo {
+  background-color: white;
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .panel-logo-placeholder {

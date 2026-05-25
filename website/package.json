@@ -5,6 +5,7 @@
     "scripts": {
         "start": "docusaurus start",
         "build": "docusaurus build",
+        "deploy": "docusaurus deploy",
         "serve": "docusaurus serve",
         "swizzle": "docusaurus swizzle"
     },
