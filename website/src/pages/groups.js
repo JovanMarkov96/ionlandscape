@@ -28,6 +28,7 @@ function Groups() {
     const labelFilters = searchParams.getAll('label');
     const appFilters = searchParams.getAll('app');
     const ionFilters = searchParams.getAll('ion');
+    const platformFilters = searchParams.getAll('platform');
     const instFilters = searchParams.getAll('inst');
     const countryFilters = searchParams.getAll('country');
 
@@ -57,14 +58,15 @@ function Groups() {
                     label: labelFilters,
                     app: appFilters,
                     ion: ionFilters,
+                    platform: platformFilters,
                     inst: instFilters,
                     country: countryFilters,
-                    category: category // Add category
+                    category: category
                 }, true); // push
             }
         }, 300);
         return () => clearTimeout(timer);
-    }, [localSearch, labelFilters, ionFilters, instFilters, countryFilters, category]);
+    }, [localSearch, labelFilters, ionFilters, platformFilters, instFilters, countryFilters, category]);
 
     // --- Dependent Filter Logic ---
 
@@ -113,23 +115,26 @@ function Groups() {
         return Array.from(countries).sort().filter(c => !countryFilters.includes(c));
     }, [people, category, instFilters, countryFilters]);
 
-    // Available Labels, Apps & Ions (Global context within category)
-    const { availableLabels, availableApps, availableIons } = useMemo(() => {
+    // Available Labels, Apps, Ions & Platforms (Global context within category)
+    const { availableLabels, availableApps, availableIons, availablePlatforms } = useMemo(() => {
         const filtered = getPeopleInContext({}); // Valid in category
         const labels = new Set();
         const apps = new Set();
         const ions = new Set();
+        const platforms = new Set();
         filtered.forEach(p => {
             (p.labels || []).forEach(l => labels.add(l));
             (p.applications || []).forEach(a => apps.add(a));
             (p.ion_species || []).forEach(i => ions.add(i));
+            (p.platforms || []).forEach(pl => platforms.add(pl));
         });
         return {
             availableLabels: Array.from(labels).sort().filter(l => !labelFilters.includes(l)),
             availableApps: Array.from(apps).sort().filter(a => !appFilters.includes(a)),
-            availableIons: Array.from(ions).sort().filter(i => !ionFilters.includes(i))
+            availableIons: Array.from(ions).sort().filter(i => !ionFilters.includes(i)),
+            availablePlatforms: Array.from(platforms).sort().filter(pl => !platformFilters.includes(pl)),
         };
-    }, [people, category, labelFilters, appFilters, ionFilters]);
+    }, [people, category, labelFilters, appFilters, ionFilters, platformFilters]);
 
     useEffect(() => {
         // Force body scrolling when on the groups page
@@ -211,6 +216,12 @@ function Groups() {
                 if (!hasAllIons) return false;
             }
 
+            // 3b. Platform Filters (ALL selected)
+            if (platformFilters.length > 0) {
+                const hasAllPlatforms = platformFilters.every(pl => p.platforms && p.platforms.includes(pl));
+                if (!hasAllPlatforms) return false;
+            }
+
             // 4. Institution Filters (ALL selected)
             if (instFilters.length > 0) {
                 const hasAllInst = instFilters.every(inst => p.current_position?.institution === inst);
@@ -229,7 +240,7 @@ function Groups() {
             const sb = (b.sort_name || b.name || '').toLowerCase();
             return sa.localeCompare(sb);
         });
-    }, [people, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
+    }, [people, searchQuery, labelFilters, appFilters, ionFilters, platformFilters, instFilters, countryFilters, category]);
 
     // Update URL with new filters
     const updateUrl = (newParams) => {
@@ -241,6 +252,7 @@ function Groups() {
         (newParams.label || []).forEach(l => params.append('label', l));
         (newParams.app || []).forEach(a => params.append('app', a));
         (newParams.ion || []).forEach(i => params.append('ion', i));
+        (newParams.platform || []).forEach(pl => params.append('platform', pl));
         (newParams.inst || []).forEach(i => params.append('inst', i));
         (newParams.country || []).forEach(c => params.append('country', c));
 
@@ -254,6 +266,7 @@ function Groups() {
             label: labelFilters,
             app: appFilters,
             ion: ionFilters,
+            platform: platformFilters,
             inst: instFilters,
             country: countryFilters
         };
@@ -296,6 +309,7 @@ function Groups() {
             label: labelFilters,
             app: appFilters,
             ion: ionFilters,
+            platform: platformFilters,
             inst: instFilters,
             country: countryFilters
         };
@@ -309,7 +323,7 @@ function Groups() {
         history.push({ search: '' });
     };
 
-    const hasActiveFilters = searchQuery || labelFilters.length > 0 || appFilters.length > 0 || ionFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
+    const hasActiveFilters = searchQuery || labelFilters.length > 0 || appFilters.length > 0 || ionFilters.length > 0 || platformFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
 
     // Available options logic already calculated above
 
@@ -365,6 +379,15 @@ function Groups() {
                             </select>
                         )}
 
+                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('platform', e.target.value)}>
+                            <option value="">+ Platform</option>
+                            {availablePlatforms.map(o => (
+                                <option key={o} value={o}>
+                                    {o.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
+                                </option>
+                            ))}
+                        </select>
+
                         <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('inst', e.target.value)}>
                             <option value="">+ Institution</option>
                             {availableInsts.map(o => <option key={o} value={o}>{o}</option>)}
@@ -401,6 +424,11 @@ function Groups() {
                                     {v} <button className="filter-chip-remove" onClick={() => removeFilter('ion', v)}>×</button>
                                 </span>
                             ))}
+                            {platformFilters.map(v => (
+                                <span key={`platform-${v}`} className="filter-chip filter-chip--platform">
+                                    {v.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} <button className="filter-chip-remove" onClick={() => removeFilter('platform', v)}>×</button>
+                                </span>
+                            ))}
                             {instFilters.map(v => (
                                 <span key={`inst-${v}`} className="filter-chip" style={{ background: '#e9ecef', color: '#333', border: '1px solid #ddd' }}>
                                     🏛️ {v} <button className="filter-chip-remove" onClick={() => removeFilter('inst', v)}>×</button>
@@ -425,8 +453,6 @@ function Groups() {
                         const clean = v => (v && String(v).trim().toLowerCase() !== 'unknown') ? v : null;
                         const institution = clean(person.current_position?.institution);
                         const location = [clean(person.location?.city), clean(person.location?.country)].filter(Boolean).join(', ');
-                        const platformLabels = (person.platforms || []).map(p =>
-                            p.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()));
                         return (
                         <div key={person.id} className="col col--4 margin-bottom--lg">
                             <div className="card inst-card">
@@ -455,9 +481,13 @@ function Groups() {
                                                 {label}
                                             </span>
                                         ))}
-                                        {platformLabels.map(p => (
-                                            <span key={p} className="badge badge--success margin-right--xs">
-                                                {p}
+                                        {(person.platforms || []).map(pl => (
+                                            <span
+                                                key={pl}
+                                                className="badge badge--success margin-right--xs clickable-badge"
+                                                onClick={() => addFilter('platform', pl)}
+                                            >
+                                                {pl.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
                                             </span>
                                         ))}
                                         {person.applications?.map(app => (

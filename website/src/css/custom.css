@@ -1370,6 +1370,11 @@ html:has(.groups-page),
   color: white;
 }
 
+.filter-chip--platform {
+  background: #28a745;
+  color: white;
+}
+
 .filter-chip-remove {
   background: none;
   border: none;
