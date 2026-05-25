@@ -432,7 +432,13 @@ function Groups() {
                             <div className="card inst-card">
                                 <div className="card__header">
                                     <h3 className="inst-card-title-block">{person.name}</h3>
-                                    {institution && <p className="person-card-inst">{institution}</p>}
+                                    {institution && (
+                                        <p className="person-card-inst">
+                                            <Link to={`/institutions?q=${encodeURIComponent(institution)}`} className="person-card-inst-link">
+                                                {institution}
+                                            </Link>
+                                        </p>
+                                    )}
                                     {location && <p className="company-card-location">{location}</p>}
                                 </div>
                                 <div className="card__body inst-card-body">
