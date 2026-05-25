@@ -84,14 +84,6 @@ def load_entities(content_dir: Path, entity_type: str, windows: dict, skip_prefi
             "src_count": src_count, "status": status,
         })
 
-    # Sort: never_verified first, then stale (oldest first), then fresh (oldest first)
-    def sort_key(r):
-        if r["status"] == "never_verified":
-            return (0, 0)
-        return (1 if r["status"] == "stale" else 2, r["age_days"] or 0)
-
-    results.sort(key=sort_key, reverse=True if False else False)
-    # Stable sort: never > stale (oldest first) > fresh (oldest first)
     results.sort(key=lambda r: (
         {"never_verified": 0, "stale": 1, "fresh": 2}[r["status"]],
         -(r["age_days"] or 0),

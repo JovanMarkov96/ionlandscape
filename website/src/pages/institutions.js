@@ -25,7 +25,6 @@ function Institutions() {
     // Parse query params
     const searchParams = new URLSearchParams(location.search);
     const searchQuery = searchParams.get('q') || '';
-    const labelFilters = searchParams.getAll('label');
     const focusAreaFilters = searchParams.getAll('focus_area');
     const platformFilters = searchParams.getAll('platform');
     const countryFilters = searchParams.getAll('country');
@@ -53,7 +52,6 @@ function Institutions() {
             if (localSearch !== searchQuery) {
                 updateUrl({
                     q: localSearch,
-                    label: labelFilters,
                     focus_area: focusAreaFilters,
                     platform: platformFilters,
                     country: countryFilters,
@@ -62,7 +60,7 @@ function Institutions() {
             }
         }, 300);
         return () => clearTimeout(timer);
-    }, [localSearch, labelFilters, focusAreaFilters, platformFilters, countryFilters, category]);
+    }, [localSearch, focusAreaFilters, platformFilters, countryFilters, category]);
 
     // --- Dependent Filter Logic ---
 
@@ -94,23 +92,20 @@ function Institutions() {
         return Array.from(countries).sort().filter(c => !countryFilters.includes(c));
     }, [institutions, category, countryFilters]);
 
-    // Available Labels, Focus Areas & Platforms
-    const { availableLabels, availableFocusAreas, availablePlatforms } = useMemo(() => {
+    // Available Focus Areas & Platforms
+    const { availableFocusAreas, availablePlatforms } = useMemo(() => {
         const filtered = getInstitutionsInContext({});
-        const labels = new Set();
         const focusAreas = new Set();
         const platforms = new Set();
         filtered.forEach(p => {
-            (p.labels || []).forEach(l => labels.add(l));
             (p.focus_areas || []).forEach(a => focusAreas.add(a));
             (p.platforms_represented || []).forEach(pl => platforms.add(pl));
         });
         return {
-            availableLabels: Array.from(labels).sort().filter(l => !labelFilters.includes(l)),
             availableFocusAreas: Array.from(focusAreas).sort().filter(a => !focusAreaFilters.includes(a)),
             availablePlatforms: Array.from(platforms).sort().filter(pl => !platformFilters.includes(pl)),
         };
-    }, [institutions, category, labelFilters, focusAreaFilters, platformFilters]);
+    }, [institutions, category, focusAreaFilters, platformFilters]);
 
     useEffect(() => {
         // Force body scrolling when on the institutions page
@@ -169,13 +164,7 @@ function Institutions() {
                 if (!nameMatch) return false;
             }
 
-            // 2. Label Filters (ALL selected)
-            if (labelFilters.length > 0) {
-                const hasAllLabels = labelFilters.every(label => p.labels && p.labels.includes(label));
-                if (!hasAllLabels) return false;
-            }
-
-            // 3. Focus Area Filters (ALL selected)
+            // 2. Focus Area Filters (ALL selected)
             if (focusAreaFilters.length > 0) {
                 const hasAll = focusAreaFilters.every(a => p.focus_areas && p.focus_areas.includes(a));
                 if (!hasAll) return false;
@@ -195,7 +184,7 @@ function Institutions() {
 
             return true;
         }).sort((a, b) => (a.name || '').toLowerCase().localeCompare((b.name || '').toLowerCase()));
-    }, [institutions, searchQuery, labelFilters, focusAreaFilters, platformFilters, countryFilters, category]);
+    }, [institutions, searchQuery, focusAreaFilters, platformFilters, countryFilters, category]);
 
     // Update URL with new filters
     const updateUrl = (newParams) => {
@@ -204,7 +193,6 @@ function Institutions() {
         if (newParams.category && newParams.category !== 'All') params.set('category', newParams.category);
         if (newParams.q) params.set('q', newParams.q);
 
-        (newParams.label || []).forEach(l => params.append('label', l));
         (newParams.focus_area || []).forEach(a => params.append('focus_area', a));
         (newParams.platform || []).forEach(pl => params.append('platform', pl));
         (newParams.country || []).forEach(c => params.append('country', c));
@@ -216,7 +204,6 @@ function Institutions() {
     const addFilter = (type, value) => {
         const current = {
             q: localSearch,
-            label: labelFilters,
             focus_area: focusAreaFilters,
             platform: platformFilters,
             country: countryFilters
@@ -231,7 +218,6 @@ function Institutions() {
     const removeFilter = (type, value) => {
         const current = {
             q: localSearch,
-            label: labelFilters,
             focus_area: focusAreaFilters,
             platform: platformFilters,
             country: countryFilters
@@ -247,7 +233,7 @@ function Institutions() {
         history.push({ search: '' });
     };
 
-    const hasActiveFilters = searchQuery || labelFilters.length > 0 || focusAreaFilters.length > 0 || platformFilters.length > 0 || countryFilters.length > 0;
+    const hasActiveFilters = searchQuery || focusAreaFilters.length > 0 || platformFilters.length > 0 || countryFilters.length > 0;
 
     // Available options logic already calculated above
 
@@ -315,11 +301,6 @@ function Institutions() {
                     {/* Active Chips */}
                     {hasActiveFilters && (
                         <div className="filter-chips">
-                            {labelFilters.map(v => (
-                                <span key={`label-${v}`} className="filter-chip filter-chip--label">
-                                    {v} <button className="filter-chip-remove" onClick={() => removeFilter('label', v)}>×</button>
-                                </span>
-                            ))}
                             {focusAreaFilters.map(v => (
                                 <span key={`focus_area-${v}`} className="filter-chip filter-chip--label">
                                     {v} <button className="filter-chip-remove" onClick={() => removeFilter('focus_area', v)}>×</button>
