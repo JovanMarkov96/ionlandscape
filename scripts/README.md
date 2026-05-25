@@ -12,6 +12,17 @@ This directory contains automation tools for profile ingestion, verification, an
 | `build_index.py` | Generate JSON/GeoJSON from MD | `python scripts/core/build_index.py` |
 | `generate_report.py` | Generate missing fields report | `python scripts/core/generate_report.py` |
 
+### API-driven enrichment (`scripts/enrich/`)
+
+Deterministic scripts that fill structured fields from free APIs. No LLM
+required. Cache-backed and idempotent — safe to re-run at any time.
+
+| Script | Purpose | Usage |
+|--------|---------|-------|
+| `metrics.py` | h-index / citations / pub count from OpenAlex (by ORCID) | `python scripts/enrich/metrics.py [--force] [--person ID] [--dry-run]` |
+
+See `scripts/enrich/README.md` for full documentation.
+
 ### Enrichment & AI (`scripts/enrichment/`)
 
 | Script | Purpose | Usage |
