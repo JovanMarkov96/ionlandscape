@@ -10,8 +10,10 @@ applications:
 - simulation
 created_at: '2026-01-28'
 current_position:
-  institution: Institute for Quantum Computing, University of Waterloo
+  confidence: openalex_inferred
+  institution: University of Waterloo
   since_year: null
+  source: https://openalex.org/A5053336892
   title: Associate Professor
 education:
 - advisor: Christopher Monroe
@@ -42,6 +44,11 @@ keywords:
 - frustrated spin models
 - quantum computation
 - quantum entanglement
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum many-body systems
+- Quantum optics and atomic interactions
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -53,6 +60,7 @@ links:
   google_scholar: https://scholar.google.com/citations?user=dZpP2-sAAAAJ
   group_page: https://uwaterloo.ca/ion-trap-quantum-computing/
   iqc_profile: https://uwaterloo.ca/institute-for-quantum-computing/profiles/rajibul-islam
+  openalex: https://openalex.org/A5053336892
   orcid: https://orcid.org/0000-0002-6483-8932
 location:
   city: Waterloo
@@ -91,7 +99,7 @@ thesis:
   note: Received the Distinguished Dissertation Award in 2013.
   title: Quantum Simulation of Interacting Spin Models with Trapped Ions
   year: 2013
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

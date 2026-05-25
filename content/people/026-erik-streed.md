@@ -6,8 +6,10 @@ applications:
 - sensing_metrology
 created_at: '2026-01-28'
 current_position:
+  confidence: openalex_inferred
   institution: Griffith University
   since_year: null
+  source: https://openalex.org/A5046341775
   title: Associate Professor; Director, Queensland Quantum and Advanced Technologies
     Research Institute
 education:
@@ -38,6 +40,11 @@ keywords:
 - biomolecular dynamics
 - segmented optics
 - single-atom imaging
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Information and Cryptography
+- Quantum optics and atomic interactions
+- Atomic and Subatomic Physics Research
+- Nanowire Synthesis and Applications
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -49,6 +56,7 @@ links:
   google_scholar: https://scholar.google.com/citations?user=ajeoFYMAAAAJ
   griffith_profile: https://experts.griffith.edu.au/7796-erik-streed
   group_page: https://iqtlab.net/
+  openalex: https://openalex.org/A5046341775
   orcid: https://orcid.org/0000-0001-6234-4560
 location:
   city: Gold Coast
@@ -80,7 +88,7 @@ thesis:
   title: '87Rubidium Bose-Einstein condensates: Machine Construction and Quantum Zeno
     Experiments'
   year: 2006
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

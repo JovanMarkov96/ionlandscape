@@ -6,8 +6,10 @@ applications:
 atomic_species: []
 created_at: '2026-01-26'
 current_position:
+  confidence: openalex_inferred
   institution: ETH Zurich
   since_year: 2012
+  source: https://openalex.org/A5035728336
   title: Full Professor of Physics
 education:
 - advisor: Andrew Steane
@@ -43,6 +45,11 @@ keywords:
 - quantum error correction
 - integrated ion traps
 - scaling
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Computing Algorithms and Architecture
+- Quantum optics and atomic interactions
+- Quantum Mechanics and Applications
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -54,6 +61,7 @@ links:
   eth_profile: https://www.phys.ethz.ch/the-department/people/person-detail.jhome.html
   google_scholar: https://scholar.google.com/citations?user=hIVXn-EAAAAJ&hl=en
   group_page: https://iqe.phys.ethz.ch/research/trapped-ion-quantum-information.html
+  openalex: https://openalex.org/A5035728336
   optica_speaker_bio: https://www.optica.org/events/webinar/2025/05_may/integrated_photonics_for_scalable_ion_traps/jonathan_home/
   orcid: https://orcid.org/0000-0002-4093-1550
 location:
@@ -85,7 +93,7 @@ thesis:
   link: Unknown
   title: Entanglement of two trapped-ion spin qubits
   year: 2006
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 6
 ---
 

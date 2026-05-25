@@ -9,8 +9,10 @@ applications:
 - computing
 created_at: '2026-01-26'
 current_position:
-  institution: University of Sussex
+  confidence: openalex_inferred
+  institution: University Of Sussex
   since_year: null
+  source: https://openalex.org/A5027716155
   title: Professor of Quantum Technologies; Director, Sussex Centre for Quantum Technologies
 education:
 - advisor: Halina Rubinsztein-Dunlop; Norman Heckenberg; Gerard Milburn
@@ -38,6 +40,11 @@ keywords:
 - scalable architectures
 - quantum engineering
 - utility-scale quantum computing
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum optics and atomic interactions
+- Quantum Computing Algorithms and Architecture
+- Quantum and electron transport phenomena
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -49,6 +56,7 @@ links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=DuOb8ioAAAAJ
   group_page: https://www.sussex.ac.uk/research/centres/ion-quantum-technology/
   nqit_profile: https://nqit.ox.ac.uk/person/prof-winfried-hensinger.html
+  openalex: https://openalex.org/A5027716155
   orcid: https://orcid.org/0000-0001-8329-438X
   sussex_profile: https://profiles.sussex.ac.uk/p179227-winfried-hensinger
 location:
@@ -80,7 +88,7 @@ thesis:
   link: Unknown
   title: Experimental nonlinear quantum dynamics with ultracold atoms
   year: 2002
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

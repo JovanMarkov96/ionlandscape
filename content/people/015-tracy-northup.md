@@ -7,8 +7,10 @@ applications:
 - sensing_metrology
 created_at: '2026-01-26'
 current_position:
-  institution: University of Innsbruck
+  confidence: openalex_inferred
+  institution: Universität Innsbruck
   since_year: 2015
+  source: https://openalex.org/A5082160956
   title: Full Professor of Experimental Physics
 education:
 - advisor: H. Jeff Kimble
@@ -33,6 +35,11 @@ keywords:
 - quantum networks
 - hybrid optomechanics
 - cavity QED
+- Quantum Information and Cryptography
+- Quantum optics and atomic interactions
+- Mechanical and Optical Resonators
+- Quantum Mechanics and Applications
+- Cold Atom Physics and Bose-Einstein Condensates
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -44,6 +51,7 @@ links:
   google_scholar: https://scholar.google.com/citations?user=BHFu0UwAAAAJ
   group_page: https://www.uibk.ac.at/exphys/quantum-interfaces/
   oeaw_profile: https://www.oeaw.ac.at/esq/home/esq-faculty/tracy-northup/
+  openalex: https://openalex.org/A5082160956
   orcid: https://orcid.org/0000-0002-1071-2218
   wikipedia: https://en.wikipedia.org/wiki/Tracy_Northup
 location:
@@ -77,7 +85,7 @@ thesis:
   note: WorldCat catalog link; PDF availability depends on library access.
   title: Coherent control in cavity QED
   year: 2008
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

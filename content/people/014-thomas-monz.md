@@ -10,8 +10,10 @@ applications:
 - networking
 created_at: '2026-01-26'
 current_position:
-  institution: University of Innsbruck
+  confidence: openalex_inferred
+  institution: Universität Innsbruck
   since_year: 2011
+  source: https://openalex.org/A5066295139
   title: Senior Scientist
 education:
 - advisor: Rainer Blatt
@@ -40,6 +42,11 @@ keywords:
 - verification and validation
 - ion-photon interfaces
 - qudits
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Quantum Mechanics and Applications
+- Quantum and electron transport phenomena
+- Cold Atom Physics and Bose-Einstein Condensates
 labels:
 - Experimental group
 - Industry
@@ -53,6 +60,7 @@ links:
   google_scholar: https://scholar.google.com/citations?user=X6a64kUAAAAJ
   group_page: https://www.uibk.ac.at/exphys/scalable-quantum-information/
   oeaw_profile: https://www.oeaw.ac.at/esq/home/esq-quantum-austria/thomas-monz
+  openalex: https://openalex.org/A5066295139
   orcid: https://orcid.org/0000-0001-7410-4804
   uibk_profile: https://www.uibk.ac.at/en/exphys/team/thomas-monz/
 location:
@@ -82,7 +90,7 @@ thesis:
   link: https://quantumoptics.at/images/publications/dissertation/monz-diss.pdf
   title: Quantum information processing beyond ten ion-qubits
   year: 2011
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

@@ -7,8 +7,10 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  institution: University of California, Los Angeles
+  confidence: openalex_inferred
+  institution: QB3
   since_year: null
+  source: https://openalex.org/A5014512253
   title: Professor
 education:
 - advisor: John M. Doyle
@@ -31,6 +33,11 @@ keywords:
 - quantum simulation
 - quantum computing
 - optical clocks
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Information and Cryptography
+- Atomic and Subatomic Physics Research
+- Quantum optics and atomic interactions
+- Laser-Matter Interactions and Applications
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -41,6 +48,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=JU1-giAAAAAJ
   group_page: https://campbellgroup.physics.ucla.edu/
+  openalex: https://openalex.org/A5014512253
   orcid: https://orcid.org/0000-0003-1578-906X
 location:
   city: Los Angeles
@@ -71,7 +79,7 @@ thesis:
   link: Unknown
   title: Magnetic Trapping of Imidogen Molecules
   year: 2008
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

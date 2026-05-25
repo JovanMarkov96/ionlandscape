@@ -7,8 +7,10 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  institution: University of Innsbruck
+  confidence: openalex_inferred
+  institution: Universität Innsbruck
   since_year: null
+  source: https://openalex.org/A5016115632
   title: Professor
 education:
 - advisor: Andrew White
@@ -32,6 +34,11 @@ keywords:
 - quantum communication
 - long-range entanglement
 - quantum simulation
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Quantum Mechanics and Applications
+- Quantum optics and atomic interactions
+- Neural Networks and Reservoir Computing
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -42,6 +49,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=DXqgH5oAAAAJ
   group_page: https://www.uibk.ac.at/exphys/distributed-quantum-systems/
+  openalex: https://openalex.org/A5016115632
   orcid: https://orcid.org/0000-0002-7379-4572
 location:
   city: Innsbruck
@@ -72,7 +80,7 @@ thesis:
   link: Unknown
   title: 'Optical quantum information: new states, gates and algorithms'
   year: 2009
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

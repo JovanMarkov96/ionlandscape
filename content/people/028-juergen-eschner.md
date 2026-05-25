@@ -5,8 +5,10 @@ applications:
 - networking
 created_at: '2026-01-30'
 current_position:
+  confidence: openalex_inferred
   institution: Saarland University
   since_year: 2009
+  source: https://openalex.org/A5030019513
   title: Professor
 education:
 - advisor: null
@@ -33,6 +35,11 @@ keywords:
 - quantum networking
 - quantum frequency conversion
 - cavity QED
+- Quantum Information and Cryptography
+- Quantum optics and atomic interactions
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Mechanics and Applications
+- Mechanical and Optical Resonators
 labels:
 - Experimental group
 - Quantum networking
@@ -44,6 +51,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=4nXxpqwAAAAJ
   group_page: https://www.uni-saarland.de/lehrstuhl/eschner.html
+  openalex: https://openalex.org/A5030019513
   orcid: https://orcid.org/0000-0002-8393-7258
 location:
   city: Saarbrücken
@@ -74,7 +82,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: 1993
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

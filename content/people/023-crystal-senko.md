@@ -9,8 +9,10 @@ applications:
 - simulation
 created_at: '2026-01-28'
 current_position:
-  institution: Institute for Quantum Computing, University of Waterloo
+  confidence: openalex_inferred
+  institution: Universität Innsbruck
   since_year: null
+  source: https://openalex.org/A5085789425
   title: Associate Professor / Canada Research Chair in Trapped Ion Quantum Computing
 education:
 - advisor: Christopher Monroe
@@ -36,6 +38,11 @@ keywords:
 - quantum computing
 - open-source quantum systems
 - qudits
+- Quantum Information and Cryptography
+- Quantum Mechanics and Applications
+- Photonic and Optical Devices
+- Semiconductor Quantum Structures and Devices
+- Quantum optics and atomic interactions
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -47,6 +54,7 @@ links:
   google_scholar: https://scholar.google.com/citations?user=c_E97UoAAAAJ
   group_page: https://uwaterloo.ca/trapped-ion-quantum-control-lab/
   iqc_profile: https://uwaterloo.ca/institute-for-quantum-computing/profiles/crystal-senko
+  openalex: https://openalex.org/A5085789425
   orcid: https://orcid.org/0000-0003-2260-3008
 location:
   city: Waterloo
@@ -79,7 +87,7 @@ thesis:
   title: Dynamics and Excited States of Quantum Many-Body Spin Chains with Trapped
     ions
   year: 2014
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

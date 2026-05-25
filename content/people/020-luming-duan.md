@@ -11,8 +11,10 @@ applications:
 - simulation
 created_at: '2026-01-28'
 current_position:
-  institution: Tsinghua University (IIIS)
+  confidence: openalex_inferred
+  institution: Cornerstone University
   since_year: 2018
+  source: https://openalex.org/A5034703407
   title: Yao Qizhi Chair Professor / Chair Professor of Basic Sciences
 education:
 - advisor: Guo Guangcan
@@ -43,6 +45,11 @@ keywords:
 - quantum communication
 - DLCZ protocol
 - large-scale 2D ion crystals
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum optics and atomic interactions
+- Quantum Mechanics and Applications
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -53,6 +60,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=ULkJQpkAAAAJ
   group_page: https://iiis.tsinghua.edu.cn/duanluming/
+  openalex: https://openalex.org/A5034703407
   orcid: https://orcid.org/0000-0001-6675-9413
   tsinghua_profile: https://iiis.tsinghua.edu.cn/duanlm/
 location:
@@ -84,7 +92,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: 1998
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

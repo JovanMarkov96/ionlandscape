@@ -7,8 +7,10 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  institution: VU Amsterdam
+  confidence: openalex_inferred
+  institution: Advanced Research Center for Nanolithography (Netherlands)
   since_year: null
+  source: https://openalex.org/A5089317802
   title: Professor
 education:
 - advisor: Wim Hogervorst
@@ -32,6 +34,11 @@ keywords:
 - trapped ions
 - ultrafast lasers
 - quantum electrodynamics
+- Laser-Matter Interactions and Applications
+- Advanced Fiber Laser Technologies
+- Atomic and Molecular Physics
+- Spectroscopy and Laser Applications
+- Laser-Plasma Interactions and Diagnostics
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -42,6 +49,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=obso9DoAAAAJ
   group_page: https://research.vu.nl/en/persons/kjeld-eikema
+  openalex: https://openalex.org/A5089317802
   orcid: https://orcid.org/0000-0002-2546-3584
 location:
   city: Amsterdam
@@ -70,7 +78,7 @@ thesis:
   link: Unknown
   title: QED and the ground state of helium, precision extreme ultraviolet spectroscopy
   year: 1996
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

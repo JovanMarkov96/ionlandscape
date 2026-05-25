@@ -7,8 +7,10 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  institution: National Institute of Standards and Technology (NIST), Boulder
+  confidence: openalex_inferred
+  institution: National Institute of Standards and Technology
   since_year: null
+  source: https://openalex.org/A5069415035
   title: Physicist
 education:
 - advisor: David Wineland
@@ -30,6 +32,11 @@ keywords:
 - quantum logic spectroscopy
 - precision measurement
 - trapped ions
+- Advanced Frequency and Time Standards
+- Cold Atom Physics and Bose-Einstein Condensates
+- Atomic and Subatomic Physics Research
+- Quantum Information and Cryptography
+- Legal case studies and regulations
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -40,6 +47,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=zXqgH5oAAAAJ
   group_page: https://www.nist.gov/people/david-b-hume
+  openalex: https://openalex.org/A5069415035
   orcid: https://orcid.org/0000-0001-7797-2033
 location:
   city: Boulder
@@ -68,7 +76,7 @@ thesis:
   link: Unknown
   title: Accurate optical clocks based on trapped ions
   year: 2010
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

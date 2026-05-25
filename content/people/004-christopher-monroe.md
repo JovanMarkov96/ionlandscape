@@ -48,6 +48,11 @@ keywords:
 - quantum computing
 - quantum simulation
 - quantum information networks
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Quantum Mechanics and Applications
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum optics and atomic interactions
 labels:
 - Experimental group
 - Industry
@@ -62,6 +67,7 @@ links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=9rrnu-0AAAAJ
   homepage: https://iontrap.duke.edu/
   ionq: https://ionq.com/
+  openalex: https://openalex.org/A5005759724
   orcid: https://orcid.org/0000-0003-0551-3713
   scholars_at_duke: https://scholars.duke.edu/person/christopher.monroe/publications
   wikipedia: https://en.wikipedia.org/wiki/Christopher_Monroe
@@ -83,7 +89,7 @@ platforms:
 - trapped_ion
 schema_version: 2
 sort_name: Monroe, Christopher R.
-updated_at: '2026-05-02'
+updated_at: '2026-05-25'
 verification_source_count: 4
 ---
 

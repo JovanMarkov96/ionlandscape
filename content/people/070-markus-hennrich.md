@@ -31,6 +31,11 @@ keywords:
 - Rydberg ions
 - quantum computing
 - quantum simulation
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Mechanics and Applications
+- Quantum optics and atomic interactions
+- Quantum Computing Algorithms and Architecture
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -41,6 +46,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=8XqgH5oAAAAJ
   group_page: https://www.fysik.su.se/hennrich-group
+  openalex: https://openalex.org/A5003775413
   orcid: https://orcid.org/0000-0003-2955-7980
 location:
   city: Stockholm
@@ -71,7 +77,7 @@ thesis:
   link: Unknown
   title: Coherent manipulation of ultracold atoms on atom chips
   year: 2004
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

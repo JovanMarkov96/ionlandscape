@@ -6,8 +6,10 @@ applications:
 - simulation
 created_at: '2026-02-02'
 current_position:
+  confidence: openalex_inferred
   institution: Technion – Israel Institute of Technology
   since_year: 2020
+  source: https://openalex.org/A5054325134
   title: Assistant Professor
 education:
 - degree: BSc (Physics and Computer Science)
@@ -45,6 +47,11 @@ keywords:
 - parity violation
 - chiral molecules
 - ion-neutral collisions
+- Cold Atom Physics and Bose-Einstein Condensates
+- Advanced Chemical Physics Studies
+- Atomic and Subatomic Physics Research
+- Quantum, superfluid, helium dynamics
+- Dark Matter and Cosmic Phenomena
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -55,6 +62,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=tbFFEyMAAAAJ
   group_page: https://shagam.net.technion.ac.il/
+  openalex: https://openalex.org/A5054325134
   orcid: https://orcid.org/0000-0002-6994-4814
   technion_profile: https://chemistry.technion.ac.il/en/team/yuval-shagam/
 location:
@@ -87,7 +95,7 @@ thesis:
   link: Unknown
   title: Cold chemistry with cold molecules
   year: 2016
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

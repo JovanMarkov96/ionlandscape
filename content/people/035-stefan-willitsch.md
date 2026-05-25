@@ -6,8 +6,10 @@ applications:
 - fundamental_physics
 created_at: '2026-01-30'
 current_position:
-  institution: University of Basel
+  confidence: openalex_inferred
+  institution: University Of Basel
   since_year: 2008
+  source: https://openalex.org/A5090094344
   title: Professor of Chemistry
 education:
 - advisor: Frédéric Merkt
@@ -38,6 +40,11 @@ keywords:
 - ion-molecule reactions
 - quantum chemistry
 - cold chemistry
+- Cold Atom Physics and Bose-Einstein Condensates
+- Advanced Chemical Physics Studies
+- Atomic and Subatomic Physics Research
+- Spectroscopy and Laser Applications
+- Spectroscopy and Quantum Chemical Studies
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -48,6 +55,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=51D_dOIAAAAJ
   group_page: https://willitsch.chemie.unibas.ch/
+  openalex: https://openalex.org/A5090094344
   orcid: https://orcid.org/0000-0002-8376-0579
 location:
   city: Basel
@@ -79,7 +87,7 @@ thesis:
   title: 'Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer
     Radikale und Kationen'
   year: 2004
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

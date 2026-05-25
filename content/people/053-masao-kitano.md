@@ -5,8 +5,10 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
+  confidence: openalex_inferred
   institution: Kyoto University
   since_year: null
+  source: https://openalex.org/A5022735068
   title: Professor
 education:
 - advisor: null
@@ -24,6 +26,11 @@ keywords:
 - quantum optics
 - trapped ions
 - quantum information
+- Metamaterials and Metasurfaces Applications
+- Quantum optics and atomic interactions
+- Advanced Fiber Laser Technologies
+- Quantum Information and Cryptography
+- Advanced Antenna and Metasurface Technologies
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -34,6 +41,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=XXw35CcAAAAJ
   group_page: null
+  openalex: https://openalex.org/A5022735068
   orcid: https://orcid.org/0000-0003-1065-8028
 location:
   city: Kyoto
@@ -62,7 +70,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: null
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 1
 ---
 

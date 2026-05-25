@@ -7,8 +7,10 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  institution: VU Amsterdam
+  confidence: openalex_inferred
+  institution: Vrije Universiteit Amsterdam
   since_year: null
+  source: https://openalex.org/A5013718580
   title: Associate Professor
 education:
 - advisor: null
@@ -28,6 +30,11 @@ keywords:
 - HD+ spectroscopy
 - precision measurement
 - fundamental constants
+- Cold Atom Physics and Bose-Einstein Condensates
+- Advanced Frequency and Time Standards
+- Atomic and Molecular Physics
+- Spectroscopy and Laser Applications
+- Advanced Fiber Laser Technologies
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -40,6 +47,7 @@ links:
   group_page: null
   homepage: https://www.nat.vu.nl/~koel/
   institution_profile: https://research.vu.nl/en/persons/jeroen-koelemeij
+  openalex: https://openalex.org/A5013718580
   orcid: https://orcid.org/0000-0003-1005-0231
 location:
   city: Amsterdam
@@ -70,7 +78,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: null
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

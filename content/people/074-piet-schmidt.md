@@ -7,8 +7,10 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  institution: Physikalisch-Technische Bundesanstalt (PTB) / Leibniz University Hannover
+  confidence: openalex_inferred
+  institution: Leibniz University Hannover
   since_year: null
+  source: https://openalex.org/A5060830868
   title: Professor / Group Leader
 education:
 - advisor: Tilman Pfau
@@ -34,6 +36,11 @@ keywords:
 - precision measurement
 - quantum logic spectroscopy
 - highly charged ions
+- Advanced Frequency and Time Standards
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Information and Cryptography
+- Atomic and Subatomic Physics Research
+- Quantum optics and atomic interactions
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -44,6 +51,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=AXqgH5oAAAAJ
   group_page: https://www.quantummetrology.de/
+  openalex: https://openalex.org/A5060830868
   orcid: https://orcid.org/0000-0003-0773-5889
 location:
   city: Braunschweig
@@ -74,7 +82,7 @@ thesis:
   link: Unknown
   title: Scattering Properties of Ultra-cold Chromium Atoms
   year: 2003
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

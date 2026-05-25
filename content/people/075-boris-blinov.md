@@ -6,8 +6,10 @@ applications:
 - networking
 created_at: '2026-01-30'
 current_position:
-  institution: University of Washington
+  confidence: openalex_inferred
+  institution: University Of Washington
   since_year: null
+  source: https://openalex.org/A5050998584
   title: Professor
 education:
 - advisor: null
@@ -32,6 +34,11 @@ keywords:
 - quantum networks
 - ion-photon entanglement
 - quantum computing
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Atomic and Subatomic Physics Research
+- Particle accelerators and beam dynamics
+- Particle Accelerators and Free-Electron Lasers
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -42,6 +49,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=BXqgH5oAAAAJ
   group_page: https://depts.washington.edu/qcomp/
+  openalex: https://openalex.org/A5050998584
   orcid: https://orcid.org/0000-0002-1028-9931
 location:
   city: Seattle
@@ -73,7 +81,7 @@ thesis:
   title: RF DEPOLARIZING RESONANCES IN THE PRESENCE OF A FULL SIBERIAN SNAKE AND FULL
     SNAKE SPIN-FLIPPING
   year: 2000
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

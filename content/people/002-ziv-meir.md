@@ -6,7 +6,9 @@ applications:
 - sensing_metrology
 created_at: '2026-01-26'
 current_position:
-  institution: Weizmann Institute of Science
+  confidence: openalex_inferred
+  institution: University Of Basel
+  source: https://openalex.org/A5014411256
   title: Principal Investigator (Senior Scientist)
 education:
 - degree: BSc (dual), magna cum laude
@@ -33,6 +35,11 @@ keywords:
 - precision spectroscopy
 - atom-ion interactions
 - micromotion
+- Cold Atom Physics and Bose-Einstein Condensates
+- Atomic and Subatomic Physics Research
+- Quantum optics and atomic interactions
+- Quantum Information and Cryptography
+- Advanced Frequency and Time Standards
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -45,6 +52,7 @@ links:
   group_page: https://www.weizmann.ac.il/complex/meir/group
   homepage: https://www.weizmann.ac.il/complex/meir/
   iucc_cris: https://cris.iucc.ac.il/en/persons/ziv-meir
+  openalex: https://openalex.org/A5014411256
   orcid: https://orcid.org/0000-0002-9321-8687
   weizmann_pure: https://weizmann.elsevierpure.com/en/persons/ziv-meir
 location:
@@ -80,7 +88,7 @@ thesis:
   title: 'Dynamics of a single, ground-state cooled and trapped ion colliding with
     ultracold atoms: A micromotion tale'
   year: 2016
-updated_at: '2026-01-27'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

@@ -5,8 +5,10 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
-  institution: Tsinghua University
+  confidence: openalex_inferred
+  institution: Hefei University
   since_year: null
+  source: https://openalex.org/A5008867233
   title: Professor
 education:
 - advisor: null
@@ -25,6 +27,11 @@ keywords:
 - quantum computing
 - superconducting circuits
 - hybrid systems
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Quantum and electron transport phenomena
+- Mechanical and Optical Resonators
+- Quantum Mechanics and Applications
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -35,6 +42,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=4Jk6zRIAAAAJ
   group_page: http://hqs.iiis.tsinghua.edu.cn/
+  openalex: https://openalex.org/A5008867233
   orcid: https://orcid.org/0000-0003-4419-5674
 location:
   city: Beijing
@@ -64,7 +72,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: null
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

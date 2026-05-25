@@ -177,7 +177,7 @@ function Groups() {
     const filteredPeople = useMemo(() => {
         if (!people.length) return [];
 
-        return people.filter(p => {
+        return people.filter(p => !String(p.id || '').startsWith('000-')).filter(p => {
             // 0. Category Filter
             if (category !== 'All') {
                 const platforms = p.platforms || [];

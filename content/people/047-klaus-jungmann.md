@@ -7,8 +7,10 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  institution: University of Groningen
+  confidence: openalex_inferred
+  institution: University Of Groningen
   since_year: null
+  source: https://openalex.org/A5032279219
   title: Professor
 education:
 - advisor: null
@@ -28,6 +30,11 @@ keywords:
 - fundamental symmetries
 - trapped ions
 - radium ions
+- Atomic and Molecular Physics
+- Particle physics theoretical and experimental studies
+- Muon and positron interactions and applications
+- Atomic and Subatomic Physics Research
+- Particle accelerators and beam dynamics
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -38,6 +45,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=gmbozcIAAAAJ
   group_page: https://www.rug.nl/research/vsi/research/ions/
+  openalex: https://openalex.org/A5032279219
   orcid: https://orcid.org/0000-0003-0571-4072
 location:
   city: Groningen
@@ -66,7 +74,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: null
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 1
 ---
 

@@ -11,8 +11,10 @@ applications:
 - simulation
 created_at: '2026-01-26'
 current_position:
-  institution: Institute for Quantum Optics and Quantum Information (IQOQI) Innsbruck
+  confidence: openalex_inferred
+  institution: Austrian Academy of Sciences
   since_year: null
+  source: https://openalex.org/A5040977712
   title: Emeritus Research Director
 education:
 - advisor: Günter Werth
@@ -43,6 +45,11 @@ keywords:
 - trapped ions
 - quantum information processing
 - quantum simulation
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Computing Algorithms and Architecture
+- Quantum Mechanics and Applications
+- Quantum optics and atomic interactions
 labels:
 - Experimental group
 - Industry
@@ -57,6 +64,7 @@ links:
   google_scholar: https://scholar.google.com/citations?user=_34V-4QAAAAJ
   group_page: https://www.uibk.ac.at/exphys/qos/
   oeaw_profile: https://www.oeaw.ac.at/en/m/blatt-rainer/
+  openalex: https://openalex.org/A5040977712
   orcid: https://orcid.org/0000-0002-3122-2461
   wikipedia: https://en.wikipedia.org/wiki/Rainer_Blatt
 location:
@@ -91,7 +99,7 @@ thesis:
   title: Präzisionsmessung der Hyperfeinstrukturaufspaltung des Grundzustandes von
     Yb-171+
   year: 1981
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 4
 ---
 

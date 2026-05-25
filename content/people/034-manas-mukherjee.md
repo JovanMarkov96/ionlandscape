@@ -6,8 +6,10 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  institution: Centre for Quantum Technologies, National University of Singapore
+  confidence: openalex_inferred
+  institution: Agency for Science, Technology and Research
   since_year: null
+  source: https://openalex.org/A5084652325
   title: Principal Investigator
 education:
 - advisor: null
@@ -30,6 +32,11 @@ keywords:
 - quantum computing
 - quantum simulation
 - cold ions
+- Atomic and Molecular Physics
+- Nuclear physics research studies
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Astronomical and nuclear sciences
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -40,6 +47,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=VJE3z6IAAAAJ
   group_page: https://coldiongroup.wixsite.com/cqt-nus
+  openalex: https://openalex.org/A5084652325
   orcid: https://orcid.org/0000-0003-3706-406X
 location:
   city: Singapore
@@ -68,7 +76,7 @@ thesis:
   link: Unknown
   title: The mass of 22^Mg and a concept for a novel laser ion source trap
   year: 2004
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

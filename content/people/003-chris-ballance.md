@@ -11,7 +11,9 @@ applications:
 - computing
 created_at: '2026-01-26'
 current_position:
-  institution: IonQ, Inc.
+  confidence: openalex_inferred
+  institution: University Of Oxford
+  source: https://openalex.org/A5031512677
   title: President, Quantum Computing
 education:
 - advisor: David M. Lucas
@@ -30,6 +32,11 @@ keywords:
 - high-fidelity gates
 - ion qubit control
 - coherence
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Mechanics and Applications
+- Quantum and electron transport phenomena
 labels:
 - Experimental group
 - Industry
@@ -41,6 +48,7 @@ links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=pgnnU3MAAAAJ
   group_page: https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group
   ionq_bio: https://investors.ionq.com/governance/board-of-directors/person-details/default.aspx?ItemId=a5a3affa-e6f6-48e5-9f2f-ec7bd0e6b78c
+  openalex: https://openalex.org/A5031512677
   orcid: https://orcid.org/0000-0002-9654-9510
   oxford_ionics_profile: https://www.oxionics.com/people/chris-ballance/
   oxford_ora_thesis: https://ora.ox.ac.uk/objects/uuid:1beb7f67-4d92-4d57-8754-50f92f9d27f4
@@ -72,7 +80,7 @@ thesis:
   link: https://ora.ox.ac.uk/objects/uuid:1beb7f67-4d92-4d57-8754-50f92f9d27f4
   title: High-fidelity quantum logic in Ca+
   year: 2014
-updated_at: '2026-01-27'
+updated_at: '2026-05-25'
 verification_source_count: 4
 ---
 

@@ -5,8 +5,10 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  institution: ETH Zürich
+  confidence: openalex_inferred
+  institution: ETH Zurich
   since_year: 2001
+  source: https://openalex.org/A5020623477
   title: Professor of Physics
 education:
 - advisor: Theodor W. Hänsch
@@ -32,6 +34,11 @@ keywords:
 - quantum simulation
 - hybrid systems
 - cavity QED
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum, superfluid, helium dynamics
+- Atomic and Subatomic Physics Research
+- Quantum optics and atomic interactions
+- Quantum and electron transport phenomena
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -42,6 +49,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=CXqgH5oAAAAJ
   group_page: https://quantumoptics.ethz.ch/
+  openalex: https://openalex.org/A5020623477
   orcid: https://orcid.org/0000-0002-8333-107X
 location:
   city: Zürich
@@ -73,7 +81,7 @@ thesis:
     title not indexed online.
   title: Unknown
   year: 1995
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

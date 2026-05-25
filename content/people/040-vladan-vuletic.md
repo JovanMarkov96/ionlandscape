@@ -10,8 +10,10 @@ applications:
 - sensing_metrology
 created_at: '2026-01-30'
 current_position:
-  institution: Massachusetts Institute of Technology
+  confidence: openalex_inferred
+  institution: MIT-Harvard Center for Ultracold Atoms
   since_year: 2011
+  source: https://openalex.org/A5110481134
   title: Lester Wolfe Professor of Physics
 education:
 - degree: Physics Diploma (Diplom)
@@ -43,6 +45,11 @@ keywords:
 - cavity QED
 - quantum metrology
 - quantum information
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Information and Cryptography
+- Quantum optics and atomic interactions
+- Atomic and Subatomic Physics Research
+- Advanced Frequency and Time Standards
 labels:
 - Experimental group
 - Industry
@@ -54,6 +61,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=E_7YsOgAAAAJ&hl=en
   group_page: https://cua.mit.edu/people/vladan-vuletic/
+  openalex: https://openalex.org/A5110481134
   orcid: https://orcid.org/0000-0002-9786-0538
 location:
   city: Cambridge
@@ -92,7 +100,7 @@ thesis:
     not readily available.
   title: Unknown
   year: 1997
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

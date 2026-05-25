@@ -43,6 +43,11 @@ keywords:
 - quantum logic gates
 - optical clocks
 - precision measurement
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Advanced Frequency and Time Standards
+- Quantum Mechanics and Applications
+- Atomic and Subatomic Physics Research
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -54,6 +59,7 @@ links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=6quvCpAAAAAJ
   group_page: https://www.nist.gov/people/david-j-wineland
   nobel_bio: https://www.nobelprize.org/prizes/physics/2012/wineland/biographical/
+  openalex: https://openalex.org/A5001536933
   orcid: https://orcid.org/0000-0002-9770-5220
   uoregon_profile: https://cas.uoregon.edu/directory/profiles/all/djw34
   wikipedia: https://en.wikipedia.org/wiki/David_J._Wineland
@@ -86,7 +92,7 @@ thesis:
   link: https://www.proquest.com/docview/302462813
   title: The Atomic Deuterium Maser
   year: 1971
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 4
 ---
 

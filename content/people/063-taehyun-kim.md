@@ -6,8 +6,10 @@ applications:
 - networking
 created_at: '2026-01-30'
 current_position:
-  institution: Seoul National University
+  confidence: openalex_inferred
+  institution: Korea Atomic Energy Research Institute
   since_year: null
+  source: https://openalex.org/A5076949202
   title: Associate Professor
 education:
 - advisor: Franco N. C. Wong
@@ -30,6 +32,11 @@ keywords:
 - quantum computing
 - quantum networks
 - microfabricated traps
+- Rock Mechanics and Modeling
+- Soil and Unsaturated Flow
+- Landslides and related hazards
+- Hydraulic Fracturing and Reservoir Analysis
+- Geophysical Methods and Applications
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -40,6 +47,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=9_5WtHeAAAAJ
   group_page: http://qis.snu.ac.kr/
+  openalex: https://openalex.org/A5076949202
   orcid: https://orcid.org/0000-0002-2424-1533
 location:
   city: Seoul
@@ -70,7 +78,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: 2008
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

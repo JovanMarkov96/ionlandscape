@@ -6,8 +6,10 @@ applications:
 - networking
 created_at: '2026-01-30'
 current_position:
-  institution: Okinawa Institute of Science and Technology (OIST)
+  confidence: openalex_inferred
+  institution: University of Tsukuba
   since_year: 2019
+  source: https://openalex.org/A5115013848
   title: Associate Professor
 education:
 - advisor: null
@@ -32,6 +34,11 @@ keywords:
 - cavity QED
 - quantum information
 - ion-photon interfaces
+- Innovation and Knowledge Management
+- Digital Marketing and Social Media
+- Service and Product Innovation
+- Sport and Mega-Event Impacts
+- Computational and Text Analysis Methods
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -42,6 +49,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=3Jk6zRIAAAAJ
   group_page: https://groups.oist.jp/equip
+  openalex: https://openalex.org/A5115013848
   orcid: https://orcid.org/0000-0003-1356-1467
 location:
   city: Onna
@@ -72,7 +80,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: null
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

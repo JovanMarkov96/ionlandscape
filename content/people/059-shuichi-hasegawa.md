@@ -5,8 +5,10 @@ applications:
 - software_control
 created_at: '2026-01-30'
 current_position:
-  institution: University of Tokyo
+  confidence: openalex_inferred
+  institution: Tokai University
   since_year: null
+  source: https://openalex.org/A5101487275
   title: Professor
 education:
 - advisor: null
@@ -24,6 +26,11 @@ keywords:
 - trapped ions
 - quantum control
 - laser cooling
+- Atomic and Molecular Physics
+- Mass Spectrometry Techniques and Applications
+- Atmospheric chemistry and aerosols
+- Air Quality and Health Impacts
+- Cold Atom Physics and Bose-Einstein Condensates
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -34,6 +41,7 @@ lineage_check:
 links:
   google_scholar: null
   group_page: https://www.nuclear.jp/~hasegawa/index_e.html
+  openalex: https://openalex.org/A5101487275
   orcid: https://orcid.org/0000-0003-2342-6875
 location:
   city: Tokyo
@@ -62,7 +70,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: null
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 1
 ---
 

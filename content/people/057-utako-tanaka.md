@@ -5,8 +5,10 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
-  institution: Osaka University
+  confidence: openalex_inferred
+  institution: Quantum (Australia)
   since_year: null
+  source: https://openalex.org/A5041895625
   title: Associate Professor
 education:
 - advisor: null
@@ -35,6 +37,11 @@ keywords:
 - quantum computing
 - microfabricated traps
 - surface-electrode traps
+- Cold Atom Physics and Bose-Einstein Condensates
+- Advanced Frequency and Time Standards
+- Advanced Fiber Laser Technologies
+- Atomic and Subatomic Physics Research
+- Quantum Information and Cryptography
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -46,6 +53,7 @@ links:
   google_scholar: null
   group_page: https://www-tanaka.Kv-lab.org/
   homepage: https://www-tanaka.Kv-lab.org/
+  openalex: https://openalex.org/A5041895625
   orcid: https://orcid.org/0000-0001-5221-8667
 location:
   city: Osaka
@@ -74,7 +82,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: 1993
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

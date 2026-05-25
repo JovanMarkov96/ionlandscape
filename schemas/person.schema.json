@@ -131,6 +131,33 @@
           ],
           "minimum": 1950,
           "maximum": 2099
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "confidence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "confirmed",
+            "openalex_inferred",
+            "stale",
+            "ambiguous",
+            null
+          ]
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
         }
       }
     },

@@ -7,8 +7,10 @@ applications:
 - fundamental_physics
 created_at: '2026-01-26'
 current_position:
-  institution: National Institute of Standards and Technology (NIST), Boulder
+  confidence: openalex_inferred
+  institution: National Institute of Standards and Technology
   since_year: null
+  source: https://openalex.org/A5086425769
   title: Staff Scientist / Group Leader, Ion Storage Group
 education:
 - degree: BS (Physics and Mathematics)
@@ -47,6 +49,11 @@ keywords:
 - precision measurement
 - many-body physics
 - quantum simulation with ion crystals
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Information and Cryptography
+- Atomic and Molecular Physics
+- Laser-induced spectroscopy and plasma
+- Atomic and Subatomic Physics Research
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -59,6 +66,7 @@ links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=u8hdXb0AAAAJ
   group_page: https://www.nist.gov/people/john-j-bollinger
   nist_publications: https://tf.nist.gov/tf-cgi/showpubs.pl?authors=bollinger
+  openalex: https://openalex.org/A5086425769
   orcid: https://orcid.org/0000-0001-9117-7896
 location:
   city: Boulder
@@ -89,7 +97,7 @@ thesis:
     re-verified.
   title: Measurement of the 42S1/2-42P1/2 Lamb Shift in He+
   year: 1981
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

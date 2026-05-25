@@ -47,6 +47,11 @@ keywords:
 - optical clocks
 - noise mitigation
 - decoherence
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Information and Cryptography
+- Atomic and Subatomic Physics Research
+- Advanced Frequency and Time Standards
+- Quantum Computing Algorithms and Architecture
 labels:
 - Experimental group
 - Industry
@@ -59,6 +64,7 @@ links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=teWGJhAAAAAJ
   group_page: http://www.weizmann.ac.il/complex/ozeri/
   iucc_cris: https://cris.iucc.ac.il/en/persons/roee-ozeri/
+  openalex: https://openalex.org/A5038915880
   orcid: https://orcid.org/0000-0001-7843-8801
   quantum_art: https://www.quantum-art.tech/team
   weizmann_pure: https://weizmann.elsevierpure.com/en/persons/roee-ozeri
@@ -92,7 +98,7 @@ thesis:
   link: Unknown
   title: Optical manipulation of atomic clouds
   year: 2006
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

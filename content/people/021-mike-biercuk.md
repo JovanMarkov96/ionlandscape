@@ -41,6 +41,11 @@ keywords:
 - quantum error suppression
 - quantum sensing
 - dynamical decoupling
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Quantum and electron transport phenomena
+- Cold Atom Physics and Bose-Einstein Condensates
+- Atomic and Subatomic Physics Research
 labels:
 - Experimental group
 - Industry
@@ -52,6 +57,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=Pf5u3hcAAAAJ
   group_page: https://www.q-ctrl.com/
+  openalex: https://openalex.org/A5004463244
   orcid: https://orcid.org/0000-0002-4371-2580
   sydney_profile: https://www.sydney.edu.au/science/about/our-people/academic-staff/michael-biercuk.html
 location:
@@ -83,7 +89,7 @@ thesis:
   link: Unknown
   title: Local Gate Control in Carbon Nanotube Quantum Dots
   year: 2005
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

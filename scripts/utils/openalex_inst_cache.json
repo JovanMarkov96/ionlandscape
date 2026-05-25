@@ -1,0 +1,250 @@
+{
+  "I1850255": {
+    "display_name": "University of Basel",
+    "ror": "https://ror.org/02s6k3f65",
+    "city": "Basel",
+    "country": "Switzerland",
+    "lat": 47.55839157104492,
+    "lon": 7.573269844055176
+  },
+  "I40120149": {
+    "display_name": "University of Oxford",
+    "ror": "https://ror.org/052gg0110",
+    "city": "Oxford",
+    "country": "United Kingdom",
+    "lat": 51.75222,
+    "lon": -1.25596
+  },
+  "I2801496451": {
+    "display_name": "German Primate Center",
+    "ror": "https://ror.org/02f99v835",
+    "city": "Göttingen",
+    "country": "Germany",
+    "lat": 51.561729431152344,
+    "lon": 9.954649925231934
+  },
+  "I1321296531": {
+    "display_name": "National Institute of Standards and Technology",
+    "ror": "https://ror.org/05xpvk416",
+    "city": "Gaithersburg",
+    "country": "United States",
+    "lat": 39.14344024658203,
+    "lon": -77.20137023925781
+  },
+  "I162608824": {
+    "display_name": "University of Sussex",
+    "ror": "https://ror.org/00ayhx656",
+    "city": "Brighton",
+    "country": "United Kingdom",
+    "lat": 50.8283805847168,
+    "lon": -0.13946999609470367
+  },
+  "I190249584": {
+    "display_name": "Universität Innsbruck",
+    "ror": "https://ror.org/054pv6659",
+    "city": "Innsbruck",
+    "country": "Austria",
+    "lat": 47.26266,
+    "lon": 11.39454
+  },
+  "I35440088": {
+    "display_name": "ETH Zurich",
+    "ror": "https://ror.org/05a28rw58",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.36667,
+    "lon": 8.55
+  },
+  "I138211613": {
+    "display_name": "Austrian Academy of Sciences",
+    "ror": "https://ror.org/03anc3s24",
+    "city": "Vienna",
+    "country": "Austria",
+    "lat": 48.20849,
+    "lon": 16.37208
+  },
+  "I13227775": {
+    "display_name": "Cornerstone University",
+    "ror": "https://ror.org/01nfeyj87",
+    "city": "Grand Rapids",
+    "country": "United States",
+    "lat": 42.96336,
+    "lon": -85.66809
+  },
+  "I151746483": {
+    "display_name": "University of Waterloo",
+    "ror": "https://ror.org/01aff2v68",
+    "city": "Waterloo",
+    "country": "Canada",
+    "lat": 43.4668,
+    "lon": -80.51639
+  },
+  "I11701301": {
+    "display_name": "Griffith University",
+    "ror": "https://ror.org/02sc3r913",
+    "city": "Brisbane",
+    "country": "Australia",
+    "lat": -27.46794,
+    "lon": 153.02809
+  },
+  "I91712215": {
+    "display_name": "Saarland University",
+    "ror": "https://ror.org/01jdpyv68",
+    "city": "Saarbrücken",
+    "country": "Germany",
+    "lat": 49.23262,
+    "lon": 7.00982
+  },
+  "I865915315": {
+    "display_name": "Vrije Universiteit Amsterdam",
+    "ror": "https://ror.org/008xxew50",
+    "city": "Amsterdam",
+    "country": "The Netherlands",
+    "lat": 52.37403,
+    "lon": 4.88969
+  },
+  "I115228651": {
+    "display_name": "Agency for Science, Technology and Research",
+    "ror": "https://ror.org/036wvzt09",
+    "city": "Singapore",
+    "country": "Singapore",
+    "lat": 1.2896699905395508,
+    "lon": 103.85006713867188
+  },
+  "I103922791": {
+    "display_name": "QB3",
+    "ror": "https://ror.org/04n1n3n22",
+    "city": "San Francisco",
+    "country": "United States",
+    "lat": 37.77492904663086,
+    "lon": -122.41941833496094
+  },
+  "I4210159271": {
+    "display_name": "MIT-Harvard Center for Ultracold Atoms",
+    "ror": "https://ror.org/053tmcn30",
+    "city": "Cambridge",
+    "country": "United States",
+    "lat": 42.375099182128906,
+    "lon": -71.1056137084961
+  },
+  "I1295614966": {
+    "display_name": "Helen Keller International",
+    "ror": "https://ror.org/04qxbzf60",
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.74188232421875,
+    "lon": -73.98550415039062
+  },
+  "I4210145651": {
+    "display_name": "Advanced Research Center for Nanolithography (Netherlands)",
+    "ror": "https://ror.org/04xe7ws48",
+    "city": "Amsterdam",
+    "country": "The Netherlands",
+    "lat": 52.37403,
+    "lon": 4.88969
+  },
+  "I169381384": {
+    "display_name": "University of Groningen",
+    "ror": "https://ror.org/012p63287",
+    "city": "Groningen",
+    "country": "The Netherlands",
+    "lat": 53.21917,
+    "lon": 6.56667
+  },
+  "I4210122954": {
+    "display_name": "MIT Lincoln Laboratory",
+    "ror": "https://ror.org/022z6jk58",
+    "city": "Lexington",
+    "country": "United States",
+    "lat": 42.458980560302734,
+    "lon": -71.26749420166016
+  },
+  "I22299242": {
+    "display_name": "Kyoto University",
+    "ror": "https://ror.org/02kpeqv85",
+    "city": "Kyoto",
+    "country": "Japan",
+    "lat": 35.02107,
+    "lon": 135.75385
+  },
+  "I146399215": {
+    "display_name": "University of Tsukuba",
+    "ror": "https://ror.org/02956yf07",
+    "city": "Tsukuba",
+    "country": "Japan",
+    "lat": 36.20000076293945,
+    "lon": 140.10000610351562
+  },
+  "I4210091585": {
+    "display_name": "Quantum (Australia)",
+    "ror": "https://ror.org/00bp6rb10",
+    "city": "Essendon",
+    "country": "Australia",
+    "lat": -37.74561309814453,
+    "lon": 144.9260711669922
+  },
+  "I1314466530": {
+    "display_name": "Tokai University",
+    "ror": "https://ror.org/01p7qe739",
+    "city": "Tokyo",
+    "country": "Japan",
+    "lat": 35.68949890136719,
+    "lon": 139.69171142578125
+  },
+  "I123900574": {
+    "display_name": "Pohang University of Science and Technology",
+    "ror": "https://ror.org/04xysgw12",
+    "city": "Pohang",
+    "country": "South Korea",
+    "lat": 36.029170989990234,
+    "lon": 129.36480712890625
+  },
+  "I4210087584": {
+    "display_name": "Korea Institute of Oriental Medicine",
+    "ror": "https://ror.org/005rpmt10",
+    "city": "Daejeon",
+    "country": "South Korea",
+    "lat": 36.34913,
+    "lon": 127.38493
+  },
+  "I155671955": {
+    "display_name": "Korea Atomic Energy Research Institute",
+    "ror": "https://ror.org/01xb4fs50",
+    "city": "Daejeon",
+    "country": "South Korea",
+    "lat": 36.34913,
+    "lon": 127.38493
+  },
+  "I39774598": {
+    "display_name": "Hefei University",
+    "ror": "https://ror.org/01f5rdf64",
+    "city": "Hefei",
+    "country": "China",
+    "lat": 31.863889694213867,
+    "lon": 117.28083038330078
+  },
+  "I114112103": {
+    "display_name": "Leibniz University Hannover",
+    "ror": "https://ror.org/0304hq317",
+    "city": "Hanover",
+    "country": "Germany",
+    "lat": 52.37052,
+    "lon": 9.73322
+  },
+  "I201448701": {
+    "display_name": "University of Washington",
+    "ror": "https://ror.org/00cvxb145",
+    "city": "Seattle",
+    "country": "United States",
+    "lat": 47.60621,
+    "lon": -122.33207
+  },
+  "I174306211": {
+    "display_name": "Technion – Israel Institute of Technology",
+    "ror": "https://ror.org/03qryx823",
+    "city": "Haifa",
+    "country": "Israel",
+    "lat": 32.81840896606445,
+    "lon": 34.98849868774414
+  }
+}

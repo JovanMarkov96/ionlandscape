@@ -10,8 +10,10 @@ applications:
 - software_control
 created_at: '2026-01-30'
 current_position:
-  institution: Duke University
+  confidence: openalex_inferred
+  institution: Helen Keller International
   since_year: null
+  source: https://openalex.org/A5063733395
   title: Michael J. Fitzpatrick Distinguished Professor of Engineering; Director of
     the Duke Quantum Center
 education:
@@ -38,6 +40,11 @@ keywords:
 - quantum error correction
 - quantum control
 - fault-tolerant quantum computing
+- Child Nutrition and Water Access
+- Iron Metabolism and Disorders
+- Trace Elements in Health
+- Child Nutrition and Feeding Issues
+- Plant Micronutrient Interactions and Effects
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -48,6 +55,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=5RFsz9IAAAAJ
   group_page: https://sites.duke.edu/brownlab/
+  openalex: https://openalex.org/A5063733395
   orcid: https://orcid.org/0000-0001-6498-3120
 location:
   city: Durham
@@ -78,7 +86,7 @@ thesis:
   link: Unknown
   title: Theoretical Issues in Quantum Information Technologies
   year: 2003
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

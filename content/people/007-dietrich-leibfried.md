@@ -9,8 +9,10 @@ applications:
 atomic_species: []
 created_at: '2026-01-26'
 current_position:
-  institution: National Institute of Standards and Technology (NIST), Boulder
+  confidence: openalex_inferred
+  institution: National Institute of Standards and Technology
   since_year: 2001
+  source: https://openalex.org/A5064543500
   title: Staff Physicist / Co-Leader, Ion Storage Group (Quantum Information)
 education:
 - degree: Diplom-Physiker
@@ -61,6 +63,11 @@ keywords:
 - quantum networking
 - precision spectroscopy
 - molecular ion quantum control
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Mechanics and Applications
+- Quantum Computing Algorithms and Architecture
+- Quantum optics and atomic interactions
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -74,6 +81,7 @@ links:
   group_page: https://www.nist.gov/people/dietrich-leibfried
   nist_group_members: https://www.nist.gov/pml/time-and-frequency-division/ion-storage/ion-storage-group-members
   nist_publications: https://www.nist.gov/publications/search_by_author/1160611
+  openalex: https://openalex.org/A5064543500
   orcid: https://orcid.org/0000-0001-8442-625X
 location:
   city: Boulder
@@ -108,7 +116,7 @@ thesis:
     NIST bio states "precision laser spectroscopy of hydrogen".
   title: Unknown
   year: 1995
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 

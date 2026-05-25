@@ -5,8 +5,10 @@ applications:
 - computing
 created_at: '2026-01-30'
 current_position:
+  confidence: openalex_inferred
   institution: MIT Lincoln Laboratory
   since_year: null
+  source: https://openalex.org/A5083419298
   title: Senior Staff
 education:
 - advisor: Aharon Kapitulnik
@@ -26,6 +28,11 @@ keywords:
 - integrated photonics
 - surface traps
 - quantum logic
+- Quantum Information and Cryptography
+- Quantum Computing Algorithms and Architecture
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum optics and atomic interactions
+- Quantum Mechanics and Applications
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -36,6 +43,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=JvXj6gUAAAAJ
   group_page: https://www.ll.mit.edu/r-d/advanced-technology/quantum-information-and-integrated-nanosystems
+  openalex: https://openalex.org/A5083419298
   orcid: https://orcid.org/0000-0001-7123-8460
 location:
   city: Lexington
@@ -67,7 +75,7 @@ thesis:
   link: Unknown
   title: Unknown
   year: null
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 2
 ---
 

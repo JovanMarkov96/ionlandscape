@@ -7,7 +7,9 @@ applications:
 - software_control
 created_at: '2026-01-26'
 current_position:
-  institution: University of Innsbruck
+  confidence: openalex_inferred
+  institution: German Primate Center
+  source: https://openalex.org/A5012485450
   title: Senior Scientist
 education:
 - advisor: Rainer Blatt
@@ -25,6 +27,11 @@ keywords:
 - precision spectroscopy
 - quantum control
 - many-body physics
+- Quantum Information and Cryptography
+- Cold Atom Physics and Bose-Einstein Condensates
+- Quantum Mechanics and Applications
+- Quantum Computing Algorithms and Architecture
+- Quantum optics and atomic interactions
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'
@@ -32,6 +39,7 @@ links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ
   group_page: https://www.uibk.ac.at/exphys/qos/people/roos/
   iqoqi_profile: https://iqoqi.at/en/people/staff/staff/christian-roos
+  openalex: https://openalex.org/A5012485450
   orcid: https://orcid.org/0000-0001-7121-8259
   thesis_pdf: https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf
 location:
@@ -59,7 +67,7 @@ thesis:
   link: https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf
   title: Controlling the quantum state of trapped ions
   year: 2000
-updated_at: '2026-01-27'
+updated_at: '2026-05-25'
 verification_source_count: 1
 ---
 

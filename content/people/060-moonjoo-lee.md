@@ -6,8 +6,10 @@ applications:
 - simulation
 created_at: '2026-01-30'
 current_position:
-  institution: POSTECH
+  confidence: openalex_inferred
+  institution: Pohang University of Science and Technology
   since_year: 2020
+  source: https://openalex.org/A5059548002
   title: Associate Professor
 education:
 - advisor: Kyungwon An
@@ -37,6 +39,11 @@ keywords:
 - quantum simulation
 - cavity QED
 - quantum interfaces
+- Quantum Information and Cryptography
+- Mechanical and Optical Resonators
+- Photonic and Optical Devices
+- Quantum optics and atomic interactions
+- Cold Atom Physics and Bose-Einstein Condensates
 labels:
 - Experimental group
 last_verified_at: '2026-05-04'
@@ -47,6 +54,7 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=y_N5m5UAAAAJ
   group_page: null
+  openalex: https://openalex.org/A5059548002
   orcid: https://orcid.org/0000-0002-4054-0963
 location:
   city: Pohang
@@ -89,7 +97,7 @@ thesis:
   link: Unknown
   title: Imaging the vacuum fluctuations in a cavity with single atoms
   year: 2011
-updated_at: '2026-05-04'
+updated_at: '2026-05-25'
 verification_source_count: 3
 ---
 
