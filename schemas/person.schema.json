@@ -147,6 +147,7 @@
           "enum": [
             "confirmed",
             "openalex_inferred",
+            "orcid_inferred",
             "stale",
             "ambiguous",
             null

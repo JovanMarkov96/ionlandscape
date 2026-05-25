@@ -91,6 +91,41 @@ def fetch_author_by_orcid(orcid: str) -> dict | None:
         return None
 
 
+def fetch_orcid_institution(orcid: str) -> str | None:
+    """Fetch current/most-recent employer from ORCID public API.
+
+    ORCID is researcher-controlled and more reliable than OpenAlex for current
+    affiliation. Returns the organisation name string, or None if unavailable.
+    """
+    url = f"https://pub.orcid.org/v3.0/{orcid}/employments"
+    time.sleep(RATE_SLEEP)
+    try:
+        r = requests.get(url, headers={"Accept": "application/json"}, timeout=15)
+        if r.status_code != 200:
+            return None
+        data = r.json()
+        summaries = (
+            data.get("affiliation-group", [])
+        )
+        # Collect all employments, prefer those with no end-date (current)
+        entries = []
+        for group in summaries:
+            for summary in group.get("summaries", []):
+                emp = summary.get("employment-summary", {})
+                end = emp.get("end-date")
+                org = ((emp.get("organization") or {}).get("name") or "").strip()
+                if org:
+                    entries.append((end is None, org))  # (is_current, name)
+        if not entries:
+            return None
+        # Sort: current entries first (True > False), then take first
+        entries.sort(key=lambda x: x[0], reverse=True)
+        return entries[0][1]
+    except Exception as e:
+        print(f"  [warn] ORCID employments error for {orcid}: {e}")
+        return None
+
+
 def search_institution_by_name(name: str) -> dict | None:
     """Search OpenAlex institutions by display name, return first match geo dict."""
     params = {**P_BASE, "search": name, "per-page": 1,
@@ -299,9 +334,11 @@ def create_institution_skeleton(geo: dict, inst_id: int,
 
 def create_person_skeleton(row: dict, author_data: dict | None,
                             inst_geo: dict | None, canonical_inst: str,
-                            person_id: int, dry_run: bool) -> str:
+                            person_id: int, dry_run: bool,
+                            inst_source: str = "openalex_inferred") -> str:
     """
     Creates a person .md skeleton. Returns the new person file id.
+    inst_source: confidence tag for current_position ('openalex_inferred' or 'orcid_inferred').
     """
     name = row["name"].strip()
     orcid = row["orcid"].strip()
@@ -351,7 +388,7 @@ def create_person_skeleton(row: dict, author_data: dict | None,
     current_position = {
         "institution": canonical_inst,
         "title": "",
-        "confidence": "openalex_inferred",
+        "confidence": inst_source,
         "source": (author_data or {}).get("id") or "",
     }
 
@@ -453,19 +490,25 @@ def main():
         display_name = ""
 
         manual_inst = (row.get("manual_institution") or "").strip()
+        inst_source = "openalex_inferred"  # default; overridden below
 
         if manual_inst:
+            # 1st priority: human-verified institution name from shortlist CSV
             inst_geo = search_institution_by_name(manual_inst)
             display_name = (inst_geo or {}).get("display_name") or manual_inst
-        elif author_data:
-            insts = author_data.get("last_known_institutions") or []
-            if insts:
-                oa_inst = insts[0]
-                oa_inst_id_raw = oa_inst.get("id", "")
-                display_name = oa_inst.get("display_name", "")
-                inst_geo = fetch_institution_geo(oa_inst_id_raw, inst_cache) if oa_inst_id_raw else None
+            inst_source = "openalex_inferred"  # geo from OA; name from human
+        elif orcid:
+            # 2nd priority: ORCID employments (researcher-controlled, reliable)
+            orcid_inst = fetch_orcid_institution(orcid)
+            if orcid_inst:
+                print(f"  → ORCID institution: {orcid_inst}")
+                inst_geo = search_institution_by_name(orcid_inst)
+                display_name = (inst_geo or {}).get("display_name") or orcid_inst
+                inst_source = "orcid_inferred"
             else:
-                print(f"  [warn] No institution in OpenAlex for {name}")
+                print(f"  [warn] No ORCID employer for {name}; leaving institution empty")
+        else:
+            print(f"  [warn] No ORCID and no manual_institution for {name}")
 
         if display_name:
             oa_ror = (inst_geo or {}).get("ror")
@@ -505,7 +548,8 @@ def main():
 
         # ── Create person skeleton ────────────────────────────────────────────
         file_id = create_person_skeleton(
-            row, author_data, inst_geo, canonical_inst, person_id, args.dry_run
+            row, author_data, inst_geo, canonical_inst, person_id, args.dry_run,
+            inst_source=inst_source,
         )
         person_id += 1
 
