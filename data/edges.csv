@@ -7,9 +7,9 @@ source,target,type
 035-stefan-willitsch,002-ziv-meir,postdoc_advisor
 037-david-lucas,003-chris-ballance,advisor
 003-chris-ballance,c004-oxford-ionics,affiliated_with
-003-chris-ballance,c002-ionq,affiliated_with
+003-chris-ballance,i013-ionq-inc,affiliated_with
 000-carl-wieman,004-christopher-monroe,advisor
-004-christopher-monroe,c002-ionq,affiliated_with
+004-christopher-monroe,i013-ionq-inc,affiliated_with
 017-rainer-blatt,005-christian-roos,advisor
 000-norman-f-ramsey,006-david-wineland,advisor
 000-hans-dehmelt,006-david-wineland,postdoc_advisor

@@ -1498,12 +1498,11 @@
     "platforms": [],
     "affiliations": [],
     "location": {
-      "city": "Cambridge",
+      "city": "Unknown",
       "region": "",
-      "country": "USA",
+      "country": "Unknown",
       "lat": 42.375395,
-      "lon": -71.121891,
-      "precision": "inherited"
+      "lon": -71.121891
     },
     "education": [],
     "postdocs": [],
@@ -2129,12 +2128,11 @@
     "platforms": [],
     "affiliations": [],
     "location": {
-      "city": "Berkeley",
+      "city": "Unknown",
       "region": "",
-      "country": "USA",
+      "country": "Unknown",
       "lat": 37.876959,
-      "lon": -122.24563,
-      "precision": "inherited"
+      "lon": -122.24563
     },
     "education": [],
     "postdocs": [],
@@ -3090,18 +3088,18 @@
     "sort_name": "Häffner, Hartmut",
     "current_position": {
       "institution": "University of California, Berkeley",
-      "title": "Professor of Physics",
-      "since_year": 2009
+      "since_year": 2009,
+      "title": "Professor of Physics"
     },
     "platforms": [
       "trapped_ion"
     ],
     "affiliations": [
       {
+        "entity_id": null,
         "name": "Lawrence Berkeley National Laboratory",
-        "type": "institution",
         "role": "Affiliated Scientist",
-        "entity_id": null
+        "type": "institution"
       }
     ],
     "location": {
@@ -3114,35 +3112,35 @@
     "education": [
       {
         "advisor": "Günter Werth",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Mainz",
-        "year": 2000,
-        "confidence": "confirmed",
-        "source": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner"
+        "source": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner",
+        "year": 2000
       }
     ],
     "postdocs": [
       {
         "advisor": null,
         "institution": "University of Mainz",
-        "years": "2000",
-        "note": "Short postdoc in Mainz after PhD and visit to Bangalore."
+        "note": "Short postdoc in Mainz after PhD and visit to Bangalore.",
+        "years": "2000"
       },
       {
         "advisor": null,
-        "institution": "NIST Gaithersburg (Feodor-Lynen fellow)",
-        "years": "2000-2001",
         "confidence": "confirmed",
-        "source": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner"
+        "institution": "NIST Gaithersburg (Feodor-Lynen fellow)",
+        "source": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner",
+        "years": "2000-2001"
       },
       {
         "advisor": "Rainer Blatt",
         "advisor_id": "017-rainer-blatt",
-        "institution": "University of Innsbruck",
-        "years": "2001-2009",
-        "note": "University assistant (2001–2004, Marie-Curie fellow 2002–2004), then senior scientist at IQOQI (2004–2009, START award 2006).",
         "confidence": "confirmed",
-        "source": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner"
+        "institution": "University of Innsbruck",
+        "note": "University assistant (2001–2004, Marie-Curie fellow 2002–2004), then senior scientist at IQOQI (2004–2009, START award 2006).",
+        "source": "https://physics.berkeley.edu/people/faculty/hartmut-haeffner",
+        "years": "2001-2009"
       }
     ],
     "keywords": [
@@ -3430,18 +3428,18 @@
     "sort_name": "Schmidt-Kaler, Ferdinand",
     "current_position": {
       "institution": "Johannes Gutenberg University Mainz",
-      "title": "Full Professor (W3) of Experimental Physics",
-      "since_year": 2010
+      "since_year": 2010,
+      "title": "Full Professor (W3) of Experimental Physics"
     },
     "platforms": [
       "trapped_ion"
     ],
     "affiliations": [
       {
+        "entity_id": null,
         "name": "Helmholtz Institute Mainz",
-        "type": "institution",
         "role": "Member",
-        "entity_id": null
+        "type": "institution"
       }
     ],
     "location": {
@@ -3454,37 +3452,37 @@
     "education": [
       {
         "advisor": "Theodor W. Hänsch",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "Ludwig-Maximilians-University Munich",
-        "year": 1992,
-        "confidence": "confirmed",
-        "source": "https://www.uni-mainz.de/"
+        "source": "https://www.uni-mainz.de/",
+        "year": 1992
       }
     ],
     "postdocs": [
       {
         "advisor": "Theodor W. Hänsch",
         "advisor_id": null,
+        "confidence": "confirmed",
         "institution": "Max Planck Institute for Quantum Optics (MPQ)",
-        "years": "1992-1993",
         "note": "Postdoctoral researcher at MPQ.",
-        "confidence": "confirmed"
+        "years": "1992-1993"
       },
       {
         "advisor": "Serge Haroche",
         "advisor_id": null,
+        "confidence": "confirmed",
         "institution": "École Normale Supérieure (LKB)",
-        "years": "1992-1995",
         "note": "Postdoctoral research assistant.",
-        "confidence": "confirmed"
+        "years": "1992-1995"
       },
       {
         "advisor": "Rainer Blatt",
         "advisor_id": "017-rainer-blatt",
+        "confidence": "confirmed",
         "institution": "University of Innsbruck",
-        "years": "1995-2005",
         "note": "Assistant/Senior research assistant (Universitätsassistent) before professorship.",
-        "confidence": "confirmed"
+        "years": "1995-2005"
       }
     ],
     "keywords": [
@@ -3831,8 +3829,8 @@
     "sort_name": "Drewsen, Michael",
     "current_position": {
       "institution": "Aarhus University",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -3848,19 +3846,19 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "Aarhus University",
         "note": "Spent 10 months at l'Ecole Normale Supérieure in Paris with C. Cohen-Tannoudji during PhD",
-        "year": 1994,
-        "confidence": "confirmed"
+        "year": 1994
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -3899,8 +3897,8 @@
     "sort_name": "Köhl, Michael",
     "current_position": {
       "institution": "University of Bonn",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -3925,10 +3923,10 @@
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "confirmed",
         "institution": "University of Geneva",
-        "years": "2005-2007",
         "note": "Postdoctoral research.",
-        "confidence": "confirmed"
+        "years": "2005-2007"
       }
     ],
     "keywords": [
@@ -4289,8 +4287,8 @@
     "sort_name": "Haljan, Paul",
     "current_position": {
       "institution": "Simon Fraser University",
-      "title": "Associate Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Associate Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -4306,20 +4304,20 @@
     "education": [
       {
         "advisor": "Eric A. Cornell",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Colorado Boulder / JILA",
-        "year": 2003,
-        "confidence": "confirmed"
+        "year": 2003
       }
     ],
     "postdocs": [
       {
         "advisor": "Christopher Monroe",
         "advisor_id": "004-christopher-monroe",
+        "confidence": "confirmed",
         "institution": "University of Michigan / JQI",
-        "years": "unknown",
         "note": "Postdoctoral researcher focusing on trapped-ion quantum computing.",
-        "confidence": "confirmed"
+        "years": "unknown"
       }
     ],
     "keywords": [
@@ -4359,8 +4357,8 @@
     "sort_name": "Schmiegelow, Christian",
     "current_position": {
       "institution": "University of Buenos Aires",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -4376,20 +4374,20 @@
     "education": [
       {
         "advisor": "Juan Pablo Paz",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Buenos Aires",
-        "year": 2011,
-        "confidence": "confirmed"
+        "year": 2011
       }
     ],
     "postdocs": [
       {
         "advisor": "Ferdinand Schmidt-Kaler",
         "advisor_id": "013-ferdinand-schmidt-kaler",
+        "confidence": "confirmed",
         "institution": "Johannes Gutenberg University Mainz",
-        "years": "unknown",
         "note": "Postdoctoral researcher working on trapped-ion quantum optics.",
-        "confidence": "confirmed"
+        "years": "unknown"
       }
     ],
     "keywords": [
@@ -4497,8 +4495,8 @@
     "sort_name": "Slodička, Lukáš",
     "current_position": {
       "institution": "Palacký University Olomouc",
-      "title": "Research Group Leader",
-      "since_year": null
+      "since_year": null,
+      "title": "Research Group Leader"
     },
     "platforms": [
       "trapped_ion"
@@ -4514,21 +4512,21 @@
     "education": [
       {
         "advisor": "Rainer Blatt",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Innsbruck",
-        "year": 2013,
-        "confidence": "confirmed",
-        "source": "https://www.opticsolomouc.org/people/lukas-slodicka/"
+        "source": "https://www.opticsolomouc.org/people/lukas-slodicka/",
+        "year": 2013
       }
     ],
     "postdocs": [
       {
         "advisor": "Rainer Blatt",
         "advisor_id": "017-rainer-blatt",
+        "confidence": "confirmed",
         "institution": "University of Innsbruck",
-        "years": "2013-2015",
         "note": "Postdoctoral researcher",
-        "confidence": "confirmed"
+        "years": "2013-2015"
       }
     ],
     "keywords": [
@@ -4638,8 +4636,8 @@
     "sort_name": "Wunderlich, Christof",
     "current_position": {
       "institution": "University of Siegen",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -4661,18 +4659,18 @@
     "education": [
       {
         "advisor": "Theodor W. Hänsch",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "Ludwig-Maximilians-University Munich",
-        "year": 1996,
-        "confidence": "confirmed"
+        "year": 1996
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -4710,8 +4708,8 @@
     "sort_name": "Gerritsma, Rene",
     "current_position": {
       "institution": "University of Amsterdam",
-      "title": "Associate Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Associate Professor"
     },
     "platforms": [
       "trapped_ion",
@@ -4738,10 +4736,10 @@
       {
         "advisor": "Rainer Blatt; Christian F. Roos",
         "advisor_id": "002-rainer-blatt",
+        "confidence": "confirmed",
         "institution": "University of Innsbruck / IQOQI",
-        "years": "2008-2011",
         "note": "Postdoctoral researcher focusing on trapped-ion quantum simulation.",
-        "confidence": "confirmed"
+        "years": "2008-2011"
       }
     ],
     "keywords": [
@@ -4849,8 +4847,8 @@
     "sort_name": "Barrett, Murray D.",
     "current_position": {
       "institution": "Centre for Quantum Technologies, National University of Singapore",
-      "title": "Principal Investigator",
-      "since_year": null
+      "since_year": null,
+      "title": "Principal Investigator"
     },
     "platforms": [
       "trapped_ion"
@@ -4866,20 +4864,20 @@
     "education": [
       {
         "advisor": "Michael S. Chapman",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "Georgia Institute of Technology",
-        "year": 2002,
-        "confidence": "confirmed"
+        "year": 2002
       }
     ],
     "postdocs": [
       {
         "advisor": "David J. Wineland",
         "advisor_id": "006-david-wineland",
+        "confidence": "confirmed",
         "institution": "National Institute of Standards and Technology (NIST), Boulder",
-        "years": "unknown",
         "note": "Postdoctoral researcher in the Ion Storage Group; first author on the 2004 quantum teleportation paper.",
-        "confidence": "confirmed"
+        "years": "unknown"
       }
     ],
     "keywords": [
@@ -4918,8 +4916,8 @@
     "sort_name": "Matsukevich, Dzmitry",
     "current_position": {
       "institution": "Centre for Quantum Technologies, National University of Singapore",
-      "title": "Principal Investigator",
-      "since_year": null
+      "since_year": null,
+      "title": "Principal Investigator"
     },
     "platforms": [
       "trapped_ion"
@@ -4935,20 +4933,20 @@
     "education": [
       {
         "advisor": "Alex Kuzmich",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "Georgia Institute of Technology",
-        "year": 2006,
-        "confidence": "confirmed"
+        "year": 2006
       }
     ],
     "postdocs": [
       {
         "advisor": "Christopher Monroe",
         "advisor_id": "004-christopher-monroe",
+        "confidence": "confirmed",
         "institution": "University of Maryland (JQI)",
-        "years": "2006-2010",
         "note": "Postdoctoral researcher working on trapped ion quantum computing and networks.",
-        "confidence": "confirmed"
+        "years": "2006-2010"
       }
     ],
     "keywords": [
@@ -5122,8 +5120,8 @@
     "sort_name": "Thompson, Richard C.",
     "current_position": {
       "institution": "Imperial College London",
-      "title": "Professor of Experimental Physics",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor of Experimental Physics"
     },
     "platforms": [
       "trapped_ion"
@@ -5148,9 +5146,9 @@
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -5188,8 +5186,8 @@
     "sort_name": "Lucas, David M.",
     "current_position": {
       "institution": "University of Oxford",
-      "title": "Hooke Professor of Experimental Physics",
-      "since_year": null
+      "since_year": null,
+      "title": "Hooke Professor of Experimental Physics"
     },
     "platforms": [
       "trapped_ion"
@@ -5205,19 +5203,19 @@
     "education": [
       {
         "advisor": null,
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Oxford",
-        "year": null,
-        "confidence": "confirmed",
-        "source": "https://www2.physics.ox.ac.uk/contacts/people/lucas"
+        "source": "https://www2.physics.ox.ac.uk/contacts/people/lucas",
+        "year": null
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -5255,8 +5253,8 @@
     "sort_name": "Hudson, Eric R.",
     "current_position": {
       "institution": "University of California, Los Angeles",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -5272,20 +5270,20 @@
     "education": [
       {
         "advisor": "Jun Ye",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Colorado Boulder / JILA",
-        "year": 2006,
-        "confidence": "confirmed"
+        "year": 2006
       }
     ],
     "postdocs": [
       {
         "advisor": "David DeMille",
         "advisor_id": null,
+        "confidence": "confirmed",
         "institution": "Yale University",
-        "years": "unknown",
         "note": "Postdoctoral researcher focusing on cold molecules and precision measurements.",
-        "confidence": "confirmed"
+        "years": "unknown"
       }
     ],
     "keywords": [
@@ -5479,8 +5477,8 @@
     "sort_name": "Chuang, Isaac L.",
     "current_position": {
       "institution": "Massachusetts Institute of Technology",
-      "title": "Professor of Physics and Electrical Engineering; Senior Associate Dean of Digital Learning",
-      "since_year": 2000
+      "since_year": 2000,
+      "title": "Professor of Physics and Electrical Engineering; Senior Associate Dean of Digital Learning"
     },
     "platforms": [
       "trapped_ion"
@@ -5496,29 +5494,29 @@
     "education": [
       {
         "advisor": "Yoshihisa Yamamoto",
+        "confidence": "confirmed",
         "degree": "PhD (Electrical Engineering)",
         "institution": "Stanford University",
-        "year": 1997,
-        "confidence": "confirmed",
-        "source": "https://en.wikipedia.org/wiki/Isaac_Chuang"
+        "source": "https://en.wikipedia.org/wiki/Isaac_Chuang",
+        "year": 1997
       }
     ],
     "postdocs": [
       {
         "advisor": "Alexander Pines",
         "advisor_id": null,
+        "confidence": "confirmed",
         "institution": "University of California, Berkeley",
-        "years": "1996-1998",
         "note": "Postdoctoral fellow in the Pines Lab (NMR).",
-        "confidence": "confirmed"
+        "years": "1996-1998"
       },
       {
         "advisor": null,
         "advisor_id": null,
+        "confidence": "confirmed",
         "institution": "Los Alamos National Laboratory",
-        "years": "unknown",
         "note": "Postdoctoral researcher.",
-        "confidence": "confirmed"
+        "years": "unknown"
       }
     ],
     "keywords": [
@@ -5699,8 +5697,8 @@
     "sort_name": "Hecker Denschlag, Johannes",
     "current_position": {
       "institution": "Ulm University",
-      "title": "Professor; Head of the Institute of Quantum Matter",
-      "since_year": 2003
+      "since_year": 2003,
+      "title": "Professor; Head of the Institute of Quantum Matter"
     },
     "platforms": [
       "trapped_ion",
@@ -5717,21 +5715,21 @@
     "education": [
       {
         "advisor": "Anton Zeilinger; Jörg Schmiedmayer",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Innsbruck",
-        "year": 1998,
-        "confidence": "confirmed",
-        "source": "https://www.uni-ulm.de/en/nawi/quantum-matter/"
+        "source": "https://www.uni-ulm.de/en/nawi/quantum-matter/",
+        "year": 1998
       }
     ],
     "postdocs": [
       {
         "advisor": "William D. Phillips",
         "advisor_id": null,
+        "confidence": "confirmed",
         "institution": "National Institute of Standards and Technology (NIST), Gaithersburg",
-        "years": "1998-2000",
         "note": "Feodor-Lynen postdoctoral scholar.",
-        "confidence": "confirmed"
+        "years": "1998-2000"
       }
     ],
     "keywords": [
@@ -5770,8 +5768,8 @@
     "sort_name": "Hayasaka, Kazuhiro",
     "current_position": {
       "institution": "National Institute of Information and Communications Technology (NICT)",
-      "title": "Group Leader",
-      "since_year": null
+      "since_year": null,
+      "title": "Group Leader"
     },
     "platforms": [
       "trapped_ion"
@@ -5796,9 +5794,9 @@
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -5969,8 +5967,8 @@
     "sort_name": "Uys, Hermann",
     "current_position": {
       "institution": "Stellenbosch University",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -5995,9 +5993,9 @@
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -6034,8 +6032,8 @@
     "sort_name": "Gill, Patrick",
     "current_position": {
       "institution": "National Physical Laboratory (NPL)",
-      "title": "Senior NPL Fellow",
-      "since_year": null
+      "since_year": null,
+      "title": "Senior NPL Fellow"
     },
     "platforms": [
       "trapped_ion"
@@ -6051,18 +6049,18 @@
     "education": [
       {
         "advisor": "Colin Webb",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Oxford",
-        "year": 1975,
-        "confidence": "confirmed"
+        "year": 1975
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -6101,8 +6099,8 @@
     "sort_name": "Godun, Rachel",
     "current_position": {
       "institution": "National Physical Laboratory (NPL)",
-      "title": "Principal Scientist",
-      "since_year": 2008
+      "since_year": 2008,
+      "title": "Principal Scientist"
     },
     "platforms": [
       "trapped_ion"
@@ -6118,18 +6116,18 @@
     "education": [
       {
         "advisor": "Keith Burnett",
+        "confidence": "confirmed",
         "degree": "DPhil (Physics)",
         "institution": "University of Oxford",
-        "year": 2000,
-        "confidence": "confirmed"
+        "year": 2000
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "confirmed",
         "institution": "University of Oxford",
-        "years": "2000-2008",
-        "confidence": "confirmed"
+        "years": "2000-2008"
       }
     ],
     "keywords": [
@@ -6236,8 +6234,8 @@
     "sort_name": "Stick, Dan",
     "current_position": {
       "institution": "Sandia National Laboratories",
-      "title": "Distinguished Member of Technical Staff",
-      "since_year": null
+      "since_year": null,
+      "title": "Distinguished Member of Technical Staff"
     },
     "platforms": [
       "trapped_ion"
@@ -6254,18 +6252,18 @@
       {
         "advisor": "Christopher Monroe",
         "advisor_id": "004-christopher-monroe",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Michigan",
-        "year": 2007,
-        "confidence": "confirmed"
+        "year": 2007
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -6436,8 +6434,8 @@
     "sort_name": "Mukaiyama, Takashi",
     "current_position": {
       "institution": "Osaka University",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -6462,9 +6460,9 @@
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -6503,8 +6501,8 @@
     "sort_name": "Toyoda, Kenji",
     "current_position": {
       "institution": "Osaka University",
-      "title": "Associate Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Associate Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -6520,18 +6518,18 @@
     "education": [
       {
         "advisor": "Shinji Urabe",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "Kyoto University",
-        "year": 2002,
-        "confidence": "confirmed"
+        "year": 2002
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -6636,8 +6634,8 @@
     "sort_name": "Noguchi, Atsushi",
     "current_position": {
       "institution": "University of Tokyo",
-      "title": "Associate Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Associate Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -6653,18 +6651,18 @@
     "education": [
       {
         "advisor": "Shinji Urabe; Kenji Toyoda",
+        "confidence": "confirmed",
         "degree": "PhD (Science)",
         "institution": "Osaka University",
-        "year": 2015,
-        "confidence": "confirmed"
+        "year": 2015
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -6915,8 +6913,8 @@
     "sort_name": "Cho, Dan",
     "current_position": {
       "institution": "Seoul National University",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -6932,18 +6930,18 @@
     "education": [
       {
         "advisor": "J. Karl Hedrick",
+        "confidence": "confirmed",
         "degree": "PhD (Mechanical Engineering)",
         "institution": "Massachusetts Institute of Technology",
-        "year": 1988,
-        "confidence": "confirmed"
+        "year": 1988
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -7049,8 +7047,8 @@
     "sort_name": "Kim, Junki",
     "current_position": {
       "institution": "Sungkyunkwan University (SKKU)",
-      "title": "Assistant Professor",
-      "since_year": 2021
+      "since_year": 2021,
+      "title": "Assistant Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -7076,18 +7074,18 @@
       {
         "advisor": "Taehyun Kim",
         "advisor_id": "063-taehyun-kim",
+        "confidence": "confirmed",
         "institution": "Seoul National University",
-        "years": "2017-2018",
         "note": "Postdoctoral associate at SNU ASRI.",
-        "confidence": "confirmed"
+        "years": "2017-2018"
       },
       {
         "advisor": "Jungsang Kim; Kenneth R. Brown",
         "advisor_id": "020-jungsang-kim",
+        "confidence": "confirmed",
         "institution": "Duke University",
-        "years": "2018-2021",
         "note": "Postdoctoral associate / Research Scientist at Duke.",
-        "confidence": "confirmed"
+        "years": "2018-2021"
       }
     ],
     "keywords": [
@@ -7192,8 +7190,8 @@
     "sort_name": "Li, Wenhui",
     "current_position": {
       "institution": "Peking University",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -7209,21 +7207,21 @@
     "education": [
       {
         "advisor": "Thomas F. Gallagher",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Virginia",
-        "year": 2005,
-        "confidence": "confirmed",
-        "source": "https://scholar.google.com/citations?user=G4581-AAAAAJ"
+        "source": "https://scholar.google.com/citations?user=G4581-AAAAAJ",
+        "year": 2005
       }
     ],
     "postdocs": [
       {
         "advisor": "Randy Hulet",
         "advisor_id": null,
+        "confidence": "confirmed",
         "institution": "Rice University",
-        "years": "unknown",
         "note": "Postdoctoral researcher studying ultracold fermionic gases.",
-        "confidence": "confirmed"
+        "years": "unknown"
       }
     ],
     "keywords": [
@@ -7260,8 +7258,8 @@
     "sort_name": "Lobino, Mirko",
     "current_position": {
       "institution": "Griffith University",
-      "title": "Associate Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Associate Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -7277,20 +7275,20 @@
     "education": [
       {
         "advisor": "Roberta Ramponi",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "Politecnico di Milano",
-        "year": 2007,
-        "confidence": "confirmed"
+        "year": 2007
       }
     ],
     "postdocs": [
       {
         "advisor": null,
         "advisor_id": null,
+        "confidence": "confirmed",
         "institution": "University of Calgary",
-        "years": "2007-2009",
         "note": "Postdoctoral researcher focusing on quantum photonics.",
-        "confidence": "confirmed"
+        "years": "2007-2009"
       }
     ],
     "keywords": [
@@ -7327,8 +7325,8 @@
     "sort_name": "Barclay, Paul",
     "current_position": {
       "institution": "University of Calgary",
-      "title": "Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -7344,18 +7342,18 @@
     "education": [
       {
         "advisor": "Oskar Painter",
+        "confidence": "confirmed",
         "degree": "PhD (Applied Physics)",
         "institution": "California Institute of Technology",
-        "year": 2007,
-        "confidence": "confirmed"
+        "year": 2007
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -7392,8 +7390,8 @@
     "sort_name": "Rangwala, S. A.",
     "current_position": {
       "institution": "Raman Research Institute",
-      "title": "Senior Professor",
-      "since_year": null
+      "since_year": null,
+      "title": "Senior Professor"
     },
     "platforms": [
       "trapped_ion"
@@ -7419,10 +7417,10 @@
       {
         "advisor": "Gerhard Rempe",
         "advisor_id": "014-gerhard-rempe",
+        "confidence": "confirmed",
         "institution": "Max Planck Institute of Quantum Optics (MPQ)",
-        "years": "2001-2004",
         "note": "Postdoctoral researcher focusing on cold atoms.",
-        "confidence": "confirmed"
+        "years": "2001-2004"
       }
     ],
     "keywords": [
@@ -7544,18 +7542,18 @@
     "education": [
       {
         "advisor": "Herbert Walther",
+        "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "Max Planck Institute of Quantum Optics",
-        "year": 2004,
-        "confidence": "confirmed"
+        "year": 2004
       }
     ],
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -7593,8 +7591,8 @@
     "sort_name": "McMahon, Brian",
     "current_position": {
       "institution": "Georgia Institute of Technology",
-      "title": "Research Scientist",
-      "since_year": null
+      "since_year": null,
+      "title": "Research Scientist"
     },
     "platforms": [
       "trapped_ion"
@@ -7619,9 +7617,9 @@
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "not_found",
         "institution": "Unknown",
-        "years": null,
-        "confidence": "not_found"
+        "years": null
       }
     ],
     "keywords": [
@@ -8086,8 +8084,8 @@
     "sort_name": "Rodríguez Rubiales, Daniel",
     "current_position": {
       "institution": "University of Granada",
-      "title": "Catedrático de Universidad (Full Professor of Physics)",
-      "since_year": null
+      "since_year": null,
+      "title": "Catedrático de Universidad (Full Professor of Physics)"
     },
     "platforms": [
       "trapped_ion"
@@ -8112,24 +8110,24 @@
     "postdocs": [
       {
         "advisor": null,
+        "confidence": "confirmed",
         "institution": "LPC Caen, France",
-        "years": "2004-2006",
         "note": "Postdoctoral research funded by a Marie Curie fellowship.",
-        "confidence": "confirmed"
+        "years": "2004-2006"
       },
       {
         "advisor": null,
+        "confidence": "confirmed",
         "institution": "Max Planck Institute for Nuclear Physics, Heidelberg",
-        "years": "2008",
         "note": "José Castillejo fellowship.",
-        "confidence": "confirmed"
+        "years": "2008"
       },
       {
         "advisor": null,
+        "confidence": "confirmed",
         "institution": "University of Huelva, Spain",
-        "years": "2006-2008",
         "note": "Juan de la Cierva postdoctoral researcher.",
-        "confidence": "confirmed"
+        "years": "2006-2008"
       }
     ],
     "keywords": [

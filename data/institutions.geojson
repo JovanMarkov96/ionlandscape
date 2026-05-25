@@ -45,7 +45,7 @@
       "type": "Feature",
       "properties": {
         "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
-        "name": "Centre for Quantum Technologies National University of Singapore",
+        "name": "Centre For Quantum Technologies National University Of Singapore",
         "entity_type": "institution",
         "city": "Singapore",
         "country": "Singapore",
@@ -84,7 +84,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "eth-zurich",
+        "id": "i005-eth-zurich",
         "name": "ETH Zurich",
         "entity_type": "institution",
         "city": "Zurich",
@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "id": "i007-georgia-institute-of-technology",
-        "name": "Georgia Institute of Technology",
+        "name": "Georgia Institute Of Technology",
         "entity_type": "institution",
         "city": "Atlanta",
         "country": "United States",
@@ -184,7 +184,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "iiser-pune",
+        "id": "i010-indian-institute-of-science-education-and-research-iiser-pune",
         "name": "IISER Pune",
         "entity_type": "institution",
         "city": "Pune",
@@ -204,7 +204,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "institute-for-basic-science-ibs",
+        "id": "i011-institute-for-basic-science-ibs-south-korea",
         "name": "Institute for Basic Science (IBS)",
         "entity_type": "institution",
         "city": "Daejeon",
@@ -225,7 +225,7 @@
       "type": "Feature",
       "properties": {
         "id": "i012-institute-for-quantum-computing-university-of-waterloo",
-        "name": "Institute for Quantum Computing University of Waterloo",
+        "name": "Institute For Quantum Computing University Of Waterloo",
         "entity_type": "institution",
         "city": "Waterloo",
         "country": "Canada",
@@ -238,6 +238,26 @@
         "coordinates": [
           -80.554853,
           43.478865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i013-ionq-inc",
+        "name": "IonQ Inc.",
+        "entity_type": "institution",
+        "city": "College Park",
+        "country": "United States",
+        "short_description": "IonQ, Inc. is an American quantum computing hardware and software company headquartered in College Park, Maryland. The company develops general-purpose trapped ion quantum computers and accompanying software to generate, optimize, and execute quantum circuits.",
+        "logo_path": "/img/institutions/i013-ionq-inc_mark.png",
+        "md_filename": "i013-ionq-inc.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9369189,
+          38.980666
         ]
       }
     },
@@ -284,7 +304,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "mit-lincoln-laboratory",
+        "id": "i016-mit-lincoln-laboratory",
         "name": "MIT Lincoln Laboratory",
         "entity_type": "institution",
         "city": "Lexington",
@@ -305,7 +325,7 @@
       "type": "Feature",
       "properties": {
         "id": "i017-massachusetts-institute-of-technology",
-        "name": "Massachusetts Institute of Technology",
+        "name": "Massachusetts Institute Of Technology",
         "entity_type": "institution",
         "city": "Cambridge",
         "country": "USA",
@@ -324,7 +344,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "national-institute-of-information-and-communications-technology-nict",
+        "id": "i018-national-institute-of-information-and-communications-technology-nict",
         "name": "National Institute of Information and Communications Technology (NICT)",
         "entity_type": "institution",
         "city": "Kodaira",
@@ -344,7 +364,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "nist-boulder",
+        "id": "i019-national-institute-of-standards-and-technology-nist-boulder",
         "name": "NIST Boulder",
         "entity_type": "institution",
         "city": "Boulder",
@@ -364,7 +384,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "national-physical-laboratory-npl",
+        "id": "i020-national-physical-laboratory-npl",
         "name": "National Physical Laboratory (NPL)",
         "entity_type": "institution",
         "city": "Greater London",
@@ -384,7 +404,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "okinawa-institute-of-science-and-technology-oist",
+        "id": "i021-okinawa-institute-of-science-and-technology-oist",
         "name": "Okinawa Institute of Science and Technology (OIST)",
         "entity_type": "institution",
         "city": "Onna",
@@ -424,7 +444,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "postech",
+        "id": "i023-postech",
         "name": "POSTECH",
         "entity_type": "institution",
         "city": "Pohang",
@@ -484,7 +504,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "physikalisch-technische-bundesanstalt-ptb",
+        "id": "i026-physikalisch-technische-bundesanstalt-ptb",
         "name": "Physikalisch-Technische Bundesanstalt (PTB)",
         "entity_type": "institution",
         "city": "Braunschweig",
@@ -624,7 +644,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "sungkyunkwan-university-skku",
+        "id": "i033-sungkyunkwan-university-skku",
         "name": "Sungkyunkwan University (SKKU)",
         "entity_type": "institution",
         "city": "Seoul",
@@ -645,7 +665,7 @@
       "type": "Feature",
       "properties": {
         "id": "i034-technion-israel-institute-of-technology",
-        "name": "Technion Israel Institute of Technology",
+        "name": "Technion Israel Institute Of Technology",
         "entity_type": "institution",
         "city": "Haifa",
         "country": "Israel",
@@ -705,7 +725,7 @@
       "type": "Feature",
       "properties": {
         "id": "i037-university-of-amsterdam",
-        "name": "University of Amsterdam",
+        "name": "University Of Amsterdam",
         "entity_type": "institution",
         "city": "Amsterdam",
         "country": "Netherlands",
@@ -725,7 +745,7 @@
       "type": "Feature",
       "properties": {
         "id": "i038-university-of-basel",
-        "name": "University of Basel",
+        "name": "University Of Basel",
         "entity_type": "institution",
         "city": "Basel",
         "country": "Switzerland",
@@ -745,7 +765,7 @@
       "type": "Feature",
       "properties": {
         "id": "i039-university-of-bonn",
-        "name": "University of Bonn",
+        "name": "University Of Bonn",
         "entity_type": "institution",
         "city": "Bonn",
         "country": "Germany",
@@ -765,7 +785,7 @@
       "type": "Feature",
       "properties": {
         "id": "i040-university-of-buenos-aires",
-        "name": "University of Buenos Aires",
+        "name": "University Of Buenos Aires",
         "entity_type": "institution",
         "city": "Buenos Aires",
         "country": "Argentina",
@@ -785,7 +805,7 @@
       "type": "Feature",
       "properties": {
         "id": "i041-university-of-calgary",
-        "name": "University of Calgary",
+        "name": "University Of Calgary",
         "entity_type": "institution",
         "city": "Calgary",
         "country": "Canada",
@@ -805,7 +825,7 @@
       "type": "Feature",
       "properties": {
         "id": "i042-university-of-california-berkeley",
-        "name": "University of California Berkeley",
+        "name": "University Of California Berkeley",
         "entity_type": "institution",
         "city": "Berkeley",
         "country": "USA",
@@ -825,7 +845,7 @@
       "type": "Feature",
       "properties": {
         "id": "i043-university-of-california-los-angeles",
-        "name": "University of California Los Angeles",
+        "name": "University Of California Los Angeles",
         "entity_type": "institution",
         "city": "Los Angeles",
         "country": "USA",
@@ -845,7 +865,7 @@
       "type": "Feature",
       "properties": {
         "id": "i044-university-of-granada",
-        "name": "University of Granada",
+        "name": "University Of Granada",
         "entity_type": "institution",
         "city": "Granada",
         "country": "Spain",
@@ -865,7 +885,7 @@
       "type": "Feature",
       "properties": {
         "id": "i045-university-of-groningen",
-        "name": "University of Groningen",
+        "name": "University Of Groningen",
         "entity_type": "institution",
         "city": "Groningen",
         "country": "Netherlands",
@@ -885,7 +905,7 @@
       "type": "Feature",
       "properties": {
         "id": "i046-university-of-innsbruck",
-        "name": "University of Innsbruck",
+        "name": "University Of Innsbruck",
         "entity_type": "institution",
         "city": "Innsbruck",
         "country": "Austria",
@@ -905,7 +925,7 @@
       "type": "Feature",
       "properties": {
         "id": "i047-university-of-kassel",
-        "name": "University of Kassel",
+        "name": "University Of Kassel",
         "entity_type": "institution",
         "city": "Kassel",
         "country": "Deutschland",
@@ -925,7 +945,7 @@
       "type": "Feature",
       "properties": {
         "id": "i048-university-of-oregon",
-        "name": "University of Oregon",
+        "name": "University Of Oregon",
         "entity_type": "institution",
         "city": "Eugene",
         "country": "USA",
@@ -945,7 +965,7 @@
       "type": "Feature",
       "properties": {
         "id": "i049-university-of-oxford",
-        "name": "University of Oxford",
+        "name": "University Of Oxford",
         "entity_type": "institution",
         "city": "Oxford",
         "country": "United Kingdom",
@@ -965,7 +985,7 @@
       "type": "Feature",
       "properties": {
         "id": "i050-university-of-siegen",
-        "name": "University of Siegen",
+        "name": "University Of Siegen",
         "entity_type": "institution",
         "city": "Siegen",
         "country": "Germany",
@@ -985,7 +1005,7 @@
       "type": "Feature",
       "properties": {
         "id": "i051-university-of-sussex",
-        "name": "University of Sussex",
+        "name": "University Of Sussex",
         "entity_type": "institution",
         "city": "Brighton",
         "country": "United Kingdom",
@@ -1005,7 +1025,7 @@
       "type": "Feature",
       "properties": {
         "id": "i052-university-of-sydney",
-        "name": "University of Sydney",
+        "name": "University Of Sydney",
         "entity_type": "institution",
         "city": "Sydney",
         "country": "Australia",
@@ -1025,7 +1045,7 @@
       "type": "Feature",
       "properties": {
         "id": "i053-university-of-tokyo",
-        "name": "University of Tokyo",
+        "name": "University Of Tokyo",
         "entity_type": "institution",
         "city": "Tokyo",
         "country": "Japan",
@@ -1045,7 +1065,7 @@
       "type": "Feature",
       "properties": {
         "id": "i054-university-of-trento",
-        "name": "University of Trento",
+        "name": "University Of Trento",
         "entity_type": "institution",
         "city": "Trento",
         "country": "Italy",
@@ -1065,7 +1085,7 @@
       "type": "Feature",
       "properties": {
         "id": "i055-university-of-washington",
-        "name": "University of Washington",
+        "name": "University Of Washington",
         "entity_type": "institution",
         "city": "Seattle",
         "country": "USA",
@@ -1084,7 +1104,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "vu-amsterdam",
+        "id": "i056-vu-amsterdam",
         "name": "VU Amsterdam",
         "entity_type": "institution",
         "city": "Amsterdam",
@@ -1144,7 +1164,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "cqiqc",
+        "id": "i059-cqiqc",
         "name": "CQIQC",
         "entity_type": "institution",
         "city": "Toronto",

@@ -867,8 +867,8 @@
         },
         "platforms": [],
         "affiliations": [],
-        "city": "Cambridge",
-        "country": "USA",
+        "city": "Unknown",
+        "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-mikhail-lukin.md"
       },
@@ -1227,8 +1227,8 @@
         },
         "platforms": [],
         "affiliations": [],
-        "city": "Berkeley",
-        "country": "USA",
+        "city": "Unknown",
+        "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-steven-chu.md"
       },
@@ -1648,8 +1648,8 @@
         "name": "Hartmut Häffner",
         "current_position": {
           "institution": "University of California, Berkeley",
-          "title": "Professor of Physics",
-          "since_year": 2009
+          "since_year": 2009,
+          "title": "Professor of Physics"
         },
         "platforms": [
           "trapped_ion"
@@ -1764,8 +1764,8 @@
         "name": "Ferdinand Schmidt-Kaler",
         "current_position": {
           "institution": "Johannes Gutenberg University Mainz",
-          "title": "Full Professor (W3) of Experimental Physics",
-          "since_year": 2010
+          "since_year": 2010,
+          "title": "Full Professor (W3) of Experimental Physics"
         },
         "platforms": [
           "trapped_ion"
@@ -1906,8 +1906,8 @@
         "name": "Michael Drewsen",
         "current_position": {
           "institution": "Aarhus University",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -1933,8 +1933,8 @@
         "name": "Michael Köhl",
         "current_position": {
           "institution": "University of Bonn",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -2076,8 +2076,8 @@
         "name": "Paul Haljan",
         "current_position": {
           "institution": "Simon Fraser University",
-          "title": "Associate Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Associate Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -2103,8 +2103,8 @@
         "name": "Christian Schmiegelow",
         "current_position": {
           "institution": "University of Buenos Aires",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -2157,8 +2157,8 @@
         "name": "Lukáš Slodička",
         "current_position": {
           "institution": "Palacký University Olomouc",
-          "title": "Research Group Leader",
-          "since_year": null
+          "since_year": null,
+          "title": "Research Group Leader"
         },
         "platforms": [
           "trapped_ion"
@@ -2212,8 +2212,8 @@
         "name": "Christof Wunderlich",
         "current_position": {
           "institution": "University of Siegen",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -2241,8 +2241,8 @@
         "name": "Rene Gerritsma",
         "current_position": {
           "institution": "University of Amsterdam",
-          "title": "Associate Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Associate Professor"
         },
         "platforms": [
           "trapped_ion",
@@ -2296,8 +2296,8 @@
         "name": "Murray D. Barrett",
         "current_position": {
           "institution": "Centre for Quantum Technologies, National University of Singapore",
-          "title": "Principal Investigator",
-          "since_year": null
+          "since_year": null,
+          "title": "Principal Investigator"
         },
         "platforms": [
           "trapped_ion"
@@ -2323,8 +2323,8 @@
         "name": "Dzmitry Matsukevich",
         "current_position": {
           "institution": "Centre for Quantum Technologies, National University of Singapore",
-          "title": "Principal Investigator",
-          "since_year": null
+          "since_year": null,
+          "title": "Principal Investigator"
         },
         "platforms": [
           "trapped_ion"
@@ -2404,8 +2404,8 @@
         "name": "Richard C. Thompson",
         "current_position": {
           "institution": "Imperial College London",
-          "title": "Professor of Experimental Physics",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor of Experimental Physics"
         },
         "platforms": [
           "trapped_ion"
@@ -2431,8 +2431,8 @@
         "name": "David M. Lucas",
         "current_position": {
           "institution": "University of Oxford",
-          "title": "Hooke Professor of Experimental Physics",
-          "since_year": null
+          "since_year": null,
+          "title": "Hooke Professor of Experimental Physics"
         },
         "platforms": [
           "trapped_ion"
@@ -2458,8 +2458,8 @@
         "name": "Eric R. Hudson",
         "current_position": {
           "institution": "University of California, Los Angeles",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -2541,8 +2541,8 @@
         "name": "Isaac L. Chuang",
         "current_position": {
           "institution": "Massachusetts Institute of Technology",
-          "title": "Professor of Physics and Electrical Engineering; Senior Associate Dean of Digital Learning",
-          "since_year": 2000
+          "since_year": 2000,
+          "title": "Professor of Physics and Electrical Engineering; Senior Associate Dean of Digital Learning"
         },
         "platforms": [
           "trapped_ion"
@@ -2624,8 +2624,8 @@
         "name": "Johannes Hecker Denschlag",
         "current_position": {
           "institution": "Ulm University",
-          "title": "Professor; Head of the Institute of Quantum Matter",
-          "since_year": 2003
+          "since_year": 2003,
+          "title": "Professor; Head of the Institute of Quantum Matter"
         },
         "platforms": [
           "trapped_ion",
@@ -2652,8 +2652,8 @@
         "name": "Kazuhiro Hayasaka",
         "current_position": {
           "institution": "National Institute of Information and Communications Technology (NICT)",
-          "title": "Group Leader",
-          "since_year": null
+          "since_year": null,
+          "title": "Group Leader"
         },
         "platforms": [
           "trapped_ion"
@@ -2733,8 +2733,8 @@
         "name": "Hermann Uys",
         "current_position": {
           "institution": "Stellenbosch University",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -2760,8 +2760,8 @@
         "name": "Patrick Gill",
         "current_position": {
           "institution": "National Physical Laboratory (NPL)",
-          "title": "Senior NPL Fellow",
-          "since_year": null
+          "since_year": null,
+          "title": "Senior NPL Fellow"
         },
         "platforms": [
           "trapped_ion"
@@ -2787,8 +2787,8 @@
         "name": "Rachel Godun",
         "current_position": {
           "institution": "National Physical Laboratory (NPL)",
-          "title": "Principal Scientist",
-          "since_year": 2008
+          "since_year": 2008,
+          "title": "Principal Scientist"
         },
         "platforms": [
           "trapped_ion"
@@ -2841,8 +2841,8 @@
         "name": "Dan Stick",
         "current_position": {
           "institution": "Sandia National Laboratories",
-          "title": "Distinguished Member of Technical Staff",
-          "since_year": null
+          "since_year": null,
+          "title": "Distinguished Member of Technical Staff"
         },
         "platforms": [
           "trapped_ion"
@@ -2922,8 +2922,8 @@
         "name": "Takashi Mukaiyama",
         "current_position": {
           "institution": "Osaka University",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -2949,8 +2949,8 @@
         "name": "Kenji Toyoda",
         "current_position": {
           "institution": "Osaka University",
-          "title": "Associate Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Associate Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -3003,8 +3003,8 @@
         "name": "Atsushi Noguchi",
         "current_position": {
           "institution": "University of Tokyo",
-          "title": "Associate Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Associate Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -3111,8 +3111,8 @@
         "name": "Dan Cho",
         "current_position": {
           "institution": "Seoul National University",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -3165,8 +3165,8 @@
         "name": "Junki Kim",
         "current_position": {
           "institution": "Sungkyunkwan University (SKKU)",
-          "title": "Assistant Professor",
-          "since_year": 2021
+          "since_year": 2021,
+          "title": "Assistant Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -3219,8 +3219,8 @@
         "name": "Wenhui Li",
         "current_position": {
           "institution": "Peking University",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -3246,8 +3246,8 @@
         "name": "Mirko Lobino",
         "current_position": {
           "institution": "Griffith University",
-          "title": "Associate Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Associate Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -3273,8 +3273,8 @@
         "name": "Paul Barclay",
         "current_position": {
           "institution": "University of Calgary",
-          "title": "Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -3300,8 +3300,8 @@
         "name": "S. A. Rangwala",
         "current_position": {
           "institution": "Raman Research Institute",
-          "title": "Senior Professor",
-          "since_year": null
+          "since_year": null,
+          "title": "Senior Professor"
         },
         "platforms": [
           "trapped_ion"
@@ -3380,8 +3380,8 @@
         "name": "Brian McMahon",
         "current_position": {
           "institution": "Georgia Institute of Technology",
-          "title": "Research Scientist",
-          "since_year": null
+          "since_year": null,
+          "title": "Research Scientist"
         },
         "platforms": [
           "trapped_ion"
@@ -3570,8 +3570,8 @@
         "name": "Daniel Rodríguez Rubiales",
         "current_position": {
           "institution": "University of Granada",
-          "title": "Catedrático de Universidad (Full Professor of Physics)",
-          "since_year": null
+          "since_year": null,
+          "title": "Catedrático de Universidad (Full Professor of Physics)"
         },
         "platforms": [
           "trapped_ion"

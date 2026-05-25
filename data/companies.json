@@ -13,6 +13,7 @@
       "country": "Israel",
       "lat": 31.9284,
       "lon": 34.8025,
+      "precision": "city",
       "region": "Central"
     },
     "short_summary": "Developer of scalable, multi-core quantum computers using trapped-ion qubits.",
@@ -291,6 +292,7 @@
       "country": "United Kingdom",
       "lat": 51.826,
       "lon": -1.291,
+      "precision": "city",
       "region": "Oxfordshire"
     },
     "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
@@ -329,9 +331,7 @@
     "sort_name": "Q-CTRL",
     "entity_type": "company",
     "platforms": [],
-    "categories": [
-      "Software"
-    ],
+    "categories": [],
     "location": {
       "city": "Sydney",
       "country": "Australia",
@@ -386,6 +386,7 @@
       "country": "United States",
       "lat": 42.36,
       "lon": -71.058,
+      "precision": "city",
       "region": "Massachusetts"
     },
     "short_summary": "Builder of advanced quantum computers based on neutral atoms.",
@@ -484,15 +485,13 @@
     "sort_name": "Quantum Machines",
     "entity_type": "company",
     "platforms": [],
-    "categories": [
-      "Control Hardware",
-      "Software"
-    ],
+    "categories": [],
     "location": {
       "city": "Tel Aviv",
       "country": "Israel",
       "lat": 32.0621,
       "lon": 34.782,
+      "precision": "city",
       "region": "Tel Aviv District"
     },
     "short_summary": "Developer of universal quantum control systems (hardware + software) enabling coherent and real-time orchestration of quantum processors across different technologies.",
@@ -613,14 +612,13 @@
     "sort_name": "Classiq Technologies",
     "entity_type": "company",
     "platforms": [],
-    "categories": [
-      "Software"
-    ],
+    "categories": [],
     "location": {
       "city": "Tel Aviv",
       "country": "Israel",
       "lat": 32.0746,
       "lon": 34.7833,
+      "precision": "city",
       "region": "Tel Aviv District"
     },
     "short_summary": "Developer of an enterprise-grade quantum software platform that automatically synthesizes high-level functional logic into optimized quantum circuits for deployment across cloud and hardware backends.",
@@ -749,14 +747,13 @@
     "sort_name": "QuantLR",
     "entity_type": "company",
     "platforms": [],
-    "categories": [
-      "Quantum Communication"
-    ],
+    "categories": [],
     "location": {
       "city": "Tel Aviv",
       "country": "Israel",
       "lat": 31.8906,
       "lon": 35.0003,
+      "precision": "city",
       "region": "Tel Aviv District"
     },
     "short_summary": "Developer of quantum-secure communication infrastructure, building quantum repeaters and entanglement-based networking technologies for long-distance quantum communication.",
@@ -859,6 +856,7 @@
       "country": "Israel",
       "lat": 32.5203,
       "lon": 34.9436,
+      "precision": "city",
       "region": "Haifa"
     },
     "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
@@ -966,14 +964,13 @@
     "sort_name": "Quancilla",
     "entity_type": "company",
     "platforms": [],
-    "categories": [
-      "Software"
-    ],
+    "categories": [],
     "location": {
       "city": "Tel Aviv",
       "country": "Israel",
       "lat": 32.0853,
       "lon": 34.7818,
+      "precision": "city",
       "region": "Tel Aviv District"
     },
     "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
@@ -1061,14 +1058,13 @@
     "sort_name": "enQuantum",
     "entity_type": "company",
     "platforms": [],
-    "categories": [
-      "Quantum Communication"
-    ],
+    "categories": [],
     "location": {
       "city": "Tel Aviv",
       "country": "Israel",
       "lat": 32.0154,
       "lon": 34.7937,
+      "precision": "city",
       "region": "Tel Aviv District"
     },
     "short_summary": "Developer of quantum communication infrastructure focused on practical deployment of quantum key distribution (QKD) and quantum-secure networking solutions.",
@@ -1149,14 +1145,13 @@
     "sort_name": "Qedma",
     "entity_type": "company",
     "platforms": [],
-    "categories": [
-      "Software"
-    ],
+    "categories": [],
     "location": {
       "city": "Tel Aviv",
       "country": "Israel",
       "lat": 32.1066,
       "lon": 34.8121,
+      "precision": "city",
       "region": "Tel Aviv District"
     },
     "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
@@ -1282,6 +1277,7 @@
       "country": "Israel",
       "lat": 31.9182,
       "lon": 34.806,
+      "precision": "city",
       "region": "Central"
     },
     "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
@@ -1433,6 +1429,7 @@
       "country": "Israel",
       "lat": 32.167,
       "lon": 34.8117,
+      "precision": "city",
       "region": "Central"
     },
     "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
@@ -1563,21 +1560,22 @@
     "platforms": [
       "trapped_ion"
     ],
-    "categories": [
-      "Hardware"
-    ],
+    "categories": [],
     "location": {
       "city": "Brighton",
       "country": "United Kingdom",
       "lat": 50.8225,
-      "lon": -0.1372
+      "lon": -0.1372,
+      "precision": "city"
     },
     "short_summary": "Universal Quantum is a UK company building scalable trapped-ion quantum computers using modular architecture and electric-field-link qubit connections.",
     "approach": {},
     "focus_areas": [],
     "products": [],
     "people": {},
-    "status": {},
+    "status": {
+      "operating_status": "private"
+    },
     "funding": {},
     "milestones": [],
     "links": {
@@ -1604,21 +1602,22 @@
     "platforms": [
       "trapped_ion"
     ],
-    "categories": [
-      "Hardware"
-    ],
+    "categories": [],
     "location": {
       "city": "Siegen",
       "country": "Germany",
       "lat": 50.8748,
-      "lon": 8.0243
+      "lon": 8.0243,
+      "precision": "city"
     },
     "short_summary": "eleQtron is a German quantum computing company developing trapped-ion hardware based on its MAGIC (magnetic gradient induced coupling) technology.",
     "approach": {},
     "focus_areas": [],
     "products": [],
     "people": {},
-    "status": {},
+    "status": {
+      "operating_status": "private"
+    },
     "funding": {},
     "milestones": [],
     "links": {
@@ -1645,18 +1644,17 @@
     "platforms": [
       "neutral_atom"
     ],
-    "categories": [
-      "Hardware"
-    ],
+    "categories": [],
     "location": {
       "city": "Tel Aviv",
       "country": "Israel",
       "lat": 32.0853,
-      "lon": 34.7818
+      "lon": 34.7818,
+      "precision": "city"
     },
     "short_summary": "Q-Factor is a Tel Aviv-based quantum hardware startup building a scalable neutral-atom quantum computer aimed at the million-qubit regime. It was founded in 2026 to commercialize decades of atomic-physics research from the Weizmann Institute of Science and the Technion, both of which remain shareholders.",
     "approach": {
-      "summary": "Neutral-atom architecture designed to scale beyond thousands of qubits toward more than one million qubits, using atoms held and controlled entirely with light."
+      "elevator_pitch": "Neutral-atom architecture designed to scale beyond thousands of qubits toward more than one million qubits, using atoms held and controlled entirely with light."
     },
     "focus_areas": [
       "Neutral-atom quantum computing",
@@ -1684,32 +1682,31 @@
       ]
     },
     "status": {
-      "stage": "seed",
-      "emerged_from_stealth": "2026-04"
+      "operating_status": "private"
     },
     "funding": {
-      "total_usd": 24000000,
       "rounds": [
         {
-          "type": "seed",
           "amount_usd": 24000000,
-          "year": 2026,
+          "date": "2026",
           "lead_investors": [
             "NFX",
             "TPY Capital"
           ],
-          "notable_investors": [
+          "other_investors": [
             "Intel Capital",
             "Korea Investment Partners",
             "Deep33"
-          ]
+          ],
+          "stage": "seed"
         }
-      ]
+      ],
+      "total_raised_usd": 24000000
     },
     "milestones": [],
     "links": {
-      "website": "https://q-factor.com/",
-      "linkedin": "https://www.linkedin.com/company/q-factor-computing/"
+      "linkedin": "https://www.linkedin.com/company/q-factor-computing/",
+      "website": "https://q-factor.com/"
     },
     "media": {
       "logo_path": "/logos/c018-q-factor.png"
