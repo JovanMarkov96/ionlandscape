@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Simulation
 - AMO Physics
+id: i005-eth-zurich
+institution_type: university
 links:
   website: https://ethz.ch/en.html
 location:
@@ -17,6 +20,7 @@ media:
 name: ETH Zurich
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'ETH Zurich (German: Eidgenössische Technische Hochschule Zürich;
   English: Federal Institute of Technology Zurich) is a public university in Zurich,
   Switzerland. Founded in 1854, the university primarily teaches and conducts research

@@ -15,8 +15,6 @@ approach:
     designed for error-free processors into forms that can run accurately on current
     noisy quantum hardware, using error suppression, characterization, and mitigation
     techniques.
-categories:
-- Software
 entity_type: company
 focus_areas:
 - Quantum error mitigation software
@@ -47,6 +45,7 @@ location:
   country: Israel
   lat: 32.1066
   lon: 34.8121
+  precision: city
   region: Tel Aviv District
 media:
   logo_path: /logos/c013-qedma.png

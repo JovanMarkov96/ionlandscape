@@ -50,6 +50,7 @@ location:
   country: United Kingdom
   lat: 51.7594
   lon: -1.2582
+  precision: city
   region: England
 metrics:
   citation_count: 3284

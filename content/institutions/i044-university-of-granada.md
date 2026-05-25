@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Simulation
 - AMO Physics
+id: i044-university-of-granada
+institution_type: university
 links:
   website: https://www.ugr.es/en
 location:
@@ -9,10 +12,13 @@ location:
   country: Spain
   lat: 37.1882
   lon: -3.6067
+  precision: city
 media:
   logo_path: /img/institutions/i044-university-of-granada_mark.png
+name: University Of Granada
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Granada (Spanish: Universidad de Granada, UGR)
   is a public university located in the city of Granada, Spain, and founded in 1531
   by Emperor Charles V. With more than 60,000 students, it is the fourth largest university

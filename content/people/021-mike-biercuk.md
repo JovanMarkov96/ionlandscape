@@ -59,6 +59,7 @@ location:
   country: Australia
   lat: -33.8688
   lon: 151.2093
+  precision: city
   region: New South Wales
 metrics:
   citation_count: 5531

@@ -48,6 +48,7 @@ location:
   country: Japan
   lat: 26.4633
   lon: 127.8308
+  precision: city
   region: Okinawa
 metrics:
   citation_count: 1

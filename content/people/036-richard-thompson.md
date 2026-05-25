@@ -6,8 +6,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Imperial College London
-  title: Professor of Experimental Physics
   since_year: null
+  title: Professor of Experimental Physics
 education:
 - advisor: null
   confidence: not_found
@@ -30,8 +30,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=zTQAsSgAAAAJ
   group_page: https://www.imperial.ac.uk/ion-trapping
@@ -42,20 +42,21 @@ location:
   country: United Kingdom
   lat: 51.5074
   lon: -0.1278
+  precision: city
   region: England
 name: Richard C. Thompson
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Thompson, Richard C.
 thesis:
-  link: "Unknown"
-  title: "Pressure broadening of spectral lines"
+  link: Unknown
+  title: Pressure broadening of spectral lines
   year: 1982
 updated_at: '2026-05-04'
 verification_source_count: 1

@@ -46,6 +46,7 @@ location:
   country: Netherlands
   lat: 52.3676
   lon: 4.9041
+  precision: city
   region: North Holland
 metrics:
   citation_count: 2981

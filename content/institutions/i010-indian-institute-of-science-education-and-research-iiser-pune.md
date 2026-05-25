@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+id: i010-indian-institute-of-science-education-and-research-iiser-pune
+institution_type: research_centre
 links:
   website: https://www.iiserpune.ac.in/
 location:
@@ -17,6 +20,7 @@ media:
 name: IISER Pune
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'Indian Institutes of Science Education and Research or IISERs
   (pronunciation: "EYE-sir") are a group of autonomous institutions established by
   the Government of India through the Ministry of Education for teaching and research

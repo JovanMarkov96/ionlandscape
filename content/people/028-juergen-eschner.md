@@ -50,6 +50,7 @@ location:
   country: Germany
   lat: 49.2401
   lon: 6.9969
+  precision: city
   region: Saarland
 metrics:
   citation_count: 6832

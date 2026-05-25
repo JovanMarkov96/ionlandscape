@@ -62,6 +62,7 @@ location:
   country: United States
   lat: 44.0496255
   lon: -123.0728292
+  precision: city
   region: Oregon
 metrics:
   citation_count: 37475

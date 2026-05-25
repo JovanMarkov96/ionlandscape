@@ -7,24 +7,25 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: National Physical Laboratory (NPL)
-  title: Principal Scientist
   since_year: 2008
+  title: Principal Scientist
 education:
 - advisor: Keith Burnett
+  confidence: confirmed
   degree: DPhil (Physics)
   institution: University of Oxford
   year: 2000
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 050-rachel-godun
 ion_species:
 - 171Yb+
 key_papers:
-- title: "Frequency Ratio of Two Optical Clock Transitions in 171Yb+ and Constraints on the Time Variation of Fundamental Constants"
-  year: 2014
-  doi: 10.1103/PhysRevLett.113.210801
+- doi: 10.1103/PhysRevLett.113.210801
   role: co_author
+  title: Frequency Ratio of Two Optical Clock Transitions in 171Yb+ and Constraints
+    on the Time Variation of Fundamental Constants
+  year: 2014
 keywords:
 - optical clocks
 - trapped ions
@@ -36,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=TkWO3PgAAAAJ
   group_page: https://www.npl.co.uk/people/rachel-godun
@@ -48,19 +49,20 @@ location:
   country: United Kingdom
   lat: 51.4275
   lon: -0.3429
+  precision: city
   region: London
 name: Rachel Godun
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: University of Oxford
-  years: '2000-2008'
   confidence: confirmed
+  institution: University of Oxford
+  years: 2000-2008
 schema_version: 2
 sort_name: Godun, Rachel
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Beam splitting mechanisms for a caesium atom interferometer
   year: 2000
 updated_at: '2026-05-04'

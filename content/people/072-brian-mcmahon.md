@@ -7,8 +7,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Georgia Institute of Technology
-  title: Research Scientist
   since_year: null
+  title: Research Scientist
 education:
 - advisor: null
   confidence: not_found
@@ -32,8 +32,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=yXqgH5oAAAAJ
   group_page: https://gtri.gatech.edu/researcher/brian-mcmahon
@@ -43,20 +43,21 @@ location:
   country: United States
   lat: 33.749
   lon: -84.388
+  precision: city
   region: Georgia
 name: Brian McMahon
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: McMahon, Brian
 thesis:
-  link: "Unknown"
-  title: "Compact, reconfigurable Penning ion traps and Doppler laser cooling"
+  link: Unknown
+  title: Compact, reconfigurable Penning ion traps and Doppler laser cooling
   year: 2021
 updated_at: '2026-05-04'
 verification_source_count: 1

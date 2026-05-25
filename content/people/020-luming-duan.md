@@ -60,6 +60,7 @@ location:
   country: China
   lat: 39.9042
   lon: 116.4074
+  precision: city
   region: Beijing
 metrics:
   citation_count: 11133

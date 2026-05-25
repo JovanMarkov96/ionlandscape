@@ -54,6 +54,7 @@ location:
   country: Switzerland
   lat: 47.5596
   lon: 7.5886
+  precision: city
   region: Basel-Stadt
 metrics:
   citation_count: 2987

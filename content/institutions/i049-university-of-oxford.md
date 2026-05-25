@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Computing
 - Quantum Simulation
+id: i049-university-of-oxford
+institution_type: university
 links:
   website: https://www.ox.ac.uk/
 location:
@@ -9,10 +12,13 @@ location:
   country: United Kingdom
   lat: 51.755
   lon: -1.255
+  precision: city
 media:
   logo_path: /img/institutions/i049-university-of-oxford_mark.png
+name: University Of Oxford
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Oxford is a collegiate research university in
   Oxford, England. There is evidence of teaching as early as 1096, making it the oldest
   university in the English-speaking world and the world’s second-oldest university

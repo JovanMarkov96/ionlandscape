@@ -6,14 +6,14 @@ applications:
 created_at: '2026-01-28'
 current_position:
   institution: Simon Fraser University
-  title: Associate Professor
   since_year: null
+  title: Associate Professor
 education:
 - advisor: Eric A. Cornell
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Colorado Boulder / JILA
   year: 2003
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 024-paul-haljan
@@ -32,8 +32,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=5E3WQM8AAAAJ
   group_page: https://www.sfu.ca/physics/haljanlab.html
@@ -44,6 +44,7 @@ location:
   country: Canada
   lat: 49.2781
   lon: -122.9199
+  precision: city
   region: British Columbia
 name: Paul Haljan
 platforms:
@@ -51,15 +52,15 @@ platforms:
 postdocs:
 - advisor: Christopher Monroe
   advisor_id: 004-christopher-monroe
-  institution: University of Michigan / JQI
-  years: 'unknown'
-  note: Postdoctoral researcher focusing on trapped-ion quantum computing.
   confidence: confirmed
+  institution: University of Michigan / JQI
+  note: Postdoctoral researcher focusing on trapped-ion quantum computing.
+  years: unknown
 schema_version: 2
 sort_name: Haljan, Paul
 thesis:
-  link: "Unknown"
-  title: "Vortices in a Bose-Einstein Condensate"
+  link: Unknown
+  title: Vortices in a Bose-Einstein Condensate
   year: 2003
 updated_at: '2026-05-04'
 verification_source_count: 2

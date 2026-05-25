@@ -80,6 +80,7 @@ location:
   country: United States
   lat: 40.0094
   lon: -105.2629
+  precision: city
   region: Colorado
 metrics:
   citation_count: 20813

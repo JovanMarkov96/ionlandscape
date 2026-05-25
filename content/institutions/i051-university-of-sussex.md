@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Computing
 - Quantum Sensing
+id: i051-university-of-sussex
+institution_type: university
 links:
   website: https://www.sussex.ac.uk/
 location:
@@ -9,10 +12,13 @@ location:
   country: United Kingdom
   lat: 50.86527778
   lon: -0.08555556
+  precision: city
 media:
   logo_path: /img/institutions/i051-university-of-sussex_mark.png
+name: University Of Sussex
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Sussex is a public research university located
   in Falmer, East Sussex, England. It lies mostly within the city boundaries of Brighton
   and Hove. Its large campus site is surrounded by the South Downs National Park,

@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Computing
 - AMO Physics
+id: i055-university-of-washington
+institution_type: university
 links:
   website: https://www.washington.edu/
 location:
@@ -9,10 +12,13 @@ location:
   country: USA
   lat: 47.6542
   lon: -122.3081
+  precision: city
 media:
   logo_path: /img/institutions/i055-university-of-washington_mark.png
+name: University Of Washington
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Washington (UW, and informally U-Dub or U Dub)
   is a public research university in Seattle, Washington, United States. Founded 165
   years ago in 1861, it is one of the oldest universities on the West Coast.

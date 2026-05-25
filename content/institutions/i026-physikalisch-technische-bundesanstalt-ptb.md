@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Standards
 - Quantum Sensing
+id: i026-physikalisch-technische-bundesanstalt-ptb
+institution_type: research_centre
 links:
   website: https://www.ptb.de/cms/en.html
 location:
@@ -17,6 +20,7 @@ media:
 name: Physikalisch-Technische Bundesanstalt (PTB)
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: The Physikalisch-Technische Bundesanstalt (PTB) is the national
   metrology institute of the Federal Republic of Germany, with scientific and technical
   service tasks. It is a higher federal authority and a public-law institution directly

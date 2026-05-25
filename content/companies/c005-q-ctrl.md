@@ -1,8 +1,6 @@
 ---
 aliases:
 - Q-CTRL
-categories:
-- Software
 entity_type: company
 id: c005-q-ctrl
 last_verified_at: '2026-05-04'

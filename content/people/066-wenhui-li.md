@@ -6,25 +6,26 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Peking University
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: Thomas F. Gallagher
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Virginia
-  year: 2005
-  confidence: confirmed
   source: https://scholar.google.com/citations?user=G4581-AAAAAJ
+  year: 2005
 entity_type: person
 group_type: experimental
 id: 066-wenhui-li
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Millimeter-wave spectroscopy of cold Rb Rydberg atoms in a magneto-optical trap: Quantum defects of the ns, np, and nd series"
-  year: 2003
-  doi: 10.1103/PhysRevA.67.052502
+- doi: 10.1103/PhysRevA.67.052502
   role: first_author
+  title: 'Millimeter-wave spectroscopy of cold Rb Rydberg atoms in a magneto-optical
+    trap: Quantum defects of the ns, np, and nd series'
+  year: 2003
 keywords:
 - trapped ions
 - Rydberg atoms
@@ -35,8 +36,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=G4581-AAAAAJ
   group_page: null
@@ -46,6 +47,7 @@ location:
   country: China
   lat: 39.9042
   lon: 116.4074
+  precision: city
   region: Beijing
 name: Wenhui Li
 platforms:
@@ -53,15 +55,16 @@ platforms:
 postdocs:
 - advisor: Randy Hulet
   advisor_id: null
-  institution: Rice University
-  years: 'unknown'
-  note: Postdoctoral researcher studying ultracold fermionic gases.
   confidence: confirmed
+  institution: Rice University
+  note: Postdoctoral researcher studying ultracold fermionic gases.
+  years: unknown
 schema_version: 2
 sort_name: Li, Wenhui
 thesis:
-  link: "Unknown"
-  title: "Probing Dipole-Dipole Interactions in a Frozen Rydberg Gas with Millimeter Waves"
+  link: Unknown
+  title: Probing Dipole-Dipole Interactions in a Frozen Rydberg Gas with Millimeter
+    Waves
   year: 2005
 updated_at: '2026-05-04'
 verification_source_count: 2

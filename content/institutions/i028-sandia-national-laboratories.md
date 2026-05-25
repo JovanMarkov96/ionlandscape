@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Computing
 - Quantum Sensing
+id: i028-sandia-national-laboratories
+institution_type: national_lab
 links:
   website: https://www.sandia.gov/
 location:
@@ -9,10 +12,13 @@ location:
   country: USA
   lat: 35.050657
   lon: -106.543136
+  precision: city
 media:
   logo_path: /img/institutions/i028-sandia-national-laboratories_mark.png
+name: Sandia National Laboratories
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'Sandia National Laboratories (SNL), also known as Sandia, is one
   of three research and development laboratories of the United States Department of
   Energy''s National Nuclear Security Administration (NNSA). Headquartered in Kirtland

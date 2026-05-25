@@ -12,6 +12,9 @@ id: 000-mikhail-lukin
 location:
   city: Unknown
   country: Unknown
+  lat: 42.375395
+  lon: -71.121891
+  precision: inherited
 name: Mikhail Lukin
 platforms: []
 schema_version: 2

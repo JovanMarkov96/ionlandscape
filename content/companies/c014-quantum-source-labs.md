@@ -62,6 +62,7 @@ location:
   country: Israel
   lat: 31.9182
   lon: 34.806
+  precision: city
   region: Central
 media:
   logo_path: /logos/c014-quantum-source-labs.png

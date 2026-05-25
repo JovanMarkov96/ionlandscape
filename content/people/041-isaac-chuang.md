@@ -6,29 +6,32 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Massachusetts Institute of Technology
-  title: Professor of Physics and Electrical Engineering; Senior Associate Dean of Digital Learning
   since_year: 2000
+  title: Professor of Physics and Electrical Engineering; Senior Associate Dean of
+    Digital Learning
 education:
 - advisor: Yoshihisa Yamamoto
+  confidence: confirmed
   degree: PhD (Electrical Engineering)
   institution: Stanford University
-  year: 1997
-  confidence: confirmed
   source: https://en.wikipedia.org/wiki/Isaac_Chuang
+  year: 1997
 entity_type: person
 group_type: experimental
 id: 041-isaac-chuang
 ion_species:
 - 88Sr+
 key_papers:
-- title: "Demonstration of a quantum logic gate in a cryogenic surface-electrode ion trap"
+- doi: 10.1103/PhysRevA.81.062332
+  role: senior_author
+  title: Demonstration of a quantum logic gate in a cryogenic surface-electrode ion
+    trap
   year: 2010
-  doi: 10.1103/PhysRevA.81.062332
+- doi: 10.1038/414883a
   role: senior_author
-- title: "Experimental realization of Shor's quantum factoring algorithm using nuclear magnetic resonance"
+  title: Experimental realization of Shor's quantum factoring algorithm using nuclear
+    magnetic resonance
   year: 2001
-  doi: 10.1038/414883a
-  role: senior_author
 keywords:
 - quantum computing
 - quantum information
@@ -40,8 +43,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=xsNy6jcAAAAJ
   group_page: https://quanta.mit.edu/
@@ -51,6 +54,7 @@ location:
   country: United States
   lat: 42.3601
   lon: -71.0942
+  precision: city
   region: Massachusetts
 name: Isaac L. Chuang
 platforms:
@@ -58,22 +62,22 @@ platforms:
 postdocs:
 - advisor: Alexander Pines
   advisor_id: null
-  institution: University of California, Berkeley
-  years: '1996-1998'
-  note: Postdoctoral fellow in the Pines Lab (NMR).
   confidence: confirmed
+  institution: University of California, Berkeley
+  note: Postdoctoral fellow in the Pines Lab (NMR).
+  years: 1996-1998
 - advisor: null
   advisor_id: null
-  institution: Los Alamos National Laboratory
-  years: 'unknown'
-  note: Postdoctoral researcher.
   confidence: confirmed
+  institution: Los Alamos National Laboratory
+  note: Postdoctoral researcher.
+  years: unknown
 schema_version: 2
 sort_name: Chuang, Isaac L.
 thesis:
-  link: "Unknown"
+  link: Unknown
   note: Thesis topic in quantum information.
-  title: "Quantum information and computation: theory and practice"
+  title: 'Quantum information and computation: theory and practice'
   year: 1997
 updated_at: '2026-05-04'
 verification_source_count: 2

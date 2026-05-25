@@ -53,6 +53,7 @@ location:
   country: Canada
   lat: 43.4643
   lon: -80.5204
+  precision: city
   region: Ontario
 metrics:
   citation_count: 14676

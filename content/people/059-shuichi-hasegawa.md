@@ -40,6 +40,7 @@ location:
   country: Japan
   lat: 35.6762
   lon: 139.6503
+  precision: city
   region: Tokyo
 metrics:
   citation_count: 2225

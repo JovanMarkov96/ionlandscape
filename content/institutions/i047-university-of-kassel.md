@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Sensing
+id: i047-university-of-kassel
+institution_type: university
 links:
   website: https://www.uni-kassel.de/uni/en/
 location:
@@ -9,10 +12,13 @@ location:
   country: Deutschland
   lat: 51.322774
   lon: 9.507562
+  precision: city
 media:
   logo_path: /img/institutions/i047-university-of-kassel_mark.png
+name: University Of Kassel
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Kassel (German: Universität Kassel) is a university
   founded in 1971 located in Kassel, Hessen, in central Germany. As of February 2022
   it had about 25,000 students and about 3300 staff, including more than 300 professors.

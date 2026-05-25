@@ -62,6 +62,7 @@ location:
   country: Israel
   lat: 32.794
   lon: 34.9896
+  precision: city
   region: Haifa District
 metrics:
   citation_count: 1320

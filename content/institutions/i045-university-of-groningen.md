@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+id: i045-university-of-groningen
+institution_type: university
 links:
   website: https://www.rug.nl/
 location:
@@ -9,10 +12,13 @@ location:
   country: Netherlands
   lat: 53.21916667
   lon: 6.56277778
+  precision: city
 media:
   logo_path: /img/institutions/i045-university-of-groningen_mark.png
+name: University Of Groningen
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Groningen (abbreviated as UG; Dutch: Rijksuniversiteit
   Groningen, abbreviated as RUG) is a public research university of more than 30,000
   students in the city of Groningen, Netherlands. Founded in 1614, the university

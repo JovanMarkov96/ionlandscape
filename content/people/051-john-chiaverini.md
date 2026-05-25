@@ -42,6 +42,7 @@ location:
   country: United States
   lat: 42.4473
   lon: -71.2272
+  precision: city
   region: Massachusetts
 metrics:
   citation_count: 7660

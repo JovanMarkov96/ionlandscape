@@ -67,6 +67,7 @@ location:
   country: Israel
   lat: 31.9066
   lon: 34.8106
+  precision: city
   region: Central District
 metrics:
   citation_count: 9311

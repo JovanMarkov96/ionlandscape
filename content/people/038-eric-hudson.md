@@ -7,14 +7,14 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of California, Los Angeles
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: Jun Ye
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Colorado Boulder / JILA
   year: 2006
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 038-eric-hudson
@@ -32,8 +32,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=TvhzuKYAAAAJ
   group_page: https://www.physics.ucla.edu/~hudson/
@@ -43,6 +43,7 @@ location:
   country: United States
   lat: 34.0522
   lon: -118.2437
+  precision: city
   region: California
 name: Eric R. Hudson
 platforms:
@@ -50,15 +51,15 @@ platforms:
 postdocs:
 - advisor: David DeMille
   advisor_id: null
-  institution: Yale University
-  years: 'unknown'
-  note: Postdoctoral researcher focusing on cold molecules and precision measurements.
   confidence: confirmed
+  institution: Yale University
+  note: Postdoctoral researcher focusing on cold molecules and precision measurements.
+  years: unknown
 schema_version: 2
 sort_name: Hudson, Eric R.
 thesis:
-  link: "Unknown"
-  title: "Production of cold, absolute ground state OH molecules"
+  link: Unknown
+  title: Production of cold, absolute ground state OH molecules
   year: 2006
 updated_at: '2026-05-04'
 verification_source_count: 2

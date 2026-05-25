@@ -25,6 +25,7 @@ location:
   country: United States
   lat: 42.36
   lon: -71.058
+  precision: city
   region: Massachusetts
 media:
   logo_path: /logos/c006-quera-computing.png

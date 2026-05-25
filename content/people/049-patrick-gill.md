@@ -7,14 +7,14 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: National Physical Laboratory (NPL)
-  title: Senior NPL Fellow
   since_year: null
+  title: Senior NPL Fellow
 education:
 - advisor: Colin Webb
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Oxford
   year: 1975
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 049-patrick-gill
@@ -22,10 +22,11 @@ ion_species:
 - 88Sr+
 - 171Yb+
 key_papers:
-- title: "Hertz-Level Measurement of the Optical Clock Frequency in a Single 88Sr+ Ion"
-  year: 2004
-  doi: 10.1126/science.1105497
+- doi: 10.1126/science.1105497
   role: senior_author
+  title: Hertz-Level Measurement of the Optical Clock Frequency in a Single 88Sr+
+    Ion
+  year: 2004
 keywords:
 - optical clocks
 - precision metrology
@@ -36,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: null
   group_page: https://www.npl.co.uk/people/patrick-gill
@@ -48,19 +49,20 @@ location:
   country: United Kingdom
   lat: 51.4275
   lon: -0.3429
+  precision: city
   region: London
 name: Patrick Gill
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Gill, Patrick
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Charge Transfer as a Laser Excitation Mechanism
   year: 1975
 updated_at: '2026-05-04'

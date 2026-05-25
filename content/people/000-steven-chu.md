@@ -12,6 +12,9 @@ id: 000-steven-chu
 location:
   city: Unknown
   country: Unknown
+  lat: 37.876959
+  lon: -122.24563
+  precision: inherited
 name: Steven Chu
 platforms: []
 schema_version: 2

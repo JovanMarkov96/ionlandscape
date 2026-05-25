@@ -7,14 +7,14 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Centre for Quantum Technologies, National University of Singapore
-  title: Principal Investigator
   since_year: null
+  title: Principal Investigator
 education:
 - advisor: Alex Kuzmich
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Georgia Institute of Technology
   year: 2006
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 033-dzmitry-matsukevich
@@ -22,10 +22,11 @@ ion_species:
 - 171Yb+
 - SiO+
 key_papers:
-- title: "Hybrid Quantum Computing with Conditional Beam Splitter Gate in Trapped Ion System"
-  year: 2020
-  doi: 10.1103/PhysRevLett.124.170502
+- doi: 10.1103/PhysRevLett.124.170502
   role: senior_author
+  title: Hybrid Quantum Computing with Conditional Beam Splitter Gate in Trapped Ion
+    System
+  year: 2020
 keywords:
 - trapped molecular ions
 - quantum networking
@@ -37,8 +38,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=yDbgjnIAAAAJ
   group_page: https://ions-sg.org/
@@ -49,6 +50,7 @@ location:
   country: Singapore
   lat: 1.3521
   lon: 103.8198
+  precision: city
   region: null
 name: Dzmitry Matsukevich
 platforms:
@@ -56,15 +58,15 @@ platforms:
 postdocs:
 - advisor: Christopher Monroe
   advisor_id: 004-christopher-monroe
-  institution: University of Maryland (JQI)
-  years: '2006-2010'
-  note: Postdoctoral researcher working on trapped ion quantum computing and networks.
   confidence: confirmed
+  institution: University of Maryland (JQI)
+  note: Postdoctoral researcher working on trapped ion quantum computing and networks.
+  years: 2006-2010
 schema_version: 2
 sort_name: Matsukevich, Dzmitry
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: 2006
 updated_at: '2026-05-04'
 verification_source_count: 2

@@ -50,6 +50,7 @@ location:
   country: Germany
   lat: 52.2689
   lon: 10.5268
+  precision: city
   region: Lower Saxony
 metrics:
   citation_count: 9005

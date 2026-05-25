@@ -13,8 +13,6 @@ approach:
   elevator_pitch: Quancilla develops software tools that abstract hardware-level complexity,
     enabling researchers and enterprises to design and test quantum algorithms more
     efficiently.
-categories:
-- Software
 entity_type: company
 focus_areas:
 - Quantum software platforms
@@ -35,6 +33,7 @@ location:
   country: Israel
   lat: 32.0853
   lon: 34.7818
+  precision: city
   region: Tel Aviv District
 media:
   logo_path: /logos/c011-quancilla.png

@@ -1,9 +1,12 @@
 ---
 aliases:
 - Helmholtz Institute Mainz
+entity_type: institution
 focus_areas:
 - Quantum Simulation
 - AMO Physics
+id: i014-johannes-gutenberg-university-mainz
+institution_type: university
 links:
   website: https://www.uni-mainz.de/eng/
 location:
@@ -11,10 +14,13 @@ location:
   country: Germany
   lat: 49.99222222
   lon: 8.23805556
+  precision: city
 media:
   logo_path: /img/institutions/i014-johannes-gutenberg-university-mainz_mark.png
+name: Johannes Gutenberg University Mainz
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The Johannes Gutenberg University Mainz (German: Johannes Gutenberg-Universität
   Mainz) is a public research university in Mainz, Rhineland Palatinate, Germany.
   It has been named after the printer Johannes Gutenberg since 1946. As of 2018, it

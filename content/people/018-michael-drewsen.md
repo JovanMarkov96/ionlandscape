@@ -6,25 +6,26 @@ applications:
 created_at: '2026-01-28'
 current_position:
   institution: Aarhus University
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Aarhus University
-  note: Spent 10 months at l'Ecole Normale Supérieure in Paris with C. Cohen-Tannoudji during PhD
+  note: Spent 10 months at l'Ecole Normale Supérieure in Paris with C. Cohen-Tannoudji
+    during PhD
   year: 1994
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 018-michael-drewsen
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Large Ion Crystals in a Linear Paul Trap"
-  year: 1998
-  doi: 10.1103/PhysRevLett.81.2922
+- doi: 10.1103/PhysRevLett.81.2922
   role: first_author
+  title: Large Ion Crystals in a Linear Paul Trap
+  year: 1998
 keywords:
 - trapped ions
 - molecular ions
@@ -36,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: null
   group_page: https://phys.au.dk/en/research/research-areas/amo/drewsen-lab
@@ -48,20 +49,21 @@ location:
   country: Denmark
   lat: 56.1629
   lon: 10.2039
+  precision: city
   region: Central Denmark
 name: Michael Drewsen
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Drewsen, Michael
 thesis:
-  link: "Unknown"
-  title: "Investigations of Light-Induced Kinetic Effects on Atoms"
+  link: Unknown
+  title: Investigations of Light-Induced Kinetic Effects on Atoms
   year: 1994
 updated_at: '2026-05-04'
 verification_source_count: 2

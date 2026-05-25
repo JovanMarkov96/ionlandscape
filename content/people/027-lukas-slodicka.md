@@ -6,25 +6,25 @@ applications:
 created_at: '2026-01-28'
 current_position:
   institution: Palacký University Olomouc
-  title: Research Group Leader
   since_year: null
+  title: Research Group Leader
 education:
 - advisor: Rainer Blatt
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Innsbruck
-  year: 2013
-  confidence: confirmed
   source: https://www.opticsolomouc.org/people/lukas-slodicka/
+  year: 2013
 entity_type: person
 group_type: experimental
 id: 027-lukas-slodicka
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Atom-Atom Entanglement by Single-Photon Detection"
-  year: 2013
-  doi: 10.1103/PhysRevLett.110.083603
+- doi: 10.1103/PhysRevLett.110.083603
   role: first_author
+  title: Atom-Atom Entanglement by Single-Photon Detection
+  year: 2013
 keywords:
 - trapped ions
 - quantum optics
@@ -36,8 +36,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=2zBEXPoAAAAJ
   group_page: https://www.opticsolomouc.org/
@@ -48,6 +48,7 @@ location:
   country: Czech Republic
   lat: 49.5938
   lon: 17.2509
+  precision: city
   region: Olomouc
 name: Lukáš Slodička
 platforms:
@@ -55,14 +56,14 @@ platforms:
 postdocs:
 - advisor: Rainer Blatt
   advisor_id: 017-rainer-blatt
-  institution: University of Innsbruck
-  years: '2013-2015'
-  note: Postdoctoral researcher
   confidence: confirmed
+  institution: University of Innsbruck
+  note: Postdoctoral researcher
+  years: 2013-2015
 schema_version: 2
 sort_name: Slodička, Lukáš
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Single ion - single photon interactions in free space
   year: 2013
 updated_at: '2026-05-04'

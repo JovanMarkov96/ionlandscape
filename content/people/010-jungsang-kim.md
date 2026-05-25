@@ -68,6 +68,7 @@ location:
   country: United States
   lat: 36.0014
   lon: -78.9382
+  precision: city
   region: North Carolina
 metrics:
   citation_count: 4723

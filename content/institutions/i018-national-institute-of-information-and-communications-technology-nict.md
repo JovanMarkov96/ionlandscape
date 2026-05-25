@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Communication
 - Quantum Sensing
+id: i018-national-institute-of-information-and-communications-technology-nict
+institution_type: research_centre
 links:
   website: https://www.nict.go.jp/en/
 location:
@@ -9,11 +12,13 @@ location:
   country: Japan
   lat: 35.70925
   lon: 139.48777778
+  precision: city
 media:
   logo_path: /img/institutions/i018-national-institute-of-information-and-communications-technology-nict_mark.png
 name: National Institute of Information and Communications Technology (NICT)
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The National Institute of Information and Communications Technology
   (情報通信研究機構, Jōhō Tsūshin Kenkyū Kikō; NICT) is Japan''s primary national research
   institute for information and communications. It is located in Koganei, Tokyo, Japan.

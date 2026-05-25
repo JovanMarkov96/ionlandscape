@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Computing
 - AMO Physics
+id: i038-university-of-basel
+institution_type: university
 links:
   website: https://www.unibas.ch/en.html
 location:
@@ -9,10 +12,13 @@ location:
   country: Switzerland
   lat: 47.5596
   lon: 7.5806
+  precision: city
 media:
   logo_path: /img/institutions/i038-university-of-basel_mark.png
+name: University Of Basel
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Basel (Latin: Universitas Basiliensis; German:
   Universität Basel) is a public research university in Basel, Switzerland. Founded
   on 4 April 1460, it is Switzerland''s oldest university and among the world''s oldest

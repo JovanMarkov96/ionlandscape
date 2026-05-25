@@ -44,6 +44,7 @@ location:
   country: Netherlands
   lat: 53.2194
   lon: 6.5665
+  precision: city
   region: Groningen
 metrics:
   citation_count: 9752

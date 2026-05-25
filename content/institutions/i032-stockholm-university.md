@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+id: i032-stockholm-university
+institution_type: university
 links:
   website: https://www.su.se/english/
 location:
@@ -9,10 +12,13 @@ location:
   country: Sweden
   lat: 59.36527778
   lon: 18.05833333
+  precision: city
 media:
   logo_path: /img/institutions/i032-stockholm-university_mark.png
+name: Stockholm University
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: "Stockholm University (SU) (Swedish: Stockholms universitet) is
   a public research university in Stockholm, Sweden, founded as a college in 1878,
   with university status since 1960. With over 33,000 students at four different faculties:

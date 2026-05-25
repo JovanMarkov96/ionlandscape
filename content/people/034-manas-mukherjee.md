@@ -46,6 +46,7 @@ location:
   country: Singapore
   lat: 1.3521
   lon: 103.8198
+  precision: city
   region: null
 metrics:
   citation_count: 2198

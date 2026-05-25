@@ -9,14 +9,14 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Siegen
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: Theodor W. Hänsch
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Ludwig-Maximilians-University Munich
   year: 1996
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 029-christof-wunderlich
@@ -34,8 +34,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=5Wz0VTEAAAAJ
   group_page: https://www.physik.uni-siegen.de/quantenoptik/
@@ -45,20 +45,21 @@ location:
   country: Germany
   lat: 50.8748
   lon: 8.0243
+  precision: city
   region: North Rhine-Westphalia
 name: Christof Wunderlich
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Wunderlich, Christof
 thesis:
-  link: "Unknown"
-  title: "Licht-induzierte molekulare Struktur. Eine experimentelle Untersuchung."
+  link: Unknown
+  title: Licht-induzierte molekulare Struktur. Eine experimentelle Untersuchung.
   year: 1996
 updated_at: '2026-05-04'
 verification_source_count: 2

@@ -6,8 +6,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Amsterdam
-  title: Associate Professor
   since_year: null
+  title: Associate Professor
 education:
 - advisor: null
   confidence: confirmed
@@ -21,10 +21,10 @@ ion_species:
 - 171Yb+
 - 40Ca+
 key_papers:
-- title: "Quantum simulation of the Dirac equation"
-  year: 2010
-  doi: 10.1038/nature08688
+- doi: 10.1038/nature08688
   role: first_author
+  title: Quantum simulation of the Dirac equation
+  year: 2010
 keywords:
 - hybrid atom-ion systems
 - trapped ions
@@ -35,8 +35,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=uGeNcfAAAAAJ
   group_page: https://hyqs.nl/
@@ -46,6 +46,7 @@ location:
   country: Netherlands
   lat: 52.3676
   lon: 4.9041
+  precision: city
   region: North Holland
 name: Rene Gerritsma
 platforms:
@@ -54,15 +55,15 @@ platforms:
 postdocs:
 - advisor: Rainer Blatt; Christian F. Roos
   advisor_id: 002-rainer-blatt
-  institution: University of Innsbruck / IQOQI
-  years: '2008-2011'
-  note: Postdoctoral researcher focusing on trapped-ion quantum simulation.
   confidence: confirmed
+  institution: University of Innsbruck / IQOQI
+  note: Postdoctoral researcher focusing on trapped-ion quantum simulation.
+  years: 2008-2011
 schema_version: 2
 sort_name: Gerritsma, Rene
 thesis:
-  link: "Unknown"
-  title: "Permanent magnetic atom chips and Bose-Einstein condensation"
+  link: Unknown
+  title: Permanent magnetic atom chips and Bose-Einstein condensation
   year: 2007
 updated_at: '2026-05-04'
 verification_source_count: 2

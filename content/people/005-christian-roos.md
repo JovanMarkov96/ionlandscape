@@ -39,6 +39,7 @@ location:
   country: Austria
   lat: 47.2657
   lon: 11.3444
+  precision: city
   region: Tyrol
 metrics:
   citation_count: 20256

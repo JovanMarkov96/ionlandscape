@@ -46,6 +46,7 @@ location:
   country: United States
   lat: 40.015
   lon: -105.2705
+  precision: city
   region: Colorado
 metrics:
   citation_count: 8543

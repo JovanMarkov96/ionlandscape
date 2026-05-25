@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Computing
+id: i033-sungkyunkwan-university-skku
+institution_type: university
 links:
   website: https://www.skku.edu/eng/
 location:
@@ -17,6 +20,7 @@ media:
 name: Sungkyunkwan University (SKKU)
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'Sungkyunkwan University (SKKU or Seongdae, Korean: 성균관대학교; Hanja:
   成均館大學校) is a private research university with campuses in Seoul and Suwon, South
   Korea. The institution traces its origins to the historic Sungkyunkwan founded in

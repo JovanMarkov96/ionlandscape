@@ -40,6 +40,7 @@ location:
   country: Japan
   lat: 35.0116
   lon: 135.7681
+  precision: city
   region: Kyoto
 metrics:
   citation_count: 1966

@@ -1,38 +1,38 @@
 ---
 active: active
 affiliations:
-- name: Helmholtz Institute Mainz
-  type: institution
+- entity_id: null
+  name: Helmholtz Institute Mainz
   role: Member
-  entity_id: null
+  type: institution
 applications:
 - computing
 created_at: '2026-01-26'
 current_position:
   institution: Johannes Gutenberg University Mainz
-  title: Full Professor (W3) of Experimental Physics
   since_year: 2010
+  title: Full Professor (W3) of Experimental Physics
 education:
 - advisor: Theodor W. Hänsch
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Ludwig-Maximilians-University Munich
-  year: 1992
-  confidence: confirmed
   source: https://www.uni-mainz.de/
+  year: 1992
 entity_type: person
 group_type: experimental
 id: 013-ferdinand-schmidt-kaler
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Realization of the Cirac-Zoller controlled-NOT quantum gate"
-  year: 2003
-  doi: 10.1038/nature01494
+- doi: 10.1038/nature01494
   role: co_author
-- title: "Controlling fast transport of cold trapped ions"
-  year: 2012
-  doi: 10.1103/PhysRevLett.109.080501
+  title: Realization of the Cirac-Zoller controlled-NOT quantum gate
+  year: 2003
+- doi: 10.1103/PhysRevLett.109.080501
   role: senior_author
+  title: Controlling fast transport of cold trapped ions
+  year: 2012
 keywords:
 - trapped-ion quantum computing
 - segmented ion traps
@@ -44,8 +44,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   dfg_gepris_profile: https://gepris.dfg.de/gepris/person/1260598?language=en
   google_scholar: https://scholar.google.com/citations?hl=de&user=1VkTHB4AAAAJ
@@ -56,6 +56,7 @@ location:
   country: Germany
   lat: 49.9929
   lon: 8.2473
+  precision: city
   region: Rhineland-Palatinate
 name: Ferdinand Schmidt-Kaler
 platforms:
@@ -63,28 +64,30 @@ platforms:
 postdocs:
 - advisor: Theodor W. Hänsch
   advisor_id: null
-  institution: Max Planck Institute for Quantum Optics (MPQ)
-  years: '1992-1993'
-  note: Postdoctoral researcher at MPQ.
   confidence: confirmed
+  institution: Max Planck Institute for Quantum Optics (MPQ)
+  note: Postdoctoral researcher at MPQ.
+  years: 1992-1993
 - advisor: Serge Haroche
   advisor_id: null
-  institution: École Normale Supérieure (LKB)
-  years: '1992-1995'
-  note: Postdoctoral research assistant.
   confidence: confirmed
+  institution: École Normale Supérieure (LKB)
+  note: Postdoctoral research assistant.
+  years: 1992-1995
 - advisor: Rainer Blatt
   advisor_id: 017-rainer-blatt
-  institution: University of Innsbruck
-  years: '1995-2005'
-  note: Assistant/Senior research assistant (Universitätsassistent) before professorship.
   confidence: confirmed
+  institution: University of Innsbruck
+  note: Assistant/Senior research assistant (Universitätsassistent) before professorship.
+  years: 1995-2005
 schema_version: 2
 sort_name: Schmidt-Kaler, Ferdinand
 thesis:
-  link: "Unknown"
-  note: 'German title: Hochauflösende Spektroskopie des 1S-2S Übergangs in einem kalten Wasserstoff- und Deuterium-Atomstrahl'
-  title: High-resolution spectroscopy of the 1S-2S transition in a cold hydrogen and deuterium atomic beam
+  link: Unknown
+  note: 'German title: Hochauflösende Spektroskopie des 1S-2S Übergangs in einem kalten
+    Wasserstoff- und Deuterium-Atomstrahl'
+  title: High-resolution spectroscopy of the 1S-2S transition in a cold hydrogen and
+    deuterium atomic beam
   year: 1992
 updated_at: '2026-05-04'
 verification_source_count: 3

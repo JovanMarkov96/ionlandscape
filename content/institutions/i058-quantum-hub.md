@@ -18,6 +18,7 @@ location:
   country: Israel
   lat: 32.0853
   lon: 34.7818
+  precision: city
   region: Tel Aviv District
 media:
   logo_path: /img/institutions/i058-quantum-hub_mark.png

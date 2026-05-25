@@ -13,8 +13,6 @@ approach:
   elevator_pitch: Classiq enables developers, scientists and enterprises to build,
     analyze, optimize and deploy quantum algorithms without needing deep hardware
     expertise, bridging gaps between theory and practical quantum application development.
-categories:
-- Software
 entity_type: company
 focus_areas:
 - Quantum software platforms
@@ -55,6 +53,7 @@ location:
   country: Israel
   lat: 32.0746
   lon: 34.7833
+  precision: city
   region: Tel Aviv District
 media:
   logo_path: /logos/c003-classiq-technologies.png

@@ -7,15 +7,15 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Oxford
-  title: Hooke Professor of Experimental Physics
   since_year: null
+  title: Hooke Professor of Experimental Physics
 education:
 - advisor: null
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Oxford
-  year: null
-  confidence: confirmed
   source: https://www2.physics.ox.ac.uk/contacts/people/lucas
+  year: null
 entity_type: person
 group_type: experimental
 id: 037-david-lucas
@@ -23,14 +23,15 @@ ion_species:
 - 40Ca+
 - 88Sr+
 key_papers:
-- title: "High-fidelity quantum logic gates using trapped-ion hyperfine qubits"
+- doi: 10.1103/PhysRevLett.117.060504
+  role: senior_author
+  title: High-fidelity quantum logic gates using trapped-ion hyperfine qubits
   year: 2016
-  doi: 10.1103/PhysRevLett.117.060504
+- doi: 10.1103/PhysRevLett.113.220501
   role: senior_author
-- title: "High-fidelity preparation, gates, memory, and readout of a trapped-ion quantum qubit"
+  title: High-fidelity preparation, gates, memory, and readout of a trapped-ion quantum
+    qubit
   year: 2014
-  doi: 10.1103/PhysRevLett.113.220501
-  role: senior_author
 keywords:
 - trapped-ion quantum computing
 - quantum error correction
@@ -41,8 +42,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=pREa_vkAAAAJ
   group_page: https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group
@@ -52,19 +53,20 @@ location:
   country: United Kingdom
   lat: 51.752
   lon: -1.2577
+  precision: city
   region: England
 name: David M. Lucas
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Lucas, David M.
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: Parity violation in atomic samarium
   year: null
 updated_at: '2026-05-04'

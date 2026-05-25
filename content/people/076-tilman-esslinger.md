@@ -48,6 +48,7 @@ location:
   country: Switzerland
   lat: 47.3769
   lon: 8.5417
+  precision: city
   region: Zürich
 metrics:
   citation_count: 29303

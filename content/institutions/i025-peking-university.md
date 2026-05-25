@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Computing
 - AMO Physics
+id: i025-peking-university
+institution_type: university
 links:
   website: https://english.pku.edu.cn/
 location:
@@ -9,10 +12,13 @@ location:
   country: China
   lat: 39.99
   lon: 116.30138889
+  precision: city
 media:
   logo_path: /img/institutions/i025-peking-university_mark.png
+name: Peking University
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: "Peking University (PKU) is a public university in Haidian, Beijing,
   China. It is affiliated with and funded by the Ministry of Education. The university
   is part of Project 211, Project 985, and the Double First-Class Construction. It

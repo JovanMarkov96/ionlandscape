@@ -68,6 +68,7 @@ location:
   country: South Korea
   lat: 36.3741
   lon: 127.365
+  precision: city
   region: Daejeon
 metrics:
   citation_count: 10120

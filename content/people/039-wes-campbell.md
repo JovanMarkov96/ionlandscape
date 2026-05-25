@@ -47,6 +47,7 @@ location:
   country: United States
   lat: 34.0522
   lon: -118.2437
+  precision: city
   region: California
 metrics:
   citation_count: 5152

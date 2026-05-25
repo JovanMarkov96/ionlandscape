@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+id: i023-postech
+institution_type: university
 links:
   website: https://www.postech.ac.kr/eng/
 location:
@@ -17,6 +20,7 @@ media:
 name: POSTECH
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'Pohang University of Science and Technology (POSTECH, Korean:
   포항공과대학교) is a private research university in Pohang, South Korea.'
 sources:

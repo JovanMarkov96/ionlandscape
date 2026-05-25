@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Sensing
 - AMO Physics
+id: i008-griffith-university
+institution_type: university
 links:
   website: https://www.griffith.edu.au/
 location:
@@ -9,10 +12,13 @@ location:
   country: Australia
   lat: -27.5526
   lon: 153.0539
+  precision: city
 media:
   logo_path: /img/institutions/i008-griffith-university_mark.png
+name: Griffith University
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'Griffith University is a public research university in South East
   Queensland on the east coast of Australia. The university was founded in 1971, but
   was not officially opened until 1975. The university has five campuses, at Gold

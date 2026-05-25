@@ -6,8 +6,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Raman Research Institute
-  title: Senior Professor
   since_year: null
+  title: Senior Professor
 education:
 - advisor: null
   confidence: not_found
@@ -31,8 +31,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=8Ptfb9EAAAAJ&hl=en
   group_page: https://www.rri.res.in/~sarangwala/
@@ -42,6 +42,7 @@ location:
   country: India
   lat: 12.9716
   lon: 77.5946
+  precision: city
   region: Karnataka
 name: S. A. Rangwala
 platforms:
@@ -49,15 +50,15 @@ platforms:
 postdocs:
 - advisor: Gerhard Rempe
   advisor_id: 014-gerhard-rempe
-  institution: Max Planck Institute of Quantum Optics (MPQ)
-  years: '2001-2004'
-  note: Postdoctoral researcher focusing on cold atoms.
   confidence: confirmed
+  institution: Max Planck Institute of Quantum Optics (MPQ)
+  note: Postdoctoral researcher focusing on cold atoms.
+  years: 2001-2004
 schema_version: 2
 sort_name: Rangwala, S. A.
 thesis:
-  link: "Unknown"
-  title: "Resonant electron capture to molecules and Dissociative electron attachment"
+  link: Unknown
+  title: Resonant electron capture to molecules and Dissociative electron attachment
   year: 1999
 updated_at: '2026-05-04'
 verification_source_count: 2

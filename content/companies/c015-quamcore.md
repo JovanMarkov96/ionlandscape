@@ -51,6 +51,7 @@ location:
   country: Israel
   lat: 32.167
   lon: 34.8117
+  precision: city
   region: Central
 media:
   logo_path: /logos/c015-quamcore.webp

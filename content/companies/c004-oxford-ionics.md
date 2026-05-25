@@ -11,6 +11,7 @@ location:
   country: United Kingdom
   lat: 51.826
   lon: -1.291
+  precision: city
   region: Oxfordshire
 media:
   logo_path: /logos/c004-oxford-ionics.png

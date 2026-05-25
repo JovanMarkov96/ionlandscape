@@ -42,6 +42,7 @@ location:
   country: Germany
   lat: 51.3127
   lon: 9.4797
+  precision: city
   region: Hesse
 metrics:
   citation_count: 4745

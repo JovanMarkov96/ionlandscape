@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+id: i002-aarhus-university
+institution_type: university
 links:
   website: https://international.au.dk/
 location:
@@ -9,10 +12,13 @@ location:
   country: Denmark
   lat: 56.17055556
   lon: 10.20111111
+  precision: city
 media:
   logo_path: /img/institutions/i002-aarhus-university_mark.png
+name: Aarhus University
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'Aarhus University (Danish: Aarhus Universitet, abbreviated AU)
   is a public research university. Its main campus is located in Aarhus, Denmark.
   It is the second largest and second oldest university in Denmark. The university

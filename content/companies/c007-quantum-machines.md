@@ -14,9 +14,6 @@ approach:
   elevator_pitch: Quantum Machines creates integrated control and orchestration solutions
     that connect quantum processors with classical computing resources, enabling precise
     quantum system operations and real-time error management.
-categories:
-- Control Hardware
-- Software
 entity_type: company
 focus_areas:
 - Quantum control systems
@@ -48,6 +45,7 @@ location:
   country: Israel
   lat: 32.0621
   lon: 34.782
+  precision: city
   region: Tel Aviv District
 media:
   logo_path: /logos/c002-quantum-machines.png

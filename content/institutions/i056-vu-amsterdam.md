@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+id: i056-vu-amsterdam
+institution_type: university
 links:
   website: https://vu.nl/en
 location:
@@ -17,6 +20,7 @@ media:
 name: VU Amsterdam
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The Vrije Universiteit Amsterdam (abbreviated as VU Amsterdam
   or simply VU when in context) is a public research university in Amsterdam, Netherlands,
   founded in 1880. The VU Amsterdam is one of two large, publicly funded research

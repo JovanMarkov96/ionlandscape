@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Computing
 - Quantum Sensing
+id: i016-mit-lincoln-laboratory
+institution_type: university
 links:
   website: https://www.ll.mit.edu/
 location:
@@ -17,6 +20,7 @@ media:
 name: MIT Lincoln Laboratory
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'MIT Lincoln Laboratory is a federally funded research and development
   center (FFRDC) managed by the Massachusetts Institute of Technology on behalf of
   the United States Department of Defense. Located at Hanscom Air Force Base in Lexington,

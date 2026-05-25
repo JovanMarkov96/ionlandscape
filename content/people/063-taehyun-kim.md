@@ -46,6 +46,7 @@ location:
   country: South Korea
   lat: 37.5665
   lon: 126.978
+  precision: city
   region: Seoul
 metrics:
   citation_count: 86

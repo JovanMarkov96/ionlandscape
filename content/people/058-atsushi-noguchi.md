@@ -7,24 +7,24 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Tokyo
-  title: Associate Professor
   since_year: null
+  title: Associate Professor
 education:
 - advisor: Shinji Urabe; Kenji Toyoda
+  confidence: confirmed
   degree: PhD (Science)
   institution: Osaka University
   year: 2015
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 058-atsushi-noguchi
 ion_species:
 - 9Be+
 key_papers:
-- title: "Hong-Ou-Mandel interference of two phonons in trapped ions"
-  year: 2015
-  doi: 10.1038/nature15735
+- doi: 10.1038/nature15735
   role: co_author
+  title: Hong-Ou-Mandel interference of two phonons in trapped ions
+  year: 2015
 keywords:
 - trapped ions
 - quantum electrodynamics
@@ -35,8 +35,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=XqgH5oAAAAAJ
   group_page: https://sqei.cF.u-tokyo.ac.jp/
@@ -47,20 +47,21 @@ location:
   country: Japan
   lat: 35.6762
   lon: 139.6503
+  precision: city
   region: Tokyo
 name: Atsushi Noguchi
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Noguchi, Atsushi
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: 2015
 updated_at: '2026-05-04'
 verification_source_count: 2

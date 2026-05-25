@@ -52,6 +52,7 @@ location:
   country: Israel
   lat: 31.9284
   lon: 34.8025
+  precision: city
   region: Central
 media:
   hero_image_path: ''

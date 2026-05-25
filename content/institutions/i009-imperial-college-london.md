@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Computing
 - Quantum Communication
+id: i009-imperial-college-london
+institution_type: university
 links:
   website: https://www.imperial.ac.uk/
 location:
@@ -9,10 +12,13 @@ location:
   country: United Kingdom
   lat: 51.4988
   lon: -0.1749
+  precision: city
 media:
   logo_path: /img/institutions/i009-imperial-college-london_mark.png
+name: Imperial College London
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The Imperial College of Science, Technology and Medicine, known
   by its trade names Imperial College London and Imperial, is a public research university
   in London, England. Its history began with Prince Albert, husband of Queen Victoria,

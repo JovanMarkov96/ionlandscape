@@ -48,6 +48,7 @@ location:
   country: United States
   lat: 47.6062
   lon: -122.3321
+  precision: city
   region: Washington
 metrics:
   citation_count: 2075

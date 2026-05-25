@@ -47,6 +47,7 @@ location:
   country: Sweden
   lat: 59.3293
   lon: 18.0686
+  precision: city
   region: Stockholm
 metrics:
   citation_count: 7400

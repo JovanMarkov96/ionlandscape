@@ -13,8 +13,6 @@ approach:
   elevator_pitch: QuantLR develops deterministic photon-atom interfaces and quantum
     repeater technology to enable scalable, long-distance quantum networks and secure
     communication systems.
-categories:
-- Quantum Communication
 entity_type: company
 focus_areas:
 - Quantum communication infrastructure
@@ -35,6 +33,7 @@ location:
   country: Israel
   lat: 31.8906
   lon: 35.0003
+  precision: city
   region: Tel Aviv District
 media:
   logo_path: /logos/c009-quantlr.png

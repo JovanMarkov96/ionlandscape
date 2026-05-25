@@ -41,6 +41,7 @@ location:
   country: Israel
   lat: 32.5203
   lon: 34.9436
+  precision: city
   region: Haifa
 media:
   logo_path: /logos/c010-quantum-transistors.png

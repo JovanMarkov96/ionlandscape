@@ -53,6 +53,7 @@ location:
   country: South Korea
   lat: 36.019
   lon: 129.3435
+  precision: city
   region: North Gyeongsang
 metrics:
   citation_count: 1174

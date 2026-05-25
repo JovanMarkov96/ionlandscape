@@ -7,8 +7,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: National Institute of Information and Communications Technology (NICT)
-  title: Group Leader
   since_year: null
+  title: Group Leader
 education:
 - advisor: null
   confidence: not_found
@@ -22,10 +22,11 @@ ion_species:
 - 40Ca+
 - 115In+
 key_papers:
-- title: "Continuous generation of single photons with controlled waveform in an ion-trap cavity system"
-  year: 2004
-  doi: 10.1038/nature02957
+- doi: 10.1038/nature02957
   role: co_author
+  title: Continuous generation of single photons with controlled waveform in an ion-trap
+    cavity system
+  year: 2004
 keywords:
 - optical clocks
 - trapped ions
@@ -36,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: null
   group_page: https://www2.nict.go.jp/stsi/sr22/en/index.html
@@ -48,20 +49,22 @@ location:
   country: Japan
   lat: 35.7107
   lon: 139.4895
+  precision: city
   region: Tokyo
 name: Kazuhiro Hayasaka
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Hayasaka, Kazuhiro
 thesis:
-  link: "Unknown"
-  title: "Research on control of interaction between accumulated ions and quantized electromagnetic field"
+  link: Unknown
+  title: Research on control of interaction between accumulated ions and quantized
+    electromagnetic field
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 2

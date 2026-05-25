@@ -13,8 +13,6 @@ approach:
   elevator_pitch: enQuantum builds deployable quantum communication systems designed
     to integrate with existing fiber infrastructure, enabling quantum-secure key distribution
     and network protection.
-categories:
-- Quantum Communication
 entity_type: company
 focus_areas:
 - Quantum-secure communication
@@ -35,6 +33,7 @@ location:
   country: Israel
   lat: 32.0154
   lon: 34.7937
+  precision: city
   region: Tel Aviv District
 media:
   logo_path: /logos/c012-enquantum.png

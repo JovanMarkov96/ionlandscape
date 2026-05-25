@@ -7,8 +7,8 @@ applications:
 created_at: '2026-01-28'
 current_position:
   institution: University of Bonn
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
   confidence: not_found
@@ -32,8 +32,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=Cw9P5UkAAAAJ
   group_page: https://www.koellab.uni-bonn.de/
@@ -44,21 +44,22 @@ location:
   country: Germany
   lat: 50.7374
   lon: 7.0982
+  precision: city
   region: North Rhine-Westphalia
 name: Michael Köhl
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: University of Geneva
-  years: '2005-2007'
-  note: Postdoctoral research.
   confidence: confirmed
+  institution: University of Geneva
+  note: Postdoctoral research.
+  years: 2005-2007
 schema_version: 2
 sort_name: Köhl, Michael
 thesis:
-  link: "Unknown"
-  title: "Kohaerente Atomoptik mit dem Atomlaser"
+  link: Unknown
+  title: Kohaerente Atomoptik mit dem Atomlaser
   year: 2001
 updated_at: '2026-05-04'
 verification_source_count: 1

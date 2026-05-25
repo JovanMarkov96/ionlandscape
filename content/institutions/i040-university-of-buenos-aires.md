@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Information
+id: i040-university-of-buenos-aires
+institution_type: university
 links:
   website: https://www.uba.ar/internacionales/
 location:
@@ -9,10 +12,13 @@ location:
   country: Argentina
   lat: -34.59972222
   lon: -58.37305556
+  precision: city
 media:
   logo_path: /img/institutions/i040-university-of-buenos-aires_mark.png
+name: University Of Buenos Aires
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Buenos Aires (Spanish: Universidad de Buenos
   Aires, UBA) is a public research university in Buenos Aires, Argentina. It is the
   second-oldest university in the country, and the largest university in the country

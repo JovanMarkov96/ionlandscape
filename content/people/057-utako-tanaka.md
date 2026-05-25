@@ -52,6 +52,7 @@ location:
   country: Japan
   lat: 34.6937
   lon: 135.5023
+  precision: city
   region: Osaka
 metrics:
   citation_count: 907

@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Hardware
 - Quantum Computing
+id: i057-open-quantum-design
+institution_type: dedicated_quantum_centre
 links:
   website: https://openquantumdesign.org/
 location:
@@ -9,10 +12,13 @@ location:
   country: Denmark
   lat: 56.1629
   lon: 10.2039
+  precision: city
 media:
   logo_path: /img/institutions/i057-open-quantum-design_mark.png
+name: Open Quantum Design
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'Quantum programming refers to the process of designing and implementing
   algorithms that operate on quantum systems, typically using quantum circuits composed
   of quantum gates, measurements, and classical control logic. These circuits are

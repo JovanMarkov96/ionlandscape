@@ -10,20 +10,21 @@ current_position:
   title: Professor
 education:
 - advisor: Herbert Walther
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Max Planck Institute of Quantum Optics
   year: 2004
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 071-matthias-keller
 ion_species:
 - 40Ca+
 key_papers:
-- title: "Continuous generation of single photons with controlled waveform in an ion-trap cavity system"
-  year: 2004
-  doi: 10.1038/nature02957
+- doi: 10.1038/nature02957
   role: first_author
+  title: Continuous generation of single photons with controlled waveform in an ion-trap
+    cavity system
+  year: 2004
 keywords:
 - trapped ions
 - cavity QED
@@ -34,8 +35,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=G_R_X2IAAAAJ
   group_page: http://www.sussex.ac.uk/physics/iqt/
@@ -46,20 +47,21 @@ location:
   country: United Kingdom
   lat: 50.8671
   lon: -0.0875
+  precision: city
   region: East Sussex
 name: Matthias Keller
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Keller, Matthias
 thesis:
   link: null
-  title: "Quantenoptik mit gespeicherten 40Ca+-Ionen"
+  title: Quantenoptik mit gespeicherten 40Ca+-Ionen
   year: 2004
 updated_at: '2026-05-04'
 verification_source_count: 2

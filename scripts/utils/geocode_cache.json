@@ -79,5 +79,9 @@
   "Quantum Source Labs, Ness Ziona, Israel": null,
   "QuamCore, Herzliya, Israel": null,
   "Universal Quantum, Brighton, United Kingdom": null,
-  "eleQtron, Siegen, Germany": null
+  "eleQtron, Siegen, Germany": null,
+  "college park||united states": {
+    "lat": 38.980666,
+    "lon": -76.9369189
+  }
 }

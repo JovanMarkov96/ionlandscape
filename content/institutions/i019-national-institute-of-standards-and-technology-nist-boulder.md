@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Standards
 - Quantum Sensing
+id: i019-national-institute-of-standards-and-technology-nist-boulder
+institution_type: national_lab
 links:
   website: https://www.nist.gov/
 location:
@@ -17,6 +20,7 @@ media:
 name: NIST Boulder
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The National Institute of Standards and Technology (NIST) is an
   agency of the United States Department of Commerce whose mission is to promote American
   innovation and industrial competitiveness. NIST''s activities are organized into

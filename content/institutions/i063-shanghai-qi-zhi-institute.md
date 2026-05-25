@@ -12,6 +12,7 @@ location:
   country: China
   lat: 31.2304
   lon: 121.4737
+  precision: city
 name: Shanghai Qi Zhi Institute
 platforms_represented:
 - trapped_ion

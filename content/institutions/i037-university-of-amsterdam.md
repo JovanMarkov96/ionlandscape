@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+id: i037-university-of-amsterdam
+institution_type: university
 links:
   website: https://www.uva.nl/en
 location:
@@ -9,10 +12,13 @@ location:
   country: Netherlands
   lat: 52.36833333
   lon: 4.89027778
+  precision: city
 media:
   logo_path: /img/institutions/i037-university-of-amsterdam_mark.png
+name: University Of Amsterdam
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The University of Amsterdam (abbreviated as UvA; Dutch: Universiteit
   van Amsterdam) is a public research university located in Amsterdam, Netherlands.
   Established in 1632 by municipal authorities, it is the fourth-oldest academic institution

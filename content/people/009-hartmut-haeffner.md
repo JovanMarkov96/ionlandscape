@@ -1,10 +1,10 @@
 ---
 active: active
 affiliations:
-- name: Lawrence Berkeley National Laboratory
-  type: institution
+- entity_id: null
+  name: Lawrence Berkeley National Laboratory
   role: Affiliated Scientist
-  entity_id: null
+  type: institution
 applications:
 - computing
 - simulation
@@ -13,15 +13,15 @@ applications:
 created_at: '2026-01-26'
 current_position:
   institution: University of California, Berkeley
-  title: Professor of Physics
   since_year: 2009
+  title: Professor of Physics
 education:
-- advisor: "G\xFCnter Werth"
+- advisor: Günter Werth
+  confidence: confirmed
   degree: PhD (Physics)
   institution: University of Mainz
-  year: 2000
-  confidence: confirmed
   source: https://physics.berkeley.edu/people/faculty/hartmut-haeffner
+  year: 2000
 entity_type: person
 group_type: experimental
 id: 009-hartmut-haeffner
@@ -29,18 +29,18 @@ ion_species:
 - 40Ca+
 - 138Ba+
 key_papers:
-- title: "Quantum computing with trapped ions"
+- doi: 10.1016/j.physrep.2008.09.003
+  role: first_author
+  title: Quantum computing with trapped ions
   year: 2008
-  doi: 10.1016/j.physrep.2008.09.003
+- doi: 10.1038/nature04279
   role: first_author
-- title: Scalable multiparticle entanglement of trapped ions
+  title: Scalable multiparticle entanglement of trapped ions
   year: 2005
-  doi: 10.1038/nature04279
-  role: first_author
-- title: Deterministic quantum teleportation with atoms
-  year: 2004
-  doi: 10.1038/nature02570
+- doi: 10.1038/nature02570
   role: co_author
+  title: Deterministic quantum teleportation with atoms
+  year: 2004
 keywords:
 - trapped ions
 - quantum information
@@ -53,8 +53,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   berkeley_profile: https://physics.berkeley.edu/people/faculty/hartmut-haeffner
   google_scholar: https://scholar.google.com/citations?hl=en&user=ORNi6TwAAAAJ
@@ -66,32 +66,33 @@ location:
   country: United States
   lat: 37.8719
   lon: -122.2585
+  precision: city
   region: California
-name: "Hartmut H\xE4ffner"
+name: Hartmut Häffner
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
   institution: University of Mainz
-  years: '2000'
   note: Short postdoc in Mainz after PhD and visit to Bangalore.
+  years: '2000'
 - advisor: null
-  institution: "NIST Gaithersburg (Feodor-Lynen fellow)"
-  years: '2000-2001'
   confidence: confirmed
+  institution: NIST Gaithersburg (Feodor-Lynen fellow)
   source: https://physics.berkeley.edu/people/faculty/hartmut-haeffner
+  years: 2000-2001
 - advisor: Rainer Blatt
   advisor_id: 017-rainer-blatt
-  institution: University of Innsbruck
-  years: '2001-2009'
-  note: "University assistant (2001\u20132004, Marie-Curie fellow 2002\u20132004),\
-    \ then senior scientist at IQOQI (2004\u20132009, START award 2006)."
   confidence: confirmed
+  institution: University of Innsbruck
+  note: University assistant (2001–2004, Marie-Curie fellow 2002–2004), then senior
+    scientist at IQOQI (2004–2009, START award 2006).
   source: https://physics.berkeley.edu/people/faculty/hartmut-haeffner
+  years: 2001-2009
 schema_version: 2
-sort_name: "H\xE4ffner, Hartmut"
+sort_name: Häffner, Hartmut
 thesis:
-  link: "Unknown"
+  link: Unknown
   title: High-accuracy measurement of the magnetic moment anomaly of the electron
     bound in hydrogenlike carbon
   year: 2000

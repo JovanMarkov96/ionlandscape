@@ -7,14 +7,14 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Centre for Quantum Technologies, National University of Singapore
-  title: Principal Investigator
   since_year: null
+  title: Principal Investigator
 education:
 - advisor: Michael S. Chapman
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Georgia Institute of Technology
   year: 2002
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 032-murray-barrett
@@ -22,10 +22,10 @@ ion_species:
 - 138Ba+
 - 176Lu+
 key_papers:
-- title: "Deterministic quantum teleportation of atomic qubits"
-  year: 2004
-  doi: 10.1038/nature02608
+- doi: 10.1038/nature02608
   role: first_author
+  title: Deterministic quantum teleportation of atomic qubits
+  year: 2004
 keywords:
 - trapped ions
 - microtraps
@@ -37,8 +37,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=xPKjx_UAAAAJ
   group_page: https://www.physics.nus.edu.sg/~phybmd/
@@ -48,6 +48,7 @@ location:
   country: Singapore
   lat: 1.3521
   lon: 103.8198
+  precision: city
   region: null
 name: Murray D. Barrett
 platforms:
@@ -55,15 +56,16 @@ platforms:
 postdocs:
 - advisor: David J. Wineland
   advisor_id: 006-david-wineland
-  institution: National Institute of Standards and Technology (NIST), Boulder
-  years: 'unknown'
-  note: Postdoctoral researcher in the Ion Storage Group; first author on the 2004 quantum teleportation paper.
   confidence: confirmed
+  institution: National Institute of Standards and Technology (NIST), Boulder
+  note: Postdoctoral researcher in the Ion Storage Group; first author on the 2004
+    quantum teleportation paper.
+  years: unknown
 schema_version: 2
 sort_name: Barrett, Murray D.
 thesis:
-  link: "Unknown"
-  title: "A QUEST for BEC: An all optical alternative"
+  link: Unknown
+  title: 'A QUEST for BEC: An all optical alternative'
   year: 2002
 updated_at: '2026-05-04'
 verification_source_count: 2

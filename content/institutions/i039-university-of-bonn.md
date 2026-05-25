@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Simulation
 - AMO Physics
+id: i039-university-of-bonn
+institution_type: university
 links:
   website: https://www.uni-bonn.de/en
 location:
@@ -9,11 +12,14 @@ location:
   country: Germany
   lat: 50.73388889
   lon: 7.10222222
+  precision: city
 media:
   logo_path: /img/institutions/i039-university-of-bonn_mark.png
+name: University Of Bonn
 platforms_represented:
 - trapped_ion
 - neutral_atom
+schema_version: 1
 short_description: 'The University of Bonn, officially the Rhenish Friedrich Wilhelm
   University of Bonn (German: Rheinische Friedrich-Wilhelms-Universität Bonn), is
   a public research university in Bonn, North Rhine-Westphalia, Germany. It was founded

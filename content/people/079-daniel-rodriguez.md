@@ -6,8 +6,8 @@ applications:
 created_at: '2026-02-03'
 current_position:
   institution: University of Granada
-  title: Catedrático de Universidad (Full Professor of Physics)
   since_year: null
+  title: Catedrático de Universidad (Full Professor of Physics)
 education:
 - advisor: null
   confidence: confirmed
@@ -22,10 +22,10 @@ ion_species:
 - Th+
 - ThO+
 key_papers:
-- title: "High-sensitivity motional-resonance detection of trapped ions"
-  year: 2016
-  doi: 10.1103/PhysRevLett.116.143002
+- doi: 10.1103/PhysRevLett.116.143002
   role: senior_author
+  title: High-sensitivity motional-resonance detection of trapped ions
+  year: 2016
 keywords:
 - ion traps
 - Penning trap mass spectrometry
@@ -39,8 +39,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=kKe8PnkAAAAJ
   group_page: https://trapsensor.ugr.es/
@@ -51,31 +51,33 @@ location:
   country: Spain
   lat: 37.1773
   lon: -3.5986
+  precision: city
   region: Andalusia
 name: Daniel Rodríguez Rubiales
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
+  confidence: confirmed
   institution: LPC Caen, France
-  years: '2004-2006'
   note: Postdoctoral research funded by a Marie Curie fellowship.
-  confidence: confirmed
+  years: 2004-2006
 - advisor: null
+  confidence: confirmed
   institution: Max Planck Institute for Nuclear Physics, Heidelberg
-  years: '2008'
   note: José Castillejo fellowship.
-  confidence: confirmed
+  years: '2008'
 - advisor: null
-  institution: University of Huelva, Spain
-  years: '2006-2008'
-  note: Juan de la Cierva postdoctoral researcher.
   confidence: confirmed
+  institution: University of Huelva, Spain
+  note: Juan de la Cierva postdoctoral researcher.
+  years: 2006-2008
 schema_version: 2
 sort_name: Rodríguez Rubiales, Daniel
 thesis:
-  link: "Unknown"
-  title: "An RFQ buncher for accumulation and cooling of heavy radionuclides at SHIPTRAP and high precision mass measurements on unstable Kr isotopes at ISOLTRAP"
+  link: Unknown
+  title: An RFQ buncher for accumulation and cooling of heavy radionuclides at SHIPTRAP
+    and high precision mass measurements on unstable Kr isotopes at ISOLTRAP
   year: 2003
 updated_at: '2026-05-04'
 verification_source_count: 2

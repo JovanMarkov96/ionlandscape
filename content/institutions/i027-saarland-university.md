@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+id: i027-saarland-university
+institution_type: university
 links:
   website: https://www.uni-saarland.de/en/home.html
 location:
@@ -9,10 +12,13 @@ location:
   country: Germany
   lat: 49.25555556
   lon: 7.04166667
+  precision: city
 media:
   logo_path: /img/institutions/i027-saarland-university_mark.png
+name: Saarland University
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'Saarland University (German: Universität des Saarlandes, pronounced
   [univɛʁziˈtɛːt dɛs ˈzaːɐ̯landəs]) is a public research university located in Saarbrücken,
   the capital of the German state of Saarland. It was founded in 1948 in Homburg in

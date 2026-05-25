@@ -7,8 +7,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Sungkyunkwan University (SKKU)
-  title: Assistant Professor
   since_year: 2021
+  title: Assistant Professor
 education:
 - advisor: null
   confidence: not_found
@@ -22,10 +22,10 @@ ion_species:
 - 171Yb+
 - 138Ba+
 key_papers:
-- title: "Design and operation of a scalable trapped-ion quantum computer"
-  year: 2021
-  doi: 10.1038/s41467-021-25244-z
+- doi: 10.1038/s41467-021-25244-z
   role: co_author
+  title: Design and operation of a scalable trapped-ion quantum computer
+  year: 2021
 keywords:
 - trapped ions
 - quantum computing
@@ -36,8 +36,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=2YgPz2UAAAAJ
   group_page: https://queti.skku.edu/
@@ -48,6 +48,7 @@ location:
   country: South Korea
   lat: 37.2636
   lon: 127.0286
+  precision: city
   region: Gyeonggi
 name: Junki Kim
 platforms:
@@ -55,21 +56,21 @@ platforms:
 postdocs:
 - advisor: Taehyun Kim
   advisor_id: 063-taehyun-kim
-  institution: Seoul National University
-  years: '2017-2018'
-  note: Postdoctoral associate at SNU ASRI.
   confidence: confirmed
+  institution: Seoul National University
+  note: Postdoctoral associate at SNU ASRI.
+  years: 2017-2018
 - advisor: Jungsang Kim; Kenneth R. Brown
   advisor_id: 020-jungsang-kim
-  institution: Duke University
-  years: '2018-2021'
-  note: Postdoctoral associate / Research Scientist at Duke.
   confidence: confirmed
+  institution: Duke University
+  note: Postdoctoral associate / Research Scientist at Duke.
+  years: 2018-2021
 schema_version: 2
 sort_name: Kim, Junki
 thesis:
-  link: "Unknown"
-  title: "Unknown"
+  link: Unknown
+  title: Unknown
   year: null
 updated_at: '2026-05-04'
 verification_source_count: 2

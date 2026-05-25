@@ -1,7 +1,10 @@
 ---
+entity_type: institution
 focus_areas:
 - Quantum Sensing
 - Quantum Standards
+id: i020-national-physical-laboratory-npl
+institution_type: university
 links:
   website: https://www.npl.co.uk/
 location:
@@ -9,11 +12,13 @@ location:
   country: United Kingdom
   lat: 51.42638889
   lon: -0.34361111
+  precision: city
 media:
   logo_path: /img/institutions/i020-national-physical-laboratory-npl_mark.png
 name: National Physical Laboratory (NPL)
 platforms_represented:
 - trapped_ion
+schema_version: 1
 short_description: 'The National Physical Laboratory (NPL) is the national measurement
   standards laboratory of the United Kingdom. It sets and maintains physical standards
   for British industry.

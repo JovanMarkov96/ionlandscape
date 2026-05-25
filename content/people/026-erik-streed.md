@@ -55,6 +55,7 @@ location:
   country: Australia
   lat: -28.0167
   lon: 153.4
+  precision: city
   region: Queensland
 metrics:
   citation_count: 2123

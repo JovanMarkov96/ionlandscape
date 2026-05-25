@@ -6,24 +6,25 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: University of Calgary
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: Oskar Painter
+  confidence: confirmed
   degree: PhD (Applied Physics)
   institution: California Institute of Technology
   year: 2007
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 068-paul-barclay
 ion_species:
 - 171Yb+
 key_papers:
-- title: "Resonant enhancement of the zero-phonon emission from a colour centre in a diamond cavity"
-  year: 2011
-  doi: 10.1038/nphoton.2011.63
+- doi: 10.1038/nphoton.2011.63
   role: co_author
+  title: Resonant enhancement of the zero-phonon emission from a colour centre in
+    a diamond cavity
+  year: 2011
 keywords:
 - quantum photonics
 - diamond photonics
@@ -34,8 +35,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=6YgPz2UAAAAJ
   group_page: https://barclaylab.ucalgary.ca/
@@ -45,20 +46,21 @@ location:
   country: Canada
   lat: 51.0776
   lon: -114.13
+  precision: city
   region: Alberta
 name: Paul Barclay
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Barclay, Paul
 thesis:
-  link: "Unknown"
-  title: "Fiber-coupled nanophotonic devices for nonlinear optics and cavity QED"
+  link: Unknown
+  title: Fiber-coupled nanophotonic devices for nonlinear optics and cavity QED
   year: 2007
 updated_at: '2026-05-04'
 verification_source_count: 2

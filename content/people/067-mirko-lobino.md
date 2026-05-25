@@ -6,14 +6,14 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Griffith University
-  title: Associate Professor
   since_year: null
+  title: Associate Professor
 education:
 - advisor: Roberta Ramponi
+  confidence: confirmed
   degree: PhD (Physics)
   institution: Politecnico di Milano
   year: 2007
-  confidence: confirmed
 entity_type: person
 group_type: experimental
 id: 067-mirko-lobino
@@ -30,8 +30,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-04'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=5XqgH5oAAAAJ
   group_page: https://webapps.unitn.it/du/en/Persona/PER0223733/Curriculum
@@ -41,6 +41,7 @@ location:
   country: Australia
   lat: -27.4698
   lon: 153.0251
+  precision: city
   region: Queensland
 name: Mirko Lobino
 platforms:
@@ -48,15 +49,15 @@ platforms:
 postdocs:
 - advisor: null
   advisor_id: null
-  institution: University of Calgary
-  years: '2007-2009'
-  note: Postdoctoral researcher focusing on quantum photonics.
   confidence: confirmed
+  institution: University of Calgary
+  note: Postdoctoral researcher focusing on quantum photonics.
+  years: 2007-2009
 schema_version: 2
 sort_name: Lobino, Mirko
 thesis:
-  link: "Unknown"
-  title: "Femtosecond laser writing of optical waveguides in bulk and waveguide optics"
+  link: Unknown
+  title: Femtosecond laser writing of optical waveguides in bulk and waveguide optics
   year: 2007
 updated_at: '2026-05-04'
 verification_source_count: 2

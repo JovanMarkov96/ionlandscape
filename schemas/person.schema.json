@@ -71,6 +71,39 @@
           ],
           "minimum": -180,
           "maximum": 180
+        },
+        "precision": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "building",
+            "campus",
+            "city",
+            "inherited",
+            "none",
+            null
+          ]
+        },
+        "address": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "geocoded_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "geocode_source": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },

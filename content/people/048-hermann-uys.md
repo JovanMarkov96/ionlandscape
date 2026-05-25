@@ -8,8 +8,8 @@ applications:
 created_at: '2026-01-30'
 current_position:
   institution: Stellenbosch University
-  title: Professor
   since_year: null
+  title: Professor
 education:
 - advisor: null
   confidence: not_found
@@ -32,8 +32,8 @@ labels:
 last_verified_at: '2026-05-04'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-04'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=2cWt_OIAAAAJ
   group_page: https://www.csir.co.za/quantum-optics
@@ -43,20 +43,22 @@ location:
   country: South Africa
   lat: -33.9321
   lon: 18.8602
+  precision: city
   region: Western Cape
 name: Hermann Uys
 platforms:
 - trapped_ion
 postdocs:
 - advisor: null
-  institution: "Unknown"
-  years: null
   confidence: not_found
+  institution: Unknown
+  years: null
 schema_version: 2
 sort_name: Uys, Hermann
 thesis:
-  link: "Unknown"
-  title: "Distributed Quantum Sensing: Theoretical Foundation, Experimental Platform and Applications"
+  link: Unknown
+  title: 'Distributed Quantum Sensing: Theoretical Foundation, Experimental Platform
+    and Applications'
   year: 2007
 updated_at: '2026-05-04'
 verification_source_count: 1
