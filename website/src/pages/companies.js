@@ -213,7 +213,7 @@ function Companies() {
             }
 
             return true;
-        });
+        }).sort((a, b) => (a.name || '').toLowerCase().localeCompare((b.name || '').toLowerCase()));
     }, [companies, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
 
     // Update URL with new filters

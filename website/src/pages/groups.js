@@ -224,6 +224,10 @@ function Groups() {
             }
 
             return true;
+        }).sort((a, b) => {
+            const sa = (a.sort_name || a.name || '').toLowerCase();
+            const sb = (b.sort_name || b.name || '').toLowerCase();
+            return sa.localeCompare(sb);
         });
     }, [people, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
 

@@ -213,7 +213,7 @@ function Institutions() {
             }
 
             return true;
-        });
+        }).sort((a, b) => (a.name || '').toLowerCase().localeCompare((b.name || '').toLowerCase()));
     }, [institutions, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
 
     // Update URL with new filters
