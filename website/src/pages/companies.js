@@ -298,10 +298,6 @@ function Companies() {
     return (
         <Layout title="Quantum Companies" description="Search and filter quantum technology companies, startups, and hardware manufacturers.">
             <div className="groups-page container margin-vert--lg">
-                <div className="companies-header">
-                    <h1>Search Companies</h1>
-                </div>
-
                 {/* Category Toggle */}
                 <div className="category-toggle-container">
                     <div className="button-group">
@@ -397,43 +393,49 @@ function Companies() {
 
                 {/* Results Grid */}
                 <div className="row">
-                    {filteredCompanies.map(company => (
+                    {filteredCompanies.map(company => {
+                        const logoSrc = company.media?.logo_path
+                            ? (company.media.logo_path.startsWith('http')
+                                ? company.media.logo_path
+                                : `/ionlandscape${company.media.logo_path}`)
+                            : null;
+                        const nameParts = (company.name || '').split(' ').filter(p => p.trim() !== '');
+                        const initials = nameParts.length > 1
+                            ? (nameParts[0][0] + nameParts[1][0]).toUpperCase()
+                            : nameParts.length === 1 ? nameParts[0].substring(0, 2).toUpperCase() : 'CO';
+                        const platformLabels = (company.platforms || []).map(p =>
+                            p.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()));
+                        const clean = v => (v && String(v).trim().toLowerCase() !== 'unknown') ? v : null;
+                        const location = [clean(company.location?.city), clean(company.location?.country)].filter(Boolean).join(', ');
+                        return (
                         <div key={company.id} className="col col--4 margin-bottom--lg">
-                            <div className="card">
+                            <div className="card inst-card">
                                 <div className="card__header company-card-header">
-                                    {company.media?.logo_path ? (
-                                        <div
-                                            className="company-card-logo ion-marker-logo"
-                                            role="img"
-                                            aria-label={`${company.name} logo`}
-                                            style={{
-                                                backgroundImage: `url('${company.media.logo_path.startsWith('http') ? company.media.logo_path : `/ionlandscape${company.media.logo_path}`}')`
-                                            }}
-                                        />
+                                    {logoSrc ? (
+                                        <div className="inst-logo-ring">
+                                            <img className="inst-logo-img" src={logoSrc} alt="" />
+                                        </div>
                                     ) : (
-                                        <div className="company-card-logo ion-marker-placeholder" title="No logo available">
-                                            {(() => {
-                                                const nameParts = (company.name || '').split(' ').filter(p => p.trim() !== '');
-                                                if (nameParts.length > 1) return (nameParts[0][0] + nameParts[1][0]).toUpperCase();
-                                                if (nameParts.length === 1) return nameParts[0].substring(0, 2).toUpperCase();
-                                                return 'CO';
-                                            })()}
+                                        <div className="inst-logo-ring inst-logo-placeholder">
+                                            <span>{initials}</span>
                                         </div>
                                     )}
-                                    <div>
+                                    <div className="inst-card-title-block">
                                         <h3>{company.name}</h3>
-                                        <p className="company-card-location">{company.location?.city}, {company.location?.country}</p>
+                                        {location && <p className="company-card-location">{location}</p>}
                                     </div>
                                 </div>
-                                <div className="card__body">
-                                    <p>{company.short_summary}</p>
-                                    <div className="card-badges-container">
-                                        {company.platforms?.map(platform => (
-                                            <span
-                                                key={platform}
-                                                className="badge badge--primary margin-right--xs"
-                                            >
+                                <div className="card__body inst-card-body">
+                                    <p className="inst-card-description">{company.short_summary}</p>
+                                    <div className="inst-card-badges">
+                                        {platformLabels.map(platform => (
+                                            <span key={platform} className="badge badge--primary margin-right--xs">
                                                 {platform}
+                                            </span>
+                                        ))}
+                                        {company.categories?.map(cat => (
+                                            <span key={cat} className="badge badge--info margin-right--xs">
+                                                {cat}
                                             </span>
                                         ))}
                                     </div>
@@ -445,7 +447,8 @@ function Companies() {
                                 </div>
                             </div>
                         </div>
-                    ))}
+                        );
+                    })}
                     {filteredCompanies.length === 0 && (
                         <div className="col col--12">
                             <div className="alert alert--warning">

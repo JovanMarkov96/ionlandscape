@@ -181,6 +181,7 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
             "sort_name": meta.get("sort_name", name),
             "entity_type": "company",
             "platforms": meta.get("platforms", []),
+            "categories": meta.get("categories", []),
             "location": location,
             "short_summary": short_summary,
             "approach": meta.get("approach", {}),
@@ -354,6 +355,14 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
         if meta.get("entity_type") == "company":
             continue
 
+        # Diversify sources: include the institution's own website alongside Wikipedia
+        inst_sources = list(meta.get("sources", []))
+        website = (meta.get("links", {}) or {}).get("website")
+        if website:
+            existing_urls = {s.get("url", "").rstrip("/") for s in inst_sources}
+            if website.rstrip("/") not in existing_urls:
+                inst_sources.append({"note": "Official website", "url": website})
+
         inst_obj = {
             "id": iid,
             "name": name,
@@ -376,7 +385,7 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
                 "member_count": len(current_members),
                 "alumni_count": len(alumni)
             },
-            "sources": meta.get("sources", []),
+            "sources": inst_sources,
             "md_filename": os.path.basename(md_path),
             "updated_at": meta.get("updated_at", "")
         }

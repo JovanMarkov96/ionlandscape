@@ -13,6 +13,8 @@ approach:
   elevator_pitch: enQuantum builds deployable quantum communication systems designed
     to integrate with existing fiber infrastructure, enabling quantum-secure key distribution
     and network protection.
+categories:
+- Quantum Communication
 entity_type: company
 focus_areas:
 - Quantum-secure communication

@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Optics
 - Quantum Information
+links:
+  website: https://www.upol.cz/en/
 location:
   city: Olomouc
   country: Czech Republic

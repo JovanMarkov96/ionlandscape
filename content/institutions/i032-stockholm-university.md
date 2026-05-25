@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://www.su.se/english/
 location:
   city: Stockholm
   country: Sweden

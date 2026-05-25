@@ -312,10 +312,6 @@ function Groups() {
     return (
         <Layout title="Search">
             <div className="groups-page container margin-vert--lg">
-                <div className="groups-header">
-                    <h1>Search Research Groups</h1>
-                </div>
-
                 {/* Category Toggle */}
                 <div className="category-toggle-container">
                     <div className="button-group">
@@ -421,15 +417,25 @@ function Groups() {
 
                 {/* Results Grid */}
                 <div className="row">
-                    {filteredPeople.map(person => (
+                    {filteredPeople.map(person => {
+                        const clean = v => (v && String(v).trim().toLowerCase() !== 'unknown') ? v : null;
+                        const institution = clean(person.current_position?.institution);
+                        const location = [clean(person.location?.city), clean(person.location?.country)].filter(Boolean).join(', ');
+                        const platformLabels = (person.platforms || []).map(p =>
+                            p.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()));
+                        return (
                         <div key={person.id} className="col col--4 margin-bottom--lg">
-                            <div className="card">
+                            <div className="card inst-card">
                                 <div className="card__header">
-                                    <h3>{person.name}</h3>
+                                    <h3 className="inst-card-title-block">{person.name}</h3>
+                                    {institution && <p className="person-card-inst">{institution}</p>}
+                                    {location && <p className="company-card-location">{location}</p>}
                                 </div>
-                                <div className="card__body">
-                                    <p>{person.current_position?.institution}</p>
-                                    <div className="card-badges-container">
+                                <div className="card__body inst-card-body">
+                                    {person.short_bio && (
+                                        <p className="inst-card-description">{person.short_bio}</p>
+                                    )}
+                                    <div className="inst-card-badges">
                                         {person.labels?.map(label => (
                                             <span
                                                 key={label}
@@ -437,6 +443,11 @@ function Groups() {
                                                 onClick={() => addFilter('label', label)}
                                             >
                                                 {label}
+                                            </span>
+                                        ))}
+                                        {platformLabels.map(p => (
+                                            <span key={p} className="badge badge--success margin-right--xs">
+                                                {p}
                                             </span>
                                         ))}
                                         {person.applications?.map(app => (
@@ -448,8 +459,6 @@ function Groups() {
                                                 {app}
                                             </span>
                                         ))}
-                                    </div>
-                                    <div>
                                         {person.ion_species?.map(ion => (
                                             <span
                                                 key={ion}
@@ -468,7 +477,8 @@ function Groups() {
                                 </div>
                             </div>
                         </div>
-                    ))}
+                        );
+                    })}
                     {filteredPeople.length === 0 && (
                         <div className="col col--12">
                             <div className="alert alert--warning">

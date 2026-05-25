@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Simulation
 - AMO Physics
+links:
+  website: https://www.uni-bonn.de/en
 location:
   city: Bonn
   country: Germany

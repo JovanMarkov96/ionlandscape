@@ -65,7 +65,7 @@ module.exports = {
                 {
                     type: 'html',
                     position: 'right',
-                    value: '<a href="/ionlandscape/institutions" class="navbar-custom-btn" title="Institutions" aria-label="Institutions"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22v-8"></path><path d="M21 22v-8"></path><path d="M12 2v20"></path><path d="M8 6l4-4 4 4"></path><path d="M5 14h14"></path></svg><span class="navbar-btn-label">Institutions</span></a>',
+                    value: '<a href="/ionlandscape/institutions" class="navbar-custom-btn" title="Institutions" aria-label="Institutions"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"></line><line x1="6" y1="18" x2="6" y2="11"></line><line x1="10" y1="18" x2="10" y2="11"></line><line x1="14" y1="18" x2="14" y2="11"></line><line x1="18" y1="18" x2="18" y2="11"></line><polygon points="12 2 20 7 4 7"></polygon></svg><span class="navbar-btn-label">Institutions</span></a>',
                 },
                 {
                     type: 'html',

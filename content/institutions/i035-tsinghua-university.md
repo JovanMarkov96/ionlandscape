@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Simulation
+links:
+  website: https://www.tsinghua.edu.cn/en/
 location:
   city: Haidian
   country: Beijing

@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Sensing
+links:
+  website: https://www.uni-kassel.de/uni/en/
 location:
   city: Kassel
   country: Deutschland

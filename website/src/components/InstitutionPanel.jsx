@@ -4,6 +4,23 @@ import Link from '@docusaurus/Link';
 import FeedbackForm from './FeedbackForm';
 
 /**
+ * Produce a clean, professional label for a source reference.
+ * Wikipedia URLs -> "Wikipedia"; otherwise the bare hostname (e.g. "au.dk").
+ */
+export function formatSourceLabel(src) {
+    const url = src?.url || '';
+    if (/wikipedia\.org/i.test(url)) return 'Wikipedia';
+    try {
+        const host = new URL(url).hostname.replace(/^www\./, '');
+        return host || 'Official source';
+    } catch (e) {
+        // Fall back to a cleaned note if URL is unparseable
+        const note = (src?.note || '').replace(/^Imported short_description from\s*/i, '').trim();
+        return note || 'Source';
+    }
+}
+
+/**
  * InstitutionPanel Component
  * 
  * Displays detailed information about a selected institution.
@@ -136,32 +153,24 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
                 </button>
             )}
 
-            <div className="person-panel-header panel-flex-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', width: '100%' }}>
-                <div style={{ display: 'flex', alignItems: 'center' }}>
-                    {media?.logo_path ? (
-                        <img
-                            src={media.logo_path.startsWith('http') ? media.logo_path : `/ionlandscape${media.logo_path}`}
-                            alt={`${name} logo`}
-                            className="institution-logo-img"
-                            onError={(e) => {
-                                if (e.target.src.includes('/ionlandscape')) {
-                                    e.target.src = media.logo_path;
-                                }
-                            }}
-                        />
-                    ) : (
-                        <div className="institution-logo-placeholder">
-                            {name.charAt(0)}
-                        </div>
-                    )}
-                    <h2 style={{ margin: 0, marginLeft: '12px' }}>{name}</h2>
-                </div>
-
-                <FeedbackForm
-                    entityType="Institution"
-                    entityName={name}
-                    entityId={institutionId}
-                />
+            <div className="person-panel-header panel-flex-header" style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+                {media?.logo_path ? (
+                    <img
+                        src={media.logo_path.startsWith('http') ? media.logo_path : `/ionlandscape${media.logo_path}`}
+                        alt={`${name} logo`}
+                        className="institution-logo-img"
+                        onError={(e) => {
+                            if (e.target.src.includes('/ionlandscape')) {
+                                e.target.src = media.logo_path;
+                            }
+                        }}
+                    />
+                ) : (
+                    <div className="institution-logo-placeholder">
+                        {name.charAt(0)}
+                    </div>
+                )}
+                <h2 style={{ margin: 0, marginLeft: '12px' }}>{name}</h2>
             </div>
 
             <p className="person-panel-position" style={{ marginTop: '10px' }}>
@@ -249,11 +258,12 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
                 <>
                     <div className="panel-divider" />
                     <h4 className="section-header" style={{ fontSize: '0.9em' }}>Sources</h4>
-                    <ul style={{ fontSize: '0.8em', paddingLeft: '20px' }}>
+                    <ul className="panel-sources-list">
                         {sources.map((src, i) => (
                             <li key={i}>
-                                <a href={src.url} target="_blank" rel="noopener noreferrer">Source {i + 1}</a>
-                                {src.note && `: ${src.note}`}
+                                <a href={src.url} target="_blank" rel="noopener noreferrer">
+                                    {formatSourceLabel(src)}
+                                </a>
                             </li>
                         ))}
                     </ul>

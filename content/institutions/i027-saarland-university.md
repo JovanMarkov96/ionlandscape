@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://www.uni-saarland.de/en/home.html
 location:
   city: Saarbrucken
   country: Germany

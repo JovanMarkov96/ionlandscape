@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://www.uva.nl/en
 location:
   city: Amsterdam
   country: Netherlands

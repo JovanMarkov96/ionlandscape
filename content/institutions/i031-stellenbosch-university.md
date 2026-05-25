@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Optics
 - AMO Physics
+links:
+  website: https://www.sun.ac.za/english
 location:
   city: Stellenbosch Local Municipality
   country: South Africa

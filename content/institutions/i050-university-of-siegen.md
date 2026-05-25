@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Sensing
 - AMO Physics
+links:
+  website: https://www.uni-siegen.de/start/index.html.en
 location:
   city: Siegen
   country: Germany

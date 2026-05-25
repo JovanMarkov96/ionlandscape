@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Communication
 - Quantum Sensing
+links:
+  website: https://www.nict.go.jp/en/
 location:
   city: Kodaira
   country: Japan

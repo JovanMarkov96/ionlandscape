@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://international.au.dk/
 location:
   city: Aarhus
   country: Denmark

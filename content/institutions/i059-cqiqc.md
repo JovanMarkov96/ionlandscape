@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Information
 - Quantum Foundations
+links:
+  website: https://cqiqc.physics.utoronto.ca/
 location:
   city: Toronto
   country: Canada

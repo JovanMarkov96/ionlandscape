@@ -298,10 +298,6 @@ function Institutions() {
     return (
         <Layout title="Quantum Research Institutions" description="Search and filter research universities, national labs, and institutes working in quantum computing.">
             <div className="groups-page container margin-vert--lg">
-                <div className="institutions-header">
-                    <h1>Search Institutions</h1>
-                </div>
-
                 {/* Category Toggle */}
                 <div className="category-toggle-container">
                     <div className="button-group">
@@ -410,7 +406,8 @@ function Institutions() {
                         const platforms = institution.platforms_represented || [];
                         const platformLabels = platforms.map(p => p.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()));
                         const allBadges = [...(institution.focus_areas || []), ...platformLabels].filter(Boolean);
-                        const location = [institution.location?.city, institution.location?.country].filter(Boolean).join(', ');
+                        const clean = v => (v && String(v).trim().toLowerCase() !== 'unknown') ? v : null;
+                        const location = [clean(institution.location?.city), clean(institution.location?.country)].filter(Boolean).join(', ');
 
                         return (
                         <div key={institution.id} className="col col--4 margin-bottom--lg">

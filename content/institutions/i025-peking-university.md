@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - AMO Physics
+links:
+  website: https://english.pku.edu.cn/
 location:
   city: Beijing
   country: China

@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Sensing
 - AMO Physics
+links:
+  website: https://www.ibs.re.kr/eng.do
 location:
   city: Daejeon
   country: South Korea

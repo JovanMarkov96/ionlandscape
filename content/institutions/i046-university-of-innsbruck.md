@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Simulation
+links:
+  website: https://www.uibk.ac.at/en/
 location:
   city: Innsbruck
   country: Austria

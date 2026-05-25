@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - AMO Physics
+links:
+  website: https://www.berkeley.edu/
 location:
   city: Berkeley
   country: USA

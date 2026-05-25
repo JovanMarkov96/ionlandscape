@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Hardware
 - Quantum Computing
+links:
+  website: https://openquantumdesign.org/
 location:
   city: Aarhus
   country: Denmark

@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Sensing
 - AMO Physics
+links:
+  website: https://www.uni-ulm.de/en/
 location:
   city: Ulm
   country: Germany

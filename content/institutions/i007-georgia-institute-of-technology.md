@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Simulation
+links:
+  website: https://www.gatech.edu/
 location:
   city: Atlanta
   country: United States

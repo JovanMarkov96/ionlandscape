@@ -122,13 +122,30 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
     const renderEntityLink = (entityName) => {
         if (!entityName) return null;
 
+        // Normalize: lowercase, strip punctuation/brackets, collapse whitespace
+        const normalize = (s) => (s || '').toLowerCase().replace(/[().,\-–—/]/g, ' ').replace(/\s+/g, ' ').trim();
+        const ne = normalize(entityName);
+        // Acronyms in the person's institution string, e.g. "(NIST)", "(SKKU)"
+        const acronyms = (entityName.match(/\b[A-Z]{2,}\b/g) || []).map(a => a.toLowerCase());
+
+        const matchesInst = (i) => {
+            if (!i.name) return false;
+            const ni = normalize(i.name);
+            if (ni === ne) return true;
+            if (i.id === entityName) return true;
+            if (i.aliases && i.aliases.some(a => normalize(a) === ne)) return true;
+            if (i.abbreviations && i.abbreviations.some(a => acronyms.includes(a.toLowerCase()))) return true;
+            // One name fully contains the other (guard against trivially short names)
+            if (ni.length > 6 && ne.includes(ni)) return true;
+            if (ne.length > 6 && ni.includes(ne)) return true;
+            // Shared distinctive acronym appears as a token in the institution name
+            const niTokens = ni.split(' ');
+            if (acronyms.some(a => a.length >= 3 && niTokens.includes(a))) return true;
+            return false;
+        };
+
         // Try Institution first
-        const inst = institutions.find(i =>
-            (i.name && i.name.toLowerCase() === entityName.toLowerCase()) ||
-            (i.id === entityName) ||
-            (i.aliases && i.aliases.some(a => a.toLowerCase() === entityName.toLowerCase())) ||
-            (i.name && i.name.toLowerCase().includes(entityName.toLowerCase()) && entityName.length > 3)
-        );
+        const inst = institutions.find(matchesInst);
 
         if (inst && onInstitutionSelect) {
             return (
@@ -229,13 +246,15 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
                     };
                     const categoryParam = getCategory(platform);
 
+                    const humanize = (p) => p.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
                     return (
                         <a
                             key={i}
                             href={`/ionlandscape/groups?category=${encodeURIComponent(categoryParam)}`}
                             className={`badge ${categoryParam === 'Trapped Ions' ? 'badge-trapped-ions' : categoryParam === 'Neutral Atoms' ? 'badge-neutral-atoms' : 'badge--info'}`}
                         >
-                            {platform}
+                            {humanize(platform)}
                         </a>
                     )
                 })}

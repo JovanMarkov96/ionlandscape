@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://www.kyoto-u.ac.jp/en
 location:
   city: Kyoto
   country: Japan

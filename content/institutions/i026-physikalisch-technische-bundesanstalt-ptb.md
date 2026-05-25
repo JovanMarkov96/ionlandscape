@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Standards
 - Quantum Sensing
+links:
+  website: https://www.ptb.de/cms/en.html
 location:
   city: Braunschweig
   country: Germany

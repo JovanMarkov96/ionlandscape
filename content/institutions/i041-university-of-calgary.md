@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Communication
 - Quantum Information
+links:
+  website: https://www.ucalgary.ca/
 location:
   city: Calgary
   country: Canada

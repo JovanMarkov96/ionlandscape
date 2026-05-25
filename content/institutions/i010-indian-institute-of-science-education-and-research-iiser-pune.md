@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://www.iiserpune.ac.in/
 location:
   city: Pune
   country: India

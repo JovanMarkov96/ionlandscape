@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Information
+links:
+  website: https://www.uba.ar/internacionales/
 location:
   city: Buenos Aires
   country: Argentina

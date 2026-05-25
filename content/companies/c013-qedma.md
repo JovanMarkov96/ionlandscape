@@ -15,6 +15,8 @@ approach:
     designed for error-free processors into forms that can run accurately on current
     noisy quantum hardware, using error suppression, characterization, and mitigation
     techniques.
+categories:
+- Software
 entity_type: company
 focus_areas:
 - Quantum error mitigation software

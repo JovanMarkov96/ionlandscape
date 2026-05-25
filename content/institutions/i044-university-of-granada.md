@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Simulation
 - AMO Physics
+links:
+  website: https://www.ugr.es/en
 location:
   city: Spain. Apart from the city of Granada
   country: 'UGR also has campuses in Ceuta and Melilla.

@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Simulation
 - AMO Physics
+links:
+  website: https://www.uni-mainz.de/eng/
 location:
   city: Mainz
   country: Germany

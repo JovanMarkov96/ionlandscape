@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Information
+links:
+  website: https://www.sfu.ca/
 location:
   city: British Columbia
   country: Canada

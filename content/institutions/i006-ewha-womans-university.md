@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Sensing
+links:
+  website: https://www.ewha.ac.kr/ewhaen/index.do
 location:
   city: Seoul
   country: South Korea

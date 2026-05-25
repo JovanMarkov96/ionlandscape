@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - AMO Physics
+links:
+  website: https://www.technion.ac.il/en/
 location:
   city: Haifa
   country: Israel

@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Information
+links:
+  website: https://uwaterloo.ca/institute-for-quantum-computing/
 location:
   city: Waterloo
   country: Canada

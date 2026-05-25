@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://www.rug.nl/
 location:
   city: Groningen
   country: Netherlands

@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - AMO Physics
+links:
+  website: https://www.unibas.ch/en.html
 location:
   city: Basel
   country: Switzerland

@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Simulation
 - AMO Physics
+links:
+  website: https://ethz.ch/en.html
 location:
   city: Zurich
   country: Switzerland

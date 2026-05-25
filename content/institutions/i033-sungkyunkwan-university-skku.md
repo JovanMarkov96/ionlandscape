@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Computing
+links:
+  website: https://www.skku.edu/eng/
 location:
   city: Seoul
   country: South Korea

@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://www.uoregon.edu/
 location:
   city: Eugene
   country: USA

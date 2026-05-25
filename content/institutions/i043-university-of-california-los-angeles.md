@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - AMO Physics
+links:
+  website: https://www.ucla.edu/
 location:
   city: Los Angeles
   country: USA

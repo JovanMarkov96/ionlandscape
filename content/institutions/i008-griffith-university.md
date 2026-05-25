@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Sensing
 - AMO Physics
+links:
+  website: https://www.griffith.edu.au/
 location:
   city: Brisbane
   country: Australia

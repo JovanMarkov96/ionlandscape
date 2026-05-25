@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Sensing
+links:
+  website: https://www.sussex.ac.uk/
 location:
   city: Brighton
   country: United Kingdom

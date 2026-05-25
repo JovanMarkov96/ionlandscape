@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Simulation
+links:
+  website: https://duke.edu/
 location:
   city: Durham
   country: United States

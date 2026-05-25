@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Communication
+links:
+  website: https://www.quantumlah.org/
 location:
   city: Singapore
   country: Singapore

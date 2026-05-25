@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Sensing
 - Quantum Standards
+links:
+  website: https://www.npl.co.uk/
 location:
   city: Greater London
   country: United Kingdom

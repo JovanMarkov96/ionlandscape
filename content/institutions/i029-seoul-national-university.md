@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://en.snu.ac.kr/
 location:
   city: Seoul
   country: South Korea

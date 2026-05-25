@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - Quantum Simulation
+links:
+  website: https://www.mit.edu/
 location:
   city: Cambridge
   country: USA

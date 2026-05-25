@@ -13,6 +13,8 @@ approach:
   elevator_pitch: Classiq enables developers, scientists and enterprises to build,
     analyze, optimize and deploy quantum algorithms without needing deep hardware
     expertise, bridging gaps between theory and practical quantum application development.
+categories:
+- Software
 entity_type: company
 focus_areas:
 - Quantum software platforms

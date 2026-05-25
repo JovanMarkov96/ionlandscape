@@ -55,3 +55,4 @@ tile-generation/data/
 
 # Private working notes (vision, refactor plans, scratchpad)
 private/
+.logotest/

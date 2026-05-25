@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Link from '@docusaurus/Link';
 import FeedbackForm from './FeedbackForm';
+import { formatSourceLabel } from './InstitutionPanel';
 
 /**
  * CompanyPanel Component
@@ -356,12 +357,12 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             {company.sources && company.sources.length > 0 && (
                 <>
                     <div className="panel-divider" />
-                    <h4 className="section-header" style={{ fontSize: '0.9em', color: '#666' }}>Evidence Map</h4>
-                    <ul style={{ fontSize: '0.8em', color: '#666', paddingLeft: '20px' }}>
+                    <h4 className="section-header" style={{ fontSize: '0.9em' }}>Sources</h4>
+                    <ul className="panel-sources-list">
                         {company.sources.map((src, i) => (
                             <li key={i}>
-                                <a href={src.url} target="_blank" rel="noopener noreferrer" style={{ color: '#666', textDecoration: 'underline' }}>
-                                    {src.note}
+                                <a href={src.url} target="_blank" rel="noopener noreferrer">
+                                    {formatSourceLabel(src)}
                                 </a>
                             </li>
                         ))}

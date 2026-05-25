@@ -13,6 +13,8 @@ approach:
   elevator_pitch: Quancilla develops software tools that abstract hardware-level complexity,
     enabling researchers and enterprises to design and test quantum algorithms more
     efficiently.
+categories:
+- Software
 entity_type: company
 focus_areas:
 - Quantum software platforms

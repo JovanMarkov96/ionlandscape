@@ -2,6 +2,8 @@
 focus_areas:
 - AMO Physics
 - Quantum Simulation
+links:
+  website: https://www.oist.jp/
 location:
   city: Onna
   country: Japan

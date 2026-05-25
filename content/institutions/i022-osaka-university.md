@@ -2,6 +2,8 @@
 focus_areas:
 - Quantum Computing
 - AMO Physics
+links:
+  website: https://www.osaka-u.ac.jp/en
 location:
   city: Suita
   country: Japan

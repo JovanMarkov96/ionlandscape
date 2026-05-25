@@ -570,17 +570,17 @@ body,
   height: 48px;
 }
 
-/* Institution card logo ring — dark background so white logos are visible */
+/* Institution card logo ring — white background, logos sit cleanly inside */
 .inst-logo-ring {
   width: 52px;
   height: 52px;
   min-width: 52px;
   flex-shrink: 0;
   border-radius: 50%;
-  background: #1a3464;
+  background: #ffffff;
   overflow: hidden;
-  border: 2px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -590,9 +590,12 @@ body,
   width: 100%;
   height: 100%;
   object-fit: contain;
-  padding: 7px;
+  padding: 6px;
   box-sizing: border-box;
-  mix-blend-mode: screen;
+}
+
+[data-theme='dark'] .inst-logo-ring {
+  border-color: rgba(0, 0, 0, 0.15);
 }
 
 .inst-logo-placeholder {
@@ -628,21 +631,70 @@ body,
 .inst-card-description {
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin: 0 0 8px;
-  flex: 1;
-  min-height: 3.9em;
+  margin: 0 0 10px;
+  height: 4.5em; /* exactly 3 lines, prevents half-line clipping */
 }
 
 .inst-card-badges {
-  min-height: 28px;
+  min-height: 26px;
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
   margin-top: auto;
+}
+
+/* Panel sources list — clean, professional reference list */
+.panel-sources-list {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.panel-sources-list li {
+  margin: 0;
+}
+
+.panel-sources-list a {
+  display: inline-block;
+  font-size: 0.78rem;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: var(--ion-surface, rgba(0, 0, 0, 0.05));
+  border: 1px solid var(--ion-border, rgba(0, 0, 0, 0.1));
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.panel-sources-list a:hover {
+  background: rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+
+/* Person card: institution + location lines */
+.person-card-inst {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  line-height: 1.25;
+}
+
+.inst-card .card__header h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ifm-color-content) !important;
 }
 
 .panel-logo-placeholder {

@@ -14,6 +14,9 @@ approach:
   elevator_pitch: Quantum Machines creates integrated control and orchestration solutions
     that connect quantum processors with classical computing resources, enabling precise
     quantum system operations and real-time error management.
+categories:
+- Control Hardware
+- Software
 entity_type: company
 focus_areas:
 - Quantum control systems
