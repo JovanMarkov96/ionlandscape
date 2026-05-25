@@ -27,6 +27,7 @@ function Companies() {
     const searchQuery = searchParams.get('q') || '';
     const labelFilters = searchParams.getAll('label');
     const ionFilters = searchParams.getAll('ion');
+    const platformFilters = searchParams.getAll('platform');
     const instFilters = searchParams.getAll('inst');
     const countryFilters = searchParams.getAll('country');
 
@@ -55,14 +56,15 @@ function Companies() {
                     q: localSearch,
                     label: labelFilters,
                     ion: ionFilters,
+                    platform: platformFilters,
                     inst: instFilters,
                     country: countryFilters,
-                    category: category // Add category
+                    category: category
                 }, true); // push
             }
         }, 300);
         return () => clearTimeout(timer);
-    }, [localSearch, labelFilters, ionFilters, instFilters, countryFilters, category]);
+    }, [localSearch, labelFilters, ionFilters, platformFilters, instFilters, countryFilters, category]);
 
     // --- Dependent Filter Logic ---
 
@@ -111,20 +113,23 @@ function Companies() {
         return Array.from(countries).sort().filter(c => !countryFilters.includes(c));
     }, [companies, category, instFilters, countryFilters]);
 
-    // Available Labels & Ions (Global context within category)
-    const { availableLabels, availableIons } = useMemo(() => {
-        const filtered = getCompaniesInContext({}); // Valid in category
+    // Available Labels, Ions & Platforms (Global context within category)
+    const { availableLabels, availableIons, availablePlatforms } = useMemo(() => {
+        const filtered = getCompaniesInContext({});
         const labels = new Set();
         const ions = new Set();
+        const platforms = new Set();
         filtered.forEach(p => {
             (p.labels || []).forEach(l => labels.add(l));
             (p.ion_species || []).forEach(i => ions.add(i));
+            (p.platforms || []).forEach(pl => platforms.add(pl));
         });
         return {
             availableLabels: Array.from(labels).sort().filter(l => !labelFilters.includes(l)),
-            availableIons: Array.from(ions).sort().filter(i => !ionFilters.includes(i))
+            availableIons: Array.from(ions).sort().filter(i => !ionFilters.includes(i)),
+            availablePlatforms: Array.from(platforms).sort().filter(pl => !platformFilters.includes(pl)),
         };
-    }, [companies, category, labelFilters, ionFilters]);
+    }, [companies, category, labelFilters, ionFilters, platformFilters]);
 
     useEffect(() => {
         // Force body scrolling when on the companies page
@@ -200,6 +205,12 @@ function Companies() {
                 if (!hasAllIons) return false;
             }
 
+            // 3b. Platform Filters (ALL selected)
+            if (platformFilters.length > 0) {
+                const hasAllPlatforms = platformFilters.every(pl => p.platforms && p.platforms.includes(pl));
+                if (!hasAllPlatforms) return false;
+            }
+
             // 4. Institution Filters (ALL selected)
             if (instFilters.length > 0) {
                 const hasAllInst = instFilters.every(inst => p.current_position?.institution === inst);
@@ -214,7 +225,7 @@ function Companies() {
 
             return true;
         }).sort((a, b) => (a.name || '').toLowerCase().localeCompare((b.name || '').toLowerCase()));
-    }, [companies, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
+    }, [companies, searchQuery, labelFilters, ionFilters, platformFilters, instFilters, countryFilters, category]);
 
     // Update URL with new filters
     const updateUrl = (newParams) => {
@@ -225,6 +236,7 @@ function Companies() {
 
         (newParams.label || []).forEach(l => params.append('label', l));
         (newParams.ion || []).forEach(i => params.append('ion', i));
+        (newParams.platform || []).forEach(pl => params.append('platform', pl));
         (newParams.inst || []).forEach(i => params.append('inst', i));
         (newParams.country || []).forEach(c => params.append('country', c));
 
@@ -234,9 +246,10 @@ function Companies() {
     // Keep helpers for immediate updates (dropdowns)
     const addFilter = (type, value) => {
         const current = {
-            q: localSearch, // use local search value
+            q: localSearch,
             label: labelFilters,
             ion: ionFilters,
+            platform: platformFilters,
             inst: instFilters,
             country: countryFilters
         };
@@ -278,6 +291,7 @@ function Companies() {
             q: localSearch,
             label: labelFilters,
             ion: ionFilters,
+            platform: platformFilters,
             inst: instFilters,
             country: countryFilters
         };
@@ -291,7 +305,7 @@ function Companies() {
         history.push({ search: '' });
     };
 
-    const hasActiveFilters = searchQuery || labelFilters.length > 0 || ionFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
+    const hasActiveFilters = searchQuery || labelFilters.length > 0 || ionFilters.length > 0 || platformFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
 
     // Available options logic already calculated above
 
@@ -342,6 +356,15 @@ function Companies() {
                             </select>
                         )}
 
+                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('platform', e.target.value)}>
+                            <option value="">+ Platform</option>
+                            {availablePlatforms.map(o => (
+                                <option key={o} value={o}>
+                                    {o.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
+                                </option>
+                            ))}
+                        </select>
+
                         <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('inst', e.target.value)}>
                             <option value="">+ Institution</option>
                             {availableInsts.map(o => <option key={o} value={o}>{o}</option>)}
@@ -371,6 +394,11 @@ function Companies() {
                             {ionFilters.map(v => (
                                 <span key={`ion-${v}`} className="filter-chip filter-chip--ion">
                                     {v} <button className="filter-chip-remove" onClick={() => removeFilter('ion', v)}>×</button>
+                                </span>
+                            ))}
+                            {platformFilters.map(v => (
+                                <span key={`platform-${v}`} className="filter-chip filter-chip--platform">
+                                    {v.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} <button className="filter-chip-remove" onClick={() => removeFilter('platform', v)}>×</button>
                                 </span>
                             ))}
                             {instFilters.map(v => (
@@ -403,8 +431,6 @@ function Companies() {
                         const initials = nameParts.length > 1
                             ? (nameParts[0][0] + nameParts[1][0]).toUpperCase()
                             : nameParts.length === 1 ? nameParts[0].substring(0, 2).toUpperCase() : 'CO';
-                        const platformLabels = (company.platforms || []).map(p =>
-                            p.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()));
                         const clean = v => (v && String(v).trim().toLowerCase() !== 'unknown') ? v : null;
                         const location = [clean(company.location?.city), clean(company.location?.country)].filter(Boolean).join(', ');
                         return (
@@ -428,9 +454,13 @@ function Companies() {
                                 <div className="card__body inst-card-body">
                                     <p className="inst-card-description">{company.short_summary}</p>
                                     <div className="inst-card-badges">
-                                        {platformLabels.map(platform => (
-                                            <span key={platform} className="badge badge--primary margin-right--xs">
-                                                {platform}
+                                        {(company.platforms || []).map(pl => (
+                                            <span
+                                                key={pl}
+                                                className="badge badge--success margin-right--xs clickable-badge"
+                                                onClick={() => addFilter('platform', pl)}
+                                            >
+                                                {pl.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
                                             </span>
                                         ))}
                                         {company.categories?.map(cat => (

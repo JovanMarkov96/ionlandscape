@@ -26,8 +26,8 @@ function Institutions() {
     const searchParams = new URLSearchParams(location.search);
     const searchQuery = searchParams.get('q') || '';
     const labelFilters = searchParams.getAll('label');
-    const ionFilters = searchParams.getAll('ion');
-    const instFilters = searchParams.getAll('inst');
+    const focusAreaFilters = searchParams.getAll('focus_area');
+    const platformFilters = searchParams.getAll('platform');
     const countryFilters = searchParams.getAll('country');
 
     // Local state for search to avoid URL round-trip lag while typing
@@ -54,15 +54,15 @@ function Institutions() {
                 updateUrl({
                     q: localSearch,
                     label: labelFilters,
-                    ion: ionFilters,
-                    inst: instFilters,
+                    focus_area: focusAreaFilters,
+                    platform: platformFilters,
                     country: countryFilters,
-                    category: category // Add category
+                    category: category
                 }, true); // push
             }
         }, 300);
         return () => clearTimeout(timer);
-    }, [localSearch, labelFilters, ionFilters, instFilters, countryFilters, category]);
+    }, [localSearch, labelFilters, focusAreaFilters, platformFilters, countryFilters, category]);
 
     // --- Dependent Filter Logic ---
 
@@ -71,60 +71,46 @@ function Institutions() {
         return institutions.filter(p => {
             // 0. Category
             if (category !== 'All') {
-                const platforms = p.platforms || [];
-                const isNeutrals = platforms.some(pl => pl.toLowerCase().includes('neutral'));
+                const pls = p.platforms_represented || [];
+                const isNeutrals = pls.some(pl => pl.toLowerCase().includes('neutral'));
                 if (category === 'Neutral Atoms' && !isNeutrals) return false;
                 if (category === 'Trapped Ions' && isNeutrals) return false;
             }
-
-            // 1. Institution (if provided)
-            if (filters.inst && filters.inst.length > 0) {
-                if (!filters.inst.includes(p.current_position?.institution)) return false;
-            }
-
-            // 2. Country (if provided)
+            // Country (if provided)
             if (filters.country && filters.country.length > 0) {
                 if (!filters.country.includes(p.location?.country)) return false;
             }
-
             return true;
         });
     };
 
-    // Available Institutions: Depends on Category + Country
-    const availableInsts = useMemo(() => {
-        const filtered = getInstitutionsInContext({ country: countryFilters });
-        const insts = new Set();
-        filtered.forEach(p => {
-            if (p.current_position?.institution) insts.add(p.current_position.institution);
-        });
-        return Array.from(insts).sort().filter(i => !instFilters.includes(i));
-    }, [institutions, category, countryFilters, instFilters]);
-
-    // Available Countries: Depends on Category + Institution
+    // Available Countries
     const availableCountries = useMemo(() => {
-        const filtered = getInstitutionsInContext({ inst: instFilters });
+        const filtered = getInstitutionsInContext({});
         const countries = new Set();
         filtered.forEach(p => {
             if (p.location?.country) countries.add(p.location.country);
         });
         return Array.from(countries).sort().filter(c => !countryFilters.includes(c));
-    }, [institutions, category, instFilters, countryFilters]);
+    }, [institutions, category, countryFilters]);
 
-    // Available Labels & Ions (Global context within category)
-    const { availableLabels, availableIons } = useMemo(() => {
-        const filtered = getInstitutionsInContext({}); // Valid in category
+    // Available Labels, Focus Areas & Platforms
+    const { availableLabels, availableFocusAreas, availablePlatforms } = useMemo(() => {
+        const filtered = getInstitutionsInContext({});
         const labels = new Set();
-        const ions = new Set();
+        const focusAreas = new Set();
+        const platforms = new Set();
         filtered.forEach(p => {
             (p.labels || []).forEach(l => labels.add(l));
-            (p.ion_species || []).forEach(i => ions.add(i));
+            (p.focus_areas || []).forEach(a => focusAreas.add(a));
+            (p.platforms_represented || []).forEach(pl => platforms.add(pl));
         });
         return {
             availableLabels: Array.from(labels).sort().filter(l => !labelFilters.includes(l)),
-            availableIons: Array.from(ions).sort().filter(i => !ionFilters.includes(i))
+            availableFocusAreas: Array.from(focusAreas).sort().filter(a => !focusAreaFilters.includes(a)),
+            availablePlatforms: Array.from(platforms).sort().filter(pl => !platformFilters.includes(pl)),
         };
-    }, [institutions, category, labelFilters, ionFilters]);
+    }, [institutions, category, labelFilters, focusAreaFilters, platformFilters]);
 
     useEffect(() => {
         // Force body scrolling when on the institutions page
@@ -170,15 +156,10 @@ function Institutions() {
         return institutions.filter(p => {
             // 0. Category Filter
             if (category !== 'All') {
-                const platforms = p.platforms || [];
-                const isNeutrals = platforms.some(pl => pl.toLowerCase().includes('neutral'));
-
-                if (category === 'Neutral Atoms') {
-                    if (!isNeutrals) return false;
-                } else if (category === 'Trapped Ions') {
-                    // If specifically Neutral Atoms, exclude from Trapped Ions view (unless they are both, but assume disjoint for now based on user request)
-                    if (isNeutrals) return false;
-                }
+                const pls = p.platforms_represented || [];
+                const isNeutrals = pls.some(pl => pl.toLowerCase().includes('neutral'));
+                if (category === 'Neutral Atoms' && !isNeutrals) return false;
+                if (category === 'Trapped Ions' && isNeutrals) return false;
             }
 
             // 1. Search Query (Name)
@@ -194,16 +175,16 @@ function Institutions() {
                 if (!hasAllLabels) return false;
             }
 
-            // 3. Ion Filters (ALL selected)
-            if (ionFilters.length > 0) {
-                const hasAllIons = ionFilters.every(ion => p.ion_species && p.ion_species.includes(ion));
-                if (!hasAllIons) return false;
+            // 3. Focus Area Filters (ALL selected)
+            if (focusAreaFilters.length > 0) {
+                const hasAll = focusAreaFilters.every(a => p.focus_areas && p.focus_areas.includes(a));
+                if (!hasAll) return false;
             }
 
-            // 4. Institution Filters (ALL selected)
-            if (instFilters.length > 0) {
-                const hasAllInst = instFilters.every(inst => p.current_position?.institution === inst);
-                if (!hasAllInst) return false;
+            // 4. Platform Filters (ALL selected)
+            if (platformFilters.length > 0) {
+                const hasAll = platformFilters.every(pl => p.platforms_represented && p.platforms_represented.includes(pl));
+                if (!hasAll) return false;
             }
 
             // 5. Country Filters (ALL selected)
@@ -214,7 +195,7 @@ function Institutions() {
 
             return true;
         }).sort((a, b) => (a.name || '').toLowerCase().localeCompare((b.name || '').toLowerCase()));
-    }, [institutions, searchQuery, labelFilters, ionFilters, instFilters, countryFilters, category]);
+    }, [institutions, searchQuery, labelFilters, focusAreaFilters, platformFilters, countryFilters, category]);
 
     // Update URL with new filters
     const updateUrl = (newParams) => {
@@ -224,8 +205,8 @@ function Institutions() {
         if (newParams.q) params.set('q', newParams.q);
 
         (newParams.label || []).forEach(l => params.append('label', l));
-        (newParams.ion || []).forEach(i => params.append('ion', i));
-        (newParams.inst || []).forEach(i => params.append('inst', i));
+        (newParams.focus_area || []).forEach(a => params.append('focus_area', a));
+        (newParams.platform || []).forEach(pl => params.append('platform', pl));
         (newParams.country || []).forEach(c => params.append('country', c));
 
         history.push({ search: params.toString() });
@@ -234,42 +215,16 @@ function Institutions() {
     // Keep helpers for immediate updates (dropdowns)
     const addFilter = (type, value) => {
         const current = {
-            q: localSearch, // use local search value
+            q: localSearch,
             label: labelFilters,
-            ion: ionFilters,
-            inst: instFilters,
+            focus_area: focusAreaFilters,
+            platform: platformFilters,
             country: countryFilters
         };
-
-        if (type === 'inst') {
-            // Single-select Institution
-            current.inst = [value];
-            // Auto-select Country
-            const personWithInst = institutions.find(p => p.current_position?.institution === value);
-            console.log('[Institutions] Selected Inst:', value);
-            console.log('[Institutions] Found Person:', personWithInst ? personWithInst.name : 'None');
-
-            if (personWithInst?.location?.country) {
-                console.log('[Institutions] Auto-setting Country:', personWithInst.location.country);
-                current.country = [personWithInst.location.country];
-            }
-        } else if (type === 'country') {
-            // Single-select Country
-            current.country = [value];
-            // Clear Institution if it doesn't match new country
-            if (current.inst.length > 0) {
-                const selectedInst = current.inst[0];
-                const matches = institutions.some(p => p.current_position?.institution === selectedInst && p.location?.country === value);
-                if (!matches) {
-                    current.inst = []; // Clear invalid institution
-                }
-            }
-        } else {
-            // Multi-select for others
-            if (current[type].includes(value)) return;
-            current[type] = [...current[type], value];
+        if (current[type] !== undefined) {
+            if (Array.isArray(current[type]) && current[type].includes(value)) return;
+            current[type] = Array.isArray(current[type]) ? [...current[type], value] : [value];
         }
-
         updateUrl(current);
     };
 
@@ -277,21 +232,22 @@ function Institutions() {
         const current = {
             q: localSearch,
             label: labelFilters,
-            ion: ionFilters,
-            inst: instFilters,
+            focus_area: focusAreaFilters,
+            platform: platformFilters,
             country: countryFilters
         };
-
-        current[type] = current[type].filter(x => x !== value);
+        if (Array.isArray(current[type])) {
+            current[type] = current[type].filter(x => x !== value);
+        }
         updateUrl(current);
     };
 
     const clearAllFilters = () => {
-        setLocalSearch(''); // Clear local too
+        setLocalSearch('');
         history.push({ search: '' });
     };
 
-    const hasActiveFilters = searchQuery || labelFilters.length > 0 || ionFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
+    const hasActiveFilters = searchQuery || labelFilters.length > 0 || focusAreaFilters.length > 0 || platformFilters.length > 0 || countryFilters.length > 0;
 
     // Available options logic already calculated above
 
@@ -329,22 +285,18 @@ function Institutions() {
 
                     <div className="filter-bar-row">
                         {/* Dropdowns */}
-                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('label', e.target.value)}>
-                            <option value="">+ Label</option>
-                            {availableLabels.map(o => <option key={o} value={o}>{o}</option>)}
+                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('focus_area', e.target.value)}>
+                            <option value="">+ Focus Area</option>
+                            {availableFocusAreas.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
 
-                        {/* Species Dropdown: Only show if specific category selected */}
-                        {category !== 'All' && (
-                            <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('ion', e.target.value)}>
-                                <option value="">+ {category === 'Neutral Atoms' ? 'Atom Species' : 'Ion Species'}</option>
-                                {availableIons.map(o => <option key={o} value={o}>{o}</option>)}
-                            </select>
-                        )}
-
-                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('inst', e.target.value)}>
-                            <option value="">+ Institution</option>
-                            {availableInsts.map(o => <option key={o} value={o}>{o}</option>)}
+                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('platform', e.target.value)}>
+                            <option value="">+ Platform</option>
+                            {availablePlatforms.map(o => (
+                                <option key={o} value={o}>
+                                    {o.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
+                                </option>
+                            ))}
                         </select>
 
                         <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('country', e.target.value)}>
@@ -368,14 +320,14 @@ function Institutions() {
                                     {v} <button className="filter-chip-remove" onClick={() => removeFilter('label', v)}>×</button>
                                 </span>
                             ))}
-                            {ionFilters.map(v => (
-                                <span key={`ion-${v}`} className="filter-chip filter-chip--ion">
-                                    {v} <button className="filter-chip-remove" onClick={() => removeFilter('ion', v)}>×</button>
+                            {focusAreaFilters.map(v => (
+                                <span key={`focus_area-${v}`} className="filter-chip filter-chip--label">
+                                    {v} <button className="filter-chip-remove" onClick={() => removeFilter('focus_area', v)}>×</button>
                                 </span>
                             ))}
-                            {instFilters.map(v => (
-                                <span key={`inst-${v}`} className="filter-chip" style={{ background: '#e9ecef', color: '#333', border: '1px solid #ddd' }}>
-                                    🏛️ {v} <button className="filter-chip-remove" onClick={() => removeFilter('inst', v)}>×</button>
+                            {platformFilters.map(v => (
+                                <span key={`platform-${v}`} className="filter-chip filter-chip--platform">
+                                    {v.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} <button className="filter-chip-remove" onClick={() => removeFilter('platform', v)}>×</button>
                                 </span>
                             ))}
                             {countryFilters.map(v => (
@@ -403,9 +355,6 @@ function Institutions() {
                         const initials = nameParts.length > 1
                             ? (nameParts[0][0] + nameParts[1][0]).toUpperCase()
                             : nameParts.length === 1 ? nameParts[0].substring(0, 2).toUpperCase() : 'IN';
-                        const platforms = institution.platforms_represented || [];
-                        const platformLabels = platforms.map(p => p.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()));
-                        const allBadges = [...(institution.focus_areas || []), ...platformLabels].filter(Boolean);
                         const clean = v => (v && String(v).trim().toLowerCase() !== 'unknown') ? v : null;
                         const location = [clean(institution.location?.city), clean(institution.location?.country)].filter(Boolean).join(', ');
 
@@ -436,9 +385,22 @@ function Institutions() {
                                         {institution.short_description || 'No description available'}
                                     </p>
                                     <div className="inst-card-badges">
-                                        {allBadges.map(badge => (
-                                            <span key={badge} className="badge badge--primary margin-right--xs margin-bottom--xs">
-                                                {badge}
+                                        {(institution.focus_areas || []).map(area => (
+                                            <span
+                                                key={area}
+                                                className="badge badge--primary margin-right--xs margin-bottom--xs clickable-badge"
+                                                onClick={() => addFilter('focus_area', area)}
+                                            >
+                                                {area}
+                                            </span>
+                                        ))}
+                                        {(institution.platforms_represented || []).map(pl => (
+                                            <span
+                                                key={pl}
+                                                className="badge badge--success margin-right--xs margin-bottom--xs clickable-badge"
+                                                onClick={() => addFilter('platform', pl)}
+                                            >
+                                                {pl.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
                                             </span>
                                         ))}
                                     </div>
