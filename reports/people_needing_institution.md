@@ -1,0 +1,76 @@
+# Stub people still needing an institution (manual/source pass)
+
+- Aharon Kapitulnik
+- Alex Kuzmich
+- Alexander Pines
+- Alon Cohen
+- Amir Naveh
+- Amit Ben Kish
+- Andrew Steane
+- Andrew White
+- Andy Ory
+- Arthur Pipkin
+- Asif Sinay
+- Carl Wieman
+- Charles M. Marcus
+- Colin Webb
+- Dan Charash
+- David Kielpinski
+- Dorit Aharonov
+- Itamar Sivan
+- Nir Bar-Gill
+- Nissim Ofek
+- Shai Machnes
+- Yehuda Naveh
+- Yonatan Cohen
+- Edvardas Narevicius
+- Eric A. Cornell
+- Franco N. C. Wong
+- Frédéric Merkt
+- Gerard Milburn
+- Gil Semo
+- Günter Werth
+- Guo Guangcan
+- Hans Dehmelt
+- Herbert Walther
+- J. Karl Hedrick
+- Jay Gupta
+- John L. Hall
+- John M. Doyle
+- Jörg Schmiedmayer
+- José Ignacio Latorre
+- Juan Pablo Paz
+- K. Birgitta Whaley
+- Kyungwon An
+- Markus Greiner
+- Matthias Weidemüller
+- Michael S. Chapman
+- Moshe Tordjman
+- Nathan Gemelke
+- Netanel Lindner
+- Nir Davidson
+- Nir Minerbi
+- Norman F. Ramsey
+- Norman Heckenberg
+- Oded Melamed
+- Ofer Firstenberg
+- Oskar Painter
+- Peter Zoller
+- Barak Dayan
+- Randy Hulet
+- Roberta Ramponi
+- Roman Vercetti
+- Saar Barak
+- Serge Rosenblum
+- Shay Hacohen-Gourgy
+- Shinji Urabe
+- Shmuel Bachinsky
+- Tal David
+- Theodor W. Hänsch
+- Thomas F. Gallagher
+- Tilman Pfau
+- Timothy P. Softley
+- Uri Almedon
+- Wim Hogervorst
+- Wonho Jhe
+- Yoshihisa Yamamoto

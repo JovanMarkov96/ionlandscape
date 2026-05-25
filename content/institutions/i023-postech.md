@@ -7,8 +7,11 @@ links:
 location:
   city: Pohang
   country: South Korea
-  lat: 36.01088333
-  lon: 129.32266944
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 36.018079
+  lon: 129.320856
+  precision: campus
 media:
   logo_path: /img/institutions/i023-postech_mark.png
 name: POSTECH

@@ -12,13 +12,15 @@ links:
   careers: ''
   linkedin: ''
   news: ''
-  website: ''
+  website: https://quantum-hub.com/
 location:
   city: Tel Aviv
   country: Israel
   lat: 32.0853
   lon: 34.7818
   region: Tel Aviv District
+media:
+  logo_path: /img/institutions/i058-quantum-hub_mark.png
 name: Quantum Hub
 schema_version: 1
 short_description: Israeli quantum technology ecosystem initiative supporting collaboration

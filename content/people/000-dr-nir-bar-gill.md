@@ -9,7 +9,7 @@ id: 000-dr-nir-bar-gill
 location:
   city: Unknown
   country: Unknown
-name: Dr. Nir Bar-Gill
+name: Nir Bar-Gill
 platforms: []
 schema_version: 2
 stub: true

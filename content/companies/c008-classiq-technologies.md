@@ -78,8 +78,7 @@ people:
   - name: Dr. Yehuda Naveh
     role: CTO & Co-Founder
   leadership: []
-  spun_out_of:
-  - Independent startup founded by experienced software and quantum researchers
+  spun_out_of: []
 platforms: []
 products:
 - Classiq quantum development platform (IDE & synthesis engine)

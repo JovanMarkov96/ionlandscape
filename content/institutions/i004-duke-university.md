@@ -1,4 +1,6 @@
 ---
+aliases:
+- Duke Quantum Center
 focus_areas:
 - Quantum Computing
 - Quantum Simulation

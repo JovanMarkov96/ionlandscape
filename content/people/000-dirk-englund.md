@@ -3,6 +3,9 @@ active: unknown
 applications:
 - computing
 created_at: '2026-05-21'
+current_position:
+  institution: Massachusetts Institute of Technology
+  title: ''
 entity_type: person
 group_type: mixed
 id: 000-dirk-englund
@@ -12,6 +15,9 @@ location:
 name: Dirk Englund
 platforms: []
 schema_version: 2
+sources:
+- note: Affiliation from Wikipedia infobox
+  url: https://en.wikipedia.org/wiki/Dirk_Englund
 stub: true
 updated_at: '2026-05-21'
 ---

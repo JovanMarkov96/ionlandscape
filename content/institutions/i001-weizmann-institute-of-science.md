@@ -43,8 +43,11 @@ links:
 location:
   city: Rehovot
   country: Israel
-  lat: 31.916340784475373
-  lon: 34.80493723330932
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 31.90785
+  lon: 34.813341
+  precision: campus
   region: ''
 media:
   hero_image_path: ''

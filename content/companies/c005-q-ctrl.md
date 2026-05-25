@@ -11,8 +11,11 @@ links:
 location:
   city: Sydney
   country: Australia
-  lat: -33.886
-  lon: 151.2
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: -33.887186
+  lon: 151.195403
+  precision: campus
   region: New South Wales
 media:
   logo_path: /logos/c005-q-ctrl.avif

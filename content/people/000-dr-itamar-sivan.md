@@ -9,7 +9,7 @@ id: 000-dr-itamar-sivan
 location:
   city: Unknown
   country: Unknown
-name: Dr. Itamar Sivan
+name: Itamar Sivan
 platforms: []
 schema_version: 2
 stub: true

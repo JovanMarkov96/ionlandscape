@@ -7,8 +7,11 @@ links:
 location:
   city: Seoul
   country: South Korea
-  lat: 37.58722222
-  lon: 126.99416667
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 37.587046
+  lon: 126.990626
+  precision: campus
 media:
   logo_path: /img/institutions/i033-sungkyunkwan-university-skku_mark.png
 name: Sungkyunkwan University (SKKU)

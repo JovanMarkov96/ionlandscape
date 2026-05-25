@@ -5,11 +5,11 @@ applications:
 created_at: '2026-05-21'
 entity_type: person
 group_type: mixed
-id: 000-eric-a-cornell-jun-ye
+id: 000-norman-heckenberg
 location:
   city: Unknown
   country: Unknown
-name: Eric A. Cornell; Jun Ye
+name: Norman Heckenberg
 platforms: []
 schema_version: 2
 stub: true

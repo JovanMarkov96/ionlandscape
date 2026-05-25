@@ -87,8 +87,7 @@ people:
   - name: Prof. Barak Dayan
     role: Chief Scientist & Co-Founder
   leadership: []
-  spun_out_of:
-  - Independent research-driven startup leveraging quantum optics expertise
+  spun_out_of: []
 platforms:
 - photonic
 products:

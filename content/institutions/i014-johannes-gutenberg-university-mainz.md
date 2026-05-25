@@ -1,4 +1,6 @@
 ---
+aliases:
+- Helmholtz Institute Mainz
 focus_areas:
 - Quantum Simulation
 - AMO Physics

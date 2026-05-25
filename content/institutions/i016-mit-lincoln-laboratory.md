@@ -7,8 +7,11 @@ links:
 location:
   city: Lexington
   country: USA
-  lat: 42.459
-  lon: -71.2674
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 42.457197
+  lon: -71.266802
+  precision: campus
 media:
   logo_path: /img/institutions/i016-mit-lincoln-laboratory_mark.png
 name: MIT Lincoln Laboratory

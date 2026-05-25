@@ -7,8 +7,11 @@ links:
 location:
   city: Zurich
   country: Switzerland
-  lat: 47.37638889
-  lon: 8.54805556
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 47.413218
+  lon: 8.537491
+  precision: campus
 media:
   logo_path: /img/institutions/i005-eth-zurich_mark.png
 name: ETH Zurich

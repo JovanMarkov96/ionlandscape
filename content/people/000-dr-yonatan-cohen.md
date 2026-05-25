@@ -9,7 +9,7 @@ id: 000-dr-yonatan-cohen
 location:
   city: Unknown
   country: Unknown
-name: Dr. Yonatan Cohen
+name: Yonatan Cohen
 platforms: []
 schema_version: 2
 stub: true

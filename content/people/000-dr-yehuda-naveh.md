@@ -9,7 +9,7 @@ id: 000-dr-yehuda-naveh
 location:
   city: Unknown
   country: Unknown
-name: Dr. Yehuda Naveh
+name: Yehuda Naveh
 platforms: []
 schema_version: 2
 stub: true

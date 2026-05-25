@@ -1,0 +1,83 @@
+{
+  "Weizmann Institute of Science, Rehovot, Israel": {
+    "lat": 31.9078499,
+    "lon": 34.8133409
+  },
+  "ETH Zurich, Zurich, Switzerland": {
+    "lat": 47.413218,
+    "lon": 8.5374914
+  },
+  "IISER Pune, Pune, India": {
+    "lat": 18.5456168,
+    "lon": 73.807205
+  },
+  "Institute for Basic Science (IBS), Daejeon, South Korea": null,
+  "MIT Lincoln Laboratory, Lexington, USA": {
+    "lat": 42.4571974,
+    "lon": -71.2668016
+  },
+  "National Institute of Information and Communications Technology (NICT), Kodaira, Japan": null,
+  "NIST Boulder, Boulder, USA": {
+    "lat": 39.9946581,
+    "lon": -105.2691811
+  },
+  "National Physical Laboratory (NPL), Greater London, United Kingdom": null,
+  "Okinawa Institute of Science and Technology (OIST), Onna, Japan": null,
+  "POSTECH, Pohang, South Korea": {
+    "lat": 36.0180795,
+    "lon": 129.3208556
+  },
+  "Physikalisch-Technische Bundesanstalt (PTB), Braunschweig, Germany": {
+    "lat": 52.2965025,
+    "lon": 10.4656895
+  },
+  "Sungkyunkwan University (SKKU), Seoul, South Korea": {
+    "lat": 37.5870459,
+    "lon": 126.9906264
+  },
+  "VU Amsterdam, Amsterdam, Netherlands": {
+    "lat": 52.3340539,
+    "lon": 4.8651882
+  },
+  "Quantum Hub, Tel Aviv, Israel": null,
+  "CQIQC, Toronto, Canada": null,
+  "Harvard University, Cambridge, USA": {
+    "lat": 42.3753953,
+    "lon": -71.1218908
+  },
+  "Hebrew University of Jerusalem, Jerusalem, Israel": {
+    "lat": 31.7918555,
+    "lon": 35.244723
+  },
+  "Lawrence Berkeley National Laboratory, Berkeley, USA": {
+    "lat": 37.8769588,
+    "lon": -122.2456303
+  },
+  "Shanghai Qi Zhi Institute, Shanghai, China": null,
+  "Quantum Art, Ness Ziona, Israel": null,
+  "IonQ, College Park, United States": {
+    "lat": 38.9821406,
+    "lon": -76.9290293
+  },
+  "Alpine Quantum Technologies, Innsbruck, Austria": {
+    "lat": 47.2634639,
+    "lon": 11.3513859
+  },
+  "Oxford Ionics, Kidlington, United Kingdom": null,
+  "Q-CTRL, Sydney, Australia": {
+    "lat": -33.8871861,
+    "lon": 151.1954027
+  },
+  "QuEra Computing, Boston, United States": null,
+  "Quantum Machines, Tel Aviv, Israel": null,
+  "Classiq Technologies, Tel Aviv, Israel": null,
+  "QuantLR, Tel Aviv, Israel": null,
+  "Quantum Transistors, Binyamina, Israel": null,
+  "Quancilla, Tel Aviv, Israel": null,
+  "enQuantum, Tel Aviv, Israel": null,
+  "Qedma, Tel Aviv, Israel": null,
+  "Quantum Source Labs, Ness Ziona, Israel": null,
+  "QuamCore, Herzliya, Israel": null,
+  "Universal Quantum, Brighton, United Kingdom": null,
+  "eleQtron, Siegen, Germany": null
+}

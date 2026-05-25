@@ -9,7 +9,7 @@ id: 000-dr-shai-machnes
 location:
   city: Unknown
   country: Unknown
-name: Dr. Shai Machnes
+name: Shai Machnes
 platforms: []
 schema_version: 2
 stub: true

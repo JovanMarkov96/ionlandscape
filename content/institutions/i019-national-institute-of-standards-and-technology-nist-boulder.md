@@ -7,8 +7,11 @@ links:
 location:
   city: Boulder
   country: USA
-  lat: 40.0076
-  lon: -105.2659
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 39.994658
+  lon: -105.269181
+  precision: campus
 media:
   logo_path: /img/institutions/i019-national-institute-of-standards-and-technology-nist-boulder_mark.png
 name: NIST Boulder

@@ -5,11 +5,11 @@ applications:
 created_at: '2026-05-21'
 entity_type: person
 group_type: mixed
-id: 000-david-wineland
+id: 000-jorg-schmiedmayer
 location:
   city: Unknown
   country: Unknown
-name: David Wineland
+name: Jörg Schmiedmayer
 platforms: []
 schema_version: 2
 stub: true

@@ -24,8 +24,11 @@ links:
 location:
   city: College Park
   country: United States
-  lat: 38.98
-  lon: -76.92
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 38.982141
+  lon: -76.929029
+  precision: campus
   region: Maryland
 media:
   logo_path: /logos/c002-ionq.png

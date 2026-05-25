@@ -7,8 +7,11 @@ links:
 location:
   city: Amsterdam
   country: Netherlands
-  lat: 52.33388889
-  lon: 4.865
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 52.334054
+  lon: 4.865188
+  precision: campus
 media:
   logo_path: /img/institutions/i056-vu-amsterdam_mark.png
 name: VU Amsterdam

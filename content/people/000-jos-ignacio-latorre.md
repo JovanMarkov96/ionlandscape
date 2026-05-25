@@ -9,7 +9,7 @@ id: 000-jos-ignacio-latorre
 location:
   city: Unknown
   country: Unknown
-name: Jos? Ignacio Latorre
+name: José Ignacio Latorre
 platforms: []
 schema_version: 2
 stub: true

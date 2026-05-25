@@ -9,7 +9,7 @@ id: 000-prof-barak-dayan
 location:
   city: Unknown
   country: Unknown
-name: Prof. Barak Dayan
+name: Barak Dayan
 platforms: []
 schema_version: 2
 stub: true

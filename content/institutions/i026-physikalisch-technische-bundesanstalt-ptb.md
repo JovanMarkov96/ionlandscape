@@ -7,8 +7,11 @@ links:
 location:
   city: Braunschweig
   country: Germany
-  lat: 52.29527778
-  lon: 10.46361111
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 52.296503
+  lon: 10.465689
+  precision: campus
 media:
   logo_path: /img/institutions/i026-physikalisch-technische-bundesanstalt-ptb_mark.png
 name: Physikalisch-Technische Bundesanstalt (PTB)

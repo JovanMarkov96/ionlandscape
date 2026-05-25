@@ -74,8 +74,7 @@ people:
   - name: Serge Rosenblum
     role: Chief Scientist & Co-Founder
   leadership: []
-  spun_out_of:
-  - Independent deep-tech startup with academic and industry expertise
+  spun_out_of: []
 platforms:
 - superconducting
 products:

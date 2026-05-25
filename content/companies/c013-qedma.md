@@ -69,9 +69,7 @@ people:
   - name: Netanel Lindner
     role: CTO & Co-Founder
   leadership: []
-  spun_out_of:
-  - Independent Israeli quantum software startup founded by research leaders in quantum
-    computing
+  spun_out_of: []
 platforms: []
 products:
 - QESEM (Quantum Error Suppression & Error Mitigation)

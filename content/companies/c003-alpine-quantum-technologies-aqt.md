@@ -10,8 +10,11 @@ links:
 location:
   city: Innsbruck
   country: Austria
-  lat: 47.269
-  lon: 11.393
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 47.263464
+  lon: 11.351386
+  precision: campus
   region: Tyrol
 media:
   logo_path: /logos/c003-alpine-quantum-technologies-aqt.png

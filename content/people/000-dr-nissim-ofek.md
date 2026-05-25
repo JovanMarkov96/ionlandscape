@@ -9,7 +9,7 @@ id: 000-dr-nissim-ofek
 location:
   city: Unknown
   country: Unknown
-name: Dr. Nissim Ofek
+name: Nissim Ofek
 platforms: []
 schema_version: 2
 stub: true

@@ -7,8 +7,11 @@ links:
 location:
   city: Pune
   country: India
-  lat: 18.5548
-  lon: 73.8069
+  geocode_source: nominatim
+  geocoded_at: '2026-05-25'
+  lat: 18.545617
+  lon: 73.807205
+  precision: campus
 media:
   logo_path: /img/institutions/i010-indian-institute-of-science-education-and-research-iiser-pune_mark.png
 name: IISER Pune

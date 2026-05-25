@@ -135,17 +135,22 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
         }
     features.append(feature)
 
-    # Edges: education advisors (store RAW names; resolved to node IDs at the end)
+    # Edges: education advisors (store RAW names; resolved to node IDs at the end).
+    # Advisor strings may list several people ("A; B") — split into one edge each.
     for edu in meta.get("education", []):
         adv = edu.get("advisor")
         if adv:
-            edges.append((adv, pid, "advisor"))
+            for a in re.split(r'\s*;\s*', adv):
+                if a.strip():
+                    edges.append((a.strip(), pid, "advisor"))
 
     # Postdoc advisors
     for pd in meta.get("postdocs", []):
         adv = pd.get("advisor")
         if adv:
-            edges.append((adv, pid, "postdoc_advisor"))
+            for a in re.split(r'\s*;\s*', adv):
+                if a.strip():
+                    edges.append((a.strip(), pid, "postdoc_advisor"))
 
     # Affiliations: person -> institution/company
     for aff in meta.get("affiliations", []):
@@ -524,7 +529,17 @@ with open(inst_geojson_path, "w", encoding="utf-8") as f:
 valid_ids = {p["id"] for p in people} | {c["id"] for c in companies} | {i["id"] for i in institutions}
 
 def _norm(s):
-    return re.sub(r'\s+', ' ', re.sub(r'[().,\-–—/]', ' ', (s or '').lower())).strip()
+    # Strip diacritics so "Vuletić" matches "Vuletic"; drop honorifics
+    s = unicodedata.normalize('NFKD', s or '').encode('ASCII', 'ignore').decode('ASCII')
+    s = re.sub(r'\b(dr|prof|professor|phd)\b\.?', ' ', s.lower())
+    return re.sub(r'\s+', ' ', re.sub(r'[().,\-–—/]', ' ', s)).strip()
+
+def _first_last(s):
+    """First+last token of a normalized person name, ignoring middle initials."""
+    toks = [t for t in _norm(s).split(' ') if len(t) > 1]
+    if len(toks) >= 2:
+        return toks[0] + ' ' + toks[-1]
+    return ''
 
 # Build a name/alias/abbreviation -> node id resolution map (first writer wins).
 _resolve_map = {}
@@ -534,10 +549,16 @@ def _add_keys(node_id, *keys):
         if nk and nk not in _resolve_map:
             _resolve_map[nk] = node_id
 
+# Secondary people index keyed by first+last name (ignores middle initials),
+# used only as a fallback so it never shadows exact matches.
+_person_first_last = {}
 for p in people:
     _add_keys(p["id"], p["id"], p.get("name"), p.get("sort_name"))
     for a in p.get("aliases", []):
         _add_keys(p["id"], a)
+    fl = _first_last(p.get("name"))
+    if fl and fl not in _person_first_last:
+        _person_first_last[fl] = p["id"]
 for c in companies:
     _add_keys(c["id"], c["id"], c.get("name"))
     for a in c.get("aliases", []):
@@ -558,20 +579,26 @@ def _resolve(raw):
         return None
     if nk in _resolve_map:
         return _resolve_map[nk]
-    # Fallback: acronym / substring matching against institutions (handles
-    # "National Institute of Standards and Technology (NIST), Boulder" -> "NIST Boulder")
+    # People fallback: match on first+last name (handles "Christopher Monroe"
+    # -> "Christopher R. Monroe", and honorific-prefixed founder names).
+    fl = _first_last(raw)
+    if fl and fl in _person_first_last:
+        return _person_first_last[fl]
+    # Org fallback: acronym / substring matching against institutions AND companies
+    # (handles "National Institute of Standards and Technology (NIST), Boulder" -> "NIST Boulder"
+    #  and "IonQ, Inc. (USA)" -> "IonQ")
     acronyms = [a.lower() for a in re.findall(r'\b[A-Z]{2,}\b', raw or '')]
-    for i in institutions:
-        ni = _norm(i.get("name"))
+    for entity in list(institutions) + list(companies):
+        ni = _norm(entity.get("name"))
         if not ni:
             continue
-        if len(ni) > 6 and ni in nk:
-            return i["id"]
+        if len(ni) >= 4 and ni in nk:
+            return entity["id"]
         if len(nk) > 6 and nk in ni:
-            return i["id"]
+            return entity["id"]
         toks = ni.split(' ')
         if any(len(a) >= 3 and a in toks for a in acronyms):
-            return i["id"]
+            return entity["id"]
     return None
 
 valid_edges = []
