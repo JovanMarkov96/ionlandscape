@@ -5,10 +5,10 @@ focus_areas:
 links:
   website: https://www.ugr.es/en
 location:
-  city: Spain. Apart from the city of Granada
-  country: 'UGR also has campuses in Ceuta and Melilla.
-
-    The university'
+  city: Granada
+  country: Spain
+  lat: 37.1882
+  lon: -3.6067
 media:
   logo_path: /img/institutions/i044-university-of-granada_mark.png
 platforms_represented:

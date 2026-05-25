@@ -5,8 +5,10 @@ focus_areas:
 links:
   website: https://www.sfu.ca/
 location:
-  city: British Columbia
+  city: Burnaby
   country: Canada
+  lat: 49.2781
+  lon: -122.9199
 media:
   logo_path: /img/institutions/i030-simon-fraser-university_mark.png
 platforms_represented:

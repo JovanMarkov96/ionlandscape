@@ -6,7 +6,9 @@ links:
   website: https://www.imperial.ac.uk/
 location:
   city: London
-  country: England. Its history began with Prince Albert
+  country: United Kingdom
+  lat: 51.4988
+  lon: -0.1749
 media:
   logo_path: /img/institutions/i009-imperial-college-london_mark.png
 platforms_represented:

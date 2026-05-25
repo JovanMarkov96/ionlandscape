@@ -7,6 +7,8 @@ links:
 location:
   city: Toronto
   country: Canada
+  lat: 43.6607
+  lon: -79.3957
 media:
   logo_path: /img/institutions/i059-cqiqc_mark.png
 name: CQIQC

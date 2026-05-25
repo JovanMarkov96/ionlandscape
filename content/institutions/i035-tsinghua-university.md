@@ -5,8 +5,10 @@ focus_areas:
 links:
   website: https://www.tsinghua.edu.cn/en/
 location:
-  city: Haidian
-  country: Beijing
+  city: Beijing
+  country: China
+  lat: 39.999
+  lon: 116.3265
 media:
   logo_path: /img/institutions/i035-tsinghua-university_mark.png
 platforms_represented:

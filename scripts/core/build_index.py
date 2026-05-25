@@ -135,25 +135,23 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
         }
     features.append(feature)
 
-    # Edges: education advisors
+    # Edges: education advisors (store RAW names; resolved to node IDs at the end)
     for edu in meta.get("education", []):
         adv = edu.get("advisor")
         if adv:
-            target_id = slugify(adv)
-            edges.append((target_id, pid, "advisor"))
+            edges.append((adv, pid, "advisor"))
 
     # Postdoc advisors
     for pd in meta.get("postdocs", []):
         adv = pd.get("advisor")
         if adv:
-            target_id = slugify(adv)
-            edges.append((target_id, pid, "postdoc_advisor"))
+            edges.append((adv, pid, "postdoc_advisor"))
 
     # Affiliations: person -> institution/company
     for aff in meta.get("affiliations", []):
         inst = aff.get("name")
         if inst:
-            edges.append((pid, slugify(inst), "affiliated_with"))
+            edges.append((pid, inst, "affiliated_with"))
 
 # Process Companies
 for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
@@ -261,19 +259,16 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
         for founder in people_block.get("founders", []):
             f_name = founder.get("name")
             if f_name:
-                f_id = founder.get("person_id") or slugify(f_name)
-                edges.append((f_id, cid, "founder"))
+                edges.append((founder.get("person_id") or f_name, cid, "founder"))
         for leader in people_block.get("leadership", []):
             l_name = leader.get("name")
             if l_name:
-                l_id = leader.get("person_id") or slugify(l_name)
-                edges.append((l_id, cid, "leadership"))
+                edges.append((leader.get("person_id") or l_name, cid, "leadership"))
         for spin in people_block.get("spun_out_of", []):
             if isinstance(spin, str):
-                edges.append((cid, slugify(spin), "spun_out_from"))
+                edges.append((cid, spin, "spun_out_from"))
             elif isinstance(spin, dict) and spin.get("name"):
-                s_id = spin.get("institution_id") or slugify(spin.get("name"))
-                edges.append((cid, s_id, "spun_out_from"))
+                edges.append((cid, spin.get("institution_id") or spin.get("name"), "spun_out_from"))
 
         company_features.append(feature)
 
@@ -348,8 +343,7 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
         for leader in meta.get("leadership", []):
             l_name = leader.get("name")
             if l_name:
-                l_id = leader.get("person_id") or slugify(l_name)
-                edges.append((l_id, iid, "leadership"))
+                edges.append((leader.get("person_id") or l_name, iid, "leadership"))
 
         # Skip entries that are actually companies (e.g. IonQ)
         if meta.get("entity_type") == "company":
@@ -417,6 +411,73 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
     except Exception as e:
         print(f"Error processing institution {md_path}: {e}")
 
+# --- Location inheritance: people without coordinates inherit their current
+# institution's point (precision = "inherited"). Fixes profiles with Unknown location. ---
+def _norm_loc(s):
+    return re.sub(r'\s+', ' ', re.sub(r'[().,\-–—/]', ' ', (s or '').lower())).strip()
+
+_inst_loc_map = {}
+def _add_inst_key(inst, *keys):
+    for k in keys:
+        nk = _norm_loc(k)
+        if nk and nk not in _inst_loc_map:
+            _inst_loc_map[nk] = inst
+
+for _i in institutions:
+    loc = _i.get("location") or {}
+    if loc.get("lat") is not None and loc.get("lon") is not None:
+        _add_inst_key(_i, _i.get("name"))
+        for a in _i.get("aliases", []):
+            _add_inst_key(_i, a)
+        for a in _i.get("abbreviations", []):
+            _add_inst_key(_i, a)
+
+def _resolve_inst_loc(name):
+    if not name:
+        return None
+    nk = _norm_loc(name)
+    if nk in _inst_loc_map:
+        return _inst_loc_map[nk]
+    acronyms = [a.lower() for a in re.findall(r'\b[A-Z]{2,}\b', name or '')]
+    for _i in institutions:
+        loc = _i.get("location") or {}
+        if loc.get("lat") is None or loc.get("lon") is None:
+            continue
+        ni = _norm_loc(_i.get("name"))
+        if not ni:
+            continue
+        if (len(ni) > 6 and ni in nk) or (len(nk) > 6 and nk in ni):
+            return _i
+        if any(len(a) >= 3 and a in ni.split(' ') for a in acronyms):
+            return _i
+    return None
+
+_feature_by_pid = {f["properties"]["id"]: f for f in features}
+_inherited_count = 0
+for person in people:
+    loc = person.get("location") or {}
+    if loc.get("lat") is None or loc.get("lon") is None:
+        inst_name = (person.get("current_position") or {}).get("institution")
+        inst = _resolve_inst_loc(inst_name)
+        if inst:
+            iloc = inst["location"]
+            loc["lat"] = iloc.get("lat")
+            loc["lon"] = iloc.get("lon")
+            if not loc.get("city") or str(loc.get("city")).lower() == "unknown":
+                loc["city"] = iloc.get("city", "")
+            if not loc.get("country") or str(loc.get("country")).lower() == "unknown":
+                loc["country"] = iloc.get("country", "")
+            loc["precision"] = "inherited"
+            person["location"] = loc
+            feat = _feature_by_pid.get(person["id"])
+            if feat is not None:
+                feat["properties"]["city"] = loc.get("city", "")
+                feat["properties"]["country"] = loc.get("country", "")
+                feat["geometry"] = {"type": "Point", "coordinates": [iloc.get("lon"), iloc.get("lat")]}
+            _inherited_count += 1
+
+print(f"Location inheritance: {_inherited_count} people inherited institution coordinates")
+
 # Write people.json (existing)
 people_json_path = os.path.join(OUT_DIR, "people.json")
 with open(people_json_path, "w", encoding="utf-8") as f:
@@ -461,15 +522,83 @@ with open(inst_geojson_path, "w", encoding="utf-8") as f:
 
 # Validate and resolve edges
 valid_ids = {p["id"] for p in people} | {c["id"] for c in companies} | {i["id"] for i in institutions}
+
+def _norm(s):
+    return re.sub(r'\s+', ' ', re.sub(r'[().,\-–—/]', ' ', (s or '').lower())).strip()
+
+# Build a name/alias/abbreviation -> node id resolution map (first writer wins).
+_resolve_map = {}
+def _add_keys(node_id, *keys):
+    for k in keys:
+        nk = _norm(k)
+        if nk and nk not in _resolve_map:
+            _resolve_map[nk] = node_id
+
+for p in people:
+    _add_keys(p["id"], p["id"], p.get("name"), p.get("sort_name"))
+    for a in p.get("aliases", []):
+        _add_keys(p["id"], a)
+for c in companies:
+    _add_keys(c["id"], c["id"], c.get("name"))
+    for a in c.get("aliases", []):
+        _add_keys(c["id"], a)
+for i in institutions:
+    _add_keys(i["id"], i["id"], i.get("name"))
+    for a in i.get("aliases", []):
+        _add_keys(i["id"], a)
+    for a in i.get("abbreviations", []):
+        _add_keys(i["id"], a)
+
+def _resolve(raw):
+    """Resolve a raw name/id to a node id; None if no confident match."""
+    if raw in valid_ids:
+        return raw
+    nk = _norm(raw)
+    if not nk:
+        return None
+    if nk in _resolve_map:
+        return _resolve_map[nk]
+    # Fallback: acronym / substring matching against institutions (handles
+    # "National Institute of Standards and Technology (NIST), Boulder" -> "NIST Boulder")
+    acronyms = [a.lower() for a in re.findall(r'\b[A-Z]{2,}\b', raw or '')]
+    for i in institutions:
+        ni = _norm(i.get("name"))
+        if not ni:
+            continue
+        if len(ni) > 6 and ni in nk:
+            return i["id"]
+        if len(nk) > 6 and nk in ni:
+            return i["id"]
+        toks = ni.split(' ')
+        if any(len(a) >= 3 and a in toks for a in acronyms):
+            return i["id"]
+    return None
+
 valid_edges = []
+_seen_edges = set()
+unresolved_edges = []
 for src, tgt, etype in edges:
-    if src in valid_ids and tgt in valid_ids:
-        valid_edges.append({"source": src, "target": tgt, "type": etype})
+    rs, rt = _resolve(src), _resolve(tgt)
+    if rs and rt and rs != rt:
+        key = (rs, rt, etype)
+        if key not in _seen_edges:
+            _seen_edges.add(key)
+            valid_edges.append({"source": rs, "target": rt, "type": etype})
     else:
-        try:
-            print(f"Warning: Dangling edge dropped ({src} -> {tgt} [{etype}])".encode('ascii', 'ignore').decode('ascii'))
-        except:
-            pass
+        unresolved_edges.append((src, tgt, etype, rs is not None, rt is not None))
+
+print(f"Edges: {len(valid_edges)} resolved, {len(unresolved_edges)} unresolved")
+
+# Write an unresolved-edges report for human follow-up
+if unresolved_edges:
+    report_dir = os.path.join(ROOT, "reports")
+    os.makedirs(report_dir, exist_ok=True)
+    with open(os.path.join(report_dir, "unresolved_edges.md"), "w", encoding="utf-8") as rf:
+        rf.write("# Unresolved graph edges\n\n")
+        rf.write("Endpoints that could not be matched to a known node.\n\n")
+        rf.write("| source | target | type | src ok | tgt ok |\n|---|---|---|---|---|\n")
+        for src, tgt, etype, so, to in sorted(unresolved_edges):
+            rf.write(f"| {src} | {tgt} | {etype} | {so} | {to} |\n")
 
 # Write edges.json
 edges_json_path = os.path.join(OUT_DIR, "edges.json")
