@@ -1,11 +1,17 @@
 ---
+focus_areas:
+- Quantum Computing
+- AMO Physics
 location:
   city: Berkeley
-  country: United States
+  country: USA
   lat: 37.8719
   lon: -122.2583
 media:
   logo_path: /img/institutions/i042-university-of-california-berkeley_mark.png
+platforms_represented:
+- trapped_ion
+- neutral_atom
 short_description: 'The University of California, Berkeley (UC Berkeley, Berkeley,
   Cal, or California) is a public land-grant research university in the Southside
   and Northside neighborhoods of Berkeley, California, United States. Founded in 1868

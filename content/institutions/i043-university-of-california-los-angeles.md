@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Computing
+- AMO Physics
 location:
   city: Los Angeles
-  country: United States
+  country: USA
   lat: 34.0722
   lon: -118.4427
 media:
   logo_path: /img/institutions/i043-university-of-california-los-angeles_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The University of California, Los Angeles (UCLA) is a public land-grant
   research university in the Westwood neighborhood of Los Angeles, California, United
   States. Its academic roots were established in 1881 as a normal school, then known

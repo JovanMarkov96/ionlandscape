@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- AMO Physics
+- Quantum Sensing
 location:
-  city: 서울특별시
-  country: 대한민국
+  city: Seoul
+  country: South Korea
   lat: 37.5625
   lon: 126.945
 media:
   logo_path: /img/institutions/i006-ewha-womans-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Ewha Womans University (Korean: 이화여자대학교; Hanja: 梨花女子大學校) is a
   private women''s research university in Seoul, South Korea. It was originally founded
   as Ewha Haktang on May 31, 1886, by missionary Mary F. Scranton. Currently, Ewha

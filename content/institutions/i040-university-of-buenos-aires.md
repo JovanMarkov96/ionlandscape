@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- AMO Physics
+- Quantum Information
 location:
   city: Buenos Aires
   country: Argentina
@@ -6,6 +9,8 @@ location:
   lon: -58.37305556
 media:
   logo_path: /img/institutions/i040-university-of-buenos-aires_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The University of Buenos Aires (Spanish: Universidad de Buenos
   Aires, UBA) is a public research university in Buenos Aires, Argentina. It is the
   second-oldest university in the country, and the largest university in the country

@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- AMO Physics
+- Quantum Simulation
 location:
   city: Eugene
-  country: United States
+  country: USA
   lat: 44.0443
   lon: -123.0758
 media:
   logo_path: /img/institutions/i048-university-of-oregon_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The University of Oregon (UO, U of O or Oregon) is a public research
   university in Eugene, Oregon, United States. Founded in 1876, the university is
   organized into nine colleges and schools and offers 420 undergraduate and graduate

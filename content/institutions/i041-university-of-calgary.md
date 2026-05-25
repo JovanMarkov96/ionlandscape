@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Communication
+- Quantum Information
 location:
   city: Calgary
   country: Canada
@@ -6,6 +9,8 @@ location:
   lon: -114.13305556
 media:
   logo_path: /img/institutions/i041-university-of-calgary_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The University of Calgary (U of C or UCalgary) is a public research
   university located in Calgary, Alberta, Canada. The University of Calgary started
   in 1944 as the Calgary branch of the University of Alberta, founded in 1908, prior

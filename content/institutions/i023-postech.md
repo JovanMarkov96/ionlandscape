@@ -1,12 +1,17 @@
 ---
-name: POSTECH
+focus_areas:
+- AMO Physics
+- Quantum Simulation
 location:
-  city: 포항시
-  country: 대한민국
+  city: Pohang
+  country: South Korea
   lat: 36.01088333
   lon: 129.32266944
 media:
   logo_path: /img/institutions/i023-postech_mark.png
+name: POSTECH
+platforms_represented:
+- trapped_ion
 short_description: 'Pohang University of Science and Technology (POSTECH, Korean:
   포항공과대학교) is a private research university in Pohang, South Korea.'
 sources:

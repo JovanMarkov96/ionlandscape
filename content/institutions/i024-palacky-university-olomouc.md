@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Optics
+- Quantum Information
 location:
   city: Olomouc
-  country: Česko
+  country: Czech Republic
   lat: 49.59508
   lon: 17.25914
 media:
   logo_path: /img/institutions/i024-palacky-university-olomouc_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Palacký University Olomouc (Czech: Univerzita Palackého v Olomouci)
   is the oldest university in Moravia and the second-oldest in the Czech Republic.
   It was established in 1573 as a public university led by the Jesuit order in Olomouc,

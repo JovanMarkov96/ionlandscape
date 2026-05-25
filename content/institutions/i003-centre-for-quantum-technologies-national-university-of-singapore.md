@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Computing
+- Quantum Communication
 location:
   city: Singapore
   country: Singapore
@@ -6,6 +9,8 @@ location:
   lon: 103.7781
 media:
   logo_path: /img/institutions/i003-centre-for-quantum-technologies-national-university-of-singapore_mark.png
+platforms_represented:
+- trapped_ion
 short_description: The Centre for Quantum Technologies (CQT) in Singapore is a Research
   Centre of Excellence hosted by the National University of Singapore. The Centre
   brings together physicists, computer scientists and engineers to do basic research

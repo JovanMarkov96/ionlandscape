@@ -1,9 +1,14 @@
 ---
+focus_areas:
+- Quantum Computing
+- Quantum Communication
 location:
   city: London
   country: England. Its history began with Prince Albert
 media:
   logo_path: /img/institutions/i009-imperial-college-london_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The Imperial College of Science, Technology and Medicine, known
   by its trade names Imperial College London and Imperial, is a public research university
   in London, England. Its history began with Prince Albert, husband of Queen Victoria,

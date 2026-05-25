@@ -350,6 +350,10 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
                 l_id = leader.get("person_id") or slugify(l_name)
                 edges.append((l_id, iid, "leadership"))
 
+        # Skip entries that are actually companies (e.g. IonQ)
+        if meta.get("entity_type") == "company":
+            continue
+
         inst_obj = {
             "id": iid,
             "name": name,
@@ -361,6 +365,8 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
             "institution_type": meta.get("institution_type", "unknown"),
             "short_description": meta.get("short_description", ""),
             "focus_areas": meta.get("focus_areas", []),
+            "platforms_represented": meta.get("platforms_represented", []),
+            "applications_represented": meta.get("applications_represented", []),
             "links": meta.get("links", {}),
             "media": meta.get("media", {}),
             "directory": {

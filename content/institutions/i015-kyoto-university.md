@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- AMO Physics
+- Quantum Simulation
 location:
-  city: 京都市
-  country: 日本
+  city: Kyoto
+  country: Japan
   lat: 35.026212
   lon: 135.780842
 media:
   logo_path: /img/institutions/i015-kyoto-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Kyoto University (京都大学, Kyōto daigaku), or KyotoU (京大, Kyōdai),
   is a national research university in Kyoto, Japan. Founded in 1897, it is one of
   the former Imperial Universities and the second oldest university in Japan.

@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Sensing
+- AMO Physics
 location:
   city: Brisbane
   country: Australia
@@ -6,6 +9,8 @@ location:
   lon: 153.0539
 media:
   logo_path: /img/institutions/i008-griffith-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Griffith University is a public research university in South East
   Queensland on the east coast of Australia. The university was founded in 1971, but
   was not officially opened until 1975. The university has five campuses, at Gold

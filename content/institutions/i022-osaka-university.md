@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Computing
+- AMO Physics
 location:
-  city: 吹田市
-  country: 日本
+  city: Suita
+  country: Japan
   lat: 34.81916667
   lon: 135.52666667
 media:
   logo_path: /img/institutions/i022-osaka-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The University of Osaka (大阪大学, Ōsaka daigaku), abbreviated as
   UOsaka or Handai (阪大), is a national research university in Osaka Prefecture, Japan.
   The university traces its roots back to Edo-era institutions Tekijuku (1838) and

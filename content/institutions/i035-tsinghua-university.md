@@ -1,9 +1,14 @@
 ---
+focus_areas:
+- Quantum Computing
+- Quantum Simulation
 location:
   city: Haidian
   country: Beijing
 media:
   logo_path: /img/institutions/i035-tsinghua-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Tsinghua University (THU) is a public university in Haidian, Beijing,
   China. It is affiliated with and funded by the Ministry of Education of China. The
   university is part of the Double First-Class Construction, and was a part of its

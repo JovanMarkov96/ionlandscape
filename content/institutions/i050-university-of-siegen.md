@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Sensing
+- AMO Physics
 location:
   city: Siegen
-  country: Deutschland
+  country: Germany
   lat: 50.90638889
   lon: 8.02833333
 media:
   logo_path: /img/institutions/i050-university-of-siegen_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The University of Siegen (German: Universität Siegen) is a public
   research university located in Siegen, North Rhine-Westphalia and is part of the
   Deutsche Forschungsgemeinschaft, a society of Germany''s leading research universities.

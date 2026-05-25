@@ -1,10 +1,15 @@
 ---
-name: CQIQC
+focus_areas:
+- Quantum Information
+- Quantum Foundations
 location:
   city: Toronto
   country: Canada
 media:
   logo_path: /img/institutions/i059-cqiqc_mark.png
+name: CQIQC
+platforms_represented:
+- trapped_ion
 short_description: 'The John Stewart Bell Prize for Research on Fundamental Issues
   in Quantum Mechanics and their Applications (short form: Bell Prize) was established
   in 2009, funded and managed by the Centre for Quantum Information and Quantum Control

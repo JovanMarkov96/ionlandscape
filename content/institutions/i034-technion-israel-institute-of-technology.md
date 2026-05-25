@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Computing
+- AMO Physics
 location:
-  city: חיפה
-  country: ישראל
+  city: Haifa
+  country: Israel
   lat: 32.7775
   lon: 35.02166667
 media:
   logo_path: /img/institutions/i034-technion-israel-institute-of-technology_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The Technion – Israel Institute of Technology is a public research
   university located in Haifa, Israel. Established in 1912 by Jews under the dominion
   of the Ottoman Empire, the Technion is the oldest university in the country.

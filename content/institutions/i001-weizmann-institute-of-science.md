@@ -4,6 +4,12 @@ abbreviations:
 aliases:
 - WIS
 - Weizmann Institute
+applications_represented:
+- computing
+- simulation
+- sensing_metrology
+- optical_clocks
+- software_control
 directory:
   alumni:
   - 078-yuval-shagam.md
@@ -20,22 +26,14 @@ focus_areas:
 - Chemistry
 - Mathematics and Computer Science
 - Physics
+group_count: 2
 id: i001-weizmann-institute-of-science
 institution_type: research_centre
-last_verified_at: '2026-05-04'
-applications_represented:
-- computing
-- simulation
-- sensing_metrology
-- optical_clocks
-- software_control
-group_count: 2
 is_dedicated_quantum_centre: false
+last_verified_at: '2026-05-04'
 leadership:
 - name: Ofer Firstenberg
   role: Director
-platforms_represented:
-- trapped_ion
 links:
   department: ''
   linkedin: ''
@@ -52,6 +50,8 @@ media:
   hero_image_path: ''
   logo_path: /img/institutions/weizmann_logo_mark.png
 name: Weizmann Institute of Science
+platforms_represented:
+- trapped_ion
 schema_version: 1
 short_description: The Weizmann Institute of Science is a leading multidisciplinary
   basic research institution located in Rehovot, Israel.
@@ -62,4 +62,3 @@ sources:
   url: https://www.weizmann.ac.il/
 verification_source_count: 2
 ---
-

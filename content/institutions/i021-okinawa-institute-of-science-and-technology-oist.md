@@ -1,12 +1,17 @@
 ---
-name: Okinawa Institute of Science and Technology (OIST)
+focus_areas:
+- AMO Physics
+- Quantum Simulation
 location:
-  city: 恩納村
-  country: 日本
+  city: Onna
+  country: Japan
   lat: 26.46194722
   lon: 127.83105556
 media:
   logo_path: /img/institutions/i021-okinawa-institute-of-science-and-technology-oist_mark.png
+name: Okinawa Institute of Science and Technology (OIST)
+platforms_represented:
+- trapped_ion
 short_description: 'Okinawa Institute of Science and Technology (Japanese: 沖縄科学技術大学院大学,
   Hepburn: Okinawa Kagaku Gijutsu Daigakuin Daigaku; OIST) is a private, interdisciplinary
   graduate school located in Onna, Okinawa Prefecture, Japan.'

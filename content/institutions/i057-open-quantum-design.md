@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Hardware
+- Quantum Computing
 location:
   city: Aarhus
   country: Denmark
@@ -6,6 +9,8 @@ location:
   lon: 10.2039
 media:
   logo_path: /img/institutions/i057-open-quantum-design_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Quantum programming refers to the process of designing and implementing
   algorithms that operate on quantum systems, typically using quantum circuits composed
   of quantum gates, measurements, and classical control logic. These circuits are

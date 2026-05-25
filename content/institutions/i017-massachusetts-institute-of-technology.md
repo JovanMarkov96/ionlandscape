@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Computing
+- Quantum Simulation
 location:
   city: Cambridge
-  country: United States
+  country: USA
   lat: 42.3597
   lon: -71.0919
 media:
   logo_path: /img/institutions/i017-massachusetts-institute-of-technology_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The Massachusetts Institute of Technology (MIT) is a private research
   university in Cambridge, Massachusetts, United States. Founded in 1861 to advance
   "useful knowledge", the university has played a significant role in the development

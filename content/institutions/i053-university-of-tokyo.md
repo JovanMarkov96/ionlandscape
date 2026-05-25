@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Computing
+- AMO Physics
 location:
-  city: 文京区
-  country: 日本
+  city: Tokyo
+  country: Japan
   lat: 35.71333333
   lon: 139.76222222
 media:
   logo_path: /img/institutions/i053-university-of-tokyo_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The University of Tokyo (東京大学, Tōkyō daigaku, abbreviated as Tōdai
   (東大) in Japanese and UTokyo in English) is a public research university in Bunkyō,
   Tokyo, Japan. Founded in 1877 as the nation''s first modern university by the merger

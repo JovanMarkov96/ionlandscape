@@ -1,5 +1,7 @@
 ---
-name: IISER Pune
+focus_areas:
+- AMO Physics
+- Quantum Simulation
 location:
   city: Pune
   country: India
@@ -7,6 +9,9 @@ location:
   lon: 73.8069
 media:
   logo_path: /img/institutions/i010-indian-institute-of-science-education-and-research-iiser-pune_mark.png
+name: IISER Pune
+platforms_represented:
+- trapped_ion
 short_description: 'Indian Institutes of Science Education and Research or IISERs
   (pronunciation: "EYE-sir") are a group of autonomous institutions established by
   the Government of India through the Ministry of Education for teaching and research

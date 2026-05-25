@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Sensing
+- AMO Physics
 location:
   city: Ulm
-  country: Deutschland
+  country: Germany
   lat: 48.42152
   lon: 9.94859
 media:
   logo_path: /img/institutions/i036-ulm-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Ulm University (German: Universität Ulm) is a public university
   in Ulm, Baden-Württemberg, Germany. The university was founded in 1967 and focuses
   on natural sciences, medicine, engineering sciences, mathematics, economics and

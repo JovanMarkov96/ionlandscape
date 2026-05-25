@@ -1,4 +1,5 @@
 ---
+entity_type: company
 name: IonQ Inc.
 location:
   city: College Park

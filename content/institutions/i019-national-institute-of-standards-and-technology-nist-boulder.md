@@ -1,12 +1,17 @@
 ---
-name: NIST Boulder
+focus_areas:
+- Quantum Standards
+- Quantum Sensing
 location:
   city: Boulder
-  country: United States
+  country: USA
   lat: 40.0076
   lon: -105.2659
 media:
   logo_path: /img/institutions/i019-national-institute-of-standards-and-technology-nist-boulder_mark.png
+name: NIST Boulder
+platforms_represented:
+- trapped_ion
 short_description: 'The National Institute of Standards and Technology (NIST) is an
   agency of the United States Department of Commerce whose mission is to promote American
   innovation and industrial competitiveness. NIST''s activities are organized into

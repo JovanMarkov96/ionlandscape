@@ -570,18 +570,79 @@ body,
   height: 48px;
 }
 
-/* Card logos: contain (not cover) and solid white background so full logo is visible */
-.company-card-logo.ion-marker-logo {
-  background-size: 80%;
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
+/* Institution card logo ring — dark background so white logos are visible */
+.inst-logo-ring {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #1a3464;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-[data-theme='dark'] .company-card-logo.ion-marker-logo {
-  background-color: white;
-  border-color: rgba(255, 255, 255, 0.3);
+.inst-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 7px;
+  box-sizing: border-box;
+  mix-blend-mode: screen;
+}
+
+.inst-logo-placeholder {
+  background: linear-gradient(135deg, #1a3464, #2a5298);
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  user-select: none;
+}
+
+/* Institution card layout */
+.inst-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.inst-card .card__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.inst-card-title-block h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ifm-color-content) !important;
+}
+
+.inst-card-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0 0 8px;
+  flex: 1;
+  min-height: 3.9em;
+}
+
+.inst-card-badges {
+  min-height: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: auto;
 }
 
 .panel-logo-placeholder {

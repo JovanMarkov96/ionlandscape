@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Computing
+- Quantum Information
 location:
   city: Waterloo
   country: Canada
@@ -6,6 +9,8 @@ location:
   lon: -80.554853
 media:
   logo_path: /img/institutions/i012-institute-for-quantum-computing-university-of-waterloo_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The Institute for Quantum Computing (IQC) is an affiliate scientific
   research institute of the University of Waterloo located in Waterloo, Ontario with
   a multidisciplinary approach to the field of quantum information processing. IQC

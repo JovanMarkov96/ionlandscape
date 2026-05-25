@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Computing
+- Quantum Simulation
 location:
   city: Durham
   country: United States
@@ -6,6 +9,8 @@ location:
   lon: -78.93833333
 media:
   logo_path: /img/institutions/i004-duke-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Duke University is a private research university in Durham, North
   Carolina, United States. Founded by Methodists and Quakers in the present-day city
   of Trinity in 1838, the school moved to Durham in 1892. In 1924, tobacco and electric

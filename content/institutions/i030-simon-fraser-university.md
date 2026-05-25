@@ -1,9 +1,14 @@
 ---
+focus_areas:
+- Quantum Computing
+- Quantum Information
 location:
   city: British Columbia
-  country: Canada. It maintains three campuses in Greater Vancouver
+  country: Canada
 media:
   logo_path: /img/institutions/i030-simon-fraser-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Simon Fraser University (SFU) is a public research university
   in British Columbia, Canada. It maintains three campuses in Greater Vancouver, respectively
   located in Burnaby (main campus), Surrey, and Vancouver. The 170-hectare (420-acre)

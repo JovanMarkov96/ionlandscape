@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Computing
+- Quantum Simulation
 location:
   city: Atlanta
   country: United States
@@ -6,6 +9,8 @@ location:
   lon: -84.396
 media:
   logo_path: /img/institutions/i007-georgia-institute-of-technology_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The Georgia Institute of Technology (commonly referred to as Georgia
   Tech, GT, and simply Tech or the Institute) is a public research university and
   institute of technology in Atlanta, Georgia, United States. Established in 1885,

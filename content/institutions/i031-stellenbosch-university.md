@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Optics
+- AMO Physics
 location:
   city: Stellenbosch Local Municipality
   country: South Africa
@@ -6,6 +9,8 @@ location:
   lon: 18.86416667
 media:
   logo_path: /img/institutions/i031-stellenbosch-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: "Stellenbosch University (SU) (Afrikaans: Universiteit Stellenbosch,
   Xhosa: iYunivesithi yaseStellenbosch) is a public research university situated in
   Stellenbosch, a town in the Western Cape province of South Africa. Stellenbosch

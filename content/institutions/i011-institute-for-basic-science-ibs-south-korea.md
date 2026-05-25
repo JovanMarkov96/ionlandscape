@@ -1,12 +1,17 @@
 ---
-name: Institute for Basic Science (IBS)
+focus_areas:
+- Quantum Sensing
+- AMO Physics
 location:
-  city: 대전광역시
-  country: 대한민국
+  city: Daejeon
+  country: South Korea
   lat: 36.375959
   lon: 127.385751
 media:
   logo_path: /img/institutions/i011-institute-for-basic-science-ibs-south-korea_mark.png
+name: Institute for Basic Science (IBS)
+platforms_represented:
+- trapped_ion
 short_description: 'The Institute for Basic Science (IBS; Korean: 기초과학연구원) is a Korean
   government-funded research institute that conducts basic science research and relevant
   pure basic research. Comprising approximately 30 research centers with more than

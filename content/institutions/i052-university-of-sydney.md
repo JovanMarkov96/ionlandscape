@@ -1,4 +1,7 @@
 ---
+focus_areas:
+- Quantum Computing
+- AMO Physics
 location:
   city: Sydney
   country: Australia
@@ -6,6 +9,8 @@ location:
   lon: 151.19
 media:
   logo_path: /img/institutions/i052-university-of-sydney_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The University of Sydney (USYD) is a public research university
   in Sydney, Australia. Founded in 1850, it is the oldest university in both Australia
   and Oceania. One of Australia''s six sandstone universities, it was one of the world''s

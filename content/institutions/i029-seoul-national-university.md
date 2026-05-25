@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- AMO Physics
+- Quantum Simulation
 location:
-  city: 서울특별시
-  country: 대한민국
+  city: Seoul
+  country: South Korea
   lat: 37.46
   lon: 126.9525
 media:
   logo_path: /img/institutions/i029-seoul-national-university_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'Seoul National University (SNU; Korean: 서울대학교; lit. ''Seoul University'')
   is a public research university in Seoul, South Korea. Founded in 1946 by the merger
   of ten institutions in the Seoul area, it is one of the SKY universities and a part

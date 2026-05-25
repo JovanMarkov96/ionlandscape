@@ -1,11 +1,16 @@
 ---
+focus_areas:
+- Quantum Simulation
+- AMO Physics
 location:
   city: Mainz
-  country: Deutschland
+  country: Germany
   lat: 49.99222222
   lon: 8.23805556
 media:
   logo_path: /img/institutions/i014-johannes-gutenberg-university-mainz_mark.png
+platforms_represented:
+- trapped_ion
 short_description: 'The Johannes Gutenberg University Mainz (German: Johannes Gutenberg-Universität
   Mainz) is a public research university in Mainz, Rhineland Palatinate, Germany.
   It has been named after the printer Johannes Gutenberg since 1946. As of 2018, it

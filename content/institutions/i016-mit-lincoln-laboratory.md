@@ -1,12 +1,17 @@
 ---
-name: MIT Lincoln Laboratory
+focus_areas:
+- Quantum Computing
+- Quantum Sensing
 location:
   city: Lexington
-  country: United States
+  country: USA
   lat: 42.459
   lon: -71.2674
 media:
   logo_path: /img/institutions/i016-mit-lincoln-laboratory_mark.png
+name: MIT Lincoln Laboratory
+platforms_represented:
+- trapped_ion
 short_description: 'MIT Lincoln Laboratory is a federally funded research and development
   center (FFRDC) managed by the Massachusetts Institute of Technology on behalf of
   the United States Department of Defense. Located at Hanscom Air Force Base in Lexington,
