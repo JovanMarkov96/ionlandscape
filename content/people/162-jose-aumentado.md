@@ -4,29 +4,68 @@ applications:
 - computing
 created_at: '2026-05-26'
 current_position:
-  confidence: orcid_inferred
+  confidence: confirmed
   institution: National Institute of Standards and Technology
-  source: https://openalex.org/A5019104449
-  title: ''
+  source: https://www.nist.gov/people/joe-aumentado
+  title: Staff Scientist, Advanced Microwave Photonics Group
+  since_year: null
+  verified_at: '2026-05-26'
+education:
+- degree: PhD
+  institution: Northwestern University
+  year: 2000
+  advisor: null
+  advisor_id: null
+  confidence: confirmed
+  source: https://sqmscenter.fnal.gov/profile/jose-aumentado/
 entity_type: person
 group_type: experimental
 id: 162-jose-aumentado
+key_papers:
+- title: Nonequilibrium Quasiparticles and 2e Periodicity in Single-Cooper-Pair Transistors
+  year: 2004
+  doi: 10.1103/PhysRevLett.92.066802
+  role: first_author
+- title: Rabi Oscillations in a Large Josephson-Junction Qubit
+  year: 2002
+  doi: 10.1103/PhysRevLett.89.117901
+  role: co_author
+- title: Energy Decay in Superconducting Josephson-Junction Qubits from Nonequilibrium Quasiparticle Excitations
+  year: 2009
+  doi: 10.1103/PhysRevLett.103.097002
+  role: co_author
+- title: 'Superconducting Parametric Amplifiers: The State of the Art in Josephson Parametric Amplifiers'
+  year: 2020
+  doi: 10.1109/MMM.2020.2993476
+  role: first_author
+- title: Quasiparticle Poisoning in Superconducting Quantum Computers
+  year: 2023
+  doi: 10.1063/PT.3.5291
+  role: first_author
 keywords:
-- Quantum Information and Cryptography
-- Quantum and electron transport phenomena
-- Mechanical and Optical Resonators
-- Physics of Superconductivity and Magnetism
-- Photonic and Optical Devices
+- quasiparticle poisoning
+- superconducting qubits
+- Josephson parametric amplifiers
+- microwave quantum measurement
+- quantum optomechanics
+- superconducting parametric amplification
+- transmon qubits
 last_verified_at: '2026-05-26'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-26'
 links:
+  group_page: https://www.nist.gov/pml/applied-physics-division/advanced-microwave-photonics
+  institution_profile: https://www.nist.gov/people/joe-aumentado
   openalex: https://openalex.org/A5019104449
   orcid: https://orcid.org/0000-0001-5581-1466
 location:
-  city: Gaithersburg
+  city: Boulder
   country: United States
   geocode_source: openalex
-  lat: 39.14344
-  lon: -77.20137
+  lat: 40.0150
+  lon: -105.2705
   precision: city
 metrics:
   citation_count: 5335
@@ -40,5 +79,5 @@ platforms:
 schema_version: 2
 sort_name: Aumentado, José
 updated_at: '2026-05-26'
-verification_source_count: 1
+verification_source_count: 4
 ---

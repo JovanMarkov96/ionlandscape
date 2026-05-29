@@ -4,21 +4,75 @@ applications:
 - computing
 created_at: '2026-05-26'
 current_position:
-  confidence: openalex_inferred
+  confidence: confirmed
   institution: ETH Zurich
-  source: https://openalex.org/A5013634171
-  title: ''
+  source: https://ethrat.ch/en/appointments-july-25/
+  title: Associate Professor of Hybrid Quantum Systems
+  since_year: 2019
+  verified_at: '2026-05-26'
+education:
+- degree: BS
+  institution: Massachusetts Institute of Technology
+  year: null
+  advisor: null
+  advisor_id: null
+  confidence: confirmed
+  source: https://www.quantum-machines.co/blog/women-pushing-the-limits-of-quantum-frontiers-yiwen-chu/
+- degree: PhD
+  institution: Harvard University
+  year: 2014
+  advisor: Mikhail Lukin
+  advisor_id: 000-mikhail-lukin
+  confidence: confirmed
+  source: https://ethz.ch/en/news-and-events/eth-news/news/2024/11/between-crystals-cats-and-quantum.html
+- degree: Postdoc
+  institution: Yale University
+  year: null
+  advisor: Robert Schoelkopf
+  advisor_id: 145-robert-schoelkopf
+  confidence: confirmed
+  source: https://www.quantum-machines.co/blog/women-pushing-the-limits-of-quantum-frontiers-yiwen-chu/
 entity_type: person
 group_type: experimental
 id: 168-yiwen-chu
+key_papers:
+- title: 'Quantum acoustics with superconducting qubits'
+  year: 2017
+  doi: 10.1126/science.aao1511
+  role: first_author
+- title: 'Creation and control of multi-phonon Fock states in a bulk acoustic-wave resonator'
+  year: 2018
+  doi: 10.1038/s41586-018-0717-7
+  role: first_author
+- title: 'Parity measurement in the strong dispersive regime of circuit quantum acoustodynamics'
+  year: 2022
+  doi: 10.1038/s41567-022-01591-2
+  role: senior_author
+- title: "Schrodinger cat states of a 16-microgram mechanical oscillator"
+  year: 2023
+  doi: 10.1126/science.adf7553
+  role: senior_author
+- title: 'A mechanical qubit'
+  year: 2024
+  doi: 10.1126/science.adr2464
+  role: senior_author
 keywords:
-- Mechanical and Optical Resonators
-- Diamond and Carbon-based Materials Research
-- Quantum Information and Cryptography
-- Cold Atom Physics and Bose-Einstein Condensates
-- Quantum and electron transport phenomena
+- Quantum Acoustics and Phononic Systems
+- Bulk Acoustic Wave Resonators
+- Superconducting Qubit Coupling
+- Piezoelectric Transduction
+- Hybrid Quantum Systems
+- Mechanical Qubits
+- Quantum State Engineering in Acoustic Resonators
+- Circuit Quantum Acoustodynamics
 last_verified_at: '2026-05-26'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-26'
 links:
+  group_page: https://hyqu.ethz.ch/
+  institution_profile: https://www.phys.ethz.ch/the-department/people/person-detail.yiwenchu.html
   openalex: https://openalex.org/A5013634171
   orcid: https://orcid.org/0000-0001-5042-3130
 location:
@@ -37,8 +91,9 @@ metrics:
 name: Yiwen Chu
 platforms:
 - superconducting
+- cavity_qed_hybrid
 schema_version: 2
 sort_name: Chu, Yiwen
 updated_at: '2026-05-26'
-verification_source_count: 1
+verification_source_count: 5
 ---

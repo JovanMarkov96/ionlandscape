@@ -4,21 +4,62 @@ applications:
 - computing
 created_at: '2026-05-26'
 current_position:
-  confidence: openalex_inferred
+  confidence: confirmed
   institution: École Nationale Supérieure des Mines de Paris
-  source: https://openalex.org/A5046511583
-  title: ''
+  source: https://quantic.phys.ens.fr/zaki/index.html
+  title: Professor
+  since_year: 2015
+  verified_at: '2026-05-26'
+education:
+- degree: PhD
+  institution: École Nationale Supérieure des Mines de Paris
+  year: 2012
+  advisor: Mazyar Mirrahimi
+  advisor_id: 174-mazyar-mirrahimi
+  coadvisor: Pierre Rouchon
+  thesis: Quantum state engineering and stabilization
+  confidence: confirmed
+  source: https://quantic.phys.ens.fr/zaki/index.html
 entity_type: person
 group_type: mixed
 id: 175-zaki-leghtas
+key_papers:
+- title: Extending the lifetime of a quantum bit with error correction in superconducting circuits
+  year: 2016
+  doi: 10.1038/nature18949
+  role: co-author
+- title: 'Dynamically protected cat-qubits: a new paradigm for universal quantum computation'
+  year: 2014
+  doi: 10.1088/1367-2630/16/4/045014
+  role: co-author
+- title: Confining the state of light to a quantum manifold by engineered two-photon loss
+  year: 2015
+  doi: 10.1126/science.aaa2085
+  role: lead author
+- title: Exponential suppression of bit-flips in a qubit encoded in an oscillator
+  year: 2020
+  doi: 10.1038/s41567-020-0824-x
+  role: co-author
+- title: Quantum control of a cat qubit with bit-flip times exceeding ten seconds
+  year: 2024
+  doi: 10.1038/s41586-024-07294-3
+  role: co-author
 keywords:
-- Quantum Information and Cryptography
-- Quantum and electron transport phenomena
-- Quantum Computing Algorithms and Architecture
-- Quantum Mechanics and Applications
-- Mechanical and Optical Resonators
+- cat qubits
+- superconducting circuits
+- quantum error correction
+- autonomous error correction
+- two-photon dissipation
+- Schrodinger cat states
+- quantum control
 last_verified_at: '2026-05-26'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-26'
 links:
+  group_page: https://quantic.phys.ens.fr
+  institution_profile: https://www.minesparis.psl.eu/recherche/18-centres-de-recherche-5-domaines-disciplinaires/mathematiques-et-systemes/centre-automatique-et-systemes-cas/
   openalex: https://openalex.org/A5046511583
   orcid: https://orcid.org/0000-0002-9172-1537
 location:
@@ -37,8 +78,14 @@ metrics:
 name: Zaki Leghtas
 platforms:
 - superconducting
+postdocs:
+- institution: Yale University
+  advisor: Michel Devoret
+  advisor_id: 146-michel-devoret
+  years: 2012-2015
+  source: https://quantic.phys.ens.fr/zaki/index.html
 schema_version: 2
 sort_name: Leghtas, Zaki
 updated_at: '2026-05-26'
-verification_source_count: 1
+verification_source_count: 4
 ---
