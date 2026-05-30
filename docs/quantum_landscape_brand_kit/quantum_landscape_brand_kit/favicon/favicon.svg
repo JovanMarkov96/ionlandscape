@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Quantum Landscape logo mark">
+
+    <defs>
+      <linearGradient id="ql-gradient" x1="52" y1="86" x2="460" y2="224" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#15D5FF"/>
+        <stop offset="45%" stop-color="#2E7CFF"/>
+        <stop offset="72%" stop-color="#6E8CFF"/>
+        <stop offset="100%" stop-color="#8A5CF6"/>
+      </linearGradient>
+      <linearGradient id="ql-text-gradient" x1="0" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#F7FBFF"/>
+        <stop offset="55%" stop-color="#15D5FF"/>
+        <stop offset="100%" stop-color="#8A5CF6"/>
+      </linearGradient>
+      <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000814" flood-opacity="0.28"/>
+      </filter>
+      <filter id="light-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="9" stdDeviation="7" flood-color="#020B1C" flood-opacity="0.15"/>
+      </filter>
+      
+    </defs>
+
+
+<g transform="translate(0 128)">
+
+    <g id="quantum-landscape-mark" opacity="1.0">
+      <path d="M56 204 C102 204 120 183 142 166 C164 149 184 168 209 194"
+            fill="none" stroke="url(#ql-gradient)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M304 194 C333 167 354 150 379 165 C400 178 411 202 456 204"
+            fill="none" stroke="url(#ql-gradient)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M66 205 C128 206 152 182 180 153 C203 128 211 86 238 54 C247 43 265 43 274 54 C301 87 308 128 332 154 C360 184 384 206 446 205"
+            fill="none" stroke="url(#ql-gradient)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M54 215 C112 205 151 235 208 219 C252 206 267 178 314 202 C360 225 393 216 462 215"
+            fill="none" stroke="url(#ql-gradient)" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" opacity="0.97"/>
+    </g>
+</g>
+</svg>

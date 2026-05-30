@@ -1,7 +1,7 @@
 // website/docusaurus.config.js
 module.exports = {
-    title: 'Ion Landscape',
-    tagline: 'Interactive map and academic family tree for trapped-ion & neutral-atom quantum computing',
+    title: 'Quantum Landscape',
+    tagline: 'Interactive map and academic family tree of the quantum technology landscape — platforms, people, institutions & companies',
     url: 'https://JovanMarkov96.github.io',
     baseUrl: '/ionlandscape/',
     onBrokenLinks: 'warn',
@@ -33,9 +33,32 @@ module.exports = {
                 content: 'yes',
             },
         },
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'icon',
+                type: 'image/svg+xml',
+                href: '/ionlandscape/img/favicon.svg',
+            },
+        },
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'apple-touch-icon',
+                href: '/ionlandscape/img/apple-touch-icon.png',
+            },
+        },
+        {
+            tagName: 'meta',
+            attributes: {
+                name: 'theme-color',
+                content: '#020B1C',
+            },
+        },
     ],
 
     themeConfig: {
+        image: 'img/brand/social-card.png',
         // Disable the navbar for map-focused experience
         // Disable the navbar for map-focused experience
         navbar: {
@@ -45,12 +68,7 @@ module.exports = {
                 {
                     type: 'html',
                     position: 'left',
-                    value: '<a href="/ionlandscape/" class="navbar-custom-btn" title="Home" aria-label="Home"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><span class="navbar-btn-label">Home</span></a>',
-                },
-                {
-                    type: 'html',
-                    position: 'left', // Keep navigation on left/center usually, but user had right. Let's stick to user's "right" preference or standard. 'left' is better for main nav.
-                    value: '<div style="flex-grow: 1;"></div>' // Spacer if needed, but let's just use position: right for the rest
+                    value: '<a href="/ionlandscape/" class="ql-brand" title="Quantum Landscape — Home" aria-label="Quantum Landscape Home"><img class="ql-brand-img ql-wordmark ql-wordmark-dark" src="/ionlandscape/img/brand/wordmark-horizontal-on-dark.png" alt="Quantum Landscape" /><img class="ql-brand-img ql-wordmark ql-wordmark-light" src="/ionlandscape/img/brand/wordmark-horizontal-on-light.png" alt="Quantum Landscape" /><img class="ql-brand-img ql-mark-only" src="/ionlandscape/img/brand/mark.svg" alt="Quantum Landscape" /></a>',
                 },
                 {
                     type: 'html',
@@ -92,7 +110,7 @@ module.exports = {
         footer: {
             style: 'dark',
             links: [],
-            copyright: `© ${new Date().getFullYear()} Ion Landscape | Developed by <a href="https://jovanmarkov96.github.io" target="_blank" rel="noopener noreferrer" style="color: var(--ifm-color-primary-lightest); font-weight: bold;">Jovan Markov</a>. Open Source Initiative.`,
+            copyright: `© ${new Date().getFullYear()} Quantum Landscape | Developed by <a href="https://jovanmarkov96.github.io" target="_blank" rel="noopener noreferrer" style="color: var(--ifm-color-primary-lightest); font-weight: bold;">Jovan Markov</a>. Open Source Initiative.`,
         },
     },
 

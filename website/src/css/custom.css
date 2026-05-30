@@ -1,4 +1,4 @@
-/* Custom CSS for Ion Landscape — Polished Design System (v14) */
+/* Custom CSS for Quantum Landscape — Polished Design System (v14) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
@@ -153,6 +153,52 @@ body,
 .navbar__link:hover {
   opacity: 0.8;
 }
+
+/* ===== Quantum Landscape brand logo (navbar) ===== */
+.ql-brand {
+  display: inline-flex;
+  align-items: center;
+  height: 44px;
+  padding: 0 4px;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.ql-brand:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.ql-brand-img {
+  display: block;
+  height: 28px;
+  width: auto;
+}
+/* Theme-swapped wordmark: light variant by default, dark variant in dark mode */
+.ql-wordmark-dark { display: none; }
+.ql-wordmark-light { display: block; }
+[data-theme='dark'] .ql-wordmark-dark { display: block; }
+[data-theme='dark'] .ql-wordmark-light { display: none; }
+.ql-mark-only { display: none; }
+/* Below ~600px, collapse to the mark only (per brand guide: mark-only < 160px) */
+@media (max-width: 600px) {
+  .ql-wordmark-dark, .ql-wordmark-light { display: none !important; }
+  .ql-mark-only { display: block !important; height: 30px; }
+}
+
+/* ===== Welcome splash wordmark ===== */
+.welcome-brand {
+  display: flex;
+  justify-content: center;
+  margin: 4px 0 16px;
+}
+.ql-stacked {
+  width: auto;
+  height: auto;
+  max-width: 260px;
+}
+.ql-stacked-dark { display: none; }
+.ql-stacked-light { display: block; }
+[data-theme='dark'] .ql-stacked-dark { display: block; }
+[data-theme='dark'] .ql-stacked-light { display: none; }
 
 /* ===== Main Layout Container ===== */
 .ion-landscape-container {

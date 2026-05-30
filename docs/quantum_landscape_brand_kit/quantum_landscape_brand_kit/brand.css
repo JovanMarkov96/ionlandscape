@@ -1,0 +1,18 @@
+:root {
+  --ql-navy: #020B1C;
+  --ql-ink: #071225;
+  --ql-cyan: #15D5FF;
+  --ql-azure: #2E7CFF;
+  --ql-periwinkle: #6E8CFF;
+  --ql-violet: #8A5CF6;
+  --ql-lilac: #C7B7FF;
+  --ql-paper: #F6F8FC;
+  --ql-text-light: #F7FBFF;
+  --ql-text-dark: #071225;
+  --ql-muted-light: #8EA3C2;
+  --ql-gradient: linear-gradient(100deg, var(--ql-cyan) 0%, var(--ql-azure) 45%, var(--ql-periwinkle) 72%, var(--ql-violet) 100%);
+  --ql-glass-border: rgba(125, 211, 252, 0.22);
+  --ql-glass-fill-dark: rgba(255, 255, 255, 0.06);
+}
+.ql-wordmark { font-family: "Space Grotesk", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-weight: 650; letter-spacing: -0.035em; }
+.ql-body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }

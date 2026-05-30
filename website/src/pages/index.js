@@ -145,8 +145,11 @@ function HomeContent() {
             {showWelcome && !isPanelOpen && (
                 <div className="welcome-popup">
                     <button className="close-panel-btn" onClick={handleDismissWelcome} aria-label="Dismiss welcome popup" style={{ top: '16px', right: '16px' }}>✕</button>
-                    <h2>Ion Landscape</h2>
-                    <p>Click a marker on the map to view a personal or company profile.</p>
+                    <div className="welcome-brand">
+                        <img className="ql-stacked ql-stacked-dark" src="/ionlandscape/img/brand/wordmark-stacked-on-dark.png" alt="Quantum Landscape" />
+                        <img className="ql-stacked ql-stacked-light" src="/ionlandscape/img/brand/wordmark-stacked-on-light.png" alt="Quantum Landscape" />
+                    </div>
+                    <p>An interactive map and academic family tree of the quantum technology landscape. Click a marker to explore a researcher, company, or institution.</p>
                     <button className="btn-primary" onClick={handleDismissWelcome}>Get Started</button>
                 </div>
             )}

@@ -20,7 +20,7 @@ const defaultZoom = 2;
  */
 const createStyle = (isDark) => ({
     version: 8,
-    name: isDark ? 'Ion Landscape Dark' : 'Ion Landscape Light',
+    name: isDark ? 'Quantum Landscape Dark' : 'Quantum Landscape Light',
     sources: {
         basemap: {
             type: 'raster',

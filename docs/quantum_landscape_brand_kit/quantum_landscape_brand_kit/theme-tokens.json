@@ -1,0 +1,32 @@
+{
+  "name": "Quantum Landscape",
+  "recommended_fonts": {
+    "wordmark_and_headings": "Space Grotesk, Sora, Inter, system-ui",
+    "body_ui": "Inter, Manrope, system-ui",
+    "technical_labels": "IBM Plex Mono or JetBrains Mono"
+  },
+  "palette": {
+    "quantum_navy": "#020B1C",
+    "deep_ink": "#071225",
+    "cyan": "#15D5FF",
+    "azure": "#2E7CFF",
+    "periwinkle": "#6E8CFF",
+    "violet": "#8A5CF6",
+    "soft_lilac": "#C7B7FF",
+    "paper": "#F6F8FC",
+    "text_dark": "#071225",
+    "text_light": "#F7FBFF",
+    "muted_light": "#8EA3C2"
+  },
+  "gradient": [
+    "#15D5FF",
+    "#2E7CFF",
+    "#6E8CFF",
+    "#8A5CF6"
+  ],
+  "usage": {
+    "dark_mode_wordmark": "Use white text #F7FBFF with the gradient mark.",
+    "light_mode_wordmark": "Use deep navy text #071225 with the gradient mark.",
+    "small_sizes": "Use the mark-only asset below 160 px width."
+  }
+}
