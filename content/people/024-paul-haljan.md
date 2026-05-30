@@ -21,7 +21,27 @@ ion_species:
 - 171Yb+
 - 111Cd+
 - 113Cd+
-key_papers: []
+key_papers:
+- title: 'Spin-Dependent Forces on Trapped Ions for Phase-Stable Quantum Gates and Entangled States of Spin and Motion'
+  year: 2005
+  doi: 10.1103/PhysRevLett.94.153602
+  role: first_author
+- title: 'Entanglement of Trapped-Ion Clock States'
+  year: 2005
+  doi: 10.1103/PhysRevA.72.062316
+  role: first_author
+- title: 'Implementation of Grover''s Quantum Search Algorithm in a Scalable System'
+  year: 2005
+  doi: 10.1103/PhysRevA.72.050306
+  role: co_author
+- title: 'Phase Control of Trapped Ion Quantum Gates'
+  year: 2005
+  doi: 10.1088/1464-4266/7/10/025
+  role: co_author
+- title: 'Spectroscopic Characterization of the Quantum Linear-Zigzag Transition in Trapped Ions'
+  year: 2023
+  doi: 10.1038/s41534-023-00741-5
+  role: senior_author
 keywords:
 - trapped ions
 - quantum computing

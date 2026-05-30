@@ -19,7 +19,23 @@ group_type: experimental
 id: 053-masao-kitano
 ion_species:
 - 171Yb+
-key_papers: []
+key_papers:
+- doi: 10.1364/AO.49.005510
+  role: senior_author
+  title: Sum-frequency mixing of radiation from two extended-cavity laser diodes using a doubly resonant external cavity for laser cooling of trapped ytterbium ions
+  year: 2010
+- doi: 10.1007/s00340-011-4576-2
+  role: senior_author
+  title: Loading rate of Yb+ loaded through photoionization in radiofrequency ion trap
+  year: 2011
+- doi: 10.1002/2016RS006073
+  role: senior_author
+  title: Single-ion spectroscopy system for the 2S1/2(F=0)-2D3/2(F=2) transition in 171Yb+
+  year: 2016
+- doi: 10.1364/AO.57.005150
+  role: senior_author
+  title: Octave-spanning optical frequency comb based on a laser-diode pumped Kerr-lens mode-locked Yb:KYW laser for optical frequency measurement
+  year: 2018
 keywords:
 - quantum optics
 - trapped ions

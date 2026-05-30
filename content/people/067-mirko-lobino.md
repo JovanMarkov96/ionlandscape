@@ -19,7 +19,25 @@ group_type: experimental
 id: 067-mirko-lobino
 ion_species:
 - 171Yb+
-key_papers: []
+key_papers:
+- doi: 10.1126/science.1162086
+  role: first_author
+  title: Complete Characterization of Quantum-Optical Processes
+  year: 2008
+- doi: 10.1126/sciadv.aat9331
+  role: co_author
+  title: Integrated Photonic Platform for Quantum Information with Continuous Variables
+  year: 2018
+- doi: 10.1103/PhysRevLett.127.023602
+  role: senior_author
+  title: Single Photon Frequency Conversion for Frequency Multiplexed Quantum Networks
+    in the Telecom Band
+  year: 2021
+- doi: 10.1103/PhysRevApplied.13.024017
+  role: senior_author
+  title: Integrated Optical Device for Frequency Conversion Across the Full Telecom
+    C-Band Spectrum
+  year: 2020
 keywords:
 - trapped ions
 - quantum photonics

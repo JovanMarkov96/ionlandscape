@@ -20,7 +20,25 @@ group_type: experimental
 id: 061-taeyoung-choi
 ion_species:
 - 171Yb+
-key_papers: []
+key_papers:
+- doi: 10.1103/PhysRevLett.112.190502
+  role: first_author
+  title: Optimal Quantum Control of Multimode Couplings between Trapped Ion Qubits
+    for Scalable Entanglement
+  year: 2014
+- doi: 10.1038/nature18648
+  role: co_author
+  title: Demonstration of a Small Programmable Quantum Computer with Atomic Qubits
+  year: 2016
+- doi: 10.1038/s41467-020-16790-9
+  role: co_author
+  title: Efficient Arbitrary Simultaneously Entangling Gates on a Trapped-Ion Quantum
+    Computer
+  year: 2020
+- doi: 10.1016/j.cap.2022.06.011
+  role: senior_author
+  title: Progress of Quantum Entanglement in a Trapped-Ion Based Quantum Computer
+  year: 2022
 keywords:
 - trapped ions
 - quantum computing

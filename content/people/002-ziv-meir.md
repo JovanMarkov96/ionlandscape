@@ -38,6 +38,27 @@ keywords:
 - Quantum optics and atomic interactions
 - Quantum Information and Cryptography
 - Advanced Frequency and Time Standards
+key_papers:
+- title: 'Dynamics of a Ground-State Cooled Ion Colliding with Ultracold Atoms'
+  year: 2016
+  doi: 10.1103/PhysRevLett.117.243401
+  role: first_author
+- title: 'Direct Observation of Atom-Ion Nonequilibrium Sympathetic Cooling'
+  year: 2018
+  doi: 10.1103/PhysRevLett.121.053402
+  role: first_author
+- title: 'State-selective coherent motional excitation as a new approach for the manipulation, spectroscopy and state-to-state chemistry of single molecular ions'
+  year: 2019
+  doi: 10.1039/C8FD00195B
+  role: co_author
+- title: 'Quantum-nondemolition state detection and spectroscopy of single trapped molecules'
+  year: 2020
+  doi: 10.1126/science.aaz9837
+  role: co_author
+- title: 'Identification of molecular quantum states using phase-sensitive forces'
+  year: 2020
+  doi: 10.1038/s41467-020-18170-9
+  role: co_author
 labels:
 - Experimental group
 last_verified_at: '2026-05-21'

@@ -25,6 +25,23 @@ id: 003-chris-ballance
 ion_species:
 - Ca+
 - Sr+
+key_papers:
+- title: "High-Fidelity Preparation, Gates, Memory, and Readout of a Trapped-Ion Quantum Bit"
+  year: 2014
+  doi: 10.1103/PhysRevLett.113.220501
+  role: co_author
+- title: "Hybrid quantum logic and a test of Bell's inequality using two different atomic isotopes"
+  year: 2015
+  doi: 10.1038/nature16184
+  role: co_author
+- title: "High-Fidelity Quantum Logic Gates Using Trapped-Ion Hyperfine Qubits"
+  year: 2016
+  doi: 10.1103/PhysRevLett.117.060504
+  role: first_author
+- title: "Fast quantum logic gates with trapped-ion qubits"
+  year: 2018
+  doi: 10.1038/nature25737
+  role: co_author
 keywords:
 - trapped-ion quantum computing
 - high-fidelity gates

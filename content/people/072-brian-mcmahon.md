@@ -20,7 +20,23 @@ group_type: experimental
 id: 072-brian-mcmahon
 ion_species:
 - 171Yb+
-key_papers: []
+key_papers:
+- doi: 10.1103/PhysRevA.101.013408
+  role: first_author
+  title: Doppler-Cooled Ions in a Compact Reconfigurable Penning Trap
+  year: 2020
+- doi: 10.1103/PhysRevApplied.17.014005
+  role: first_author
+  title: Second-Scale Spin Coherence in a Compact Penning Trap
+  year: 2022
+- doi: 10.1103/PhysRevLett.133.173201
+  role: first_author
+  title: Individual-Ion Addressing and Readout in a Penning Trap
+  year: 2024
+- doi: 10.1038/s41586-024-07111-x
+  role: co_author
+  title: Penning Micro-Trap for Quantum Computing
+  year: 2024
 keywords:
 - trapped ions
 - quantum computing

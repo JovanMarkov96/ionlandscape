@@ -22,7 +22,23 @@ id: 047-klaus-jungmann
 ion_species:
 - 138Ba+
 - 226Ra+
-key_papers: []
+key_papers:
+- doi: 10.1103/PhysRevLett.82.49
+  role: co_author
+  title: Measurement of the 1s-2s energy interval in muonium
+  year: 1999
+- doi: 10.1103/PhysRevLett.87.111804
+  role: co_author
+  title: Test of CPT and Lorentz Invariance from Muonium Spectroscopy
+  year: 2001
+- doi: 10.1103/PhysRevA.82.010501
+  role: senior_author
+  title: Laser spectroscopy of trapped short-lived Ra+ ions
+  year: 2010
+- doi: 10.7566/JPSJ.85.091004
+  role: senior_author
+  title: Precision Muonium Spectroscopy
+  year: 2016
 keywords:
 - precision measurement
 - fundamental symmetries

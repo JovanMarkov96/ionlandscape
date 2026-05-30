@@ -20,7 +20,23 @@ group_type: experimental
 id: 043-kilian-singer
 ion_species:
 - 40Ca+
-key_papers: []
+key_papers:
+- doi: 10.1103/RevModPhys.82.2609
+  role: co_author
+  title: 'Colloquium: Trapped ions as quantum bits: Essential numerical tools'
+  year: 2010
+- doi: 10.1103/PhysRevLett.109.080501
+  role: senior_author
+  title: Controlling Fast Transport of Cold Trapped Ions
+  year: 2012
+- doi: 10.1103/PhysRevLett.112.030602
+  role: senior_author
+  title: Nanoscale Heat Engine Beyond the Carnot Limit
+  year: 2014
+- doi: 10.1126/science.aad6320
+  role: senior_author
+  title: A single-atom heat engine
+  year: 2016
 keywords:
 - trapped ions
 - thermodynamics

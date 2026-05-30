@@ -45,6 +45,13 @@
     * *Source*: https://www.weizmann.ac.il/complex/meir/
     * *Quote*: "Ziv Meir Lab"
 
+## key_papers
+- **PRL 117, 243401 (2016)** DOI 10.1103/PhysRevLett.117.243401 — first_author; source: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.243401
+- **PRL 121, 053402 (2018)** DOI 10.1103/PhysRevLett.121.053402 — first_author; source: https://pubmed.ncbi.nlm.nih.gov/30118277/
+- **Faraday Discuss. 217, 561 (2019)** DOI 10.1039/C8FD00195B — co_author; source: https://pubs.rsc.org/en/content/articlelanding/2019/fd/c8fd00195b
+- **Science 367, 1213 (2020)** DOI 10.1126/science.aaz9837 — co_author; source: https://www.science.org/doi/10.1126/science.aaz9837
+- **Nat. Commun. 11, 4470 (2020)** DOI 10.1038/s41467-020-18170-9 — co_author; source: https://www.nature.com/articles/s41467-020-18170-9
+
 ## Data quality notes
 - The lab site does not explicitly list PhD advisors, postdocs, or ion species; those fields should be verified with a CV or thesis record.
 - `applications.simulation` and `platforms.cavity_qed_hybrid` are not explicitly stated on the lab or Pure pages and need verification.

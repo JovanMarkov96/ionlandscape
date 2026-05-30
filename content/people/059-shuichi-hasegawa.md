@@ -19,7 +19,23 @@ group_type: experimental
 id: 059-shuichi-hasegawa
 ion_species:
 - 40Ca+
-key_papers: []
+key_papers:
+- doi: 10.1143/JJAP.45.7108
+  role: senior_author
+  title: Trapping laser ablated Ca+ ions in linear Paul trap
+  year: 2006
+- doi: 10.1007/s00340-011-4471-x
+  role: senior_author
+  title: Observation of sympathetically cooled 43Ca+ ions in a linear ion trap
+  year: 2011
+- doi: 10.1039/C3JA00004D
+  role: senior_author
+  title: Trapping and laser cooling of trace Ca+ isotopes injected from an inductively coupled plasma mass spectrometer
+  year: 2013
+- doi: 10.1080/00223131.2017.1359121
+  role: senior_author
+  title: Excess micromotion compensation of trapped ions in a linear Paul trap for trace isotope analysis
+  year: 2017
 keywords:
 - trapped ions
 - quantum control

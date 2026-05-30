@@ -19,7 +19,25 @@ group_type: experimental
 id: 065-luyan-sun
 ion_species:
 - 40Ca+
-key_papers: []
+key_papers:
+- doi: 10.1103/PhysRevLett.107.240501
+  role: co_author
+  title: Observation of High Coherence in Josephson Junction Qubits Measured in a
+    Three-Dimensional Circuit QED Architecture
+  year: 2011
+- doi: 10.1038/nature13436
+  role: first_author
+  title: Tracking Photon Jumps with Repeated Quantum Non-Demolition Parity Measurements
+  year: 2014
+- doi: 10.1038/nature18949
+  role: co_author
+  title: Extending the Lifetime of a Quantum Bit with Error Correction in Superconducting
+    Circuits
+  year: 2016
+- doi: 10.1126/sciadv.aav2761
+  role: senior_author
+  title: Quantum Generative Adversarial Learning in a Superconducting Quantum Circuit
+  year: 2019
 keywords:
 - trapped ions
 - quantum computing

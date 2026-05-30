@@ -19,7 +19,27 @@ group_type: experimental
 id: 036-richard-thompson
 ion_species:
 - 40Ca+
-key_papers: []
+key_papers:
+- title: "Axialization of Laser Cooled Magnesium Ions in a Penning Trap"
+  year: 2002
+  doi: 10.1103/PhysRevLett.89.093003
+  role: senior_author
+- title: "Two-ion Coulomb crystals of Ca+ in a Penning trap"
+  year: 2008
+  doi: 10.1364/oe.16.002351
+  role: senior_author
+- title: "Control of the conformations of ion Coulomb crystals in a Penning trap"
+  year: 2013
+  doi: 10.1038/ncomms3571
+  role: senior_author
+- title: "Trapped-ion quantum error-correcting protocols using only global operations"
+  year: 2015
+  doi: 10.1103/PhysRevA.92.032314
+  role: senior_author
+- title: "Resolved-Sideband Laser Cooling in a Penning Trap"
+  year: 2016
+  doi: 10.1103/PhysRevLett.116.143002
+  role: senior_author
 keywords:
 - trapped ions
 - quantum computing

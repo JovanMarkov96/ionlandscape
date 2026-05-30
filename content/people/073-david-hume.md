@@ -24,7 +24,24 @@ ion_species:
 - 27Al+
 - 25Mg+
 - 9Be+
-key_papers: []
+key_papers:
+- doi: 10.1126/science.1154622
+  role: co_author
+  title: Frequency Ratio of Al+ and Hg+ Single-Ion Optical Clocks; Metrology at
+    the 17th Decimal Place
+  year: 2008
+- doi: 10.1126/science.1192720
+  role: co_author
+  title: Optical Clocks and Relativity
+  year: 2010
+- doi: 10.1103/PhysRevLett.123.033201
+  role: co_author
+  title: 27Al+ Quantum-Logic Clock with a Systematic Uncertainty below 10−18
+  year: 2019
+- doi: 10.1103/PhysRevLett.129.193603
+  role: senior_author
+  title: Scalable Quantum Logic Spectroscopy
+  year: 2022
 keywords:
 - optical clocks
 - quantum logic spectroscopy

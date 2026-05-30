@@ -21,7 +21,24 @@ group_type: experimental
 id: 048-hermann-uys
 ion_species:
 - 171Yb+
-key_papers: []
+key_papers:
+- doi: 10.1038/nature07951
+  role: co_author
+  title: Optimized dynamical decoupling in a model quantum memory
+  year: 2009
+- doi: 10.1103/PhysRevLett.103.040501
+  role: co_author
+  title: Optimized Noise Filtration through Dynamical Decoupling
+  year: 2009
+- doi: 10.1103/PhysRevLett.105.200401
+  role: co_author
+  title: Decoherence due to elastic Rayleigh scattering
+  year: 2010
+- doi: 10.1103/PhysRevLett.108.213003
+  role: co_author
+  title: Spectroscopy and Thermometry of Drumhead Modes in a Mesoscopic Trapped-Ion
+    Crystal Using Entanglement
+  year: 2012
 keywords:
 - trapped ions
 - quantum control

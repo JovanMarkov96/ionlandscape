@@ -21,7 +21,23 @@ id: 052-dan-stick
 ion_species:
 - 40Ca+
 - 171Yb+
-key_papers: []
+key_papers:
+- doi: 10.1038/nphys171
+  role: first_author
+  title: Ion trap in a semiconductor chip
+  year: 2006
+- doi: 10.1088/1367-2630/13/7/075018
+  role: co_author
+  title: Design, fabrication, and experimental demonstration of junction surface ion traps
+  year: 2011
+- doi: 10.1088/1367-2630/15/9/093018
+  role: co_author
+  title: Single qubit manipulation in a microfabricated surface electrode ion trap
+  year: 2013
+- doi: 10.1103/PhysRevX.11.041033
+  role: co_author
+  title: Integrated optical addressing of a trapped ytterbium ion
+  year: 2021
 keywords:
 - microfabricated ion traps
 - quantum computing

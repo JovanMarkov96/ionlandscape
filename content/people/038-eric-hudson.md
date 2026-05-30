@@ -21,7 +21,25 @@ id: 038-eric-hudson
 ion_species:
 - 138Ba+
 - 171Yb+
-key_papers: []
+key_papers:
+- doi: 10.1103/PhysRevLett.112.143009
+  role: senior_author
+  title: Neutral Gas Sympathetic Cooling of an Ion in a Paul Trap
+  year: 2014
+- doi: 10.1038/ncomms12448
+  role: senior_author
+  title: Blue-sky bifurcation of ion energies and the limits of neutral-gas sympathetic
+    cooling of trapped ions
+  year: 2016
+- doi: 10.1126/science.aan4701
+  role: senior_author
+  title: Synthesis of mixed hypermetallic oxide BaOCa+ from laser-cooled reagents
+    in an atom-ion hybrid trap
+  year: 2017
+- doi: 10.1103/PhysRevLett.125.120501
+  role: senior_author
+  title: Dipole-Phonon Quantum Logic with Trapped Polar Molecular Ions
+  year: 2020
 keywords:
 - molecular ions
 - trapped ions

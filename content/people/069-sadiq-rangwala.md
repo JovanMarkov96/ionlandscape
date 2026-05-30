@@ -20,7 +20,24 @@ id: 069-sadiq-rangwala
 ion_species:
 - 40Ca+
 - 87Rb+
-key_papers: []
+key_papers:
+- doi: 10.1103/PhysRevLett.102.223201
+  role: senior_author
+  title: Observation of Cold Collisions between Trapped Ions and Trapped Atoms
+  year: 2009
+- doi: 10.1103/PhysRevLett.118.113401
+  role: senior_author
+  title: Collisional Cooling of Light Ions by Cotrapped Heavy Atoms
+  year: 2017
+- doi: 10.1103/PhysRevA.97.041401
+  role: senior_author
+  title: Cooling of Trapped Ions by Resonant Charge Exchange
+  year: 2018
+- doi: 10.1103/PhysRevLett.117.213002
+  role: senior_author
+  title: "Photodissociation of Trapped Rb2+: Implications for Simultaneous Trapping
+    of Atoms and Molecular Ions"
+  year: 2016
 keywords:
 - trapped ions
 - ultracold atoms

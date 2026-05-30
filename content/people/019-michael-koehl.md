@@ -20,7 +20,23 @@ group_type: experimental
 id: 019-michael-koehl
 ion_species:
 - 171Yb+
-key_papers: []
+key_papers:
+- title: 'Fermionic Atoms in a Three Dimensional Optical Lattice: Observing Fermi Surfaces, Dynamics, and Interactions'
+  year: 2005
+  doi: 10.1103/PhysRevLett.94.080403
+  role: co_author
+- title: 'Bose-Fermi Mixtures in a Three-Dimensional Optical Lattice'
+  year: 2006
+  doi: 10.1103/PhysRevLett.96.180402
+  role: co_author
+- title: 'Direct Photonic Coupling of a Semiconductor Quantum Dot and a Trapped Ion'
+  year: 2015
+  doi: 10.1103/PhysRevLett.114.123001
+  role: senior_author
+- title: 'Deterministic spin-photon entanglement from a trapped ion in a fiber Fabry-Perot cavity'
+  year: 2021
+  doi: 10.1038/s41534-020-00338-2
+  role: senior_author
 keywords:
 - trapped ions
 - quantum simulation

@@ -22,7 +22,27 @@ group_type: experimental
 id: 029-christof-wunderlich
 ion_species:
 - 171Yb+
-key_papers: []
+key_papers:
+- title: "Ion-trap quantum logic using long-wavelength radiation"
+  year: 2001
+  doi: 10.1103/PhysRevLett.87.257904
+  role: co_author
+- title: "Individual Addressing of Trapped Ions and Coupling of Motional and Spin States Using rf Radiation"
+  year: 2009
+  doi: 10.1103/PhysRevLett.102.073004
+  role: senior_author
+- title: "Quantum gates and memory using microwave-dressed states"
+  year: 2011
+  doi: 10.1038/nature10319
+  role: senior_author
+- title: "Versatile microwave-driven trapped ion spin system for quantum information processing"
+  year: 2016
+  doi: 10.1126/sciadv.1600093
+  role: senior_author
+- title: "Blueprint for a microwave trapped ion quantum computer"
+  year: 2017
+  doi: 10.1126/sciadv.1601540
+  role: co_author
 keywords:
 - trapped ions
 - microwave quantum logic

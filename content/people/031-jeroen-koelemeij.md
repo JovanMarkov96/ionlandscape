@@ -22,7 +22,23 @@ id: 031-jeroen-koelemeij
 ion_species:
 - 9Be+
 - HD+
-key_papers: []
+key_papers:
+- title: "Vibrational Spectroscopy of HD+ with 2-ppb Accuracy"
+  year: 2007
+  doi: 10.1103/PhysRevLett.98.173002
+  role: first_author
+- title: "Blackbody thermometry with cold molecular ions and application to ion-based frequency standards"
+  year: 2007
+  doi: 10.1103/PhysRevA.76.023413
+  role: first_author
+- title: "Probing QED and fundamental constants through laser spectroscopy of vibrational transitions in HD+"
+  year: 2016
+  doi: 10.1038/ncomms10385
+  role: senior_author
+- title: "Proton-electron mass ratio from laser spectroscopy of HD+ at the part-per-trillion level"
+  year: 2020
+  doi: 10.1126/science.aba0453
+  role: corresponding
 keywords:
 - molecular ions
 - HD+ spectroscopy

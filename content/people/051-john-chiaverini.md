@@ -20,7 +20,23 @@ id: 051-john-chiaverini
 ion_species:
 - 40Ca+
 - 88Sr+
-key_papers: []
+key_papers:
+- doi: 10.1038/nature03074
+  role: first_author
+  title: Realization of quantum error correction
+  year: 2004
+- doi: 10.26421/QIC5.6-1
+  role: first_author
+  title: Surface-electrode architecture for ion-trap quantum information processing
+  year: 2005
+- doi: 10.1038/nnano.2016.139
+  role: senior_author
+  title: Integrated optical addressing of an ion qubit
+  year: 2016
+- doi: 10.1038/s41586-020-2811-x
+  role: senior_author
+  title: Integrated multi-wavelength control of an ion qubit
+  year: 2020
 keywords:
 - trapped-ion quantum computing
 - integrated photonics
