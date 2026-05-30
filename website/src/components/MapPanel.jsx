@@ -5,6 +5,7 @@ import React, { useEffect, useRef, useMemo, useCallback, useImperativeHandle, fo
 import { useColorMode } from '@docusaurus/theme-common';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import PlatformFlyout, { PLATFORM_GROUPS } from './PlatformFlyout';
 
 const defaultCenter = [10, 50]; // Centered on Europe
 const defaultZoom = 2;
@@ -95,7 +96,16 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
     const [people, setPeople] = React.useState([]);
     const [companies, setCompanies] = React.useState([]);
     const [institutions, setInstitutions] = React.useState([]);
-    const [filters, setFilters] = React.useState({ people: true, companies: true, institutions: true, platform: 'all' });
+    const [filters, setFilters] = React.useState({ people: true, companies: true, institutions: true, platforms: [] });
+    const [platformsOpen, setPlatformsOpen] = React.useState(false);
+
+    const togglePlatform = useCallback((groupKey) => {
+        setFilters(prev => {
+            const set = new Set(prev.platforms);
+            set.has(groupKey) ? set.delete(groupKey) : set.add(groupKey);
+            return { ...prev, platforms: Array.from(set) };
+        });
+    }, []);
 
     // Docusaurus color mode
     const { colorMode } = useColorMode();
@@ -144,14 +154,28 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
         if (filters.companies) features = features.concat(companies);
         if (filters.institutions) features = features.concat(institutions);
 
-        if (filters.platform !== 'all') {
-            features = features.filter(f => {
-                const platforms = f.properties?.platforms || [];
-                return platforms.includes(filters.platform);
-            });
+        if (filters.platforms.length > 0) {
+            // Union of the raw platform values for every active group
+            const activeValues = new Set(
+                PLATFORM_GROUPS
+                    .filter(g => filters.platforms.includes(g.key))
+                    .flatMap(g => g.values)
+            );
+            features = features.filter(f =>
+                (f.properties?.platforms || []).some(p => activeValues.has(p))
+            );
         }
         return features;
     }, [people, companies, institutions, filters]);
+
+    // Per-platform marker counts (across all loaded features, for tile badges)
+    const platformCounts = useMemo(() => {
+        const counts = {};
+        [...people, ...companies, ...institutions].forEach(f => {
+            (f.properties?.platforms || []).forEach(p => { counts[p] = (counts[p] || 0) + 1; });
+        });
+        return counts;
+    }, [people, companies, institutions]);
 
     const coordGroups = useMemo(() => groupByCoordinate(displayFeatures), [displayFeatures]);
 
@@ -469,39 +493,35 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
                     <span>Institutions</span>
                 </div>
 
-                {/* Platform Filter Dropdown */}
-                <div className="map-filter-dropdown" style={{ marginTop: '10px' }}>
-                    <select 
-                        value={filters.platform} 
-                        onChange={(e) => setFilters(prev => ({ ...prev, platform: e.target.value }))}
-                        style={{
-                            background: 'var(--ifm-color-emphasis-100)',
-                            color: 'var(--ifm-color-content)',
-                            border: '1px solid var(--ifm-color-emphasis-300)',
-                            borderRadius: '8px',
-                            padding: '6px',
-                            fontSize: '0.85em',
-                            cursor: 'pointer',
-                            width: '100%',
-                            outline: 'none',
-                            boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
-                        }}
-                    >
-                        <option value="all">All Platforms</option>
-                        <option value="trapped_ion">Trapped Ion</option>
-                        <option value="neutral_atom">Neutral Atom</option>
-                        <option value="rydberg_array">Rydberg Array</option>
-                        <option value="superconducting">Superconducting</option>
-                        <option value="photonic">Photonic</option>
-                        <option value="nv_center">Color Center (NV)</option>
-                        <option value="color_center">Color Center</option>
-                        <option value="quantum_dot">Quantum Dot</option>
-                        <option value="silicon_spin">Silicon Spin</option>
-                        <option value="topological">Topological</option>
-                        <option value="trapped_molecule">Trapped Molecule</option>
-                        <option value="cavity_qed_hybrid">Hybrid / Cavity QED</option>
-                    </select>
+                {/* Platform Filter — collapsible tech-tile flyout */}
+                <div className="map-platforms-divider" />
+                <div
+                    className="map-filter-btn filter-btn-platforms"
+                    onClick={() => setPlatformsOpen(o => !o)}
+                    data-active={platformsOpen || filters.platforms.length > 0}
+                    title="Filter by platform"
+                    role="button"
+                    aria-expanded={platformsOpen}
+                >
+                    <svg viewBox="0 0 24 24" width="22" height="22">
+                        <path d="M3 5h7v7H3V5zm11 0h7v7h-7V5zM3 16h7v3H3v-3zm11 0h7v3h-7v-3z" />
+                    </svg>
+                    <span>Platforms</span>
+                    {filters.platforms.length > 0 && (
+                        <span className="platforms-active-count">{filters.platforms.length}</span>
+                    )}
+                    <svg className="platforms-chevron" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+                        <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2.4"
+                            strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                 </div>
+
+                <PlatformFlyout
+                    open={platformsOpen}
+                    active={filters.platforms}
+                    onToggle={togglePlatform}
+                    counts={platformCounts}
+                />
             </div>
         </div>
     );
