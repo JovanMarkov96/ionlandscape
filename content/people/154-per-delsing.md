@@ -35,6 +35,18 @@ key_papers:
   role: first_author
   title: The 2019 surface acoustic waves roadmap
   year: 2019
+education:
+- advisor: Tord Claeson
+  advisor_id: null
+  confidence: ambiguous
+  degree: PhD (Physics)
+  institution: Chalmers University of Technology
+  year: 1990
+  source: https://research.chalmers.se/en/person/delsing
+  note: Thesis title "Single electron tunneling in ultrasmall tunnel junctions" (1990).
+    Advisor inferred as Tord Claeson (Full Professor of Physics at Chalmers from 1982;
+    co-authored the core single-electron tunneling papers with Delsing in 1989-1990)
+    but no source explicitly names him as supervisor.
 keywords:
 - superconducting qubits
 - quantum acoustics

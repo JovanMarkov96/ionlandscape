@@ -58,8 +58,18 @@ Verified: 2026-05-26
 
 ## education / postdocs
 
-*   **`education`**: Not populated.
-    *   *Note*: No PhD institution, year, or advisor found on Chalmers profile page, ORCID, or OpenAlex. OpenAlex affiliations show early career at Nordic Institute for Theoretical Physics (~1970-1979) and Chalmers (~1974 onwards), consistent with PhD in the early 1970s in Sweden, but no authoritative source confirmed the thesis details. Left unpopulated per quality rules.
+*   **`education[0].degree`**: `PhD (Theoretical Physics)`
+    *   *Source*: https://research.chalmers.se/en/person/wendin — Chalmers Research profile lists a 1990 doctoral thesis entry.
+    *   *Quote*: "Doctoral thesis (1972)" with title "Effects of electron correlation in the photoabsorption spectrum of the rare gases"
+*   **`education[0].institution`**: `Chalmers University of Technology`
+    *   *Rationale*: Wendin's entire academic career is at Chalmers; Chalmers Research lists the 1972 thesis under his profile. The NANO-TEC biography confirms "Tekn. Dr. Theor. Phys. 1972".
+    *   *Source*: https://www.fp7-nanotec.eu/content/wendin-goeran — EU project biography: "Tekn. Dr. Theor, Phys. 1972"
+*   **`education[0].year`**: `1972`
+    *   *Source*: https://research.chalmers.se/en/person/wendin (doctoral thesis record) and https://www.fp7-nanotec.eu/content/wendin-goeran (biography)
+*   **`education[0].advisor`**: `null` — not identified in any authoritative source
+    *   *Note*: Stig Lundqvist (professor of theoretical physics at Chalmers from 1961, retired 1990) is the most plausible candidate — he was the dominant theoretical physics supervisor at Chalmers in the early 1970s, and Wendin signed his memorial tribute. However, no source explicitly names Lundqvist as Wendin's PhD advisor. Left null per quality rules.
+*   **`education[0].confidence`**: `confirmed`
+    *   *Rationale*: Year and thesis title confirmed directly from Chalmers Research profile; degree type confirmed by EU biography.
 *   **`postdocs`**: Not populated.
     *   *Note*: OpenAlex shows visiting positions at Brookhaven National Laboratory (1979-1981), Université Paris-Sud (1983-1984), Rutgers University (1987), University of Illinois Chicago (1987-1992), but these are OpenAlex-inferred affiliations from publications, not confirmed postdoc records. Left unpopulated pending authoritative confirmation.
 
@@ -67,18 +77,20 @@ Verified: 2026-05-26
 
 ## lineage_check
 
-*   **`lineage_check.advisor_verified`**: `false` — no authoritative source found for PhD advisor.
+*   **`lineage_check.advisor_verified`**: `false` — Stig Lundqvist is plausible but no authoritative source explicitly names him as PhD advisor.
 *   **`lineage_check.postdoc_verified`**: `false` — visiting affiliations from OpenAlex only, not confirmed postdoc records.
 *   **`lineage_check.last_checked`**: `2026-05-26`
 
 ---
 
-## verification_source_count: 3
+## verification_source_count: 5
 
 Sources used:
 1. https://www.chalmers.se/en/persons/goran-wendin/ — official Chalmers staff profile (title, institution, emeritus status)
 2. https://api.openalex.org/authors/A5052792710 — OpenAlex author record (metrics, affiliation history, topics)
 3. https://arxiv.org/search/?searchtype=author&query=Wendin%2C+G — arXiv author search (recent papers, activity, research areas)
+4. https://research.chalmers.se/en/person/wendin — Chalmers Research profile (doctoral thesis 1972, thesis title)
+5. https://www.fp7-nanotec.eu/content/wendin-goeran — EU NANO-TEC project biography ("Tekn. Dr. Theor, Phys. 1972", professor at Chalmers since 1996)
 
 Additional sources consulted (papers, DOIs):
 - https://doi.org/10.1088/1361-6633/aa7e1a (Rep. Prog. Phys. 2017 review)

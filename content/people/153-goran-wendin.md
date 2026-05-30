@@ -35,6 +35,18 @@ key_papers:
   role: co_author
   title: Andreev Level Qubit
   year: 2003
+education:
+- advisor: null
+  advisor_id: null
+  confidence: confirmed
+  degree: PhD (Theoretical Physics)
+  institution: Chalmers University of Technology
+  year: 1972
+  source: https://research.chalmers.se/en/person/wendin
+  note: Thesis title "Effects of electron correlation in the photoabsorption spectrum
+    of the rare gases" (1972). Advisor not identified in any authoritative source;
+    Stig Lundqvist (leading theoretical physics professor at Chalmers at the time)
+    is a plausible candidate but unconfirmed.
 keywords:
 - Quantum and electron transport phenomena
 - Physics of Superconductivity and Magnetism

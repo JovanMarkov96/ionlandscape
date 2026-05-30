@@ -77,8 +77,18 @@ Verified: 2026-05-26
 
 ## education / postdocs
 
-*   **`education`**: Not populated.
-    *   *Note*: ORCID education section is empty (https://pub.orcid.org/v3.0/0000-0002-1222-3506/educations — no entries). Chalmers staff page does not list education. ORCID employment begins 1991 (Assistant Professor, University of Gothenburg), implying PhD completed c.1989–1991 at Chalmers, but no authoritative source confirms the thesis title, year, or PhD advisor. Left unpopulated per quality rules.
+*   **`education[0].degree`**: `PhD (Physics)`
+    *   *Source*: https://research.chalmers.se/en/person/delsing — Chalmers Research profile lists doctoral thesis from 1990.
+    *   *Quote*: Doctoral thesis (1990): "Single electron tunneling in ultrasmall tunnel junctions"
+*   **`education[0].institution`**: `Chalmers University of Technology`
+    *   *Rationale*: Delsing's entire career is at Chalmers; earliest publications (1984–1990) are from the Department of Physics, Chalmers.
+*   **`education[0].year`**: `1990`
+    *   *Source*: https://research.chalmers.se/en/person/delsing
+    *   *Consistency check*: ORCID employment starts 1991 as Assistant Professor (University of Gothenburg), consistent with PhD completion at Chalmers in 1990.
+*   **`education[0].advisor`**: `Tord Claeson` (inferred, not confirmed)
+    *   *Source*: https://research.chalmers.se/en/person/f4atc — Tord Claeson, Full Professor of Physics at Chalmers from 1982; research focus on superconducting tunneling and electron properties of solids.
+    *   *Evidence*: Delsing and Claeson co-authored the foundational single-electron tunneling papers (Phys. Rev. B 42, 7439, 1990; Zeitschrift für Physik B 1989-1990) that correspond directly to the thesis topic. Claeson was the professor of the group in which Delsing did his PhD-era research. No source explicitly names Claeson as supervisor.
+    *   *Confidence*: `inferred`
 *   **`postdocs`**: Not populated.
     *   *Note*: No postdoc record found on ORCID, Chalmers page, or OpenAlex. Employment record goes directly from PhD to Assistant Professor 1991. Left unpopulated.
 
@@ -86,7 +96,7 @@ Verified: 2026-05-26
 
 ## lineage_check
 
-*   **`lineage_check.advisor_verified`**: `false` — no authoritative source found for PhD advisor.
+*   **`lineage_check.advisor_verified`**: `false` — Tord Claeson is inferred from co-authorship and group membership at Chalmers in 1989-1990, but no source explicitly names him as PhD supervisor.
 *   **`lineage_check.postdoc_verified`**: `false` — no postdoc record found in any authoritative source.
 *   **`lineage_check.last_checked`**: `2026-05-26`
 
@@ -99,13 +109,14 @@ Verified: 2026-05-26
 
 ---
 
-## verification_source_count: 4
+## verification_source_count: 5
 
 Sources used:
 1. https://www.chalmers.se/en/persons/delsing/ — official Chalmers staff profile (title, institution, active status)
 2. https://pub.orcid.org/v3.0/0000-0002-1222-3506/employments — ORCID employment history (Professor start 1997, prior roles 1991–1997)
 3. https://api.openalex.org/authors/A5073844805 — OpenAlex author record (metrics, affiliation, topics, ORCID confirmation)
 4. https://www.chalmers.se/en/departments/mc2/research/quantum-technology/ — QTL page (group structure, research focus areas)
+5. https://research.chalmers.se/en/person/delsing — Chalmers Research profile (doctoral thesis 1990, thesis title "Single electron tunneling in ultrasmall tunnel junctions")
 
 Additional sources consulted (papers, DOIs):
 - https://doi.org/10.1038/nature10561 (Nature 2011, dynamical Casimir effect)
