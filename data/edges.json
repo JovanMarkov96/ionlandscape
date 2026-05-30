@@ -490,6 +490,16 @@
     "type": "postdoc_advisor"
   },
   {
+    "source": "000-harry-buhrman",
+    "target": "196-stephanie-wehner",
+    "type": "advisor"
+  },
+  {
+    "source": "000-john-preskill",
+    "target": "196-stephanie-wehner",
+    "type": "postdoc_advisor"
+  },
+  {
     "source": "000-kyungwon-an",
     "target": "060-moonjoo-lee",
     "type": "advisor"
@@ -795,6 +805,11 @@
     "type": "advisor"
   },
   {
+    "source": "182-nicolas-gisin",
+    "target": "198-mikael-afzelius",
+    "type": "advisor"
+  },
+  {
     "source": "000-gunter-werth",
     "target": "009-hartmut-haeffner",
     "type": "advisor"
@@ -895,6 +910,21 @@
     "type": "advisor"
   },
   {
+    "source": "182-nicolas-gisin",
+    "target": "197-hugues-de-riedmatten",
+    "type": "advisor"
+  },
+  {
+    "source": "000-h-jeff-kimble",
+    "target": "197-hugues-de-riedmatten",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "182-nicolas-gisin",
+    "target": "197-hugues-de-riedmatten",
+    "type": "postdoc_advisor"
+  },
+  {
     "source": "112-ronald-hanson",
     "target": "140-machiel-blok",
     "type": "advisor"
@@ -968,6 +998,11 @@
     "source": "000-robert-schoelkopf",
     "target": "152-k-w-lehnert",
     "type": "postdoc_advisor"
+  },
+  {
+    "source": "182-nicolas-gisin",
+    "target": "200-wolfgang-tittel",
+    "type": "advisor"
   },
   {
     "source": "000-eric-a-cornell",

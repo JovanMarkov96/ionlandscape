@@ -3219,6 +3219,34 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "196-stephanie-wehner",
+        "name": "Stephanie Wehner",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Delft University of Technology",
+          "since_year": 2014,
+          "source": "https://qutech.nl/person/stephanie-wehner/",
+          "title": "Antoni van Leeuwenhoek Professor in Quantum Information",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Delft",
+        "country": "The Netherlands",
+        "short_bio": "Stephanie Wehner is the Antoni van Leeuwenhoek Professor in Quantum Information at Delft University of Technology / QuTech, and Director of the European Quantum Internet Alliance (QIA). Her research spans quantum cryptography, quantum communication protocols, and the architectural foundations of a large-scale quantum internet.",
+        "md_filename": "196-stephanie-wehner.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35556,
+          52.006672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-serge-haroche",
         "name": "Serge Haroche",
         "current_position": {
@@ -5241,6 +5269,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "198-mikael-afzelius",
+        "name": "Mikael Afzelius",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Geneva",
+          "source": "https://www.unige.ch/gap/qic/qram/team/Mikael_Afzelius",
+          "title": "Maître d'enseignement et de recherche (Senior Lecturer)",
+          "since_year": null,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Geneva",
+        "country": "Switzerland",
+        "short_bio": "Mikael Afzelius is a Maître d'enseignement et de recherche (senior lecturer/MER) in the Department of Applied Physics at the University of Geneva, where he leads the qram (Quantum Repeaters and Memories) group. He is best known as a co-inventor of the atomic frequency comb (AFC) quantum memory protocol, introduced in a landmark 2009 Physical Review A paper with Christoph Simon, Hugues de Riedmatten, and Nicolas Gisin, which proposed storing light in an inhomogeneously broadened optical transition spectrally shaped into a periodic comb structure and has since become one of the most widely used protocols for rare-earth quantum memories.",
+        "md_filename": "198-mikael-afzelius.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1432,
+          46.2044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-dr-itamar-sivan",
         "name": "Itamar Sivan",
         "current_position": {},
@@ -5563,6 +5621,24 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-siobhan-duffy.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-harry-buhrman",
+        "name": "Harry Buhrman",
+        "current_position": {
+          "institution": "CWI Amsterdam",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-harry-buhrman.md"
       },
       "geometry": null
     },
@@ -5988,6 +6064,36 @@
         "md_filename": "000-gerard-milburn.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "197-hugues-de-riedmatten",
+        "name": "Hugues de Riedmatten",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "ICFO - The Institute of Photonic Sciences",
+          "source": "https://www.icfo.eu/research-group/19/qpsa/home/",
+          "title": "ICREA Professor and Group Leader, Quantum Photonics with Solids and Atoms",
+          "since_year": 2010,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Castelldefels",
+        "country": "Spain",
+        "short_bio": "Hugues de Riedmatten is ICREA Professor and head of the Quantum Photonics with Solids and Atoms (QPSA) group at ICFO — The Institute of Photonic Sciences in Castelldefels, Spain, a position he has held since 2010. He is one of the world's leading experimentalists in quantum memories for light and quantum repeater hardware, with particular expertise in rare-earth-ion-doped crystals and cold atomic ensembles.",
+        "md_filename": "197-hugues-de-riedmatten.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9879,
+          41.2791
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -6451,6 +6557,36 @@
         "md_filename": "000-norman-f-ramsey.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "200-wolfgang-tittel",
+        "name": "Wolfgang Tittel",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Geneva",
+          "source": "https://www.unige.ch/gap/qic/qnet/team",
+          "title": "Professor and Chair (UNIGE / Constructor University joint chair)",
+          "since_year": 2023,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Geneva",
+        "country": "Switzerland",
+        "short_bio": "Wolfgang Tittel (born c. 1969, Germany) is Professor and Chair in Quantum Communications at the University of Geneva, holding a joint appointment with Constructor University established in January 2023. He is one of the leading experimental physicists in quantum communication over optical fibre, with foundational contributions to long-distance quantum entanglement distribution, quantum key distribution, quantum teleportation, and solid-state quantum memories for quantum repeaters.",
+        "md_filename": "200-wolfgang-tittel.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1432,
+          46.2044
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -7102,6 +7238,30 @@
         "md_filename": "000-jay-gupta.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-john-preskill",
+        "name": "John Preskill",
+        "current_position": {
+          "institution": "California Institute of Technology",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Pasadena",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-john-preskill.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.14452,
+          34.14778
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -9260,6 +9420,34 @@
         "coordinates": [
           117.281,
           31.864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "199-nicolas-sangouard",
+        "name": "Nicolas Sangouard",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Institut de Physique Théorique (IPhT), CEA/CNRS/Université Paris-Saclay",
+          "source": "https://quantum.paris/site1/",
+          "title": "Directeur de recherche CEA",
+          "since_year": 2019,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Paris",
+        "country": "France",
+        "short_bio": "",
+        "md_filename": "199-nicolas-sangouard.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3488,
+          48.85341
         ]
       }
     },

@@ -6879,6 +6879,78 @@
     "updated_at": "2026-05-30"
   },
   {
+    "id": "196-stephanie-wehner",
+    "name": "Stephanie Wehner",
+    "sort_name": "Wehner, Stephanie",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Delft University of Technology",
+      "since_year": 2014,
+      "source": "https://qutech.nl/person/stephanie-wehner/",
+      "title": "Antoni van Leeuwenhoek Professor in Quantum Information",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Delft",
+      "region": "",
+      "country": "The Netherlands",
+      "lat": 52.006672,
+      "lon": 4.35556
+    },
+    "education": [
+      {
+        "advisor": "Harry Buhrman",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "degree": "PhD (Computer Science)",
+        "institution": "CWI (Centrum Wiskunde & Informatica)",
+        "source": "https://en.wikipedia.org/wiki/Stephanie_Wehner",
+        "year": 2008
+      }
+    ],
+    "postdocs": [
+      {
+        "advisor": "John Preskill",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "institution": "California Institute of Technology",
+        "source": "https://heritageproject.caltech.edu/interviews/stephanie-wehner",
+        "years": "2008-2010"
+      }
+    ],
+    "keywords": [
+      "quantum internet",
+      "quantum cryptography",
+      "quantum networks",
+      "device-independent QKD",
+      "quantum network protocols",
+      "quantum information theory",
+      "noisy-storage model"
+    ],
+    "group_type": "theory",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?user=PlDS_zYAAAAJ&hl=en",
+      "group_page": "https://qutech.nl/lab/wehner-group/",
+      "institution_profile": "https://qutech.nl/person/stephanie-wehner/",
+      "openalex": "https://openalex.org/A5056296011",
+      "orcid": "https://orcid.org/0000-0002-5985-2561"
+    },
+    "thesis": {
+      "link": "https://ir.cwi.nl/pub/13734/13734B.pdf",
+      "title": "Cryptography in a Quantum World",
+      "year": 2008,
+      "note": "PhD thesis at CWI Amsterdam; advisor Harry Buhrman"
+    },
+    "short_bio": "Stephanie Wehner is the Antoni van Leeuwenhoek Professor in Quantum Information at Delft University of Technology / QuTech, and Director of the European Quantum Internet Alliance (QIA). Her research spans quantum cryptography, quantum communication protocols, and the architectural foundations of a large-scale quantum internet.",
+    "md_filename": "196-stephanie-wehner.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-serge-haroche",
     "name": "Serge Haroche",
     "sort_name": "",
@@ -11265,6 +11337,67 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "198-mikael-afzelius",
+    "name": "Mikael Afzelius",
+    "sort_name": "Afzelius, Mikael",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Geneva",
+      "source": "https://www.unige.ch/gap/qic/qram/team/Mikael_Afzelius",
+      "title": "Maître d'enseignement et de recherche (Senior Lecturer)",
+      "since_year": null,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Geneva",
+      "region": "",
+      "country": "Switzerland",
+      "lat": 46.2044,
+      "lon": 6.1432
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Geneva",
+        "year": null,
+        "advisor": "Nicolas Gisin",
+        "advisor_id": "182-nicolas-gisin",
+        "confidence": "ambiguous",
+        "note": "Afzelius's earliest Geneva publications date to ~2008; PhD advisor inferred as Gisin based on group membership and co-authorship; no primary thesis record found in public databases",
+        "source": "https://www.unige.ch/gap/qic/qram/"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum memory",
+      "atomic frequency comb",
+      "rare-earth ion-doped crystals",
+      "photon echo",
+      "spin-wave storage",
+      "quantum repeaters",
+      "multimode storage",
+      "solid-state quantum optics"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.unige.ch/gap/qic/qram/",
+      "institution_profile": "https://www.unige.ch/gap/qic/qram/team/Mikael_Afzelius",
+      "openalex": "https://openalex.org/A5006794487",
+      "orcid": "https://orcid.org/0000-0001-5659-6038"
+    },
+    "thesis": {},
+    "short_bio": "Mikael Afzelius is a Maître d'enseignement et de recherche (senior lecturer/MER) in the Department of Applied Physics at the University of Geneva, where he leads the qram (Quantum Repeaters and Memories) group. He is best known as a co-inventor of the atomic frequency comb (AFC) quantum memory protocol, introduced in a landmark 2009 Physical Review A paper with Christoph Simon, Hugues de Riedmatten, and Nicolas Gisin, which proposed storing light in an inhomogeneously broadened optical transition spectrally shaped into a periodic comb structure and has since become one of the most widely used protocols for rare-earth quantum memories.",
+    "md_filename": "198-mikael-afzelius.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-dr-itamar-sivan",
     "name": "Itamar Sivan",
     "sort_name": "",
@@ -11915,6 +12048,36 @@
     "thesis": {},
     "short_bio": "",
     "md_filename": "000-siobhan-duffy.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-harry-buhrman",
+    "name": "Harry Buhrman",
+    "sort_name": "",
+    "current_position": {
+      "institution": "CWI Amsterdam",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "theory",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-harry-buhrman.md",
     "created_at": "2026-05-30",
     "updated_at": "2026-05-30"
   },
@@ -12797,6 +12960,98 @@
     "md_filename": "000-gerard-milburn.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "197-hugues-de-riedmatten",
+    "name": "Hugues de Riedmatten",
+    "sort_name": "Riedmatten, Hugues de",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "ICFO - The Institute of Photonic Sciences",
+      "source": "https://www.icfo.eu/research-group/19/qpsa/home/",
+      "title": "ICREA Professor and Group Leader, Quantum Photonics with Solids and Atoms",
+      "since_year": 2010,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Castelldefels",
+      "region": "",
+      "country": "Spain",
+      "lat": 41.2791,
+      "lon": 1.9879
+    },
+    "education": [
+      {
+        "degree": "BSc/MEng (Physics Engineering)",
+        "institution": "EPFL (École Polytechnique Fédérale de Lausanne)",
+        "year": null,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://www.icrea.cat/cvs/17662/hugues-de-riedmatten/"
+      },
+      {
+        "degree": "PhD (Experimental Quantum Optics)",
+        "institution": "University of Geneva",
+        "year": 2003,
+        "advisor": "Nicolas Gisin",
+        "advisor_id": "182-nicolas-gisin",
+        "confidence": "confirmed",
+        "note": "Thesis no. 3480: Photonic entanglement in optical fibers: from long distance quantum teleportation to high-dimensional Hilbert spaces; Group of Applied Physics, University of Geneva.",
+        "source": "https://www.icrea.cat/cvs/17662/hugues-de-riedmatten/"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "California Institute of Technology (Caltech)",
+        "advisor": "H. Jeff Kimble",
+        "advisor_id": null,
+        "years": "2003-2005",
+        "confidence": "confirmed",
+        "note": "Postdoc in the Kimble quantum optics group at Caltech. Co-authored the landmark 2005 Nature paper on measurement-induced entanglement in remote atomic ensembles (Chou, de Riedmatten, Felinto, Polyakov, van Enk, Kimble, Nature 438, 2005).\n",
+        "source": "https://www.nature.com/articles/nature04353"
+      },
+      {
+        "institution": "University of Geneva",
+        "advisor": "Nicolas Gisin",
+        "advisor_id": "182-nicolas-gisin",
+        "years": "2005-2010",
+        "confidence": "confirmed",
+        "note": "Returned to Geneva as senior scientist in the Gisin group after Caltech postdoc; led solid-state quantum memory experiments including the foundational AFC memory and first solid-state photonic entanglement storage results.\n",
+        "source": "https://www.icrea.cat/cvs/17662/hugues-de-riedmatten/"
+      }
+    ],
+    "keywords": [
+      "quantum memories",
+      "atomic frequency combs",
+      "rare-earth doped crystals",
+      "quantum repeaters",
+      "entanglement distribution",
+      "photon echo",
+      "DLCZ protocol",
+      "quantum networks",
+      "quantum frequency conversion",
+      "light-matter interaction"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.icfo.eu/research-group/19/qpsa/home/",
+      "institution_profile": "https://www.icfo.eu/about-icfo/people/directory/?id=491",
+      "openalex": "https://openalex.org/A5030051650",
+      "orcid": "https://orcid.org/0000-0002-4418-0723",
+      "google_scholar": "https://scholar.google.com/citations?user=stPti_UAAAAJ"
+    },
+    "thesis": {},
+    "short_bio": "Hugues de Riedmatten is ICREA Professor and head of the Quantum Photonics with Solids and Atoms (QPSA) group at ICFO — The Institute of Photonic Sciences in Castelldefels, Spain, a position he has held since 2010. He is one of the world's leading experimentalists in quantum memories for light and quantum repeater hardware, with particular expertise in rare-earth-ion-doped crystals and cold atomic ensembles.",
+    "md_filename": "197-hugues-de-riedmatten.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "140-machiel-blok",
@@ -13805,6 +14060,68 @@
     "md_filename": "000-norman-f-ramsey.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "200-wolfgang-tittel",
+    "name": "Wolfgang Tittel",
+    "sort_name": "Tittel, Wolfgang",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Geneva",
+      "source": "https://www.unige.ch/gap/qic/qnet/team",
+      "title": "Professor and Chair (UNIGE / Constructor University joint chair)",
+      "since_year": 2023,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Geneva",
+      "region": "",
+      "country": "Switzerland",
+      "lat": 46.2044,
+      "lon": 6.1432
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Geneva",
+        "year": 2000,
+        "advisor": "Nicolas Gisin",
+        "advisor_id": "182-nicolas-gisin",
+        "confidence": "confirmed",
+        "source": "https://www.unige.ch/gap/qic/qnet/team"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum key distribution",
+      "quantum cryptography",
+      "quantum memory",
+      "quantum repeaters",
+      "quantum teleportation",
+      "entangled photons",
+      "energy-time entanglement",
+      "rare-earth-ion-doped crystals",
+      "quantum networks",
+      "quantum communication"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.unige.ch/gap/qic/qnet/team",
+      "institution_profile": "https://www.unige.ch/gap/qic/qnet/team",
+      "openalex": "https://openalex.org/A5015208075",
+      "orcid": "https://orcid.org/0000-0001-8011-5047"
+    },
+    "thesis": {},
+    "short_bio": "Wolfgang Tittel (born c. 1969, Germany) is Professor and Chair in Quantum Communications at the University of Geneva, holding a joint appointment with Constructor University established in January 2023. He is one of the leading experimental physicists in quantum communication over optical fibre, with foundational contributions to long-distance quantum entanglement distribution, quantum key distribution, quantum teleportation, and solid-state quantum memories for quantum repeaters.",
+    "md_filename": "200-wolfgang-tittel.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-saar-barak",
@@ -15121,6 +15438,37 @@
     "md_filename": "000-jay-gupta.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-john-preskill",
+    "name": "John Preskill",
+    "sort_name": "",
+    "current_position": {
+      "institution": "California Institute of Technology",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Pasadena",
+      "region": "",
+      "country": "United States",
+      "lat": 34.14778,
+      "lon": -118.14452,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "theory",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-john-preskill.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-asif-sinay",
@@ -19583,6 +19931,64 @@
     "thesis": {},
     "short_bio": "",
     "md_filename": "177-chaoyang-lu.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "199-nicolas-sangouard",
+    "name": "Nicolas Sangouard",
+    "sort_name": "Sangouard, Nicolas",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Institut de Physique Théorique (IPhT), CEA/CNRS/Université Paris-Saclay",
+      "source": "https://quantum.paris/site1/",
+      "title": "Directeur de recherche CEA",
+      "since_year": 2019,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Paris",
+      "region": "",
+      "country": "France",
+      "lat": 48.85341,
+      "lon": 2.3488
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "Université de Bourgogne",
+        "year": null,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://www.sfphysique.fr/nicolas-sangouard-laureat-du-prix-charpak-ritz-2025/"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum repeaters",
+      "entanglement distribution",
+      "quantum networks",
+      "device-independent quantum key distribution",
+      "quantum memories",
+      "atomic ensembles",
+      "Bell inequality",
+      "quantum communication"
+    ],
+    "group_type": "theory",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://quantum.paris/site1/",
+      "institution_profile": "https://www.ipht.fr/en/2024/12/the-2025-sfp-et-sps-charpak-ritz-price-awarded-to-nicolas-sangouard/",
+      "openalex": "https://openalex.org/A5063866244",
+      "orcid": "https://orcid.org/0000-0002-0789-1540"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "199-nicolas-sangouard.md",
     "created_at": "2026-05-30",
     "updated_at": "2026-05-30"
   },

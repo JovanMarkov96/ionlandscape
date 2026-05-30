@@ -97,6 +97,8 @@ source,target,type
 006-david-wineland,051-john-chiaverini,postdoc_advisor
 000-john-m-doyle,039-wes-campbell,advisor
 004-christopher-monroe,039-wes-campbell,postdoc_advisor
+000-harry-buhrman,196-stephanie-wehner,advisor
+000-john-preskill,196-stephanie-wehner,postdoc_advisor
 000-kyungwon-an,060-moonjoo-lee,advisor
 015-tracy-northup,060-moonjoo-lee,postdoc_advisor
 076-tilman-esslinger,060-moonjoo-lee,postdoc_advisor
@@ -158,6 +160,7 @@ source,target,type
 000-juan-pablo-paz,025-christian-schmiegelow,advisor
 013-ferdinand-schmidt-kaler,025-christian-schmiegelow,postdoc_advisor
 142-hongkun-park,116-nathalie-p-de-leon,advisor
+182-nicolas-gisin,198-mikael-afzelius,advisor
 000-gunter-werth,009-hartmut-haeffner,advisor
 017-rainer-blatt,009-hartmut-haeffner,postdoc_advisor
 009-hartmut-haeffner,i062-lawrence-berkeley-national-laboratory,affiliated_with
@@ -178,6 +181,9 @@ source,target,type
 000-richard-n-zare,142-hongkun-park,advisor
 000-a-paul-alivisatos,142-hongkun-park,advisor
 000-paul-l-mceuen,142-hongkun-park,advisor
+182-nicolas-gisin,197-hugues-de-riedmatten,advisor
+000-h-jeff-kimble,197-hugues-de-riedmatten,postdoc_advisor
+182-nicolas-gisin,197-hugues-de-riedmatten,postdoc_advisor
 112-ronald-hanson,140-machiel-blok,advisor
 150-irfan-siddiqi,140-machiel-blok,postdoc_advisor
 000-peter-schmelcher,108-igor-lesanovsky,advisor
@@ -193,6 +199,7 @@ source,target,type
 000-eric-a-cornell,078-yuval-shagam,postdoc_advisor
 000-jun-ye,078-yuval-shagam,postdoc_advisor
 000-robert-schoelkopf,152-k-w-lehnert,postdoc_advisor
+182-nicolas-gisin,200-wolfgang-tittel,advisor
 000-eric-a-cornell,024-paul-haljan,advisor
 004-christopher-monroe,024-paul-haljan,postdoc_advisor
 080-mikhail-d-lukin,100-alexey-v-gorshkov,advisor
