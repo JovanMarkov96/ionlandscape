@@ -184,6 +184,16 @@ body,
   .ql-mark-only { display: block !important; height: 30px; }
 }
 
+/* Support (Ko-fi) button — subtle warm heart, stays inconspicuous */
+.navbar-support-btn svg {
+  color: #ff6b8a;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+.navbar-support-btn:hover svg {
+  transform: scale(1.12);
+  filter: drop-shadow(0 0 5px rgba(255, 107, 138, 0.55));
+}
+
 /* ===== Welcome splash wordmark ===== */
 .welcome-brand {
   display: flex;
