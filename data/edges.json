@@ -20,6 +20,11 @@
     "type": "affiliated_with"
   },
   {
+    "source": "000-herbert-walther",
+    "target": "194-gerd-leuchs",
+    "type": "advisor"
+  },
+  {
     "source": "000-atac-imamoglu",
     "target": "124-patrick-maletinsky",
     "type": "advisor"
@@ -28,6 +33,11 @@
     "source": "000-shinji-urabe",
     "target": "056-kenji-toyoda",
     "type": "advisor"
+  },
+  {
+    "source": "000-atac-imamoglu",
+    "target": "183-mete-atature",
+    "type": "postdoc_advisor"
   },
   {
     "source": "000-beat-h-meier",
@@ -182,6 +192,11 @@
   {
     "source": "000-randy-hulet",
     "target": "066-wenhui-li",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "194-gerd-leuchs",
+    "target": "185-ulrik-andersen",
     "type": "postdoc_advisor"
   },
   {
@@ -685,6 +700,11 @@
     "type": "advisor"
   },
   {
+    "source": "190-jeremy-obrien",
+    "target": "184-anthony-laing",
+    "type": "advisor"
+  },
+  {
     "source": "017-rainer-blatt",
     "target": "014-thomas-monz",
     "type": "advisor"
@@ -783,6 +803,16 @@
     "source": "000-theodor-w-hansch",
     "target": "083-markus-greiner",
     "type": "advisor"
+  },
+  {
+    "source": "000-anton-zeilinger",
+    "target": "178-philip-walther",
+    "type": "advisor"
+  },
+  {
+    "source": "000-mikhail-lukin",
+    "target": "178-philip-walther",
+    "type": "postdoc_advisor"
   },
   {
     "source": "004-christopher-monroe",
@@ -920,6 +950,16 @@
     "type": "postdoc_advisor"
   },
   {
+    "source": "000-anton-zeilinger",
+    "target": "176-jian-wei-pan",
+    "type": "advisor"
+  },
+  {
+    "source": "000-anton-zeilinger",
+    "target": "176-jian-wei-pan",
+    "type": "postdoc_advisor"
+  },
+  {
     "source": "080-mikhail-d-lukin",
     "target": "129-lilian-childress",
     "type": "advisor"
@@ -943,6 +983,11 @@
     "source": "000-michel-devoret",
     "target": "175-zaki-leghtas",
     "type": "postdoc_advisor"
+  },
+  {
+    "source": "000-anton-zeilinger",
+    "target": "188-rupert-ursin",
+    "type": "advisor"
   },
   {
     "source": "000-deborah-jin",
@@ -1215,6 +1260,11 @@
     "type": "postdoc_advisor"
   },
   {
+    "source": "000-anton-zeilinger",
+    "target": "192-sven-ramelow",
+    "type": "advisor"
+  },
+  {
     "source": "000-andrew-white",
     "target": "077-ben-lanyon",
     "type": "advisor"
@@ -1242,6 +1292,11 @@
   {
     "source": "000-gerhard-rempe",
     "target": "143-andreas-reiserer",
+    "type": "advisor"
+  },
+  {
+    "source": "176-jian-wei-pan",
+    "target": "177-chaoyang-lu",
     "type": "advisor"
   },
   {

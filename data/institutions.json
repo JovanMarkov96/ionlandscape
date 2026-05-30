@@ -141,13 +141,14 @@
       ],
       "alumni": [
         "124-patrick-maletinsky.md",
+        "183-mete-atature.md",
         "035-stefan-willitsch.md",
         "172-j-m-fink.md",
         "169-pasquale-scarlino.md"
       ],
       "company_spinouts": [],
       "member_count": 7,
-      "alumni_count": 4
+      "alumni_count": 5
     },
     "sources": [
       {
@@ -318,6 +319,7 @@
         "086-manuel-endres.md",
         "116-nathalie-p-de-leon.md",
         "089-hannes-bernien.md",
+        "178-philip-walther.md",
         "122-dirk-englund.md",
         "100-alexey-v-gorshkov.md",
         "129-lilian-childress.md",
@@ -333,7 +335,7 @@
         "c006-quera-computing"
       ],
       "member_count": 7,
-      "alumni_count": 25
+      "alumni_count": 26
     },
     "sources": [
       {
@@ -607,10 +609,12 @@
         "000-keith-burnett.md",
         "036-richard-thompson.md"
       ],
-      "alumni": [],
+      "alumni": [
+        "181-ian-walmsley.md"
+      ],
       "company_spinouts": [],
       "member_count": 2,
-      "alumni_count": 0
+      "alumni_count": 1
     },
     "sources": [
       {
@@ -804,13 +808,15 @@
     "media": {},
     "directory": {
       "current_members": [
-        "000-rongdian-han.md"
+        "000-rongdian-han.md",
+        "176-jian-wei-pan.md",
+        "177-chaoyang-lu.md"
       ],
       "alumni": [
         "131-jiangfeng-du.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 3,
       "alumni_count": 1
     },
     "sources": [
@@ -855,6 +861,7 @@
     "directory": {
       "current_members": [
         "059-shuichi-hasegawa.md",
+        "195-ulrik-l-andersen.md",
         "058-atsushi-noguchi.md"
       ],
       "alumni": [
@@ -863,7 +870,7 @@
         "055-takashi-mukaiyama.md"
       ],
       "company_spinouts": [],
-      "member_count": 2,
+      "member_count": 3,
       "alumni_count": 3
     },
     "sources": [
@@ -1152,11 +1159,12 @@
     "media": {},
     "directory": {
       "current_members": [
-        "134-oliver-benson.md"
+        "134-oliver-benson.md",
+        "192-sven-ramelow.md"
       ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 2,
       "alumni_count": 0
     },
     "sources": [
@@ -1676,11 +1684,12 @@
       ],
       "alumni": [
         "008-john-bollinger.md",
-        "115-d-d-awschalom.md"
+        "115-d-d-awschalom.md",
+        "192-sven-ramelow.md"
       ],
       "company_spinouts": [],
       "member_count": 3,
-      "alumni_count": 2
+      "alumni_count": 3
     },
     "sources": [
       {
@@ -4474,6 +4483,7 @@
       "current_members": [
         "105-andrew-j-daley.md",
         "037-david-lucas.md",
+        "181-ian-walmsley.md",
         "000-peter-leek.md"
       ],
       "alumni": [
@@ -4488,7 +4498,7 @@
       "company_spinouts": [
         "c023-oxford-quantum-circuits"
       ],
-      "member_count": 3,
+      "member_count": 4,
       "alumni_count": 7
     },
     "sources": [
@@ -4696,10 +4706,12 @@
     },
     "media": {},
     "directory": {
-      "current_members": [],
+      "current_members": [
+        "188-rupert-ursin.md"
+      ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 0,
+      "member_count": 1,
       "alumni_count": 0
     },
     "sources": [],
@@ -5814,6 +5826,7 @@
         "081-immanuel-bloch.md"
       ],
       "alumni": [
+        "194-gerd-leuchs.md",
         "007-dietrich-leibfried.md",
         "136-david-hunger.md",
         "086-manuel-endres.md",
@@ -5821,7 +5834,7 @@
       ],
       "company_spinouts": [],
       "member_count": 1,
-      "alumni_count": 4
+      "alumni_count": 5
     },
     "sources": [
       {

@@ -82,6 +82,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "194-gerd-leuchs",
+        "name": "Gerd Leuchs",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Max Planck Institute for the Science of Light",
+          "since_year": 2019,
+          "source": "https://mpl.mpg.de/research-at-mpl/leuchs-emeritus-group",
+          "title": "Director Emeritus",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Erlangen",
+        "country": "Germany",
+        "short_bio": "Gerd Leuchs (born 14 June 1950) is a German experimental physicist and Director Emeritus at the Max Planck Institute for the Science of Light (MPL) in Erlangen, Germany, and Senior Professor (emeritus) at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU). He is one of the pioneering figures in continuous-variable (CV) quantum information and quantum optics, with foundational contributions to squeezed light, fiber-optical quantum communication, quantum key distribution, and polarization-structured light.",
+        "md_filename": "194-gerd-leuchs.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.002,
+          49.5986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-jan-michael-rost",
         "name": "Jan-Michael Rost",
         "current_position": {
@@ -151,6 +181,36 @@
         "coordinates": [
           135.5023,
           34.6937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "183-mete-atature",
+        "name": "Mete Atatüre",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Cambridge",
+          "source": "https://www.phy.cam.ac.uk/profile/prof-mete-atature/",
+          "title": "Head of Department and Professor of Physics",
+          "since_year": 2023,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Cambridge",
+        "country": "United Kingdom",
+        "short_bio": "",
+        "md_filename": "183-mete-atature.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1132,
+          52.2054
         ]
       }
     },
@@ -559,6 +619,36 @@
         "md_filename": "000-guy-raz.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "190-jeremy-obrien",
+        "name": "Jeremy L. O'Brien",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "PsiQuantum",
+          "since_year": 2016,
+          "source": "https://www.psiquantum.com/news-import/psiquantum-appoints-victor-peng",
+          "title": "Executive Chairman and Co-Founder",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Palo Alto",
+        "country": "United States",
+        "short_bio": "Jeremy L. O'Brien is an experimental quantum physicist who pioneered integrated quantum photonics and co-founded PsiQuantum, the world's largest quantum computing start-up by funding. He received his PhD in physics from the University of New South Wales in 2002, then held a research fellowship at the University of Queensland (2001–2006) before becoming Professor of Physics and Electrical Engineering at the University of Bristol (2006–2016), where he founded and directed the Centre for Quantum Photonics (CQP) and the Quantum Engineering Technology Labs (QET Labs). In 2016 he co-founded PsiQuantum with Terry Rudolph, Pete Shadbolt, and Mark Thompson to build utility-scale fault-tolerant quantum computers using a silicon photonics manufacturing platform. He served as CEO until February 2026, when he became Executive Chairman. O'Brien demonstrated the first optical two-qubit CNOT gate (Nature, 2003), invented integrated quantum photonics by implementing quantum circuits on silica-on-silicon waveguide chips (Science, 2008), and co-invented the variational quantum eigensolver (VQE) algorithm on a photonic processor (Nature Communications, 2014). His group built the first universal linear optics processor (Science, 2015) and implemented Shor's factoring algorithm on a photonic chip (Science, 2009). He holds an h-index of 92 with over 51,000 citations.",
+        "md_filename": "190-jeremy-obrien.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.143,
+          37.4419
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1014,6 +1104,39 @@
         "coordinates": [
           116.4074,
           39.9042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "185-ulrik-andersen",
+        "name": "Ulrik Lund Andersen",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Technical University of Denmark",
+          "since_year": 2012,
+          "source": "https://orbit.dtu.dk/en/persons/ulrik-lund-andersen/",
+          "title": "Professor, Department of Physics; Director, bigQ — Center for Macroscopic Quantum States",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [
+          "Alea Quantum Technologies",
+          "DIASENSE"
+        ],
+        "city": "Kongens Lyngby",
+        "country": "Denmark",
+        "short_bio": "Ulrik Lund Andersen (born 1972) is Professor of Physics at the Technical University of Denmark (DTU) and Director of bigQ — the Center for Macroscopic Quantum States — where he heads the Quantum Information group. He is one of the leading figures in continuous-variable (CV) quantum information, pioneering experimental and theoretical work on squeezed light, photonic cluster states, CV quantum key distribution, hybrid discrete-CV protocols, and bosonic error correction with the Gottesman–Kitaev–Preskill (GKP) code.",
+        "md_filename": "185-ulrik-andersen.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5233,
+          55.7858
         ]
       }
     },
@@ -2195,6 +2318,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "187-hugo-zbinden",
+        "name": "Hugo Zbinden",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Geneva",
+          "source": "https://www.unige.ch/gap/qic/qtech/news/hugo-zbinden-retires-after-30-years-department-applied-physics",
+          "title": "Honorary Professor",
+          "since_year": 2023,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Geneva",
+        "country": "Switzerland",
+        "short_bio": "Hugo Zbinden (born 1961, Bern) is Honorary Professor of Physics at the University of Geneva, where he spent more than three decades at the Department of Applied Physics. He studied physics at the University of Bern, receiving an MSc in climate physics (1987) and a PhD in laser physics (1991). After a short postdoctoral industry project in Bern, he joined the University of Geneva in 1993 as a postdoc in Nicolas Gisin's group, was appointed MER (Maître d'enseignement et de recherche) in 1998, promoted to Associate Professor in 2012 when he launched the dedicated Quantum Technologies group, and retired in 2023 while retaining an honorary professorship. He is currently also involved in establishing the Vigo Quantum Communication Center at the University of Vigo.",
+        "md_filename": "187-hugo-zbinden.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1432,
+          46.2044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-niek-van-hulst",
         "name": "Niek van Hulst",
         "current_position": {
@@ -3102,6 +3255,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "186-tobias-heindel",
+        "name": "Tobias Heindel",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Münster",
+          "since_year": 2025,
+          "source": "https://www.uni-muenster.de/Physik.DQT/en/heindel/index.html",
+          "title": "Professor of Photonic Quantum Networks, Department for Quantum Technology",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Münster",
+        "country": "Germany",
+        "short_bio": "Tobias Heindel is Professor of Photonic Quantum Networks at the Department for Quantum Technology, University of Münster. He is one of Germany's leading experimentalists in semiconductor quantum photonics, specialising in the development of high-purity quantum dot single-photon sources and their deployment in quantum key distribution (QKD) and photonic quantum networks.",
+        "md_filename": "186-tobias-heindel.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6261,
+          51.9607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-paul-vitanyi",
         "name": "Paul Vitányi",
         "current_position": {
@@ -3272,6 +3455,95 @@
         "coordinates": [
           -1.2577,
           51.752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "181-ian-walmsley",
+        "name": "Ian Walmsley",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Oxford",
+          "since_year": 2025,
+          "source": "https://www.physics.ox.ac.uk/our-people/walmsley",
+          "title": "Director, Oxford Quantum Institute; Professor of Physics",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Oxford",
+        "country": "United Kingdom",
+        "short_bio": "Ian Alexander Walmsley CBE FRS is Director of the Oxford Quantum Institute and Professor of Physics at the University of Oxford (from October 2025). He is a world-leading expert in ultrafast and quantum optics, known for inventing the SPIDER (Spectral Phase Interferometry for Direct Electric-field Reconstruction) technique for ultrashort-pulse characterisation, and for foundational contributions to photonic quantum computing, quantum memories, and photon-pair generation. He received his BSc from Imperial College London and his PhD (1986) from the Institute of Optics, University of Rochester, under Michael G. Raymer, before joining the Rochester faculty (1988–2001, including Director of the Institute 2000–2001). He then moved to Oxford as Hooke Professor of Experimental Physics and Pro-Vice-Chancellor for Research, before serving as Provost and Chair of Experimental Physics at Imperial College London (2018–2025). He is a co-founder of ORCA Computing (2019) and was Director of the Networked Quantum Information Technologies (NQIT) Hub. He was elected Fellow of the Royal Society in 2012 and awarded the Rumford Medal in 2018.",
+        "md_filename": "181-ian-walmsley.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2544,
+          51.7548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "189-marco-bellini",
+        "name": "Marco Bellini",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Istituto Nazionale di Ottica",
+          "since_year": 2010,
+          "source": "https://quantumlight.ino.cnr.it/people/marco-bellini/",
+          "title": "Research Director",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Florence",
+        "country": "Italy",
+        "short_bio": "",
+        "md_filename": "189-marco-bellini.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2558,
+          43.7696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "191-terry-rudolph",
+        "name": "Terry Rudolph",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "PsiQuantum",
+          "source": "https://www.psiquantum.com/prof-terry-rudolph",
+          "title": "Co-Founder and Chief Architect",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Palo Alto",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "191-terry-rudolph.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.143,
+          37.4419
         ]
       }
     },
@@ -4265,6 +4537,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "184-anthony-laing",
+        "name": "Anthony Laing",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Bristol",
+          "since_year": 2016,
+          "source": "https://www.bristol.ac.uk/people/person/Anthony-Laing-441d9293-60d0-4d91-9fde-cb15e13441d2/",
+          "title": "Professor of Physics, School of Physics; Co-Director, Quantum Engineering Technology Labs (QET Labs)",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Bristol",
+        "country": "United Kingdom",
+        "short_bio": "Anthony Laing is Professor of Physics and Co-Director of QET Labs (Quantum Engineering Technology Labs) at the University of Bristol. He is a leading experimentalist in integrated photonic quantum computing and simulation. His group pioneers reconfigurable waveguide chips that implement quantum walks, boson sampling, and molecular vibrational simulations — using programmable silica-on-silicon and silicon photonic circuits to process quantum information with single photons. He invented the Reference Frame Independent Quantum Key Distribution (RFI-QKD) protocol (2010, patented with Nokia) and contributed to landmark demonstrations including the first fully reconfigurable entanglement chip (Nature Photonics 2012), the universal linear optics processor (Science 2015), and photonic molecular dynamics simulation (Nature 2018). In 2016 he was appointed Lecturer in Physics and awarded a 5-year EPSRC Quantum Technologies Fellowship; he was later promoted to full Professor. He obtained both his MSc and PhD from the University of Bristol, working in Jeremy O'Brien's Centre for Quantum Photonics. In 2020 he co-founded Duality Quantum Photonics (with Alberto Politi as CTO), a Bristol spin-out developing scalable integrated photonic quantum hardware, and serves as its CEO.",
+        "md_filename": "184-anthony-laing.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5879,
+          51.4545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "014-thomas-monz",
         "name": "Thomas Monz",
         "current_position": {
@@ -4895,6 +5197,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "178-philip-walther",
+        "name": "Philip Walther",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Vienna",
+          "source": "https://walther.quantum.at/detailview-news/news/professor/",
+          "title": "Professor of Experimental Photonic Quantum Computing",
+          "since_year": 2015,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Vienna",
+        "country": "Austria",
+        "short_bio": "",
+        "md_filename": "178-philip-walther.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3568,
+          48.2093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-robert-a-buhrman",
         "name": "Robert A. Buhrman",
         "current_position": {
@@ -5189,6 +5521,36 @@
         "coordinates": [
           -3.19648,
           55.952061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "182-nicolas-gisin",
+        "name": "Nicolas Gisin",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Geneva",
+          "source": "https://www.unige.ch/gap/qic/gisin/",
+          "title": "Professor Emeritus",
+          "since_year": null,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Geneva",
+        "country": "Switzerland",
+        "short_bio": "Nicolas Gisin (born 1952) is Professor Emeritus of Physics at the University of Geneva, where he led the Quantum Information and Communication (QIC) group in the Department of Applied Physics for more than two decades. He is one of the founding figures of experimental quantum cryptography and long-distance quantum communication. In 1993 he demonstrated quantum key distribution in optical fiber, and in 1997 his group performed the first Bell inequality violation test with photons more than 10 km apart over deployed telecom fiber beneath Lake Geneva. In 2003 the group achieved the first long-distance teleportation of qubits at telecommunication wavelengths. He co-founded ID Quantique in 2001, one of the world's first commercial quantum cryptography companies. His 2002 Reviews of Modern Physics article on quantum cryptography (with Ribordy, Tittel, and Zbinden) has accumulated more than 12,000 citations and remains the standard reference in the field. Despite emeritus status he remains research-active, publishing in 2024 on Bell inequalities and foundational quantum mechanics, and was awarded the Micius Quantum Prize in 2023 and an honorary doctorate from the University of York in 2025.",
+        "md_filename": "182-nicolas-gisin.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1432,
+          46.2044
         ]
       }
     },
@@ -5505,6 +5867,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "195-ulrik-l-andersen",
+        "name": "Akira Furusawa",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Tokyo",
+          "since_year": 2007,
+          "source": "https://en.wikipedia.org/wiki/Akira_Furusawa",
+          "title": "Professor (Department of Applied Physics)",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Tokyo",
+        "country": "Japan",
+        "short_bio": "Akira Furusawa (born 1961) is a Japanese experimental physicist and Professor in the Department of Applied Physics, School of Engineering, at the University of Tokyo. He is one of the world's foremost authorities on continuous-variable (CV) quantum information science, best known for leading the first experimental demonstration of unconditional quantum teleportation (Science 1998) and for pioneering the generation of ultra-large-scale CV cluster states as a resource for measurement-based optical quantum computing.",
+        "md_filename": "195-ulrik-l-andersen.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7614,
+          35.7127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "062-dan-cho",
         "name": "Dan Cho",
         "current_position": {
@@ -5791,6 +6183,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "180-pascale-senellart",
+        "name": "Pascale Senellart",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Centre de Nanosciences et de Nanotechnologies (C2N)",
+          "since_year": 2011,
+          "source": "https://goss.c2n.universite-paris-saclay.fr/en/members/pascale-senellart-mardon/",
+          "title": "CNRS Research Director",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Palaiseau",
+        "country": "France",
+        "short_bio": "",
+        "md_filename": "180-pascale-senellart.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1692,
+          48.7136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "069-sadiq-rangwala",
         "name": "S. A. Rangwala",
         "current_position": {
@@ -5812,6 +6234,37 @@
         "coordinates": [
           77.5946,
           12.9716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "176-jian-wei-pan",
+        "name": "Jian-Wei Pan",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Science and Technology of China",
+          "source": "https://quantum.ustc.edu.cn/web/en/node/32",
+          "title": "Professor; Executive Vice President",
+          "since_year": 2001,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic",
+          "quantum_dot"
+        ],
+        "affiliations": [],
+        "city": "Hefei",
+        "country": "China",
+        "short_bio": "",
+        "md_filename": "176-jian-wei-pan.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.281,
+          31.864
         ]
       }
     },
@@ -6015,6 +6468,36 @@
         "coordinates": [
           2.3488,
           48.85341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "188-rupert-ursin",
+        "name": "Rupert Ursin",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Austrian Academy of Sciences",
+          "since_year": 2013,
+          "source": "https://en.wikipedia.org/wiki/Rupert_Ursin",
+          "title": "Senior Research Group Leader and Deputy Director, IQOQI Vienna (Institute for Quantum Optics and Quantum Information)",
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Vienna",
+        "country": "Austria",
+        "short_bio": "Rupert Ursin (born 26 January 1973) is an Austrian experimental physicist and Senior Research Group Leader and Deputy Director at IQOQI Vienna (Institute for Quantum Optics and Quantum Information, Austrian Academy of Sciences). He completed his PhD in 2006 at the University of Vienna under Anton Zeilinger, working on quantum teleportation over long distances. He is best known for distributing entangled photons over a 144 km free-space link between the Canary Islands (La Palma–Tenerife, 2007), and for co-authoring the first experimental demonstration of free-space decoy-state QKD over 144 km (PRL, 2007). He contributed to the Micius satellite-relayed intercontinental quantum network demonstration (PRL, 2018) and to the significant-loophole-free Bell test with entangled photons (PRL, 2015). He has received the Christian-Doppler-Prize (2009) and the Gründungspreis Phönix (2023), and is also CEO of Quantum Technology Laboratories GmbH.",
+        "md_filename": "188-rupert-ursin.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3568,
+          48.2093
         ]
       }
     },
@@ -7693,6 +8176,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "192-sven-ramelow",
+        "name": "Sven Ramelow",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Humboldt-Universität zu Berlin",
+          "source": "https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-junior-fellows/sven-ramelow",
+          "title": "Assistant Professor and Emmy Noether Group Leader (Nonlinear Quantum Optics)",
+          "since_year": 2016,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Berlin",
+        "country": "Germany",
+        "short_bio": "",
+        "md_filename": "192-sven-ramelow.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.411,
+          52.524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "077-ben-lanyon",
         "name": "Ben P. Lanyon",
         "current_position": {
@@ -8012,6 +8525,65 @@
         "md_filename": "000-michel-orrit.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "179-fabio-sciarrino",
+        "name": "Fabio Sciarrino",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Sapienza University of Rome",
+          "since_year": 2016,
+          "source": "https://trasparenza.fbk.eu/ocmultibinary/download/64424/1091082/7/c0a873c01cb2d352af3bf3d26db66d6c.pdf/file/CV+Sciarrino.pdf",
+          "title": "Full Professor of Physics"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Rome",
+        "country": "Italy",
+        "short_bio": "",
+        "md_filename": "179-fabio-sciarrino.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5139,
+          41.8987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "177-chaoyang-lu",
+        "name": "Chaoyang Lu",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "University of Science and Technology of China",
+          "source": "https://quantum.ustc.edu.cn/web/en/node/137",
+          "title": "Chair Professor",
+          "since_year": 2022,
+          "verified_at": "2026-05-30"
+        },
+        "platforms": [
+          "photonic"
+        ],
+        "affiliations": [],
+        "city": "Hefei",
+        "country": "China",
+        "short_bio": "",
+        "md_filename": "177-chaoyang-lu.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.281,
+          31.864
+        ]
+      }
     },
     {
       "type": "Feature",

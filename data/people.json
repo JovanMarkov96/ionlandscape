@@ -171,6 +171,67 @@
     "updated_at": "2026-05-30"
   },
   {
+    "id": "194-gerd-leuchs",
+    "name": "Gerd Leuchs",
+    "sort_name": "Leuchs, Gerd",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Max Planck Institute for the Science of Light",
+      "since_year": 2019,
+      "source": "https://mpl.mpg.de/research-at-mpl/leuchs-emeritus-group",
+      "title": "Director Emeritus",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Erlangen",
+      "region": "",
+      "country": "Germany",
+      "lat": 49.5986,
+      "lon": 11.002
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "Ludwig-Maximilians-Universität München",
+        "year": 1978,
+        "advisor": "Herbert Walther",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Gerd_Leuchs"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "continuous-variable quantum information",
+      "quantum key distribution",
+      "squeezed light",
+      "optical fiber quantum communication",
+      "free-space QKD",
+      "satellite quantum communication",
+      "quantum optics",
+      "radially polarized light",
+      "nanophotonics"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "orcid": "https://orcid.org/0000-0002-1108-6284",
+      "openalex": "https://openalex.org/A5007699021",
+      "google_scholar": "https://scholar.google.com/citations?user=1jBuXm8AAAAJ",
+      "group_page": "https://mpl.mpg.de/research-at-mpl/leuchs-emeritus-group"
+    },
+    "thesis": {},
+    "short_bio": "Gerd Leuchs (born 14 June 1950) is a German experimental physicist and Director Emeritus at the Max Planck Institute for the Science of Light (MPL) in Erlangen, Germany, and Senior Professor (emeritus) at Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU). He is one of the pioneering figures in continuous-variable (CV) quantum information and quantum optics, with foundational contributions to squeezed light, fiber-optical quantum communication, quantum key distribution, and polarization-structured light.",
+    "md_filename": "194-gerd-leuchs.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-jan-michael-rost",
     "name": "Jan-Michael Rost",
     "sort_name": "",
@@ -324,6 +385,86 @@
     "md_filename": "056-kenji-toyoda.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-05-04"
+  },
+  {
+    "id": "183-mete-atature",
+    "name": "Mete Atatüre",
+    "sort_name": "Atatüre, Mete",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Cambridge",
+      "source": "https://www.phy.cam.ac.uk/profile/prof-mete-atature/",
+      "title": "Head of Department and Professor of Physics",
+      "since_year": 2023,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Cambridge",
+      "region": "",
+      "country": "United Kingdom",
+      "lat": 52.2054,
+      "lon": 0.1132
+    },
+    "education": [
+      {
+        "degree": "BS (Physics)",
+        "institution": "Bilkent University",
+        "year": 1996,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://www.phy.cam.ac.uk/profile/prof-mete-atature/"
+      },
+      {
+        "degree": "PhD (Physics)",
+        "institution": "Boston University",
+        "year": 2002,
+        "advisor": "Alexander Sergienko",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://www.csap.cam.ac.uk/network/mete-atature/"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "ETH Zurich",
+        "advisor": "Atac Imamoglu",
+        "advisor_id": null,
+        "years": "2002–2007",
+        "source": "https://www.phy.cam.ac.uk/profile/prof-mete-atature/"
+      }
+    ],
+    "keywords": [
+      "quantum dot spins",
+      "spin-photon interfaces",
+      "single-photon sources",
+      "spin-photon entanglement",
+      "quantum networking",
+      "solid-state quantum optics",
+      "nanophotonic cavities",
+      "2D materials",
+      "diamond colour centres",
+      "quantum sensing"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "orcid": "https://orcid.org/0000-0002-1661-1790",
+      "openalex": "https://openalex.org/A5016555254",
+      "google_scholar": "https://scholar.google.com/citations?user=Yn5idQMAAAAJ",
+      "institution_profile": "https://www.phy.cam.ac.uk/profile/prof-mete-atature/",
+      "group_page": "http://www.quantum.cam.ac.uk/mete-atature"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "183-mete-atature.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "126-christian-l-degen",
@@ -1297,6 +1438,68 @@
     "thesis": {},
     "short_bio": "",
     "md_filename": "000-guy-raz.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "190-jeremy-obrien",
+    "name": "Jeremy L. O'Brien",
+    "sort_name": "O'Brien, Jeremy L.",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "PsiQuantum",
+      "since_year": 2016,
+      "source": "https://www.psiquantum.com/news-import/psiquantum-appoints-victor-peng",
+      "title": "Executive Chairman and Co-Founder",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Palo Alto",
+      "region": "",
+      "country": "United States",
+      "lat": 37.4419,
+      "lon": -122.143
+    },
+    "education": [
+      {
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "not_found",
+        "degree": "PhD",
+        "institution": "University of New South Wales",
+        "note": "PhD in Physics from UNSW 2002; experimental work on correlated and confined electrons in organic conductors, superconductors and semiconductor nanostructures, and progress towards phosphorus-in-silicon quantum computer; advisor not found in accessible sources",
+        "source": "https://www.optica.org/history/biographies/bios/jeremy_l_o_brien/",
+        "year": 2002
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "linear optical quantum computing",
+      "integrated quantum photonics",
+      "photonic quantum gates",
+      "reconfigurable photonic circuits",
+      "silicon photonics",
+      "boson sampling",
+      "variational quantum eigensolver",
+      "quantum walks",
+      "photon pair sources",
+      "fault-tolerant photonic quantum computing"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "google_scholar": "https://scholar.google.com/citations?user=BxIIt5QAAAAJ",
+      "openalex": "https://openalex.org/A5037648752",
+      "orcid": "https://orcid.org/0000-0002-0841-5580"
+    },
+    "thesis": {},
+    "short_bio": "Jeremy L. O'Brien is an experimental quantum physicist who pioneered integrated quantum photonics and co-founded PsiQuantum, the world's largest quantum computing start-up by funding. He received his PhD in physics from the University of New South Wales in 2002, then held a research fellowship at the University of Queensland (2001–2006) before becoming Professor of Physics and Electrical Engineering at the University of Bristol (2006–2016), where he founded and directed the Centre for Quantum Photonics (CQP) and the Quantum Engineering Technology Labs (QET Labs). In 2016 he co-founded PsiQuantum with Terry Rudolph, Pete Shadbolt, and Mark Thompson to build utility-scale fault-tolerant quantum computers using a silicon photonics manufacturing platform. He served as CEO until February 2026, when he became Executive Chairman. O'Brien demonstrated the first optical two-qubit CNOT gate (Nature, 2003), invented integrated quantum photonics by implementing quantum circuits on silica-on-silicon waveguide chips (Science, 2008), and co-invented the variational quantum eigensolver (VQE) algorithm on a photonic processor (Nature Communications, 2014). His group built the first universal linear optics processor (Science, 2015) and implemented Shor's factoring algorithm on a photonic chip (Science, 2009). He holds an h-index of 92 with over 51,000 citations.",
+    "md_filename": "190-jeremy-obrien.md",
     "created_at": "2026-05-30",
     "updated_at": "2026-05-30"
   },
@@ -2279,6 +2482,101 @@
     "updated_at": "2026-05-04"
   },
   {
+    "id": "185-ulrik-andersen",
+    "name": "Ulrik Lund Andersen",
+    "sort_name": "Andersen, Ulrik Lund",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Technical University of Denmark",
+      "since_year": 2012,
+      "source": "https://orbit.dtu.dk/en/persons/ulrik-lund-andersen/",
+      "title": "Professor, Department of Physics; Director, bigQ — Center for Macroscopic Quantum States",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [
+      {
+        "name": "Alea Quantum Technologies",
+        "type": "company",
+        "role": "Co-founder and scientific advisor",
+        "entity_id": null,
+        "source": "https://alea-quantum.com"
+      },
+      {
+        "name": "DIASENSE",
+        "type": "company",
+        "role": "Co-founder and scientific advisor",
+        "entity_id": null,
+        "source": "https://www.diasense.dk"
+      }
+    ],
+    "location": {
+      "city": "Kongens Lyngby",
+      "region": "",
+      "country": "Denmark",
+      "lat": 55.7858,
+      "lon": 12.5233
+    },
+    "education": [
+      {
+        "degree": "MSc (Applied Physics)",
+        "institution": "Technical University of Denmark",
+        "year": 1999,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Ulrik_Lund_Andersen"
+      },
+      {
+        "degree": "PhD (Applied Physics)",
+        "institution": "Technical University of Denmark",
+        "year": 2003,
+        "advisor": "Preben Buchhave",
+        "advisor_id": null,
+        "confidence": "ambiguous",
+        "note": "PhD at DTU confirmed (2003); advisor inferred from joint publication record — Andersen and Buchhave co-authored \"Squeezing and entanglement in doubly resonant, type II, second-harmonic generation\" (JOSAB 2003) reflecting thesis-period work. No authoritative source names Buchhave explicitly as supervisor.",
+        "source": "https://en.wikipedia.org/wiki/Ulrik_Lund_Andersen"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "University of Erlangen-Nuremberg",
+        "advisor": "Gerd Leuchs",
+        "years": "2003-2006",
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Ulrik_Lund_Andersen"
+      }
+    ],
+    "keywords": [
+      "continuous-variable quantum information",
+      "squeezed light",
+      "quantum key distribution",
+      "photonic cluster states",
+      "GKP error correction",
+      "quantum random number generation",
+      "hybrid quantum information",
+      "quantum optics",
+      "measurement-based quantum computing"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "institution_profile": "https://orbit.dtu.dk/en/persons/ulrik-lund-andersen/",
+      "openalex": "https://openalex.org/A5020064397",
+      "orcid": "https://orcid.org/0000-0002-6256-1902",
+      "google_scholar": "https://scholar.google.com/citations?user=UAA685oAAAAJ",
+      "group_page": "https://bigq.dtu.dk/"
+    },
+    "thesis": {},
+    "short_bio": "Ulrik Lund Andersen (born 1972) is Professor of Physics at the Technical University of Denmark (DTU) and Director of bigQ — the Center for Macroscopic Quantum States — where he heads the Quantum Information group. He is one of the leading figures in continuous-variable (CV) quantum information, pioneering experimental and theoretical work on squeezed light, photonic cluster states, CV quantum key distribution, hybrid discrete-CV protocols, and bosonic error correction with the Gottesman–Kitaev–Preskill (GKP) code.",
+    "md_filename": "185-ulrik-andersen.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-keith-burnett",
     "name": "Keith Burnett",
     "sort_name": "",
@@ -2385,7 +2683,18 @@
       "lat": 57.70716,
       "lon": 11.96679
     },
-    "education": [],
+    "education": [
+      {
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "degree": "PhD (Theoretical Physics)",
+        "institution": "Chalmers University of Technology",
+        "year": 1972,
+        "source": "https://research.chalmers.se/en/person/wendin",
+        "note": "Thesis title \"Effects of electron correlation in the photoabsorption spectrum of the rare gases\" (1972). Advisor not identified in any authoritative source; Stig Lundqvist (leading theoretical physics professor at Chalmers at the time) is a plausible candidate but unconfirmed."
+      }
+    ],
     "postdocs": [],
     "keywords": [
       "Quantum and electron transport phenomena",
@@ -4878,6 +5187,77 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "187-hugo-zbinden",
+    "name": "Hugo Zbinden",
+    "sort_name": "Zbinden, Hugo",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Geneva",
+      "source": "https://www.unige.ch/gap/qic/qtech/news/hugo-zbinden-retires-after-30-years-department-applied-physics",
+      "title": "Honorary Professor",
+      "since_year": 2023,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Geneva",
+      "region": "",
+      "country": "Switzerland",
+      "lat": 46.2044,
+      "lon": 6.1432
+    },
+    "education": [
+      {
+        "degree": "MSc (Climate Physics)",
+        "institution": "University of Bern",
+        "year": 1987,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://vqcc.uvigo.es/team/hugo-zbinden/"
+      },
+      {
+        "degree": "PhD (Laser Physics)",
+        "institution": "University of Bern",
+        "year": 1991,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://vqcc.uvigo.es/team/hugo-zbinden/"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum key distribution",
+      "quantum cryptography",
+      "single-photon detectors",
+      "superconducting nanowire single-photon detectors",
+      "quantum communication",
+      "entangled photons",
+      "energy-time entanglement",
+      "quantum teleportation",
+      "quantum networks",
+      "plug and play QKD"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.unige.ch/gap/qic/qtech/",
+      "institution_profile": "https://www.unige.ch/gap/qic/qtech/team/hugo-zbinden",
+      "openalex": "https://openalex.org/A5018234566",
+      "orcid": "https://orcid.org/0000-0001-8168-8234"
+    },
+    "thesis": {},
+    "short_bio": "Hugo Zbinden (born 1961, Bern) is Honorary Professor of Physics at the University of Geneva, where he spent more than three decades at the Department of Applied Physics. He studied physics at the University of Bern, receiving an MSc in climate physics (1987) and a PhD in laser physics (1991). After a short postdoctoral industry project in Bern, he joined the University of Geneva in 1993 as a postdoc in Nicolas Gisin's group, was appointed MER (Maître d'enseignement et de recherche) in 1998, promoted to Associate Professor in 2012 when he launched the dedicated Quantum Technologies group, and retired in 2023 while retaining an honorary professorship. He is currently also involved in establishing the Vigo Quantum Communication Center at the University of Vigo.",
+    "md_filename": "187-hugo-zbinden.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-niek-van-hulst",
     "name": "Niek van Hulst",
     "sort_name": "",
@@ -6681,6 +7061,86 @@
     "updated_at": "2026-05-25"
   },
   {
+    "id": "186-tobias-heindel",
+    "name": "Tobias Heindel",
+    "sort_name": "Heindel, Tobias",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Münster",
+      "since_year": 2025,
+      "source": "https://www.uni-muenster.de/Physik.DQT/en/heindel/index.html",
+      "title": "Professor of Photonic Quantum Networks, Department for Quantum Technology",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Münster",
+      "region": "",
+      "country": "Germany",
+      "lat": 51.9607,
+      "lon": 7.6261
+    },
+    "education": [
+      {
+        "degree": "Diploma (Physics)",
+        "institution": "Julius-Maximilians-Universität Würzburg",
+        "year": 2009,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://www.quantiki.org/users/tobias-heindel"
+      },
+      {
+        "degree": "PhD (Physics)",
+        "institution": "Julius-Maximilians-Universität Würzburg",
+        "year": 2014,
+        "advisor": "Stephan Reitzenstein",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "note": "Thesis: \"Elektrisch gepumpte Quantenpunkt-Einzelphotonenquellen für die Quantenkommunikation\" (Electrically Pumped Quantum-Dot Single-Photon Sources for Quantum Communication). Final examination 9 October 2014. Reitzenstein confirmed as referee/supervisor in OPUS Würzburg repository record.",
+        "source": "https://opus.bibliothek.uni-wuerzburg.de/frontdoor/index/index/year/2014/docId/10577"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "Technische Universität Berlin",
+        "advisor": "Stephan Reitzenstein",
+        "years": "2014-2018",
+        "confidence": "confirmed",
+        "source": "https://www.quantiki.org/users/tobias-heindel"
+      }
+    ],
+    "keywords": [
+      "quantum dot single-photon sources",
+      "quantum key distribution",
+      "photonic quantum networks",
+      "electrically driven quantum emitters",
+      "photon indistinguishability",
+      "deterministic nanofabrication",
+      "in situ electron-beam lithography",
+      "quantum cryptography",
+      "semiconductor quantum photonics",
+      "GHz-clocked single-photon sources"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.uni-muenster.de/Physik.DQT/en/heindel/index.html",
+      "openalex": "https://openalex.org/A5029756098",
+      "orcid": "https://orcid.org/0000-0001-9781-7611",
+      "google_scholar": "https://scholar.google.de/citations?user=BjsEztIAAAAJ"
+    },
+    "thesis": {},
+    "short_bio": "Tobias Heindel is Professor of Photonic Quantum Networks at the Department for Quantum Technology, University of Münster. He is one of Germany's leading experimentalists in semiconductor quantum photonics, specialising in the development of high-purity quantum dot single-photon sources and their deployment in quantum key distribution (QKD) and photonic quantum networks.",
+    "md_filename": "186-tobias-heindel.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-paul-vitanyi",
     "name": "Paul Vitányi",
     "sort_name": "",
@@ -7046,6 +7506,218 @@
     "md_filename": "037-david-lucas.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-05-04"
+  },
+  {
+    "id": "181-ian-walmsley",
+    "name": "Ian Walmsley",
+    "sort_name": "Walmsley, Ian",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Oxford",
+      "since_year": 2025,
+      "source": "https://www.physics.ox.ac.uk/our-people/walmsley",
+      "title": "Director, Oxford Quantum Institute; Professor of Physics",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Oxford",
+      "region": "",
+      "country": "United Kingdom",
+      "lat": 51.7548,
+      "lon": -1.2544
+    },
+    "education": [
+      {
+        "degree": "BSc (Physics)",
+        "institution": "Imperial College London",
+        "year": null,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://handwiki.org/wiki/Biography:Ian_Walmsley"
+      },
+      {
+        "degree": "PhD (Optics)",
+        "institution": "University of Rochester (Institute of Optics)",
+        "year": 1986,
+        "advisor": "Michael G. Raymer",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://handwiki.org/wiki/Biography:Ian_Walmsley",
+        "note": "PhD at the Institute of Optics, University of Rochester; advisor Michael G. Raymer confirmed via HandWiki biography."
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum photonics",
+      "ultrafast quantum optics",
+      "photonic quantum computing",
+      "quantum memory",
+      "SPIDER pulse characterisation",
+      "photon-pair generation",
+      "optical quantum information"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.physics.ox.ac.uk/our-people/walmsley",
+      "openalex": "https://openalex.org/A5058419009",
+      "orcid": "https://orcid.org/0000-0002-8899-2020"
+    },
+    "thesis": {},
+    "short_bio": "Ian Alexander Walmsley CBE FRS is Director of the Oxford Quantum Institute and Professor of Physics at the University of Oxford (from October 2025). He is a world-leading expert in ultrafast and quantum optics, known for inventing the SPIDER (Spectral Phase Interferometry for Direct Electric-field Reconstruction) technique for ultrashort-pulse characterisation, and for foundational contributions to photonic quantum computing, quantum memories, and photon-pair generation. He received his BSc from Imperial College London and his PhD (1986) from the Institute of Optics, University of Rochester, under Michael G. Raymer, before joining the Rochester faculty (1988–2001, including Director of the Institute 2000–2001). He then moved to Oxford as Hooke Professor of Experimental Physics and Pro-Vice-Chancellor for Research, before serving as Provost and Chair of Experimental Physics at Imperial College London (2018–2025). He is a co-founder of ORCA Computing (2019) and was Director of the Networked Quantum Information Technologies (NQIT) Hub. He was elected Fellow of the Royal Society in 2012 and awarded the Rumford Medal in 2018.",
+    "md_filename": "181-ian-walmsley.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "189-marco-bellini",
+    "name": "Marco Bellini",
+    "sort_name": "Bellini, Marco",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Istituto Nazionale di Ottica",
+      "since_year": 2010,
+      "source": "https://quantumlight.ino.cnr.it/people/marco-bellini/",
+      "title": "Research Director",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Florence",
+      "region": "",
+      "country": "Italy",
+      "lat": 43.7696,
+      "lon": 11.2558
+    },
+    "education": [
+      {
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "ambiguous",
+        "degree": "PhD (Physics)",
+        "institution": "University of Florence",
+        "note": "PhD in Physics from University of Firenze (1992 MSc, 1996 PhD). Advisor name not found in accessible sources; early career work was in ultrafast/harmonic spectroscopy at LENS Florence.",
+        "source": "https://quantumlight.ino.cnr.it/people/marco-bellini/",
+        "year": 1996
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum optics",
+      "non-Gaussian states",
+      "photon addition",
+      "photon subtraction",
+      "optical cat states",
+      "Wigner function",
+      "quantum state engineering",
+      "hybrid entanglement",
+      "noiseless amplification",
+      "quantum tomography"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://quantumlight.ino.cnr.it",
+      "openalex": "https://openalex.org/A5034291617",
+      "orcid": "https://orcid.org/0000-0001-7352-1366"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "189-marco-bellini.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "191-terry-rudolph",
+    "name": "Terry Rudolph",
+    "sort_name": "Rudolph, Terry",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "PsiQuantum",
+      "source": "https://www.psiquantum.com/prof-terry-rudolph",
+      "title": "Co-Founder and Chief Architect",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Palo Alto",
+      "region": "",
+      "country": "United States",
+      "lat": 37.4419,
+      "lon": -122.143
+    },
+    "education": [
+      {
+        "degree": "BSc (Physics)",
+        "institution": "University of Queensland",
+        "year": 1994,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Terry_Rudolph"
+      },
+      {
+        "degree": "PhD (Theoretical Quantum Optics)",
+        "institution": "York University",
+        "year": 1998,
+        "advisor": "Helen Freedhoff",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://www.mathgenealogy.org/id.php?id=243319"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "University of Vienna",
+        "advisor": null,
+        "advisor_id": null,
+        "years": "2000–2001",
+        "source": "https://handwiki.org/wiki/Biography:Terry_Rudolph"
+      },
+      {
+        "institution": "Bell Labs",
+        "advisor": null,
+        "advisor_id": null,
+        "years": "2001–2003",
+        "source": "https://handwiki.org/wiki/Biography:Terry_Rudolph"
+      }
+    ],
+    "keywords": [
+      "fusion-based quantum computing",
+      "photonic quantum computing",
+      "cluster states",
+      "measurement-based quantum computing",
+      "linear optical quantum computing",
+      "PBR theorem",
+      "quantum foundations"
+    ],
+    "group_type": "theory",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "orcid": "https://orcid.org/0000-0002-8938-1743",
+      "openalex": "https://openalex.org/A5086614028",
+      "google_scholar": "https://scholar.google.com/citations?user=Y8cRR70AAAAJ",
+      "institution_profile": "https://profiles.imperial.ac.uk/t.rudolph"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "191-terry-rudolph.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-jonathan-king",
@@ -9314,6 +9986,77 @@
     "updated_at": "2026-05-30"
   },
   {
+    "id": "184-anthony-laing",
+    "name": "Anthony Laing",
+    "sort_name": "Laing, Anthony",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Bristol",
+      "since_year": 2016,
+      "source": "https://www.bristol.ac.uk/people/person/Anthony-Laing-441d9293-60d0-4d91-9fde-cb15e13441d2/",
+      "title": "Professor of Physics, School of Physics; Co-Director, Quantum Engineering Technology Labs (QET Labs)",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Bristol",
+      "region": "",
+      "country": "United Kingdom",
+      "lat": 51.4545,
+      "lon": -2.5879
+    },
+    "education": [
+      {
+        "degree": "MSc (Physics)",
+        "institution": "University of Bristol",
+        "year": null,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://www.bristol.ac.uk/people/person/Anthony-Laing-441d9293-60d0-4d91-9fde-cb15e13441d2/"
+      },
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Bristol",
+        "year": null,
+        "advisor": "Jeremy L. O'Brien",
+        "advisor_id": null,
+        "confidence": "ambiguous",
+        "note": "PhD at Bristol confirmed; advisor inferred from group membership and co-authorship on earliest papers (2010–2012) in the Centre for Quantum Photonics led by O'Brien. Exact year not found in public sources.",
+        "source": "https://www.bristol.ac.uk/people/person/Anthony-Laing-441d9293-60d0-4d91-9fde-cb15e13441d2/"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "photonic quantum computing",
+      "reconfigurable photonic circuits",
+      "quantum walks",
+      "boson sampling",
+      "integrated quantum photonics",
+      "quantum simulation",
+      "quantum key distribution",
+      "photonic chips"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.bristol.ac.uk/qet-labs/research/laing-group/",
+      "institution_profile": "https://research-information.bris.ac.uk/en/persons/anthony-laing/",
+      "openalex": "https://openalex.org/A5034019399",
+      "orcid": "https://orcid.org/0000-0002-3567-7717",
+      "google_scholar": "https://scholar.google.com/citations?user=Q-DWZ10AAAAJ"
+    },
+    "thesis": {},
+    "short_bio": "Anthony Laing is Professor of Physics and Co-Director of QET Labs (Quantum Engineering Technology Labs) at the University of Bristol. He is a leading experimentalist in integrated photonic quantum computing and simulation. His group pioneers reconfigurable waveguide chips that implement quantum walks, boson sampling, and molecular vibrational simulations — using programmable silica-on-silicon and silicon photonic circuits to process quantum information with single photons. He invented the Reference Frame Independent Quantum Key Distribution (RFI-QKD) protocol (2010, patented with Nokia) and contributed to landmark demonstrations including the first fully reconfigurable entanglement chip (Nature Photonics 2012), the universal linear optics processor (Science 2015), and photonic molecular dynamics simulation (Nature 2018). In 2016 he was appointed Lecturer in Physics and awarded a 5-year EPSRC Quantum Technologies Fellowship; he was later promoted to full Professor. He obtained both his MSc and PhD from the University of Bristol, working in Jeremy O'Brien's Centre for Quantum Photonics. In 2020 he co-founded Duality Quantum Photonics (with Alberto Politi as CTO), a Bristol spin-out developing scalable integrated photonic quantum hardware, and serves as its CEO.",
+    "md_filename": "184-anthony-laing.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "014-thomas-monz",
     "name": "Thomas Monz",
     "sort_name": "Monz, Thomas",
@@ -10601,6 +11344,86 @@
     "updated_at": "2026-05-30"
   },
   {
+    "id": "178-philip-walther",
+    "name": "Philip Walther",
+    "sort_name": "Walther, Philip",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Vienna",
+      "source": "https://walther.quantum.at/detailview-news/news/professor/",
+      "title": "Professor of Experimental Photonic Quantum Computing",
+      "since_year": 2015,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Vienna",
+      "region": "",
+      "country": "Austria",
+      "lat": 48.2093,
+      "lon": 16.3568
+    },
+    "education": [
+      {
+        "degree": "Diploma (Chemistry)",
+        "institution": "Vienna University of Technology",
+        "year": 2002,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://walther.quantum.at/people/philip-walther/?ro%5B105251%5D=7&cHash=4341287334a88a33348dd90c690149aa"
+      },
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Vienna",
+        "year": 2005,
+        "advisor": "Anton Zeilinger",
+        "advisor_id": "000-anton-zeilinger",
+        "confidence": "confirmed",
+        "source": "https://rudolphina.univie.ac.at/en/philip-walther-studies-the-interplay-of-gravity-and-quantum-physics"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "Harvard University",
+        "advisor": "Mikhail Lukin",
+        "advisor_id": null,
+        "years": "2005–2008",
+        "confidence": "confirmed",
+        "source": "https://ucrisportal.univie.ac.at/en/persons/philip-walther/"
+      }
+    ],
+    "keywords": [
+      "photonic quantum computing",
+      "one-way quantum computing",
+      "cluster states",
+      "boson sampling",
+      "blind quantum computing",
+      "quantum walks",
+      "linear optical quantum computing",
+      "quantum simulation",
+      "quantum machine learning"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "orcid": "https://orcid.org/0000-0002-4964-817X",
+      "openalex": "https://openalex.org/A5068590671",
+      "google_scholar": "https://scholar.google.com/citations?user=NqWGYXwAAAAJ",
+      "group_page": "https://walther.quantum.at/",
+      "institution_profile": "https://ucrisportal.univie.ac.at/en/persons/philip-walther/"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "178-philip-walther.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-robert-a-buhrman",
     "name": "Robert A. Buhrman",
     "sort_name": "",
@@ -11200,6 +12023,84 @@
     "updated_at": "2026-05-30"
   },
   {
+    "id": "182-nicolas-gisin",
+    "name": "Nicolas Gisin",
+    "sort_name": "Gisin, Nicolas",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Geneva",
+      "source": "https://www.unige.ch/gap/qic/gisin/",
+      "title": "Professor Emeritus",
+      "since_year": null,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Geneva",
+      "region": "",
+      "country": "Switzerland",
+      "lat": 46.2044,
+      "lon": 6.1432
+    },
+    "education": [
+      {
+        "degree": "Licence (Mathematics)",
+        "institution": "University of Geneva",
+        "year": null,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Nicolas_Gisin"
+      },
+      {
+        "degree": "MSc (Physics)",
+        "institution": "University of Geneva",
+        "year": null,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Nicolas_Gisin"
+      },
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Geneva",
+        "year": 1981,
+        "advisor": "Constantin Piron",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Nicolas_Gisin"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum cryptography",
+      "quantum key distribution",
+      "long-distance entanglement",
+      "quantum teleportation",
+      "quantum repeaters",
+      "Bell inequalities",
+      "quantum communication",
+      "quantum networks"
+    ],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.unige.ch/gap/qic/gisin/",
+      "institution_profile": "https://www.unige.ch/gap/qic/gisin/",
+      "openalex": "https://openalex.org/A5019474028",
+      "orcid": "https://orcid.org/0000-0002-9480-2371"
+    },
+    "thesis": {},
+    "short_bio": "Nicolas Gisin (born 1952) is Professor Emeritus of Physics at the University of Geneva, where he led the Quantum Information and Communication (QIC) group in the Department of Applied Physics for more than two decades. He is one of the founding figures of experimental quantum cryptography and long-distance quantum communication. In 1993 he demonstrated quantum key distribution in optical fiber, and in 1997 his group performed the first Bell inequality violation test with photons more than 10 km apart over deployed telecom fiber beneath Lake Geneva. In 2003 the group achieved the first long-distance teleportation of qubits at telecommunication wavelengths. He co-founded ID Quantique in 2001, one of the world's first commercial quantum cryptography companies. His 2002 Reviews of Modern Physics article on quantum cryptography (with Ribordy, Tittel, and Zbinden) has accumulated more than 12,000 citations and remains the standard reference in the field. Despite emeritus status he remains research-active, publishing in 2024 on Bell inequalities and foundational quantum mechanics, and was awarded the Micius Quantum Prize in 2023 and an honorary doctorate from the University of York in 2025.",
+    "md_filename": "182-nicolas-gisin.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "142-hongkun-park",
     "name": "Hongkun Park",
     "sort_name": "Park, Hongkun",
@@ -11652,7 +12553,18 @@
       "lat": 57.70716,
       "lon": 11.96679
     },
-    "education": [],
+    "education": [
+      {
+        "advisor": "Tord Claeson",
+        "advisor_id": null,
+        "confidence": "ambiguous",
+        "degree": "PhD (Physics)",
+        "institution": "Chalmers University of Technology",
+        "year": 1990,
+        "source": "https://research.chalmers.se/en/person/delsing",
+        "note": "Thesis title \"Single electron tunneling in ultrasmall tunnel junctions\" (1990). Advisor inferred as Tord Claeson (Full Professor of Physics at Chalmers from 1982; co-authored the core single-electron tunneling papers with Delsing in 1989-1990) but no source explicitly names him as supervisor."
+      }
+    ],
     "postdocs": [],
     "keywords": [
       "superconducting qubits",
@@ -11838,6 +12750,85 @@
     "md_filename": "122-dirk-englund.md",
     "created_at": "2026-05-26",
     "updated_at": "2026-05-29"
+  },
+  {
+    "id": "195-ulrik-l-andersen",
+    "name": "Akira Furusawa",
+    "sort_name": "Furusawa, Akira",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Tokyo",
+      "since_year": 2007,
+      "source": "https://en.wikipedia.org/wiki/Akira_Furusawa",
+      "title": "Professor (Department of Applied Physics)",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Tokyo",
+      "region": "",
+      "country": "Japan",
+      "lat": 35.7127,
+      "lon": 139.7614
+    },
+    "education": [
+      {
+        "degree": "BE (Engineering Physics)",
+        "institution": "University of Tokyo",
+        "year": 1984,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Akira_Furusawa"
+      },
+      {
+        "degree": "MS (Engineering Physics)",
+        "institution": "University of Tokyo",
+        "year": 1986,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Akira_Furusawa"
+      },
+      {
+        "degree": "PhD (Engineering Physics)",
+        "institution": "University of Tokyo",
+        "year": 1991,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Akira_Furusawa"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "continuous-variable quantum information",
+      "quantum teleportation",
+      "squeezed light",
+      "CV cluster states",
+      "optical quantum computing",
+      "time-domain multiplexing",
+      "quantum optics",
+      "optical cat states",
+      "measurement-based quantum computation"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "orcid": "https://orcid.org/0000-0001-9785-8800",
+      "openalex": "https://openalex.org/A5014083847",
+      "google_scholar": "https://scholar.google.com/citations?user=Ml3JtxUAAAAJ",
+      "group_page": "http://www.alice.t.u-tokyo.ac.jp/"
+    },
+    "thesis": {},
+    "short_bio": "Akira Furusawa (born 1961) is a Japanese experimental physicist and Professor in the Department of Applied Physics, School of Engineering, at the University of Tokyo. He is one of the world's foremost authorities on continuous-variable (CV) quantum information science, best known for leading the first experimental demonstration of unconditional quantum teleportation (Science 1998) and for pioneering the generation of ultra-large-scale CV cluster states as a resource for measurement-based optical quantum computing.",
+    "md_filename": "195-ulrik-l-andersen.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "062-dan-cho",
@@ -12428,6 +13419,74 @@
     "updated_at": "2026-05-30"
   },
   {
+    "id": "180-pascale-senellart",
+    "name": "Pascale Senellart",
+    "sort_name": "Senellart, Pascale",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Centre de Nanosciences et de Nanotechnologies (C2N)",
+      "since_year": 2011,
+      "source": "https://goss.c2n.universite-paris-saclay.fr/en/members/pascale-senellart-mardon/",
+      "title": "CNRS Research Director",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Palaiseau",
+      "region": "",
+      "country": "France",
+      "lat": 48.7136,
+      "lon": 2.1692
+    },
+    "education": [
+      {
+        "degree": "PhD",
+        "institution": "Université Pierre et Marie Curie (Paris VI)",
+        "year": 2001,
+        "advisor": "Jacqueline Bloch",
+        "advisor_id": null,
+        "confidence": "ambiguous",
+        "note": "PhD thesis: \"Etude de l'émission non-linéaire de microcavités à base de semi-conducteurs III-V en régime de couplage fort\" (Nonlinear emission from III-V semiconductor microcavities in the strong-coupling regime). Bloch was the senior co-author on all Senellart PhD-era papers and worked at the same CNRS lab (LMM, Bagneux).",
+        "source": "https://en.wikipedia.org/wiki/Pascale_Senellart"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "industrial laboratories (France)",
+        "years": "2001-2002",
+        "source": "https://goss.c2n.universite-paris-saclay.fr/en/members/pascale-senellart-mardon/"
+      }
+    ],
+    "keywords": [
+      "quantum dot single-photon sources",
+      "semiconductor microcavities",
+      "Purcell effect",
+      "photon indistinguishability",
+      "entangled photon pairs",
+      "cavity quantum electrodynamics",
+      "pillar microcavity",
+      "quantum photonics",
+      "photonic quantum computing",
+      "on-demand photon sources"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://goss.c2n.universite-paris-saclay.fr/en/members/pascale-senellart-mardon/",
+      "openalex": "https://openalex.org/A5026428738",
+      "orcid": "https://orcid.org/0000-0003-1724-5945"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "180-pascale-senellart.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "069-sadiq-rangwala",
     "name": "S. A. Rangwala",
     "sort_name": "Rangwala, S. A.",
@@ -12494,6 +13553,101 @@
     "md_filename": "069-sadiq-rangwala.md",
     "created_at": "2026-01-30",
     "updated_at": "2026-05-04"
+  },
+  {
+    "id": "176-jian-wei-pan",
+    "name": "Jian-Wei Pan",
+    "sort_name": "Pan, Jian-Wei",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Science and Technology of China",
+      "source": "https://quantum.ustc.edu.cn/web/en/node/32",
+      "title": "Professor; Executive Vice President",
+      "since_year": 2001,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic",
+      "quantum_dot"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Hefei",
+      "region": "",
+      "country": "China",
+      "lat": 31.864,
+      "lon": 117.281
+    },
+    "education": [
+      {
+        "degree": "BS (Physics)",
+        "institution": "University of Science and Technology of China",
+        "year": 1992,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Pan_Jianwei"
+      },
+      {
+        "degree": "MS (Physics)",
+        "institution": "University of Science and Technology of China",
+        "year": 1995,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Pan_Jianwei"
+      },
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Vienna",
+        "year": 1999,
+        "advisor": "Anton Zeilinger",
+        "advisor_id": "000-anton-zeilinger",
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Pan_Jianwei"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "University of Vienna",
+        "advisor": "Anton Zeilinger",
+        "advisor_id": "000-anton-zeilinger",
+        "years": "1999-2003",
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Pan_Jianwei"
+      },
+      {
+        "institution": "University of Heidelberg",
+        "advisor": null,
+        "advisor_id": null,
+        "years": "2003-2008",
+        "confidence": "confirmed",
+        "source": "https://en.wikipedia.org/wiki/Pan_Jianwei"
+      }
+    ],
+    "keywords": [
+      "multi-photon entanglement",
+      "boson sampling",
+      "quantum satellite",
+      "quantum key distribution",
+      "quantum teleportation",
+      "photonic quantum computing",
+      "free-space quantum communication"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "orcid": "https://orcid.org/0000-0003-3464-8637",
+      "openalex": "https://openalex.org/A5014038654",
+      "google_scholar": "https://scholar.google.com/citations?user=-q3Yb14AAAAJ",
+      "institution_profile": "https://quantum.ustc.edu.cn/web/en/node/32"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "176-jian-wei-pan.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "129-lilian-childress",
@@ -12869,6 +14023,66 @@
     "md_filename": "175-zaki-leghtas.md",
     "created_at": "2026-05-26",
     "updated_at": "2026-05-26"
+  },
+  {
+    "id": "188-rupert-ursin",
+    "name": "Rupert Ursin",
+    "sort_name": "Ursin, Rupert",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Austrian Academy of Sciences",
+      "since_year": 2013,
+      "source": "https://en.wikipedia.org/wiki/Rupert_Ursin",
+      "title": "Senior Research Group Leader and Deputy Director, IQOQI Vienna (Institute for Quantum Optics and Quantum Information)",
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Vienna",
+      "region": "",
+      "country": "Austria",
+      "lat": 48.2093,
+      "lon": 16.3568
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Vienna",
+        "year": 2006,
+        "advisor": "Anton Zeilinger",
+        "advisor_id": "000-anton-zeilinger",
+        "confidence": "confirmed",
+        "note": "Dissertation on quantum teleportation over long distances, completed December 2006.",
+        "source": "https://en.wikipedia.org/wiki/Rupert_Ursin"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum communication",
+      "free-space quantum key distribution",
+      "long-distance entanglement distribution",
+      "quantum teleportation",
+      "satellite quantum communication",
+      "Bell inequality tests",
+      "quantum networking"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "institution_profile": "https://www.iqoqi-vienna.at/people/ursin-group/rupert-ursin/",
+      "openalex": "https://openalex.org/A5008394011",
+      "orcid": "https://orcid.org/0000-0001-6580-0484",
+      "google_scholar": "https://scholar.google.com/citations?user=h-FveJcAAAAJ"
+    },
+    "thesis": {},
+    "short_bio": "Rupert Ursin (born 26 January 1973) is an Austrian experimental physicist and Senior Research Group Leader and Deputy Director at IQOQI Vienna (Institute for Quantum Optics and Quantum Information, Austrian Academy of Sciences). He completed his PhD in 2006 at the University of Vienna under Anton Zeilinger, working on quantum teleportation over long distances. He is best known for distributing entangled photons over a 144 km free-space link between the Canary Islands (La Palma–Tenerife, 2007), and for co-authoring the first experimental demonstration of free-space decoy-state QKD over 144 km (PRL, 2007). He contributed to the Micius satellite-relayed intercontinental quantum network demonstration (PRL, 2018) and to the significant-loophole-free Bell test with entangled photons (PRL, 2015). He has received the Christian-Doppler-Prize (2009) and the Gründungspreis Phönix (2023), and is also CEO of Quantum Technology Laboratories GmbH.",
+    "md_filename": "188-rupert-ursin.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "093-kang-kuen-ni",
@@ -16448,6 +17662,84 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "192-sven-ramelow",
+    "name": "Sven Ramelow",
+    "sort_name": "Ramelow, Sven",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Humboldt-Universität zu Berlin",
+      "source": "https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-junior-fellows/sven-ramelow",
+      "title": "Assistant Professor and Emmy Noether Group Leader (Nonlinear Quantum Optics)",
+      "since_year": 2016,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Berlin",
+      "region": "",
+      "country": "Germany",
+      "lat": 52.524,
+      "lon": 13.411
+    },
+    "education": [
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Vienna",
+        "year": 2011,
+        "advisor": "Anton Zeilinger",
+        "advisor_id": "000-anton-zeilinger",
+        "confidence": "confirmed",
+        "source": "https://othes.univie.ac.at/18769/"
+      }
+    ],
+    "postdocs": [
+      {
+        "institution": "University of Vienna",
+        "advisor": null,
+        "advisor_id": null,
+        "years": "2012–2013",
+        "confidence": "ambiguous",
+        "source": "https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-junior-fellows/sven-ramelow"
+      },
+      {
+        "institution": "Cornell University",
+        "advisor": "Alexander Gaeta",
+        "advisor_id": null,
+        "years": "2013–2015",
+        "confidence": "confirmed",
+        "source": "https://www.adlershof.de/en/news/new-emmy-noether-junior-research-group-on-mid-infrared-quantum-imaging-and-spectroscopy-for-dr-sven-ramelow"
+      }
+    ],
+    "keywords": [
+      "quantum imaging with undetected photons",
+      "nonlinear quantum optics",
+      "entangled photon pairs",
+      "mid-infrared sensing",
+      "quantum spectroscopy",
+      "integrated quantum photonics",
+      "quantum OCT",
+      "SPDC",
+      "quantum frequency conversion"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "orcid": "https://orcid.org/0000-0001-7641-8497",
+      "openalex": "https://openalex.org/A5026398111",
+      "google_scholar": "https://scholar.google.de/citations?user=iRiAWXsAAAAJ",
+      "group_page": "https://www.physik.hu-berlin.de/en/niqo"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "192-sven-ramelow.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "077-ben-lanyon",
     "name": "Ben P. Lanyon",
     "sort_name": "Lanyon, Ben P.",
@@ -17076,6 +18368,136 @@
     "thesis": {},
     "short_bio": "",
     "md_filename": "000-michel-orrit.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "179-fabio-sciarrino",
+    "name": "Fabio Sciarrino",
+    "sort_name": "Sciarrino, Fabio",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Sapienza University of Rome",
+      "since_year": 2016,
+      "source": "https://trasparenza.fbk.eu/ocmultibinary/download/64424/1091082/7/c0a873c01cb2d352af3bf3d26db66d6c.pdf/file/CV+Sciarrino.pdf",
+      "title": "Full Professor of Physics"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Rome",
+      "region": "",
+      "country": "Italy",
+      "lat": 41.8987,
+      "lon": 12.5139
+    },
+    "education": [
+      {
+        "advisor": "Francesco De Martini",
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "degree": "PhD",
+        "institution": "Sapienza University of Rome",
+        "note": "PhD thesis: \"Experimental manipulations with qubits. Unitary and non-unitary quantum operations: teleportation, cloning and universal-NOT gate\"",
+        "source": "https://trasparenza.fbk.eu/ocmultibinary/download/64424/1091082/7/c0a873c01cb2d352af3bf3d26db66d6c.pdf/file/CV+Sciarrino.pdf",
+        "year": 2004
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "quantum photonics",
+      "integrated photonics",
+      "boson sampling",
+      "quantum walks",
+      "quantum information processing",
+      "photonic quantum computing",
+      "quantum optics",
+      "quantum simulation",
+      "femtosecond laser writing",
+      "multiphoton interference"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "group_page": "https://www.quantumlab.it/principal-investigator/",
+      "openalex": "https://openalex.org/A5016166943",
+      "orcid": "https://orcid.org/0000-0001-5830-4505"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "179-fabio-sciarrino.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "177-chaoyang-lu",
+    "name": "Chaoyang Lu",
+    "sort_name": "Lu, Chaoyang",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "University of Science and Technology of China",
+      "source": "https://quantum.ustc.edu.cn/web/en/node/137",
+      "title": "Chair Professor",
+      "since_year": 2022,
+      "verified_at": "2026-05-30"
+    },
+    "platforms": [
+      "photonic"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Hefei",
+      "region": "",
+      "country": "China",
+      "lat": 31.864,
+      "lon": 117.281
+    },
+    "education": [
+      {
+        "degree": "BS (Physics)",
+        "institution": "University of Science and Technology of China",
+        "year": 2004,
+        "advisor": null,
+        "advisor_id": null,
+        "confidence": "confirmed",
+        "source": "https://quantum.ustc.edu.cn/web/en/node/137"
+      },
+      {
+        "degree": "PhD (Physics)",
+        "institution": "University of Cambridge",
+        "year": 2011,
+        "advisor": "Jian-Wei Pan",
+        "advisor_id": "176-jian-wei-pan",
+        "confidence": "confirmed",
+        "source": "https://quantum.ustc.edu.cn/web/en/node/461"
+      }
+    ],
+    "postdocs": [],
+    "keywords": [
+      "boson sampling",
+      "Gaussian boson sampling",
+      "photonic quantum computing",
+      "quantum computational advantage",
+      "multi-photon entanglement",
+      "single-photon sources",
+      "quantum dots",
+      "Jiuzhang"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "orcid": "https://orcid.org/0000-0001-9707-9850",
+      "openalex": "https://openalex.org/A5009791247",
+      "google_scholar": "https://scholar.google.com/citations?user=0AJt_zEAAAAJ",
+      "institution_profile": "https://quantum.ustc.edu.cn/web/en/node/137"
+    },
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "177-chaoyang-lu.md",
     "created_at": "2026-05-30",
     "updated_at": "2026-05-30"
   },
