@@ -507,9 +507,11 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
                         <path d="M3 5h7v7H3V5zm11 0h7v7h-7V5zM3 16h7v3H3v-3zm11 0h7v3h-7v-3z" />
                     </svg>
                     <span>Platforms</span>
-                    {filters.platforms.length > 0 && (
-                        <span className="platforms-active-count">{filters.platforms.length}</span>
-                    )}
+                    <span
+                        className="platforms-active-dot"
+                        data-on={filters.platforms.length > 0}
+                        aria-label={filters.platforms.length > 0 ? `${filters.platforms.length} platforms selected` : undefined}
+                    />
                     <svg className="platforms-chevron" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
                         <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2.4"
                             strokeLinecap="round" strokeLinejoin="round" />

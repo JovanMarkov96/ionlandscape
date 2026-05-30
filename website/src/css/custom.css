@@ -58,6 +58,10 @@ body,
   flex-direction: column;
   gap: 8px;
   transition: all 0.3s ease;
+  /* Fixed width so toggling the platform indicator never reflows the stack
+     or moves the right-anchored flyout. */
+  width: 160px;
+  box-sizing: border-box;
 }
 
 [data-theme='dark'] .map-filters-container {
@@ -663,15 +667,23 @@ body,
 [data-theme='dark'] .filter-btn-platforms span { color: #888; }
 [data-theme='dark'] .filter-btn-platforms[data-active="true"] span { color: #cdebff; }
 
-.platforms-active-count {
+/* Small "filters active" dot. Always rendered (fixed footprint) so toggling
+   it never reflows the panel; only its visibility changes. */
+.platforms-active-dot {
+  width: 7px;
+  height: 7px;
   margin-left: 6px;
-  font-size: 0.7rem;
-  font-weight: 700;
+  border-radius: 50%;
   background: #0ea5e9;
-  color: #04263c;
-  border-radius: 8px;
-  padding: 0 6px;
-  line-height: 1.45;
+  box-shadow: 0 0 7px rgba(14, 165, 233, 0.8);
+  opacity: 0;
+  transform: scale(0.4);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  flex: none;
+}
+.platforms-active-dot[data-on="true"] {
+  opacity: 1;
+  transform: scale(1);
 }
 .platforms-chevron {
   margin-left: auto;
@@ -709,6 +721,9 @@ body,
   pointer-events: auto;
 }
 .platform-flyout-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
   color: #9fd2ff;
   font-size: 0.72rem;
   letter-spacing: 0.16em;
@@ -716,6 +731,13 @@ body,
   font-weight: 700;
   margin-bottom: 11px;
   padding-left: 2px;
+}
+.platform-flyout-count {
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: #5fb8f0;
+  opacity: 0.9;
 }
 .platform-grid {
   display: grid;
@@ -794,6 +816,41 @@ body,
     transform-origin: left bottom;
   }
 }
+
+/* ── Light-mode theming for the platform flyout ───────────────────────────── */
+[data-theme='light'] .platform-flyout {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.86), rgba(232, 240, 252, 0.92));
+  border: 1px solid rgba(45, 120, 210, 0.30);
+  box-shadow: 0 12px 40px rgba(31, 56, 110, 0.18), inset 0 0 26px rgba(56, 130, 220, 0.05);
+}
+[data-theme='light'] .platform-flyout-title { color: #1f5aa8; }
+[data-theme='light'] .platform-flyout-count { color: #2f7fd0; }
+[data-theme='light'] .platform-tile {
+  background: linear-gradient(155deg, rgba(232, 240, 252, 0.95), rgba(214, 227, 247, 0.95));
+  border: 1px solid rgba(70, 120, 200, 0.22);
+  color: #3a5e8c;
+}
+[data-theme='light'] .platform-tile:hover {
+  color: #143a66;
+  border-color: rgba(37, 130, 220, 0.6);
+  box-shadow: 0 6px 16px rgba(31, 56, 110, 0.15), 0 0 0 1px rgba(37, 130, 220, 0.3);
+}
+[data-theme='light'] .platform-tile.is-active {
+  color: #0b3a6b;
+  border-color: rgba(31, 120, 215, 0.9);
+  background: linear-gradient(155deg, rgba(56, 150, 235, 0.30), rgba(196, 220, 248, 0.95));
+  box-shadow: 0 0 0 1px rgba(31, 120, 215, 0.55), 0 0 16px rgba(56, 150, 235, 0.30), inset 0 0 12px rgba(56, 150, 235, 0.18);
+}
+[data-theme='light'] .platform-tile-icon { filter: drop-shadow(0 0 3px rgba(56, 130, 220, 0.25)); }
+[data-theme='light'] .platform-tile.is-active .platform-tile-icon { filter: drop-shadow(0 0 5px rgba(37, 120, 215, 0.5)); }
+[data-theme='light'] .platform-tile-count { color: #5f86b8; }
+[data-theme='light'] .platform-tile.is-active .platform-tile-count { color: #1f5aa8; }
+[data-theme='light'] .platforms-active-dot {
+  background: #2f7fd0;
+  box-shadow: 0 0 7px rgba(47, 127, 208, 0.7);
+}
+[data-theme='light'] .filter-btn-platforms[aria-expanded="true"] .platforms-chevron { color: #2f7fd0; }
+[data-theme='light'] .filter-btn-platforms[data-active="true"] > svg:first-of-type { fill: #2f7fd0; }
 
 /* Nobel laureate medallion — inline after a person's name */
 .nobel-medal {

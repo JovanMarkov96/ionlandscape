@@ -29,12 +29,17 @@ export const PLATFORM_GROUPS = [
 
 // ── Custom line-art platform icons (24×24, stroke = currentColor) ───────────
 const ICON = {
-    // Linear ion trap: two electrode brackets + a glowing trapped ion
+    // Surface (chip) ion trap: segmented electrodes + a single charged atomic ion
+    // floating above. The ring-with-"+" marks one positive atomic ion (not a molecule).
     trapped_ion: (
         <>
-            <path d="M7 4 H4.5 V20 H7" />
-            <path d="M17 4 H19.5 V20 H17" />
-            <circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none" />
+            <circle cx="12" cy="7" r="3" />
+            <path d="M12 5.6 V8.4 M10.6 7 H13.4" />
+            <rect x="3.4" y="15.4" width="3.2" height="3" rx="0.6" />
+            <rect x="7.9" y="15.4" width="3.2" height="3" rx="0.6" />
+            <rect x="12.9" y="15.4" width="3.2" height="3" rx="0.6" />
+            <rect x="17.4" y="15.4" width="3.2" height="3" rx="0.6" />
+            <path d="M3 20 H21" />
         </>
     ),
     // Optical-tweezer array: 3×3 grid of atoms
@@ -45,21 +50,25 @@ const ICON = {
             )))}
         </>
     ),
-    // Transmon: SQUID loop with a Josephson junction (×)
+    // Transmon: a Josephson junction (boxed ×) shunted by a capacitor (two plates),
+    // wired in a loop — the canonical superconducting-qubit circuit symbol.
     superconducting: (
         <>
-            <rect x="5" y="8" width="14" height="9" rx="2" />
-            <path d="M10.5 5.5 L13.5 8.5 M13.5 5.5 L10.5 8.5" />
-            <path d="M12 8 V5.5" />
+            <path d="M8 5.5 H16 M8 18.5 H16" />
+            <path d="M8 5.5 V10" />
+            <path d="M5.5 10 H10.5 M5.5 12.4 H10.5" />
+            <path d="M8 12.4 V18.5" />
+            <path d="M16 5.5 V9" />
+            <path d="M14 9 H18 V13 H14 Z" />
+            <path d="M14 9 L18 13 M18 9 L14 13" />
+            <path d="M16 13 V18.5" />
         </>
     ),
-    // Photonic beamsplitter: crossing waveguides + splitter + photon
+    // Photon: a propagating wave-packet (Feynman wavy line) with a direction arrow.
     photonic: (
         <>
-            <path d="M4 6 L20 18" />
-            <path d="M4 18 L20 6" />
-            <path d="M9.5 14.5 L14.5 9.5" />
-            <circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none" />
+            <path d="M2 13 Q5 6 8 13 T14 13 T20 13" />
+            <path d="M18.3 11 L20.6 13 L18.3 15" />
         </>
     ),
     // Color center: lattice ring of atoms with a bright vacancy at the centre
@@ -81,13 +90,13 @@ const ICON = {
             <path d="M9 14.5 H15" />
         </>
     ),
-    // Trapped molecule: a diatomic pair bonded inside a trapping well
+    // Trapped molecule: a diatomic pair (two bonded atoms) inside a trapping well
     trapped_molecule: (
         <>
             <path d="M4 9 Q12 21 20 9" />
             <circle cx="9.5" cy="11" r="2" fill="currentColor" stroke="none" />
             <circle cx="14.5" cy="11" r="2" fill="currentColor" stroke="none" />
-            <path d="M11.4 11 H12.6" stroke="var(--ion-tile-bg, #0b1b3a)" />
+            <path d="M11.5 11 H12.5" strokeWidth="1.9" />
         </>
     ),
     // Silicon spin: spin-up arrow inside a potential well
@@ -122,7 +131,10 @@ function PlatformIcon({ name }) {
 export default function PlatformFlyout({ open, active, onToggle, counts = {} }) {
     return (
         <div className={`platform-flyout ${open ? 'is-open' : ''}`} role="menu" aria-hidden={!open}>
-            <div className="platform-flyout-title">Platforms</div>
+            <div className="platform-flyout-title">
+                Platforms
+                {active.length > 0 && <span className="platform-flyout-count">{active.length} selected</span>}
+            </div>
             <div className="platform-grid">
                 {PLATFORM_GROUPS.map(g => {
                     const n = g.values.reduce((s, v) => s + (counts[v] || 0), 0);
