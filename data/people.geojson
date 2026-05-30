@@ -4,6 +4,30 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-a-paul-alivisatos",
+        "name": "A. Paul Alivisatos",
+        "current_position": {
+          "institution": "Princeton University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Princeton",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-a-paul-alivisatos.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.65905,
+          40.34872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-aharon-kapitulnik",
         "name": "Aharon Kapitulnik",
         "current_position": {},
@@ -13,6 +37,24 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-aharon-kapitulnik.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-alain-aspect",
+        "name": "Alain Aspect",
+        "current_position": {
+          "institution": "Institut d'Optique Graduate School",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-alain-aspect.md"
       },
       "geometry": null
     },
@@ -90,6 +132,30 @@
         "md_filename": "000-amit-ben-kish.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-anatole-abragam",
+        "name": "Anatole Abragam",
+        "current_position": {
+          "institution": "Commissariat à l'Énergie Atomique",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Paris",
+        "country": "France",
+        "short_bio": "",
+        "md_filename": "000-anatole-abragam.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3488,
+          48.85341
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -193,6 +259,72 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-atac-imamoglu",
+        "name": "Atac Imamoglu",
+        "current_position": {
+          "institution": "ETH Zurich",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Zurich",
+        "country": "Switzerland",
+        "short_bio": "",
+        "md_filename": "000-atac-imamoglu.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.537491,
+          47.413218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-beat-h-meier",
+        "name": "Beat H. Meier",
+        "current_position": {
+          "institution": "ETH Zurich",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Zurich",
+        "country": "Switzerland",
+        "short_bio": "",
+        "md_filename": "000-beat-h-meier.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.537491,
+          47.413218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-brian-pippard",
+        "name": "Brian Pippard",
+        "current_position": {
+          "institution": "University of Cambridge",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-brian-pippard.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-carl-wieman",
         "name": "Carl Wieman",
         "current_position": {},
@@ -204,6 +336,54 @@
         "md_filename": "000-carl-wieman.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-carl-williams",
+        "name": "Carl Williams",
+        "current_position": {
+          "institution": "National Institute of Standards and Technology",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Gaithersburg",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-carl-williams.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.20137,
+          39.14344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-charles-clark",
+        "name": "Charles Clark",
+        "current_position": {
+          "institution": "National Institute of Standards and Technology",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Gaithersburg",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-charles-clark.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.20137,
+          39.14344
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -223,6 +403,48 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-christian-von-borczyskowski",
+        "name": "Christian von Borczyskowski",
+        "current_position": {
+          "institution": "TU Chemnitz",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-christian-von-borczyskowski.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-cindy-a-regal",
+        "name": "Cindy A. Regal",
+        "current_position": {
+          "institution": "JILA, University of Colorado Boulder",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Boulder",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-cindy-a-regal.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.270554,
+          40.014992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-colin-webb",
         "name": "Colin Webb",
         "current_position": {},
@@ -232,6 +454,24 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-colin-webb.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-d-g-steel",
+        "name": "D. G. Steel",
+        "current_position": {
+          "institution": "University of Michigan",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-d-g-steel.md"
       },
       "geometry": null
     },
@@ -249,6 +489,90 @@
         "md_filename": "000-dan-charash.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dan-rugar",
+        "name": "Dan Rugar",
+        "current_position": {
+          "institution": "IBM Research",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dan-rugar.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dan-walls",
+        "name": "Dan Walls",
+        "current_position": {
+          "institution": "University of Auckland",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-dan-walls.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-dana-anderson",
+        "name": "Dana Anderson",
+        "current_position": {
+          "institution": "JILA, University of Colorado Boulder",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Boulder",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-dana-anderson.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.270554,
+          40.014992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-daniel-prober",
+        "name": "Daniel Prober",
+        "current_position": {
+          "institution": "Yale University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "New Haven",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-daniel-prober.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.92816,
+          41.30815
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -282,6 +606,30 @@
         "md_filename": "000-david-kielpinski.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-deborah-jin",
+        "name": "Deborah Jin",
+        "current_position": {
+          "institution": "JILA, University of Colorado Boulder",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Boulder",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-deborah-jin.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.270554,
+          40.014992
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -445,6 +793,30 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-evelyn-hu",
+        "name": "Evelyn Hu",
+        "current_position": {
+          "institution": "Harvard University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Cambridge",
+        "country": "USA",
+        "short_bio": "",
+        "md_filename": "000-evelyn-hu.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121891,
+          42.375395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-franco-n-c-wong",
         "name": "Franco N. C. Wong",
         "current_position": {},
@@ -475,6 +847,50 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-fritz-ehlotzky",
+        "name": "Fritz Ehlotzky",
+        "current_position": {
+          "institution": "University of Innsbruck",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Innsbruck",
+        "country": "Austria",
+        "short_bio": "",
+        "md_filename": "000-fritz-ehlotzky.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38444444,
+          47.26277778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-georges-olivier-reymond",
+        "name": "Georges-Olivier Reymond",
+        "current_position": {
+          "institution": "Pasqal",
+          "title": "CEO"
+        },
+        "platforms": [
+          "neutral_atom"
+        ],
+        "affiliations": [],
+        "city": "Massy",
+        "country": "France",
+        "short_bio": "",
+        "md_filename": "000-georges-olivier-reymond.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-gerard-milburn",
         "name": "Gerard Milburn",
         "current_position": {},
@@ -486,6 +902,30 @@
         "md_filename": "000-gerard-milburn.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-gerd-schon",
+        "name": "Gerd Schön",
+        "current_position": {
+          "institution": "Karlsruhe Institute of Technology",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Karlsruhe",
+        "country": "Germany",
+        "short_bio": "",
+        "md_filename": "000-gerd-schon.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.40444,
+          49.00937
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -504,6 +944,30 @@
         "md_filename": "000-gerhard-rempe.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-gianni-blatter",
+        "name": "Gianni Blatter",
+        "current_position": {
+          "institution": "ETH Zurich",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Zurich",
+        "country": "Switzerland",
+        "short_bio": "",
+        "md_filename": "000-gianni-blatter.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.537491,
+          47.413218
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -547,6 +1011,24 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-guo-guangcan.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-guy-raz",
+        "name": "Guy Raz",
+        "current_position": {
+          "institution": "Q-Factor",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-guy-raz.md"
       },
       "geometry": null
     },
@@ -625,6 +1107,30 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-ignacio-cirac",
+        "name": "Ignacio Cirac",
+        "current_position": {
+          "institution": "Max Planck Institute of Quantum Optics",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Garching",
+        "country": "Germany",
+        "short_bio": "",
+        "md_filename": "000-ignacio-cirac.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.65101,
+          48.248959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-j-karl-hedrick",
         "name": "J. Karl Hedrick",
         "current_position": {},
@@ -634,6 +1140,24 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-j-karl-hedrick.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-jan-michael-rost",
+        "name": "Jan-Michael Rost",
+        "current_position": {
+          "institution": "Max Planck Institute for the Physics of Complex Systems",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-jan-michael-rost.md"
       },
       "geometry": null
     },
@@ -651,6 +1175,66 @@
         "md_filename": "000-jay-gupta.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-jean-dalibard",
+        "name": "Jean Dalibard",
+        "current_position": {
+          "institution": "Collège de France",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-jean-dalibard.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-jean-michel-raimond",
+        "name": "Jean-Michel Raimond",
+        "current_position": {
+          "institution": "École Normale Supérieure",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-jean-michel-raimond.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-jelena-vuckovic",
+        "name": "Jelena Vučković",
+        "current_position": {
+          "institution": "Stanford University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Stanford",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-jelena-vuckovic.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.16608,
+          37.42411
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -787,6 +1371,30 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-knud-taulbjerg",
+        "name": "Knud Taulbjerg",
+        "current_position": {
+          "institution": "Aarhus University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Aarhus",
+        "country": "Denmark",
+        "short_bio": "",
+        "md_filename": "000-knud-taulbjerg.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.20111111,
+          56.17055556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-kyungwon-an",
         "name": "Kyungwon An",
         "current_position": {},
@@ -802,6 +1410,72 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-l-j-sham",
+        "name": "L. J. Sham",
+        "current_position": {
+          "institution": "University of California San Diego",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-l-j-sham.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-leo-kouwenhoven",
+        "name": "Leo Kouwenhoven",
+        "current_position": {
+          "institution": "Delft University of Technology",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Delft",
+        "country": "The Netherlands",
+        "short_bio": "",
+        "md_filename": "000-leo-kouwenhoven.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35556,
+          52.006672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-lieven-m-k-vandersypen",
+        "name": "Lieven M. K. Vandersypen",
+        "current_position": {
+          "institution": "Delft University of Technology",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Delft",
+        "country": "The Netherlands",
+        "short_bio": "",
+        "md_filename": "000-lieven-m-k-vandersypen.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.35556,
+          52.006672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-markus-greiner",
         "name": "Markus Greiner",
         "current_position": {},
@@ -811,6 +1485,42 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-markus-greiner.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-markus-oberthaler",
+        "name": "Markus Oberthaler",
+        "current_position": {
+          "institution": "Heidelberg University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-markus-oberthaler.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-marlan-o-scully",
+        "name": "Marlan O. Scully",
+        "current_position": {
+          "institution": "Texas A&M University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-marlan-o-scully.md"
       },
       "geometry": null
     },
@@ -871,6 +1581,24 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-michel-orrit",
+        "name": "Michel Orrit",
+        "current_position": {
+          "institution": "Leiden University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-michel-orrit.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-mikhail-lukin",
         "name": "Mikhail Lukin",
         "current_position": {
@@ -925,6 +1653,30 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-neil-b-manson",
+        "name": "Neil B. Manson",
+        "current_position": {
+          "institution": "Australian National University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Canberra",
+        "country": "Australia",
+        "short_bio": "",
+        "md_filename": "000-neil-b-manson.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.128067,
+          -35.283459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-netanel-lindner",
         "name": "Netanel Lindner",
         "current_position": {},
@@ -934,6 +1686,24 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-netanel-lindner.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-niek-van-hulst",
+        "name": "Niek van Hulst",
+        "current_position": {
+          "institution": "ICFO - The Institute of Photonic Sciences",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-niek-van-hulst.md"
       },
       "geometry": null
     },
@@ -1045,6 +1815,114 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-paolo-villoresi",
+        "name": "Paolo Villoresi",
+        "current_position": {
+          "institution": "University of Padova",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-paolo-villoresi.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-paul-l-mceuen",
+        "name": "Paul L. McEuen",
+        "current_position": {
+          "institution": "Cornell University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Ithaca",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-paul-l-mceuen.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.49661,
+          42.44063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-paul-vitanyi",
+        "name": "Paul Vitányi",
+        "current_position": {
+          "institution": "University of Amsterdam",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "short_bio": "",
+        "md_filename": "000-paul-vitanyi.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.89027778,
+          52.36833333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-peter-lambropoulos",
+        "name": "Peter Lambropoulos",
+        "current_position": {
+          "institution": "University of Crete",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-peter-lambropoulos.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-peter-schmelcher",
+        "name": "Peter Schmelcher",
+        "current_position": {
+          "institution": "Universität Hamburg",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Hamburg",
+        "country": "Germany",
+        "short_bio": "",
+        "md_filename": "000-peter-schmelcher.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.99302,
+          53.55073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-peter-zoller",
         "name": "Peter Zoller",
         "current_position": {},
@@ -1054,6 +1932,42 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-peter-zoller.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-philippe-grangier",
+        "name": "Philippe Grangier",
+        "current_position": {
+          "institution": "Institut d'Optique Graduate School",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-philippe-grangier.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-pierre-rouchon",
+        "name": "Pierre Rouchon",
+        "current_position": {
+          "institution": "Mines Paris – PSL",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-pierre-rouchon.md"
       },
       "geometry": null
     },
@@ -1086,6 +2000,78 @@
         "md_filename": "000-randy-hulet.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-richard-n-zare",
+        "name": "Richard N. Zare",
+        "current_position": {
+          "institution": "Stanford University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Stanford",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-richard-n-zare.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.16608,
+          37.42411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-robert-a-buhrman",
+        "name": "Robert A. Buhrman",
+        "current_position": {
+          "institution": "Cornell University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Ithaca",
+        "country": "United States",
+        "short_bio": "",
+        "md_filename": "000-robert-a-buhrman.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.49661,
+          42.44063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-robert-m-westervelt",
+        "name": "Robert M. Westervelt",
+        "current_position": {
+          "institution": "Harvard University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Cambridge",
+        "country": "USA",
+        "short_bio": "",
+        "md_filename": "000-robert-m-westervelt.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.121891,
+          42.375395
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1129,6 +2115,24 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-rodolfo-miranda",
+        "name": "Rodolfo Miranda",
+        "current_position": {
+          "institution": "Universidad Autónoma de Madrid",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-rodolfo-miranda.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-roman-vercetti",
         "name": "Roman Vercetti",
         "current_position": {},
@@ -1140,6 +2144,48 @@
         "md_filename": "000-roman-vercetti.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-ronald-l-walsworth",
+        "name": "Ronald L. Walsworth",
+        "current_position": {
+          "institution": "University of Maryland",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-ronald-l-walsworth.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-rongdian-han",
+        "name": "Rongdian Han",
+        "current_position": {
+          "institution": "University of Science and Technology of China",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Hefei",
+        "country": "China",
+        "short_bio": "",
+        "md_filename": "000-rongdian-han.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.28083,
+          31.86389
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1261,6 +2307,48 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-steven-prawer",
+        "name": "Steven Prawer",
+        "current_position": {
+          "institution": "University of Melbourne",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Melbourne",
+        "country": "Australia",
+        "short_bio": "",
+        "md_filename": "000-steven-prawer.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.96332,
+          -37.814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-stuart-adams",
+        "name": "Stuart Adams",
+        "current_position": {
+          "institution": "Durham University",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-stuart-adams.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-tal-david",
         "name": "Tal David",
         "current_position": {},
@@ -1351,6 +2439,48 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "000-wiebke-guichard",
+        "name": "Wiebke Guichard",
+        "current_position": {
+          "institution": "Université Grenoble Alpes",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-wiebke-guichard.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-william-d-oliver",
+        "name": "William D. Oliver",
+        "current_position": {
+          "institution": "Massachusetts Institute of Technology",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Cambridge",
+        "country": "USA",
+        "short_bio": "",
+        "md_filename": "000-william-d-oliver.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0919,
+          42.3597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "000-william-d-phillips",
         "name": "William D. Phillips",
         "current_position": {
@@ -1417,6 +2547,24 @@
         "country": "Unknown",
         "short_bio": "",
         "md_filename": "000-wonho-jhe.md"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "000-yoav-sagi",
+        "name": "Yoav Sagi",
+        "current_position": {
+          "institution": "Q-Factor",
+          "title": ""
+        },
+        "platforms": [],
+        "affiliations": [],
+        "city": "Unknown",
+        "country": "Unknown",
+        "short_bio": "",
+        "md_filename": "000-yoav-sagi.md"
       },
       "geometry": null
     },

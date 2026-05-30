@@ -1,5 +1,36 @@
 [
   {
+    "id": "000-a-paul-alivisatos",
+    "name": "A. Paul Alivisatos",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Princeton University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Princeton",
+      "region": "",
+      "country": "United States",
+      "lat": 40.34872,
+      "lon": -74.65905,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-a-paul-alivisatos.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-aharon-kapitulnik",
     "name": "Aharon Kapitulnik",
     "sort_name": "",
@@ -25,6 +56,36 @@
     "md_filename": "000-aharon-kapitulnik.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-alain-aspect",
+    "name": "Alain Aspect",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Institut d'Optique Graduate School",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-alain-aspect.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-alex-kuzmich",
@@ -160,6 +221,37 @@
     "md_filename": "000-amit-ben-kish.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-anatole-abragam",
+    "name": "Anatole Abragam",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Commissariat à l'Énergie Atomique",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Paris",
+      "region": "",
+      "country": "France",
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-anatole-abragam.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-andrew-steane",
@@ -328,6 +420,98 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-atac-imamoglu",
+    "name": "Atac Imamoglu",
+    "sort_name": "",
+    "current_position": {
+      "institution": "ETH Zurich",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Zurich",
+      "region": "",
+      "country": "Switzerland",
+      "lat": 47.413218,
+      "lon": 8.537491,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-atac-imamoglu.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-beat-h-meier",
+    "name": "Beat H. Meier",
+    "sort_name": "",
+    "current_position": {
+      "institution": "ETH Zurich",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Zurich",
+      "region": "",
+      "country": "Switzerland",
+      "lat": 47.413218,
+      "lon": 8.537491,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-beat-h-meier.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-brian-pippard",
+    "name": "Brian Pippard",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Cambridge",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-brian-pippard.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-carl-wieman",
     "name": "Carl Wieman",
     "sort_name": "",
@@ -353,6 +537,68 @@
     "md_filename": "000-carl-wieman.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-carl-williams",
+    "name": "Carl Williams",
+    "sort_name": "",
+    "current_position": {
+      "institution": "National Institute of Standards and Technology",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Gaithersburg",
+      "region": "",
+      "country": "United States",
+      "lat": 39.14344,
+      "lon": -77.20137,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-carl-williams.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-charles-clark",
+    "name": "Charles Clark",
+    "sort_name": "",
+    "current_position": {
+      "institution": "National Institute of Standards and Technology",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Gaithersburg",
+      "region": "",
+      "country": "United States",
+      "lat": 39.14344,
+      "lon": -77.20137,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-charles-clark.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-charles-m-marcus",
@@ -382,6 +628,67 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-christian-von-borczyskowski",
+    "name": "Christian von Borczyskowski",
+    "sort_name": "",
+    "current_position": {
+      "institution": "TU Chemnitz",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-christian-von-borczyskowski.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-cindy-a-regal",
+    "name": "Cindy A. Regal",
+    "sort_name": "",
+    "current_position": {
+      "institution": "JILA, University of Colorado Boulder",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Boulder",
+      "region": "",
+      "country": "United States",
+      "lat": 40.014992,
+      "lon": -105.270554,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-cindy-a-regal.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-colin-webb",
     "name": "Colin Webb",
     "sort_name": "",
@@ -409,6 +716,36 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-d-g-steel",
+    "name": "D. G. Steel",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Michigan",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-d-g-steel.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-dan-charash",
     "name": "Dan Charash",
     "sort_name": "",
@@ -434,6 +771,128 @@
     "md_filename": "000-dan-charash.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-dan-rugar",
+    "name": "Dan Rugar",
+    "sort_name": "",
+    "current_position": {
+      "institution": "IBM Research",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-dan-rugar.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-dan-walls",
+    "name": "Dan Walls",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Auckland",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-dan-walls.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-dana-anderson",
+    "name": "Dana Anderson",
+    "sort_name": "",
+    "current_position": {
+      "institution": "JILA, University of Colorado Boulder",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Boulder",
+      "region": "",
+      "country": "United States",
+      "lat": 40.014992,
+      "lon": -105.270554,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-dana-anderson.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-daniel-prober",
+    "name": "Daniel Prober",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Yale University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "New Haven",
+      "region": "",
+      "country": "United States",
+      "lat": 41.30815,
+      "lon": -72.92816,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-daniel-prober.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-david-demille",
@@ -491,6 +950,37 @@
     "md_filename": "000-david-kielpinski.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-deborah-jin",
+    "name": "Deborah Jin",
+    "sort_name": "",
+    "current_position": {
+      "institution": "JILA, University of Colorado Boulder",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Boulder",
+      "region": "",
+      "country": "United States",
+      "lat": 40.014992,
+      "lon": -105.270554,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-deborah-jin.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-dirk-englund",
@@ -767,6 +1257,37 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-evelyn-hu",
+    "name": "Evelyn Hu",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Harvard University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Cambridge",
+      "region": "",
+      "country": "USA",
+      "lat": 42.375395,
+      "lon": -71.121891,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-evelyn-hu.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-franco-n-c-wong",
     "name": "Franco N. C. Wong",
     "sort_name": "",
@@ -821,6 +1342,69 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-fritz-ehlotzky",
+    "name": "Fritz Ehlotzky",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Innsbruck",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Innsbruck",
+      "region": "",
+      "country": "Austria",
+      "lat": 47.26277778,
+      "lon": 11.38444444,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-fritz-ehlotzky.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-georges-olivier-reymond",
+    "name": "Georges-Olivier Reymond",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Pasqal",
+      "title": "CEO"
+    },
+    "platforms": [
+      "neutral_atom"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Massy",
+      "region": "",
+      "country": "France",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-georges-olivier-reymond.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-gerard-milburn",
     "name": "Gerard Milburn",
     "sort_name": "",
@@ -846,6 +1430,37 @@
     "md_filename": "000-gerard-milburn.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-gerd-schon",
+    "name": "Gerd Schön",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Karlsruhe Institute of Technology",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Karlsruhe",
+      "region": "",
+      "country": "Germany",
+      "lat": 49.00937,
+      "lon": 8.40444,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-gerd-schon.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-gerhard-rempe",
@@ -876,6 +1491,37 @@
     "md_filename": "000-gerhard-rempe.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-gianni-blatter",
+    "name": "Gianni Blatter",
+    "sort_name": "",
+    "current_position": {
+      "institution": "ETH Zurich",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Zurich",
+      "region": "",
+      "country": "Switzerland",
+      "lat": 47.413218,
+      "lon": 8.537491,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-gianni-blatter.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-gil-semo",
@@ -957,6 +1603,36 @@
     "md_filename": "000-guo-guangcan.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-guy-raz",
+    "name": "Guy Raz",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Q-Factor",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-guy-raz.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-h-jeff-kimble",
@@ -1074,6 +1750,37 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-ignacio-cirac",
+    "name": "Ignacio Cirac",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Max Planck Institute of Quantum Optics",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Garching",
+      "region": "",
+      "country": "Germany",
+      "lat": 48.248959,
+      "lon": 11.65101,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-ignacio-cirac.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-j-karl-hedrick",
     "name": "J. Karl Hedrick",
     "sort_name": "",
@@ -1101,6 +1808,36 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-jan-michael-rost",
+    "name": "Jan-Michael Rost",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Max Planck Institute for the Physics of Complex Systems",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-jan-michael-rost.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-jay-gupta",
     "name": "Jay Gupta",
     "sort_name": "",
@@ -1126,6 +1863,97 @@
     "md_filename": "000-jay-gupta.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-jean-dalibard",
+    "name": "Jean Dalibard",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Collège de France",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-jean-dalibard.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-jean-michel-raimond",
+    "name": "Jean-Michel Raimond",
+    "sort_name": "",
+    "current_position": {
+      "institution": "École Normale Supérieure",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-jean-michel-raimond.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-jelena-vuckovic",
+    "name": "Jelena Vučković",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Stanford University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Stanford",
+      "region": "",
+      "country": "United States",
+      "lat": 37.42411,
+      "lon": -122.16608,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-jelena-vuckovic.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-john-l-hall",
@@ -1351,6 +2179,37 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-knud-taulbjerg",
+    "name": "Knud Taulbjerg",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Aarhus University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Aarhus",
+      "region": "",
+      "country": "Denmark",
+      "lat": 56.17055556,
+      "lon": 10.20111111,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-knud-taulbjerg.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-kyungwon-an",
     "name": "Kyungwon An",
     "sort_name": "",
@@ -1378,6 +2237,98 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-l-j-sham",
+    "name": "L. J. Sham",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of California San Diego",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-l-j-sham.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-leo-kouwenhoven",
+    "name": "Leo Kouwenhoven",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Delft University of Technology",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Delft",
+      "region": "",
+      "country": "The Netherlands",
+      "lat": 52.006672,
+      "lon": 4.35556,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-leo-kouwenhoven.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-lieven-m-k-vandersypen",
+    "name": "Lieven M. K. Vandersypen",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Delft University of Technology",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Delft",
+      "region": "",
+      "country": "The Netherlands",
+      "lat": 52.006672,
+      "lon": 4.35556,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-lieven-m-k-vandersypen.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-markus-greiner",
     "name": "Markus Greiner",
     "sort_name": "",
@@ -1403,6 +2354,66 @@
     "md_filename": "000-markus-greiner.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-markus-oberthaler",
+    "name": "Markus Oberthaler",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Heidelberg University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-markus-oberthaler.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-marlan-o-scully",
+    "name": "Marlan O. Scully",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Texas A&M University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-marlan-o-scully.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-matthias-weidemuller",
@@ -1490,6 +2501,36 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-michel-orrit",
+    "name": "Michel Orrit",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Leiden University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-michel-orrit.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-mikhail-lukin",
     "name": "Mikhail Lukin",
     "sort_name": "",
@@ -1574,6 +2615,37 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-neil-b-manson",
+    "name": "Neil B. Manson",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Australian National University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Canberra",
+      "region": "",
+      "country": "Australia",
+      "lat": -35.283459,
+      "lon": 149.128067,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-neil-b-manson.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-netanel-lindner",
     "name": "Netanel Lindner",
     "sort_name": "",
@@ -1599,6 +2671,36 @@
     "md_filename": "000-netanel-lindner.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-niek-van-hulst",
+    "name": "Niek van Hulst",
+    "sort_name": "",
+    "current_position": {
+      "institution": "ICFO - The Institute of Photonic Sciences",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-niek-van-hulst.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-nir-davidson",
@@ -1790,6 +2892,159 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-paolo-villoresi",
+    "name": "Paolo Villoresi",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Padova",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-paolo-villoresi.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-paul-l-mceuen",
+    "name": "Paul L. McEuen",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Cornell University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Ithaca",
+      "region": "",
+      "country": "United States",
+      "lat": 42.44063,
+      "lon": -76.49661,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-paul-l-mceuen.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-paul-vitanyi",
+    "name": "Paul Vitányi",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Amsterdam",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Amsterdam",
+      "region": "",
+      "country": "Netherlands",
+      "lat": 52.36833333,
+      "lon": 4.89027778,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-paul-vitanyi.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-peter-lambropoulos",
+    "name": "Peter Lambropoulos",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Crete",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-peter-lambropoulos.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-peter-schmelcher",
+    "name": "Peter Schmelcher",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Universität Hamburg",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Hamburg",
+      "region": "",
+      "country": "Germany",
+      "lat": 53.55073,
+      "lon": 9.99302,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-peter-schmelcher.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-peter-zoller",
     "name": "Peter Zoller",
     "sort_name": "",
@@ -1815,6 +3070,66 @@
     "md_filename": "000-peter-zoller.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-philippe-grangier",
+    "name": "Philippe Grangier",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Institut d'Optique Graduate School",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-philippe-grangier.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-pierre-rouchon",
+    "name": "Pierre Rouchon",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Mines Paris – PSL",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-pierre-rouchon.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-prof-barak-dayan",
@@ -1869,6 +3184,99 @@
     "md_filename": "000-randy-hulet.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-richard-n-zare",
+    "name": "Richard N. Zare",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Stanford University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Stanford",
+      "region": "",
+      "country": "United States",
+      "lat": 37.42411,
+      "lon": -122.16608,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-richard-n-zare.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-robert-a-buhrman",
+    "name": "Robert A. Buhrman",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Cornell University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Ithaca",
+      "region": "",
+      "country": "United States",
+      "lat": 42.44063,
+      "lon": -76.49661,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-robert-a-buhrman.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-robert-m-westervelt",
+    "name": "Robert M. Westervelt",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Harvard University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Cambridge",
+      "region": "",
+      "country": "USA",
+      "lat": 42.375395,
+      "lon": -71.121891,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-robert-m-westervelt.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-robert-schoelkopf",
@@ -1929,6 +3337,36 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-rodolfo-miranda",
+    "name": "Rodolfo Miranda",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Universidad Autónoma de Madrid",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-rodolfo-miranda.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-roman-vercetti",
     "name": "Roman Vercetti",
     "sort_name": "",
@@ -1954,6 +3392,67 @@
     "md_filename": "000-roman-vercetti.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-ronald-l-walsworth",
+    "name": "Ronald L. Walsworth",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Maryland",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-ronald-l-walsworth.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-rongdian-han",
+    "name": "Rongdian Han",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Science and Technology of China",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Hefei",
+      "region": "",
+      "country": "China",
+      "lat": 31.86389,
+      "lon": 117.28083,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-rongdian-han.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-saar-barak",
@@ -2151,6 +3650,67 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-steven-prawer",
+    "name": "Steven Prawer",
+    "sort_name": "",
+    "current_position": {
+      "institution": "University of Melbourne",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Melbourne",
+      "region": "",
+      "country": "Australia",
+      "lat": -37.814,
+      "lon": 144.96332,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-steven-prawer.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-stuart-adams",
+    "name": "Stuart Adams",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Durham University",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-stuart-adams.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-tal-david",
     "name": "Tal David",
     "sort_name": "",
@@ -2313,6 +3873,67 @@
     "updated_at": "2026-05-21"
   },
   {
+    "id": "000-wiebke-guichard",
+    "name": "Wiebke Guichard",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Université Grenoble Alpes",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-wiebke-guichard.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
+    "id": "000-william-d-oliver",
+    "name": "William D. Oliver",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Massachusetts Institute of Technology",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Cambridge",
+      "region": "",
+      "country": "USA",
+      "lat": 42.3597,
+      "lon": -71.0919,
+      "precision": "inherited"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-william-d-oliver.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
+  },
+  {
     "id": "000-william-d-phillips",
     "name": "William D. Phillips",
     "sort_name": "",
@@ -2426,6 +4047,36 @@
     "md_filename": "000-wonho-jhe.md",
     "created_at": "2026-05-21",
     "updated_at": "2026-05-21"
+  },
+  {
+    "id": "000-yoav-sagi",
+    "name": "Yoav Sagi",
+    "sort_name": "",
+    "current_position": {
+      "institution": "Q-Factor",
+      "title": ""
+    },
+    "platforms": [],
+    "affiliations": [],
+    "location": {
+      "city": "Unknown",
+      "region": "",
+      "country": "Unknown",
+      "lat": null,
+      "lon": null
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "mixed",
+    "labels": [],
+    "ion_species": [],
+    "links": {},
+    "thesis": {},
+    "short_bio": "",
+    "md_filename": "000-yoav-sagi.md",
+    "created_at": "2026-05-30",
+    "updated_at": "2026-05-30"
   },
   {
     "id": "000-yoshihisa-yamamoto",
@@ -3356,7 +5007,7 @@
       },
       {
         "advisor": "Christopher Monroe",
-        "advisor_id": "005-chris-monroe",
+        "advisor_id": "004-christopher-monroe",
         "confidence": "confirmed",
         "institution": "University of Maryland (JQI)",
         "note": "Postdoctoral researcher at UMD.",
@@ -3436,7 +5087,7 @@
     "postdocs": [
       {
         "advisor": "Christopher Monroe",
-        "advisor_id": "005-chris-monroe",
+        "advisor_id": "004-christopher-monroe",
         "confidence": "confirmed",
         "institution": "University of Michigan",
         "note": "FOCUS Fellow in the Monroe group.",
@@ -4164,7 +5815,7 @@
     "postdocs": [
       {
         "advisor": "David J. Wineland",
-        "advisor_id": "001-david-wineland",
+        "advisor_id": "006-david-wineland",
         "confidence": "confirmed",
         "institution": "National Institute of Standards and Technology (NIST)",
         "note": "Postdoctoral researcher in the Ion Storage Group.",
@@ -4852,7 +6503,7 @@
     "postdocs": [
       {
         "advisor": "Rainer Blatt; Christian F. Roos",
-        "advisor_id": "002-rainer-blatt",
+        "advisor_id": "017-rainer-blatt",
         "confidence": "confirmed",
         "institution": "University of Innsbruck / IQOQI",
         "note": "Postdoctoral researcher focusing on trapped-ion quantum simulation.",
@@ -4920,7 +6571,7 @@
     "postdocs": [
       {
         "advisor": "David Wineland",
-        "advisor_id": "001-david-wineland",
+        "advisor_id": "006-david-wineland",
         "confidence": "confirmed",
         "institution": "National Institute of Standards and Technology (NIST)",
         "note": "Postdoctoral researcher focusing on optical atomic clocks.",
@@ -6363,7 +8014,7 @@
     "postdocs": [
       {
         "advisor": "David Wineland",
-        "advisor_id": "001-david-wineland",
+        "advisor_id": "006-david-wineland",
         "confidence": "confirmed",
         "institution": "National Institute of Standards and Technology (NIST)",
         "note": "Postdoctoral researcher focusing on trapped-ion quantum computing and surface traps.",
@@ -7219,7 +8870,7 @@
     "postdocs": [
       {
         "advisor": "Jungsang Kim",
-        "advisor_id": "020-jungsang-kim",
+        "advisor_id": "010-jungsang-kim",
         "confidence": "confirmed",
         "institution": "Duke University",
         "note": "Postdoctoral research on microscale optics and ion-photon interfaces.",
@@ -7300,7 +8951,7 @@
       },
       {
         "advisor": "Jungsang Kim; Kenneth R. Brown",
-        "advisor_id": "020-jungsang-kim",
+        "advisor_id": "010-jungsang-kim",
         "confidence": "confirmed",
         "institution": "Duke University",
         "note": "Postdoctoral associate / Research Scientist at Duke.",
@@ -7641,7 +9292,7 @@
     "postdocs": [
       {
         "advisor": "Gerhard Rempe",
-        "advisor_id": "014-gerhard-rempe",
+        "advisor_id": "000-gerhard-rempe",
         "confidence": "confirmed",
         "institution": "Max Planck Institute of Quantum Optics (MPQ)",
         "note": "Postdoctoral researcher focusing on cold atoms.",
@@ -7709,7 +9360,7 @@
     "postdocs": [
       {
         "advisor": "Rainer Blatt",
-        "advisor_id": "002-rainer-blatt",
+        "advisor_id": "017-rainer-blatt",
         "confidence": "confirmed",
         "institution": "University of Innsbruck (IQOQI)",
         "note": "Postdoctoral researcher focusing on trapped-ion quantum computing.",
@@ -7905,7 +9556,7 @@
     "education": [
       {
         "advisor": "David Wineland",
-        "advisor_id": "001-david-wineland",
+        "advisor_id": "006-david-wineland",
         "confidence": "confirmed",
         "degree": "PhD (Physics)",
         "institution": "University of Colorado Boulder",
@@ -7988,7 +9639,7 @@
     "postdocs": [
       {
         "advisor": "David Wineland",
-        "advisor_id": "001-david-wineland",
+        "advisor_id": "006-david-wineland",
         "confidence": "confirmed",
         "institution": "National Institute of Standards and Technology (NIST)",
         "note": "Postdoctoral researcher (Feodor-Lynen Fellow).",
@@ -8214,7 +9865,7 @@
     "postdocs": [
       {
         "advisor": "Rainer Blatt",
-        "advisor_id": "002-rainer-blatt",
+        "advisor_id": "017-rainer-blatt",
         "confidence": "confirmed",
         "institution": "University of Innsbruck",
         "note": "Postdoctoral researcher focusing on trapped-ion quantum simulation.",
@@ -9341,7 +10992,7 @@
         "degree": "PhD",
         "institution": "University of Colorado Boulder (JILA)",
         "year": 2009,
-        "advisor": "Deborah S. Jin; Jun Ye (co-advisor)",
+        "advisor": "Deborah Jin; Jun Ye",
         "advisor_id": "082-jun-ye",
         "confidence": "confirmed",
         "source": "https://en.wikipedia.org/wiki/Kang-Kuen_Ni"
@@ -12034,31 +13685,17 @@
     },
     "education": [
       {
-        "degree": "Diplom (Physics)",
-        "institution": "Ludwig-Maximilians-Universität München (LMU Munich)",
-        "year": 1991
-      },
-      {
-        "advisor": "Unknown",
-        "confidence": "ambiguous",
         "degree": "PhD (Physics)",
         "institution": "Ludwig-Maximilians-Universität München (LMU Munich) / Max Planck Institute for Quantum Optics",
+        "year": 1995,
+        "confidence": "ambiguous",
         "note": "Doctoral work carried out at MPI for Quantum Optics, Garching",
-        "source": "https://falling-walls.com/foundation/people/oliver-benson",
-        "year": 1995
+        "source": "https://falling-walls.com/foundation/people/oliver-benson"
       }
     ],
     "postdocs": [
       {
         "advisor": "Yoshihisa Yamamoto",
-        "advisor_id": null,
-        "confidence": "confirmed",
-        "institution": "Stanford University (Edward L. Ginzton Laboratory)",
-        "note": "Feodor Lynen Fellowship from the Alexander von Humboldt Foundation. Turned to solid-state quantum optics; single-photon turnstile device work.",
-        "years": "1997-1999"
-      },
-      {
-        "advisor": "Unknown",
         "advisor_id": null,
         "confidence": "confirmed",
         "institution": "Universität Konstanz",
@@ -12594,7 +14231,7 @@
         "degree": "postdoc",
         "institution": "University of California, Berkeley / Lawrence Berkeley National Laboratory",
         "year": 1999,
-        "advisor": "A. Paul Alivisatos and Paul L. McEuen",
+        "advisor": "A. Paul Alivisatos; Paul L. McEuen",
         "confidence": "confirmed",
         "source": "https://en.wikipedia.org/wiki/Hongkun_Park"
       }
@@ -13491,7 +15128,7 @@
     },
     "education": [
       {
-        "advisor": "A. V. Ustinov",
+        "advisor": "Alexey V. Ustinov",
         "advisor_id": "171-a-v-ustinov",
         "confidence": "confirmed",
         "degree": "PhD (Physics)",

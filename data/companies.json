@@ -1728,8 +1728,67 @@
     "md_filename": "c018-q-factor.md",
     "updated_at": "",
     "directory": {
-      "current_members": [],
-      "member_count": 0
+      "current_members": [
+        "000-guy-raz.md",
+        "000-yoav-sagi.md"
+      ],
+      "member_count": 2
+    }
+  },
+  {
+    "id": "c019-pasqal",
+    "name": "Pasqal",
+    "sort_name": "Pasqal",
+    "entity_type": "company",
+    "platforms": [
+      "neutral_atom",
+      "rydberg_array"
+    ],
+    "categories": [],
+    "location": {
+      "city": "Massy",
+      "country": "France",
+      "lat": 48.7263,
+      "lon": 2.2614,
+      "precision": "city",
+      "region": "Ile-de-France"
+    },
+    "short_summary": "Neutral-atom quantum computing company founded in 2019; spun out of Institut d Optique by Antoine Browaeys and Thierry Lahaye.",
+    "approach": {},
+    "focus_areas": [],
+    "products": [],
+    "people": {
+      "founders": [
+        {
+          "name": "Antoine Browaeys"
+        },
+        {
+          "name": "Thierry Lahaye"
+        },
+        {
+          "name": "Georges-Olivier Reymond"
+        }
+      ]
+    },
+    "status": {
+      "operating_status": "private"
+    },
+    "funding": {},
+    "milestones": [],
+    "links": {
+      "website": "https://www.pasqal.com"
+    },
+    "media": {},
+    "sources": [],
+    "md_filename": "c019-pasqal.md",
+    "updated_at": "2026-05-30",
+    "directory": {
+      "current_members": [
+        "000-georges-olivier-reymond.md",
+        "084-antoine-browaeys.md",
+        "085-thierry-lahaye.md"
+      ],
+      "member_count": 3
     }
   }
 ]

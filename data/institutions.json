@@ -108,13 +108,14 @@
     },
     "directory": {
       "current_members": [
+        "000-knud-taulbjerg.md",
         "018-michael-drewsen.md"
       ],
       "alumni": [
         "099-klaus-mlmer.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 2,
       "alumni_count": 1
     },
     "sources": [
@@ -273,6 +274,9 @@
     },
     "directory": {
       "current_members": [
+        "000-atac-imamoglu.md",
+        "000-beat-h-meier.md",
+        "000-gianni-blatter.md",
         "016-jonathan-home.md",
         "126-christian-l-degen.md",
         "155-andreas-wallraff.md",
@@ -285,7 +289,7 @@
         "172-j-m-fink.md"
       ],
       "company_spinouts": [],
-      "member_count": 4,
+      "member_count": 7,
       "alumni_count": 4
     },
     "sources": [
@@ -906,6 +910,7 @@
       "current_members": [
         "000-anton-zeilinger.md",
         "000-dirk-englund.md",
+        "000-william-d-oliver.md",
         "000-wolfgang-ketterle.md",
         "040-vladan-vuletic.md",
         "041-isaac-chuang.md",
@@ -926,7 +931,7 @@
       "company_spinouts": [
         "c006-quera-computing"
       ],
-      "member_count": 7,
+      "member_count": 8,
       "alumni_count": 9
     },
     "sources": [
@@ -1974,13 +1979,14 @@
     },
     "directory": {
       "current_members": [
+        "000-paul-vitanyi.md",
         "030-rene-gerritsma.md"
       ],
       "alumni": [
         "160-barbara-m-terhal.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 2,
       "alumni_count": 1
     },
     "sources": [
@@ -2447,6 +2453,7 @@
     },
     "directory": {
       "current_members": [
+        "000-fritz-ehlotzky.md",
         "005-christian-roos.md",
         "014-thomas-monz.md",
         "015-tracy-northup.md",
@@ -2469,7 +2476,7 @@
         "110-dieter-jaksch.md"
       ],
       "company_spinouts": [],
-      "member_count": 7,
+      "member_count": 8,
       "alumni_count": 11
     },
     "sources": [
@@ -3214,7 +3221,9 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-evelyn-hu.md",
         "000-mikhail-lukin.md",
+        "000-robert-m-westervelt.md",
         "080-mikhail-d-lukin.md",
         "083-markus-greiner.md",
         "093-kang-kuen-ni.md",
@@ -3250,7 +3259,7 @@
       "company_spinouts": [
         "c006-quera-computing"
       ],
-      "member_count": 5,
+      "member_count": 7,
       "alumni_count": 25
     },
     "sources": [
@@ -3487,12 +3496,14 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-carl-williams.md",
+        "000-charles-clark.md",
         "100-alexey-v-gorshkov.md",
         "162-jose-aumentado.md"
       ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 2,
+      "member_count": 4,
       "alumni_count": 0
     },
     "sources": [],
@@ -3681,6 +3692,7 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-a-paul-alivisatos.md",
         "088-jeff-d-thompson.md",
         "116-nathalie-p-de-leon.md",
         "148-andrew-houck.md"
@@ -3690,7 +3702,7 @@
         "147-s-m-girvin.md"
       ],
       "company_spinouts": [],
-      "member_count": 3,
+      "member_count": 4,
       "alumni_count": 2
     },
     "sources": [
@@ -4282,13 +4294,14 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-peter-schmelcher.md",
         "110-dieter-jaksch.md"
       ],
       "alumni": [
         "028-juergen-eschner.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 2,
       "alumni_count": 1
     },
     "sources": [
@@ -4378,6 +4391,8 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-leo-kouwenhoven.md",
+        "000-lieven-m-k-vandersypen.md",
         "112-ronald-hanson.md",
         "123-t-h-taminiau.md",
         "159-l-dicarlo.md",
@@ -4389,7 +4404,7 @@
         "141-wolfgang-pfaff.md"
       ],
       "company_spinouts": [],
-      "member_count": 4,
+      "member_count": 6,
       "alumni_count": 3
     },
     "sources": [
@@ -4575,13 +4590,14 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-neil-b-manson.md",
         "119-marcus-w-doherty.md"
       ],
       "alumni": [
         "028-juergen-eschner.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 2,
       "alumni_count": 1
     },
     "sources": [
@@ -4623,6 +4639,8 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-paul-l-mceuen.md",
+        "000-robert-a-buhrman.md",
         "125-gregory-d-fuchs.md"
       ],
       "alumni": [
@@ -4630,7 +4648,7 @@
         "115-d-d-awschalom.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 3,
       "alumni_count": 2
     },
     "sources": [
@@ -4808,12 +4826,14 @@
     },
     "media": {},
     "directory": {
-      "current_members": [],
+      "current_members": [
+        "000-rongdian-han.md"
+      ],
       "alumni": [
         "131-jiangfeng-du.md"
       ],
       "company_spinouts": [],
-      "member_count": 0,
+      "member_count": 1,
       "alumni_count": 1
     },
     "sources": [
@@ -4947,13 +4967,14 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-gerd-schon.md",
         "136-david-hunger.md",
         "163-Ioan-m-pop.md",
         "171-a-v-ustinov.md"
       ],
       "alumni": [],
       "company_spinouts": [],
-      "member_count": 3,
+      "member_count": 4,
       "alumni_count": 0
     },
     "sources": [
@@ -5195,13 +5216,14 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-ignacio-cirac.md",
         "143-andreas-reiserer.md"
       ],
       "alumni": [
         "071-matthias-keller.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 2,
       "alumni_count": 1
     },
     "sources": [
@@ -5243,6 +5265,7 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-daniel-prober.md",
         "000-robert-schoelkopf.md",
         "145-robert-schoelkopf.md",
         "146-michel-devoret.md",
@@ -5265,7 +5288,7 @@
         "175-zaki-leghtas.md"
       ],
       "company_spinouts": [],
-      "member_count": 5,
+      "member_count": 6,
       "alumni_count": 13
     },
     "sources": [
@@ -5307,6 +5330,8 @@
     "media": {},
     "directory": {
       "current_members": [
+        "000-jelena-vuckovic.md",
+        "000-richard-n-zare.md",
         "149-david-schuster.md"
       ],
       "alumni": [
@@ -5319,7 +5344,7 @@
         "159-l-dicarlo.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 3,
       "alumni_count": 7
     },
     "sources": [
