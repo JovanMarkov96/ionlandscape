@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-label="Quantum Landscape logo mark, clean vector approximation">
+  <title>Quantum Landscape mark - clean vector approximation</title>
+  <defs>
+    <linearGradient id="qlg" x1="70" y1="120" x2="940" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#15D5FF"/>
+      <stop offset="0.45" stop-color="#2E7CFF"/>
+      <stop offset="0.72" stop-color="#6E8CFF"/>
+      <stop offset="1" stop-color="#8A5CF6"/>
+    </linearGradient>
+  </defs>
+  <path fill="#071225" d="M72 346 C130 338 156 276 218 267 C273 258 287 320 343 314 C404 307 421 118 506 106 C590 96 610 304 671 314 C728 323 744 263 802 267 C861 271 887 336 942 346 C870 343 833 321 803 302 C767 279 748 313 699 342 C635 379 589 318 558 223 C539 164 527 142 506 142 C485 142 473 164 454 223 C422 321 377 379 311 342 C263 315 244 280 209 302 C178 321 144 343 72 346 Z"/>
+  <path fill="#071225" d="M62 362 C145 347 215 381 300 381 C392 381 429 323 506 323 C584 323 622 381 714 381 C799 381 867 347 950 362 C851 377 783 432 685 432 C610 432 576 382 506 382 C436 382 402 432 327 432 C229 432 160 377 62 362 Z" opacity="0.98"/>
+</svg>

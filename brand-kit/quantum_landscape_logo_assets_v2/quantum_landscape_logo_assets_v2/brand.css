@@ -1,0 +1,22 @@
+:root {
+  --ql-bg-dark: #020B1C;
+  --ql-bg-dark-2: #061426;
+  --ql-panel-dark: #071426;
+  --ql-panel-light: #F6FAFF;
+  --ql-text-dark-mode: #F7FBFF;
+  --ql-text-light-mode: #071225;
+  --ql-muted-dark-mode: #B9C7DC;
+  --ql-muted-light-mode: #516178;
+  --ql-cyan: #15D5FF;
+  --ql-blue: #2E7CFF;
+  --ql-periwinkle: #6E8CFF;
+  --ql-violet: #8A5CF6;
+  --ql-gradient: linear-gradient(100deg, #15D5FF 0%, #2E7CFF 45%, #6E8CFF 72%, #8A5CF6 100%);
+  --ql-font-display: 'Space Grotesk', 'Inter Display', Inter, system-ui, sans-serif;
+  --ql-font-body: Inter, Manrope, system-ui, sans-serif;
+}
+
+.ql-logo { height: 48px; width: auto; display: block; }
+.ql-wordmark { height: 56px; width: auto; display: block; }
+.ql-title { font-family: var(--ql-font-display); letter-spacing: -0.035em; }
+.ql-gradient-text { background: var(--ql-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
