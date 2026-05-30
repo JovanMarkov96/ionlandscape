@@ -52,7 +52,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  google_scholar: https://scholar.google.com/citations?user=2cWt_OIAAAAJ
+  google_scholar: https://scholar.google.com/citations?user=jcRH8hoAAAAJ&hl=en
   group_page: https://www.csir.co.za/quantum-optics
   orcid: null
 location:
@@ -86,4 +86,4 @@ Hermann Uys leads the trapped ion research group at Stellenbosch University and 
 He received his PhD from the University of Arizona in 2007.
 
 ## Publications
-See full publication list on [Google Scholar](https://scholar.google.com/citations?user=2cWt_OIAAAAJ).
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=jcRH8hoAAAAJ&hl=en).
