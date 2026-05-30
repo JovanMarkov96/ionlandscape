@@ -81,7 +81,7 @@ platforms:
 - superconducting
 postdocs:
 - advisor: William D. Oliver
-  advisor_id: null
+  advisor_id: 201-william-d-oliver
   confidence: confirmed
   institution: Massachusetts Institute of Technology
   note: Research Laboratory of Electronics, Oliver group; noise spectroscopy and dynamical
