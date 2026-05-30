@@ -49,7 +49,7 @@ platforms:
 - trapped_ion
 postdocs:
 - advisor: Gerhard Rempe
-  advisor_id: 014-gerhard-rempe
+  advisor_id: 000-gerhard-rempe
   confidence: confirmed
   institution: Max Planck Institute of Quantum Optics (MPQ)
   note: Postdoctoral researcher focusing on cold atoms.

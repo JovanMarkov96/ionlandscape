@@ -66,7 +66,7 @@ platforms:
 - trapped_ion
 postdocs:
 - advisor: Rainer Blatt
-  advisor_id: 002-rainer-blatt
+  advisor_id: 017-rainer-blatt
   confidence: confirmed
   institution: University of Innsbruck (IQOQI)
   note: Postdoctoral researcher focusing on trapped-ion quantum computing.

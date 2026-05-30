@@ -87,7 +87,7 @@ postdocs:
   note: Postdoctoral researcher at University of Innsbruck.
   years: unknown
 - advisor: Christopher Monroe
-  advisor_id: 005-chris-monroe
+  advisor_id: 004-christopher-monroe
   confidence: confirmed
   institution: University of Maryland (JQI)
   note: Postdoctoral researcher at UMD.

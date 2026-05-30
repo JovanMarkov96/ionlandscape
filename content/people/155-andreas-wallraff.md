@@ -12,7 +12,7 @@ current_position:
   title: Full Professor for Solid State Physics
   verified_at: '2026-05-26'
 education:
-- advisor: A. V. Ustinov
+- advisor: Alexey V. Ustinov
   advisor_id: 171-a-v-ustinov
   confidence: confirmed
   degree: PhD (Physics)

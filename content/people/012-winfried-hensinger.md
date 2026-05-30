@@ -75,7 +75,7 @@ platforms:
 - trapped_ion
 postdocs:
 - advisor: Christopher Monroe
-  advisor_id: 005-chris-monroe
+  advisor_id: 004-christopher-monroe
   confidence: confirmed
   institution: University of Michigan
   note: FOCUS Fellow in the Monroe group.

@@ -21,7 +21,7 @@ education:
 - degree: postdoc
   institution: University of California, Berkeley / Lawrence Berkeley National Laboratory
   year: 1999
-  advisor: A. Paul Alivisatos and Paul L. McEuen
+  advisor: A. Paul Alivisatos; Paul L. McEuen
   confidence: confirmed
   source: https://en.wikipedia.org/wiki/Hongkun_Park
 entity_type: person

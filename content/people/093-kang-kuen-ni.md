@@ -15,7 +15,7 @@ education:
 - degree: PhD
   institution: University of Colorado Boulder (JILA)
   year: 2009
-  advisor: Deborah S. Jin; Jun Ye (co-advisor)
+  advisor: Deborah Jin; Jun Ye
   advisor_id: 082-jun-ye
   confidence: confirmed
   source: https://en.wikipedia.org/wiki/Kang-Kuen_Ni

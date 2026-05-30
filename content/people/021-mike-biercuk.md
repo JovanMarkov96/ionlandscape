@@ -78,7 +78,7 @@ platforms:
 - trapped_ion
 postdocs:
 - advisor: David J. Wineland
-  advisor_id: 001-david-wineland
+  advisor_id: 006-david-wineland
   confidence: confirmed
   institution: National Institute of Standards and Technology (NIST)
   note: Postdoctoral researcher in the Ion Storage Group.

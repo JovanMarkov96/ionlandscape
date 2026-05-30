@@ -12,7 +12,7 @@ current_position:
   title: Physicist
 education:
 - advisor: David Wineland
-  advisor_id: 001-david-wineland
+  advisor_id: 006-david-wineland
   confidence: confirmed
   degree: PhD (Physics)
   institution: University of Colorado Boulder

@@ -61,7 +61,7 @@ postdocs:
   note: Postdoctoral associate at SNU ASRI.
   years: 2017-2018
 - advisor: Jungsang Kim; Kenneth R. Brown
-  advisor_id: 020-jungsang-kim
+  advisor_id: 010-jungsang-kim
   confidence: confirmed
   institution: Duke University
   note: Postdoctoral associate / Research Scientist at Duke.

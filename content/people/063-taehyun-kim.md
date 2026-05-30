@@ -65,7 +65,7 @@ platforms:
 - trapped_ion
 postdocs:
 - advisor: Jungsang Kim
-  advisor_id: 020-jungsang-kim
+  advisor_id: 010-jungsang-kim
   confidence: confirmed
   institution: Duke University
   note: Postdoctoral research on microscale optics and ion-photon interfaces.

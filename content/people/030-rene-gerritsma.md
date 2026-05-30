@@ -54,7 +54,7 @@ platforms:
 - neutral_atom
 postdocs:
 - advisor: Rainer Blatt; Christian F. Roos
-  advisor_id: 002-rainer-blatt
+  advisor_id: 017-rainer-blatt
   confidence: confirmed
   institution: University of Innsbruck / IQOQI
   note: Postdoctoral researcher focusing on trapped-ion quantum simulation.

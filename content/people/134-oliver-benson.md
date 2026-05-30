@@ -14,7 +14,6 @@ education:
 - degree: Diplom (Physics)
   institution: Ludwig-Maximilians-Universität München (LMU Munich)
   year: 1991
-- advisor: Unknown
   confidence: ambiguous
   degree: PhD (Physics)
   institution: Ludwig-Maximilians-Universität München (LMU Munich) / Max Planck Institute for Quantum Optics
@@ -92,7 +91,6 @@ postdocs:
   note: Feodor Lynen Fellowship from the Alexander von Humboldt Foundation. Turned
     to solid-state quantum optics; single-photon turnstile device work.
   years: 1997-1999
-- advisor: Unknown
   advisor_id: null
   confidence: confirmed
   institution: Universität Konstanz
