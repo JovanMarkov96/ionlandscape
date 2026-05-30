@@ -1,16 +1,74 @@
 ---
 active: active
+applications:
+- computing
+- networking
 created_at: '2026-05-26'
 current_position:
-  confidence: openalex_inferred
+  confidence: confirmed
   institution: Virginia Tech
-  source: ''
-  title: ''
+  source: https://www.phys.vt.edu/About/people/Faculty/sophia-economou.html
+  title: Professor and T. Marshall Hahn Chair in Physics
+  since_year: 2015
+  verified_at: '2026-05-30'
+education:
+- degree: PhD
+  institution: University of California, San Diego
+  year: 2006
+  advisor: L. J. Sham
+  advisor_id: null
+  confidence: confirmed
+  source: https://en.wikipedia.org/wiki/Sophia_Economou
+- degree: BSc
+  institution: University of Crete
+  year: 2000
+  advisor: null
+  advisor_id: null
+  confidence: confirmed
+  source: https://en.wikipedia.org/wiki/Sophia_Economou
 entity_type: person
 group_type: theory
 id: 127-sophia-e-economou
-last_verified_at: '2026-05-26'
+key_papers:
+- title: An adaptive variational algorithm for exact molecular simulations on a quantum computer
+  year: 2019
+  doi: 10.1038/s41467-019-10988-2
+  role: co_author
+- title: 'Quantum repeaters: From quantum networks to the quantum internet'
+  year: 2023
+  doi: 10.1103/revmodphys.95.045006
+  role: co_author
+- title: Deterministic generation of all-photonic quantum repeaters from solid-state emitters
+  year: 2017
+  doi: 10.1103/PhysRevX.7.041023
+  role: senior_author
+- title: Error-correcting entanglement swapping using a practical logical photon encoding
+  year: 2021
+  doi: 10.1103/PhysRevA.104.052623
+  role: senior_author
+- title: Photonic resource state generation from a minimal number of quantum emitters
+  year: 2022
+  doi: 10.1038/s41534-022-00522-6
+  role: senior_author
+keywords:
+- NV center
+- quantum networks
+- quantum error correction
+- photonic graph states
+- all-photonic quantum repeaters
+- quantum computing
+- spin qubits
+- quantum control
+- variational quantum algorithms
+last_verified_at: '2026-05-30'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-30'
 links:
+  group_page: https://sites.google.com/vt.edu/economou-group
+  institution_profile: https://www.phys.vt.edu/About/people/Faculty/sophia-economou.html
+  openalex: https://openalex.org/A5060673700
   orcid: https://orcid.org/0000-0001-9939-5589
 location:
   city: Blacksburg
@@ -19,11 +77,17 @@ location:
   lat: 37.22957
   lon: -80.41394
   precision: city
+metrics:
+  citation_count: 6189
+  h_index: 36
+  publication_count: 294
+  retrieved_at: '2026-05-30'
+  source: openalex
 name: Sophia E. Economou
 platforms:
 - nv_center
 schema_version: 2
 sort_name: Economou, Sophia E.
-updated_at: '2026-05-26'
-verification_source_count: 1
+updated_at: '2026-05-30'
+verification_source_count: 5
 ---

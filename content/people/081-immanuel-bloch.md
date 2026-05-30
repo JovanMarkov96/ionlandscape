@@ -2,23 +2,70 @@
 active: active
 applications:
 - simulation
+- computing
 created_at: '2026-05-26'
 current_position:
-  confidence: openalex_inferred
+  confidence: confirmed
   institution: Ludwig-Maximilians-Universität München
-  source: https://openalex.org/A5032954061
-  title: ''
+  source: https://www.quantum-munich.de/104554/bloch-immanuel-prof-dr
+  title: Professor of Experimental Physics
+  since_year: 2009
+  verified_at: '2026-05-30'
+education:
+- degree: PhD (Physics)
+  institution: Ludwig-Maximilians-Universität München
+  year: 2000
+  advisor: Theodor W. Hänsch
+  advisor_id: 000-theodor-w-hansch
+  confidence: confirmed
+  source: https://en.wikipedia.org/wiki/Immanuel_Bloch
 entity_type: person
 group_type: experimental
 id: 081-immanuel-bloch
+key_papers:
+- title: Quantum phase transition from a superfluid to a Mott insulator in a gas of
+    ultracold atoms
+  year: 2002
+  doi: 10.1038/415039a
+  role: co_author
+- title: Many-body physics with ultracold gases
+  year: 2008
+  doi: 10.1103/RevModPhys.80.885
+  role: co_author
+- title: Single-atom-resolved fluorescence imaging of an atomic Mott insulator
+  year: 2010
+  doi: 10.1038/nature09378
+  role: co_author
+- title: Quantum simulations with ultracold quantum gases
+  year: 2012
+  doi: 10.1038/nphys2259
+  role: co_author
+- title: Light-cone-like spreading of correlations in a quantum many-body system
+  year: 2012
+  doi: 10.1038/nature10748
+  role: senior_author
+- title: Quantum simulations with ultracold atoms in optical lattices
+  year: 2017
+  doi: 10.1126/science.aal3837
+  role: co_author
 keywords:
-- Cold Atom Physics and Bose-Einstein Condensates
-- Quantum, superfluid, helium dynamics
-- Quantum many-body systems
-- Atomic and Subatomic Physics Research
-- Quantum Information and Cryptography
-last_verified_at: '2026-05-26'
+- ultracold atoms and quantum gases
+- optical lattices
+- quantum gas microscopes
+- quantum phase transitions
+- Hubbard model simulation
+- many-body physics
+- Rydberg atoms
+- quantum simulation
+last_verified_at: '2026-05-30'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: false
+  last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=kX5_lc8AAAAJ
+  group_page: https://www.quantum-munich.de/104554/bloch-immanuel-prof-dr
+  institution_profile: https://www.mpq.mpg.de/person/34641/4571983
   openalex: https://openalex.org/A5032954061
   orcid: https://orcid.org/0000-0002-0679-4759
 location:
@@ -37,8 +84,18 @@ metrics:
 name: Immanuel Bloch
 platforms:
 - neutral_atom
+- rydberg_array
 schema_version: 2
 sort_name: Bloch, Immanuel
-updated_at: '2026-05-26'
-verification_source_count: 1
+updated_at: '2026-05-30'
+verification_source_count: 5
 ---
+
+Immanuel Bloch is Professor of Experimental Physics at Ludwig-Maximilians-Universität München (LMU) and Scientific Director of the Quantum Many-Body Systems Division at the Max Planck Institute of Quantum Optics (MPQ) in Garching, where he has been based since 2008. He is one of the most cited physicists in quantum simulation, widely recognised for pioneering the use of optical lattices and quantum gas microscopes to realise and probe strongly correlated quantum systems with single-atom precision.
+
+He obtained his PhD in 2000 from LMU Munich under Nobel laureate Theodor W. Hänsch, with a thesis on atom lasers and the phase coherence of Bose–Einstein condensates. After a junior group leader position at MPQ he became full professor at the University of Mainz (2003–2009) before returning to Munich. His co-authorship on the landmark 2002 Nature paper (Greiner et al.) reporting the first observation of the superfluid-to-Mott-insulator quantum phase transition in a gas of ultracold atoms remains one of the most cited experiments in condensed-matter physics. His lab also demonstrated single-atom-resolved fluorescence imaging of a Mott insulator (2010), enabling the quantum gas microscope technique now widely used across the field.
+
+His division at MPQ hosts active Rydberg atom experimental groups (strontium and ytterbium Rydberg platforms), placing him at the intersection of optical-lattice simulation and Rydberg-array quantum computation.
+
+## Publications
+See full publication list on [Google Scholar](https://scholar.google.com/citations?user=kX5_lc8AAAAJ).

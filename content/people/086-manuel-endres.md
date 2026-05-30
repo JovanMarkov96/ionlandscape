@@ -5,21 +5,61 @@ applications:
 - simulation
 created_at: '2026-05-26'
 current_position:
-  confidence: openalex_inferred
+  confidence: confirmed
   institution: California Institute of Technology
-  source: https://openalex.org/A5083319852
-  title: ''
+  source: https://www.endreslab.com/manuel-endres.html
+  title: Professor of Physics
+  since_year: 2021
+  verified_at: '2026-05-30'
+education:
+- degree: PhD (Physics)
+  institution: Ludwig-Maximilians-Universität München
+  year: 2013
+  advisor: Immanuel Bloch
+  advisor_id: 081-immanuel-bloch
+  confidence: confirmed
+  source: https://www.mpq.mpg.de/4868036/13_06_28
 entity_type: person
 group_type: experimental
 id: 086-manuel-endres
+key_papers:
+- title: Atom-by-atom assembly of defect-free one-dimensional cold atom arrays
+  year: 2016
+  doi: 10.1126/science.aah3752
+  role: first_author
+- title: High-Fidelity Control and Entanglement of Rydberg-Atom Qubits
+  year: 2018
+  doi: 10.1103/PhysRevLett.121.123603
+  role: co_author
+- title: An Atomic-Array Optical Clock with Single-Atom Readout
+  year: 2019
+  doi: 10.1103/PhysRevX.9.041052
+  role: senior_author
+- title: Erasure conversion in a high-fidelity Rydberg quantum simulator
+  year: 2023
+  doi: 10.1038/s41586-023-06516-4
+  role: senior_author
+- title: A tweezer array with 6100 highly coherent atomic qubits
+  year: 2025
+  doi: 10.1038/s41586-025-09641-4
+  role: senior_author
 keywords:
-- Cold Atom Physics and Bose-Einstein Condensates
-- Quantum many-body systems
-- Quantum Information and Cryptography
-- Quantum Computing Algorithms and Architecture
-- Quantum, superfluid, helium dynamics
-last_verified_at: '2026-05-26'
+- optical tweezer arrays
+- Rydberg qubits
+- atom-by-atom assembly
+- quantum simulation
+- quantum error correction
+- alkaline-earth atoms
+- neutral atom quantum computing
+- tweezer clock
+last_verified_at: '2026-05-30'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: true
+  last_checked: '2026-05-30'
 links:
+  group_page: https://www.endreslab.com/
+  institution_profile: https://pma.caltech.edu/research-and-academics/physics/physics-faculty/manuel-endres
   openalex: https://openalex.org/A5083319852
   orcid: https://orcid.org/0000-0002-4461-224X
 location:
@@ -39,8 +79,29 @@ name: Manuel Endres
 platforms:
 - neutral_atom
 - rydberg_array
+postdocs:
+- institution: Max-Planck-Institut für Quantenoptik
+  advisor: Ignacio Cirac
+  years: 2013-2014
+  confidence: confirmed
+  source: https://www.endreslab.com/manuel-endres.html
+- institution: Harvard University
+  advisor: null
+  note: HQOC Prize Postdoctoral Fellow, Harvard Quantum Optics Center
+  years: 2014-2015
+  confidence: confirmed
+  source: https://www.endreslab.com/manuel-endres.html
 schema_version: 2
 sort_name: Endres, Manuel
-updated_at: '2026-05-26'
-verification_source_count: 1
+updated_at: '2026-05-30'
+verification_source_count: 4
 ---
+
+Manuel Endres is Professor of Physics at the California Institute of Technology (Caltech), where he has led the Endres Lab since 2015 (initially as Visiting Associate, promoted to Assistant Professor in 2016 and Full Professor in 2021). His group develops optical tweezer array platforms for quantum computing, quantum simulation, and precision metrology, with a particular focus on alkaline-earth (strontium) neutral atoms and Rydberg qubit control.
+
+He received his PhD in 2013 from Ludwig-Maximilians-Universität München (summa cum laude) under the supervision of Immanuel Bloch and Stefan Kuhr at the Max Planck Institute of Quantum Optics, where his thesis introduced single-atom-resolved detection techniques in optical lattices. He then held postdoctoral positions at MPQ (with Ignacio Cirac, 2013–2014) and Harvard (HQOC Prize Fellow, 2014–2015) before joining Caltech.
+
+His landmark 2016 Science paper introduced atom-by-atom assembly of defect-free arrays, a foundational technique now standard across the neutral-atom computing field. Subsequent work established high-fidelity Rydberg entanglement with alkaline-earth atoms, erasure conversion for quantum error mitigation, and in 2025 demonstrated a record-setting tweezer array with over 6,100 coherent atomic qubits. He has been recognised with a Sloan Research Fellowship (2017), NSF CAREER award (2018), New Horizons in Physics Prize from the Breakthrough Foundation (2022), and DOE Early Career award.
+
+## Publications
+See full publication list at [Endres Lab](https://www.endreslab.com/publications.html).

@@ -5,29 +5,67 @@ applications:
 - optical_clocks
 created_at: '2026-05-26'
 current_position:
-  confidence: openalex_inferred
-  institution: National Institute of Standards and Technology
-  source: https://openalex.org/A5067783194
-  title: ''
+  confidence: confirmed
+  institution: JILA, University of Colorado Boulder / NIST
+  source: https://www.nist.gov/people/ana-maria-rey
+  title: JILA Fellow; NIST Fellow; Professor Adjoint of Physics, University of Colorado Boulder
+  since_year: 2012
+  verified_at: '2026-05-30'
+education:
+- degree: PhD
+  institution: University of Maryland
+  year: 2004
+  advisor: Charles Clark
+  confidence: confirmed
+  source: https://en.wikipedia.org/wiki/Ana_Maria_Rey
 entity_type: person
-group_type: mixed
+group_type: theory
 id: 101-ana-maria-rey
+key_papers:
+- title: Two-orbital SU(N) magnetism with ultracold alkaline-earth atoms
+  year: 2010
+  doi: 10.1038/nphys1535
+  role: co_author
+- title: A quantum many-body spin system in an optical lattice clock
+  year: 2013
+  doi: 10.1126/science.1236929
+  role: co_author
+- title: Probing many-body interactions in an optical lattice clock
+  year: 2014
+  doi: 10.1016/j.aop.2013.11.002
+  role: first_author
+- title: Quantum-enhanced sensing on optical transitions through finite-range interactions
+  year: 2023
+  doi: 10.1038/s41586-023-06472-z
+  role: senior_author
+- title: Coherent evolution of superexchange interaction in seconds-long optical clock spectroscopy
+  year: 2025
+  doi: 10.1126/science.ado5987
+  role: co_author
 keywords:
-- Cold Atom Physics and Bose-Einstein Condensates
-- Atomic and Subatomic Physics Research
-- Quantum Information and Cryptography
-- Quantum optics and atomic interactions
-- Quantum, superfluid, helium dynamics
-last_verified_at: '2026-05-26'
+- quantum many-body theory
+- optical lattice clocks
+- ultracold alkaline-earth atoms
+- SU(N) magnetism
+- quantum simulation
+- quantum metrology
+- spin squeezing
+last_verified_at: '2026-05-30'
+lineage_check:
+  advisor_verified: true
+  postdoc_verified: false
+  last_checked: '2026-05-30'
 links:
+  group_page: https://jila.colorado.edu/arey
+  institution_profile: https://www.nist.gov/people/ana-maria-rey
   openalex: https://openalex.org/A5067783194
   orcid: https://orcid.org/0000-0001-7176-9413
 location:
-  city: Gaithersburg
+  city: Boulder
   country: United States
-  geocode_source: openalex
-  lat: 39.14344
-  lon: -77.20137
+  geocode_source: manual
+  lat: 40.0150
+  lon: -105.2705
   precision: city
 metrics:
   citation_count: 13431
@@ -40,6 +78,6 @@ platforms:
 - neutral_atom
 schema_version: 2
 sort_name: Rey, Ana María
-updated_at: '2026-05-26'
-verification_source_count: 1
+updated_at: '2026-05-30'
+verification_source_count: 3
 ---

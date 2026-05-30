@@ -70,14 +70,15 @@ Compiled: 2026-05-26
 ## Lineage
 
 - PhD advisor: Pierre Rouchon (Professor, Mines Paris-PSL / Centre Automatique et Systèmes). Not in database.
-- Postdoctoral/visiting: Yale University with Michel H. Devoret and Robert J. Schoelkopf, 2011–2013 and continuing. Devoret received Nobel Prize in Physics 2025.
+- Postdoctoral/visiting: Yale University with Michel H. Devoret (146-michel-devoret) and Robert J. Schoelkopf (145-robert-schoelkopf), 2011–2013 and continuing. Devoret received Nobel Prize in Physics 2025.
 - advisor_id: null (Pierre Rouchon not in database, IDs 080–175 checked)
+- postdoc_verified: true — Devoret (146) and Schoelkopf (145) are both in the database
 
 ## Additional Notes
 
 - Also affiliated as part-time professor at École Polytechnique (confirmed on Inria profile page)
 - Inria institution canonical name: "Institut national de recherche en sciences et technologies du numérique" = Inria
-- Location on file (Le Chesnay-Rocquencourt) is Inria Saclay campus; main working address is Inria Paris (2 Rue Simone Iff, 75012 Paris)
+- Location updated to Paris (Inria Paris, 2 Rue Simone Iff, 75012 Paris) — the QUANTIC team operates from Inria Paris, not the old Saclay/Le Chesnay-Rocquencourt address
 - QUANTIC team page: https://team.inria.fr/quantic/
 
 ## Sources Summary
@@ -92,4 +93,4 @@ Compiled: 2026-05-26
 | https://pubmed.ncbi.nlm.nih.gov/24093235/ | PubMed | Key paper DOI confirmation |
 | https://www.nature.com/articles/nature10376 | Journal | Key paper DOI |
 
-verification_source_count: 4 (Inria profile, CV page, Inria award page, Yale/Devoret interview page)
+verification_source_count: 5 (Inria profile, CV page, Inria award page, Yale/Devoret interview page, Inria news/frenchweb interview)

@@ -16,34 +16,32 @@ education:
   year: 2012
   advisor: Mazyar Mirrahimi
   advisor_id: 174-mazyar-mirrahimi
-  coadvisor: Pierre Rouchon
-  thesis: Quantum state engineering and stabilization
   confidence: confirmed
   source: https://quantic.phys.ens.fr/zaki/index.html
 entity_type: person
 group_type: mixed
 id: 175-zaki-leghtas
 key_papers:
-- title: Extending the lifetime of a quantum bit with error correction in superconducting circuits
-  year: 2016
-  doi: 10.1038/nature18949
-  role: co-author
-- title: 'Dynamically protected cat-qubits: a new paradigm for universal quantum computation'
-  year: 2014
-  doi: 10.1088/1367-2630/16/4/045014
-  role: co-author
 - title: Confining the state of light to a quantum manifold by engineered two-photon loss
   year: 2015
   doi: 10.1126/science.aaa2085
-  role: lead author
+  role: first_author
+- title: 'Dynamically protected cat-qubits: a new paradigm for universal quantum computation'
+  year: 2014
+  doi: 10.1088/1367-2630/16/4/045014
+  role: co_author
+- title: Extending the lifetime of a quantum bit with error correction in superconducting circuits
+  year: 2016
+  doi: 10.1038/nature18949
+  role: co_author
 - title: Exponential suppression of bit-flips in a qubit encoded in an oscillator
   year: 2020
   doi: 10.1038/s41567-020-0824-x
-  role: co-author
+  role: senior_author
 - title: Quantum control of a cat qubit with bit-flip times exceeding ten seconds
   year: 2024
   doi: 10.1038/s41586-024-07294-3
-  role: co-author
+  role: corresponding
 keywords:
 - cat qubits
 - superconducting circuits

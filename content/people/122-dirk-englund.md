@@ -5,21 +5,67 @@ applications:
 - networking
 created_at: '2026-05-26'
 current_position:
-  confidence: openalex_inferred
-  institution: Massachusetts Institute Of Technology
-  source: https://openalex.org/A5049120533
-  title: ''
+  confidence: confirmed
+  institution: Massachusetts Institute of Technology
+  source: https://www.eecs.mit.edu/people/dirk-r-englund/
+  title: Professor of Electrical Engineering and Computer Science
+  since_year: 2013
+  verified_at: '2026-05-29'
+education:
+- degree: BS (Physics)
+  institution: California Institute of Technology
+  year: 2002
+  advisor: null
+  advisor_id: null
+  confidence: confirmed
+  source: https://en.wikipedia.org/wiki/Dirk_Englund
+- degree: PhD (Applied Physics)
+  institution: Stanford University
+  year: 2008
+  advisor: Jelena Vučković
+  advisor_id: null
+  confidence: confirmed
+  source: https://en.wikipedia.org/wiki/Dirk_Englund
 entity_type: person
 group_type: experimental
 id: 122-dirk-englund
+key_papers:
+- title: Large-scale integration of artificial atoms in hybrid photonic circuits
+  year: 2020
+  doi: 10.1038/s41586-020-2441-3
+  role: senior_author
+- title: Deep learning with coherent nanophotonic circuits
+  year: 2017
+  doi: 10.1038/nphoton.2017.93
+  role: senior_author
+- title: Coherent spin control of a nanocavity-enhanced qubit in diamond
+  year: 2015
+  doi: 10.1038/ncomms7173
+  role: senior_author
+- title: Deterministic coupling of a single nitrogen vacancy center to a photonic crystal cavity
+  year: 2010
+  doi: 10.1021/nl101662v
+  role: senior_author
+- title: Controlling the spontaneous emission rate of single quantum dots in a two-dimensional photonic crystal
+  year: 2005
+  doi: 10.1103/PhysRevLett.95.013904
+  role: first_author
 keywords:
-- Photonic and Optical Devices
-- Neural Networks and Reservoir Computing
-- Quantum Information and Cryptography
-- Diamond and Carbon-based Materials Research
-- Photonic Crystals and Applications
-last_verified_at: '2026-05-26'
+- quantum photonics
+- NV centers in diamond
+- photonic crystal cavities
+- integrated photonics
+- single photon emitters
+- quantum networking
+- optical neural networks
+last_verified_at: '2026-05-29'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: true
+  last_checked: '2026-05-29'
 links:
+  group_page: https://qp.mit.edu/
+  institution_profile: https://www.eecs.mit.edu/people/dirk-r-englund/
   openalex: https://openalex.org/A5049120533
   orcid: https://orcid.org/0000-0002-1043-3489
 location:
@@ -39,8 +85,14 @@ name: Dirk Englund
 platforms:
 - nv_center
 - color_center
+postdocs:
+- institution: Harvard University
+  advisor: Mikhail Lukin
+  advisor_id: null
+  years: null
+  source: https://en.wikipedia.org/wiki/Dirk_Englund
 schema_version: 2
 sort_name: Englund, Dirk
-updated_at: '2026-05-26'
-verification_source_count: 1
+updated_at: '2026-05-29'
+verification_source_count: 4
 ---

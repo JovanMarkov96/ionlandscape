@@ -48,12 +48,17 @@ Generated: 2026-05-26
 - **Source:** quantic.phys.ens.fr/zaki/index.html
 - **Note:** OA affiliation showing Yale is a stale postdoc record (confirmed stale per shortlist)
 
-## Key papers
-1. Ofek et al. incl. Leghtas — "Extending the lifetime of a quantum bit with error correction in superconducting circuits" — Nature 536, 441–445 (2016) — DOI: 10.1038/nature18949 — ~1298 citations
-2. Mirrahimi, Leghtas et al. — "Dynamically protected cat-qubits: a new paradigm for universal quantum computation" — NJP 16, 045014 (2014) — DOI: 10.1088/1367-2630/16/4/045014 — ~995 citations
-3. Leghtas, Touzard et al. — "Confining the state of light to a quantum manifold by engineered two-photon loss" — Science 347, 853–857 (2015) — DOI: 10.1126/science.aaa2085 — ~772 citations
-4. Lescanne, Villiers, ..., Leghtas et al. — "Exponential suppression of bit-flips in a qubit encoded in an oscillator" — Nature Physics 16, 509–513 (2020) — DOI: 10.1038/s41567-020-0824-x
-5. Réglade, Bocquet, Gautier, ..., Leghtas et al. — "Quantum control of a cat qubit with bit-flip times exceeding ten seconds" — Nature 629, 778–783 (2024) — DOI: 10.1038/s41586-024-07294-3
+## Key papers (with authorship roles)
+1. Leghtas et al. — "Confining the state of light to a quantum manifold by engineered two-photon loss" — Science 347, 853–857 (2015) — DOI: 10.1126/science.aaa2085 — role: first_author — ~772 citations
+2. Mirrahimi, Leghtas et al. — "Dynamically protected cat-qubits: a new paradigm for universal quantum computation" — NJP 16, 045014 (2014) — DOI: 10.1088/1367-2630/16/4/045014 — role: co_author (2nd author) — ~995 citations
+3. Ofek et al. incl. Leghtas — "Extending the lifetime of a quantum bit with error correction in superconducting circuits" — Nature 536, 441–445 (2016) — DOI: 10.1038/nature18949 — role: co_author (5th of 13 authors) — ~1298 citations
+4. Lescanne, ..., Leghtas — "Exponential suppression of bit-flips in a qubit encoded in an oscillator" — Nature Physics 16, 509–513 (2020) — DOI: 10.1038/s41567-020-0824-x — role: senior_author (last author)
+5. Réglade, ..., Leghtas — "Quantum control of a cat qubit with bit-flip times exceeding ten seconds" — Nature 629, 778–783 (2024) — DOI: 10.1038/s41586-024-07294-3 — role: corresponding (last/corresponding author, co-supervised with Jezouin)
+
+## Schema fixes applied (2026-05-26)
+- Removed non-schema fields from education: `coadvisor` and `thesis`
+- Fixed role values: `co-author` → `co_author`; `lead author` → `first_author`
+- Reordered key_papers to place first_author paper first
 
 ## Lineage
 - PhD advisor Mazyar Mirrahimi is in database as 174-mazyar-mirrahimi — advisor_verified: true

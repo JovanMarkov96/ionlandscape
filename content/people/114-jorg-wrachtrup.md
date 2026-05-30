@@ -5,21 +5,61 @@ applications:
 - sensing_metrology
 created_at: '2026-05-26'
 current_position:
-  confidence: orcid_inferred
+  confidence: confirmed
   institution: University of Stuttgart
-  source: https://openalex.org/A5025341678
-  title: ''
+  source: https://www.pi3.uni-stuttgart.de/team/Wrachtrup-00001/
+  title: Professor of Physics, Director of the 3rd Physical Institute
+  since_year: 2000
+  verified_at: '2026-05-29'
+education:
+- degree: PhD
+  institution: Freie Universität Berlin
+  year: 1994
+  advisor: Christian von Borczyskowski
+  advisor_id: null
+  confidence: confirmed
+  source: https://www.tu-chemnitz.de/tu/pressestelle/aktuell/4039
 entity_type: person
 group_type: experimental
 id: 114-jorg-wrachtrup
+key_papers:
+- title: Scanning Confocal Optical Microscopy and Magnetic Resonance on Single Defect
+    Centers
+  year: 1997
+  doi: 10.1126/science.276.5321.2012
+  role: senior_author
+- title: Observation of Coherent Oscillations in a Single Electron Spin
+  year: 2004
+  doi: 10.1103/PhysRevLett.92.076401
+  role: senior_author
+- title: Multipartite Entanglement Among Single Spins in Diamond
+  year: 2008
+  doi: 10.1126/science.1157233
+  role: senior_author
+- title: Nanoscale Imaging Magnetometry with Diamond Spins under Ambient Conditions
+  year: 2008
+  doi: 10.1038/nature07278
+  role: senior_author
+- title: Nuclear Magnetic Resonance Spectroscopy on a (5-Nanometer)3 Sample Volume
+  year: 2013
+  doi: 10.1126/science.1231675
+  role: senior_author
 keywords:
-- Diamond and Carbon-based Materials Research
-- Force Microscopy Techniques and Applications
-- Atomic and Subatomic Physics Research
-- High-pressure geophysics and materials
-- Quantum optics and atomic interactions
-last_verified_at: '2026-05-26'
+- nitrogen-vacancy centers in diamond
+- single spin coherence
+- quantum sensing
+- optically detected magnetic resonance
+- nanoscale NMR spectroscopy
+- quantum register
+- diamond quantum optics
+last_verified_at: '2026-05-29'
+lineage_check:
+  advisor_verified: false
+  postdoc_verified: false
+  last_checked: '2026-05-29'
 links:
+  group_page: https://www.pi3.uni-stuttgart.de/
+  institution_profile: https://www.pi3.uni-stuttgart.de/team/Wrachtrup-00001/
   openalex: https://openalex.org/A5025341678
   orcid: https://orcid.org/0000-0003-3328-9093
 location:
@@ -40,6 +80,6 @@ platforms:
 - nv_center
 schema_version: 2
 sort_name: Wrachtrup, Jörg
-updated_at: '2026-05-26'
-verification_source_count: 1
+updated_at: '2026-05-29'
+verification_source_count: 5
 ---

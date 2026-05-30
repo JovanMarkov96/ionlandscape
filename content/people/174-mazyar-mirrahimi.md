@@ -54,7 +54,7 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
+  postdoc_verified: true
   last_checked: '2026-05-26'
 links:
   group_page: https://team.inria.fr/quantic/
@@ -62,11 +62,11 @@ links:
   openalex: https://openalex.org/A5017123421
   orcid: https://orcid.org/0000-0001-9471-6031
 location:
-  city: Le Chesnay-Rocquencourt
+  city: Paris
   country: France
-  geocode_source: openalex
-  lat: 48.8205
-  lon: 2.1311
+  geocode_source: manual
+  lat: 48.8534
+  lon: 2.3488
   precision: city
 metrics:
   citation_count: 8718
@@ -80,5 +80,5 @@ platforms:
 schema_version: 2
 sort_name: Mirrahimi, Mazyar
 updated_at: '2026-05-26'
-verification_source_count: 4
+verification_source_count: 5
 ---
