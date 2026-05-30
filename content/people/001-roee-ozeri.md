@@ -21,6 +21,7 @@ education:
 - degree: MSc (Physics)
   institution: Weizmann Institute of Science
 - advisor: Nir Davidson
+  advisor_id: 204-nir-davidson
   confidence: confirmed
   degree: PhD (Physics)
   institution: Weizmann Institute of Science
