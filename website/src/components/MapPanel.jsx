@@ -65,11 +65,19 @@ function groupByCoordinate(features) {
         }
         groups.get(key).push(f);
     }
+    // Order within a shared location: institutions first, then companies, then
+    // people — so the place is named before the researchers sitting there.
+    const rank = (f) => {
+        const t = f.properties?.entity_type;
+        if (t === 'institution') return 0;
+        if (t === 'company') return 1;
+        return 2;
+    };
     for (const [, arr] of groups) {
         arr.sort((a, b) => {
-            const idA = a.properties?.id || '';
-            const idB = b.properties?.id || '';
-            return idA.localeCompare(idB);
+            const r = rank(a) - rank(b);
+            if (r !== 0) return r;
+            return (a.properties?.id || '').localeCompare(b.properties?.id || '');
         });
     }
     return groups;

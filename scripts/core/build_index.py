@@ -460,29 +460,40 @@ def _resolve_inst_loc(name):
 
 _feature_by_pid = {f["properties"]["id"]: f for f in features}
 _inherited_count = 0
+_snapped_count = 0
+# Snap every person whose institution resolves to that institution's
+# coordinates, so all members of an institution cluster on one point
+# (and overlap the institution marker) instead of scattering across the
+# slightly different per-person geocodes from OpenAlex.
 for person in people:
     loc = person.get("location") or {}
-    if loc.get("lat") is None or loc.get("lon") is None:
-        inst_name = (person.get("current_position") or {}).get("institution")
-        inst = _resolve_inst_loc(inst_name)
-        if inst:
-            iloc = inst["location"]
-            loc["lat"] = iloc.get("lat")
-            loc["lon"] = iloc.get("lon")
-            if not loc.get("city") or str(loc.get("city")).lower() == "unknown":
-                loc["city"] = iloc.get("city", "")
-            if not loc.get("country") or str(loc.get("country")).lower() == "unknown":
-                loc["country"] = iloc.get("country", "")
-            loc["precision"] = "inherited"
-            person["location"] = loc
-            feat = _feature_by_pid.get(person["id"])
-            if feat is not None:
-                feat["properties"]["city"] = loc.get("city", "")
-                feat["properties"]["country"] = loc.get("country", "")
-                feat["geometry"] = {"type": "Point", "coordinates": [iloc.get("lon"), iloc.get("lat")]}
+    had_coords = loc.get("lat") is not None and loc.get("lon") is not None
+    inst_name = (person.get("current_position") or {}).get("institution")
+    inst = _resolve_inst_loc(inst_name)
+    if inst and inst["location"].get("lat") is not None and inst["location"].get("lon") is not None:
+        iloc = inst["location"]
+        moved = (not had_coords
+                 or loc.get("lat") != iloc.get("lat")
+                 or loc.get("lon") != iloc.get("lon"))
+        loc["lat"] = iloc.get("lat")
+        loc["lon"] = iloc.get("lon")
+        if not loc.get("city") or str(loc.get("city")).lower() == "unknown":
+            loc["city"] = iloc.get("city", "")
+        if not loc.get("country") or str(loc.get("country")).lower() == "unknown":
+            loc["country"] = iloc.get("country", "")
+        loc["precision"] = "institution"
+        person["location"] = loc
+        feat = _feature_by_pid.get(person["id"])
+        if feat is not None:
+            feat["properties"]["city"] = loc.get("city", "")
+            feat["properties"]["country"] = loc.get("country", "")
+            feat["geometry"] = {"type": "Point", "coordinates": [iloc.get("lon"), iloc.get("lat")]}
+        if not had_coords:
             _inherited_count += 1
+        elif moved:
+            _snapped_count += 1
 
-print(f"Location inheritance: {_inherited_count} people inherited institution coordinates")
+print(f"Location: {_inherited_count} people inherited + {_snapped_count} snapped to institution coordinates")
 
 # Write people.json (existing)
 people_json_path = os.path.join(OUT_DIR, "people.json")
