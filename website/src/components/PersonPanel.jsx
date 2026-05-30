@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Link from '@docusaurus/Link';
 import FeedbackForm from './FeedbackForm';
+import NobelMedal from './NobelMedal';
 
 /**
  * PersonPanel Component
@@ -226,7 +227,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
                 </button>
             )}
             <div className="person-panel-header">
-                <h2>{person.name}</h2>
+                <h2>{person.name}<NobelMedal prize={person.nobel_prize} size="0.7em" /></h2>
             </div>
             <p className="person-panel-position">
                 <em>{person.current_position && person.current_position.title} — {person.current_position && renderEntityLink(person.current_position.institution)}</em>

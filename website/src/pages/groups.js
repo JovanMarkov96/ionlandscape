@@ -2,6 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import { useLocation, useHistory } from 'react-router-dom';
+import NobelMedal from '@site/src/components/NobelMedal';
 
 /**
  * Groups Page Component
@@ -457,7 +458,7 @@ function Groups() {
                         <div key={person.id} className="col col--4 margin-bottom--lg">
                             <div className="card inst-card">
                                 <div className="card__header">
-                                    <h3 className="inst-card-title-block">{person.name}</h3>
+                                    <h3 className="inst-card-title-block">{person.name}<NobelMedal prize={person.nobel_prize} /></h3>
                                     {institution && (
                                         <p className="person-card-inst">
                                             <Link to={`/institutions?q=${encodeURIComponent(institution)}`} className="person-card-inst-link">

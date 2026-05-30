@@ -13,6 +13,9 @@ location:
   city: Unknown
   country: Unknown
 name: William D. Phillips
+nobel_prize:
+  category: Physics
+  year: 1997
 platforms: []
 schema_version: 2
 stub: true

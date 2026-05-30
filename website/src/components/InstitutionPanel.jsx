@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from '@docusaurus/Link';
 import FeedbackForm from './FeedbackForm';
+import NobelMedal from './NobelMedal';
 
 /**
  * Produce a clean, professional label for a source reference.
@@ -95,7 +96,7 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
                     onClick={() => onPersonSelect && onPersonSelect(p.md_filename)}
                     style={{ display: 'block', marginBottom: '4px' }}
                 >
-                    {p.name}
+                    {p.name}<NobelMedal prize={p.nobel_prize} size="0.8em" />
                 </span>
             );
         }

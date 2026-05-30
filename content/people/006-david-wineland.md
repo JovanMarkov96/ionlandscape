@@ -77,6 +77,9 @@ metrics:
   retrieved_at: '2026-05-25'
   source: openalex
 name: David J. Wineland
+nobel_prize:
+  category: Physics
+  year: 2012
 platforms:
 - trapped_ion
 postdocs:

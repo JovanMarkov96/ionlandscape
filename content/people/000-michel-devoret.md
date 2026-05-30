@@ -13,6 +13,9 @@ location:
   city: Unknown
   country: Unknown
 name: Michel Devoret
+nobel_prize:
+  category: Physics
+  year: 2025
 platforms: []
 schema_version: 2
 stub: true

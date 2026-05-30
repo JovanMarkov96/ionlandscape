@@ -13,6 +13,9 @@ location:
   city: Unknown
   country: Unknown
 name: Anton Zeilinger
+nobel_prize:
+  category: Physics
+  year: 2022
 platforms: []
 schema_version: 2
 stub: true

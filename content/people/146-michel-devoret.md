@@ -7,56 +7,56 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Yale University
-  title: Frederick W. Beinecke Professor Emeritus of Applied Physics
   since_year: 2002
   source: https://engineering.yale.edu/applied-physicsmichel-devoret
+  title: Frederick W. Beinecke Professor Emeritus of Applied Physics
 education:
-- degree: Diplôme d'Ingénieur (Electrical Engineering)
-  institution: "École Nationale Sup\xE9rieure des T\xE9l\xE9communications, Paris"
+- advisor: null
+  advisor_id: null
+  confidence: confirmed
+  degree: Diplôme d'Ingénieur (Electrical Engineering)
+  institution: École Nationale Supérieure des Télécommunications, Paris
+  source: https://orcid.org/0000-0002-2883-9575
   year: 1975
-  advisor: null
+- advisor: null
   advisor_id: null
   confidence: confirmed
-  source: https://orcid.org/0000-0002-2883-9575
-- degree: MSc (Atomic and Molecular Physics)
+  degree: MSc (Atomic and Molecular Physics)
   institution: University of Paris
+  source: https://orcid.org/0000-0002-2883-9575
   year: 1976
-  advisor: null
+- advisor: Anatole Abragam
   advisor_id: null
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Université Paris-Saclay (CEA Saclay)
   source: https://orcid.org/0000-0002-2883-9575
-- degree: PhD (Physics)
-  institution: "Universit\xE9 Paris-Saclay (CEA Saclay)"
   year: 1982
-  advisor: Anatole Abragam
-  advisor_id: null
-  confidence: confirmed
-  source: https://orcid.org/0000-0002-2883-9575
 entity_type: person
 group_type: experimental
 id: 146-michel-devoret
 key_papers:
-- title: "Measurements of macroscopic quantum tunneling out of the zero-voltage state\
-    \ of a current-biased Josephson junction"
-  year: 1985
-  doi: 10.1103/PhysRevLett.55.1908
+- doi: 10.1103/PhysRevLett.55.1908
   role: co_author
-- title: "Charge-insensitive qubit design derived from the Cooper pair box"
+  title: Measurements of macroscopic quantum tunneling out of the zero-voltage state
+    of a current-biased Josephson junction
+  year: 1985
+- doi: 10.1103/PhysRevA.76.042319
+  role: senior_author
+  title: Charge-insensitive qubit design derived from the Cooper pair box
   year: 2007
-  doi: 10.1103/PhysRevA.76.042319
+- doi: 10.1126/science.1231930
   role: senior_author
-- title: "Superconducting Circuits for Quantum Information: An Outlook"
+  title: 'Superconducting Circuits for Quantum Information: An Outlook'
   year: 2013
-  doi: 10.1126/science.1231930
+- doi: 10.1038/s41586-020-2587-z
   role: senior_author
-- title: "Stabilization and operation of a Kerr-cat qubit"
+  title: Stabilization and operation of a Kerr-cat qubit
   year: 2020
-  doi: 10.1038/s41586-020-2587-z
+- doi: 10.1038/s41586-023-05782-6
   role: senior_author
-- title: "Real-time quantum error correction beyond break-even"
+  title: Real-time quantum error correction beyond break-even
   year: 2022
-  doi: 10.1038/s41586-023-05782-6
-  role: senior_author
 keywords:
 - quantronics
 - superconducting qubits
@@ -69,8 +69,8 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-26'
+  postdoc_verified: true
 links:
   institution_profile: https://engineering.yale.edu/applied-physicsmichel-devoret
   openalex: https://openalex.org/A5089631322
@@ -89,14 +89,17 @@ metrics:
   retrieved_at: '2026-05-26'
   source: openalex
 name: Michel Devoret
+nobel_prize:
+  category: Physics
+  year: 2025
 platforms:
 - superconducting
 postdocs:
-- institution: University of California, Berkeley
-  advisor: John Clarke
+- advisor: John Clarke
   advisor_id: null
-  years: "early 1980s"
+  institution: University of California, Berkeley
   source: https://orcid.org/0000-0002-2883-9575
+  years: early 1980s
 schema_version: 2
 sort_name: Devoret, Michel
 updated_at: '2026-05-26'

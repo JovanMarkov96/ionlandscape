@@ -10,6 +10,9 @@ location:
   city: Unknown
   country: Unknown
 name: John L. Hall
+nobel_prize:
+  category: Physics
+  year: 2005
 platforms: []
 schema_version: 2
 stub: true

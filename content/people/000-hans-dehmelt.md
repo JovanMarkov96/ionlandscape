@@ -10,6 +10,9 @@ location:
   city: Unknown
   country: Unknown
 name: Hans Dehmelt
+nobel_prize:
+  category: Physics
+  year: 1989
 platforms: []
 schema_version: 2
 stub: true

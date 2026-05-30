@@ -97,6 +97,7 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
         "ion_species": meta.get("ion_species", []),
         "links": meta.get("links", {}),
         "thesis": meta.get("thesis", {}),
+        "nobel_prize": meta.get("nobel_prize"),
         "short_bio": short_bio,
         "md_filename": os.path.basename(md_path),
         "created_at": meta.get("created_at", ""),

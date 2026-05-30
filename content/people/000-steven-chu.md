@@ -16,6 +16,9 @@ location:
   lon: -122.24563
   precision: inherited
 name: Steven Chu
+nobel_prize:
+  category: Physics
+  year: 1997
 platforms: []
 schema_version: 2
 stub: true

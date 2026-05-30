@@ -13,6 +13,9 @@ location:
   city: Unknown
   country: Unknown
 name: Serge Haroche
+nobel_prize:
+  category: Physics
+  year: 2012
 platforms: []
 schema_version: 2
 stub: true

@@ -10,6 +10,9 @@ location:
   city: Unknown
   country: Unknown
 name: Theodor W. Hänsch
+nobel_prize:
+  category: Physics
+  year: 2005
 platforms: []
 schema_version: 2
 stub: true
