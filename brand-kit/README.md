@@ -1,57 +1,39 @@
-# Quantum Landscape brand kit
+# Quantum Landscape Logo Assets v2
 
-This package contains the selected Quantum Landscape logo system and web-ready assets.
+This is a corrected logo asset pack for Quantum Landscape.
 
-## What is inside
+## Important correction
 
-- `png/exact-selected-mark-transparent-*.png`: the closest transparent raster extraction of the selected logo, exported up to **4096 px**.
-- `png/exact-wordmark-horizontal-*.png`: high-resolution transparent and card versions of the selected mark with the Quantum Landscape wordmark.
-- `svg/quantum-landscape-mark.svg`: an editable clean vector approximation of the selected mark.
-- `svg/quantum-landscape-wordmark-horizontal-on-dark.svg` and `...on-light.svg`: transparent vector wordmarks.
-- `svg/quantum-landscape-mark-exact-raster-embedded.svg`: SVG wrapper around the exact raster mark. This preserves the exact selected visual but is not a true vector trace.
-- `favicon/`: browser icons, including exact-raster favicon variants.
-- `brand.css` and `theme-tokens.json`: CSS variables and design tokens.
-- `preview/quantum-landscape-brand-board.png`: visual brand board.
+The earlier SVG approximation used thick strokes and did not match the selected logo. This pack separates the assets clearly:
 
-## Recommended production use
+- `svg/mark-exact-raster-embedded.svg` preserves the selected logo exactly as a cleaned transparent raster embedded inside an SVG wrapper. Use this for the website when you want an SVG file that visually matches the chosen logo.
+- `png/mark-transparent-tight-2048.png` and `png/mark-transparent-square-2048.png` are high-resolution transparent PNG exports of the selected logo.
+- `svg/mark-vector-clean-approximation.svg` is a clean pure-vector approximation. It is useful for simple icons, monochrome versions, or later manual editing, but it is not claimed to be the exact generated logo.
 
-For the most faithful visual match, use:
+## Recommended website files
 
-- Main site logo mark: `png/exact-selected-mark-transparent-2048.png` or `png/exact-selected-mark-transparent-4096.png`.
-- Browser icon: `favicon/favicon-exact.ico` or `favicon/favicon-exact-512.png`.
-- Header wordmark on dark UI: `png/exact-wordmark-horizontal-on-dark-transparent-2560.png`.
-- Header wordmark on light UI: `png/exact-wordmark-horizontal-on-light-transparent-2560.png`.
+- Header logo on dark UI: `svg/wordmark-horizontal-exact-dark-text.svg`
+- Header logo on light UI: `svg/wordmark-horizontal-exact-light-text.svg`
+- Logo-only mark: `svg/mark-exact-raster-embedded.svg`
+- PNG fallback: `png/mark-transparent-tight-2048.png`
+- Favicon: `favicon/favicon.ico`, `favicon/favicon-192.png`, `favicon/apple-touch-icon.png`
+- CSS tokens: `brand.css`
+- JSON tokens: `theme-tokens.json`
 
-For fully scalable editable assets, use the `svg/` files. The clean SVG mark is a vector approximation, not an exact trace of the raster image.
+## Colors
+
+- Dark background: `#020B1C`
+- Dark-mode text: `#F7FBFF`
+- Light-mode text: `#071225`
+- Gradient: `#15D5FF -> #2E7CFF -> #6E8CFF -> #8A5CF6`
 
 ## Typography
 
-- **Wordmark / headings:** Space Grotesk, Sora, or Inter. Recommended first choice: `Space Grotesk`.
-- **Body UI:** Inter or Manrope.
-- **Technical labels / coordinates:** IBM Plex Mono or JetBrains Mono.
+Recommended display font: Space Grotesk or Inter Display.  
+Recommended body/UI font: Inter or Manrope.
 
-Do not bundle or redistribute font files unless their licenses allow it. Load fonts through your normal web-font pipeline or use system fallbacks.
+Font files are not included.
 
-## Palette
+## Notes
 
-| Token | Hex |
-|---|---:|
-| Quantum Navy | `#020B1C` |
-| Deep Ink | `#071225` |
-| Quantum Cyan | `#15D5FF` |
-| Azure Blue | `#2E7CFF` |
-| Periwinkle | `#6E8CFF` |
-| Quantum Violet | `#8A5CF6` |
-| Soft Lilac | `#C7B7FF` |
-| Paper / light background | `#F6F8FC` |
-| Text on dark | `#F7FBFF` |
-| Text on light | `#071225` |
-| Muted text on dark | `#8EA3C2` |
-
-## Usage notes
-
-- The gradient mark can stay the same in both dark and light mode.
-- Use white text `#F7FBFF` on dark navy backgrounds.
-- Use deep navy text `#071225` on light backgrounds.
-- Keep clear space around the logo equal to at least **25% of the mark height**.
-- Below about **160 px total width**, use the mark only and omit the wordmark.
+The original logo was generated as raster artwork, so a mathematically exact pure-vector reconstruction is not available from the image alone. The exact SVG files therefore embed the cleaned raster logo. This is normal for preserving a generated/painted mark while keeping an SVG-based web workflow.
