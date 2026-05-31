@@ -80,7 +80,7 @@ module.exports = {
                 {
                     type: 'html',
                     position: 'right',
-                    value: '<a href="/ionlandscape/lineages" class="navbar-custom-btn" title="Graph" aria-label="Graph"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg><span class="navbar-btn-label">Graph</span></a>',
+                    value: '<a href="/ionlandscape/lineages" class="navbar-custom-btn" title="Lineage graph" aria-label="Lineage graph"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.3"></circle><circle cx="5" cy="19.5" r="2.3"></circle><circle cx="12" cy="19.5" r="2.3"></circle><circle cx="19" cy="19.5" r="2.3"></circle><path d="M12 6.8 V17.2"></path><path d="M5 13.2 H19"></path><path d="M5 13.2 V17.2"></path><path d="M19 13.2 V17.2"></path></svg><span class="navbar-btn-label">Graph</span></a>',
                 },
                 {
                     type: 'html',
