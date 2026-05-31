@@ -195,6 +195,8 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
             "status": meta.get("status", {}),
             "funding": meta.get("funding", {}),
             "milestones": meta.get("milestones", []),
+            "roadmap": meta.get("roadmap", []),
+            "partnerships": meta.get("partnerships", []),
             "links": meta.get("links", {}),
             "media": meta.get("media", {}),
             "sources": meta.get("sources", []),

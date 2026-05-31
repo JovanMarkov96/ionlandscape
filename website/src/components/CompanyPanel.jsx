@@ -244,10 +244,10 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                         {company.milestones.map((ms, i) => (
                             <div key={i} className="trajectory-item">
                                 <div className="trajectory-title">{ms.date}</div>
-                                <div className="trajectory-details">{ms.description}</div>
-                                {ms.link && (
+                                <div className="trajectory-details">{ms.claim || ms.description}</div>
+                                {(ms.source || ms.link) && (
                                     <div className="trajectory-details">
-                                        <a href={ms.link} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.9em' }}>Source</a>
+                                        <a href={ms.source || ms.link} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.9em' }}>Source</a>
                                     </div>
                                 )}
                             </div>
@@ -257,16 +257,16 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             )}
 
             {/* Funding */}
-            {company.funding && (company.funding.total_usd > 0 || company.funding.rounds?.length > 0) && (
+            {company.funding && ((company.funding.total_raised_usd || company.funding.total_usd) > 0 || company.funding.rounds?.length > 0) && (
                 <>
                     <div className="panel-divider" />
                     <h4 className="section-header">Funding</h4>
-                    {company.funding.total_usd > 0 && (
-                        <p><strong>Total Raised:</strong> ${(company.funding.total_usd / 1000000).toFixed(1)}M</p>
+                    {(company.funding.total_raised_usd || company.funding.total_usd) > 0 && (
+                        <p><strong>Total Raised:</strong> ${((company.funding.total_raised_usd || company.funding.total_usd) / 1000000).toFixed(1)}M</p>
                     )}
                     {company.funding.rounds && company.funding.rounds.map((round, i) => (
                         <div key={i} className="trajectory-item">
-                            <div className="trajectory-title">{round.round} — {(round.amount_usd / 1000000).toFixed(1)}M</div>
+                            <div className="trajectory-title">{round.round || round.stage}{round.amount_usd ? ` — $${(round.amount_usd / 1000000).toFixed(1)}M` : ''}</div>
                             <div className="trajectory-details">
                                 {round.date} • Lead: {round.lead_investors?.join(", ")}
                                 {round.other_investors?.length > 0 && (
@@ -284,6 +284,42 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                             </div>
                         </div>
                     ))}
+                </>
+            )}
+
+            {/* Roadmap */}
+            {company.roadmap && company.roadmap.length > 0 && (
+                <>
+                    <div className="panel-divider" />
+                    <h4 className="section-header">Roadmap</h4>
+                    <div className="milestones-timeline" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        {company.roadmap.map((r, i) => (
+                            <div key={i} className="trajectory-item">
+                                {r.target_date && <div className="trajectory-title">{r.target_date}</div>}
+                                <div className="trajectory-details">{r.target_claim}</div>
+                                {r.source && (
+                                    <div className="trajectory-details">
+                                        <a href={r.source} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.9em' }}>Source</a>
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </>
+            )}
+
+            {/* Partnerships */}
+            {company.partnerships && company.partnerships.length > 0 && (
+                <>
+                    <div className="panel-divider" />
+                    <h4 className="section-header">Partnerships</h4>
+                    <div className="inst-card-badges">
+                        {company.partnerships.map((pn, i) => (
+                            <span key={i} className="badge badge--secondary margin-right--xs">
+                                {pn.name}{pn.type ? ` · ${pn.type.replace(/_/g, ' ')}` : ''}
+                            </span>
+                        ))}
+                    </div>
                 </>
             )}
 
@@ -320,7 +356,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                             <div className="affiliation-item" style={{ marginTop: '5px' }}>
                                 <em>Spun out of: {company.people.spun_out_of.map((inst, idx) => (
                                     <React.Fragment key={idx}>
-                                        {renderInstitutionLink(inst)}
+                                        {renderInstitutionLink(typeof inst === 'string' ? inst : inst.name)}
                                         {idx < company.people.spun_out_of.length - 1 ? ", " : ""}
                                     </React.Fragment>
                                 ))}</em>
