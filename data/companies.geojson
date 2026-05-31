@@ -4,185 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c001-quantum-art",
-        "name": "Quantum Art",
-        "entity_type": "company",
-        "platforms": [
-          "trapped_ion"
-        ],
-        "city": "Ness Ziona",
-        "country": "Israel",
-        "short_summary": "Developer of scalable, multi-core quantum computers using trapped-ion qubits.",
-        "logo_path": "/logos/c001-quantum-art.png",
-        "md_filename": "c001-quantum-art.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8025,
-          31.9284
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c002-ionq",
-        "name": "IonQ",
-        "entity_type": "company",
-        "platforms": [
-          "trapped_ion"
-        ],
-        "city": "College Park",
-        "country": "United States",
-        "short_summary": "Develops general-purpose trapped ion quantum computers and software.",
-        "logo_path": "/logos/c002-ionq.png",
-        "md_filename": "c002-ionq.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.929029,
-          38.982141
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c003-alpine-quantum-technologies-aqt",
-        "name": "Alpine Quantum Technologies",
-        "entity_type": "company",
-        "platforms": [
-          "trapped_ion"
-        ],
-        "city": "Innsbruck",
-        "country": "Austria",
-        "short_summary": "A commercial provider of trapped-ion quantum computers.",
-        "logo_path": "/logos/c003-alpine-quantum-technologies-aqt.png",
-        "md_filename": "c003-alpine-quantum-technologies-aqt.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.351386,
-          47.263464
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c004-oxford-ionics",
-        "name": "Oxford Ionics",
-        "entity_type": "company",
-        "platforms": [
-          "trapped_ion"
-        ],
-        "city": "Kidlington",
-        "country": "United Kingdom",
-        "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
-        "logo_path": "/logos/c004-oxford-ionics.png",
-        "md_filename": "c004-oxford-ionics.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.291,
-          51.826
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c005-q-ctrl",
-        "name": "Q-CTRL",
-        "entity_type": "company",
-        "platforms": [],
-        "city": "Sydney",
-        "country": "Australia",
-        "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
-        "logo_path": "/logos/c005-q-ctrl.avif",
-        "md_filename": "c005-q-ctrl.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.195403,
-          -33.887186
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c006-quera-computing",
-        "name": "QuEra Computing",
-        "entity_type": "company",
-        "platforms": [
-          "neutral_atom",
-          "rydberg_array"
-        ],
-        "city": "Boston",
-        "country": "United States",
-        "short_summary": "QuEra Computing builds neutral-atom quantum computers from arrays of individually controlled rubidium atoms, pursuing both analog quantum simulation and large-scale, error-corrected digital computation.",
-        "logo_path": "/logos/c006-quera-computing.png",
-        "md_filename": "c006-quera-computing.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.058,
-          42.36
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c002-quantum-machines",
-        "name": "Quantum Machines",
-        "entity_type": "company",
-        "platforms": [],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Developer of universal quantum control systems (hardware + software) enabling coherent and real-time orchestration of quantum processors across different technologies.",
-        "logo_path": "/logos/c002-quantum-machines.png",
-        "md_filename": "c007-quantum-machines.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.782,
-          32.0621
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c003-classiq-technologies",
-        "name": "Classiq Technologies",
-        "entity_type": "company",
-        "platforms": [],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Developer of an enterprise-grade quantum software platform that automatically synthesizes high-level functional logic into optimized quantum circuits for deployment across cloud and hardware backends.",
-        "logo_path": "/logos/c003-classiq-technologies.png",
-        "md_filename": "c008-classiq-technologies.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.7833,
-          32.0746
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "c009-quantlr",
         "name": "QuantLR",
         "entity_type": "company",
@@ -204,201 +25,23 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c010-quantum-transistors",
-        "name": "Quantum Transistors",
-        "entity_type": "company",
-        "platforms": [
-          "silicon_spin"
-        ],
-        "city": "Binyamina",
-        "country": "Israel",
-        "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
-        "logo_path": "/logos/c010-quantum-transistors.png",
-        "md_filename": "c010-quantum-transistors.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.9436,
-          32.5203
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c011-quancilla",
-        "name": "Quancilla",
-        "entity_type": "company",
-        "platforms": [],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
-        "logo_path": "/logos/c011-quancilla.png",
-        "md_filename": "c011-quancilla.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.7818,
-          32.0853
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c012-enquantum",
-        "name": "enQuantum",
-        "entity_type": "company",
-        "platforms": [],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Developer of quantum communication infrastructure focused on practical deployment of quantum key distribution (QKD) and quantum-secure networking solutions.",
-        "logo_path": "/logos/c012-enquantum.png",
-        "md_filename": "c012-enquantum.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.7937,
-          32.0154
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c013-qedma",
-        "name": "Qedma",
-        "entity_type": "company",
-        "platforms": [],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
-        "logo_path": "/logos/c013-qedma.png",
-        "md_filename": "c013-qedma.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8121,
-          32.1066
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c014-quantum-source-labs",
-        "name": "Quantum Source Labs",
+        "id": "c031-xanadu",
+        "name": "Xanadu",
         "entity_type": "company",
         "platforms": [
           "photonic"
         ],
-        "city": "Ness Ziona",
-        "country": "Israel",
-        "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
-        "logo_path": "/logos/c014-quantum-source-labs.png",
-        "md_filename": "c014-quantum-source-labs.md"
+        "city": "Toronto",
+        "country": "Canada",
+        "short_summary": "Xanadu (founded 2016, Toronto) is the world's first publicly listed pure-play photonic quantum computing company (Nasdaq/TSX: XNDU, March 2026). It builds continuous-variable photonic quantum computers using GKP qubits in squeezed light: Borealis (2022) was the first cloud-accessible quantum advantage demonstration (Nature), and Aurora (2025, Nature) is the first modular networked photonic quantum computer with 12 logical qubits across four server racks. Xanadu also develops PennyLane (35,000+ active users), the most widely used open-source quantum ML framework. The company has raised $552M+, including a $302M SPAC listing, and is targeting a fault-tolerant photonic data centre by 2029.",
+        "logo_path": "/logos/c031-xanadu.png",
+        "md_filename": "c031-xanadu.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.806,
-          31.9182
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c015-quamcore",
-        "name": "QuamCore",
-        "entity_type": "company",
-        "platforms": [
-          "superconducting"
-        ],
-        "city": "Herzliya",
-        "country": "Israel",
-        "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
-        "logo_path": "/logos/c015-quamcore.webp",
-        "md_filename": "c015-quamcore.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8117,
-          32.167
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c016-universal-quantum",
-        "name": "Universal Quantum",
-        "entity_type": "company",
-        "platforms": [
-          "trapped_ion"
-        ],
-        "city": "Brighton",
-        "country": "United Kingdom",
-        "short_summary": "Universal Quantum is a UK company building scalable trapped-ion quantum computers using modular architecture and electric-field-link qubit connections.",
-        "logo_path": "/logos/c016-universal-quantum.png",
-        "md_filename": "c016-universal-quantum.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1372,
-          50.8225
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c017-eleqtron",
-        "name": "eleQtron",
-        "entity_type": "company",
-        "platforms": [
-          "trapped_ion"
-        ],
-        "city": "Siegen",
-        "country": "Germany",
-        "short_summary": "eleQtron is a German quantum computing company developing trapped-ion hardware based on its MAGIC (magnetic gradient induced coupling) technology.",
-        "logo_path": "/logos/c017-eleqtron.png",
-        "md_filename": "c017-eleqtron.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.0243,
-          50.8748
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c018-q-factor",
-        "name": "Q-Factor",
-        "entity_type": "company",
-        "platforms": [
-          "neutral_atom"
-        ],
-        "city": "Tel Aviv",
-        "country": "Israel",
-        "short_summary": "Q-Factor is a Tel Aviv-based quantum hardware startup building a scalable neutral-atom quantum computer aimed at the million-qubit regime. It was founded in 2026 to commercialize decades of atomic-physics research from the Weizmann Institute of Science and the Technion, both of which remain shareholders.",
-        "logo_path": "/logos/c018-q-factor.png",
-        "md_filename": "c018-q-factor.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.7818,
-          32.0853
+          -79.3832,
+          43.6532
         ]
       }
     },
@@ -429,23 +72,44 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c020-iqm",
-        "name": "IQM Quantum Computers",
+        "id": "c005-q-ctrl",
+        "name": "Q-CTRL",
         "entity_type": "company",
-        "platforms": [
-          "superconducting"
-        ],
-        "city": "Espoo",
-        "country": "Finland",
-        "short_summary": "IQM Quantum Computers (founded 2018, Espoo, Finland) designs and manufactures full-stack superconducting quantum computers for on-premises deployment at research institutions and HPC centres. Its tunable-coupler transmon architecture delivers greater than 99.5% two-qubit gate fidelity across 20–150-qubit systems, with 30+ computers delivered worldwide. The company raised $600 M in total funding through a $320 M Series B in 2025 and is pursuing a US dual listing at a ~$1.8 B valuation in 2026.",
-        "logo_path": "/logos/c020-iqm.png",
-        "md_filename": "c020-iqm.md"
+        "platforms": [],
+        "city": "Sydney",
+        "country": "Australia",
+        "short_summary": "Provides quantum control software to stabilize quantum hardware and accelerate quantum computing.",
+        "logo_path": "/logos/c005-q-ctrl.avif",
+        "md_filename": "c005-q-ctrl.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.6522,
-          60.2052
+          151.195403,
+          -33.887186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c033-quix-quantum",
+        "name": "QuiX Quantum",
+        "entity_type": "company",
+        "platforms": [
+          "photonic"
+        ],
+        "city": "Enschede",
+        "country": "Netherlands",
+        "short_summary": "QuiX Quantum (founded 2019, Enschede; University of Twente spin-out) is Europe's leading photonic quantum computing company, building universal quantum computers on ultra-low-loss silicon nitride (TriPleX) waveguide chips that operate at room temperature. It set a world record with its 20-mode photonic processor (validated in Quantum, 2023) and was the first company globally to sell a Universal Quantum Computer based on photonics — including a €14M contract with the German Aerospace Center (DLR, 2022). The company has raised €20.5M+ in VC funding (Seed €5.5M, Series A €15M) plus EIC Accelerator support. Founders include Dr. Jelmer Renema (Chief Scientist) and Dr. Hans van den Vlekkert; CEO is Dr. Stefan Hengesbach (former CEO of Q.ANT).",
+        "logo_path": "/logos/c033-quix-quantum.png",
+        "md_filename": "c033-quix-quantum.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8937,
+          52.2215
         ]
       }
     },
@@ -475,46 +139,46 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c022-ibm-quantum",
-        "name": "IBM Quantum",
+        "id": "c015-quamcore",
+        "name": "QuamCore",
         "entity_type": "company",
         "platforms": [
           "superconducting"
         ],
-        "city": "Yorktown Heights",
-        "country": "United States",
-        "short_summary": "IBM Quantum (est. 2016, Yorktown Heights NY) is IBM's quantum computing division operating the world's first public cloud quantum service (IBM Quantum Experience, 2016) and the largest fleet of superconducting processors. Its hardware roadmap progressed from 127-qubit Eagle (2021) through 433-qubit Osprey (2022) to 1,121-qubit Condor and 133-qubit Heron (2023), with Heron powering the modular IBM Quantum System Two. The division also publishes Qiskit, the most widely used open-source quantum SDK. IBM targets 200-qubit / 100 M-gate Starling by 2029 and a 2,000-qubit / 1 B-gate Blue Jay system by 2033.",
-        "logo_path": "/logos/c022-ibm-quantum.png",
-        "md_filename": "c022-ibm-quantum.md"
+        "city": "Herzliya",
+        "country": "Israel",
+        "short_summary": "Deep-tech quantum computing startup developing a superconducting processor architecture designed to scale into the million-qubit regime within a single cryostat.",
+        "logo_path": "/logos/c015-quamcore.webp",
+        "md_filename": "c015-quamcore.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.8688,
-          41.2034
+          34.8117,
+          32.167
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "id": "c023-oxford-quantum-circuits",
-        "name": "Oxford Quantum Circuits",
+        "id": "c014-quantum-source-labs",
+        "name": "Quantum Source Labs",
         "entity_type": "company",
         "platforms": [
-          "superconducting"
+          "photonic"
         ],
-        "city": "Reading",
-        "country": "United Kingdom",
-        "short_summary": "Oxford Quantum Circuits (OQC; founded 2017, Reading, UK) is a University of Oxford spin-out that builds and operates superconducting quantum computers for cloud delivery under a Quantum-Compute-as-a-Service model. Its patented Coaxmon architecture places qubit control on the reverse face of a sapphire substrate, enabling compact, low-crosstalk scaling. OQC was the first European quantum processor on Amazon Braket (Lucy, 2022), launched the 32-qubit Toshiko enterprise platform in 2023 alongside a $100 M Series B led by SBI Investment, and deployed its GENESIS logical-era system in a New York City data centre with NVIDIA in September 2025.",
-        "logo_path": "/logos/c023-oxford-quantum-circuits.png",
-        "md_filename": "c023-oxford-quantum-circuits.md"
+        "city": "Ness Ziona",
+        "country": "Israel",
+        "short_summary": "Developer of scalable photonic quantum computing hardware using a hybrid photon-atom architecture to enable fault-tolerant, large-scale quantum systems.",
+        "logo_path": "/logos/c014-quantum-source-labs.png",
+        "md_filename": "c014-quantum-source-labs.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.9781,
-          51.4543
+          34.806,
+          31.9182
         ]
       }
     },
@@ -538,6 +202,208 @@
         "coordinates": [
           -122.2727,
           37.8716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c032-orca-computing",
+        "name": "ORCA Computing",
+        "entity_type": "company",
+        "platforms": [
+          "photonic"
+        ],
+        "city": "London",
+        "country": "United Kingdom",
+        "short_summary": "ORCA Computing (founded 2019, London; Oxford spin-out) builds room-temperature, rack-mounted photonic quantum computers based on time-bin multiplexed quantum memories. Its PT-1 was the first quantum computer sold to a national defence organisation (UK MoD, 2022), and its PT-2 (2024) delivers ~40 qumodes using deterministic single-photon sources with deep NVIDIA CUDA-Q integration. ORCA leads a £11.6M UK government quantum data centre consortium and has deployed systems at the UK NQCC, PCSS Poland, and Montana State University. Founders include Prof. Ian Walmsley (Oxford/Imperial), Dr. Richard Murray (CEO), and Dr. Josh Nunn (CSO, inventor of the ORCA memory).",
+        "logo_path": "/logos/c032-orca-computing.png",
+        "md_filename": "c032-orca-computing.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1769,
+          51.5155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c011-quancilla",
+        "name": "Quancilla",
+        "entity_type": "company",
+        "platforms": [],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Early-stage quantum software startup focused on simplifying the development and deployment of quantum algorithms through higher-level programming abstractions.",
+        "logo_path": "/logos/c011-quancilla.png",
+        "md_filename": "c011-quancilla.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c002-quantum-machines",
+        "name": "Quantum Machines",
+        "entity_type": "company",
+        "platforms": [],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of universal quantum control systems (hardware + software) enabling coherent and real-time orchestration of quantum processors across different technologies.",
+        "logo_path": "/logos/c002-quantum-machines.png",
+        "md_filename": "c007-quantum-machines.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.782,
+          32.0621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c012-enquantum",
+        "name": "enQuantum",
+        "entity_type": "company",
+        "platforms": [],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of quantum communication infrastructure focused on practical deployment of quantum key distribution (QKD) and quantum-secure networking solutions.",
+        "logo_path": "/logos/c012-enquantum.png",
+        "md_filename": "c012-enquantum.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7937,
+          32.0154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c006-quera-computing",
+        "name": "QuEra Computing",
+        "entity_type": "company",
+        "platforms": [
+          "neutral_atom",
+          "rydberg_array"
+        ],
+        "city": "Boston",
+        "country": "United States",
+        "short_summary": "QuEra Computing builds neutral-atom quantum computers from arrays of individually controlled rubidium atoms, pursuing both analog quantum simulation and large-scale, error-corrected digital computation.",
+        "logo_path": "/logos/c006-quera-computing.png",
+        "md_filename": "c006-quera-computing.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.058,
+          42.36
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c022-ibm-quantum",
+        "name": "IBM Quantum",
+        "entity_type": "company",
+        "platforms": [
+          "superconducting"
+        ],
+        "city": "Yorktown Heights",
+        "country": "United States",
+        "short_summary": "IBM Quantum (est. 2016, Yorktown Heights NY) is IBM's quantum computing division operating the world's first public cloud quantum service (IBM Quantum Experience, 2016) and the largest fleet of superconducting processors. Its hardware roadmap progressed from 127-qubit Eagle (2021) through 433-qubit Osprey (2022) to 1,121-qubit Condor and 133-qubit Heron (2023), with Heron powering the modular IBM Quantum System Two. The division also publishes Qiskit, the most widely used open-source quantum SDK. IBM targets 200-qubit / 100 M-gate Starling by 2029 and a 2,000-qubit / 1 B-gate Blue Jay system by 2033.",
+        "logo_path": "/logos/c022-ibm-quantum.png",
+        "md_filename": "c022-ibm-quantum.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8688,
+          41.2034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c020-iqm",
+        "name": "IQM Quantum Computers",
+        "entity_type": "company",
+        "platforms": [
+          "superconducting"
+        ],
+        "city": "Espoo",
+        "country": "Finland",
+        "short_summary": "IQM Quantum Computers (founded 2018, Espoo, Finland) designs and manufactures full-stack superconducting quantum computers for on-premises deployment at research institutions and HPC centres. Its tunable-coupler transmon architecture delivers greater than 99.5% two-qubit gate fidelity across 20–150-qubit systems, with 30+ computers delivered worldwide. The company raised $600 M in total funding through a $320 M Series B in 2025 and is pursuing a US dual listing at a ~$1.8 B valuation in 2026.",
+        "logo_path": "/logos/c020-iqm.png",
+        "md_filename": "c020-iqm.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6522,
+          60.2052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c018-q-factor",
+        "name": "Q-Factor",
+        "entity_type": "company",
+        "platforms": [
+          "neutral_atom"
+        ],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Q-Factor is a Tel Aviv-based quantum hardware startup building a scalable neutral-atom quantum computer aimed at the million-qubit regime. It was founded in 2026 to commercialize decades of atomic-physics research from the Weizmann Institute of Science and the Technion, both of which remain shareholders.",
+        "logo_path": "/logos/c018-q-factor.png",
+        "md_filename": "c018-q-factor.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7818,
+          32.0853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c004-oxford-ionics",
+        "name": "Oxford Ionics",
+        "entity_type": "company",
+        "platforms": [
+          "trapped_ion"
+        ],
+        "city": "Kidlington",
+        "country": "United Kingdom",
+        "short_summary": "High-performance quantum computers based on trapped ions and electronic qubit control.",
+        "logo_path": "/logos/c004-oxford-ionics.png",
+        "md_filename": "c004-oxford-ionics.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.291,
+          51.826
         ]
       }
     },
@@ -568,23 +434,90 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c026-nvision-imaging",
-        "name": "NVision Imaging Technologies",
+        "id": "c030-psiquantum",
+        "name": "PsiQuantum",
         "entity_type": "company",
         "platforms": [
-          "nv_center"
+          "photonic"
         ],
-        "city": "Ulm",
-        "country": "Germany",
-        "short_summary": "NVision Imaging Technologies (founded 2015, Ulm, Germany) is a University of Ulm spin-out co-founded by quantum physicists Fedor Jelezko (113-fedor-jelezko), Martin Plenio, Ilai Schwartz, and Alex Retzker. The company applies quantum spin-control technology — originating from NV-center research on diamond surfaces — to produce hyperpolarized carbon-13 metabolic contrast agents for MRI. Its POLARIS platform uses parahydrogen-induced polarization (PHIP) to boost MRI signals by over 10,000x in under three minutes, enabling real-time visualization of tumour metabolism on standard MRI systems. By end-2025, POLARIS Preclinical was deployed at approximately 20 centres including Memorial Sloan Kettering and Technical University of Munich. Having raised USD $120 million total (Series A led by Playground Global, Series B anchored by Abbott with EIB venture loan), NVision rebranded as NVision Quantum Technologies GmbH in May 2026 and announced expansion into photonic quantum computing (PIQC platform) for drug discovery.",
-        "logo_path": "/logos/c026-nvision-imaging.png",
-        "md_filename": "c026-nvision-imaging.md"
+        "city": "Palo Alto",
+        "country": "United States",
+        "short_summary": "PsiQuantum (founded 2016, Palo Alto CA) is building fault-tolerant, utility-scale photonic quantum computers using silicon photonics manufactured at GlobalFoundries' high-volume semiconductor fab. Its fusion-based quantum computing (FBQC) architecture targets million-qubit systems encoded in telecom-band single photons. The company has raised over $2.3B including a $1B Series E (Sep 2025, $7B valuation) and a A$940M Australian government investment (Apr 2024). Co-founders Jeremy O'Brien and Terry Rudolph are in the DB; interim CEO Victor Peng (former AMD President) was appointed Feb 2026. Quantum Compute Centers are under construction in Brisbane and Chicago.",
+        "logo_path": "/logos/c030-psiquantum.png",
+        "md_filename": "c030-psiquantum.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.9876,
-          48.4011
+          -122.143,
+          37.4419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c003-classiq-technologies",
+        "name": "Classiq Technologies",
+        "entity_type": "company",
+        "platforms": [],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of an enterprise-grade quantum software platform that automatically synthesizes high-level functional logic into optimized quantum circuits for deployment across cloud and hardware backends.",
+        "logo_path": "/logos/c003-classiq-technologies.png",
+        "md_filename": "c008-classiq-technologies.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7833,
+          32.0746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c010-quantum-transistors",
+        "name": "Quantum Transistors",
+        "entity_type": "company",
+        "platforms": [
+          "silicon_spin"
+        ],
+        "city": "Binyamina",
+        "country": "Israel",
+        "short_summary": "Developer of semiconductor-based quantum processor technology focused on scalable spin-qubit architectures.",
+        "logo_path": "/logos/c010-quantum-transistors.png",
+        "md_filename": "c010-quantum-transistors.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9436,
+          32.5203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c016-universal-quantum",
+        "name": "Universal Quantum",
+        "entity_type": "company",
+        "platforms": [
+          "trapped_ion"
+        ],
+        "city": "Brighton",
+        "country": "United Kingdom",
+        "short_summary": "Universal Quantum is a UK company building scalable trapped-ion quantum computers using modular architecture and electric-field-link qubit connections.",
+        "logo_path": "/logos/c016-universal-quantum.png",
+        "md_filename": "c016-universal-quantum.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1372,
+          50.8225
         ]
       }
     },
@@ -615,23 +548,182 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c028-atom-computing",
-        "name": "Atom Computing",
+        "id": "c026-nvision-imaging",
+        "name": "NVision Imaging Technologies",
         "entity_type": "company",
         "platforms": [
-          "neutral_atom"
+          "nv_center"
         ],
-        "city": "Berkeley",
-        "country": "United States",
-        "short_summary": "Atom Computing (founded 2018, Berkeley CA) builds gate-based quantum computers using nuclear-spin qubits in optically trapped ytterbium-171 atoms. Its AC1000 system — the first to exceed 1,000 qubits in a gate-based platform (1,180 qubits announced October 2023) — features 1,200+ fully-connected physical qubits, all-to-all connectivity, single-qubit fidelity >99.9%, and on-premises or cloud (Azure Quantum) deployment. A Microsoft partnership (September 2024) demonstrated 24 entangled logical qubits on record; the companies are co-building the \"Magne\" system for Denmark. In May 2026, Atom signed a $100 million CHIPS Act Letter of Intent with the U.S. Department of Commerce.",
-        "logo_path": "/logos/c028-atom-computing.png",
-        "md_filename": "c028-atom-computing.md"
+        "city": "Ulm",
+        "country": "Germany",
+        "short_summary": "NVision Imaging Technologies (founded 2015, Ulm, Germany) is a University of Ulm spin-out co-founded by quantum physicists Fedor Jelezko (113-fedor-jelezko), Martin Plenio, Ilai Schwartz, and Alex Retzker. The company applies quantum spin-control technology — originating from NV-center research on diamond surfaces — to produce hyperpolarized carbon-13 metabolic contrast agents for MRI. Its POLARIS platform uses parahydrogen-induced polarization (PHIP) to boost MRI signals by over 10,000x in under three minutes, enabling real-time visualization of tumour metabolism on standard MRI systems. By end-2025, POLARIS Preclinical was deployed at approximately 20 centres including Memorial Sloan Kettering and Technical University of Munich. Having raised USD $120 million total (Series A led by Playground Global, Series B anchored by Abbott with EIB venture loan), NVision rebranded as NVision Quantum Technologies GmbH in May 2026 and announced expansion into photonic quantum computing (PIQC platform) for drug discovery.",
+        "logo_path": "/logos/c026-nvision-imaging.png",
+        "md_filename": "c026-nvision-imaging.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.2727,
-          37.8716
+          9.9876,
+          48.4011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c003-alpine-quantum-technologies-aqt",
+        "name": "Alpine Quantum Technologies",
+        "entity_type": "company",
+        "platforms": [
+          "trapped_ion"
+        ],
+        "city": "Innsbruck",
+        "country": "Austria",
+        "short_summary": "A commercial provider of trapped-ion quantum computers.",
+        "logo_path": "/logos/c003-alpine-quantum-technologies-aqt.png",
+        "md_filename": "c003-alpine-quantum-technologies-aqt.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.351386,
+          47.263464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c002-ionq",
+        "name": "IonQ",
+        "entity_type": "company",
+        "platforms": [
+          "trapped_ion"
+        ],
+        "city": "College Park",
+        "country": "United States",
+        "short_summary": "Develops general-purpose trapped ion quantum computers and software.",
+        "logo_path": "/logos/c002-ionq.png",
+        "md_filename": "c002-ionq.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.929029,
+          38.982141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c034-quandela",
+        "name": "Quandela",
+        "entity_type": "company",
+        "platforms": [
+          "photonic"
+        ],
+        "city": "Massy",
+        "country": "France",
+        "short_summary": "Quandela (founded 2017, Massy; CNRS C2N spin-out) is a full-stack French photonic quantum computing company specialising in semiconductor quantum-dot single-photon sources and MosaiQ-series photonic quantum computers. Its Belenos QPU (12 qubits, 99.6%/99.0% gate fidelity, 576 QOPS) was delivered to CEA's TGCC for EuroHPC as Lucy in October 2025 — the world's most powerful photonic QPU in an HPC supercomputing environment. Quandela provides cloud access via OVHcloud and its own platform (2,400+ users) and the open-source Perceval SDK. Co-founded by Pascale Senellart (CNRS, also in our DB as 180-pascale-senellart), Valérian Giesz, and Niccolo Somaschi (CEO), the company has raised €68.5M+ (Seed €15M 2021; Series A €53.5M 2023) and employs 130+ FTE across two production plants.",
+        "logo_path": "/logos/c034-quandela.png",
+        "md_filename": "c034-quandela.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.266,
+          48.7258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c001-quantum-art",
+        "name": "Quantum Art",
+        "entity_type": "company",
+        "platforms": [
+          "trapped_ion"
+        ],
+        "city": "Ness Ziona",
+        "country": "Israel",
+        "short_summary": "Developer of scalable, multi-core quantum computers using trapped-ion qubits.",
+        "logo_path": "/logos/c001-quantum-art.png",
+        "md_filename": "c001-quantum-art.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8025,
+          31.9284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c023-oxford-quantum-circuits",
+        "name": "Oxford Quantum Circuits",
+        "entity_type": "company",
+        "platforms": [
+          "superconducting"
+        ],
+        "city": "Reading",
+        "country": "United Kingdom",
+        "short_summary": "Oxford Quantum Circuits (OQC; founded 2017, Reading, UK) is a University of Oxford spin-out that builds and operates superconducting quantum computers for cloud delivery under a Quantum-Compute-as-a-Service model. Its patented Coaxmon architecture places qubit control on the reverse face of a sapphire substrate, enabling compact, low-crosstalk scaling. OQC was the first European quantum processor on Amazon Braket (Lucy, 2022), launched the 32-qubit Toshiko enterprise platform in 2023 alongside a $100 M Series B led by SBI Investment, and deployed its GENESIS logical-era system in a New York City data centre with NVIDIA in September 2025.",
+        "logo_path": "/logos/c023-oxford-quantum-circuits.png",
+        "md_filename": "c023-oxford-quantum-circuits.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9781,
+          51.4543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c017-eleqtron",
+        "name": "eleQtron",
+        "entity_type": "company",
+        "platforms": [
+          "trapped_ion"
+        ],
+        "city": "Siegen",
+        "country": "Germany",
+        "short_summary": "eleQtron is a German quantum computing company developing trapped-ion hardware based on its MAGIC (magnetic gradient induced coupling) technology.",
+        "logo_path": "/logos/c017-eleqtron.png",
+        "md_filename": "c017-eleqtron.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0243,
+          50.8748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "c013-qedma",
+        "name": "Qedma",
+        "entity_type": "company",
+        "platforms": [],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_summary": "Developer of quantum error suppression, characterization, and mitigation software designed to enable reliable execution of quantum algorithms on today’s noisy quantum devices.",
+        "logo_path": "/logos/c013-qedma.png",
+        "md_filename": "c013-qedma.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8121,
+          32.1066
         ]
       }
     },
@@ -662,115 +754,23 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "c030-psiquantum",
-        "name": "PsiQuantum",
+        "id": "c028-atom-computing",
+        "name": "Atom Computing",
         "entity_type": "company",
         "platforms": [
-          "photonic"
+          "neutral_atom"
         ],
-        "city": "Palo Alto",
+        "city": "Berkeley",
         "country": "United States",
-        "short_summary": "PsiQuantum (founded 2016, Palo Alto CA) is building fault-tolerant, utility-scale photonic quantum computers using silicon photonics manufactured at GlobalFoundries' high-volume semiconductor fab. Its fusion-based quantum computing (FBQC) architecture targets million-qubit systems encoded in telecom-band single photons. The company has raised over $2.3B including a $1B Series E (Sep 2025, $7B valuation) and a A$940M Australian government investment (Apr 2024). Co-founders Jeremy O'Brien and Terry Rudolph are in the DB; interim CEO Victor Peng (former AMD President) was appointed Feb 2026. Quantum Compute Centers are under construction in Brisbane and Chicago.",
-        "logo_path": "/logos/c030-psiquantum.png",
-        "md_filename": "c030-psiquantum.md"
+        "short_summary": "Atom Computing (founded 2018, Berkeley CA) builds gate-based quantum computers using nuclear-spin qubits in optically trapped ytterbium-171 atoms. Its AC1000 system — the first to exceed 1,000 qubits in a gate-based platform (1,180 qubits announced October 2023) — features 1,200+ fully-connected physical qubits, all-to-all connectivity, single-qubit fidelity >99.9%, and on-premises or cloud (Azure Quantum) deployment. A Microsoft partnership (September 2024) demonstrated 24 entangled logical qubits on record; the companies are co-building the \"Magne\" system for Denmark. In May 2026, Atom signed a $100 million CHIPS Act Letter of Intent with the U.S. Department of Commerce.",
+        "logo_path": "/logos/c028-atom-computing.png",
+        "md_filename": "c028-atom-computing.md"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.143,
-          37.4419
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c031-xanadu",
-        "name": "Xanadu",
-        "entity_type": "company",
-        "platforms": [
-          "photonic"
-        ],
-        "city": "Toronto",
-        "country": "Canada",
-        "short_summary": "Xanadu (founded 2016, Toronto) is the world's first publicly listed pure-play photonic quantum computing company (Nasdaq/TSX: XNDU, March 2026). It builds continuous-variable photonic quantum computers using GKP qubits in squeezed light: Borealis (2022) was the first cloud-accessible quantum advantage demonstration (Nature), and Aurora (2025, Nature) is the first modular networked photonic quantum computer with 12 logical qubits across four server racks. Xanadu also develops PennyLane (35,000+ active users), the most widely used open-source quantum ML framework. The company has raised $552M+, including a $302M SPAC listing, and is targeting a fault-tolerant photonic data centre by 2029.",
-        "logo_path": "/logos/c031-xanadu.png",
-        "md_filename": "c031-xanadu.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.3832,
-          43.6532
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c032-orca-computing",
-        "name": "ORCA Computing",
-        "entity_type": "company",
-        "platforms": [
-          "photonic"
-        ],
-        "city": "London",
-        "country": "United Kingdom",
-        "short_summary": "ORCA Computing (founded 2019, London; Oxford spin-out) builds room-temperature, rack-mounted photonic quantum computers based on time-bin multiplexed quantum memories. Its PT-1 was the first quantum computer sold to a national defence organisation (UK MoD, 2022), and its PT-2 (2024) delivers ~40 qumodes using deterministic single-photon sources with deep NVIDIA CUDA-Q integration. ORCA leads a £11.6M UK government quantum data centre consortium and has deployed systems at the UK NQCC, PCSS Poland, and Montana State University. Founders include Prof. Ian Walmsley (Oxford/Imperial), Dr. Richard Murray (CEO), and Dr. Josh Nunn (CSO, inventor of the ORCA memory).",
-        "logo_path": "/logos/c032-orca-computing.png",
-        "md_filename": "c032-orca-computing.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1769,
-          51.5155
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c033-quix-quantum",
-        "name": "QuiX Quantum",
-        "entity_type": "company",
-        "platforms": [
-          "photonic"
-        ],
-        "city": "Enschede",
-        "country": "Netherlands",
-        "short_summary": "QuiX Quantum (founded 2019, Enschede; University of Twente spin-out) is Europe's leading photonic quantum computing company, building universal quantum computers on ultra-low-loss silicon nitride (TriPleX) waveguide chips that operate at room temperature. It set a world record with its 20-mode photonic processor (validated in Quantum, 2023) and was the first company globally to sell a Universal Quantum Computer based on photonics — including a €14M contract with the German Aerospace Center (DLR, 2022). The company has raised €20.5M+ in VC funding (Seed €5.5M, Series A €15M) plus EIC Accelerator support. Founders include Dr. Jelmer Renema (Chief Scientist) and Dr. Hans van den Vlekkert; CEO is Dr. Stefan Hengesbach (former CEO of Q.ANT).",
-        "logo_path": "/logos/c033-quix-quantum.png",
-        "md_filename": "c033-quix-quantum.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8937,
-          52.2215
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "c034-quandela",
-        "name": "Quandela",
-        "entity_type": "company",
-        "platforms": [
-          "photonic"
-        ],
-        "city": "Massy",
-        "country": "France",
-        "short_summary": "Quandela (founded 2017, Massy; CNRS C2N spin-out) is a full-stack French photonic quantum computing company specialising in semiconductor quantum-dot single-photon sources and MosaiQ-series photonic quantum computers. Its Belenos QPU (12 qubits, 99.6%/99.0% gate fidelity, 576 QOPS) was delivered to CEA's TGCC for EuroHPC as Lucy in October 2025 — the world's most powerful photonic QPU in an HPC supercomputing environment. Quandela provides cloud access via OVHcloud and its own platform (2,400+ users) and the open-source Perceval SDK. Co-founded by Pascale Senellart (CNRS, also in our DB as 180-pascale-senellart), Valérian Giesz, and Niccolo Somaschi (CEO), the company has raised €68.5M+ (Seed €15M 2021; Series A €53.5M 2023) and employs 130+ FTE across two production plants.",
-        "logo_path": "/logos/c034-quandela.png",
-        "md_filename": "c034-quandela.md"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.266,
-          48.7258
+          -122.2727,
+          37.8716
         ]
       }
     }
