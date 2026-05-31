@@ -17,13 +17,14 @@ approach:
   - Only quantum company with commercial products across all three cold-atom application
     areas — gate-based quantum computing (Hilbert), programmable quantum matter (Oqtant),
     and fielded cold-atom sensing hardware
-  - "17+ years of cold-atom manufacturing heritage (as ColdQuanta from ≈2007), delivering
-    turnkey BEC systems and cold-atom modules to government and academic customers worldwide"
+  - 17+ years of cold-atom manufacturing heritage (as ColdQuanta from ≈2007), delivering
+    turnkey BEC systems and cold-atom modules to government and academic customers
+    worldwide
   - Hilbert quantum computer uses Rydberg-mediated gates in optically trapped rubidium
     atoms, with full laser-based control and no cryogenics required
-  - Oqtant cloud platform exposes a programmable quantum matter testbed (BEC/Fermi gas
-    in an ultracold optical lattice) via a web interface, lowering the barrier for
-    quantum simulation experiments
+  - Oqtant cloud platform exposes a programmable quantum matter testbed (BEC/Fermi
+    gas in an ultracold optical lattice) via a web interface, lowering the barrier
+    for quantum simulation experiments
   elevator_pitch: Infleqtion (formerly ColdQuanta) is a vertically integrated cold-atom
     quantum technology company building gate-based quantum computers (Hilbert), cloud-accessible
     quantum matter platforms (Oqtant), and turnkey cold-atom hardware — leveraging
@@ -31,6 +32,38 @@ approach:
     timing markets.
 entity_type: company
 founded_year: 2007
+funding:
+  rounds:
+  - amount_usd: null
+    date: '2007-01-01'
+    notes: Founding-era capital; amount undisclosed.
+    round: Seed
+    source: https://www.crunchbase.com/organization/coldquanta
+    stage: seed
+  - amount_usd: null
+    date: '2018-05-01'
+    notes: Undisclosed Series A; approximate year based on Crunchbase and press coverage.
+    round: Series A
+    source: https://www.crunchbase.com/organization/coldquanta
+    stage: series_a
+  - amount_usd: 110000000
+    date: '2021-08-02'
+    lead_investor: Baidu
+    notes: Unicorn milestone; Baidu joined as strategic investor.
+    other_investors:
+    - Global Frontier Investments
+    - Aldridge EDU
+    - In-Q-Tel
+    round: Series B
+    source: https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/
+    stage: series_b
+  - amount_usd: 49000000
+    date: '2023-01-01'
+    notes: Approximate; reported total raised reached ~$159M by mid-2023.
+    round: Series C
+    source: https://www.crunchbase.com/organization/coldquanta
+    stage: series_c
+  total_raised_usd: 159000000
 id: c029-infleqtion
 last_verified_at: '2026-05-30'
 links:
@@ -43,49 +76,51 @@ location:
   lon: -105.2705
   precision: city
   region: Colorado
+media:
+  logo_path: /logos/c029-infleqtion.png
 milestones:
-- date: '2007-01-01'
-  claim: ColdQuanta founded in Boulder, CO by Dana Z. Anderson (University of Colorado
+- claim: ColdQuanta founded in Boulder, CO by Dana Z. Anderson (University of Colorado
     Boulder / JILA) to commercialise cold-atom and BEC technology developed in his
     research group; early products were miniaturised cold-atom sources and BEC systems
     for government and academic customers.
+  date: '2007-01-01'
   source: https://en.wikipedia.org/wiki/Infleqtion
-- date: '2018-05-01'
-  claim: Raised an undisclosed Series A round led by global investors to scale manufacturing
+- claim: Raised an undisclosed Series A round led by global investors to scale manufacturing
     of cold-atom systems and pursue quantum computing development; headcount and revenue
     grew as DoD contracts expanded.
+  date: '2018-05-01'
   source: https://www.crunchbase.com/organization/coldquanta
-- date: '2021-08-01'
-  claim: Raised $110 million Series B led by Baidu (joined by global strategic investors)
-    to fund development of the Hilbert quantum computer and Oqtant quantum matter platform;
-    valuation reportedly exceeded $1 billion (unicorn milestone).
+- claim: Raised $110 million Series B led by Baidu (joined by global strategic investors)
+    to fund development of the Hilbert quantum computer and Oqtant quantum matter
+    platform; valuation reportedly exceeded $1 billion (unicorn milestone).
+  date: '2021-08-01'
   source: https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/
-- date: '2021-11-01'
-  claim: Launched Oqtant, a cloud-accessible quantum matter service providing programmable
+- claim: Launched Oqtant, a cloud-accessible quantum matter service providing programmable
     access to an ultracold rubidium Bose–Einstein condensate in an optical lattice,
     becoming one of the first commercial quantum matter platforms available to external
     users.
+  date: '2021-11-01'
   source: https://www.infleqtion.com/oqtant
-- date: '2022-09-01'
-  claim: Rebranded from ColdQuanta to Infleqtion, signalling expansion beyond cold-atom
-    hardware into full-stack quantum computing and sensing; headquarters remained in
-    Boulder, CO.
+- claim: Rebranded from ColdQuanta to Infleqtion, signalling expansion beyond cold-atom
+    hardware into full-stack quantum computing and sensing; headquarters remained
+    in Boulder, CO.
+  date: '2022-09-01'
   source: https://www.businesswire.com/news/home/20220907005222/en/ColdQuanta-Becomes-Infleqtion-Signaling-New-Era-for-Quantum-Technology
-- date: '2023-01-01'
-  claim: Announced the Hilbert quantum computer — a gate-based system using Rydberg-mediated
+- claim: Announced the Hilbert quantum computer — a gate-based system using Rydberg-mediated
     entangling gates in optically trapped rubidium atoms — as the flagship computing
     product, with early cloud access offered to partners.
+  date: '2023-01-01'
   source: https://www.infleqtion.com/hilbert
-- date: '2023-06-01'
-  claim: Announced strategic partnership with SandboxAQ (an Alphabet spin-out) to
+- claim: Announced strategic partnership with SandboxAQ (an Alphabet spin-out) to
     integrate Infleqtion sensing and timing hardware into SandboxAQ navigation and
     security solutions.
+  date: '2023-06-01'
   source: https://www.prnewswire.com/news-releases/infleqtion-and-sandboxaq-partner-to-advance-quantum-sensing-and-navigation-solutions-301849782.html
-- date: '2024-01-01'
-  claim: Secured significant DARPA and DoD contracts — including participation in
+- claim: Secured significant DARPA and DoD contracts — including participation in
     the DARPA Quantum Benchmarking Initiative and multiple DoD-funded sensing programmes
     — providing non-dilutive government revenue alongside commercial quantum computing
     activity.
+  date: '2024-01-01'
   source: https://www.infleqtion.com/news
 modality: both
 name: Infleqtion
@@ -107,11 +142,24 @@ offices:
     city: Oxford
     country: United Kingdom
   source: https://www.infleqtion.com/about
+partnerships:
+- name: SandboxAQ
+  source: https://www.prnewswire.com/news-releases/infleqtion-and-sandboxaq-partner-to-advance-quantum-sensing-and-navigation-solutions-301849782.html
+  type: technology
+- name: DARPA
+  source: https://www.infleqtion.com/news
+  type: research
+- name: Baidu
+  source: https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/
+  type: investor
+- name: In-Q-Tel
+  source: https://www.crunchbase.com/organization/coldquanta
+  type: investor
 people:
   founders:
   - name: Dana Z. Anderson
-    role: Founder & Chief Science Officer
     person_id: 000-dana-anderson
+    role: Founder & Chief Science Officer
     source: https://en.wikipedia.org/wiki/Infleqtion
   leadership:
   - name: Scott Faris
@@ -146,74 +194,30 @@ products:
   release_date: '2007-01-01'
   source: https://www.infleqtion.com/hardware
   stage: ga
-funding:
-  total_raised_usd: 159000000
-  rounds:
-  - stage: seed
-    round: Seed
-    date: '2007-01-01'
-    amount_usd: null
-    notes: Founding-era capital; amount undisclosed.
-    source: https://www.crunchbase.com/organization/coldquanta
-  - stage: series_a
-    round: Series A
-    date: '2018-05-01'
-    amount_usd: null
-    notes: Undisclosed Series A; approximate year based on Crunchbase and press coverage.
-    source: https://www.crunchbase.com/organization/coldquanta
-  - stage: series_b
-    round: Series B
-    date: '2021-08-02'
-    amount_usd: 110000000
-    lead_investor: Baidu
-    other_investors:
-    - Global Frontier Investments
-    - Aldridge EDU
-    - In-Q-Tel
-    notes: Unicorn milestone; Baidu joined as strategic investor.
-    source: https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/
-  - stage: series_c
-    round: Series C
-    date: '2023-01-01'
-    amount_usd: 49000000
-    notes: Approximate; reported total raised reached ~$159M by mid-2023.
-    source: https://www.crunchbase.com/organization/coldquanta
-partnerships:
-- name: SandboxAQ
-  type: technology
-  source: https://www.prnewswire.com/news-releases/infleqtion-and-sandboxaq-partner-to-advance-quantum-sensing-and-navigation-solutions-301849782.html
-- name: DARPA
-  type: research
-  source: https://www.infleqtion.com/news
-- name: Baidu
-  type: investor
-  source: https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/
-- name: In-Q-Tel
-  type: investor
-  source: https://www.crunchbase.com/organization/coldquanta
 schema_version: 1
-short_summary: "Infleqtion (founded as ColdQuanta ≈2007, rebranded 2022) is a Boulder\
-  \ CO cold-atom quantum technology company building the Hilbert gate-based quantum\
-  \ computer, the Oqtant quantum matter cloud platform, and commercial cold-atom hardware\
-  \ modules. Founded by Dana Z. Anderson (JILA/CU Boulder), the company raised a $110M\
-  \ Series B in 2021 led by Baidu and has significant DARPA/DoD sensing contracts.\
-  \ It operates offices in Boulder, Chicago, and Oxford UK."
+short_summary: Infleqtion (founded as ColdQuanta ≈2007, rebranded 2022) is a Boulder
+  CO cold-atom quantum technology company building the Hilbert gate-based quantum
+  computer, the Oqtant quantum matter cloud platform, and commercial cold-atom hardware
+  modules. Founded by Dana Z. Anderson (JILA/CU Boulder), the company raised a $110M
+  Series B in 2021 led by Baidu and has significant DARPA/DoD sensing contracts. It
+  operates offices in Boulder, Chicago, and Oxford UK.
 sort_name: Infleqtion
 sources:
-- url: https://en.wikipedia.org/wiki/Infleqtion
-  note: Company history, founding, rebrand from ColdQuanta, founder Dana Anderson
-- url: https://www.businesswire.com/news/home/20220907005222/en/ColdQuanta-Becomes-Infleqtion-Signaling-New-Era-for-Quantum-Technology
-  note: September 2022 rebrand announcement from ColdQuanta to Infleqtion
-- url: https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/
-  note: $110M Series B led by Baidu; unicorn milestone; product roadmap
-- url: https://www.infleqtion.com/hilbert
-  note: Hilbert quantum computer product page — Rydberg-gate, rubidium atoms, cloud access
-- url: https://www.infleqtion.com/oqtant
-  note: Oqtant quantum matter platform — BEC cloud service, launched November 2021
-- url: https://www.prnewswire.com/news-releases/infleqtion-and-sandboxaq-partner-to-advance-quantum-sensing-and-navigation-solutions-301849782.html
-  note: SandboxAQ partnership announcement, June 2023
-- url: https://www.crunchbase.com/organization/coldquanta
-  note: Funding rounds, investors, founding year, Series A/B/C history
+- note: Company history, founding, rebrand from ColdQuanta, founder Dana Anderson
+  url: https://en.wikipedia.org/wiki/Infleqtion
+- note: September 2022 rebrand announcement from ColdQuanta to Infleqtion
+  url: https://www.businesswire.com/news/home/20220907005222/en/ColdQuanta-Becomes-Infleqtion-Signaling-New-Era-for-Quantum-Technology
+- note: $110M Series B led by Baidu; unicorn milestone; product roadmap
+  url: https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/
+- note: Hilbert quantum computer product page — Rydberg-gate, rubidium atoms, cloud
+    access
+  url: https://www.infleqtion.com/hilbert
+- note: Oqtant quantum matter platform — BEC cloud service, launched November 2021
+  url: https://www.infleqtion.com/oqtant
+- note: SandboxAQ partnership announcement, June 2023
+  url: https://www.prnewswire.com/news-releases/infleqtion-and-sandboxaq-partner-to-advance-quantum-sensing-and-navigation-solutions-301849782.html
+- note: Funding rounds, investors, founding year, Series A/B/C history
+  url: https://www.crunchbase.com/organization/coldquanta
 status:
   operating_status: private
 updated_at: '2026-05-30'

@@ -17,8 +17,8 @@ approach:
     connectivity, single-qubit gate fidelity >99.9% and two-qubit gate fidelity >99.6%
   - First quantum company to exceed 1,000 qubits in a gate-based system (1,180 qubits
     announced October 2023), surpassing IBM's 433-qubit Osprey
-  - Strategic partnership with Microsoft delivers logical-qubit-level computation via
-    Azure Quantum qubit-virtualization stack on Atom's neutral-atom hardware
+  - Strategic partnership with Microsoft delivers logical-qubit-level computation
+    via Azure Quantum qubit-virtualization stack on Atom's neutral-atom hardware
   - AC1000 available as an on-premises system (~600 sq ft footprint, no cryogenics
     required) as well as through Azure Quantum cloud access
   elevator_pitch: Atom Computing builds gate-based quantum computers using nuclear-spin
@@ -27,6 +27,51 @@ approach:
     deployed on-premises and via Microsoft Azure Quantum.
 entity_type: company
 founded_year: 2018
+funding:
+  rounds:
+  - amount_usd: 5000000
+    date: '2018-05-10'
+    lead_investor: Venrock
+    round: Seed
+    source: https://en.wikipedia.org/wiki/Atom_Computing
+    stage: seed
+  - amount_usd: 15000000
+    date: '2021-07-21'
+    lead_investor: Venrock
+    notes: Three grants from the National Science Foundation also received alongside
+      this round.
+    other_investors:
+    - Innovation Endeavors
+    - Prelude Ventures
+    round: Series A
+    source: https://www.prnewswire.com/news-releases/atom-computing-unveils-first-generation-quantum-computing-system----appoints-new-ceo-after-closing-15-million-in-series-a-funding-301338000.html
+    stage: series_a
+  - amount_usd: 60000000
+    date: '2022-01-20'
+    lead_investor: Third Point Ventures
+    other_investors:
+    - Prime Movers Lab
+    - Innovation Endeavors
+    - Venrock
+    - Prelude Ventures
+    round: Series B
+    source: https://moorinsightsstrategy.com/atom-computing-plans-to-build-a-bigger-and-better-high-tech-quantum-computer-with-its-latest-60-million-series-b-funding/
+    stage: series_b
+  - amount_usd: 10200000
+    date: '2024-06-05'
+    lead_investor: Denmark's Export and Investment Fund (EIFO)
+    notes: 70 million DKK (~$10.2 M USD); tied to establishing Copenhagen European
+      headquarters.
+    round: EIFO Strategic Investment
+    source: https://quantumcomputingreport.com/eifo-invests-70-million-dkk-10-2-million-usd-in-atom-computing-to-boost-denmarks-quantum-technology-sector/
+    stage: series_b
+  - amount_usd: 10000000
+    date: '2024-09-20'
+    lead_investor: PensionDanmark
+    round: Strategic Investment
+    source: https://thequantuminsider.com/2024/09/20/pensiondanmark-invests-10-million-in-atom-computing-to-strengthen-denmarks-role-in-quantum-technology/
+    stage: series_b
+  total_raised_usd: 101000000
 id: c028-atom-computing
 last_verified_at: '2026-05-30'
 links:
@@ -39,72 +84,74 @@ location:
   lon: -122.2727
   precision: city
   region: California
+media:
+  logo_path: /logos/c028-atom-computing.png
 milestones:
-- date: '2018-05-10'
-  claim: Atom Computing founded by Ben Bloom and Jonathan King in Berkeley, CA, with
+- claim: Atom Computing founded by Ben Bloom and Jonathan King in Berkeley, CA, with
     $5 million in seed funding led by Venrock, to build quantum computers based on
     optically trapped neutral atoms.
+  date: '2018-05-10'
   source: https://en.wikipedia.org/wiki/Atom_Computing
-- date: '2021-07-21'
-  claim: Unveiled Phoenix, the first-generation 100-atom quantum computing system,
+- claim: Unveiled Phoenix, the first-generation 100-atom quantum computing system,
     demonstrating record coherence times for neutral-atom hardware; simultaneously
     closed $15 million Series A and appointed Rob Hays as CEO.
+  date: '2021-07-21'
   source: https://www.prnewswire.com/news-releases/atom-computing-unveils-first-generation-quantum-computing-system----appoints-new-ceo-after-closing-15-million-in-series-a-funding-301338000.html
-- date: '2022-01-20'
-  claim: Raised $60 million Series B led by Third Point Ventures, with participation
+- claim: Raised $60 million Series B led by Third Point Ventures, with participation
     from Prime Movers Lab, Innovation Endeavors, Venrock, and Prelude Ventures, to
     fund development of second-generation quantum systems.
+  date: '2022-01-20'
   source: https://moorinsightsstrategy.com/atom-computing-plans-to-build-a-bigger-and-better-high-tech-quantum-computer-with-its-latest-60-million-series-b-funding/
-- date: '2022-09-28'
-  claim: Opened a commercial operations and R&D facility in Boulder, Colorado, with
+- claim: Opened a commercial operations and R&D facility in Boulder, Colorado, with
     a planned $100 million investment over three years.
+  date: '2022-09-28'
   source: https://atom-computing.com/tag/press-release/
-- date: '2023-10-24'
-  claim: Announced a second-generation 1,180-qubit neutral-atom quantum processor
+- claim: Announced a second-generation 1,180-qubit neutral-atom quantum processor
     on a 35x35 (1,225-site) array of ytterbium-171 atoms, becoming the first quantum
     company to exceed 1,000 qubits in a gate-based system; also demonstrated 40-second
     qubit coherence times.
+  date: '2023-10-24'
   source: https://singularityhub.com/2023/10/25/atom-computing-says-new-quantum-computer-is-first-to-hit-1000-qubits/
-- date: '2024-06-05'
-  claim: Chose Copenhagen, Denmark as European headquarters; Denmark's Export and
+- claim: Chose Copenhagen, Denmark as European headquarters; Denmark's Export and
     Investment Fund (EIFO) invested 70 million DKK (~$10.2 million USD) in the company.
+  date: '2024-06-05'
   source: https://quantumcomputingreport.com/eifo-invests-70-million-dkk-10-2-million-usd-in-atom-computing-to-boost-denmarks-quantum-technology-sector/
-- date: '2024-07-02'
-  claim: Founder Ben Bloom returned as CEO, replacing Rob Hays who stepped down to
+- claim: Founder Ben Bloom returned as CEO, replacing Rob Hays who stepped down to
     pursue other opportunities.
+  date: '2024-07-02'
   source: https://thequantuminsider.com/2024/07/12/ben-bloom-returns-as-ceo-of-atom-computing/
-- date: '2024-09-10'
-  claim: Microsoft announced a partnership integrating Atom Computing's neutral-atom
+- claim: Microsoft announced a partnership integrating Atom Computing's neutral-atom
     hardware into Azure Quantum, combining Atom's >1,000-qubit system with Microsoft's
-    qubit-virtualization stack to deliver logical qubits commercially; named Atom a
-    priority hardware provider in Azure Quantum.
+    qubit-virtualization stack to deliver logical qubits commercially; named Atom
+    a priority hardware provider in Azure Quantum.
+  date: '2024-09-10'
   source: https://blogs.microsoft.com/blog/2024/09/10/microsoft-announces-the-best-performing-logical-qubits-on-record-and-will-provide-priority-access-to-reliable-quantum-hardware-in-azure-quantum/
-- date: '2024-09-20'
-  claim: PensionDanmark invested $10 million in Atom Computing to support quantum
+- claim: PensionDanmark invested $10 million in Atom Computing to support quantum
     expansion in Denmark.
+  date: '2024-09-20'
   source: https://thequantuminsider.com/2024/09/20/pensiondanmark-invests-10-million-in-atom-computing-to-strengthen-denmarks-role-in-quantum-technology/
-- date: '2024-11-19'
-  claim: Microsoft and Atom Computing demonstrated 24 entangled logical qubits —
-    the largest number of entangled logical qubits on record — using Atom's neutral-atom
+- claim: Microsoft and Atom Computing demonstrated 24 entangled logical qubits — the
+    largest number of entangled logical qubits on record — using Atom's neutral-atom
     hardware with Microsoft's Azure Quantum error-correction stack.
+  date: '2024-11-19'
   source: https://azure.microsoft.com/en-us/blog/quantum/2024/11/19/microsoft-and-atom-computing-offer-a-commercial-quantum-machine-with-the-largest-number-of-entangled-logical-qubits-on-record/
-- date: '2025-01-01'
-  claim: Launched an on-premises AC1000 system supporting 50 logical qubits in partnership
+- claim: Launched an on-premises AC1000 system supporting 50 logical qubits in partnership
     with Microsoft, made available to select customers.
+  date: '2025-01-01'
   source: https://www.iotworldtoday.com/quantum/microsoft-atom-computing-target-commercial-quantum-by-2025
-- date: '2026-03-16'
-  claim: Announced integration of NVIDIA NVQLink to accelerate scaling of its quantum
+- claim: Announced integration of NVIDIA NVQLink to accelerate scaling of its quantum
     computers through GPU-QPU interconnects.
+  date: '2026-03-16'
   source: https://atom-computing.com/author/atomcomputing/
-- date: '2026-03-25'
-  claim: Announced strategic collaboration with Cisco to advance scalable, networked,
+- claim: Announced strategic collaboration with Cisco to advance scalable, networked,
     and distributed quantum computing.
+  date: '2026-03-25'
   source: https://atom-computing.com/author/atomcomputing/
-- date: '2026-05-21'
-  claim: Signed a Letter of Intent with the U.S. Department of Commerce for $100 million
+- claim: Signed a Letter of Intent with the U.S. Department of Commerce for $100 million
     in funding under the CHIPS and Science Act to accelerate development of fault-tolerant,
     utility-scale quantum computing; one of nine US quantum companies to receive such
     funding.
+  date: '2026-05-21'
   source: https://www.prnewswire.com/news-releases/atom-computing-announces-letter-of-intent-with-us-department-of-commerce-for-100-million-to-accelerate-path-to-fault-tolerant-utility-scale-quantum-computing-302779117.html
 modality: hardware
 name: Atom Computing
@@ -126,6 +173,25 @@ offices:
     city: Copenhagen
     country: Denmark
   source: https://quantumcomputingreport.com/eifo-invests-70-million-dkk-10-2-million-usd-in-atom-computing-to-boost-denmarks-quantum-technology-sector/
+partnerships:
+- name: Microsoft Azure Quantum
+  source: https://blogs.microsoft.com/blog/2024/09/10/microsoft-announces-the-best-performing-logical-qubits-on-record-and-will-provide-priority-access-to-reliable-quantum-hardware-in-azure-quantum/
+  type: technology
+- name: DARPA (Underexplored Systems for Utility-Scale Quantum Computing)
+  source: https://atom-computing.com/tag/press-release/
+  type: research
+- name: DARPA Quantum Benchmarking Initiative
+  source: https://atom-computing.com/tag/press-release/
+  type: research
+- name: National Renewable Energy Laboratory
+  source: https://atom-computing.com/tag/press-release/
+  type: research
+- name: Cisco
+  source: https://atom-computing.com/author/atomcomputing/
+  type: technology
+- name: NVIDIA
+  source: https://atom-computing.com/author/atomcomputing/
+  type: technology
 people:
   founders:
   - name: Ben Bloom
@@ -157,120 +223,56 @@ products:
   release_date: '2023-10-24'
   source: https://atom-computing.com/ac1000/
   stage: ga
-funding:
-  total_raised_usd: 101000000
-  rounds:
-  - stage: seed
-    round: Seed
-    date: '2018-05-10'
-    amount_usd: 5000000
-    lead_investor: Venrock
-    source: https://en.wikipedia.org/wiki/Atom_Computing
-  - stage: series_a
-    round: Series A
-    date: '2021-07-21'
-    amount_usd: 15000000
-    lead_investor: Venrock
-    other_investors:
-    - Innovation Endeavors
-    - Prelude Ventures
-    notes: Three grants from the National Science Foundation also received alongside
-      this round.
-    source: https://www.prnewswire.com/news-releases/atom-computing-unveils-first-generation-quantum-computing-system----appoints-new-ceo-after-closing-15-million-in-series-a-funding-301338000.html
-  - stage: series_b
-    round: Series B
-    date: '2022-01-20'
-    amount_usd: 60000000
-    lead_investor: Third Point Ventures
-    other_investors:
-    - Prime Movers Lab
-    - Innovation Endeavors
-    - Venrock
-    - Prelude Ventures
-    source: https://moorinsightsstrategy.com/atom-computing-plans-to-build-a-bigger-and-better-high-tech-quantum-computer-with-its-latest-60-million-series-b-funding/
-  - stage: series_b
-    round: EIFO Strategic Investment
-    date: '2024-06-05'
-    amount_usd: 10200000
-    lead_investor: Denmark's Export and Investment Fund (EIFO)
-    notes: 70 million DKK (~$10.2 M USD); tied to establishing Copenhagen European
-      headquarters.
-    source: https://quantumcomputingreport.com/eifo-invests-70-million-dkk-10-2-million-usd-in-atom-computing-to-boost-denmarks-quantum-technology-sector/
-  - stage: series_b
-    round: Strategic Investment
-    date: '2024-09-20'
-    amount_usd: 10000000
-    lead_investor: PensionDanmark
-    source: https://thequantuminsider.com/2024/09/20/pensiondanmark-invests-10-million-in-atom-computing-to-strengthen-denmarks-role-in-quantum-technology/
-partnerships:
-- name: Microsoft Azure Quantum
-  type: technology
-  source: https://blogs.microsoft.com/blog/2024/09/10/microsoft-announces-the-best-performing-logical-qubits-on-record-and-will-provide-priority-access-to-reliable-quantum-hardware-in-azure-quantum/
-- name: DARPA (Underexplored Systems for Utility-Scale Quantum Computing)
-  type: research
-  source: https://atom-computing.com/tag/press-release/
-- name: DARPA Quantum Benchmarking Initiative
-  type: research
-  source: https://atom-computing.com/tag/press-release/
-- name: National Renewable Energy Laboratory
-  type: research
-  source: https://atom-computing.com/tag/press-release/
-- name: Cisco
-  type: technology
-  source: https://atom-computing.com/author/atomcomputing/
-- name: NVIDIA
-  type: technology
-  source: https://atom-computing.com/author/atomcomputing/
 roadmap:
-- target_date: '2026-12-31'
-  target_claim: Complete construction of "Magne" — described as the world's most
-    powerful commercially available quantum computer — to be deployed at a Danish quantum
-    initiative in partnership with Microsoft; anticipated initial operations late 2026
-    or early 2027.
-  source: https://www.datacenterdynamics.com/en/news/microsoft-and-atom-computing-to-build-worlds-most-powerful-quantum-computer-in-denmark/
-- target_date: '2029-12-31'
+- source: https://www.datacenterdynamics.com/en/news/microsoft-and-atom-computing-to-build-worlds-most-powerful-quantum-computer-in-denmark/
+  target_claim: Complete construction of "Magne" — described as the world's most powerful
+    commercially available quantum computer — to be deployed at a Danish quantum initiative
+    in partnership with Microsoft; anticipated initial operations late 2026 or early
+    2027.
+  target_date: '2026-12-31'
+- source: https://www.prnewswire.com/news-releases/atom-computing-announces-letter-of-intent-with-us-department-of-commerce-for-100-million-to-accelerate-path-to-fault-tolerant-utility-scale-quantum-computing-302779117.html
   target_claim: Achieve fault-tolerant, utility-scale quantum computing with funding
     support from U.S. Department of Commerce $100 million LOI (CHIPS Act).
-  source: https://www.prnewswire.com/news-releases/atom-computing-announces-letter-of-intent-with-us-department-of-commerce-for-100-million-to-accelerate-path-to-fault-tolerant-utility-scale-quantum-computing-302779117.html
+  target_date: '2029-12-31'
 schema_version: 1
-short_summary: "Atom Computing (founded 2018, Berkeley CA) builds gate-based quantum\
-  \ computers using nuclear-spin qubits in optically trapped ytterbium-171 atoms.\
-  \ Its AC1000 system — the first to exceed 1,000 qubits in a gate-based platform\
-  \ (1,180 qubits announced October 2023) — features 1,200+ fully-connected physical\
-  \ qubits, all-to-all connectivity, single-qubit fidelity >99.9%, and on-premises\
-  \ or cloud (Azure Quantum) deployment. A Microsoft partnership (September 2024)\
-  \ demonstrated 24 entangled logical qubits on record; the companies are co-building\
-  \ the \"Magne\" system for Denmark. In May 2026, Atom signed a $100 million CHIPS\
-  \ Act Letter of Intent with the U.S. Department of Commerce."
+short_summary: Atom Computing (founded 2018, Berkeley CA) builds gate-based quantum
+  computers using nuclear-spin qubits in optically trapped ytterbium-171 atoms. Its
+  AC1000 system — the first to exceed 1,000 qubits in a gate-based platform (1,180
+  qubits announced October 2023) — features 1,200+ fully-connected physical qubits,
+  all-to-all connectivity, single-qubit fidelity >99.9%, and on-premises or cloud
+  (Azure Quantum) deployment. A Microsoft partnership (September 2024) demonstrated
+  24 entangled logical qubits on record; the companies are co-building the "Magne"
+  system for Denmark. In May 2026, Atom signed a $100 million CHIPS Act Letter of
+  Intent with the U.S. Department of Commerce.
 sort_name: Atom Computing
 sources:
-- url: https://en.wikipedia.org/wiki/Atom_Computing
-  note: Founding, founders, funding history, milestones
-- url: https://atom-computing.com/ac1000/
-  note: AC1000 product specifications — 1,200+ qubits, nuclear-spin, Yb-171, fidelities,
+- note: Founding, founders, funding history, milestones
+  url: https://en.wikipedia.org/wiki/Atom_Computing
+- note: AC1000 product specifications — 1,200+ qubits, nuclear-spin, Yb-171, fidelities,
     on-premises footprint
-- url: https://www.prnewswire.com/news-releases/atom-computing-unveils-first-generation-quantum-computing-system----appoints-new-ceo-after-closing-15-million-in-series-a-funding-301338000.html
-  note: Phoenix system launch and Series A, July 2021
-- url: https://moorinsightsstrategy.com/atom-computing-plans-to-build-a-bigger-and-better-high-tech-quantum-computer-with-its-latest-60-million-series-b-funding/
-  note: Series B $60M, January 2022; Third Point Ventures lead; prior round investors
-- url: https://singularityhub.com/2023/10/25/atom-computing-says-new-quantum-computer-is-first-to-hit-1000-qubits/
-  note: 1,180-qubit second-generation system announced October 24, 2023; first to
+  url: https://atom-computing.com/ac1000/
+- note: Phoenix system launch and Series A, July 2021
+  url: https://www.prnewswire.com/news-releases/atom-computing-unveils-first-generation-quantum-computing-system----appoints-new-ceo-after-closing-15-million-in-series-a-funding-301338000.html
+- note: Series B $60M, January 2022; Third Point Ventures lead; prior round investors
+  url: https://moorinsightsstrategy.com/atom-computing-plans-to-build-a-bigger-and-better-high-tech-quantum-computer-with-its-latest-60-million-series-b-funding/
+- note: 1,180-qubit second-generation system announced October 24, 2023; first to
     exceed 1,000 qubits; 40-second coherence time
-- url: https://blogs.microsoft.com/blog/2024/09/10/microsoft-announces-the-best-performing-logical-qubits-on-record-and-will-provide-priority-access-to-reliable-quantum-hardware-in-azure-quantum/
-  note: Microsoft–Atom Computing partnership announcement, September 2024; Azure Quantum
+  url: https://singularityhub.com/2023/10/25/atom-computing-says-new-quantum-computer-is-first-to-hit-1000-qubits/
+- note: Microsoft–Atom Computing partnership announcement, September 2024; Azure Quantum
     integration
-- url: https://azure.microsoft.com/en-us/blog/quantum/2024/11/19/microsoft-and-atom-computing-offer-a-commercial-quantum-machine-with-the-largest-number-of-entangled-logical-qubits-on-record/
-  note: 24 entangled logical qubits milestone, November 2024
-- url: https://thequantuminsider.com/2024/07/12/ben-bloom-returns-as-ceo-of-atom-computing/
-  note: Ben Bloom returns as CEO, July 2024
-- url: https://quantumcomputingreport.com/eifo-invests-70-million-dkk-10-2-million-usd-in-atom-computing-to-boost-denmarks-quantum-technology-sector/
-  note: EIFO 70 million DKK investment and Copenhagen European HQ, June 2024
-- url: https://thequantuminsider.com/2024/09/20/pensiondanmark-invests-10-million-in-atom-computing-to-strengthen-denmarks-role-in-quantum-technology/
-  note: PensionDanmark $10M investment, September 2024
-- url: https://www.prnewswire.com/news-releases/atom-computing-announces-letter-of-intent-with-us-department-of-commerce-for-100-million-to-accelerate-path-to-fault-tolerant-utility-scale-quantum-computing-302779117.html
-  note: US Department of Commerce $100M LOI under CHIPS Act, May 2026
-- url: https://www.datacenterdynamics.com/en/news/microsoft-and-atom-computing-to-build-worlds-most-powerful-quantum-computer-in-denmark/
-  note: '"Magne" system for Denmark with Microsoft, 2025–2027 timeline'
+  url: https://blogs.microsoft.com/blog/2024/09/10/microsoft-announces-the-best-performing-logical-qubits-on-record-and-will-provide-priority-access-to-reliable-quantum-hardware-in-azure-quantum/
+- note: 24 entangled logical qubits milestone, November 2024
+  url: https://azure.microsoft.com/en-us/blog/quantum/2024/11/19/microsoft-and-atom-computing-offer-a-commercial-quantum-machine-with-the-largest-number-of-entangled-logical-qubits-on-record/
+- note: Ben Bloom returns as CEO, July 2024
+  url: https://thequantuminsider.com/2024/07/12/ben-bloom-returns-as-ceo-of-atom-computing/
+- note: EIFO 70 million DKK investment and Copenhagen European HQ, June 2024
+  url: https://quantumcomputingreport.com/eifo-invests-70-million-dkk-10-2-million-usd-in-atom-computing-to-boost-denmarks-quantum-technology-sector/
+- note: PensionDanmark $10M investment, September 2024
+  url: https://thequantuminsider.com/2024/09/20/pensiondanmark-invests-10-million-in-atom-computing-to-strengthen-denmarks-role-in-quantum-technology/
+- note: US Department of Commerce $100M LOI under CHIPS Act, May 2026
+  url: https://www.prnewswire.com/news-releases/atom-computing-announces-letter-of-intent-with-us-department-of-commerce-for-100-million-to-accelerate-path-to-fault-tolerant-utility-scale-quantum-computing-302779117.html
+- note: '"Magne" system for Denmark with Microsoft, 2025–2027 timeline'
+  url: https://www.datacenterdynamics.com/en/news/microsoft-and-atom-computing-to-build-worlds-most-powerful-quantum-computer-in-denmark/
 status:
   operating_status: private
 updated_at: '2026-05-30'

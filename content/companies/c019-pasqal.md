@@ -1,13 +1,12 @@
 ---
-entity_type: company
-id: c019-pasqal
-name: Pasqal
 aliases:
 - PASQAL
 applications:
 - computing
 - simulation
+entity_type: company
 founded_year: 2019
+id: c019-pasqal
 last_verified_at: '2026-05-30'
 links:
   website: https://www.pasqal.com
@@ -18,7 +17,10 @@ location:
   lon: 2.2614
   precision: city
   region: Ile-de-France
+media:
+  logo_path: /logos/c019-pasqal.png
 modality: hardware
+name: Pasqal
 people:
   founders:
   - name: Antoine Browaeys
@@ -28,9 +30,8 @@ platforms:
 - neutral_atom
 - rydberg_array
 schema_version: 1
-short_summary: >-
-  Neutral-atom quantum computing company founded in 2019; spun out of Institut
-  d Optique by Antoine Browaeys and Thierry Lahaye.
+short_summary: Neutral-atom quantum computing company founded in 2019; spun out of
+  Institut d Optique by Antoine Browaeys and Thierry Lahaye.
 status:
   operating_status: private
 stub: true
