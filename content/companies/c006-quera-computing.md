@@ -90,12 +90,16 @@ people:
     role: Co-founder & Chief Scientist
   - name: Markus Greiner
     person_id: 083-markus-greiner
+    role: Co-founder
   - name: Vladan Vuletic
     person_id: 040-vladan-vuletic
     role: Co-founder & Chief Technology Officer
   - name: Dirk Englund
     person_id: 122-dirk-englund
+    role: Co-founder
   - name: Nathan Gemelke
+    person_id: 000-nathan-gemelke
+    role: Co-founder & Chief Technology Strategist
   headcount: 50
   headcount_source: https://www.quera.com/about
   headcount_retrieved_at: '2026-05-31'
@@ -110,6 +114,9 @@ people:
   - name: Mikhail Lukin
     person_id: 080-mikhail-d-lukin
     role: Chief Scientist
+  - name: Nathan Gemelke
+    person_id: 000-nathan-gemelke
+    role: Chief Technology Strategist
   - name: Yuval Boger
     role: Chief Commercial Officer
   - name: Ed Durkin
