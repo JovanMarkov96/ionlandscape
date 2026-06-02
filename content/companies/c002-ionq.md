@@ -181,7 +181,7 @@ partnerships:
   type: research
 people:
   founders:
-  - name: Christopher Monroe
+  - name: Christopher R. Monroe
     role: Co-founder & former Chief Scientist
     person_id: 004-christopher-monroe
     source: https://en.wikipedia.org/wiki/IonQ

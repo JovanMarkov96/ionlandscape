@@ -35,7 +35,6 @@ Endpoints that could not be matched to a known node.
 | Tom Harty | c004-oxford-ionics | founder | False | True |
 | Yaron Silberberg | 209-barak-dayan | advisor | False | True |
 | Yuval Boger | c006-quera-computing | leadership | False | True |
-| c002-ionq | University of Maryland | spun_out_from | True | False |
 | c019-pasqal | Institut d'Optique | spun_out_from | True | False |
 | c035-quantinuum | Cambridge Quantum | spun_out_from | True | False |
 | c035-quantinuum | Honeywell | spun_out_from | True | False |
