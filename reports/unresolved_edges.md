@@ -4,12 +4,14 @@ Endpoints that could not be matched to a known node.
 
 | source | target | type | src ok | tgt ok |
 |---|---|---|---|---|
+| 000-dana-anderson | c029-infleqtion | founder | False | True |
 | 157-oskar-painter | Amazon Web Services | affiliated_with | True | False |
 | 185-ulrik-andersen | Alea Quantum Technologies | affiliated_with | True | False |
 | 185-ulrik-andersen | DIASENSE | affiliated_with | True | False |
 | Alexander Glätzle | c036-planqc | founder | False | True |
 | Amiram Ron | 205-ofer-firstenberg | advisor | False | True |
 | Christophe Jurczak | c019-pasqal | founder | False | True |
+| D. G. Steel | 130-meenakshi-dutt | advisor | False | True |
 | Dean Bogdanovic | c006-quera-computing | leadership | False | True |
 | Ed Durkin | c006-quera-computing | leadership | False | True |
 | Ilyas Khan | c035-quantinuum | founder | False | True |
@@ -17,6 +19,7 @@ Endpoints that could not be matched to a known node.
 | Jan Henrik Leisse | c017-eleqtron | founder | False | True |
 | Jan Henrik Leisse | c017-eleqtron | leadership | False | True |
 | Johannes Zeiher | c036-planqc | founder | False | True |
+| L. J. Sham | 127-sophia-e-economou | advisor | False | True |
 | Michael Johanning | c017-eleqtron | founder | False | True |
 | Niccolò de Masi | c002-ionq | leadership | False | True |
 | Peter Chapman | c002-ionq | leadership | False | True |
@@ -25,6 +28,7 @@ Endpoints that could not be matched to a known node.
 | Sebastian Blatt | c036-planqc | founder | False | True |
 | Sebastian Weidt | c016-universal-quantum | founder | False | True |
 | Sebastian Weidt | c016-universal-quantum | leadership | False | True |
+| Stuart Adams | 096-jonathan-d-pritchard | advisor | False | True |
 | Takuya Kitagawa | c006-quera-computing | leadership | False | True |
 | Théau Peronnin | c037-alice-and-bob | founder | False | True |
 | Théau Peronnin | c037-alice-and-bob | leadership | False | True |
