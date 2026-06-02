@@ -15,6 +15,8 @@ location:
   lat: 57.70716
   lon: 11.96679
   precision: city
+media:
+  logo_path: /img/institutions/i105-chalmers-university-of-technology_mark.png
 name: Chalmers University of Technology
 platforms_represented:
 - superconducting

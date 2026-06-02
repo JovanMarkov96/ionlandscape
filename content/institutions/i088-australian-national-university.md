@@ -15,6 +15,8 @@ location:
   lat: -35.283459
   lon: 149.128067
   precision: city
+media:
+  logo_path: /img/institutions/i088-australian-national-university_mark.png
 name: Australian National University
 platforms_represented:
 - nv_center

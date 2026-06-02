@@ -15,6 +15,8 @@ location:
   lat: 48.85341
   lon: 2.3488
   precision: city
+media:
+  logo_path: /img/institutions/i066-centre-national-de-la-recherche-scientifique_mark.png
 name: Centre National de la Recherche Scientifique
 platforms_represented:
 - neutral_atom

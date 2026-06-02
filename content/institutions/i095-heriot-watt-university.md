@@ -15,6 +15,8 @@ location:
   lat: 55.952061
   lon: -3.19648
   precision: city
+media:
+  logo_path: /img/institutions/i095-heriot-watt-university_mark.png
 name: Heriot-Watt University
 platforms_represented:
 - nv_center

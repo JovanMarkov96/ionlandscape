@@ -13,6 +13,8 @@ location:
   lat: 47.26266
   lon: 11.39454
   precision: city
+media:
+  logo_path: /img/institutions/i078-universitat-innsbruck_mark.png
 name: Universität Innsbruck
 platforms_represented:
 - neutral_atom

@@ -15,6 +15,8 @@ location:
   lat: 34.42083
   lon: -119.69819
   precision: city
+media:
+  logo_path: /img/institutions/i086-university-of-california-santa-barbara_mark.png
 name: University of California, Santa Barbara
 platforms_represented:
 - nv_center

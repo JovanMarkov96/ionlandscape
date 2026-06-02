@@ -15,6 +15,8 @@ location:
   lat: 1.28967
   lon: 103.85007
   precision: city
+media:
+  logo_path: /img/institutions/i111-national-university-of-singapore_mark.png
 name: National University of Singapore
 platforms_represented:
 - superconducting

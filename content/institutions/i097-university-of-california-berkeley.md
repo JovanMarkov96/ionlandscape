@@ -15,6 +15,8 @@ location:
   lat: 37.87159
   lon: -122.27275
   precision: city
+media:
+  logo_path: /img/institutions/i097-university-of-california-berkeley_mark.png
 name: University of California, Berkeley
 platforms_represented:
 - nv_center

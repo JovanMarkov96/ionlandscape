@@ -15,6 +15,8 @@ location:
   lat: 41.30815
   lon: -72.92816
   precision: city
+media:
+  logo_path: /img/institutions/i102-yale-university_mark.png
 name: Yale University
 platforms_represented:
 - superconducting

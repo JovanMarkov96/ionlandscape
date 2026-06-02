@@ -15,6 +15,8 @@ location:
   lat: 48.58392
   lon: 7.74553
   precision: city
+media:
+  logo_path: /img/institutions/i083-universite-de-strasbourg_mark.png
 name: Université de Strasbourg
 platforms_represented:
 - neutral_atom

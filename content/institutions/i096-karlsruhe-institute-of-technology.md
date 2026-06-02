@@ -15,6 +15,8 @@ location:
   lat: 49.00937
   lon: 8.40444
   precision: city
+media:
+  logo_path: /img/institutions/i096-karlsruhe-institute-of-technology_mark.png
 name: Karlsruhe Institute of Technology
 platforms_represented:
 - nv_center

@@ -15,6 +15,8 @@ location:
   lat: 37.876959
   lon: -122.24563
   precision: campus
+media:
+  logo_path: /img/institutions/i062-lawrence-berkeley-national-laboratory_mark.png
 name: Lawrence Berkeley National Laboratory
 platforms_represented:
 - trapped_ion

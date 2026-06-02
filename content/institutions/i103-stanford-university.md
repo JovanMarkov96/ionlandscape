@@ -15,6 +15,8 @@ location:
   lat: 37.42411
   lon: -122.16608
   precision: city
+media:
+  logo_path: /img/institutions/i103-stanford-university_mark.png
 name: Stanford University
 platforms_represented:
 - superconducting

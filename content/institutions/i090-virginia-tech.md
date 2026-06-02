@@ -15,6 +15,8 @@ location:
   lat: 37.22957
   lon: -80.41394
   precision: city
+media:
+  logo_path: /img/institutions/i090-virginia-tech_mark.png
 name: Virginia Tech
 platforms_represented:
 - nv_center

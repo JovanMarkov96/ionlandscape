@@ -15,6 +15,8 @@ location:
   lat: 50.92149
   lon: 6.36267
   precision: city
+media:
+  logo_path: /img/institutions/i079-forschungszentrum-julich_mark.png
 name: Forschungszentrum Jülich
 platforms_represented:
 - neutral_atom

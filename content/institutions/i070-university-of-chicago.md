@@ -15,6 +15,8 @@ location:
   lat: 41.85003
   lon: -87.65005
   precision: city
+media:
+  logo_path: /img/institutions/i070-university-of-chicago_mark.png
 name: University of Chicago
 platforms_represented:
 - neutral_atom

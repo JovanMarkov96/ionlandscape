@@ -15,6 +15,8 @@ location:
   lat: 50.776642
   lon: 6.08342
   precision: city
+media:
+  logo_path: /img/institutions/i108-rwth-aachen-university_mark.png
 name: RWTH Aachen University
 platforms_represented:
 - superconducting

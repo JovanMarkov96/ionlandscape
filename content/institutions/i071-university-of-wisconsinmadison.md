@@ -15,6 +15,8 @@ location:
   lat: 43.07305
   lon: -89.40123
   precision: city
+media:
+  logo_path: /img/institutions/i071-university-of-wisconsinmadison_mark.png
 name: University of Wisconsin–Madison
 platforms_represented:
 - neutral_atom

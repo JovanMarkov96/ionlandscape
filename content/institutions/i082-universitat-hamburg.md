@@ -15,6 +15,8 @@ location:
   lat: 53.55073
   lon: 9.99302
   precision: city
+media:
+  logo_path: /img/institutions/i082-universitat-hamburg_mark.png
 name: Universität Hamburg
 platforms_represented:
 - neutral_atom

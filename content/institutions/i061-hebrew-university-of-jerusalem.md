@@ -15,6 +15,8 @@ location:
   lat: 31.791856
   lon: 35.244723
   precision: campus
+media:
+  logo_path: /img/institutions/i061-hebrew-university-of-jerusalem_mark.png
 name: Hebrew University of Jerusalem
 platforms_represented:
 - trapped_ion

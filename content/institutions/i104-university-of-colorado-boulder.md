@@ -15,6 +15,8 @@ location:
   lat: 40.014992
   lon: -105.270554
   precision: city
+media:
+  logo_path: /img/institutions/i104-university-of-colorado-boulder_mark.png
 name: University of Colorado Boulder
 platforms_represented:
 - superconducting

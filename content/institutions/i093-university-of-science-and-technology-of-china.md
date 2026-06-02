@@ -15,6 +15,8 @@ location:
   lat: 31.86389
   lon: 117.28083
   precision: city
+media:
+  logo_path: /img/institutions/i093-university-of-science-and-technology-of-china_mark.png
 name: University of Science and Technology of China
 platforms_represented:
 - nv_center

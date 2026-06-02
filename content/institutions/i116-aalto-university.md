@@ -1,15 +1,17 @@
 ---
-created_at: "2026-05-30"
+created_at: '2026-05-30'
 entity_type: institution
 id: i116-aalto-university
 institution_type: research_centre
-last_verified_at: "2026-05-30"
+last_verified_at: '2026-05-30'
 location:
   city: Espoo
   country: Finland
   lat: 60.1872
   lon: 24.8282
   precision: city
+media:
+  logo_path: /img/institutions/i116-aalto-university_mark.png
 name: Aalto University
 platforms_represented:
 - neutral_atom
@@ -17,6 +19,6 @@ platforms_represented:
 schema_version: 1
 short_description: Research institution in Finland.
 stub: true
-updated_at: "2026-05-30"
+updated_at: '2026-05-30'
 verification_source_count: 1
 ---

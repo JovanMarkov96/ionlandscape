@@ -15,6 +15,8 @@ location:
   lat: 40.11059
   lon: -88.20727
   precision: city
+media:
+  logo_path: /img/institutions/i073-university-of-illinois-urbana-champaign_mark.png
 name: University of Illinois Urbana-Champaign
 platforms_represented:
 - neutral_atom

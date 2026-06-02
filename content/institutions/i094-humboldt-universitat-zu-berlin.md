@@ -15,6 +15,8 @@ location:
   lat: 52.524368
   lon: 13.41053
   precision: city
+media:
+  logo_path: /img/institutions/i094-humboldt-universitat-zu-berlin_mark.png
 name: Humboldt-Universität zu Berlin
 platforms_represented:
 - nv_center

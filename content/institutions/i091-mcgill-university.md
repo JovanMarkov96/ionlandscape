@@ -15,6 +15,8 @@ location:
   lat: 45.50884
   lon: -73.58781
   precision: city
+media:
+  logo_path: /img/institutions/i091-mcgill-university_mark.png
 name: McGill University
 platforms_represented:
 - nv_center

@@ -15,6 +15,8 @@ location:
   lat: 52.9536
   lon: -1.15047
   precision: city
+media:
+  logo_path: /img/institutions/i081-university-of-nottingham_mark.png
 name: University of Nottingham
 platforms_represented:
 - neutral_atom

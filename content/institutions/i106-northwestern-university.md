@@ -15,6 +15,8 @@ location:
   lat: 42.04114
   lon: -87.69006
   precision: city
+media:
+  logo_path: /img/institutions/i106-northwestern-university_mark.png
 name: Northwestern University
 platforms_represented:
 - superconducting

@@ -15,6 +15,8 @@ location:
   lat: 55.86515
   lon: -4.25763
   precision: city
+media:
+  logo_path: /img/institutions/i074-university-of-strathclyde_mark.png
 name: University of Strathclyde
 platforms_represented:
 - neutral_atom

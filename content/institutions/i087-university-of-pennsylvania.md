@@ -15,6 +15,8 @@ location:
   lat: 39.95238
   lon: -75.16362
   precision: city
+media:
+  logo_path: /img/institutions/i087-university-of-pennsylvania_mark.png
 name: University of Pennsylvania
 platforms_represented:
 - nv_center

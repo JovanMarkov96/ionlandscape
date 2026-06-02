@@ -15,6 +15,8 @@ location:
   lat: 52.006672
   lon: 4.35556
   precision: city
+media:
+  logo_path: /img/institutions/i084-delft-university-of-technology_mark.png
 name: Delft University of Technology
 platforms_represented:
 - nv_center

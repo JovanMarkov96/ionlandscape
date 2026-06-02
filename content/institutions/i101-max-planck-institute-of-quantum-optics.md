@@ -15,6 +15,8 @@ location:
   lat: 48.248959
   lon: 11.65101
   precision: city
+media:
+  logo_path: /img/institutions/i101-max-planck-institute-of-quantum-optics_mark.png
 name: Max Planck Institute of Quantum Optics
 platforms_represented:
 - nv_center

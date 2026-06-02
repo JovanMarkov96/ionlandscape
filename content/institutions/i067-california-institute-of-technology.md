@@ -15,6 +15,8 @@ location:
   lat: 34.14778
   lon: -118.14452
   precision: city
+media:
+  logo_path: /img/institutions/i067-california-institute-of-technology_mark.png
 name: California Institute of Technology
 platforms_represented:
 - neutral_atom

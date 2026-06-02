@@ -15,6 +15,8 @@ location:
   lat: 35.90807
   lon: 139.65657
   precision: city
+media:
+  logo_path: /img/institutions/i107-riken-center-for-quantum-computing_mark.png
 name: RIKEN Center for Quantum Computing
 platforms_represented:
 - superconducting

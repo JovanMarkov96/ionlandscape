@@ -15,6 +15,8 @@ location:
   lat: 48.13743
   lon: 11.57549
   precision: city
+media:
+  logo_path: /img/institutions/i064-ludwig-maximilians-universitat-munchen_mark.png
 name: Ludwig-Maximilians-Universität München
 platforms_represented:
 - neutral_atom

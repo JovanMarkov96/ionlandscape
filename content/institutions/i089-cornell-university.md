@@ -15,6 +15,8 @@ location:
   lat: 42.44063
   lon: -76.49661
   precision: city
+media:
+  logo_path: /img/institutions/i089-cornell-university_mark.png
 name: Cornell University
 platforms_represented:
 - nv_center

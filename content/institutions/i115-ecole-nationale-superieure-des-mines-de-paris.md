@@ -15,6 +15,8 @@ location:
   lat: 48.85341
   lon: 2.3488
   precision: city
+media:
+  logo_path: /img/institutions/i115-ecole-nationale-superieure-des-mines-de-paris_mark.png
 name: École Nationale Supérieure des Mines de Paris
 platforms_represented:
 - superconducting

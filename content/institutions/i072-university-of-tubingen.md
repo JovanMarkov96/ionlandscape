@@ -15,6 +15,8 @@ location:
   lat: 48.522659
   lon: 9.05222
   precision: city
+media:
+  logo_path: /img/institutions/i072-university-of-tubingen_mark.png
 name: University of Tübingen
 platforms_represented:
 - neutral_atom

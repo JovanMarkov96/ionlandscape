@@ -15,6 +15,8 @@ location:
   lat: 48.85341
   lon: 2.3488
   precision: city
+media:
+  logo_path: /img/institutions/i113-commissariat-a-l-energie-atomique-et-aux-energies-alternatives_mark.png
 name: Commissariat à l'Énergie Atomique et aux Énergies Alternatives
 platforms_represented:
 - superconducting

@@ -15,6 +15,8 @@ location:
   lat: 48.8205
   lon: 2.1311
   precision: city
+media:
+  logo_path: /img/institutions/i114-institut-national-de-recherche-en-sciences-et-technologies-du-numerique_mark.png
 name: Institut national de recherche en sciences et technologies du numérique
 platforms_represented:
 - superconducting

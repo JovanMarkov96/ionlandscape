@@ -15,6 +15,8 @@ location:
   lat: 45.40008
   lon: -71.89908
   precision: city
+media:
+  logo_path: /img/institutions/i109-universite-de-sherbrooke_mark.png
 name: Université de Sherbrooke
 platforms_represented:
 - superconducting

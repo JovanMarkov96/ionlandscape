@@ -15,6 +15,8 @@ location:
   lat: 48.782318
   lon: 9.17702
   precision: city
+media:
+  logo_path: /img/institutions/i080-university-of-stuttgart_mark.png
 name: University of Stuttgart
 platforms_represented:
 - neutral_atom

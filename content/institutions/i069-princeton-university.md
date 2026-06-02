@@ -15,6 +15,8 @@ location:
   lat: 40.34872
   lon: -74.65905
   precision: city
+media:
+  logo_path: /img/institutions/i069-princeton-university_mark.png
 name: Princeton University
 platforms_represented:
 - neutral_atom

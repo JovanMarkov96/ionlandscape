@@ -15,6 +15,8 @@ location:
   lat: 48.39841
   lon: 9.99155
   precision: city
+media:
+  logo_path: /img/institutions/i085-universitat-ulm_mark.png
 name: Universität Ulm
 platforms_represented:
 - nv_center

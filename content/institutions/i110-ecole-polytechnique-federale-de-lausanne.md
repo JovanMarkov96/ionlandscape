@@ -15,6 +15,8 @@ location:
   lat: 46.516
   lon: 6.63282
   precision: city
+media:
+  logo_path: /img/institutions/i110-ecole-polytechnique-federale-de-lausanne_mark.png
 name: École Polytechnique Fédérale de Lausanne
 platforms_represented:
 - superconducting

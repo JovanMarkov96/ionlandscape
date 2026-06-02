@@ -13,6 +13,8 @@ location:
   lat: 48.20849
   lon: 16.37208
   precision: city
+media:
+  logo_path: /img/institutions/i075-austrian-academy-of-sciences_mark.png
 name: Austrian Academy of Sciences
 platforms_represented:
 - neutral_atom

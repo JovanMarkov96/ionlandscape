@@ -15,6 +15,8 @@ location:
   lat: -33.86785
   lon: 151.20732
   precision: city
+media:
+  logo_path: /img/institutions/i099-university-of-technology-sydney_mark.png
 name: University of Technology Sydney
 platforms_represented:
 - color_center

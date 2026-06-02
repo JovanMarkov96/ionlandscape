@@ -15,6 +15,7 @@ location:
   lat: 40.007519
   lon: -105.268738
   precision: city
+media: {}
 name: Joint Institute for Laboratory Astrophysics
 platforms_represented:
 - neutral_atom

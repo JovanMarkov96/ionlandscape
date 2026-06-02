@@ -15,6 +15,8 @@ location:
   lat: 43.15478
   lon: -77.61556
   precision: city
+media:
+  logo_path: /img/institutions/i100-university-of-rochester_mark.png
 name: University of Rochester
 platforms_represented:
 - nv_center

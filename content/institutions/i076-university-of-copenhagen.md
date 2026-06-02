@@ -15,6 +15,8 @@ location:
   lat: 55.67594
   lon: 12.56553
   precision: city
+media:
+  logo_path: /img/institutions/i076-university-of-copenhagen_mark.png
 name: University of Copenhagen
 platforms_represented:
 - neutral_atom

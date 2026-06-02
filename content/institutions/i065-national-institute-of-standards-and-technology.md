@@ -13,6 +13,8 @@ location:
   lat: 39.14344
   lon: -77.20137
   precision: city
+media:
+  logo_path: /img/institutions/i065-national-institute-of-standards-and-technology_mark.png
 name: National Institute of Standards and Technology
 platforms_represented:
 - neutral_atom

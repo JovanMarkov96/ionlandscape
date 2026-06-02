@@ -15,6 +15,8 @@ location:
   lat: 48.30521
   lon: 16.32522
   precision: city
+media:
+  logo_path: /img/institutions/i112-institute-of-science-and-technology-austria_mark.png
 name: Institute of Science and Technology Austria
 platforms_represented:
 - superconducting

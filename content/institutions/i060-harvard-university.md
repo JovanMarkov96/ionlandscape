@@ -15,6 +15,8 @@ location:
   lat: 42.375395
   lon: -71.121891
   precision: campus
+media:
+  logo_path: /img/institutions/i060-harvard-university_mark.png
 name: Harvard University
 platforms_represented:
 - neutral_atom

@@ -15,6 +15,8 @@ location:
   lat: -37.814
   lon: 144.96332
   precision: city
+media:
+  logo_path: /img/institutions/i098-the-university-of-melbourne_mark.png
 name: The University of Melbourne
 platforms_represented:
 - nv_center
