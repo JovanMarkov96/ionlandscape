@@ -1200,6 +1200,16 @@
     "type": "postdoc_advisor"
   },
   {
+    "source": "205-ofer-firstenberg",
+    "target": "329-ran-finkelstein",
+    "type": "advisor"
+  },
+  {
+    "source": "086-manuel-endres",
+    "target": "329-ran-finkelstein",
+    "type": "postdoc_advisor"
+  },
+  {
     "source": "314-robert-m-westervelt",
     "target": "117-ania-c-bleszynski-jayich",
     "type": "advisor"

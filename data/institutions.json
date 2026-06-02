@@ -580,6 +580,7 @@
       ],
       "alumni": [
         "078-yuval-shagam.md",
+        "329-ran-finkelstein.md",
         "128-nir-bar-gill.md"
       ],
       "company_spinouts": [
@@ -587,7 +588,7 @@
         "c001-quantum-art"
       ],
       "member_count": 9,
-      "alumni_count": 2
+      "alumni_count": 3
     },
     "sources": [
       {
@@ -3545,13 +3546,14 @@
         "204-nir-davidson.md",
         "078-yuval-shagam.md",
         "001-roee-ozeri.md",
+        "329-ran-finkelstein.md",
         "205-ofer-firstenberg.md"
       ],
       "company_spinouts": [
         "c009-quantlr"
       ],
       "member_count": 3,
-      "alumni_count": 4
+      "alumni_count": 5
     },
     "sources": [
       {
@@ -3990,12 +3992,13 @@
         "122-dirk-englund.md",
         "093-kang-kuen-ni.md",
         "151-a-n-cleland.md",
+        "329-ran-finkelstein.md",
         "015-tracy-northup.md",
         "209-barak-dayan.md"
       ],
       "company_spinouts": [],
       "member_count": 5,
-      "alumni_count": 12
+      "alumni_count": 13
     },
     "sources": [
       {
@@ -4736,8 +4739,8 @@
   },
   {
     "id": "i034-technion-israel-institute-of-technology",
-    "name": "Technion Israel Institute Of Technology",
-    "sort_name": "Technion Israel Institute Of Technology",
+    "name": "Technion – Israel Institute of Technology",
+    "sort_name": "Technion – Israel Institute of Technology",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -4765,11 +4768,22 @@
       "logo_path": "/img/institutions/i034-technion-israel-institute-of-technology_mark.png"
     },
     "directory": {
-      "current_members": [],
-      "alumni": [],
-      "company_spinouts": [],
-      "member_count": 0,
-      "alumni_count": 0
+      "current_members": [
+        "232-netanel-lindner.md",
+        "234-yoav-sagi.md",
+        "078-yuval-shagam.md",
+        "233-shay-hacohen-gourgy.md"
+      ],
+      "alumni": [
+        "208-daniel-zajfman.md",
+        "128-nir-bar-gill.md",
+        "205-ofer-firstenberg.md"
+      ],
+      "company_spinouts": [
+        "c018-q-factor"
+      ],
+      "member_count": 4,
+      "alumni_count": 3
     },
     "sources": [
       {

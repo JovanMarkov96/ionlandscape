@@ -332,7 +332,7 @@
         "name": "Netanel Lindner",
         "current_position": {
           "confidence": "confirmed",
-          "institution": "Technion - Israel Institute of Technology",
+          "institution": "Technion – Israel Institute of Technology",
           "since_year": null,
           "source": "https://phsites.technion.ac.il/lindner/",
           "title": "Professor of Physics"
@@ -6345,7 +6345,7 @@
         "name": "Yoav Sagi",
         "current_position": {
           "confidence": "confirmed",
-          "institution": "Technion - Israel Institute of Technology",
+          "institution": "Technion – Israel Institute of Technology",
           "since_year": null,
           "source": "https://phsites.technion.ac.il/sagi/",
           "title": "Associate Professor of Physics"
@@ -7090,7 +7090,7 @@
         "id": "078-yuval-shagam",
         "name": "Yuval Shagam",
         "current_position": {
-          "institution": "Technion ג€“ Israel Institute of Technology",
+          "institution": "Technion – Israel Institute of Technology",
           "since_year": 2020,
           "title": "Assistant Professor"
         },
@@ -7106,8 +7106,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.9896,
-          32.794
+          35.02166667,
+          32.7775
         ]
       }
     },
@@ -8773,6 +8773,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "329-ran-finkelstein",
+        "name": "Ran Finkelstein",
+        "current_position": {
+          "confidence": "confirmed",
+          "institution": "Tel Aviv University",
+          "since_year": 2024,
+          "source": "https://english.tau.ac.il/profile/ranf",
+          "title": "Senior Lecturer, School of Physics and Astronomy"
+        },
+        "platforms": [
+          "neutral_atom",
+          "rydberg_array"
+        ],
+        "affiliations": [],
+        "city": "Tel Aviv",
+        "country": "Israel",
+        "short_bio": "Dr. Ran Finkelstein is an experimental physicist and Senior Lecturer in the School of Physics and Astronomy at Tel Aviv University, where he leads a laboratory on quantum information with atoms and photons. His research spans quantum computation, quantum metrology, and quantum simulation with arrays of ultracold neutral atoms held in optical tweezers, as well as quantum optics — the generation, storage, and interaction of single photons with atomic ensembles.",
+        "md_filename": "329-ran-finkelstein.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8044,
+          32.1133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "247-brian-pippard",
         "name": "Brian Pippard",
         "current_position": {
@@ -8834,7 +8864,7 @@
         "name": "Shay Hacohen-Gourgy",
         "current_position": {
           "confidence": "confirmed",
-          "institution": "Technion - Israel Institute of Technology",
+          "institution": "Technion – Israel Institute of Technology",
           "since_year": null,
           "source": "https://phsites.technion.ac.il/hacohen-gourgy/",
           "title": "Professor of Physics"

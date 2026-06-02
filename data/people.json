@@ -655,7 +655,7 @@
     "sort_name": "Lindner, Netanel",
     "current_position": {
       "confidence": "confirmed",
-      "institution": "Technion - Israel Institute of Technology",
+      "institution": "Technion – Israel Institute of Technology",
       "since_year": null,
       "source": "https://phsites.technion.ac.il/lindner/",
       "title": "Professor of Physics"
@@ -13295,7 +13295,7 @@
     "sort_name": "Sagi, Yoav",
     "current_position": {
       "confidence": "confirmed",
-      "institution": "Technion - Israel Institute of Technology",
+      "institution": "Technion – Israel Institute of Technology",
       "since_year": null,
       "source": "https://phsites.technion.ac.il/sagi/",
       "title": "Associate Professor of Physics"
@@ -14891,7 +14891,7 @@
     "name": "Yuval Shagam",
     "sort_name": "Shagam, Yuval",
     "current_position": {
-      "institution": "Technion ג€“ Israel Institute of Technology",
+      "institution": "Technion – Israel Institute of Technology",
       "since_year": 2020,
       "title": "Assistant Professor"
     },
@@ -14903,8 +14903,9 @@
       "city": "Haifa",
       "region": "Haifa District",
       "country": "Israel",
-      "lat": 32.794,
-      "lon": 34.9896
+      "lat": 32.7775,
+      "lon": 35.02166667,
+      "precision": "institution"
     },
     "education": [
       {
@@ -18257,6 +18258,85 @@
     "updated_at": "2026-06-02"
   },
   {
+    "id": "329-ran-finkelstein",
+    "name": "Ran Finkelstein",
+    "sort_name": "Finkelstein, Ran",
+    "current_position": {
+      "confidence": "confirmed",
+      "institution": "Tel Aviv University",
+      "since_year": 2024,
+      "source": "https://english.tau.ac.il/profile/ranf",
+      "title": "Senior Lecturer, School of Physics and Astronomy"
+    },
+    "platforms": [
+      "neutral_atom",
+      "rydberg_array"
+    ],
+    "affiliations": [],
+    "location": {
+      "city": "Tel Aviv",
+      "region": "Tel Aviv District",
+      "country": "Israel",
+      "lat": 32.1133,
+      "lon": 34.8044
+    },
+    "education": [
+      {
+        "degree": "BSc (Physics and Chemistry, Amirim honors)",
+        "institution": "Hebrew University of Jerusalem",
+        "year": 2012
+      },
+      {
+        "degree": "MSc (Physics, Nano-science)",
+        "institution": "Hebrew University of Jerusalem",
+        "year": 2015
+      },
+      {
+        "advisor": "Ofer Firstenberg",
+        "advisor_id": "205-ofer-firstenberg",
+        "confidence": "reported",
+        "degree": "PhD (Physics)",
+        "institution": "Weizmann Institute of Science",
+        "source": "https://cris.tau.ac.il/en/persons/ran-finkelstein/",
+        "year": 2021
+      }
+    ],
+    "postdocs": [
+      {
+        "advisor": "Manuel Endres",
+        "advisor_id": "086-manuel-endres",
+        "confidence": "reported",
+        "institution": "California Institute of Technology",
+        "note": "Troesh Postdoctoral Prize Fellowship (2021–2024); work on alkaline-earth neutral-atom arrays and high-fidelity Rydberg control.",
+        "years": "2021-2024"
+      }
+    ],
+    "keywords": [
+      "neutral-atom arrays",
+      "Rydberg atoms",
+      "optical tweezers",
+      "alkaline-earth atoms",
+      "quantum optics",
+      "single photons",
+      "quantum metrology",
+      "quantum simulation"
+    ],
+    "group_type": "experimental",
+    "labels": [],
+    "ion_species": [],
+    "links": {
+      "google_scholar": "https://scholar.google.co.il/citations?user=oA3Ii6EAAAAJ&hl=en",
+      "group_page": "https://finkelsteinlab.sites.tau.ac.il/",
+      "institution_profile": "https://english.tau.ac.il/profile/ranf"
+    },
+    "thesis": {},
+    "nobel_prize": null,
+    "short_bio": "Dr. Ran Finkelstein is an experimental physicist and Senior Lecturer in the School of Physics and Astronomy at Tel Aviv University, where he leads a laboratory on quantum information with atoms and photons. His research spans quantum computation, quantum metrology, and quantum simulation with arrays of ultracold neutral atoms held in optical tweezers, as well as quantum optics — the generation, storage, and interaction of single photons with atomic ensembles.",
+    "md_filename": "329-ran-finkelstein.md",
+    "created_at": "",
+    "updated_at": "2026-06-02"
+  },
+  {
     "id": "247-brian-pippard",
     "name": "Brian Pippard",
     "sort_name": "Pippard, Brian",
@@ -18361,7 +18441,7 @@
     "sort_name": "Hacohen-Gourgy, Shay",
     "current_position": {
       "confidence": "confirmed",
-      "institution": "Technion - Israel Institute of Technology",
+      "institution": "Technion – Israel Institute of Technology",
       "since_year": null,
       "source": "https://phsites.technion.ac.il/hacohen-gourgy/",
       "title": "Professor of Physics"
