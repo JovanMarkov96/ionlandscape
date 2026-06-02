@@ -400,7 +400,7 @@
         "city": "Paris",
         "country": "France",
         "short_summary": "Alice & Bob (founded 2020, Paris) builds fault-tolerant superconducting quantum computers based on cat qubits — driven-dissipative superconducting cavities that suppress bit-flip errors in hardware, claimed to cut error-correction overhead by up to ~200x versus transmons. An ENS/Inria spinout founded by Théau Peronnin and Raphaël Lescanne, it raised a €100M Series B (later extended by NVIDIA's NVentures), was selected for France's €500M PROQCIMA programme, and opened a €50M quantum cleanroom in Paris, targeting an industrially useful fault-tolerant machine by 2030.",
-        "logo_path": "",
+        "logo_path": "/logos/c037-alice-and-bob.png",
         "md_filename": "c037-alice-and-bob.md"
       },
       "geometry": {

@@ -363,10 +363,13 @@
   },
   {
     "id": "i044-university-of-granada",
-    "name": "University Of Granada",
-    "sort_name": "University Of Granada",
+    "name": "University of Granada",
+    "sort_name": "University of Granada",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Granada",
+      "Universidad de Granada"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Granada",
@@ -863,10 +866,13 @@
   },
   {
     "id": "i053-university-of-tokyo",
-    "name": "University Of Tokyo",
-    "sort_name": "University Of Tokyo",
+    "name": "University of Tokyo",
+    "sort_name": "University of Tokyo",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Tokyo",
+      "東京大学 (Tōkyō daigaku)"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Tokyo",
@@ -876,7 +882,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "The University of Tokyo (東京大学, Tōkyō daigaku, abbreviated as Tōdai (東大) in Japanese and UTokyo in English) is a public research university in Bunkyō, Tokyo, Japan. Founded in 1877 as the nation's first modern university by the merger of several pre-westernisation era institutions, its direct precursors include the Tenmongata, founded in 1684, and the Shōheizaka Institute.\nThe university consists of 10 faculties, 15 graduate schools, and 11 affiliated research institutes. As of 2023, it has 13,974 undergraduate students and 14,258 graduate students. The majority of the university's educational and research facilities are concentrated within its three main Tokyo campuses: Hongō, Komaba, and Kashiwa. Additionally, UTokyo operates several smaller campuses in the Greater Tokyo Area and over 60 facilities across Japan and globally. UTokyo's land holdings amount to 326 square kilometres (approximately 80,586 acres or 32,600 hectares), placing it amongst the largest landowners in the...",
+    "short_description": "The University of Tokyo (東京大学, Tōkyō daigaku, abbreviated as Tōdai (東大) in Japanese and UTokyo in English) is a public research university in Bunkyō, Tokyo, Japan. Founded in 1877 as the nation's first modern university by the merger of several pre-westernisation era institutions, its direct precursors include the Tenmongata, founded in 1684, and the Shōheizaka Institute.\nThe university consists of 10 faculties, 15 graduate schools, and 11 affiliated research institutes. As of 2023, it has 13,974 undergraduate students and 14,258 graduate students. The majority of the university's educational and research facilities are concentrated within its three main Tokyo campuses: Hongō, Komaba, and Kashiwa. Additionally, UTokyo operates several smaller campuses in the Greater Tokyo Area and over 60 facilities across Japan and globally. UTokyo's land holdings amount to 326 square kilometres (approximately 80,586 acres or 32,600 hectares), placing it amongst the largest landowners in the... Known in its native language as 東京大学 (Tōkyō daigaku).",
     "focus_areas": [
       "Quantum Computing",
       "AMO Physics"
@@ -921,8 +927,8 @@
   },
   {
     "id": "i092-rutgers-the-state-university-of-new-jersey",
-    "name": "Rutgers, The State University of New Jersey",
-    "sort_name": "Rutgers, The State University of New Jersey",
+    "name": "Rutgers, the State University of New Jersey",
+    "sort_name": "Rutgers, the State University of New Jersey",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1015,8 +1021,8 @@
   },
   {
     "id": "i052-university-of-sydney",
-    "name": "University Of Sydney",
-    "sort_name": "University Of Sydney",
+    "name": "University of Sydney",
+    "sort_name": "University of Sydney",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1216,10 +1222,12 @@
   },
   {
     "id": "i094-humboldt-universitat-zu-berlin",
-    "name": "Humboldt-Universität zu Berlin",
-    "sort_name": "Humboldt-Universität zu Berlin",
+    "name": "Humboldt University of Berlin",
+    "sort_name": "Humboldt University of Berlin",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "Humboldt-Universität zu Berlin"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Berlin",
@@ -1230,7 +1238,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "",
+    "short_description": "Known in its native language as Humboldt-Universität zu Berlin.",
     "focus_areas": [],
     "platforms_represented": [
       "nv_center"
@@ -1317,8 +1325,8 @@
   },
   {
     "id": "i038-university-of-basel",
-    "name": "University Of Basel",
-    "sort_name": "University Of Basel",
+    "name": "University of Basel",
+    "sort_name": "University of Basel",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1372,8 +1380,8 @@
   },
   {
     "id": "i017-massachusetts-institute-of-technology",
-    "name": "Massachusetts Institute Of Technology",
-    "sort_name": "Massachusetts Institute Of Technology",
+    "name": "Massachusetts Institute of Technology",
+    "sort_name": "Massachusetts Institute of Technology",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1541,8 +1549,8 @@
   },
   {
     "id": "i041-university-of-calgary",
-    "name": "University Of Calgary",
-    "sort_name": "University Of Calgary",
+    "name": "University of Calgary",
+    "sort_name": "University of Calgary",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1595,10 +1603,13 @@
   },
   {
     "id": "i065-national-institute-of-standards-and-technology",
-    "name": "National Institute of Standards and Technology",
-    "sort_name": "National Institute of Standards and Technology",
+    "name": "NIST Gaithersburg",
+    "sort_name": "NIST Gaithersburg",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "National Institute of Standards and Technology",
+      "National Institute of Standards and Technology (Gaithersburg, Maryland)"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Gaithersburg",
@@ -1609,7 +1620,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "",
+    "short_description": "Known in its native language as National Institute of Standards and Technology (Gaithersburg, Maryland).",
     "focus_areas": [],
     "platforms_represented": [
       "neutral_atom",
@@ -1638,10 +1649,13 @@
   },
   {
     "id": "i047-university-of-kassel",
-    "name": "University Of Kassel",
-    "sort_name": "University Of Kassel",
+    "name": "University of Kassel",
+    "sort_name": "University of Kassel",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Kassel",
+      "Universität Kassel"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Kassel",
@@ -1855,8 +1869,8 @@
   },
   {
     "id": "i037-university-of-amsterdam",
-    "name": "University Of Amsterdam",
-    "sort_name": "University Of Amsterdam",
+    "name": "University of Amsterdam",
+    "sort_name": "University of Amsterdam",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1909,8 +1923,8 @@
   },
   {
     "id": "i048-university-of-oregon",
-    "name": "University Of Oregon",
-    "sort_name": "University Of Oregon",
+    "name": "University of Oregon",
+    "sort_name": "University of Oregon",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -1964,10 +1978,12 @@
   },
   {
     "id": "i114-institut-national-de-recherche-en-sciences-et-technologies-du-numerique",
-    "name": "Institut national de recherche en sciences et technologies du numérique",
-    "sort_name": "Institut national de recherche en sciences et technologies du numérique",
+    "name": "French Institute for Research in Computer Science and Automation (Inria)",
+    "sort_name": "French Institute for Research in Computer Science and Automation (Inria)",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "Institut national de recherche en sciences et technologies du numérique"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Le Chesnay-Rocquencourt",
@@ -1978,7 +1994,7 @@
       "precision": "city"
     },
     "institution_type": "national_lab",
-    "short_description": "",
+    "short_description": "Known in its native language as Institut national de recherche en sciences et technologies du numérique.",
     "focus_areas": [],
     "platforms_represented": [
       "superconducting"
@@ -2012,8 +2028,8 @@
   },
   {
     "id": "i007-georgia-institute-of-technology",
-    "name": "Georgia Institute Of Technology",
-    "sort_name": "Georgia Institute Of Technology",
+    "name": "Georgia Institute of Technology",
+    "sort_name": "Georgia Institute of Technology",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -2068,10 +2084,13 @@
   },
   {
     "id": "i054-university-of-trento",
-    "name": "University Of Trento",
-    "sort_name": "University Of Trento",
+    "name": "University of Trento",
+    "sort_name": "University of Trento",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Trento",
+      "Università di Trento"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Trento",
@@ -2081,7 +2100,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "The University of Trento (Italian: Università degli Studi di Trento) is an Italian university located in Trento and nearby Rovereto. It has been able to achieve considerable results in didactics, research, computer science and international relations according to CENSIS (Centro Studi Investimenti Sociali) and the Italian Ministry of Education.",
+    "short_description": "The University of Trento (Italian: Università degli Studi di Trento) is an Italian university located in Trento and nearby Rovereto. It has been able to achieve considerable results in didactics, research, computer science and international relations according to CENSIS (Centro Studi Investimenti Sociali) and the Italian Ministry of Education. Known in its native language as Università di Trento.",
     "focus_areas": [
       "AMO Physics",
       "Quantum Simulation"
@@ -2164,10 +2183,13 @@
   },
   {
     "id": "i040-university-of-buenos-aires",
-    "name": "University Of Buenos Aires",
-    "sort_name": "University Of Buenos Aires",
+    "name": "University of Buenos Aires",
+    "sort_name": "University of Buenos Aires",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Buenos Aires",
+      "Universidad de Buenos Aires"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Buenos Aires",
@@ -2512,10 +2534,13 @@
   },
   {
     "id": "i050-university-of-siegen",
-    "name": "University Of Siegen",
-    "sort_name": "University Of Siegen",
+    "name": "University of Siegen",
+    "sort_name": "University of Siegen",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Siegen",
+      "Universität Siegen"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Siegen",
@@ -2566,10 +2591,13 @@
   },
   {
     "id": "i046-university-of-innsbruck",
-    "name": "University Of Innsbruck",
-    "sort_name": "University Of Innsbruck",
+    "name": "University of Innsbruck",
+    "sort_name": "University of Innsbruck",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Innsbruck",
+      "Universität Innsbruck"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Innsbruck",
@@ -2742,10 +2770,12 @@
   },
   {
     "id": "i113-commissariat-a-l-energie-atomique-et-aux-energies-alternatives",
-    "name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
-    "sort_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+    "name": "French Alternative Energies and Atomic Energy Commission (CEA)",
+    "sort_name": "French Alternative Energies and Atomic Energy Commission (CEA)",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Paris",
@@ -2756,7 +2786,7 @@
       "precision": "city"
     },
     "institution_type": "national_lab",
-    "short_description": "",
+    "short_description": "Known in its native language as Commissariat à l'Énergie Atomique et aux Énergies Alternatives.",
     "focus_areas": [],
     "platforms_represented": [
       "superconducting"
@@ -2992,8 +3022,8 @@
   },
   {
     "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
-    "name": "Centre For Quantum Technologies National University Of Singapore",
-    "sort_name": "Centre For Quantum Technologies National University Of Singapore",
+    "name": "Centre for Quantum Technologies National University of Singapore",
+    "sort_name": "Centre for Quantum Technologies National University of Singapore",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -3121,6 +3151,7 @@
     },
     "directory": {
       "current_members": [
+        "113-fedor-jelezko.md",
         "044-johannes-hecker-denschlag.md",
         "294-martin-plenio.md"
       ],
@@ -3128,7 +3159,7 @@
       "company_spinouts": [
         "c026-nvision-imaging"
       ],
-      "member_count": 2,
+      "member_count": 3,
       "alumni_count": 0
     },
     "sources": [
@@ -3146,10 +3177,12 @@
   },
   {
     "id": "i082-universitat-hamburg",
-    "name": "Universität Hamburg",
-    "sort_name": "Universität Hamburg",
+    "name": "University of Hamburg",
+    "sort_name": "University of Hamburg",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "Universität Hamburg"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Hamburg",
@@ -3160,7 +3193,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "",
+    "short_description": "Known in its native language as Universität Hamburg.",
     "focus_areas": [],
     "platforms_represented": [
       "neutral_atom",
@@ -3177,13 +3210,14 @@
     },
     "directory": {
       "current_members": [
+        "309-peter-schmelcher.md",
         "110-dieter-jaksch.md"
       ],
       "alumni": [
         "028-juergen-eschner.md"
       ],
       "company_spinouts": [],
-      "member_count": 1,
+      "member_count": 2,
       "alumni_count": 1
     },
     "sources": [
@@ -3475,8 +3509,8 @@
   },
   {
     "id": "i012-institute-for-quantum-computing-university-of-waterloo",
-    "name": "Institute For Quantum Computing University Of Waterloo",
-    "sort_name": "Institute For Quantum Computing University Of Waterloo",
+    "name": "Institute for Quantum Computing University of Waterloo",
+    "sort_name": "Institute for Quantum Computing University of Waterloo",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -3525,10 +3559,13 @@
   },
   {
     "id": "i045-university-of-groningen",
-    "name": "University Of Groningen",
-    "sort_name": "University Of Groningen",
+    "name": "University of Groningen",
+    "sort_name": "University of Groningen",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Groningen",
+      "Rijksuniversiteit Groningen"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Groningen",
@@ -3798,8 +3835,8 @@
   },
   {
     "id": "i055-university-of-washington",
-    "name": "University Of Washington",
-    "sort_name": "University Of Washington",
+    "name": "University of Washington",
+    "sort_name": "University of Washington",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -3978,10 +4015,12 @@
   },
   {
     "id": "i066-centre-national-de-la-recherche-scientifique",
-    "name": "Centre National de la Recherche Scientifique",
-    "sort_name": "Centre National de la Recherche Scientifique",
+    "name": "French National Centre for Scientific Research (CNRS)",
+    "sort_name": "French National Centre for Scientific Research (CNRS)",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "Centre National de la Recherche Scientifique"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Paris",
@@ -3992,7 +4031,7 @@
       "precision": "city"
     },
     "institution_type": "national_lab",
-    "short_description": "",
+    "short_description": "Known in its native language as Centre National de la Recherche Scientifique.",
     "focus_areas": [],
     "platforms_represented": [
       "neutral_atom",
@@ -4080,10 +4119,12 @@
   },
   {
     "id": "i109-universite-de-sherbrooke",
-    "name": "Université de Sherbrooke",
-    "sort_name": "Université de Sherbrooke",
+    "name": "University of Sherbrooke",
+    "sort_name": "University of Sherbrooke",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "Université de Sherbrooke"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Sherbrooke",
@@ -4094,7 +4135,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "",
+    "short_description": "Known in its native language as Université de Sherbrooke.",
     "focus_areas": [],
     "platforms_represented": [
       "superconducting"
@@ -4128,8 +4169,8 @@
   },
   {
     "id": "i051-university-of-sussex",
-    "name": "University Of Sussex",
-    "sort_name": "University Of Sussex",
+    "name": "University of Sussex",
+    "sort_name": "University of Sussex",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -4185,10 +4226,12 @@
   },
   {
     "id": "i110-ecole-polytechnique-federale-de-lausanne",
-    "name": "École Polytechnique Fédérale de Lausanne",
-    "sort_name": "École Polytechnique Fédérale de Lausanne",
+    "name": "EPFL – Swiss Federal Institute of Technology Lausanne",
+    "sort_name": "EPFL – Swiss Federal Institute of Technology Lausanne",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "École Polytechnique Fédérale de Lausanne"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Lausanne",
@@ -4199,7 +4242,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "",
+    "short_description": "Known in its native language as École Polytechnique Fédérale de Lausanne.",
     "focus_areas": [],
     "platforms_represented": [
       "superconducting"
@@ -4374,10 +4417,13 @@
   },
   {
     "id": "i039-university-of-bonn",
-    "name": "University Of Bonn",
-    "sort_name": "University Of Bonn",
+    "name": "University of Bonn",
+    "sort_name": "University of Bonn",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "University Of Bonn",
+      "Rheinische Friedrich-Wilhelms-Universität Bonn"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Bonn",
@@ -4530,8 +4576,8 @@
   },
   {
     "id": "i049-university-of-oxford",
-    "name": "University Of Oxford",
-    "sort_name": "University Of Oxford",
+    "name": "University of Oxford",
+    "sort_name": "University of Oxford",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -5029,10 +5075,12 @@
   },
   {
     "id": "i083-universite-de-strasbourg",
-    "name": "Université de Strasbourg",
-    "sort_name": "Université de Strasbourg",
+    "name": "University of Strasbourg",
+    "sort_name": "University of Strasbourg",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "Université de Strasbourg"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Strasbourg",
@@ -5043,7 +5091,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "",
+    "short_description": "Known in its native language as Université de Strasbourg.",
     "focus_areas": [],
     "platforms_represented": [
       "neutral_atom",
@@ -5130,10 +5178,12 @@
   },
   {
     "id": "i115-ecole-nationale-superieure-des-mines-de-paris",
-    "name": "École Nationale Supérieure des Mines de Paris",
-    "sort_name": "École Nationale Supérieure des Mines de Paris",
+    "name": "Mines Paris – PSL",
+    "sort_name": "Mines Paris – PSL",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "École Nationale Supérieure des Mines de Paris"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Paris",
@@ -5144,7 +5194,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "",
+    "short_description": "Known in its native language as École Nationale Supérieure des Mines de Paris.",
     "focus_areas": [],
     "platforms_represented": [
       "superconducting"
@@ -5425,8 +5475,8 @@
   },
   {
     "id": "i043-university-of-california-los-angeles",
-    "name": "University Of California Los Angeles",
-    "sort_name": "University Of California Los Angeles",
+    "name": "University of California Los Angeles",
+    "sort_name": "University of California Los Angeles",
     "entity_type": "institution",
     "aliases": [],
     "abbreviations": [],
@@ -5827,31 +5877,51 @@
   },
   {
     "id": "i068-joint-institute-for-laboratory-astrophysics",
-    "name": "Joint Institute for Laboratory Astrophysics",
-    "sort_name": "Joint Institute for Laboratory Astrophysics",
+    "name": "JILA",
+    "sort_name": "JILA",
     "entity_type": "institution",
-    "aliases": [],
-    "abbreviations": [],
+    "aliases": [
+      "Joint Institute for Laboratory Astrophysics",
+      "JILA"
+    ],
+    "abbreviations": [
+      "JILA"
+    ],
     "location": {
       "city": "Boulder",
       "country": "United States",
       "geocode_source": "openalex",
       "lat": 40.007519,
       "lon": -105.268738,
-      "precision": "city"
+      "precision": "city",
+      "region": "Colorado"
     },
-    "institution_type": "national_lab",
-    "short_description": "",
-    "focus_areas": [],
+    "institution_type": "research_centre",
+    "short_description": "JILA is a world-leading atomic, molecular and optical (AMO) physics institute in Boulder, Colorado, jointly operated by the National Institute of Standards and Technology (NIST) and the University of Colorado Boulder. Originally founded in 1962 as the Joint Institute for Laboratory Astrophysics, it now goes by the acronym JILA alone. Its faculty — including Nobel laureates Eric Cornell, Carl Wieman and Jan Hall — pioneered Bose–Einstein condensation, the fermionic condensate, optical frequency combs and the world's most precise optical atomic clocks, and today lead research on ultracold molecules, Rydberg-atom arrays and quantum simulation.",
+    "focus_areas": [
+      "Ultracold atoms and molecules",
+      "Optical atomic clocks and precision measurement",
+      "Rydberg-atom arrays and quantum simulation",
+      "Quantum many-body physics",
+      "Atomic, molecular and optical (AMO) physics"
+    ],
     "platforms_represented": [
       "neutral_atom",
-      "rydberg_array"
+      "rydberg_array",
+      "trapped_molecule"
     ],
-    "applications_represented": [],
+    "applications_represented": [
+      "computing",
+      "simulation",
+      "optical_clocks",
+      "sensing_metrology",
+      "fundamental_physics"
+    ],
     "links": {
       "openalex": "https://openalex.org/I137473845",
       "ror": "https://ror.org/008hybe55",
-      "website": "https://jila.colorado.edu/"
+      "website": "https://jila.colorado.edu/",
+      "wikipedia": "https://en.wikipedia.org/wiki/JILA"
     },
     "media": {},
     "directory": {
@@ -5868,14 +5938,16 @@
       }
     ],
     "md_filename": "i068-joint-institute-for-laboratory-astrophysics.md",
-    "updated_at": "2026-05-26"
+    "updated_at": "2026-06-02"
   },
   {
     "id": "i064-ludwig-maximilians-universitat-munchen",
-    "name": "Ludwig-Maximilians-Universität München",
-    "sort_name": "Ludwig-Maximilians-Universität München",
+    "name": "Ludwig Maximilian University of Munich",
+    "sort_name": "Ludwig Maximilian University of Munich",
     "entity_type": "institution",
-    "aliases": [],
+    "aliases": [
+      "Ludwig-Maximilians-Universität München"
+    ],
     "abbreviations": [],
     "location": {
       "city": "Munich",
@@ -5886,7 +5958,7 @@
       "precision": "city"
     },
     "institution_type": "university",
-    "short_description": "",
+    "short_description": "Known in its native language as Ludwig-Maximilians-Universität München.",
     "focus_areas": [],
     "platforms_represented": [
       "neutral_atom"
@@ -5907,13 +5979,14 @@
       "alumni": [
         "194-gerd-leuchs.md",
         "007-dietrich-leibfried.md",
+        "076-tilman-esslinger.md",
         "136-david-hunger.md",
         "086-manuel-endres.md",
         "083-markus-greiner.md"
       ],
       "company_spinouts": [],
       "member_count": 1,
-      "alumni_count": 5
+      "alumni_count": 6
     },
     "sources": [
       {

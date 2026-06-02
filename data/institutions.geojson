@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "id": "i044-university-of-granada",
-        "name": "University Of Granada",
+        "name": "University of Granada",
         "entity_type": "institution",
         "city": "Granada",
         "country": "Spain",
@@ -305,11 +305,11 @@
       "type": "Feature",
       "properties": {
         "id": "i053-university-of-tokyo",
-        "name": "University Of Tokyo",
+        "name": "University of Tokyo",
         "entity_type": "institution",
         "city": "Tokyo",
         "country": "Japan",
-        "short_description": "The University of Tokyo (東京大学, Tōkyō daigaku, abbreviated as Tōdai (東大) in Japanese and UTokyo in English) is a public research university in Bunkyō, Tokyo, Japan. Founded in 1877 as the nation's first modern university by the merger of several pre-westernisation era institutions, its direct precursors include the Tenmongata, founded in 1684, and the Shōheizaka Institute.\nThe university consists of 10 faculties, 15 graduate schools, and 11 affiliated research institutes. As of 2023, it has 13,974 undergraduate students and 14,258 graduate students. The majority of the university's educational and research facilities are concentrated within its three main Tokyo campuses: Hongō, Komaba, and Kashiwa. Additionally, UTokyo operates several smaller campuses in the Greater Tokyo Area and over 60 facilities across Japan and globally. UTokyo's land holdings amount to 326 square kilometres (approximately 80,586 acres or 32,600 hectares), placing it amongst the largest landowners in the...",
+        "short_description": "The University of Tokyo (東京大学, Tōkyō daigaku, abbreviated as Tōdai (東大) in Japanese and UTokyo in English) is a public research university in Bunkyō, Tokyo, Japan. Founded in 1877 as the nation's first modern university by the merger of several pre-westernisation era institutions, its direct precursors include the Tenmongata, founded in 1684, and the Shōheizaka Institute.\nThe university consists of 10 faculties, 15 graduate schools, and 11 affiliated research institutes. As of 2023, it has 13,974 undergraduate students and 14,258 graduate students. The majority of the university's educational and research facilities are concentrated within its three main Tokyo campuses: Hongō, Komaba, and Kashiwa. Additionally, UTokyo operates several smaller campuses in the Greater Tokyo Area and over 60 facilities across Japan and globally. UTokyo's land holdings amount to 326 square kilometres (approximately 80,586 acres or 32,600 hectares), placing it amongst the largest landowners in the... Known in its native language as 東京大学 (Tōkyō daigaku).",
         "logo_path": "/img/institutions/i053-university-of-tokyo_mark.png",
         "md_filename": "i053-university-of-tokyo.md"
       },
@@ -325,7 +325,7 @@
       "type": "Feature",
       "properties": {
         "id": "i092-rutgers-the-state-university-of-new-jersey",
-        "name": "Rutgers, The State University of New Jersey",
+        "name": "Rutgers, the State University of New Jersey",
         "entity_type": "institution",
         "city": "New Brunswick",
         "country": "United States",
@@ -365,7 +365,7 @@
       "type": "Feature",
       "properties": {
         "id": "i052-university-of-sydney",
-        "name": "University Of Sydney",
+        "name": "University of Sydney",
         "entity_type": "institution",
         "city": "Sydney",
         "country": "Australia",
@@ -445,11 +445,11 @@
       "type": "Feature",
       "properties": {
         "id": "i094-humboldt-universitat-zu-berlin",
-        "name": "Humboldt-Universität zu Berlin",
+        "name": "Humboldt University of Berlin",
         "entity_type": "institution",
         "city": "Berlin",
         "country": "Germany",
-        "short_description": "",
+        "short_description": "Known in its native language as Humboldt-Universität zu Berlin.",
         "logo_path": "/img/institutions/i094-humboldt-universitat-zu-berlin_mark.png",
         "md_filename": "i094-humboldt-universitat-zu-berlin.md"
       },
@@ -485,7 +485,7 @@
       "type": "Feature",
       "properties": {
         "id": "i038-university-of-basel",
-        "name": "University Of Basel",
+        "name": "University of Basel",
         "entity_type": "institution",
         "city": "Basel",
         "country": "Switzerland",
@@ -505,7 +505,7 @@
       "type": "Feature",
       "properties": {
         "id": "i017-massachusetts-institute-of-technology",
-        "name": "Massachusetts Institute Of Technology",
+        "name": "Massachusetts Institute of Technology",
         "entity_type": "institution",
         "city": "Cambridge",
         "country": "USA",
@@ -565,7 +565,7 @@
       "type": "Feature",
       "properties": {
         "id": "i041-university-of-calgary",
-        "name": "University Of Calgary",
+        "name": "University of Calgary",
         "entity_type": "institution",
         "city": "Calgary",
         "country": "Canada",
@@ -585,11 +585,11 @@
       "type": "Feature",
       "properties": {
         "id": "i065-national-institute-of-standards-and-technology",
-        "name": "National Institute of Standards and Technology",
+        "name": "NIST Gaithersburg",
         "entity_type": "institution",
         "city": "Gaithersburg",
         "country": "United States",
-        "short_description": "",
+        "short_description": "Known in its native language as National Institute of Standards and Technology (Gaithersburg, Maryland).",
         "logo_path": "/img/institutions/i065-national-institute-of-standards-and-technology_mark.png",
         "md_filename": "i065-national-institute-of-standards-and-technology.md"
       },
@@ -605,7 +605,7 @@
       "type": "Feature",
       "properties": {
         "id": "i047-university-of-kassel",
-        "name": "University Of Kassel",
+        "name": "University of Kassel",
         "entity_type": "institution",
         "city": "Kassel",
         "country": "Deutschland",
@@ -685,7 +685,7 @@
       "type": "Feature",
       "properties": {
         "id": "i037-university-of-amsterdam",
-        "name": "University Of Amsterdam",
+        "name": "University of Amsterdam",
         "entity_type": "institution",
         "city": "Amsterdam",
         "country": "Netherlands",
@@ -705,7 +705,7 @@
       "type": "Feature",
       "properties": {
         "id": "i048-university-of-oregon",
-        "name": "University Of Oregon",
+        "name": "University of Oregon",
         "entity_type": "institution",
         "city": "Eugene",
         "country": "USA",
@@ -725,11 +725,11 @@
       "type": "Feature",
       "properties": {
         "id": "i114-institut-national-de-recherche-en-sciences-et-technologies-du-numerique",
-        "name": "Institut national de recherche en sciences et technologies du numérique",
+        "name": "French Institute for Research in Computer Science and Automation (Inria)",
         "entity_type": "institution",
         "city": "Le Chesnay-Rocquencourt",
         "country": "France",
-        "short_description": "",
+        "short_description": "Known in its native language as Institut national de recherche en sciences et technologies du numérique.",
         "logo_path": "/img/institutions/i114-institut-national-de-recherche-en-sciences-et-technologies-du-numerique_mark.png",
         "md_filename": "i114-institut-national-de-recherche-en-sciences-et-technologies-du-numerique.md"
       },
@@ -745,7 +745,7 @@
       "type": "Feature",
       "properties": {
         "id": "i007-georgia-institute-of-technology",
-        "name": "Georgia Institute Of Technology",
+        "name": "Georgia Institute of Technology",
         "entity_type": "institution",
         "city": "Atlanta",
         "country": "United States",
@@ -765,11 +765,11 @@
       "type": "Feature",
       "properties": {
         "id": "i054-university-of-trento",
-        "name": "University Of Trento",
+        "name": "University of Trento",
         "entity_type": "institution",
         "city": "Trento",
         "country": "Italy",
-        "short_description": "The University of Trento (Italian: Università degli Studi di Trento) is an Italian university located in Trento and nearby Rovereto. It has been able to achieve considerable results in didactics, research, computer science and international relations according to CENSIS (Centro Studi Investimenti Sociali) and the Italian Ministry of Education.",
+        "short_description": "The University of Trento (Italian: Università degli Studi di Trento) is an Italian university located in Trento and nearby Rovereto. It has been able to achieve considerable results in didactics, research, computer science and international relations according to CENSIS (Centro Studi Investimenti Sociali) and the Italian Ministry of Education. Known in its native language as Università di Trento.",
         "logo_path": "/img/institutions/i054-university-of-trento_mark.png",
         "md_filename": "i054-university-of-trento.md"
       },
@@ -805,7 +805,7 @@
       "type": "Feature",
       "properties": {
         "id": "i040-university-of-buenos-aires",
-        "name": "University Of Buenos Aires",
+        "name": "University of Buenos Aires",
         "entity_type": "institution",
         "city": "Buenos Aires",
         "country": "Argentina",
@@ -945,7 +945,7 @@
       "type": "Feature",
       "properties": {
         "id": "i050-university-of-siegen",
-        "name": "University Of Siegen",
+        "name": "University of Siegen",
         "entity_type": "institution",
         "city": "Siegen",
         "country": "Germany",
@@ -965,7 +965,7 @@
       "type": "Feature",
       "properties": {
         "id": "i046-university-of-innsbruck",
-        "name": "University Of Innsbruck",
+        "name": "University of Innsbruck",
         "entity_type": "institution",
         "city": "Innsbruck",
         "country": "Austria",
@@ -1025,11 +1025,11 @@
       "type": "Feature",
       "properties": {
         "id": "i113-commissariat-a-l-energie-atomique-et-aux-energies-alternatives",
-        "name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+        "name": "French Alternative Energies and Atomic Energy Commission (CEA)",
         "entity_type": "institution",
         "city": "Paris",
         "country": "France",
-        "short_description": "",
+        "short_description": "Known in its native language as Commissariat à l'Énergie Atomique et aux Énergies Alternatives.",
         "logo_path": "/img/institutions/i113-commissariat-a-l-energie-atomique-et-aux-energies-alternatives_mark.png",
         "md_filename": "i113-commissariat-a-l-energie-atomique-et-aux-energies-alternatives.md"
       },
@@ -1125,7 +1125,7 @@
       "type": "Feature",
       "properties": {
         "id": "i003-centre-for-quantum-technologies-national-university-of-singapore",
-        "name": "Centre For Quantum Technologies National University Of Singapore",
+        "name": "Centre for Quantum Technologies National University of Singapore",
         "entity_type": "institution",
         "city": "Singapore",
         "country": "Singapore",
@@ -1185,11 +1185,11 @@
       "type": "Feature",
       "properties": {
         "id": "i082-universitat-hamburg",
-        "name": "Universität Hamburg",
+        "name": "University of Hamburg",
         "entity_type": "institution",
         "city": "Hamburg",
         "country": "Germany",
-        "short_description": "",
+        "short_description": "Known in its native language as Universität Hamburg.",
         "logo_path": "/img/institutions/i082-universitat-hamburg_mark.png",
         "md_filename": "i082-universitat-hamburg.md"
       },
@@ -1305,7 +1305,7 @@
       "type": "Feature",
       "properties": {
         "id": "i012-institute-for-quantum-computing-university-of-waterloo",
-        "name": "Institute For Quantum Computing University Of Waterloo",
+        "name": "Institute for Quantum Computing University of Waterloo",
         "entity_type": "institution",
         "city": "Waterloo",
         "country": "Canada",
@@ -1325,7 +1325,7 @@
       "type": "Feature",
       "properties": {
         "id": "i045-university-of-groningen",
-        "name": "University Of Groningen",
+        "name": "University of Groningen",
         "entity_type": "institution",
         "city": "Groningen",
         "country": "Netherlands",
@@ -1425,7 +1425,7 @@
       "type": "Feature",
       "properties": {
         "id": "i055-university-of-washington",
-        "name": "University Of Washington",
+        "name": "University of Washington",
         "entity_type": "institution",
         "city": "Seattle",
         "country": "USA",
@@ -1485,11 +1485,11 @@
       "type": "Feature",
       "properties": {
         "id": "i066-centre-national-de-la-recherche-scientifique",
-        "name": "Centre National de la Recherche Scientifique",
+        "name": "French National Centre for Scientific Research (CNRS)",
         "entity_type": "institution",
         "city": "Paris",
         "country": "France",
-        "short_description": "",
+        "short_description": "Known in its native language as Centre National de la Recherche Scientifique.",
         "logo_path": "/img/institutions/i066-centre-national-de-la-recherche-scientifique_mark.png",
         "md_filename": "i066-centre-national-de-la-recherche-scientifique.md"
       },
@@ -1525,11 +1525,11 @@
       "type": "Feature",
       "properties": {
         "id": "i109-universite-de-sherbrooke",
-        "name": "Université de Sherbrooke",
+        "name": "University of Sherbrooke",
         "entity_type": "institution",
         "city": "Sherbrooke",
         "country": "Canada",
-        "short_description": "",
+        "short_description": "Known in its native language as Université de Sherbrooke.",
         "logo_path": "/img/institutions/i109-universite-de-sherbrooke_mark.png",
         "md_filename": "i109-universite-de-sherbrooke.md"
       },
@@ -1545,7 +1545,7 @@
       "type": "Feature",
       "properties": {
         "id": "i051-university-of-sussex",
-        "name": "University Of Sussex",
+        "name": "University of Sussex",
         "entity_type": "institution",
         "city": "Brighton",
         "country": "United Kingdom",
@@ -1565,11 +1565,11 @@
       "type": "Feature",
       "properties": {
         "id": "i110-ecole-polytechnique-federale-de-lausanne",
-        "name": "École Polytechnique Fédérale de Lausanne",
+        "name": "EPFL – Swiss Federal Institute of Technology Lausanne",
         "entity_type": "institution",
         "city": "Lausanne",
         "country": "Switzerland",
-        "short_description": "",
+        "short_description": "Known in its native language as École Polytechnique Fédérale de Lausanne.",
         "logo_path": "/img/institutions/i110-ecole-polytechnique-federale-de-lausanne_mark.png",
         "md_filename": "i110-ecole-polytechnique-federale-de-lausanne.md"
       },
@@ -1645,7 +1645,7 @@
       "type": "Feature",
       "properties": {
         "id": "i039-university-of-bonn",
-        "name": "University Of Bonn",
+        "name": "University of Bonn",
         "entity_type": "institution",
         "city": "Bonn",
         "country": "Germany",
@@ -1705,7 +1705,7 @@
       "type": "Feature",
       "properties": {
         "id": "i049-university-of-oxford",
-        "name": "University Of Oxford",
+        "name": "University of Oxford",
         "entity_type": "institution",
         "city": "Oxford",
         "country": "United Kingdom",
@@ -1885,11 +1885,11 @@
       "type": "Feature",
       "properties": {
         "id": "i083-universite-de-strasbourg",
-        "name": "Université de Strasbourg",
+        "name": "University of Strasbourg",
         "entity_type": "institution",
         "city": "Strasbourg",
         "country": "France",
-        "short_description": "",
+        "short_description": "Known in its native language as Université de Strasbourg.",
         "logo_path": "/img/institutions/i083-universite-de-strasbourg_mark.png",
         "md_filename": "i083-universite-de-strasbourg.md"
       },
@@ -1925,11 +1925,11 @@
       "type": "Feature",
       "properties": {
         "id": "i115-ecole-nationale-superieure-des-mines-de-paris",
-        "name": "École Nationale Supérieure des Mines de Paris",
+        "name": "Mines Paris – PSL",
         "entity_type": "institution",
         "city": "Paris",
         "country": "France",
-        "short_description": "",
+        "short_description": "Known in its native language as École Nationale Supérieure des Mines de Paris.",
         "logo_path": "/img/institutions/i115-ecole-nationale-superieure-des-mines-de-paris_mark.png",
         "md_filename": "i115-ecole-nationale-superieure-des-mines-de-paris.md"
       },
@@ -2045,7 +2045,7 @@
       "type": "Feature",
       "properties": {
         "id": "i043-university-of-california-los-angeles",
-        "name": "University Of California Los Angeles",
+        "name": "University of California Los Angeles",
         "entity_type": "institution",
         "city": "Los Angeles",
         "country": "USA",
@@ -2205,11 +2205,11 @@
       "type": "Feature",
       "properties": {
         "id": "i068-joint-institute-for-laboratory-astrophysics",
-        "name": "Joint Institute for Laboratory Astrophysics",
+        "name": "JILA",
         "entity_type": "institution",
         "city": "Boulder",
         "country": "United States",
-        "short_description": "",
+        "short_description": "JILA is a world-leading atomic, molecular and optical (AMO) physics institute in Boulder, Colorado, jointly operated by the National Institute of Standards and Technology (NIST) and the University of Colorado Boulder. Originally founded in 1962 as the Joint Institute for Laboratory Astrophysics, it now goes by the acronym JILA alone. Its faculty — including Nobel laureates Eric Cornell, Carl Wieman and Jan Hall — pioneered Bose–Einstein condensation, the fermionic condensate, optical frequency combs and the world's most precise optical atomic clocks, and today lead research on ultracold molecules, Rydberg-atom arrays and quantum simulation.",
         "logo_path": "",
         "md_filename": "i068-joint-institute-for-laboratory-astrophysics.md"
       },
@@ -2225,11 +2225,11 @@
       "type": "Feature",
       "properties": {
         "id": "i064-ludwig-maximilians-universitat-munchen",
-        "name": "Ludwig-Maximilians-Universität München",
+        "name": "Ludwig Maximilian University of Munich",
         "entity_type": "institution",
         "city": "Munich",
         "country": "Germany",
-        "short_description": "",
+        "short_description": "Known in its native language as Ludwig-Maximilians-Universität München.",
         "logo_path": "/img/institutions/i064-ludwig-maximilians-universitat-munchen_mark.png",
         "md_filename": "i064-ludwig-maximilians-universitat-munchen.md"
       },

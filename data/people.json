@@ -88,8 +88,9 @@
       "city": "Palaiseau",
       "region": "Île-de-France",
       "country": "France",
-      "lat": 48.7136,
-      "lon": 2.1692
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "precision": "institution"
     },
     "education": [
       {
@@ -3839,7 +3840,7 @@
     "sort_name": "Jelezko, Fedor",
     "current_position": {
       "confidence": "confirmed",
-      "institution": "Universität Ulm",
+      "institution": "Ulm University",
       "since_year": 2011,
       "source": "https://www.uni-ulm.de/en/nawi/institute-for-quantum-optics/",
       "title": "Professor (W3), Director of the Institute for Quantum Optics",
@@ -3853,8 +3854,9 @@
       "city": "Ulm",
       "region": "",
       "country": "Germany",
-      "lat": 48.39841,
-      "lon": 9.99155
+      "lat": 48.42152,
+      "lon": 9.94859,
+      "precision": "institution"
     },
     "education": [
       {
@@ -5845,8 +5847,9 @@
       "city": "Paris",
       "region": "Ile-de-France",
       "country": "France",
-      "lat": 48.8462,
-      "lon": 2.3372
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "precision": "institution"
     },
     "education": [],
     "postdocs": [],
@@ -6165,8 +6168,8 @@
       "city": "Boulder",
       "region": "",
       "country": "United States",
-      "lat": 40.014992,
-      "lon": -105.270554,
+      "lat": 39.14344,
+      "lon": -77.20137,
       "precision": "institution"
     },
     "education": [
@@ -7044,8 +7047,9 @@
       "city": "Hamburg",
       "region": "Hamburg",
       "country": "Germany",
-      "lat": 53.5511,
-      "lon": 9.9937
+      "lat": 53.55073,
+      "lon": 9.99302,
+      "precision": "institution"
     },
     "education": [],
     "postdocs": [],
@@ -8924,8 +8928,9 @@
       "city": "Palaiseau",
       "region": "Île-de-France",
       "country": "France",
-      "lat": 48.7136,
-      "lon": 2.1692
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "precision": "institution"
     },
     "education": [
       {
@@ -9900,8 +9905,8 @@
       "city": "Boulder",
       "region": "Colorado",
       "country": "United States",
-      "lat": 40.014992,
-      "lon": -105.270554,
+      "lat": 39.14344,
+      "lon": -77.20137,
       "precision": "institution"
     },
     "education": [],
@@ -11009,8 +11014,9 @@
       "city": "Palaiseau",
       "region": "Ile-de-France",
       "country": "France",
-      "lat": 48.7144,
-      "lon": 2.2099
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "precision": "institution"
     },
     "education": [],
     "postdocs": [],
@@ -11516,8 +11522,8 @@
       "city": "Boulder",
       "region": "",
       "country": "United States",
-      "lat": 40.014992,
-      "lon": -105.270554,
+      "lat": 39.14344,
+      "lon": -77.20137,
       "precision": "institution"
     },
     "education": [
@@ -14378,8 +14384,8 @@
       "city": "College Park",
       "region": "Maryland",
       "country": "United States",
-      "lat": 39.994658,
-      "lon": -105.269181,
+      "lat": 39.14344,
+      "lon": -77.20137,
       "precision": "institution"
     },
     "education": [],
@@ -15637,8 +15643,8 @@
       "city": "Boulder",
       "region": "Colorado",
       "country": "United States",
-      "lat": 40.014992,
-      "lon": -105.270554,
+      "lat": 39.14344,
+      "lon": -77.20137,
       "precision": "institution"
     },
     "education": [],
@@ -19314,8 +19320,8 @@
       "city": "Boulder",
       "region": "Colorado",
       "country": "United States",
-      "lat": 40.014992,
-      "lon": -105.270554,
+      "lat": 39.14344,
+      "lon": -77.20137,
       "precision": "institution"
     },
     "education": [],
@@ -19810,8 +19816,9 @@
       "city": "Palaiseau",
       "region": "Ile-de-France",
       "country": "France",
-      "lat": 48.7144,
-      "lon": 2.2099
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "precision": "institution"
     },
     "education": [],
     "postdocs": [],
@@ -20225,8 +20232,8 @@
       "city": "Gaithersburg",
       "region": "Maryland",
       "country": "United States",
-      "lat": 39.994658,
-      "lon": -105.269181,
+      "lat": 39.14344,
+      "lon": -77.20137,
       "precision": "institution"
     },
     "education": [],
@@ -21517,8 +21524,9 @@
       "city": "Paris",
       "region": "Ile-de-France",
       "country": "France",
-      "lat": 48.8489,
-      "lon": 2.3447
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "precision": "institution"
     },
     "education": [],
     "postdocs": [],
@@ -21834,7 +21842,8 @@
       "region": "",
       "country": "France",
       "lat": 48.85341,
-      "lon": 2.3488
+      "lon": 2.3488,
+      "precision": "institution"
     },
     "education": [
       {
