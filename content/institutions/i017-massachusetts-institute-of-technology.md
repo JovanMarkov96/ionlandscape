@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i017-massachusetts-institute-of-technology_mark.png
-name: Massachusetts Institute Of Technology
+name: Massachusetts Institute of Technology
 platforms_represented:
 - trapped_ion
 schema_version: 1

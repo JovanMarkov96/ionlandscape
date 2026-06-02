@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i003-centre-for-quantum-technologies-national-university-of-singapore_mark.png
-name: Centre For Quantum Technologies National University Of Singapore
+name: Centre for Quantum Technologies National University of Singapore
 platforms_represented:
 - trapped_ion
 schema_version: 1

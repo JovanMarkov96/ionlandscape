@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i055-university-of-washington_mark.png
-name: University Of Washington
+name: University of Washington
 platforms_represented:
 - trapped_ion
 schema_version: 1

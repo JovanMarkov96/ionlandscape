@@ -1,4 +1,6 @@
 ---
+aliases:
+- Commissariat à l'Énergie Atomique et aux Énergies Alternatives
 created_at: '2026-05-26'
 entity_type: institution
 id: i113-commissariat-a-l-energie-atomique-et-aux-energies-alternatives
@@ -17,10 +19,12 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i113-commissariat-a-l-energie-atomique-et-aux-energies-alternatives_mark.png
-name: Commissariat à l'Énergie Atomique et aux Énergies Alternatives
+name: French Alternative Energies and Atomic Energy Commission (CEA)
 platforms_represented:
 - superconducting
 schema_version: 1
+short_description: Known in its native language as Commissariat à l'Énergie Atomique
+  et aux Énergies Alternatives.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

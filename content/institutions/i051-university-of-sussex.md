@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i051-university-of-sussex_mark.png
-name: University Of Sussex
+name: University of Sussex
 platforms_represented:
 - trapped_ion
 schema_version: 1

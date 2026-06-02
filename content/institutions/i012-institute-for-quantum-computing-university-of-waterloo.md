@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i012-institute-for-quantum-computing-university-of-waterloo_mark.png
-name: Institute For Quantum Computing University Of Waterloo
+name: Institute for Quantum Computing University of Waterloo
 platforms_represented:
 - trapped_ion
 schema_version: 1

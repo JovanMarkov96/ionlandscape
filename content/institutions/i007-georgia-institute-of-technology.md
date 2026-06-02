@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i007-georgia-institute-of-technology_mark.png
-name: Georgia Institute Of Technology
+name: Georgia Institute of Technology
 platforms_represented:
 - trapped_ion
 schema_version: 1

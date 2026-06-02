@@ -13,3 +13,4 @@
 
 ## Sources
 - Logo populated from assets: i032-stockholm-university.svg
+- Emblem logo from Commons: File:Cornell University Library digitization (IA cu31924009605829).pdf (https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Cornell_University_Library_digitization_%28IA_cu31924009605829%29.pdf/page1-330px-Cornell_University_Library_digitization_%28IA_cu31924009605829%29.pdf.jpg)

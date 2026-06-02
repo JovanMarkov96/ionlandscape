@@ -1,4 +1,6 @@
 ---
+aliases:
+- École Nationale Supérieure des Mines de Paris
 created_at: '2026-05-26'
 entity_type: institution
 id: i115-ecole-nationale-superieure-des-mines-de-paris
@@ -17,10 +19,12 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i115-ecole-nationale-superieure-des-mines-de-paris_mark.png
-name: École Nationale Supérieure des Mines de Paris
+name: Mines Paris – PSL
 platforms_represented:
 - superconducting
 schema_version: 1
+short_description: Known in its native language as École Nationale Supérieure des
+  Mines de Paris.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i041-university-of-calgary_mark.png
-name: University Of Calgary
+name: University of Calgary
 platforms_represented:
 - trapped_ion
 schema_version: 1

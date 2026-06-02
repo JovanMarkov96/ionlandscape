@@ -1,4 +1,7 @@
 ---
+aliases:
+- University Of Bonn
+- Rheinische Friedrich-Wilhelms-Universität Bonn
 entity_type: institution
 focus_areas:
 - Quantum Simulation
@@ -15,7 +18,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i039-university-of-bonn_mark.png
-name: University Of Bonn
+name: University of Bonn
 platforms_represented:
 - trapped_ion
 - neutral_atom

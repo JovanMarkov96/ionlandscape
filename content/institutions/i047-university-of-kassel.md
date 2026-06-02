@@ -1,4 +1,7 @@
 ---
+aliases:
+- University Of Kassel
+- Universität Kassel
 entity_type: institution
 focus_areas:
 - AMO Physics
@@ -15,7 +18,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i047-university-of-kassel_mark.png
-name: University Of Kassel
+name: University of Kassel
 platforms_represented:
 - trapped_ion
 schema_version: 1

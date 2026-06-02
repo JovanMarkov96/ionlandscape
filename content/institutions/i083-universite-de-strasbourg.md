@@ -1,4 +1,6 @@
 ---
+aliases:
+- Université de Strasbourg
 created_at: '2026-05-26'
 entity_type: institution
 id: i083-universite-de-strasbourg
@@ -17,11 +19,12 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i083-universite-de-strasbourg_mark.png
-name: Université de Strasbourg
+name: University of Strasbourg
 platforms_represented:
 - neutral_atom
 - rydberg_array
 schema_version: 1
+short_description: Known in its native language as Université de Strasbourg.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

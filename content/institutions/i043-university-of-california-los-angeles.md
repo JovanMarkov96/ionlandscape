@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i043-university-of-california-los-angeles_mark.png
-name: University Of California Los Angeles
+name: University of California Los Angeles
 platforms_represented:
 - trapped_ion
 schema_version: 1

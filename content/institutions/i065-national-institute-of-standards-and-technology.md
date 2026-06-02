@@ -1,4 +1,7 @@
 ---
+aliases:
+- National Institute of Standards and Technology
+- National Institute of Standards and Technology (Gaithersburg, Maryland)
 created_at: '2026-05-26'
 entity_type: institution
 id: i065-national-institute-of-standards-and-technology
@@ -15,11 +18,13 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i065-national-institute-of-standards-and-technology_mark.png
-name: National Institute of Standards and Technology
+name: NIST Gaithersburg
 platforms_represented:
 - neutral_atom
 - rydberg_array
 schema_version: 1
+short_description: Known in its native language as National Institute of Standards
+  and Technology (Gaithersburg, Maryland).
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

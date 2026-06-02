@@ -1,4 +1,7 @@
 ---
+aliases:
+- University Of Groningen
+- Rijksuniversiteit Groningen
 entity_type: institution
 focus_areas:
 - AMO Physics
@@ -15,7 +18,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i045-university-of-groningen_mark.png
-name: University Of Groningen
+name: University of Groningen
 platforms_represented:
 - trapped_ion
 schema_version: 1

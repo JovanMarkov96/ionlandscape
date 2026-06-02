@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i038-university-of-basel_mark.png
-name: University Of Basel
+name: University of Basel
 platforms_represented:
 - trapped_ion
 schema_version: 1

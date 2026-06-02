@@ -1,4 +1,7 @@
 ---
+aliases:
+- University Of Tokyo
+- 東京大学 (Tōkyō daigaku)
 entity_type: institution
 focus_areas:
 - Quantum Computing
@@ -15,7 +18,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i053-university-of-tokyo_mark.png
-name: University Of Tokyo
+name: University of Tokyo
 platforms_represented:
 - trapped_ion
 schema_version: 1
@@ -32,7 +35,8 @@ short_description: 'The University of Tokyo (東京大学, Tōkyō daigaku, abbr
   Additionally, UTokyo operates several smaller campuses in the Greater Tokyo Area
   and over 60 facilities across Japan and globally. UTokyo''s land holdings amount
   to 326 square kilometres (approximately 80,586 acres or 32,600 hectares), placing
-  it amongst the largest landowners in the...'
+  it amongst the largest landowners in the... Known in its native language as 東京大学
+  (Tōkyō daigaku).'
 sources:
 - note: Imported short_description from Wikipedia (University of Tokyo)
   url: https://en.wikipedia.org/wiki/University_of_Tokyo

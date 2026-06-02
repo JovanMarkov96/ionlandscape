@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i052-university-of-sydney_mark.png
-name: University Of Sydney
+name: University of Sydney
 platforms_represented:
 - trapped_ion
 schema_version: 1

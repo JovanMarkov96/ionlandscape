@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i048-university-of-oregon_mark.png
-name: University Of Oregon
+name: University of Oregon
 platforms_represented:
 - trapped_ion
 schema_version: 1

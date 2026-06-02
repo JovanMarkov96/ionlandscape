@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i049-university-of-oxford_mark.png
-name: University Of Oxford
+name: University of Oxford
 platforms_represented:
 - trapped_ion
 schema_version: 1

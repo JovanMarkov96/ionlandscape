@@ -1,4 +1,7 @@
 ---
+aliases:
+- University Of Granada
+- Universidad de Granada
 entity_type: institution
 focus_areas:
 - Quantum Simulation
@@ -15,7 +18,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i044-university-of-granada_mark.png
-name: University Of Granada
+name: University of Granada
 platforms_represented:
 - trapped_ion
 schema_version: 1

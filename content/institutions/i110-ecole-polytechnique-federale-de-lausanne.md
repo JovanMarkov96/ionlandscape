@@ -1,4 +1,6 @@
 ---
+aliases:
+- École Polytechnique Fédérale de Lausanne
 created_at: '2026-05-26'
 entity_type: institution
 id: i110-ecole-polytechnique-federale-de-lausanne
@@ -17,10 +19,12 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i110-ecole-polytechnique-federale-de-lausanne_mark.png
-name: École Polytechnique Fédérale de Lausanne
+name: EPFL – Swiss Federal Institute of Technology Lausanne
 platforms_represented:
 - superconducting
 schema_version: 1
+short_description: Known in its native language as École Polytechnique Fédérale de
+  Lausanne.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

@@ -1,4 +1,6 @@
 ---
+aliases:
+- Ludwig-Maximilians-Universität München
 created_at: '2026-05-26'
 entity_type: institution
 id: i064-ludwig-maximilians-universitat-munchen
@@ -17,10 +19,12 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i064-ludwig-maximilians-universitat-munchen_mark.png
-name: Ludwig-Maximilians-Universität München
+name: Ludwig Maximilian University of Munich
 platforms_represented:
 - neutral_atom
 schema_version: 1
+short_description: Known in its native language as Ludwig-Maximilians-Universität
+  München.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

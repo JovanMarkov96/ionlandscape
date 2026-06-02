@@ -1,4 +1,7 @@
 ---
+aliases:
+- University Of Siegen
+- Universität Siegen
 entity_type: institution
 focus_areas:
 - Quantum Sensing
@@ -15,7 +18,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i050-university-of-siegen_mark.png
-name: University Of Siegen
+name: University of Siegen
 platforms_represented:
 - trapped_ion
 schema_version: 1

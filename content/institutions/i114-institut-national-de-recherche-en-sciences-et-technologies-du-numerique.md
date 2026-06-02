@@ -1,4 +1,6 @@
 ---
+aliases:
+- Institut national de recherche en sciences et technologies du numérique
 created_at: '2026-05-26'
 entity_type: institution
 id: i114-institut-national-de-recherche-en-sciences-et-technologies-du-numerique
@@ -17,10 +19,12 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i114-institut-national-de-recherche-en-sciences-et-technologies-du-numerique_mark.png
-name: Institut national de recherche en sciences et technologies du numérique
+name: French Institute for Research in Computer Science and Automation (Inria)
 platforms_represented:
 - superconducting
 schema_version: 1
+short_description: Known in its native language as Institut national de recherche
+  en sciences et technologies du numérique.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

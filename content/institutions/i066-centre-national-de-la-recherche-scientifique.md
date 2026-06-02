@@ -1,4 +1,6 @@
 ---
+aliases:
+- Centre National de la Recherche Scientifique
 created_at: '2026-05-26'
 entity_type: institution
 id: i066-centre-national-de-la-recherche-scientifique
@@ -17,11 +19,13 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i066-centre-national-de-la-recherche-scientifique_mark.png
-name: Centre National de la Recherche Scientifique
+name: French National Centre for Scientific Research (CNRS)
 platforms_represented:
 - neutral_atom
 - rydberg_array
 schema_version: 1
+short_description: Known in its native language as Centre National de la Recherche
+  Scientifique.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

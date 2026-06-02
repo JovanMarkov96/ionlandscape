@@ -1,4 +1,6 @@
 ---
+aliases:
+- Humboldt-Universität zu Berlin
 created_at: '2026-05-26'
 entity_type: institution
 id: i094-humboldt-universitat-zu-berlin
@@ -17,10 +19,11 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i094-humboldt-universitat-zu-berlin_mark.png
-name: Humboldt-Universität zu Berlin
+name: Humboldt University of Berlin
 platforms_represented:
 - nv_center
 schema_version: 1
+short_description: Known in its native language as Humboldt-Universität zu Berlin.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---

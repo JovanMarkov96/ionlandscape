@@ -17,7 +17,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i092-rutgers-the-state-university-of-new-jersey_mark.png
-name: Rutgers, The State University of New Jersey
+name: Rutgers, the State University of New Jersey
 platforms_represented:
 - nv_center
 schema_version: 1

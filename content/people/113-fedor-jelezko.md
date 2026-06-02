@@ -6,7 +6,7 @@ applications:
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
-  institution: Universität Ulm
+  institution: Ulm University
   since_year: 2011
   source: https://www.uni-ulm.de/en/nawi/institute-for-quantum-optics/
   title: Professor (W3), Director of the Institute for Quantum Optics

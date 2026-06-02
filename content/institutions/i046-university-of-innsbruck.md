@@ -1,4 +1,7 @@
 ---
+aliases:
+- University Of Innsbruck
+- Universität Innsbruck
 entity_type: institution
 focus_areas:
 - Quantum Computing
@@ -15,7 +18,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i046-university-of-innsbruck_mark.png
-name: University Of Innsbruck
+name: University of Innsbruck
 platforms_represented:
 - trapped_ion
 schema_version: 1

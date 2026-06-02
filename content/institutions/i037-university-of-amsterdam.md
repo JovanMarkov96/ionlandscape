@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i037-university-of-amsterdam_mark.png
-name: University Of Amsterdam
+name: University of Amsterdam
 platforms_represented:
 - trapped_ion
 schema_version: 1

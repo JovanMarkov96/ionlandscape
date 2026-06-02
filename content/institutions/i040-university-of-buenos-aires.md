@@ -1,4 +1,7 @@
 ---
+aliases:
+- University Of Buenos Aires
+- Universidad de Buenos Aires
 entity_type: institution
 focus_areas:
 - AMO Physics
@@ -15,7 +18,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i040-university-of-buenos-aires_mark.png
-name: University Of Buenos Aires
+name: University of Buenos Aires
 platforms_represented:
 - trapped_ion
 schema_version: 1

@@ -1,4 +1,6 @@
 ---
+aliases:
+- Université de Sherbrooke
 created_at: '2026-05-26'
 entity_type: institution
 id: i109-universite-de-sherbrooke
@@ -17,10 +19,11 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i109-universite-de-sherbrooke_mark.png
-name: Université de Sherbrooke
+name: University of Sherbrooke
 platforms_represented:
 - superconducting
 schema_version: 1
+short_description: Known in its native language as Université de Sherbrooke.
 updated_at: '2026-05-26'
 verification_source_count: 1
 ---
