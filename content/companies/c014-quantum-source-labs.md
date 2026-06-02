@@ -39,7 +39,7 @@ funding:
     round: Series A
     stage: series_a
   - amount_usd: 27000000
-    date: 2022-2023
+    date: '2022-07-01'
     lead_investors:
     - Grove Ventures
     - Pitango First
@@ -50,8 +50,9 @@ funding:
     round: Seed & extensions
     stage: seed
   total_raised_usd: 77000000
+founded_year: 2021
 id: c014-quantum-source-labs
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-06-02'
 links:
   careers: ''
   linkedin: ''

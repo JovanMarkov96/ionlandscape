@@ -1045,6 +1045,19 @@ body,
   text-decoration: none;
 }
 
+/* Dark mode: source buttons follow the dark surface, with a light
+   hyperlink-style text. Background and text track together. */
+[data-theme='dark'] .panel-sources-list a {
+  background: var(--ion-surface-dark);
+  border: 1px solid var(--ion-border-dark);
+  color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] .panel-sources-list a:hover {
+  background: #2a2a42;
+  color: var(--ifm-color-primary-lightest);
+}
+
 /* Person card: institution + location lines */
 .person-card-inst {
   margin: 4px 0 0;

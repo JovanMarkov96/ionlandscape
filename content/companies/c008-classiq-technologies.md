@@ -41,8 +41,9 @@ funding:
     round: Series C (partial disclosed & extensions)
     stage: series_c
   total_raised_usd: 200000000
-id: c003-classiq-technologies
-last_verified_at: '2026-05-04'
+founded_year: 2020
+id: c008-classiq-technologies
+last_verified_at: '2026-06-02'
 links:
   careers: ''
   linkedin: ''
@@ -56,7 +57,7 @@ location:
   precision: city
   region: Tel Aviv District
 media:
-  logo_path: /logos/c003-classiq-technologies.png
+  logo_path: /logos/c008-classiq-technologies.png
 milestones:
 - claim: Completed a $110M Series C financing, the largest ever for a quantum software
     company.

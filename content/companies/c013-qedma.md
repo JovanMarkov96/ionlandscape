@@ -33,8 +33,9 @@ funding:
     round: Series A
     stage: series_a
   total_raised_usd: 30700000
+founded_year: 2020
 id: c013-qedma
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-06-02'
 links:
   careers: ''
   linkedin: ''

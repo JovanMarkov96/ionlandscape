@@ -39,8 +39,9 @@ funding:
     round: Seed
     stage: seed
   total_raised_usd: 35000000
+founded_year: 2022
 id: c015-quamcore
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-06-02'
 links:
   careers: ''
   linkedin: ''

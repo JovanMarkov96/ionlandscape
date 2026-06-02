@@ -59,12 +59,12 @@ sources:
 - note: Israeli quantum ecosystem overview referencing quantum communication startups
   url: https://www.calcalistech.com
 status:
+  operating_status: acquired
   acquired:
-    acquired_by: Reliance Global Group
-    acquisition_date: '2026-01-01'
+    acquirer: Reliance Global Group
+    date: '2026-01-01'
     deal_value_usd: 2041000
-    is_acquired: true
-  operating_status: private
+    announcement_url: https://www.calcalistech.com
 verification_source_count: 2
 ---
 

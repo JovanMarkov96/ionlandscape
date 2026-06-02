@@ -38,8 +38,19 @@ funding:
     - Entrée Capital
     - Weizmann Institute of Science
     round: Series A
+    source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
     stage: series_a
-  total_raised_usd: 124000000
+  - amount_usd: 40000000
+    date: '2026-04-01'
+    lead_investor: Bedford Ridge Capital
+    notes: Series A extension to $140M total, driven by strong investor demand including
+      global financial leaders.
+    round: Series A extension
+    source: https://www.calcalistech.com/ctechnews/article/r1jl263t11g
+    stage: series_a
+  last_round_date: '2026-04-01'
+  total_raised_usd: 140000000
+founded_year: 2022
 id: c001-quantum-art
 last_verified_at: '2026-05-04'
 links:
@@ -57,20 +68,42 @@ location:
 media:
   hero_image_path: ''
   logo_path: /logos/c001-quantum-art.png
-milestones: []
+milestones:
+- claim: Quantum Art founded in Ness Ziona as a spin-off from Prof. Roee Ozeri's group
+    at the Weizmann Institute of Science, building scalable multi-core trapped-ion
+    quantum computers; backed by a 2022 seed round.
+  date: '2022-01-01'
+  source: https://quantumcomputingreport.com/quantum-art-closes-100-million-series-a-to-scale-multi-core-trapped-ion-systems/
+- claim: Raised a $100 million Series A to scale its multi-core trapped-ion architecture
+    toward multi-thousand-qubit systems, bringing total funding to $124M.
+  date: '2025-12-10'
+  source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
+- claim: Extended its Series A to $140 million with participation from global financial
+    leaders, led by Bedford Ridge Capital.
+  date: '2026-04-01'
+  source: https://www.calcalistech.com/ctechnews/article/r1jl263t11g
 modality: hardware
 name: Quantum Art
 people:
   founders:
   - name: Tal David
     role: CEO & Co-Founder
+    source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
   - name: Amit Ben Kish
     role: CTO & Co-Founder
+    source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
   - name: Roee Ozeri
-    role: Chief Science Officer and Co-founder
-  leadership: []
+    role: Chief Science Officer & Co-founder
+    person_id: 001-roee-ozeri
+    source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
+  leadership:
+  - name: Tal David
+    role: CEO
+    source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
   spun_out_of:
-  - Weizmann Institute of Science
+  - name: Weizmann Institute of Science
+    spinout_year: 2022
+    source: https://quantumcomputingreport.com/quantum-art-closes-100-million-series-a-to-scale-multi-core-trapped-ion-systems/
 platforms:
 - trapped_ion
 products:

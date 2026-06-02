@@ -1,16 +1,36 @@
 ---
+aliases:
+- Q-Factor
+- Q-Factor Computing
+applications:
+- computing
 approach:
+  architecture_tags:
+  - neutral_atom
+  - optical_tweezers
+  - all_optical_control
+  - scalable_architecture
+  differentiators:
+  - Neutral-atom architecture designed to scale beyond thousands of qubits toward
+    more than one million qubits, with atoms held and controlled entirely with light
+  - Builds on decades of atomic-physics and quantum-optics research at the Weizmann
+    Institute and the Technion, both of which remain shareholders
+  - Founding team combines leading neutral-atom and quantum-optics scientists
+    (Nir Davidson, Ofer Firstenberg, Yoav Sagi) with industry leadership
   elevator_pitch: Neutral-atom architecture designed to scale beyond thousands of
     qubits toward more than one million qubits, using atoms held and controlled entirely
     with light.
 entity_type: company
+founded_year: 2026
 focus_areas:
 - Neutral-atom quantum computing
 - Scalable quantum hardware
 funding:
   rounds:
   - amount_usd: 24000000
-    date: '2026'
+    date: '2026-04-01'
+    notes: Seed round emerging from stealth; also includes a grant from the Israel
+      Innovation Authority.
     lead_investors:
     - NFX
     - TPY Capital
@@ -18,9 +38,18 @@ funding:
     - Intel Capital
     - Korea Investment Partners
     - Deep33
+    round: Seed
+    source: https://www.prnewswire.com/news-releases/q-factor-emerges-from-stealth-with-24m-and-backing-from-intel-capital-to-build-million-qubit-quantum-computer-302736176.html
     stage: seed
   total_raised_usd: 24000000
 id: c018-q-factor
+last_verified_at: '2026-06-02'
+milestones:
+- claim: Q-Factor emerged from stealth with a $24M seed round led by NFX and TPY Capital,
+    with Intel Capital, Korea Investment Partners and others, to build a million-qubit
+    neutral-atom quantum computer based on Weizmann Institute and Technion research.
+  date: '2026-04-01'
+  source: https://www.prnewswire.com/news-releases/q-factor-emerges-from-stealth-with-24m-and-backing-from-intel-capital-to-build-million-qubit-quantum-computer-302736176.html
 links:
   linkedin: https://www.linkedin.com/company/q-factor-computing/
   website: https://q-factor.com/
@@ -37,12 +66,24 @@ name: Q-Factor
 people:
   founders:
   - name: Nir Davidson
+    role: Co-founder (Weizmann Institute of Science)
+    source: https://www.prnewswire.com/news-releases/q-factor-emerges-from-stealth-with-24m-and-backing-from-intel-capital-to-build-million-qubit-quantum-computer-302736176.html
   - name: Ofer Firstenberg
+    role: Co-founder (Weizmann Institute of Science)
+    source: https://www.prnewswire.com/news-releases/q-factor-emerges-from-stealth-with-24m-and-backing-from-intel-capital-to-build-million-qubit-quantum-computer-302736176.html
   - name: Yoav Sagi
+    role: Co-founder (Technion)
+    source: https://www.prnewswire.com/news-releases/q-factor-emerges-from-stealth-with-24m-and-backing-from-intel-capital-to-build-million-qubit-quantum-computer-302736176.html
   - name: Guy Raz
+    role: Co-founder & CEO
+    source: https://www.prnewswire.com/news-releases/q-factor-emerges-from-stealth-with-24m-and-backing-from-intel-capital-to-build-million-qubit-quantum-computer-302736176.html
   spun_out_of:
-  - Weizmann Institute of Science
-  - Technion – Israel Institute of Technology
+  - name: Weizmann Institute of Science
+    spinout_year: 2026
+    source: https://www.prnewswire.com/news-releases/q-factor-emerges-from-stealth-with-24m-and-backing-from-intel-capital-to-build-million-qubit-quantum-computer-302736176.html
+  - name: Technion – Israel Institute of Technology
+    spinout_year: 2026
+    source: https://www.prnewswire.com/news-releases/q-factor-emerges-from-stealth-with-24m-and-backing-from-intel-capital-to-build-million-qubit-quantum-computer-302736176.html
 platforms:
 - neutral_atom
 schema_version: 1

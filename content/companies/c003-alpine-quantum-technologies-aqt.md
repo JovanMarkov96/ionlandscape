@@ -2,11 +2,50 @@
 aliases:
 - Alpine Quantum Technologies (AQT)
 - AQT
+- Alpine Quantum Technologies GmbH
+applications:
+- computing
+- simulation
+approach:
+  architecture_tags:
+  - calcium_ions
+  - trapped_ion
+  - rack_mounted
+  - room_temperature_operation
+  - data_center_compatible
+  differentiators:
+  - "World-leading 19-inch rack-mounted trapped-ion quantum computers — the entire\
+    \ machine fits in standard data-center racks, runs at room temperature and draws\
+    \ under ~2 kW"
+  - Builds on decades of ion-trap expertise from the Blatt group in Innsbruck,
+    rooted in the original 1995 Cirac–Zoller trapped-ion gate proposal
+  - "IBEX Q1 is operated on European soil (Innsbruck), targeting customers with data-protection,\
+    \ regulatory and technological-sovereignty requirements"
+  - LYNX series set a European-record Quantum Volume of 32,768; systems available
+    on-premises and via Amazon Braket
+  elevator_pitch: AQT builds compact, rack-mounted trapped-ion quantum computers that
+    operate at room temperature inside standard 19-inch data-center racks, bringing
+    European-sovereign quantum hardware to enterprises and research institutions.
 entity_type: company
+founded_year: 2018
+funding:
+  total_raised_usd: 11000000
+  rounds:
+  - amount_usd: 11000000
+    date: '2018-02-01'
+    notes: "~€10M committed by Austria's research promotion agency FFG and the\
+      \ University of Innsbruck to launch the spin-off."
+    lead_investors:
+    - Austrian Research Promotion Agency (FFG)
+    - University of Innsbruck
+    round: Founding investment
+    source: https://www.aqt.eu/about/
+    stage: seed
 id: c003-alpine-quantum-technologies-aqt
-last_verified_at: '2026-05-04'
+last_verified_at: '2026-06-02'
 links:
   website: https://www.aqt.eu
+  news: https://www.aqt.eu/press/
 location:
   city: Innsbruck
   country: Austria
@@ -18,19 +57,102 @@ location:
   region: Tyrol
 media:
   logo_path: /logos/c003-alpine-quantum-technologies-aqt.png
+milestones:
+- claim: AQT founded as a University of Innsbruck / Austrian Academy of Sciences spin-off
+    by Rainer Blatt, Thomas Monz and Peter Zoller to build a commercial trapped-ion
+    quantum computer, with ~€10M from the FFG and University of Innsbruck.
+  date: '2018-02-01'
+  source: https://www.aqt.eu/about/
+- claim: Demonstrated 20-qubit control in a 19-inch rack-mounted system (PINE), showing
+    a full trapped-ion quantum computer fitting within standard data-center racks.
+  date: '2021-01-01'
+  source: https://www.aqt.eu/solution/pine-system-20-qubit-control/
+- claim: Launched the LYNX series, achieving a European-record Quantum Volume of 32,768.
+  date: '2024-01-01'
+  source: https://quantumcomputingreport.com/aqt-launches-lynx-series-with-european-record-quantum-volume-of-32768/
+- claim: AQT's trapped-ion quantum computer IBEX Q1 became available on Amazon Braket,
+    operated from Innsbruck for European data sovereignty.
+  date: '2025-11-18'
+  source: https://thequantuminsider.com/2025/11/19/aqt-ibex-q1-amazon-braket/
 modality: hardware
 name: Alpine Quantum Technologies
+offices:
+- function: hq
+  location:
+    city: Innsbruck
+    country: Austria
+    region: Tyrol
+  source: https://www.aqt.eu/about/
+partnerships:
+- name: Amazon Braket
+  type: go_to_market
+  source: https://aws.amazon.com/blogs/quantum-computing/amazon-braket-launches-trapped-ion-quantum-computer-from-alpine-quantum-technologies/
+- name: University of Innsbruck
+  type: research
+  source: https://www.aqt.eu/about/
 people:
-  founders: []
-  leadership: []
-  spun_out_of: []
+  founders:
+  - name: Rainer Blatt
+    role: Co-founder
+    person_id: 017-rainer-blatt
+    source: https://www.aqt.eu/about/
+  - name: Thomas Monz
+    role: Co-founder & CEO
+    person_id: 014-thomas-monz
+    source: https://www.aqt.eu/about/
+  - name: Peter Zoller
+    role: Co-founder
+    source: https://www.aqt.eu/about/
+  leadership:
+  - name: Thomas Monz
+    role: CEO
+    person_id: 014-thomas-monz
+    source: https://www.aqt.eu/about/
+  spun_out_of:
+  - name: University of Innsbruck
+    spinout_year: 2018
+    source: https://www.aqt.eu/about/
 platforms:
 - trapped_ion
-schema_version: 1
-short_summary: A commercial provider of trapped-ion quantum computers.
+products:
+- description: The world's leading 19-inch rack-mounted trapped-ion quantum computer;
+    a full system fits within two standard racks, runs at room temperature and draws
+    under ~2 kW of power.
+  name: PINE
+  stage: ga
+  source: https://www.aqt.eu/solution/pine-system-19-rack-mounted-quantum-computer/
+- description: Rack-mounted trapped-ion quantum computer operated in Innsbruck for
+    European data sovereignty; available via Amazon Braket.
+  name: IBEX Q1
+  release_date: '2025-11-18'
+  stage: ga
+  source: https://thequantuminsider.com/2025/11/19/aqt-ibex-q1-amazon-braket/
+- description: Trapped-ion quantum computer series achieving a European-record Quantum
+    Volume of 32,768.
+  name: LYNX
+  stage: ga
+  source: https://quantumcomputingreport.com/aqt-launches-lynx-series-with-european-record-quantum-volume-of-32768/
+short_summary: Alpine Quantum Technologies (AQT, founded 2018, Innsbruck) is a University
+  of Innsbruck spin-off founded by ion-trap pioneers Rainer Blatt, Thomas Monz and
+  Peter Zoller. It builds the world's leading 19-inch rack-mounted trapped-ion quantum
+  computers — full systems (PINE, LYNX, IBEX Q1) that fit in standard data-center racks,
+  run at room temperature and draw under ~2 kW. Its LYNX series set a European-record
+  Quantum Volume of 32,768, and IBEX Q1, operated in Innsbruck for European data sovereignty,
+  is available on Amazon Braket.
 sort_name: Alpine Quantum Technologies
-sources: []
+sources:
+- note: Company background, founders, founding investment
+  url: https://www.aqt.eu/about/
+- note: PINE 19-inch rack-mounted quantum computer
+  url: https://www.aqt.eu/solution/pine-system-19-rack-mounted-quantum-computer/
+- note: 20-qubit rack-mounted demonstration
+  url: https://www.aqt.eu/solution/pine-system-20-qubit-control/
+- note: LYNX series, European-record Quantum Volume 32,768
+  url: https://quantumcomputingreport.com/aqt-launches-lynx-series-with-european-record-quantum-volume-of-32768/
+- note: IBEX Q1 available on Amazon Braket, November 2025
+  url: https://thequantuminsider.com/2025/11/19/aqt-ibex-q1-amazon-braket/
 status:
   operating_status: private
-verification_source_count: 0
+updated_at: '2026-06-02'
+verification_source_count: 5
 ---

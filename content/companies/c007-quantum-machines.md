@@ -33,8 +33,9 @@ funding:
     round: Series C
     stage: series_c
   total_raised_usd: 280000000
-id: c002-quantum-machines
-last_verified_at: '2026-05-04'
+founded_year: 2018
+id: c007-quantum-machines
+last_verified_at: '2026-06-02'
 links:
   careers: ''
   linkedin: ''
@@ -48,7 +49,7 @@ location:
   precision: city
   region: Tel Aviv District
 media:
-  logo_path: /logos/c002-quantum-machines.png
+  logo_path: /logos/c007-quantum-machines.png
 milestones:
 - claim: Completed a $170M Series C funding round, expanding global market position
     and technology adoption.

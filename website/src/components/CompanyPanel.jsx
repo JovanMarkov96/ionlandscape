@@ -142,6 +142,15 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
 
     if (!company) return null;
 
+    // Humanize underscore_keys for display, with special-casing for acronyms.
+    const ACRONYMS = { nv: 'NV', qed: 'QED', ac: 'AC', qpu: 'QPU', gpu: 'GPU', qkd: 'QKD', rf: 'RF' };
+    const humanize = (s) => {
+        if (!s) return s;
+        return s
+            .replace(/_/g, ' ')
+            .replace(/\b\w+/g, (w) => ACRONYMS[w.toLowerCase()] || (w.charAt(0).toUpperCase() + w.slice(1)));
+    };
+
     return (
         <div className="person-panel-content">
             {onClose && (
@@ -189,7 +198,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             <div className="person-panel-badges">
                 {company.platforms && company.platforms.map((platform, i) => (
                     <span key={i} className="badge badge--primary margin-right--xs">
-                        {platform}
+                        {humanize(platform)}
                     </span>
                 ))}
                 {company.status?.operating_status === "active" && (
@@ -226,7 +235,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                         <div className="company-architecture-tags">
                             {company.approach.architecture_tags.map((tag, i) => (
                                 <span key={i} className="badge badge--secondary margin-right--xs architecture-tag">
-                                    {tag}
+                                    {humanize(tag)}
                                 </span>
                             ))}
                         </div>
