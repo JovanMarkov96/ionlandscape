@@ -6,7 +6,7 @@ applications:
 - simulation
 current_position:
   confidence: confirmed
-  institution: Technion - Israel Institute of Technology
+  institution: Technion – Israel Institute of Technology
   since_year: null
   source: https://phsites.technion.ac.il/lindner/
   title: Professor of Physics
@@ -20,7 +20,7 @@ location:
   city: Haifa
   country: Israel
   lat: 32.7775
-  lon: 35.0233
+  lon: 35.02166667
   precision: city
   region: Haifa District
 name: Netanel Lindner

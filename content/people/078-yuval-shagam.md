@@ -6,7 +6,7 @@ applications:
 - simulation
 created_at: '2026-02-02'
 current_position:
-  institution: Technion ג€“ Israel Institute of Technology
+  institution: Technion – Israel Institute of Technology
   since_year: 2020
   title: Assistant Professor
 education:
@@ -66,8 +66,8 @@ links:
 location:
   city: Haifa
   country: Israel
-  lat: 32.794
-  lon: 34.9896
+  lat: 32.7775
+  lon: 35.02166667
   precision: city
   region: Haifa District
 metrics:

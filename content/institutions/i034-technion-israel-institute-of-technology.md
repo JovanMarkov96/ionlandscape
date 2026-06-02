@@ -15,7 +15,7 @@ location:
   precision: city
 media:
   logo_path: /img/institutions/i034-technion-israel-institute-of-technology_mark.png
-name: Technion Israel Institute Of Technology
+name: Technion – Israel Institute of Technology
 platforms_represented:
 - trapped_ion
 schema_version: 1
