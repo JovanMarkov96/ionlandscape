@@ -1,283 +1,18 @@
 [
   {
-    "source": "228-marlan-o-scully",
-    "target": "080-mikhail-d-lukin",
-    "type": "advisor"
-  },
-  {
-    "source": "213-alain-aspect",
-    "target": "084-antoine-browaeys",
-    "type": "advisor"
-  },
-  {
-    "source": "217-william-d-phillips",
-    "target": "084-antoine-browaeys",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "084-antoine-browaeys",
-    "target": "c019-pasqal",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "275-herbert-walther",
-    "target": "194-gerd-leuchs",
-    "type": "advisor"
-  },
-  {
-    "source": "245-atac-imamoglu",
-    "target": "124-patrick-maletinsky",
-    "type": "advisor"
-  },
-  {
-    "source": "318-shinji-urabe",
-    "target": "056-kenji-toyoda",
-    "type": "advisor"
-  },
-  {
-    "source": "241-alexander-sergienko",
-    "target": "183-mete-atature",
-    "type": "advisor"
-  },
-  {
-    "source": "245-atac-imamoglu",
-    "target": "183-mete-atature",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "246-beat-h-meier",
-    "target": "126-christian-l-degen",
-    "type": "advisor"
-  },
-  {
-    "source": "255-dan-rugar",
-    "target": "126-christian-l-degen",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "149-david-schuster",
-    "type": "advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "149-david-schuster",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "271-gunter-werth",
-    "target": "017-rainer-blatt",
-    "type": "advisor"
-  },
-  {
-    "source": "227-john-l-hall",
-    "target": "017-rainer-blatt",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "c003-alpine-quantum-technologies-aqt",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "250-charles-m-marcus",
-    "target": "021-mike-biercuk",
+    "source": "204-nir-davidson",
+    "target": "001-roee-ozeri",
     "type": "advisor"
   },
   {
     "source": "006-david-wineland",
-    "target": "021-mike-biercuk",
+    "target": "001-roee-ozeri",
     "type": "postdoc_advisor"
   },
   {
-    "source": "021-mike-biercuk",
-    "target": "c005-q-ctrl",
+    "source": "001-roee-ozeri",
+    "target": "c001-quantum-art",
     "type": "affiliated_with"
-  },
-  {
-    "source": "098-p-zoller",
-    "target": "102-hannes-pichler",
-    "type": "advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "170-yvonne-y-gao",
-    "type": "advisor"
-  },
-  {
-    "source": "164-john-clarke",
-    "target": "166-r-mcdermott",
-    "type": "advisor"
-  },
-  {
-    "source": "144-john-m-martinis",
-    "target": "166-r-mcdermott",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "225-jean-michel-raimond",
-    "target": "173-patrice-bertet",
-    "type": "advisor"
-  },
-  {
-    "source": "219-theodor-w-hansch",
-    "target": "007-dietrich-leibfried",
-    "type": "advisor"
-  },
-  {
-    "source": "006-david-wineland",
-    "target": "007-dietrich-leibfried",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "157-oskar-painter",
-    "target": "068-paul-barclay",
-    "type": "advisor"
-  },
-  {
-    "source": "082-jun-ye",
-    "target": "038-eric-hudson",
-    "type": "advisor"
-  },
-  {
-    "source": "259-david-demille",
-    "target": "038-eric-hudson",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "230-norman-f-ramsey",
-    "target": "006-david-wineland",
-    "type": "advisor"
-  },
-  {
-    "source": "229-hans-dehmelt",
-    "target": "006-david-wineland",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "316-rodolfo-miranda",
-    "target": "097-daniel-barredo",
-    "type": "advisor"
-  },
-  {
-    "source": "004-christopher-monroe",
-    "target": "023-crystal-senko",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "023-crystal-senko",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "023-crystal-senko",
-    "target": "i057-open-quantum-design",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "112-ronald-hanson",
-    "target": "141-wolfgang-pfaff",
-    "type": "advisor"
-  },
-  {
-    "source": "315-roberta-ramponi",
-    "target": "067-mirko-lobino",
-    "type": "advisor"
-  },
-  {
-    "source": "252-colin-webb",
-    "target": "049-patrick-gill",
-    "type": "advisor"
-  },
-  {
-    "source": "322-thomas-f-gallagher",
-    "target": "066-wenhui-li",
-    "type": "advisor"
-  },
-  {
-    "source": "311-randy-hulet",
-    "target": "066-wenhui-li",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "000-preben-buchhave",
-    "target": "185-ulrik-andersen",
-    "type": "advisor"
-  },
-  {
-    "source": "194-gerd-leuchs",
-    "target": "185-ulrik-andersen",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "030-rene-gerritsma",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "005-christian-roos",
-    "target": "030-rene-gerritsma",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "267-frederic-merkt",
-    "target": "035-stefan-willitsch",
-    "type": "advisor"
-  },
-  {
-    "source": "324-timothy-p-softley",
-    "target": "035-stefan-willitsch",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "098-p-zoller",
-    "target": "105-andrew-j-daley",
-    "type": "advisor"
-  },
-  {
-    "source": "219-theodor-w-hansch",
-    "target": "013-ferdinand-schmidt-kaler",
-    "type": "advisor"
-  },
-  {
-    "source": "219-theodor-w-hansch",
-    "target": "013-ferdinand-schmidt-kaler",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "212-serge-haroche",
-    "target": "013-ferdinand-schmidt-kaler",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "013-ferdinand-schmidt-kaler",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "013-ferdinand-schmidt-kaler",
-    "target": "i014-johannes-gutenberg-university-mainz",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "286-k-birgitta-whaley",
-    "target": "042-kenneth-brown",
-    "type": "advisor"
-  },
-  {
-    "source": "041-isaac-chuang",
-    "target": "042-kenneth-brown",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "042-kenneth-brown",
-    "target": "c002-ionq",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "298-michel-orrit",
-    "target": "113-fedor-jelezko",
-    "type": "advisor"
   },
   {
     "source": "001-roee-ozeri",
@@ -295,14 +30,19 @@
     "type": "postdoc_advisor"
   },
   {
-    "source": "006-david-wineland",
-    "target": "031-jeroen-koelemeij",
-    "type": "postdoc_advisor"
+    "source": "037-david-lucas",
+    "target": "003-chris-ballance",
+    "type": "advisor"
   },
   {
-    "source": "080-mikhail-d-lukin",
-    "target": "103-soonwon-choi",
-    "type": "advisor"
+    "source": "003-chris-ballance",
+    "target": "c004-oxford-ionics",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "003-chris-ballance",
+    "target": "c002-ionq",
+    "type": "affiliated_with"
   },
   {
     "source": "214-carl-wieman",
@@ -312,6 +52,51 @@
   {
     "source": "004-christopher-monroe",
     "target": "c002-ionq",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "017-rainer-blatt",
+    "target": "005-christian-roos",
+    "type": "advisor"
+  },
+  {
+    "source": "230-norman-f-ramsey",
+    "target": "006-david-wineland",
+    "type": "advisor"
+  },
+  {
+    "source": "229-hans-dehmelt",
+    "target": "006-david-wineland",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "219-theodor-w-hansch",
+    "target": "007-dietrich-leibfried",
+    "type": "advisor"
+  },
+  {
+    "source": "006-david-wineland",
+    "target": "007-dietrich-leibfried",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "000-arthur-pipkin",
+    "target": "008-john-bollinger",
+    "type": "advisor"
+  },
+  {
+    "source": "271-gunter-werth",
+    "target": "009-hartmut-haeffner",
+    "type": "advisor"
+  },
+  {
+    "source": "017-rainer-blatt",
+    "target": "009-hartmut-haeffner",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "009-hartmut-haeffner",
+    "target": "i062-lawrence-berkeley-national-laboratory",
     "type": "affiliated_with"
   },
   {
@@ -325,54 +110,24 @@
     "type": "affiliated_with"
   },
   {
+    "source": "326-wonho-jhe",
+    "target": "011-kihwan-kim",
+    "type": "advisor"
+  },
+  {
+    "source": "017-rainer-blatt",
+    "target": "011-kihwan-kim",
+    "type": "postdoc_advisor"
+  },
+  {
     "source": "004-christopher-monroe",
-    "target": "022-rajibul-islam",
-    "type": "advisor"
-  },
-  {
-    "source": "083-markus-greiner",
-    "target": "022-rajibul-islam",
+    "target": "011-kihwan-kim",
     "type": "postdoc_advisor"
   },
   {
-    "source": "040-vladan-vuletic",
-    "target": "022-rajibul-islam",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "022-rajibul-islam",
-    "target": "i057-open-quantum-design",
+    "source": "011-kihwan-kim",
+    "target": "i035-tsinghua-university",
     "type": "affiliated_with"
-  },
-  {
-    "source": "098-p-zoller",
-    "target": "104-tommaso-calarco",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "000-arthur-pipkin",
-    "target": "008-john-bollinger",
-    "type": "advisor"
-  },
-  {
-    "source": "330-ksenia-khabarova",
-    "target": "i122-russian-quantum-center",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "219-theodor-w-hansch",
-    "target": "076-tilman-esslinger",
-    "type": "advisor"
-  },
-  {
-    "source": "164-john-clarke",
-    "target": "144-john-m-martinis",
-    "type": "advisor"
-  },
-  {
-    "source": "304-paul-vitanyi",
-    "target": "160-barbara-m-terhal",
-    "type": "advisor"
   },
   {
     "source": "273-halina-rubinsztein-dunlop",
@@ -400,174 +155,74 @@
     "type": "affiliated_with"
   },
   {
-    "source": "297-michael-s-chapman",
-    "target": "032-murray-barrett",
-    "type": "advisor"
-  },
-  {
-    "source": "006-david-wineland",
-    "target": "032-murray-barrett",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "148-andrew-houck",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "269-gerd-schon",
-    "target": "167-frank-k-wilhelm",
-    "type": "advisor"
-  },
-  {
-    "source": "257-dana-anderson",
-    "target": "090-mark-saffman",
-    "type": "advisor"
-  },
-  {
-    "source": "037-david-lucas",
-    "target": "003-chris-ballance",
-    "type": "advisor"
-  },
-  {
-    "source": "003-chris-ballance",
-    "target": "c004-oxford-ionics",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "003-chris-ballance",
-    "target": "c002-ionq",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "249-charles-clark",
-    "target": "101-ana-maria-rey",
-    "type": "advisor"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "027-lukas-slodicka",
-    "type": "advisor"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "027-lukas-slodicka",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "301-niek-van-hulst",
-    "target": "123-t-h-taminiau",
+    "source": "219-theodor-w-hansch",
+    "target": "013-ferdinand-schmidt-kaler",
     "type": "advisor"
   },
   {
     "source": "219-theodor-w-hansch",
-    "target": "136-david-hunger",
-    "type": "advisor"
-  },
-  {
-    "source": "209-barak-dayan",
-    "target": "207-serge-rosenblum",
-    "type": "advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "207-serge-rosenblum",
+    "target": "013-ferdinand-schmidt-kaler",
     "type": "postdoc_advisor"
   },
   {
-    "source": "207-serge-rosenblum",
-    "target": "c015-quamcore",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "237-alex-kuzmich",
-    "target": "033-dzmitry-matsukevich",
-    "type": "advisor"
-  },
-  {
-    "source": "004-christopher-monroe",
-    "target": "033-dzmitry-matsukevich",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "236-aharon-kapitulnik",
-    "target": "051-john-chiaverini",
-    "type": "advisor"
-  },
-  {
-    "source": "006-david-wineland",
-    "target": "051-john-chiaverini",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "281-john-m-doyle",
-    "target": "039-wes-campbell",
-    "type": "advisor"
-  },
-  {
-    "source": "004-christopher-monroe",
-    "target": "039-wes-campbell",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "274-harry-buhrman",
-    "target": "196-stephanie-wehner",
-    "type": "advisor"
-  },
-  {
-    "source": "210-john-preskill",
-    "target": "196-stephanie-wehner",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "289-kyungwon-an",
-    "target": "060-moonjoo-lee",
-    "type": "advisor"
-  },
-  {
-    "source": "015-tracy-northup",
-    "target": "060-moonjoo-lee",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "076-tilman-esslinger",
-    "target": "060-moonjoo-lee",
+    "source": "212-serge-haroche",
+    "target": "013-ferdinand-schmidt-kaler",
     "type": "postdoc_advisor"
   },
   {
     "source": "017-rainer-blatt",
-    "target": "070-markus-hennrich",
+    "target": "013-ferdinand-schmidt-kaler",
     "type": "postdoc_advisor"
   },
   {
-    "source": "323-tilman-pfau",
-    "target": "074-piet-schmidt",
+    "source": "013-ferdinand-schmidt-kaler",
+    "target": "i014-johannes-gutenberg-university-mainz",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "017-rainer-blatt",
+    "target": "014-thomas-monz",
+    "type": "advisor"
+  },
+  {
+    "source": "014-thomas-monz",
+    "target": "c003-alpine-quantum-technologies-aqt",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "222-h-jeff-kimble",
+    "target": "015-tracy-northup",
+    "type": "advisor"
+  },
+  {
+    "source": "017-rainer-blatt",
+    "target": "015-tracy-northup",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "243-andrew-steane",
+    "target": "016-jonathan-home",
     "type": "advisor"
   },
   {
     "source": "006-david-wineland",
-    "target": "074-piet-schmidt",
+    "target": "016-jonathan-home",
     "type": "postdoc_advisor"
   },
   {
-    "source": "319-stephan-reitzenstein",
-    "target": "186-tobias-heindel",
+    "source": "271-gunter-werth",
+    "target": "017-rainer-blatt",
     "type": "advisor"
   },
   {
-    "source": "319-stephan-reitzenstein",
-    "target": "186-tobias-heindel",
+    "source": "227-john-l-hall",
+    "target": "017-rainer-blatt",
     "type": "postdoc_advisor"
   },
   {
-    "source": "332-ilya-semerikov",
-    "target": "i122-russian-quantum-center",
+    "source": "017-rainer-blatt",
+    "target": "c003-alpine-quantum-technologies-aqt",
     "type": "affiliated_with"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "121-liang-jiang",
-    "type": "advisor"
   },
   {
     "source": "272-guo-guangcan",
@@ -585,243 +240,63 @@
     "type": "affiliated_with"
   },
   {
-    "source": "000-rongdian-han",
-    "target": "131-jiangfeng-du",
-    "type": "advisor"
-  },
-  {
-    "source": "296-michael-g-raymer",
-    "target": "181-ian-walmsley",
-    "type": "advisor"
-  },
-  {
-    "source": "000-helen-freedhoff",
-    "target": "191-terry-rudolph",
+    "source": "250-charles-m-marcus",
+    "target": "021-mike-biercuk",
     "type": "advisor"
   },
   {
     "source": "006-david-wineland",
-    "target": "261-david-kielpinski",
+    "target": "021-mike-biercuk",
     "type": "postdoc_advisor"
   },
   {
-    "source": "000-wim-hogervorst",
-    "target": "046-kjeld-eikema",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "130-meenakshi-dutt",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "220-jean-dalibard",
-    "target": "085-thierry-lahaye",
-    "type": "advisor"
-  },
-  {
-    "source": "323-tilman-pfau",
-    "target": "085-thierry-lahaye",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "085-thierry-lahaye",
-    "target": "c019-pasqal",
+    "source": "021-mike-biercuk",
+    "target": "c005-q-ctrl",
     "type": "affiliated_with"
-  },
-  {
-    "source": "270-gianni-blatter",
-    "target": "107-hans-peter-buchler",
-    "type": "advisor"
-  },
-  {
-    "source": "098-p-zoller",
-    "target": "107-hans-peter-buchler",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "266-franco-n-c-wong",
-    "target": "063-taehyun-kim",
-    "type": "advisor"
-  },
-  {
-    "source": "010-jungsang-kim",
-    "target": "063-taehyun-kim",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "156-jens-koch",
-    "type": "postdoc_advisor"
   },
   {
     "source": "004-christopher-monroe",
-    "target": "075-boris-blinov",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "000-fritz-ehlotzky",
-    "target": "098-p-zoller",
+    "target": "022-rajibul-islam",
     "type": "advisor"
   },
   {
-    "source": "306-peter-lambropoulos",
-    "target": "098-p-zoller",
+    "source": "083-markus-greiner",
+    "target": "022-rajibul-islam",
     "type": "postdoc_advisor"
   },
   {
-    "source": "256-dan-walls",
-    "target": "098-p-zoller",
+    "source": "040-vladan-vuletic",
+    "target": "022-rajibul-islam",
     "type": "postdoc_advisor"
   },
   {
-    "source": "098-p-zoller",
-    "target": "c003-alpine-quantum-technologies-aqt",
+    "source": "022-rajibul-islam",
+    "target": "i057-open-quantum-design",
     "type": "affiliated_with"
   },
   {
-    "source": "250-charles-m-marcus",
-    "target": "159-l-dicarlo",
-    "type": "advisor"
-  },
-  {
-    "source": "063-taehyun-kim",
-    "target": "064-junki-kim",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "010-jungsang-kim",
-    "target": "064-junki-kim",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "042-kenneth-brown",
-    "target": "064-junki-kim",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "277-jan-michael-rost",
-    "target": "106-thomas-pohl",
+    "source": "004-christopher-monroe",
+    "target": "023-crystal-senko",
     "type": "advisor"
   },
   {
     "source": "080-mikhail-d-lukin",
-    "target": "168-yiwen-chu",
-    "type": "advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "168-yiwen-chu",
-    "type": "advisor"
-  },
-  {
-    "source": "247-brian-pippard",
-    "target": "164-john-clarke",
-    "type": "advisor"
-  },
-  {
-    "source": "291-leo-kouwenhoven",
-    "target": "112-ronald-hanson",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "120-shimon-kolkowitz",
-    "type": "advisor"
-  },
-  {
-    "source": "327-yoshihisa-yamamoto",
-    "target": "134-oliver-benson",
+    "target": "023-crystal-senko",
     "type": "postdoc_advisor"
   },
   {
-    "source": "258-daniel-prober",
-    "target": "145-robert-schoelkopf",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "147-s-m-girvin",
-    "target": "161-alexandre-blais",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "327-yoshihisa-yamamoto",
-    "target": "041-isaac-chuang",
-    "type": "advisor"
-  },
-  {
-    "source": "240-alexander-pines",
-    "target": "041-isaac-chuang",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "219-theodor-w-hansch",
-    "target": "029-christof-wunderlich",
-    "type": "advisor"
-  },
-  {
-    "source": "029-christof-wunderlich",
-    "target": "c017-eleqtron",
+    "source": "023-crystal-senko",
+    "target": "i057-open-quantum-design",
     "type": "affiliated_with"
   },
   {
-    "source": "327-yoshihisa-yamamoto",
-    "target": "201-william-d-oliver",
+    "source": "215-eric-a-cornell",
+    "target": "024-paul-haljan",
     "type": "advisor"
   },
   {
-    "source": "098-p-zoller",
-    "target": "109-markus-muller",
-    "type": "advisor"
-  },
-  {
-    "source": "190-jeremy-obrien",
-    "target": "184-anthony-laing",
-    "type": "advisor"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "014-thomas-monz",
-    "type": "advisor"
-  },
-  {
-    "source": "014-thomas-monz",
-    "target": "c003-alpine-quantum-technologies-aqt",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "081-immanuel-bloch",
-    "target": "086-manuel-endres",
-    "type": "advisor"
-  },
-  {
-    "source": "211-ignacio-cirac",
-    "target": "086-manuel-endres",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "154-per-delsing",
-    "target": "165-jonas-bylander",
-    "type": "advisor"
-  },
-  {
-    "source": "201-william-d-oliver",
-    "target": "165-jonas-bylander",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "227-john-l-hall",
-    "target": "082-jun-ye",
-    "type": "advisor"
-  },
-  {
-    "source": "171-a-v-ustinov",
-    "target": "155-andreas-wallraff",
-    "type": "advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "155-andreas-wallraff",
+    "source": "004-christopher-monroe",
+    "target": "024-paul-haljan",
     "type": "postdoc_advisor"
   },
   {
@@ -835,161 +310,6 @@
     "type": "postdoc_advisor"
   },
   {
-    "source": "142-hongkun-park",
-    "target": "116-nathalie-p-de-leon",
-    "type": "advisor"
-  },
-  {
-    "source": "182-nicolas-gisin",
-    "target": "198-mikael-afzelius",
-    "type": "advisor"
-  },
-  {
-    "source": "271-gunter-werth",
-    "target": "009-hartmut-haeffner",
-    "type": "advisor"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "009-hartmut-haeffner",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "009-hartmut-haeffner",
-    "target": "i062-lawrence-berkeley-national-laboratory",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "071-matthias-keller",
-    "target": "054-hiroki-takahashi",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "112-ronald-hanson",
-    "target": "089-hannes-bernien",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "089-hannes-bernien",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "219-theodor-w-hansch",
-    "target": "083-markus-greiner",
-    "type": "advisor"
-  },
-  {
-    "source": "223-anton-zeilinger",
-    "target": "178-philip-walther",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "178-philip-walther",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "004-christopher-monroe",
-    "target": "052-dan-stick",
-    "type": "advisor"
-  },
-  {
-    "source": "001-roee-ozeri",
-    "target": "206-tom-manovitz",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "206-tom-manovitz",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "310-pierre-rouchon",
-    "target": "174-mazyar-mirrahimi",
-    "type": "advisor"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "005-christian-roos",
-    "type": "advisor"
-  },
-  {
-    "source": "155-andreas-wallraff",
-    "target": "172-j-m-fink",
-    "type": "advisor"
-  },
-  {
-    "source": "157-oskar-painter",
-    "target": "172-j-m-fink",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "302-paolo-villoresi",
-    "target": "135-cristian-bonato",
-    "type": "advisor"
-  },
-  {
-    "source": "253-constantin-piron",
-    "target": "182-nicolas-gisin",
-    "type": "advisor"
-  },
-  {
-    "source": "312-richard-n-zare",
-    "target": "142-hongkun-park",
-    "type": "advisor"
-  },
-  {
-    "source": "235-a-paul-alivisatos",
-    "target": "142-hongkun-park",
-    "type": "advisor"
-  },
-  {
-    "source": "303-paul-l-mceuen",
-    "target": "142-hongkun-park",
-    "type": "advisor"
-  },
-  {
-    "source": "182-nicolas-gisin",
-    "target": "197-hugues-de-riedmatten",
-    "type": "advisor"
-  },
-  {
-    "source": "222-h-jeff-kimble",
-    "target": "197-hugues-de-riedmatten",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "182-nicolas-gisin",
-    "target": "197-hugues-de-riedmatten",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "112-ronald-hanson",
-    "target": "140-machiel-blok",
-    "type": "advisor"
-  },
-  {
-    "source": "150-irfan-siddiqi",
-    "target": "140-machiel-blok",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "309-peter-schmelcher",
-    "target": "108-igor-lesanovsky",
-    "type": "advisor"
-  },
-  {
-    "source": "218-steven-chu",
-    "target": "204-nir-davidson",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "204-nir-davidson",
-    "target": "c018-q-factor",
-    "type": "affiliated_with"
-  },
-  {
     "source": "216-wolfgang-ketterle",
     "target": "026-erik-streed",
     "type": "advisor"
@@ -1000,284 +320,89 @@
     "type": "postdoc_advisor"
   },
   {
-    "source": "325-tord-claeson",
-    "target": "154-per-delsing",
-    "type": "advisor"
-  },
-  {
-    "source": "242-anatole-abragam",
-    "target": "146-michel-devoret",
-    "type": "advisor"
-  },
-  {
-    "source": "164-john-clarke",
-    "target": "146-michel-devoret",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "279-jelena-vuckovic",
-    "target": "122-dirk-englund",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "122-dirk-englund",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "000-j-karl-hedrick",
-    "target": "062-dan-cho",
-    "type": "advisor"
-  },
-  {
-    "source": "263-edvardas-narevicius",
-    "target": "078-yuval-shagam",
-    "type": "advisor"
-  },
-  {
-    "source": "215-eric-a-cornell",
-    "target": "078-yuval-shagam",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "082-jun-ye",
-    "target": "078-yuval-shagam",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "145-robert-schoelkopf",
-    "target": "152-k-w-lehnert",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "182-nicolas-gisin",
-    "target": "200-wolfgang-tittel",
-    "type": "advisor"
-  },
-  {
-    "source": "215-eric-a-cornell",
-    "target": "024-paul-haljan",
-    "type": "advisor"
-  },
-  {
-    "source": "004-christopher-monroe",
-    "target": "024-paul-haljan",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "100-alexey-v-gorshkov",
-    "type": "advisor"
-  },
-  {
-    "source": "276-jacqueline-bloch",
-    "target": "180-pascale-senellart",
-    "type": "advisor"
-  },
-  {
-    "source": "221-gerhard-rempe",
-    "target": "069-sadiq-rangwala",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "223-anton-zeilinger",
-    "target": "176-jian-wei-pan",
-    "type": "advisor"
-  },
-  {
-    "source": "223-anton-zeilinger",
-    "target": "176-jian-wei-pan",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "129-lilian-childress",
-    "type": "advisor"
-  },
-  {
-    "source": "000-christian-von-borczyskowski",
-    "target": "114-jorg-wrachtrup",
-    "type": "advisor"
-  },
-  {
-    "source": "219-theodor-w-hansch",
-    "target": "081-immanuel-bloch",
-    "type": "advisor"
-  },
-  {
-    "source": "174-mazyar-mirrahimi",
-    "target": "175-zaki-leghtas",
-    "type": "advisor"
-  },
-  {
-    "source": "146-michel-devoret",
-    "target": "175-zaki-leghtas",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "223-anton-zeilinger",
-    "target": "188-rupert-ursin",
-    "type": "advisor"
-  },
-  {
-    "source": "262-deborah-jin",
-    "target": "093-kang-kuen-ni",
-    "type": "advisor"
-  },
-  {
-    "source": "082-jun-ye",
-    "target": "093-kang-kuen-ni",
-    "type": "advisor"
-  },
-  {
-    "source": "222-h-jeff-kimble",
-    "target": "093-kang-kuen-ni",
-    "type": "advisor"
-  },
-  {
-    "source": "215-eric-a-cornell",
-    "target": "093-kang-kuen-ni",
-    "type": "advisor"
-  },
-  {
-    "source": "248-carl-williams",
-    "target": "111-guido-pupillo",
-    "type": "advisor"
-  },
-  {
-    "source": "098-p-zoller",
-    "target": "111-guido-pupillo",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "293-markus-oberthaler",
-    "target": "092-christian-gro",
-    "type": "advisor"
-  },
-  {
-    "source": "204-nir-davidson",
-    "target": "001-roee-ozeri",
-    "type": "advisor"
-  },
-  {
-    "source": "006-david-wineland",
-    "target": "001-roee-ozeri",
-    "type": "postdoc_advisor"
-  },
-  {
-    "source": "001-roee-ozeri",
-    "target": "c001-quantum-art",
-    "type": "affiliated_with"
-  },
-  {
-    "source": "164-john-clarke",
-    "target": "151-a-n-cleland",
-    "type": "advisor"
-  },
-  {
-    "source": "326-wonho-jhe",
-    "target": "011-kihwan-kim",
+    "source": "017-rainer-blatt",
+    "target": "027-lukas-slodicka",
     "type": "advisor"
   },
   {
     "source": "017-rainer-blatt",
-    "target": "011-kihwan-kim",
+    "target": "027-lukas-slodicka",
     "type": "postdoc_advisor"
   },
   {
-    "source": "004-christopher-monroe",
-    "target": "011-kihwan-kim",
-    "type": "postdoc_advisor"
+    "source": "219-theodor-w-hansch",
+    "target": "029-christof-wunderlich",
+    "type": "advisor"
   },
   {
-    "source": "011-kihwan-kim",
-    "target": "i035-tsinghua-university",
+    "source": "029-christof-wunderlich",
+    "target": "c017-eleqtron",
     "type": "affiliated_with"
   },
   {
+    "source": "017-rainer-blatt",
+    "target": "030-rene-gerritsma",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "005-christian-roos",
+    "target": "030-rene-gerritsma",
+    "type": "postdoc_advisor"
+  },
+  {
     "source": "006-david-wineland",
-    "target": "073-david-hume",
-    "type": "advisor"
-  },
-  {
-    "source": "226-philippe-grangier",
-    "target": "132-jean-francois-roch",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "137-alp-sipahigil",
-    "type": "advisor"
-  },
-  {
-    "source": "138-lloyd-c-l-hollenberg",
-    "target": "119-marcus-w-doherty",
-    "type": "advisor"
-  },
-  {
-    "source": "300-neil-b-manson",
-    "target": "119-marcus-w-doherty",
+    "target": "031-jeroen-koelemeij",
     "type": "postdoc_advisor"
   },
   {
-    "source": "205-ofer-firstenberg",
-    "target": "329-ran-finkelstein",
+    "source": "297-michael-s-chapman",
+    "target": "032-murray-barrett",
     "type": "advisor"
   },
   {
-    "source": "086-manuel-endres",
-    "target": "329-ran-finkelstein",
+    "source": "006-david-wineland",
+    "target": "032-murray-barrett",
     "type": "postdoc_advisor"
   },
   {
-    "source": "314-robert-m-westervelt",
-    "target": "117-ania-c-bleszynski-jayich",
+    "source": "237-alex-kuzmich",
+    "target": "033-dzmitry-matsukevich",
     "type": "advisor"
   },
   {
-    "source": "278-jay-gupta",
-    "target": "061-taeyoung-choi",
-    "type": "advisor"
-  },
-  {
-    "source": "216-wolfgang-ketterle",
-    "target": "091-dan-stamper-kurn",
-    "type": "advisor"
-  },
-  {
-    "source": "287-keith-burnett",
-    "target": "050-rachel-godun",
-    "type": "advisor"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "094-dolev-bluvstein",
-    "type": "advisor"
-  },
-  {
-    "source": "223-anton-zeilinger",
-    "target": "044-johannes-hecker-denschlag",
-    "type": "advisor"
-  },
-  {
-    "source": "282-jorg-schmiedmayer",
-    "target": "044-johannes-hecker-denschlag",
-    "type": "advisor"
-  },
-  {
-    "source": "217-william-d-phillips",
-    "target": "044-johannes-hecker-denschlag",
+    "source": "004-christopher-monroe",
+    "target": "033-dzmitry-matsukevich",
     "type": "postdoc_advisor"
   },
   {
-    "source": "295-matthias-weidemuller",
-    "target": "043-kilian-singer",
+    "source": "267-frederic-merkt",
+    "target": "035-stefan-willitsch",
     "type": "advisor"
   },
   {
-    "source": "275-herbert-walther",
-    "target": "071-matthias-keller",
+    "source": "324-timothy-p-softley",
+    "target": "035-stefan-willitsch",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "082-jun-ye",
+    "target": "038-eric-hudson",
     "type": "advisor"
+  },
+  {
+    "source": "259-david-demille",
+    "target": "038-eric-hudson",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "281-john-m-doyle",
+    "target": "039-wes-campbell",
+    "type": "advisor"
+  },
+  {
+    "source": "004-christopher-monroe",
+    "target": "039-wes-campbell",
+    "type": "postdoc_advisor"
   },
   {
     "source": "219-theodor-w-hansch",
@@ -1300,28 +425,88 @@
     "type": "affiliated_with"
   },
   {
-    "source": "243-andrew-steane",
-    "target": "016-jonathan-home",
+    "source": "327-yoshihisa-yamamoto",
+    "target": "041-isaac-chuang",
+    "type": "advisor"
+  },
+  {
+    "source": "240-alexander-pines",
+    "target": "041-isaac-chuang",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "286-k-birgitta-whaley",
+    "target": "042-kenneth-brown",
+    "type": "advisor"
+  },
+  {
+    "source": "041-isaac-chuang",
+    "target": "042-kenneth-brown",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "042-kenneth-brown",
+    "target": "c002-ionq",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "295-matthias-weidemuller",
+    "target": "043-kilian-singer",
+    "type": "advisor"
+  },
+  {
+    "source": "223-anton-zeilinger",
+    "target": "044-johannes-hecker-denschlag",
+    "type": "advisor"
+  },
+  {
+    "source": "282-jorg-schmiedmayer",
+    "target": "044-johannes-hecker-denschlag",
+    "type": "advisor"
+  },
+  {
+    "source": "217-william-d-phillips",
+    "target": "044-johannes-hecker-denschlag",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "000-wim-hogervorst",
+    "target": "046-kjeld-eikema",
+    "type": "advisor"
+  },
+  {
+    "source": "252-colin-webb",
+    "target": "049-patrick-gill",
+    "type": "advisor"
+  },
+  {
+    "source": "287-keith-burnett",
+    "target": "050-rachel-godun",
+    "type": "advisor"
+  },
+  {
+    "source": "236-aharon-kapitulnik",
+    "target": "051-john-chiaverini",
     "type": "advisor"
   },
   {
     "source": "006-david-wineland",
-    "target": "016-jonathan-home",
+    "target": "051-john-chiaverini",
     "type": "postdoc_advisor"
   },
   {
-    "source": "082-jun-ye",
-    "target": "095-jacob-p-covey",
+    "source": "004-christopher-monroe",
+    "target": "052-dan-stick",
     "type": "advisor"
   },
   {
-    "source": "262-deborah-jin",
-    "target": "095-jacob-p-covey",
-    "type": "advisor"
+    "source": "071-matthias-keller",
+    "target": "054-hiroki-takahashi",
+    "type": "postdoc_advisor"
   },
   {
-    "source": "313-robert-a-buhrman",
-    "target": "125-gregory-d-fuchs",
+    "source": "318-shinji-urabe",
+    "target": "056-kenji-toyoda",
     "type": "advisor"
   },
   {
@@ -1335,8 +520,368 @@
     "type": "advisor"
   },
   {
+    "source": "289-kyungwon-an",
+    "target": "060-moonjoo-lee",
+    "type": "advisor"
+  },
+  {
+    "source": "015-tracy-northup",
+    "target": "060-moonjoo-lee",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "076-tilman-esslinger",
+    "target": "060-moonjoo-lee",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "278-jay-gupta",
+    "target": "061-taeyoung-choi",
+    "type": "advisor"
+  },
+  {
+    "source": "000-j-karl-hedrick",
+    "target": "062-dan-cho",
+    "type": "advisor"
+  },
+  {
+    "source": "266-franco-n-c-wong",
+    "target": "063-taehyun-kim",
+    "type": "advisor"
+  },
+  {
+    "source": "010-jungsang-kim",
+    "target": "063-taehyun-kim",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "063-taehyun-kim",
+    "target": "064-junki-kim",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "010-jungsang-kim",
+    "target": "064-junki-kim",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "042-kenneth-brown",
+    "target": "064-junki-kim",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "065-luyan-sun",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "146-michel-devoret",
+    "target": "065-luyan-sun",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "322-thomas-f-gallagher",
+    "target": "066-wenhui-li",
+    "type": "advisor"
+  },
+  {
+    "source": "311-randy-hulet",
+    "target": "066-wenhui-li",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "315-roberta-ramponi",
+    "target": "067-mirko-lobino",
+    "type": "advisor"
+  },
+  {
+    "source": "157-oskar-painter",
+    "target": "068-paul-barclay",
+    "type": "advisor"
+  },
+  {
+    "source": "221-gerhard-rempe",
+    "target": "069-sadiq-rangwala",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "017-rainer-blatt",
+    "target": "070-markus-hennrich",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "275-herbert-walther",
+    "target": "071-matthias-keller",
+    "type": "advisor"
+  },
+  {
+    "source": "006-david-wineland",
+    "target": "073-david-hume",
+    "type": "advisor"
+  },
+  {
+    "source": "323-tilman-pfau",
+    "target": "074-piet-schmidt",
+    "type": "advisor"
+  },
+  {
+    "source": "006-david-wineland",
+    "target": "074-piet-schmidt",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "004-christopher-monroe",
+    "target": "075-boris-blinov",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "219-theodor-w-hansch",
+    "target": "076-tilman-esslinger",
+    "type": "advisor"
+  },
+  {
+    "source": "244-andrew-white",
+    "target": "077-ben-lanyon",
+    "type": "advisor"
+  },
+  {
+    "source": "017-rainer-blatt",
+    "target": "077-ben-lanyon",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "263-edvardas-narevicius",
+    "target": "078-yuval-shagam",
+    "type": "advisor"
+  },
+  {
+    "source": "215-eric-a-cornell",
+    "target": "078-yuval-shagam",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "082-jun-ye",
+    "target": "078-yuval-shagam",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "228-marlan-o-scully",
+    "target": "080-mikhail-d-lukin",
+    "type": "advisor"
+  },
+  {
+    "source": "219-theodor-w-hansch",
+    "target": "081-immanuel-bloch",
+    "type": "advisor"
+  },
+  {
+    "source": "227-john-l-hall",
+    "target": "082-jun-ye",
+    "type": "advisor"
+  },
+  {
+    "source": "219-theodor-w-hansch",
+    "target": "083-markus-greiner",
+    "type": "advisor"
+  },
+  {
+    "source": "213-alain-aspect",
+    "target": "084-antoine-browaeys",
+    "type": "advisor"
+  },
+  {
+    "source": "217-william-d-phillips",
+    "target": "084-antoine-browaeys",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "084-antoine-browaeys",
+    "target": "c019-pasqal",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "220-jean-dalibard",
+    "target": "085-thierry-lahaye",
+    "type": "advisor"
+  },
+  {
+    "source": "323-tilman-pfau",
+    "target": "085-thierry-lahaye",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "085-thierry-lahaye",
+    "target": "c019-pasqal",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "081-immanuel-bloch",
+    "target": "086-manuel-endres",
+    "type": "advisor"
+  },
+  {
+    "source": "211-ignacio-cirac",
+    "target": "086-manuel-endres",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "251-cindy-a-regal",
+    "target": "087-adam-m-kaufman",
+    "type": "advisor"
+  },
+  {
+    "source": "083-markus-greiner",
+    "target": "087-adam-m-kaufman",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "088-jeff-d-thompson",
+    "type": "advisor"
+  },
+  {
+    "source": "112-ronald-hanson",
+    "target": "089-hannes-bernien",
+    "type": "advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "089-hannes-bernien",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "257-dana-anderson",
+    "target": "090-mark-saffman",
+    "type": "advisor"
+  },
+  {
+    "source": "216-wolfgang-ketterle",
+    "target": "091-dan-stamper-kurn",
+    "type": "advisor"
+  },
+  {
+    "source": "293-markus-oberthaler",
+    "target": "092-christian-gro",
+    "type": "advisor"
+  },
+  {
+    "source": "262-deborah-jin",
+    "target": "093-kang-kuen-ni",
+    "type": "advisor"
+  },
+  {
+    "source": "082-jun-ye",
+    "target": "093-kang-kuen-ni",
+    "type": "advisor"
+  },
+  {
+    "source": "222-h-jeff-kimble",
+    "target": "093-kang-kuen-ni",
+    "type": "advisor"
+  },
+  {
+    "source": "215-eric-a-cornell",
+    "target": "093-kang-kuen-ni",
+    "type": "advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "094-dolev-bluvstein",
+    "type": "advisor"
+  },
+  {
+    "source": "082-jun-ye",
+    "target": "095-jacob-p-covey",
+    "type": "advisor"
+  },
+  {
+    "source": "262-deborah-jin",
+    "target": "095-jacob-p-covey",
+    "type": "advisor"
+  },
+  {
+    "source": "316-rodolfo-miranda",
+    "target": "097-daniel-barredo",
+    "type": "advisor"
+  },
+  {
+    "source": "000-fritz-ehlotzky",
+    "target": "098-p-zoller",
+    "type": "advisor"
+  },
+  {
+    "source": "306-peter-lambropoulos",
+    "target": "098-p-zoller",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "256-dan-walls",
+    "target": "098-p-zoller",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "098-p-zoller",
+    "target": "c003-alpine-quantum-technologies-aqt",
+    "type": "affiliated_with"
+  },
+  {
     "source": "000-knud-taulbjerg",
     "target": "099-klaus-mlmer",
+    "type": "advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "100-alexey-v-gorshkov",
+    "type": "advisor"
+  },
+  {
+    "source": "249-charles-clark",
+    "target": "101-ana-maria-rey",
+    "type": "advisor"
+  },
+  {
+    "source": "098-p-zoller",
+    "target": "102-hannes-pichler",
+    "type": "advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "103-soonwon-choi",
+    "type": "advisor"
+  },
+  {
+    "source": "098-p-zoller",
+    "target": "104-tommaso-calarco",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "098-p-zoller",
+    "target": "105-andrew-j-daley",
+    "type": "advisor"
+  },
+  {
+    "source": "277-jan-michael-rost",
+    "target": "106-thomas-pohl",
+    "type": "advisor"
+  },
+  {
+    "source": "270-gianni-blatter",
+    "target": "107-hans-peter-buchler",
+    "type": "advisor"
+  },
+  {
+    "source": "098-p-zoller",
+    "target": "107-hans-peter-buchler",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "309-peter-schmelcher",
+    "target": "108-igor-lesanovsky",
+    "type": "advisor"
+  },
+  {
+    "source": "098-p-zoller",
+    "target": "109-markus-muller",
     "type": "advisor"
   },
   {
@@ -1345,33 +890,93 @@
     "type": "advisor"
   },
   {
-    "source": "222-h-jeff-kimble",
-    "target": "015-tracy-northup",
+    "source": "248-carl-williams",
+    "target": "111-guido-pupillo",
     "type": "advisor"
   },
   {
-    "source": "017-rainer-blatt",
-    "target": "015-tracy-northup",
+    "source": "098-p-zoller",
+    "target": "111-guido-pupillo",
     "type": "postdoc_advisor"
   },
   {
-    "source": "320-steven-prawer",
-    "target": "139-igor-aharonovich",
+    "source": "291-leo-kouwenhoven",
+    "target": "112-ronald-hanson",
     "type": "advisor"
   },
   {
-    "source": "264-evelyn-hu",
-    "target": "139-igor-aharonovich",
+    "source": "298-michel-orrit",
+    "target": "113-fedor-jelezko",
+    "type": "advisor"
+  },
+  {
+    "source": "000-christian-von-borczyskowski",
+    "target": "114-jorg-wrachtrup",
+    "type": "advisor"
+  },
+  {
+    "source": "142-hongkun-park",
+    "target": "116-nathalie-p-de-leon",
+    "type": "advisor"
+  },
+  {
+    "source": "314-robert-m-westervelt",
+    "target": "117-ania-c-bleszynski-jayich",
+    "type": "advisor"
+  },
+  {
+    "source": "138-lloyd-c-l-hollenberg",
+    "target": "119-marcus-w-doherty",
+    "type": "advisor"
+  },
+  {
+    "source": "300-neil-b-manson",
+    "target": "119-marcus-w-doherty",
     "type": "postdoc_advisor"
   },
   {
-    "source": "000-wiebke-guichard",
-    "target": "163-ioan-m-pop",
+    "source": "080-mikhail-d-lukin",
+    "target": "120-shimon-kolkowitz",
     "type": "advisor"
   },
   {
-    "source": "146-michel-devoret",
-    "target": "163-ioan-m-pop",
+    "source": "080-mikhail-d-lukin",
+    "target": "121-liang-jiang",
+    "type": "advisor"
+  },
+  {
+    "source": "279-jelena-vuckovic",
+    "target": "122-dirk-englund",
+    "type": "advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "122-dirk-englund",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "301-niek-van-hulst",
+    "target": "123-t-h-taminiau",
+    "type": "advisor"
+  },
+  {
+    "source": "245-atac-imamoglu",
+    "target": "124-patrick-maletinsky",
+    "type": "advisor"
+  },
+  {
+    "source": "313-robert-a-buhrman",
+    "target": "125-gregory-d-fuchs",
+    "type": "advisor"
+  },
+  {
+    "source": "246-beat-h-meier",
+    "target": "126-christian-l-degen",
+    "type": "advisor"
+  },
+  {
+    "source": "255-dan-rugar",
+    "target": "126-christian-l-degen",
     "type": "postdoc_advisor"
   },
   {
@@ -1386,18 +991,358 @@
   },
   {
     "source": "080-mikhail-d-lukin",
-    "target": "088-jeff-d-thompson",
+    "target": "129-lilian-childress",
     "type": "advisor"
   },
   {
-    "source": "251-cindy-a-regal",
-    "target": "087-adam-m-kaufman",
-    "type": "advisor"
-  },
-  {
-    "source": "083-markus-greiner",
-    "target": "087-adam-m-kaufman",
+    "source": "080-mikhail-d-lukin",
+    "target": "130-meenakshi-dutt",
     "type": "postdoc_advisor"
+  },
+  {
+    "source": "000-rongdian-han",
+    "target": "131-jiangfeng-du",
+    "type": "advisor"
+  },
+  {
+    "source": "226-philippe-grangier",
+    "target": "132-jean-francois-roch",
+    "type": "advisor"
+  },
+  {
+    "source": "327-yoshihisa-yamamoto",
+    "target": "134-oliver-benson",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "302-paolo-villoresi",
+    "target": "135-cristian-bonato",
+    "type": "advisor"
+  },
+  {
+    "source": "219-theodor-w-hansch",
+    "target": "136-david-hunger",
+    "type": "advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "137-alp-sipahigil",
+    "type": "advisor"
+  },
+  {
+    "source": "320-steven-prawer",
+    "target": "139-igor-aharonovich",
+    "type": "advisor"
+  },
+  {
+    "source": "264-evelyn-hu",
+    "target": "139-igor-aharonovich",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "112-ronald-hanson",
+    "target": "140-machiel-blok",
+    "type": "advisor"
+  },
+  {
+    "source": "150-irfan-siddiqi",
+    "target": "140-machiel-blok",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "112-ronald-hanson",
+    "target": "141-wolfgang-pfaff",
+    "type": "advisor"
+  },
+  {
+    "source": "312-richard-n-zare",
+    "target": "142-hongkun-park",
+    "type": "advisor"
+  },
+  {
+    "source": "235-a-paul-alivisatos",
+    "target": "142-hongkun-park",
+    "type": "advisor"
+  },
+  {
+    "source": "303-paul-l-mceuen",
+    "target": "142-hongkun-park",
+    "type": "advisor"
+  },
+  {
+    "source": "221-gerhard-rempe",
+    "target": "143-andreas-reiserer",
+    "type": "advisor"
+  },
+  {
+    "source": "164-john-clarke",
+    "target": "144-john-m-martinis",
+    "type": "advisor"
+  },
+  {
+    "source": "258-daniel-prober",
+    "target": "145-robert-schoelkopf",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "242-anatole-abragam",
+    "target": "146-michel-devoret",
+    "type": "advisor"
+  },
+  {
+    "source": "164-john-clarke",
+    "target": "146-michel-devoret",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "148-andrew-houck",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "149-david-schuster",
+    "type": "advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "149-david-schuster",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "146-michel-devoret",
+    "target": "150-irfan-siddiqi",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "164-john-clarke",
+    "target": "151-a-n-cleland",
+    "type": "advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "152-k-w-lehnert",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "325-tord-claeson",
+    "target": "154-per-delsing",
+    "type": "advisor"
+  },
+  {
+    "source": "171-a-v-ustinov",
+    "target": "155-andreas-wallraff",
+    "type": "advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "155-andreas-wallraff",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "156-jens-koch",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "250-charles-m-marcus",
+    "target": "159-l-dicarlo",
+    "type": "advisor"
+  },
+  {
+    "source": "304-paul-vitanyi",
+    "target": "160-barbara-m-terhal",
+    "type": "advisor"
+  },
+  {
+    "source": "147-s-m-girvin",
+    "target": "161-alexandre-blais",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "000-wiebke-guichard",
+    "target": "163-ioan-m-pop",
+    "type": "advisor"
+  },
+  {
+    "source": "146-michel-devoret",
+    "target": "163-ioan-m-pop",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "247-brian-pippard",
+    "target": "164-john-clarke",
+    "type": "advisor"
+  },
+  {
+    "source": "154-per-delsing",
+    "target": "165-jonas-bylander",
+    "type": "advisor"
+  },
+  {
+    "source": "201-william-d-oliver",
+    "target": "165-jonas-bylander",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "164-john-clarke",
+    "target": "166-r-mcdermott",
+    "type": "advisor"
+  },
+  {
+    "source": "144-john-m-martinis",
+    "target": "166-r-mcdermott",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "269-gerd-schon",
+    "target": "167-frank-k-wilhelm",
+    "type": "advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "168-yiwen-chu",
+    "type": "advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "168-yiwen-chu",
+    "type": "advisor"
+  },
+  {
+    "source": "292-lieven-m-k-vandersypen",
+    "target": "169-pasquale-scarlino",
+    "type": "advisor"
+  },
+  {
+    "source": "155-andreas-wallraff",
+    "target": "169-pasquale-scarlino",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "145-robert-schoelkopf",
+    "target": "170-yvonne-y-gao",
+    "type": "advisor"
+  },
+  {
+    "source": "155-andreas-wallraff",
+    "target": "172-j-m-fink",
+    "type": "advisor"
+  },
+  {
+    "source": "157-oskar-painter",
+    "target": "172-j-m-fink",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "225-jean-michel-raimond",
+    "target": "173-patrice-bertet",
+    "type": "advisor"
+  },
+  {
+    "source": "310-pierre-rouchon",
+    "target": "174-mazyar-mirrahimi",
+    "type": "advisor"
+  },
+  {
+    "source": "174-mazyar-mirrahimi",
+    "target": "175-zaki-leghtas",
+    "type": "advisor"
+  },
+  {
+    "source": "146-michel-devoret",
+    "target": "175-zaki-leghtas",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "223-anton-zeilinger",
+    "target": "176-jian-wei-pan",
+    "type": "advisor"
+  },
+  {
+    "source": "223-anton-zeilinger",
+    "target": "176-jian-wei-pan",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "176-jian-wei-pan",
+    "target": "177-chaoyang-lu",
+    "type": "advisor"
+  },
+  {
+    "source": "223-anton-zeilinger",
+    "target": "178-philip-walther",
+    "type": "advisor"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "178-philip-walther",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "265-francesco-de-martini",
+    "target": "179-fabio-sciarrino",
+    "type": "advisor"
+  },
+  {
+    "source": "276-jacqueline-bloch",
+    "target": "180-pascale-senellart",
+    "type": "advisor"
+  },
+  {
+    "source": "296-michael-g-raymer",
+    "target": "181-ian-walmsley",
+    "type": "advisor"
+  },
+  {
+    "source": "253-constantin-piron",
+    "target": "182-nicolas-gisin",
+    "type": "advisor"
+  },
+  {
+    "source": "241-alexander-sergienko",
+    "target": "183-mete-atature",
+    "type": "advisor"
+  },
+  {
+    "source": "245-atac-imamoglu",
+    "target": "183-mete-atature",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "190-jeremy-obrien",
+    "target": "184-anthony-laing",
+    "type": "advisor"
+  },
+  {
+    "source": "000-preben-buchhave",
+    "target": "185-ulrik-andersen",
+    "type": "advisor"
+  },
+  {
+    "source": "194-gerd-leuchs",
+    "target": "185-ulrik-andersen",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "319-stephan-reitzenstein",
+    "target": "186-tobias-heindel",
+    "type": "advisor"
+  },
+  {
+    "source": "319-stephan-reitzenstein",
+    "target": "186-tobias-heindel",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "223-anton-zeilinger",
+    "target": "188-rupert-ursin",
+    "type": "advisor"
+  },
+  {
+    "source": "000-helen-freedhoff",
+    "target": "191-terry-rudolph",
+    "type": "advisor"
   },
   {
     "source": "223-anton-zeilinger",
@@ -1408,6 +1353,61 @@
     "source": "239-alexander-gaeta",
     "target": "192-sven-ramelow",
     "type": "postdoc_advisor"
+  },
+  {
+    "source": "275-herbert-walther",
+    "target": "194-gerd-leuchs",
+    "type": "advisor"
+  },
+  {
+    "source": "274-harry-buhrman",
+    "target": "196-stephanie-wehner",
+    "type": "advisor"
+  },
+  {
+    "source": "210-john-preskill",
+    "target": "196-stephanie-wehner",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "182-nicolas-gisin",
+    "target": "197-hugues-de-riedmatten",
+    "type": "advisor"
+  },
+  {
+    "source": "222-h-jeff-kimble",
+    "target": "197-hugues-de-riedmatten",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "182-nicolas-gisin",
+    "target": "197-hugues-de-riedmatten",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "182-nicolas-gisin",
+    "target": "198-mikael-afzelius",
+    "type": "advisor"
+  },
+  {
+    "source": "182-nicolas-gisin",
+    "target": "200-wolfgang-tittel",
+    "type": "advisor"
+  },
+  {
+    "source": "327-yoshihisa-yamamoto",
+    "target": "201-william-d-oliver",
+    "type": "advisor"
+  },
+  {
+    "source": "218-steven-chu",
+    "target": "204-nir-davidson",
+    "type": "postdoc_advisor"
+  },
+  {
+    "source": "204-nir-davidson",
+    "target": "c018-q-factor",
+    "type": "affiliated_with"
   },
   {
     "source": "204-nir-davidson",
@@ -1430,49 +1430,29 @@
     "type": "affiliated_with"
   },
   {
-    "source": "244-andrew-white",
-    "target": "077-ben-lanyon",
+    "source": "001-roee-ozeri",
+    "target": "206-tom-manovitz",
     "type": "advisor"
   },
   {
-    "source": "017-rainer-blatt",
-    "target": "077-ben-lanyon",
+    "source": "080-mikhail-d-lukin",
+    "target": "206-tom-manovitz",
     "type": "postdoc_advisor"
   },
   {
-    "source": "292-lieven-m-k-vandersypen",
-    "target": "169-pasquale-scarlino",
+    "source": "209-barak-dayan",
+    "target": "207-serge-rosenblum",
     "type": "advisor"
   },
   {
-    "source": "155-andreas-wallraff",
-    "target": "169-pasquale-scarlino",
+    "source": "145-robert-schoelkopf",
+    "target": "207-serge-rosenblum",
     "type": "postdoc_advisor"
   },
   {
-    "source": "221-gerhard-rempe",
-    "target": "143-andreas-reiserer",
-    "type": "advisor"
-  },
-  {
-    "source": "331-nikolai-kolachevsky",
-    "target": "i122-russian-quantum-center",
+    "source": "207-serge-rosenblum",
+    "target": "c015-quamcore",
     "type": "affiliated_with"
-  },
-  {
-    "source": "265-francesco-de-martini",
-    "target": "179-fabio-sciarrino",
-    "type": "advisor"
-  },
-  {
-    "source": "176-jian-wei-pan",
-    "target": "177-chaoyang-lu",
-    "type": "advisor"
-  },
-  {
-    "source": "146-michel-devoret",
-    "target": "150-irfan-siddiqi",
-    "type": "postdoc_advisor"
   },
   {
     "source": "222-h-jeff-kimble",
@@ -1485,14 +1465,219 @@
     "type": "affiliated_with"
   },
   {
-    "source": "145-robert-schoelkopf",
-    "target": "065-luyan-sun",
+    "source": "006-david-wineland",
+    "target": "261-david-kielpinski",
     "type": "postdoc_advisor"
   },
   {
-    "source": "146-michel-devoret",
-    "target": "065-luyan-sun",
+    "source": "205-ofer-firstenberg",
+    "target": "329-ran-finkelstein",
+    "type": "advisor"
+  },
+  {
+    "source": "086-manuel-endres",
+    "target": "329-ran-finkelstein",
     "type": "postdoc_advisor"
+  },
+  {
+    "source": "330-ksenia-khabarova",
+    "target": "i122-russian-quantum-center",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "331-nikolai-kolachevsky",
+    "target": "i122-russian-quantum-center",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "332-ilya-semerikov",
+    "target": "i122-russian-quantum-center",
+    "type": "affiliated_with"
+  },
+  {
+    "source": "000-tal-david",
+    "target": "c001-quantum-art",
+    "type": "founder"
+  },
+  {
+    "source": "000-amit-ben-kish",
+    "target": "c001-quantum-art",
+    "type": "founder"
+  },
+  {
+    "source": "001-roee-ozeri",
+    "target": "c001-quantum-art",
+    "type": "founder"
+  },
+  {
+    "source": "000-tal-david",
+    "target": "c001-quantum-art",
+    "type": "leadership"
+  },
+  {
+    "source": "c001-quantum-art",
+    "target": "i001-weizmann-institute-of-science",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "004-christopher-monroe",
+    "target": "c002-ionq",
+    "type": "founder"
+  },
+  {
+    "source": "010-jungsang-kim",
+    "target": "c002-ionq",
+    "type": "founder"
+  },
+  {
+    "source": "c002-ionq",
+    "target": "i120-university-of-maryland",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "c002-ionq",
+    "target": "i004-duke-university",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "017-rainer-blatt",
+    "target": "c003-alpine-quantum-technologies-aqt",
+    "type": "founder"
+  },
+  {
+    "source": "014-thomas-monz",
+    "target": "c003-alpine-quantum-technologies-aqt",
+    "type": "founder"
+  },
+  {
+    "source": "098-p-zoller",
+    "target": "c003-alpine-quantum-technologies-aqt",
+    "type": "founder"
+  },
+  {
+    "source": "014-thomas-monz",
+    "target": "c003-alpine-quantum-technologies-aqt",
+    "type": "leadership"
+  },
+  {
+    "source": "c003-alpine-quantum-technologies-aqt",
+    "target": "i046-university-of-innsbruck",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "003-chris-ballance",
+    "target": "c004-oxford-ionics",
+    "type": "founder"
+  },
+  {
+    "source": "c004-oxford-ionics",
+    "target": "i049-university-of-oxford",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "021-mike-biercuk",
+    "target": "c005-q-ctrl",
+    "type": "founder"
+  },
+  {
+    "source": "021-mike-biercuk",
+    "target": "c005-q-ctrl",
+    "type": "leadership"
+  },
+  {
+    "source": "c005-q-ctrl",
+    "target": "i052-university-of-sydney",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "c006-quera-computing",
+    "type": "founder"
+  },
+  {
+    "source": "083-markus-greiner",
+    "target": "c006-quera-computing",
+    "type": "founder"
+  },
+  {
+    "source": "040-vladan-vuletic",
+    "target": "c006-quera-computing",
+    "type": "founder"
+  },
+  {
+    "source": "122-dirk-englund",
+    "target": "c006-quera-computing",
+    "type": "founder"
+  },
+  {
+    "source": "000-nathan-gemelke",
+    "target": "c006-quera-computing",
+    "type": "founder"
+  },
+  {
+    "source": "000-andy-ory",
+    "target": "c006-quera-computing",
+    "type": "leadership"
+  },
+  {
+    "source": "040-vladan-vuletic",
+    "target": "c006-quera-computing",
+    "type": "leadership"
+  },
+  {
+    "source": "080-mikhail-d-lukin",
+    "target": "c006-quera-computing",
+    "type": "leadership"
+  },
+  {
+    "source": "000-nathan-gemelke",
+    "target": "c006-quera-computing",
+    "type": "leadership"
+  },
+  {
+    "source": "c006-quera-computing",
+    "target": "i060-harvard-university",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "c006-quera-computing",
+    "target": "i017-massachusetts-institute-of-technology",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "000-dr-itamar-sivan",
+    "target": "c007-quantum-machines",
+    "type": "founder"
+  },
+  {
+    "source": "000-dr-yonatan-cohen",
+    "target": "c007-quantum-machines",
+    "type": "founder"
+  },
+  {
+    "source": "000-dr-nissim-ofek",
+    "target": "c007-quantum-machines",
+    "type": "founder"
+  },
+  {
+    "source": "c007-quantum-machines",
+    "target": "i001-weizmann-institute-of-science",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "000-nir-minerbi",
+    "target": "c008-classiq-technologies",
+    "type": "founder"
+  },
+  {
+    "source": "000-amir-naveh",
+    "target": "c008-classiq-technologies",
+    "type": "founder"
+  },
+  {
+    "source": "000-dr-yehuda-naveh",
+    "target": "c008-classiq-technologies",
+    "type": "founder"
   },
   {
     "source": "000-dr-shai-machnes",
@@ -1507,6 +1692,396 @@
   {
     "source": "c009-quantlr",
     "target": "i061-hebrew-university-of-jerusalem",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "000-shmuel-bachinsky",
+    "target": "c010-quantum-transistors",
+    "type": "founder"
+  },
+  {
+    "source": "000-moshe-tordjman",
+    "target": "c010-quantum-transistors",
+    "type": "founder"
+  },
+  {
+    "source": "000-saar-barak",
+    "target": "c011-quancilla",
+    "type": "founder"
+  },
+  {
+    "source": "000-uri-almedon",
+    "target": "c011-quancilla",
+    "type": "founder"
+  },
+  {
+    "source": "000-roman-vercetti",
+    "target": "c012-enquantum",
+    "type": "founder"
+  },
+  {
+    "source": "000-asif-sinay",
+    "target": "c013-qedma",
+    "type": "founder"
+  },
+  {
+    "source": "231-dorit-aharonov",
+    "target": "c013-qedma",
+    "type": "founder"
+  },
+  {
+    "source": "232-netanel-lindner",
+    "target": "c013-qedma",
+    "type": "founder"
+  },
+  {
+    "source": "000-oded-melamed",
+    "target": "c014-quantum-source-labs",
+    "type": "founder"
+  },
+  {
+    "source": "000-gil-semo",
+    "target": "c014-quantum-source-labs",
+    "type": "founder"
+  },
+  {
+    "source": "000-dan-charash",
+    "target": "c014-quantum-source-labs",
+    "type": "founder"
+  },
+  {
+    "source": "209-barak-dayan",
+    "target": "c014-quantum-source-labs",
+    "type": "founder"
+  },
+  {
+    "source": "000-alon-cohen",
+    "target": "c015-quamcore",
+    "type": "founder"
+  },
+  {
+    "source": "233-shay-hacohen-gourgy",
+    "target": "c015-quamcore",
+    "type": "founder"
+  },
+  {
+    "source": "207-serge-rosenblum",
+    "target": "c015-quamcore",
+    "type": "founder"
+  },
+  {
+    "source": "012-winfried-hensinger",
+    "target": "c016-universal-quantum",
+    "type": "founder"
+  },
+  {
+    "source": "c016-universal-quantum",
+    "target": "i051-university-of-sussex",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "029-christof-wunderlich",
+    "target": "c017-eleqtron",
+    "type": "founder"
+  },
+  {
+    "source": "c017-eleqtron",
+    "target": "i050-university-of-siegen",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "204-nir-davidson",
+    "target": "c018-q-factor",
+    "type": "founder"
+  },
+  {
+    "source": "205-ofer-firstenberg",
+    "target": "c018-q-factor",
+    "type": "founder"
+  },
+  {
+    "source": "234-yoav-sagi",
+    "target": "c018-q-factor",
+    "type": "founder"
+  },
+  {
+    "source": "000-guy-raz",
+    "target": "c018-q-factor",
+    "type": "founder"
+  },
+  {
+    "source": "c018-q-factor",
+    "target": "i001-weizmann-institute-of-science",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "c018-q-factor",
+    "target": "i034-technion-israel-institute-of-technology",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "000-georges-olivier-reymond",
+    "target": "c019-pasqal",
+    "type": "founder"
+  },
+  {
+    "source": "213-alain-aspect",
+    "target": "c019-pasqal",
+    "type": "founder"
+  },
+  {
+    "source": "084-antoine-browaeys",
+    "target": "c019-pasqal",
+    "type": "founder"
+  },
+  {
+    "source": "085-thierry-lahaye",
+    "target": "c019-pasqal",
+    "type": "founder"
+  },
+  {
+    "source": "000-georges-olivier-reymond",
+    "target": "c019-pasqal",
+    "type": "leadership"
+  },
+  {
+    "source": "000-jan-goetz",
+    "target": "c020-iqm",
+    "type": "founder"
+  },
+  {
+    "source": "299-mikko-mottonen",
+    "target": "c020-iqm",
+    "type": "founder"
+  },
+  {
+    "source": "000-kuan-yen-tan",
+    "target": "c020-iqm",
+    "type": "founder"
+  },
+  {
+    "source": "000-juha-vartiainen",
+    "target": "c020-iqm",
+    "type": "founder"
+  },
+  {
+    "source": "000-jan-goetz",
+    "target": "c020-iqm",
+    "type": "leadership"
+  },
+  {
+    "source": "c020-iqm",
+    "target": "i116-aalto-university",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "c020-iqm",
+    "target": "i117-vtt-technical-research-centre",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "000-hartmut-neven",
+    "target": "c021-google-quantum-ai",
+    "type": "founder"
+  },
+  {
+    "source": "000-hartmut-neven",
+    "target": "c021-google-quantum-ai",
+    "type": "leadership"
+  },
+  {
+    "source": "000-julian-kelly",
+    "target": "c021-google-quantum-ai",
+    "type": "leadership"
+  },
+  {
+    "source": "000-jay-gambetta",
+    "target": "c022-ibm-quantum",
+    "type": "leadership"
+  },
+  {
+    "source": "307-peter-leek",
+    "target": "c023-oxford-quantum-circuits",
+    "type": "founder"
+  },
+  {
+    "source": "000-gerald-mullally",
+    "target": "c023-oxford-quantum-circuits",
+    "type": "leadership"
+  },
+  {
+    "source": "307-peter-leek",
+    "target": "c023-oxford-quantum-circuits",
+    "type": "leadership"
+  },
+  {
+    "source": "c023-oxford-quantum-circuits",
+    "target": "i049-university-of-oxford",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "000-chad-rigetti",
+    "target": "c024-rigetti-computing",
+    "type": "founder"
+  },
+  {
+    "source": "000-subodh-kulkarni",
+    "target": "c024-rigetti-computing",
+    "type": "leadership"
+  },
+  {
+    "source": "000-andrew-horsley",
+    "target": "c025-quantum-brilliance",
+    "type": "founder"
+  },
+  {
+    "source": "119-marcus-w-doherty",
+    "target": "c025-quantum-brilliance",
+    "type": "founder"
+  },
+  {
+    "source": "000-mark-luo",
+    "target": "c025-quantum-brilliance",
+    "type": "founder"
+  },
+  {
+    "source": "000-mark-luo",
+    "target": "c025-quantum-brilliance",
+    "type": "leadership"
+  },
+  {
+    "source": "000-andrew-horsley",
+    "target": "c025-quantum-brilliance",
+    "type": "leadership"
+  },
+  {
+    "source": "119-marcus-w-doherty",
+    "target": "c025-quantum-brilliance",
+    "type": "leadership"
+  },
+  {
+    "source": "000-andrew-dunn",
+    "target": "c025-quantum-brilliance",
+    "type": "leadership"
+  },
+  {
+    "source": "000-jayden-castillo",
+    "target": "c025-quantum-brilliance",
+    "type": "leadership"
+  },
+  {
+    "source": "c025-quantum-brilliance",
+    "target": "i088-australian-national-university",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "294-martin-plenio",
+    "target": "c026-nvision-imaging",
+    "type": "founder"
+  },
+  {
+    "source": "113-fedor-jelezko",
+    "target": "c026-nvision-imaging",
+    "type": "founder"
+  },
+  {
+    "source": "000-ilai-schwartz",
+    "target": "c026-nvision-imaging",
+    "type": "founder"
+  },
+  {
+    "source": "238-alex-retzker",
+    "target": "c026-nvision-imaging",
+    "type": "founder"
+  },
+  {
+    "source": "000-sella-brosh",
+    "target": "c026-nvision-imaging",
+    "type": "founder"
+  },
+  {
+    "source": "000-sella-brosh",
+    "target": "c026-nvision-imaging",
+    "type": "leadership"
+  },
+  {
+    "source": "000-ilai-schwartz",
+    "target": "c026-nvision-imaging",
+    "type": "leadership"
+  },
+  {
+    "source": "c026-nvision-imaging",
+    "target": "i036-ulm-university",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "000-siobhan-duffy",
+    "target": "c027-element-six",
+    "type": "leadership"
+  },
+  {
+    "source": "000-ben-bloom",
+    "target": "c028-atom-computing",
+    "type": "founder"
+  },
+  {
+    "source": "000-jonathan-king",
+    "target": "c028-atom-computing",
+    "type": "founder"
+  },
+  {
+    "source": "000-ben-bloom",
+    "target": "c028-atom-computing",
+    "type": "leadership"
+  },
+  {
+    "source": "257-dana-anderson",
+    "target": "c029-infleqtion",
+    "type": "founder"
+  },
+  {
+    "source": "c029-infleqtion",
+    "target": "i104-university-of-colorado-boulder",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "c029-infleqtion",
+    "target": "i068-joint-institute-for-laboratory-astrophysics",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "190-jeremy-obrien",
+    "target": "c030-psiquantum",
+    "type": "founder"
+  },
+  {
+    "source": "191-terry-rudolph",
+    "target": "c030-psiquantum",
+    "type": "founder"
+  },
+  {
+    "source": "000-pete-shadbolt",
+    "target": "c030-psiquantum",
+    "type": "founder"
+  },
+  {
+    "source": "328-mark-thompson",
+    "target": "c030-psiquantum",
+    "type": "founder"
+  },
+  {
+    "source": "000-victor-peng",
+    "target": "c030-psiquantum",
+    "type": "leadership"
+  },
+  {
+    "source": "c030-psiquantum",
+    "target": "i118-university-of-bristol",
+    "type": "spun_out_from"
+  },
+  {
+    "source": "c030-psiquantum",
+    "target": "i009-imperial-college-london",
     "type": "spun_out_from"
   },
   {
@@ -1537,151 +2112,6 @@
   {
     "source": "000-michael-trzupek",
     "target": "c031-xanadu",
-    "type": "leadership"
-  },
-  {
-    "source": "000-georges-olivier-reymond",
-    "target": "c019-pasqal",
-    "type": "founder"
-  },
-  {
-    "source": "213-alain-aspect",
-    "target": "c019-pasqal",
-    "type": "founder"
-  },
-  {
-    "source": "084-antoine-browaeys",
-    "target": "c019-pasqal",
-    "type": "founder"
-  },
-  {
-    "source": "085-thierry-lahaye",
-    "target": "c019-pasqal",
-    "type": "founder"
-  },
-  {
-    "source": "000-georges-olivier-reymond",
-    "target": "c019-pasqal",
-    "type": "leadership"
-  },
-  {
-    "source": "021-mike-biercuk",
-    "target": "c005-q-ctrl",
-    "type": "founder"
-  },
-  {
-    "source": "021-mike-biercuk",
-    "target": "c005-q-ctrl",
-    "type": "leadership"
-  },
-  {
-    "source": "c005-q-ctrl",
-    "target": "i052-university-of-sydney",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-hans-van-den-vlekkert",
-    "target": "c033-quix-quantum",
-    "type": "founder"
-  },
-  {
-    "source": "280-jelmer-renema",
-    "target": "c033-quix-quantum",
-    "type": "founder"
-  },
-  {
-    "source": "305-pepijn-pinkse",
-    "target": "c033-quix-quantum",
-    "type": "founder"
-  },
-  {
-    "source": "288-klaus-boller",
-    "target": "c033-quix-quantum",
-    "type": "founder"
-  },
-  {
-    "source": "000-stefan-hengesbach",
-    "target": "c033-quix-quantum",
-    "type": "leadership"
-  },
-  {
-    "source": "000-kathy-willing",
-    "target": "c033-quix-quantum",
-    "type": "leadership"
-  },
-  {
-    "source": "000-devin-smith",
-    "target": "c033-quix-quantum",
-    "type": "leadership"
-  },
-  {
-    "source": "280-jelmer-renema",
-    "target": "c033-quix-quantum",
-    "type": "leadership"
-  },
-  {
-    "source": "c033-quix-quantum",
-    "target": "i119-university-of-twente",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-hartmut-neven",
-    "target": "c021-google-quantum-ai",
-    "type": "founder"
-  },
-  {
-    "source": "000-hartmut-neven",
-    "target": "c021-google-quantum-ai",
-    "type": "leadership"
-  },
-  {
-    "source": "000-julian-kelly",
-    "target": "c021-google-quantum-ai",
-    "type": "leadership"
-  },
-  {
-    "source": "000-alon-cohen",
-    "target": "c015-quamcore",
-    "type": "founder"
-  },
-  {
-    "source": "233-shay-hacohen-gourgy",
-    "target": "c015-quamcore",
-    "type": "founder"
-  },
-  {
-    "source": "207-serge-rosenblum",
-    "target": "c015-quamcore",
-    "type": "founder"
-  },
-  {
-    "source": "000-oded-melamed",
-    "target": "c014-quantum-source-labs",
-    "type": "founder"
-  },
-  {
-    "source": "000-gil-semo",
-    "target": "c014-quantum-source-labs",
-    "type": "founder"
-  },
-  {
-    "source": "000-dan-charash",
-    "target": "c014-quantum-source-labs",
-    "type": "founder"
-  },
-  {
-    "source": "209-barak-dayan",
-    "target": "c014-quantum-source-labs",
-    "type": "founder"
-  },
-  {
-    "source": "000-chad-rigetti",
-    "target": "c024-rigetti-computing",
-    "type": "founder"
-  },
-  {
-    "source": "000-subodh-kulkarni",
-    "target": "c024-rigetti-computing",
     "type": "leadership"
   },
   {
@@ -1745,388 +2175,48 @@
     "type": "spun_out_from"
   },
   {
-    "source": "274-harry-buhrman",
-    "target": "c035-quantinuum",
+    "source": "000-hans-van-den-vlekkert",
+    "target": "c033-quix-quantum",
+    "type": "founder"
+  },
+  {
+    "source": "280-jelmer-renema",
+    "target": "c033-quix-quantum",
+    "type": "founder"
+  },
+  {
+    "source": "305-pepijn-pinkse",
+    "target": "c033-quix-quantum",
+    "type": "founder"
+  },
+  {
+    "source": "288-klaus-boller",
+    "target": "c033-quix-quantum",
+    "type": "founder"
+  },
+  {
+    "source": "000-stefan-hengesbach",
+    "target": "c033-quix-quantum",
     "type": "leadership"
   },
   {
-    "source": "000-saar-barak",
-    "target": "c011-quancilla",
-    "type": "founder"
-  },
-  {
-    "source": "000-uri-almedon",
-    "target": "c011-quancilla",
-    "type": "founder"
-  },
-  {
-    "source": "000-dr-itamar-sivan",
-    "target": "c007-quantum-machines",
-    "type": "founder"
-  },
-  {
-    "source": "000-dr-yonatan-cohen",
-    "target": "c007-quantum-machines",
-    "type": "founder"
-  },
-  {
-    "source": "000-dr-nissim-ofek",
-    "target": "c007-quantum-machines",
-    "type": "founder"
-  },
-  {
-    "source": "c007-quantum-machines",
-    "target": "i001-weizmann-institute-of-science",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-roman-vercetti",
-    "target": "c012-enquantum",
-    "type": "founder"
-  },
-  {
-    "source": "080-mikhail-d-lukin",
-    "target": "c006-quera-computing",
-    "type": "founder"
-  },
-  {
-    "source": "083-markus-greiner",
-    "target": "c006-quera-computing",
-    "type": "founder"
-  },
-  {
-    "source": "040-vladan-vuletic",
-    "target": "c006-quera-computing",
-    "type": "founder"
-  },
-  {
-    "source": "122-dirk-englund",
-    "target": "c006-quera-computing",
-    "type": "founder"
-  },
-  {
-    "source": "000-nathan-gemelke",
-    "target": "c006-quera-computing",
-    "type": "founder"
-  },
-  {
-    "source": "000-andy-ory",
-    "target": "c006-quera-computing",
+    "source": "000-kathy-willing",
+    "target": "c033-quix-quantum",
     "type": "leadership"
   },
   {
-    "source": "040-vladan-vuletic",
-    "target": "c006-quera-computing",
+    "source": "000-devin-smith",
+    "target": "c033-quix-quantum",
     "type": "leadership"
   },
   {
-    "source": "080-mikhail-d-lukin",
-    "target": "c006-quera-computing",
+    "source": "280-jelmer-renema",
+    "target": "c033-quix-quantum",
     "type": "leadership"
   },
   {
-    "source": "000-nathan-gemelke",
-    "target": "c006-quera-computing",
-    "type": "leadership"
-  },
-  {
-    "source": "c006-quera-computing",
-    "target": "i060-harvard-university",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "c006-quera-computing",
-    "target": "i017-massachusetts-institute-of-technology",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-jay-gambetta",
-    "target": "c022-ibm-quantum",
-    "type": "leadership"
-  },
-  {
-    "source": "000-jan-goetz",
-    "target": "c020-iqm",
-    "type": "founder"
-  },
-  {
-    "source": "299-mikko-mottonen",
-    "target": "c020-iqm",
-    "type": "founder"
-  },
-  {
-    "source": "000-kuan-yen-tan",
-    "target": "c020-iqm",
-    "type": "founder"
-  },
-  {
-    "source": "000-juha-vartiainen",
-    "target": "c020-iqm",
-    "type": "founder"
-  },
-  {
-    "source": "000-jan-goetz",
-    "target": "c020-iqm",
-    "type": "leadership"
-  },
-  {
-    "source": "c020-iqm",
-    "target": "i116-aalto-university",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "c020-iqm",
-    "target": "i117-vtt-technical-research-centre",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "204-nir-davidson",
-    "target": "c018-q-factor",
-    "type": "founder"
-  },
-  {
-    "source": "205-ofer-firstenberg",
-    "target": "c018-q-factor",
-    "type": "founder"
-  },
-  {
-    "source": "234-yoav-sagi",
-    "target": "c018-q-factor",
-    "type": "founder"
-  },
-  {
-    "source": "000-guy-raz",
-    "target": "c018-q-factor",
-    "type": "founder"
-  },
-  {
-    "source": "c018-q-factor",
-    "target": "i001-weizmann-institute-of-science",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "c018-q-factor",
-    "target": "i034-technion-israel-institute-of-technology",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "003-chris-ballance",
-    "target": "c004-oxford-ionics",
-    "type": "founder"
-  },
-  {
-    "source": "c004-oxford-ionics",
-    "target": "i049-university-of-oxford",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-andrew-horsley",
-    "target": "c025-quantum-brilliance",
-    "type": "founder"
-  },
-  {
-    "source": "119-marcus-w-doherty",
-    "target": "c025-quantum-brilliance",
-    "type": "founder"
-  },
-  {
-    "source": "000-mark-luo",
-    "target": "c025-quantum-brilliance",
-    "type": "founder"
-  },
-  {
-    "source": "000-mark-luo",
-    "target": "c025-quantum-brilliance",
-    "type": "leadership"
-  },
-  {
-    "source": "000-andrew-horsley",
-    "target": "c025-quantum-brilliance",
-    "type": "leadership"
-  },
-  {
-    "source": "119-marcus-w-doherty",
-    "target": "c025-quantum-brilliance",
-    "type": "leadership"
-  },
-  {
-    "source": "000-andrew-dunn",
-    "target": "c025-quantum-brilliance",
-    "type": "leadership"
-  },
-  {
-    "source": "000-jayden-castillo",
-    "target": "c025-quantum-brilliance",
-    "type": "leadership"
-  },
-  {
-    "source": "c025-quantum-brilliance",
-    "target": "i088-australian-national-university",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "190-jeremy-obrien",
-    "target": "c030-psiquantum",
-    "type": "founder"
-  },
-  {
-    "source": "191-terry-rudolph",
-    "target": "c030-psiquantum",
-    "type": "founder"
-  },
-  {
-    "source": "000-pete-shadbolt",
-    "target": "c030-psiquantum",
-    "type": "founder"
-  },
-  {
-    "source": "328-mark-thompson",
-    "target": "c030-psiquantum",
-    "type": "founder"
-  },
-  {
-    "source": "000-victor-peng",
-    "target": "c030-psiquantum",
-    "type": "leadership"
-  },
-  {
-    "source": "c030-psiquantum",
-    "target": "i118-university-of-bristol",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "c030-psiquantum",
-    "target": "i009-imperial-college-london",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-nir-minerbi",
-    "target": "c008-classiq-technologies",
-    "type": "founder"
-  },
-  {
-    "source": "000-amir-naveh",
-    "target": "c008-classiq-technologies",
-    "type": "founder"
-  },
-  {
-    "source": "000-dr-yehuda-naveh",
-    "target": "c008-classiq-technologies",
-    "type": "founder"
-  },
-  {
-    "source": "000-shmuel-bachinsky",
-    "target": "c010-quantum-transistors",
-    "type": "founder"
-  },
-  {
-    "source": "000-moshe-tordjman",
-    "target": "c010-quantum-transistors",
-    "type": "founder"
-  },
-  {
-    "source": "012-winfried-hensinger",
-    "target": "c016-universal-quantum",
-    "type": "founder"
-  },
-  {
-    "source": "c016-universal-quantum",
-    "target": "i051-university-of-sussex",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-siobhan-duffy",
-    "target": "c027-element-six",
-    "type": "leadership"
-  },
-  {
-    "source": "294-martin-plenio",
-    "target": "c026-nvision-imaging",
-    "type": "founder"
-  },
-  {
-    "source": "113-fedor-jelezko",
-    "target": "c026-nvision-imaging",
-    "type": "founder"
-  },
-  {
-    "source": "000-ilai-schwartz",
-    "target": "c026-nvision-imaging",
-    "type": "founder"
-  },
-  {
-    "source": "238-alex-retzker",
-    "target": "c026-nvision-imaging",
-    "type": "founder"
-  },
-  {
-    "source": "000-sella-brosh",
-    "target": "c026-nvision-imaging",
-    "type": "founder"
-  },
-  {
-    "source": "000-sella-brosh",
-    "target": "c026-nvision-imaging",
-    "type": "leadership"
-  },
-  {
-    "source": "000-ilai-schwartz",
-    "target": "c026-nvision-imaging",
-    "type": "leadership"
-  },
-  {
-    "source": "c026-nvision-imaging",
-    "target": "i036-ulm-university",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "017-rainer-blatt",
-    "target": "c003-alpine-quantum-technologies-aqt",
-    "type": "founder"
-  },
-  {
-    "source": "014-thomas-monz",
-    "target": "c003-alpine-quantum-technologies-aqt",
-    "type": "founder"
-  },
-  {
-    "source": "098-p-zoller",
-    "target": "c003-alpine-quantum-technologies-aqt",
-    "type": "founder"
-  },
-  {
-    "source": "014-thomas-monz",
-    "target": "c003-alpine-quantum-technologies-aqt",
-    "type": "leadership"
-  },
-  {
-    "source": "c003-alpine-quantum-technologies-aqt",
-    "target": "i046-university-of-innsbruck",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "c036-planqc",
-    "target": "i101-max-planck-institute-of-quantum-optics",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "004-christopher-monroe",
-    "target": "c002-ionq",
-    "type": "founder"
-  },
-  {
-    "source": "010-jungsang-kim",
-    "target": "c002-ionq",
-    "type": "founder"
-  },
-  {
-    "source": "c002-ionq",
-    "target": "i120-university-of-maryland",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "c002-ionq",
-    "target": "i004-duke-university",
+    "source": "c033-quix-quantum",
+    "target": "i119-university-of-twente",
     "type": "spun_out_from"
   },
   {
@@ -2180,104 +2270,14 @@
     "type": "spun_out_from"
   },
   {
-    "source": "000-tal-david",
-    "target": "c001-quantum-art",
-    "type": "founder"
-  },
-  {
-    "source": "000-amit-ben-kish",
-    "target": "c001-quantum-art",
-    "type": "founder"
-  },
-  {
-    "source": "001-roee-ozeri",
-    "target": "c001-quantum-art",
-    "type": "founder"
-  },
-  {
-    "source": "000-tal-david",
-    "target": "c001-quantum-art",
+    "source": "274-harry-buhrman",
+    "target": "c035-quantinuum",
     "type": "leadership"
   },
   {
-    "source": "c001-quantum-art",
-    "target": "i001-weizmann-institute-of-science",
+    "source": "c036-planqc",
+    "target": "i101-max-planck-institute-of-quantum-optics",
     "type": "spun_out_from"
-  },
-  {
-    "source": "307-peter-leek",
-    "target": "c023-oxford-quantum-circuits",
-    "type": "founder"
-  },
-  {
-    "source": "000-gerald-mullally",
-    "target": "c023-oxford-quantum-circuits",
-    "type": "leadership"
-  },
-  {
-    "source": "307-peter-leek",
-    "target": "c023-oxford-quantum-circuits",
-    "type": "leadership"
-  },
-  {
-    "source": "c023-oxford-quantum-circuits",
-    "target": "i049-university-of-oxford",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "029-christof-wunderlich",
-    "target": "c017-eleqtron",
-    "type": "founder"
-  },
-  {
-    "source": "c017-eleqtron",
-    "target": "i050-university-of-siegen",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-asif-sinay",
-    "target": "c013-qedma",
-    "type": "founder"
-  },
-  {
-    "source": "231-dorit-aharonov",
-    "target": "c013-qedma",
-    "type": "founder"
-  },
-  {
-    "source": "232-netanel-lindner",
-    "target": "c013-qedma",
-    "type": "founder"
-  },
-  {
-    "source": "257-dana-anderson",
-    "target": "c029-infleqtion",
-    "type": "founder"
-  },
-  {
-    "source": "c029-infleqtion",
-    "target": "i104-university-of-colorado-boulder",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "c029-infleqtion",
-    "target": "i068-joint-institute-for-laboratory-astrophysics",
-    "type": "spun_out_from"
-  },
-  {
-    "source": "000-ben-bloom",
-    "target": "c028-atom-computing",
-    "type": "founder"
-  },
-  {
-    "source": "000-jonathan-king",
-    "target": "c028-atom-computing",
-    "type": "founder"
-  },
-  {
-    "source": "000-ben-bloom",
-    "target": "c028-atom-computing",
-    "type": "leadership"
   },
   {
     "source": "205-ofer-firstenberg",
