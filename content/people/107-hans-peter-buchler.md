@@ -51,6 +51,8 @@ keywords:
 - cold polar molecules
 - Rydberg polaritons
 - quantum computing theory
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true

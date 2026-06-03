@@ -46,6 +46,8 @@ keywords:
 - Topological Quantum Codes
 - Rydberg Atoms
 - Trapped Ions
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 links:
   group_page: https://mueller.fz-juelich.de/

@@ -52,6 +52,8 @@ keywords:
 - atomic ensembles
 - Bell inequality
 - quantum communication
+labels:
+- Theory group
 last_verified_at: "2026-05-30"
 lineage_check:
   advisor_verified: false

@@ -52,6 +52,8 @@ keywords:
 - quantum optimal control
 - GRAPE/Krotov methods
 - Quantum Flagship policy
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: false

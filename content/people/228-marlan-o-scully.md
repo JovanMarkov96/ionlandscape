@@ -12,6 +12,8 @@ current_position:
 entity_type: person
 group_type: theory
 id: 228-marlan-o-scully
+labels:
+- Theory group
 last_verified_at: '2026-06-02'
 links:
   wikipedia: https://en.wikipedia.org/wiki/Marlan_Scully

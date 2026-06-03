@@ -51,6 +51,8 @@ keywords:
 - Quantum and electron transport phenomena
 - Mechanical and Optical Resonators
 - Quantum Mechanics and Applications
+labels:
+- Theory group
 last_verified_at: '2026-05-29'
 links:
   lab: https://jianggroup.uchicago.edu

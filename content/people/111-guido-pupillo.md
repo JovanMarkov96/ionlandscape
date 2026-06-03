@@ -53,6 +53,8 @@ keywords:
 - Strongly correlated quantum phases
 - Quantum simulation with Rydberg atoms
 - Supersolids and exotic quantum phases
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true

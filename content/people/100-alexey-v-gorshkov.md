@@ -53,6 +53,8 @@ keywords:
 - quantum optics
 - alkaline-earth atoms
 - polar molecules
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true

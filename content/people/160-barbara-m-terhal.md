@@ -51,6 +51,8 @@ keywords:
 - entanglement witnesses
 - quantum complexity theory
 - superconducting qubit theory
+labels:
+- Theory group
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: true

@@ -60,6 +60,8 @@ keywords:
 - optical lattices
 - Rydberg atoms
 - quantum simulation
+labels:
+- Theory group
 last_verified_at: "2026-05-30"
 lineage_check:
   advisor_verified: false

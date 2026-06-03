@@ -11,6 +11,8 @@ current_position:
 entity_type: person
 group_type: theory
 id: 306-peter-lambropoulos
+labels:
+- Theory group
 last_verified_at: '2026-06-02'
 links:
   homepage: https://www.uoc.gr/

@@ -59,6 +59,8 @@ keywords:
 - quantum noise
 - open quantum systems
 - quantum computing theory
+labels:
+- Theory group
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: false

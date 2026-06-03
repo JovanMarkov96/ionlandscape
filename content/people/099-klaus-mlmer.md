@@ -51,6 +51,8 @@ keywords:
 - Monte Carlo wave function
 - quantum measurement
 - spin squeezing and entanglement
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true

@@ -60,6 +60,8 @@ keywords:
 - spin qubits
 - quantum control
 - variational quantum algorithms
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: false

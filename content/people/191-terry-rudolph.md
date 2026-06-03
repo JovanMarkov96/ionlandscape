@@ -56,6 +56,8 @@ keywords:
 - linear optical quantum computing
 - PBR theorem
 - quantum foundations
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true

@@ -11,6 +11,8 @@ current_position:
 entity_type: person
 group_type: theory
 id: 277-jan-michael-rost
+labels:
+- Theory group
 last_verified_at: '2026-06-02'
 links:
   homepage: https://www.pks.mpg.de/

@@ -12,6 +12,8 @@ current_position:
 entity_type: person
 group_type: theory
 id: 309-peter-schmelcher
+labels:
+- Theory group
 last_verified_at: '2026-06-02'
 links:
   homepage: https://www.uni-hamburg.de/

@@ -50,6 +50,8 @@ keywords:
 - Quantum simulation
 - Discrete time crystals
 - Quantum error correction
+labels:
+- Theory group
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
