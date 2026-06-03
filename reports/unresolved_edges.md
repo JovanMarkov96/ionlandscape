@@ -16,9 +16,11 @@ Endpoints that could not be matched to a known node.
 | Bharath Kannan | c039-atlantic-quantum | founder | False | True |
 | Christophe Jurczak | c019-pasqal | founder | False | True |
 | D. G. Steel | 130-meenakshi-dutt | advisor | False | True |
+| Daniel Kleppner | 281-john-m-doyle | advisor | False | True |
 | David Rivas | c024-rigetti-computing | leadership | False | True |
 | Dean Bogdanovic | c006-quera-computing | leadership | False | True |
 | Ed Durkin | c006-quera-computing | leadership | False | True |
+| Eugene D. Commins | 259-david-demille | advisor | False | True |
 | Hans Kopfermann | 229-hans-dehmelt | advisor | False | True |
 | Ilyas Khan | c035-quantinuum | founder | False | True |
 | Ilyas Khan | c035-quantinuum | leadership | False | True |
