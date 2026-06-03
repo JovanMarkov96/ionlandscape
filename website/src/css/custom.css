@@ -3032,6 +3032,19 @@ html:has(.groups-page),
   margin-bottom: 10px;
 }
 
+/* Sub-labels within the company Team & Leadership section */
+.team-subhead {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ion-text-muted, #64748b);
+  margin: 10px 0 3px;
+}
+.team-subhead:first-of-type {
+  margin-top: 2px;
+}
+
 .funding-round-details-toggle {
   cursor: pointer;
   color: #666;

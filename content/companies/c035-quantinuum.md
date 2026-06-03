@@ -15,30 +15,29 @@ approach:
   - all_to_all_connectivity
   - logical_qubits
   differentiators:
-  - "Quantum Charge-Coupled Device (QCCD) trapped-ion architecture with all-to-all\
-    \ connectivity and the highest reported gate fidelities and Quantum Volume in\
-    \ the industry"
+  - Quantum Charge-Coupled Device (QCCD) trapped-ion architecture with all-to-all
+    connectivity and the highest reported gate fidelities and Quantum Volume in the
+    industry
   - Helios achieved a record Quantum Volume of 33.5 million and demonstrated dozens
     of error-corrected logical qubits, far ahead of competing platforms
   - Formed by merging Honeywell Quantum Solutions (hardware) with Cambridge Quantum
     (software, including the TKET compiler and the Quantum Origin / GenQAI stack)
-  - Backed by Honeywell and a deep investor base (JPMorgan, NVIDIA's NVentures,
-    Quanta Computer, QED); filed for a landmark quantum-computing IPO in 2026
+  - Backed by Honeywell and a deep investor base (JPMorgan, NVIDIA's NVentures, Quanta
+    Computer, QED); filed for a landmark quantum-computing IPO in 2026
   elevator_pitch: Quantinuum builds the world's highest-performing trapped-ion quantum
-    computers using a QCCD architecture with all-to-all connectivity, paired with a
-    full-stack software business, pursuing the first universal fault-tolerant quantum
+    computers using a QCCD architecture with all-to-all connectivity, paired with
+    a full-stack software business, pursuing the first universal fault-tolerant quantum
     computer.
 entity_type: company
 founded_year: 2021
 funding:
-  total_raised_usd: 1625000000
   last_round_date: '2025-09-01'
   rounds:
   - amount_usd: 300000000
     date: '2024-01-01'
+    lead_investor: JPMorgan Chase
     notes: Equity round valuing Quantinuum at $5 billion; brought total raised to
       roughly $625 million.
-    lead_investor: JPMorgan Chase
     other_investors:
     - Mitsui & Co.
     - Amgen
@@ -48,15 +47,16 @@ funding:
     stage: series_b
   - amount_usd: 600000000
     date: '2025-09-01'
-    notes: Raised at a $10 billion pre-money valuation, backed by Honeywell, NVIDIA's
-      NVentures, Quanta Computer, QED Investors, JPMorgan, Mitsui and others.
     lead_investors:
     - Quanta Computer
     - NVentures (NVIDIA)
     - QED Investors
+    notes: Raised at a $10 billion pre-money valuation, backed by Honeywell, NVIDIA's
+      NVentures, Quanta Computer, QED Investors, JPMorgan, Mitsui and others.
     round: Equity round
     source: https://techstartups.com/2025/09/04/honeywells-quantum-startup-quantinuum-raises-600m-in-funding-at-10b-valuation-backed-by-nvidia-and-jpmorgan/
     stage: series_c
+  total_raised_usd: 1625000000
 id: c035-quantinuum
 last_verified_at: '2026-06-02'
 links:
@@ -69,6 +69,8 @@ location:
   lon: -105.0867
   precision: city
   region: Colorado
+media:
+  logo_path: /logos/c035-quantinuum.png
 milestones:
 - claim: Quantinuum formed through the merger of Honeywell Quantum Solutions and Cambridge
     Quantum, with Ilyas Khan (founder of Cambridge Quantum) as founding CEO, to pursue
@@ -115,33 +117,41 @@ offices:
   source: https://www.quantinuum.com/company/about
 partnerships:
 - name: NVIDIA
-  type: technology
   source: https://techstartups.com/2025/09/04/honeywells-quantum-startup-quantinuum-raises-600m-in-funding-at-10b-valuation-backed-by-nvidia-and-jpmorgan/
+  type: technology
 - name: JPMorgan Chase
+  source: https://en.wikipedia.org/wiki/Quantinuum
   type: investor
-  source: https://en.wikipedia.org/wiki/Quantinuum
 - name: Microsoft Azure Quantum
-  type: go_to_market
   source: https://en.wikipedia.org/wiki/Quantinuum
+  type: go_to_market
 people:
+  former_leadership:
+  - name: Tony Uttley
+    role: President & COO (until 2023)
+    source: https://thequantuminsider.com/2023/11/16/tony-uttley-to-step-away-from-quantinuum/
   founders:
   - name: Ilyas Khan
     role: Founder of Cambridge Quantum; founding CEO of Quantinuum (now Vice Chairman)
     source: https://en.wikipedia.org/wiki/Quantinuum
   leadership:
   - name: Rajeeb (Raj) Hazra
-    role: CEO
+    role: President & CEO
     source: https://www.quantinuum.com/press-releases/quantinuum-names-rajeeb-raj-hazra-chief-executive-officer
   - name: Ilyas Khan
     role: Vice Chairman & Chief Product Officer
     source: https://en.wikipedia.org/wiki/Quantinuum
+  - name: Harry Buhrman
+    person_id: 274-harry-buhrman
+    role: Chief Scientist for Algorithms & Innovation
+    source: https://www.quantinuum.com/press-releases/world-renowned-researcher-harry-buhrman-joins-quantinuum-as-chief-scientist-for-algorithms-and-innovation
   spun_out_of:
   - name: Honeywell
-    spinout_year: 2021
     source: https://en.wikipedia.org/wiki/Quantinuum
+    spinout_year: 2021
   - name: Cambridge Quantum
-    spinout_year: 2021
     source: https://en.wikipedia.org/wiki/Quantinuum
+    spinout_year: 2021
 platforms:
 - trapped_ion
 products:
@@ -159,17 +169,17 @@ products:
   release_date: '2025-11-01'
   source: https://www.quantinuum.com/press-releases/quantinuum-announces-commercial-launch-of-new-helios-quantum-computer-that-offers-unprecedented-accuracy-to-enable-generative-quantum-ai-genqai
   stage: ga
-- description: Quantum software stack including the TKET compiler, Quantum Origin (quantum-hardened
-    cryptographic keys) and InQuanto for computational chemistry.
+- description: Quantum software stack including the TKET compiler, Quantum Origin
+    (quantum-hardened cryptographic keys) and InQuanto for computational chemistry.
   name: Quantinuum software (TKET, Quantum Origin, InQuanto)
-  stage: ga
   source: https://www.quantinuum.com/company/about
+  stage: ga
 roadmap:
-- target_date: '2027-12-31'
+- source: https://www.quantinuum.com/company/about
   target_claim: Advance through the Sol and Apollo generations toward a universal,
     fully fault-tolerant quantum computer with hundreds of physical qubits per logical
     qubit retired.
-  source: https://www.quantinuum.com/company/about
+  target_date: '2027-12-31'
 short_summary: Quantinuum (formed 2021, Broomfield CO and Cambridge UK) is the world's
   largest integrated quantum computing company, created by merging Honeywell Quantum
   Solutions with Cambridge Quantum. It builds the highest-performing trapped-ion quantum

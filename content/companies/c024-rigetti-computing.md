@@ -226,6 +226,16 @@ people:
   - name: Subodh Kulkarni
     role: President & CEO (since December 2022)
     source: https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-appoints-dr-subodh-kulkarni-president-and
+  - name: David Rivas
+    role: Chief Technology Officer (since February 2023)
+    source: https://investors.rigetti.com/corporate-governance/management
+  - name: Jeffrey Bertelsen
+    role: Chief Financial Officer (since February 2023)
+    source: https://investors.rigetti.com/corporate-governance/management
+  former_leadership:
+  - name: Chad Rigetti
+    role: Founder & CEO (2013–2022)
+    source: https://en.wikipedia.org/wiki/Rigetti_Computing
 platforms:
 - superconducting
 products:

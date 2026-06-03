@@ -191,10 +191,25 @@ people:
     source: https://en.wikipedia.org/wiki/IonQ
   leadership:
   - name: Niccolò de Masi
-    role: President & CEO
+    role: Chairman, President & CEO (CEO since February 2025)
     source: https://en.wikipedia.org/wiki/IonQ
+  - name: Inder Singh
+    role: Chief Operating Officer & Chief Financial Officer (since September 2025)
+    source: https://investors.ionq.com/governance/executive-management/default.aspx
+  - name: Rick Muller
+    role: VP of Quantum Systems (since July 2025)
+    source: https://www.ionq.com/news/ionq-expands-engineering-leadership-team-hiring-rick-muller-as-vice
+  former_leadership:
   - name: Peter Chapman
-    role: Executive Chair (CEO 2019–2025)
+    role: CEO (2019–2025), later Executive Chair
+    source: https://en.wikipedia.org/wiki/IonQ
+  - name: Christopher R. Monroe
+    role: Co-founder & Chief Scientist (2015–2023)
+    person_id: 004-christopher-monroe
+    source: https://en.wikipedia.org/wiki/IonQ
+  - name: Jungsang Kim
+    role: Co-founder & CTO (2015–2024)
+    person_id: 010-jungsang-kim
     source: https://en.wikipedia.org/wiki/IonQ
   spun_out_of:
   - name: University of Maryland

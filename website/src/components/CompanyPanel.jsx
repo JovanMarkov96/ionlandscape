@@ -333,46 +333,81 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             )}
 
             {/* People */}
-            {((company.people && (company.people.founders?.length > 0 || company.people.leadership?.length > 0)) ||
-                (company.directory?.current_members?.length > 0)) && (
+            {(() => {
+                const founders = company.people?.founders || [];
+                const leadership = company.people?.leadership || [];
+                const former = company.people?.former_leadership || [];
+                const spinouts = company.people?.spun_out_of || [];
+                const dirMembers = company.directory?.current_members || [];
+
+                // Names already listed as founders/leadership/former, so the generic
+                // directory line doesn't repeat them.
+                const known = new Set();
+                [...founders, ...leadership, ...former].forEach((p) => {
+                    if (p?.name) known.add(p.name.toLowerCase());
+                });
+                const otherMembers = dirMembers
+                    .map((pID) => {
+                        const mp = people.find((p) => p.md_filename === pID);
+                        return mp ? mp.name : pID;
+                    })
+                    .filter((nm) => nm && !known.has(nm.toLowerCase()));
+
+                if (!(founders.length || leadership.length || former.length || otherMembers.length || spinouts.length)) {
+                    return null;
+                }
+
+                const roleList = (arr) => arr.map((p, i) => (
+                    <div key={i} className="affiliation-item">
+                        <strong>{renderPersonLink(p.name)}</strong>{p.role ? ` — ${p.role}` : ''}
+                    </div>
+                ));
+
+                return (
                     <>
                         <div className="panel-divider" />
                         <h4 className="section-header">Team & Leadership</h4>
 
-                        {company.people?.founders && company.people.founders.map((p, i) => (
-                            <div key={i} className="affiliation-item">
-                                <strong>{renderPersonLink(p.name)}</strong> — {p.role}
-                            </div>
-                        ))}
+                        {founders.length > 0 && (<>
+                            <div className="team-subhead">Founders</div>
+                            {roleList(founders)}
+                        </>)}
 
-                        {company.directory?.current_members && company.directory.current_members.length > 0 && (
+                        {leadership.length > 0 && (<>
+                            <div className="team-subhead">Leadership</div>
+                            {roleList(leadership)}
+                        </>)}
+
+                        {former.length > 0 && (<>
+                            <div className="team-subhead">Former leadership</div>
+                            {roleList(former)}
+                        </>)}
+
+                        {otherMembers.length > 0 && (
                             <div className="affiliation-item" style={{ marginTop: '8px' }}>
-                                <strong>Team Members: </strong>
-                                {company.directory.current_members.map((pID, idx) => {
-                                    const matchedPerson = people.find(p => p.md_filename === pID);
-                                    const displayName = matchedPerson ? matchedPerson.name : pID;
-                                    return (
-                                        <React.Fragment key={idx}>
-                                            {renderPersonLink(displayName)}
-                                            {idx < company.directory.current_members.length - 1 ? ", " : ""}
-                                        </React.Fragment>
-                                    );
-                                })}
+                                <strong>Other team members: </strong>
+                                {otherMembers.map((nm, idx) => (
+                                    <React.Fragment key={idx}>
+                                        {renderPersonLink(nm)}
+                                        {idx < otherMembers.length - 1 ? ', ' : ''}
+                                    </React.Fragment>
+                                ))}
                             </div>
                         )}
 
-                        {company.people?.spun_out_of && company.people.spun_out_of.length > 0 && (
-                            <div className="affiliation-item" style={{ marginTop: '5px' }}>
-                                <em>Spun out of: {company.people.spun_out_of.map((inst, idx) => (
+                        {spinouts.length > 0 && (
+                            <div className="affiliation-item" style={{ marginTop: '8px' }}>
+                                <em>Spun out of: {spinouts.map((inst, idx) => (
                                     <React.Fragment key={idx}>
                                         {renderInstitutionLink(typeof inst === 'string' ? inst : inst.name)}
-                                        {idx < company.people.spun_out_of.length - 1 ? ", " : ""}
+                                        {idx < spinouts.length - 1 ? ', ' : ''}
                                     </React.Fragment>
                                 ))}</em>
                             </div>
                         )}
                     </>
-                )}
+                );
+            })()}
 
             {/* Links */}
             <div className="panel-divider" />

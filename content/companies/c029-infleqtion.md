@@ -158,15 +158,23 @@ partnerships:
 people:
   founders:
   - name: Dana Z. Anderson
-    person_id: 000-dana-anderson
-    role: Founder & Chief Science Officer
+    person_id: 257-dana-anderson
+    role: Founder & Chief Strategy/Science Officer (University of Colorado Boulder / JILA)
     source: https://en.wikipedia.org/wiki/Infleqtion
   leadership:
+  - name: Matthew Kinsella
+    role: Chief Executive Officer (since April 2024)
+    source: https://infleqtion.com/infleqtion-names-matthew-kinsella-ceo-to-lead-next-phase-of-quantum-innovation-and-growth/
+  former_leadership:
   - name: Scott Faris
-    role: CEO
-    source: https://www.infleqtion.com/about
+    role: CEO (until April 2024)
+    source: https://venturebeat.com/ai/quantum-computing-startup-infleqtion-names-matthew-kinsella-as-ceo
   spun_out_of:
-  - name: University of Colorado Boulder / JILA
+  - name: University of Colorado Boulder
+    institution_id: i104-university-of-colorado-boulder
+    source: https://en.wikipedia.org/wiki/Infleqtion
+  - name: JILA
+    institution_id: i068-joint-institute-for-laboratory-astrophysics
     source: https://en.wikipedia.org/wiki/Infleqtion
 platforms:
 - neutral_atom
