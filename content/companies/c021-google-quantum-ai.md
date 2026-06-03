@@ -105,9 +105,10 @@ people:
   - name: Julian Kelly
     role: Director of Quantum Hardware
     source: https://research.google/people/105027/
+  former_leadership:
   - name: John M. Martinis
     person_id: 144-john-m-martinis
-    role: Chief Scientist (2014–2020; departed)
+    role: Chief Scientist (2014–2020)
     source: https://en.wikipedia.org/wiki/John_M._Martinis
 platforms:
 - superconducting

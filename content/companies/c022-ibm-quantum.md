@@ -101,12 +101,12 @@ name: IBM Quantum
 people:
   leadership:
   - name: Jay Gambetta
-    role: VP of Quantum Computing (2019–2025); Director of IBM Research (from Oct
-      2025)
+    role: Director of IBM Research (from October 2025); previously VP of IBM Quantum (2019–2025)
     source: https://en.wikipedia.org/wiki/Jay_Gambetta
+  former_leadership:
   - name: Dario Gil
-    role: Senior VP and Director of IBM Research
-    source: https://newsroom.ibm.com/2022-11-09-IBM-Unveils-400-Qubit-Plus-Quantum-Processor-and-Next-Generation-IBM-Quantum-System-Two
+    role: Senior VP & Director of IBM Research (until 2025; left to become U.S. DOE Under Secretary for Science)
+    source: https://newsroom.ibm.com/blog-ibm-names-new-director-of-ibm-research
 platforms:
 - superconducting
 products:

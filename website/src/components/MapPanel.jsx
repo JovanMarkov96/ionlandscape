@@ -216,7 +216,14 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
 
             let detailText = institutionHtml;
             if (isCompany || isInstitution) {
-                detailText = props.short_summary || props.short_description || '';
+                // Truncate the preview to a universal length so the logo + a short
+                // intro fit in one popup frame; full text is on the profile.
+                let summary = props.short_summary || props.short_description || '';
+                const LIMIT = 120;
+                if (summary.length > LIMIT) {
+                    summary = summary.slice(0, LIMIT).replace(/\s+\S*$/, '').trim() + '…';
+                }
+                detailText = summary;
             }
 
             let btnTypeClass = 'person'; // Person

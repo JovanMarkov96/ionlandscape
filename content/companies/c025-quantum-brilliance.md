@@ -211,21 +211,24 @@ partnerships:
 people:
   founders:
   - name: Andrew Horsley
-    role: Co-founder & CEO (2019–present)
+    role: Co-founder; CEO 2019–2023, now Chief Technology Officer
     source: https://www.businesswire.com/news/home/20210825005293/en/Quantum-Brilliance-Raises-%249.7-Million-Seed-Funding-to-Advance-Diamond-Quantum-Accelerator-Development-and-Deployment
   - name: Marcus Doherty
     person_id: 119-marcus-w-doherty
-    role: Co-founder & CTO
+    role: Co-founder & Chief Scientific Officer
     source: https://www.businesswire.com/news/home/20210825005293/en/Quantum-Brilliance-Raises-%249.7-Million-Seed-Funding-to-Advance-Diamond-Quantum-Accelerator-Development-and-Deployment
   - name: Mark Luo
-    role: Co-founder & CEO (current)
+    role: Co-founder & CEO (since 2023; previously COO)
     source: https://www.businesswire.com/news/home/20210825005293/en/Quantum-Brilliance-Raises-%249.7-Million-Seed-Funding-to-Advance-Diamond-Quantum-Accelerator-Development-and-Deployment
   leadership:
   - name: Mark Luo
     role: Chief Executive Officer
     source: https://quantumbrilliance.com/our-team
-  - name: Marcus Doherty
+  - name: Andrew Horsley
     role: Chief Technology Officer
+    source: https://www.insidequantumtechnology.com/news-archive/quantum-brilliance-names-coo-as-ceo-and-ex-ceo-as-cto/
+  - name: Marcus Doherty
+    role: Co-founder & Chief Scientific Officer
     source: https://quantumbrilliance.com/our-team
   - name: Andrew Dunn
     role: Chief Operating Officer
