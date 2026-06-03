@@ -38,7 +38,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  orcid: null
+  orcid: https://orcid.org/0000-0002-6073-8985
 location:
   city: Osaka
   country: Japan

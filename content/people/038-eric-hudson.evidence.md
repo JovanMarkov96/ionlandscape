@@ -4,3 +4,6 @@ key_papers added 2026-05-30: 4 papers verified via APS/Science DOI lookup — ne
 
 ## Data quality notes
 - Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).
+
+## Sources
+- Verified ORCID 0000-0001-7064-0351 matched by affiliation (Massachusetts Institute of Technology The Pennsylvania State University University of California Berkeley University of Chicago); links added: orcid [2026-06-03 link sweep].

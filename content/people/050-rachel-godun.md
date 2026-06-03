@@ -42,7 +42,7 @@ lineage_check:
 links:
   group_page: https://www.npl.co.uk/people/rachel-godun
   homepage: https://www.npl.co.uk/people/rachel-godun
-  orcid: null
+  orcid: https://orcid.org/0000-0001-5256-9088
 location:
   city: Teddington
   country: United Kingdom

@@ -38,7 +38,8 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  orcid: null
+  homepage: https://southasianpaleolithic.net
+  orcid: https://orcid.org/0000-0001-8409-5876
 location:
   city: Tokyo
   country: Japan

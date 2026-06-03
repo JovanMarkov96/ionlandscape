@@ -15,6 +15,7 @@ Endpoints that could not be matched to a known node.
 | David Rivas | c024-rigetti-computing | leadership | False | True |
 | Dean Bogdanovic | c006-quera-computing | leadership | False | True |
 | Ed Durkin | c006-quera-computing | leadership | False | True |
+| Hans Kopfermann | 229-hans-dehmelt | advisor | False | True |
 | Ilyas Khan | c035-quantinuum | founder | False | True |
 | Ilyas Khan | c035-quantinuum | leadership | False | True |
 | Inder Singh | c002-ionq | leadership | False | True |
@@ -38,6 +39,7 @@ Endpoints that could not be matched to a known node.
 | Théau Peronnin | c037-alice-and-bob | founder | False | True |
 | Théau Peronnin | c037-alice-and-bob | leadership | False | True |
 | Tom Harty | c004-oxford-ionics | founder | False | True |
+| Walter Gordy | 229-hans-dehmelt | postdoc_advisor | False | True |
 | Yaron Silberberg | 209-barak-dayan | advisor | False | True |
 | Yuval Boger | c006-quera-computing | leadership | False | True |
 | c019-pasqal | Institut d'Optique | spun_out_from | True | False |

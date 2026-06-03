@@ -41,7 +41,7 @@ lineage_check:
   postdoc_verified: true
 links:
   group_page: https://www.physics.nus.edu.sg/~phybmd/
-  orcid: null
+  orcid: https://orcid.org/0000-0002-1483-8029
 location:
   city: Singapore
   country: Singapore

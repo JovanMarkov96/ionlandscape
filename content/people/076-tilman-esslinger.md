@@ -18,8 +18,6 @@ education:
 entity_type: person
 group_type: experimental
 id: 076-tilman-esslinger
-ion_species:
-- Li+
 key_papers:
 - doi: 10.1038/415039a
   role: co_author
@@ -63,7 +61,6 @@ metrics:
   source: openalex
 name: Tilman Esslinger
 platforms:
-- trapped_ion
 - neutral_atom
 postdocs:
 - advisor: null

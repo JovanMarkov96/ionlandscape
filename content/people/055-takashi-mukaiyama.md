@@ -42,7 +42,7 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=PM_aLhoAAAAJ
-  orcid: null
+  orcid: https://orcid.org/0000-0002-2828-9702
 location:
   city: Osaka
   country: Japan

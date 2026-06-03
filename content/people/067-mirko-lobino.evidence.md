@@ -9,3 +9,6 @@ Verified: 2026-05-04. PhD Politecnico di Milano 2007 (Roberta Ramponi). Postdoc 
 
 ## Data quality notes
 - Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).
+
+## Sources
+- Verified ORCID 0000-0001-8091-8951 matched by affiliation (Griffith University Politecnico di Milano Universita di Trento University of Bristol University of Calgary); links added: orcid [2026-06-03 link sweep].

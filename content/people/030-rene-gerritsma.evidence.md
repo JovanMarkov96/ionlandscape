@@ -3,3 +3,6 @@ Verified: 2026-05-04. PhD Univ of Amsterdam 2007. Postdoc Innsbruck (Rainer Blat
 
 ## Data quality notes
 - Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).
+
+## Sources
+- Verified ORCID 0000-0002-3466-5719 matched by affiliation (Institute for Quantum Optics and Quantum Information Innsbruck Johannes Gutenberg University of Mainz University of Amsterdam University of Groningen); links added: orcid,homepage [2026-06-03 link sweep].

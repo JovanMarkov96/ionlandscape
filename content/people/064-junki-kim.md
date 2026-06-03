@@ -41,7 +41,7 @@ lineage_check:
 links:
   group_page: https://queti.skku.edu/
   homepage: https://queti.skku.edu/
-  orcid: null
+  orcid: https://orcid.org/0000-0001-8133-4819
 location:
   city: Suwon
   country: South Korea

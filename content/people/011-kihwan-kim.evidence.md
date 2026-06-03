@@ -57,3 +57,6 @@ Verified: 2026-05-04
 
 *   **`thesis.link`**: null — Exact thesis document not found.
 *   **`metrics`**: Not populated — Stage 3.G task.
+
+## Sources
+- Verified ORCID 0009-0003-8474-9114 matched by affiliation (Seoul National University); links added: orcid [2026-06-03 link sweep].

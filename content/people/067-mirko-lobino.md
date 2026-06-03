@@ -52,7 +52,7 @@ lineage_check:
   postdoc_verified: true
 links:
   group_page: https://webapps.unitn.it/du/en/Persona/PER0223733/Curriculum
-  orcid: null
+  orcid: https://orcid.org/0000-0001-8091-8951
 location:
   city: Brisbane
   country: Australia

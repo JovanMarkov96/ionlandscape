@@ -39,7 +39,8 @@ lineage_check:
   postdoc_verified: true
 links:
   group_page: https://hyqs.nl/
-  orcid: null
+  homepage: http://hyqs.nl/
+  orcid: https://orcid.org/0000-0002-3466-5719
 location:
   city: Amsterdam
   country: Netherlands

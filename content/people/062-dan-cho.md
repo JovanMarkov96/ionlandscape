@@ -41,7 +41,7 @@ lineage_check:
 links:
   group_page: http://nems.snu.ac.kr/
   homepage: http://nems.snu.ac.kr/
-  orcid: null
+  orcid: https://orcid.org/0000-0002-4694-5988
 location:
   city: Seoul
   country: South Korea

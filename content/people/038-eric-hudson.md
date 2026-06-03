@@ -54,7 +54,7 @@ lineage_check:
   postdoc_verified: true
 links:
   group_page: https://www.physics.ucla.edu/~hudson/
-  orcid: null
+  orcid: https://orcid.org/0000-0001-7064-0351
 location:
   city: Los Angeles
   country: United States

@@ -13,6 +13,8 @@ group_type: experimental
 id: 318-shinji-urabe
 ion_species:
 - 40Ca+
+labels:
+- Experimental group
 last_verified_at: '2026-06-02'
 links:
   homepage: https://www.osaka-u.ac.jp/
@@ -34,6 +36,5 @@ sources:
 updated_at: '2026-06-02'
 verification_source_count: 1
 ---
-
 
 Shinji Urabe is an experimental physicist at Osaka University known for trapped-ion quantum information and laser cooling of calcium ions.

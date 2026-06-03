@@ -41,3 +41,6 @@ Verified: 2026-05-04
 *   **`postdocs`**: Empty — No postdoc information found; he may have transitioned directly to a junior faculty/group leader position.
 *   **`metrics`**: Not populated — Stage 3.G task.
 - Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).
+
+## Sources
+- Corrected platform: Esslinger works on ultracold neutral fermionic gases (Li/K) in optical lattices and cavity QED, not trapped ions; removed erroneous trapped_ion/Li+ tags during 2026-06-03 sweep.

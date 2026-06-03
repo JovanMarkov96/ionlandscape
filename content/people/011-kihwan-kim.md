@@ -61,7 +61,7 @@ links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=4iNn12QAAAAJ
   group_page: https://sites.google.com/view/kihwankim-lab
   note_recent_move: https://en.sedaily.com/technology/2025/12/29/quantum-scientist-kim-ki-hwan-returns-to-korea-after-decade
-  orcid: null
+  orcid: https://orcid.org/0009-0003-8474-9114
   tsinghua_group_page: https://info.phys.tsinghua.edu.cn/kimkihwan/
 location:
   city: Daejeon

@@ -39,7 +39,7 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=q-PAyDIAAAAJ
-  orcid: null
+  orcid: https://orcid.org/0000-0002-1153-7124
 location:
   city: Buenos Aires
   country: Argentina
