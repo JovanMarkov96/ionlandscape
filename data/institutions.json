@@ -4654,6 +4654,62 @@
     "updated_at": ""
   },
   {
+    "id": "i122-russian-quantum-center",
+    "name": "Russian Quantum Center",
+    "sort_name": "Russian Quantum Center",
+    "entity_type": "institution",
+    "aliases": [
+      "Russian Quantum Center",
+      "RQC"
+    ],
+    "abbreviations": [
+      "RQC"
+    ],
+    "location": {
+      "city": "Moscow",
+      "country": "Russia",
+      "lat": 55.6975,
+      "lon": 37.3589,
+      "precision": "city",
+      "region": "Moscow"
+    },
+    "institution_type": "research_centre",
+    "short_description": "The Russian Quantum Center (RQC; native name: Российский квантовый центр) is a research centre near Moscow (Skolkovo). Together with the P. N. Lebedev Physical Institute it runs a joint trapped-ion laboratory that built Russia's ytterbium-171 (171Yb+) qudit-based quantum computer.",
+    "focus_areas": [
+      "Trapped-ion quantum computing (joint lab with Lebedev Physical Institute)",
+      "Quantum optics and precision measurement"
+    ],
+    "platforms_represented": [
+      "trapped_ion"
+    ],
+    "applications_represented": [
+      "computing",
+      "optical_clocks",
+      "fundamental_physics",
+      "networking"
+    ],
+    "links": {
+      "website": "https://rqc.ru",
+      "wikipedia": "https://en.wikipedia.org/wiki/Russian_Quantum_Center"
+    },
+    "media": {},
+    "directory": {
+      "current_members": [],
+      "alumni": [],
+      "company_spinouts": [],
+      "member_count": 0,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "note": "Official website",
+        "url": "https://rqc.ru"
+      }
+    ],
+    "md_filename": "i122-russian-quantum-center.md",
+    "updated_at": "2026-06-03"
+  },
+  {
     "id": "i049-university-of-oxford",
     "name": "University of Oxford",
     "sort_name": "University of Oxford",
@@ -5602,6 +5658,69 @@
     ],
     "md_filename": "i043-university-of-california-los-angeles.md",
     "updated_at": ""
+  },
+  {
+    "id": "i121-lebedev-physical-institute",
+    "name": "P. N. Lebedev Physical Institute (FIAN)",
+    "sort_name": "Lebedev Physical Institute",
+    "entity_type": "institution",
+    "aliases": [
+      "Lebedev Physical Institute",
+      "P. N. Lebedev Physical Institute",
+      "FIAN",
+      "Lebedev Physical Institute of the Russian Academy of Sciences"
+    ],
+    "abbreviations": [
+      "FIAN",
+      "LPI"
+    ],
+    "location": {
+      "city": "Moscow",
+      "country": "Russia",
+      "lat": 55.7058,
+      "lon": 37.5822,
+      "precision": "city",
+      "region": "Moscow"
+    },
+    "institution_type": "research_centre",
+    "short_description": "The P. N. Lebedev Physical Institute (FIAN) is a major physics institute of the Russian Academy of Sciences in Moscow (native name: Физический институт имени П. Н. Лебедева РАН). Its joint laboratory with the Russian Quantum Center built Russia's ion-based quantum computer using ytterbium-171 (171Yb+) ions with qudit (ququart) encoding, reported at the 50-qubit scale in 2024; the institute is directed by Nikolai Kolachevsky.",
+    "focus_areas": [
+      "Trapped-ion quantum computing (171Yb+ qudits)",
+      "Optical atomic clocks and precision spectroscopy",
+      "Atomic, molecular and optical physics"
+    ],
+    "platforms_represented": [
+      "trapped_ion"
+    ],
+    "applications_represented": [
+      "computing",
+      "optical_clocks",
+      "fundamental_physics"
+    ],
+    "links": {
+      "website": "https://lebedev.ru",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lebedev_Physical_Institute"
+    },
+    "media": {},
+    "directory": {
+      "current_members": [
+        "330-ksenia-khabarova.md",
+        "332-ilya-semerikov.md",
+        "331-nikolai-kolachevsky.md"
+      ],
+      "alumni": [],
+      "company_spinouts": [],
+      "member_count": 3,
+      "alumni_count": 0
+    },
+    "sources": [
+      {
+        "note": "Official website",
+        "url": "https://lebedev.ru"
+      }
+    ],
+    "md_filename": "i121-lebedev-physical-institute.md",
+    "updated_at": "2026-06-03"
   },
   {
     "id": "i027-saarland-university",

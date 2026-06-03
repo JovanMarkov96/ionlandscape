@@ -1724,6 +1724,26 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "i122-russian-quantum-center",
+        "name": "Russian Quantum Center",
+        "entity_type": "institution",
+        "city": "Moscow",
+        "country": "Russia",
+        "short_description": "The Russian Quantum Center (RQC; native name: Российский квантовый центр) is a research centre near Moscow (Skolkovo). Together with the P. N. Lebedev Physical Institute it runs a joint trapped-ion laboratory that built Russia's ytterbium-171 (171Yb+) qudit-based quantum computer.",
+        "logo_path": "",
+        "md_filename": "i122-russian-quantum-center.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.3589,
+          55.6975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "i049-university-of-oxford",
         "name": "University of Oxford",
         "entity_type": "institution",
@@ -2078,6 +2098,26 @@
         "coordinates": [
           -118.4427,
           34.0722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "i121-lebedev-physical-institute",
+        "name": "P. N. Lebedev Physical Institute (FIAN)",
+        "entity_type": "institution",
+        "city": "Moscow",
+        "country": "Russia",
+        "short_description": "The P. N. Lebedev Physical Institute (FIAN) is a major physics institute of the Russian Academy of Sciences in Moscow (native name: Физический институт имени П. Н. Лебедева РАН). Its joint laboratory with the Russian Quantum Center built Russia's ion-based quantum computer using ytterbium-171 (171Yb+) ions with qudit (ququart) encoding, reported at the 50-qubit scale in 2024; the institute is directed by Nikolai Kolachevsky.",
+        "logo_path": "",
+        "md_filename": "i121-lebedev-physical-institute.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5822,
+          55.7058
         ]
       }
     },

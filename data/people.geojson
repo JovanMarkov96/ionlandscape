@@ -2224,6 +2224,37 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "330-ksenia-khabarova",
+        "name": "Ksenia Khabarova",
+        "current_position": {
+          "confidence": "reported",
+          "institution": "Lebedev Physical Institute",
+          "since_year": null,
+          "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+          "title": "Senior Researcher"
+        },
+        "platforms": [
+          "trapped_ion"
+        ],
+        "affiliations": [
+          "Russian Quantum Center"
+        ],
+        "city": "Moscow",
+        "country": "Russia",
+        "short_bio": "Ksenia Khabarova is an experimental physicist at the P. N. Lebedev Physical Institute (FIAN) and the Russian Quantum Center in Moscow, working on trapped-ion quantum computing with ytterbium-171 (171Yb+) ions and on optical atomic clocks and precision frequency metrology. She is part of the joint FIAN–RQC group that built Russia's ion-based quantum computer using qudit (ququart) encoding.",
+        "md_filename": "330-ksenia-khabarova.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5822,
+          55.7058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "076-tilman-esslinger",
         "name": "Tilman Esslinger",
         "current_position": {
@@ -3684,6 +3715,37 @@
         "coordinates": [
           7.6261,
           51.9607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "332-ilya-semerikov",
+        "name": "Ilya Semerikov",
+        "current_position": {
+          "confidence": "reported",
+          "institution": "Lebedev Physical Institute",
+          "since_year": null,
+          "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+          "title": "Researcher (trapped-ion quantum computing)"
+        },
+        "platforms": [
+          "trapped_ion"
+        ],
+        "affiliations": [
+          "Russian Quantum Center"
+        ],
+        "city": "Moscow",
+        "country": "Russia",
+        "short_bio": "Ilya Semerikov is an experimental physicist at the P. N. Lebedev Physical Institute (FIAN) and the Russian Quantum Center in Moscow, and a laureate of the VYZOV national prize. He led the development of Russia's ion-based quantum computer, which uses ytterbium-171 (171Yb+) ions in a linear trap with qudit (ququart) encoding and was reported at the 50-qubit scale in 2024.",
+        "md_filename": "332-ilya-semerikov.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5822,
+          55.7058
         ]
       }
     },
@@ -10434,6 +10496,37 @@
         "md_filename": "000-michel-paulin.md"
       },
       "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "331-nikolai-kolachevsky",
+        "name": "Nikolai Kolachevsky",
+        "current_position": {
+          "confidence": "reported",
+          "institution": "Lebedev Physical Institute",
+          "since_year": null,
+          "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+          "title": "Director"
+        },
+        "platforms": [
+          "trapped_ion"
+        ],
+        "affiliations": [
+          "Russian Quantum Center"
+        ],
+        "city": "Moscow",
+        "country": "Russia",
+        "short_bio": "Nikolai Kolachevsky is an experimental physicist and Director of the P. N. Lebedev Physical Institute (FIAN) of the Russian Academy of Sciences in Moscow. He co-leads the joint FIAN–Russian Quantum Center trapped-ion programme that built Russia's ytterbium-171 (171Yb+) qudit-based quantum computer, and has a long record in optical atomic clocks and precision spectroscopy.",
+        "md_filename": "331-nikolai-kolachevsky.md"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.5822,
+          55.7058
+        ]
+      }
     },
     {
       "type": "Feature",

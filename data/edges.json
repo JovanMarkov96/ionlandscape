@@ -355,6 +355,11 @@
     "type": "advisor"
   },
   {
+    "source": "330-ksenia-khabarova",
+    "target": "i122-russian-quantum-center",
+    "type": "affiliated_with"
+  },
+  {
     "source": "219-theodor-w-hansch",
     "target": "076-tilman-esslinger",
     "type": "advisor"
@@ -553,6 +558,11 @@
     "source": "319-stephan-reitzenstein",
     "target": "186-tobias-heindel",
     "type": "postdoc_advisor"
+  },
+  {
+    "source": "332-ilya-semerikov",
+    "target": "i122-russian-quantum-center",
+    "type": "affiliated_with"
   },
   {
     "source": "080-mikhail-d-lukin",
@@ -1438,6 +1448,11 @@
     "source": "221-gerhard-rempe",
     "target": "143-andreas-reiserer",
     "type": "advisor"
+  },
+  {
+    "source": "331-nikolai-kolachevsky",
+    "target": "i122-russian-quantum-center",
+    "type": "affiliated_with"
   },
   {
     "source": "265-francesco-de-martini",

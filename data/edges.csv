@@ -70,6 +70,7 @@ source,target,type
 022-rajibul-islam,i057-open-quantum-design,affiliated_with
 098-p-zoller,104-tommaso-calarco,postdoc_advisor
 000-arthur-pipkin,008-john-bollinger,advisor
+330-ksenia-khabarova,i122-russian-quantum-center,affiliated_with
 219-theodor-w-hansch,076-tilman-esslinger,advisor
 164-john-clarke,144-john-m-martinis,advisor
 304-paul-vitanyi,160-barbara-m-terhal,advisor
@@ -110,6 +111,7 @@ source,target,type
 006-david-wineland,074-piet-schmidt,postdoc_advisor
 319-stephan-reitzenstein,186-tobias-heindel,advisor
 319-stephan-reitzenstein,186-tobias-heindel,postdoc_advisor
+332-ilya-semerikov,i122-russian-quantum-center,affiliated_with
 080-mikhail-d-lukin,121-liang-jiang,advisor
 272-guo-guangcan,020-luming-duan,advisor
 098-p-zoller,020-luming-duan,postdoc_advisor
@@ -287,6 +289,7 @@ source,target,type
 292-lieven-m-k-vandersypen,169-pasquale-scarlino,advisor
 155-andreas-wallraff,169-pasquale-scarlino,postdoc_advisor
 221-gerhard-rempe,143-andreas-reiserer,advisor
+331-nikolai-kolachevsky,i122-russian-quantum-center,affiliated_with
 265-francesco-de-martini,179-fabio-sciarrino,advisor
 176-jian-wei-pan,177-chaoyang-lu,advisor
 146-michel-devoret,150-irfan-siddiqi,postdoc_advisor

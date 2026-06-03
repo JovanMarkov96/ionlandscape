@@ -4835,6 +4835,57 @@
     "updated_at": "2026-05-25"
   },
   {
+    "id": "330-ksenia-khabarova",
+    "name": "Ksenia Khabarova",
+    "sort_name": "Khabarova, Ksenia",
+    "current_position": {
+      "confidence": "reported",
+      "institution": "Lebedev Physical Institute",
+      "since_year": null,
+      "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+      "title": "Senior Researcher"
+    },
+    "platforms": [
+      "trapped_ion"
+    ],
+    "affiliations": [
+      {
+        "entity_id": "i122-russian-quantum-center",
+        "name": "Russian Quantum Center",
+        "role": "Researcher",
+        "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+        "type": "institution"
+      }
+    ],
+    "location": {
+      "city": "Moscow",
+      "region": "Moscow",
+      "country": "Russia",
+      "lat": 55.7058,
+      "lon": 37.5822,
+      "precision": "institution"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "171Yb+"
+    ],
+    "links": {
+      "orcid": "https://orcid.org/0000-0001-9682-2647"
+    },
+    "thesis": {},
+    "nobel_prize": null,
+    "short_bio": "Ksenia Khabarova is an experimental physicist at the P. N. Lebedev Physical Institute (FIAN) and the Russian Quantum Center in Moscow, working on trapped-ion quantum computing with ytterbium-171 (171Yb+) ions and on optical atomic clocks and precision frequency metrology. She is part of the joint FIAN–RQC group that built Russia's ion-based quantum computer using qudit (ququart) encoding.",
+    "md_filename": "330-ksenia-khabarova.md",
+    "created_at": "",
+    "updated_at": "2026-06-03"
+  },
+  {
     "id": "076-tilman-esslinger",
     "name": "Tilman Esslinger",
     "sort_name": "Esslinger, Tilman",
@@ -7820,6 +7871,57 @@
     "md_filename": "186-tobias-heindel.md",
     "created_at": "2026-05-30",
     "updated_at": "2026-05-30"
+  },
+  {
+    "id": "332-ilya-semerikov",
+    "name": "Ilya Semerikov",
+    "sort_name": "Semerikov, Ilya",
+    "current_position": {
+      "confidence": "reported",
+      "institution": "Lebedev Physical Institute",
+      "since_year": null,
+      "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+      "title": "Researcher (trapped-ion quantum computing)"
+    },
+    "platforms": [
+      "trapped_ion"
+    ],
+    "affiliations": [
+      {
+        "entity_id": "i122-russian-quantum-center",
+        "name": "Russian Quantum Center",
+        "role": "Researcher",
+        "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+        "type": "institution"
+      }
+    ],
+    "location": {
+      "city": "Moscow",
+      "region": "Moscow",
+      "country": "Russia",
+      "lat": 55.7058,
+      "lon": 37.5822,
+      "precision": "institution"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "171Yb+"
+    ],
+    "links": {
+      "orcid": "https://orcid.org/0000-0003-4233-1599"
+    },
+    "thesis": {},
+    "nobel_prize": null,
+    "short_bio": "Ilya Semerikov is an experimental physicist at the P. N. Lebedev Physical Institute (FIAN) and the Russian Quantum Center in Moscow, and a laureate of the VYZOV national prize. He led the development of Russia's ion-based quantum computer, which uses ytterbium-171 (171Yb+) ions in a linear trap with qudit (ququart) encoding and was reported at the 50-qubit scale in 2024.",
+    "md_filename": "332-ilya-semerikov.md",
+    "created_at": "",
+    "updated_at": "2026-06-03"
   },
   {
     "id": "000-jay-gambetta",
@@ -21597,6 +21699,57 @@
     "md_filename": "000-michel-paulin.md",
     "created_at": "2026-05-30",
     "updated_at": "2026-05-30"
+  },
+  {
+    "id": "331-nikolai-kolachevsky",
+    "name": "Nikolai Kolachevsky",
+    "sort_name": "Kolachevsky, Nikolai",
+    "current_position": {
+      "confidence": "reported",
+      "institution": "Lebedev Physical Institute",
+      "since_year": null,
+      "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+      "title": "Director"
+    },
+    "platforms": [
+      "trapped_ion"
+    ],
+    "affiliations": [
+      {
+        "entity_id": "i122-russian-quantum-center",
+        "name": "Russian Quantum Center",
+        "role": "Researcher",
+        "source": "https://vyzovprize.com/news/50_qubit_ion_based_quantum_computer_developed_by_researchers_including_ilya_semerikov_vyzov_prize_laureate",
+        "type": "institution"
+      }
+    ],
+    "location": {
+      "city": "Moscow",
+      "region": "Moscow",
+      "country": "Russia",
+      "lat": 55.7058,
+      "lon": 37.5822,
+      "precision": "institution"
+    },
+    "education": [],
+    "postdocs": [],
+    "keywords": [],
+    "group_type": "experimental",
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "171Yb+"
+    ],
+    "links": {
+      "orcid": "https://orcid.org/0000-0001-9587-4955"
+    },
+    "thesis": {},
+    "nobel_prize": null,
+    "short_bio": "Nikolai Kolachevsky is an experimental physicist and Director of the P. N. Lebedev Physical Institute (FIAN) of the Russian Academy of Sciences in Moscow. He co-leads the joint FIAN–Russian Quantum Center trapped-ion programme that built Russia's ytterbium-171 (171Yb+) qudit-based quantum computer, and has a long record in optical atomic clocks and precision spectroscopy.",
+    "md_filename": "331-nikolai-kolachevsky.md",
+    "created_at": "",
+    "updated_at": "2026-06-03"
   },
   {
     "id": "179-fabio-sciarrino",
