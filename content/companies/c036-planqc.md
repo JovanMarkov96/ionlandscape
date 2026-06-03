@@ -17,8 +17,8 @@ approach:
     its founders argue is uniquely scalable to thousands of qubits
   - First spin-off of the Max Planck Institute of Quantum Optics within the Munich
     Quantum Valley initiative, drawing on world-leading optical-lattice expertise
-  - Selected by the German Aerospace Center (DLR) and the Leibniz Supercomputing
-    Centre (LRZ) to build 100- and 1,000-qubit machines on German soil
+  - Selected by the German Aerospace Center (DLR) and the Leibniz Supercomputing Centre
+    (LRZ) to build 100- and 1,000-qubit machines on German soil
   - Sovereign-quantum European champion backed by major German federal funding
   elevator_pitch: planqc builds neutral-atom quantum computers using atoms trapped
     in optical lattices, a highly scalable approach being deployed in German national
@@ -26,39 +26,42 @@ approach:
 entity_type: company
 founded_year: 2022
 funding:
-  total_raised_usd: 59000000
   last_round_date: '2024-07-01'
   rounds:
   - amount_usd: 5000000
     date: '2022-06-01'
-    notes: "Seed financing (~€4.6M) to develop a scalable optical-lattice neutral-atom\
-      \ quantum computer."
+    notes: Seed financing (~€4.6M) to develop a scalable optical-lattice neutral-atom
+      quantum computer.
     round: Seed
     source: https://en.wikipedia.org/wiki/Planqc
     stage: seed
   - amount_usd: 54000000
     date: '2024-07-01'
-    notes: "€50 million Series A to expand the team and R&D capacity."
+    notes: €50 million Series A to expand the team and R&D capacity.
     round: Series A
     source: https://www.datacenterdynamics.com/en/news/german-quantum-computing-startup-planqc-raises-50m/
     stage: series_a
+  total_raised_usd: 59000000
 id: c036-planqc
 last_verified_at: '2026-06-02'
 links:
+  news: https://planqc.eu/news
   website: https://planqc.eu
   wikipedia: https://en.wikipedia.org/wiki/Planqc
-  news: https://planqc.eu/news
 location:
   city: Garching
   country: Germany
   lat: 48.2492
-  lon: 11.6510
+  lon: 11.651
   precision: city
   region: Bavaria
+media:
+  logo_path: /logos/c036-planqc.png
 milestones:
-- claim: planqc founded by Alexander Glätzle, Sebastian Blatt and Johannes Zeiher as
-    the first spin-off of the Max Planck Institute of Quantum Optics within the Munich
-    Quantum Valley, building neutral-atom quantum computers from atoms in optical lattices.
+- claim: planqc founded by Alexander Glätzle, Sebastian Blatt and Johannes Zeiher
+    as the first spin-off of the Max Planck Institute of Quantum Optics within the
+    Munich Quantum Valley, building neutral-atom quantum computers from atoms in optical
+    lattices.
   date: '2022-01-01'
   source: https://en.wikipedia.org/wiki/Planqc
 - claim: Awarded a €29 million contract by the German Aerospace Center (DLR) to build
@@ -66,11 +69,12 @@ milestones:
     in Ulm.
   date: '2023-01-01'
   source: https://planqc.eu/news/planqc-awarded-eur-29-million-contract-from-the-dlr-to-build-and-install-scalable-neutral-atom-quantum-computer
-- claim: Closed a €50 million Series A to scale its neutral-atom quantum computing platform.
+- claim: Closed a €50 million Series A to scale its neutral-atom quantum computing
+    platform.
   date: '2024-07-01'
   source: https://www.datacenterdynamics.com/en/news/german-quantum-computing-startup-planqc-raises-50m/
-- claim: Selected to lead a €20 million federally funded project (MAQCS) to build a
-    1,000-qubit neutral-atom quantum computer at the Leibniz Supercomputing Centre
+- claim: Selected to lead a €20 million federally funded project (MAQCS) to build
+    a 1,000-qubit neutral-atom quantum computer at the Leibniz Supercomputing Centre
     (LRZ) in Garching.
   date: '2024-12-01'
   source: https://www.hpcwire.com/off-the-wire/germany-backs-planqc-with-e20m-for-1000-qubit-neutral-atom-quantum-system-at-lrz/
@@ -85,14 +89,14 @@ offices:
   source: https://planqc.eu/company/about-planqc
 partnerships:
 - name: German Aerospace Center (DLR)
-  type: customer
   source: https://planqc.eu/news/planqc-awarded-eur-29-million-contract-from-the-dlr-to-build-and-install-scalable-neutral-atom-quantum-computer
-- name: Leibniz Supercomputing Centre (LRZ)
   type: customer
+- name: Leibniz Supercomputing Centre (LRZ)
   source: https://www.hpcwire.com/off-the-wire/germany-backs-planqc-with-e20m-for-1000-qubit-neutral-atom-quantum-system-at-lrz/
+  type: customer
 - name: Munich Quantum Valley
-  type: research
   source: https://en.wikipedia.org/wiki/Planqc
+  type: research
 people:
   founders:
   - name: Alexander Glätzle
@@ -106,8 +110,8 @@ people:
     source: https://en.wikipedia.org/wiki/Planqc
   spun_out_of:
   - name: Max Planck Institute of Quantum Optics
-    spinout_year: 2022
     source: https://en.wikipedia.org/wiki/Planqc
+    spinout_year: 2022
 platforms:
 - neutral_atom
 products:
@@ -115,19 +119,19 @@ products:
     lattices, designed to scale toward thousands of qubits for digital and analog
     quantum computing.
   name: planqc neutral-atom QPU
-  stage: prototype
   source: https://planqc.eu/company/about-planqc
+  stage: prototype
 roadmap:
-- target_date: '2027-12-31'
+- source: https://www.hpcwire.com/off-the-wire/germany-backs-planqc-with-e20m-for-1000-qubit-neutral-atom-quantum-system-at-lrz/
   target_claim: Deploy a universally programmable neutral-atom quantum co-processor
     exceeding 1,000 qubits (MAQCS) at the Leibniz Supercomputing Centre.
-  source: https://www.hpcwire.com/off-the-wire/germany-backs-planqc-with-e20m-for-1000-qubit-neutral-atom-quantum-system-at-lrz/
+  target_date: '2027-12-31'
 short_summary: planqc (founded 2022, Garching, Germany) builds neutral-atom quantum
   computers using atoms trapped in optical lattices, the first spin-off of the Max
-  Planck Institute of Quantum Optics within the Munich Quantum Valley. Founded by Alexander
-  Glätzle, Sebastian Blatt and Johannes Zeiher, it has won major German government
-  contracts — a €29M DLR award for a 100-qubit machine and a €20M LRZ project (MAQCS)
-  for a 1,000-qubit system — and raised a €50M Series A in 2024.
+  Planck Institute of Quantum Optics within the Munich Quantum Valley. Founded by
+  Alexander Glätzle, Sebastian Blatt and Johannes Zeiher, it has won major German
+  government contracts — a €29M DLR award for a 100-qubit machine and a €20M LRZ project
+  (MAQCS) for a 1,000-qubit system — and raised a €50M Series A in 2024.
 sort_name: planqc
 sources:
 - note: Company history, founders, funding, Munich Quantum Valley
