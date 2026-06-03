@@ -38,7 +38,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  google_scholar: https://scholar.google.com/citations?user=6YgPz2UAAAAJ
   group_page: https://barclaylab.ucalgary.ca/
   orcid: https://orcid.org/0000-0002-3642-1279
 location:

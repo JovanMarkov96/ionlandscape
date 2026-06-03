@@ -39,7 +39,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=3XqgH5oAAAAJ
   group_page: http://nems.snu.ac.kr/
   homepage: http://nems.snu.ac.kr/
   orcid: null

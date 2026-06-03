@@ -41,8 +41,6 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: null
-  group_page: https://www2.nict.go.jp/stsi/sr22/en/index.html
-  homepage: https://www.nict.go.jp/en/info/researcher/003444/
   orcid: null
 location:
   city: Koganei

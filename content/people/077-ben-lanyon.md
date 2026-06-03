@@ -45,8 +45,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=DXqgH5oAAAAJ
-  group_page: https://www.uibk.ac.at/exphys/distributed-quantum-systems/
   openalex: https://openalex.org/A5016115632
   orcid: https://orcid.org/0000-0002-7379-4572
 location:

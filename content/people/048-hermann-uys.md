@@ -53,7 +53,6 @@ lineage_check:
   postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=jcRH8hoAAAAJ&hl=en
-  group_page: https://www.csir.co.za/quantum-optics
   orcid: null
 location:
   city: Stellenbosch

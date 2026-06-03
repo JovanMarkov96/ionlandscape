@@ -38,7 +38,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  google_scholar: https://scholar.google.com/citations?user=G_R_X2IAAAAJ
   group_page: http://www.sussex.ac.uk/physics/iqt/
   homepage: http://www.sussex.ac.uk/physics/iqt/
   orcid: https://orcid.org/0000-0002-5326-886X

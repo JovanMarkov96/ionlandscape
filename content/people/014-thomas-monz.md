@@ -55,8 +55,6 @@ lineage_check:
   postdoc_verified: true
 links:
   aqt_about: https://www.aqt.eu/about/
-  google_scholar: https://scholar.google.com/citations?user=X6a64kUAAAAJ
-  group_page: https://www.uibk.ac.at/exphys/scalable-quantum-information/
   oeaw_profile: https://www.oeaw.ac.at/esq/home/esq-quantum-austria/thomas-monz
   openalex: https://openalex.org/A5066295139
   orcid: https://orcid.org/0000-0001-7410-4804

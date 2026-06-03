@@ -75,7 +75,6 @@ lineage_check:
   postdoc_verified: true
 links:
   colorado_qsense_profile: https://www.colorado.edu/research/qsense/dietrich-leibfried
-  google_scholar: https://scholar.google.com/citations?user=OXvCc1QAAAAJ&hl=en
   group_page: https://www.nist.gov/people/dietrich-leibfried
   nist_group_members: https://www.nist.gov/pml/time-and-frequency-division/ion-storage/ion-storage-group-members
   nist_publications: https://www.nist.gov/publications/search_by_author/1160611

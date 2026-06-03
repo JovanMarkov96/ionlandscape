@@ -69,3 +69,4 @@ Verified: 2026-05-04
 *   **`thesis.link`**: null — Not available in open-access sources.
 *   **`metrics`**: Not populated — would require Semantic Scholar or Scholar API call (Stage 3.G).
 *   **`affiliations`**: Empty — Leibfried is purely NIST staff; no company or external board affiliations found.
+- Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

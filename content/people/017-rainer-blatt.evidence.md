@@ -47,3 +47,4 @@ Verified: 2026-05-04
 
 *   **`thesis.link`**: null — Document link unavailable.
 *   **`metrics`**: Not populated — Stage 3.G task.
+- Removed broken/unresolvable links (group_page) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

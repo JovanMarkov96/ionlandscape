@@ -44,8 +44,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=8XqgH5oAAAAJ
-  group_page: https://www.fysik.su.se/hennrich-group
   openalex: https://openalex.org/A5003775413
   orcid: https://orcid.org/0000-0003-2955-7980
 location:

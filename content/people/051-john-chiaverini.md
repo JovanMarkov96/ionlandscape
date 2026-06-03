@@ -55,7 +55,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=JvXj6gUAAAAJ
   group_page: https://www.ll.mit.edu/r-d/advanced-technology/quantum-information-and-integrated-nanosystems
   openalex: https://openalex.org/A5083419298
   orcid: https://orcid.org/0000-0001-7123-8460

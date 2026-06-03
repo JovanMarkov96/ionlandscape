@@ -56,7 +56,6 @@ lineage_check:
   postdoc_verified: false
 links:
   google_scholar: null
-  group_page: https://www.uni-kassel.de/fb10/institute/physik/forschungsgruppen/experimentalphysik-i-licht-materie-wechselwirkung.html
   openalex: https://openalex.org/A5015560161
   orcid: https://orcid.org/0000-0001-9726-0367
 location:

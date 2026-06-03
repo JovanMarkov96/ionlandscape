@@ -47,7 +47,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=AXqgH5oAAAAJ
   group_page: https://www.quantummetrology.de/
   openalex: https://openalex.org/A5060830868
   orcid: https://orcid.org/0000-0003-0773-5889

@@ -9,3 +9,6 @@ Verified: 2026-05-04
 *   **`ion_species`**: 138Ba+, 176Lu+ — primary species at CQT Singapore.
 *   **`key_papers[0]`**: "Deterministic quantum teleportation of atomic qubits" (Nature 2004). DOI: 10.1038/nature02608
 *   **`lineage_check`**: Both advisor (Chapman) and postdoc (Wineland) verified.
+
+## Data quality notes
+- Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

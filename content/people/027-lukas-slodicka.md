@@ -41,7 +41,6 @@ lineage_check:
 links:
   google_scholar: https://scholar.google.com/citations?user=2zBEXPoAAAAJ
   group_page: https://www.opticsolomouc.org/
-  homepage: https://www.opticsolomouc.org/people/lukas-slodicka/
   orcid: null
 location:
   city: Olomouc

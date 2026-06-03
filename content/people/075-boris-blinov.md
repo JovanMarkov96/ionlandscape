@@ -45,7 +45,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=BXqgH5oAAAAJ
   group_page: https://depts.washington.edu/qcomp/
   openalex: https://openalex.org/A5050998584
   orcid: https://orcid.org/0000-0002-1028-9931

@@ -41,7 +41,6 @@ lineage_check:
   postdoc_verified: false
 links:
   google_scholar: null
-  group_page: https://phys.au.dk/en/research/research-areas/amo/drewsen-lab
   orcid: https://orcid.org/0000-0003-4767-3498
   university_profile: https://pure.au.dk/portal/en/persons/michael-drewsen
 location:

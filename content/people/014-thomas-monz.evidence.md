@@ -44,3 +44,4 @@ Verified: 2026-05-04
 
 *   **`thesis.link`**: Provided directly to quantumoptics.at PDF.
 *   **`metrics`**: Not populated — Stage 3.G task.
+- Removed broken/unresolvable links (google_scholar, group_page) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

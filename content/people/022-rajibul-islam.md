@@ -55,9 +55,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=dZpP2-sAAAAJ
-  group_page: https://uwaterloo.ca/ion-trap-quantum-computing/
-  iqc_profile: https://uwaterloo.ca/institute-for-quantum-computing/profiles/rajibul-islam
   openalex: https://openalex.org/A5053336892
   orcid: https://orcid.org/0000-0002-6483-8932
 location:

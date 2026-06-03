@@ -60,7 +60,6 @@ links:
   aqt_about: https://www.aqt.eu/about/
   cv_pdf: https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf
   google_scholar: https://scholar.google.com/citations?user=_34V-4QAAAAJ
-  group_page: https://www.uibk.ac.at/exphys/qos/
   oeaw_profile: https://www.oeaw.ac.at/en/m/blatt-rainer/
   openalex: https://openalex.org/A5040977712
   orcid: https://orcid.org/0000-0002-3122-2461

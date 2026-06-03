@@ -46,7 +46,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=xsNy6jcAAAAJ
   group_page: https://quanta.mit.edu/
   orcid: null
 location:

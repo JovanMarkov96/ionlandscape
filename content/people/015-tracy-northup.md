@@ -47,7 +47,6 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=BHFu0UwAAAAJ
-  group_page: https://www.uibk.ac.at/exphys/quantum-interfaces/
   oeaw_profile: https://www.oeaw.ac.at/esq/home/esq-faculty/tracy-northup/
   openalex: https://openalex.org/A5082160956
   orcid: https://orcid.org/0000-0002-1071-2218

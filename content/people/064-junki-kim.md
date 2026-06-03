@@ -39,7 +39,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=2YgPz2UAAAAJ
   group_page: https://queti.skku.edu/
   homepage: https://queti.skku.edu/
   orcid: null

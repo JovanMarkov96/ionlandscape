@@ -56,7 +56,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=4Jk6zRIAAAAJ
   group_page: http://hqs.iiis.tsinghua.edu.cn/
   openalex: https://openalex.org/A5008867233
   orcid: https://orcid.org/0000-0003-4419-5674

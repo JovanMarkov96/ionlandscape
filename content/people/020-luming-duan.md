@@ -57,10 +57,8 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=ULkJQpkAAAAJ
-  group_page: https://iiis.tsinghua.edu.cn/duanluming/
   openalex: https://openalex.org/A5034703407
   orcid: https://orcid.org/0000-0001-6675-9413
-  tsinghua_profile: https://iiis.tsinghua.edu.cn/duanlm/
 location:
   city: Beijing
   country: China

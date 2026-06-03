@@ -43,8 +43,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  google_scholar: https://scholar.google.com/citations?user=VJE3z6IAAAAJ
-  group_page: https://coldiongroup.wixsite.com/cqt-nus
   openalex: https://openalex.org/A5084652325
   orcid: https://orcid.org/0000-0003-3706-406X
 location:

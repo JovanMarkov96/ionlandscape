@@ -38,9 +38,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=8YgPz2UAAAAJ
-  group_page: https://www-toyoda.Kv-lab.org/
-  homepage: https://www-toyoda.Kv-lab.org/
   orcid: null
 location:
   city: Osaka

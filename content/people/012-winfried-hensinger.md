@@ -52,7 +52,6 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=DuOb8ioAAAAJ
-  group_page: https://www.sussex.ac.uk/research/centres/ion-quantum-technology/
   nqit_profile: https://nqit.ox.ac.uk/person/prof-winfried-hensinger.html
   openalex: https://openalex.org/A5027716155
   orcid: https://orcid.org/0000-0001-8329-438X

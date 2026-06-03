@@ -21,26 +21,27 @@ id: 005-christian-roos
 ion_species:
 - Ca+
 key_papers:
-- title: "Control and Measurement of Three-Qubit Entangled States"
-  year: 2004
-  doi: 10.1126/science.1097522
+- doi: 10.1126/science.1097522
   role: first_author
-- title: "Bell States of Atoms with Ultralong Lifetimes and Their Tomographic State Analysis"
+  title: Control and Measurement of Three-Qubit Entangled States
   year: 2004
-  doi: 10.1103/PhysRevLett.92.220402
+- doi: 10.1103/PhysRevLett.92.220402
   role: first_author
-- title: "Ion trap quantum gates with amplitude-modulated laser beams"
+  title: Bell States of Atoms with Ultralong Lifetimes and Their Tomographic State
+    Analysis
+  year: 2004
+- doi: 10.1088/1367-2630/10/1/013002
+  role: first_author
+  title: Ion trap quantum gates with amplitude-modulated laser beams
   year: 2008
-  doi: 10.1088/1367-2630/10/1/013002
-  role: first_author
-- title: "An open-system quantum simulator with trapped ions"
+- doi: 10.1038/nature09801
+  role: co_author
+  title: An open-system quantum simulator with trapped ions
   year: 2011
-  doi: 10.1038/nature09801
+- doi: 10.1038/nphys2252
   role: co_author
-- title: "Quantum simulations with trapped ions"
+  title: Quantum simulations with trapped ions
   year: 2012
-  doi: 10.1038/nphys2252
-  role: co_author
 keywords:
 - trapped-ion quantum simulation
 - precision spectroscopy
@@ -56,7 +57,6 @@ labels:
 last_verified_at: '2026-05-21'
 links:
   google_scholar: https://scholar.google.com/citations?hl=en&user=oMD3lvoAAAAJ
-  group_page: https://www.uibk.ac.at/exphys/qos/people/roos/
   iqoqi_profile: https://iqoqi.at/en/people/staff/staff/christian-roos
   openalex: https://openalex.org/A5012485450
   orcid: https://orcid.org/0000-0001-7121-8259

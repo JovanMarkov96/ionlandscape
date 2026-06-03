@@ -45,3 +45,4 @@ Verified: 2026-05-04
 
 *   **`metrics`**: Not populated — Stage 3.G task.
 *   **Affiliations**: Left empty; though he was at IBM previously, he has no active current company affiliations like Q-CTRL or IonQ.
+- Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

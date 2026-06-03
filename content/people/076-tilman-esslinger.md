@@ -45,7 +45,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  google_scholar: https://scholar.google.com/citations?user=CXqgH5oAAAAJ
   group_page: https://quantumoptics.ethz.ch/
   openalex: https://openalex.org/A5020623477
   orcid: https://orcid.org/0000-0002-8333-107X

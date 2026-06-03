@@ -44,3 +44,4 @@ Verified: 2026-05-04
 *   **`thesis.link`**: null — Exact thesis document not found.
 *   **`metrics`**: Not populated — Stage 3.G task.
 *   **Universal Quantum `entity_id`**: Set to null since Universal Quantum is not currently listed in the `content/companies` directory with a canonical ID.
+- Removed broken/unresolvable links (group_page) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

@@ -45,7 +45,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  google_scholar: https://scholar.google.com/citations?user=pREa_vkAAAAJ
   group_page: https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group
   orcid: null
 location:

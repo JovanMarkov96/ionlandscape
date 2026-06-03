@@ -27,8 +27,8 @@ ion_species:
 key_papers:
 - doi: 10.1126/science.1154622
   role: co_author
-  title: Frequency Ratio of Al+ and Hg+ Single-Ion Optical Clocks; Metrology at
-    the 17th Decimal Place
+  title: Frequency Ratio of Al+ and Hg+ Single-Ion Optical Clocks; Metrology at the
+    17th Decimal Place
   year: 2008
 - doi: 10.1126/science.1192720
   role: co_author
@@ -60,8 +60,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  google_scholar: https://scholar.google.com/citations?user=zXqgH5oAAAAJ
-  group_page: https://www.nist.gov/people/david-b-hume
   openalex: https://openalex.org/A5069415035
   orcid: https://orcid.org/0000-0001-7797-2033
 location:

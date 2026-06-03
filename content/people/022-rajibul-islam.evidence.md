@@ -49,3 +49,4 @@ Verified: 2026-05-04
 
 *   **`thesis.link`**: null — Exact thesis document link not currently populated, but title and award are verified.
 *   **`metrics`**: Not populated — Stage 3.G task.
+- Removed broken/unresolvable links (google_scholar, group_page, iqc_profile) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

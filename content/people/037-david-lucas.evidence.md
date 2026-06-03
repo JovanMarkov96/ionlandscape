@@ -39,3 +39,4 @@ Verified: 2026-05-04
 
 *   **`links.orcid`**: null — No verified ORCID was found in the search.
 *   **`metrics`**: Not populated — Stage 3.G task.
+- Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

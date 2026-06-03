@@ -41,7 +41,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=yDbgjnIAAAAJ
   group_page: https://ions-sg.org/
   homepage: https://cqt.nus.edu.sg/people/principal-investigators/dzmitry-matsukevich/
   orcid: null

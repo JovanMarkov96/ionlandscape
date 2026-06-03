@@ -49,8 +49,6 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: null
-  group_page: https://www-tanaka.Kv-lab.org/
-  homepage: https://www-tanaka.Kv-lab.org/
   openalex: https://openalex.org/A5041895625
   orcid: https://orcid.org/0000-0001-5221-8667
 location:

@@ -1,0 +1,45 @@
+44 trapped-ion people with gaps:
+003-chris-ballance | Chris Ballance | ion_generic(Ca+,Sr+); postdoc_no_adv
+004-christopher-monroe | Christopher R. Monroe | ion_generic(Yb+); NO_POSTDOC
+005-christian-roos | Christian F. Roos | ion_generic(Ca+); postdoc_no_adv
+008-john-bollinger | John J. Bollinger | postdoc_no_adv
+010-jungsang-kim | Jungsang Kim | postdoc_no_adv
+014-thomas-monz | Thomas Monz | postdoc_no_adv
+018-michael-drewsen | Michael Drewsen | postdoc_no_adv
+019-michael-koehl | Michael Köhl | postdoc_no_adv
+028-juergen-eschner | Jürgen Eschner | postdoc_no_adv
+029-christof-wunderlich | Christof Wunderlich | postdoc_no_adv
+034-manas-mukherjee | Manas Mukherjee | postdoc_no_adv
+036-richard-thompson | Richard C. Thompson | postdoc_no_adv
+037-david-lucas | David M. Lucas | postdoc_no_adv
+043-kilian-singer | Kilian Singer | postdoc_no_adv
+045-kazuhiro-hayasaka | Kazuhiro Hayasaka | postdoc_no_adv
+046-kjeld-eikema | Kjeld S. E. Eikema | postdoc_no_adv
+047-klaus-jungmann | Klaus Jungmann | postdoc_no_adv
+048-hermann-uys | Hermann Uys | postdoc_no_adv
+049-patrick-gill | Patrick Gill | postdoc_no_adv
+050-rachel-godun | Rachel Godun | postdoc_no_adv
+052-dan-stick | Dan Stick | postdoc_no_adv
+053-masao-kitano | Masao Kitano | postdoc_no_adv
+055-takashi-mukaiyama | Takashi Mukaiyama | postdoc_no_adv
+056-kenji-toyoda | Kenji Toyoda | postdoc_no_adv
+057-utako-tanaka | Utako Tanaka | postdoc_no_adv
+058-atsushi-noguchi | Atsushi Noguchi | postdoc_no_adv
+059-shuichi-hasegawa | Shuichi Hasegawa | postdoc_no_adv; THIN_BIO(280)
+061-taeyoung-choi | Taeyoung Choi | postdoc_no_adv
+062-dan-cho | Dan Cho | postdoc_no_adv
+067-mirko-lobino | Mirko Lobino | postdoc_no_adv
+068-paul-barclay | Paul Barclay | postdoc_no_adv
+071-matthias-keller | Matthias Keller | postdoc_no_adv
+072-brian-mcmahon | Brian McMahon | postdoc_no_adv
+073-david-hume | David Hume | postdoc_no_adv
+076-tilman-esslinger | Tilman Esslinger | ion_generic(Li+); postdoc_no_adv
+078-yuval-shagam | Yuval Shagam | ion_generic(HfF+,ThF+)
+079-daniel-rodriguez | Daniel Rodríguez Rubiales | postdoc_no_adv
+109-markus-muller | Markus Müller | NO_ION; postdoc_no_adv; NO_LABELS; THIN_BIO(0)
+208-daniel-zajfman | Daniel Zajfman | postdoc_no_adv
+229-hans-dehmelt | Hans Dehmelt | ion_generic(Ba+); NO_EDU; NO_POSTDOC; NO_LABELS
+243-andrew-steane | Andrew Steane | NO_EDU; NO_POSTDOC; NO_LABELS; THIN_BIO(152)
+261-david-kielpinski | David Kielpinski | ion_generic(Be+); NO_EDU; NO_POSTDOC; NO_LABELS; THIN_BIO(194)
+271-gunter-werth | Gunter Werth | ion_generic(Ca+); NO_EDU; NO_POSTDOC; NO_LABELS; THIN_BIO(165)
+318-shinji-urabe | Shinji Urabe | NO_EDU; NO_POSTDOC; NO_LABELS; THIN_BIO(138)

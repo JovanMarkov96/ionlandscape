@@ -58,7 +58,6 @@ lineage_check:
   postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=gmbozcIAAAAJ
-  group_page: https://www.rug.nl/research/vsi/research/ions/
   openalex: https://openalex.org/A5032279219
   orcid: https://orcid.org/0000-0003-0571-4072
 location:

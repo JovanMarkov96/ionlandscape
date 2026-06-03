@@ -28,7 +28,8 @@ key_papers:
   year: 2006
 - doi: 10.1088/1367-2630/13/7/075018
   role: co_author
-  title: Design, fabrication, and experimental demonstration of junction surface ion traps
+  title: Design, fabrication, and experimental demonstration of junction surface ion
+    traps
   year: 2011
 - doi: 10.1088/1367-2630/15/9/093018
   role: co_author
@@ -51,8 +52,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  google_scholar: https://scholar.google.com/citations?user=wSjXz60AAAAJ
-  group_page: https://www.sandia.gov/quantum/research-groups/ion-trapping/
   orcid: null
 location:
   city: Albuquerque

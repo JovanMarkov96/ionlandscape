@@ -47,3 +47,4 @@ Verified: 2026-05-04
 *   **`thesis.link`**: null.
 *   **`links.group_page`**: null — Official group website URL was not immediately discoverable, though lab presence at POSTECH is confirmed.
 *   **`metrics`**: Not populated — Stage 3.G task.
+- Removed broken/unresolvable links (google_scholar) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

@@ -51,7 +51,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=5XqgH5oAAAAJ
   group_page: https://webapps.unitn.it/du/en/Persona/PER0223733/Curriculum
   orcid: null
 location:

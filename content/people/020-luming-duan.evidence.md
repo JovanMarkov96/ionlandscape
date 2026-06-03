@@ -47,3 +47,4 @@ Verified: 2026-05-04
 *   **`thesis.link`**: null — Exact thesis document from USTC not found open-access.
 *   **`metrics`**: Not populated — Stage 3.G task.
 *   **`postdoc.confidence`**: Set to high. While his exact title at Innsbruck may have been "visiting researcher" or "postdoc", he was active there post-PhD before becoming a professor at Michigan.
+- Removed broken/unresolvable links (group_page, tsinghua_profile) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

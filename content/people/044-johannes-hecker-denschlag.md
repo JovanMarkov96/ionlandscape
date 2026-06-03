@@ -42,7 +42,6 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=h9DoV-oAAAAJ
-  group_page: https://www.uni-ulm.de/en/nawi/quantum-matter/
   orcid: null
 location:
   city: Ulm

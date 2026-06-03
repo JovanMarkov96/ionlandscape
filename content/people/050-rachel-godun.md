@@ -40,7 +40,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  google_scholar: https://scholar.google.com/citations?user=TkWO3PgAAAAJ
   group_page: https://www.npl.co.uk/people/rachel-godun
   homepage: https://www.npl.co.uk/people/rachel-godun
   orcid: null

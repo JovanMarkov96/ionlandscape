@@ -38,3 +38,4 @@
 ## Data quality notes
 - The IQOQI profile does not explicitly list the University of Innsbruck appointment, PhD details, advisor, or thesis title; those fields should be verified from an institutional CV or dissertation record.
 - The Quantum Optics group page and thesis PDF were unreachable at the time of this pass.
+- Removed broken/unresolvable links (group_page) during 2026-06-03 link-validation sweep (returned HTTP 404 or malformed domain).

@@ -39,7 +39,6 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=q-PAyDIAAAAJ
-  group_page: https://df.uba.ar/en/research/cold-ions-and-atoms-lab
   orcid: null
 location:
   city: Buenos Aires

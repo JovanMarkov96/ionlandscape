@@ -42,8 +42,6 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=PM_aLhoAAAAJ
-  group_page: https://www.phys.titech.ac.jp/lab/mukaiyama/
-  homepage: https://www.phys.titech.ac.jp/lab/mukaiyama/
   orcid: null
 location:
   city: Osaka
