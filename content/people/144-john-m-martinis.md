@@ -1,5 +1,10 @@
 ---
 active: active
+affiliations:
+- entity_id: c038-qolab
+  name: Qolab
+  role: Co-founder and CTO
+  type: company
 applications:
 - computing
 - simulation
@@ -96,3 +101,7 @@ sort_name: Martinis, John M.
 updated_at: '2026-05-26'
 verification_source_count: 4
 ---
+
+John M. Martinis is an experimental physicist and a leading figure in superconducting quantum computing. He earned his BS (1980) and PhD (1987) in physics at the University of California, Berkeley under John Clarke, where his thesis work on macroscopic quantum tunnelling and energy-level quantisation in Josephson junctions later earned him the 2025 Nobel Prize in Physics, shared with Clarke and Michel Devoret.
+
+After a postdoc at the CEA in Saclay, France and years at NIST Boulder, Martinis joined the University of California, Santa Barbara, where he became a Distinguished Professor. From 2014 he led Google's superconducting-qubit hardware effort, culminating in the 2019 "quantum supremacy" demonstration with the 53-qubit Sycamore processor. In 2024 he co-founded Qolab, where he serves as CTO, applying semiconductor-manufacturing techniques to build high-coherence superconducting qubits at scale.
