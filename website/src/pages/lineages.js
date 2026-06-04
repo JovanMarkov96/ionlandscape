@@ -1,6 +1,37 @@
 import React, { useEffect, useState, useMemo, useRef } from 'react';
 import Layout from '@theme/Layout';
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import GuidedTour from '../components/GuidedTour';
+
+const GRAPH_TOUR_KEY = 'ql_tour_graph_v1';
+const GRAPH_TOUR = [
+    {
+        selector: null,
+        title: 'The connection graph',
+        body: 'Every dot is a person, company or institution; links show advising relationships and affiliations. Here’s a quick tour.',
+        placement: 'center',
+        cta: 'Start',
+    },
+    {
+        selector: '.graph-search',
+        title: 'Search',
+        body: 'Find any person, company or institution by name and jump straight to it on the graph.',
+        placement: 'right',
+    },
+    {
+        selector: '.graph-legend-filters',
+        title: 'Filters',
+        body: 'Show or hide lineage (advisor) vs. affiliation/founding links, and hide unconnected nodes to declutter the view.',
+        placement: 'right',
+    },
+    {
+        selector: null,
+        title: 'Click to explore',
+        body: 'Click any node to open its profile card — it lights up everything connected to it and lists each relationship. Click a connection to keep walking the graph, or use “Open in map” to see it geographically.',
+        placement: 'center',
+        cta: 'Done',
+    },
+];
 
 const TYPE_COLORS = { person: '#3578e5', company: '#00a65a', institution: '#f39c12' };
 const KIND_LABEL = { person: 'Person', company: 'Company', institution: 'Institution' };
@@ -57,7 +88,17 @@ function LineageGraph() {
     const [dark, setDark] = useState(false);
     const [selectedId, setSelectedId] = useState(null);
     const [query, setQuery] = useState('');
+    const [showTour, setShowTour] = useState(false);
     const fgRef = useRef(null);
+
+    // First-visit guided tour for the graph view
+    useEffect(() => {
+        try { if (!localStorage.getItem(GRAPH_TOUR_KEY)) setShowTour(true); } catch (e) { }
+    }, []);
+    const closeTour = () => {
+        setShowTour(false);
+        try { localStorage.setItem(GRAPH_TOUR_KEY, '1'); } catch (e) { }
+    };
 
     // Track Docusaurus light/dark theme so the canvas + labels adapt
     useEffect(() => {
@@ -195,6 +236,10 @@ function LineageGraph() {
                 const ForceGraph2D = require('react-force-graph-2d').default;
                 return (
                     <div style={{ width: '100vw', height: 'calc(100vh - 60px)', position: 'relative' }}>
+                        <GuidedTour open={showTour} steps={GRAPH_TOUR} onClose={closeTour} />
+                        {!showTour && (
+                            <button className="tour-help-btn" onClick={() => setShowTour(true)} title="Take the tour" aria-label="Take the guided tour">?</button>
+                        )}
                         {/* ---- Left control panel ---- */}
                         <div className="graph-panel">
                             <div className="graph-panel-head">

@@ -2,6 +2,51 @@ import React, { useState, useEffect, useRef } from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import Layout from '@theme/Layout';
 
+// localStorage flag — bump the suffix to re-show the tour to returning visitors.
+const TOUR_KEY = 'ql_tour_map_v1';
+
+// Interactive onboarding tour for the map view.
+const MAP_TOUR = [
+    {
+        selector: null,
+        title: 'Welcome to Quantum Landscape',
+        body: 'An interactive world map and academic family tree of the quantum-technology ecosystem — researchers, companies and institutions across platforms like trapped ions, neutral atoms and superconducting qubits. Take this quick tour, or skip it anytime.',
+        placement: 'center',
+        cta: 'Start tour',
+    },
+    {
+        selector: '.map-filters-container',
+        title: 'Layers',
+        body: 'Toggle what appears on the map — People, Companies and Institutions. Tap a layer to show or hide it.',
+        placement: 'right',
+    },
+    {
+        selector: '.filter-btn-platforms',
+        title: 'Filter by platform',
+        body: 'Open the platform filter to focus the map on a specific qubit technology — trapped ion, neutral atom, superconducting, photonic and more.',
+        placement: 'right',
+    },
+    {
+        selector: '.maplibregl-marker',
+        title: 'Open a profile',
+        body: 'Every pin is a researcher, company or institution. Click a pin and choose “View profile” to see full details, connections and sources.',
+        placement: 'auto',
+    },
+    {
+        selector: 'a[title="Lineage graph"]',
+        title: 'Explore the graph',
+        body: 'Switch to the Graph view to see who trained whom and how people connect to companies and institutions — click any node to explore its connections.',
+        placement: 'bottom',
+    },
+    {
+        selector: '.navbar-custom-btn[title="People"]',
+        title: 'Browse directories',
+        body: 'Jump to full directories of People, Companies and Institutions from the top bar. That’s it — enjoy exploring!',
+        placement: 'bottom',
+        cta: 'Done',
+    },
+];
+
 /**
  * Private inner component that handles map state and side panels 
  * when the map view is active. Must be rendered client-side 
@@ -24,6 +69,7 @@ function HomeContent() {
     const PersonPanel = require('../components/PersonPanel').default;
     const CompanyPanel = require('../components/CompanyPanel').default;
     const InstitutionPanel = require('../components/InstitutionPanel').default;
+    const GuidedTour = require('../components/GuidedTour').default;
 
     // Check for profile query params in URL
     useEffect(() => {
@@ -51,7 +97,7 @@ function HomeContent() {
             const newUrl = window.location.pathname;
             window.history.replaceState({}, '', newUrl);
         } else {
-            const hasSeenWelcome = localStorage.getItem('hasSeenIonWelcome');
+            const hasSeenWelcome = localStorage.getItem(TOUR_KEY);
             if (!hasSeenWelcome) {
                 setShowWelcome(true);
             }
@@ -127,7 +173,7 @@ function HomeContent() {
 
     const handleDismissWelcome = () => {
         setShowWelcome(false);
-        localStorage.setItem('hasSeenIonWelcome', 'true');
+        localStorage.setItem(TOUR_KEY, 'true');
     };
 
     return (
@@ -142,16 +188,19 @@ function HomeContent() {
                 />
             </div>
 
-            {showWelcome && !isPanelOpen && (
-                <div className="welcome-popup">
-                    <button className="close-panel-btn" onClick={handleDismissWelcome} aria-label="Dismiss welcome popup" style={{ top: '16px', right: '16px' }}>✕</button>
-                    <div className="welcome-brand">
-                        <img className="ql-stacked ql-stacked-dark" src="/quantum-landscape/img/brand/wordmark-stacked-on-dark.png" alt="Quantum Landscape" />
-                        <img className="ql-stacked ql-stacked-light" src="/quantum-landscape/img/brand/wordmark-stacked-on-light.png" alt="Quantum Landscape" />
-                    </div>
-                    <p>An interactive map and academic family tree of the quantum technology landscape. Click a marker to explore a researcher, company, or institution.</p>
-                    <button className="btn-primary" onClick={handleDismissWelcome}>Get Started</button>
-                </div>
+            <GuidedTour
+                open={showWelcome && !isPanelOpen}
+                steps={MAP_TOUR}
+                onClose={handleDismissWelcome}
+            />
+
+            {!showWelcome && (
+                <button
+                    className="tour-help-btn"
+                    onClick={() => setShowWelcome(true)}
+                    title="Take the tour"
+                    aria-label="Take the guided tour"
+                >?</button>
             )}
 
             <div className={`quantum-landscape-panel ${isPanelOpen ? 'panel-open' : ''}`}>
