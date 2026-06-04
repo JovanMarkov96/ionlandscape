@@ -99,7 +99,8 @@ export default function GuidedTour({ open, steps, onClose }) {
 
     // ---- Coachmark position ----
     const isWelcome = !!step.brand;
-    const TIP_W = isWelcome ? 430 : 330;
+    // Clamp the card to the viewport so it never spills off a narrow phone screen.
+    const TIP_W = Math.min(isWelcome ? 430 : 330, vp.w - 32);
     const tipH = (tipRef.current && tipRef.current.offsetHeight) || 190;
     // Cursor follows the spotlight target; the coachmark may be anchored elsewhere.
     let cursor = rect
@@ -108,7 +109,9 @@ export default function GuidedTour({ open, steps, onClose }) {
     const posRect = anchorRect || rect;
     let tipStyle;
     if (!posRect) {
-        tipStyle = { top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: TIP_W };
+        // Centre horizontally with a pixel left (not translateX) so a mobile
+        // `left` override can't fight an inline transform and push us off-screen.
+        tipStyle = { top: '50%', left: Math.max(16, (vp.w - TIP_W) / 2), transform: 'translateY(-50%)', width: TIP_W };
     } else {
         const placement = step.placement || 'auto';
         const rightOk = posRect.left + posRect.width + TIP_W + 24 < vp.w;
