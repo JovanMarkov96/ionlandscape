@@ -1110,6 +1110,11 @@
     "type": "advisor"
   },
   {
+    "source": "081-immanuel-bloch",
+    "target": "i101-max-planck-institute-of-quantum-optics",
+    "type": "affiliated_with"
+  },
+  {
     "source": "174-mazyar-mirrahimi",
     "target": "175-zaki-leghtas",
     "type": "advisor"

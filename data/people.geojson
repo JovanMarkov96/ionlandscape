@@ -7748,7 +7748,9 @@
           "neutral_atom",
           "rydberg_array"
         ],
-        "affiliations": [],
+        "affiliations": [
+          "Max Planck Institute of Quantum Optics"
+        ],
         "city": "Munich",
         "country": "Germany",
         "short_bio": "Immanuel Bloch is Professor of Experimental Physics at Ludwig-Maximilians-Universität München (LMU) and Scientific Director of the Quantum Many-Body Systems Division at the Max Planck Institute of Quantum Optics (MPQ) in Garching, where he has been based since 2008. He is one of the most cited physicists in quantum simulation, widely recognised for pioneering the use of optical lattices and quantum gas microscopes to realise and probe strongly correlated quantum systems with single-atom precision.",

@@ -11,28 +11,28 @@
     "categories": [],
     "location": {
       "city": "Vancouver",
-      "region": "British Columbia",
       "country": "Canada",
+      "geocode_source": "manual",
+      "geocoded_at": "2026-06-03",
       "lat": 49.2827,
       "lon": -123.1207,
       "precision": "city",
-      "geocode_source": "manual",
-      "geocoded_at": "2026-06-03"
+      "region": "British Columbia"
     },
     "short_summary": "Photonic Inc. is a Canadian quantum company headquartered in Vancouver, building a distributed, fault-tolerant quantum architecture from silicon spin qubits that are optically linked by photons. Its qubits are \"T centre\" defects in silicon, which provide a native telecom-wavelength photonic interface — enabling entanglement between modules and a natively networked approach to scaling. Founded by Dr. Stephanie Simmons, Photonic raised over US$140M (with Microsoft among investors) and is a DARPA QBI Stage B participant.",
     "approach": {
-      "elevator_pitch": "Photonic builds optically-linked silicon spin qubits based on T centres, giving each qubit a native telecom photonic interface for a distributed, networked, fault-tolerant quantum computer.",
-      "differentiators": [
-        "Uses the silicon \"T centre\" defect, which emits and absorbs photons at telecom wavelengths — a native optical interface for silicon spin qubits",
-        "An \"Entanglement First\" architecture designed for distributed, networked quantum computing rather than a single monolithic chip",
-        "Leverages mature silicon manufacturing and existing telecom infrastructure"
-      ],
       "architecture_tags": [
         "t_centre_silicon_spin",
         "optical_interconnects",
         "telecom_wavelength_photons",
         "distributed_architecture"
-      ]
+      ],
+      "differentiators": [
+        "Uses the silicon \"T centre\" defect, which emits and absorbs photons at telecom wavelengths — a native optical interface for silicon spin qubits",
+        "An \"Entanglement First\" architecture designed for distributed, networked quantum computing rather than a single monolithic chip",
+        "Leverages mature silicon manufacturing and existing telecom infrastructure"
+      ],
+      "elevator_pitch": "Photonic builds optically-linked silicon spin qubits based on T centres, giving each qubit a native telecom photonic interface for a distributed, networked, fault-tolerant quantum computer."
     },
     "focus_areas": [
       "silicon T-centre spin qubits",
@@ -62,10 +62,10 @@
       ],
       "spun_out_of": [
         {
-          "name": "Simon Fraser University",
           "institution_id": "i030-simon-fraser-university",
-          "spinout_year": 2016,
-          "source": "https://photonic.com/about-us/"
+          "name": "Simon Fraser University",
+          "source": "https://photonic.com/about-us/",
+          "spinout_year": 2016
         }
       ]
     },
@@ -73,30 +73,30 @@
       "operating_status": "private"
     },
     "funding": {
-      "total_raised_usd": 140000000,
       "rounds": [
         {
-          "stage": "series_b",
-          "round": "Strategic round",
-          "date": "2023-11-01",
           "amount_usd": 138000000,
+          "date": "2023-11-01",
+          "notes": "US$138M raised from a consortium of corporate and government investors, including Microsoft.",
           "other_investors": [
             "Microsoft",
             "BCI",
             "Inovia Capital",
             "Yaletown Partners"
           ],
-          "notes": "US$138M raised from a consortium of corporate and government investors, including Microsoft.",
-          "source": "https://postquantum.com/quantum-computing-companies/photonic-inc/"
+          "round": "Strategic round",
+          "source": "https://postquantum.com/quantum-computing-companies/photonic-inc/",
+          "stage": "series_b"
         },
         {
-          "stage": "grant",
-          "round": "Government of Canada funding",
           "amount_usd": 17000000,
           "notes": "CA$23M in Canadian federal funding to advance its quantum technology.",
-          "source": "https://www.biv.com/news/bc-quantum-firm-photonic-receives-23m-in-federal-funding-11626458"
+          "round": "Government of Canada funding",
+          "source": "https://www.biv.com/news/bc-quantum-firm-photonic-receives-23m-in-federal-funding-11626458",
+          "stage": "grant"
         }
-      ]
+      ],
+      "total_raised_usd": 140000000
     },
     "milestones": [
       {
@@ -124,35 +124,37 @@
     "partnerships": [
       {
         "name": "Microsoft",
-        "type": "investor",
-        "source": "https://postquantum.com/quantum-computing-companies/photonic-inc/"
+        "source": "https://postquantum.com/quantum-computing-companies/photonic-inc/",
+        "type": "investor"
       }
     ],
     "links": {
-      "website": "https://photonic.com",
-      "linkedin": "https://www.linkedin.com/company/teamphotonic"
+      "linkedin": "https://www.linkedin.com/company/teamphotonic",
+      "website": "https://photonic.com"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c042-photonic-inc.png"
+    },
     "sources": [
       {
-        "url": "https://photonic.com/about-us/",
-        "note": "Founding, T-centre approach, Simon Fraser origin"
+        "note": "Founding, T-centre approach, Simon Fraser origin",
+        "url": "https://photonic.com/about-us/"
       },
       {
-        "url": "https://photonic.com/team/dr-stephanie-simmons/",
-        "note": "Founder Stephanie Simmons"
+        "note": "Founder Stephanie Simmons",
+        "url": "https://photonic.com/team/dr-stephanie-simmons/"
       },
       {
-        "url": "https://postquantum.com/quantum-computing-companies/photonic-inc/",
-        "note": "US$138M raise, Microsoft investment, technology"
+        "note": "US$138M raise, Microsoft investment, technology",
+        "url": "https://postquantum.com/quantum-computing-companies/photonic-inc/"
       },
       {
-        "url": "https://photonic.com/news/photonic-inc-advances-to-stage-b-of-darpas-quantum-benchmarking-initiative/",
-        "note": "DARPA QBI Stage B advancement"
+        "note": "DARPA QBI Stage B advancement",
+        "url": "https://photonic.com/news/photonic-inc-advances-to-stage-b-of-darpas-quantum-benchmarking-initiative/"
       },
       {
-        "url": "https://www.biv.com/news/bc-quantum-firm-photonic-receives-23m-in-federal-funding-11626458",
-        "note": "CA$23M Canadian federal funding"
+        "note": "CA$23M Canadian federal funding",
+        "url": "https://www.biv.com/news/bc-quantum-firm-photonic-receives-23m-in-federal-funding-11626458"
       }
     ],
     "md_filename": "c042-photonic-inc.md",
@@ -688,29 +690,29 @@
     "categories": [],
     "location": {
       "city": "Palo Alto",
-      "region": "California",
       "country": "United States",
+      "geocode_source": "manual",
+      "geocoded_at": "2026-06-03",
       "lat": 37.4419,
       "lon": -122.143,
       "precision": "city",
-      "geocode_source": "manual",
-      "geocoded_at": "2026-06-03"
+      "region": "California"
     },
     "short_summary": "Qolab is a US superconducting quantum hardware company co-founded in 2024 by Alan Ho (CEO), 2025 Nobel laureate John M. Martinis (CTO) and Robert McDermott (Head of Hardware). Its thesis is that the semiconductor industry holds the key to a practical quantum computer, so it adapts wafer-scale integration and advanced packaging — partnering with Applied Materials — to fabricate large numbers of high-coherence superconducting qubits. Qolab is a participant in DARPA's Quantum Benchmarking Initiative and in December 2025 deployed its first superconducting-qubit devices at Israel's IQCC.",
     "approach": {
-      "elevator_pitch": "Qolab builds industrial-grade superconducting QPUs by bringing semiconductor manufacturing discipline — wafer-scale integration and advanced packaging — to the fabrication of high-quality, high-coherence qubits.",
+      "architecture_tags": [
+        "superconducting_qubits",
+        "wafer_scale_integration",
+        "advanced_packaging",
+        "modular_tiles"
+      ],
       "differentiators": [
         "Founding team led the hardware behind Google's 2019 quantum-supremacy demonstration (Martinis), giving deep superconducting-qubit fabrication expertise",
         "Focus on qubit quality and coherence first, using semiconductor-grade materials and processes rather than scaling low-quality qubits",
         "Partnership with Applied Materials to co-develop proprietary fabrication processes",
         "Bonds qubit and wiring wafers into modular tiles with integrated cryogenic interconnects, filters and amplifiers"
       ],
-      "architecture_tags": [
-        "superconducting_qubits",
-        "wafer_scale_integration",
-        "advanced_packaging",
-        "modular_tiles"
-      ]
+      "elevator_pitch": "Qolab builds industrial-grade superconducting QPUs by bringing semiconductor manufacturing discipline — wafer-scale integration and advanced packaging — to the fabrication of high-quality, high-coherence qubits."
     },
     "focus_areas": [
       "high-coherence superconducting qubits",
@@ -727,8 +729,8 @@
         },
         {
           "name": "John M. Martinis",
-          "role": "Co-founder & CTO",
           "person_id": "144-john-m-martinis",
+          "role": "Co-founder & CTO",
           "source": "https://thequantuminsider.com/2024/08/09/quantum-computing-luminaries-launch-qolab-to-develop-high-quality-superconducting-qubits/"
         },
         {
@@ -768,45 +770,47 @@
     "partnerships": [
       {
         "name": "Applied Materials",
-        "type": "technology",
-        "source": "https://thequantuminsider.com/2024/08/09/quantum-computing-luminaries-launch-qolab-to-develop-high-quality-superconducting-qubits/"
+        "source": "https://thequantuminsider.com/2024/08/09/quantum-computing-luminaries-launch-qolab-to-develop-high-quality-superconducting-qubits/",
+        "type": "technology"
       },
       {
         "name": "Israeli Quantum Computing Center (IQCC)",
-        "type": "research",
-        "source": "https://www.prnewswire.com/news-releases/qolab-deploys-first-superconducting-qubit-devices-at-the-iqcc-to-accelerate-international-collaboration-in-quantum-computing-302630676.html"
+        "source": "https://www.prnewswire.com/news-releases/qolab-deploys-first-superconducting-qubit-devices-at-the-iqcc-to-accelerate-international-collaboration-in-quantum-computing-302630676.html",
+        "type": "research"
       },
       {
         "name": "Hewlett Packard Enterprise (quantum supercomputing framework)",
-        "type": "research",
-        "source": "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html"
+        "source": "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html",
+        "type": "research"
       }
     ],
     "links": {
-      "website": "https://qolab.ai",
-      "linkedin": "https://www.linkedin.com/company/qolab"
+      "linkedin": "https://www.linkedin.com/company/qolab",
+      "website": "https://qolab.ai"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c038-qolab.png"
+    },
     "sources": [
       {
-        "url": "https://thequantuminsider.com/2024/08/09/quantum-computing-luminaries-launch-qolab-to-develop-high-quality-superconducting-qubits/",
-        "note": "Launch, founders and leadership, technology approach, Applied Materials partnership"
+        "note": "Launch, founders and leadership, technology approach, Applied Materials partnership",
+        "url": "https://thequantuminsider.com/2024/08/09/quantum-computing-luminaries-launch-qolab-to-develop-high-quality-superconducting-qubits/"
       },
       {
-        "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers",
-        "note": "DARPA QBI Stage A participation"
+        "note": "DARPA QBI Stage A participation",
+        "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers"
       },
       {
-        "url": "https://www.nobelprize.org/prizes/physics/2025/press-release/",
-        "note": "Martinis 2025 Nobel Prize in Physics"
+        "note": "Martinis 2025 Nobel Prize in Physics",
+        "url": "https://www.nobelprize.org/prizes/physics/2025/press-release/"
       },
       {
-        "url": "https://thequantuminsider.com/2025/12/03/qolab-deploys-first-superconducting-qubit-devices-at-the-iqcc/",
-        "note": "First device deployment at the IQCC, December 2025"
+        "note": "First device deployment at the IQCC, December 2025",
+        "url": "https://thequantuminsider.com/2025/12/03/qolab-deploys-first-superconducting-qubit-devices-at-the-iqcc/"
       },
       {
-        "url": "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html",
-        "note": "Martinis leading quantum hardware in HPE's QBI supercomputing-framework consortium"
+        "note": "Martinis leading quantum hardware in HPE's QBI supercomputing-framework consortium",
+        "url": "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html"
       }
     ],
     "md_filename": "c038-qolab.md",
@@ -1766,27 +1770,27 @@
     "categories": [],
     "location": {
       "city": "Sydney",
-      "region": "New South Wales",
       "country": "Australia",
+      "geocode_source": "manual",
+      "geocoded_at": "2026-06-03",
       "lat": -33.8688,
       "lon": 151.2093,
       "precision": "city",
-      "geocode_source": "manual",
-      "geocoded_at": "2026-06-03"
+      "region": "New South Wales"
     },
     "short_summary": "Diraq is an Australian quantum-computing company, spun out of UNSW Sydney in 2022 and led by Prof. Andrew Dzurak, building quantum processors from silicon CMOS spin qubits. By making qubits with the same standard semiconductor manufacturing used for today's chips, Diraq aims to integrate millions of qubits on a single chip. It has raised more than A$150M, signed a CHIPS Act letter of intent with the U.S. Department of Commerce, and is a DARPA QBI Stage A participant.",
     "approach": {
-      "elevator_pitch": "Diraq builds silicon CMOS spin qubits using standard semiconductor foundry processes, targeting the dense integration of millions of qubits on a single chip for fault-tolerant quantum computing.",
+      "architecture_tags": [
+        "silicon_cmos_spin_qubits",
+        "quantum_dots",
+        "foundry_manufacturing"
+      ],
       "differentiators": [
         "Qubits are electron spins in silicon quantum dots made with standard CMOS manufacturing, enabling foundry-scale production",
         "Extremely small qubit footprint allows very high qubit densities on a single chip",
         "Founder Andrew Dzurak pioneered the first CMOS-compatible silicon spin qubit logic"
       ],
-      "architecture_tags": [
-        "silicon_cmos_spin_qubits",
-        "quantum_dots",
-        "foundry_manufacturing"
-      ]
+      "elevator_pitch": "Diraq builds silicon CMOS spin qubits using standard semiconductor foundry processes, targeting the dense integration of millions of qubits on a single chip for fault-tolerant quantum computing."
     },
     "focus_areas": [
       "silicon CMOS spin qubits",
@@ -1805,8 +1809,8 @@
       "spun_out_of": [
         {
           "name": "UNSW Sydney",
-          "spinout_year": 2022,
-          "source": "https://en.wikipedia.org/wiki/Diraq"
+          "source": "https://en.wikipedia.org/wiki/Diraq",
+          "spinout_year": 2022
         }
       ]
     },
@@ -1814,11 +1818,9 @@
       "operating_status": "private"
     },
     "funding": {
-      "total_raised_usd": null,
       "rounds": [
         {
-          "stage": "series_a",
-          "round": "Series A (A$100M+ cumulative grant + VC)",
+          "notes": "Diraq has raised more than A$150M in combined grant and venture funding.",
           "other_investors": [
             "Main Sequence",
             "Quantonation",
@@ -1826,18 +1828,20 @@
             "UniSuper",
             "Taronga Ventures"
           ],
-          "notes": "Diraq has raised more than A$150M in combined grant and venture funding.",
-          "source": "https://en.wikipedia.org/wiki/Diraq"
+          "round": "Series A (A$100M+ cumulative grant + VC)",
+          "source": "https://en.wikipedia.org/wiki/Diraq",
+          "stage": "series_a"
         },
         {
-          "stage": "government_contract",
-          "round": "U.S. CHIPS Act letter of intent",
-          "date": "2026-05-21",
           "amount_usd": 38000000,
+          "date": "2026-05-21",
           "notes": "Up to US$38M planned funding under the CHIPS and Science Act to scale silicon spin quantum logic units and domestic manufacturing.",
-          "source": "https://www.manilatimes.net/2026/05/21/tmt-newswire/globenewswire/diraq-signs-38m-letter-of-intent-with-the-us-department-of-commerce-under-chips-act-to-scale-domestic-quantum-computing-processors-using-silicon-spin-technology/2349116"
+          "round": "U.S. CHIPS Act letter of intent",
+          "source": "https://www.manilatimes.net/2026/05/21/tmt-newswire/globenewswire/diraq-signs-38m-letter-of-intent-with-the-us-department-of-commerce-under-chips-act-to-scale-domestic-quantum-computing-processors-using-silicon-spin-technology/2349116",
+          "stage": "government_contract"
         }
-      ]
+      ],
+      "total_raised_usd": null
     },
     "milestones": [
       {
@@ -1859,27 +1863,29 @@
     "roadmap": [],
     "partnerships": [],
     "links": {
+      "linkedin": "https://au.linkedin.com/company/diraq",
       "website": "https://www.diraq.com",
-      "wikipedia": "https://en.wikipedia.org/wiki/Diraq",
-      "linkedin": "https://au.linkedin.com/company/diraq"
+      "wikipedia": "https://en.wikipedia.org/wiki/Diraq"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c040-diraq.png"
+    },
     "sources": [
       {
-        "url": "https://en.wikipedia.org/wiki/Diraq",
-        "note": "Founding, UNSW spinout, Andrew Dzurak, technology, funding"
+        "note": "Founding, UNSW spinout, Andrew Dzurak, technology, funding",
+        "url": "https://en.wikipedia.org/wiki/Diraq"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Andrew_Dzurak",
-        "note": "Founder background and silicon spin-qubit research"
+        "note": "Founder background and silicon spin-qubit research",
+        "url": "https://en.wikipedia.org/wiki/Andrew_Dzurak"
       },
       {
-        "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers",
-        "note": "DARPA QBI Stage A participation"
+        "note": "DARPA QBI Stage A participation",
+        "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers"
       },
       {
-        "url": "https://www.manilatimes.net/2026/05/21/tmt-newswire/globenewswire/diraq-signs-38m-letter-of-intent-with-the-us-department-of-commerce-under-chips-act-to-scale-domestic-quantum-computing-processors-using-silicon-spin-technology/2349116",
-        "note": "US$38M CHIPS Act letter of intent, May 2026"
+        "note": "US$38M CHIPS Act letter of intent, May 2026",
+        "url": "https://www.manilatimes.net/2026/05/21/tmt-newswire/globenewswire/diraq-signs-38m-letter-of-intent-with-the-us-department-of-commerce-under-chips-act-to-scale-domestic-quantum-computing-processors-using-silicon-spin-technology/2349116"
       }
     ],
     "md_filename": "c040-diraq.md",
@@ -4385,27 +4391,27 @@
     "categories": [],
     "location": {
       "city": "Spring",
-      "region": "Texas",
       "country": "United States",
+      "geocode_source": "manual",
+      "geocoded_at": "2026-06-03",
       "lat": 30.0799,
       "lon": -95.4172,
       "precision": "city",
-      "geocode_source": "manual",
-      "geocoded_at": "2026-06-03"
+      "region": "Texas"
     },
     "short_summary": "Hewlett Packard Enterprise (NYSE ticker HPE) is a global IT and high-performance-computing company whose research arm, Hewlett Packard Labs, runs a quantum-supercomputing program selected for DARPA's Quantum Benchmarking Initiative. HPE's QBI entry pairs superconducting qubits with advanced fabrication and its HPC/supercomputing integration expertise — framing quantum as an accelerator within classical supercomputers. The effort builds on the \"How to Build a Quantum Supercomputer\" work and a consortium including John Martinis.",
     "approach": {
-      "elevator_pitch": "HPE brings its supercomputing and systems-integration strength to quantum, developing a quantum-supercomputing framework that couples superconducting qubits and advanced fabrication with classical HPC.",
+      "architecture_tags": [
+        "superconducting_qubits",
+        "advanced_fabrication",
+        "quantum_hpc_integration"
+      ],
       "differentiators": [
         "Approaches quantum as a tightly integrated accelerator within HPC supercomputers, not a standalone machine",
         "Leverages Hewlett Packard Labs research and HPE's Cray/HPC systems heritage",
         "Consortium approach to QBI, with hardware expertise from figures including John Martinis (Qolab)"
       ],
-      "architecture_tags": [
-        "superconducting_qubits",
-        "advanced_fabrication",
-        "quantum_hpc_integration"
-      ]
+      "elevator_pitch": "HPE brings its supercomputing and systems-integration strength to quantum, developing a quantum-supercomputing framework that couples superconducting qubits and advanced fabrication with classical HPC."
     },
     "focus_areas": [
       "quantum-supercomputing integration",
@@ -4435,27 +4441,29 @@
     "partnerships": [
       {
         "name": "Qolab (quantum hardware in HPE's QBI consortium)",
-        "type": "research",
-        "source": "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html"
+        "source": "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html",
+        "type": "research"
       }
     ],
     "links": {
       "website": "https://www.hpe.com",
       "wikipedia": "https://en.wikipedia.org/wiki/Hewlett_Packard_Enterprise"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c045-hewlett-packard-enterprise.png"
+    },
     "sources": [
       {
-        "url": "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html",
-        "note": "HPE quantum-supercomputing framework selected for DARPA QBI; consortium including Martinis"
+        "note": "HPE quantum-supercomputing framework selected for DARPA QBI; consortium including Martinis",
+        "url": "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html"
       },
       {
-        "url": "https://www.hpcwire.com/off-the-wire/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative/",
-        "note": "QBI selection; SC24 \"How to Build a Quantum Supercomputer\" paper"
+        "note": "QBI selection; SC24 \"How to Build a Quantum Supercomputer\" paper",
+        "url": "https://www.hpcwire.com/off-the-wire/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative/"
       },
       {
-        "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers",
-        "note": "DARPA QBI Stage A participant list (HPE — superconducting qubits with advanced fabrication)"
+        "note": "DARPA QBI Stage A participant list (HPE — superconducting qubits with advanced fabrication)",
+        "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers"
       }
     ],
     "md_filename": "c045-hewlett-packard-enterprise.md",
@@ -4614,28 +4622,28 @@
     "categories": [],
     "location": {
       "city": "Sydney",
-      "region": "New South Wales",
       "country": "Australia",
+      "geocode_source": "manual",
+      "geocoded_at": "2026-06-03",
       "lat": -33.8688,
       "lon": 151.2093,
       "precision": "city",
-      "geocode_source": "manual",
-      "geocoded_at": "2026-06-03"
+      "region": "New South Wales"
     },
     "short_summary": "Silicon Quantum Computing (SQC) is Australia's first quantum-computing company, founded in 2017 as a UNSW Sydney spin-off by Prof. Michelle Simmons. SQC builds \"precision atom qubits\" — individual phosphorus atoms placed in silicon with atomic precision using its proprietary PAQMan process — aiming for a scalable, error-corrected quantum computer. Backed by over A$280M including Australian government, UNSW, Telstra and CBA, SQC is a DARPA QBI Stage A participant.",
     "approach": {
-      "elevator_pitch": "SQC builds quantum processors from individual phosphorus atoms positioned in silicon with atomic precision, using scanning-tunnelling-microscope lithography for the most precise semiconductor manufacturing in the world.",
-      "differentiators": [
-        "Atomic-precision placement of individual phosphorus donor atoms in silicon (PAQMan process), distinct from quantum-dot spin qubits",
-        "Built a full-stack quantum computer in-house, enabling rapid iteration",
-        "Founded and led by Michelle Simmons, a pioneer of atomic-scale silicon device fabrication and former Australian of the Year"
-      ],
       "architecture_tags": [
         "precision_atom_qubits",
         "phosphorus_donors_in_silicon",
         "stm_lithography",
         "paqman"
-      ]
+      ],
+      "differentiators": [
+        "Atomic-precision placement of individual phosphorus donor atoms in silicon (PAQMan process), distinct from quantum-dot spin qubits",
+        "Built a full-stack quantum computer in-house, enabling rapid iteration",
+        "Founded and led by Michelle Simmons, a pioneer of atomic-scale silicon device fabrication and former Australian of the Year"
+      ],
+      "elevator_pitch": "SQC builds quantum processors from individual phosphorus atoms positioned in silicon with atomic precision, using scanning-tunnelling-microscope lithography for the most precise semiconductor manufacturing in the world."
     },
     "focus_areas": [
       "precision atom qubits in silicon",
@@ -4654,8 +4662,8 @@
       "spun_out_of": [
         {
           "name": "UNSW Sydney",
-          "spinout_year": 2017,
-          "source": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing"
+          "source": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing",
+          "spinout_year": 2017
         }
       ]
     },
@@ -4663,23 +4671,23 @@
       "operating_status": "private"
     },
     "funding": {
-      "total_raised_usd": null,
       "rounds": [
         {
-          "stage": "seed",
-          "round": "Seed (Australian government, UNSW, Telstra, CBA, NSW)",
           "date": "2017-05-01",
           "notes": "Launched with A$83M in seed backing from the Australian federal government, UNSW, Telstra, Commonwealth Bank and the NSW government.",
-          "source": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing"
+          "round": "Seed (Australian government, UNSW, Telstra, CBA, NSW)",
+          "source": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing",
+          "stage": "seed"
         },
         {
-          "stage": "government_contract",
-          "round": "National Reconstruction Fund Corporation investment",
           "amount_usd": 13000000,
           "notes": "AU$20M NRFC investment to accelerate atomic-scale manufacturing (PAQMan); total funding to date around AU$283M.",
-          "source": "https://www.nrf.gov.au/news-and-media-releases/national-reconstruction-fund-bolsters-australias-quantum-computing-and-atomic-scale-semiconductor-manufacturing-capability-20-million-investment-silicon-quantum-computing"
+          "round": "National Reconstruction Fund Corporation investment",
+          "source": "https://www.nrf.gov.au/news-and-media-releases/national-reconstruction-fund-bolsters-australias-quantum-computing-and-atomic-scale-semiconductor-manufacturing-capability-20-million-investment-silicon-quantum-computing",
+          "stage": "government_contract"
         }
-      ]
+      ],
+      "total_raised_usd": null
     },
     "milestones": [
       {
@@ -4701,27 +4709,29 @@
     "roadmap": [],
     "partnerships": [],
     "links": {
+      "linkedin": "https://www.linkedin.com/company/silicon-quantum-computing",
       "website": "https://www.sqc.com.au",
-      "wikipedia": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing",
-      "linkedin": "https://www.linkedin.com/company/silicon-quantum-computing"
+      "wikipedia": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c044-silicon-quantum-computing.png"
+    },
     "sources": [
       {
-        "url": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing",
-        "note": "Founding, UNSW spinout, Michelle Simmons, seed funding"
+        "note": "Founding, UNSW spinout, Michelle Simmons, seed funding",
+        "url": "https://en.wikipedia.org/wiki/Silicon_Quantum_Computing"
       },
       {
-        "url": "https://www.sqc.com.au/news/silicon-quantum-computing-awarded-darpa-qbi-contract",
-        "note": "DARPA QBI Stage A contract"
+        "note": "DARPA QBI Stage A contract",
+        "url": "https://www.sqc.com.au/news/silicon-quantum-computing-awarded-darpa-qbi-contract"
       },
       {
-        "url": "https://www.sqc.com.au/news/nrfc-investment",
-        "note": "NRFC AU$20M investment, PAQMan, total funding"
+        "note": "NRFC AU$20M investment, PAQMan, total funding",
+        "url": "https://www.sqc.com.au/news/nrfc-investment"
       },
       {
-        "url": "https://en.wikipedia.org/wiki/Michelle_Simmons",
-        "note": "Founder background, atomic-precision silicon devices"
+        "note": "Founder background, atomic-precision silicon devices",
+        "url": "https://en.wikipedia.org/wiki/Michelle_Simmons"
       }
     ],
     "md_filename": "c044-silicon-quantum-computing.md",
@@ -7272,28 +7282,28 @@
     "categories": [],
     "location": {
       "city": "London",
-      "region": "England",
       "country": "United Kingdom",
+      "geocode_source": "manual",
+      "geocoded_at": "2026-06-03",
       "lat": 51.5074,
       "lon": -0.1278,
       "precision": "city",
-      "geocode_source": "manual",
-      "geocoded_at": "2026-06-03"
+      "region": "England"
     },
     "short_summary": "Quantum Motion is a London-based quantum-computing company founded in 2017 by UCL's Prof. John Morton and Oxford's Prof. Simon Benjamin. It builds qubits from electron spins in silicon quantum dots fabricated on industry-standard 300 mm CMOS wafers, betting that reusing the existing semiconductor foundry supply chain is the most scalable route to a fault-tolerant machine. In 2025 it delivered the first full-stack silicon CMOS quantum computer to the UK's NQCC and advanced to DARPA QBI Stage B; in 2026 it raised a US$160M Series C.",
     "approach": {
-      "elevator_pitch": "Quantum Motion makes silicon spin qubits on standard 300 mm CMOS wafers using the same foundry processes as conventional chips, aiming for a manufacturable, fault-tolerant quantum computer.",
-      "differentiators": [
-        "Qubits are electron spins in silicon quantum dots built with standard 300 mm CMOS foundry processes",
-        "Delivered the industry's first full-stack silicon CMOS quantum computer (to the UK NQCC)",
-        "Founded by leading UK silicon-qubit academics (John Morton, UCL; Simon Benjamin, Oxford)"
-      ],
       "architecture_tags": [
         "silicon_cmos_spin_qubits",
         "quantum_dots",
         "300mm_wafers",
         "foundry_manufacturing"
-      ]
+      ],
+      "differentiators": [
+        "Qubits are electron spins in silicon quantum dots built with standard 300 mm CMOS foundry processes",
+        "Delivered the industry's first full-stack silicon CMOS quantum computer (to the UK NQCC)",
+        "Founded by leading UK silicon-qubit academics (John Morton, UCL; Simon Benjamin, Oxford)"
+      ],
+      "elevator_pitch": "Quantum Motion makes silicon spin qubits on standard 300 mm CMOS wafers using the same foundry processes as conventional chips, aiming for a manufacturable, fault-tolerant quantum computer."
     },
     "focus_areas": [
       "silicon CMOS spin qubits",
@@ -7310,22 +7320,22 @@
         },
         {
           "name": "Simon Benjamin",
-          "role": "Co-founder (Professor, University of Oxford)",
           "person_id": null,
+          "role": "Co-founder (Professor, University of Oxford)",
           "source": "https://www.materials.ox.ac.uk/article/quantum-motion-spin-out-raises-8m-funding"
         }
       ],
       "spun_out_of": [
         {
           "name": "University College London",
-          "spinout_year": 2017,
-          "source": "https://www.ucl.ac.uk/news/2026/may/quantum-computing-spinout-raises-ps120-million"
+          "source": "https://www.ucl.ac.uk/news/2026/may/quantum-computing-spinout-raises-ps120-million",
+          "spinout_year": 2017
         },
         {
-          "name": "University of Oxford",
           "institution_id": "i049-university-of-oxford",
-          "spinout_year": 2017,
-          "source": "https://www.materials.ox.ac.uk/article/quantum-motion-spin-out-raises-8m-funding"
+          "name": "University of Oxford",
+          "source": "https://www.materials.ox.ac.uk/article/quantum-motion-spin-out-raises-8m-funding",
+          "spinout_year": 2017
         }
       ]
     },
@@ -7333,13 +7343,11 @@
       "operating_status": "private"
     },
     "funding": {
-      "total_raised_usd": 160000000,
       "rounds": [
         {
-          "stage": "series_c",
-          "round": "Series C",
-          "date": "2026-05-07",
           "amount_usd": 160000000,
+          "date": "2026-05-07",
+          "notes": "US$160M (£120M) Series C to develop commercially available silicon-chip quantum computers.",
           "other_investors": [
             "DCVC",
             "Kembara",
@@ -7351,10 +7359,12 @@
             "Porsche SE",
             "Parkwalk Advisors"
           ],
-          "notes": "US$160M (£120M) Series C to develop commercially available silicon-chip quantum computers.",
-          "source": "https://quantummotion.com/series-c-funding/"
+          "round": "Series C",
+          "source": "https://quantummotion.com/series-c-funding/",
+          "stage": "series_c"
         }
-      ]
+      ],
+      "total_raised_usd": 160000000
     },
     "milestones": [
       {
@@ -7381,30 +7391,32 @@
     "roadmap": [],
     "partnerships": [],
     "links": {
-      "website": "https://quantummotion.com",
-      "linkedin": "https://www.linkedin.com/company/quantum-motion"
+      "linkedin": "https://www.linkedin.com/company/quantum-motion",
+      "website": "https://quantummotion.com"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c043-quantum-motion.png"
+    },
     "sources": [
       {
-        "url": "https://quantummotion.com/series-c-funding/",
-        "note": "US$160M Series C, investors"
+        "note": "US$160M Series C, investors",
+        "url": "https://quantummotion.com/series-c-funding/"
       },
       {
-        "url": "https://www.ucl.ac.uk/news/2026/may/quantum-computing-spinout-raises-ps120-million",
-        "note": "UCL spinout, John Morton, founding"
+        "note": "UCL spinout, John Morton, founding",
+        "url": "https://www.ucl.ac.uk/news/2026/may/quantum-computing-spinout-raises-ps120-million"
       },
       {
-        "url": "https://www.materials.ox.ac.uk/article/quantum-motion-spin-out-raises-8m-funding",
-        "note": "Oxford co-founder Simon Benjamin, early funding"
+        "note": "Oxford co-founder Simon Benjamin, early funding",
+        "url": "https://www.materials.ox.ac.uk/article/quantum-motion-spin-out-raises-8m-funding"
       },
       {
-        "url": "https://quantummotion.com/quantum-motion-delivers-the-industrys-first-full-stack-silicon-cmos-quantum-computer/",
-        "note": "First full-stack silicon CMOS quantum computer delivered to NQCC"
+        "note": "First full-stack silicon CMOS quantum computer delivered to NQCC",
+        "url": "https://quantummotion.com/quantum-motion-delivers-the-industrys-first-full-stack-silicon-cmos-quantum-computer/"
       },
       {
-        "url": "https://www.datacenterdynamics.com/en/news/quantum-motion-delivers-silicon-cmos-based-quantum-computer-to-uks-national-quantum-computing-centre/",
-        "note": "NQCC delivery and DARPA QBI Stage B"
+        "note": "NQCC delivery and DARPA QBI Stage B",
+        "url": "https://www.datacenterdynamics.com/en/news/quantum-motion-delivers-silicon-cmos-based-quantum-computer-to-uks-national-quantum-computing-centre/"
       }
     ],
     "md_filename": "c043-quantum-motion.md",
@@ -8019,27 +8031,27 @@
     "categories": [],
     "location": {
       "city": "Cambridge",
-      "region": "Massachusetts",
       "country": "United States",
+      "geocode_source": "manual",
+      "geocoded_at": "2026-06-03",
       "lat": 42.3736,
       "lon": -71.1097,
       "precision": "city",
-      "geocode_source": "manual",
-      "geocoded_at": "2026-06-03"
+      "region": "Massachusetts"
     },
     "short_summary": "Atlantic Quantum was a superconducting quantum-computing company spun out of Prof. William D. Oliver's lab at MIT in 2022, with co-locations in Cambridge, Massachusetts and Gothenburg, Sweden. It pursued fluxonium qubits with co-located cryogenic control electronics, arguing that fluxonium's larger anharmonicity and longer coherence offer a cleaner path to fault tolerance than conventional transmons. A DARPA QBI Stage A participant, the company was acquired by Google Quantum AI in 2025.",
     "approach": {
-      "elevator_pitch": "Atlantic Quantum built scalable superconducting quantum processors based on fluxonium qubits integrated with co-located cryogenic control, aiming at fault-tolerant systems.",
+      "architecture_tags": [
+        "fluxonium_qubits",
+        "cryogenic_control",
+        "modular_architecture"
+      ],
       "differentiators": [
         "Uses fluxonium qubits, which can offer longer coherence times and larger anharmonicity than the widely used transmon",
         "Co-locates cryogenic control electronics with the qubits to simplify wiring and scaling",
         "Spun out of MIT's Engineering Quantum Systems group led by William D. Oliver and Simon Gustavsson"
       ],
-      "architecture_tags": [
-        "fluxonium_qubits",
-        "cryogenic_control",
-        "modular_architecture"
-      ]
+      "elevator_pitch": "Atlantic Quantum built scalable superconducting quantum processors based on fluxonium qubits integrated with co-located cryogenic control, aiming at fault-tolerant systems."
     },
     "focus_areas": [
       "fluxonium superconducting qubits",
@@ -8061,40 +8073,37 @@
         },
         {
           "name": "William D. Oliver",
-          "role": "Co-founder (MIT Professor)",
           "person_id": "201-william-d-oliver",
+          "role": "Co-founder (MIT Professor)",
           "source": "https://alum.mit.edu/slice/mit-alums-startup-best-shot-building-viable-quantum-computer"
         }
       ],
       "spun_out_of": [
         {
-          "name": "Massachusetts Institute of Technology",
           "institution_id": "i017-massachusetts-institute-of-technology",
-          "spinout_year": 2022,
-          "source": "https://alum.mit.edu/slice/mit-alums-startup-best-shot-building-viable-quantum-computer"
+          "name": "Massachusetts Institute of Technology",
+          "source": "https://alum.mit.edu/slice/mit-alums-startup-best-shot-building-viable-quantum-computer",
+          "spinout_year": 2022
         }
       ]
     },
     "status": {
-      "operating_status": "acquired",
       "acquired": {
-        "is_acquired": true,
         "acquired_by": "Google Quantum AI",
         "acquired_by_id": "c021-google-quantum-ai",
         "acquisition_date": "2025-10-01",
         "acquisition_type": "asset",
         "announcement_url": "https://www.hpcwire.com/2025/10/03/google-quantum-ai-brings-atlantic-quantum-into-its-team/",
+        "is_acquired": true,
         "notes": "Google acquired Atlantic Quantum to integrate its fluxonium-qubit and modular chip architecture expertise into Google Quantum AI's fault-tolerance roadmap."
-      }
+      },
+      "operating_status": "acquired"
     },
     "funding": {
-      "total_raised_usd": 9000000,
       "rounds": [
         {
-          "stage": "seed",
-          "round": "Seed",
-          "date": "2022-07-21",
           "amount_usd": 9000000,
+          "date": "2022-07-21",
           "lead_investor": "The Engine",
           "other_investors": [
             "Thomas Tull",
@@ -8102,17 +8111,20 @@
             "Future Labs Capital",
             "E14 Fund"
           ],
-          "source": "https://canvasbusinessmodel.com/blogs/brief-history/atlantic-quantum"
+          "round": "Seed",
+          "source": "https://canvasbusinessmodel.com/blogs/brief-history/atlantic-quantum",
+          "stage": "seed"
         },
         {
-          "stage": "government_contract",
-          "round": "AFWERX Phase II STTR",
-          "date": "2024-11-01",
           "amount_usd": 1800000,
+          "date": "2024-11-01",
           "notes": "Phase II STTR with MIT to develop superconducting quantum computers for the U.S. Air Force.",
-          "source": "https://www.datacenterdynamics.com/en/news/atlantic-quantum-and-mit-receive-18m-to-develop-superconducting-quantum-computers-for-the-air-force/"
+          "round": "AFWERX Phase II STTR",
+          "source": "https://www.datacenterdynamics.com/en/news/atlantic-quantum-and-mit-receive-18m-to-develop-superconducting-quantum-computers-for-the-air-force/",
+          "stage": "government_contract"
         }
-      ]
+      ],
+      "total_raised_usd": 9000000
     },
     "milestones": [
       {
@@ -8139,30 +8151,32 @@
     "roadmap": [],
     "partnerships": [],
     "links": {
-      "website": "https://atlantic-quantum.com",
-      "linkedin": "https://www.linkedin.com/company/atlantic-quantum"
+      "linkedin": "https://www.linkedin.com/company/atlantic-quantum",
+      "website": "https://atlantic-quantum.com"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c039-atlantic-quantum.png"
+    },
     "sources": [
       {
-        "url": "https://alum.mit.edu/slice/mit-alums-startup-best-shot-building-viable-quantum-computer",
-        "note": "MIT spinout origin, William Oliver, fluxonium approach"
+        "note": "MIT spinout origin, William Oliver, fluxonium approach",
+        "url": "https://alum.mit.edu/slice/mit-alums-startup-best-shot-building-viable-quantum-computer"
       },
       {
-        "url": "https://engineventures.com/companies/atlantic-quantum",
-        "note": "Founders and leadership (Kannan, Gustavsson)"
+        "note": "Founders and leadership (Kannan, Gustavsson)",
+        "url": "https://engineventures.com/companies/atlantic-quantum"
       },
       {
-        "url": "https://www.datacenterdynamics.com/en/news/atlantic-quantum-and-mit-receive-18m-to-develop-superconducting-quantum-computers-for-the-air-force/",
-        "note": "AFWERX Phase II STTR for the U.S. Air Force"
+        "note": "AFWERX Phase II STTR for the U.S. Air Force",
+        "url": "https://www.datacenterdynamics.com/en/news/atlantic-quantum-and-mit-receive-18m-to-develop-superconducting-quantum-computers-for-the-air-force/"
       },
       {
-        "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers",
-        "note": "DARPA QBI Stage A participation"
+        "note": "DARPA QBI Stage A participation",
+        "url": "https://www.darpa.mil/news/2025/companies-targeting-quantum-computers"
       },
       {
-        "url": "https://www.hpcwire.com/2025/10/03/google-quantum-ai-brings-atlantic-quantum-into-its-team/",
-        "note": "Acquisition by Google Quantum AI, 2025"
+        "note": "Acquisition by Google Quantum AI, 2025",
+        "url": "https://www.hpcwire.com/2025/10/03/google-quantum-ai-brings-atlantic-quantum-into-its-team/"
       }
     ],
     "md_filename": "c039-atlantic-quantum.md",
@@ -8716,28 +8730,28 @@
     "categories": [],
     "location": {
       "city": "Sherbrooke",
-      "region": "Quebec",
       "country": "Canada",
+      "geocode_source": "manual",
+      "geocoded_at": "2026-06-03",
       "lat": 45.4042,
       "lon": -71.8929,
       "precision": "city",
-      "geocode_source": "manual",
-      "geocoded_at": "2026-06-03"
+      "region": "Quebec"
     },
     "short_summary": "Nord Quantique is a Canadian quantum-computing company founded in 2020 in Sherbrooke, Quebec, building fault-tolerant quantum computers using superconducting bosonic codes. By embedding quantum error correction directly into each qubit (multimode bosonic encoding in superconducting cavities), it targets a far lower physical-to-logical qubit overhead than conventional architectures. The company advanced to Stage B of DARPA's QBI and in 2026 reached a US$1.4B valuation.",
     "approach": {
-      "elevator_pitch": "Nord Quantique embeds error correction inside each superconducting qubit using bosonic codes, aiming to slash the qubit overhead required for fault-tolerant quantum computing.",
-      "differentiators": [
-        "Bosonic (multimode) error-correcting codes implemented in superconducting cavities, reducing physical-qubit overhead",
-        "Demonstrated the Tesseract bosonic code, sustaining quantum information across many error-correction cycles",
-        "Targets hardware-efficient logical qubits rather than large surface-code patches"
-      ],
       "architecture_tags": [
         "superconducting_cavities",
         "bosonic_codes",
         "multimode_encoding",
         "hardware_efficient_qec"
-      ]
+      ],
+      "differentiators": [
+        "Bosonic (multimode) error-correcting codes implemented in superconducting cavities, reducing physical-qubit overhead",
+        "Demonstrated the Tesseract bosonic code, sustaining quantum information across many error-correction cycles",
+        "Targets hardware-efficient logical qubits rather than large surface-code patches"
+      ],
+      "elevator_pitch": "Nord Quantique embeds error correction inside each superconducting qubit using bosonic codes, aiming to slash the qubit overhead required for fault-tolerant quantum computing."
     },
     "focus_areas": [
       "bosonic quantum error correction",
@@ -8755,10 +8769,10 @@
       ],
       "spun_out_of": [
         {
-          "name": "Université de Sherbrooke",
           "institution_id": "i109-universite-de-sherbrooke",
-          "spinout_year": 2020,
-          "source": "https://nordquantique.com/"
+          "name": "Université de Sherbrooke",
+          "source": "https://nordquantique.com/",
+          "spinout_year": 2020
         }
       ]
     },
@@ -8766,26 +8780,26 @@
       "operating_status": "private"
     },
     "funding": {
-      "total_raised_usd": null,
       "rounds": [
         {
-          "stage": "series_a",
-          "round": "Strategic investment (Fidelity)",
-          "date": "2026-03-01",
           "amount_usd": 30000000,
+          "date": "2026-03-01",
           "lead_investor": "Fidelity",
           "notes": "US$30M investment reportedly valuing Nord Quantique at US$1.4 billion.",
-          "source": "https://www.businesswire.com/news/home/20260518358351/en/Nord-Quantique-Reaches-%241.4-Billion-USD-Valuation-with-Latest-Investment"
+          "round": "Strategic investment (Fidelity)",
+          "source": "https://www.businesswire.com/news/home/20260518358351/en/Nord-Quantique-Reaches-%241.4-Billion-USD-Valuation-with-Latest-Investment",
+          "stage": "series_a"
         },
         {
-          "stage": "grant",
-          "round": "Canadian Quantum Champions Program",
-          "date": "2025-12-15",
           "amount_usd": 16000000,
+          "date": "2025-12-15",
           "notes": "Up to CA$23M non-dilutive funding to expand its Sherbrooke lab and headcount.",
-          "source": "https://thequantuminsider.com/2025/12/15/nord-quantique-canadian-quantum-champions-program/"
+          "round": "Canadian Quantum Champions Program",
+          "source": "https://thequantuminsider.com/2025/12/15/nord-quantique-canadian-quantum-champions-program/",
+          "stage": "grant"
         }
-      ]
+      ],
+      "total_raised_usd": null
     },
     "milestones": [
       {
@@ -8811,37 +8825,39 @@
     ],
     "roadmap": [
       {
-        "target_date": "2029-12-31",
+        "source": "https://thequantuminsider.com/2025/12/15/nord-quantique-canadian-quantum-champions-program/",
         "target_claim": "Deliver a fault-tolerant quantum computer with more than 100 logical qubits, leveraging hardware-efficient bosonic error correction.",
-        "source": "https://thequantuminsider.com/2025/12/15/nord-quantique-canadian-quantum-champions-program/"
+        "target_date": "2029-12-31"
       }
     ],
     "partnerships": [],
     "links": {
-      "website": "https://nordquantique.com",
-      "linkedin": "https://www.linkedin.com/company/nord-quantique"
+      "linkedin": "https://www.linkedin.com/company/nord-quantique",
+      "website": "https://nordquantique.com"
     },
-    "media": {},
+    "media": {
+      "logo_path": "/logos/c041-nord-quantique.png"
+    },
     "sources": [
       {
-        "url": "https://nordquantique.com/",
-        "note": "Company, leadership, technology overview"
+        "note": "Company, leadership, technology overview",
+        "url": "https://nordquantique.com/"
       },
       {
-        "url": "https://entangledfuture.com/company/nord-quantique/",
-        "note": "Founding year, bosonic-code approach"
+        "note": "Founding year, bosonic-code approach",
+        "url": "https://entangledfuture.com/company/nord-quantique/"
       },
       {
-        "url": "https://thequantuminsider.com/2025/11/07/darpa-advances-quantum-computing-initiative/",
-        "note": "DARPA QBI Stage B advancement"
+        "note": "DARPA QBI Stage B advancement",
+        "url": "https://thequantuminsider.com/2025/11/07/darpa-advances-quantum-computing-initiative/"
       },
       {
-        "url": "https://www.businesswire.com/news/home/20260518358351/en/Nord-Quantique-Reaches-%241.4-Billion-USD-Valuation-with-Latest-Investment",
-        "note": "US$1.4B valuation, Fidelity investment"
+        "note": "US$1.4B valuation, Fidelity investment",
+        "url": "https://www.businesswire.com/news/home/20260518358351/en/Nord-Quantique-Reaches-%241.4-Billion-USD-Valuation-with-Latest-Investment"
       },
       {
-        "url": "https://thequantuminsider.com/2025/12/15/nord-quantique-canadian-quantum-champions-program/",
-        "note": "Canadian Quantum Champions Program funding, 100+ logical-qubit target"
+        "note": "Canadian Quantum Champions Program funding, 100+ logical-qubit target",
+        "url": "https://thequantuminsider.com/2025/12/15/nord-quantique-canadian-quantum-champions-program/"
       }
     ],
     "md_filename": "c041-nord-quantique.md",

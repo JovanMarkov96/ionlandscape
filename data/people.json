@@ -16348,7 +16348,14 @@
       "neutral_atom",
       "rydberg_array"
     ],
-    "affiliations": [],
+    "affiliations": [
+      {
+        "entity_id": "i101-max-planck-institute-of-quantum-optics",
+        "name": "Max Planck Institute of Quantum Optics",
+        "role": "Scientific Director, Quantum Many-Body Systems Division",
+        "type": "institution"
+      }
+    ],
     "location": {
       "city": "Munich",
       "region": "",
@@ -16380,8 +16387,15 @@
       "quantum simulation"
     ],
     "group_type": "experimental",
-    "labels": [],
-    "ion_species": [],
+    "labels": [
+      "Experimental group"
+    ],
+    "ion_species": [
+      "87Rb",
+      "40K",
+      "174Yb",
+      "88Sr"
+    ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?user=kX5_lc8AAAAJ",
       "group_page": "https://www.quantum-munich.de/104554/bloch-immanuel-prof-dr",
@@ -16389,12 +16403,15 @@
       "openalex": "https://openalex.org/A5032954061",
       "orcid": "https://orcid.org/0000-0002-0679-4759"
     },
-    "thesis": {},
+    "thesis": {
+      "title": "Atomlaser und Phasenkohärenz atomarer Bose-Einstein-Kondensate",
+      "year": 2000
+    },
     "nobel_prize": null,
     "short_bio": "Immanuel Bloch is Professor of Experimental Physics at Ludwig-Maximilians-Universität München (LMU) and Scientific Director of the Quantum Many-Body Systems Division at the Max Planck Institute of Quantum Optics (MPQ) in Garching, where he has been based since 2008. He is one of the most cited physicists in quantum simulation, widely recognised for pioneering the use of optical lattices and quantum gas microscopes to realise and probe strongly correlated quantum systems with single-atom precision.",
     "md_filename": "081-immanuel-bloch.md",
     "created_at": "2026-05-26",
-    "updated_at": "2026-05-30"
+    "updated_at": "2026-06-04"
   },
   {
     "id": "175-zaki-leghtas",

@@ -14,7 +14,7 @@
         "city": "Vancouver",
         "country": "Canada",
         "short_summary": "Photonic Inc. is a Canadian quantum company headquartered in Vancouver, building a distributed, fault-tolerant quantum architecture from silicon spin qubits that are optically linked by photons. Its qubits are \"T centre\" defects in silicon, which provide a native telecom-wavelength photonic interface — enabling entanglement between modules and a natively networked approach to scaling. Founded by Dr. Stephanie Simmons, Photonic raised over US$140M (with Microsoft among investors) and is a DARPA QBI Stage B participant.",
-        "logo_path": "",
+        "logo_path": "/logos/c042-photonic-inc.png",
         "md_filename": "c042-photonic-inc.md"
       },
       "geometry": {
@@ -81,7 +81,7 @@
         "city": "Palo Alto",
         "country": "United States",
         "short_summary": "Qolab is a US superconducting quantum hardware company co-founded in 2024 by Alan Ho (CEO), 2025 Nobel laureate John M. Martinis (CTO) and Robert McDermott (Head of Hardware). Its thesis is that the semiconductor industry holds the key to a practical quantum computer, so it adapts wafer-scale integration and advanced packaging — partnering with Applied Materials — to fabricate large numbers of high-coherence superconducting qubits. Qolab is a participant in DARPA's Quantum Benchmarking Initiative and in December 2025 deployed its first superconducting-qubit devices at Israel's IQCC.",
-        "logo_path": "",
+        "logo_path": "/logos/c038-qolab.png",
         "md_filename": "c038-qolab.md"
       },
       "geometry": {
@@ -199,7 +199,7 @@
         "city": "Sydney",
         "country": "Australia",
         "short_summary": "Diraq is an Australian quantum-computing company, spun out of UNSW Sydney in 2022 and led by Prof. Andrew Dzurak, building quantum processors from silicon CMOS spin qubits. By making qubits with the same standard semiconductor manufacturing used for today's chips, Diraq aims to integrate millions of qubits on a single chip. It has raised more than A$150M, signed a CHIPS Act letter of intent with the U.S. Department of Commerce, and is a DARPA QBI Stage A participant.",
-        "logo_path": "",
+        "logo_path": "/logos/c040-diraq.png",
         "md_filename": "c040-diraq.md"
       },
       "geometry": {
@@ -493,7 +493,7 @@
         "city": "Spring",
         "country": "United States",
         "short_summary": "Hewlett Packard Enterprise (NYSE ticker HPE) is a global IT and high-performance-computing company whose research arm, Hewlett Packard Labs, runs a quantum-supercomputing program selected for DARPA's Quantum Benchmarking Initiative. HPE's QBI entry pairs superconducting qubits with advanced fabrication and its HPC/supercomputing integration expertise — framing quantum as an accelerator within classical supercomputers. The effort builds on the \"How to Build a Quantum Supercomputer\" work and a consortium including John Martinis.",
-        "logo_path": "",
+        "logo_path": "/logos/c045-hewlett-packard-enterprise.png",
         "md_filename": "c045-hewlett-packard-enterprise.md"
       },
       "geometry": {
@@ -539,7 +539,7 @@
         "city": "Sydney",
         "country": "Australia",
         "short_summary": "Silicon Quantum Computing (SQC) is Australia's first quantum-computing company, founded in 2017 as a UNSW Sydney spin-off by Prof. Michelle Simmons. SQC builds \"precision atom qubits\" — individual phosphorus atoms placed in silicon with atomic precision using its proprietary PAQMan process — aiming for a scalable, error-corrected quantum computer. Backed by over A$280M including Australian government, UNSW, Telstra and CBA, SQC is a DARPA QBI Stage A participant.",
-        "logo_path": "",
+        "logo_path": "/logos/c044-silicon-quantum-computing.png",
         "md_filename": "c044-silicon-quantum-computing.md"
       },
       "geometry": {
@@ -815,7 +815,7 @@
         "city": "London",
         "country": "United Kingdom",
         "short_summary": "Quantum Motion is a London-based quantum-computing company founded in 2017 by UCL's Prof. John Morton and Oxford's Prof. Simon Benjamin. It builds qubits from electron spins in silicon quantum dots fabricated on industry-standard 300 mm CMOS wafers, betting that reusing the existing semiconductor foundry supply chain is the most scalable route to a fault-tolerant machine. In 2025 it delivered the first full-stack silicon CMOS quantum computer to the UK's NQCC and advanced to DARPA QBI Stage B; in 2026 it raised a US$160M Series C.",
-        "logo_path": "",
+        "logo_path": "/logos/c043-quantum-motion.png",
         "md_filename": "c043-quantum-motion.md"
       },
       "geometry": {
@@ -884,7 +884,7 @@
         "city": "Cambridge",
         "country": "United States",
         "short_summary": "Atlantic Quantum was a superconducting quantum-computing company spun out of Prof. William D. Oliver's lab at MIT in 2022, with co-locations in Cambridge, Massachusetts and Gothenburg, Sweden. It pursued fluxonium qubits with co-located cryogenic control electronics, arguing that fluxonium's larger anharmonicity and longer coherence offer a cleaner path to fault tolerance than conventional transmons. A DARPA QBI Stage A participant, the company was acquired by Google Quantum AI in 2025.",
-        "logo_path": "",
+        "logo_path": "/logos/c039-atlantic-quantum.png",
         "md_filename": "c039-atlantic-quantum.md"
       },
       "geometry": {
@@ -974,7 +974,7 @@
         "city": "Sherbrooke",
         "country": "Canada",
         "short_summary": "Nord Quantique is a Canadian quantum-computing company founded in 2020 in Sherbrooke, Quebec, building fault-tolerant quantum computers using superconducting bosonic codes. By embedding quantum error correction directly into each qubit (multimode bosonic encoding in superconducting cavities), it targets a far lower physical-to-logical qubit overhead than conventional architectures. The company advanced to Stage B of DARPA's QBI and in 2026 reached a US$1.4B valuation.",
-        "logo_path": "",
+        "logo_path": "/logos/c041-nord-quantique.png",
         "md_filename": "c041-nord-quantique.md"
       },
       "geometry": {
