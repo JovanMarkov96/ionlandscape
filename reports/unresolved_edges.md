@@ -34,6 +34,7 @@ Endpoints that could not be matched to a known node.
 | L. J. Sham | 127-sophia-e-economou | advisor | False | True |
 | Matthew Kinsella | c029-infleqtion | leadership | False | True |
 | Michael Johanning | c017-eleqtron | founder | False | True |
+| Michael S. Feld | 004-christopher-monroe | advisor | False | True |
 | Michelle Simmons | c044-silicon-quantum-computing | founder | False | True |
 | Mohammad Hafezi | i120-university-of-maryland | leadership | False | True |
 | Niccolò de Masi | c002-ionq | leadership | False | True |
