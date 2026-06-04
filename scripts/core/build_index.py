@@ -185,6 +185,8 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
             "sort_name": meta.get("sort_name", name),
             "entity_type": "company",
             "platforms": meta.get("platforms", []),
+            "qubit_type": meta.get("qubit_type"),
+            "ion_species": meta.get("ion_species", []),
             "categories": meta.get("categories", []),
             "location": location,
             "short_summary": short_summary,

@@ -61,6 +61,7 @@ partnerships:
   type: research
 platforms:
 - superconducting
+qubit_type: Superconducting
 schema_version: 1
 short_summary: Hewlett Packard Enterprise (NYSE ticker HPE) is a global IT and high-performance-computing
   company whose research arm, Hewlett Packard Labs, runs a quantum-supercomputing

@@ -101,6 +101,7 @@ people:
     spinout_year: 2017
 platforms:
 - silicon_spin
+qubit_type: Silicon CMOS spin qubit
 schema_version: 1
 short_summary: Quantum Motion is a London-based quantum-computing company founded
   in 2017 by UCL's Prof. John Morton and Oxford's Prof. Simon Benjamin. It builds

@@ -19,6 +19,7 @@ focus_areas:
 - Scalable quantum hardware
 - Superconducting architectures
 - Fault-tolerant system engineering
+founded_year: 2022
 funding:
   rounds:
   - amount_usd: 26000000
@@ -39,7 +40,6 @@ funding:
     round: Seed
     stage: seed
   total_raised_usd: 35000000
-founded_year: 2022
 id: c015-quamcore
 last_verified_at: '2026-06-02'
 links:
@@ -81,6 +81,7 @@ platforms:
 - superconducting
 products:
 - Million-qubit superconducting quantum processor architecture (design & roadmap)
+qubit_type: Superconducting
 schema_version: 1
 short_summary: Deep-tech quantum computing startup developing a superconducting processor
   architecture designed to scale into the million-qubit regime within a single cryostat.

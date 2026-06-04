@@ -15,7 +15,9 @@ entity_type: company
 focus_areas:
 - Scalable quantum computing
 - Error correction
+founded_year: 2022
 funding:
+  last_round_date: '2026-04-01'
   rounds:
   - amount_usd: 100000000
     date: '2025-12-10'
@@ -48,10 +50,10 @@ funding:
     round: Series A extension
     source: https://www.calcalistech.com/ctechnews/article/r1jl263t11g
     stage: series_a
-  last_round_date: '2026-04-01'
   total_raised_usd: 140000000
-founded_year: 2022
 id: c001-quantum-art
+ion_species:
+- 88Sr+
 last_verified_at: '2026-05-04'
 links:
   careers: https://quantum-art.tech/careers
@@ -93,8 +95,8 @@ people:
     role: CTO & Co-Founder
     source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
   - name: Roee Ozeri
-    role: Chief Science Officer & Co-founder
     person_id: 001-roee-ozeri
+    role: Chief Science Officer & Co-founder
     source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
   leadership:
   - name: Tal David
@@ -102,12 +104,13 @@ people:
     source: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-round-to-drive-scalable-multi-core-quantum-computing-302637558.html
   spun_out_of:
   - name: Weizmann Institute of Science
-    spinout_year: 2022
     source: https://quantumcomputingreport.com/quantum-art-closes-100-million-series-a-to-scale-multi-core-trapped-ion-systems/
+    spinout_year: 2022
 platforms:
 - trapped_ion
 products:
 - Perspective (1000-qubit system)
+qubit_type: Trapped ion
 schema_version: 1
 short_summary: Developer of scalable, multi-core quantum computers using trapped-ion
   qubits.

@@ -20,6 +20,7 @@ focus_areas:
 - Scalable photonic quantum computing
 - Fault-tolerant quantum architectures
 - Hardware innovation for quantum processors
+founded_year: 2021
 funding:
   rounds:
   - amount_usd: 50000000
@@ -50,7 +51,6 @@ funding:
     round: Seed & extensions
     stage: seed
   total_raised_usd: 77000000
-founded_year: 2021
 id: c014-quantum-source-labs
 last_verified_at: '2026-06-02'
 links:
@@ -94,6 +94,7 @@ platforms:
 - photonic
 products:
 - Photonic quantum computing systems (ORIGIN core engine initiative)
+qubit_type: Photonic (cavity-QED)
 schema_version: 1
 short_summary: Developer of scalable photonic quantum computing hardware using a hybrid
   photon-atom architecture to enable fault-tolerant, large-scale quantum systems.

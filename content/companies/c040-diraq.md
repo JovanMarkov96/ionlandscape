@@ -94,6 +94,7 @@ people:
     spinout_year: 2022
 platforms:
 - silicon_spin
+qubit_type: Silicon CMOS spin qubit
 schema_version: 1
 short_summary: Diraq is an Australian quantum-computing company, spun out of UNSW
   Sydney in 2022 and led by Prof. Andrew Dzurak, building quantum processors from

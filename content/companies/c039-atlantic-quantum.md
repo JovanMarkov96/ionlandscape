@@ -108,6 +108,7 @@ people:
     spinout_year: 2022
 platforms:
 - superconducting
+qubit_type: Fluxonium (superconducting)
 schema_version: 1
 short_summary: Atlantic Quantum was a superconducting quantum-computing company spun
   out of Prof. William D. Oliver's lab at MIT in 2022, with co-locations in Cambridge,

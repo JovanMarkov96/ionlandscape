@@ -20,20 +20,19 @@ approach:
     in 2025 IonQ reported 99.99% two-qubit gate fidelity, a world-record figure
   - Dynamic all-to-all qubit connectivity (any qubit can interact with any other),
     avoiding the SWAP overhead of fixed-lattice architectures
-  - Reports performance in "Algorithmic Qubits" (#AQ), an application-oriented
-    benchmark, rather than raw physical-qubit count
-  - Systems operate at or near room temperature (no dilution refrigerator), and
-    are available via all three major clouds — AWS Braket, Azure Quantum and Google Cloud
+  - Reports performance in "Algorithmic Qubits" (#AQ), an application-oriented benchmark,
+    rather than raw physical-qubit count
+  - Systems operate at or near room temperature (no dilution refrigerator), and are
+    available via all three major clouds — AWS Braket, Azure Quantum and Google Cloud
   - Aggressive vertical integration through acquisitions spanning quantum networking
-    (Qubitekk, ID Quantique), photonic interconnects (Lightsynq) and chip-scale
-    ion-trap control (Oxford Ionics)
+    (Qubitekk, ID Quantique), photonic interconnects (Lightsynq) and chip-scale ion-trap
+    control (Oxford Ionics)
   elevator_pitch: IonQ builds general-purpose, gate-based trapped-ion quantum computers
-    and a full-stack quantum-networking business, offering industry-leading gate
-    fidelities, all-to-all connectivity, and cloud access across AWS, Azure and Google Cloud.
+    and a full-stack quantum-networking business, offering industry-leading gate fidelities,
+    all-to-all connectivity, and cloud access across AWS, Azure and Google Cloud.
 entity_type: company
 founded_year: 2015
 funding:
-  total_raised_usd: 2636000000
   rounds:
   - amount_usd: 2000000
     date: '2015-07-01'
@@ -68,17 +67,21 @@ funding:
     stage: post_ipo
   - amount_usd: 2000000000
     date: '2025-10-01'
-    notes: $2.0 billion equity offering (common stock plus warrants) anchored by
-      Heights Capital Management; one of the largest capital raises in the quantum sector.
+    notes: $2.0 billion equity offering (common stock plus warrants) anchored by Heights
+      Capital Management; one of the largest capital raises in the quantum sector.
     round: Follow-on equity offering
     source: https://en.wikipedia.org/wiki/IonQ
     stage: post_ipo
+  total_raised_usd: 2636000000
 id: c002-ionq
+ion_species:
+- 171Yb+
+- 138Ba+
 last_verified_at: '2026-06-02'
 links:
+  investor_relations: https://investors.ionq.com
   website: https://ionq.com
   wikipedia: https://en.wikipedia.org/wiki/IonQ
-  investor_relations: https://investors.ionq.com
 location:
   city: College Park
   country: United States
@@ -91,8 +94,8 @@ location:
 media:
   logo_path: /logos/c002-ionq.png
 milestones:
-- claim: IonQ founded by Duke University professor Christopher Monroe and Jungsang Kim,
-    backed initially by New Enterprise Associates and GV, to commercialize trapped-ion
+- claim: IonQ founded by Duke University professor Christopher Monroe and Jungsang
+    Kim, backed initially by New Enterprise Associates and GV, to commercialize trapped-ion
     quantum computing.
   date: '2015-09-01'
   source: https://en.wikipedia.org/wiki/IonQ
@@ -117,9 +120,9 @@ milestones:
     cryptography (QKD) and quantum sensing, adding hundreds of patents.
   date: '2025-05-01'
   source: https://thequantuminsider.com/2025/06/09/ionq-acquires-uk-based-oxford-ionics-for-1-075-billion/
-- claim: Announced agreement to acquire UK trapped-ion company Oxford Ionics for
-    approximately $1.075 billion (≈$1.065B stock + $10M cash), combining two leaders
-    in trapped-ion quantum computing.
+- claim: Announced agreement to acquire UK trapped-ion company Oxford Ionics for approximately
+    $1.075 billion (≈$1.065B stock + $10M cash), combining two leaders in trapped-ion
+    quantum computing.
   date: '2025-06-09'
   source: https://thequantuminsider.com/2025/06/09/ionq-acquires-uk-based-oxford-ionics-for-1-075-billion/
 - claim: Acquired Lightsynq Technologies, a US startup developing photonic interconnects
@@ -180,14 +183,26 @@ partnerships:
   source: https://ionq.com/company
   type: research
 people:
-  founders:
+  former_leadership:
+  - name: Peter Chapman
+    role: CEO (2019–2025), later Executive Chair
+    source: https://en.wikipedia.org/wiki/IonQ
   - name: Christopher R. Monroe
-    role: Co-founder & former Chief Scientist
     person_id: 004-christopher-monroe
+    role: Co-founder & Chief Scientist (2015–2023)
     source: https://en.wikipedia.org/wiki/IonQ
   - name: Jungsang Kim
-    role: Co-founder & former CTO
     person_id: 010-jungsang-kim
+    role: Co-founder & CTO (2015–2024)
+    source: https://en.wikipedia.org/wiki/IonQ
+  founders:
+  - name: Christopher R. Monroe
+    person_id: 004-christopher-monroe
+    role: Co-founder & former Chief Scientist
+    source: https://en.wikipedia.org/wiki/IonQ
+  - name: Jungsang Kim
+    person_id: 010-jungsang-kim
+    role: Co-founder & former CTO
     source: https://en.wikipedia.org/wiki/IonQ
   leadership:
   - name: Niccolò de Masi
@@ -199,25 +214,13 @@ people:
   - name: Rick Muller
     role: VP of Quantum Systems (since July 2025)
     source: https://www.ionq.com/news/ionq-expands-engineering-leadership-team-hiring-rick-muller-as-vice
-  former_leadership:
-  - name: Peter Chapman
-    role: CEO (2019–2025), later Executive Chair
-    source: https://en.wikipedia.org/wiki/IonQ
-  - name: Christopher R. Monroe
-    role: Co-founder & Chief Scientist (2015–2023)
-    person_id: 004-christopher-monroe
-    source: https://en.wikipedia.org/wiki/IonQ
-  - name: Jungsang Kim
-    role: Co-founder & CTO (2015–2024)
-    person_id: 010-jungsang-kim
-    source: https://en.wikipedia.org/wiki/IonQ
   spun_out_of:
   - name: University of Maryland
-    spinout_year: 2015
     source: https://en.wikipedia.org/wiki/IonQ
+    spinout_year: 2015
   - name: Duke University
-    spinout_year: 2015
     source: https://en.wikipedia.org/wiki/IonQ
+    spinout_year: 2015
 platforms:
 - trapped_ion
 products:
@@ -234,7 +237,8 @@ products:
   source: https://ionq.com/quantum-hardware
   stage: ga
 - description: Flagship system rated at 36 Algorithmic Qubits (#AQ 36), introducing
-    a reconfigurable multicore architecture; offered as IonQ Forte and IonQ Forte Enterprise.
+    a reconfigurable multicore architecture; offered as IonQ Forte and IonQ Forte
+    Enterprise.
   name: IonQ Forte
   release_date: '2023-05-18'
   source: https://ionq.com/quantum-hardware
@@ -245,26 +249,28 @@ products:
   release_date: '2025-01-01'
   source: https://ionq.com/quantum-hardware
   stage: limited_release
+qubit_type: Trapped ion
 roadmap:
-- target_date: '2026-12-31'
-  target_claim: Deliver IonQ Tempo at (#AQ 64) and continue scaling toward systems with
-    thousands of physical qubits, leveraging Oxford Ionics chip-scale ion-trap control.
-  source: https://quantumcomputingreport.com/ionq-announces-regulatory-approval-for-oxford-ionics-acquisition-and-provides-a-roadmap-update-at-its-2025-analyst-day-meeting/
-- target_date: '2030-12-31'
+- source: https://quantumcomputingreport.com/ionq-announces-regulatory-approval-for-oxford-ionics-acquisition-and-provides-a-roadmap-update-at-its-2025-analyst-day-meeting/
+  target_claim: Deliver IonQ Tempo at (#AQ 64) and continue scaling toward systems
+    with thousands of physical qubits, leveraging Oxford Ionics chip-scale ion-trap
+    control.
+  target_date: '2026-12-31'
+- source: https://quantumcomputingreport.com/ionq-announces-regulatory-approval-for-oxford-ionics-acquisition-and-provides-a-roadmap-update-at-its-2025-analyst-day-meeting/
   target_claim: Reach roughly two million physical qubits and approximately 80,000
     logical qubits, with photonic interconnects networking many ion-trap cores into
     a fault-tolerant, distributed quantum computer.
-  source: https://quantumcomputingreport.com/ionq-announces-regulatory-approval-for-oxford-ionics-acquisition-and-provides-a-roadmap-update-at-its-2025-analyst-day-meeting/
+  target_date: '2030-12-31'
 schema_version: 1
 short_summary: IonQ (founded 2015, College Park MD) is the first publicly traded pure-play
   quantum computing company (NYSE IONQ), building general-purpose gate-based trapped-ion
   quantum computers spun out of work by Christopher Monroe and Jungsang Kim at the
-  University of Maryland and Duke. Its systems — Harmony, Aria, Forte and Tempo — report
-  performance in Algorithmic Qubits (#AQ), feature all-to-all connectivity and near-room-temperature
-  operation, and are available across AWS, Azure and Google Cloud. In 2025 IonQ reported
-  a world-record 99.99% two-qubit gate fidelity and rapidly expanded through acquisitions
-  including Oxford Ionics ($1.075B), ID Quantique, Qubitekk and Lightsynq, building
-  an integrated quantum-computing and quantum-networking business.
+  University of Maryland and Duke. Its systems — Harmony, Aria, Forte and Tempo —
+  report performance in Algorithmic Qubits (#AQ), feature all-to-all connectivity
+  and near-room-temperature operation, and are available across AWS, Azure and Google
+  Cloud. In 2025 IonQ reported a world-record 99.99% two-qubit gate fidelity and rapidly
+  expanded through acquisitions including Oxford Ionics ($1.075B), ID Quantique, Qubitekk
+  and Lightsynq, building an integrated quantum-computing and quantum-networking business.
 sort_name: IonQ
 sources:
 - note: Founding, founders, funding, IPO, acquisitions, leadership, milestones
@@ -277,7 +283,8 @@ sources:
   url: https://investors.ionq.com
 - note: Oxford Ionics $1.075B acquisition, June 2025
   url: https://thequantuminsider.com/2025/06/09/ionq-acquires-uk-based-oxford-ionics-for-1-075-billion/
-- note: Completion of Oxford Ionics acquisition and roadmap acceleration, September 2025
+- note: Completion of Oxford Ionics acquisition and roadmap acceleration, September
+    2025
   url: https://www.oxionics.com/announcements/ionq-completes-acquisition-of-oxford-ionics-rapidly-accelerating-its-quantum-computing-roadmap/
 - note: Analyst Day 2025 roadmap update (Oxford Ionics regulatory approval)
   url: https://quantumcomputingreport.com/ionq-announces-regulatory-approval-for-oxford-ionics-acquisition-and-provides-a-roadmap-update-at-its-2025-analyst-day-meeting/

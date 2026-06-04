@@ -99,14 +99,16 @@ milestones:
 modality: both
 name: IBM Quantum
 people:
-  leadership:
-  - name: Jay Gambetta
-    role: Director of IBM Research (from October 2025); previously VP of IBM Quantum (2019–2025)
-    source: https://en.wikipedia.org/wiki/Jay_Gambetta
   former_leadership:
   - name: Dario Gil
-    role: Senior VP & Director of IBM Research (until 2025; left to become U.S. DOE Under Secretary for Science)
+    role: Senior VP & Director of IBM Research (until 2025; left to become U.S. DOE
+      Under Secretary for Science)
     source: https://newsroom.ibm.com/blog-ibm-names-new-director-of-ibm-research
+  leadership:
+  - name: Jay Gambetta
+    role: Director of IBM Research (from October 2025); previously VP of IBM Quantum
+      (2019–2025)
+    source: https://en.wikipedia.org/wiki/Jay_Gambetta
 platforms:
 - superconducting
 products:
@@ -148,6 +150,7 @@ products:
   name: IBM Quantum System Two
   source: https://newsroom.ibm.com/2023-12-04-IBM-Debuts-Next-Generation-Quantum-Processor-IBM-Quantum-System-Two,-Extends-Roadmap-to-Advance-Era-of-Quantum-Utility
   stage: ga
+qubit_type: Transmon (superconducting)
 roadmap:
 - source: https://arxiv.org/html/2410.00916v1
   target_claim: Deploy Starling — a 200-qubit processor capable of executing 100 million

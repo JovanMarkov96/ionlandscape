@@ -58,6 +58,9 @@ funding:
     stage: series_c
   total_raised_usd: 1625000000
 id: c035-quantinuum
+ion_species:
+- 171Yb+
+- 138Ba+
 last_verified_at: '2026-06-02'
 links:
   website: https://www.quantinuum.com
@@ -174,6 +177,7 @@ products:
   name: Quantinuum software (TKET, Quantum Origin, InQuanto)
   source: https://www.quantinuum.com/company/about
   stage: ga
+qubit_type: Trapped ion (QCCD)
 roadmap:
 - source: https://www.quantinuum.com/company/about
   target_claim: Advance through the Sol and Apollo generations toward a universal,

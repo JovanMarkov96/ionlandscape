@@ -43,6 +43,8 @@ funding:
     stage: government_contract
   total_raised_usd: null
 id: c044-silicon-quantum-computing
+ion_species:
+- 31P
 last_verified_at: '2026-06-03'
 links:
   linkedin: https://www.linkedin.com/company/silicon-quantum-computing
@@ -85,6 +87,7 @@ people:
     spinout_year: 2017
 platforms:
 - silicon_spin
+qubit_type: Phosphorus donor spin in silicon
 schema_version: 1
 short_summary: Silicon Quantum Computing (SQC) is Australia's first quantum-computing
   company, founded in 2017 as a UNSW Sydney spin-off by Prof. Michelle Simmons. SQC

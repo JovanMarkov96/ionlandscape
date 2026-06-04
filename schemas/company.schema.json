@@ -249,6 +249,20 @@
         ]
       }
     },
+    "qubit_type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Human-readable specific qubit modality, e.g. 'Transmon (superconducting)', 'Fluxonium (superconducting)', 'Cat qubit (bosonic superconducting)', 'Trapped ion (QCCD)', 'Neutral atom (Rydberg)', 'Silicon CMOS spin qubit'."
+    },
+    "ion_species": {
+      "type": "array",
+      "description": "Atomic / ionic species used (for trapped-ion and neutral-atom platforms), e.g. '171Yb+', '40Ca+', '87Rb', '88Sr'. Empty for platforms without atomic species (superconducting, photonic).",
+      "items": {
+        "type": "string"
+      }
+    },
     "modality": {
       "type": "string",
       "enum": [

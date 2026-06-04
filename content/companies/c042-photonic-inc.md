@@ -105,6 +105,7 @@ people:
 platforms:
 - silicon_spin
 - photonic
+qubit_type: Silicon T-centre spin (optically linked)
 schema_version: 1
 short_summary: Photonic Inc. is a Canadian quantum company headquartered in Vancouver,
   building a distributed, fault-tolerant quantum architecture from silicon spin qubits

@@ -89,6 +89,7 @@ people:
     spinout_year: 2020
 platforms:
 - superconducting
+qubit_type: Bosonic cavity qubit (superconducting)
 roadmap:
 - source: https://thequantuminsider.com/2025/12/15/nord-quantique-canadian-quantum-champions-program/
   target_claim: Deliver a fault-tolerant quantum computer with more than 100 logical

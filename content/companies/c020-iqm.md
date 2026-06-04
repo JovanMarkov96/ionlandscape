@@ -142,6 +142,7 @@ products:
   name: IQM Garnet
   source: https://meetiqm.com/press-releases/iqm-quantum-computers-expands-access-to-iqm-garnet-through-amazon-web-services/
   stage: ga
+qubit_type: Transmon (superconducting)
 schema_version: 1
 short_summary: IQM Quantum Computers (founded 2018, Espoo, Finland) designs and manufactures
   full-stack superconducting quantum computers for on-premises deployment at research

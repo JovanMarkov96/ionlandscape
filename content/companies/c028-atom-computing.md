@@ -73,6 +73,8 @@ funding:
     stage: series_b
   total_raised_usd: 101000000
 id: c028-atom-computing
+ion_species:
+- 171Yb
 last_verified_at: '2026-05-30'
 links:
   website: https://atom-computing.com
@@ -223,6 +225,7 @@ products:
   release_date: '2023-10-24'
   source: https://atom-computing.com/ac1000/
   stage: ga
+qubit_type: Neutral atom (nuclear-spin)
 roadmap:
 - source: https://www.datacenterdynamics.com/en/news/microsoft-and-atom-computing-to-build-worlds-most-powerful-quantum-computer-in-denmark/
   target_claim: Complete construction of "Magne" — described as the world's most powerful

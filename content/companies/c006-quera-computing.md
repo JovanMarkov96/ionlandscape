@@ -22,6 +22,7 @@ approach:
   elevator_pitch: Neutral-atom quantum computers built from arrays of individually
     controlled rubidium atoms, scaling toward large, error-corrected machines for
     both analog simulation and digital computation.
+created_at: '2026-01-26'
 entity_type: company
 focus_areas:
 - Neutral-atom quantum computing
@@ -29,7 +30,26 @@ focus_areas:
 - Analog quantum simulation
 - Scalable quantum hardware
 founded_year: 2018
+funding:
+  last_round_date: '2025-09-09'
+  rounds:
+  - amount_usd: 230000000
+    date: '2025-02-11'
+    lead_investors:
+    - Google (Google Quantum AI)
+    notes: Led by Google in Feb 2025 and subsequently expanded with NVentures (NVIDIA's
+      venture arm) in Sept 2025; reported as a convertible note.
+    other_investors:
+    - SoftBank Vision Fund 2
+    - Valor Equity Partners
+    - NVentures (NVIDIA)
+    round: $230M financing round
+    source: https://www.quera.com/press-releases/quera-expands-230-million-financing-round-advancing-quantum-accelerated-supercomputing
+    stage: convertible_note
+  total_raised_usd: 230000000
 id: c006-quera-computing
+ion_species:
+- 87Rb
 last_verified_at: '2026-05-31'
 links:
   careers: https://www.quera.com/careers
@@ -75,14 +95,14 @@ modality: hardware
 name: QuEra Computing
 partnerships:
 - name: Amazon Web Services (Braket)
-  type: go_to_market
   source: https://www.quera.com/aquila
+  type: go_to_market
 - name: Google Quantum AI
-  type: investor
   source: https://siliconangle.com/2025/02/11/quera-computing-raises-230m-accelerate-error-corrected-quantum-computing/
-- name: NVIDIA (NVentures)
   type: investor
+- name: NVIDIA (NVentures)
   source: https://thequantuminsider.com/2025/09/09/quera-secures-investment-from-nventures-expands-230-million-financing-round/
+  type: investor
 people:
   founders:
   - name: Mikhail Lukin
@@ -101,8 +121,8 @@ people:
     person_id: 000-nathan-gemelke
     role: Co-founder & Chief Technology Strategist
   headcount: 50
-  headcount_source: https://www.quera.com/about
   headcount_retrieved_at: '2026-05-31'
+  headcount_source: https://www.quera.com/about
   leadership:
   - name: Andy Ory
     role: Chief Executive Officer
@@ -146,53 +166,36 @@ products:
   release_date: '2023-01-01'
   source: https://www.quera.com/bloqade
   stage: ga
+qubit_type: Neutral atom (Rydberg)
 roadmap:
-- target_claim: Second-generation system with 30 logical (error-corrected) qubits,
+- source: https://siliconangle.com/2025/02/11/quera-computing-raises-230m-accelerate-error-corrected-quantum-computing/
+  target_claim: Second-generation system with 30 logical (error-corrected) qubits,
     ~3,000 physical qubits, and magic-state distillation.
   target_date: '2025-12-31'
-  source: https://siliconangle.com/2025/02/11/quera-computing-raises-230m-accelerate-error-corrected-quantum-computing/
-- target_claim: Third-generation system with 100 logical qubits and over 10,000 physical
+- source: https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0
+  target_claim: Third-generation system with 100 logical qubits and over 10,000 physical
     qubits, capable of deep logical circuits beyond the classical-simulability limit.
   target_date: '2026-12-31'
-  source: https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0
 schema_version: 1
 short_summary: QuEra Computing builds neutral-atom quantum computers from arrays of
   individually controlled rubidium atoms, pursuing both analog quantum simulation
   and large-scale, error-corrected digital computation.
 sort_name: QuEra Computing
 sources:
-- url: https://www.quera.com/about
-  note: Company overview and leadership
-- url: https://en.wikipedia.org/wiki/QuEra_Computing
-  note: Wikipedia company profile
-- url: https://www.quera.com/aquila
-  note: Aquila 256-qubit processor
-- url: https://siliconangle.com/2025/02/11/quera-computing-raises-230m-accelerate-error-corrected-quantum-computing/
-  note: $230M financing led by Google; roadmap detail
-- url: https://thequantuminsider.com/2025/09/09/quera-secures-investment-from-nventures-expands-230-million-financing-round/
-  note: NVentures (NVIDIA) expansion of the financing round
+- note: Company overview and leadership
+  url: https://www.quera.com/about
+- note: Wikipedia company profile
+  url: https://en.wikipedia.org/wiki/QuEra_Computing
+- note: Aquila 256-qubit processor
+  url: https://www.quera.com/aquila
+- note: $230M financing led by Google; roadmap detail
+  url: https://siliconangle.com/2025/02/11/quera-computing-raises-230m-accelerate-error-corrected-quantum-computing/
+- note: NVentures (NVIDIA) expansion of the financing round
+  url: https://thequantuminsider.com/2025/09/09/quera-secures-investment-from-nventures-expands-230-million-financing-round/
 status:
   operating_status: private
-funding:
-  total_raised_usd: 230000000
-  last_round_date: '2025-09-09'
-  rounds:
-  - stage: convertible_note
-    round: '$230M financing round'
-    date: '2025-02-11'
-    amount_usd: 230000000
-    lead_investors:
-    - Google (Google Quantum AI)
-    other_investors:
-    - SoftBank Vision Fund 2
-    - Valor Equity Partners
-    - NVentures (NVIDIA)
-    notes: Led by Google in Feb 2025 and subsequently expanded with NVentures (NVIDIA's
-      venture arm) in Sept 2025; reported as a convertible note.
-    source: https://www.quera.com/press-releases/quera-expands-230-million-financing-round-advancing-quantum-accelerated-supercomputing
-verification_source_count: 5
-created_at: '2026-01-26'
 updated_at: '2026-05-31'
+verification_source_count: 5
 ---
 
 QuEra Computing is a Boston-based quantum-computing company building hardware from

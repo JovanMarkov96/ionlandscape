@@ -1339,6 +1339,57 @@ body,
   .graph-card { width: calc(100vw - 36px); }
 }
 
+/* Company qubit-technology block (qubit type + ion/atom species) */
+.company-qubit-tech {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 10px 0 2px;
+}
+
+.qubit-tech-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 0.85rem;
+}
+
+.qubit-tech-label {
+  flex-shrink: 0;
+  width: 72px;
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ion-text-muted, #888);
+}
+
+.qubit-tech-value {
+  font-weight: 600;
+  color: var(--ifm-color-content);
+}
+
+.qubit-tech-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.species-chip {
+  font-family: var(--ifm-font-family-monospace, monospace);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 1px 8px;
+  border-radius: 6px;
+  background: rgba(127, 127, 140, 0.14);
+  color: var(--ifm-color-content);
+}
+
+.species-chip sup {
+  font-size: 0.62em;
+  margin-right: 1px;
+}
+
 /* Panel sources list — clean, professional reference list */
 .panel-sources-list {
   list-style: none;

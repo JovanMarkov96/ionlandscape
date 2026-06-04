@@ -65,6 +65,9 @@ funding:
     stage: series_c
   total_raised_usd: 159000000
 id: c029-infleqtion
+ion_species:
+- 133Cs
+- 87Rb
 last_verified_at: '2026-05-30'
 links:
   website: https://www.infleqtion.com
@@ -156,25 +159,26 @@ partnerships:
   source: https://www.crunchbase.com/organization/coldquanta
   type: investor
 people:
+  former_leadership:
+  - name: Scott Faris
+    role: CEO (until April 2024)
+    source: https://venturebeat.com/ai/quantum-computing-startup-infleqtion-names-matthew-kinsella-as-ceo
   founders:
   - name: Dana Z. Anderson
     person_id: 257-dana-anderson
-    role: Founder & Chief Strategy/Science Officer (University of Colorado Boulder / JILA)
+    role: Founder & Chief Strategy/Science Officer (University of Colorado Boulder
+      / JILA)
     source: https://en.wikipedia.org/wiki/Infleqtion
   leadership:
   - name: Matthew Kinsella
     role: Chief Executive Officer (since April 2024)
     source: https://infleqtion.com/infleqtion-names-matthew-kinsella-ceo-to-lead-next-phase-of-quantum-innovation-and-growth/
-  former_leadership:
-  - name: Scott Faris
-    role: CEO (until April 2024)
-    source: https://venturebeat.com/ai/quantum-computing-startup-infleqtion-names-matthew-kinsella-as-ceo
   spun_out_of:
-  - name: University of Colorado Boulder
-    institution_id: i104-university-of-colorado-boulder
+  - institution_id: i104-university-of-colorado-boulder
+    name: University of Colorado Boulder
     source: https://en.wikipedia.org/wiki/Infleqtion
-  - name: JILA
-    institution_id: i068-joint-institute-for-laboratory-astrophysics
+  - institution_id: i068-joint-institute-for-laboratory-astrophysics
+    name: JILA
     source: https://en.wikipedia.org/wiki/Infleqtion
 platforms:
 - neutral_atom
@@ -202,6 +206,7 @@ products:
   release_date: '2007-01-01'
   source: https://www.infleqtion.com/hardware
   stage: ga
+qubit_type: Neutral atom (Rydberg)
 schema_version: 1
 short_summary: Infleqtion (founded as ColdQuanta ≈2007, rebranded 2022) is a Boulder
   CO cold-atom quantum technology company building the Hilbert gate-based quantum

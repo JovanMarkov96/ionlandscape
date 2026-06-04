@@ -43,6 +43,8 @@ funding:
     stage: series_a
   total_raised_usd: 59000000
 id: c036-planqc
+ion_species:
+- 88Sr
 last_verified_at: '2026-06-02'
 links:
   news: https://planqc.eu/news
@@ -121,6 +123,7 @@ products:
   name: planqc neutral-atom QPU
   source: https://planqc.eu/company/about-planqc
   stage: prototype
+qubit_type: Neutral atom (optical lattice)
 roadmap:
 - source: https://www.hpcwire.com/off-the-wire/germany-backs-planqc-with-e20m-for-1000-qubit-neutral-atom-quantum-system-at-lrz/
   target_claim: Deploy a universally programmable neutral-atom quantum co-processor

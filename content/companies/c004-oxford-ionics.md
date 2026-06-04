@@ -12,9 +12,9 @@ approach:
   - microwave_gates
   - semiconductor_fabrication
   differentiators:
-  - "Electronic Qubit Control: replaces bulky laser systems with on-chip electrodes\
-    \ and currents that manipulate ions via microwave fields, integrating control\
-    \ onto standard semiconductor chips"
+  - 'Electronic Qubit Control: replaces bulky laser systems with on-chip electrodes
+    and currents that manipulate ions via microwave fields, integrating control onto
+    standard semiconductor chips'
   - Ion-trap chips are fabricated in a standard commercial semiconductor foundry,
     giving a clear manufacturing-scaling path versus bespoke optics
   - Co-founders Chris Ballance and Tom Harty hold multiple world records for trapped-ion
@@ -28,14 +28,13 @@ approach:
 entity_type: company
 founded_year: 2019
 funding:
-  total_raised_usd: 83000000
   rounds:
   - amount_usd: 45000000
     date: '2022-01-01'
-    notes: "~£37M raised through 2022–2023 from deep-tech and university-spinout investors."
     lead_investors:
     - Oxford Science Enterprises
     - Braavos Capital
+    notes: ~£37M raised through 2022–2023 from deep-tech and university-spinout investors.
     other_investors:
     - Lansdowne Partners
     - Prosus Ventures
@@ -43,11 +42,14 @@ funding:
     round: Seed / Series A
     source: https://www.oxfordscienceenterprises.com/stories/oxford-ionics-reimagining-quantum-computing
     stage: series_a
+  total_raised_usd: 83000000
 id: c004-oxford-ionics
+ion_species:
+- 43Ca+
 last_verified_at: '2026-06-02'
 links:
-  website: https://www.oxionics.com
   news: https://www.oxionics.com/announcements/
+  website: https://www.oxionics.com
 location:
   city: Kidlington
   country: United Kingdom
@@ -102,8 +104,8 @@ people:
     source: https://www.balliol.ox.ac.uk/news/2025/june/alumnus-led-quantum-computing-spinout-acquired-us-firm
   spun_out_of:
   - name: University of Oxford
-    spinout_year: 2019
     source: https://www.balliol.ox.ac.uk/news/2025/june/alumnus-led-quantum-computing-spinout-acquired-us-firm
+    spinout_year: 2019
 platforms:
 - trapped_ion
 products:
@@ -111,16 +113,17 @@ products:
     ion-trap chips with integrated Electronic Qubit Control, manipulating qubits via
     on-chip microwave fields rather than individual laser beams.
   name: Electronic Qubit Control platform
-  stage: prototype
   source: https://postquantum.com/quantum-computing-companies/oxford-ionics/
-short_summary: Oxford Ionics (founded 2019, Kidlington UK) is a University of Oxford
-  spinout building trapped-ion quantum computers around "Electronic Qubit Control" —
-  integrating qubit control onto foundry-fabricated semiconductor chips and using on-chip
-  microwave fields instead of bulky laser optics. Co-founders Chris Ballance and Tom
-  Harty hold multiple world records for trapped-ion gate fidelity. In September 2025
-  IonQ completed its acquisition of the company for ~$1.075 billion, making Oxford
-  Ionics IonQ's UK quantum-computing hub.
+  stage: prototype
+qubit_type: Trapped ion (electronic qubit control)
 schema_version: 1
+short_summary: Oxford Ionics (founded 2019, Kidlington UK) is a University of Oxford
+  spinout building trapped-ion quantum computers around "Electronic Qubit Control"
+  — integrating qubit control onto foundry-fabricated semiconductor chips and using
+  on-chip microwave fields instead of bulky laser optics. Co-founders Chris Ballance
+  and Tom Harty hold multiple world records for trapped-ion gate fidelity. In September
+  2025 IonQ completed its acquisition of the company for ~$1.075 billion, making Oxford
+  Ionics IonQ's UK quantum-computing hub.
 sort_name: Oxford Ionics
 sources:
 - note: Founders, Oxford spinout and acquisition (Balliol College alumni news)
@@ -134,14 +137,14 @@ sources:
 - note: Completion of IonQ acquisition, September 2025
   url: https://www.oxionics.com/announcements/ionq-completes-acquisition-of-oxford-ionics-rapidly-accelerating-its-quantum-computing-roadmap/
 status:
-  operating_status: acquired
   acquired:
     acquirer: IonQ
     acquirer_id: c002-ionq
-    date: '2025-09-17'
-    type: stock_and_cash
-    deal_value_usd: 1075000000
     announcement_url: https://thequantuminsider.com/2025/06/09/ionq-acquires-uk-based-oxford-ionics-for-1-075-billion/
+    date: '2025-09-17'
+    deal_value_usd: 1075000000
+    type: stock_and_cash
+  operating_status: acquired
 updated_at: '2026-06-02'
 verification_source_count: 5
 ---

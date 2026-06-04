@@ -257,6 +257,7 @@ products:
   name: QB-QDK2.0
   source: https://thequantuminsider.com/2025/06/05/quantum-brilliances-room-temp-quantum-accelerator-goes-live-at-fraunhofer-iaf/
   stage: ga
+qubit_type: NV-centre spin (diamond)
 roadmap:
 - source: https://spectrum.ieee.org/nitrogen-vacancy-diamond-quantum-computer-accelerator-qubits-server-rack
   target_claim: Deliver the world's first graphics-card-sized quantum accelerator

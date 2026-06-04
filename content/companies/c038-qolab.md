@@ -97,6 +97,7 @@ people:
     source: https://thequantuminsider.com/2024/08/09/quantum-computing-luminaries-launch-qolab-to-develop-high-quality-superconducting-qubits/
 platforms:
 - superconducting
+qubit_type: Transmon (superconducting)
 schema_version: 1
 short_summary: Qolab is a US superconducting quantum hardware company co-founded in
   2024 by Alan Ho (CEO), 2025 Nobel laureate John M. Martinis (CTO) and Robert McDermott

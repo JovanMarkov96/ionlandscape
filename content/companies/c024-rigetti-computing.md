@@ -218,6 +218,10 @@ partnerships:
   source: https://www.oxinst.com/news/rigetti-computing-expands-global-presence-with-uk-quantum-computer-launch/
   type: research
 people:
+  former_leadership:
+  - name: Chad Rigetti
+    role: Founder & CEO (2013–2022)
+    source: https://en.wikipedia.org/wiki/Rigetti_Computing
   founders:
   - name: Chad Rigetti
     role: Founder & CEO (2013–2022)
@@ -232,10 +236,6 @@ people:
   - name: Jeffrey Bertelsen
     role: Chief Financial Officer (since February 2023)
     source: https://investors.rigetti.com/corporate-governance/management
-  former_leadership:
-  - name: Chad Rigetti
-    role: Founder & CEO (2013–2022)
-    source: https://en.wikipedia.org/wiki/Rigetti_Computing
 platforms:
 - superconducting
 products:
@@ -290,6 +290,7 @@ products:
   name: Forest SDK / PyQuil / Quilc
   source: https://en.wikipedia.org/wiki/Rigetti_Computing
   stage: ga
+qubit_type: Transmon (superconducting)
 roadmap:
 - source: https://www.rigetti.com/rigetti-computing-news
   target_claim: Scale to 100+ qubits with a 2x reduction in error rates from end-2024

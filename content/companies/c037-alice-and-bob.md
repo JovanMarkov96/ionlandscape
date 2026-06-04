@@ -127,6 +127,7 @@ products:
   name: Cat-qubit quantum processor
   source: https://alice-bob.com
   stage: prototype
+qubit_type: Cat qubit (bosonic superconducting)
 roadmap:
 - source: https://thenextweb.com/news/france-quantum-computing-alice-bob-proqcima-europe
   target_claim: Deliver the first industrially useful fault-tolerant quantum computer,

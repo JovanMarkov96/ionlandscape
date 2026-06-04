@@ -151,6 +151,13 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             .replace(/\b\w+/g, (w) => ACRONYMS[w.toLowerCase()] || (w.charAt(0).toUpperCase() + w.slice(1)));
     };
 
+    // Render a species token like "171Yb+" or "87Rb" with the leading mass number as superscript.
+    const formatSpecies = (s) => {
+        const m = /^(\d+)(.*)$/.exec(s);
+        if (!m) return s;
+        return (<><sup>{m[1]}</sup>{m[2]}</>);
+    };
+
     return (
         <div className="person-panel-content">
             {onClose && (
@@ -208,6 +215,27 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                     <span className="badge badge--warning margin-right--xs">Acquired</span>
                 )}
             </div>
+
+            {(company.qubit_type || (company.ion_species && company.ion_species.length > 0)) && (
+                <div className="company-qubit-tech">
+                    {company.qubit_type && (
+                        <div className="qubit-tech-row">
+                            <span className="qubit-tech-label">Qubit type</span>
+                            <span className="qubit-tech-value">{company.qubit_type}</span>
+                        </div>
+                    )}
+                    {company.ion_species && company.ion_species.length > 0 && (
+                        <div className="qubit-tech-row">
+                            <span className="qubit-tech-label">Species</span>
+                            <span className="qubit-tech-chips">
+                                {company.ion_species.map((s, i) => (
+                                    <span key={i} className="species-chip">{formatSpecies(s)}</span>
+                                ))}
+                            </span>
+                        </div>
+                    )}
+                </div>
+            )}
 
             <div className="panel-divider" />
 

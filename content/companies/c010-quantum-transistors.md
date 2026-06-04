@@ -63,6 +63,7 @@ platforms:
 - silicon_spin
 products:
 - Semiconductor quantum processor architecture (in development)
+qubit_type: Silicon spin qubit
 schema_version: 1
 short_summary: Developer of semiconductor-based quantum processor technology focused
   on scalable spin-qubit architectures.

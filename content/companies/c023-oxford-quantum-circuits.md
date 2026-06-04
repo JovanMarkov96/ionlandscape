@@ -167,6 +167,7 @@ products:
   name: OQC Genesis
   source: https://oqc.tech/company/newsroom/oqc-quantum-ai-data-centre
   stage: limited_release
+qubit_type: Superconducting (Coaxmon)
 schema_version: 1
 short_summary: Oxford Quantum Circuits (OQC; founded 2017, Reading, UK) is a University
   of Oxford spin-out that builds and operates superconducting quantum computers for
