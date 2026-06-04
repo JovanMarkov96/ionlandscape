@@ -1,5 +1,10 @@
 ---
 active: active
+affiliations:
+- entity_id: i101-max-planck-institute-of-quantum-optics
+  name: Max Planck Institute of Quantum Optics
+  role: Scientific Director, Quantum Many-Body Systems Division
+  type: institution
 applications:
 - simulation
 - computing
@@ -22,6 +27,11 @@ education:
 entity_type: person
 group_type: experimental
 id: 081-immanuel-bloch
+ion_species:
+- 87Rb
+- 40K
+- 174Yb
+- 88Sr
 key_papers:
 - title: Quantum phase transition from a superfluid to a Mott insulator in a gas of
     ultracold atoms
@@ -57,7 +67,9 @@ keywords:
 - many-body physics
 - Rydberg atoms
 - quantum simulation
-last_verified_at: '2026-05-30'
+labels:
+- Experimental group
+last_verified_at: '2026-06-04'
 lineage_check:
   advisor_verified: true
   postdoc_verified: false
@@ -87,7 +99,10 @@ platforms:
 - rydberg_array
 schema_version: 2
 sort_name: Bloch, Immanuel
-updated_at: '2026-05-30'
+thesis:
+  title: Atomlaser und Phasenkohärenz atomarer Bose-Einstein-Kondensate
+  year: 2000
+updated_at: '2026-06-04'
 verification_source_count: 5
 ---
 
@@ -96,6 +111,8 @@ Immanuel Bloch is Professor of Experimental Physics at Ludwig-Maximilians-Univer
 He obtained his PhD in 2000 from LMU Munich under Nobel laureate Theodor W. Hänsch, with a thesis on atom lasers and the phase coherence of Bose–Einstein condensates. After a junior group leader position at MPQ he became full professor at the University of Mainz (2003–2009) before returning to Munich. His co-authorship on the landmark 2002 Nature paper (Greiner et al.) reporting the first observation of the superfluid-to-Mott-insulator quantum phase transition in a gas of ultracold atoms remains one of the most cited experiments in condensed-matter physics. His lab also demonstrated single-atom-resolved fluorescence imaging of a Mott insulator (2010), enabling the quantum gas microscope technique now widely used across the field.
 
 His division at MPQ hosts active Rydberg atom experimental groups (strontium and ytterbium Rydberg platforms), placing him at the intersection of optical-lattice simulation and Rydberg-array quantum computation.
+
+His honours include the Gottfried Wilhelm Leibniz Prize (2004), the EPS Quantum Electronics Prize (2011), the Körber European Science Prize (2013), the Harvey Prize (2015), recognition as a Clarivate Citation Laureate (2022), and the Stern–Gerlach Medal (2024), the German Physical Society's highest award in experimental physics.
 
 ## Publications
 See full publication list on [Google Scholar](https://scholar.google.com/citations?user=kX5_lc8AAAAJ).

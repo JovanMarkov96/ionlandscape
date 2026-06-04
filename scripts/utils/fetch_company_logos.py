@@ -14,22 +14,14 @@ OUT = os.path.join(ROOT, "website", "static", "logos")
 os.makedirs(OUT, exist_ok=True)
 
 COMPANIES = {
-    "c019-pasqal": "pasqal.com",
-    "c020-iqm": "meetiqm.com",
-    "c021-google-quantum-ai": "quantumai.google",
-    "c022-ibm-quantum": "ibm.com",
-    "c023-oxford-quantum-circuits": "oqc.tech",
-    "c024-rigetti-computing": "rigetti.com",
-    "c025-quantum-brilliance": "quantumbrilliance.com",
-    "c026-nvision-imaging": "nvision-quantum.com",
-    "c027-element-six": "e6.com",
-    "c028-atom-computing": "atom-computing.com",
-    "c029-infleqtion": "infleqtion.com",
-    "c030-psiquantum": "psiquantum.com",
-    "c031-xanadu": "xanadu.ai",
-    "c032-orca-computing": "orcacomputing.com",
-    "c033-quix-quantum": "quixquantum.com",
-    "c034-quandela": "quandela.com",
+    "c038-qolab": "qolab.ai",
+    "c039-atlantic-quantum": "atlantic-quantum.com",
+    "c040-diraq": "diraq.com",
+    "c041-nord-quantique": "nordquantique.com",
+    "c042-photonic-inc": "photonic.com",
+    "c043-quantum-motion": "quantummotion.com",
+    "c044-silicon-quantum-computing": "sqc.com.au",
+    "c045-hewlett-packard-enterprise": "hpe.com",
 }
 
 UA = {"User-Agent": "Mozilla/5.0 (logo-fetch; ozerilab@weizmann.ac.il)"}
