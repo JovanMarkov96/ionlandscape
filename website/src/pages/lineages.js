@@ -15,12 +15,14 @@ const GRAPH_TOUR = [
     },
     {
         selector: '.graph-search',
+        anchor: '.graph-panel',
         title: 'Search',
         body: 'Find any person, company or institution by name and jump straight to it on the graph.',
         placement: 'right',
     },
     {
         selector: '.graph-legend-filters',
+        anchor: '.graph-panel',
         title: 'Filters',
         body: 'Show or hide lineage (advisor) vs. affiliation/founding links, and hide unconnected nodes to declutter the view.',
         placement: 'right',

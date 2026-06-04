@@ -23,6 +23,7 @@ const MAP_TOUR = [
     },
     {
         selector: '.filter-btn-platforms',
+        anchor: '.map-filters-container',
         title: 'Filter by platform',
         body: 'Open the platform filter to focus the map on a specific qubit technology — trapped ion, neutral atom, superconducting, photonic and more.',
         placement: 'right',
@@ -40,7 +41,11 @@ const MAP_TOUR = [
         placement: 'bottom',
     },
     {
-        selector: '.navbar-custom-btn[title="People"]',
+        selectors: [
+            '.navbar-custom-btn[title="People"]',
+            '.navbar-custom-btn[title="Companies"]',
+            '.navbar-custom-btn[title="Institutions"]',
+        ],
         title: 'Browse directories',
         body: 'Jump to full directories of People, Companies and Institutions from the top bar. That’s it — enjoy exploring!',
         placement: 'bottom',

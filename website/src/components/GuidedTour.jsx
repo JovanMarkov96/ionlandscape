@@ -18,7 +18,8 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
  */
 export default function GuidedTour({ open, steps, onClose }) {
     const [i, setI] = useState(0);
-    const [rect, setRect] = useState(null);
+    const [rect, setRect] = useState(null);        // spotlight rect (union of target(s))
+    const [anchorRect, setAnchorRect] = useState(null); // optional element to position the tip beside
     const [vp, setVp] = useState({ w: 1200, h: 800 });
     const tipRef = useRef(null);
 
@@ -29,15 +30,30 @@ export default function GuidedTour({ open, steps, onClose }) {
 
     const measure = useCallback(() => {
         setVp({ w: window.innerWidth, h: window.innerHeight });
-        if (!step || !step.selector) { setRect(null); return; }
-        const el = document.querySelector(step.selector);
-        if (el) {
+        if (!step) { setRect(null); setAnchorRect(null); return; }
+        // Spotlight target(s): union of one or many elements.
+        const sels = step.selectors || (step.selector ? [step.selector] : []);
+        let u = null;
+        sels.forEach(s => {
+            const el = document.querySelector(s);
+            if (!el) return;
             const r = el.getBoundingClientRect();
-            if (r.width === 0 && r.height === 0) { setRect(null); return; }
-            setRect({ top: r.top, left: r.left, width: r.width, height: r.height });
-        } else {
-            setRect(null);
+            if (r.width === 0 && r.height === 0) return;
+            u = u
+                ? { top: Math.min(u.top, r.top), left: Math.min(u.left, r.left), right: Math.max(u.right, r.right), bottom: Math.max(u.bottom, r.bottom) }
+                : { top: r.top, left: r.left, right: r.right, bottom: r.bottom };
+        });
+        setRect(u ? { top: u.top, left: u.left, width: u.right - u.left, height: u.bottom - u.top } : null);
+        // Optional separate anchor for the coachmark (keeps the tip clear of the target).
+        let a = null;
+        if (step.anchor) {
+            const el = document.querySelector(step.anchor);
+            if (el) {
+                const r = el.getBoundingClientRect();
+                if (r.width || r.height) a = { top: r.top, left: r.left, width: r.width, height: r.height, right: r.right };
+            }
         }
+        setAnchorRect(a);
     }, [step]);
 
     useEffect(() => {
@@ -84,22 +100,25 @@ export default function GuidedTour({ open, steps, onClose }) {
     const isWelcome = !!step.brand;
     const TIP_W = isWelcome ? 430 : 330;
     const tipH = (tipRef.current && tipRef.current.offsetHeight) || 190;
+    // Cursor follows the spotlight target; the coachmark may be anchored elsewhere.
+    let cursor = rect
+        ? { left: rect.left + rect.width / 2, top: rect.top + rect.height / 2 }
+        : { left: vp.w / 2, top: vp.h / 2 };
+    const posRect = anchorRect || rect;
     let tipStyle;
-    let cursor = { left: vp.w / 2, top: vp.h / 2 };
-    if (!rect) {
+    if (!posRect) {
         tipStyle = { top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: TIP_W };
     } else {
-        cursor = { left: rect.left + rect.width / 2, top: rect.top + rect.height / 2 };
         const placement = step.placement || 'auto';
-        const spaceBelow = vp.h - (rect.top + rect.height);
-        const below = placement === 'bottom' || (placement === 'auto' && spaceBelow > tipH + 24) || placement === 'right';
+        const rightOk = posRect.left + posRect.width + TIP_W + 24 < vp.w;
+        const spaceBelow = vp.h - (posRect.top + posRect.height);
         let top, left;
-        if (placement === 'right' && rect.right + TIP_W + 24 < vp.w) {
-            top = rect.top; left = rect.left + rect.width + 18;
-        } else if (below) {
-            top = rect.top + rect.height + 18; left = rect.left + rect.width / 2 - TIP_W / 2;
+        if (placement === 'right' && rightOk) {
+            top = posRect.top; left = posRect.left + posRect.width + 18;
+        } else if (placement === 'bottom' || (placement === 'auto' && spaceBelow > tipH + 24)) {
+            top = posRect.top + posRect.height + 18; left = posRect.left + posRect.width / 2 - TIP_W / 2;
         } else {
-            top = rect.top - tipH - 18; left = rect.left + rect.width / 2 - TIP_W / 2;
+            top = posRect.top - tipH - 18; left = posRect.left + posRect.width / 2 - TIP_W / 2;
         }
         left = Math.max(16, Math.min(left, vp.w - TIP_W - 16));
         top = Math.max(16, Math.min(top, vp.h - tipH - 16));
