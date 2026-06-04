@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkquantum_landscape_site=globalThis.webpackChunkquantum_landscape_site||[]).push([[235],{8552(a){a.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
