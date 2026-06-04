@@ -148,7 +148,7 @@ function Groups() {
     useEffect(() => {
         const loadPeople = async () => {
             const paths = [
-                '/ionlandscape/data/people.json',
+                '/quantum-landscape/data/people.json',
                 '/data/people.json',
                 'data/people.json' // Relative
             ];

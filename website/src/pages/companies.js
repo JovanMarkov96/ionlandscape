@@ -142,7 +142,7 @@ function Companies() {
     useEffect(() => {
         const loadCompanies = async () => {
             const paths = [
-                '/ionlandscape/data/companies.json',
+                '/quantum-landscape/data/companies.json',
                 '/data/companies.json',
                 'data/companies.json' // Relative
             ];
@@ -425,7 +425,7 @@ function Companies() {
                         const logoSrc = company.media?.logo_path
                             ? (company.media.logo_path.startsWith('http')
                                 ? company.media.logo_path
-                                : `/ionlandscape${company.media.logo_path}`)
+                                : `/quantum-landscape${company.media.logo_path}`)
                             : null;
                         const nameParts = (company.name || '').split(' ').filter(p => p.trim() !== '');
                         const initials = nameParts.length > 1

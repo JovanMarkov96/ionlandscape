@@ -1,5 +1,5 @@
 # validate_profiles.yml
-# GitHub Action to validate Ion Landscape researcher profiles against the JSON Schema.
+# GitHub Action to validate Quantum Landscape researcher profiles against the JSON Schema.
 # Runs on push and pull_request to prevent invalid data from merging.
 
 name: Validate Profiles

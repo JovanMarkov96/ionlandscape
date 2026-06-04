@@ -1,4 +1,4 @@
-# Ion Landscape Scripts
+# Quantum Landscape Scripts
 
 This directory contains automation tools for profile ingestion, verification, and maintenance.
 

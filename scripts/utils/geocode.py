@@ -19,7 +19,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 INST = os.path.join(ROOT, "content", "institutions")
 COMP = os.path.join(ROOT, "content", "companies")
 CACHE_PATH = os.path.join(os.path.dirname(__file__), "geocode_cache.json")
-UA = "ionlandscape-geocoder/1.0 (quantum ecosystem research map)"
+UA = "quantum-landscape-geocoder/1.0 (quantum ecosystem research map)"
 
 cache = {}
 if os.path.exists(CACHE_PATH):

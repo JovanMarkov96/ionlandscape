@@ -4,9 +4,9 @@ title: Frontend Architecture
 sidebar_label: Frontend Architecture
 ---
 
-# Ion Landscape Frontend Architecture
+# Quantum Landscape Frontend Architecture
 
-This document serves as the technical guide to the Ion Landscape frontend, built with Docusaurus, React, and Leaflet.
+This document serves as the technical guide to the Quantum Landscape frontend, built with Docusaurus, React, and Leaflet.
 
 ## 1. Directory Structure
 

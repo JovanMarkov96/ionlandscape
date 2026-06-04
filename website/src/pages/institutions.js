@@ -118,7 +118,7 @@ function Institutions() {
     useEffect(() => {
         const loadInstitutions = async () => {
             const paths = [
-                '/ionlandscape/data/institutions.json',
+                '/quantum-landscape/data/institutions.json',
                 '/data/institutions.json',
                 'data/institutions.json' // Relative
             ];
@@ -330,7 +330,7 @@ function Institutions() {
                         const logoSrc = institution.media?.logo_path
                             ? (institution.media.logo_path.startsWith('http')
                                 ? institution.media.logo_path
-                                : `/ionlandscape${institution.media.logo_path}`)
+                                : `/quantum-landscape${institution.media.logo_path}`)
                             : null;
                         const nameParts = (institution.name || '').split(' ').filter(p => p.trim() !== '');
                         const initials = nameParts.length > 1

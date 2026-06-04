@@ -33,7 +33,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
 
     useEffect(() => {
         // Fetch people
-        fetch('/ionlandscape/data/people.json')
+        fetch('/quantum-landscape/data/people.json')
             .then(res => res.json())
             .then(setPeople)
             .catch(err => {
@@ -45,7 +45,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
             });
 
         // Fetch companies for linking
-        fetch('/ionlandscape/data/companies.json')
+        fetch('/quantum-landscape/data/companies.json')
             .then(res => res.json())
             .then(setCompanies)
             .catch(() => {
@@ -56,7 +56,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
             });
 
         // Fetch institutions for linking
-        fetch('/ionlandscape/data/institutions.json')
+        fetch('/quantum-landscape/data/institutions.json')
             .then(res => res.json())
             .then(setInstitutions)
             .catch(() => {
@@ -252,7 +252,7 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
                     return (
                         <a
                             key={i}
-                            href={`/ionlandscape/groups?category=${encodeURIComponent(categoryParam)}`}
+                            href={`/quantum-landscape/groups?category=${encodeURIComponent(categoryParam)}`}
                             className={`badge ${categoryParam === 'Trapped Ions' ? 'badge-trapped-ions' : categoryParam === 'Neutral Atoms' ? 'badge-neutral-atoms' : 'badge--info'}`}
                         >
                             {humanize(platform)}

@@ -77,7 +77,7 @@ def bare_orcid(orcid_url: str) -> str | None:
 def fetch_openalex(orcid: str) -> dict | None:
     """Query OpenAlex for author summary by ORCID. Returns None on 404 or error."""
     url = f"{OPENALEX_BASE}/authors/https://orcid.org/{orcid}"
-    headers = {"User-Agent": f"ionlandscape-metrics/1.0 (mailto:{CONTACT_EMAIL})"}
+    headers = {"User-Agent": f"quantum-landscape-metrics/1.0 (mailto:{CONTACT_EMAIL})"}
     try:
         r = requests.get(url, headers=headers, params={"mailto": CONTACT_EMAIL}, timeout=15)
         if r.status_code == 404:

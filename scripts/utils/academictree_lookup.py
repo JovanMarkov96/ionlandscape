@@ -51,7 +51,7 @@ KEYWORDS = re.compile(r"advisor|supervisor|doctoral advisor|supervised by|mentor
 
 
 def fetch_html(url: str, timeout: int = 10) -> str | None:
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; ionlandscape-bot/1.0)"}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; quantum-landscape-bot/1.0)"}
     try:
         r = requests.get(url, headers=headers, timeout=timeout)
         r.raise_for_status()

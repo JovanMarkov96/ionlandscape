@@ -28,7 +28,7 @@ CONTENT_DIR = ROOT / 'content' / 'institutions'
 WIKI_API = 'https://en.wikipedia.org/w/api.php'
 NOMINATIM = 'https://nominatim.openstreetmap.org/reverse'
 HEADERS = {
-    'User-Agent': 'IonLandscape/0.1 (https://github.com/JovanMarkov96)'
+    'User-Agent': 'QuantumLandscape/0.1 (https://github.com/JovanMarkov96)'
 }
 
 

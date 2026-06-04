@@ -45,7 +45,7 @@ def search_serpapi(query: str, api_key: str, num: int = 5) -> List[dict]:
 
 
 def fetch_page(url: str, timeout: int = 10) -> str | None:
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; ionlandscape-bot/1.0)"}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; quantum-landscape-bot/1.0)"}
     try:
         r = requests.get(url, headers=headers, timeout=timeout)
         r.raise_for_status()

@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://jovanmarkov.com/ionlandscape/"><b>🌐&nbsp;Live&nbsp;site</b></a> &nbsp;·&nbsp;
+  <a href="https://jovanmarkov.com/quantum-landscape/"><b>🌐&nbsp;Live&nbsp;site</b></a> &nbsp;·&nbsp;
   <a href="#-features">Features</a> &nbsp;·&nbsp;
   <a href="#-whats-inside">Data</a> &nbsp;·&nbsp;
   <a href="#-local-development">Local dev</a> &nbsp;·&nbsp;
@@ -39,7 +39,7 @@ The goal is to make the field easy to explore: **who** is working on **what**, *
 **how** academic lineages and industrial efforts connect, and how it all fits together across
 quantum computing, simulation, sensing & metrology, and fundamental physics.
 
-> 🌐 **Live at [jovanmarkov.com/ionlandscape](https://jovanmarkov.com/ionlandscape/)**
+> 🌐 **Live at [jovanmarkov.com/quantum-landscape](https://jovanmarkov.com/quantum-landscape/)**
 
 <p align="center">
   <img src="docs/images/map-overview.png" alt="Interactive world map of the quantum landscape" width="100%">
@@ -106,7 +106,7 @@ also carry a sibling `*.evidence.md` documenting the source for each field.
 ## 🧱 Project structure
 
 ```
-ionlandscape/
+quantum-landscape/
 ├─ content/                     # Source of truth (Markdown + YAML frontmatter)
 │  ├─ people/                   #   one file per researcher (+ optional .evidence.md)
 │  ├─ companies/                #   one file per company
@@ -145,7 +145,7 @@ python scripts/core/build_index.py
 # 3. Run the site
 cd website
 npm ci
-npm start                            # http://localhost:3000/ionlandscape/
+npm start                            # http://localhost:3000/quantum-landscape/
 ```
 
 > ℹ️ The files in `website/static/data/` are **generated, not committed** — re-run
@@ -161,7 +161,7 @@ GIT_USER=<your-gh-user> npm run deploy   # force-pushes the build to the gh-page
 ```
 
 The site is served from the `gh-pages` branch at
-**[jovanmarkov.com/ionlandscape](https://jovanmarkov.com/ionlandscape/)**.
+**[jovanmarkov.com/quantum-landscape](https://jovanmarkov.com/quantum-landscape/)**.
 
 ---
 

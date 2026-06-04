@@ -180,7 +180,7 @@ Notes:
 - thesis.title: Full title from Oxford Research Archive"
 
 # Push to branch
-git push origin auto/ionlandscape-ingestion
+git push origin auto/quantum-landscape-ingestion
 ```
 
 ## Step 7: Quality Check

@@ -50,7 +50,7 @@ Note: Google Scholar used as primary per task instructions (metrics.source = goo
 
 ## Lineage (advisor_verified: true)
 
-Multiple students/postdocs from the Lukin group are in the ionlandscape database:
+Multiple students/postdocs from the Lukin group are in the quantum-landscape database:
 Sipahigil, Childress, Liang Jiang, Kolkowitz, Englund (postdoc), Yiwen Chu (postdoc), Nathalie de Leon (indirect), Nir Bar-Gill (indirect).
 
 ## Key Papers

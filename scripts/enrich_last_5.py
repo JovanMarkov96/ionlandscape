@@ -104,7 +104,7 @@ companies = {
     }
 }
 
-root = r"d:\OneDrive - weizmann.ac.il\GitHub\ionlandscape"
+root = r"d:\OneDrive - weizmann.ac.il\GitHub\quantum-landscape"
 logos_dir = os.path.join(root, "website", "static", "logos")
 content_dir = os.path.join(root, "content", "companies")
 

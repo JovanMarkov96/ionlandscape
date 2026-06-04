@@ -19,7 +19,7 @@
   - Thesis: "Cooperative Optical Non-linearity in a blockaded Rydberg Ensemble"
   - Awarded: 2011 (enrolled 2007–2011 per PurePortal)
   - Supervisor: Stuart Adams (confirmed via Strathclyde staff page biography)
-  - Stuart Adams is not currently in the ionlandscape database (advisor_id: null)
+  - Stuart Adams is not currently in the quantum-landscape database (advisor_id: null)
 
 ### Career path (postdocs)
 - Postdoc 1: Erling Riis group, University of Strathclyde — atom interferometry, inductively coupled ring traps

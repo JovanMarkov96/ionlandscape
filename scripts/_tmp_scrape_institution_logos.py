@@ -7,7 +7,7 @@ import frontmatter
 import requests
 from bs4 import BeautifulSoup
 
-ROOT = Path('d:/OneDrive - weizmann.ac.il/GitHub/ionlandscape')
+ROOT = Path('d:/OneDrive - weizmann.ac.il/GitHub/quantum-landscape')
 CONTENT_DIR = ROOT / 'content' / 'institutions'
 LOGO_DIR = ROOT / 'website' / 'static' / 'img' / 'institutions'
 LOGO_DIR.mkdir(parents=True, exist_ok=True)

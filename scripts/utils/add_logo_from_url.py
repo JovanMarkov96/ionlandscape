@@ -30,7 +30,7 @@ def main(inst_id: str, logo_url: str):
         print('md not found', md_path)
         return
     post = frontmatter.load(md_path)
-    headers = {'User-Agent': 'Mozilla/5.0 (compatible; IonLandscapeBot/1.0)'}
+    headers = {'User-Agent': 'Mozilla/5.0 (compatible; QuantumLandscapeBot/1.0)'}
     resp = requests.get(logo_url, timeout=30, headers=headers)
     if resp.status_code >= 400:
         print('failed to download', resp.status_code)

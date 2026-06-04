@@ -6,8 +6,8 @@ This guide demonstrates a typical workflow for ingesting and verifying profiles.
 
 ```bash
 # Clone the repository (if not already done)
-git clone https://github.com/JovanMarkov96/ionlandscape.git
-cd ionlandscape
+git clone https://github.com/JovanMarkov96/quantum-landscape.git
+cd quantum-landscape
 
 # Install Python dependencies
 python -m venv .venv
@@ -15,7 +15,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r scripts/requirements.txt
 
 # Create a working branch
-git checkout -b auto/ionlandscape-ingestion
+git checkout -b auto/quantum-landscape-ingestion
 ```
 
 ## Workflow 1: Automated Ingestion (when website is accessible)
@@ -36,7 +36,7 @@ python scripts/verify_profile_data.py --all
 # Commit and push
 git add content/people/
 git commit -m "data: automated ingestion - batch 1"
-git push origin auto/ionlandscape-ingestion
+git push origin auto/quantum-landscape-ingestion
 ```
 
 ## Workflow 2: Manual Enrichment with JSON Data
@@ -82,7 +82,7 @@ git add content/people/
 git commit -m "data: enrich profiles with verified metadata
 
 Sources documented in scripts/data/my_enrichment_data.json"
-git push origin auto/ionlandscape-ingestion
+git push origin auto/quantum-landscape-ingestion
 ```
 
 ## Workflow 3: Creating a New Profile
@@ -254,7 +254,7 @@ python scripts/verify_profile_data.py --all
 python scripts/build_index.py
 
 # 3. Review all changes
-git diff main...auto/ionlandscape-ingestion
+git diff main...auto/quantum-landscape-ingestion
 
 # 4. Check for accidental commits
 git status --ignored

@@ -2,7 +2,7 @@
 // Usage: node verify_pages.js <baseUrl>
 const puppeteer = require('puppeteer');
 
-const BASE = process.argv[2] || 'http://localhost:3030/ionlandscape';
+const BASE = process.argv[2] || 'http://localhost:3030/quantum-landscape';
 const OUT = require('path').join(__dirname, '..', '..', '.logotest');
 const fs = require('fs');
 if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });

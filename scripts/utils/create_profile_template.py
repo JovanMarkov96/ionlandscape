@@ -80,7 +80,7 @@ def prompt_yes_no(question: str, default: bool = None) -> bool:
 
 def main():
     print("=" * 80)
-    print("Ion Landscape - Create New Profile")
+    print("Quantum Landscape - Create New Profile")
     print("=" * 80)
     print()
     print("This tool creates a minimal profile template with verified information.")

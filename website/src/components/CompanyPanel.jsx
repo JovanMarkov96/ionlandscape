@@ -28,7 +28,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
 
     useEffect(() => {
         // Fetch people for linking
-        fetch('/ionlandscape/data/people.json')
+        fetch('/quantum-landscape/data/people.json')
             .then(res => res.json())
             .then(setPeople)
             .catch(() => {
@@ -39,7 +39,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             });
 
         // Fetch companies
-        fetch('/ionlandscape/data/companies.json')
+        fetch('/quantum-landscape/data/companies.json')
             .then(res => res.json())
             .then(setCompanies)
             .catch(err => {
@@ -51,7 +51,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
             });
 
         // Fetch institutions
-        fetch('/ionlandscape/data/institutions.json')
+        fetch('/quantum-landscape/data/institutions.json')
             .then(res => res.json())
             .then(setInstitutions)
             .catch(() => {
@@ -175,10 +175,10 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                     {company.media?.logo_path ? (
                         <div className="panel-logo-container">
                             <img
-                                src={company.media.logo_path.startsWith('http') ? company.media.logo_path : `/ionlandscape${company.media.logo_path}`}
+                                src={company.media.logo_path.startsWith('http') ? company.media.logo_path : `/quantum-landscape${company.media.logo_path}`}
                                 alt={`${company.name} logo`}
                                 onError={(e) => {
-                                    if (e.target.src.includes('/ionlandscape')) {
+                                    if (e.target.src.includes('/quantum-landscape')) {
                                         e.target.src = company.media.logo_path;
                                     }
                                 }}

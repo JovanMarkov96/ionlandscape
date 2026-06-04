@@ -40,7 +40,7 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
 
     useEffect(() => {
         // Fetch institutions
-        fetch('/ionlandscape/data/institutions.json')
+        fetch('/quantum-landscape/data/institutions.json')
             .then(res => res.json())
             .then(setInstitutions)
             .catch(() => {
@@ -51,7 +51,7 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
             });
 
         // Fetch people for name lookups in directories
-        fetch('/ionlandscape/data/people.json')
+        fetch('/quantum-landscape/data/people.json')
             .then(res => res.json())
             .then(setPeople)
             .catch(() => {
@@ -157,11 +157,11 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
             <div className="person-panel-header panel-flex-header" style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
                 {media?.logo_path ? (
                     <img
-                        src={media.logo_path.startsWith('http') ? media.logo_path : `/ionlandscape${media.logo_path}`}
+                        src={media.logo_path.startsWith('http') ? media.logo_path : `/quantum-landscape${media.logo_path}`}
                         alt={`${name} logo`}
                         className="institution-logo-img"
                         onError={(e) => {
-                            if (e.target.src.includes('/ionlandscape')) {
+                            if (e.target.src.includes('/quantum-landscape')) {
                                 e.target.src = media.logo_path;
                             }
                         }}

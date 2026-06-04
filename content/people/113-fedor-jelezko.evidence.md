@@ -31,7 +31,7 @@
 
 **Notes:** Jelezko studied physics at Belarusian State University (Minsk), then completed his doctorate in Bordeaux. He was NOT Wrachtrup's PhD student; he was a postdoc in Wrachtrup's group 1998–2000 in Chemnitz, then moved to Stuttgart with Wrachtrup. Wrachtrup is therefore NOT his advisor_id. Michel Orrit (Bordeaux) was his PhD supervisor.
 
-**Advisor lineage:** advisor_verified = false (Orrit not in the ionlandscape database).
+**Advisor lineage:** advisor_verified = false (Orrit not in the quantum-landscape database).
 
 ---
 

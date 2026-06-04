@@ -2,7 +2,7 @@
 """
 ingest_profiles.py
 
-Automated profile ingestion and verification for Ion Landscape.
+Automated profile ingestion and verification for Quantum Landscape.
 Fetches data from authoritative ion-trapping website and enriches/creates profiles.
 
 Usage:
@@ -31,7 +31,7 @@ os.makedirs(LOG_DIR, exist_ok=True)
 # Constants
 SEED_URL = "https://quantumoptics.at/en/links/ion-trapping-worldwide.html"
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (compatible; IonLandscapeBot/1.0; +https://github.com/JovanMarkov96/ionlandscape)'
+    'User-Agent': 'Mozilla/5.0 (compatible; QuantumLandscapeBot/1.0; +https://github.com/JovanMarkov96/quantum-landscape)'
 }
 
 # Allowed fields to modify
@@ -357,7 +357,7 @@ def main():
     scraper = WebScraper(logger)
     
     logger.log("=" * 80)
-    logger.log("Ion Landscape Automated Profile Ingestion")
+    logger.log("Quantum Landscape Automated Profile Ingestion")
     logger.log("=" * 80)
     
     if args.dry_run:

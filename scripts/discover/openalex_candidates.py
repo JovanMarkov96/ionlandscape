@@ -103,7 +103,7 @@ def build_repo_index() -> tuple[set[str], set[str]]:
 # ── OpenAlex helpers ──────────────────────────────────────────────────────────
 
 def get_headers() -> dict:
-    return {"User-Agent": f"ionlandscape-discovery/1.0 (mailto:{CONTACT_EMAIL})"}
+    return {"User-Agent": f"quantum-landscape-discovery/1.0 (mailto:{CONTACT_EMAIL})"}
 
 
 def fetch_works_page(keyword: str, cursor: str = "*", per_page: int = 200) -> dict:

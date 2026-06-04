@@ -47,7 +47,7 @@ CACHE_PATH = ROOT / "scripts" / "utils" / "geocode_cache.json"
 REPORT_PATH = ROOT / "reports" / "geocode_report.md"
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-USER_AGENT = "ionlandscape-geocoder/1.0 (mailto:ozerilab@weizmann.ac.il)"
+USER_AGENT = "quantum-landscape-geocoder/1.0 (mailto:ozerilab@weizmann.ac.il)"
 RATE_SLEEP = 1.1  # Nominatim requires 1 req/s; add small buffer
 
 PRECISION_RANK = {"building": 4, "campus": 3, "city": 2, "inherited": 1, "none": 0, None: -1}

@@ -211,7 +211,7 @@ body,
 [data-theme='dark'] .ql-stacked-light { display: none; }
 
 /* ===== Main Layout Container ===== */
-.ion-landscape-container {
+.quantum-landscape-container {
   display: block;
   position: absolute;
   top: 0;
@@ -280,7 +280,7 @@ body,
   /* Push higher to be safe */
 }
 
-.ion-landscape-map {
+.quantum-landscape-map {
   width: 100%;
   height: 100%;
 }
@@ -359,7 +359,7 @@ body,
 }
 
 /* ===== Floating Liquid Glass Panels ===== */
-.ion-landscape-panel {
+.quantum-landscape-panel {
   position: absolute;
   top: 90px;
   bottom: 80px;
@@ -392,29 +392,29 @@ body,
   box-shadow: var(--ion-shadow-lg);
 }
 
-.ion-landscape-panel.panel-open {
+.quantum-landscape-panel.panel-open {
   transform: translateX(0);
   opacity: 1;
   visibility: visible;
 }
 
-.ion-landscape-panel::-webkit-scrollbar {
+.quantum-landscape-panel::-webkit-scrollbar {
   width: 6px;
 }
 
-.ion-landscape-panel::-webkit-scrollbar-thumb {
+.quantum-landscape-panel::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.2);
   border-radius: 3px;
 }
 
-[data-theme='dark'] .ion-landscape-panel {
+[data-theme='dark'] .quantum-landscape-panel {
   /* Dark Mode: Matte Liquid Glass */
   background: rgba(18, 18, 30, 0.65);
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: var(--ion-shadow-lg);
 }
 
-[data-theme='dark'] .ion-landscape-panel::-webkit-scrollbar-thumb {
+[data-theme='dark'] .quantum-landscape-panel::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -1562,7 +1562,7 @@ body,
     --panel-width: 320px;
   }
 
-  .ion-landscape-panel {
+  .quantum-landscape-panel {
     width: var(--panel-width);
   }
 
@@ -1576,16 +1576,16 @@ body,
 
 /* Mobile (600px and below) - Side-by-side to overlay transition */
 @media screen and (max-width: 600px) {
-  .ion-landscape-container {
+  .quantum-landscape-container {
     display: block;
   }
 
-  .ion-landscape-map {
+  .quantum-landscape-map {
     height: 100%;
     width: 100%;
   }
 
-  .ion-landscape-panel {
+  .quantum-landscape-panel {
     position: fixed;
     top: 86px;
     /* Safely below the navbar */
@@ -1602,7 +1602,7 @@ body,
     box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.3);
   }
 
-  .ion-landscape-panel.panel-open {
+  .quantum-landscape-panel.panel-open {
     transform: translateY(0) translateX(-50%);
   }
 
@@ -1629,28 +1629,28 @@ body,
   }
 
   /* Hide desktop header padding */
-  .ion-landscape-panel>div {
+  .quantum-landscape-panel>div {
     padding: 16px !important;
   }
 }
 
 /* Small phones (480px and below) */
 @media screen and (max-width: 480px) {
-  .ion-landscape-panel h2 {
+  .quantum-landscape-panel h2 {
     font-size: 1.4em;
   }
 
-  .ion-landscape-panel h3 {
+  .quantum-landscape-panel h3 {
     font-size: 1.1em;
   }
 
-  .ion-landscape-panel p,
-  .ion-landscape-panel li {
+  .quantum-landscape-panel p,
+  .quantum-landscape-panel li {
     font-size: 0.95em;
   }
 
   /* Stack badges vertically if needed */
-  .ion-landscape-panel .badge {
+  .quantum-landscape-panel .badge {
     display: inline-block;
     margin-bottom: 6px;
   }
@@ -1660,27 +1660,27 @@ body,
 @media (hover: none) and (pointer: coarse) {
 
   /* Larger touch targets */
-  .ion-landscape-panel a,
-  .ion-landscape-panel button {
+  .quantum-landscape-panel a,
+  .quantum-landscape-panel button {
     min-height: 44px;
     min-width: 44px;
   }
 
   /* Better link visibility */
-  .ion-landscape-panel a {
+  .quantum-landscape-panel a {
     padding: 4px 0;
     display: inline-block;
   }
 
   /* Disable hover effects on touch devices */
-  .ion-landscape-panel a:hover {
+  .quantum-landscape-panel a:hover {
     text-decoration: underline;
   }
 }
 
 /* ===== Landscape Orientation on Mobile ===== */
 @media screen and (max-width: 900px) and (orientation: landscape) {
-  .ion-landscape-panel {
+  .quantum-landscape-panel {
     width: auto;
     left: 45vw;
     top: 70px;
@@ -1690,7 +1690,7 @@ body,
     transform: translateX(120%);
   }
 
-  .ion-landscape-panel.panel-open {
+  .quantum-landscape-panel.panel-open {
     transform: translateX(0);
   }
 }

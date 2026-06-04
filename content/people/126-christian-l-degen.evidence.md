@@ -45,8 +45,8 @@
 | 10.1038/s41586-019-1334-9 | Tracking the precession of single nuclear spins (Nature 2019) | senior_author | Yes — Cujia, Boss, Herb, Zopes, Degen; Degen is last/corresponding |
 
 ## Advisor in database
-- Beat H. Meier (PhD advisor) — not currently in ionlandscape database
-- Dan Rugar (postdoc advisor, IBM Almaden) — not currently in ionlandscape database
+- Beat H. Meier (PhD advisor) — not currently in quantum-landscape database
+- Dan Rugar (postdoc advisor, IBM Almaden) — not currently in quantum-landscape database
 
 ## Fields / keywords
 - NV center magnetometry, nanoscale NMR, quantum sensing, magnetic resonance force microscopy (MRFM), scanning probe microscopy, diamond quantum sensors, single spin detection

@@ -73,7 +73,7 @@ def save_inst_cache(cache: dict):
 
 # ── OpenAlex helpers ──────────────────────────────────────────────────────────
 
-HDR = {"User-Agent": f"ionlandscape-skeleton/1.0 (mailto:{CONTACT_EMAIL})"}
+HDR = {"User-Agent": f"quantum-landscape-skeleton/1.0 (mailto:{CONTACT_EMAIL})"}
 P_BASE = {"mailto": CONTACT_EMAIL}
 
 

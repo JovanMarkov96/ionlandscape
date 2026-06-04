@@ -22,7 +22,7 @@
 *   **`education[0].advisor`**: "Leo Kouwenhoven"
     *   *Source*: https://en.wikipedia.org/wiki/Ronald_Hanson (Wikipedia — pointer)
     *   *Quote*: "supervised by Leo Kouwenhoven"
-    *   *Note*: Leo Kouwenhoven is NOT in the ionlandscape database (IDs 080–175 searched; no match found). `advisor_id` set to null.
+    *   *Note*: Leo Kouwenhoven is NOT in the quantum-landscape database (IDs 080–175 searched; no match found). `advisor_id` set to null.
 *   **`key_papers[0]`**: "Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres" (2015)
     *   *Source*: https://www.nature.com/articles/nature15759 (Nature journal page)
     *   *Quote*: Nature 526, 682–686 (2015); lead author B. Hensen, R. Hanson last/senior author
@@ -44,7 +44,7 @@
     *   *Quote*: Science, Vol. 362, 2018; authors include S. Wehner, D. Elkouss, R. Hanson
     *   DOI: 10.1126/science.aam9288
 *   **`lineage_check.advisor_verified`**: false
-    *   *Note*: Leo Kouwenhoven is confirmed as advisor via Wikipedia and search results, but he does not appear in the ionlandscape database (no file matching "kouwenhoven" found in content/people/). He works on topological/Majorana qubits (not NV centers), explaining his absence from the NV/SC wave.
+    *   *Note*: Leo Kouwenhoven is confirmed as advisor via Wikipedia and search results, but he does not appear in the quantum-landscape database (no file matching "kouwenhoven" found in content/people/). He works on topological/Majorana qubits (not NV centers), explaining his absence from the NV/SC wave.
 *   **`lineage_check.postdoc_verified`**: false
     *   *Note*: Postdoc at University of California, Santa Barbara (2005–2007) with David Awschalom confirmed (Wikipedia). Awschalom IS in the database as 115-d-d-awschalom.md, but postdoc supervisor field is not modeled in current schema.
 *   **`verification_source_count`**: 4

@@ -202,8 +202,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           BRANCH="enrichment/$(date +%Y%m%d-%H%M%S)"
-          git config user.name "Ion Landscape Bot"
-          git config user.email "bot@ionlandscape.dev"
+          git config user.name "Quantum Landscape Bot"
+          git config user.email "bot@quantum-landscape.dev"
           git checkout -b "$BRANCH"
           git add content/people/
           git diff --cached --quiet && echo "No changes to commit" && exit 0

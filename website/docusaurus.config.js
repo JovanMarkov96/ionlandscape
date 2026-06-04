@@ -3,12 +3,12 @@ module.exports = {
     title: 'Quantum Landscape',
     tagline: 'Interactive map and academic family tree of the quantum technology landscape — platforms, people, institutions & companies',
     url: 'https://JovanMarkov96.github.io',
-    baseUrl: '/ionlandscape/',
+    baseUrl: '/quantum-landscape/',
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: 'JovanMarkov96',
-    projectName: 'ionlandscape',
+    projectName: 'quantum-landscape',
 
     // Head tags for mobile optimization
     headTags: [
@@ -37,7 +37,7 @@ module.exports = {
             tagName: 'link',
             attributes: {
                 rel: 'apple-touch-icon',
-                href: '/ionlandscape/img/apple-touch-icon.png',
+                href: '/quantum-landscape/img/apple-touch-icon.png',
             },
         },
         {
@@ -60,32 +60,32 @@ module.exports = {
                 {
                     type: 'html',
                     position: 'left',
-                    value: '<a href="/ionlandscape/" class="ql-brand" title="Quantum Landscape — Home" aria-label="Quantum Landscape Home"><img class="ql-brand-img ql-wordmark ql-wordmark-dark" src="/ionlandscape/img/brand/wordmark-horizontal-on-dark.png" alt="Quantum Landscape" /><img class="ql-brand-img ql-wordmark ql-wordmark-light" src="/ionlandscape/img/brand/wordmark-horizontal-on-light.png" alt="Quantum Landscape" /><img class="ql-brand-img ql-mark-only" src="/ionlandscape/img/brand/mark.png" alt="Quantum Landscape" /></a>',
+                    value: '<a href="/quantum-landscape/" class="ql-brand" title="Quantum Landscape — Home" aria-label="Quantum Landscape Home"><img class="ql-brand-img ql-wordmark ql-wordmark-dark" src="/quantum-landscape/img/brand/wordmark-horizontal-on-dark.png" alt="Quantum Landscape" /><img class="ql-brand-img ql-wordmark ql-wordmark-light" src="/quantum-landscape/img/brand/wordmark-horizontal-on-light.png" alt="Quantum Landscape" /><img class="ql-brand-img ql-mark-only" src="/quantum-landscape/img/brand/mark.png" alt="Quantum Landscape" /></a>',
                 },
                 {
                     type: 'html',
                     position: 'right',
-                    value: '<a href="/ionlandscape/groups" class="navbar-custom-btn" title="People" aria-label="People"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg><span class="navbar-btn-label">People</span></a>',
+                    value: '<a href="/quantum-landscape/groups" class="navbar-custom-btn" title="People" aria-label="People"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg><span class="navbar-btn-label">People</span></a>',
                 },
                 {
                     type: 'html',
                     position: 'right',
-                    value: '<a href="/ionlandscape/companies" class="navbar-custom-btn" title="Companies" aria-label="Companies"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg><span class="navbar-btn-label">Companies</span></a>',
+                    value: '<a href="/quantum-landscape/companies" class="navbar-custom-btn" title="Companies" aria-label="Companies"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg><span class="navbar-btn-label">Companies</span></a>',
                 },
                 {
                     type: 'html',
                     position: 'right',
-                    value: '<a href="/ionlandscape/institutions" class="navbar-custom-btn" title="Institutions" aria-label="Institutions"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"></line><line x1="6" y1="18" x2="6" y2="11"></line><line x1="10" y1="18" x2="10" y2="11"></line><line x1="14" y1="18" x2="14" y2="11"></line><line x1="18" y1="18" x2="18" y2="11"></line><polygon points="12 2 20 7 4 7"></polygon></svg><span class="navbar-btn-label">Institutions</span></a>',
+                    value: '<a href="/quantum-landscape/institutions" class="navbar-custom-btn" title="Institutions" aria-label="Institutions"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="21" y2="22"></line><line x1="6" y1="18" x2="6" y2="11"></line><line x1="10" y1="18" x2="10" y2="11"></line><line x1="14" y1="18" x2="14" y2="11"></line><line x1="18" y1="18" x2="18" y2="11"></line><polygon points="12 2 20 7 4 7"></polygon></svg><span class="navbar-btn-label">Institutions</span></a>',
                 },
                 {
                     type: 'html',
                     position: 'right',
-                    value: '<a href="/ionlandscape/lineages" class="navbar-custom-btn" title="Lineage graph" aria-label="Lineage graph"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.3"></circle><circle cx="5" cy="19.5" r="2.3"></circle><circle cx="12" cy="19.5" r="2.3"></circle><circle cx="19" cy="19.5" r="2.3"></circle><path d="M12 6.8 V17.2"></path><path d="M5 13.2 H19"></path><path d="M5 13.2 V17.2"></path><path d="M19 13.2 V17.2"></path></svg><span class="navbar-btn-label">Graph</span></a>',
+                    value: '<a href="/quantum-landscape/lineages" class="navbar-custom-btn" title="Lineage graph" aria-label="Lineage graph"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.3"></circle><circle cx="5" cy="19.5" r="2.3"></circle><circle cx="12" cy="19.5" r="2.3"></circle><circle cx="19" cy="19.5" r="2.3"></circle><path d="M12 6.8 V17.2"></path><path d="M5 13.2 H19"></path><path d="M5 13.2 V17.2"></path><path d="M19 13.2 V17.2"></path></svg><span class="navbar-btn-label">Graph</span></a>',
                 },
                 {
                     type: 'html',
                     position: 'right',
-                    value: '<a href="https://github.com/JovanMarkov96/ionlandscape" target="_blank" rel="noopener noreferrer" class="navbar-custom-btn" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="navbar-btn-label">GitHub</span></a>',
+                    value: '<a href="https://github.com/JovanMarkov96/quantum-landscape" target="_blank" rel="noopener noreferrer" class="navbar-custom-btn" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="navbar-btn-label">GitHub</span></a>',
                 },
                 {
                     type: 'html',
@@ -113,7 +113,7 @@ module.exports = {
 
     scripts: [
         {
-            src: '/ionlandscape/js/share.js',
+            src: '/quantum-landscape/js/share.js',
             async: true,
         },
     ],

@@ -30,7 +30,7 @@ def search_ddg(query: str, num: int = 5) -> List[dict]:
     """
     url = "https://html.duckduckgo.com/html/"
     params = {"q": query}
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; ionlandscape-bot/1.0)"}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; quantum-landscape-bot/1.0)"}
     try:
         r = requests.post(url, data=params, headers=headers, timeout=15)
         r.raise_for_status()
@@ -51,7 +51,7 @@ def search_ddg(query: str, num: int = 5) -> List[dict]:
 
 
 def fetch_page(url: str, timeout: int = 10) -> str | None:
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; ionlandscape-bot/1.0)"}
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; quantum-landscape-bot/1.0)"}
     try:
         r = requests.get(url, headers=headers, timeout=timeout)
         r.raise_for_status()

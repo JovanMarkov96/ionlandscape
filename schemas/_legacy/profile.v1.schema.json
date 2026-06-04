@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://github.com/JovanMarkov96/ionlandscape/schemas/profile.schema.json",
-    "title": "Ion Landscape Researcher Profile",
+    "$id": "https://github.com/JovanMarkov96/quantum-landscape/schemas/profile.schema.json",
+    "title": "Quantum Landscape Researcher Profile",
     "description": "Validation schema for researcher profiles in content/people/.",
     "type": "object",
     "required": [

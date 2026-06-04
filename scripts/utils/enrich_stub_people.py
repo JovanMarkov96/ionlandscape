@@ -15,7 +15,7 @@ def sprint(*args):
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PEOPLE = os.path.join(ROOT, "content", "people")
 INST_JSON = os.path.join(ROOT, "website", "static", "data", "institutions.json")
-UA = "ionlandscape-research/1.0 (https://q-factor.com; academic ecosystem map)"
+UA = "quantum-landscape-research/1.0 (https://q-factor.com; academic ecosystem map)"
 
 def norm(s):
     s = unicodedata.normalize('NFKD', s or '').encode('ASCII', 'ignore').decode('ASCII')

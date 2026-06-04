@@ -28,7 +28,7 @@
 - https://bpb-ap-se2.wpmucdn.com/blogs.auckland.ac.nz/dist/9/143/files/2017/02/J%C3%B6rg-Wrachtrup-29d3s0w.pdf — CV PDF: "Research Associate FU Berlin 1990–1994"; PhD 1994 FU Berlin.
 - Christian von Borczyskowski's Wikipedia (de): directed the Organic Materials Lab of FU Berlin's physics faculty from 1981 until 1993 — overlaps exactly with Wrachtrup's 1990–1994 FU Berlin period; moved to TU Chemnitz 1993, where Wrachtrup followed for his postdoc/habilitation.
 
-**Notes:** Advisor confidence is confirmed by institutional overlap and career continuity (Wrachtrup followed von Borczyskowski from FU Berlin to TU Chemnitz). Christian von Borczyskowski is not in the ionlandscape database (IDs 080–175).
+**Notes:** Advisor confidence is confirmed by institutional overlap and career continuity (Wrachtrup followed von Borczyskowski from FU Berlin to TU Chemnitz). Christian von Borczyskowski is not in the quantum-landscape database (IDs 080–175).
 
 **Habilitation:** TU Chemnitz, 1998, on "Optical Spectroscopy on Single Quantum Systems."
 

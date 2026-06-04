@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/JovanMarkov96/ionlandscape/schemas/company.schema.json",
-  "title": "Ion Landscape Company Profile (v1)",
+  "$id": "https://github.com/JovanMarkov96/quantum-landscape/schemas/company.schema.json",
+  "title": "Quantum Landscape Company Profile (v1)",
   "description": "YAML frontmatter schema for content/companies/*.md. Enums sourced from schemas/vocabularies.yaml.",
   "vocab_source": "schemas/vocabularies.yaml",
   "type": "object",

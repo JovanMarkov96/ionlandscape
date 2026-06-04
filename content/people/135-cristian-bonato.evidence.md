@@ -24,7 +24,7 @@
     *   *Source*: https://scholar.google.com/citations?user=jCkHDZ8AAAAJ (Paolo Villoresi Google Scholar — co-authored papers with Bonato from the 2006–2008 period)
     *   *Source*: https://arxiv.org/abs/0803.1871 — Bonato et al. 2008 paper on satellite quantum channel, submitted from University of Padova / CNR-INFM LUXOR (Villoresi's group)
     *   *Note*: Villoresi is Full Professor of Physics at Padova and supervisor of the quantum communications group where Bonato completed his PhD. Direct advisor confirmation unavailable from thesis record; inferred from group affiliation and co-authored publications during PhD period. Confidence: inferred.
-    *   *Note*: Paolo Villoresi is NOT in the ionlandscape database. `advisor_id` set to null.
+    *   *Note*: Paolo Villoresi is NOT in the quantum-landscape database. `advisor_id` set to null.
 
 *   **`lineage.postdoc`**: Postdoc at Leiden University under Dirk Bouwmeester (semiconductor cavity-QED), then postdoc at TU Delft under Ronald Hanson (NV spin control)
     *   *Source*: https://researchportal.hw.ac.uk/en/persons/cristian-bonato/ (biography)
@@ -81,7 +81,7 @@
 - **Title progression**: Joined as Assistant Professor in 2016; profile now lists "Professor" on the Research Portal — has been promoted to full Professor. The `since_year: 2016` marks the start at Heriot-Watt, not the promotion date (not found).
 - **EPSRC Early-Career Fellowship**: Held 2019–2024 on quantum sensing with individual spins.
 - **ERC Starting Grant "Q-CISS"**: Awarded for room-temperature quantum sensors for photochemistry and biology.
-- **PhD advisor**: Paolo Villoresi identified from group affiliation (CNR-INFM LUXOR / Dept. Information Engineering, Padova) and co-authored papers during PhD. Villoresi is not in the ionlandscape database.
+- **PhD advisor**: Paolo Villoresi identified from group affiliation (CNR-INFM LUXOR / Dept. Information Engineering, Padova) and co-authored papers during PhD. Villoresi is not in the quantum-landscape database.
 - **Postdoc chain**: Leiden (Bouwmeester, cavity-QED) → TU Delft (Ronald Hanson, NV spins). Hanson is in database as 112-ronald-hanson.
 - **Visiting researcher during PhD**: Boston University (2006–2008), Sasha Sergienko's group (quantum optics).
 - **Silicon carbide work**: Bonato has expanded beyond NV centers in diamond to SiC spin defects; `color_center` platform added to reflect this.

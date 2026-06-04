@@ -1,4 +1,4 @@
-# Ion Landscape Profile Ingestion Guide
+# Quantum Landscape Profile Ingestion Guide
 
 This guide explains how to systematically ingest, verify, and classify trapped-ion research groups and PIs using authoritative online sources.
 
@@ -238,7 +238,7 @@ Let's say you're enriching the profile for Jonathan P. Home:
 
 1. **Create branch:**
    ```bash
-   git checkout -b auto/ionlandscape-ingestion
+   git checkout -b auto/quantum-landscape-ingestion
    ```
 
 2. **Make changes:**

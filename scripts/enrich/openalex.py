@@ -105,7 +105,7 @@ def bare_orcid(orcid_url: str) -> str | None:
 def fetch_author(orcid: str) -> dict | None:
     """Fetch full OpenAlex author object by ORCID. Returns None on 404 or error."""
     url = f"{OPENALEX_BASE}/authors/https://orcid.org/{orcid}"
-    headers = {"User-Agent": f"ionlandscape-openalex/1.0 (mailto:{CONTACT_EMAIL})"}
+    headers = {"User-Agent": f"quantum-landscape-openalex/1.0 (mailto:{CONTACT_EMAIL})"}
     try:
         r = requests.get(url, headers=headers, params={"mailto": CONTACT_EMAIL}, timeout=15)
         if r.status_code == 404:
@@ -128,7 +128,7 @@ def fetch_institution_geo(openalex_inst_id: str, inst_cache: dict) -> dict | Non
         return inst_cache[cache_key]
 
     url = f"{OPENALEX_BASE}/institutions/{openalex_inst_id}"
-    headers = {"User-Agent": f"ionlandscape-openalex/1.0 (mailto:{CONTACT_EMAIL})"}
+    headers = {"User-Agent": f"quantum-landscape-openalex/1.0 (mailto:{CONTACT_EMAIL})"}
     try:
         time.sleep(RATE_SLEEP)
         r = requests.get(url, headers=headers, params={"mailto": CONTACT_EMAIL}, timeout=15)

@@ -11,7 +11,7 @@ export default function NobelMedal({ prize, size = '0.85em' }) {
     const label = `Nobel Laureate in ${prize.category || 'Physics'}${prize.year ? `, ${prize.year}` : ''}`;
     return (
         <img
-            src="/ionlandscape/img/nobel-medal.png"
+            src="/quantum-landscape/img/nobel-medal.png"
             className="nobel-medal"
             style={{ width: size, height: size }}
             alt="🏅"

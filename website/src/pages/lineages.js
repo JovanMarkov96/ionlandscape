@@ -72,10 +72,10 @@ function LineageGraph() {
         const loadData = async () => {
             try {
                 const [pRes, cRes, iRes, eRes] = await Promise.all([
-                    fetch('/ionlandscape/data/people.json').then(r => r.ok ? r.json() : fetch('/data/people.json').then(r => r.json())),
-                    fetch('/ionlandscape/data/companies.json').then(r => r.ok ? r.json() : fetch('/data/companies.json').then(r => r.json())),
-                    fetch('/ionlandscape/data/institutions.json').then(r => r.ok ? r.json() : fetch('/data/institutions.json').then(r => r.json())),
-                    fetch('/ionlandscape/data/edges.json').then(r => r.ok ? r.json() : fetch('/data/edges.json').then(r => r.json()))
+                    fetch('/quantum-landscape/data/people.json').then(r => r.ok ? r.json() : fetch('/data/people.json').then(r => r.json())),
+                    fetch('/quantum-landscape/data/companies.json').then(r => r.ok ? r.json() : fetch('/data/companies.json').then(r => r.json())),
+                    fetch('/quantum-landscape/data/institutions.json').then(r => r.ok ? r.json() : fetch('/data/institutions.json').then(r => r.json())),
+                    fetch('/quantum-landscape/data/edges.json').then(r => r.ok ? r.json() : fetch('/data/edges.json').then(r => r.json()))
                 ]);
 
                 const nodes = [];
@@ -170,7 +170,7 @@ function LineageGraph() {
     };
 
     const openInMap = (node) => {
-        const base = '/ionlandscape/';
+        const base = '/quantum-landscape/';
         if (node.kind === 'person') window.location.href = `${base}?person=${node.id}`;
         else if (node.kind === 'company') window.location.href = `${base}?company=${node.id}`;
         else if (node.kind === 'institution') window.location.href = `${base}?institution=${node.id}`;

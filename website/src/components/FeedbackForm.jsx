@@ -17,7 +17,7 @@ export default function FeedbackForm({ entityType, entityName, entityId }) {
     const handleFeedbackClick = () => {
         const title = encodeURIComponent(`Data Correction: ${entityName}`);
         const body = encodeURIComponent(`Please describe the issue or missing information for **${entityName}** (${entityType}, ID: \`${entityId}\`) below:\n\n`);
-        const githubUrl = `https://github.com/JovanMarkov96/ionlandscape/issues/new?title=${title}&body=${body}`;
+        const githubUrl = `https://github.com/JovanMarkov96/quantum-landscape/issues/new?title=${title}&body=${body}`;
         window.open(githubUrl, '_blank', 'noopener,noreferrer');
     };
 

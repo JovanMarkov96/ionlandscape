@@ -131,8 +131,8 @@ function HomeContent() {
     };
 
     return (
-        <div className="ion-landscape-container">
-            <div className="ion-landscape-map">
+        <div className="quantum-landscape-container">
+            <div className="quantum-landscape-map">
                 <MapPanel
                     ref={mapPanelRef}
                     onPersonSelect={handlePersonSelect}
@@ -146,15 +146,15 @@ function HomeContent() {
                 <div className="welcome-popup">
                     <button className="close-panel-btn" onClick={handleDismissWelcome} aria-label="Dismiss welcome popup" style={{ top: '16px', right: '16px' }}>✕</button>
                     <div className="welcome-brand">
-                        <img className="ql-stacked ql-stacked-dark" src="/ionlandscape/img/brand/wordmark-stacked-on-dark.png" alt="Quantum Landscape" />
-                        <img className="ql-stacked ql-stacked-light" src="/ionlandscape/img/brand/wordmark-stacked-on-light.png" alt="Quantum Landscape" />
+                        <img className="ql-stacked ql-stacked-dark" src="/quantum-landscape/img/brand/wordmark-stacked-on-dark.png" alt="Quantum Landscape" />
+                        <img className="ql-stacked ql-stacked-light" src="/quantum-landscape/img/brand/wordmark-stacked-on-light.png" alt="Quantum Landscape" />
                     </div>
                     <p>An interactive map and academic family tree of the quantum technology landscape. Click a marker to explore a researcher, company, or institution.</p>
                     <button className="btn-primary" onClick={handleDismissWelcome}>Get Started</button>
                 </div>
             )}
 
-            <div className={`ion-landscape-panel ${isPanelOpen ? 'panel-open' : ''}`}>
+            <div className={`quantum-landscape-panel ${isPanelOpen ? 'panel-open' : ''}`}>
                 <button
                     className="back-to-map-btn"
                     onClick={handleClosePanel}

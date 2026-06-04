@@ -29,7 +29,7 @@
 *   **`education[1].advisor`**: "Jelena Vučković"
     *   *Source*: https://en.wikipedia.org/wiki/Dirk_Englund (Wikipedia)
     *   *Source*: search result confirming "Dirk Englund earned his Ph.D. in applied physics from Stanford University in 2008 under the supervision of Jelena Vučković"
-    *   *Note*: Jelena Vučković is not currently in the ionlandscape database (no matching file found); advisor_id left null.
+    *   *Note*: Jelena Vučković is not currently in the quantum-landscape database (no matching file found); advisor_id left null.
 
 *   **`education[1].advisor_id`**: null
     *   *Note*: Vučković not found in content/people/ at time of writing. If added later, this should be updated.
@@ -84,7 +84,7 @@
     *   *Source*: https://www.nature.com/articles/nphoton.2017.93 (optical neural networks / deep learning with photonics)
 
 *   **`lineage_check.advisor_verified`**: false
-    *   *Note*: Jelena Vučković is confirmed as PhD advisor via Wikipedia and multiple secondary sources, but she is not currently in the ionlandscape database so the advisor_id cannot be cross-referenced. Mark false until Vučković is added.
+    *   *Note*: Jelena Vučković is confirmed as PhD advisor via Wikipedia and multiple secondary sources, but she is not currently in the quantum-landscape database so the advisor_id cannot be cross-referenced. Mark false until Vučković is added.
 
 *   **`lineage_check.postdoc_verified`**: true
     *   *Source*: https://en.wikipedia.org/wiki/Dirk_Englund (Wikipedia confirms Harvard postdoc with Lukin)

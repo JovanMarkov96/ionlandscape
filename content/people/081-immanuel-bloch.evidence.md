@@ -43,7 +43,7 @@ Verified: 2026-05-30
 | 1 | Quantum phase transition from a superfluid to a Mott insulator | 2002 | 10.1038/415039a | co_author | Landmark paper; one of most cited cold-atom experiments |
 | 2 | Many-body physics with ultracold gases (Rev. Mod. Phys.) | 2008 | 10.1103/RevModPhys.80.885 | co_author | Canonical review; 5845+ citations |
 | 3 | Single-atom-resolved fluorescence imaging of an atomic Mott insulator | 2010 | 10.1038/nature09378 | co_author | Quantum gas microscope technique paper |
-| 4 | Quantum simulations with ultracold quantum gases (Nature Physics) | 2012 | 10.1038/nphys2259 | co_author | Review of quantum simulation landscape |
+| 4 | Quantum simulations with ultracold quantum gases (Nature Physics) | 2012 | 10.1038/nphys2259 | co_author | Review of quantum simulatquantum landscape |
 | 5 | Light-cone-like spreading of correlations in a quantum many-body system | 2012 | 10.1038/nature10748 | senior_author | Lieb-Robinson bound experimental observation |
 | 6 | Quantum simulations with ultracold atoms in optical lattices (Science) | 2017 | 10.1126/science.aal3837 | co_author | Review of quantum gas microscope + optical lattice simulations |
 

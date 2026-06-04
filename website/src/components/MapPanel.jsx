@@ -122,7 +122,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
     // Load data
     useEffect(() => {
         // Load people
-        fetch('/ionlandscape/data/people.geojson')
+        fetch('/quantum-landscape/data/people.geojson')
             .then(res => res.json())
             .then(data => { if (data?.features) setPeople(data.features); })
             .catch(() => {
@@ -133,7 +133,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
             });
 
         // Load companies
-        fetch('/ionlandscape/data/companies.geojson')
+        fetch('/quantum-landscape/data/companies.geojson')
             .then(res => res.json())
             .then(data => { if (data?.features) setCompanies(data.features); })
             .catch(() => {
@@ -144,7 +144,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
             });
 
         // Load institutions
-        fetch('/ionlandscape/data/institutions.geojson')
+        fetch('/quantum-landscape/data/institutions.geojson')
             .then(res => res.json())
             .then(data => { if (data?.features) setInstitutions(data.features); })
             .catch(() => {
@@ -234,10 +234,10 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
             let logoHtml = '';
             if (isCompany || isInstitution) {
                 if (props.logo_path) {
-                    const src = `/ionlandscape${props.logo_path}`;
-                    const safeSrc = src.startsWith('http') || src.startsWith('/ionlandscape')
+                    const src = `/quantum-landscape${props.logo_path}`;
+                    const safeSrc = src.startsWith('http') || src.startsWith('/quantum-landscape')
                         ? src
-                        : `/ionlandscape${src}`;
+                        : `/quantum-landscape${src}`;
 
                     logoHtml = `
                     <div class="popup-logo-container">
@@ -426,7 +426,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
 
                 if (companyFeature.properties?.logo_path) {
                     // Logo Marker
-                    const src = `/ionlandscape${companyFeature.properties.logo_path}`;
+                    const src = `/quantum-landscape${companyFeature.properties.logo_path}`;
                     logoHtml = `<div class="ion-marker-logo" style="background-image: url('${src}')"></div>`;
                 } else {
                     // Placeholder Logo Marker

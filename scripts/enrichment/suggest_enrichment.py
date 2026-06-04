@@ -2,7 +2,7 @@
 """
 suggest_enrichment.py
 
-Scans all Ion Landscape profiles for missing fields, prepares LLM enrichment
+Scans all Quantum Landscape profiles for missing fields, prepares LLM enrichment
 prompts, and outputs structured suggestions.
 
 This script is designed for CI integration (GitHub Actions) and local use.

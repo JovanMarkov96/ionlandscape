@@ -8,7 +8,7 @@ const puppeteer = require('puppeteer');
     page.on('pageerror', error => console.log('PAGE ERROR:', error.message));
 
     // Connect to the local dev server instead of build
-    await page.goto('http://localhost:3000/ionlandscape/', { waitUntil: 'networkidle0' });
+    await page.goto('http://localhost:3000/quantum-landscape/', { waitUntil: 'networkidle0' });
     
     // Wait 5 seconds
     await new Promise(r => setTimeout(r, 5000));

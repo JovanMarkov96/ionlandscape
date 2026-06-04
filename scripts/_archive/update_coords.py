@@ -2,7 +2,7 @@ import os
 from geopy.geocoders import Nominatim
 import re
 
-geolocator = Nominatim(user_agent="ionlandscape_updater")
+geolocator = Nominatim(user_agent="quantum-landscape_updater")
 
 companies = {
     "c007-quantum-machines.md": "HaMasger Street 35, Tel Aviv-Yafo, Israel",

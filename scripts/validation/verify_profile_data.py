@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 CONTENT_DIR = os.path.join(BASE_DIR, "content", "people")
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (compatible; IonLandscapeBot/1.0)'
+    'User-Agent': 'Mozilla/5.0 (compatible; QuantumLandscapeBot/1.0)'
 }
 
 

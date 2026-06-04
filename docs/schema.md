@@ -1,6 +1,6 @@
 # Profile Schemas
 
-This document is the human-readable reference for the three Ion Landscape
+This document is the human-readable reference for the three Quantum Landscape
 profile schemas: **person**, **company**, and **institution**. Machine-
 readable JSON Schemas live in `schemas/` and are the source of truth for
 validation; this document is the source of truth for *intent*. When the two

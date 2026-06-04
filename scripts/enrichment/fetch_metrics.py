@@ -11,7 +11,7 @@ PEOPLE_DIR = os.path.join(ROOT, "content", "people")
 
 def get_openalex_metrics(orcid, name):
     headers = {
-        'User-Agent': 'IonLandscapeBot/1.0 (mailto:admin@ionlandscape.com)'
+        'User-Agent': 'QuantumLandscapeBot/1.0 (mailto:admin@quantum-landscape.com)'
     }
     
     url = None

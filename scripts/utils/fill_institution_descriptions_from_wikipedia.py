@@ -22,7 +22,7 @@ CONTENT_DIR = ROOT / 'content' / 'institutions'
 
 WIKI_API = 'https://en.wikipedia.org/w/api.php'
 # Use a descriptive User-Agent to avoid 403 responses from Wikimedia
-HEADERS = {'User-Agent': 'IonLandscape/0.1 (https://github.com/JovanMarkov96)'}
+HEADERS = {'User-Agent': 'QuantumLandscape/0.1 (https://github.com/JovanMarkov96)'}
 
 
 def wiki_search(title):
