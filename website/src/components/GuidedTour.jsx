@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
+import ReactDOM from 'react-dom';
 
 /**
  * GuidedTour — a lightweight, dependency-free interactive product tour.
@@ -86,7 +87,7 @@ export default function GuidedTour({ open, steps, onClose }) {
     const finish = () => { onClose && onClose(); };
     const next = () => { setI(p => (p < steps.length - 1 ? p + 1 : (finish(), p))); };
 
-    if (!open || !step) return null;
+    if (!open || !step || typeof document === 'undefined') return null;
 
     const PAD = 8;
     const spot = rect && {
@@ -127,7 +128,7 @@ export default function GuidedTour({ open, steps, onClose }) {
 
     const isLast = i === steps.length - 1;
 
-    return (
+    return ReactDOM.createPortal((
         <div className="tour-root" role="dialog" aria-modal="true" aria-label="Guided tour">
             {/* Spotlight (or full backdrop for centered steps) */}
             {spot ? (
@@ -167,5 +168,5 @@ export default function GuidedTour({ open, steps, onClose }) {
                 </div>
             </div>
         </div>
-    );
+    ), document.body);
 }

@@ -1345,7 +1345,7 @@ body,
 .tour-root {
   position: fixed;
   inset: 0;
-  z-index: 4000;
+  z-index: 100050; /* above navbar (1000) and profile panel (99999) */
   pointer-events: none;
 }
 
