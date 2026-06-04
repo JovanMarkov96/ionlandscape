@@ -1415,6 +1415,48 @@ body,
   color: var(--ifm-color-primary);
 }
 
+/* Welcome (first) step — logo-led splash, larger and centered */
+.tour-tip--welcome {
+  padding: 26px 26px 18px;
+  text-align: center;
+}
+
+.tour-brand {
+  display: flex;
+  justify-content: center;
+  margin: 2px 0 14px;
+}
+
+.tour-tip--welcome .ql-stacked {
+  max-width: 230px;
+}
+
+.tour-tip--welcome h3 {
+  font-size: 1.35rem;
+  margin-top: 2px;
+}
+
+.tour-tip--welcome p {
+  font-size: 0.9rem;
+}
+
+.tour-tip--welcome .tour-tip-actions {
+  justify-content: center;
+  flex-direction: column-reverse;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.tour-tip--welcome .tour-nav {
+  width: 100%;
+}
+
+.tour-tip--welcome .tour-next {
+  width: 100%;
+  padding: 11px 18px;
+  font-size: 0.9rem;
+}
+
 .tour-tip h3 {
   margin: 6px 0 6px;
   font-size: 1.1rem;

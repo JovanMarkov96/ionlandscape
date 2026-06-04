@@ -81,7 +81,8 @@ export default function GuidedTour({ open, steps, onClose }) {
     };
 
     // ---- Coachmark position ----
-    const TIP_W = 330;
+    const isWelcome = !!step.brand;
+    const TIP_W = isWelcome ? 430 : 330;
     const tipH = (tipRef.current && tipRef.current.offsetHeight) || 190;
     let tipStyle;
     let cursor = { left: vp.w / 2, top: vp.h / 2 };
@@ -124,12 +125,19 @@ export default function GuidedTour({ open, steps, onClose }) {
             </div>
 
             {/* Coachmark */}
-            <div className="tour-tip" ref={tipRef} style={tipStyle}>
-                <div className="tour-tip-step">Step {i + 1} of {steps.length}</div>
+            <div className={`tour-tip${isWelcome ? ' tour-tip--welcome' : ''}`} ref={tipRef} style={tipStyle}>
+                {isWelcome ? (
+                    <div className="tour-brand">
+                        <img className="ql-stacked ql-stacked-dark" src="/quantum-landscape/img/brand/wordmark-stacked-on-dark.png" alt="Quantum Landscape" />
+                        <img className="ql-stacked ql-stacked-light" src="/quantum-landscape/img/brand/wordmark-stacked-on-light.png" alt="Quantum Landscape" />
+                    </div>
+                ) : (
+                    <div className="tour-tip-step">Step {i + 1} of {steps.length}</div>
+                )}
                 <h3>{step.title}</h3>
                 <p>{step.body}</p>
                 <div className="tour-tip-actions">
-                    <button className="tour-skip" onClick={finish}>{isLast ? 'Close' : 'Skip tour'}</button>
+                    <button className="tour-skip" onClick={finish}>{isWelcome ? 'Skip' : (isLast ? 'Close' : 'Skip tour')}</button>
                     <div className="tour-nav">
                         {i > 0 && <button className="tour-back" onClick={() => setI(p => Math.max(0, p - 1))}>Back</button>}
                         <button className="tour-next" onClick={next}>{step.cta || (isLast ? 'Done' : 'Next')}</button>

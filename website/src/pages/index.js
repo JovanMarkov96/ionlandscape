@@ -9,8 +9,9 @@ const TOUR_KEY = 'ql_tour_map_v1';
 const MAP_TOUR = [
     {
         selector: null,
-        title: 'Welcome to Quantum Landscape',
-        body: 'An interactive world map and academic family tree of the quantum-technology ecosystem — researchers, companies and institutions across platforms like trapped ions, neutral atoms and superconducting qubits. Take this quick tour, or skip it anytime.',
+        brand: true,
+        title: 'Welcome',
+        body: 'An interactive world map and academic family tree of the quantum-technology ecosystem — researchers, companies and institutions across platforms like trapped ions, neutral atoms and superconducting qubits. Take a quick tour to learn your way around, or jump straight in.',
         placement: 'center',
         cta: 'Start tour',
     },

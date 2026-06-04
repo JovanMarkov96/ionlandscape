@@ -7,8 +7,9 @@ const GRAPH_TOUR_KEY = 'ql_tour_graph_v1';
 const GRAPH_TOUR = [
     {
         selector: null,
+        brand: true,
         title: 'The connection graph',
-        body: 'Every dot is a person, company or institution; links show advising relationships and affiliations. Here’s a quick tour.',
+        body: 'Every dot is a person, company or institution; links show advising relationships and affiliations. Here’s a quick tour of how to explore it.',
         placement: 'center',
         cta: 'Start',
     },
