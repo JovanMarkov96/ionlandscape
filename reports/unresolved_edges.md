@@ -10,6 +10,7 @@ Endpoints that could not be matched to a known node.
 | 185-ulrik-andersen | DIASENSE | affiliated_with | True | False |
 | Alan Ho | c038-qolab | founder | False | True |
 | Alexander Glätzle | c036-planqc | founder | False | True |
+| Amihay Hadad | c046-quantum-x-labs | leadership | False | True |
 | Amiram Ron | 205-ofer-firstenberg | advisor | False | True |
 | Andrew Childs | i120-university-of-maryland | leadership | False | True |
 | Andrew Dzurak | c040-diraq | founder | False | True |
@@ -38,6 +39,7 @@ Endpoints that could not be matched to a known node.
 | Michelle Simmons | c044-silicon-quantum-computing | founder | False | True |
 | Mohammad Hafezi | i120-university-of-maryland | leadership | False | True |
 | Niccolò de Masi | c002-ionq | leadership | False | True |
+| Nir Sharon | c046-quantum-x-labs | leadership | False | True |
 | Paul Terry | c042-photonic-inc | leadership | False | True |
 | Rajeeb (Raj) Hazra | c035-quantinuum | leadership | False | True |
 | Raphaël Lescanne | c037-alice-and-bob | founder | False | True |
@@ -55,6 +57,7 @@ Endpoints that could not be matched to a known node.
 | Théau Peronnin | c037-alice-and-bob | leadership | False | True |
 | Tom Harty | c004-oxford-ionics | founder | False | True |
 | Walter Gordy | 229-hans-dehmelt | postdoc_advisor | False | True |
+| Yakov Baranes | c046-quantum-x-labs | leadership | False | True |
 | Yaron Silberberg | 209-barak-dayan | advisor | False | True |
 | Yuval Boger | c006-quera-computing | leadership | False | True |
 | c019-pasqal | Institut d'Optique | spun_out_from | True | False |
