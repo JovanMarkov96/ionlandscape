@@ -83,7 +83,7 @@ people:
     role: Co-founder & CTO
     source: https://quantware.com/about
   spun_out_of:
-  - name: QuTech (TU Delft)
+  - name: Delft University of Technology
     source: https://quantware.com/about
     spinout_year: 2021
 platforms:

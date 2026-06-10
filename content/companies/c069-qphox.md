@@ -97,7 +97,7 @@ people:
     role: Co-founder & CTO
     source: https://qphox.eu/news/qphox-raises-e8m-to-bring-quantum-modem-technology-to-market-building-towards-the-quantum-internet/
   spun_out_of:
-  - name: TU Delft
+  - name: Delft University of Technology
     source: https://qphox.eu/news/qphox-raises-e8m-to-bring-quantum-modem-technology-to-market-building-towards-the-quantum-internet/
     spinout_year: 2020
 platforms:

@@ -100,7 +100,7 @@ sort_name: Dayan, Barak
 thesis:
   link: Unknown
   title: Nonlinear optics with broadband down-converted light
-  year: unknown
+  year: null
 updated_at: '2026-05-31'
 verification_source_count: 3
 ---

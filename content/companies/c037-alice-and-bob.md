@@ -1,4 +1,5 @@
 ---
+schema_version: 1
 aliases:
 - Alice & Bob
 - Alice and Bob

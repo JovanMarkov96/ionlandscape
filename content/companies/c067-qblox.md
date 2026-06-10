@@ -82,7 +82,7 @@ people:
     role: Co-founder
     source: https://qblox.com/about
   spun_out_of:
-  - name: QuTech (TU Delft)
+  - name: Delft University of Technology
     source: https://qblox.com/about
     spinout_year: 2019
 platforms:

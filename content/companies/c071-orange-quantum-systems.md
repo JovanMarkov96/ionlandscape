@@ -70,7 +70,7 @@ modality: hardware
 name: Orange Quantum Systems
 people:
   spun_out_of:
-  - name: QuTech (TU Delft)
+  - name: Delft University of Technology
     source: https://www.eu-startups.com/2023/09/delft-based-orange-quantum-systems-raises-e1-5-million-pre-seed-to-turbocharge-quantum-chip-testing/
     spinout_year: 2020
   - name: TNO

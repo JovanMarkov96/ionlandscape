@@ -59,7 +59,7 @@ people:
     role: Co-founder & CSO (Prof., KTH Royal Institute of Technology)
     source: https://tracxn.com/d/companies/single-quantum/__tDH8Af3m4BqZHxfAYBTnRTH6kyf9nI1HjLepDLMlugk
   spun_out_of:
-  - name: TU Delft
+  - name: Delft University of Technology
     source: https://thequantuminsider.com/2020/12/13/delft-company%E2%80%8A-%E2%80%8Awith-snspd-technology%E2%80%8A-%E2%80%8Aturning-photons-into-data/
     spinout_year: 2012
 platforms:

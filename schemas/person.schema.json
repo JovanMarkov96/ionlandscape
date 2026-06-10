@@ -150,6 +150,7 @@
             "orcid_inferred",
             "stale",
             "ambiguous",
+            "reported",
             null
           ]
         },
@@ -288,6 +289,7 @@
               "academictree_only",
               "not_found",
               "ambiguous",
+              "reported",
               null
             ]
           },
@@ -354,6 +356,7 @@
               "academictree_only",
               "not_found",
               "ambiguous",
+              "reported",
               null
             ]
           },
@@ -552,6 +555,7 @@
               "senior_author",
               "corresponding",
               "co_author",
+              "lead_author",
               null
             ]
           }
@@ -660,6 +664,45 @@
     "updated_at": {
       "type": "string",
       "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "description": "Top-level source list. Prefer per-field source attribution where structurally possible.",
+      "items": {
+        "type": "object",
+        "required": [
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "nobel_prize": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Nobel Prize won by this person.",
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        }
+      }
     }
   },
   "allOf": [

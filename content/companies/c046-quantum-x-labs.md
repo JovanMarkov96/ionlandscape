@@ -7,7 +7,7 @@ aliases:
 applications:
 - computing
 - simulation
-- sensing
+- sensing_metrology
 approach:
   architecture_tags:
   - neutral_atoms
@@ -122,12 +122,12 @@ products:
     GPS-independent positioning solution), part of the company's quantum-sensing pillar.
   name: Quantum Gyroscope
   source: https://quantumxlabs.xyz
-  stage: development
+  stage: prototype
 - description: Miniaturized quantum atomic clock developed within the company's quantum-sensing
     portfolio.
   name: Miniaturized Quantum Atomic Clock
   source: https://quantumxlabs.xyz
-  stage: development
+  stage: prototype
 qubit_type: Neutral atom (Rydberg)
 roadmap:
 - source: https://www.stocktitan.net/news/QXL/quantum-x-labs-launches-50-physical-qubits-neutral-atom-quantum-zp10ihmfwtke.html

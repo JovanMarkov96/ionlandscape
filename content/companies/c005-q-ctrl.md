@@ -1,4 +1,5 @@
 ---
+schema_version: 1
 aliases:
 - Q-CTRL
 - Q-CTRL Pty Ltd

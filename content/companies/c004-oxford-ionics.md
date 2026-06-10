@@ -138,12 +138,12 @@ sources:
   url: https://www.oxionics.com/announcements/ionq-completes-acquisition-of-oxford-ionics-rapidly-accelerating-its-quantum-computing-roadmap/
 status:
   acquired:
-    acquirer: IonQ
-    acquirer_id: c002-ionq
+    acquired_by: IonQ
+    acquired_by_id: c002-ionq
     announcement_url: https://thequantuminsider.com/2025/06/09/ionq-acquires-uk-based-oxford-ionics-for-1-075-billion/
-    date: '2025-09-17'
+    acquisition_date: '2025-09-17'
     deal_value_usd: 1075000000
-    type: stock_and_cash
+    acquisition_type: mixed
   operating_status: acquired
 updated_at: '2026-06-02'
 verification_source_count: 5

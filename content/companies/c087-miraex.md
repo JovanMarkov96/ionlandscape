@@ -70,7 +70,7 @@ people:
     role: Co-founder
     source: https://miraex.com/about-us
   spun_out_of:
-  - name: EPFL
+  - name: EPFL – Swiss Federal Institute of Technology Lausanne
     source: https://miraex.com/about-us
     spinout_year: 2019
 platforms:

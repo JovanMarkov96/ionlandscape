@@ -5,8 +5,6 @@ applications:
 - simulation
 - networking
 - sensing_metrology
-atomic_species:
-- alkaline-earth atoms
 current_position:
   confidence: confirmed
   institution: Tel Aviv University

@@ -519,6 +519,74 @@
             "null"
           ],
           "format": "date"
+        },
+        "former_leadership": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "role"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "person_id": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^\\d{3}-[a-z0-9-]+$"
+              },
+              "source": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "uri"
+              }
+            }
+          },
+          "description": "Former executives/leaders no longer in the role."
+        },
+        "advisors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name",
+              "role"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "person_id": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^\\d{3}-[a-z0-9-]+$"
+              },
+              "source": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "uri"
+              }
+            }
+          },
+          "description": "Scientific/strategic advisors and advisory-board members."
         }
       }
     },
@@ -567,6 +635,7 @@
                   "grant",
                   "government_contract",
                   "ipo",
+                  "post_ipo",
                   "secondary",
                   "acquisition",
                   "undisclosed"

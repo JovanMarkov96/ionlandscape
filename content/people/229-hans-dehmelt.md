@@ -21,7 +21,8 @@ group_type: experimental
 id: 229-hans-dehmelt
 ion_species:
 - Ba+
-- electron (geonium)
+keywords:
+- geonium (single trapped electron)
 labels:
 - Experimental group
 last_verified_at: '2026-06-02'

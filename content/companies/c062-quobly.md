@@ -108,10 +108,10 @@ people:
     role: Chief Executive Officer
     source: https://www.quobly.io/about-us/
   spun_out_of:
-  - name: CEA-Leti
+  - name: French Alternative Energies and Atomic Energy Commission (CEA)
     source: https://www.eu-startups.com/2026/06/cea-leti-and-cnrs-spin-off-quobly-raises-e115-million-to-industrialise-silicon-based-quantum-computers/
     spinout_year: 2022
-  - name: CNRS
+  - name: French National Centre for Scientific Research (CNRS)
     source: https://www.eu-startups.com/2026/06/cea-leti-and-cnrs-spin-off-quobly-raises-e115-million-to-industrialise-silicon-based-quantum-computers/
     spinout_year: 2022
 platforms:

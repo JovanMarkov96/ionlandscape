@@ -85,7 +85,7 @@ people:
     role: Co-founder
     source: https://q-bird.com/about-us/
   spun_out_of:
-  - name: QuTech (TU Delft)
+  - name: Delft University of Technology
     source: https://q-bird.com/about-us/
     spinout_year: 2022
 platforms:

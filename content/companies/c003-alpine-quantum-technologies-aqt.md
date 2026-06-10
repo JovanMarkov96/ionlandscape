@@ -1,4 +1,5 @@
 ---
+schema_version: 1
 aliases:
 - Alpine Quantum Technologies (AQT)
 - AQT

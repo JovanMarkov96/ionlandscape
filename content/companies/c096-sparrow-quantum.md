@@ -83,7 +83,7 @@ people:
     role: Co-founder
     source: https://nbi.ku.dk/english/news/news16/quantum-photonic-researchers-start-new-company-sparrow-quantum/
   spun_out_of:
-  - name: Niels Bohr Institute
+  - name: University of Copenhagen
     source: https://nbi.ku.dk/english/news/news16/quantum-photonic-researchers-start-new-company-sparrow-quantum/
     spinout_year: 2016
 platforms:
