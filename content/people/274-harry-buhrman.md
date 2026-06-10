@@ -15,6 +15,7 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=wlOytxsAAAAJ
   homepage: https://www.qusoft.org/
   wikipedia: https://en.wikipedia.org/wiki/Harry_Buhrman
 location:

@@ -56,6 +56,7 @@ labels:
 - Experimental group
 last_verified_at: '2026-06-03'
 links:
+  orcid: https://orcid.org/0000-0001-9793-7630
   cua: https://cua.mit.edu/people/john-doyle/
   group_page: https://jdoyle.hsites.harvard.edu/
   homepage: https://www.physics.harvard.edu/

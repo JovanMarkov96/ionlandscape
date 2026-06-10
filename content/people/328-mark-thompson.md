@@ -14,6 +14,8 @@ group_type: experimental
 id: 328-mark-thompson
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-2865-9558
+  openalex: https://openalex.org/A5064808655
   homepage: https://www.bristol.ac.uk/
 location:
   city: Bristol

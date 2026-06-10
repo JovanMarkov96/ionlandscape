@@ -38,6 +38,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Christian_Schmiegelow
   google_scholar: https://scholar.google.com/citations?user=q-PAyDIAAAAJ
   orcid: https://orcid.org/0000-0002-1153-7124
 location:

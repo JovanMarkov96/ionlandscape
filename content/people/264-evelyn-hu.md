@@ -14,6 +14,9 @@ group_type: experimental
 id: 264-evelyn-hu
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=eqYc1O8AAAAJ
+  orcid: https://orcid.org/0000-0002-8805-1405
+  openalex: https://openalex.org/A5009837711
   homepage: https://seas.harvard.edu/
   wikipedia: https://en.wikipedia.org/wiki/Evelyn_Hu
 location:

@@ -15,6 +15,9 @@ group_type: experimental
 id: 223-anton-zeilinger
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=cuqIY0oAAAAJ
+  orcid: https://orcid.org/0000-0002-6778-0887
+  openalex: https://openalex.org/A5001105113
   wikipedia: https://en.wikipedia.org/wiki/Anton_Zeilinger
 location:
   city: Vienna

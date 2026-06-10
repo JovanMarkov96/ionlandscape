@@ -16,6 +16,8 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-0521-8028
+  openalex: https://openalex.org/A5026215124
   homepage: https://ethz.ch/
 location:
   city: Zurich

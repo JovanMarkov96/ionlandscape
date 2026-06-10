@@ -15,6 +15,8 @@ group_type: experimental
 id: 276-jacqueline-bloch
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-7823-8420
+  openalex: https://openalex.org/A5009733134
   homepage: https://www.c2n.universite-paris-saclay.fr/
   wikipedia: https://en.wikipedia.org/wiki/Jacqueline_Bloch
 location:

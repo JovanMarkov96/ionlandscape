@@ -51,6 +51,8 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  orcid: https://orcid.org/0000-0002-0480-6998
+  openalex: https://openalex.org/A5084843774
   google_scholar: https://scholar.google.com/citations?user=8Ptfb9EAAAAJ&hl=en
   group_page: https://www.rri.res.in/~sarangwala/
   orcid: null

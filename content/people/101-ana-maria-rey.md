@@ -58,6 +58,8 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=xkS-DO0AAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Ana_Maria_Rey
   group_page: https://jila.colorado.edu/arey
   institution_profile: https://www.nist.gov/people/ana-maria-rey
   openalex: https://openalex.org/A5067783194

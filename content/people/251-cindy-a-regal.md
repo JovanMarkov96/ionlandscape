@@ -14,6 +14,10 @@ group_type: experimental
 id: 251-cindy-a-regal
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=65DVU3UAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Cindy_Regal
+  orcid: https://orcid.org/0000-0002-0000-2140
+  openalex: https://openalex.org/A5012697672
   homepage: https://jila.colorado.edu/
 location:
   city: Boulder

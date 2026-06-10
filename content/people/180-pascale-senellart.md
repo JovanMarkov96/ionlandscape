@@ -66,6 +66,7 @@ lineage_check:
   last_checked: '2026-05-30'
   postdoc_verified: true
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Pascale_Senellart
   group_page: https://goss.c2n.universite-paris-saclay.fr/en/members/pascale-senellart-mardon/
   openalex: https://openalex.org/A5026428738
   orcid: https://orcid.org/0000-0003-1724-5945

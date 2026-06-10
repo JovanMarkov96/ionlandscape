@@ -64,6 +64,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Terry_Rudolph
   orcid: https://orcid.org/0000-0002-8938-1743
   openalex: https://openalex.org/A5086614028
   google_scholar: https://scholar.google.com/citations?user=Y8cRR70AAAAJ

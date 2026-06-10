@@ -14,6 +14,9 @@ group_type: experimental
 id: 315-roberta-ramponi
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=rrbq7ggAAAAJ
+  orcid: https://orcid.org/0000-0002-1806-9706
+  openalex: https://openalex.org/A5002225166
   homepage: https://www.polimi.it/
 location:
   city: Milan

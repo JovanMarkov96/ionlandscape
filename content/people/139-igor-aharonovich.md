@@ -58,6 +58,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Igor_Aharonovich
   google_scholar: https://scholar.google.com/citations?user=cVVpluEAAAAJ
   institution_profile: https://www.uts.edu.au/staff/igor.aharonovich
   openalex: https://openalex.org/A5135103415

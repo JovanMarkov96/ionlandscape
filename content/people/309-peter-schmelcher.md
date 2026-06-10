@@ -16,6 +16,8 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-2637-0937
+  openalex: https://openalex.org/A5064525551
   homepage: https://www.uni-hamburg.de/
 location:
   city: Hamburg

@@ -15,6 +15,8 @@ group_type: experimental
 id: 222-h-jeff-kimble
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-5513-9638
+  openalex: https://openalex.org/A5088589128
   wikipedia: https://en.wikipedia.org/wiki/H._Jeff_Kimble
 location:
   city: Pasadena

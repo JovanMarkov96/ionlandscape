@@ -55,6 +55,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-29'
 links:
+  google_scholar: https://scholar.google.com/citations?user=0JXIYckAAAAJ
   group_page: https://physics.anu.edu.au/laser/
   institution_profile: https://physics.anu.edu.au/contact/people/profile.php?ID=1355
   openalex: https://openalex.org/A5102761690

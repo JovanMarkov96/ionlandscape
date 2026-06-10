@@ -1,0 +1,1982 @@
+{
+ "002-ziv-meir": {
+  "qid": "Q86036802",
+  "sci": true,
+  "file": "content/people\\002-ziv-meir.md",
+  "scholar": null,
+  "orcid": "0000-0002-9321-8687",
+  "website": null,
+  "enwiki": null
+ },
+ "003-chris-ballance": {
+  "qid": "Q1076969",
+  "sci": false,
+  "file": "content/people\\003-chris-ballance.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Chris_Ballance"
+ },
+ "004-christopher-monroe": {
+  "qid": "Q15995315",
+  "sci": true,
+  "file": "content/people\\004-christopher-monroe.md",
+  "scholar": "9rrnu-0AAAAJ",
+  "orcid": "0000-0003-0551-3713",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Christopher_Monroe"
+ },
+ "006-david-wineland": {
+  "qid": "Q61045",
+  "sci": true,
+  "file": "content/people\\006-david-wineland.md",
+  "scholar": "6quvCpAAAAAJ",
+  "orcid": "0000-0002-9770-5220",
+  "website": "https://cas.uoregon.edu/directory/natural-sciences/all/djw34",
+  "enwiki": "https://en.wikipedia.org/wiki/David_J._Wineland"
+ },
+ "007-dietrich-leibfried": {
+  "qid": "Q112356599",
+  "sci": true,
+  "file": "content/people\\007-dietrich-leibfried.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "008-john-bollinger": {
+  "qid": "Q92917530",
+  "sci": true,
+  "file": "content/people\\008-john-bollinger.md",
+  "scholar": null,
+  "orcid": "0000-0001-9117-7896",
+  "website": null,
+  "enwiki": null
+ },
+ "009-hartmut-haeffner": {
+  "qid": "Q91974349",
+  "sci": true,
+  "file": "content/people\\009-hartmut-haeffner.md",
+  "scholar": null,
+  "orcid": "0000-0002-5113-9622",
+  "website": null,
+  "enwiki": null
+ },
+ "010-jungsang-kim": {
+  "qid": "Q89363895",
+  "sci": true,
+  "file": "content/people\\010-jungsang-kim.md",
+  "scholar": "ibITRigAAAAJ",
+  "orcid": "0000-0001-9551-3826",
+  "website": null,
+  "enwiki": null
+ },
+ "012-winfried-hensinger": {
+  "qid": "Q29052409",
+  "sci": true,
+  "file": "content/people\\012-winfried-hensinger.md",
+  "scholar": null,
+  "orcid": "0000-0001-8329-438X",
+  "website": null,
+  "enwiki": null
+ },
+ "013-ferdinand-schmidt-kaler": {
+  "qid": "Q54006352",
+  "sci": true,
+  "file": "content/people\\013-ferdinand-schmidt-kaler.md",
+  "scholar": null,
+  "orcid": "0000-0002-5697-2568",
+  "website": null,
+  "enwiki": null
+ },
+ "014-thomas-monz": {
+  "qid": "Q99248519",
+  "sci": true,
+  "file": "content/people\\014-thomas-monz.md",
+  "scholar": null,
+  "orcid": "0000-0001-7410-4804",
+  "website": null,
+  "enwiki": null
+ },
+ "015-tracy-northup": {
+  "qid": "Q59521746",
+  "sci": true,
+  "file": "content/people\\015-tracy-northup.md",
+  "scholar": "BHFu0UwAAAAJ",
+  "orcid": "0000-0002-1071-2218",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Tracy_Northup"
+ },
+ "016-jonathan-home": {
+  "qid": "Q62036364",
+  "sci": true,
+  "file": "content/people\\016-jonathan-home.md",
+  "scholar": null,
+  "orcid": "0000-0002-4093-1550",
+  "website": null,
+  "enwiki": null
+ },
+ "017-rainer-blatt": {
+  "qid": "Q88678",
+  "sci": true,
+  "file": "content/people\\017-rainer-blatt.md",
+  "scholar": "_34V-4QAAAAJ",
+  "orcid": "0000-0002-3122-2461",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Rainer_Blatt"
+ },
+ "018-michael-drewsen": {
+  "qid": "Q59418518",
+  "sci": true,
+  "file": "content/people\\018-michael-drewsen.md",
+  "scholar": "K1-nzhEAAAAJ",
+  "orcid": "0000-0002-0420-9923",
+  "website": "https://pure.au.dk/portal/en/persons/michael-drewsen(871a704b-943d-4f99-b29d-07bea1bbab80).html",
+  "enwiki": null
+ },
+ "020-luming-duan": {
+  "qid": "Q60543204",
+  "sci": true,
+  "file": "content/people\\020-luming-duan.md",
+  "scholar": "ULkJQpkAAAAJ",
+  "orcid": "0000-0001-6675-9413",
+  "website": "http://www-personal.umich.edu/~lmduan/",
+  "enwiki": null
+ },
+ "021-mike-biercuk": {
+  "qid": "Q61755223",
+  "sci": true,
+  "file": "content/people\\021-mike-biercuk.md",
+  "scholar": "Pf5u3hcAAAAJ",
+  "orcid": "0000-0002-4371-2580",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Michael_J._Biercuk"
+ },
+ "025-christian-schmiegelow": {
+  "qid": "Q12306154",
+  "sci": false,
+  "file": "content/people\\025-christian-schmiegelow.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Christian_Schmiegelow"
+ },
+ "026-erik-streed": {
+  "qid": "Q80210689",
+  "sci": true,
+  "file": "content/people\\026-erik-streed.md",
+  "scholar": null,
+  "orcid": "0000-0001-6234-4560",
+  "website": null,
+  "enwiki": null
+ },
+ "027-lukas-slodicka": {
+  "qid": "Q83184304",
+  "sci": true,
+  "file": "content/people\\027-lukas-slodicka.md",
+  "scholar": null,
+  "orcid": "0000-0003-0540-9385",
+  "website": null,
+  "enwiki": null
+ },
+ "028-juergen-eschner": {
+  "qid": "Q59484968",
+  "sci": true,
+  "file": "content/people\\028-juergen-eschner.md",
+  "scholar": "4nXxpqwAAAAJ",
+  "orcid": "0000-0002-8393-7258",
+  "website": null,
+  "enwiki": null
+ },
+ "033-dzmitry-matsukevich": {
+  "qid": "Q56994071",
+  "sci": true,
+  "file": "content/people\\033-dzmitry-matsukevich.md",
+  "scholar": null,
+  "orcid": "0000-0002-7679-0569",
+  "website": null,
+  "enwiki": null
+ },
+ "035-stefan-willitsch": {
+  "qid": "Q25881998",
+  "sci": true,
+  "file": "content/people\\035-stefan-willitsch.md",
+  "scholar": "BR2XCVwAAAAJ",
+  "orcid": "0000-0002-8376-0579",
+  "website": null,
+  "enwiki": null
+ },
+ "038-eric-hudson": {
+  "qid": "Q78084810",
+  "sci": false,
+  "file": "content/people\\038-eric-hudson.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "040-vladan-vuletic": {
+  "qid": "Q59678940",
+  "sci": true,
+  "file": "content/people\\040-vladan-vuletic.md",
+  "scholar": "E_7YsOgAAAAJ",
+  "orcid": "0000-0002-9786-0538",
+  "website": null,
+  "enwiki": null
+ },
+ "041-isaac-chuang": {
+  "qid": "Q15421399",
+  "sci": true,
+  "file": "content/people\\041-isaac-chuang.md",
+  "scholar": "QKyb_9oAAAAJ",
+  "orcid": "0000-0001-7296-523X",
+  "website": "http://feynman.mit.edu/ike/homepage/index.html",
+  "enwiki": "https://en.wikipedia.org/wiki/Isaac_Chuang"
+ },
+ "042-kenneth-brown": {
+  "qid": "Q55743738",
+  "sci": true,
+  "file": "content/people\\042-kenneth-brown.md",
+  "scholar": null,
+  "orcid": "0000-0001-7716-1425",
+  "website": null,
+  "enwiki": null
+ },
+ "044-johannes-hecker-denschlag": {
+  "qid": "Q59564018",
+  "sci": true,
+  "file": "content/people\\044-johannes-hecker-denschlag.md",
+  "scholar": null,
+  "orcid": "0000-0003-1984-4994",
+  "website": null,
+  "enwiki": null
+ },
+ "047-klaus-jungmann": {
+  "qid": "Q92043615",
+  "sci": true,
+  "file": "content/people\\047-klaus-jungmann.md",
+  "scholar": null,
+  "orcid": "0000-0003-0571-4072",
+  "website": null,
+  "enwiki": null
+ },
+ "049-patrick-gill": {
+  "qid": "Q1479605",
+  "sci": true,
+  "file": "content/people\\049-patrick-gill.md",
+  "scholar": null,
+  "orcid": "0000-0002-2920-888X",
+  "website": "http://www.npl.co.uk/people/patrick-gill",
+  "enwiki": "https://en.wikipedia.org/wiki/Patrick_Gill_(physicist)"
+ },
+ "050-rachel-godun": {
+  "qid": "Q56697668",
+  "sci": true,
+  "file": "content/people\\050-rachel-godun.md",
+  "scholar": null,
+  "orcid": "0000-0001-5256-9088",
+  "website": null,
+  "enwiki": null
+ },
+ "053-masao-kitano": {
+  "qid": "Q51769129",
+  "sci": true,
+  "file": "content/people\\053-masao-kitano.md",
+  "scholar": null,
+  "orcid": "0000-0003-1065-8028",
+  "website": null,
+  "enwiki": null
+ },
+ "058-atsushi-noguchi": {
+  "qid": "Q59418182",
+  "sci": true,
+  "file": "content/people\\058-atsushi-noguchi.md",
+  "scholar": null,
+  "orcid": "0000-0001-9435-4608",
+  "website": null,
+  "enwiki": null
+ },
+ "059-shuichi-hasegawa": {
+  "qid": "Q20042243",
+  "sci": false,
+  "file": "content/people\\059-shuichi-hasegawa.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "064-junki-kim": {
+  "qid": "Q89714328",
+  "sci": true,
+  "file": "content/people\\064-junki-kim.md",
+  "scholar": null,
+  "orcid": "0000-0001-8133-4819",
+  "website": null,
+  "enwiki": null
+ },
+ "065-luyan-sun": {
+  "qid": "Q59418678",
+  "sci": true,
+  "file": "content/people\\065-luyan-sun.md",
+  "scholar": null,
+  "orcid": "0000-0003-4419-5674",
+  "website": null,
+  "enwiki": null
+ },
+ "067-mirko-lobino": {
+  "qid": "Q51554915",
+  "sci": true,
+  "file": "content/people\\067-mirko-lobino.md",
+  "scholar": null,
+  "orcid": "0000-0001-8091-8951",
+  "website": null,
+  "enwiki": null
+ },
+ "070-markus-hennrich": {
+  "qid": "Q30502313",
+  "sci": true,
+  "file": "content/people\\070-markus-hennrich.md",
+  "scholar": "zpCcvfMAAAAJ",
+  "orcid": "0000-0003-2955-7980",
+  "website": null,
+  "enwiki": null
+ },
+ "074-piet-schmidt": {
+  "qid": "Q27430120",
+  "sci": true,
+  "file": "content/people\\074-piet-schmidt.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "075-boris-blinov": {
+  "qid": "Q105635776",
+  "sci": true,
+  "file": "content/people\\075-boris-blinov.md",
+  "scholar": "kQlsUW0AAAAJ",
+  "orcid": null,
+  "website": "https://phys.washington.edu/people/boris-blinov",
+  "enwiki": null
+ },
+ "076-tilman-esslinger": {
+  "qid": "Q8220071",
+  "sci": true,
+  "file": "content/people\\076-tilman-esslinger.md",
+  "scholar": "iHxT7SkAAAAJ",
+  "orcid": "0000-0002-8333-107X",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Tilman_Esslinger"
+ },
+ "078-yuval-shagam": {
+  "qid": "Q57080038",
+  "sci": true,
+  "file": "content/people\\078-yuval-shagam.md",
+  "scholar": null,
+  "orcid": "0000-0002-6994-4814",
+  "website": null,
+  "enwiki": null
+ },
+ "079-daniel-rodriguez": {
+  "qid": "Q82697116",
+  "sci": true,
+  "file": "content/people\\079-daniel-rodriguez.md",
+  "scholar": null,
+  "orcid": "0000-0002-2989-7566",
+  "website": null,
+  "enwiki": null
+ },
+ "080-mikhail-d-lukin": {
+  "qid": "Q17180747",
+  "sci": true,
+  "file": "content/people\\080-mikhail-d-lukin.md",
+  "scholar": "ppJpl64AAAAJ",
+  "orcid": "0000-0002-8658-1007",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Mikhail_Lukin"
+ },
+ "081-immanuel-bloch": {
+  "qid": "Q100694",
+  "sci": true,
+  "file": "content/people\\081-immanuel-bloch.md",
+  "scholar": "kX5_lc8AAAAJ",
+  "orcid": "0000-0002-0679-4759",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Immanuel_Bloch"
+ },
+ "083-markus-greiner": {
+  "qid": "Q111751",
+  "sci": true,
+  "file": "content/people\\083-markus-greiner.md",
+  "scholar": "_tVJPCUAAAAJ",
+  "orcid": "0000-0002-2935-2363",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Markus_Greiner"
+ },
+ "084-antoine-browaeys": {
+  "qid": "Q91304898",
+  "sci": true,
+  "file": "content/people\\084-antoine-browaeys.md",
+  "scholar": null,
+  "orcid": "0000-0001-9941-8869",
+  "website": null,
+  "enwiki": null
+ },
+ "085-thierry-lahaye": {
+  "qid": "Q92352055",
+  "sci": true,
+  "file": "content/people\\085-thierry-lahaye.md",
+  "scholar": null,
+  "orcid": "0000-0002-2260-9859",
+  "website": null,
+  "enwiki": null
+ },
+ "086-manuel-endres": {
+  "qid": "Q92508488",
+  "sci": true,
+  "file": "content/people\\086-manuel-endres.md",
+  "scholar": "k5J9V9MAAAAJ",
+  "orcid": "0000-0002-4461-224X",
+  "website": "https://www.endreslab.com/",
+  "enwiki": null
+ },
+ "087-adam-m-kaufman": {
+  "qid": "Q89998058",
+  "sci": true,
+  "file": "content/people\\087-adam-m-kaufman.md",
+  "scholar": "XbF19DQAAAAJ",
+  "orcid": "0000-0003-4956-5814",
+  "website": "https://jila.colorado.edu/kaufman",
+  "enwiki": null
+ },
+ "088-jeff-d-thompson": {
+  "qid": "Q61835264",
+  "sci": true,
+  "file": "content/people\\088-jeff-d-thompson.md",
+  "scholar": "-RBQT1cAAAAJ",
+  "orcid": "0000-0001-8673-052X",
+  "website": "https://sites.google.com/site/thompsonlabq/home",
+  "enwiki": null
+ },
+ "089-hannes-bernien": {
+  "qid": "Q92508472",
+  "sci": true,
+  "file": "content/people\\089-hannes-bernien.md",
+  "scholar": "B8gEYX4AAAAJ",
+  "orcid": "0000-0002-1950-7368",
+  "website": "https://bernienlab.com/",
+  "enwiki": null
+ },
+ "090-mark-saffman": {
+  "qid": "Q126477233",
+  "sci": true,
+  "file": "content/people\\090-mark-saffman.md",
+  "scholar": "d5jVVBoAAAAJ",
+  "orcid": "0000-0001-6398-2097",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Mark_Saffman"
+ },
+ "091-dan-stamper-kurn": {
+  "qid": "Q33106325",
+  "sci": true,
+  "file": "content/people\\091-dan-stamper-kurn.md",
+  "scholar": "W1-hAXkAAAAJ",
+  "orcid": "0000-0002-4845-5835",
+  "website": null,
+  "enwiki": null
+ },
+ "092-christian-gro": {
+  "qid": "Q89599504",
+  "sci": true,
+  "file": "content/people\\092-christian-gro.md",
+  "scholar": "xko7ae0AAAAJ",
+  "orcid": "0000-0002-9482-4259",
+  "website": null,
+  "enwiki": null
+ },
+ "093-kang-kuen-ni": {
+  "qid": "Q88345805",
+  "sci": true,
+  "file": "content/people\\093-kang-kuen-ni.md",
+  "scholar": "OrPBhnIAAAAJ",
+  "orcid": "0000-0002-0537-0719",
+  "website": "https://kni.faculty.chemistry.harvard.edu/",
+  "enwiki": "https://en.wikipedia.org/wiki/Kang-Kuen_Ni"
+ },
+ "096-jonathan-d-pritchard": {
+  "qid": "Q83187726",
+  "sci": true,
+  "file": "content/people\\096-jonathan-d-pritchard.md",
+  "scholar": null,
+  "orcid": "0000-0003-2172-7340",
+  "website": "https://pureportal.strath.ac.uk/en/persons/af60a4cb-02bd-46b1-9f89-235b3d6008ea",
+  "enwiki": null
+ },
+ "097-daniel-barredo": {
+  "qid": "Q49826257",
+  "sci": true,
+  "file": "content/people\\097-daniel-barredo.md",
+  "scholar": null,
+  "orcid": "0000-0001-5307-1927",
+  "website": null,
+  "enwiki": null
+ },
+ "098-p-zoller": {
+  "qid": "Q78670",
+  "sci": true,
+  "file": "content/people\\098-p-zoller.md",
+  "scholar": "iKB_xp0AAAAJ",
+  "orcid": "0000-0003-4014-1505",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Peter_Zoller"
+ },
+ "099-klaus-mlmer": {
+  "qid": "Q29533526",
+  "sci": true,
+  "file": "content/people\\099-klaus-mlmer.md",
+  "scholar": "AnmFcv8AAAAJ",
+  "orcid": "0000-0002-2372-869X",
+  "website": "https://pure.au.dk/portal/da/persons/klaus-moelmer(860eabfe-1f03-496d-9a90-87b7f29c21bf).html",
+  "enwiki": "https://en.wikipedia.org/wiki/Klaus_M%C3%B8lmer"
+ },
+ "101-ana-maria-rey": {
+  "qid": "Q16442074",
+  "sci": true,
+  "file": "content/people\\101-ana-maria-rey.md",
+  "scholar": "xkS-DO0AAAAJ",
+  "orcid": "0000-0001-7176-9413",
+  "website": "http://jilawww.colorado.edu/arey/",
+  "enwiki": "https://en.wikipedia.org/wiki/Ana_Maria_Rey"
+ },
+ "102-hannes-pichler": {
+  "qid": "Q57024819",
+  "sci": true,
+  "file": "content/people\\102-hannes-pichler.md",
+  "scholar": "Q-gdwB8AAAAJ",
+  "orcid": "0000-0003-2144-536X",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Hannes_Pichler_(physicist)"
+ },
+ "103-soonwon-choi": {
+  "qid": "Q89998063",
+  "sci": true,
+  "file": "content/people\\103-soonwon-choi.md",
+  "scholar": null,
+  "orcid": "0000-0002-1247-062X",
+  "website": null,
+  "enwiki": null
+ },
+ "106-thomas-pohl": {
+  "qid": "Q89648787",
+  "sci": true,
+  "file": "content/people\\106-thomas-pohl.md",
+  "scholar": null,
+  "orcid": "0000-0002-8182-3249",
+  "website": null,
+  "enwiki": null
+ },
+ "107-hans-peter-buchler": {
+  "qid": "Q57530820",
+  "sci": true,
+  "file": "content/people\\107-hans-peter-buchler.md",
+  "scholar": null,
+  "orcid": "0000-0002-7233-6828",
+  "website": null,
+  "enwiki": null
+ },
+ "108-igor-lesanovsky": {
+  "qid": "Q50640270",
+  "sci": true,
+  "file": "content/people\\108-igor-lesanovsky.md",
+  "scholar": "m-tvGyAAAAAJ",
+  "orcid": "0000-0001-9660-9467",
+  "website": null,
+  "enwiki": null
+ },
+ "110-dieter-jaksch": {
+  "qid": "Q88778449",
+  "sci": true,
+  "file": "content/people\\110-dieter-jaksch.md",
+  "scholar": null,
+  "orcid": "0000-0002-9704-3941",
+  "website": null,
+  "enwiki": null
+ },
+ "111-guido-pupillo": {
+  "qid": "Q64018762",
+  "sci": true,
+  "file": "content/people\\111-guido-pupillo.md",
+  "scholar": "eooVGSAAAAAJ",
+  "orcid": "0000-0002-1549-0386",
+  "website": null,
+  "enwiki": null
+ },
+ "113-fedor-jelezko": {
+  "qid": "Q20742636",
+  "sci": true,
+  "file": "content/people\\113-fedor-jelezko.md",
+  "scholar": "Kx8alO4AAAAJ",
+  "orcid": "0000-0001-5759-3917",
+  "website": null,
+  "enwiki": null
+ },
+ "114-jorg-wrachtrup": {
+  "qid": "Q1544298",
+  "sci": true,
+  "file": "content/people\\114-jorg-wrachtrup.md",
+  "scholar": "QkjRyiIAAAAJ",
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/J%C3%B6rg_Wrachtrup"
+ },
+ "118-lee-c-bassett": {
+  "qid": "Q60964215",
+  "sci": true,
+  "file": "content/people\\118-lee-c-bassett.md",
+  "scholar": "HMpSngkAAAAJ",
+  "orcid": "0000-0001-8729-1530",
+  "website": null,
+  "enwiki": null
+ },
+ "119-marcus-w-doherty": {
+  "qid": "Q44477231",
+  "sci": true,
+  "file": "content/people\\119-marcus-w-doherty.md",
+  "scholar": "0JXIYckAAAAJ",
+  "orcid": "0000-0002-5473-6481",
+  "website": "http://physics.anu.edu.au/people/profile.php?ID=1355",
+  "enwiki": null
+ },
+ "120-shimon-kolkowitz": {
+  "qid": "Q87402983",
+  "sci": true,
+  "file": "content/people\\120-shimon-kolkowitz.md",
+  "scholar": null,
+  "orcid": "0000-0001-7095-1547",
+  "website": null,
+  "enwiki": null
+ },
+ "122-dirk-englund": {
+  "qid": "Q56808888",
+  "sci": true,
+  "file": "content/people\\122-dirk-englund.md",
+  "scholar": null,
+  "orcid": "0000-0002-1043-3489",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Dirk_Englund"
+ },
+ "124-patrick-maletinsky": {
+  "qid": "Q56811325",
+  "sci": true,
+  "file": "content/people\\124-patrick-maletinsky.md",
+  "scholar": null,
+  "orcid": "0000-0003-1699-388X",
+  "website": null,
+  "enwiki": null
+ },
+ "127-sophia-e-economou": {
+  "qid": "Q114409609",
+  "sci": true,
+  "file": "content/people\\127-sophia-e-economou.md",
+  "scholar": "60Wn3gYAAAAJ",
+  "orcid": "0000-0002-1939-5589",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Sophia_Economou"
+ },
+ "128-nir-bar-gill": {
+  "qid": "Q104831907",
+  "sci": true,
+  "file": "content/people\\128-nir-bar-gill.md",
+  "scholar": "fe2iYxQAAAAJ",
+  "orcid": "0000-0003-1472-0001",
+  "website": null,
+  "enwiki": null
+ },
+ "129-lilian-childress": {
+  "qid": "Q91426612",
+  "sci": true,
+  "file": "content/people\\129-lilian-childress.md",
+  "scholar": "0A331AIAAAAJ",
+  "orcid": "0000-0002-0507-6392",
+  "website": null,
+  "enwiki": null
+ },
+ "130-meenakshi-dutt": {
+  "qid": "Q106529292",
+  "sci": true,
+  "file": "content/people\\130-meenakshi-dutt.md",
+  "scholar": null,
+  "orcid": "0000-0001-7426-9246",
+  "website": null,
+  "enwiki": null
+ },
+ "132-jean-francois-roch": {
+  "qid": "Q91932256",
+  "sci": true,
+  "file": "content/people\\132-jean-francois-roch.md",
+  "scholar": null,
+  "orcid": "0000-0002-8665-2784",
+  "website": null,
+  "enwiki": null
+ },
+ "133-christoph-becher": {
+  "qid": "Q42220351",
+  "sci": true,
+  "file": "content/people\\133-christoph-becher.md",
+  "scholar": null,
+  "orcid": "0000-0003-4645-6882",
+  "website": null,
+  "enwiki": null
+ },
+ "134-oliver-benson": {
+  "qid": "Q2020070",
+  "sci": true,
+  "file": "content/people\\134-oliver-benson.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "135-cristian-bonato": {
+  "qid": "Q59505730",
+  "sci": true,
+  "file": "content/people\\135-cristian-bonato.md",
+  "scholar": null,
+  "orcid": "0000-0003-1550-8483",
+  "website": "https://pureapps2.hw.ac.uk/portal/en/persons/cristian-bonato(540224a6-0330-4604-9ad1-55a651a09b07).html",
+  "enwiki": null
+ },
+ "136-david-hunger": {
+  "qid": "Q42419043",
+  "sci": true,
+  "file": "content/people\\136-david-hunger.md",
+  "scholar": null,
+  "orcid": "0000-0001-6156-6145",
+  "website": null,
+  "enwiki": null
+ },
+ "137-alp-sipahigil": {
+  "qid": "Q59537381",
+  "sci": true,
+  "file": "content/people\\137-alp-sipahigil.md",
+  "scholar": null,
+  "orcid": "0000-0003-1469-5272",
+  "website": null,
+  "enwiki": null
+ },
+ "138-lloyd-c-l-hollenberg": {
+  "qid": "Q43118920",
+  "sci": true,
+  "file": "content/people\\138-lloyd-c-l-hollenberg.md",
+  "scholar": "iueFAVkAAAAJ",
+  "orcid": "0000-0001-7672-6965",
+  "website": null,
+  "enwiki": null
+ },
+ "139-igor-aharonovich": {
+  "qid": "Q27928075",
+  "sci": true,
+  "file": "content/people\\139-igor-aharonovich.md",
+  "scholar": null,
+  "orcid": "0000-0003-4304-3935",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Igor_Aharonovich"
+ },
+ "141-wolfgang-pfaff": {
+  "qid": "Q59485865",
+  "sci": true,
+  "file": "content/people\\141-wolfgang-pfaff.md",
+  "scholar": null,
+  "orcid": "0000-0003-4303-0819",
+  "website": null,
+  "enwiki": null
+ },
+ "142-hongkun-park": {
+  "qid": "Q13452285",
+  "sci": true,
+  "file": "content/people\\142-hongkun-park.md",
+  "scholar": null,
+  "orcid": "0000-0001-9576-8829",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Hongkun_Park"
+ },
+ "143-andreas-reiserer": {
+  "qid": "Q59417770",
+  "sci": true,
+  "file": "content/people\\143-andreas-reiserer.md",
+  "scholar": null,
+  "orcid": "0000-0001-9595-7363",
+  "website": null,
+  "enwiki": null
+ },
+ "144-john-m-martinis": {
+  "qid": "Q28976188",
+  "sci": true,
+  "file": "content/people\\144-john-m-martinis.md",
+  "scholar": "bWceo8IAAAAJ",
+  "orcid": "0000-0003-1399-2566",
+  "website": "http://www.physics.ucsb.edu/people/john-martinis",
+  "enwiki": "https://en.wikipedia.org/wiki/John_M._Martinis"
+ },
+ "145-robert-schoelkopf": {
+  "qid": "Q20675687",
+  "sci": true,
+  "file": "content/people\\145-robert-schoelkopf.md",
+  "scholar": "T9a08xsAAAAJ",
+  "orcid": "0000-0002-2469-5068",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Robert_J._Schoelkopf"
+ },
+ "146-michel-devoret": {
+  "qid": "Q26703310",
+  "sci": true,
+  "file": "content/people\\146-michel-devoret.md",
+  "scholar": "2CeGqLAAAAAJ",
+  "orcid": "0000-0002-2883-9575",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Michel_Devoret"
+ },
+ "148-andrew-houck": {
+  "qid": "Q130905879",
+  "sci": true,
+  "file": "content/people\\148-andrew-houck.md",
+  "scholar": null,
+  "orcid": "0000-0002-9788-5874",
+  "website": null,
+  "enwiki": null
+ },
+ "150-irfan-siddiqi": {
+  "qid": "Q28092367",
+  "sci": true,
+  "file": "content/people\\150-irfan-siddiqi.md",
+  "scholar": null,
+  "orcid": "0000-0003-2200-1090",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Irfan_Siddiqi"
+ },
+ "152-k-w-lehnert": {
+  "qid": "Q78897587",
+  "sci": true,
+  "file": "content/people\\152-k-w-lehnert.md",
+  "scholar": null,
+  "orcid": "0000-0002-0750-9649",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Konrad_Lehnert"
+ },
+ "154-per-delsing": {
+  "qid": "Q5619970",
+  "sci": true,
+  "file": "content/people\\154-per-delsing.md",
+  "scholar": null,
+  "orcid": "0000-0002-1222-3506",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Per_Delsing"
+ },
+ "155-andreas-wallraff": {
+  "qid": "Q30139768",
+  "sci": true,
+  "file": "content/people\\155-andreas-wallraff.md",
+  "scholar": "nXO5vugAAAAJ",
+  "orcid": "0000-0002-3476-4485",
+  "website": "https://www.qudev.ethz.ch/",
+  "enwiki": "https://en.wikipedia.org/wiki/Andreas_Wallraff"
+ },
+ "156-jens-koch": {
+  "qid": "Q24238714",
+  "sci": true,
+  "file": "content/people\\156-jens-koch.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "157-oskar-painter": {
+  "qid": "Q17125013",
+  "sci": true,
+  "file": "content/people\\157-oskar-painter.md",
+  "scholar": "HzygIBwAAAAJ",
+  "orcid": "0000-0002-1581-9209",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Oskar_Painter"
+ },
+ "158-yasunobu-nakamura": {
+  "qid": "Q28823193",
+  "sci": true,
+  "file": "content/people\\158-yasunobu-nakamura.md",
+  "scholar": null,
+  "orcid": "0000-0003-0424-630X",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Yasunobu_Nakamura"
+ },
+ "162-jose-aumentado": {
+  "qid": "Q56073529",
+  "sci": true,
+  "file": "content/people\\162-jose-aumentado.md",
+  "scholar": null,
+  "orcid": "0000-0001-5581-1466",
+  "website": null,
+  "enwiki": null
+ },
+ "165-jonas-bylander": {
+  "qid": "Q59418320",
+  "sci": true,
+  "file": "content/people\\165-jonas-bylander.md",
+  "scholar": null,
+  "orcid": "0000-0003-4521-710X",
+  "website": null,
+  "enwiki": null
+ },
+ "166-r-mcdermott": {
+  "qid": "Q126717822",
+  "sci": true,
+  "file": "content/people\\166-r-mcdermott.md",
+  "scholar": null,
+  "orcid": "0000-0002-2550-0322",
+  "website": null,
+  "enwiki": null
+ },
+ "168-yiwen-chu": {
+  "qid": "Q89045621",
+  "sci": true,
+  "file": "content/people\\168-yiwen-chu.md",
+  "scholar": null,
+  "orcid": "0000-0001-5042-3130",
+  "website": null,
+  "enwiki": null
+ },
+ "170-yvonne-y-gao": {
+  "qid": "Q138721277",
+  "sci": true,
+  "file": "content/people\\170-yvonne-y-gao.md",
+  "scholar": "A3AtqowAAAAJ",
+  "orcid": "0000-0002-6360-9679",
+  "website": null,
+  "enwiki": null
+ },
+ "173-patrice-bertet": {
+  "qid": "Q107710706",
+  "sci": true,
+  "file": "content/people\\173-patrice-bertet.md",
+  "scholar": "3txnOgsAAAAJ",
+  "orcid": "0000-0002-5427-7254",
+  "website": null,
+  "enwiki": null
+ },
+ "174-mazyar-mirrahimi": {
+  "qid": "Q136450439",
+  "sci": true,
+  "file": "content/people\\174-mazyar-mirrahimi.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "175-zaki-leghtas": {
+  "qid": "Q59418121",
+  "sci": true,
+  "file": "content/people\\175-zaki-leghtas.md",
+  "scholar": null,
+  "orcid": "0000-0002-9172-1537",
+  "website": null,
+  "enwiki": null
+ },
+ "176-jian-wei-pan": {
+  "qid": "Q9309270",
+  "sci": true,
+  "file": "content/people\\176-jian-wei-pan.md",
+  "scholar": "-q3Yb14AAAAJ",
+  "orcid": "0000-0002-6100-5142",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Pan_Jianwei"
+ },
+ "178-philip-walther": {
+  "qid": "Q54006368",
+  "sci": true,
+  "file": "content/people\\178-philip-walther.md",
+  "scholar": "NqWGYXwAAAAJ",
+  "orcid": "0000-0002-4964-817X",
+  "website": null,
+  "enwiki": null
+ },
+ "179-fabio-sciarrino": {
+  "qid": "Q51092059",
+  "sci": true,
+  "file": "content/people\\179-fabio-sciarrino.md",
+  "scholar": null,
+  "orcid": "0000-0003-1715-245X",
+  "website": null,
+  "enwiki": null
+ },
+ "180-pascale-senellart": {
+  "qid": "Q23926228",
+  "sci": true,
+  "file": "content/people\\180-pascale-senellart.md",
+  "scholar": null,
+  "orcid": "0000-0002-8727-1086",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Pascale_Senellart"
+ },
+ "181-ian-walmsley": {
+  "qid": "Q5983191",
+  "sci": true,
+  "file": "content/people\\181-ian-walmsley.md",
+  "scholar": null,
+  "orcid": "0000-0002-4714-0575",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Ian_Walmsley"
+ },
+ "182-nicolas-gisin": {
+  "qid": "Q119133",
+  "sci": true,
+  "file": "content/people\\182-nicolas-gisin.md",
+  "scholar": "SwLIrjAAAAAJ",
+  "orcid": "0000-0003-0788-3494",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Nicolas_Gisin"
+ },
+ "183-mete-atature": {
+  "qid": "Q23920801",
+  "sci": true,
+  "file": "content/people\\183-mete-atature.md",
+  "scholar": "Yn5idQMAAAAJ",
+  "orcid": "0000-0003-3852-0944",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Mete_Atat%C3%BCre"
+ },
+ "184-anthony-laing": {
+  "qid": "Q59418643",
+  "sci": true,
+  "file": "content/people\\184-anthony-laing.md",
+  "scholar": null,
+  "orcid": "0000-0002-1066-3110",
+  "website": "https://research-information.bris.ac.uk/en/persons/441d9293-60d0-4d91-9fde-cb15e13441d2",
+  "enwiki": null
+ },
+ "185-ulrik-andersen": {
+  "qid": "Q105085305",
+  "sci": true,
+  "file": "content/people\\185-ulrik-andersen.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Ulrik_Lund_Andersen"
+ },
+ "186-tobias-heindel": {
+  "qid": "Q59423324",
+  "sci": true,
+  "file": "content/people\\186-tobias-heindel.md",
+  "scholar": "BjsEztIAAAAJ",
+  "orcid": "0000-0003-1148-404X",
+  "website": null,
+  "enwiki": null
+ },
+ "187-hugo-zbinden": {
+  "qid": "Q86863347",
+  "sci": true,
+  "file": "content/people\\187-hugo-zbinden.md",
+  "scholar": null,
+  "orcid": "0000-0002-9237-1700",
+  "website": null,
+  "enwiki": null
+ },
+ "188-rupert-ursin": {
+  "qid": "Q2176597",
+  "sci": true,
+  "file": "content/people\\188-rupert-ursin.md",
+  "scholar": "h-FveJcAAAAJ",
+  "orcid": "0000-0002-9403-269X",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Rupert_Ursin"
+ },
+ "191-terry-rudolph": {
+  "qid": "Q57638524",
+  "sci": true,
+  "file": "content/people\\191-terry-rudolph.md",
+  "scholar": "Y8cRR70AAAAJ",
+  "orcid": "0000-0002-1678-3893",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Terry_Rudolph"
+ },
+ "192-sven-ramelow": {
+  "qid": "Q51476658",
+  "sci": true,
+  "file": "content/people\\192-sven-ramelow.md",
+  "scholar": null,
+  "orcid": "0000-0002-7801-4440",
+  "website": null,
+  "enwiki": null
+ },
+ "194-gerd-leuchs": {
+  "qid": "Q1365650",
+  "sci": true,
+  "file": "content/people\\194-gerd-leuchs.md",
+  "scholar": null,
+  "orcid": "0000-0003-1967-2766",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Gerd_Leuchs"
+ },
+ "196-stephanie-wehner": {
+  "qid": "Q7608426",
+  "sci": true,
+  "file": "content/people\\196-stephanie-wehner.md",
+  "scholar": "PlDS_zYAAAAJ",
+  "orcid": "0000-0002-8433-0730",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Stephanie_Wehner"
+ },
+ "197-hugues-de-riedmatten": {
+  "qid": "Q51059804",
+  "sci": true,
+  "file": "content/people\\197-hugues-de-riedmatten.md",
+  "scholar": "stPti_UAAAAJ",
+  "orcid": "0000-0002-4418-0723",
+  "website": null,
+  "enwiki": null
+ },
+ "198-mikael-afzelius": {
+  "qid": "Q90453417",
+  "sci": true,
+  "file": "content/people\\198-mikael-afzelius.md",
+  "scholar": "PMD1iMkAAAAJ",
+  "orcid": "0000-0001-8367-6820",
+  "website": null,
+  "enwiki": null
+ },
+ "202-travis-humble": {
+  "qid": "Q130858638",
+  "sci": true,
+  "file": "content/people\\202-travis-humble.md",
+  "scholar": null,
+  "orcid": "0000-0002-9449-0498",
+  "website": null,
+  "enwiki": null
+ },
+ "203-ivan-deutsch": {
+  "qid": "Q51117239",
+  "sci": true,
+  "file": "content/people\\203-ivan-deutsch.md",
+  "scholar": null,
+  "orcid": "0000-0002-1733-5750",
+  "website": null,
+  "enwiki": null
+ },
+ "204-nir-davidson": {
+  "qid": "Q90759512",
+  "sci": true,
+  "file": "content/people\\204-nir-davidson.md",
+  "scholar": null,
+  "orcid": "0000-0001-7526-851X",
+  "website": null,
+  "enwiki": null
+ },
+ "205-ofer-firstenberg": {
+  "qid": "Q89910557",
+  "sci": true,
+  "file": "content/people\\205-ofer-firstenberg.md",
+  "scholar": null,
+  "orcid": "0000-0001-8905-9954",
+  "website": null,
+  "enwiki": null
+ },
+ "207-serge-rosenblum": {
+  "qid": "Q96012657",
+  "sci": true,
+  "file": "content/people\\207-serge-rosenblum.md",
+  "scholar": null,
+  "orcid": "0000-0002-1984-3206",
+  "website": null,
+  "enwiki": null
+ },
+ "208-daniel-zajfman": {
+  "qid": "Q5219144",
+  "sci": true,
+  "file": "content/people\\208-daniel-zajfman.md",
+  "scholar": null,
+  "orcid": "0000-0001-6278-999X",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Daniel_Zajfman"
+ },
+ "209-barak-dayan": {
+  "qid": "Q57703646",
+  "sci": true,
+  "file": "content/people\\209-barak-dayan.md",
+  "scholar": "uCPhg0wAAAAJ",
+  "orcid": "0000-0001-8592-8550",
+  "website": "https://www.weizmann.ac.il/chembiophys/dayan/",
+  "enwiki": null
+ },
+ "210-john-preskill": {
+  "qid": "Q722128",
+  "sci": true,
+  "file": "content/people\\210-john-preskill.md",
+  "scholar": "K2BMBtcAAAAJ",
+  "orcid": "0000-0002-2421-4762",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/John_Preskill"
+ },
+ "211-ignacio-cirac": {
+  "qid": "Q650171",
+  "sci": true,
+  "file": "content/people\\211-ignacio-cirac.md",
+  "scholar": "gPGlTbgAAAAJ",
+  "orcid": "0000-0003-3359-1743",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Ignacio_Cirac"
+ },
+ "212-serge-haroche": {
+  "qid": "Q109588",
+  "sci": true,
+  "file": "content/people\\212-serge-haroche.md",
+  "scholar": "qc8LSC4AAAAJ",
+  "orcid": null,
+  "website": "http://www.college-de-france.fr/site/serge-haroche/bibliographie.htm",
+  "enwiki": "https://en.wikipedia.org/wiki/Serge_Haroche"
+ },
+ "213-alain-aspect": {
+  "qid": "Q364997",
+  "sci": true,
+  "file": "content/people\\213-alain-aspect.md",
+  "scholar": "-6d6dV4AAAAJ",
+  "orcid": "0000-0003-0094-5584",
+  "website": "https://www.lcf.institutoptique.fr/groupes-de-recherche/gaz-quantiques/membres/permanents/alain-aspect",
+  "enwiki": "https://en.wikipedia.org/wiki/Alain_Aspect"
+ },
+ "214-carl-wieman": {
+  "qid": "Q206379",
+  "sci": true,
+  "file": "content/people\\214-carl-wieman.md",
+  "scholar": "h24312AAAAAJ",
+  "orcid": null,
+  "website": "https://experts.colorado.edu/display/fisid_105375",
+  "enwiki": "https://en.wikipedia.org/wiki/Carl_Wieman"
+ },
+ "215-eric-a-cornell": {
+  "qid": "Q205954",
+  "sci": true,
+  "file": "content/people\\215-eric-a-cornell.md",
+  "scholar": "smkK3i8AAAAJ",
+  "orcid": "0009-0004-8034-9057",
+  "website": "https://experts.colorado.edu/display/fisid_100112",
+  "enwiki": "https://en.wikipedia.org/wiki/Eric_Allin_Cornell"
+ },
+ "216-wolfgang-ketterle": {
+  "qid": "Q76462",
+  "sci": true,
+  "file": "content/people\\216-wolfgang-ketterle.md",
+  "scholar": "pWp7T9MAAAAJ",
+  "orcid": "0000-0002-9528-3044",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Wolfgang_Ketterle"
+ },
+ "218-steven-chu": {
+  "qid": "Q172466",
+  "sci": true,
+  "file": "content/people\\218-steven-chu.md",
+  "scholar": "b9Bod2MAAAAJ",
+  "orcid": "0000-0002-4572-0154",
+  "website": "https://profiles.stanford.edu/steve-chu",
+  "enwiki": "https://en.wikipedia.org/wiki/Steven_Chu"
+ },
+ "220-jean-dalibard": {
+  "qid": "Q322711",
+  "sci": true,
+  "file": "content/people\\220-jean-dalibard.md",
+  "scholar": "1x1mbvgAAAAJ",
+  "orcid": "0000-0001-8469-3913",
+  "website": "http://www.phys.ens.fr/~dalibard/index_en.html",
+  "enwiki": "https://en.wikipedia.org/wiki/Jean_Dalibard"
+ },
+ "221-gerhard-rempe": {
+  "qid": "Q16648964",
+  "sci": true,
+  "file": "content/people\\221-gerhard-rempe.md",
+  "scholar": null,
+  "orcid": "0000-0003-2770-0819",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Gerhard_Rempe"
+ },
+ "222-h-jeff-kimble": {
+  "qid": "Q1562594",
+  "sci": true,
+  "file": "content/people\\222-h-jeff-kimble.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/H._Jeff_Kimble"
+ },
+ "223-anton-zeilinger": {
+  "qid": "Q78610",
+  "sci": true,
+  "file": "content/people\\223-anton-zeilinger.md",
+  "scholar": "cuqIY0oAAAAJ",
+  "orcid": "0000-0002-6778-0887",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Anton_Zeilinger"
+ },
+ "225-jean-michel-raimond": {
+  "qid": "Q2045880",
+  "sci": true,
+  "file": "content/people\\225-jean-michel-raimond.md",
+  "scholar": null,
+  "orcid": "0000-0002-4289-3455",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Jean-Michel_Raimond"
+ },
+ "226-philippe-grangier": {
+  "qid": "Q746858",
+  "sci": true,
+  "file": "content/people\\226-philippe-grangier.md",
+  "scholar": null,
+  "orcid": "0000-0001-8211-8958",
+  "website": null,
+  "enwiki": null
+ },
+ "227-john-l-hall": {
+  "qid": "Q206390",
+  "sci": true,
+  "file": "content/people\\227-john-l-hall.md",
+  "scholar": "bW3RROkAAAAJ",
+  "orcid": "0000-0001-6137-8945",
+  "website": "https://experts.colorado.edu/display/fisid_103891",
+  "enwiki": "https://en.wikipedia.org/wiki/John_L._Hall"
+ },
+ "228-marlan-o-scully": {
+  "qid": "Q1901962",
+  "sci": true,
+  "file": "content/people\\228-marlan-o-scully.md",
+  "scholar": "kUk6TKUAAAAJ",
+  "orcid": "0000-0001-6397-4927",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Marlan_Scully"
+ },
+ "230-norman-f-ramsey": {
+  "qid": "Q114834327",
+  "sci": false,
+  "file": "content/people\\230-norman-f-ramsey.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "231-dorit-aharonov": {
+  "qid": "Q9594",
+  "sci": true,
+  "file": "content/people\\231-dorit-aharonov.md",
+  "scholar": "hTBcSYQAAAAJ",
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Dorit_Aharonov"
+ },
+ "232-netanel-lindner": {
+  "qid": "Q90349476",
+  "sci": true,
+  "file": "content/people\\232-netanel-lindner.md",
+  "scholar": null,
+  "orcid": "0000-0003-1879-3902",
+  "website": null,
+  "enwiki": null
+ },
+ "233-shay-hacohen-gourgy": {
+  "qid": "Q46859286",
+  "sci": true,
+  "file": "content/people\\233-shay-hacohen-gourgy.md",
+  "scholar": null,
+  "orcid": "0000-0002-2356-4904",
+  "website": null,
+  "enwiki": null
+ },
+ "234-yoav-sagi": {
+  "qid": "Q83779057",
+  "sci": true,
+  "file": "content/people\\234-yoav-sagi.md",
+  "scholar": null,
+  "orcid": "0000-0002-3897-1393",
+  "website": null,
+  "enwiki": null
+ },
+ "236-aharon-kapitulnik": {
+  "qid": "Q29912812",
+  "sci": true,
+  "file": "content/people\\236-aharon-kapitulnik.md",
+  "scholar": "k89RzXQAAAAJ",
+  "orcid": "0000-0002-2569-3582",
+  "website": "https://profiles.stanford.edu/aharon-kapitulnik",
+  "enwiki": "https://en.wikipedia.org/wiki/Aharon_Kapitulnik"
+ },
+ "237-alex-kuzmich": {
+  "qid": "Q62565131",
+  "sci": true,
+  "file": "content/people\\237-alex-kuzmich.md",
+  "scholar": null,
+  "orcid": null,
+  "website": "https://lsa.umich.edu/physics/people/faculty/akuzmich.html",
+  "enwiki": null
+ },
+ "238-alex-retzker": {
+  "qid": "Q57548560",
+  "sci": true,
+  "file": "content/people\\238-alex-retzker.md",
+  "scholar": null,
+  "orcid": "0000-0002-7291-7120",
+  "website": "http://www.phys.huji.ac.il/~retzker/Home.html",
+  "enwiki": null
+ },
+ "239-alexander-gaeta": {
+  "qid": "Q61740588",
+  "sci": true,
+  "file": "content/people\\239-alexander-gaeta.md",
+  "scholar": "MvggBtkAAAAJ",
+  "orcid": "0000-0001-6877-7316",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Alexander_Gaeta"
+ },
+ "240-alexander-pines": {
+  "qid": "Q908521",
+  "sci": true,
+  "file": "content/people\\240-alexander-pines.md",
+  "scholar": "cct0cjAAAAAJ",
+  "orcid": "0000-0002-5113-7715",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Alexander_Pines"
+ },
+ "241-alexander-sergienko": {
+  "qid": "Q80603174",
+  "sci": true,
+  "file": "content/people\\241-alexander-sergienko.md",
+  "scholar": null,
+  "orcid": "0000-0003-0968-9708",
+  "website": null,
+  "enwiki": null
+ },
+ "242-anatole-abragam": {
+  "qid": "Q487491",
+  "sci": true,
+  "file": "content/people\\242-anatole-abragam.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Anatole_Abragam"
+ },
+ "243-andrew-steane": {
+  "qid": "Q4758631",
+  "sci": true,
+  "file": "content/people\\243-andrew-steane.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Andrew_Steane"
+ },
+ "247-brian-pippard": {
+  "qid": "Q912921",
+  "sci": true,
+  "file": "content/people\\247-brian-pippard.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Brian_Pippard"
+ },
+ "250-charles-m-marcus": {
+  "qid": "Q59751596",
+  "sci": true,
+  "file": "content/people\\250-charles-m-marcus.md",
+  "scholar": "ift9VLcAAAAJ",
+  "orcid": "0000-0003-2420-4692",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Charles_M._Marcus"
+ },
+ "251-cindy-a-regal": {
+  "qid": "Q61970592",
+  "sci": true,
+  "file": "content/people\\251-cindy-a-regal.md",
+  "scholar": "65DVU3UAAAAJ",
+  "orcid": "0000-0002-0000-2140",
+  "website": "https://jila.colorado.edu/regal",
+  "enwiki": "https://en.wikipedia.org/wiki/Cindy_Regal"
+ },
+ "253-constantin-piron": {
+  "qid": "Q2995017",
+  "sci": true,
+  "file": "content/people\\253-constantin-piron.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Constantin_Piron"
+ },
+ "254-d-g-steel": {
+  "qid": "Q16842466",
+  "sci": true,
+  "file": "content/people\\254-d-g-steel.md",
+  "scholar": "3djzCmIAAAAJ",
+  "orcid": "0000-0003-0551-1793",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Duncan_G._Steel"
+ },
+ "256-dan-walls": {
+  "qid": "Q1160714",
+  "sci": true,
+  "file": "content/people\\256-dan-walls.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Dan_Walls"
+ },
+ "257-dana-anderson": {
+  "qid": "Q59671606",
+  "sci": true,
+  "file": "content/people\\257-dana-anderson.md",
+  "scholar": null,
+  "orcid": "0000-0002-8310-0554",
+  "website": null,
+  "enwiki": null
+ },
+ "259-david-demille": {
+  "qid": "Q5232884",
+  "sci": true,
+  "file": "content/people\\259-david-demille.md",
+  "scholar": "uP5xsLUAAAAJ",
+  "orcid": "0000-0001-7139-4121",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/David_DeMille"
+ },
+ "261-david-kielpinski": {
+  "qid": "Q58816204",
+  "sci": true,
+  "file": "content/people\\261-david-kielpinski.md",
+  "scholar": null,
+  "orcid": "0000-0002-2816-6892",
+  "website": null,
+  "enwiki": null
+ },
+ "262-deborah-jin": {
+  "qid": "Q1181574",
+  "sci": true,
+  "file": "content/people\\262-deborah-jin.md",
+  "scholar": null,
+  "orcid": null,
+  "website": "https://jila.colorado.edu/taxonomy/term/19",
+  "enwiki": "https://en.wikipedia.org/wiki/Deborah_S._Jin"
+ },
+ "263-edvardas-narevicius": {
+  "qid": "Q103806582",
+  "sci": true,
+  "file": "content/people\\263-edvardas-narevicius.md",
+  "scholar": null,
+  "orcid": "0000-0002-3879-1931",
+  "website": null,
+  "enwiki": null
+ },
+ "264-evelyn-hu": {
+  "qid": "Q4511392",
+  "sci": true,
+  "file": "content/people\\264-evelyn-hu.md",
+  "scholar": "eqYc1O8AAAAJ",
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Evelyn_Hu"
+ },
+ "265-francesco-de-martini": {
+  "qid": "Q62873191",
+  "sci": true,
+  "file": "content/people\\265-francesco-de-martini.md",
+  "scholar": "NdO8AhYAAAAJ",
+  "orcid": "0000-0003-2401-9892",
+  "website": null,
+  "enwiki": null
+ },
+ "267-frederic-merkt": {
+  "qid": "Q17479611",
+  "sci": true,
+  "file": "content/people\\267-frederic-merkt.md",
+  "scholar": null,
+  "orcid": "0000-0002-4897-2234",
+  "website": null,
+  "enwiki": null
+ },
+ "268-gerard-milburn": {
+  "qid": "Q19888467",
+  "sci": true,
+  "file": "content/people\\268-gerard-milburn.md",
+  "scholar": "i8Ss478AAAAJ",
+  "orcid": "0000-0002-5404-9681",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Gerard_J._Milburn"
+ },
+ "270-gianni-blatter": {
+  "qid": "Q114420021",
+  "sci": true,
+  "file": "content/people\\270-gianni-blatter.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "272-guo-guangcan": {
+  "qid": "Q9354496",
+  "sci": true,
+  "file": "content/people\\272-guo-guangcan.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Guo_Guangcan"
+ },
+ "273-halina-rubinsztein-dunlop": {
+  "qid": "Q54937090",
+  "sci": true,
+  "file": "content/people\\273-halina-rubinsztein-dunlop.md",
+  "scholar": "4_sqVfYAAAAJ",
+  "orcid": "0000-0002-8332-2309",
+  "website": "https://people.smp.uq.edu.au/HalinaRubinsztein-Dunlop/",
+  "enwiki": "https://en.wikipedia.org/wiki/Halina_Rubinsztein-Dunlop"
+ },
+ "274-harry-buhrman": {
+  "qid": "Q34034153",
+  "sci": true,
+  "file": "content/people\\274-harry-buhrman.md",
+  "scholar": "wlOytxsAAAAJ",
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Harry_Buhrman"
+ },
+ "277-jan-michael-rost": {
+  "qid": "Q28042826",
+  "sci": true,
+  "file": "content/people\\277-jan-michael-rost.md",
+  "scholar": "rIIHdHIAAAAJ",
+  "orcid": "0000-0002-8306-1743",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Jan_Rost"
+ },
+ "278-jay-gupta": {
+  "qid": "Q123515980",
+  "sci": false,
+  "file": "content/people\\278-jay-gupta.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Jay_Gupta"
+ },
+ "279-jelena-vuckovic": {
+  "qid": "Q58416627",
+  "sci": true,
+  "file": "content/people\\279-jelena-vuckovic.md",
+  "scholar": "-afJI14AAAAJ",
+  "orcid": "0000-0002-4603-9686",
+  "website": "http://web.stanford.edu/~jela/",
+  "enwiki": "https://en.wikipedia.org/wiki/Jelena_Vu%C4%8Dkovi%C4%87"
+ },
+ "281-john-m-doyle": {
+  "qid": "Q90083650",
+  "sci": true,
+  "file": "content/people\\281-john-m-doyle.md",
+  "scholar": null,
+  "orcid": "0000-0001-9793-7630",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/John_Doyle_(academic)"
+ },
+ "283-jos-ignacio-latorre": {
+  "qid": "Q24054872",
+  "sci": true,
+  "file": "content/people\\283-jos-ignacio-latorre.md",
+  "scholar": "mJj30I8AAAAJ",
+  "orcid": "0000-0003-1702-7018",
+  "website": "https://joseignaciolatorre.com/",
+  "enwiki": null
+ },
+ "285-juan-pablo-paz": {
+  "qid": "Q2918440",
+  "sci": true,
+  "file": "content/people\\285-juan-pablo-paz.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Juan_Pablo_Paz"
+ },
+ "286-k-birgitta-whaley": {
+  "qid": "Q61901054",
+  "sci": true,
+  "file": "content/people\\286-k-birgitta-whaley.md",
+  "scholar": "9kzo1XUAAAAJ",
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/K._Birgitta_Whaley"
+ },
+ "287-keith-burnett": {
+  "qid": "Q6384144",
+  "sci": true,
+  "file": "content/people\\287-keith-burnett.md",
+  "scholar": "RWIjMfQAAAAJ",
+  "orcid": null,
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Keith_Burnett"
+ },
+ "289-kyungwon-an": {
+  "qid": "Q89714332",
+  "sci": true,
+  "file": "content/people\\289-kyungwon-an.md",
+  "scholar": null,
+  "orcid": "0000-0003-4142-6297",
+  "website": null,
+  "enwiki": null
+ },
+ "290-l-j-sham": {
+  "qid": "Q1872743",
+  "sci": true,
+  "file": "content/people\\290-l-j-sham.md",
+  "scholar": "qQGZpqYAAAAJ",
+  "orcid": "0000-0001-5718-2077",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Lu_Jeu_Sham"
+ },
+ "293-markus-oberthaler": {
+  "qid": "Q88488030",
+  "sci": true,
+  "file": "content/people\\293-markus-oberthaler.md",
+  "scholar": null,
+  "orcid": "0000-0002-8843-6364",
+  "website": null,
+  "enwiki": null
+ },
+ "296-michael-g-raymer": {
+  "qid": "Q59489312",
+  "sci": true,
+  "file": "content/people\\296-michael-g-raymer.md",
+  "scholar": "_IrJ-3IAAAAJ",
+  "orcid": "0000-0002-1661-7182",
+  "website": null,
+  "enwiki": null
+ },
+ "297-michael-s-chapman": {
+  "qid": "Q74440812",
+  "sci": true,
+  "file": "content/people\\297-michael-s-chapman.md",
+  "scholar": null,
+  "orcid": "0000-0003-4424-0156",
+  "website": "https://physics.gatech.edu/user/michael-chapman",
+  "enwiki": null
+ },
+ "298-michel-orrit": {
+  "qid": "Q1930849",
+  "sci": true,
+  "file": "content/people\\298-michel-orrit.md",
+  "scholar": null,
+  "orcid": "0000-0002-3607-3426",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Michel_Orrit"
+ },
+ "302-paolo-villoresi": {
+  "qid": "Q90605761",
+  "sci": true,
+  "file": "content/people\\302-paolo-villoresi.md",
+  "scholar": null,
+  "orcid": "0000-0002-7977-015X",
+  "website": null,
+  "enwiki": null
+ },
+ "303-paul-l-mceuen": {
+  "qid": "Q7152338",
+  "sci": true,
+  "file": "content/people\\303-paul-l-mceuen.md",
+  "scholar": "ma8Y_ZcAAAAJ",
+  "orcid": "0000-0002-6438-5750",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Paul_McEuen"
+ },
+ "304-paul-vitanyi": {
+  "qid": "Q7154167",
+  "sci": true,
+  "file": "content/people\\304-paul-vitanyi.md",
+  "scholar": "UCsQ8VgAAAAJ",
+  "orcid": "0000-0002-5712-7585",
+  "website": null,
+  "enwiki": "https://en.wikipedia.org/wiki/Paul_Vit%C3%A1nyi"
+ },
+ "305-pepijn-pinkse": {
+  "qid": "Q60371624",
+  "sci": true,
+  "file": "content/people\\305-pepijn-pinkse.md",
+  "scholar": "FmA4TOgAAAAJ",
+  "orcid": "0000-0001-7912-9322",
+  "website": null,
+  "enwiki": null
+ },
+ "306-peter-lambropoulos": {
+  "qid": "Q95339635",
+  "sci": true,
+  "file": "content/people\\306-peter-lambropoulos.md",
+  "scholar": "B_uNgvEAAAAJ",
+  "orcid": "0000-0002-7521-8552",
+  "website": null,
+  "enwiki": null
+ },
+ "307-peter-leek": {
+  "qid": "Q57561050",
+  "sci": true,
+  "file": "content/people\\307-peter-leek.md",
+  "scholar": null,
+  "orcid": "0000-0002-1410-5642",
+  "website": null,
+  "enwiki": null
+ },
+ "308-peter-mosley": {
+  "qid": "Q92282382",
+  "sci": true,
+  "file": "content/people\\308-peter-mosley.md",
+  "scholar": null,
+  "orcid": "0000-0001-5523-0311",
+  "website": null,
+  "enwiki": null
+ },
+ "312-richard-n-zare": {
+  "qid": "Q900837",
+  "sci": true,
+  "file": "content/people\\312-richard-n-zare.md",
+  "scholar": "NWIMAqIAAAAJ",
+  "orcid": "0000-0001-5266-4253",
+  "website": "https://profiles.stanford.edu/dick-zare",
+  "enwiki": "https://en.wikipedia.org/wiki/Richard_Zare"
+ },
+ "313-robert-a-buhrman": {
+  "qid": "Q92112092",
+  "sci": true,
+  "file": "content/people\\313-robert-a-buhrman.md",
+  "scholar": "A7HqfEIAAAAJ",
+  "orcid": "0000-0002-5535-2535",
+  "website": "https://buhrman-group.aep.cornell.edu/",
+  "enwiki": null
+ },
+ "314-robert-m-westervelt": {
+  "qid": "Q102352956",
+  "sci": true,
+  "file": "content/people\\314-robert-m-westervelt.md",
+  "scholar": "RnzsQOEAAAAJ",
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "315-roberta-ramponi": {
+  "qid": "Q55859541",
+  "sci": true,
+  "file": "content/people\\315-roberta-ramponi.md",
+  "scholar": "rrbq7ggAAAAJ",
+  "orcid": "0000-0002-1806-9706",
+  "website": null,
+  "enwiki": null
+ },
+ "317-ronald-l-walsworth": {
+  "qid": "Q15842996",
+  "sci": true,
+  "file": "content/people\\317-ronald-l-walsworth.md",
+  "scholar": null,
+  "orcid": "0000-0003-0311-4751",
+  "website": "http://walsworth.physics.harvard.edu/index.html",
+  "enwiki": "https://en.wikipedia.org/wiki/Ronald_Walsworth"
+ },
+ "319-stephan-reitzenstein": {
+  "qid": "Q62524153",
+  "sci": true,
+  "file": "content/people\\319-stephan-reitzenstein.md",
+  "scholar": "xW46WCoAAAAJ",
+  "orcid": "0000-0002-1381-9838",
+  "website": null,
+  "enwiki": null
+ },
+ "320-steven-prawer": {
+  "qid": "Q57897625",
+  "sci": true,
+  "file": "content/people\\320-steven-prawer.md",
+  "scholar": null,
+  "orcid": "0000-0002-4959-0828",
+  "website": null,
+  "enwiki": null
+ },
+ "321-stuart-adams": {
+  "qid": "Q50947586",
+  "sci": true,
+  "file": "content/people\\321-stuart-adams.md",
+  "scholar": "AX_tUOsAAAAJ",
+  "orcid": "0000-0001-5602-2741",
+  "website": null,
+  "enwiki": null
+ },
+ "322-thomas-f-gallagher": {
+  "qid": "Q56883544",
+  "sci": true,
+  "file": "content/people\\322-thomas-f-gallagher.md",
+  "scholar": null,
+  "orcid": null,
+  "website": "http://www.phys.virginia.edu/People/personal.asp?UID=tfg",
+  "enwiki": null
+ },
+ "323-tilman-pfau": {
+  "qid": "Q19340259",
+  "sci": true,
+  "file": "content/people\\323-tilman-pfau.md",
+  "scholar": null,
+  "orcid": "0000-0003-3272-3468",
+  "website": null,
+  "enwiki": null
+ },
+ "324-timothy-p-softley": {
+  "qid": "Q55224159",
+  "sci": true,
+  "file": "content/people\\324-timothy-p-softley.md",
+  "scholar": null,
+  "orcid": "0000-0002-5285-6308",
+  "website": "https://www.birmingham.ac.uk/staff/profiles/university/tim-softley.aspx",
+  "enwiki": "https://en.wikipedia.org/wiki/Timothy_Softley"
+ },
+ "325-tord-claeson": {
+  "qid": "Q5609122",
+  "sci": true,
+  "file": "content/people\\325-tord-claeson.md",
+  "scholar": null,
+  "orcid": null,
+  "website": null,
+  "enwiki": null
+ },
+ "326-wonho-jhe": {
+  "qid": "Q87981909",
+  "sci": true,
+  "file": "content/people\\326-wonho-jhe.md",
+  "scholar": "z_c9ABQAAAAJ",
+  "orcid": "0000-0002-4716-5449",
+  "website": null,
+  "enwiki": null
+ },
+ "327-yoshihisa-yamamoto": {
+  "qid": "Q11171655",
+  "sci": true,
+  "file": "content/people\\327-yoshihisa-yamamoto.md",
+  "scholar": "EA4XHOMAAAAJ",
+  "orcid": "0000-0002-4150-6804",
+  "website": "https://profiles.stanford.edu/yoshihisa-yamamoto",
+  "enwiki": "https://en.wikipedia.org/wiki/Yoshihisa_Yamamoto_(scientist)"
+ },
+ "329-ran-finkelstein": {
+  "qid": "Q89910554",
+  "sci": true,
+  "file": "content/people\\329-ran-finkelstein.md",
+  "scholar": null,
+  "orcid": "0000-0002-4524-5875",
+  "website": null,
+  "enwiki": null
+ },
+ "330-ksenia-khabarova": {
+  "qid": "Q59546124",
+  "sci": true,
+  "file": "content/people\\330-ksenia-khabarova.md",
+  "scholar": null,
+  "orcid": "0000-0001-9682-2647",
+  "website": null,
+  "enwiki": null
+ },
+ "331-nikolai-kolachevsky": {
+  "qid": "Q59484483",
+  "sci": true,
+  "file": "content/people\\331-nikolai-kolachevsky.md",
+  "scholar": null,
+  "orcid": "0000-0001-9587-4955",
+  "website": null,
+  "enwiki": null
+ }
+}

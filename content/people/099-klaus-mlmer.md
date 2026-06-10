@@ -59,6 +59,8 @@ lineage_check:
   last_checked: '2026-05-30'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=AnmFcv8AAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Klaus_M%C3%B8lmer
   institution_profile: https://nbi.ku.dk/english/staff/?pure=en/persons/100435
   openalex: https://openalex.org/A5113628834
   orcid: https://orcid.org/0000-0002-2372-869X

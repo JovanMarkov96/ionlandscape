@@ -14,6 +14,8 @@ group_type: experimental
 id: 323-tilman-pfau
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-3272-3468
+  openalex: https://openalex.org/A5024615683
   homepage: https://www.uni-stuttgart.de/
   wikipedia: https://en.wikipedia.org/wiki/Tilman_Pfau
 location:

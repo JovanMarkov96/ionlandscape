@@ -17,6 +17,10 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=9kzo1XUAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/K._Birgitta_Whaley
+  orcid: https://orcid.org/0000-0002-7164-4757
+  openalex: https://openalex.org/A5019265176
   homepage: https://www.berkeley.edu/
 location:
   city: Berkeley

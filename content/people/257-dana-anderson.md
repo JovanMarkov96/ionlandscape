@@ -14,6 +14,8 @@ group_type: experimental
 id: 257-dana-anderson
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-2891-4547
+  openalex: https://openalex.org/A5073347991
   homepage: https://jila.colorado.edu/
 location:
   city: Boulder

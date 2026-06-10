@@ -14,6 +14,7 @@ group_type: experimental
 id: 212-serge-haroche
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=qc8LSC4AAAAJ
   homepage: https://www.college-de-france.fr/
   wikipedia: https://en.wikipedia.org/wiki/Serge_Haroche
 location:

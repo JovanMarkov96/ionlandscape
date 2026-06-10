@@ -55,6 +55,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Michael_J._Biercuk
   google_scholar: https://scholar.google.com/citations?user=Pf5u3hcAAAAJ
   group_page: https://www.q-ctrl.com/
   openalex: https://openalex.org/A5004463244

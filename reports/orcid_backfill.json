@@ -1,0 +1,1679 @@
+{
+ "found": [
+  {
+   "file": "content/people\\013-ferdinand-schmidt-kaler.md",
+   "name": "Ferdinand Schmidt-Kaler",
+   "orcid": "https://orcid.org/0000-0002-5697-2568",
+   "openalex": "https://openalex.org/A5038916322",
+   "oa_name": "F. Schmidt\u2013Kaler",
+   "affs": [
+    "Karlsruhe Institute of Technology",
+    "Universidad Complutense de Madrid",
+    "Centre National de la Recherche Scientifique"
+   ],
+   "works": 305
+  },
+  {
+   "file": "content/people\\024-paul-haljan.md",
+   "name": "Paul Haljan",
+   "orcid": "https://orcid.org/0000-0003-0853-9732",
+   "openalex": "https://openalex.org/A5076870761",
+   "oa_name": "P. C. Haljan",
+   "affs": [
+    "National Institute of Standards and Technology",
+    "Joint Institute for Laboratory Astrophysics",
+    "University of Alberta"
+   ],
+   "works": 60
+  },
+  {
+   "file": "content/people\\027-lukas-slodicka.md",
+   "name": "Luk\u00e1\u0161 Slodi\u010dka",
+   "orcid": "https://orcid.org/0000-0003-0540-9385",
+   "openalex": "https://openalex.org/A5001432840",
+   "oa_name": "L. Slodi\u010dka",
+   "affs": [
+    "Austrian Academy of Sciences",
+    "Universit\u00e4t Innsbruck",
+    "Czech Academy of Sciences, Institute of Scientific Instruments"
+   ],
+   "works": 62
+  },
+  {
+   "file": "content/people\\029-christof-wunderlich.md",
+   "name": "Christof Wunderlich",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5109645862",
+   "oa_name": "Christof Wunderlich",
+   "affs": [
+    "Universit\u00e9 Libre de Bruxelles",
+    "National University of Ireland, Maynooth",
+    "Universit\u00e4t Hamburg"
+   ],
+   "works": 47
+  },
+  {
+   "file": "content/people\\037-david-lucas.md",
+   "name": "David M. Lucas",
+   "orcid": "https://orcid.org/0000-0001-8201-0808",
+   "openalex": "https://openalex.org/A5103532728",
+   "oa_name": "David Lucas",
+   "affs": [
+    "Northwestern University",
+    "Australian National University",
+    "Natural Sciences and Engineering Research Council of Canada"
+   ],
+   "works": 492
+  },
+  {
+   "file": "content/people\\041-isaac-chuang.md",
+   "name": "Isaac L. Chuang",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5103046966",
+   "oa_name": "Isaac L. Chuang",
+   "affs": [
+    "AT&T (United States)",
+    "National Institute of Standards and Technology",
+    "IBM (United States)"
+   ],
+   "works": 438
+  },
+  {
+   "file": "content/people\\045-kazuhiro-hayasaka.md",
+   "name": "Kazuhiro Hayasaka",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5103379376",
+   "oa_name": "Kazuhiro Hayasaka",
+   "affs": [
+    "Ministry of Internal Affairs and Communications",
+    "Ministry of Communications",
+    "Toyo University"
+   ],
+   "works": 102
+  },
+  {
+   "file": "content/people\\048-hermann-uys.md",
+   "name": "Hermann Uys",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5006578425",
+   "oa_name": "Hermann Uys",
+   "affs": [
+    "National Institute of Standards and Technology",
+    "University of Arizona",
+    "Council for Scientific and Industrial Research"
+   ],
+   "works": 105
+  },
+  {
+   "file": "content/people\\069-sadiq-rangwala.md",
+   "name": "S. A. Rangwala",
+   "orcid": "https://orcid.org/0000-0002-0480-6998",
+   "openalex": "https://openalex.org/A5084843774",
+   "oa_name": "S. A. Rangwala",
+   "affs": [
+    "Tata Institute of Fundamental Research",
+    "Raman Research Institute",
+    "Centre National de la Recherche Scientifique"
+   ],
+   "works": 87
+  },
+  {
+   "file": "content/people\\210-john-preskill.md",
+   "name": "John Preskill",
+   "orcid": "https://orcid.org/0000-0002-2421-4762",
+   "openalex": "https://openalex.org/A5061874000",
+   "oa_name": "John Preskill",
+   "affs": [
+    "California Institute of Technology",
+    "Harvard University",
+    "University of California, Santa Barbara"
+   ],
+   "works": 260
+  },
+  {
+   "file": "content/people\\212-serge-haroche.md",
+   "name": "Serge Haroche",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5108398851",
+   "oa_name": "S. Haroche",
+   "affs": [
+    "Wesleyan University",
+    "Centre National de la Recherche Scientifique",
+    "Institut national de recherche en sciences et technologies du num\u00e9rique"
+   ],
+   "works": 454
+  },
+  {
+   "file": "content/people\\213-alain-aspect.md",
+   "name": "Alain Aspect",
+   "orcid": "https://orcid.org/0000-0003-0094-5584",
+   "openalex": "https://openalex.org/A5046427077",
+   "oa_name": "Alain Aspect",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "\u00c9cole Normale Sup\u00e9rieure Paris-Saclay",
+    "Flanders Marine Institute"
+   ],
+   "works": 624
+  },
+  {
+   "file": "content/people\\214-carl-wieman.md",
+   "name": "Carl Wieman",
+   "orcid": "https://orcid.org/0000-0003-1449-9319",
+   "openalex": "https://openalex.org/A5006656464",
+   "oa_name": "Carl Wieman",
+   "affs": [
+    "American Society For Engineering Education",
+    "National Institute of Standards and Technology",
+    "Alfred P. Sloan Foundation"
+   ],
+   "works": 555
+  },
+  {
+   "file": "content/people\\215-eric-a-cornell.md",
+   "name": "Eric A. Cornell",
+   "orcid": "https://orcid.org/0009-0004-8034-9057",
+   "openalex": "https://openalex.org/A5004950660",
+   "oa_name": "Eric Cornell",
+   "affs": [
+    "National Institute of Standards and Technology",
+    "General Electric (United States)",
+    "Joint Institute for Laboratory Astrophysics"
+   ],
+   "works": 366
+  },
+  {
+   "file": "content/people\\216-wolfgang-ketterle.md",
+   "name": "Wolfgang Ketterle",
+   "orcid": "https://orcid.org/0000-0002-9528-3044",
+   "openalex": "https://openalex.org/A5040820196",
+   "oa_name": "Wolfgang Ketterle",
+   "affs": [
+    "Leiden University",
+    "Harvard University",
+    "Joint Institute for Laboratory Astrophysics"
+   ],
+   "works": 573
+  },
+  {
+   "file": "content/people\\218-steven-chu.md",
+   "name": "Steven Chu",
+   "orcid": "https://orcid.org/0000-0002-4572-0154",
+   "openalex": "https://openalex.org/A5001967033",
+   "oa_name": "Steven Chu",
+   "affs": [
+    "Boston College",
+    "University of California, Riverside",
+    "QB3"
+   ],
+   "works": 424
+  },
+  {
+   "file": "content/people\\219-theodor-w-hansch.md",
+   "name": "Theodor W. Hansch",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5027139918",
+   "oa_name": "Theodor W. H\u00e4nsch",
+   "affs": [
+    "Tokyo Institute of Technology",
+    "National Institute of Standards and Technology",
+    "European Southern Observatory"
+   ],
+   "works": 600
+  },
+  {
+   "file": "content/people\\220-jean-dalibard.md",
+   "name": "Jean Dalibard",
+   "orcid": "https://orcid.org/0000-0001-8469-3913",
+   "openalex": "https://openalex.org/A5027822857",
+   "oa_name": "Jean Dalibard",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "Centre National de la Recherche Scientifique",
+    "National Institute of Standards and Technology"
+   ],
+   "works": 386
+  },
+  {
+   "file": "content/people\\221-gerhard-rempe.md",
+   "name": "Gerhard Rempe",
+   "orcid": "https://orcid.org/0000-0003-2770-0819",
+   "openalex": "https://openalex.org/A5042479821",
+   "oa_name": "Gerhard Rempe",
+   "affs": [
+    "Universidad Complutense de Madrid",
+    "California Institute of Technology",
+    "Medigene (Germany)"
+   ],
+   "works": 419
+  },
+  {
+   "file": "content/people\\222-h-jeff-kimble.md",
+   "name": "H. Jeff Kimble",
+   "orcid": "https://orcid.org/0000-0002-5513-9638",
+   "openalex": "https://openalex.org/A5088589128",
+   "oa_name": "H. J. Kimble",
+   "affs": [
+    "General Motors (United States)",
+    "California Institute of Technology",
+    "Oak Ridge Associated Universities"
+   ],
+   "works": 409
+  },
+  {
+   "file": "content/people\\223-anton-zeilinger.md",
+   "name": "Anton Zeilinger",
+   "orcid": "https://orcid.org/0000-0002-6778-0887",
+   "openalex": "https://openalex.org/A5001105113",
+   "oa_name": "Anton Zeilinger",
+   "affs": [
+    "Boston University",
+    "City College of New York",
+    "University of Vienna"
+   ],
+   "works": 603
+  },
+  {
+   "file": "content/people\\225-jean-michel-raimond.md",
+   "name": "Jean-Michel Raimond",
+   "orcid": "https://orcid.org/0000-0002-4289-3455",
+   "openalex": "https://openalex.org/A5038980282",
+   "oa_name": "J. M. Raimond",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "Universit\u00e0 di Camerino",
+    "Centre National de la Recherche Scientifique"
+   ],
+   "works": 345
+  },
+  {
+   "file": "content/people\\226-philippe-grangier.md",
+   "name": "Philippe Grangier",
+   "orcid": "https://orcid.org/0000-0001-8211-8958",
+   "openalex": "https://openalex.org/A5079645189",
+   "oa_name": "Philippe Grangier",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "T\u00e9l\u00e9com Paris",
+    "AT&T (United States)"
+   ],
+   "works": 351
+  },
+  {
+   "file": "content/people\\227-john-l-hall.md",
+   "name": "John L. Hall",
+   "orcid": "https://orcid.org/0000-0001-6137-8945",
+   "openalex": "https://openalex.org/A5009444030",
+   "oa_name": "J. L. Hall",
+   "affs": [
+    "University of Central Florida",
+    "California Institute of Technology",
+    "AT&T (United States)"
+   ],
+   "works": 538
+  },
+  {
+   "file": "content/people\\228-marlan-o-scully.md",
+   "name": "Marlan O. Scully",
+   "orcid": "https://orcid.org/0000-0001-6397-4927",
+   "openalex": "https://openalex.org/A5022041722",
+   "oa_name": "Marlan O. Scully",
+   "affs": [
+    "P.N. Lebedev Physical Institute of the Russian Academy of Sciences",
+    "Physical Research Laboratory",
+    "University of North Texas"
+   ],
+   "works": 1328
+  },
+  {
+   "file": "content/people\\229-hans-dehmelt.md",
+   "name": "Hans Dehmelt",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5054282961",
+   "oa_name": "Hans Dehmelt",
+   "affs": [
+    "University of Washington",
+    "Heidelberg University",
+    "University of Washington Applied Physics Laboratory"
+   ],
+   "works": 147
+  },
+  {
+   "file": "content/people\\230-norman-f-ramsey.md",
+   "name": "Norman F. Ramsey",
+   "orcid": "https://orcid.org/0000-0002-5435-1135",
+   "openalex": "https://openalex.org/A5068702687",
+   "oa_name": "Norman F. Ramsey",
+   "affs": [
+    "Bryn Mawr College",
+    "West Virginia University",
+    "Tufts University"
+   ],
+   "works": 433
+  },
+  {
+   "file": "content/people\\231-dorit-aharonov.md",
+   "name": "Dorit Aharonov",
+   "orcid": "https://orcid.org/0000-0002-9378-8495",
+   "openalex": "https://openalex.org/A5005794608",
+   "oa_name": "Dorit Aharonov",
+   "affs": [
+    "Hebrew College",
+    "Hebrew University of Jerusalem",
+    "Cambridge Quantum Computing (United Kingdom)"
+   ],
+   "works": 99
+  },
+  {
+   "file": "content/people\\232-netanel-lindner.md",
+   "name": "Netanel Lindner",
+   "orcid": "https://orcid.org/0000-0003-1879-3902",
+   "openalex": "https://openalex.org/A5088795401",
+   "oa_name": "Netanel H. Lindner",
+   "affs": [
+    "California Institute of Technology",
+    "Technion \u2013 Israel Institute of Technology",
+    "GFZ Helmholtz Centre for Geosciences"
+   ],
+   "works": 155
+  },
+  {
+   "file": "content/people\\233-shay-hacohen-gourgy.md",
+   "name": "Shay Hacohen-Gourgy",
+   "orcid": "https://orcid.org/0000-0002-2356-4904",
+   "openalex": "https://openalex.org/A5053972629",
+   "oa_name": "Shay Hacohen-Gourgy",
+   "affs": [
+    "Amazon (United States)",
+    "Tel Aviv University",
+    "Technion \u2013 Israel Institute of Technology"
+   ],
+   "works": 78
+  },
+  {
+   "file": "content/people\\234-yoav-sagi.md",
+   "name": "Yoav Sagi",
+   "orcid": "https://orcid.org/0000-0002-3897-1393",
+   "openalex": "https://openalex.org/A5028404704",
+   "oa_name": "Yoav Sagi",
+   "affs": [
+    "National Institute of Standards and Technology",
+    "Technion \u2013 Israel Institute of Technology",
+    "University of Colorado Boulder"
+   ],
+   "works": 87
+  },
+  {
+   "file": "content/people\\235-a-paul-alivisatos.md",
+   "name": "A. Paul Alivisatos",
+   "orcid": "https://orcid.org/0000-0001-6895-9048",
+   "openalex": "https://openalex.org/A5009848674",
+   "oa_name": "A. Paul Alivisatos",
+   "affs": [
+    "University of California, Riverside",
+    "Johannes Kepler University of Linz",
+    "Lawrence Livermore National Laboratory"
+   ],
+   "works": 724
+  },
+  {
+   "file": "content/people\\236-aharon-kapitulnik.md",
+   "name": "Aharon Kapitulnik",
+   "orcid": "https://orcid.org/0000-0002-2569-3582",
+   "openalex": "https://openalex.org/A5009850096",
+   "oa_name": "A. Kapitulnik",
+   "affs": [
+    "AT&T (United States)",
+    "Central Research Institute of Electric Power Industry",
+    "U.S. National Science Foundation"
+   ],
+   "works": 494
+  },
+  {
+   "file": "content/people\\237-alex-kuzmich.md",
+   "name": "Alex Kuzmich",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5110942953",
+   "oa_name": "Alex Kuzmich",
+   "affs": [
+    "California Institute of Technology",
+    "Georgia Institute of Technology",
+    "State Street (United States)"
+   ],
+   "works": 31
+  },
+  {
+   "file": "content/people\\238-alex-retzker.md",
+   "name": "Alex Retzker",
+   "orcid": "https://orcid.org/0000-0002-7291-7120",
+   "openalex": "https://openalex.org/A5053617356",
+   "oa_name": "Alex Retzker",
+   "affs": [
+    "California Institute of Technology",
+    "Tel Aviv University",
+    "Technion \u2013 Israel Institute of Technology"
+   ],
+   "works": 164
+  },
+  {
+   "file": "content/people\\240-alexander-pines.md",
+   "name": "Alexander Pines",
+   "orcid": "https://orcid.org/0000-0002-5113-7715",
+   "openalex": "https://openalex.org/A5027677289",
+   "oa_name": "Alexander Pines",
+   "affs": [
+    "QB3",
+    "Southern Illinois University Carbondale",
+    "\u00c9cole Normale Sup\u00e9rieure de Lyon"
+   ],
+   "works": 607
+  },
+  {
+   "file": "content/people\\241-alexander-sergienko.md",
+   "name": "Alexander Sergienko",
+   "orcid": "https://orcid.org/0000-0003-0542-1405",
+   "openalex": "https://openalex.org/A5051729256",
+   "oa_name": "Alexander V. Sergienko",
+   "affs": [
+    "Boston University",
+    "Altai State Technical University",
+    "National Institute of Standards and Technology"
+   ],
+   "works": 304
+  },
+  {
+   "file": "content/people\\242-anatole-abragam.md",
+   "name": "Anatole Abragam",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5017945454",
+   "oa_name": "A. Abragam",
+   "affs": [
+    "Google (United States)",
+    "Harvard University",
+    "Coll\u00e8ge de France"
+   ],
+   "works": 99
+  },
+  {
+   "file": "content/people\\244-andrew-white.md",
+   "name": "Andrew White",
+   "orcid": "https://orcid.org/0000-0001-6175-1607",
+   "openalex": "https://openalex.org/A5087959120",
+   "oa_name": "Andrew J. P. White",
+   "affs": [
+    "University of Siena",
+    "Karlsruhe Institute of Technology",
+    "AstraZeneca (United Kingdom)"
+   ],
+   "works": 2191
+  },
+  {
+   "file": "content/people\\245-atac-imamoglu.md",
+   "name": "Atac Imamoglu",
+   "orcid": "https://orcid.org/0000-0002-0641-1631",
+   "openalex": "https://openalex.org/A5008938191",
+   "oa_name": "Ata\u00e7 \u0130mamo\u011flu",
+   "affs": [
+    "University of Stuttgart",
+    "Boston University",
+    "University of Geneva"
+   ],
+   "works": 382
+  },
+  {
+   "file": "content/people\\247-brian-pippard.md",
+   "name": "Brian Pippard",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5085015796",
+   "oa_name": "Brian Pippard",
+   "affs": [
+    "University of Cambridge",
+    "Bridge University",
+    "Cavendish Hospital"
+   ],
+   "works": 56
+  },
+  {
+   "file": "content/people\\248-carl-williams.md",
+   "name": "Carl Williams",
+   "orcid": "https://orcid.org/0000-0003-4274-3227",
+   "openalex": "https://openalex.org/A5001165074",
+   "oa_name": "Carl J. Williams",
+   "affs": [
+    "Wisconsin Department of Health Services",
+    "Western Carolina University",
+    "Universidad de Panam\u00e1"
+   ],
+   "works": 354
+  },
+  {
+   "file": "content/people\\249-charles-clark.md",
+   "name": "Charles Clark",
+   "orcid": "https://orcid.org/0000-0001-8724-9885",
+   "openalex": "https://openalex.org/A5078019732",
+   "oa_name": "Charles W. Clark",
+   "affs": [
+    "Australian National University",
+    "University of Wolverhampton",
+    "Leiden University"
+   ],
+   "works": 634
+  },
+  {
+   "file": "content/people\\250-charles-m-marcus.md",
+   "name": "Charles M. Marcus",
+   "orcid": "https://orcid.org/0000-0003-2420-4692",
+   "openalex": "https://openalex.org/A5006639172",
+   "oa_name": "C. M. Marcus",
+   "affs": [
+    "Boston University",
+    "California Institute of Technology",
+    "University of Copenhagen"
+   ],
+   "works": 399
+  },
+  {
+   "file": "content/people\\251-cindy-a-regal.md",
+   "name": "Cindy A. Regal",
+   "orcid": "https://orcid.org/0000-0002-0000-2140",
+   "openalex": "https://openalex.org/A5012697672",
+   "oa_name": "C. A. Regal",
+   "affs": [
+    "California Institute of Technology",
+    "National Institute of Standards and Technology",
+    "Harvard University"
+   ],
+   "works": 165
+  },
+  {
+   "file": "content/people\\253-constantin-piron.md",
+   "name": "Constantin Piron",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5071576983",
+   "oa_name": "C. Piron",
+   "affs": [
+    "University of Geneva",
+    "University of Denver",
+    "University of Massachusetts Amherst"
+   ],
+   "works": 50
+  },
+  {
+   "file": "content/people\\254-d-g-steel.md",
+   "name": "Duncan G. Steel",
+   "orcid": "https://orcid.org/0000-0003-0551-1793",
+   "openalex": "https://openalex.org/A5074954431",
+   "oa_name": "D. G. Steel",
+   "affs": [
+    "Council of Economic Advisers",
+    "University of Copenhagen",
+    "University of Iowa"
+   ],
+   "works": 438
+  },
+  {
+   "file": "content/people\\256-dan-walls.md",
+   "name": "Dan Walls",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5113622988",
+   "oa_name": "Dan F. Walls",
+   "affs": [
+    "University of Auckland",
+    "University of Waikato"
+   ],
+   "works": 23
+  },
+  {
+   "file": "content/people\\257-dana-anderson.md",
+   "name": "Dana Anderson",
+   "orcid": "https://orcid.org/0000-0002-2891-4547",
+   "openalex": "https://openalex.org/A5073347991",
+   "oa_name": "Dana Z. Anderson",
+   "affs": [
+    "Worcester Polytechnic Institute",
+    "Centre for Quantum Technologies",
+    "California Institute of Technology"
+   ],
+   "works": 269
+  },
+  {
+   "file": "content/people\\258-daniel-prober.md",
+   "name": "Daniel Prober",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5018448368",
+   "oa_name": "D. E. Prober",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "Rutgers, The State University of New Jersey",
+    "Karlsruhe Institute of Technology"
+   ],
+   "works": 231
+  },
+  {
+   "file": "content/people\\259-david-demille.md",
+   "name": "David DeMille",
+   "orcid": "https://orcid.org/0000-0001-7139-4121",
+   "openalex": "https://openalex.org/A5027003713",
+   "oa_name": "David DeMille",
+   "affs": [
+    "Argonne National Laboratory",
+    "National Institute of Standards and Technology",
+    "University of Wisconsin\u2013Madison"
+   ],
+   "works": 299
+  },
+  {
+   "file": "content/people\\260-david-hall.md",
+   "name": "David Hall",
+   "orcid": "https://orcid.org/0000-0002-2839-7623",
+   "openalex": "https://openalex.org/A5043348158",
+   "oa_name": "D. S. Hall",
+   "affs": [
+    "Rutherford Appleton Laboratory",
+    "National Institute of Standards and Technology",
+    "Harvard University"
+   ],
+   "works": 125
+  },
+  {
+   "file": "content/people\\261-david-kielpinski.md",
+   "name": "David Kielpinski",
+   "orcid": "https://orcid.org/0000-0002-2816-6892",
+   "openalex": "https://openalex.org/A5051592659",
+   "oa_name": "D. Kielpinski",
+   "affs": [
+    "Griffith University",
+    "National Institute of Standards and Technology",
+    "Hewlett-Packard (United States)"
+   ],
+   "works": 179
+  },
+  {
+   "file": "content/people\\262-deborah-jin.md",
+   "name": "Deborah Jin",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5109884941",
+   "oa_name": "Deborah Jin",
+   "affs": [
+    "National Institute of Standards and Technology",
+    "Joint Institute for Laboratory Astrophysics",
+    "University of Colorado Boulder"
+   ],
+   "works": 98
+  },
+  {
+   "file": "content/people\\263-edvardas-narevicius.md",
+   "name": "Edvardas Narevicius",
+   "orcid": "https://orcid.org/0000-0002-3879-1931",
+   "openalex": "https://openalex.org/A5009082239",
+   "oa_name": "Edvardas Narevicius",
+   "affs": [
+    "Yahoo (United Kingdom)",
+    "Technion \u2013 Israel Institute of Technology",
+    "TU Dortmund University"
+   ],
+   "works": 91
+  },
+  {
+   "file": "content/people\\264-evelyn-hu.md",
+   "name": "Evelyn Hu",
+   "orcid": "https://orcid.org/0000-0002-8805-1405",
+   "openalex": "https://openalex.org/A5009837711",
+   "oa_name": "Evelyn L. Hu",
+   "affs": [
+    "University of Stuttgart",
+    "Lawrence Livermore National Laboratory",
+    "AT&T (United States)"
+   ],
+   "works": 562
+  },
+  {
+   "file": "content/people\\265-francesco-de-martini.md",
+   "name": "Francesco De Martini",
+   "orcid": "https://orcid.org/0000-0001-8556-1031",
+   "openalex": "https://openalex.org/A5025287592",
+   "oa_name": "F. De Martini",
+   "affs": [
+    "University of Pisa",
+    "Roma Tre University",
+    "Louisiana State University"
+   ],
+   "works": 338
+  },
+  {
+   "file": "content/people\\266-franco-n-c-wong.md",
+   "name": "Franco N. C. Wong",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5109879992",
+   "oa_name": "Franco N. C. Wong",
+   "affs": [
+    "University of Arizona",
+    "Observatoire de Paris",
+    "Deutsches Elektronen-Synchrotron DESY"
+   ],
+   "works": 240
+  },
+  {
+   "file": "content/people\\267-frederic-merkt.md",
+   "name": "Frederic Merkt",
+   "orcid": "https://orcid.org/0000-0002-4897-2234",
+   "openalex": "https://openalex.org/A5059729730",
+   "oa_name": "F. Merkt",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "Centre National de la Recherche Scientifique",
+    "Max Planck Society"
+   ],
+   "works": 466
+  },
+  {
+   "file": "content/people\\268-gerard-milburn.md",
+   "name": "Gerard Milburn",
+   "orcid": "https://orcid.org/0000-0002-5404-9681",
+   "openalex": "https://openalex.org/A5021427054",
+   "oa_name": "G. J. Milburn",
+   "affs": [
+    "Universit\u00e0 di Camerino",
+    "University of Southern California",
+    "Australian National University"
+   ],
+   "works": 616
+  },
+  {
+   "file": "content/people\\269-gerd-schon.md",
+   "name": "Gerd Schon",
+   "orcid": "https://orcid.org/0000-0001-6886-3433",
+   "openalex": "https://openalex.org/A5026551021",
+   "oa_name": "Gerd Sch\u00f6n",
+   "affs": [
+    "Rutgers, The State University of New Jersey",
+    "Karlsruhe Institute of Technology",
+    "P.N. Lebedev Physical Institute of the Russian Academy of Sciences"
+   ],
+   "works": 398
+  },
+  {
+   "file": "content/people\\270-gianni-blatter.md",
+   "name": "Gianni Blatter",
+   "orcid": "https://orcid.org/0000-0003-0521-8028",
+   "openalex": "https://openalex.org/A5026215124",
+   "oa_name": "G. Blatter",
+   "affs": [
+    "Argonne National Laboratory",
+    "AT&T (United States)",
+    "Universit\u00e4t Hamburg"
+   ],
+   "works": 315
+  },
+  {
+   "file": "content/people\\271-gunter-werth.md",
+   "name": "Gunter Werth",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5109119474",
+   "oa_name": "G\u00fcnter Werth",
+   "affs": [
+    "Johannes Gutenberg University Mainz",
+    "Johannes Gutenberg University Mainz"
+   ],
+   "works": 17
+  },
+  {
+   "file": "content/people\\272-guo-guangcan.md",
+   "name": "Guo Guangcan",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5102087443",
+   "oa_name": "Guo Guang-Can",
+   "affs": [
+    "Yuncheng University",
+    "University of Science and Technology of China",
+    "Anhui University"
+   ],
+   "works": 133
+  },
+  {
+   "file": "content/people\\273-halina-rubinsztein-dunlop.md",
+   "name": "Halina Rubinsztein-Dunlop",
+   "orcid": "https://orcid.org/0000-0002-8332-2309",
+   "openalex": "https://openalex.org/A5052334244",
+   "oa_name": "Halina Rubinsztein\u2010Dunlop",
+   "affs": [
+    "Pfeiffer University",
+    "Australian Research Council",
+    "Queensland University of Technology"
+   ],
+   "works": 535
+  },
+  {
+   "file": "content/people\\274-harry-buhrman.md",
+   "name": "Harry Buhrman",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5083983355",
+   "oa_name": "Harry Buhrman",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "University of Helsinki",
+    "Centrum Wiskunde & Informatica"
+   ],
+   "works": 309
+  },
+  {
+   "file": "content/people\\275-herbert-walther.md",
+   "name": "Herbert Walther",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5106082597",
+   "oa_name": "H. Walther",
+   "affs": [
+    "Vienna University of Economics and Business",
+    "Leibniz University Hannover",
+    "University of Southern California"
+   ],
+   "works": 736
+  },
+  {
+   "file": "content/people\\276-jacqueline-bloch.md",
+   "name": "Jacqueline Bloch",
+   "orcid": "https://orcid.org/0000-0001-7823-8420",
+   "openalex": "https://openalex.org/A5009733134",
+   "oa_name": "J. Bloch",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "Centre National de la Recherche Scientifique",
+    "Alcatel Lucent (Germany)"
+   ],
+   "works": 355
+  },
+  {
+   "file": "content/people\\277-jan-michael-rost.md",
+   "name": "Jan-Michael Rost",
+   "orcid": "https://orcid.org/0000-0002-8306-1743",
+   "openalex": "https://openalex.org/A5027962001",
+   "oa_name": "Jan M. Rost",
+   "affs": [
+    "University of Stuttgart",
+    "University of Nevada, Reno",
+    "Harvard University"
+   ],
+   "works": 386
+  },
+  {
+   "file": "content/people\\278-jay-gupta.md",
+   "name": "Jay Gupta",
+   "orcid": "https://orcid.org/0000-0002-3908-7719",
+   "openalex": "https://openalex.org/A5022711530",
+   "oa_name": "Jay Gupta",
+   "affs": [
+    "University of Dayton",
+    "United States Air Force Research Laboratory",
+    "United States Food and Drug Administration"
+   ],
+   "works": 127
+  },
+  {
+   "file": "content/people\\279-jelena-vuckovic.md",
+   "name": "Jelena Vuckovic",
+   "orcid": "https://orcid.org/0000-0002-4603-9686",
+   "openalex": "https://openalex.org/A5067782441",
+   "oa_name": "Jelena Vu\u010dkovi\u0107",
+   "affs": [
+    "University of Stuttgart",
+    "California Institute of Technology",
+    "University of Sydney"
+   ],
+   "works": 780
+  },
+  {
+   "file": "content/people\\280-jelmer-renema.md",
+   "name": "Jelmer Renema",
+   "orcid": "https://orcid.org/0000-0002-7141-3270",
+   "openalex": "https://openalex.org/A5004153293",
+   "oa_name": "Jelmer J. Renema",
+   "affs": [
+    "Leiden University",
+    "University of Copenhagen",
+    "University of Zurich"
+   ],
+   "works": 116
+  },
+  {
+   "file": "content/people\\282-jorg-schmiedmayer.md",
+   "name": "Jorg Schmiedmayer",
+   "orcid": "https://orcid.org/0000-0001-7799-5614",
+   "openalex": "https://openalex.org/A5001996038",
+   "oa_name": "J\u00f6rg Schmiedmayer",
+   "affs": [
+    "Tata Institute of Fundamental Research",
+    "University of Applied Sciences Technikum Wien",
+    "Ben-Gurion University of the Negev"
+   ],
+   "works": 418
+  },
+  {
+   "file": "content/people\\283-jos-ignacio-latorre.md",
+   "name": "Jose Ignacio Latorre",
+   "orcid": "https://orcid.org/0000-0003-1702-7018",
+   "openalex": "https://openalex.org/A5074597301",
+   "oa_name": "Jos\u00e9 I. Latorre",
+   "affs": [
+    "Centre for Quantum Technologies",
+    "Universitat Aut\u00f2noma de Barcelona",
+    "University of Copenhagen"
+   ],
+   "works": 209
+  },
+  {
+   "file": "content/people\\284-josh-nunn.md",
+   "name": "Josh Nunn",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5111517184",
+   "oa_name": "J. Nunn",
+   "affs": [
+    "University of East London",
+    "Clarendon College",
+    "University of Warwick"
+   ],
+   "works": 63
+  },
+  {
+   "file": "content/people\\285-juan-pablo-paz.md",
+   "name": "Juan Pablo Paz",
+   "orcid": "https://orcid.org/0000-0002-2197-7502",
+   "openalex": "https://openalex.org/A5018384914",
+   "oa_name": "Juan Pablo Paz",
+   "affs": [
+    "Universitat Jaume I",
+    "Universit\u00e9 Libre de Bruxelles",
+    "Los Alamos National Laboratory"
+   ],
+   "works": 191
+  },
+  {
+   "file": "content/people\\286-k-birgitta-whaley.md",
+   "name": "K. Birgitta Whaley",
+   "orcid": "https://orcid.org/0000-0002-7164-4757",
+   "openalex": "https://openalex.org/A5019265176",
+   "oa_name": "K. Birgitta Whaley",
+   "affs": [
+    "QB3",
+    "University of Kassel",
+    "Berkeley College"
+   ],
+   "works": 421
+  },
+  {
+   "file": "content/people\\287-keith-burnett.md",
+   "name": "Keith Burnett",
+   "orcid": "https://orcid.org/0000-0001-9055-0265",
+   "openalex": "https://openalex.org/A5064708600",
+   "oa_name": "K. Burnett",
+   "affs": [
+    "Saddleback College",
+    "Ben-Gurion University of the Negev",
+    "Google (United States)"
+   ],
+   "works": 413
+  },
+  {
+   "file": "content/people\\288-klaus-boller.md",
+   "name": "Klaus Boller",
+   "orcid": "https://orcid.org/0000-0001-6628-610X",
+   "openalex": "https://openalex.org/A5062087093",
+   "oa_name": "Klaus J. Boller",
+   "affs": [
+    "Russian Academy of Sciences",
+    "University of Kaiserslautern",
+    "Universit\u00e4t Hamburg"
+   ],
+   "works": 583
+  },
+  {
+   "file": "content/people\\289-kyungwon-an.md",
+   "name": "Kyungwon An",
+   "orcid": "https://orcid.org/0000-0003-4142-6297",
+   "openalex": "https://openalex.org/A5060356848",
+   "oa_name": "Kyungwon An",
+   "affs": [
+    "Pohang University of Science and Technology",
+    "Georgia Institute of Technology",
+    "Seoul National University"
+   ],
+   "works": 238
+  },
+  {
+   "file": "content/people\\290-l-j-sham.md",
+   "name": "Lu Jeu Sham",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5103410818",
+   "oa_name": "Lu Jeu Sham",
+   "affs": [
+    "University of California, San Diego",
+    "University of California San Diego"
+   ],
+   "works": 2
+  },
+  {
+   "file": "content/people\\292-lieven-m-k-vandersypen.md",
+   "name": "Lieven M. K. Vandersypen",
+   "orcid": "https://orcid.org/0000-0003-4346-7877",
+   "openalex": "https://openalex.org/A5012503150",
+   "oa_name": "Lieven M. K. Vandersypen",
+   "affs": [
+    "March of Dimes",
+    "IBM (United States)",
+    "Intel (United States)"
+   ],
+   "works": 351
+  },
+  {
+   "file": "content/people\\293-markus-oberthaler.md",
+   "name": "Markus Oberthaler",
+   "orcid": "https://orcid.org/0000-0002-8843-6364",
+   "openalex": "https://openalex.org/A5009710300",
+   "oa_name": "Markus K. Oberthaler",
+   "affs": [
+    "Universit\u00e9 Paris-Sud",
+    "\u00c9cole Normale Sup\u00e9rieure Paris-Saclay",
+    "Centre National de la Recherche Scientifique"
+   ],
+   "works": 251
+  },
+  {
+   "file": "content/people\\295-matthias-weidemuller.md",
+   "name": "Matthias Weidemuller",
+   "orcid": "https://orcid.org/0000-0001-5639-5126",
+   "openalex": "https://openalex.org/A5005894508",
+   "oa_name": "Matthias Weidem\u00fcller",
+   "affs": [
+    "Texas Tech University",
+    "University of Science and Technology of China",
+    "Max Planck Society"
+   ],
+   "works": 254
+  },
+  {
+   "file": "content/people\\296-michael-g-raymer.md",
+   "name": "Michael G. Raymer",
+   "orcid": "https://orcid.org/0000-0002-1661-7182",
+   "openalex": "https://openalex.org/A5086999377",
+   "oa_name": "Michael G. Raymer",
+   "affs": [
+    "National Institute of Standards and Technology",
+    "Oregon Research Institute",
+    "Joint Institute for Laboratory Astrophysics"
+   ],
+   "works": 295
+  },
+  {
+   "file": "content/people\\297-michael-s-chapman.md",
+   "name": "Michael S. Chapman",
+   "orcid": "https://orcid.org/0000-0003-4424-0156",
+   "openalex": "https://openalex.org/A5012428217",
+   "oa_name": "Michael Chapman",
+   "affs": [
+    "Dartmouth College",
+    "California Institute of Technology",
+    "Dartmouth Institute for Health Policy and Clinical Practice"
+   ],
+   "works": 344
+  },
+  {
+   "file": "content/people\\298-michel-orrit.md",
+   "name": "Michel Orrit",
+   "orcid": "https://orcid.org/0000-0002-3607-3426",
+   "openalex": "https://openalex.org/A5065097100",
+   "oa_name": "Michel Orrit",
+   "affs": [
+    "Leiden University",
+    "Centre National de la Recherche Scientifique",
+    "Max Planck Society"
+   ],
+   "works": 349
+  },
+  {
+   "file": "content/people\\299-mikko-mottonen.md",
+   "name": "Mikko Mottonen",
+   "orcid": "https://orcid.org/0000-0001-5084-2298",
+   "openalex": "https://openalex.org/A5047643849",
+   "oa_name": "Mikko M\u00f6tt\u00f6nen",
+   "affs": [
+    "Hudson Institute",
+    "University of Helsinki",
+    "Australian Research Council"
+   ],
+   "works": 365
+  },
+  {
+   "file": "content/people\\300-neil-b-manson.md",
+   "name": "Neil B. Manson",
+   "orcid": "https://orcid.org/0000-0002-5875-4118",
+   "openalex": "https://openalex.org/A5012339093",
+   "oa_name": "Neil B. Manson",
+   "affs": [
+    "Australian National University",
+    "Dalhousie University",
+    "Amirkabir University of Technology"
+   ],
+   "works": 213
+  },
+  {
+   "file": "content/people\\301-niek-van-hulst.md",
+   "name": "Niek van Hulst",
+   "orcid": "https://orcid.org/0000-0003-4630-1776",
+   "openalex": "https://openalex.org/A5059424153",
+   "oa_name": "N.F. van Hulst",
+   "affs": [
+    "Instituci\u00f3 Catalana de Recerca i Estudis Avan\u00e7ats",
+    "Universitat Aut\u00f2noma de Barcelona",
+    "Centre National de la Recherche Scientifique"
+   ],
+   "works": 682
+  },
+  {
+   "file": "content/people\\302-paolo-villoresi.md",
+   "name": "Paolo Villoresi",
+   "orcid": "https://orcid.org/0000-0002-7977-015X",
+   "openalex": "https://openalex.org/A5045894688",
+   "oa_name": "Paolo Villoresi",
+   "affs": [
+    "Leiden University",
+    "Rutherford Appleton Laboratory",
+    "University of Padua"
+   ],
+   "works": 380
+  },
+  {
+   "file": "content/people\\303-paul-l-mceuen.md",
+   "name": "Paul L. McEuen",
+   "orcid": "https://orcid.org/0000-0002-6438-5750",
+   "openalex": "https://openalex.org/A5010755907",
+   "oa_name": "Paul L. McEuen",
+   "affs": [
+    "Brigham Young University",
+    "Karlsruhe Institute of Technology",
+    "University of Geneva"
+   ],
+   "works": 338
+  },
+  {
+   "file": "content/people\\304-paul-vitanyi.md",
+   "name": "Paul Vitanyi",
+   "orcid": "https://orcid.org/0000-0002-5712-7585",
+   "openalex": "https://openalex.org/A5029628745",
+   "oa_name": "Paul Vit\u00e1nyi",
+   "affs": [
+    "University of California, Riverside",
+    "Buffalo State University",
+    "European Union"
+   ],
+   "works": 451
+  },
+  {
+   "file": "content/people\\305-pepijn-pinkse.md",
+   "name": "Pepijn Pinkse",
+   "orcid": "https://orcid.org/0000-0001-7912-9322",
+   "openalex": "https://openalex.org/A5048885459",
+   "oa_name": "Pepijn W. H. Pinkse",
+   "affs": [
+    "Leiden University",
+    "Centre National de la Recherche Scientifique",
+    "Max Planck Society"
+   ],
+   "works": 260
+  },
+  {
+   "file": "content/people\\306-peter-lambropoulos.md",
+   "name": "Peter Lambropoulos",
+   "orcid": "https://orcid.org/0000-0002-7521-8552",
+   "openalex": "https://openalex.org/A5034807723",
+   "oa_name": "P. Lambropoulos",
+   "affs": [
+    "University of Southern California",
+    "Argonne National Laboratory",
+    "Helmholtz Institute Jena"
+   ],
+   "works": 335
+  },
+  {
+   "file": "content/people\\307-peter-leek.md",
+   "name": "Peter Leek",
+   "orcid": "https://orcid.org/0000-0002-1410-5642",
+   "openalex": "https://openalex.org/A5058682992",
+   "oa_name": "Peter Leek",
+   "affs": [
+    "Universit\u00e9 de Sherbrooke",
+    "University of Waterloo",
+    "University of Cambridge"
+   ],
+   "works": 95
+  },
+  {
+   "file": "content/people\\308-peter-mosley.md",
+   "name": "Peter Mosley",
+   "orcid": "https://orcid.org/0000-0001-5523-0311",
+   "openalex": "https://openalex.org/A5069384195",
+   "oa_name": "Peter J. Mosley",
+   "affs": [
+    "Engineering and Physical Sciences Research Council",
+    "Max Planck Society",
+    "University of East London"
+   ],
+   "works": 139
+  },
+  {
+   "file": "content/people\\309-peter-schmelcher.md",
+   "name": "Peter Schmelcher",
+   "orcid": "https://orcid.org/0000-0002-2637-0937",
+   "openalex": "https://openalex.org/A5064525551",
+   "oa_name": "Peter Schmelcher",
+   "affs": [
+    "College of the Holy Cross",
+    "University of California, Santa Barbara",
+    "University of Illinois Urbana-Champaign"
+   ],
+   "works": 725
+  },
+  {
+   "file": "content/people\\310-pierre-rouchon.md",
+   "name": "Pierre Rouchon",
+   "orcid": "https://orcid.org/0000-0001-6160-5634",
+   "openalex": "https://openalex.org/A5065752316",
+   "oa_name": "Pierre Rouchon",
+   "affs": [
+    "Instituto de Engenharia de Sistemas e Computadores Investiga\u00e7\u00e3o e Desenvolvimento",
+    "California Institute of Technology",
+    "Centre National de la Recherche Scientifique"
+   ],
+   "works": 409
+  },
+  {
+   "file": "content/people\\312-richard-n-zare.md",
+   "name": "Richard N. Zare",
+   "orcid": "https://orcid.org/0000-0001-5266-4253",
+   "openalex": "https://openalex.org/A5024513735",
+   "oa_name": "Richard N. Zare",
+   "affs": [
+    "Northwestern University",
+    "Buffalo State University",
+    "Texas Tech University"
+   ],
+   "works": 1517
+  },
+  {
+   "file": "content/people\\313-robert-a-buhrman.md",
+   "name": "Robert A. Buhrman",
+   "orcid": "https://orcid.org/0000-0002-5535-2535",
+   "openalex": "https://openalex.org/A5079459414",
+   "oa_name": "R. A. Buhrman",
+   "affs": [
+    "Lawrence Livermore National Laboratory",
+    "AT&T (United States)",
+    "Google (United States)"
+   ],
+   "works": 485
+  },
+  {
+   "file": "content/people\\314-robert-m-westervelt.md",
+   "name": "Robert M. Westervelt",
+   "orcid": "https://orcid.org/0000-0001-9836-3923",
+   "openalex": "https://openalex.org/A5091499476",
+   "oa_name": "Robert M. Westervelt",
+   "affs": [
+    "Santa Barbara City College",
+    "Harvard University",
+    "University of California, Santa Barbara"
+   ],
+   "works": 213
+  },
+  {
+   "file": "content/people\\315-roberta-ramponi.md",
+   "name": "Roberta Ramponi",
+   "orcid": "https://orcid.org/0000-0002-1806-9706",
+   "openalex": "https://openalex.org/A5002225166",
+   "oa_name": "Roberta Ramponi",
+   "affs": [
+    "United States Nuclear Regulatory Commission",
+    "United States Department of the Army",
+    "Istituto Nazionale di Fisica Nucleare"
+   ],
+   "works": 437
+  },
+  {
+   "file": "content/people\\316-rodolfo-miranda.md",
+   "name": "Rodolfo Miranda",
+   "orcid": "https://orcid.org/0000-0002-1064-6724",
+   "openalex": "https://openalex.org/A5008464293",
+   "oa_name": "Rodolfo Miranda",
+   "affs": [
+    "Madrid Institute for Advanced Studies",
+    "Universidad Complutense de Madrid",
+    "Uppsala University"
+   ],
+   "works": 737
+  },
+  {
+   "file": "content/people\\317-ronald-l-walsworth.md",
+   "name": "Ronald L. Walsworth",
+   "orcid": "https://orcid.org/0000-0003-0311-4751",
+   "openalex": "https://openalex.org/A5020065768",
+   "oa_name": "Ronald L. Walsworth",
+   "affs": [
+    "Harvard University",
+    "Smithsonian Astrophysical Observatory",
+    "University of Kaiserslautern"
+   ],
+   "works": 652
+  },
+  {
+   "file": "content/people\\318-shinji-urabe.md",
+   "name": "Shinji Urabe",
+   "orcid": null,
+   "openalex": "https://openalex.org/A5111461450",
+   "oa_name": "Shinji Urabe",
+   "affs": [
+    "Ministry of Internal Affairs and Communications",
+    "Ministry of Communications",
+    "Kyushu University"
+   ],
+   "works": 99
+  },
+  {
+   "file": "content/people\\319-stephan-reitzenstein.md",
+   "name": "Stephan Reitzenstein",
+   "orcid": "https://orcid.org/0000-0002-1381-9838",
+   "openalex": "https://openalex.org/A5076333546",
+   "oa_name": "Stephan Reitzenstein",
+   "affs": [
+    "University of St Andrews",
+    "Technion \u2013 Israel Institute of Technology",
+    "TU Dortmund University"
+   ],
+   "works": 513
+  },
+  {
+   "file": "content/people\\320-steven-prawer.md",
+   "name": "Steven Prawer",
+   "orcid": "https://orcid.org/0000-0002-4959-0828",
+   "openalex": "https://openalex.org/A5069701748",
+   "oa_name": "Steven Prawer",
+   "affs": [
+    "University of Stuttgart",
+    "United States Naval Research Laboratory",
+    "Carter Center"
+   ],
+   "works": 557
+  },
+  {
+   "file": "content/people\\321-stuart-adams.md",
+   "name": "Charles Stuart Adams",
+   "orcid": "https://orcid.org/0000-0001-5602-2741",
+   "openalex": "https://openalex.org/A5011395103",
+   "oa_name": "Charles S. Adams",
+   "affs": [
+    "Centre National de la Recherche Scientifique",
+    "University of Strathclyde",
+    "University of Konstanz"
+   ],
+   "works": 323
+  },
+  {
+   "file": "content/people\\323-tilman-pfau.md",
+   "name": "Tilman Pfau",
+   "orcid": "https://orcid.org/0000-0003-3272-3468",
+   "openalex": "https://openalex.org/A5024615683",
+   "oa_name": "Tilman Pfau",
+   "affs": [
+    "University of Stuttgart",
+    "Instituci\u00f3 Catalana de Recerca i Estudis Avan\u00e7ats",
+    "Royal Veterinary College"
+   ],
+   "works": 445
+  },
+  {
+   "file": "content/people\\324-timothy-p-softley.md",
+   "name": "Timothy P. Softley",
+   "orcid": "https://orcid.org/0000-0002-5285-6308",
+   "openalex": "https://openalex.org/A5024154366",
+   "oa_name": "T. P. Softley",
+   "affs": [
+    "Mansfield University",
+    "National Physical Laboratory",
+    "University of Cambridge"
+   ],
+   "works": 161
+  },
+  {
+   "file": "content/people\\325-tord-claeson.md",
+   "name": "Tord Claeson",
+   "orcid": "https://orcid.org/0000-0002-6390-5160",
+   "openalex": "https://openalex.org/A5069887372",
+   "oa_name": "T. Claeson",
+   "affs": [
+    "Physikalisch-Technische Bundesanstalt",
+    "Russian Academy of Sciences",
+    "Palo Alto Research Center"
+   ],
+   "works": 478
+  },
+  {
+   "file": "content/people\\326-wonho-jhe.md",
+   "name": "Wonho Jhe",
+   "orcid": "https://orcid.org/0000-0002-4716-5449",
+   "openalex": "https://openalex.org/A5006966747",
+   "oa_name": "Wonho Jhe",
+   "affs": [
+    "Inje University",
+    "Chonnam National University",
+    "Oklahoma State University"
+   ],
+   "works": 336
+  },
+  {
+   "file": "content/people\\327-yoshihisa-yamamoto.md",
+   "name": "Yoshihisa Yamamoto",
+   "orcid": "https://orcid.org/0000-0002-4150-6804",
+   "openalex": "https://openalex.org/A5071256887",
+   "oa_name": "Y. Yamamoto",
+   "affs": [
+    "Kanazawa University",
+    "Meidensha (Japan)",
+    "Hitotsubashi University"
+   ],
+   "works": 1403
+  },
+  {
+   "file": "content/people\\328-mark-thompson.md",
+   "name": "Mark Thompson",
+   "orcid": "https://orcid.org/0000-0002-2865-9558",
+   "openalex": "https://openalex.org/A5064808655",
+   "oa_name": "Mark G. Thompson",
+   "affs": [
+    "Griffith University",
+    "Michigan Technological University",
+    "Toshiba (Japan)"
+   ],
+   "works": 380
+  },
+  {
+   "file": "content/people\\329-ran-finkelstein.md",
+   "name": "Ran Finkelstein",
+   "orcid": "https://orcid.org/0000-0002-4524-5875",
+   "openalex": "https://openalex.org/A5074061697",
+   "oa_name": "Ran Finkelstein",
+   "affs": [
+    "California Institute of Technology",
+    "Tel Aviv University",
+    "Hebrew University of Jerusalem"
+   ],
+   "works": 41
+  }
+ ],
+ "ambiguous": [
+  {
+   "name": "Jungsang Kim",
+   "cands": [
+    [
+     "Jungsang Kim",
+     "https://orcid.org/0000-0001-9551-3826",
+     259
+    ],
+    [
+     "Junki Kim",
+     "https://orcid.org/0000-0001-8133-4819",
+     143
+    ]
+   ]
+  },
+  {
+   "name": "Wenhui Li",
+   "cands": [
+    [
+     "Weiwei Li",
+     "https://orcid.org/0000-0002-7329-4236",
+     1422
+    ],
+    [
+     "Wei Li",
+     "https://orcid.org/0000-0001-7015-7335",
+     1091
+    ],
+    [
+     "Wenhua Li",
+     "https://orcid.org/0000-0002-9457-6662",
+     857
+    ]
+   ]
+  },
+  {
+   "name": "William D. Phillips",
+   "cands": [
+    [
+     "William D. Phillips",
+     "https://orcid.org/0000-0003-2845-0399",
+     550
+    ],
+    [
+     "William D. Phillips",
+     null,
+     200
+    ]
+   ]
+  },
+  {
+   "name": "Alexander Gaeta",
+   "cands": [
+    [
+     "Alexander L. Gaeta",
+     "https://orcid.org/0000-0001-6877-7316",
+     597
+    ],
+    [
+     "Alexander L. Gaeta",
+     null,
+     241
+    ],
+    [
+     "Alexander L. Gaeta",
+     null,
+     2
+    ]
+   ]
+  },
+  {
+   "name": "Beat H. Meier",
+   "cands": [
+    [
+     "Beat H. Meier",
+     "https://orcid.org/0000-0002-9107-4464",
+     632
+    ],
+    [
+     "Beat Meier",
+     "https://orcid.org/0000-0003-3303-6854",
+     368
+    ],
+    [
+     "Beat H. Meier",
+     null,
+     3
+    ]
+   ]
+  },
+  {
+   "name": "Colin Webb",
+   "cands": [
+    [
+     "Colin Webb",
+     "https://orcid.org/0000-0002-4094-2524",
+     344
+    ],
+    [
+     "C. E. Webb",
+     null,
+     149
+    ],
+    [
+     "Colin David Webb",
+     null,
+     4
+    ]
+   ]
+  },
+  {
+   "name": "John M. Doyle",
+   "cands": [
+    [
+     "John M. Doyle",
+     "https://orcid.org/0000-0001-9793-7630",
+     435
+    ],
+    [
+     "John Doyle",
+     "https://orcid.org/0000-0002-0763-4853",
+     231
+    ]
+   ]
+  },
+  {
+   "name": "Leo Kouwenhoven",
+   "cands": [
+    [
+     "Leo P. Kouwenhoven",
+     null,
+     323
+    ],
+    [
+     "Leo P. Kouwenhoven",
+     "https://orcid.org/0000-0002-7046-8181",
+     132
+    ],
+    [
+     "Leo kouwenhoven",
+     null,
+     1
+    ]
+   ]
+  },
+  {
+   "name": "Thomas F. Gallagher",
+   "cands": [
+    [
+     "T. F. Gallagher",
+     "https://orcid.org/0000-0001-6381-6902",
+     317
+    ],
+    [
+     "T. F. Gallagher",
+     "https://orcid.org/0000-0002-8775-2330",
+     231
+    ]
+   ]
+  }
+ ],
+ "none": [
+  "Johannes Hecker Denschlag",
+  "Dan Stick",
+  "Ignacio Cirac",
+  "Dan Rugar",
+  "Martin Plenio",
+  "Randy Hulet"
+ ]
+}

@@ -71,6 +71,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Ulrik_Lund_Andersen
   institution_profile: https://orbit.dtu.dk/en/persons/ulrik-lund-andersen/
   openalex: https://openalex.org/A5020064397
   orcid: https://orcid.org/0000-0002-6256-1902

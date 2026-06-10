@@ -17,6 +17,8 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-7291-7120
+  openalex: https://openalex.org/A5053617356
   homepage: https://phys.huji.ac.il/
 location:
   city: Jerusalem

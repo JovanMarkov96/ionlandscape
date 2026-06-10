@@ -15,6 +15,8 @@ group_type: experimental
 id: 226-philippe-grangier
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-8211-8958
+  openalex: https://openalex.org/A5079645189
   wikipedia: https://en.wikipedia.org/wiki/Philippe_Grangier
 location:
   city: Palaiseau

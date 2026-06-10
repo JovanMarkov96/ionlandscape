@@ -17,6 +17,8 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-8724-9885
+  openalex: https://openalex.org/A5078019732
   homepage: https://jqi.umd.edu/
 location:
   city: College Park

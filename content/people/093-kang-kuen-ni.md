@@ -71,6 +71,8 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=OrPBhnIAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Kang-Kuen_Ni
   group_page: https://kni.faculty.chemistry.harvard.edu
   institution_profile: https://www.chemistry.harvard.edu/people/kang-kuen-ni
   openalex: https://openalex.org/A5025302981

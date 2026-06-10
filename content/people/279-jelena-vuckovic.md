@@ -14,6 +14,9 @@ group_type: experimental
 id: 279-jelena-vuckovic
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=-afJI14AAAAJ
+  orcid: https://orcid.org/0000-0002-4603-9686
+  openalex: https://openalex.org/A5067782441
   homepage: https://www.stanford.edu/
   wikipedia: https://en.wikipedia.org/wiki/Jelena_Vu%C4%8Dkovi%C4%87
 location:

@@ -14,6 +14,9 @@ group_type: experimental
 id: 218-steven-chu
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=b9Bod2MAAAAJ
+  orcid: https://orcid.org/0000-0002-4572-0154
+  openalex: https://openalex.org/A5001967033
   wikipedia: https://en.wikipedia.org/wiki/Steven_Chu
 location:
   city: Stanford

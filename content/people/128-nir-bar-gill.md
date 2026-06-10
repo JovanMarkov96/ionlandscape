@@ -64,6 +64,7 @@ lineage_check:
   last_checked: '2026-05-30'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=fe2iYxQAAAAJ
   group_page: https://bargill.huji.ac.il/
   institution_profile: https://cris.iucc.ac.il/en/persons/nir-bar-gill/
   openalex: https://openalex.org/A5026599520

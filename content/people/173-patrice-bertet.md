@@ -57,6 +57,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-26'
 links:
+  google_scholar: https://scholar.google.com/citations?user=3txnOgsAAAAJ
   group_page: https://iramis.cea.fr/en/spec/gq/
   institution_profile: https://iramis.cea.fr/en/spec/pisp/patrice-bertet-2/
   openalex: https://openalex.org/A5033073814

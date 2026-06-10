@@ -57,6 +57,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=0A331AIAAAAJ
   group_page: http://childressgroup.blogspot.com/p/home.html
   institution_profile: https://www.physics.mcgill.ca/people/faculty-g.html
   openalex: https://openalex.org/A5027839635

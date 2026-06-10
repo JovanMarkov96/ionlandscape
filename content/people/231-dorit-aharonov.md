@@ -16,6 +16,9 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=hTBcSYQAAAAJ
+  orcid: https://orcid.org/0000-0002-9378-8495
+  openalex: https://openalex.org/A5005794608
   wikipedia: https://en.wikipedia.org/wiki/Dorit_Aharonov
 location:
   city: Jerusalem

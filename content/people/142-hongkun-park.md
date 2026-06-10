@@ -64,6 +64,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Hongkun_Park
   group_page: https://hongkunparklab.com
   institution_profile: https://www.physics.harvard.edu/people/facpages/park
   openalex: https://openalex.org/A5086778667

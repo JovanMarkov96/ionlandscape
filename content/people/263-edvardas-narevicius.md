@@ -13,6 +13,8 @@ group_type: experimental
 id: 263-edvardas-narevicius
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-3879-1931
+  openalex: https://openalex.org/A5009082239
   homepage: https://www.weizmann.ac.il/
 location:
   city: Rehovot

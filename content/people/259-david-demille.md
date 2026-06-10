@@ -50,6 +50,8 @@ labels:
 - Experimental group
 last_verified_at: '2026-06-03'
 links:
+  orcid: https://orcid.org/0000-0001-7139-4121
+  openalex: https://openalex.org/A5027003713
   google_scholar: https://scholar.google.com/citations?user=uP5xsLUAAAAJ&hl=en
   group_page: https://demillegroup.psd.uchicago.edu/
   homepage: https://physics-astronomy.jhu.edu/directory/david-demille/

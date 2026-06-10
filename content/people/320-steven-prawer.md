@@ -14,6 +14,8 @@ group_type: experimental
 id: 320-steven-prawer
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-4959-0828
+  openalex: https://openalex.org/A5069701748
   homepage: https://www.unimelb.edu.au/
 location:
   city: Melbourne

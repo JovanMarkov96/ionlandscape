@@ -17,6 +17,8 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-1879-3902
+  openalex: https://openalex.org/A5088795401
   wikipedia: https://en.wikipedia.org/wiki/Netanel_Lindner
 location:
   city: Haifa

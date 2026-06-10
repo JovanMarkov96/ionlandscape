@@ -13,6 +13,8 @@ group_type: experimental
 id: 292-lieven-m-k-vandersypen
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-4346-7877
+  openalex: https://openalex.org/A5012503150
   homepage: https://qutech.nl/
   wikipedia: https://en.wikipedia.org/wiki/Lieven_Vandersypen
 location:

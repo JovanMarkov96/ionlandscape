@@ -58,6 +58,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=B8gEYX4AAAAJ
   group_page: https://bernienlab.com
   institution_profile: https://iqoqi.at/en/people/staff/staff/hannes-bernien
   openalex: https://openalex.org/A5031426303

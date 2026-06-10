@@ -13,6 +13,9 @@ group_type: experimental
 id: 317-ronald-l-walsworth
 last_verified_at: '2026-06-02'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Ronald_Walsworth
+  orcid: https://orcid.org/0000-0003-0311-4751
+  openalex: https://openalex.org/A5020065768
   homepage: https://quantum.umd.edu/
 location:
   city: College Park

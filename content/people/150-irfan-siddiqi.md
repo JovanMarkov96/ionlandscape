@@ -48,6 +48,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-26'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Irfan_Siddiqi
   group_page: https://qnl.berkeley.edu
   homepage: https://aqt.lbl.gov/about-aqt/qnl/
   institution_profile: https://physics.berkeley.edu/people/faculty/irfan-siddiqi

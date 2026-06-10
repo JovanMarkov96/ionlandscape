@@ -14,6 +14,9 @@ group_type: experimental
 id: 305-pepijn-pinkse
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=FmA4TOgAAAAJ
+  orcid: https://orcid.org/0000-0001-7912-9322
+  openalex: https://openalex.org/A5048885459
   homepage: https://www.utwente.nl/
 location:
   city: Enschede

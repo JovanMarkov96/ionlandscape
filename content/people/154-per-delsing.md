@@ -62,6 +62,7 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: false
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Per_Delsing
   institution_profile: https://www.chalmers.se/en/persons/delsing/
   openalex: https://openalex.org/A5073844805
   orcid: https://orcid.org/0000-0002-1222-3506

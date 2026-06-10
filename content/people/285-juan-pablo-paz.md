@@ -16,6 +16,9 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Juan_Pablo_Paz
+  orcid: https://orcid.org/0000-0002-2197-7502
+  openalex: https://openalex.org/A5018384914
   homepage: https://www.uba.ar/
 location:
   city: Buenos Aires

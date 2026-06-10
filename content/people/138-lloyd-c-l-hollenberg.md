@@ -55,6 +55,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=iueFAVkAAAAJ
   institution_profile: https://findanexpert.unimelb.edu.au/profile/3038-lloyd-hollenberg
   openalex: https://openalex.org/A5006045678
   orcid: https://orcid.org/0000-0001-7672-6965

@@ -14,6 +14,7 @@ group_type: experimental
 id: 272-guo-guangcan
 last_verified_at: '2026-06-02'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Guo_Guangcan
   homepage: https://www.ustc.edu.cn/
 location:
   city: Hefei

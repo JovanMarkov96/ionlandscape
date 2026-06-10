@@ -13,6 +13,9 @@ group_type: experimental
 id: 313-robert-a-buhrman
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=A7HqfEIAAAAJ
+  orcid: https://orcid.org/0000-0002-5535-2535
+  openalex: https://openalex.org/A5079459414
   homepage: https://www.cornell.edu/
 location:
   city: Ithaca

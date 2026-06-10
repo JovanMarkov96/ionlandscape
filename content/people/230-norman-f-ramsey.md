@@ -15,6 +15,8 @@ group_type: experimental
 id: 230-norman-f-ramsey
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-5435-1135
+  openalex: https://openalex.org/A5068702687
   wikipedia: https://en.wikipedia.org/wiki/Norman_Foster_Ramsey_Jr.
 location:
   city: Cambridge

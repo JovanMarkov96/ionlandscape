@@ -59,6 +59,8 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=_tVJPCUAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Markus_Greiner
   group_page: https://greiner.physics.harvard.edu/
   institution_profile: https://www.physics.harvard.edu/people/facpages/greiner
   openalex: https://openalex.org/A5027431609

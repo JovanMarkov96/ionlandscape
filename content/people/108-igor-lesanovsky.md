@@ -61,6 +61,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=m-tvGyAAAAAJ
   group_page: https://github.com/AG-Lesanovsky
   institution_profile: https://uni-tuebingen.de/index.php?id=166449
   openalex: https://openalex.org/A5015979351

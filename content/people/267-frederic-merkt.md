@@ -13,6 +13,8 @@ group_type: experimental
 id: 267-frederic-merkt
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-4897-2234
+  openalex: https://openalex.org/A5059729730
   homepage: https://ethz.ch/
 location:
   city: Zurich

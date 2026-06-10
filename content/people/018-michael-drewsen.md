@@ -40,6 +40,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
+  google_scholar: https://scholar.google.com/citations?user=K1-nzhEAAAAJ
   google_scholar: null
   orcid: https://orcid.org/0000-0003-4767-3498
   university_profile: https://pure.au.dk/portal/en/persons/michael-drewsen

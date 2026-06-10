@@ -72,6 +72,8 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=SwLIrjAAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Nicolas_Gisin
   group_page: https://www.unige.ch/gap/qic/gisin/
   institution_profile: https://www.unige.ch/gap/qic/gisin/
   openalex: https://openalex.org/A5019474028

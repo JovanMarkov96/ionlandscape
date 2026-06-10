@@ -68,6 +68,7 @@ lineage_check:
   last_checked: '2026-05-30'
   postdoc_verified: true
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Hannes_Pichler_(physicist)
   google_scholar: https://scholar.google.com/citations?user=Q-gdwB8AAAAJ&hl=en
   institution_profile: https://iqoqi.at/en/people/staff/staff/hannes-pichler
   openalex: https://openalex.org/A5041692282

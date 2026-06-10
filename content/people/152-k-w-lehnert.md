@@ -62,6 +62,7 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Konrad_Lehnert
   group_page: https://campuspress.yale.edu/lehnertlab/
   institution_profile: https://physics.yale.edu/people/konrad-lehnert
   openalex: https://openalex.org/A5022583741

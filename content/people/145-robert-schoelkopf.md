@@ -68,6 +68,8 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=T9a08xsAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Robert_J._Schoelkopf
   group_page: http://rsl.yale.edu/
   institution_profile: https://physics.yale.edu/people/robert-schoelkopf
   openalex: https://openalex.org/A5135818918

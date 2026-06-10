@@ -14,6 +14,9 @@ group_type: experimental
 id: 278-jay-gupta
 last_verified_at: '2026-06-02'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Jay_Gupta
+  orcid: https://orcid.org/0000-0002-3908-7719
+  openalex: https://openalex.org/A5022711530
   homepage: https://physics.osu.edu/
 location:
   city: Columbus

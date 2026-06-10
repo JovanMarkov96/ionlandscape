@@ -1,0 +1,380 @@
+{
+ "http://hqs.iiis.tsinghua.edu.cn/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "http://nems.snu.ac.kr/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "http://qion.ewha.ac.kr/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "http://qis.snu.ac.kr/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "http://research.physics.berkeley.edu/clarke/overview.html": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": "http://web.archive.org/web/20200215091742/http://research.physics.berkeley.edu:80/clarke/overview.html"
+ },
+ "https://atlantic-quantum.com": {
+  "verdict": "dead",
+  "last": "ssl",
+  "wayback": "http://web.archive.org/web/20251107123009/https://atlantic-quantum.com/"
+ },
+ "https://bigq.dtu.dk/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://cqt.nus.edu.sg/people/principal-investigators/dzmitry-matsukevich/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://eleqtron.com/en/news/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Infleqtion": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/J%C3%B6rg_Schmiedmayer": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Lieven_Vandersypen": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Martin_Plenio": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Netanel_Lindner": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Philippe_Grangier": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Quantum_Source_Labs": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Randall_Hulet": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Russian_Quantum_Center": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://en.wikipedia.org/wiki/Tilman_Pfau": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": "http://web.archive.org/web/20260209142052/https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/"
+ },
+ "https://gtri.gatech.edu/researcher/brian-mcmahon": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-appoints-dr-subodh-kulkarni-president-and": {
+  "verdict": "dead",
+  "last": "timeout",
+  "wayback": null
+ },
+ "https://investors.rigetti.com/news-releases/news-release-details/rigetti-signs-letter-intent-us-government-quantum-computing": {
+  "verdict": "dead",
+  "last": "timeout",
+  "wayback": null
+ },
+ "https://ionq.com/quantum-hardware": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://jdoyle.hsites.harvard.edu/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://jianggroup.uchicago.edu": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://nanoquant.seas.upenn.edu/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://phsites.technion.ac.il/hacohen-gourgy/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://quanta.mit.edu/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://quantumai.google": {
+  "verdict": "ok_on_retry",
+  "final": "https://quantumai.google/"
+ },
+ "https://quantumai.google/roadmap": {
+  "verdict": "ok_on_retry",
+  "final": "https://quantumai.google/roadmap"
+ },
+ "https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://queti.skku.edu/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://scholar.google.com/citations?user=-q3Yb14AAAAJ": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://southasianpaleolithic.net": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://taminiaulab.qutech.nl/": {
+  "verdict": "dead",
+  "last": "ssl",
+  "wayback": null
+ },
+ "https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://willitsch.chemie.unibas.ch/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://www.bristol.ac.uk/qet-labs/research/laing-group/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.chalmers.se/en/persons/goran-wendin/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.hpe.com": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://www.hpe.com/us/en/newsroom/blog-post/2025/04/hewlett-packard-labs-quantum-supercomputing-framework-selected-for-darpa-quantum-benchmarking-initiative.html": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://www.iect.at/en/parityqc-im-interview-en/": {
+  "verdict": "dead",
+  "last": "ssl",
+  "wayback": null
+ },
+ "https://www.inam.berlin/post/founderfriday-mqs-a-service-solution-for-the-pharma-biotech-and-chemical-industries": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.infleqtion.com/hilbert": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.iqoqi-vienna.at/people/ursin-group/rupert-ursin/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.koellab.uni-bonn.de/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/beit-inc": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/id-quantique": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/kets-quantum-security": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/m-squared-lasers": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/menlo-systems-gmbh": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/multiverse-computing": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/pixel-photonics": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/q-ant": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/qilimanjaro-quantum-tech": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/qlm-technology": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/qti-srl": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/quantopticon": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/quantum-motion": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/quera-computing": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/company/silicon-quantum-computing": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.linkedin.com/in/barakdayan/": {
+  "verdict": "dead",
+  "last": "999",
+  "wayback": null
+ },
+ "https://www.lkb.upmc.fr/": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://www.mpq.mpg.de/cirac": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.mpq.mpg.de/rempe": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.nuclear.jp/~hasegawa/index_e.html": {
+  "verdict": "dead",
+  "last": "conn",
+  "wayback": null
+ },
+ "https://www.prnewswire.com/news-releases/infleqtion-and-sandboxaq-partner-to-advance-quantum-sensing-and-navigation-solutions-301849782.html": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-funding-302328222.html": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.quera.com/press-releases": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.quobly.io/about-us/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.rohde-schwarz.com/us/about/news-press/all-news/rohde-schwarz-strengthens-position-in-quantum-technology-market-by-acquiring-zurich-instruments-ag-press-release-detailpage_229356-1094656.html": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": null
+ },
+ "https://www.uba.ar/internacionales/": {
+  "verdict": "dead",
+  "last": "timeout",
+  "wayback": null
+ },
+ "https://www.uni-mainz.de/eng/": {
+  "verdict": "dead",
+  "last": "404",
+  "wayback": "http://web.archive.org/web/20231129055815/https://www.uni-mainz.de/eng/"
+ }
+}

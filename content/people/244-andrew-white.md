@@ -14,6 +14,8 @@ group_type: experimental
 id: 244-andrew-white
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-6175-1607
+  openalex: https://openalex.org/A5087959120
   homepage: https://www.uq.edu.au/
   wikipedia: https://en.wikipedia.org/wiki/Andrew_G._White
 location:

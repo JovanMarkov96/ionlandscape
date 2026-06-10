@@ -14,6 +14,9 @@ group_type: experimental
 id: 326-wonho-jhe
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=z_c9ABQAAAAJ
+  orcid: https://orcid.org/0000-0002-4716-5449
+  openalex: https://openalex.org/A5006966747
   homepage: https://physics.snu.ac.kr/
 location:
   city: Seoul

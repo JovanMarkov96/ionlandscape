@@ -63,6 +63,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=-RBQT1cAAAAJ
   group_page: https://sites.google.com/site/thompsonlabq/home
   institution_profile: https://ece.princeton.edu/people/jeff-thompson
   openalex: https://openalex.org/A5086641609

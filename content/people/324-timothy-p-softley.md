@@ -13,6 +13,9 @@ group_type: experimental
 id: 324-timothy-p-softley
 last_verified_at: '2026-06-02'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Timothy_Softley
+  orcid: https://orcid.org/0000-0002-5285-6308
+  openalex: https://openalex.org/A5024154366
   homepage: https://www.birmingham.ac.uk/
 location:
   city: Birmingham

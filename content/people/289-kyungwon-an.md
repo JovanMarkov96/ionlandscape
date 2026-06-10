@@ -14,6 +14,8 @@ group_type: experimental
 id: 289-kyungwon-an
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-4142-6297
+  openalex: https://openalex.org/A5060356848
   homepage: https://physics.snu.ac.kr/
 location:
   city: Seoul

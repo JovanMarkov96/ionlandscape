@@ -15,6 +15,8 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-6160-5634
+  openalex: https://openalex.org/A5065752316
   homepage: https://www.minesparis.psl.eu/
 location:
   city: Paris

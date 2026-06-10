@@ -14,6 +14,9 @@ group_type: mixed
 id: 220-jean-dalibard
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=1x1mbvgAAAAJ
+  orcid: https://orcid.org/0000-0001-8469-3913
+  openalex: https://openalex.org/A5027822857
   wikipedia: https://en.wikipedia.org/wiki/Jean_Dalibard
 location:
   city: Paris

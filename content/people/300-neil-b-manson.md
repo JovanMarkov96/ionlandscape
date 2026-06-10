@@ -14,6 +14,8 @@ group_type: experimental
 id: 300-neil-b-manson
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-5875-4118
+  openalex: https://openalex.org/A5012339093
   homepage: https://www.anu.edu.au/
 location:
   city: Canberra

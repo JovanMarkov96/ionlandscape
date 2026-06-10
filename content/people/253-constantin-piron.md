@@ -15,6 +15,7 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Constantin_Piron
   homepage: https://www.unige.ch/
 location:
   city: Geneva

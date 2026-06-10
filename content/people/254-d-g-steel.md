@@ -14,6 +14,10 @@ group_type: experimental
 id: 254-d-g-steel
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=3djzCmIAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Duncan_G._Steel
+  orcid: https://orcid.org/0000-0003-0551-1793
+  openalex: https://openalex.org/A5074954431
   homepage: https://lsa.umich.edu/physics
 location:
   city: Ann Arbor

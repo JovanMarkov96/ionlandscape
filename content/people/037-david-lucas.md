@@ -45,6 +45,8 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
+  orcid: https://orcid.org/0000-0001-8201-0808
+  openalex: https://openalex.org/A5103532728
   group_page: https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group
   orcid: null
 location:

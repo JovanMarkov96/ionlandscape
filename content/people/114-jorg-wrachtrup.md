@@ -58,6 +58,8 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-29'
 links:
+  google_scholar: https://scholar.google.com/citations?user=QkjRyiIAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/J%C3%B6rg_Wrachtrup
   group_page: https://www.pi3.uni-stuttgart.de/
   institution_profile: https://www.pi3.uni-stuttgart.de/team/Wrachtrup-00001/
   openalex: https://openalex.org/A5025341678

@@ -14,6 +14,9 @@ group_type: experimental
 id: 312-richard-n-zare
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=NWIMAqIAAAAJ
+  orcid: https://orcid.org/0000-0001-5266-4253
+  openalex: https://openalex.org/A5024513735
   homepage: https://www.stanford.edu/
   wikipedia: https://en.wikipedia.org/wiki/Richard_Zare
 location:

@@ -14,6 +14,8 @@ group_type: experimental
 id: 235-a-paul-alivisatos
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-6895-9048
+  openalex: https://openalex.org/A5009848674
   homepage: https://www.uchicago.edu/
   wikipedia: https://en.wikipedia.org/wiki/Paul_Alivisatos
 location:

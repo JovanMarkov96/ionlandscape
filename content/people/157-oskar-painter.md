@@ -71,6 +71,7 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: false
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Oskar_Painter
   group_page: https://painterlab.caltech.edu
   openalex: https://openalex.org/A5108167374
   orcid: https://orcid.org/0000-0002-1581-9209

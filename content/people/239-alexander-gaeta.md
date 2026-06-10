@@ -14,6 +14,9 @@ group_type: experimental
 id: 239-alexander-gaeta
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=MvggBtkAAAAJ
+  orcid: https://orcid.org/0000-0001-6877-7316
+  wikipedia: https://en.wikipedia.org/wiki/Alexander_Gaeta
   homepage: https://www.columbia.edu/
 location:
   city: New York

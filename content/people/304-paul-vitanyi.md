@@ -15,6 +15,9 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=UCsQ8VgAAAAJ
+  orcid: https://orcid.org/0000-0002-5712-7585
+  openalex: https://openalex.org/A5029628745
   homepage: https://www.cwi.nl/
   wikipedia: https://en.wikipedia.org/wiki/Paul_Vit%C3%A1nyi
 location:

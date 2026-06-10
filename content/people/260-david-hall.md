@@ -14,6 +14,8 @@ group_type: experimental
 id: 260-david-hall
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-2839-7623
+  openalex: https://openalex.org/A5043348158
   homepage: https://www.amherst.edu/
 location:
   city: Amherst

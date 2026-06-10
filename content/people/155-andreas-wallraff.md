@@ -59,6 +59,8 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=nXO5vugAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Andreas_Wallraff
   group_page: https://qudev.phys.ethz.ch
   openalex: https://openalex.org/A5016075205
   orcid: https://orcid.org/0000-0002-3476-4485

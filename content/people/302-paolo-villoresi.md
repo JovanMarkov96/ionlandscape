@@ -13,6 +13,8 @@ group_type: experimental
 id: 302-paolo-villoresi
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-7977-015X
+  openalex: https://openalex.org/A5045894688
   homepage: https://www.unipd.it/
 location:
   city: Padua

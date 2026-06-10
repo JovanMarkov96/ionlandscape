@@ -14,6 +14,8 @@ group_type: experimental
 id: 308-peter-mosley
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-5523-0311
+  openalex: https://openalex.org/A5069384195
   homepage: https://www.bath.ac.uk/
 location:
   city: Bath

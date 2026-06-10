@@ -14,6 +14,8 @@ group_type: experimental
 id: 301-niek-van-hulst
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-4630-1776
+  openalex: https://openalex.org/A5059424153
   homepage: https://www.icfo.eu/
 location:
   city: Barcelona

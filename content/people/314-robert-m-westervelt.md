@@ -13,6 +13,9 @@ group_type: experimental
 id: 314-robert-m-westervelt
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=RnzsQOEAAAAJ
+  orcid: https://orcid.org/0000-0001-9836-3923
+  openalex: https://openalex.org/A5091499476
   homepage: https://seas.harvard.edu/
 location:
   city: Cambridge

@@ -14,6 +14,8 @@ group_type: experimental
 id: 225-jean-michel-raimond
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-4289-3455
+  openalex: https://openalex.org/A5038980282
   wikipedia: https://en.wikipedia.org/wiki/Jean-Michel_Raimond
 location:
   city: Paris

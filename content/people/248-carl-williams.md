@@ -16,6 +16,8 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-4274-3227
+  openalex: https://openalex.org/A5001165074
   homepage: https://www.nist.gov/
 location:
   city: Gaithersburg

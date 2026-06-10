@@ -13,6 +13,8 @@ group_type: experimental
 id: 288-klaus-boller
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-6628-610X
+  openalex: https://openalex.org/A5062087093
   homepage: https://www.utwente.nl/
 location:
   city: Enschede

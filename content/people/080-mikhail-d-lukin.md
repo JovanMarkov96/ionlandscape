@@ -60,6 +60,8 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=ppJpl64AAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Mikhail_Lukin
   group_page: https://lukin.physics.harvard.edu
   institution_profile: https://www.physics.harvard.edu/people/facpages/lukin
   openalex: https://openalex.org/A5066245772

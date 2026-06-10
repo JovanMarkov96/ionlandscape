@@ -67,6 +67,7 @@ lineage_check:
   last_checked: '2026-05-30'
   postdoc_verified: false
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Ian_Walmsley
   group_page: https://www.physics.ox.ac.uk/our-people/walmsley
   openalex: https://openalex.org/A5058419009
   orcid: https://orcid.org/0000-0002-8899-2020

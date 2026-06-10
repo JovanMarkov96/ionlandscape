@@ -64,6 +64,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-29'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Dirk_Englund
   group_page: https://qp.mit.edu/
   institution_profile: https://www.eecs.mit.edu/people/dirk-r-englund/
   openalex: https://openalex.org/A5049120533

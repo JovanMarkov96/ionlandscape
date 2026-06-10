@@ -13,6 +13,8 @@ group_type: experimental
 id: 316-rodolfo-miranda
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-1064-6724
+  openalex: https://openalex.org/A5008464293
   homepage: https://www.uam.es/
 location:
   city: Madrid

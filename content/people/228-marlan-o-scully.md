@@ -16,6 +16,9 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=kUk6TKUAAAAJ
+  orcid: https://orcid.org/0000-0001-6397-4927
+  openalex: https://openalex.org/A5022041722
   wikipedia: https://en.wikipedia.org/wiki/Marlan_Scully
 location:
   city: College Station

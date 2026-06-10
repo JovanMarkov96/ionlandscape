@@ -14,6 +14,8 @@ group_type: experimental
 id: 295-matthias-weidemuller
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-5639-5126
+  openalex: https://openalex.org/A5005894508
   homepage: https://www.uni-heidelberg.de/
 location:
   city: Heidelberg

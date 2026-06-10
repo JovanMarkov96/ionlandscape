@@ -60,6 +60,7 @@ lineage_check:
   advisor_verified: true
   last_checked: '2026-05-04'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Chris_Ballance
   google_scholar: https://scholar.google.com/citations?hl=en&user=pgnnU3MAAAAJ
   group_page: https://www2.physics.ox.ac.uk/research/ion-trap-quantum-computing-group
   ionq_bio: https://investors.ionq.com/governance/board-of-directors/person-details/default.aspx?ItemId=a5a3affa-e6f6-48e5-9f2f-ec7bd0e6b78c

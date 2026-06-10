@@ -59,6 +59,7 @@ lineage_check:
   last_checked: "2026-05-30"
   postdoc_verified: true
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Stephanie_Wehner
   google_scholar: https://scholar.google.com/citations?user=PlDS_zYAAAAJ&hl=en
   group_page: https://qutech.nl/lab/wehner-group/
   institution_profile: https://qutech.nl/person/stephanie-wehner/

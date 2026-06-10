@@ -13,6 +13,9 @@ group_type: experimental
 id: 303-paul-l-mceuen
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=ma8Y_ZcAAAAJ
+  orcid: https://orcid.org/0000-0002-6438-5750
+  openalex: https://openalex.org/A5010755907
   homepage: https://www.cornell.edu/
   wikipedia: https://en.wikipedia.org/wiki/Paul_McEuen
 location:

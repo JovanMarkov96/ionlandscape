@@ -15,6 +15,8 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-6886-3433
+  openalex: https://openalex.org/A5026551021
   homepage: https://www.kit.edu/
 location:
   city: Karlsruhe

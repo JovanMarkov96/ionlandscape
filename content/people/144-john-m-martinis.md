@@ -67,6 +67,7 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: false
 links:
+  wikipedia: https://en.wikipedia.org/wiki/John_M._Martinis
   group_page: https://web.physics.ucsb.edu/~martinisgroup/
   institution_profile: https://www.physics.ucsb.edu/people/john-martinis
   openalex: https://openalex.org/A5043106778

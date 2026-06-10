@@ -13,6 +13,8 @@ group_type: experimental
 id: 307-peter-leek
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-1410-5642
+  openalex: https://openalex.org/A5058682992
   homepage: https://www.physics.ox.ac.uk/
 location:
   city: Oxford

@@ -39,6 +39,8 @@ keywords:
 - quantum simulation
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-4524-5875
+  openalex: https://openalex.org/A5074061697
   google_scholar: https://scholar.google.co.il/citations?user=oA3Ii6EAAAAJ&hl=en
   group_page: https://finkelsteinlab.sites.tau.ac.il/
   institution_profile: https://english.tau.ac.il/profile/ranf

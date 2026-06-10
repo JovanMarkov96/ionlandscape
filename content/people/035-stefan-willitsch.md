@@ -51,6 +51,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=BR2XCVwAAAAJ
   group_page: https://willitsch.chemie.unibas.ch/
   openalex: https://openalex.org/A5090094344
   orcid: https://orcid.org/0000-0002-8376-0579

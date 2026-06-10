@@ -73,6 +73,7 @@ lineage_check:
   last_checked: '2026-05-30'
   postdoc_verified: true
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Peter_Zoller
   google_scholar: https://scholar.google.com/citations?user=iKB_xp0AAAAJ&hl=en
   institution_profile: https://iqoqi.at/en/people/staff/staff/peter-zoller
   openalex: https://openalex.org/A5016282235

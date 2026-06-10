@@ -15,6 +15,9 @@ group_type: experimental
 id: 227-john-l-hall
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=bW3RROkAAAAJ
+  orcid: https://orcid.org/0000-0001-6137-8945
+  openalex: https://openalex.org/A5009444030
   wikipedia: https://en.wikipedia.org/wiki/John_L._Hall
 location:
   city: Boulder

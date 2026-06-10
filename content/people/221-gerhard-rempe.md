@@ -15,6 +15,8 @@ group_type: experimental
 id: 221-gerhard-rempe
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-2770-0819
+  openalex: https://openalex.org/A5042479821
   homepage: https://www.mpq.mpg.de/rempe
   wikipedia: https://en.wikipedia.org/wiki/Gerhard_Rempe
 location:

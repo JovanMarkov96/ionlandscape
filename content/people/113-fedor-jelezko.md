@@ -58,6 +58,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-29'
 links:
+  google_scholar: https://scholar.google.com/citations?user=Kx8alO4AAAAJ
   group_page: https://www.uni-ulm.de/en/nawi/institute-for-quantum-optics/group-prof-jelezko/
   institution_profile: https://www.uni-ulm.de/en/nawi/institute-for-quantum-optics/
   openalex: https://openalex.org/A5021567937

@@ -56,6 +56,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=W1-hAXkAAAAJ
   group_page: http://ultracold.physics.berkeley.edu
   institution_profile: https://physics.berkeley.edu/people/faculty/dan-stamper-kurn
   openalex: https://openalex.org/A5016096302

@@ -68,6 +68,8 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=60Wn3gYAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Sophia_Economou
   group_page: https://sites.google.com/vt.edu/economou-group
   institution_profile: https://www.phys.vt.edu/About/people/Faculty/sophia-economou.html
   openalex: https://openalex.org/A5060673700

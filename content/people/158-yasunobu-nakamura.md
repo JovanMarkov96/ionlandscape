@@ -71,6 +71,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-26'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Yasunobu_Nakamura
   group_page: https://www.qipe.t.u-tokyo.ac.jp/en/
   institution_profile: https://www.riken.jp/en/research/labs/rqc/superconduct_qtm_electron/
   openalex: https://openalex.org/A5021940005

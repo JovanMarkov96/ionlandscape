@@ -14,6 +14,8 @@ group_type: experimental
 id: 282-jorg-schmiedmayer
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0001-7799-5614
+  openalex: https://openalex.org/A5001996038
   homepage: https://www.tuwien.at/
   wikipedia: https://en.wikipedia.org/wiki/J%C3%B6rg_Schmiedmayer
 location:

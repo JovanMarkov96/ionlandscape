@@ -40,6 +40,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Patrick_Gill_(physicist)
   google_scholar: null
   group_page: https://www.npl.co.uk/people/patrick-gill
   homepage: https://www.npl.co.uk/people/patrick-gill

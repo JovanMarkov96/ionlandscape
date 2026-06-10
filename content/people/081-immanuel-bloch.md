@@ -75,6 +75,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Immanuel_Bloch
   google_scholar: https://scholar.google.com/citations?user=kX5_lc8AAAAJ
   group_page: https://www.quantum-munich.de/104554/bloch-immanuel-prof-dr
   institution_profile: https://www.mpq.mpg.de/person/34641/4571983

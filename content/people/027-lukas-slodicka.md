@@ -39,6 +39,9 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  orcid: https://orcid.org/0000-0003-0540-9385
+  orcid: https://orcid.org/0000-0003-0540-9385
+  openalex: https://openalex.org/A5001432840
   google_scholar: https://scholar.google.com/citations?user=2zBEXPoAAAAJ
   group_page: https://www.opticsolomouc.org/
   orcid: null

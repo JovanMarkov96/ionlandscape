@@ -14,6 +14,9 @@ group_type: experimental
 id: 216-wolfgang-ketterle
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=pWp7T9MAAAAJ
+  orcid: https://orcid.org/0000-0002-9528-3044
+  openalex: https://openalex.org/A5040820196
   wikipedia: https://en.wikipedia.org/wiki/Wolfgang_Ketterle
 location:
   city: Cambridge

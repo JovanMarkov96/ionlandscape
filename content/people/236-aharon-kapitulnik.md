@@ -13,6 +13,9 @@ group_type: experimental
 id: 236-aharon-kapitulnik
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=k89RzXQAAAAJ
+  orcid: https://orcid.org/0000-0002-2569-3582
+  openalex: https://openalex.org/A5009850096
   homepage: https://physics.stanford.edu/
   wikipedia: https://en.wikipedia.org/wiki/Aharon_Kapitulnik
 location:

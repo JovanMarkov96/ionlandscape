@@ -14,6 +14,8 @@ group_type: experimental
 id: 241-alexander-sergienko
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-0542-1405
+  openalex: https://openalex.org/A5051729256
   homepage: https://www.bu.edu/
 location:
   city: Boston

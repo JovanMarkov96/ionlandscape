@@ -58,6 +58,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: "2026-05-30"
 links:
+  google_scholar: https://scholar.google.com/citations?user=PMD1iMkAAAAJ
   group_page: https://www.unige.ch/gap/qic/qram/
   institution_profile: https://www.unige.ch/gap/qic/qram/team/Mikael_Afzelius
   openalex: https://openalex.org/A5006794487

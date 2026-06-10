@@ -57,6 +57,8 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=d5jVVBoAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Mark_Saffman
   group_page: https://qpal.physics.wisc.edu
   institution_profile: https://www.physics.wisc.edu/directory/saffman-mark/
   openalex: https://openalex.org/A5011784765

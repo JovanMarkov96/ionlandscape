@@ -14,6 +14,9 @@ group_type: experimental
 id: 240-alexander-pines
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=cct0cjAAAAAJ
+  orcid: https://orcid.org/0000-0002-5113-7715
+  openalex: https://openalex.org/A5027677289
   homepage: https://www.berkeley.edu/
   wikipedia: https://en.wikipedia.org/wiki/Alexander_Pines
 location:

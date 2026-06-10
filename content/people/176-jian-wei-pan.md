@@ -72,6 +72,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Pan_Jianwei
   orcid: https://orcid.org/0000-0003-3464-8637
   openalex: https://openalex.org/A5014038654
   google_scholar: https://scholar.google.com/citations?user=-q3Yb14AAAAJ

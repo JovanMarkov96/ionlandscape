@@ -14,6 +14,8 @@ group_type: experimental
 id: 293-markus-oberthaler
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-8843-6364
+  openalex: https://openalex.org/A5009710300
   homepage: https://www.uni-heidelberg.de/
 location:
   city: Heidelberg

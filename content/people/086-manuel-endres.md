@@ -58,6 +58,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=k5J9V9MAAAAJ
   group_page: https://www.endreslab.com/
   institution_profile: https://pma.caltech.edu/research-and-academics/physics/physics-faculty/manuel-endres
   openalex: https://openalex.org/A5083319852

@@ -67,6 +67,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  wikipedia: https://en.wikipedia.org/wiki/Mete_Atat%C3%BCre
   orcid: https://orcid.org/0000-0002-1661-1790
   openalex: https://openalex.org/A5016555254
   google_scholar: https://scholar.google.com/citations?user=Yn5idQMAAAAJ

@@ -17,6 +17,8 @@ labels:
 - Experimental group
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-2816-6892
+  openalex: https://openalex.org/A5051592659
   homepage: https://www.griffith.edu.au/
 location:
   city: Brisbane

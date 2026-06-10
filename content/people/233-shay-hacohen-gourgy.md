@@ -14,6 +14,8 @@ group_type: experimental
 id: 233-shay-hacohen-gourgy
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0002-2356-4904
+  openalex: https://openalex.org/A5053972629
   homepage: https://phsites.technion.ac.il/hacohen-gourgy/
 location:
   city: Haifa

@@ -72,6 +72,8 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=2CeGqLAAAAAJ
+  wikipedia: https://en.wikipedia.org/wiki/Michel_Devoret
   institution_profile: https://engineering.yale.edu/applied-physicsmichel-devoret
   openalex: https://openalex.org/A5089631322
   orcid: https://orcid.org/0000-0002-2883-9575

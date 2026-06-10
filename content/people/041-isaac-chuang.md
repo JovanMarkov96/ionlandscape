@@ -46,6 +46,9 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=QKyb_9oAAAAJ
+  orcid: https://orcid.org/0000-0001-7296-523X
+  wikipedia: https://en.wikipedia.org/wiki/Isaac_Chuang
   group_page: https://quanta.mit.edu/
   orcid: null
 location:

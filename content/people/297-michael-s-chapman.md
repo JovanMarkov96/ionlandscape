@@ -14,6 +14,8 @@ group_type: experimental
 id: 297-michael-s-chapman
 last_verified_at: '2026-06-02'
 links:
+  orcid: https://orcid.org/0000-0003-4424-0156
+  openalex: https://openalex.org/A5012428217
   homepage: https://www.gatech.edu/
 location:
   city: Atlanta

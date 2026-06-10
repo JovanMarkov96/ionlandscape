@@ -56,6 +56,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
+  orcid: https://orcid.org/0000-0001-9551-3826
   aps_author_bio: https://physics.aps.org/authors/jungsang_kim
   duke_ece_profile: https://ece.duke.edu/people/jungsang-kim/
   duke_quantum_center: https://quantum.duke.edu/profile/jungsang-kim/

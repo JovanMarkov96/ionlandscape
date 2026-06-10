@@ -58,6 +58,7 @@ lineage_check:
   postdoc_verified: true
   last_checked: '2026-05-30'
 links:
+  google_scholar: https://scholar.google.com/citations?user=XbF19DQAAAAJ
   group_page: https://jila.colorado.edu/kaufman
   institution_profile: https://www.colorado.edu/physics/adam-kaufman
   openalex: https://openalex.org/A5013691564

@@ -13,6 +13,9 @@ group_type: experimental
 id: 250-charles-m-marcus
 last_verified_at: '2026-06-02'
 links:
+  google_scholar: https://scholar.google.com/citations?user=ift9VLcAAAAJ
+  orcid: https://orcid.org/0000-0003-2420-4692
+  openalex: https://openalex.org/A5006639172
   homepage: https://nbi.ku.dk/
   wikipedia: https://en.wikipedia.org/wiki/Charles_Marcus
 location:
