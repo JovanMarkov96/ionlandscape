@@ -46,6 +46,12 @@ function Institutions() {
         }
     }, [searchQuery]);
 
+    // Sync category state when the URL changes (e.g. back button)
+    useEffect(() => {
+        const urlCategory = searchParams.get('category') || 'All';
+        if (urlCategory !== category) setCategory(urlCategory);
+    }, [location.search]);
+
     // Debounce URL update
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -70,9 +76,10 @@ function Institutions() {
             // 0. Category
             if (category !== 'All') {
                 const pls = p.platforms_represented || [];
-                const isNeutrals = pls.some(pl => pl.toLowerCase().includes('neutral'));
+                const isNeutrals = pls.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
+                const isIons = pls.includes('trapped_ion');
                 if (category === 'Neutral Atoms' && !isNeutrals) return false;
-                if (category === 'Trapped Ions' && isNeutrals) return false;
+                if (category === 'Trapped Ions' && !isIons) return false;
             }
             // Country (if provided)
             if (filters.country && filters.country.length > 0) {
@@ -152,9 +159,10 @@ function Institutions() {
             // 0. Category Filter
             if (category !== 'All') {
                 const pls = p.platforms_represented || [];
-                const isNeutrals = pls.some(pl => pl.toLowerCase().includes('neutral'));
+                const isNeutrals = pls.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
+                const isIons = pls.includes('trapped_ion');
                 if (category === 'Neutral Atoms' && !isNeutrals) return false;
-                if (category === 'Trapped Ions' && isNeutrals) return false;
+                if (category === 'Trapped Ions' && !isIons) return false;
             }
 
             // 1. Search Query (Name)
@@ -206,7 +214,8 @@ function Institutions() {
             q: localSearch,
             focus_area: focusAreaFilters,
             platform: platformFilters,
-            country: countryFilters
+            country: countryFilters,
+            category: category
         };
         if (current[type] !== undefined) {
             if (Array.isArray(current[type]) && current[type].includes(value)) return;
@@ -220,7 +229,8 @@ function Institutions() {
             q: localSearch,
             focus_area: focusAreaFilters,
             platform: platformFilters,
-            country: countryFilters
+            country: countryFilters,
+            category: category
         };
         if (Array.isArray(current[type])) {
             current[type] = current[type].filter(x => x !== value);
@@ -247,7 +257,13 @@ function Institutions() {
                             <button
                                 key={cat}
                                 className={`button button--${category === cat ? 'primary' : 'secondary'} category-btn-wrapper`}
-                                onClick={() => setCategory(cat)}
+                                onClick={() => {
+                                    setCategory(cat);
+                                    updateUrl({
+                                        q: localSearch, focus_area: focusAreaFilters,
+                                        platform: platformFilters, country: countryFilters, category: cat,
+                                    });
+                                }}
                             >
                                 {cat}
                             </button>

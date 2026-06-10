@@ -50,6 +50,12 @@ function Groups() {
         }
     }, [searchQuery]);
 
+    // Sync category state when the URL changes (e.g. back button)
+    useEffect(() => {
+        const urlCategory = searchParams.get('category') || 'All';
+        if (urlCategory !== category) setCategory(urlCategory);
+    }, [location.search]);
+
     // Debounce URL update
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -77,9 +83,10 @@ function Groups() {
             // 0. Category
             if (category !== 'All') {
                 const platforms = p.platforms || [];
-                const isNeutrals = platforms.some(pl => pl.toLowerCase().includes('neutral'));
+                const isNeutrals = platforms.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
+                const isIons = platforms.includes('trapped_ion');
                 if (category === 'Neutral Atoms' && !isNeutrals) return false;
-                if (category === 'Trapped Ions' && isNeutrals) return false;
+                if (category === 'Trapped Ions' && !isIons) return false;
             }
 
             // 1. Institution (if provided)
@@ -182,13 +189,13 @@ function Groups() {
             // 0. Category Filter
             if (category !== 'All') {
                 const platforms = p.platforms || [];
-                const isNeutrals = platforms.some(pl => pl.toLowerCase().includes('neutral'));
+                const isNeutrals = platforms.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
+                const isIons = platforms.includes('trapped_ion');
 
                 if (category === 'Neutral Atoms') {
                     if (!isNeutrals) return false;
                 } else if (category === 'Trapped Ions') {
-                    // If specifically Neutral Atoms, exclude from Trapped Ions view (unless they are both, but assume disjoint for now based on user request)
-                    if (isNeutrals) return false;
+                    if (!isIons) return false;
                 }
             }
 
@@ -269,7 +276,8 @@ function Groups() {
             ion: ionFilters,
             platform: platformFilters,
             inst: instFilters,
-            country: countryFilters
+            country: countryFilters,
+            category: category
         };
 
         if (type === 'inst') {
@@ -312,7 +320,8 @@ function Groups() {
             ion: ionFilters,
             platform: platformFilters,
             inst: instFilters,
-            country: countryFilters
+            country: countryFilters,
+            category: category
         };
 
         current[type] = current[type].filter(x => x !== value);
@@ -338,7 +347,14 @@ function Groups() {
                             <button
                                 key={cat}
                                 className={`button button--${category === cat ? 'primary' : 'secondary'} category-btn-wrapper`}
-                                onClick={() => setCategory(cat)}
+                                onClick={() => {
+                                    setCategory(cat);
+                                    updateUrl({
+                                        q: localSearch, label: labelFilters, app: appFilters,
+                                        ion: ionFilters, platform: platformFilters,
+                                        inst: instFilters, country: countryFilters, category: cat,
+                                    });
+                                }}
                             >
                                 {cat}
                             </button>

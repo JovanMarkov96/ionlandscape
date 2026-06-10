@@ -208,11 +208,24 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                         {humanize(platform)}
                     </span>
                 ))}
-                {company.status?.operating_status === "active" && (
-                    <span className="badge badge--success margin-right--xs">Active</span>
+                {company.status?.operating_status === "public" && (
+                    <span className="badge badge--success margin-right--xs">
+                        Public{company.status?.ticker ? ` · ${company.status.ticker}` : ''}
+                    </span>
                 )}
                 {company.status?.operating_status === "acquired" && (
-                    <span className="badge badge--warning margin-right--xs">Acquired</span>
+                    <span className="badge badge--warning margin-right--xs">
+                        Acquired{company.status?.acquired?.acquired_by ? ` by ${company.status.acquired.acquired_by}` : ''}
+                    </span>
+                )}
+                {company.status?.operating_status === "defunct" && (
+                    <span className="badge badge--danger margin-right--xs">Defunct</span>
+                )}
+                {company.status?.operating_status === "stealth" && (
+                    <span className="badge badge--info margin-right--xs">Stealth</span>
+                )}
+                {company.status?.operating_status === "non_profit" && (
+                    <span className="badge badge--info margin-right--xs">Non-profit</span>
                 )}
             </div>
 
@@ -276,13 +289,14 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                 const founders = company.people?.founders || [];
                 const leadership = company.people?.leadership || [];
                 const former = company.people?.former_leadership || [];
+                const advisors = company.people?.advisors || [];
                 const spinouts = company.people?.spun_out_of || [];
                 const dirMembers = company.directory?.current_members || [];
 
                 // Names already listed as founders/leadership/former, so the generic
                 // directory line doesn't repeat them.
                 const known = new Set();
-                [...founders, ...leadership, ...former].forEach((p) => {
+                [...founders, ...leadership, ...former, ...advisors].forEach((p) => {
                     if (p?.name) known.add(p.name.toLowerCase());
                 });
                 const otherMembers = dirMembers
@@ -292,7 +306,7 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                     })
                     .filter((nm) => nm && !known.has(nm.toLowerCase()));
 
-                if (!(founders.length || leadership.length || former.length || otherMembers.length || spinouts.length)) {
+                if (!(founders.length || leadership.length || former.length || advisors.length || otherMembers.length || spinouts.length)) {
                     return null;
                 }
 
@@ -320,6 +334,11 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                         {former.length > 0 && (<>
                             <div className="team-subhead">Former leadership</div>
                             {roleList(former)}
+                        </>)}
+
+                        {advisors.length > 0 && (<>
+                            <div className="team-subhead">Advisors</div>
+                            {roleList(advisors)}
                         </>)}
 
                         {otherMembers.length > 0 && (
@@ -370,6 +389,24 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                         Careers
                     </a>
                 )}
+                {company.links?.linkedin && (
+                    <a href={company.links.linkedin} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" /></svg>
+                        LinkedIn
+                    </a>
+                )}
+                {company.links?.wikipedia && (
+                    <a href={company.links.wikipedia} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M14.97 18.95l-2.56-6.03c-1.02 1.99-2.14 4.08-3.1 6.03-.01.01-.47 0-.47 0L4.91 9.6c-.83-1.95-.87-1.99-1.91-2.04V7h5.25v.56c-.61.03-1.66.16-1.36.94l2.87 6.81 1.97-3.91-1.07-2.42c-.39-.83-.7-1.37-1.7-1.42V7h4.63v.52c-.8.02-1.21.32-.91 1l1.86 4.32 1.86-4.13c.33-.79-.13-1.13-1.21-1.18V7h4.27v.52c-.85.07-1.27.46-1.61 1.27l-2.55 5.86 2.39 5.58 3.04-7.04c.32-.79-.17-1.12-1.07-1.15V7h4.34v.56c-1 .07-1.32.34-1.78 1.37l-3.93 8.97c-.01.01-.43.05-.43.05z" /></svg>
+                        Wikipedia
+                    </a>
+                )}
+                {company.links?.investor_relations && (
+                    <a href={company.links.investor_relations} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z" /></svg>
+                        Investors
+                    </a>
+                )}
             </div>
 
             {/* Milestones */}
@@ -402,11 +439,15 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                     {(company.funding.total_raised_usd || company.funding.total_usd) > 0 && (
                         <p><strong>Total Raised:</strong> ${((company.funding.total_raised_usd || company.funding.total_usd) / 1000000).toFixed(1)}M</p>
                     )}
-                    {company.funding.rounds && company.funding.rounds.map((round, i) => (
+                    {company.funding.rounds && company.funding.rounds.map((round, i) => {
+                        const leads = (round.lead_investors && round.lead_investors.length > 0)
+                            ? round.lead_investors.join(", ")
+                            : round.lead_investor;
+                        return (
                         <div key={i} className="trajectory-item">
                             <div className="trajectory-title">{round.round || round.stage}{round.amount_usd ? ` — $${(round.amount_usd / 1000000).toFixed(1)}M` : ''}</div>
                             <div className="trajectory-details">
-                                {round.date} • Lead: {round.lead_investors?.join(", ")}
+                                {round.date}{leads ? <> • Lead: {leads}</> : null}
                                 {round.other_investors?.length > 0 && (
                                     <div style={{ marginTop: '4px' }}>
                                         <details className="funding-round-details-toggle">
@@ -421,7 +462,8 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                                 )}
                             </div>
                         </div>
-                    ))}
+                        );
+                    })}
                 </>
             )}
 

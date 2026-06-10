@@ -229,9 +229,15 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
             <div className="person-panel-header">
                 <h2>{person.name}<NobelMedal prize={person.nobel_prize} size="0.7em" /></h2>
             </div>
-            <p className="person-panel-position">
-                <em>{person.current_position && person.current_position.title} — {person.current_position && renderEntityLink(person.current_position.institution)}</em>
-            </p>
+            {(person.current_position?.title || person.current_position?.institution) && (
+                <p className="person-panel-position">
+                    <em>
+                        {person.current_position?.title}
+                        {person.current_position?.title && person.current_position?.institution ? ' — ' : ''}
+                        {person.current_position?.institution ? renderEntityLink(person.current_position.institution) : null}
+                    </em>
+                </p>
+            )}
             {(person.keywords || []).length > 0 && (
                 <p className="person-panel-keywords"><strong>Keywords:</strong> {person.keywords.join(', ')}</p>
             )}
@@ -239,24 +245,24 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
             <div className="person-panel-badges">
                 {/* Platforms as Badges */}
                 {person.platforms && person.platforms.map((platform, i) => {
-                    const getCategory = (p) => {
-                        const lower = p.toLowerCase();
-                        if (lower.includes('neutral')) return 'Neutral Atoms';
-                        if (lower.includes('ion')) return 'Trapped Ions';
-                        return p;
-                    };
-                    const categoryParam = getCategory(platform);
+                    const lower = platform.toLowerCase();
+                    const categoryParam = (lower === 'neutral_atom' || lower === 'rydberg_array')
+                        ? 'Neutral Atoms'
+                        : lower === 'trapped_ion' ? 'Trapped Ions' : null;
+                    const target = categoryParam
+                        ? `/groups?category=${encodeURIComponent(categoryParam)}`
+                        : `/groups?platform=${encodeURIComponent(platform)}`;
 
                     const humanize = (p) => p.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
                     return (
-                        <a
+                        <Link
                             key={i}
-                            href={`/quantum-landscape/groups?category=${encodeURIComponent(categoryParam)}`}
+                            to={target}
                             className={`badge ${categoryParam === 'Trapped Ions' ? 'badge-trapped-ions' : categoryParam === 'Neutral Atoms' ? 'badge-neutral-atoms' : 'badge--info'}`}
                         >
                             {humanize(platform)}
-                        </a>
+                        </Link>
                     )
                 })}
                 {/* Existing Labels */}
@@ -360,6 +366,24 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
                     <a href={person.links.orcid} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
                         <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.306v7.444h2.297c1.472 0 2.453-.941 2.453-3.712 0-2.316-.909-3.731-2.434-3.731h-2.316z" /></svg>
                         ORCID
+                    </a>
+                ) : null}
+                {person.links && person.links.group_page ? (
+                    <a href={person.links.group_page} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" /></svg>
+                        Group Page
+                    </a>
+                ) : null}
+                {person.links && person.links.wikipedia ? (
+                    <a href={person.links.wikipedia} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M14.97 18.95l-2.56-6.03c-1.02 1.99-2.14 4.08-3.1 6.03-.01.01-.47 0-.47 0L4.91 9.6c-.83-1.95-.87-1.99-1.91-2.04V7h5.25v.56c-.61.03-1.66.16-1.36.94l2.87 6.81 1.97-3.91-1.07-2.42c-.39-.83-.7-1.37-1.7-1.42V7h4.63v.52c-.8.02-1.21.32-.91 1l1.86 4.32 1.86-4.13c.33-.79-.13-1.13-1.21-1.18V7h4.27v.52c-.85.07-1.27.46-1.61 1.27l-2.55 5.86 2.39 5.58 3.04-7.04c.32-.79-.17-1.12-1.07-1.15V7h4.34v.56c-1 .07-1.32.34-1.78 1.37l-3.93 8.97c-.01.01-.43.05-.43.05z" /></svg>
+                        Wikipedia
+                    </a>
+                ) : null}
+                {person.links && person.links.openalex ? (
+                    <a href={person.links.openalex} target="_blank" rel="noopener noreferrer" className="badge badge--secondary link-badge">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 3L1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" /></svg>
+                        OpenAlex
                     </a>
                 ) : null}
             </div>

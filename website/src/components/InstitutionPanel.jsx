@@ -226,7 +226,7 @@ function InstitutionPanel({ institutionId, onPersonSelect, onClose, onShowInMap 
                 </>
             )}
 
-            {(links?.website || links?.wikipedia) && (
+            {(links?.website || links?.department || links?.quantum_center || links?.wikipedia) && (
                 <>
                     <div className="panel-divider" />
                     <h4 className="section-header">Links</h4>

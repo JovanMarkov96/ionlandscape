@@ -48,6 +48,12 @@ function Companies() {
         }
     }, [searchQuery]);
 
+    // Sync category state when the URL changes (e.g. back button)
+    useEffect(() => {
+        const urlCategory = searchParams.get('category') || 'All';
+        if (urlCategory !== category) setCategory(urlCategory);
+    }, [location.search]);
+
     // Debounce URL update
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -74,9 +80,10 @@ function Companies() {
             // 0. Category
             if (category !== 'All') {
                 const platforms = p.platforms || [];
-                const isNeutrals = platforms.some(pl => pl.toLowerCase().includes('neutral'));
+                const isNeutrals = platforms.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
+                const isIons = platforms.includes('trapped_ion');
                 if (category === 'Neutral Atoms' && !isNeutrals) return false;
-                if (category === 'Trapped Ions' && isNeutrals) return false;
+                if (category === 'Trapped Ions' && !isIons) return false;
             }
 
             // 1. Institution (if provided)
@@ -176,13 +183,13 @@ function Companies() {
             // 0. Category Filter
             if (category !== 'All') {
                 const platforms = p.platforms || [];
-                const isNeutrals = platforms.some(pl => pl.toLowerCase().includes('neutral'));
+                const isNeutrals = platforms.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
+                const isIons = platforms.includes('trapped_ion');
 
                 if (category === 'Neutral Atoms') {
                     if (!isNeutrals) return false;
                 } else if (category === 'Trapped Ions') {
-                    // If specifically Neutral Atoms, exclude from Trapped Ions view (unless they are both, but assume disjoint for now based on user request)
-                    if (isNeutrals) return false;
+                    if (!isIons) return false;
                 }
             }
 
@@ -251,7 +258,8 @@ function Companies() {
             ion: ionFilters,
             platform: platformFilters,
             inst: instFilters,
-            country: countryFilters
+            country: countryFilters,
+            category: category
         };
 
         if (type === 'inst') {
@@ -293,7 +301,8 @@ function Companies() {
             ion: ionFilters,
             platform: platformFilters,
             inst: instFilters,
-            country: countryFilters
+            country: countryFilters,
+            category: category
         };
 
         current[type] = current[type].filter(x => x !== value);
@@ -319,7 +328,14 @@ function Companies() {
                             <button
                                 key={cat}
                                 className={`button button--${category === cat ? 'primary' : 'secondary'} category-btn-wrapper`}
-                                onClick={() => setCategory(cat)}
+                                onClick={() => {
+                                    setCategory(cat);
+                                    updateUrl({
+                                        q: localSearch, label: labelFilters, ion: ionFilters,
+                                        platform: platformFilters, inst: instFilters,
+                                        country: countryFilters, category: cat,
+                                    });
+                                }}
                             >
                                 {cat}
                             </button>
@@ -343,11 +359,6 @@ function Companies() {
 
                     <div className="filter-bar-row">
                         {/* Dropdowns */}
-                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('label', e.target.value)}>
-                            <option value="">+ Label</option>
-                            {availableLabels.map(o => <option key={o} value={o}>{o}</option>)}
-                        </select>
-
                         {/* Species Dropdown: Only show if specific category selected */}
                         {category !== 'All' && (
                             <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('ion', e.target.value)}>
@@ -363,11 +374,6 @@ function Companies() {
                                     {o.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}
                                 </option>
                             ))}
-                        </select>
-
-                        <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('inst', e.target.value)}>
-                            <option value="">+ Institution</option>
-                            {availableInsts.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
 
                         <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('country', e.target.value)}>

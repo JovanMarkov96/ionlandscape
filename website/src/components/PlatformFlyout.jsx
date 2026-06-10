@@ -25,6 +25,7 @@ export const PLATFORM_GROUPS = [
     { key: 'trapped_molecule', label: 'Trapped Molecules', values: ['trapped_molecule'] },
     { key: 'silicon_spin', label: 'Silicon Spin', values: ['silicon_spin'] },
     { key: 'cavity_qed_hybrid', label: 'Hybrid / Cavity QED', values: ['cavity_qed_hybrid'] },
+    { key: 'topological', label: 'Topological', values: ['topological'] },
 ];
 
 // ── Custom line-art platform icons (24×24, stroke = currentColor) ───────────
@@ -105,6 +106,13 @@ const ICON = {
             <rect x="5" y="5" width="14" height="14" rx="3" />
             <path d="M12 16 V8.5" />
             <path d="M9.5 11 L12 8.2 L14.5 11" />
+        </>
+    ),
+    // Topological: braided world-lines (anyon exchange)
+    topological: (
+        <>
+            <path d="M6 5 C6 11, 18 13, 18 19" />
+            <path d="M18 5 C18 9, 13 10, 11.2 11.6 M9.4 13.2 C7.5 14.8, 6 16, 6 19" />
         </>
     ),
     // Cavity QED hybrid: an atom between two cavity mirrors with photons
