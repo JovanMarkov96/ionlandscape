@@ -1,0 +1,19 @@
+{
+ "accepted": [
+  "023-crystal-senko",
+  "033-dzmitry-matsukevich",
+  "037-david-lucas",
+  "030-rene-gerritsma",
+  "038-eric-hudson",
+  "039-wes-campbell",
+  "029-christof-wunderlich",
+  "042-kenneth-brown",
+  "032-murray-barrett",
+  "007-dietrich-leibfried"
+ ],
+ "rejected": {
+  "022-rajibul-islam": "UW-Milwaukee homonym",
+  "034-manas-mukherjee": "IIT Madras homonym",
+  "043-kilian-singer": "Case Western homonym (ours is Kassel)"
+ }
+}
