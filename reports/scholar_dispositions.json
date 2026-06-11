@@ -11,13 +11,17 @@
   "032-murray-barrett",
   "007-dietrich-leibfried",
   "052-dan-stick",
-  "056-kenji-toyoda"
+  "056-kenji-toyoda",
+  "063-taehyun-kim",
+  "050-rachel-godun",
+  "051-john-chiaverini"
  ],
  "rejected": {
   "022-rajibul-islam": "UW-Milwaukee homonym",
   "034-manas-mukherjee": "IIT Madras homonym",
   "043-kilian-singer": "Case Western homonym (ours is Kassel)",
   "045-kazuhiro-hayasaka": "Tohoku thoracic surgery homonym (ours is NICT ion trapper)",
-  "049-patrick-gill": "Mainz English-linguistics homonym (ours is NPL optical clocks)"
+  "049-patrick-gill": "Mainz English-linguistics homonym (ours is NPL optical clocks)",
+  "060-moonjoo-lee": "MIT-postdoc profile, affiliation mismatch with POSTECH PI; ambiguous identity"
  }
 }

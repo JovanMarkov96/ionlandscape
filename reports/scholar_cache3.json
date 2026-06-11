@@ -187,5 +187,49 @@
    "2gF8eikAAAAJ",
    "-QOqVj0AAAAJ"
   ]
+ },
+ "060-moonjoo-lee": {
+  "verdict": "weak",
+  "user": "oKPLlmYAAAAJ",
+  "scholar_name": "Moon Joo Lee",
+  "aff": [
+   "Postdoc, Massachusetts Institute of Technology",
+   "Verified email at mit.edu"
+  ],
+  "home": null,
+  "file": "content/people\\060-moonjoo-lee.md"
+ },
+ "063-taehyun-kim": {
+  "verdict": "found",
+  "user": "xLVkHSAAAAAJ",
+  "scholar_name": "Taehyun Kim",
+  "aff": [
+   "Associate Professor in Dept. of Computer Science and Engineering at Seoul National University",
+   "Verified email at snu.ac.kr - Homepage"
+  ],
+  "home": "https://quiqcl.snu.ac.kr/",
+  "file": "content/people\\063-taehyun-kim.md"
+ },
+ "050-rachel-godun": {
+  "verdict": "found",
+  "user": "fOpJVw8AAAAJ",
+  "scholar_name": "Rachel M. Godun",
+  "aff": [
+   "National Physical Laboratory",
+   "Verified email at npl.co.uk"
+  ],
+  "home": null,
+  "file": "content/people\\050-rachel-godun.md"
+ },
+ "051-john-chiaverini": {
+  "verdict": "found",
+  "user": "0_T-YMcAAAAJ",
+  "scholar_name": "John Chiaverini",
+  "aff": [
+   "Technical Staff, MIT Lincoln Laboratory",
+   "Verified email at ll.mit.edu"
+  ],
+  "home": null,
+  "file": "content/people\\051-john-chiaverini.md"
  }
 }
