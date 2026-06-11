@@ -48,12 +48,10 @@ lineage_check:
   postdoc_verified: true
 links:
   orcid: https://orcid.org/0000-0002-5697-2568
-  orcid: https://orcid.org/0000-0002-5697-2568
   openalex: https://openalex.org/A5038916322
   dfg_gepris_profile: https://gepris.dfg.de/gepris/person/1260598?language=en
   google_scholar: https://scholar.google.com/citations?hl=de&user=1VkTHB4AAAAJ
   group_page: https://www.quantenbit.de/
-  orcid: null
 location:
   city: Mainz
   country: Germany

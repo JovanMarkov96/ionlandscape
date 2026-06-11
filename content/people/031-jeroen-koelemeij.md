@@ -59,7 +59,6 @@ lineage_check:
 links:
   group_page: https://research.vu.nl/en/persons/3081279c-19fc-47ed-9b09-de0628019d92
   google_scholar: https://scholar.google.com/citations?user=hKApNbYAAAAJ
-  group_page: null
   homepage: https://www.nat.vu.nl/~koel/
   institution_profile: https://research.vu.nl/en/persons/jeroen-koelemeij
   openalex: https://openalex.org/A5013718580

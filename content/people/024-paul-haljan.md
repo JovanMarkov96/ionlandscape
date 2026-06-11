@@ -61,7 +61,6 @@ links:
   openalex: https://openalex.org/A5076870761
   google_scholar: https://scholar.google.com/citations?user=5E3WQM8AAAAJ
   group_page: https://www.sfu.ca/physics/haljanlab.html
-  orcid: null
 location:
   city: Burnaby
   country: Canada

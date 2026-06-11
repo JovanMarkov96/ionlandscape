@@ -62,7 +62,6 @@ links:
   duke_quantum_center: https://quantum.duke.edu/profile/jungsang-kim/
   google_scholar: https://scholar.google.com/citations?hl=en&user=ibITRigAAAAJ
   group_page: https://mist.pratt.duke.edu/
-  orcid: null
   scholars_at_duke: https://scholars.duke.edu/person/jungsang
 location:
   city: Durham

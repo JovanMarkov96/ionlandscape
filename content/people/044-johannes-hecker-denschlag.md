@@ -43,7 +43,6 @@ lineage_check:
 links:
   orcid: https://orcid.org/0000-0003-1984-4994
   google_scholar: https://scholar.google.com/citations?user=h9DoV-oAAAAJ
-  orcid: null
 location:
   city: Ulm
   country: Germany

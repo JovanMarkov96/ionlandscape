@@ -42,7 +42,6 @@ lineage_check:
 links:
   group_page: https://pure.au.dk/portal/en/persons/michael-drewsen(871a704b-943d-4f99-b29d-07bea1bbab80).html
   google_scholar: https://scholar.google.com/citations?user=K1-nzhEAAAAJ
-  google_scholar: null
   orcid: https://orcid.org/0000-0003-4767-3498
   university_profile: https://pure.au.dk/portal/en/persons/michael-drewsen
 location:
