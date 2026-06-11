@@ -52,6 +52,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
+  google_scholar: https://scholar.google.com/citations?user=ZXv00UYAAAAJ
   orcid: null
 location:
   city: Albuquerque

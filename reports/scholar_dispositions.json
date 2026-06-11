@@ -9,11 +9,15 @@
   "029-christof-wunderlich",
   "042-kenneth-brown",
   "032-murray-barrett",
-  "007-dietrich-leibfried"
+  "007-dietrich-leibfried",
+  "052-dan-stick",
+  "056-kenji-toyoda"
  ],
  "rejected": {
   "022-rajibul-islam": "UW-Milwaukee homonym",
   "034-manas-mukherjee": "IIT Madras homonym",
-  "043-kilian-singer": "Case Western homonym (ours is Kassel)"
+  "043-kilian-singer": "Case Western homonym (ours is Kassel)",
+  "045-kazuhiro-hayasaka": "Tohoku thoracic surgery homonym (ours is NICT ion trapper)",
+  "049-patrick-gill": "Mainz English-linguistics homonym (ours is NPL optical clocks)"
  }
 }

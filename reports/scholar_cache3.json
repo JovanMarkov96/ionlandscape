@@ -134,5 +134,58 @@
   ],
   "home": "http://www.phys.cwru.edu/sites/nlo/",
   "file": "content/people\\043-kilian-singer.md"
+ },
+ "045-kazuhiro-hayasaka": {
+  "verdict": "weak",
+  "user": "v0f6RMoAAAAJ",
+  "scholar_name": "Kazuki Hayasaka",
+  "aff": [
+   "Tohoku University, Institute of Development, Aging and Cancer, Department of Thoracic Surgery",
+   "No verified email"
+  ],
+  "home": null,
+  "file": "content/people\\045-kazuhiro-hayasaka.md"
+ },
+ "049-patrick-gill": {
+  "verdict": "weak",
+  "user": "2HO9X8oAAAAJ",
+  "scholar_name": "Patrick Gill",
+  "aff": [
+   "Senior Lecturer, Johannes Gutenberg University, Mainz",
+   "Verified email at uni-mainz.de - Homepage"
+  ],
+  "home": "https://www.english-and-linguistics.uni-mainz.de/dr-patrick-gill/",
+  "file": "content/people\\049-patrick-gill.md"
+ },
+ "052-dan-stick": {
+  "verdict": "weak",
+  "user": "ZXv00UYAAAAJ",
+  "scholar_name": "Dan Stick",
+  "aff": [
+   "Principal Scientist - Integrated Photonics",
+   "Verified email at ionq.co"
+  ],
+  "home": null,
+  "file": "content/people\\052-dan-stick.md"
+ },
+ "056-kenji-toyoda": {
+  "verdict": "found",
+  "user": "JxcSLT4AAAAJ",
+  "scholar_name": "Kenji Toyoda",
+  "aff": [
+   "Osaka University",
+   "Verified email at osaka-u.ac.jp - Homepage"
+  ],
+  "home": "https://qiqb.osaka-u.ac.jp/labs/toyoda-gr/",
+  "file": "content/people\\056-kenji-toyoda.md"
+ },
+ "057-utako-tanaka": {
+  "verdict": "none",
+  "file": "content/people\\057-utako-tanaka.md",
+  "checked": [
+   "uFaZEJYAAAAJ",
+   "2gF8eikAAAAJ",
+   "-QOqVj0AAAAJ"
+  ]
  }
 }
