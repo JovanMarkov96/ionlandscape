@@ -40,6 +40,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=ND_VVIQAAAAJ
   group_page: https://www.physics.nus.edu.sg/~phybmd/
   orcid: https://orcid.org/0000-0002-1483-8029
 location:

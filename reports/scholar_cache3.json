@@ -90,5 +90,38 @@
   ],
   "home": "http://campbellgroup.physics.ucla.edu/",
   "file": "content/people\\039-wes-campbell.md"
+ },
+ "029-christof-wunderlich": {
+  "verdict": "found",
+  "user": "g6cUqroAAAAJ",
+  "scholar_name": "Christof Wunderlich",
+  "aff": [
+   "Univ.-Prof. Experimental Physics, University of Siegen",
+   "Verified email at uni-siegen.de - Homepage"
+  ],
+  "home": "https://www.physik.uni-siegen.de/quantenoptik/arbeitsgruppe/cwunderlich/index.html.en?lang=en",
+  "file": "content/people\\029-christof-wunderlich.md"
+ },
+ "042-kenneth-brown": {
+  "verdict": "weak",
+  "user": "EFVX84sAAAAJ",
+  "scholar_name": "Kenneth R. Brown",
+  "aff": [
+   "Professor of Electrical And Computer Engineering, Duke University",
+   "Verified email at duke.edu - Homepage"
+  ],
+  "home": "http://brownlab.pratt.duke.edu/",
+  "file": "content/people\\042-kenneth-brown.md"
+ },
+ "032-murray-barrett": {
+  "verdict": "found",
+  "user": "ND_VVIQAAAAJ",
+  "scholar_name": "M D Barrett",
+  "aff": [
+   "Center for Quantum Technologies",
+   "Verified email at nus.edu.sg - Homepage"
+  ],
+  "home": "http://microtraps.quantumlah.org/",
+  "file": "content/people\\032-murray-barrett.md"
  }
 }

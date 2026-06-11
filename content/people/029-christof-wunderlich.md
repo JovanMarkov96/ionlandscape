@@ -59,6 +59,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
+  google_scholar: https://scholar.google.com/citations?user=g6cUqroAAAAJ
   group_page: https://www.physik.uni-siegen.de/quantenoptik/
   orcid: null
 location:
