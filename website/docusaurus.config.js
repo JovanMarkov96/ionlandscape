@@ -2,7 +2,7 @@
 module.exports = {
     title: 'Quantum Landscape',
     tagline: 'Interactive map and academic family tree of the quantum technology landscape — platforms, people, institutions & companies',
-    url: 'https://JovanMarkov96.github.io',
+    url: 'https://jovanmarkov.com',
     baseUrl: '/quantum-landscape/',
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
