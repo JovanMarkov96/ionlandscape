@@ -50,7 +50,7 @@ module.exports = {
     ],
 
     themeConfig: {
-        image: 'img/brand/social-card.png',
+        image: 'img/brand/social-card-v2.png',
         // Disable the navbar for map-focused experience
         // Disable the navbar for map-focused experience
         navbar: {
