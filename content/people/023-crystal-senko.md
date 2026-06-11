@@ -49,6 +49,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=Y5SSXT8AAAAJ
   iqc_profile: https://uwaterloo.ca/institute-for-quantum-computing/profiles/crystal-senko
   openalex: https://openalex.org/A5085789425
   orcid: https://orcid.org/0000-0003-2260-3008

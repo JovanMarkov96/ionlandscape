@@ -53,6 +53,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=i3J1ORUAAAAJ
   group_page: https://www.physics.ucla.edu/~hudson/
   orcid: https://orcid.org/0000-0001-7064-0351
 location:

@@ -44,6 +44,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=-cReJLIAAAAJ
   group_page: https://campbellgroup.physics.ucla.edu/
   openalex: https://openalex.org/A5014512253
   orcid: https://orcid.org/0000-0003-1578-906X

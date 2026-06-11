@@ -41,6 +41,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=B4X3nCMAAAAJ
   group_page: https://ions-sg.org/
   homepage: https://www.cqt.sg/people/dzmitry-matsukevich/
   orcid: https://orcid.org/0000-0002-7679-0569

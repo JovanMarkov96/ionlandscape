@@ -38,6 +38,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=99ljuoQAAAAJ
   group_page: https://hyqs.nl/
   homepage: http://hyqs.nl/
   orcid: https://orcid.org/0000-0002-3466-5719

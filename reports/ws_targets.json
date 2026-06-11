@@ -1,0 +1,248 @@
+[
+ {
+  "id": "014-thomas-monz",
+  "name": "Thomas Monz",
+  "inst": "University of Innsbruck",
+  "file": "content/people\\014-thomas-monz.md"
+ },
+ {
+  "id": "018-michael-drewsen",
+  "name": "Michael Drewsen",
+  "inst": "Aarhus University",
+  "file": "content/people\\018-michael-drewsen.md"
+ },
+ {
+  "id": "022-rajibul-islam",
+  "name": "K. Rajibul Islam",
+  "inst": "Institute for Quantum Computing, University of Waterloo",
+  "file": "content/people\\022-rajibul-islam.md"
+ },
+ {
+  "id": "029-christof-wunderlich",
+  "name": "Christof Wunderlich",
+  "inst": "University of Siegen",
+  "file": "content/people\\029-christof-wunderlich.md"
+ },
+ {
+  "id": "032-murray-barrett",
+  "name": "Murray D. Barrett",
+  "inst": "Centre for Quantum Technologies, National University of Singapore",
+  "file": "content/people\\032-murray-barrett.md"
+ },
+ {
+  "id": "034-manas-mukherjee",
+  "name": "Manas Mukherjee",
+  "inst": "Centre for Quantum Technologies, National University of Singapore",
+  "file": "content/people\\034-manas-mukherjee.md"
+ },
+ {
+  "id": "042-kenneth-brown",
+  "name": "Kenneth R. Brown",
+  "inst": "Duke University",
+  "file": "content/people\\042-kenneth-brown.md"
+ },
+ {
+  "id": "043-kilian-singer",
+  "name": "Kilian Singer",
+  "inst": "University of Kassel",
+  "file": "content/people\\043-kilian-singer.md"
+ },
+ {
+  "id": "045-kazuhiro-hayasaka",
+  "name": "Kazuhiro Hayasaka",
+  "inst": "National Institute of Information and Communications Technology (NICT)",
+  "file": "content/people\\045-kazuhiro-hayasaka.md"
+ },
+ {
+  "id": "049-patrick-gill",
+  "name": "Patrick Gill",
+  "inst": "National Physical Laboratory (NPL)",
+  "file": "content/people\\049-patrick-gill.md"
+ },
+ {
+  "id": "050-rachel-godun",
+  "name": "Rachel Godun",
+  "inst": "National Physical Laboratory (NPL)",
+  "file": "content/people\\050-rachel-godun.md"
+ },
+ {
+  "id": "051-john-chiaverini",
+  "name": "John Chiaverini",
+  "inst": "MIT Lincoln Laboratory",
+  "file": "content/people\\051-john-chiaverini.md"
+ },
+ {
+  "id": "052-dan-stick",
+  "name": "Dan Stick",
+  "inst": "Sandia National Laboratories",
+  "file": "content/people\\052-dan-stick.md"
+ },
+ {
+  "id": "054-hiroki-takahashi",
+  "name": "Hiroki Takahashi",
+  "inst": "Okinawa Institute of Science and Technology (OIST)",
+  "file": "content/people\\054-hiroki-takahashi.md"
+ },
+ {
+  "id": "056-kenji-toyoda",
+  "name": "Kenji Toyoda",
+  "inst": "Osaka University",
+  "file": "content/people\\056-kenji-toyoda.md"
+ },
+ {
+  "id": "057-utako-tanaka",
+  "name": "Utako Tanaka",
+  "inst": "Osaka University",
+  "file": "content/people\\057-utako-tanaka.md"
+ },
+ {
+  "id": "058-atsushi-noguchi",
+  "name": "Atsushi Noguchi",
+  "inst": "University of Tokyo",
+  "file": "content/people\\058-atsushi-noguchi.md"
+ },
+ {
+  "id": "059-shuichi-hasegawa",
+  "name": "Shuichi Hasegawa",
+  "inst": "University of Tokyo",
+  "file": "content/people\\059-shuichi-hasegawa.md"
+ },
+ {
+  "id": "060-moonjoo-lee",
+  "name": "Moonjoo Lee",
+  "inst": "POSTECH",
+  "file": "content/people\\060-moonjoo-lee.md"
+ },
+ {
+  "id": "061-taeyoung-choi",
+  "name": "Taeyoung Choi",
+  "inst": "Ewha Womans University",
+  "file": "content/people\\061-taeyoung-choi.md"
+ },
+ {
+  "id": "062-dan-cho",
+  "name": "Dan Cho",
+  "inst": "Seoul National University",
+  "file": "content/people\\062-dan-cho.md"
+ },
+ {
+  "id": "063-taehyun-kim",
+  "name": "Taehyun Kim",
+  "inst": "Seoul National University",
+  "file": "content/people\\063-taehyun-kim.md"
+ },
+ {
+  "id": "064-junki-kim",
+  "name": "Junki Kim",
+  "inst": "Sungkyunkwan University (SKKU)",
+  "file": "content/people\\064-junki-kim.md"
+ },
+ {
+  "id": "065-luyan-sun",
+  "name": "Luyan Sun",
+  "inst": "Tsinghua University",
+  "file": "content/people\\065-luyan-sun.md"
+ },
+ {
+  "id": "066-wenhui-li",
+  "name": "Wenhui Li",
+  "inst": "Peking University",
+  "file": "content/people\\066-wenhui-li.md"
+ },
+ {
+  "id": "067-mirko-lobino",
+  "name": "Mirko Lobino",
+  "inst": "Griffith University",
+  "file": "content/people\\067-mirko-lobino.md"
+ },
+ {
+  "id": "068-paul-barclay",
+  "name": "Paul Barclay",
+  "inst": "University of Calgary",
+  "file": "content/people\\068-paul-barclay.md"
+ },
+ {
+  "id": "071-matthias-keller",
+  "name": "Matthias Keller",
+  "inst": "University of Sussex",
+  "file": "content/people\\071-matthias-keller.md"
+ },
+ {
+  "id": "072-brian-mcmahon",
+  "name": "Brian McMahon",
+  "inst": "Georgia Institute of Technology",
+  "file": "content/people\\072-brian-mcmahon.md"
+ },
+ {
+  "id": "073-david-hume",
+  "name": "David Hume",
+  "inst": "National Institute of Standards and Technology (NIST), Boulder",
+  "file": "content/people\\073-david-hume.md"
+ },
+ {
+  "id": "074-piet-schmidt",
+  "name": "Piet O. Schmidt",
+  "inst": "Physikalisch-Technische Bundesanstalt (PTB) / Leibniz University Hannover",
+  "file": "content/people\\074-piet-schmidt.md"
+ },
+ {
+  "id": "077-ben-lanyon",
+  "name": "Ben P. Lanyon",
+  "inst": "University of Innsbruck",
+  "file": "content/people\\077-ben-lanyon.md"
+ },
+ {
+  "id": "109-markus-muller",
+  "name": "Markus M\u00fcller",
+  "inst": "Forschungszentrum J\u00fclich",
+  "file": "content/people\\109-markus-muller.md"
+ },
+ {
+  "id": "208-daniel-zajfman",
+  "name": "Daniel Zajfman",
+  "inst": "Weizmann Institute of Science",
+  "file": "content/people\\208-daniel-zajfman.md"
+ },
+ {
+  "id": "243-andrew-steane",
+  "name": "Andrew Steane",
+  "inst": "University of Oxford",
+  "file": "content/people\\243-andrew-steane.md"
+ },
+ {
+  "id": "261-david-kielpinski",
+  "name": "David Kielpinski",
+  "inst": "Griffith University",
+  "file": "content/people\\261-david-kielpinski.md"
+ },
+ {
+  "id": "271-gunter-werth",
+  "name": "Gunter Werth",
+  "inst": "Johannes Gutenberg University Mainz",
+  "file": "content/people\\271-gunter-werth.md"
+ },
+ {
+  "id": "318-shinji-urabe",
+  "name": "Shinji Urabe",
+  "inst": "Osaka University",
+  "file": "content/people\\318-shinji-urabe.md"
+ },
+ {
+  "id": "330-ksenia-khabarova",
+  "name": "Ksenia Khabarova",
+  "inst": "Lebedev Physical Institute",
+  "file": "content/people\\330-ksenia-khabarova.md"
+ },
+ {
+  "id": "331-nikolai-kolachevsky",
+  "name": "Nikolai Kolachevsky",
+  "inst": "Lebedev Physical Institute",
+  "file": "content/people\\331-nikolai-kolachevsky.md"
+ },
+ {
+  "id": "332-ilya-semerikov",
+  "name": "Ilya Semerikov",
+  "inst": "Lebedev Physical Institute",
+  "file": "content/people\\332-ilya-semerikov.md"
+ }
+]

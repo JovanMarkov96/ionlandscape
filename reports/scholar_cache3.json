@@ -1,0 +1,94 @@
+{
+ "022-rajibul-islam": {
+  "verdict": "weak",
+  "user": "e6xQAX8AAAAJ",
+  "scholar_name": "Kazi Ranjibul Islam",
+  "aff": [
+   "Postdoctoral researcher, University of Wisconsin, Milwaukee",
+   "Verified email at uwm.edu"
+  ],
+  "home": null,
+  "file": "content/people\\022-rajibul-islam.md"
+ },
+ "023-crystal-senko": {
+  "verdict": "found",
+  "user": "Y5SSXT8AAAAJ",
+  "scholar_name": "Crystal Senko",
+  "aff": [
+   "University of Waterloo",
+   "Verified email at uwaterloo.ca"
+  ],
+  "home": null,
+  "file": "content/people\\023-crystal-senko.md"
+ },
+ "030-rene-gerritsma": {
+  "verdict": "weak",
+  "user": "99ljuoQAAAAJ",
+  "scholar_name": "Rene Gerritsma",
+  "aff": [
+   "Unknown affiliation",
+   "Verified email at uva.nl"
+  ],
+  "home": null,
+  "file": "content/people\\030-rene-gerritsma.md"
+ },
+ "033-dzmitry-matsukevich": {
+  "verdict": "found",
+  "user": "B4X3nCMAAAAJ",
+  "scholar_name": "Dzmitry Matsukevich",
+  "aff": [
+   "Associate Professor, Centre for Quantum Technologies & Department of Physics, NUS",
+   "Verified email at nus.edu.sg"
+  ],
+  "home": null,
+  "file": "content/people\\033-dzmitry-matsukevich.md"
+ },
+ "034-manas-mukherjee": {
+  "verdict": "weak",
+  "user": "9sm0nwIAAAAJ",
+  "scholar_name": "Manas Mukherjee",
+  "aff": [
+   "Metallurgical and Materials Engineering, IIT Madras",
+   "Verified email at iitm.ac.in"
+  ],
+  "home": null,
+  "file": "content/people\\034-manas-mukherjee.md"
+ },
+ "037-david-lucas": {
+  "verdict": "found",
+  "user": "fYjRFQ4AAAAJ",
+  "scholar_name": "D Lucas",
+  "aff": [
+   "physics, oxford university",
+   "Verified email at physics.ox.ac.uk"
+  ],
+  "home": null,
+  "file": "content/people\\037-david-lucas.md"
+ },
+ "014-thomas-monz": {
+  "verdict": "no_results",
+  "file": "content/people\\014-thomas-monz.md"
+ },
+ "038-eric-hudson": {
+  "verdict": "weak",
+  "user": "i3J1ORUAAAAJ",
+  "scholar_name": "Eric R. Hudson",
+  "aff": [
+   "UCLA",
+   "Verified email at ucla.edu - Homepage"
+  ],
+  "home": "http://hudsongroup.physics.ucla.edu/",
+  "file": "content/people\\038-eric-hudson.md"
+ },
+ "039-wes-campbell": {
+  "verdict": "weak",
+  "user": "-cReJLIAAAAJ",
+  "scholar_name": "Wesley C. Campbell",
+  "aff": [
+   "Professor of Physics, UCLA",
+   "Verified email at physics.ucla.edu - Homepage"
+  ],
+  "home": "http://campbellgroup.physics.ucla.edu/",
+  "file": "content/people\\039-wes-campbell.md"
+ }
+}
