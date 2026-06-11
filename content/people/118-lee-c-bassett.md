@@ -73,7 +73,6 @@ lineage_check:
   last_checked: '2026-05-29'
 links:
   google_scholar: https://scholar.google.com/citations?user=HMpSngkAAAAJ
-  group_page: https://nanoquant.seas.upenn.edu/
   institution_profile: https://www.seas.upenn.edu/faculty-directory/lee-c-bassett/
   openalex: https://openalex.org/A5000528762
   orcid: https://orcid.org/0000-0001-8729-1530

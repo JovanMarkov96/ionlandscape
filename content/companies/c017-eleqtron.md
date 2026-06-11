@@ -49,7 +49,6 @@ ion_species:
 - 171Yb+
 last_verified_at: '2026-06-02'
 links:
-  news: https://eleqtron.com/en/news/
   website: https://eleqtron.com/
 location:
   city: Siegen

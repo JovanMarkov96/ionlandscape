@@ -57,6 +57,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
+  group_page: https://research.rug.nl/en/persons/3ea79dc6-dfeb-470b-8de8-bf91e1e93abf
   google_scholar: https://scholar.google.com/citations?user=gmbozcIAAAAJ
   openalex: https://openalex.org/A5032279219
   orcid: https://orcid.org/0000-0003-0571-4072

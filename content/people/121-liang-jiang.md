@@ -55,7 +55,8 @@ labels:
 - Theory group
 last_verified_at: '2026-05-29'
 links:
-  lab: https://jianggroup.uchicago.edu
+  group_page: https://pme.uchicago.edu/jiang_group/liang_jiang/
+  lab: https://pme.uchicago.edu/group/jiang-group
   openalex: https://openalex.org/A5068826612
   orcid: https://orcid.org/0000-0002-0000-9342
 location:

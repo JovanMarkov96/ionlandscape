@@ -45,7 +45,6 @@ funding:
 id: c107-pixel-photonics
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/pixel-photonics
   website: https://pixelphotonics.com
 location:
   city: Munster

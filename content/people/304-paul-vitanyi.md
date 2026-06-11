@@ -15,6 +15,7 @@ labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
+  group_page: http://www.cwi.nl/~paulv
   google_scholar: https://scholar.google.com/citations?user=UCsQ8VgAAAAJ
   orcid: https://orcid.org/0000-0002-5712-7585
   openalex: https://openalex.org/A5029628745

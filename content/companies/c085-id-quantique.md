@@ -29,7 +29,6 @@ founded_year: 2001
 id: c085-id-quantique
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/id-quantique
   website: https://www.idquantique.com
 location:
   city: Geneva

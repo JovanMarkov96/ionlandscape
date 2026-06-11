@@ -8,7 +8,7 @@ current_position:
   confidence: confirmed
   institution: Laboratoire Charles Fabry, Institut d'Optique / CNRS
   since_year: null
-  source: https://en.wikipedia.org/wiki/Philippe_Grangier
+  source: https://de.wikipedia.org/wiki/Philippe_Grangier
   title: Research Director (CNRS)
 entity_type: person
 group_type: experimental
@@ -17,7 +17,7 @@ last_verified_at: '2026-06-02'
 links:
   orcid: https://orcid.org/0000-0001-8211-8958
   openalex: https://openalex.org/A5079645189
-  wikipedia: https://en.wikipedia.org/wiki/Philippe_Grangier
+  wikipedia: https://de.wikipedia.org/wiki/Philippe_Grangier
 location:
   city: Palaiseau
   country: France
@@ -34,7 +34,7 @@ schema_version: 2
 sort_name: Grangier, Philippe
 sources:
 - note: Biography
-  url: https://en.wikipedia.org/wiki/Philippe_Grangier
+  url: https://de.wikipedia.org/wiki/Philippe_Grangier
 - note: Institut d'Optique group
   url: https://www.lcf.institutoptique.fr/
 updated_at: '2026-06-02'

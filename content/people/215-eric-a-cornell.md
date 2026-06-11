@@ -15,6 +15,7 @@ group_type: experimental
 id: 215-eric-a-cornell
 last_verified_at: '2026-06-02'
 links:
+  group_page: http://jilawww.colorado.edu/bec/CornellGroup/
   google_scholar: https://scholar.google.com/citations?user=smkK3i8AAAAJ
   orcid: https://orcid.org/0009-0004-8034-9057
   openalex: https://openalex.org/A5004950660

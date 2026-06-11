@@ -58,7 +58,6 @@ lineage_check:
   postdoc_verified: true
 links:
   aqt_about: https://www.aqt.eu/about/
-  cv_pdf: https://quantumoptics.at/images/people/rainer.blatt/rb_cv_2023_english.pdf
   google_scholar: https://scholar.google.com/citations?user=_34V-4QAAAAJ
   oeaw_profile: https://www.oeaw.ac.at/en/m/blatt-rainer/
   openalex: https://openalex.org/A5040977712

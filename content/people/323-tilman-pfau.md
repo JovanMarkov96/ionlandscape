@@ -14,10 +14,11 @@ group_type: experimental
 id: 323-tilman-pfau
 last_verified_at: '2026-06-02'
 links:
+  group_page: https://www.pi5.uni-stuttgart.de/institute/team/Pfau/
   orcid: https://orcid.org/0000-0003-3272-3468
   openalex: https://openalex.org/A5024615683
   homepage: https://www.uni-stuttgart.de/
-  wikipedia: https://en.wikipedia.org/wiki/Tilman_Pfau
+  wikipedia: https://de.wikipedia.org/wiki/Tilman_Pfau
 location:
   city: Stuttgart
   country: Germany
@@ -35,7 +36,7 @@ sources:
 - note: Institutional / group page
   url: https://www.uni-stuttgart.de/
 - note: Biography
-  url: https://en.wikipedia.org/wiki/Tilman_Pfau
+  url: https://de.wikipedia.org/wiki/Tilman_Pfau
 updated_at: '2026-06-02'
 verification_source_count: 2
 ---

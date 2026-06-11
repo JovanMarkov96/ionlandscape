@@ -14,6 +14,7 @@ group_type: experimental
 id: 322-thomas-f-gallagher
 last_verified_at: '2026-06-02'
 links:
+  group_page: http://www.phys.virginia.edu/People/personal.asp?UID=tfg
   homepage: https://www.virginia.edu/
 location:
   city: Charlottesville

@@ -52,7 +52,7 @@ milestones:
 - claim: Wholly acquired by Rohde & Schwarz, strengthening the group's position in the quantum-technology
     market.
   date: '2021-06-01'
-  source: https://www.rohde-schwarz.com/us/about/news-press/all-news/rohde-schwarz-strengthens-position-in-quantum-technology-market-by-acquiring-zurich-instruments-ag-press-release-detailpage_229356-1094656.html
+  source: https://web.archive.org/web/20251118013047/https://www.rohde-schwarz.com/us/about/news-press/all-news/rohde-schwarz-strengthens-position-in-quantum-technology-market-by-acquiring-zurich-instruments-ag-press-release-detailpage_229356-1094656.html
 modality: hardware
 name: Zurich Instruments
 people:
@@ -94,7 +94,7 @@ sources:
 - note: QCCS commercialisation, history
   url: https://en.wikipedia.org/wiki/Zurich_Instruments
 - note: Rohde & Schwarz acquisition (2021)
-  url: https://www.rohde-schwarz.com/us/about/news-press/all-news/rohde-schwarz-strengthens-position-in-quantum-technology-market-by-acquiring-zurich-instruments-ag-press-release-detailpage_229356-1094656.html
+  url: https://web.archive.org/web/20251118013047/https://www.rohde-schwarz.com/us/about/news-press/all-news/rohde-schwarz-strengthens-position-in-quantum-technology-market-by-acquiring-zurich-instruments-ag-press-release-detailpage_229356-1094656.html
 status:
   acquired:
     acquired_by: Rohde & Schwarz

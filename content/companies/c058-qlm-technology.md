@@ -38,7 +38,6 @@ funding:
 id: c058-qlm-technology
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/qlm-technology
   website: https://qlmtec.com
 location:
   city: Bristol

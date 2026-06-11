@@ -14,6 +14,7 @@ group_type: experimental
 id: 251-cindy-a-regal
 last_verified_at: '2026-06-02'
 links:
+  group_page: http://jilawww.colorado.edu/regal
   google_scholar: https://scholar.google.com/citations?user=65DVU3UAAAAJ
   wikipedia: https://en.wikipedia.org/wiki/Cindy_Regal
   orcid: https://orcid.org/0000-0002-0000-2140

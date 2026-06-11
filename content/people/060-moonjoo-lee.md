@@ -50,6 +50,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  group_page: https://sites.google.com/view/postechquantum/home
   group_page: null
   openalex: https://openalex.org/A5059548002
   orcid: https://orcid.org/0000-0002-4054-0963

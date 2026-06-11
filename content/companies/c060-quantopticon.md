@@ -27,7 +27,6 @@ founded_year: 2017
 id: c060-quantopticon
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/quantopticon
   website: https://quantopticon.co.uk
 location:
   city: London

@@ -60,7 +60,6 @@ links:
   iqoqi_profile: https://iqoqi.at/en/people/staff/staff/christian-roos
   openalex: https://openalex.org/A5012485450
   orcid: https://orcid.org/0000-0001-7121-8259
-  thesis_pdf: https://quantumoptics.at/images/publications/dissertation/roos-diss.pdf
 location:
   city: Innsbruck
   country: Austria

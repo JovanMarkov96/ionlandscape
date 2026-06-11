@@ -15,7 +15,6 @@ id: 311-randy-hulet
 last_verified_at: '2026-06-02'
 links:
   homepage: https://www.rice.edu/
-  wikipedia: https://en.wikipedia.org/wiki/Randall_Hulet
 location:
   city: Houston
   country: United States
@@ -31,8 +30,6 @@ sort_name: Hulet, Randy
 sources:
 - note: Institutional / group page
   url: https://www.rice.edu/
-- note: Biography
-  url: https://en.wikipedia.org/wiki/Randall_Hulet
 updated_at: '2026-06-02'
 verification_source_count: 2
 ---

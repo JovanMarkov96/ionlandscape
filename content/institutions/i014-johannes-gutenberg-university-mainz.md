@@ -8,7 +8,7 @@ focus_areas:
 id: i014-johannes-gutenberg-university-mainz
 institution_type: university
 links:
-  website: https://www.uni-mainz.de/eng/
+  website: https://www.uni-mainz.de/en/
 location:
   city: Mainz
   country: Germany

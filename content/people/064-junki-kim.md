@@ -39,8 +39,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  group_page: https://queti.skku.edu/
-  homepage: https://queti.skku.edu/
   orcid: https://orcid.org/0000-0001-8133-4819
 location:
   city: Suwon

@@ -51,7 +51,7 @@ id: c039-atlantic-quantum
 last_verified_at: '2026-06-03'
 links:
   linkedin: https://www.linkedin.com/company/atlantic-quantum
-  website: https://atlantic-quantum.com
+  website: https://web.archive.org/web/20251107123009/https://atlantic-quantum.com/
 location:
   city: Cambridge
   country: United States

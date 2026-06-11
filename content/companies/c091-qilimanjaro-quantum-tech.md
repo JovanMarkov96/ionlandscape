@@ -29,7 +29,6 @@ founded_year: 2019
 id: c091-qilimanjaro-quantum-tech
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/qilimanjaro-quantum-tech
   website: https://www.qilimanjaro.tech
 location:
   city: Barcelona

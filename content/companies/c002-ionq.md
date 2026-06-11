@@ -277,8 +277,6 @@ sources:
   url: https://en.wikipedia.org/wiki/IonQ
 - note: Company / About — leadership and customers
   url: https://ionq.com/company
-- note: Quantum hardware — Harmony, Aria, Forte, Tempo and cloud availability
-  url: https://ionq.com/quantum-hardware
 - note: Investor relations — filings and financial disclosures
   url: https://investors.ionq.com
 - note: Oxford Ionics $1.075B acquisition, June 2025

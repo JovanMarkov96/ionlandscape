@@ -30,7 +30,6 @@ founded_year: 2001
 id: c082-menlo-systems
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/menlo-systems-gmbh
   website: https://www.menlosystems.com
 location:
   city: Munich

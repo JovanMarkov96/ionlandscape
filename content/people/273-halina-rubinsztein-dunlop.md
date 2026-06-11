@@ -14,6 +14,7 @@ group_type: experimental
 id: 273-halina-rubinsztein-dunlop
 last_verified_at: '2026-06-02'
 links:
+  group_page: https://people.smp.uq.edu.au/HalinaRubinsztein-Dunlop/
   google_scholar: https://scholar.google.com/citations?user=4_sqVfYAAAAJ
   wikipedia: https://en.wikipedia.org/wiki/Halina_Rubinsztein-Dunlop
   orcid: https://orcid.org/0000-0002-8332-2309

@@ -87,7 +87,7 @@ offices:
     city: Grenoble
     country: France
     region: Auvergne-Rhone-Alpes
-  source: https://www.quobly.io/about-us/
+  source: https://www.quobly.io/quobly
 partnerships:
 - name: STMicroelectronics
   source: https://newsroom.st.com/media-center/press-item.html/t4667.html
@@ -96,17 +96,17 @@ people:
   founders:
   - name: Maud Vinet
     role: Co-founder & CEO
-    source: https://www.quobly.io/about-us/
+    source: https://www.quobly.io/quobly
   - name: Tristan Meunier
     role: Co-founder
-    source: https://www.quobly.io/about-us/
+    source: https://www.quobly.io/quobly
   - name: Francois Perruchot
     role: Co-founder
-    source: https://www.quobly.io/about-us/
+    source: https://www.quobly.io/quobly
   leadership:
   - name: Maud Vinet
     role: Chief Executive Officer
-    source: https://www.quobly.io/about-us/
+    source: https://www.quobly.io/quobly
   spun_out_of:
   - name: French Alternative Energies and Atomic Energy Commission (CEA)
     source: https://www.eu-startups.com/2026/06/cea-leti-and-cnrs-spin-off-quobly-raises-e115-million-to-industrialise-silicon-based-quantum-computers/
@@ -138,7 +138,7 @@ sources:
 - note: Official website
   url: https://www.quobly.io
 - note: Company background, founders, CEA-Leti/CNRS spin-off
-  url: https://www.quobly.io/about-us/
+  url: https://www.quobly.io/quobly
 - note: EUR 115M Series A (June 2026), investors, commercial timeline
   url: https://www.quobly.io/press-releases/quobly-secures-e115-million-series-a-to-bring-silicon-based-quantum-computers-to-market
 - note: $23M to launch 100-qubit silicon chip production (2025)

@@ -35,7 +35,7 @@ funding:
     - Hermann Hauser
     - Herbert Gartner
     round: Seed
-    source: https://www.iect.at/en/parityqc-im-interview-en/
+    source: https://web.archive.org/web/20211027104014/https://www.iect.at/en/parityqc-im-interview-en/
     stage: seed
   - date: '2024-04-01'
     lead_investor: B&C Innovation Investments
@@ -105,7 +105,7 @@ sources:
 - note: B&C Innovation Investments funding
   url: https://www.uibk.ac.at/de/newsroom/2024/parityqc-zieht-mit-globalen-quantenunternehmen-gleich/
 - note: Early investors and ownership
-  url: https://www.iect.at/en/parityqc-im-interview-en/
+  url: https://web.archive.org/web/20211027104014/https://www.iect.at/en/parityqc-im-interview-en/
 status:
   operating_status: private
 updated_at: '2026-06-10'

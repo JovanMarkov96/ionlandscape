@@ -7,7 +7,7 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Chalmers University of Technology
-  source: https://www.chalmers.se/en/persons/goran-wendin/
+  source: https://research.chalmers.se/en/person/wendin
   title: Professor Emeritus
   verified_at: '2026-05-26'
 entity_type: person
@@ -65,7 +65,7 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: false
 links:
-  institution_profile: https://www.chalmers.se/en/persons/goran-wendin/
+  institution_profile: https://research.chalmers.se/en/person/wendin
   openalex: https://openalex.org/A5052792710
   orcid: https://orcid.org/0000-0001-7630-4260
 location:

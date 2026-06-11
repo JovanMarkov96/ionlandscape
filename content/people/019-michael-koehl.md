@@ -52,7 +52,7 @@ lineage_check:
   postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=Cw9P5UkAAAAJ
-  group_page: https://www.koellab.uni-bonn.de/
+  group_page: https://www.pi.uni-bonn.de/koehl/en
   orcid: https://orcid.org/0000-0003-3967-1816
   university_profile: https://www.pi.uni-bonn.de/koehl/en
 location:

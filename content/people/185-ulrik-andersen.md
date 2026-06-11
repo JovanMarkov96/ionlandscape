@@ -76,7 +76,7 @@ links:
   openalex: https://openalex.org/A5020064397
   orcid: https://orcid.org/0000-0002-6256-1902
   google_scholar: https://scholar.google.com/citations?user=UAA685oAAAAJ
-  group_page: https://bigq.dtu.dk/
+  group_page: https://bigq.fysik.dtu.dk/
 location:
   city: Kongens Lyngby
   country: Denmark

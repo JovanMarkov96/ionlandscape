@@ -104,8 +104,6 @@ sources:
   url: https://www.qs-labs.com/
 - note: Globes funding and company overview
   url: https://en.globes.co.il/en/article-photonic-quantum-computer-co-quantum-source-raises-50m-1001488820
-- note: Wikipedia company profile
-  url: https://en.wikipedia.org/wiki/Quantum_Source_Labs
 status:
   acquired:
     acquired_by: null

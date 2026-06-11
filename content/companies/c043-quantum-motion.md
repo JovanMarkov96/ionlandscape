@@ -51,7 +51,6 @@ funding:
 id: c043-quantum-motion
 last_verified_at: '2026-06-03'
 links:
-  linkedin: https://www.linkedin.com/company/quantum-motion
   website: https://quantummotion.com
 location:
   city: London

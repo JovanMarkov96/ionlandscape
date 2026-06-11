@@ -44,7 +44,7 @@ funding:
     - Valor Equity Partners
     - NVentures (NVIDIA)
     round: $230M financing round
-    source: https://www.quera.com/press-releases/quera-expands-230-million-financing-round-advancing-quantum-accelerated-supercomputing
+    source: https://www.quera.com/news/quera-expands-230-million-financing-round-advancing-quantum-accelerated-supercomputing
     stage: convertible_note
   total_raised_usd: 230000000
 id: c006-quera-computing
@@ -53,8 +53,7 @@ ion_species:
 last_verified_at: '2026-05-31'
 links:
   careers: https://www.quera.com/careers
-  linkedin: https://www.linkedin.com/company/quera-computing
-  news: https://www.quera.com/press-releases
+  news: https://www.quera.com/news
   website: https://www.quera.com
   wikipedia: https://en.wikipedia.org/wiki/QuEra_Computing
 location:
@@ -83,11 +82,11 @@ milestones:
 - claim: Releases a roadmap toward advanced error-corrected quantum computers, targeting
     100 logical qubits by 2026.
   date: '2024-01-09'
-  source: https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0
+  source: https://www.quera.com/news/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0
 - claim: Announces a $230M+ financing round led by Google to accelerate error-corrected
     quantum computing.
   date: '2025-02-11'
-  source: https://www.quera.com/press-releases/quera-expands-230-million-financing-round-advancing-quantum-accelerated-supercomputing
+  source: https://www.quera.com/news/quera-expands-230-million-financing-round-advancing-quantum-accelerated-supercomputing
 - claim: NVentures (NVIDIA's venture arm) joins, expanding the $230M financing round.
   date: '2025-09-09'
   source: https://thequantuminsider.com/2025/09/09/quera-secures-investment-from-nventures-expands-230-million-financing-round/
@@ -172,7 +171,7 @@ roadmap:
   target_claim: Second-generation system with 30 logical (error-corrected) qubits,
     ~3,000 physical qubits, and magic-state distillation.
   target_date: '2025-12-31'
-- source: https://www.quera.com/press-releases/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0
+- source: https://www.quera.com/news/quera-computing-releases-a-groundbreaking-roadmap-for-advanced-error-corrected-quantum-computers-pioneering-the-next-frontier-in-quantum-innovation-0
   target_claim: Third-generation system with 100 logical qubits and over 10,000 physical
     qubits, capable of deep logical circuits beyond the classical-simulability limit.
   target_date: '2026-12-31'

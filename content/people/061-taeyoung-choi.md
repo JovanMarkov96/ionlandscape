@@ -56,7 +56,6 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  group_page: http://qion.ewha.ac.kr/
   openalex: https://openalex.org/A5102889325
   orcid: https://orcid.org/0000-0001-8562-1962
 location:

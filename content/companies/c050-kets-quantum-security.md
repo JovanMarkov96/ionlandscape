@@ -41,7 +41,6 @@ funding:
 id: c050-kets-quantum-security
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/kets-quantum-security
   website: https://kets-quantum.com
 location:
   city: Bristol

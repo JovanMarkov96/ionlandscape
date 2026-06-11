@@ -14,6 +14,7 @@ group_type: mixed
 id: 220-jean-dalibard
 last_verified_at: '2026-06-02'
 links:
+  group_page: http://www.phys.ens.fr/~dalibard/
   google_scholar: https://scholar.google.com/citations?user=1x1mbvgAAAAJ
   orcid: https://orcid.org/0000-0001-8469-3913
   openalex: https://openalex.org/A5027822857

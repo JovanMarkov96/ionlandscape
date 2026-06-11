@@ -19,7 +19,6 @@ last_verified_at: '2026-06-02'
 links:
   orcid: https://orcid.org/0000-0003-1879-3902
   openalex: https://openalex.org/A5088795401
-  wikipedia: https://en.wikipedia.org/wiki/Netanel_Lindner
 location:
   city: Haifa
   country: Israel
@@ -34,8 +33,6 @@ sort_name: Lindner, Netanel
 sources:
 - note: Technion group page
   url: https://phsites.technion.ac.il/lindner/
-- note: Biography
-  url: https://en.wikipedia.org/wiki/Netanel_Lindner
 updated_at: '2026-06-02'
 verification_source_count: 2
 ---

@@ -66,7 +66,6 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
-  group_page: http://research.physics.berkeley.edu/clarke/overview.html
   institution_profile: https://physics.berkeley.edu/people/faculty/john-clarke
   openalex: https://openalex.org/A5010797318
   orcid: https://orcid.org/0000-0001-6402-7841

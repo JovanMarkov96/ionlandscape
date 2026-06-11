@@ -24,7 +24,6 @@ founded_year: 2020
 id: c093-qti-quantum-telecommunications-italy
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/qti-srl
   website: https://www.qticompany.com
 location:
   city: Florence

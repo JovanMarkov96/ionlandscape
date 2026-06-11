@@ -47,7 +47,6 @@ funding:
 id: c090-multiverse-computing
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/multiverse-computing
   website: https://multiversecomputing.com
 location:
   city: San Sebastian

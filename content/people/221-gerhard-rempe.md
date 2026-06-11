@@ -17,7 +17,6 @@ last_verified_at: '2026-06-02'
 links:
   orcid: https://orcid.org/0000-0003-2770-0819
   openalex: https://openalex.org/A5042479821
-  homepage: https://www.mpq.mpg.de/rempe
   wikipedia: https://en.wikipedia.org/wiki/Gerhard_Rempe
 location:
   city: Garching
@@ -33,8 +32,6 @@ platforms:
 schema_version: 2
 sort_name: Rempe, Gerhard
 sources:
-- note: MPQ Quantum Dynamics Division
-  url: https://www.mpq.mpg.de/rempe
 - note: Biography
   url: https://en.wikipedia.org/wiki/Gerhard_Rempe
 updated_at: '2026-06-02'

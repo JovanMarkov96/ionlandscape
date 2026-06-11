@@ -8,7 +8,7 @@ current_position:
   confidence: confirmed
   institution: Harvard University
   since_year: null
-  source: https://jdoyle.hsites.harvard.edu/
+  source: https://www.doylegroup.harvard.edu/
   title: Henry B. Silsbee Professor of Physics
 education:
 - degree: BS (Electrical Engineering)
@@ -58,7 +58,7 @@ last_verified_at: '2026-06-03'
 links:
   orcid: https://orcid.org/0000-0001-9793-7630
   cua: https://cua.mit.edu/people/john-doyle/
-  group_page: https://jdoyle.hsites.harvard.edu/
+  group_page: https://www.doylegroup.harvard.edu/
   homepage: https://www.physics.harvard.edu/
   wikipedia: https://en.wikipedia.org/wiki/John_Doyle_(academic)
 location:
@@ -77,7 +77,7 @@ sources:
 - note: Biography, education, awards, research
   url: https://en.wikipedia.org/wiki/John_Doyle_(academic)
 - note: Doyle Group (buffer-gas cooling, ultracold molecules)
-  url: https://jdoyle.hsites.harvard.edu/
+  url: https://www.doylegroup.harvard.edu/
 - note: MIT-Harvard Center for Ultracold Atoms profile
   url: https://cua.mit.edu/people/john-doyle/
 updated_at: '2026-06-03'

@@ -74,7 +74,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-30'
 links:
-  group_page: https://www.bristol.ac.uk/qet-labs/research/laing-group/
+  group_page: https://www.bristol.ac.uk/physics/research/quantum/
   institution_profile: https://research-information.bris.ac.uk/en/persons/anthony-laing/
   openalex: https://openalex.org/A5034019399
   orcid: https://orcid.org/0000-0002-3567-7717

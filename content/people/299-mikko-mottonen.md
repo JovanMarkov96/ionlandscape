@@ -13,6 +13,7 @@ group_type: experimental
 id: 299-mikko-mottonen
 last_verified_at: '2026-06-02'
 links:
+  group_page: http://physics.aalto.fi/groups/comp/qcd/
   orcid: https://orcid.org/0000-0001-5084-2298
   openalex: https://openalex.org/A5047643849
   homepage: https://www.aalto.fi/

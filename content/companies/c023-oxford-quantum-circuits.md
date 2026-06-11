@@ -65,7 +65,6 @@ id: c023-oxford-quantum-circuits
 last_verified_at: '2026-05-30'
 links:
   website: https://oqc.tech
-  wikipedia: https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits
 location:
   city: Reading
   country: United Kingdom
@@ -179,7 +178,6 @@ short_summary: Oxford Quantum Circuits (OQC; founded 2017, Reading, UK) is a Uni
   logical-era system in a New York City data centre with NVIDIA in September 2025.
 sort_name: Oxford Quantum Circuits
 sources:
-- url: https://en.wikipedia.org/wiki/Oxford_Quantum_Circuits
 - note: OQC company overview
   url: https://oqc.tech/company/
 - note: OQC technology overview — Coaxmon, Dimon, architecture generations

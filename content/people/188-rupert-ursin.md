@@ -63,7 +63,6 @@ lineage_check:
   last_checked: '2026-05-30'
 links:
   wikipedia: https://en.wikipedia.org/wiki/Rupert_Ursin
-  institution_profile: https://www.iqoqi-vienna.at/people/ursin-group/rupert-ursin/
   openalex: https://openalex.org/A5008394011
   orcid: https://orcid.org/0000-0001-6580-0484
   google_scholar: https://scholar.google.com/citations?user=h-FveJcAAAAJ

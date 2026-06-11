@@ -47,7 +47,6 @@ ion_species:
 - 31P
 last_verified_at: '2026-06-03'
 links:
-  linkedin: https://www.linkedin.com/company/silicon-quantum-computing
   website: https://www.sqc.com.au
   wikipedia: https://en.wikipedia.org/wiki/Silicon_Quantum_Computing
 location:

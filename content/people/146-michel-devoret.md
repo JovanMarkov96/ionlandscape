@@ -72,6 +72,7 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
+  group_page: http://qulab.eng.yale.edu/
   google_scholar: https://scholar.google.com/citations?user=2CeGqLAAAAAJ
   wikipedia: https://en.wikipedia.org/wiki/Michel_Devoret
   institution_profile: https://engineering.yale.edu/applied-physicsmichel-devoret

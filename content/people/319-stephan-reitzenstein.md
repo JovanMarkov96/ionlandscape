@@ -14,6 +14,7 @@ group_type: experimental
 id: 319-stephan-reitzenstein
 last_verified_at: '2026-06-02'
 links:
+  group_page: http://www.ifkp.tu-berlin.de/menue/arbeitsgruppen/ag_reitzenstein/
   google_scholar: https://scholar.google.com/citations?user=xW46WCoAAAAJ
   orcid: https://orcid.org/0000-0002-1381-9838
   openalex: https://openalex.org/A5076333546

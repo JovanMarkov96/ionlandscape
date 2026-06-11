@@ -30,7 +30,6 @@ founded_year: 2006
 id: c056-m-squared-lasers
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/m-squared-lasers
   website: https://www.m2lasers.com
 location:
   city: Glasgow

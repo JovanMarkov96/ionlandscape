@@ -15,6 +15,7 @@ group_type: experimental
 id: 213-alain-aspect
 last_verified_at: '2026-06-02'
 links:
+  group_page: https://www.lcf.institutoptique.fr/groupes-de-recherche/gaz-quantiques/membres/permanents/alain-aspect
   orcid: https://orcid.org/0000-0003-0094-5584
   openalex: https://openalex.org/A5046427077
   homepage: https://www.lcf.institutoptique.fr/

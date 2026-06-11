@@ -14,7 +14,7 @@ education:
   confidence: confirmed
   degree: PhD (Chemistry)
   institution: ETH Zurich
-  source: https://willitsch.chemie.unibas.ch/
+  source: https://coldions.chemie.unibas.ch/
   year: 2004
 entity_type: person
 group_type: experimental
@@ -52,7 +52,7 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=BR2XCVwAAAAJ
-  group_page: https://willitsch.chemie.unibas.ch/
+  group_page: https://coldions.chemie.unibas.ch/
   openalex: https://openalex.org/A5090094344
   orcid: https://orcid.org/0000-0002-8376-0579
 location:

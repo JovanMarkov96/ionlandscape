@@ -54,7 +54,7 @@ milestones:
 - claim: Founded in Copenhagen to provide quantum-chemistry software for the pharma, biotech and chemical
     industries.
   date: '2021-01-01'
-  source: https://www.inam.berlin/post/founderfriday-mqs-a-service-solution-for-the-pharma-biotech-and-chemical-industries
+  source: https://web.archive.org/web/20250214202109/https://www.inam.berlin/post/founderfriday-mqs-a-service-solution-for-the-pharma-biotech-and-chemical-industries
 - claim: Raised a EUR 600k pre-seed round to bridge the gap between laboratories and quantum chemistry.
   date: '2022-01-01'
   source: https://rockstart.pr.co/227409-molecular-quantum-solutions-raises-600k-pre-seed-round-to-further-bridge-the-gap-between-laboratories-and-quantum-chemistry/
@@ -81,7 +81,7 @@ sources:
 - note: EUR 600k pre-seed round
   url: https://rockstart.pr.co/227409-molecular-quantum-solutions-raises-600k-pre-seed-round-to-further-bridge-the-gap-between-laboratories-and-quantum-chemistry/
 - note: Company overview, target industries
-  url: https://www.inam.berlin/post/founderfriday-mqs-a-service-solution-for-the-pharma-biotech-and-chemical-industries
+  url: https://web.archive.org/web/20250214202109/https://www.inam.berlin/post/founderfriday-mqs-a-service-solution-for-the-pharma-biotech-and-chemical-industries
 status:
   operating_status: private
 updated_at: '2026-06-10'

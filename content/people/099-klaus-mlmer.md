@@ -59,6 +59,7 @@ lineage_check:
   last_checked: '2026-05-30'
   postdoc_verified: true
 links:
+  group_page: https://nbi.ku.dk/ansatte/?pure=da/persons/100435
   google_scholar: https://scholar.google.com/citations?user=AnmFcv8AAAAJ
   wikipedia: https://en.wikipedia.org/wiki/Klaus_M%C3%B8lmer
   institution_profile: https://nbi.ku.dk/english/staff/?pure=en/persons/100435

@@ -118,8 +118,6 @@ sort_name: Quantum Art
 sources:
 - note: Official website (Tech quotes)
   url: https://quantum-art.tech
-- note: 'PR Newswire: Funding & Founders'
-  url: https://www.prnewswire.com/news-releases/quantum-art-raises-100-million-in-series-a-funding-302328222.html
 - note: 'Tracxn: Location & Founders'
   url: https://tracxn.com/d/companies/quantum-art/__AwK...
 status:

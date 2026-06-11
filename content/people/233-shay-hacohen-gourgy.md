@@ -7,7 +7,7 @@ current_position:
   confidence: confirmed
   institution: Technion – Israel Institute of Technology
   since_year: null
-  source: https://phsites.technion.ac.il/hacohen-gourgy/
+  source: https://hacohen-gourgy.net.technion.ac.il/
   title: Professor of Physics
 entity_type: person
 group_type: experimental
@@ -16,7 +16,7 @@ last_verified_at: '2026-06-02'
 links:
   orcid: https://orcid.org/0000-0002-2356-4904
   openalex: https://openalex.org/A5053972629
-  homepage: https://phsites.technion.ac.il/hacohen-gourgy/
+  homepage: https://hacohen-gourgy.net.technion.ac.il/
 location:
   city: Haifa
   country: Israel
@@ -31,7 +31,7 @@ schema_version: 2
 sort_name: Hacohen-Gourgy, Shay
 sources:
 - note: Technion group page
-  url: https://phsites.technion.ac.il/hacohen-gourgy/
+  url: https://hacohen-gourgy.net.technion.ac.il/
 - note: QuamCore -- co-founder & CTO
   url: https://quamcore.com
 updated_at: '2026-06-02'

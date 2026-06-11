@@ -14,10 +14,10 @@ group_type: experimental
 id: 282-jorg-schmiedmayer
 last_verified_at: '2026-06-02'
 links:
+  group_page: http://www.AtomChip.org
   orcid: https://orcid.org/0000-0001-7799-5614
   openalex: https://openalex.org/A5001996038
   homepage: https://www.tuwien.at/
-  wikipedia: https://en.wikipedia.org/wiki/J%C3%B6rg_Schmiedmayer
 location:
   city: Vienna
   country: Austria
@@ -33,8 +33,6 @@ sort_name: Schmiedmayer, Jorg
 sources:
 - note: Institutional / group page
   url: https://www.tuwien.at/
-- note: Biography
-  url: https://en.wikipedia.org/wiki/J%C3%B6rg_Schmiedmayer
 updated_at: '2026-06-02'
 verification_source_count: 2
 ---

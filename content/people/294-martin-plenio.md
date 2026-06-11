@@ -18,7 +18,6 @@ labels:
 last_verified_at: '2026-06-02'
 links:
   homepage: https://www.uni-ulm.de/
-  wikipedia: https://en.wikipedia.org/wiki/Martin_Plenio
 location:
   city: Ulm
   country: Germany
@@ -33,8 +32,6 @@ sort_name: Plenio, Martin
 sources:
 - note: Institutional / group page
   url: https://www.uni-ulm.de/
-- note: Biography
-  url: https://en.wikipedia.org/wiki/Martin_Plenio
 updated_at: '2026-06-02'
 verification_source_count: 2
 ---

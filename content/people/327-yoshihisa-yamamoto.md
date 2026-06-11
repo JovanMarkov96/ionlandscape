@@ -14,6 +14,7 @@ group_type: experimental
 id: 327-yoshihisa-yamamoto
 last_verified_at: '2026-06-02'
 links:
+  group_page: https://profiles.stanford.edu/yoshihisa-yamamoto
   google_scholar: https://scholar.google.com/citations?user=EA4XHOMAAAAJ
   orcid: https://orcid.org/0000-0002-4150-6804
   openalex: https://openalex.org/A5071256887

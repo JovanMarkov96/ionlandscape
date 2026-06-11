@@ -54,7 +54,6 @@ lineage_check:
   postdoc_verified: false
 links:
   google_scholar: null
-  group_page: https://www.nuclear.jp/~hasegawa/index_e.html
   openalex: https://openalex.org/A5101487275
   orcid: https://orcid.org/0000-0003-2342-6875
 location:

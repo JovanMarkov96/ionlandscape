@@ -14,6 +14,7 @@ group_type: experimental
 id: 214-carl-wieman
 last_verified_at: '2026-06-02'
 links:
+  group_page: https://experts.colorado.edu/display/fisid_105375
   google_scholar: https://scholar.google.com/citations?user=h24312AAAAAJ
   orcid: https://orcid.org/0000-0003-1449-9319
   openalex: https://openalex.org/A5006656464

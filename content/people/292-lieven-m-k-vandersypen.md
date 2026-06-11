@@ -16,7 +16,6 @@ links:
   orcid: https://orcid.org/0000-0003-4346-7877
   openalex: https://openalex.org/A5012503150
   homepage: https://qutech.nl/
-  wikipedia: https://en.wikipedia.org/wiki/Lieven_Vandersypen
 location:
   city: Delft
   country: Netherlands
@@ -33,8 +32,6 @@ sort_name: Vandersypen, Lieven M. K.
 sources:
 - note: Institutional / group page
   url: https://qutech.nl/
-- note: Biography
-  url: https://en.wikipedia.org/wiki/Lieven_Vandersypen
 updated_at: '2026-06-02'
 verification_source_count: 2
 ---

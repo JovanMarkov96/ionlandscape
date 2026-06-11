@@ -138,7 +138,7 @@ milestones:
     to partner with a leading-edge semiconductor foundry for volume production of
     quantum photonic chipsets.
   date: '2021-05-01'
-  source: https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/
+  source: https://web.archive.org/web/20260209142052/https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/
 - claim: Raised $450M Series D led by BlackRock at a $3.15 billion valuation — at
     the time the largest private funding round in quantum computing — bringing total
     raised to over $665M.
@@ -220,7 +220,7 @@ offices:
     city: Malta
     country: United States
     region: New York
-  source: https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/
+  source: https://web.archive.org/web/20260209142052/https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/
 - function: data_center
   location:
     city: Brisbane
@@ -235,7 +235,7 @@ offices:
   source: https://www.psiquantum.com/news-import/psiquantum-breaks-ground-chicago
 partnerships:
 - name: GlobalFoundries
-  source: https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/
+  source: https://web.archive.org/web/20260209142052/https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/
   type: supply
 - name: DARPA (US2QC / QBI programs)
   source: https://www.businesswire.com/news/home/20250205568029/en/DARPA-Selects-PsiQuantum-to-Advance-to-Final-Phase-of-Quantum-Computing-Program
@@ -350,7 +350,7 @@ sources:
 - note: $100M CHIPS Act Letter of Intent with U.S. Department of Commerce, May 2026
   url: https://www.psiquantum.com/news-import/us-department-of-commerce
 - note: GlobalFoundries partnership announcement for silicon photonics manufacturing
-  url: https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/
+  url: https://web.archive.org/web/20260209142052/https://gf.com/dresden-press-release/psiquantum-and-globalfoundries-build-worlds-first-full-scale-quantum-computer/
 status:
   operating_status: private
 updated_at: '2026-05-30'

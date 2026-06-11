@@ -61,7 +61,7 @@ lineage_check:
   postdoc_verified: false
   last_checked: '2026-05-29'
 links:
-  group_page: https://taminiaulab.qutech.nl/
+  group_page: https://qutech.nl/lab/taminiau-lab/
   institution_profile: https://qutech.nl/person/tim-taminiau/
   google_scholar: https://scholar.google.com/citations?user=iYyVuOoAAAAJ&hl=en
   openalex: https://openalex.org/A5014871159

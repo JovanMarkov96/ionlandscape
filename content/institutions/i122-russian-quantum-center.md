@@ -20,7 +20,7 @@ is_dedicated_quantum_centre: true
 last_verified_at: '2026-06-03'
 links:
   website: https://rqc.ru
-  wikipedia: https://en.wikipedia.org/wiki/Russian_Quantum_Center
+  wikipedia: https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80
 location:
   city: Moscow
   country: Russia

@@ -40,7 +40,6 @@ funding:
 id: c103-beit
 last_verified_at: '2026-06-10'
 links:
-  linkedin: https://www.linkedin.com/company/beit-inc
   website: https://www.beit.tech
 location:
   city: Krakow

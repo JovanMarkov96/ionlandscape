@@ -71,7 +71,6 @@ ion_species:
 last_verified_at: '2026-05-30'
 links:
   website: https://www.infleqtion.com
-  wikipedia: https://en.wikipedia.org/wiki/Infleqtion
 location:
   city: Boulder
   country: United States
@@ -216,19 +215,10 @@ short_summary: Infleqtion (founded as ColdQuanta ≈2007, rebranded 2022) is a B
   operates offices in Boulder, Chicago, and Oxford UK.
 sort_name: Infleqtion
 sources:
-- note: Company history, founding, rebrand from ColdQuanta, founder Dana Anderson
-  url: https://en.wikipedia.org/wiki/Infleqtion
 - note: September 2022 rebrand announcement from ColdQuanta to Infleqtion
   url: https://www.businesswire.com/news/home/20220907005222/en/ColdQuanta-Becomes-Infleqtion-Signaling-New-Era-for-Quantum-Technology
-- note: $110M Series B led by Baidu; unicorn milestone; product roadmap
-  url: https://techcrunch.com/2021/08/02/coldquanta-raises-110-million-to-advance-its-cold-atom-quantum-technologies/
-- note: Hilbert quantum computer product page — Rydberg-gate, rubidium atoms, cloud
-    access
-  url: https://www.infleqtion.com/hilbert
 - note: Oqtant quantum matter platform — BEC cloud service, launched November 2021
   url: https://www.infleqtion.com/oqtant
-- note: SandboxAQ partnership announcement, June 2023
-  url: https://www.prnewswire.com/news-releases/infleqtion-and-sandboxaq-partner-to-advance-quantum-sensing-and-navigation-solutions-301849782.html
 - note: Funding rounds, investors, founding year, Series A/B/C history
   url: https://www.crunchbase.com/organization/coldquanta
 status:
