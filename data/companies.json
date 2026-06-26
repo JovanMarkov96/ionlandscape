@@ -1396,15 +1396,15 @@
     "people": {
       "founders": [
         {
-          "name": "Dr. Itamar Sivan",
+          "name": "Itamar Sivan",
           "role": "CEO & Co-Founder"
         },
         {
-          "name": "Dr. Yonatan Cohen",
+          "name": "Yonatan Cohen",
           "role": "CTO & Co-Founder"
         },
         {
-          "name": "Dr. Nissim Ofek",
+          "name": "Nissim Ofek",
           "role": "VP R&D & Co-Founder"
         }
       ],
@@ -1535,7 +1535,7 @@
           "role": "CPO & Co-Founder"
         },
         {
-          "name": "Dr. Yehuda Naveh",
+          "name": "Yehuda Naveh",
           "role": "CTO & Co-Founder"
         }
       ],
@@ -1666,11 +1666,11 @@
     "people": {
       "founders": [
         {
-          "name": "Dr. Shai Machnes",
+          "name": "Shai Machnes",
           "role": "Co-Founder"
         },
         {
-          "name": "Dr. Nir Bar-Gill",
+          "name": "Nir Bar-Gill",
           "role": "Co-Founder"
         }
       ],
@@ -2221,7 +2221,7 @@
           "role": "Chairman & Co-Founder"
         },
         {
-          "name": "Prof. Barak Dayan",
+          "name": "Barak Dayan",
           "role": "Chief Scientist & Co-Founder"
         }
       ],
