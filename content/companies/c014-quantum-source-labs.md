@@ -86,7 +86,7 @@ people:
     role: VP R&D & Co-Founder
   - name: Dan Charash
     role: Chairman & Co-Founder
-  - name: Prof. Barak Dayan
+  - name: Barak Dayan
     role: Chief Scientist & Co-Founder
   leadership: []
   spun_out_of: []

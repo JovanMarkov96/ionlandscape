@@ -75,7 +75,7 @@ people:
     role: CEO & Co-Founder
   - name: Amir Naveh
     role: CPO & Co-Founder
-  - name: Dr. Yehuda Naveh
+  - name: Yehuda Naveh
     role: CTO & Co-Founder
   leadership: []
   spun_out_of: []

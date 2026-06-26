@@ -42,9 +42,9 @@ modality: software
 name: QuantLR
 people:
   founders:
-  - name: Dr. Shai Machnes
+  - name: Shai Machnes
     role: Co-Founder
-  - name: Dr. Nir Bar-Gill
+  - name: Nir Bar-Gill
     role: Co-Founder
   leadership: []
   spun_out_of:

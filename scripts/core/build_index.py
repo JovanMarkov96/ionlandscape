@@ -153,11 +153,18 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
                 if a.strip():
                     edges.append((a.strip(), pid, "postdoc_advisor"))
 
-    # Affiliations: person -> institution/company
-    for aff in meta.get("affiliations", []):
-        inst = aff.get("name")
-        if inst:
-            edges.append((pid, inst, "affiliated_with"))
+    # Affiliations: person -> institution/company.
+    # Source both the explicit affiliations[] list AND current_position.institution
+    # so the graph matches the institution/company panels, which list current
+    # members off current_position. Only 31/406 people fill affiliations[], but
+    # most have a current_position — without this the graph drew an affiliation
+    # edge for almost no one. Duplicates are deduped during edge resolution.
+    aff_names = [aff.get("name") for aff in meta.get("affiliations", []) if aff.get("name")]
+    cp = meta.get("current_position")
+    if isinstance(cp, dict) and cp.get("institution"):
+        aff_names.append(cp["institution"])
+    for inst in aff_names:
+        edges.append((pid, inst, "affiliated_with"))
 
 # Process Companies
 for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):

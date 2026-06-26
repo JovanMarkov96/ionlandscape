@@ -231,5 +231,27 @@
   ],
   "home": null,
   "file": "content/people\\051-john-chiaverini.md"
+ },
+ "054-hiroki-takahashi": {
+  "verdict": "found",
+  "user": "zlq-f9MAAAAJ",
+  "scholar_name": "Hiroki Takahashi",
+  "aff": [
+   "Okinawa Institute of Science and Technology",
+   "Verified email at oist.jp - Homepage"
+  ],
+  "home": "https://groups.oist.jp/equip",
+  "file": "content/people\\054-hiroki-takahashi.md"
+ },
+ "058-atsushi-noguchi": {
+  "verdict": "found",
+  "user": "wf2VqIAAAAAJ",
+  "scholar_name": "Atsushi Noguchi",
+  "aff": [
+   "Univerisity of Tokyo",
+   "Verified email at g.ecc.u-tokyo.ac.jp - Homepage"
+  ],
+  "home": "https://sites.google.com/site/something00atsushi/",
+  "file": "content/people\\058-atsushi-noguchi.md"
  }
 }

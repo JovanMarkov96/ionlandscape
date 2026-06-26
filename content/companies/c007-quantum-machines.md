@@ -63,11 +63,11 @@ modality: both
 name: Quantum Machines
 people:
   founders:
-  - name: Dr. Itamar Sivan
+  - name: Itamar Sivan
     role: CEO & Co-Founder
-  - name: Dr. Yonatan Cohen
+  - name: Yonatan Cohen
     role: CTO & Co-Founder
-  - name: Dr. Nissim Ofek
+  - name: Nissim Ofek
     role: VP R&D & Co-Founder
   leadership: []
   spun_out_of:

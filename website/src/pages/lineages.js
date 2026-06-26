@@ -184,16 +184,30 @@ function LineageGraph() {
     const selected = selectedId ? nodeById.get(selectedId) : null;
     const connections = useMemo(() => {
         if (!selectedId) return null;
-        const seen = new Map(); // otherId|type -> entry (dedupe advisor+postdoc kept separate by type)
+        // One entry per neighbour+direction. A person can link to the same
+        // company as founder AND leadership AND affiliated_with; collapse those
+        // into a single row with merged labels instead of repeating the node.
+        const byNode = new Map(); // otherId|direction -> { other, dir, types:Set }
         (adjacency.get(selectedId) || []).forEach(({ otherId, type, selectedIsSource }) => {
             const other = nodeById.get(otherId);
             if (!other) return;
-            const key = `${otherId}|${type}|${selectedIsSource}`;
-            if (seen.has(key)) return;
-            seen.set(key, { other, label: relationLabel(type, selectedIsSource) });
+            const key = `${otherId}|${selectedIsSource}`;
+            if (!byNode.has(key)) byNode.set(key, { other, dir: selectedIsSource, types: new Set() });
+            byNode.get(key).types.add(type);
         });
         const groups = { person: [], company: [], institution: [] };
-        seen.forEach(({ other, label }) => { groups[other.kind].push({ other, label }); });
+        byNode.forEach(({ other, dir, types }) => {
+            // Drop the generic affiliation when a specific tie (founder/leadership/
+            // spinout) already implies it, then merge the remaining labels.
+            let keep = [...types];
+            if (keep.length > 1) keep = keep.filter(t => t !== 'affiliated_with');
+            const seenLabels = new Set();
+            const label = keep
+                .map(t => relationLabel(t, dir))
+                .filter(l => (seenLabels.has(l) ? false : seenLabels.add(l)))
+                .join(' · ');
+            groups[other.kind].push({ other, label });
+        });
         Object.values(groups).forEach(arr => arr.sort((a, b) => a.other.name.localeCompare(b.other.name)));
         return groups;
     }, [selectedId, adjacency, nodeById]);

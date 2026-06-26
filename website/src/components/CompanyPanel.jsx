@@ -286,29 +286,80 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
 
             {/* People */}
             {(() => {
-                const founders = company.people?.founders || [];
-                const leadership = company.people?.leadership || [];
-                const former = company.people?.former_leadership || [];
-                const advisors = company.people?.advisors || [];
+                // Each person can be listed under several role buckets (e.g. a
+                // founder who is also the current CEO, or a co-founder who later
+                // became "former leadership"). Collapse them into one entry per
+                // person so names aren't doubled, place each under a single
+                // section by precedence, and merge their role text into the most
+                // informative single string.
+                const BUCKETS = [
+                    { key: 'founders', label: 'Founders' },
+                    { key: 'leadership', label: 'Leadership' },
+                    { key: 'former_leadership', label: 'Former leadership' },
+                    { key: 'advisors', label: 'Advisors' },
+                ];
                 const spinouts = company.people?.spun_out_of || [];
                 const dirMembers = company.directory?.current_members || [];
 
-                // Names already listed as founders/leadership/former, so the generic
-                // directory line doesn't repeat them.
-                const known = new Set();
-                [...founders, ...leadership, ...former, ...advisors].forEach((p) => {
-                    if (p?.name) known.add(p.name.toLowerCase());
+                const norm = (s) => (s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+                // Identity key for a person: strip diacritics and honorifics so
+                // "Prof. Barak Dayan" and "Barak Dayan", or "Vuletić" and
+                // "Vuletic", resolve to the same person and don't double up.
+                const personKey = (s) => (s || '')
+                    .normalize('NFKD')          // split accented letters into base + combining mark
+                    .toLowerCase()
+                    .replace(/\b(prof|professor|dr|mr|mrs|ms|sir|phd)\b\.?/g, ' ')
+                    .replace(/[^a-z0-9]+/g, ' ') // drops combining marks, dots, punctuation
+                    .trim();
+
+                // person key -> { name, primary bucket index, roles[] in precedence order }
+                const byPerson = new Map();
+                BUCKETS.forEach((b, bi) => {
+                    (company.people?.[b.key] || []).forEach((p) => {
+                        const nm = (p?.name || '').trim();
+                        if (!nm) return;
+                        const k = personKey(nm);
+                        if (!byPerson.has(k)) {
+                            byPerson.set(k, { name: nm, primary: bi, seq: byPerson.size, roles: [] });
+                        }
+                        const rec = byPerson.get(k);
+                        rec.primary = Math.min(rec.primary, bi);
+                        if (p.role && p.role.trim()) rec.roles.push(p.role.trim());
+                    });
                 });
+
+                // Resolve to one role string: take the highest-precedence role,
+                // then upgrade to any strictly more detailed (superset) variant
+                // so "CEO & Co-Founder" wins over a bare "CEO".
+                const resolveRole = (roles) => {
+                    if (!roles.length) return '';
+                    let base = roles[0];
+                    for (const r of roles.slice(1)) {
+                        if (norm(r) !== norm(base) && norm(r).includes(norm(base))) base = r;
+                    }
+                    return base;
+                };
+
+                // Group unique people back into their primary section.
+                const sections = BUCKETS.map(() => []);
+                [...byPerson.values()]
+                    .sort((a, b) => a.seq - b.seq)
+                    .forEach((rec) => {
+                        sections[rec.primary].push({ name: rec.name, role: resolveRole(rec.roles) });
+                    });
+
+                // Directory members not already named in any role bucket
+                // (compared on the diacritic/honorific-insensitive key).
+                const known = new Set([...byPerson.keys()]);
                 const otherMembers = dirMembers
                     .map((pID) => {
                         const mp = people.find((p) => p.md_filename === pID);
                         return mp ? mp.name : pID;
                     })
-                    .filter((nm) => nm && !known.has(nm.toLowerCase()));
+                    .filter((nm) => nm && !known.has(personKey(nm)));
 
-                if (!(founders.length || leadership.length || former.length || advisors.length || otherMembers.length || spinouts.length)) {
-                    return null;
-                }
+                const hasAny = sections.some((s) => s.length) || otherMembers.length || spinouts.length;
+                if (!hasAny) return null;
 
                 const roleList = (arr) => arr.map((p, i) => (
                     <div key={i} className="affiliation-item">
@@ -321,25 +372,12 @@ function CompanyPanel({ companyId, location, onCompanySelect, onPersonSelect, on
                         <div className="panel-divider" />
                         <h4 className="section-header">Team & Leadership</h4>
 
-                        {founders.length > 0 && (<>
-                            <div className="team-subhead">Founders</div>
-                            {roleList(founders)}
-                        </>)}
-
-                        {leadership.length > 0 && (<>
-                            <div className="team-subhead">Leadership</div>
-                            {roleList(leadership)}
-                        </>)}
-
-                        {former.length > 0 && (<>
-                            <div className="team-subhead">Former leadership</div>
-                            {roleList(former)}
-                        </>)}
-
-                        {advisors.length > 0 && (<>
-                            <div className="team-subhead">Advisors</div>
-                            {roleList(advisors)}
-                        </>)}
+                        {BUCKETS.map((b, bi) => sections[bi].length > 0 && (
+                            <React.Fragment key={b.key}>
+                                <div className="team-subhead">{b.label}</div>
+                                {roleList(sections[bi])}
+                            </React.Fragment>
+                        ))}
 
                         {otherMembers.length > 0 && (
                             <div className="affiliation-item" style={{ marginTop: '8px' }}>

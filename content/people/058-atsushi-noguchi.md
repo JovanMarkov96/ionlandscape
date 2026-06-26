@@ -38,6 +38,7 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
+  google_scholar: https://scholar.google.com/citations?user=wf2VqIAAAAAJ
   orcid: https://orcid.org/0000-0001-8409-5876
 location:
   city: Tokyo

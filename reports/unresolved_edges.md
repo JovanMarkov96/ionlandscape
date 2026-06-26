@@ -4,10 +4,78 @@ Endpoints that could not be matched to a known node.
 
 | source | target | type | src ok | tgt ok |
 |---|---|---|---|---|
+| 000-christian-von-borczyskowski | TU Chemnitz | affiliated_with | True | False |
+| 000-hartmut-neven | Google | affiliated_with | True | False |
+| 000-helen-freedhoff | York University | affiliated_with | True | False |
+| 000-julian-kelly | Google | affiliated_with | True | False |
+| 000-preben-buchhave | Technical University of Denmark | affiliated_with | True | False |
+| 000-wiebke-guichard | Université Grenoble Alpes | affiliated_with | True | False |
+| 017-rainer-blatt | Institute for Quantum Optics and Quantum Information (IQOQI) Innsbruck | affiliated_with | True | False |
+| 069-sadiq-rangwala | Raman Research Institute | affiliated_with | True | False |
+| 097-daniel-barredo | Centro de Investigación en Nanomateriales y Nanotecnología (CINN-CSIC) | affiliated_with | True | False |
 | 098-p-zoller | Institute for Quantum Optics and Quantum Information (IQOQI) | affiliated_with | True | False |
+| 106-thomas-pohl | TU Wien | affiliated_with | True | False |
+| 130-meenakshi-dutt | University of Pittsburgh | affiliated_with | True | False |
+| 131-jiangfeng-du | Ministry of Education of China | affiliated_with | True | False |
+| 132-jean-francois-roch | ENS Paris-Saclay | affiliated_with | True | False |
 | 157-oskar-painter | Amazon Web Services | affiliated_with | True | False |
+| 178-philip-walther | University of Vienna | affiliated_with | True | False |
+| 179-fabio-sciarrino | Sapienza University of Rome | affiliated_with | True | False |
+| 180-pascale-senellart | Centre de Nanosciences et de Nanotechnologies (C2N) | affiliated_with | True | False |
+| 182-nicolas-gisin | University of Geneva | affiliated_with | True | False |
+| 183-mete-atature | University of Cambridge | affiliated_with | True | False |
 | 185-ulrik-andersen | Alea Quantum Technologies | affiliated_with | True | False |
 | 185-ulrik-andersen | DIASENSE | affiliated_with | True | False |
+| 185-ulrik-andersen | Technical University of Denmark | affiliated_with | True | False |
+| 186-tobias-heindel | University of Münster | affiliated_with | True | False |
+| 187-hugo-zbinden | University of Geneva | affiliated_with | True | False |
+| 189-marco-bellini | Istituto Nazionale di Ottica | affiliated_with | True | False |
+| 194-gerd-leuchs | Max Planck Institute for the Science of Light | affiliated_with | True | False |
+| 197-hugues-de-riedmatten | ICFO - The Institute of Photonic Sciences | affiliated_with | True | False |
+| 198-mikael-afzelius | University of Geneva | affiliated_with | True | False |
+| 200-wolfgang-tittel | University of Geneva | affiliated_with | True | False |
+| 202-travis-humble | Oak Ridge National Laboratory | affiliated_with | True | False |
+| 203-ivan-deutsch | University of New Mexico | affiliated_with | True | False |
+| 212-serge-haroche | College de France | affiliated_with | True | False |
+| 213-alain-aspect | Institut d'Optique / Universite Paris-Saclay | affiliated_with | True | False |
+| 220-jean-dalibard | College de France / Laboratoire Kastler Brossel, ENS | affiliated_with | True | False |
+| 223-anton-zeilinger | University of Vienna | affiliated_with | True | False |
+| 225-jean-michel-raimond | Sorbonne Universite / Laboratoire Kastler Brossel | affiliated_with | True | False |
+| 228-marlan-o-scully | Texas A&M University | affiliated_with | True | False |
+| 237-alex-kuzmich | University of Michigan | affiliated_with | True | False |
+| 239-alexander-gaeta | Columbia University | affiliated_with | True | False |
+| 241-alexander-sergienko | Boston University | affiliated_with | True | False |
+| 244-andrew-white | University of Queensland | affiliated_with | True | False |
+| 247-brian-pippard | University of Cambridge | affiliated_with | True | False |
+| 253-constantin-piron | University of Geneva | affiliated_with | True | False |
+| 254-d-g-steel | University of Michigan | affiliated_with | True | False |
+| 256-dan-walls | University of Auckland | affiliated_with | True | False |
+| 259-david-demille | Johns Hopkins University | affiliated_with | True | False |
+| 260-david-hall | Amherst College | affiliated_with | True | False |
+| 265-francesco-de-martini | Sapienza University of Rome | affiliated_with | True | False |
+| 268-gerard-milburn | University of Queensland | affiliated_with | True | False |
+| 273-halina-rubinsztein-dunlop | University of Queensland | affiliated_with | True | False |
+| 277-jan-michael-rost | Max Planck Institute for the Physics of Complex Systems | affiliated_with | True | False |
+| 278-jay-gupta | Ohio State University | affiliated_with | True | False |
+| 282-jorg-schmiedmayer | TU Wien (Vienna University of Technology) | affiliated_with | True | False |
+| 283-jos-ignacio-latorre | University of Barcelona / Technology Innovation Institute | affiliated_with | True | False |
+| 284-josh-nunn | University of Bath | affiliated_with | True | False |
+| 290-l-j-sham | University of California, San Diego | affiliated_with | True | False |
+| 293-markus-oberthaler | Heidelberg University | affiliated_with | True | False |
+| 295-matthias-weidemuller | Heidelberg University | affiliated_with | True | False |
+| 298-michel-orrit | Leiden University | affiliated_with | True | False |
+| 301-niek-van-hulst | ICFO - The Institute of Photonic Sciences | affiliated_with | True | False |
+| 302-paolo-villoresi | University of Padua | affiliated_with | True | False |
+| 306-peter-lambropoulos | University of Crete / FORTH | affiliated_with | True | False |
+| 308-peter-mosley | University of Bath | affiliated_with | True | False |
+| 311-randy-hulet | Rice University | affiliated_with | True | False |
+| 315-roberta-ramponi | Politecnico di Milano / IFN-CNR | affiliated_with | True | False |
+| 316-rodolfo-miranda | Autonomous University of Madrid / IMDEA Nanoscience | affiliated_with | True | False |
+| 319-stephan-reitzenstein | Technical University of Berlin | affiliated_with | True | False |
+| 321-stuart-adams | Durham University | affiliated_with | True | False |
+| 322-thomas-f-gallagher | University of Virginia | affiliated_with | True | False |
+| 324-timothy-p-softley | University of Birmingham | affiliated_with | True | False |
+| 329-ran-finkelstein | Tel Aviv University | affiliated_with | True | False |
 | Alan Ho | c038-qolab | founder | False | True |
 | Alessandro Bruno | c066-quantware | founder | False | True |
 | Alexander Glätzle | c036-planqc | founder | False | True |
