@@ -79,17 +79,22 @@ function Groups() {
 
     // --- Dependent Filter Logic ---
 
+    // Shared category → platform matcher (one definition used everywhere).
+    const matchesCategory = (platforms, cat) => {
+        if (!cat || cat === 'All') return true;
+        const pls = platforms || [];
+        if (cat === 'Neutral Atoms') return pls.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
+        if (cat === 'Trapped Ions') return pls.includes('trapped_ion');
+        if (cat === 'Molecules') return pls.includes('trapped_molecule');
+        if (cat === 'Superconducting') return pls.includes('superconducting');
+        return true;
+    };
+
     // Helper: Get people that match specific filters (ignoring others)
     const getPeopleInContext = (filters) => {
         return people.filter(p => {
             // 0. Category
-            if (category !== 'All') {
-                const platforms = p.platforms || [];
-                const isNeutrals = platforms.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
-                const isIons = platforms.includes('trapped_ion');
-                if (category === 'Neutral Atoms' && !isNeutrals) return false;
-                if (category === 'Trapped Ions' && !isIons) return false;
-            }
+            if (!matchesCategory(p.platforms || [], category)) return false;
 
             // 1. Institution (if provided)
             if (filters.inst && filters.inst.length > 0) {
@@ -133,12 +138,19 @@ function Groups() {
         const ions = new Set();
         const qubits = new Set();
         const platforms = new Set();
+        // Species & qubit-type options are CONTEXTUAL: they narrow to the selected
+        // platform(s) so the tag lists stay relevant (neutral atoms -> atomic species,
+        // molecules -> molecular species, superconducting -> qubit types). With no
+        // platform selected they list everything, so any tag is still choosable.
+        const inPlatform = p => platformFilters.length === 0 || platformFilters.some(pl => (p.platforms || []).includes(pl));
         filtered.forEach(p => {
             (p.labels || []).forEach(l => labels.add(l));
             (p.applications || []).forEach(a => apps.add(a));
-            (p.ion_species || []).forEach(i => ions.add(i));
-            (p.qubit_type || []).forEach(q => qubits.add(q));
             (p.platforms || []).forEach(pl => platforms.add(pl));
+            if (inPlatform(p)) {
+                (p.ion_species || []).forEach(i => ions.add(i));
+                (p.qubit_type || []).forEach(q => qubits.add(q));
+            }
         });
         return {
             availableLabels: Array.from(labels).sort().filter(l => !labelFilters.includes(l)),
@@ -192,17 +204,7 @@ function Groups() {
 
         return people.filter(p => !String(p.id || '').startsWith('000-')).filter(p => {
             // 0. Category Filter
-            if (category !== 'All') {
-                const platforms = p.platforms || [];
-                const isNeutrals = platforms.some(pl => pl === 'neutral_atom' || pl === 'rydberg_array');
-                const isIons = platforms.includes('trapped_ion');
-
-                if (category === 'Neutral Atoms') {
-                    if (!isNeutrals) return false;
-                } else if (category === 'Trapped Ions') {
-                    if (!isIons) return false;
-                }
-            }
+            if (!matchesCategory(p.platforms || [], category)) return false;
 
             // 1. Search Query (Name)
             if (searchQuery) {
@@ -357,7 +359,7 @@ function Groups() {
                 {/* Category Toggle */}
                 <div className="category-toggle-container">
                     <div className="button-group">
-                        {['All', 'Trapped Ions', 'Neutral Atoms'].map(cat => (
+                        {['All', 'Trapped Ions', 'Neutral Atoms', 'Molecules', 'Superconducting'].map(cat => (
                             <button
                                 key={cat}
                                 className={`button button--${category === cat ? 'primary' : 'secondary'} category-btn-wrapper`}
@@ -402,10 +404,11 @@ function Groups() {
                             {availableApps.map(o => <option key={o} value={o}>{o}</option>)}
                         </select>
 
-                        {/* Species Dropdown: Only show if specific category selected */}
-                        {category !== 'All' && (
+                        {/* Species (ions / atoms / molecules) — always available, list is
+                            contextual to the selected platform/category. */}
+                        {availableIons.length > 0 && (
                             <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('ion', e.target.value)}>
-                                <option value="">+ {category === 'Neutral Atoms' ? 'Atom Species' : 'Ion Species'}</option>
+                                <option value="">+ {category === 'Neutral Atoms' ? 'Atom Species' : category === 'Molecules' ? 'Molecular Species' : category === 'Trapped Ions' ? 'Ion Species' : 'Species'}</option>
                                 {availableIons.map(o => <option key={o} value={o}>{o}</option>)}
                             </select>
                         )}
