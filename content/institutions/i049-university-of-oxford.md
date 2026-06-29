@@ -18,6 +18,7 @@ media:
 name: University of Oxford
 platforms_represented:
 - neutral_atom
+- superconducting
 - trapped_ion
 schema_version: 1
 short_description: 'The University of Oxford is a collegiate research university in

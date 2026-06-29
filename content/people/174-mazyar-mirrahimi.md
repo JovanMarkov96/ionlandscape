@@ -6,42 +6,43 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Institut national de recherche en sciences et technologies du numérique
+  since_year: 2012
   source: https://who.rocq.inria.fr/Mazyar.Mirrahimi/
   title: Directeur de recherche (DR1)
-  since_year: 2012
   verified_at: '2026-05-26'
 education:
-- degree: PhD
-  institution: École des Mines de Paris
-  year: 2005
-  advisor: Pierre Rouchon
+- advisor: Pierre Rouchon
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: École des Mines de Paris
   source: https://who.rocq.inria.fr/Mazyar.Mirrahimi/CV.htm
+  year: 2005
 entity_type: person
 group_type: theory
 id: 174-mazyar-mirrahimi
 key_papers:
-- title: 'Dynamically protected cat-qubits: a new paradigm for universal quantum computation'
-  year: 2014
-  doi: 10.1088/1367-2630/16/4/045014
+- doi: 10.1088/1367-2630/16/4/045014
   role: first_author
-- title: 'Confining the state of light to a quantum manifold by engineered two-photon loss'
+  title: 'Dynamically protected cat-qubits: a new paradigm for universal quantum computation'
+  year: 2014
+- doi: 10.1126/science.aaa2085
+  role: senior_author
+  title: Confining the state of light to a quantum manifold by engineered two-photon
+    loss
   year: 2015
-  doi: 10.1126/science.aaa2085
+- doi: 10.1103/PhysRevLett.111.120501
   role: senior_author
-- title: 'Hardware-Efficient Autonomous Quantum Memory Protection'
+  title: Hardware-Efficient Autonomous Quantum Memory Protection
   year: 2013
-  doi: 10.1103/PhysRevLett.111.120501
+- doi: 10.1103/PhysRevX.9.041053
   role: senior_author
-- title: 'Repetition Cat Qubits for Fault-Tolerant Quantum Computation'
+  title: Repetition Cat Qubits for Fault-Tolerant Quantum Computation
   year: 2019
-  doi: 10.1103/PhysRevX.9.041053
-  role: senior_author
-- title: 'Real-time quantum feedback prepares and stabilizes photon number states'
-  year: 2011
-  doi: 10.1038/nature10376
+- doi: 10.1038/nature10376
   role: co_author
+  title: Real-time quantum feedback prepares and stabilizes photon number states
+  year: 2011
 keywords:
 - cat qubits
 - quantum error correction
@@ -56,8 +57,8 @@ labels:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: true
   last_checked: '2026-05-26'
+  postdoc_verified: true
 links:
   group_page: https://team.inria.fr/quantic/
   institution_profile: https://who.rocq.inria.fr/Mazyar.Mirrahimi/
@@ -81,6 +82,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Mirrahimi, Mazyar
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
+
+Mazyar Mirrahimi is a theoretical and applied mathematician at Inria and a principal architect of the dissipative cat-qubit approach to superconducting quantum computing. His work develops bosonic quantum error correction, autonomous (engineered-dissipation) stabilization of logical qubits, and quantum control — the theoretical basis for the cat-qubit company Alice & Bob.

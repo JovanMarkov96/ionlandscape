@@ -7,47 +7,50 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: University of Illinois Urbana-Champaign
+  since_year: 2020
   source: https://physics.illinois.edu/people/directory/profile/wpfaff
   title: Assistant Professor of Physics
-  since_year: 2020
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: Delft University of Technology
-  year: 2013
-  advisor: Ronald Hanson
+- advisor: Ronald Hanson
   advisor_id: 112-ronald-hanson
   confidence: confirmed
+  degree: PhD
+  institution: Delft University of Technology
   source: https://physics.illinois.edu/people/directory/profile/wpfaff
-- degree: Diplom
+  year: 2013
+- confidence: confirmed
+  degree: Diplom
   institution: University of Regensburg
-  year: 2009
-  confidence: confirmed
   source: https://physics.illinois.edu/people/directory/profile/wpfaff
+  year: 2009
 entity_type: person
 group_type: experimental
 id: 141-wolfgang-pfaff
 key_papers:
-- title: Unconditional quantum teleportation between distant solid-state quantum bits
+- doi: 10.1126/science.1253512
+  role: first_author
+  title: Unconditional quantum teleportation between distant solid-state quantum bits
   year: 2014
-  doi: 10.1126/science.1253512
-  role: first_author
-- title: Heralded entanglement between solid-state qubits separated by three metres
+- doi: 10.1038/nature12016
+  role: co_author
+  title: Heralded entanglement between solid-state qubits separated by three metres
   year: 2013
-  doi: 10.1038/nature12016
-  role: co_author
-- title: Controlled release of multiphoton quantum states from a microwave cavity memory
-  year: 2017
-  doi: 10.1038/nphys4143
+- doi: 10.1038/nphys4143
   role: first_author
-- title: On-demand quantum state transfer and entanglement between remote microwave cavity memories
-  year: 2018
-  doi: 10.1038/s41567-018-0115-y
+  title: Controlled release of multiphoton quantum states from a microwave cavity
+    memory
+  year: 2017
+- doi: 10.1038/s41567-018-0115-y
   role: co_author
-- title: A high-efficiency elementary network of interchangeable superconducting qubit devices
-  year: 2025
-  doi: 10.1038/s41928-025-01404-3
+  title: On-demand quantum state transfer and entanglement between remote microwave
+    cavity memories
+  year: 2018
+- doi: 10.1038/s41928-025-01404-3
   role: senior_author
+  title: A high-efficiency elementary network of interchangeable superconducting qubit
+    devices
+  year: 2025
 keywords:
 - Quantum Information and Cryptography
 - Quantum and electron transport phenomena
@@ -61,8 +64,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
   group_page: https://pfaff.physics.illinois.edu/
   institution_profile: https://physics.illinois.edu/people/directory/profile/wpfaff
@@ -87,6 +90,10 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Pfaff, Wolfgang
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Wolfgang Pfaff is an experimental physicist working on superconducting quantum circuits, with a focus on modular quantum processors and quantum networking. His work uses transmon qubits coupled to three-dimensional microwave cavities to build error-correctable bosonic memories and to transfer quantum states between separated modules over microwave links.
+
+He developed quantum-state transfer and entanglement between superconducting modules as a researcher at Yale in the Schoelkopf-Devoret labs, and runs a circuit-QED group at the University of Illinois Urbana-Champaign.

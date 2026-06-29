@@ -11,37 +11,37 @@ current_position:
   title: Full Professor, Physikalisches Institut
   verified_at: '2026-05-26'
 education:
-- degree: PhD (Candidate of Science)
-  institution: Institute of Solid State Physics, Russian Academy of Sciences, Chernogolovka
-  year: 1987
-  advisor: null
+- advisor: null
   advisor_id: null
   confidence: confirmed
+  degree: PhD (Candidate of Science)
+  institution: Institute of Solid State Physics, Russian Academy of Sciences, Chernogolovka
   source: https://www.phi.kit.edu/english/2059.php
+  year: 1987
 entity_type: person
 group_type: experimental
 id: 171-a-v-ustinov
 key_papers:
-- title: Dynamics of sine-Gordon solitons in the annular Josephson junction
+- doi: 10.1103/PhysRevLett.69.1815
+  role: senior_author
+  title: Dynamics of sine-Gordon solitons in the annular Josephson junction
   year: 1992
-  doi: 10.1103/PhysRevLett.69.1815
+- doi: 10.1038/nature01826
   role: senior_author
-- title: Quantum dynamics of a single vortex
+  title: Quantum dynamics of a single vortex
   year: 2003
-  doi: 10.1038/nature01826
-  role: senior_author
-- title: Solitons in Josephson junctions
-  year: 1998
-  doi: 10.1016/S0167-2789(98)00131-6
+- doi: 10.1016/S0167-2789(98)00131-6
   role: first_author
-- title: Implementation of a quantum metamaterial using superconducting qubits
-  year: 2014
-  doi: 10.1038/ncomms6146
+  title: Solitons in Josephson junctions
+  year: 1998
+- doi: 10.1038/ncomms6146
   role: senior_author
-- title: Fluxon Readout of a Superconducting Qubit
+  title: Implementation of a quantum metamaterial using superconducting qubits
   year: 2014
-  doi: 10.1103/PhysRevLett.112.160502
+- doi: 10.1103/PhysRevLett.112.160502
   role: senior_author
+  title: Fluxon Readout of a Superconducting Qubit
+  year: 2014
 keywords:
 - superconducting qubits
 - Josephson junctions
@@ -54,8 +54,8 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-26'
+  postdoc_verified: false
 links:
   group_page: https://www.phi.kit.edu/english/ustinov-research.php
   institution_profile: https://www.phi.kit.edu/english/2059.php
@@ -79,6 +79,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Ustinov, Alexey V.
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Alexey Ustinov is an experimental physicist at the Karlsruhe Institute of Technology (KIT) working on Josephson-junction devices. His work spans flux qubits, Josephson-junction arrays and metamaterials, fluxon dynamics, and superconducting circuits for quantum information and microwave engineering.

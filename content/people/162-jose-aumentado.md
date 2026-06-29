@@ -6,42 +6,44 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: National Institute of Standards and Technology
+  since_year: null
   source: https://www.nist.gov/people/joe-aumentado
   title: Staff Scientist, Advanced Microwave Photonics Group
-  since_year: null
   verified_at: '2026-05-26'
 education:
-- degree: PhD
-  institution: Northwestern University
-  year: 2000
-  advisor: null
+- advisor: null
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: Northwestern University
   source: https://sqmscenter.fnal.gov/profile/jose-aumentado/
+  year: 2000
 entity_type: person
 group_type: experimental
 id: 162-jose-aumentado
 key_papers:
-- title: Nonequilibrium Quasiparticles and 2e Periodicity in Single-Cooper-Pair Transistors
+- doi: 10.1103/PhysRevLett.92.066802
+  role: first_author
+  title: Nonequilibrium Quasiparticles and 2e Periodicity in Single-Cooper-Pair Transistors
   year: 2004
-  doi: 10.1103/PhysRevLett.92.066802
-  role: first_author
-- title: Rabi Oscillations in a Large Josephson-Junction Qubit
+- doi: 10.1103/PhysRevLett.89.117901
+  role: co_author
+  title: Rabi Oscillations in a Large Josephson-Junction Qubit
   year: 2002
-  doi: 10.1103/PhysRevLett.89.117901
+- doi: 10.1103/PhysRevLett.103.097002
   role: co_author
-- title: Energy Decay in Superconducting Josephson-Junction Qubits from Nonequilibrium Quasiparticle Excitations
+  title: Energy Decay in Superconducting Josephson-Junction Qubits from Nonequilibrium
+    Quasiparticle Excitations
   year: 2009
-  doi: 10.1103/PhysRevLett.103.097002
-  role: co_author
-- title: 'Superconducting Parametric Amplifiers: The State of the Art in Josephson Parametric Amplifiers'
+- doi: 10.1109/MMM.2020.2993476
+  role: first_author
+  title: 'Superconducting Parametric Amplifiers: The State of the Art in Josephson
+    Parametric Amplifiers'
   year: 2020
-  doi: 10.1109/MMM.2020.2993476
+- doi: 10.1063/PT.3.5291
   role: first_author
-- title: Quasiparticle Poisoning in Superconducting Quantum Computers
+  title: Quasiparticle Poisoning in Superconducting Quantum Computers
   year: 2023
-  doi: 10.1063/PT.3.5291
-  role: first_author
 keywords:
 - quasiparticle poisoning
 - superconducting qubits
@@ -53,8 +55,8 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-26'
+  postdoc_verified: false
 links:
   group_page: https://www.nist.gov/pml/applied-physics-division/advanced-microwave-photonics
   institution_profile: https://www.nist.gov/people/joe-aumentado
@@ -64,7 +66,7 @@ location:
   city: Boulder
   country: United States
   geocode_source: openalex
-  lat: 40.0150
+  lat: 40.015
   lon: -105.2705
   precision: city
 metrics:
@@ -78,6 +80,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Aumentado, José
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+José Aumentado is an experimental physicist at NIST Boulder specializing in quantum-limited microwave measurement. His work develops Josephson parametric amplifiers and nonreciprocal (directional, isolator-free) superconducting microwave devices that enable high-fidelity readout of superconducting qubits.

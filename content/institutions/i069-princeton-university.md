@@ -21,6 +21,7 @@ name: Princeton University
 platforms_represented:
 - neutral_atom
 - rydberg_array
+- superconducting
 - trapped_molecule
 schema_version: 1
 updated_at: '2026-05-26'

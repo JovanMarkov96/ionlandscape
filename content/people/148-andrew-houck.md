@@ -89,9 +89,11 @@ postdocs:
     in 2009. Formal postdoc advisor relationship not independently confirmed from
     accessible sources.
   source: https://api.openalex.org/authors/A5009891438
-  years: '2007-2009'
+  years: 2007-2009
 schema_version: 2
 sort_name: Houck, Andrew
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
+
+Andrew Houck is an experimental physicist at Princeton University working on superconducting circuit QED. His group studies transmon qubits, ultra-low-loss materials and coherence, and lattices of superconducting microwave resonators and qubits — including hyperbolic and other engineered lattices — as analog quantum simulators of photonic many-body physics.

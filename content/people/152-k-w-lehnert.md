@@ -62,11 +62,11 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
-  wikipedia: https://en.wikipedia.org/wiki/Konrad_Lehnert
   group_page: https://campuspress.yale.edu/lehnertlab/
   institution_profile: https://physics.yale.edu/people/konrad-lehnert
   openalex: https://openalex.org/A5022583741
   orcid: https://orcid.org/0000-0002-0750-9649
+  wikipedia: https://en.wikipedia.org/wiki/Konrad_Lehnert
 location:
   city: New Haven
   country: United States
@@ -91,9 +91,11 @@ postdocs:
   note: Postdoctoral researcher 1999-2003 at Yale collaborating with Schoelkopf on
     superconducting circuit qubits. Confirmed on Yale faculty bio.
   source: https://physics.yale.edu/people/konrad-lehnert
-  years: '1999-2003'
+  years: 1999-2003
 schema_version: 2
 sort_name: Lehnert, K. W.
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Konrad Lehnert is an experimental physicist at JILA and the University of Colorado Boulder and NIST. His group develops quantum-limited microwave measurement and amplification, superconducting electromechanics, and quantum transducers that convert quantum information between microwave (superconducting-qubit) and optical frequencies for quantum networking.

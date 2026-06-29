@@ -22,6 +22,7 @@ platforms_represented:
 - color_center
 - neutral_atom
 - nv_center
+- superconducting
 - trapped_ion
 schema_version: 1
 updated_at: '2026-05-26'

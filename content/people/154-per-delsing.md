@@ -11,6 +11,18 @@ current_position:
   source: https://www.chalmers.se/en/persons/delsing/
   title: Full Professor in Quantum Technology, Microtechnology and Nanoscience
   verified_at: '2026-05-26'
+education:
+- advisor: Tord Claeson
+  advisor_id: null
+  confidence: ambiguous
+  degree: PhD (Physics)
+  institution: Chalmers University of Technology
+  note: Thesis title "Single electron tunneling in ultrasmall tunnel junctions" (1990).
+    Advisor inferred as Tord Claeson (Full Professor of Physics at Chalmers from 1982;
+    co-authored the core single-electron tunneling papers with Delsing in 1989-1990)
+    but no source explicitly names him as supervisor.
+  source: https://research.chalmers.se/en/person/delsing
+  year: 1990
 entity_type: person
 group_type: experimental
 id: 154-per-delsing
@@ -35,18 +47,6 @@ key_papers:
   role: first_author
   title: The 2019 surface acoustic waves roadmap
   year: 2019
-education:
-- advisor: Tord Claeson
-  advisor_id: null
-  confidence: ambiguous
-  degree: PhD (Physics)
-  institution: Chalmers University of Technology
-  year: 1990
-  source: https://research.chalmers.se/en/person/delsing
-  note: Thesis title "Single electron tunneling in ultrasmall tunnel junctions" (1990).
-    Advisor inferred as Tord Claeson (Full Professor of Physics at Chalmers from 1982;
-    co-authored the core single-electron tunneling papers with Delsing in 1989-1990)
-    but no source explicitly names him as supervisor.
 keywords:
 - superconducting qubits
 - quantum acoustics
@@ -62,10 +62,10 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: false
 links:
-  wikipedia: https://en.wikipedia.org/wiki/Per_Delsing
   institution_profile: https://www.chalmers.se/en/persons/delsing/
   openalex: https://openalex.org/A5073844805
   orcid: https://orcid.org/0000-0002-1222-3506
+  wikipedia: https://en.wikipedia.org/wiki/Per_Delsing
 location:
   city: Gothenburg
   country: Sweden
@@ -84,6 +84,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Delsing, Per
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Per Delsing is an experimental physicist at Chalmers University of Technology working on superconducting circuits and quantum acoustics. His group demonstrated a single artificial atom coupled to propagating microwave photons, observed the dynamical Casimir effect with a superconducting circuit, and pioneered quantum acoustics with surface-acoustic-wave (SAW) phonons coupled to transmon qubits.

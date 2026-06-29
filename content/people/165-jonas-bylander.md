@@ -58,8 +58,8 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
-  group_page: https://www.chalmers.se/en/departments/mc2/research/quantum-technology/
   google_scholar: https://scholar.google.com/citations?user=UqCcvz4AAAAJ
+  group_page: https://www.chalmers.se/en/departments/mc2/research/quantum-technology/
   institution_profile: https://research.chalmers.se/en/person/bylander
   openalex: https://openalex.org/A5010330481
   orcid: https://orcid.org/0000-0003-4521-710X
@@ -90,6 +90,8 @@ postdocs:
   years: 2008-2012
 schema_version: 2
 sort_name: Bylander, Jonas
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
+
+Jonas Bylander is an experimental physicist at Chalmers University of Technology working on superconducting transmon qubits. His group characterizes and mitigates noise and decoherence, develops high-fidelity single- and two-qubit gates, and builds scalable superconducting quantum processors.

@@ -19,6 +19,7 @@ media:
   logo_path: /img/institutions/i005-eth-zurich_mark.png
 name: ETH Zurich
 platforms_represented:
+- superconducting
 - trapped_ion
 - trapped_molecule
 schema_version: 1

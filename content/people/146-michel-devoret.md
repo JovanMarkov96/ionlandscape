@@ -72,12 +72,12 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: true
 links:
-  group_page: http://qulab.eng.yale.edu/
   google_scholar: https://scholar.google.com/citations?user=2CeGqLAAAAAJ
-  wikipedia: https://en.wikipedia.org/wiki/Michel_Devoret
+  group_page: http://qulab.eng.yale.edu/
   institution_profile: https://engineering.yale.edu/applied-physicsmichel-devoret
   openalex: https://openalex.org/A5089631322
   orcid: https://orcid.org/0000-0002-2883-9575
+  wikipedia: https://en.wikipedia.org/wiki/Michel_Devoret
 location:
   city: New Haven
   country: United States
@@ -105,6 +105,10 @@ postdocs:
   years: early 1980s
 schema_version: 2
 sort_name: Devoret, Michel
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Michel Devoret is a founding figure of superconducting quantum circuits. His work established the quantum behavior of Josephson-junction circuits and includes the invention of the transmon qubit, quantum-limited Josephson parametric amplifiers (the Josephson parametric converter), and the use of microwave cavities and 'cat' states for hardware-efficient quantum error correction.
+
+Long based at Yale University, where he co-led the circuit-QED program with Robert Schoelkopf, he has also helped lead superconducting-hardware efforts at Google Quantum AI. His group demonstrated quantum jumps and real-time error tracking in superconducting cavities.

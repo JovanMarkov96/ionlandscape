@@ -21,6 +21,7 @@ name: University of Chicago
 platforms_represented:
 - neutral_atom
 - rydberg_array
+- superconducting
 schema_version: 1
 updated_at: '2026-05-26'
 verification_source_count: 1

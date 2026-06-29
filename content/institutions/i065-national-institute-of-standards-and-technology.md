@@ -22,6 +22,7 @@ name: NIST Gaithersburg
 platforms_represented:
 - neutral_atom
 - rydberg_array
+- superconducting
 schema_version: 1
 short_description: Known in its native language as National Institute of Standards
   and Technology (Gaithersburg, Maryland).

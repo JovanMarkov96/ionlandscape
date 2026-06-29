@@ -6,56 +6,59 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Delft University of Technology
+  since_year: 2010
   source: https://qutech.nl/person/leo-dicarlo/
   title: Antoni van Leeuwenhoek Full Professor
-  since_year: 2010
   verified_at: '2026-05-26'
 education:
-- degree: PhD (Experimental Mesoscopic Physics)
+- advisor: Charles Marcus
+  advisor_id: null
+  confidence: confirmed
+  degree: PhD (Experimental Mesoscopic Physics)
   institution: Harvard University
+  source: https://qutech.nl/person/leo-dicarlo/
   year: 2008
-  advisor: Charles Marcus
+- advisor: null
   advisor_id: null
   confidence: confirmed
-  source: https://qutech.nl/person/leo-dicarlo/
-- degree: MS (Electrical Engineering)
+  degree: MS (Electrical Engineering)
   institution: Stanford University
+  source: https://qutech.nl/person/leo-dicarlo/
   year: 2000
-  advisor: null
+- advisor: null
   advisor_id: null
   confidence: confirmed
-  source: https://qutech.nl/person/leo-dicarlo/
-- degree: BS (Physics and Electrical Engineering)
+  degree: BS (Physics and Electrical Engineering)
   institution: Stanford University
-  year: 1999
-  advisor: null
-  advisor_id: null
-  confidence: confirmed
   source: https://qutech.nl/person/leo-dicarlo/
+  year: 1999
 entity_type: person
 group_type: experimental
 id: 159-l-dicarlo
 key_papers:
-- title: Demonstration of two-qubit algorithms with a superconducting quantum processor
+- doi: 10.1038/nature08121
+  role: first_author
+  title: Demonstration of two-qubit algorithms with a superconducting quantum processor
   year: 2009
-  doi: 10.1038/nature08121
+- doi: 10.1038/nature09416
   role: first_author
-- title: Preparation and measurement of three-qubit entanglement in a superconducting circuit
+  title: Preparation and measurement of three-qubit entanglement in a superconducting
+    circuit
   year: 2010
-  doi: 10.1038/nature09416
-  role: first_author
-- title: Realization of three-qubit quantum error correction with superconducting circuits
-  year: 2012
-  doi: 10.1038/nature10786
+- doi: 10.1038/nature10786
   role: co_author
-- title: Deterministic entanglement of superconducting qubits by parity measurement and feedback
+  title: Realization of three-qubit quantum error correction with superconducting
+    circuits
+  year: 2012
+- doi: 10.1038/nature12513
+  role: corresponding
+  title: Deterministic entanglement of superconducting qubits by parity measurement
+    and feedback
   year: 2013
-  doi: 10.1038/nature12513
+- doi: 10.1038/ncomms7983
   role: corresponding
-- title: Detecting bit-flip errors in a logical qubit using stabilizer measurements
+  title: Detecting bit-flip errors in a logical qubit using stabilizer measurements
   year: 2015
-  doi: 10.1038/ncomms7983
-  role: corresponding
 keywords:
 - superconducting qubits
 - circuit quantum electrodynamics
@@ -67,8 +70,8 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-26'
+  postdoc_verified: true
 links:
   group_page: https://qutech.nl/lab/dicarlo-lab-welcome/
   institution_profile: https://qutech.nl/person/leo-dicarlo/
@@ -92,6 +95,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: DiCarlo, Leonardo
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
+
+Leonardo DiCarlo is an experimental physicist at TU Delft and QuTech. His group builds multi-transmon quantum processors, demonstrating early two-qubit quantum algorithms, fast feedback and reset, and experimental quantum error correction with repetition and surface codes.

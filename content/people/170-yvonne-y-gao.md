@@ -12,44 +12,44 @@ current_position:
     Centre for Quantum Technologies
   verified_at: '2026-05-26'
 education:
-- degree: BA (Physics)
-  institution: University of Oxford
-  year: 2012
-  advisor: null
+- advisor: null
   advisor_id: null
   confidence: confirmed
+  degree: BA (Physics)
+  institution: University of Oxford
   source: https://www.physics.nus.edu.sg/faculty/yvonne-y-gao/
-- degree: PhD (Applied Physics)
-  institution: Yale University
-  year: 2018
-  advisor: Robert Schoelkopf
+  year: 2012
+- advisor: Robert Schoelkopf
   advisor_id: 145-robert-schoelkopf
   confidence: confirmed
+  degree: PhD (Applied Physics)
+  institution: Yale University
   source: https://quantuminstitute.yale.edu/spotlight-yvonne-gao
+  year: 2018
 entity_type: person
 group_type: experimental
 id: 170-yvonne-y-gao
 key_papers:
-- title: 'A Schrödinger cat living in two boxes'
+- doi: 10.1126/science.aaf2941
+  role: co_author
+  title: A Schrödinger cat living in two boxes
   year: 2016
-  doi: 10.1126/science.aaf2941
+- doi: 10.1038/s41586-018-0470-y
   role: co_author
-- title: Deterministic teleportation of a quantum gate between two logical qubits
+  title: Deterministic teleportation of a quantum gate between two logical qubits
   year: 2018
-  doi: 10.1038/s41586-018-0470-y
-  role: co_author
-- title: Entanglement of bosonic modes through an engineered exchange interaction
-  year: 2019
-  doi: 10.1038/s41586-019-0970-4
+- doi: 10.1038/s41586-019-0970-4
   role: first_author
-- title: Quantum information processing with bosonic qubits in circuit QED
+  title: Entanglement of bosonic modes through an engineered exchange interaction
+  year: 2019
+- doi: 10.1088/2058-9565/abe989
+  role: senior_author
+  title: Quantum information processing with bosonic qubits in circuit QED
   year: 2021
-  doi: 10.1088/2058-9565/abe989
+- doi: 10.1103/PhysRevX.13.021004
   role: senior_author
-- title: Protecting the quantum interference of cat states by phase-space compression
+  title: Protecting the quantum interference of cat states by phase-space compression
   year: 2023
-  doi: 10.1103/PhysRevX.13.021004
-  role: senior_author
 keywords:
 - bosonic qubits
 - circuit quantum electrodynamics
@@ -60,14 +60,14 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-26'
+  postdoc_verified: false
 links:
+  google_scholar: https://scholar.google.com/citations?user=A3AtqowAAAAJ
   group_page: https://quantumcrew.org/
   institution_profile: https://www.physics.nus.edu.sg/faculty/yvonne-y-gao/
   openalex: https://openalex.org/A5014144321
   orcid: https://orcid.org/0000-0002-6360-9679
-  google_scholar: https://scholar.google.com/citations?user=A3AtqowAAAAJ
 location:
   city: Singapore
   country: Singapore
@@ -85,16 +85,18 @@ name: Yvonne Y. Gao
 platforms:
 - superconducting
 postdocs:
-- institution: Agency for Science, Technology and Research (A*STAR), Singapore
-  advisor: null
+- advisor: null
   advisor_id: null
-  years: '2018-2020'
   confidence: confirmed
+  institution: Agency for Science, Technology and Research (A*STAR), Singapore
   note: Research Scientist at A*STAR Quantum Technologies for Engineering programme
     before joining NUS faculty.
   source: https://www.science.nus.edu.sg/blog/2020/09/cqt-welcomes-three-new-principal-investigators-meet-yvonne-gao/
+  years: 2018-2020
 schema_version: 2
 sort_name: Gao, Yvonne Y.
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
+
+Yvonne Gao is an experimental physicist at the National University of Singapore working on bosonic superconducting qubits. Her group encodes error-correctable logical qubits in the states of microwave cavities (including cat states) controlled by transmon ancillas, developing hardware-efficient quantum error correction and control.

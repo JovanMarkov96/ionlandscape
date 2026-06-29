@@ -17,10 +17,10 @@ education:
   confidence: confirmed
   degree: PhD (Physics)
   institution: Friedrich-Alexander-Universität Erlangen-Nürnberg
-  year: 2003
-  source: https://arxiv.org/search/?query=wallraff+josephson&searchtype=all
   note: Erlangen affiliation confirmed via 2002 papers; Ustinov confirmed as co-author
     and group leader on Josephson junction work at Erlangen.
+  source: https://arxiv.org/search/?query=wallraff+josephson&searchtype=all
+  year: 2003
 entity_type: person
 group_type: experimental
 id: 155-andreas-wallraff
@@ -60,10 +60,10 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=nXO5vugAAAAJ
-  wikipedia: https://en.wikipedia.org/wiki/Andreas_Wallraff
   group_page: https://qudev.phys.ethz.ch
   openalex: https://openalex.org/A5016075205
   orcid: https://orcid.org/0000-0002-3476-4485
+  wikipedia: https://en.wikipedia.org/wiki/Andreas_Wallraff
 location:
   city: Zurich
   country: Switzerland
@@ -84,12 +84,14 @@ postdocs:
 - advisor: Robert J. Schoelkopf
   advisor_id: 145-robert-schoelkopf
   institution: Yale University
-  source: https://doi.org/10.1038/nature02851
-  years: '2002-2006'
   note: Department of Applied Physics, Yale. Affiliation confirmed on 2004 Nature
     paper (Wallraff et al.); ETH appointment January 2006.
+  source: https://doi.org/10.1038/nature02851
+  years: 2002-2006
 schema_version: 2
 sort_name: Wallraff, Andreas
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
+
+Andreas Wallraff is an experimental physicist at ETH Zurich who, with the Yale group, performed the first experiments demonstrating strong coupling of a single superconducting qubit to a microwave photon in a resonator — a foundational result of circuit QED. His group works on transmon-based quantum processors, deterministic microwave quantum teleportation, real-time quantum error correction with the surface code, and cryogenic microwave links between distributed processors.

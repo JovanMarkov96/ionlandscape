@@ -19,8 +19,9 @@ media:
   logo_path: /img/institutions/i084-delft-university-of-technology_mark.png
 name: Delft University of Technology
 platforms_represented:
-- nv_center
 - color_center
+- nv_center
+- superconducting
 schema_version: 1
 updated_at: '2026-05-26'
 verification_source_count: 1

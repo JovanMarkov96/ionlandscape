@@ -8,48 +8,48 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: University of Chicago
+  source: https://pme.uchicago.edu/faculty/andrew-cleland
   title: John A. MacLean Sr. Professor of Molecular Engineering Innovation and Enterprise;
     Director, Pritzker Nanofabrication Facility
-  source: https://pme.uchicago.edu/faculty/andrew-cleland
 education:
-- degree: B.S. Engineering Physics
-  institution: University of California, Berkeley
-  year: 1983
-  advisor: null
+- advisor: null
   advisor_id: null
   confidence: confirmed
-  source: https://pme.uchicago.edu/faculty/andrew-cleland
-- degree: Ph.D. Physics
+  degree: B.S. Engineering Physics
   institution: University of California, Berkeley
-  year: 1991
-  advisor: John Clarke
+  source: https://pme.uchicago.edu/faculty/andrew-cleland
+  year: 1983
+- advisor: John Clarke
   advisor_id: 164-john-clarke
   confidence: confirmed
+  degree: Ph.D. Physics
+  institution: University of California, Berkeley
   source: https://pme.uchicago.edu/faculty/andrew-cleland
+  year: 1991
 entity_type: person
 group_type: experimental
 id: 151-a-n-cleland
 key_papers:
-- title: Quantum ground state and single-phonon control of a mechanical resonator
+- doi: 10.1038/nature08967
+  role: senior_author
+  title: Quantum ground state and single-phonon control of a mechanical resonator
   year: 2010
-  doi: 10.1038/nature08967
+- doi: 10.1038/s41586-018-0719-5
   role: senior_author
-- title: Quantum control of surface acoustic wave phonons
+  title: Quantum control of surface acoustic wave phonons
   year: 2018
-  doi: 10.1038/s41586-018-0719-5
+- doi: 10.1038/s41586-021-03288-7
   role: senior_author
-- title: Deterministic multi-qubit entanglement in a quantum network
+  title: Deterministic multi-qubit entanglement in a quantum network
   year: 2021
-  doi: 10.1038/s41586-021-03288-7
+- doi: 10.1126/science.adg8715
   role: senior_author
-- title: 'Splitting phonons: Building a platform for linear mechanical quantum computing'
+  title: 'Splitting phonons: Building a platform for linear mechanical quantum computing'
   year: 2023
-  doi: 10.1126/science.adg8715
+- doi: 10.1126/science.aad8715
   role: senior_author
-- title: Phonon-mediated quantum state transfer and remote qubit entanglement
+  title: Phonon-mediated quantum state transfer and remote qubit entanglement
   year: 2019
-  doi: 10.1126/science.aad8715
-  role: senior_author
 keywords:
 - superconducting qubits
 - phononic qubits
@@ -61,8 +61,8 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-26'
+  postdoc_verified: true
 links:
   group_page: https://clelandlab.uchicago.edu/
   institution_profile: https://pme.uchicago.edu/faculty/andrew-cleland
@@ -86,18 +86,20 @@ platforms:
 - superconducting
 - cavity_qed_hybrid
 postdocs:
-- institution: Centre d'Etudes-Orme des Merisiers, CEA Saclay
-  advisor: null
+- advisor: null
   advisor_id: null
-  years: '1991-1993'
+  institution: Centre d'Etudes-Orme des Merisiers, CEA Saclay
   source: https://pme.uchicago.edu/faculty/andrew-cleland
-- institution: California Institute of Technology
-  advisor: null
+  years: 1991-1993
+- advisor: null
   advisor_id: null
-  years: '1993-1997'
+  institution: California Institute of Technology
   source: https://pme.uchicago.edu/faculty/andrew-cleland
+  years: 1993-1997
 schema_version: 2
 sort_name: Cleland, Andrew N.
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Andrew Cleland is an experimental physicist at the University of Chicago and Argonne National Laboratory. With John Martinis he built the first 'quantum machine' — a mechanical resonator in its quantum ground state coupled to a superconducting phase qubit. His group works on circuit quantum acoustodynamics, using surface- and bulk-acoustic-wave phonons as quantum resources, and on modular quantum networking between superconducting qubits via microwave communication channels.

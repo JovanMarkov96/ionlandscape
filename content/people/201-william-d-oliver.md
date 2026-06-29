@@ -2,7 +2,7 @@
 active: active
 applications:
 - computing
-created_at: "2026-05-30"
+created_at: '2026-05-30'
 current_position:
   confidence: confirmed
   institution: Massachusetts Institute of Technology
@@ -10,7 +10,7 @@ current_position:
   source: https://equs.mit.edu/william-d-oliver/
   title: Henry Ellis Warren (1894) Professor of Electrical Engineering and Computer
     Science; Professor of Physics
-  verified_at: "2026-05-30"
+  verified_at: '2026-05-30'
 education:
 - advisor: Yoshihisa Yamamoto
   advisor_id: null
@@ -60,10 +60,10 @@ keywords:
 - flux qubits
 - waveguide QED
 - quantum engineering
-last_verified_at: "2026-05-30"
+last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  last_checked: "2026-05-30"
+  last_checked: '2026-05-30'
   postdoc_verified: false
 links:
   group_page: https://equs.mit.edu/
@@ -81,7 +81,7 @@ metrics:
   citation_count: 15142
   h_index: 54
   publication_count: 405
-  retrieved_at: "2026-05-30"
+  retrieved_at: '2026-05-30'
   source: openalex
 name: William D. Oliver
 platforms:
@@ -97,6 +97,8 @@ postdocs:
   years: null
 schema_version: 2
 sort_name: Oliver, William D.
-updated_at: "2026-05-30"
+updated_at: '2026-06-29'
 verification_source_count: 6
 ---
+
+William Oliver is an experimental physicist at MIT, where he directs superconducting quantum-computing research across campus and MIT Lincoln Laboratory. His group works on transmon and fluxonium qubits, qubit materials and coherence, high-fidelity gates and readout, and scalable superconducting processor architectures; he is a co-author of widely used reviews ('A quantum engineer's guide to superconducting qubits').

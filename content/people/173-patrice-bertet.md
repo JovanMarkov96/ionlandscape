@@ -7,42 +7,44 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Commissariat à l'Énergie Atomique et aux Énergies Alternatives
+  since_year: 2005
   source: https://iramis.cea.fr/en/spec/pisp/patrice-bertet-2/
   title: Chargé de recherche (Researcher), Quantronics Group, SPEC/IRAMIS
-  since_year: 2005
   verified_at: '2026-05-26'
 education:
-- degree: PhD
-  institution: Université Pierre et Marie Curie (Paris 6) / Laboratoire Kastler-Brossel, ENS Paris
-  year: 2002
-  advisor: Jean-Michel Raimond
+- advisor: Jean-Michel Raimond
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: Université Pierre et Marie Curie (Paris 6) / Laboratoire Kastler-Brossel,
+    ENS Paris
   source: https://www.theses.fr/2002PA066034
+  year: 2002
 entity_type: person
 group_type: experimental
 id: 173-patrice-bertet
 key_papers:
-- title: Quantum technologies with hybrid systems
+- doi: 10.1073/pnas.1419326112
+  role: co_author
+  title: Quantum technologies with hybrid systems
   year: 2015
-  doi: 10.1073/pnas.1419326112
+- doi: 10.1038/nature02831
   role: co_author
-- title: Coherent dynamics of a flux qubit coupled to a harmonic oscillator
+  title: Coherent dynamics of a flux qubit coupled to a harmonic oscillator
   year: 2004
-  doi: 10.1038/nature02831
-  role: co_author
-- title: Strong coupling of a spin ensemble to a superconducting resonator
-  year: 2010
-  doi: 10.1103/PhysRevLett.105.140502
+- doi: 10.1103/PhysRevLett.105.140502
   role: senior_author
-- title: Hybrid quantum systems with circuit quantum electrodynamics
-  year: 2020
-  doi: 10.1038/s41567-020-0797-9
+  title: Strong coupling of a spin ensemble to a superconducting resonator
+  year: 2010
+- doi: 10.1038/s41567-020-0797-9
   role: co_author
-- title: Direct measurement of the Wigner function of a one-photon Fock state in a cavity
-  year: 2002
-  doi: 10.1103/PhysRevLett.89.200402
+  title: Hybrid quantum systems with circuit quantum electrodynamics
+  year: 2020
+- doi: 10.1103/PhysRevLett.89.200402
   role: first_author
+  title: Direct measurement of the Wigner function of a one-photon Fock state in a
+    cavity
+  year: 2002
 keywords:
 - superconducting qubits
 - spin-ensemble quantum memory
@@ -54,8 +56,8 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-26'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=3txnOgsAAAAJ
   group_page: https://iramis.cea.fr/en/spec/gq/
@@ -80,6 +82,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Bertet, Patrice
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
+
+Patrice Bertet is an experimental physicist at CEA Saclay working on hybrid quantum circuits. His group couples superconducting resonators and qubits to electron-spin ensembles, achieving spin detection at the single-spin level and developing superconducting-circuit-based electron-spin resonance and quantum memories.

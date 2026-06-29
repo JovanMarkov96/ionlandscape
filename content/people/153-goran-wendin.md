@@ -10,6 +10,18 @@ current_position:
   source: https://research.chalmers.se/en/person/wendin
   title: Professor Emeritus
   verified_at: '2026-05-26'
+education:
+- advisor: null
+  advisor_id: null
+  confidence: confirmed
+  degree: PhD (Theoretical Physics)
+  institution: Chalmers University of Technology
+  note: Thesis title "Effects of electron correlation in the photoabsorption spectrum
+    of the rare gases" (1972). Advisor not identified in any authoritative source;
+    Stig Lundqvist (leading theoretical physics professor at Chalmers at the time)
+    is a plausible candidate but unconfirmed.
+  source: https://research.chalmers.se/en/person/wendin
+  year: 1972
 entity_type: person
 group_type: theory
 id: 153-goran-wendin
@@ -35,18 +47,6 @@ key_papers:
   role: co_author
   title: Andreev Level Qubit
   year: 2003
-education:
-- advisor: null
-  advisor_id: null
-  confidence: confirmed
-  degree: PhD (Theoretical Physics)
-  institution: Chalmers University of Technology
-  year: 1972
-  source: https://research.chalmers.se/en/person/wendin
-  note: Thesis title "Effects of electron correlation in the photoabsorption spectrum
-    of the rare gases" (1972). Advisor not identified in any authoritative source;
-    Stig Lundqvist (leading theoretical physics professor at Chalmers at the time)
-    is a plausible candidate but unconfirmed.
 keywords:
 - Quantum and electron transport phenomena
 - Physics of Superconductivity and Magnetism
@@ -86,6 +86,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Wendin, Göran
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
+
+Göran Wendin is a theoretical physicist at Chalmers University of Technology and an early advocate and theorist of superconducting quantum computing in Europe. His work spans the theory of Josephson-junction qubits, decoherence, and the roadmaps and reviews that helped shape the European superconducting-qubit research agenda.

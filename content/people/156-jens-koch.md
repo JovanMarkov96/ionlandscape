@@ -16,7 +16,7 @@ education:
   advisor_id: null
   confidence: confirmed
   degree: PhD (Physics)
-  institution: "Freie Universit\xE4t Berlin"
+  institution: Freie Universität Berlin
   note: PhD year confirmed via Northwestern faculty profile page. Advisor name not
     stated on any accessible public source; thesis not located in FU Berlin repository
     via public search.
@@ -88,9 +88,11 @@ postdocs:
     faculty at some point thereafter. Devoret (146) is co-senior author on the same
     paper and jointly supervised this postdoc.
   source: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1103/PhysRevA.76.042319
-  years: '2006-2009'
+  years: 2006-2009
 schema_version: 2
 sort_name: Koch, Jens
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Jens Koch is a theoretical physicist at Northwestern University and a co-inventor of the transmon qubit, the most widely used superconducting qubit design. His work develops the theory of superconducting circuits — including fluxonium and other protected qubits, circuit quantization, and the widely used scQubits software — and circuit-QED lattices for quantum simulation.

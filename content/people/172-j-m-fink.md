@@ -12,37 +12,38 @@ current_position:
   title: Professor
   verified_at: '2026-05-29'
 education:
-- degree: PhD
-  institution: ETH Zurich
-  year: 2010
-  advisor: Andreas Wallraff
+- advisor: Andreas Wallraff
   advisor_id: 155-andreas-wallraff
   confidence: confirmed
+  degree: PhD
+  institution: ETH Zurich
   source: https://nomisfoundation.ch/people/johannes-fink/
+  year: 2010
 entity_type: person
 group_type: experimental
 id: 172-j-m-fink
 key_papers:
-- title: Stationary entangled radiation from micromechanical motion
-  year: 2019
-  doi: 10.1038/s41586-019-1320-2
+- doi: 10.1038/s41586-019-1320-2
   role: senior_author
-- title: Entangling microwaves with light
+  title: Stationary entangled radiation from micromechanical motion
+  year: 2019
+- doi: 10.1126/science.adg3812
+  role: senior_author
+  title: Entangling microwaves with light
   year: 2023
-  doi: 10.1126/science.adg3812
+- doi: 10.1038/s41467-022-28924-2
   role: senior_author
-- title: Quantum-enabled operation of a microwave-optical interface
+  title: Quantum-enabled operation of a microwave-optical interface
   year: 2022
-  doi: 10.1038/s41467-022-28924-2
+- doi: 10.1038/s41534-019-0220-5
   role: senior_author
-- title: Electro-optic entanglement source for microwave to telecom quantum state transfer
+  title: Electro-optic entanglement source for microwave to telecom quantum state
+    transfer
   year: 2019
-  doi: 10.1038/s41534-019-0220-5
-  role: senior_author
-- title: Quantum electromechanics on silicon nitride nanomembranes
-  year: 2016
-  doi: 10.1038/ncomms12396
+- doi: 10.1038/ncomms12396
   role: first_author
+  title: Quantum electromechanics on silicon nitride nanomembranes
+  year: 2016
 keywords:
 - circuit QED
 - quantum electromechanics
@@ -55,8 +56,8 @@ keywords:
 last_verified_at: '2026-05-29'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-29'
+  postdoc_verified: true
 links:
   group_page: https://quantumids.com/
   institution_profile: https://research-explorer.ista.ac.at/person/4B591CBA-F248-11E8-B48F-1D18A9856A87
@@ -79,13 +80,15 @@ name: Johannes M. Fink
 platforms:
 - superconducting
 postdocs:
-- institution: California Institute of Technology
-  advisor: Oskar Painter
+- advisor: Oskar Painter
   advisor_id: 157-oskar-painter
-  years: '2012-2016'
+  institution: California Institute of Technology
   source: https://iqim.caltech.edu/profile/johannes-fink/
+  years: 2012-2016
 schema_version: 2
 sort_name: Fink, Johannes M.
-updated_at: '2026-05-29'
+updated_at: '2026-06-29'
 verification_source_count: 6
 ---
+
+Johannes Fink is an experimental physicist at the Institute of Science and Technology Austria (ISTA). His group works on circuit QED, superconducting electromechanics, and microwave-to-optical quantum transduction, building interfaces and entanglement sources for superconducting quantum networks.

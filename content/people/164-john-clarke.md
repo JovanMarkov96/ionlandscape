@@ -90,6 +90,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Clarke, John
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
+
+John Clarke is an experimental physicist at the University of California, Berkeley and a pioneer of superconducting quantum interference devices (SQUIDs) and ultra-sensitive magnetometry. His experiments on macroscopic quantum tunneling and energy-level quantization in current-biased Josephson junctions provided foundational evidence that Josephson circuits behave quantum-mechanically — the basis for superconducting qubits.

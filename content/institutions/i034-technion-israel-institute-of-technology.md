@@ -18,6 +18,7 @@ media:
 name: Technion – Israel Institute of Technology
 platforms_represented:
 - neutral_atom
+- superconducting
 - trapped_ion
 schema_version: 1
 short_description: 'The Technion – Israel Institute of Technology is a public research

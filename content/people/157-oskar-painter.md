@@ -38,8 +38,8 @@ key_papers:
   year: 2025
 - doi: 10.1103/PhysRevX.15.011070
   role: senior_author
-  title: Preserving Phase Coherence and Linearity in Cat Qubits with Exponential
-    Bit-Flip Suppression
+  title: Preserving Phase Coherence and Linearity in Cat Qubits with Exponential Bit-Flip
+    Suppression
   year: 2025
 - doi: 10.1103/PhysRevX.14.031055
   role: senior_author
@@ -71,10 +71,10 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: false
 links:
-  wikipedia: https://en.wikipedia.org/wiki/Oskar_Painter
   group_page: https://painterlab.caltech.edu
   openalex: https://openalex.org/A5108167374
   orcid: https://orcid.org/0000-0002-1581-9209
+  wikipedia: https://en.wikipedia.org/wiki/Oskar_Painter
 location:
   city: Pasadena
   country: United States
@@ -96,6 +96,8 @@ platforms:
 postdocs: []
 schema_version: 2
 sort_name: Painter, Oskar
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Oskar Painter is an experimental physicist at Caltech and a leader of the AWS Center for Quantum Computing. His group works on superconducting qubits, cavity and crystal optomechanics, and quantum acoustics, using phononic and photonic crystals and engineered acoustic resonators to interface superconducting circuits with mechanical and optical degrees of freedom for quantum information and networking.

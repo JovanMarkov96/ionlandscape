@@ -19,6 +19,7 @@ name: Massachusetts Institute of Technology
 platforms_represented:
 - neutral_atom
 - rydberg_array
+- superconducting
 - trapped_ion
 - trapped_molecule
 schema_version: 1

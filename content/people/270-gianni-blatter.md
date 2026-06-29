@@ -12,13 +12,22 @@ current_position:
 entity_type: person
 group_type: theory
 id: 270-gianni-blatter
+key_papers:
+- doi: 10.1103/revmodphys.66.1125
+  role: first_author
+  title: Vortices in high-temperature superconductors
+  year: 1994
+- doi: 10.1038/19464
+  role: senior_author
+  title: Environmentally decoupled sds-wave Josephson junctions for quantum computing
+  year: 1999
 labels:
 - Theory group
 last_verified_at: '2026-06-02'
 links:
-  orcid: https://orcid.org/0000-0003-0521-8028
-  openalex: https://openalex.org/A5026215124
   homepage: https://ethz.ch/
+  openalex: https://openalex.org/A5026215124
+  orcid: https://orcid.org/0000-0003-0521-8028
 location:
   city: Zurich
   country: Switzerland
@@ -34,9 +43,8 @@ sort_name: Blatter, Gianni
 sources:
 - note: Institutional / group page
   url: https://ethz.ch/
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 1
 ---
-
 
 Gianni Blatter is a theoretical physicist at ETH Zurich known for the theory of vortices in superconductors and proposals for solid-state and superconducting qubits.
