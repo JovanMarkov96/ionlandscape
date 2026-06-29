@@ -10,6 +10,8 @@ applications:
 - optical_clocks
 - sensing_metrology
 - software_control
+atomic_species:
+- Sr
 created_at: '2026-01-26'
 current_position:
   institution: Weizmann Institute of Science
@@ -33,6 +35,7 @@ id: 001-roee-ozeri
 ion_species:
 - 88Sr+
 - 40Ca+
+- Sr
 key_papers:
 - doi: 10.1038/nature10010
   role: senior_author
@@ -99,7 +102,7 @@ thesis:
   link: Unknown
   title: Optical manipulation of atomic clouds
   year: 2006
-updated_at: '2026-05-25'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
 

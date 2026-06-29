@@ -2,53 +2,57 @@
 active: active
 applications:
 - computing
+atomic_species:
+- Rb
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: California Institute of Technology
+  since_year: 2025
   source: https://www.pma.caltech.edu/people/dolev-bluvstein
   title: Visiting Associate in Physics
-  since_year: 2025
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: Harvard University
-  year: 2025
-  advisor: Mikhail D. Lukin
+- advisor: Mikhail D. Lukin
   advisor_id: 080-mikhail-d-lukin
   confidence: confirmed
+  degree: PhD
+  institution: Harvard University
   source: https://gsas.harvard.edu/news/quantum-frontier
-- degree: BS
-  institution: University of California, Santa Barbara
-  year: 2019
-  advisor: null
+  year: 2025
+- advisor: null
   advisor_id: null
   confidence: confirmed
+  degree: BS
+  institution: University of California, Santa Barbara
   source: https://www.pma.caltech.edu/people/dolev-bluvstein
+  year: 2019
 entity_type: person
 group_type: experimental
 id: 094-dolev-bluvstein
+ion_species:
+- Rb
 key_papers:
-- title: Controlling quantum many-body dynamics in driven Rydberg atom arrays
+- doi: 10.1126/science.abg2530
+  role: first_author
+  title: Controlling quantum many-body dynamics in driven Rydberg atom arrays
   year: 2021
-  doi: 10.1126/science.abg2530
+- doi: 10.1038/s41586-022-04592-6
   role: first_author
-- title: A quantum processor based on coherent transport of entangled atom arrays
+  title: A quantum processor based on coherent transport of entangled atom arrays
   year: 2022
-  doi: 10.1038/s41586-022-04592-6
+- doi: 10.1038/s41586-023-06927-3
   role: first_author
-- title: Logical quantum processor based on reconfigurable atom arrays
+  title: Logical quantum processor based on reconfigurable atom arrays
   year: 2024
-  doi: 10.1038/s41586-023-06927-3
-  role: first_author
-- title: High-fidelity parallel entangling gates on a neutral-atom quantum computer
-  year: 2023
-  doi: 10.1038/s41586-023-06481-y
+- doi: 10.1038/s41586-023-06481-y
   role: co_author
-- title: A fault-tolerant neutral-atom architecture for universal quantum computation
-  year: 2026
-  doi: 10.1038/s41586-025-09848-5
+  title: High-fidelity parallel entangling gates on a neutral-atom quantum computer
+  year: 2023
+- doi: 10.1038/s41586-025-09848-5
   role: first_author
+  title: A fault-tolerant neutral-atom architecture for universal quantum computation
+  year: 2026
 keywords:
 - neutral atom quantum computing
 - Rydberg atom arrays
@@ -60,8 +64,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   group_page: https://bluvsteinlab.caltech.edu
   institution_profile: https://www.pma.caltech.edu/people/dolev-bluvstein
@@ -86,6 +90,10 @@ platforms:
 - rydberg_array
 schema_version: 2
 sort_name: Bluvstein, Dolev
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Dolev Bluvstein is a physicist working on neutral-atom quantum computing with reconfigurable optical-tweezer arrays of rubidium (Rb) atoms and Rydberg interactions. His experiments demonstrated dynamically reconfigurable atom arrays, high-fidelity entanglement, and logical quantum processors with error correction on dozens of logical qubits.
+
+He carried out this work in the Lukin group at Harvard, helping establish reconfigurable Rydberg-atom arrays as a leading route to fault-tolerant quantum computation.

@@ -3,46 +3,52 @@ active: active
 applications:
 - computing
 - networking
+atomic_species:
+- Rb
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: University of Innsbruck
+  since_year: 2025
   source: https://iqoqi.at/en/people/staff/staff/hannes-bernien
   title: Professor of Experimental Physics
-  since_year: 2025
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: Delft University of Technology
-  year: 2014
-  advisor: Ronald Hanson
+- advisor: Ronald Hanson
   advisor_id: 112-ronald-hanson
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Delft University of Technology
   source: https://physicsworld.com/a/building-quantum-processors-and-networks-atom-by-atom/
+  year: 2014
 entity_type: person
 group_type: experimental
 id: 089-hannes-bernien
+ion_species:
+- Rb
 key_papers:
-- title: Heralded entanglement between solid-state qubits separated by three metres
+- doi: 10.1038/nature12016
+  role: first_author
+  title: Heralded entanglement between solid-state qubits separated by three metres
   year: 2013
-  doi: 10.1038/nature12016
+- doi: 10.1038/nature24622
   role: first_author
-- title: Probing many-body dynamics on a 51-atom quantum simulator
+  title: Probing many-body dynamics on a 51-atom quantum simulator
   year: 2017
-  doi: 10.1038/nature24622
-  role: first_author
-- title: Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres
-  year: 2015
-  doi: 10.1038/nature15759
+- doi: 10.1038/nature15759
   role: co_author
-- title: A dual-species Rydberg array
+  title: Loophole-free Bell inequality violation using electron spins separated by
+    1.3 kilometres
+  year: 2015
+- doi: 10.1038/s41567-024-02638-2
+  role: senior_author
+  title: A dual-species Rydberg array
   year: 2024
-  doi: 10.1038/s41567-024-02638-2
+- doi: 10.1126/science.ade5337
   role: senior_author
-- title: Mid-circuit correction of correlated phase errors using an array of spectator qubits
+  title: Mid-circuit correction of correlated phase errors using an array of spectator
+    qubits
   year: 2023
-  doi: 10.1126/science.ade5337
-  role: senior_author
 keywords:
 - Rydberg atom arrays
 - quantum networking
@@ -55,8 +61,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=B8gEYX4AAAAJ
   group_page: https://bernienlab.com
@@ -81,15 +87,15 @@ platforms:
 - neutral_atom
 - rydberg_array
 postdocs:
-- institution: Harvard University
-  advisor: Mikhail D. Lukin
+- advisor: Mikhail D. Lukin
   advisor_id: 080-mikhail-d-lukin
-  years: 2015-2019
   confidence: confirmed
+  institution: Harvard University
   source: https://physicsworld.com/a/building-quantum-processors-and-networks-atom-by-atom/
+  years: 2015-2019
 schema_version: 2
 sort_name: Bernien, Hannes
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
 

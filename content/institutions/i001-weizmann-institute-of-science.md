@@ -54,6 +54,8 @@ media:
   logo_path: /img/institutions/weizmann_logo_mark.png
 name: Weizmann Institute of Science
 platforms_represented:
+- neutral_atom
+- rydberg_array
 - trapped_ion
 - trapped_molecule
 schema_version: 1

@@ -19,6 +19,15 @@ id: 243-andrew-steane
 ion_species:
 - 40Ca+
 - 43Ca+
+key_papers:
+- doi: 10.1103/physrevlett.77.793
+  role: first_author
+  title: Error Correcting Codes in Quantum Theory
+  year: 1996
+- doi: 10.1007/s003400050251
+  role: first_author
+  title: The ion trap quantum information processor
+  year: 1997
 labels:
 - Experimental group
 last_verified_at: '2026-06-02'
@@ -46,7 +55,7 @@ sources:
   url: https://en.wikipedia.org/wiki/Andrew_Steane
 - note: Oxford faculty profile
   url: https://www.physics.ox.ac.uk/our-people/steane
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

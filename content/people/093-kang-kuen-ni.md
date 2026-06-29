@@ -3,6 +3,9 @@ active: active
 applications:
 - computing
 - simulation
+atomic_species:
+- Na
+- Cs
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
@@ -39,6 +42,8 @@ id: 093-kang-kuen-ni
 ion_species:
 - KRb
 - NaCs
+- Na
+- Cs
 key_papers:
 - doi: 10.1126/science.1163861
   role: first_author

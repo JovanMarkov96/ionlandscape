@@ -19,6 +19,7 @@ media:
   logo_path: /img/institutions/i103-stanford-university_mark.png
 name: Stanford University
 platforms_represented:
+- neutral_atom
 - superconducting
 schema_version: 1
 updated_at: '2026-05-26'

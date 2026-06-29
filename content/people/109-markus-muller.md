@@ -77,6 +77,8 @@ postdocs:
   years: 2011-2015
 schema_version: 2
 sort_name: Müller, Markus
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Markus Müller is a Professor of Physics at RWTH Aachen University and Forschungszentrum Jülich, and a theorist of quantum error correction and fault-tolerant quantum computing. His work develops topological and color codes, fault-tolerant logical operations, and co-design with trapped-ion and Rydberg-atom hardware, as well as the theory of open and dissipative quantum systems.

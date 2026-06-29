@@ -3,14 +3,14 @@ active: active
 applications:
 - computing
 - simulation
-created_at: "2026-05-30"
+created_at: '2026-05-30'
 current_position:
   confidence: confirmed
   institution: Oak Ridge National Laboratory
   since_year: 2022
   source: https://www.qscience.org/humble-named-director-of-the-quantum-science-center/
   title: Director, Quantum Science Center; Distinguished Scientist
-  verified_at: "2026-05-30"
+  verified_at: '2026-05-30'
 education:
 - advisor: null
   advisor_id: null
@@ -60,10 +60,10 @@ keywords:
 - entangled photon sources
 - superdense coding
 - quantum user programs
-last_verified_at: "2026-05-30"
+last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: false
-  last_checked: "2026-05-30"
+  last_checked: '2026-05-30'
   postdoc_verified: false
 links:
   institution_profile: https://www.ornl.gov/staff-profile/travis-s-humble
@@ -80,7 +80,7 @@ metrics:
   citation_count: 3026
   h_index: 29
   publication_count: 298
-  retrieved_at: "2026-05-30"
+  retrieved_at: '2026-05-30'
   source: openalex
 name: Travis Humble
 platforms:
@@ -88,6 +88,8 @@ platforms:
 - superconducting
 schema_version: 2
 sort_name: Humble, Travis
-updated_at: "2026-05-30"
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
+
+Travis Humble is a Distinguished Scientist at Oak Ridge National Laboratory and Director of the Quantum Science Center, working on quantum computing architectures, the integration of quantum processors with high-performance computing, and the benchmarking and verification of quantum hardware across platforms.

@@ -13,13 +13,22 @@ group_type: experimental
 id: 261-david-kielpinski
 ion_species:
 - 9Be+
+key_papers:
+- doi: 10.1038/nature00784
+  role: first_author
+  title: Architecture for a large-scale ion-trap quantum computer
+  year: 2002
+- doi: 10.1038/35005011
+  role: co_author
+  title: Experimental entanglement of four particles
+  year: 2000
 labels:
 - Experimental group
 last_verified_at: '2026-06-02'
 links:
-  orcid: https://orcid.org/0000-0002-2816-6892
-  openalex: https://openalex.org/A5051592659
   homepage: https://www.griffith.edu.au/
+  openalex: https://openalex.org/A5051592659
+  orcid: https://orcid.org/0000-0002-2816-6892
 location:
   city: Brisbane
   country: Australia
@@ -46,9 +55,8 @@ sources:
 - note: Architecture for a large-scale ion-trap quantum computer (Kielpinski, Monroe,
     Wineland)
   url: https://tf.nist.gov/general/pdf/1566.pdf
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 1
 ---
-
 
 David Kielpinski is a physicist known for the influential QCCD (quantum charge-coupled device) architecture for scalable trapped-ion quantum computers, developed in the NIST Ion Storage Group of David J. Wineland using ⁹Be⁺ ions (Kielpinski, Monroe & Wineland, *Nature* 2002). He later led trapped-ion and quantum-optics research at the Centre for Quantum Dynamics, Griffith University, in Brisbane, Australia.

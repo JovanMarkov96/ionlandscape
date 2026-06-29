@@ -8,22 +8,27 @@ affiliations:
 applications:
 - simulation
 - computing
+atomic_species:
+- Rb
+- K
+- Cs
+- Li
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Ludwig-Maximilians-Universität München
+  since_year: 2009
   source: https://www.quantum-munich.de/104554/bloch-immanuel-prof-dr
   title: Professor of Experimental Physics
-  since_year: 2009
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: Ludwig-Maximilians-Universität München
-  year: 2000
-  advisor: Theodor W. Hänsch
+- advisor: Theodor W. Hänsch
   advisor_id: 000-theodor-w-hansch
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Ludwig-Maximilians-Universität München
   source: https://en.wikipedia.org/wiki/Immanuel_Bloch
+  year: 2000
 entity_type: person
 group_type: experimental
 id: 081-immanuel-bloch
@@ -32,32 +37,36 @@ ion_species:
 - 40K
 - 174Yb
 - 88Sr
+- Rb
+- K
+- Cs
+- Li
 key_papers:
-- title: Quantum phase transition from a superfluid to a Mott insulator in a gas of
+- doi: 10.1038/415039a
+  role: co_author
+  title: Quantum phase transition from a superfluid to a Mott insulator in a gas of
     ultracold atoms
   year: 2002
-  doi: 10.1038/415039a
+- doi: 10.1103/RevModPhys.80.885
   role: co_author
-- title: Many-body physics with ultracold gases
+  title: Many-body physics with ultracold gases
   year: 2008
-  doi: 10.1103/RevModPhys.80.885
+- doi: 10.1038/nature09378
   role: co_author
-- title: Single-atom-resolved fluorescence imaging of an atomic Mott insulator
+  title: Single-atom-resolved fluorescence imaging of an atomic Mott insulator
   year: 2010
-  doi: 10.1038/nature09378
+- doi: 10.1038/nphys2259
   role: co_author
-- title: Quantum simulations with ultracold quantum gases
+  title: Quantum simulations with ultracold quantum gases
   year: 2012
-  doi: 10.1038/nphys2259
-  role: co_author
-- title: Light-cone-like spreading of correlations in a quantum many-body system
-  year: 2012
-  doi: 10.1038/nature10748
+- doi: 10.1038/nature10748
   role: senior_author
-- title: Quantum simulations with ultracold atoms in optical lattices
-  year: 2017
-  doi: 10.1126/science.aal3837
+  title: Light-cone-like spreading of correlations in a quantum many-body system
+  year: 2012
+- doi: 10.1126/science.aal3837
   role: co_author
+  title: Quantum simulations with ultracold atoms in optical lattices
+  year: 2017
 keywords:
 - ultracold atoms and quantum gases
 - optical lattices
@@ -72,15 +81,15 @@ labels:
 last_verified_at: '2026-06-04'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
-  wikipedia: https://en.wikipedia.org/wiki/Immanuel_Bloch
   google_scholar: https://scholar.google.com/citations?user=kX5_lc8AAAAJ
   group_page: https://www.quantum-munich.de/104554/bloch-immanuel-prof-dr
   institution_profile: https://www.mpq.mpg.de/person/34641/4571983
   openalex: https://openalex.org/A5032954061
   orcid: https://orcid.org/0000-0002-0679-4759
+  wikipedia: https://en.wikipedia.org/wiki/Immanuel_Bloch
 location:
   city: Munich
   country: Germany
@@ -103,7 +112,7 @@ sort_name: Bloch, Immanuel
 thesis:
   title: Atomlaser und Phasenkohärenz atomarer Bose-Einstein-Kondensate
   year: 2000
-updated_at: '2026-06-04'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
 

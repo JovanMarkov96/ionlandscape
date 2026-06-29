@@ -4,6 +4,8 @@ applications:
 - optical_clocks
 - fundamental_physics
 - sensing_metrology
+atomic_species:
+- Sr
 created_at: '2026-06-29'
 current_position:
   confidence: reported
@@ -22,6 +24,7 @@ id: 333-tanya-zelevinsky
 ion_species:
 - Sr2
 - 88Sr2
+- Sr
 key_papers:
 - doi: 10.1103/physrevlett.100.043201
   role: first_author

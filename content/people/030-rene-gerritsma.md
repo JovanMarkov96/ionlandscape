@@ -3,6 +3,9 @@ active: active
 affiliations: []
 applications:
 - simulation
+atomic_species:
+- Li
+- Yb
 created_at: '2026-01-30'
 current_position:
   institution: University of Amsterdam
@@ -20,6 +23,8 @@ id: 030-rene-gerritsma
 ion_species:
 - 171Yb+
 - 40Ca+
+- Li
+- Yb
 key_papers:
 - doi: 10.1038/nature08688
   role: first_author
@@ -66,7 +71,7 @@ thesis:
   link: Unknown
   title: Permanent magnetic atom chips and Bose-Einstein condensation
   year: 2007
-updated_at: '2026-05-04'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

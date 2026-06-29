@@ -10,6 +10,8 @@ applications:
 - networking
 - fundamental_physics
 - simulation
+atomic_species:
+- Rb
 created_at: '2026-05-21'
 current_position:
   confidence: confirmed
@@ -33,6 +35,8 @@ education:
 entity_type: person
 group_type: experimental
 id: 205-ofer-firstenberg
+ion_species:
+- Rb
 key_papers:
 - doi: 10.1038/nature12512
   role: lead_author
@@ -102,7 +106,7 @@ postdocs:
   years: unknown
 schema_version: 2
 sort_name: Firstenberg, Ofer
-updated_at: '2026-05-31'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
 

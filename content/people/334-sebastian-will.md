@@ -4,6 +4,9 @@ applications:
 - simulation
 - computing
 - fundamental_physics
+atomic_species:
+- Na
+- Cs
 created_at: '2026-06-29'
 current_position:
   confidence: reported
@@ -22,6 +25,8 @@ id: 334-sebastian-will
 ion_species:
 - NaCs
 - NaK
+- Na
+- Cs
 key_papers:
 - doi: 10.1103/physrevlett.114.205302
   role: co_author

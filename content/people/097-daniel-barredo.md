@@ -3,46 +3,53 @@ active: active
 applications:
 - computing
 - simulation
+atomic_species:
+- Rb
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Centro de Investigación en Nanomateriales y Nanotecnología (CINN-CSIC)
+  since_year: 2021
   source: https://cinn.es/en/team-2/
   title: Tenured Scientist
-  since_year: 2021
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: Universidad Autónoma de Madrid
-  year: 2009
-  advisor: Rodolfo Miranda
+- advisor: Rodolfo Miranda
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: Universidad Autónoma de Madrid
   source: https://frontiers.icfo.eu/2021/06/17/daniel-barredo/
+  year: 2009
 entity_type: person
 group_type: experimental
 id: 097-daniel-barredo
+ion_species:
+- Rb
 key_papers:
-- title: An atom-by-atom assembler of defect-free arbitrary two-dimensional atomic arrays
-  year: 2016
-  doi: 10.1126/science.aah3778
+- doi: 10.1126/science.aah3778
   role: first_author
-- title: Synthetic three-dimensional atomic structures assembled atom by atom
+  title: An atom-by-atom assembler of defect-free arbitrary two-dimensional atomic
+    arrays
+  year: 2016
+- doi: 10.1038/s41586-018-0450-2
+  role: first_author
+  title: Synthetic three-dimensional atomic structures assembled atom by atom
   year: 2018
-  doi: 10.1038/s41586-018-0450-2
-  role: first_author
-- title: Tunable two-dimensional arrays of single Rydberg atoms for realizing quantum Ising models
+- doi: 10.1038/nature18274
+  role: co_author
+  title: Tunable two-dimensional arrays of single Rydberg atoms for realizing quantum
+    Ising models
   year: 2016
-  doi: 10.1038/nature18274
+- doi: 10.1126/science.aav9105
   role: co_author
-- title: Observation of a symmetry-protected topological phase of interacting bosons with Rydberg atoms
+  title: Observation of a symmetry-protected topological phase of interacting bosons
+    with Rydberg atoms
   year: 2019
-  doi: 10.1126/science.aav9105
+- doi: 10.1038/s41586-021-03585-1
   role: co_author
-- title: Quantum simulation of 2D antiferromagnets with hundreds of Rydberg atoms
+  title: Quantum simulation of 2D antiferromagnets with hundreds of Rydberg atoms
   year: 2021
-  doi: 10.1038/s41586-021-03585-1
-  role: co_author
 keywords:
 - Rydberg atom arrays
 - optical tweezers
@@ -54,8 +61,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   group_page: https://cinn.es/en/research/nanomaterials-and-quantum-technologies/quantum-simulations/
   institution_profile: https://cinn.es/en/team-2/
@@ -80,6 +87,10 @@ platforms:
 - rydberg_array
 schema_version: 2
 sort_name: Barredo, Daniel
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Daniel Barredo is a researcher (Nanomaterials and Nanotechnology Research Center, CINN-CSIC / University of Oviedo) known for assembling defect-free arrays of single rubidium (Rb) atoms in optical tweezers and exciting them to Rydberg states for quantum simulation.
+
+During his time in the Browaeys-Lahaye group at the Institut d'Optique he pioneered atom-by-atom assembly of two- and three-dimensional tweezer arrays, a cornerstone technique of the neutral-atom platform.

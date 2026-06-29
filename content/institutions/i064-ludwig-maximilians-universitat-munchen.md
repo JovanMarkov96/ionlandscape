@@ -22,6 +22,7 @@ media:
 name: Ludwig Maximilian University of Munich
 platforms_represented:
 - neutral_atom
+- rydberg_array
 schema_version: 1
 short_description: Known in its native language as Ludwig-Maximilians-Universität
   München.

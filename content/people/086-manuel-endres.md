@@ -3,46 +3,50 @@ active: active
 applications:
 - computing
 - simulation
+atomic_species:
+- Sr
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: California Institute of Technology
+  since_year: 2021
   source: https://www.endreslab.com/manuel-endres.html
   title: Professor of Physics
-  since_year: 2021
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: Ludwig-Maximilians-Universität München
-  year: 2013
-  advisor: Immanuel Bloch
+- advisor: Immanuel Bloch
   advisor_id: 081-immanuel-bloch
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Ludwig-Maximilians-Universität München
   source: https://www.mpq.mpg.de/4868036/13_06_28
+  year: 2013
 entity_type: person
 group_type: experimental
 id: 086-manuel-endres
+ion_species:
+- Sr
 key_papers:
-- title: Atom-by-atom assembly of defect-free one-dimensional cold atom arrays
-  year: 2016
-  doi: 10.1126/science.aah3752
+- doi: 10.1126/science.aah3752
   role: first_author
-- title: High-Fidelity Control and Entanglement of Rydberg-Atom Qubits
-  year: 2018
-  doi: 10.1103/PhysRevLett.121.123603
+  title: Atom-by-atom assembly of defect-free one-dimensional cold atom arrays
+  year: 2016
+- doi: 10.1103/PhysRevLett.121.123603
   role: co_author
-- title: An Atomic-Array Optical Clock with Single-Atom Readout
+  title: High-Fidelity Control and Entanglement of Rydberg-Atom Qubits
+  year: 2018
+- doi: 10.1103/PhysRevX.9.041052
+  role: senior_author
+  title: An Atomic-Array Optical Clock with Single-Atom Readout
   year: 2019
-  doi: 10.1103/PhysRevX.9.041052
+- doi: 10.1038/s41586-023-06516-4
   role: senior_author
-- title: Erasure conversion in a high-fidelity Rydberg quantum simulator
+  title: Erasure conversion in a high-fidelity Rydberg quantum simulator
   year: 2023
-  doi: 10.1038/s41586-023-06516-4
+- doi: 10.1038/s41586-025-09641-4
   role: senior_author
-- title: A tweezer array with 6100 highly coherent atomic qubits
+  title: A tweezer array with 6100 highly coherent atomic qubits
   year: 2025
-  doi: 10.1038/s41586-025-09641-4
-  role: senior_author
 keywords:
 - optical tweezer arrays
 - Rydberg qubits
@@ -55,8 +59,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=k5J9V9MAAAAJ
   group_page: https://www.endreslab.com/
@@ -81,20 +85,20 @@ platforms:
 - neutral_atom
 - rydberg_array
 postdocs:
-- institution: Max-Planck-Institut für Quantenoptik
-  advisor: Ignacio Cirac
+- advisor: Ignacio Cirac
+  confidence: confirmed
+  institution: Max-Planck-Institut für Quantenoptik
+  source: https://www.endreslab.com/manuel-endres.html
   years: 2013-2014
+- advisor: null
   confidence: confirmed
-  source: https://www.endreslab.com/manuel-endres.html
-- institution: Harvard University
-  advisor: null
+  institution: Harvard University
   note: HQOC Prize Postdoctoral Fellow, Harvard Quantum Optics Center
-  years: 2014-2015
-  confidence: confirmed
   source: https://www.endreslab.com/manuel-endres.html
+  years: 2014-2015
 schema_version: 2
 sort_name: Endres, Manuel
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
 

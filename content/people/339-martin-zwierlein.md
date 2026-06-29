@@ -3,6 +3,10 @@ active: active
 applications:
 - simulation
 - fundamental_physics
+atomic_species:
+- Na
+- K
+- Li
 created_at: '2026-06-29'
 current_position:
   confidence: reported
@@ -21,6 +25,9 @@ ion_species:
 - NaK
 - 6Li
 - 23Na
+- Na
+- K
+- Li
 key_papers:
 - doi: 10.1103/physrevlett.91.250401
   role: first_author

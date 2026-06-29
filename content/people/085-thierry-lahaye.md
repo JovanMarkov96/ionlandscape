@@ -1,8 +1,14 @@
 ---
 active: active
+affiliations:
+- name: Pasqal
+  role: Co-founder and Scientific Advisor
+  type: company
 applications:
 - computing
 - simulation
+atomic_species:
+- Rb
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
@@ -11,15 +17,17 @@ current_position:
   source: https://thierry-lahaye.org/cv/
   title: Directeur de recherche (Senior Researcher, DR2)
 education:
-- degree: PhD (Physics)
-  institution: Laboratoire Kastler-Brossel, École Normale Supérieure, Paris
-  advisor: Jean Dalibard
+- advisor: Jean Dalibard
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Laboratoire Kastler-Brossel, École Normale Supérieure, Paris
   source: https://thierry-lahaye.org/cv/
   year: 2006
 entity_type: person
 group_type: experimental
 id: 085-thierry-lahaye
+ion_species:
+- Rb
 key_papers:
 - doi: 10.1038/nature06036
   role: first_author
@@ -100,15 +108,11 @@ postdocs:
 schema_version: 2
 sort_name: Lahaye, Thierry
 thesis:
-  title: Évaporation d'un jet d'atomes guidé magnétiquement
   note: PhD on evaporative cooling of a magnetically guided atomic beam, ENS Paris.
+  title: Évaporation d'un jet d'atomes guidé magnétiquement
   year: 2006
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
-affiliations:
-- name: Pasqal
-  role: Co-founder and Scientific Advisor
-  type: company
 ---
 
 Thierry Lahaye is Directeur de recherche (Senior Researcher, DR2) at the French National Centre for Scientific Research (CNRS), based at the Laboratoire Charles Fabry, Institut d'Optique Graduate School in Palaiseau, France. He co-leads the "Quantum Optics – Atoms" group with Antoine Browaeys, where the team pioneers neutral-atom quantum simulation and computing using arrays of single Rydberg atoms in optical tweezers.

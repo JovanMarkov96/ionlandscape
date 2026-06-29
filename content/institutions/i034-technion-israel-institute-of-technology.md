@@ -17,6 +17,7 @@ media:
   logo_path: /img/institutions/i034-technion-israel-institute-of-technology_mark.png
 name: Technion – Israel Institute of Technology
 platforms_represented:
+- neutral_atom
 - trapped_ion
 schema_version: 1
 short_description: 'The Technion – Israel Institute of Technology is a public research

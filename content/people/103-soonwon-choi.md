@@ -7,41 +7,43 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Massachusetts Institute of Technology
+  since_year: 2021
   source: https://physics.mit.edu/faculty/soonwon-choi/
   title: Victor F. Weisskopf Assistant Professor of Physics
-  since_year: 2021
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: Harvard University
-  year: 2018
-  advisor: Mikhail D. Lukin
+- advisor: Mikhail D. Lukin
   confidence: confirmed
+  degree: PhD
+  institution: Harvard University
   source: https://physics.mit.edu/faculty/soonwon-choi/
+  year: 2018
 entity_type: person
 group_type: theory
 id: 103-soonwon-choi
 key_papers:
-- title: Observation of discrete time-crystalline order in a disordered dipolar many-body system
-  year: 2017
-  doi: 10.1038/nature21426
+- doi: 10.1038/nature21426
   role: co_author
-- title: Probing many-body dynamics on a 51-atom quantum simulator
+  title: Observation of discrete time-crystalline order in a disordered dipolar many-body
+    system
   year: 2017
-  doi: 10.1038/nature24622
+- doi: 10.1038/nature24622
   role: co_author
-- title: Quantum convolutional neural networks
+  title: Probing many-body dynamics on a 51-atom quantum simulator
+  year: 2017
+- doi: 10.1038/s41567-019-0648-8
+  role: co_author
+  title: Quantum convolutional neural networks
   year: 2019
-  doi: 10.1038/s41567-019-0648-8
-  role: co_author
-- title: Quantum error correction in scrambling dynamics and measurement-induced phase transition
-  year: 2020
-  doi: 10.1103/PhysRevLett.125.030505
+- doi: 10.1103/PhysRevLett.125.030505
   role: first_author
-- title: Preparing random states and benchmarking with many-body quantum chaos
-  year: 2023
-  doi: 10.1038/s41586-022-05442-1
+  title: Quantum error correction in scrambling dynamics and measurement-induced phase
+    transition
+  year: 2020
+- doi: 10.1038/s41586-022-05442-1
   role: co_author
+  title: Preparing random states and benchmarking with many-body quantum chaos
+  year: 2023
 keywords:
 - Quantum many-body systems
 - Rydberg atom arrays
@@ -55,8 +57,8 @@ labels:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
   group_page: https://schoi.mit.edu
   institution_profile: https://physics.mit.edu/faculty/soonwon-choi/
@@ -81,6 +83,8 @@ platforms:
 - rydberg_array
 schema_version: 2
 sort_name: Choi, Soonwon
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
+
+Soonwon Choi is an Assistant Professor of Physics at MIT and a theorist of quantum many-body dynamics and quantum information. His work addresses thermalization and its breakdown, quantum information scrambling, measurement-induced phenomena, and the dynamics of programmable quantum simulators such as Rydberg-atom arrays.

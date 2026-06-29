@@ -20,6 +20,11 @@ group_type: experimental
 id: 271-gunter-werth
 ion_species:
 - Ca+
+key_papers:
+- role: co_author
+  title: 'Charged Particle Traps: Physics and Techniques of Charged Particle Field
+    Confinement'
+  year: 2005
 keywords:
 - highly charged ions
 labels:
@@ -44,9 +49,8 @@ sources:
   url: https://www.uni-mainz.de/
 - note: 'CV: education and career'
   url: https://www.rlp-forschung.de/public/people/Guenther_Werth/cv
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 1
 ---
-
 
 Günter Werth is a German experimental physicist, Professor (emeritus) at Johannes Gutenberg University Mainz, known for high-precision measurements with Penning and Paul ion traps. After a doctorate at the University of Bonn (1969) he joined Mainz, led the ISOLTRAP experiment at CERN, and later headed the Cooled and Stored Ions division at the Max Planck Institute for Nuclear Physics in Heidelberg. His work includes precise determinations of atomic and ion g-factors and masses — using species ranging from calcium ions to highly charged ions — and tests of fundamental symmetries.

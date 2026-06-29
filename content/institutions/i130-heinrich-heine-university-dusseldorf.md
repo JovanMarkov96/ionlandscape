@@ -22,6 +22,7 @@ location:
   region: North Rhine-Westphalia
 name: Heinrich Heine University Düsseldorf
 platforms_represented:
+- trapped_ion
 - trapped_molecule
 schema_version: 1
 updated_at: '2026-06-29'

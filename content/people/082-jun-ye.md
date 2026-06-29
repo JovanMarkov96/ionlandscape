@@ -3,6 +3,8 @@ active: active
 applications:
 - optical_clocks
 - simulation
+atomic_species:
+- Sr
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
@@ -24,6 +26,7 @@ group_type: experimental
 id: 082-jun-ye
 ion_species:
 - KRb
+- Sr
 key_papers:
 - doi: 10.1126/science.aam5538
   role: senior_author

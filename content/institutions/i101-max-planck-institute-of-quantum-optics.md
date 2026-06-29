@@ -19,8 +19,9 @@ media:
   logo_path: /img/institutions/i101-max-planck-institute-of-quantum-optics_mark.png
 name: Max Planck Institute of Quantum Optics
 platforms_represented:
-- nv_center
 - color_center
+- neutral_atom
+- nv_center
 schema_version: 1
 updated_at: '2026-05-26'
 verification_source_count: 1

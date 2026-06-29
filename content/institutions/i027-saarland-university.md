@@ -17,6 +17,7 @@ media:
   logo_path: /img/institutions/i027-saarland-university_mark.png
 name: Saarland University
 platforms_represented:
+- neutral_atom
 - trapped_ion
 schema_version: 1
 short_description: 'Saarland University (German: Universität des Saarlandes, pronounced

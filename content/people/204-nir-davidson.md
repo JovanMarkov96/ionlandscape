@@ -10,6 +10,8 @@ applications:
 - simulation
 - sensing_metrology
 - fundamental_physics
+atomic_species:
+- Rb
 created_at: '2026-05-21'
 current_position:
   confidence: confirmed
@@ -28,6 +30,8 @@ education:
 entity_type: person
 group_type: experimental
 id: 204-nir-davidson
+ion_species:
+- Rb
 key_papers:
 - doi: 10.1103/PhysRevLett.74.1311
   role: co_author
@@ -93,7 +97,7 @@ postdocs:
   years: unknown
 schema_version: 2
 sort_name: Davidson, Nir
-updated_at: '2026-05-31'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
 

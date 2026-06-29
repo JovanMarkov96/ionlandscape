@@ -4,6 +4,8 @@ affiliations: []
 applications:
 - simulation
 - fundamental_physics
+atomic_species:
+- Rb
 created_at: '2026-01-30'
 current_position:
   institution: Ulm University
@@ -22,6 +24,7 @@ id: 044-johannes-hecker-denschlag
 ion_species:
 - 138Ba+
 - 87Rb
+- Rb
 key_papers:
 - doi: 10.1103/PhysRevLett.105.133202
   role: senior_author
@@ -41,8 +44,8 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: true
 links:
-  orcid: https://orcid.org/0000-0003-1984-4994
   google_scholar: https://scholar.google.com/citations?user=h9DoV-oAAAAJ
+  orcid: https://orcid.org/0000-0003-1984-4994
 location:
   city: Ulm
   country: Germany
@@ -67,7 +70,7 @@ thesis:
   link: Unknown
   title: Kalte Atome in singulären Potentialen
   year: 1998
-updated_at: '2026-05-04'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

@@ -8,42 +8,42 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: National Institute of Standards and Technology
+  since_year: 2013
   source: https://heritageproject.caltech.edu/interviews-updates/alexey-gorshkov
   title: Physicist
-  since_year: 2013
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: Harvard University
-  year: 2010
-  advisor: Mikhail D. Lukin
+- advisor: Mikhail D. Lukin
   advisor_id: 080-mikhail-d-lukin
   confidence: confirmed
+  degree: PhD
+  institution: Harvard University
   source: https://heritageproject.caltech.edu/interviews-updates/alexey-gorshkov
+  year: 2010
 entity_type: person
 group_type: theory
 id: 100-alexey-v-gorshkov
 key_papers:
-- title: Two-orbital SU(N) magnetism with ultracold alkaline-earth atoms
+- doi: 10.1038/nphys1535
+  role: first_author
+  title: Two-orbital SU(N) magnetism with ultracold alkaline-earth atoms
   year: 2010
-  doi: 10.1038/nphys1535
+- doi: 10.1103/PhysRevLett.107.133602
   role: first_author
-- title: Photon-Photon Interactions via Rydberg Blockade
+  title: Photon-Photon Interactions via Rydberg Blockade
   year: 2011
-  doi: 10.1103/PhysRevLett.107.133602
+- doi: 10.1103/PhysRevLett.107.115301
   role: first_author
-- title: Tunable Superfluidity and Quantum Magnetism with Ultracold Polar Molecules
+  title: Tunable Superfluidity and Quantum Magnetism with Ultracold Polar Molecules
   year: 2011
-  doi: 10.1103/PhysRevLett.107.115301
-  role: first_author
-- title: Attractive photons in a quantum nonlinear medium
-  year: 2013
-  doi: 10.1038/nature12512
+- doi: 10.1038/nature12512
   role: co_author
-- title: Topological phases in ultracold polar-molecule quantum magnets
+  title: Attractive photons in a quantum nonlinear medium
   year: 2013
-  doi: 10.1103/PhysRevB.87.081106
+- doi: 10.1103/PhysRevB.87.081106
   role: co_author
+  title: Topological phases in ultracold polar-molecule quantum magnets
+  year: 2013
 keywords:
 - Rydberg atom arrays
 - quantum many-body systems
@@ -58,8 +58,8 @@ labels:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   group_page: https://gorshkov.jqi.umd.edu
   institution_profile: https://quics.umd.edu/people/alexey-gorshkov
@@ -84,6 +84,8 @@ platforms:
 - rydberg_array
 schema_version: 2
 sort_name: Gorshkov, Alexey V.
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Alexey Gorshkov is a physicist (NIST / Joint Quantum Institute and QuICS, University of Maryland) and a theorist of quantum many-body physics and quantum information. His work spans long-range-interacting spin systems, Rydberg-atom arrays, ultracold atoms and molecules, quantum optics, and quantum networks and metrology.

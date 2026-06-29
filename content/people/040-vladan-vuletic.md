@@ -8,6 +8,10 @@ affiliations:
 applications:
 - computing
 - sensing_metrology
+atomic_species:
+- Cs
+- Rb
+- Yb
 created_at: '2026-01-30'
 current_position:
   institution: Massachusetts Institute of Technology
@@ -26,7 +30,10 @@ education:
 entity_type: person
 group_type: experimental
 id: 040-vladan-vuletic
-ion_species: []
+ion_species:
+- Cs
+- Rb
+- Yb
 key_papers:
 - doi: 10.1038/s41586-023-06927-3
   role: co_author
@@ -98,7 +105,7 @@ thesis:
     not readily available.
   title: Unknown
   year: 1997
-updated_at: '2026-05-25'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
 

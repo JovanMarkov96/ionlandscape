@@ -17,6 +17,7 @@ media:
   logo_path: /img/institutions/i037-university-of-amsterdam_mark.png
 name: University of Amsterdam
 platforms_represented:
+- neutral_atom
 - trapped_ion
 schema_version: 1
 short_description: 'The University of Amsterdam (abbreviated as UvA; Dutch: Universiteit

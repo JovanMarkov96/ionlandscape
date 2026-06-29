@@ -3,6 +3,8 @@ active: deceased
 applications:
 - fundamental_physics
 - simulation
+atomic_species:
+- K
 current_position:
   confidence: reported
   institution: JILA / NIST / University of Colorado Boulder
@@ -14,6 +16,20 @@ group_type: experimental
 id: 262-deborah-jin
 ion_species:
 - KRb
+- K
+key_papers:
+- doi: 10.1126/science.285.5434.1703
+  role: senior_author
+  title: Onset of Fermi Degeneracy in a Trapped Atomic Gas
+  year: 1999
+- doi: 10.1038/nature02199
+  role: senior_author
+  title: Emergence of a molecular Bose-Einstein condensate from a Fermi gas
+  year: 2003
+- doi: 10.1126/science.1163861
+  role: senior_author
+  title: A High Phase-Space-Density Gas of Polar Molecules
+  year: 2008
 last_verified_at: '2026-06-02'
 links:
   homepage: https://jila.colorado.edu/

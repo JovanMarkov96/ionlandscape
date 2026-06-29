@@ -3,15 +3,15 @@ active: active
 applications:
 - computing
 - simulation
-created_at: "2026-05-30"
+created_at: '2026-05-30'
 current_position:
   confidence: confirmed
   institution: University of New Mexico
   since_year: 1995
   source: https://cquic.unm.edu/people/ivan-deutsch/index.html
-  title: Regents' Professor of Physics & Astronomy; Director, Center for Quantum
-    Information and Control (CQuIC)
-  verified_at: "2026-05-30"
+  title: Regents' Professor of Physics & Astronomy; Director, Center for Quantum Information
+    and Control (CQuIC)
+  verified_at: '2026-05-30'
 education:
 - advisor: null
   advisor_id: null
@@ -62,10 +62,10 @@ keywords:
 - quantum simulation
 labels:
 - Theory group
-last_verified_at: "2026-05-30"
+last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: false
-  last_checked: "2026-05-30"
+  last_checked: '2026-05-30'
   postdoc_verified: false
 links:
   group_page: https://cquic.unm.edu/research/research-groups/deutsch-research-group/
@@ -83,7 +83,7 @@ metrics:
   citation_count: 6044
   h_index: 40
   publication_count: 303
-  retrieved_at: "2026-05-30"
+  retrieved_at: '2026-05-30'
   source: openalex
 name: Ivan Deutsch
 platforms:
@@ -91,6 +91,8 @@ platforms:
 - rydberg_array
 schema_version: 2
 sort_name: Deutsch, Ivan
-updated_at: "2026-05-30"
+updated_at: '2026-06-29'
 verification_source_count: 6
 ---
+
+Ivan Deutsch is Regents' Professor of Physics at the University of New Mexico and a theorist of quantum information science. His work develops quantum control, measurement and tomography for atomic systems, including neutral-atom and trapped-ion qubits and Rydberg-mediated interactions, and the theory of continuous measurement and feedback.

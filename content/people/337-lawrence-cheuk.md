@@ -4,6 +4,9 @@ applications:
 - simulation
 - computing
 - fundamental_physics
+atomic_species:
+- Na
+- Cs
 created_at: '2026-06-29'
 current_position:
   confidence: reported
@@ -23,6 +26,8 @@ id: 337-lawrence-cheuk
 ion_species:
 - CaF
 - NaCs
+- Na
+- Cs
 key_papers:
 - doi: 10.1038/s41567-018-0191-z
   role: co_author

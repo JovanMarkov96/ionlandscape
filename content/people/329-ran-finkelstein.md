@@ -5,6 +5,8 @@ applications:
 - simulation
 - networking
 - sensing_metrology
+atomic_species:
+- Rb
 current_position:
   confidence: confirmed
   institution: Tel Aviv University
@@ -28,6 +30,8 @@ education:
 entity_type: person
 group_type: experimental
 id: 329-ran-finkelstein
+ion_species:
+- Rb
 keywords:
 - neutral-atom arrays
 - Rydberg atoms
@@ -39,11 +43,11 @@ keywords:
 - quantum simulation
 last_verified_at: '2026-06-02'
 links:
-  orcid: https://orcid.org/0000-0002-4524-5875
-  openalex: https://openalex.org/A5074061697
   google_scholar: https://scholar.google.co.il/citations?user=oA3Ii6EAAAAJ&hl=en
   group_page: https://finkelsteinlab.sites.tau.ac.il/
   institution_profile: https://english.tau.ac.il/profile/ranf
+  openalex: https://openalex.org/A5074061697
+  orcid: https://orcid.org/0000-0002-4524-5875
 location:
   city: Tel Aviv
   country: Israel
@@ -60,9 +64,9 @@ postdocs:
   advisor_id: 086-manuel-endres
   confidence: reported
   institution: California Institute of Technology
-  note: Troesh Postdoctoral Prize Fellowship (2021–2024); work on alkaline-earth
-    neutral-atom arrays and high-fidelity Rydberg control.
-  years: '2021-2024'
+  note: Troesh Postdoctoral Prize Fellowship (2021–2024); work on alkaline-earth neutral-atom
+    arrays and high-fidelity Rydberg control.
+  years: 2021-2024
 schema_version: 2
 sort_name: Finkelstein, Ran
 sources:
@@ -72,7 +76,7 @@ sources:
   url: https://cris.tau.ac.il/en/persons/ran-finkelstein/
 - note: Finkelstein Lab (Tel Aviv University)
   url: https://finkelsteinlab.sites.tau.ac.il/
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
 

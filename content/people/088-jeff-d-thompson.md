@@ -2,51 +2,58 @@
 active: active
 applications:
 - computing
+atomic_species:
+- Yb
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Princeton University
+  since_year: 2016
   source: https://ece.princeton.edu/people/jeff-thompson
   title: Associate Professor of Electrical and Computer Engineering
-  since_year: 2016
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: Harvard University
-  year: 2014
-  advisor: Mikhail Lukin
+- advisor: Mikhail Lukin
   advisor_id: 000-mikhail-lukin
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Harvard University
   source: https://pub.orcid.org/v3.0/0000-0001-8673-052X
-- degree: BS (Physics)
+  year: 2014
+- confidence: confirmed
+  degree: BS (Physics)
   institution: Yale University
-  year: 2007
-  confidence: confirmed
   source: https://cua.mit.edu/people/jeff-thompson/
+  year: 2007
 entity_type: person
 group_type: experimental
 id: 088-jeff-d-thompson
+ion_species:
+- Yb
 key_papers:
-- title: Coupling a Single Trapped Atom to a Nanoscale Optical Cavity
-  year: 2013
-  doi: 10.1126/science.1237125
+- doi: 10.1126/science.1237125
   role: first_author
-- title: Narrow-Line Cooling and Imaging of Ytterbium Atoms in an Optical Tweezer Array
+  title: Coupling a Single Trapped Atom to a Nanoscale Optical Cavity
+  year: 2013
+- doi: 10.1103/PhysRevLett.122.143002
+  role: senior_author
+  title: Narrow-Line Cooling and Imaging of Ytterbium Atoms in an Optical Tweezer
+    Array
   year: 2019
-  doi: 10.1103/PhysRevLett.122.143002
+- doi: 10.1103/PhysRevX.12.021028
   role: senior_author
-- title: Universal Gate Operations on Nuclear Spin Qubits in an Optical Tweezer Array of 171Yb Atoms
+  title: Universal Gate Operations on Nuclear Spin Qubits in an Optical Tweezer Array
+    of 171Yb Atoms
   year: 2022
-  doi: 10.1103/PhysRevX.12.021028
+- doi: 10.1038/s41467-022-32094-6
   role: senior_author
-- title: Erasure Conversion for Fault-Tolerant Quantum Computing in Alkaline Earth Rydberg Atom Arrays
+  title: Erasure Conversion for Fault-Tolerant Quantum Computing in Alkaline Earth
+    Rydberg Atom Arrays
   year: 2022
-  doi: 10.1038/s41467-022-32094-6
+- doi: 10.1038/s41586-023-06438-1
   role: senior_author
-- title: High-Fidelity Gates and Mid-Circuit Erasure Conversion in an Atomic Qubit
+  title: High-Fidelity Gates and Mid-Circuit Erasure Conversion in an Atomic Qubit
   year: 2023
-  doi: 10.1038/s41586-023-06438-1
-  role: senior_author
 keywords:
 - neutral atom quantum computing
 - Rydberg arrays
@@ -60,8 +67,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=-RBQT1cAAAAJ
   group_page: https://sites.google.com/site/thompsonlabq/home
@@ -86,14 +93,14 @@ platforms:
 - neutral_atom
 - rydberg_array
 postdocs:
-- institution: Massachusetts Institute of Technology
-  advisor: null
-  years: 2014-2016
+- advisor: null
   confidence: confirmed
+  institution: Massachusetts Institute of Technology
   source: https://pub.orcid.org/v3.0/0000-0001-8673-052X
+  years: 2014-2016
 schema_version: 2
 sort_name: Thompson, Jeff D.
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
 

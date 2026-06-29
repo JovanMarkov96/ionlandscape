@@ -4,6 +4,10 @@ applications:
 - simulation
 - fundamental_physics
 - sensing_metrology
+atomic_species:
+- K
+- Na
+- Rb
 created_at: '2026-06-29'
 current_position:
   confidence: reported
@@ -20,6 +24,9 @@ id: 338-silke-ospelkaus
 ion_species:
 - NaK
 - KRb
+- K
+- Na
+- Rb
 key_papers:
 - doi: 10.1126/science.1184121
   role: first_author

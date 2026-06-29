@@ -21,6 +21,13 @@ group_type: experimental
 id: 229-hans-dehmelt
 ion_species:
 - Ba+
+key_papers:
+- role: senior_author
+  title: Continued Stern-Gerlach effect on a single bound electron
+  year: 1986
+- role: senior_author
+  title: Monoion oscillator as potential ultimate laser frequency standard
+  year: 1982
 keywords:
 - geonium (single trapped electron)
 labels:
@@ -52,9 +59,8 @@ sources:
   url: https://www.nobelprize.org/prizes/physics/1989/dehmelt/facts/
 - note: Biography (1922-2017)
   url: https://en.wikipedia.org/wiki/Hans_Dehmelt
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
-
 
 Hans Georg Dehmelt (1922–2017) was a German-American physicist who shared the 1989 Nobel Prize in Physics for developing the ion-trap (Penning-trap) technique. After a doctorate at the University of Göttingen under Hans Kopfermann and postdoctoral work at Duke University with Walter Gordy, he joined the University of Washington, where his group isolated and observed a single trapped barium ion and a single electron confined as "geonium," enabling the most precise measurement of the electron magnetic moment (g-factor) and founding the field of single-particle precision spectroscopy that underlies modern trapped-ion quantum computing.

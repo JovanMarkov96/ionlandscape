@@ -17,6 +17,7 @@ media:
   logo_path: /img/institutions/i049-university-of-oxford_mark.png
 name: University of Oxford
 platforms_represented:
+- neutral_atom
 - trapped_ion
 schema_version: 1
 short_description: 'The University of Oxford is a collegiate research university in

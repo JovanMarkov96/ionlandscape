@@ -5,6 +5,8 @@ applications:
 - computing
 - simulation
 - fundamental_physics
+atomic_species:
+- Rb
 created_at: '2026-05-31'
 current_position:
   confidence: confirmed
@@ -30,6 +32,7 @@ group_type: experimental
 id: 206-tom-manovitz
 ion_species:
 - 88Sr+
+- Rb
 key_papers:
 - doi: 10.1038/s41586-023-06927-3
   role: co_author
@@ -104,7 +107,7 @@ thesis:
   title: Trapped-ion quantum computing with robust entangling gates and quantum coherent
     feedback
   year: 2022
-updated_at: '2026-05-31'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
 

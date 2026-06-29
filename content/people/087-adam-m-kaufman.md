@@ -3,46 +3,51 @@ active: active
 applications:
 - computing
 - simulation
+atomic_species:
+- Sr
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Joint Institute for Laboratory Astrophysics (JILA)
+  since_year: 2022
   source: https://jila.colorado.edu/people/adam-kaufman
   title: JILA Fellow and Associate Professor of Physics
-  since_year: 2022
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: University of Colorado Boulder / JILA
-  year: 2015
-  advisor: Cindy A. Regal
+- advisor: Cindy A. Regal
   advisor_id: null
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: University of Colorado Boulder / JILA
   source: https://jila.colorado.edu/regal/media/images/new-2015-phd-adam-kaufman
+  year: 2015
 entity_type: person
 group_type: experimental
 id: 087-adam-m-kaufman
+ion_species:
+- Sr
 key_papers:
-- title: Cooling a Single Atom in an Optical Tweezer to Its Quantum Ground State
+- doi: 10.1103/PhysRevX.2.041014
+  role: first_author
+  title: Cooling a Single Atom in an Optical Tweezer to Its Quantum Ground State
   year: 2012
-  doi: 10.1103/PhysRevX.2.041014
+- doi: 10.1038/nature16073
   role: first_author
-- title: Entangling two transportable neutral atoms via local spin exchange
+  title: Entangling two transportable neutral atoms via local spin exchange
   year: 2015
-  doi: 10.1038/nature16073
+- doi: 10.1126/science.aaf6725
   role: first_author
-- title: Quantum thermalization through entanglement in an isolated many-body system
+  title: Quantum thermalization through entanglement in an isolated many-body system
   year: 2016
-  doi: 10.1126/science.aaf6725
-  role: first_author
-- title: Microscopic Control and Detection of Ultracold Strontium in Optical-Tweezer Arrays
-  year: 2018
-  doi: 10.1103/PhysRevX.8.041054
+- doi: 10.1103/PhysRevX.8.041054
   role: senior_author
-- title: Quantum science with optical tweezer arrays of ultracold atoms and molecules
-  year: 2021
-  doi: 10.1038/s41567-021-01357-2
+  title: Microscopic Control and Detection of Ultracold Strontium in Optical-Tweezer
+    Arrays
+  year: 2018
+- doi: 10.1038/s41567-021-01357-2
   role: first_author
+  title: Quantum science with optical tweezer arrays of ultracold atoms and molecules
+  year: 2021
 keywords:
 - optical tweezer arrays
 - neutral atom quantum computing
@@ -55,8 +60,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=XbF19DQAAAAJ
   group_page: https://jila.colorado.edu/kaufman
@@ -81,14 +86,14 @@ platforms:
 - neutral_atom
 - rydberg_array
 postdocs:
-- institution: Harvard University
-  advisor: Markus Greiner
-  years: 2015-2017
+- advisor: Markus Greiner
   confidence: confirmed
+  institution: Harvard University
   source: https://greiner.physics.harvard.edu/people/akaufman.html
+  years: 2015-2017
 schema_version: 2
 sort_name: Kaufman, Adam M.
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
 

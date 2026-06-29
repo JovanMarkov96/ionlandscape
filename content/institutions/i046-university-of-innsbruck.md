@@ -20,6 +20,8 @@ media:
   logo_path: /img/institutions/i046-university-of-innsbruck_mark.png
 name: University of Innsbruck
 platforms_represented:
+- neutral_atom
+- rydberg_array
 - trapped_ion
 - trapped_molecule
 schema_version: 1

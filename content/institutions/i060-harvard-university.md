@@ -20,6 +20,7 @@ media:
 name: Harvard University
 platforms_represented:
 - neutral_atom
+- rydberg_array
 - trapped_molecule
 schema_version: 1
 short_description: Harvard University is a private research university in Cambridge,

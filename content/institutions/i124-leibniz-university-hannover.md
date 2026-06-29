@@ -22,6 +22,7 @@ location:
   region: Lower Saxony
 name: Leibniz University Hannover
 platforms_represented:
+- neutral_atom
 - trapped_molecule
 schema_version: 1
 updated_at: '2026-06-29'

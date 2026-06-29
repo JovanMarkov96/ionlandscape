@@ -17,6 +17,7 @@ media:
   logo_path: /img/institutions/i007-georgia-institute-of-technology_mark.png
 name: Georgia Institute of Technology
 platforms_represented:
+- neutral_atom
 - trapped_ion
 schema_version: 1
 short_description: 'The Georgia Institute of Technology (commonly referred to as Georgia

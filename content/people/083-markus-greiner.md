@@ -2,48 +2,54 @@
 active: active
 applications:
 - simulation
+atomic_species:
+- Rb
+- Li
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Harvard University
+  since_year: 2005
   source: https://greiner.physics.harvard.edu/people/mgreiner.html
   title: George Vasmer Leverett Professor of Physics
-  since_year: 2005
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: Ludwig-Maximilians-Universität München
-  year: 2003
-  advisor: Theodor W. Hänsch
+- advisor: Theodor W. Hänsch
   advisor_id: 000-theodor-w-hansch
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Ludwig-Maximilians-Universität München
   source: https://greiner.physics.harvard.edu/people/mgreiner.html
+  year: 2003
 entity_type: person
 group_type: experimental
 id: 083-markus-greiner
+ion_species:
+- Rb
+- Li
 key_papers:
-- title: Quantum phase transition from a superfluid to a Mott insulator in a gas of
+- doi: 10.1038/415039a
+  role: first_author
+  title: Quantum phase transition from a superfluid to a Mott insulator in a gas of
     ultracold atoms
   year: 2002
-  doi: 10.1038/415039a
+- doi: 10.1038/nature00968
   role: first_author
-- title: Collapse and revival of the matter wave field of a Bose–Einstein condensate
+  title: Collapse and revival of the matter wave field of a Bose–Einstein condensate
   year: 2002
-  doi: 10.1038/nature00968
-  role: first_author
-- title: A quantum gas microscope for detecting single atoms in a Hubbard-regime optical
+- doi: 10.1038/nature08482
+  role: senior_author
+  title: A quantum gas microscope for detecting single atoms in a Hubbard-regime optical
     lattice
   year: 2009
-  doi: 10.1038/nature08482
+- doi: 10.1126/science.aad9041
   role: senior_author
-- title: Site-resolved imaging of a fermionic Mott insulator
+  title: Site-resolved imaging of a fermionic Mott insulator
   year: 2016
-  doi: 10.1126/science.aad9041
+- doi: 10.1126/science.aaf6725
   role: senior_author
-- title: Quantum thermalization through entanglement in an isolated many-body system
+  title: Quantum thermalization through entanglement in an isolated many-body system
   year: 2016
-  doi: 10.1126/science.aaf6725
-  role: senior_author
 keywords:
 - ultracold atoms and quantum gases
 - optical lattices
@@ -56,15 +62,15 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=_tVJPCUAAAAJ
-  wikipedia: https://en.wikipedia.org/wiki/Markus_Greiner
   group_page: https://greiner.physics.harvard.edu/
   institution_profile: https://www.physics.harvard.edu/people/facpages/greiner
   openalex: https://openalex.org/A5027431609
   orcid: https://orcid.org/0000-0002-2935-2363
+  wikipedia: https://en.wikipedia.org/wiki/Markus_Greiner
 location:
   city: Cambridge
   country: United States
@@ -83,7 +89,7 @@ platforms:
 - neutral_atom
 schema_version: 2
 sort_name: Greiner, Markus
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
 

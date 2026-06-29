@@ -7,42 +7,44 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: University of Tübingen
+  since_year: 2019
   source: https://uni-tuebingen.de/index.php?id=166449
   title: Professor of Theoretical Atomic Physics and Synthetic Quantum Systems
-  since_year: 2019
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: University of Heidelberg
-  year: 2006
-  advisor: Peter Schmelcher
+- advisor: Peter Schmelcher
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: University of Heidelberg
   source: https://matterwave.eu/groups/university-of-nottingham-theory/igor-lesanovsky/
+  year: 2006
 entity_type: person
 group_type: theory
 id: 108-igor-lesanovsky
 key_papers:
-- title: A Rydberg quantum simulator
-  year: 2010
-  doi: 10.1038/nphys1614
+- doi: 10.1038/nphys1614
   role: co_author
-- title: Many-Body Spin Interactions and the Ground State of a Dense Rydberg Lattice Gas
+  title: A Rydberg quantum simulator
+  year: 2010
+- doi: 10.1103/PhysRevLett.106.025301
+  role: first_author
+  title: Many-Body Spin Interactions and the Ground State of a Dense Rydberg Lattice
+    Gas
   year: 2011
-  doi: 10.1103/PhysRevLett.106.025301
-  role: first_author
-- title: Thermodynamics of Quantum Jump Trajectories
-  year: 2010
-  doi: 10.1103/PhysRevLett.104.160601
+- doi: 10.1103/PhysRevLett.104.160601
   role: co_author
-- title: Out-of-equilibrium structures in strongly interacting Rydberg gases with dissipation
-  year: 2014
-  doi: 10.1103/PhysRevA.90.011603
+  title: Thermodynamics of Quantum Jump Trajectories
+  year: 2010
+- doi: 10.1103/PhysRevA.90.011603
   role: first_author
-- title: Vibrational Dressing in Kinetically Constrained Rydberg Spin Systems
-  year: 2020
-  doi: 10.1103/PhysRevLett.125.033602
+  title: Out-of-equilibrium structures in strongly interacting Rydberg gases with
+    dissipation
+  year: 2014
+- doi: 10.1103/PhysRevLett.125.033602
   role: senior_author
+  title: Vibrational Dressing in Kinetically Constrained Rydberg Spin Systems
+  year: 2020
 keywords:
 - Cold Atom Physics and Bose-Einstein Condensates
 - Quantum many-body systems
@@ -58,8 +60,8 @@ labels:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=m-tvGyAAAAAJ
   group_page: https://github.com/AG-Lesanovsky
@@ -85,6 +87,8 @@ platforms:
 - rydberg_array
 schema_version: 2
 sort_name: Lesanovsky, Igor
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
+
+Igor Lesanovsky is a Professor of Physics at the University of Tübingen (and the University of Nottingham), and a theorist of open quantum many-body systems. His work focuses on the non-equilibrium and dissipative dynamics of strongly interacting Rydberg gases, quantum kinetically constrained models, and emergent collective phenomena.

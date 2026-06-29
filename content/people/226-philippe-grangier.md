@@ -4,6 +4,8 @@ applications:
 - computing
 - networking
 - fundamental_physics
+atomic_species:
+- Rb
 current_position:
   confidence: confirmed
   institution: Laboratoire Charles Fabry, Institut d'Optique / CNRS
@@ -13,10 +15,25 @@ current_position:
 entity_type: person
 group_type: experimental
 id: 226-philippe-grangier
+ion_species:
+- Rb
+key_papers:
+- doi: 10.1209/0295-5075/1/4/004
+  role: first_author
+  title: Experimental Evidence for a Photon Anticorrelation Effect on a Beam Splitter
+  year: 1986
+- doi: 10.1126/science.1122858
+  role: senior_author
+  title: Generating Optical Schrodinger Kittens for Quantum Information Processing
+  year: 2006
+- doi: 10.1038/nature01289
+  role: senior_author
+  title: Quantum key distribution using gaussian-modulated coherent states
+  year: 2003
 last_verified_at: '2026-06-02'
 links:
-  orcid: https://orcid.org/0000-0001-8211-8958
   openalex: https://openalex.org/A5079645189
+  orcid: https://orcid.org/0000-0001-8211-8958
   wikipedia: https://de.wikipedia.org/wiki/Philippe_Grangier
 location:
   city: Palaiseau
@@ -37,9 +54,8 @@ sources:
   url: https://de.wikipedia.org/wiki/Philippe_Grangier
 - note: Institut d'Optique group
   url: https://www.lcf.institutoptique.fr/
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
-
 
 Philippe Grangier is a CNRS physicist at the Institut d'Optique whose early experiments demonstrated single-photon behaviour and wave-particle duality. His group pioneered single-atom trapping in optical tweezers and Rydberg-atom quantum gates, foundational to neutral-atom quantum computing.

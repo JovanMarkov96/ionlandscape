@@ -4,6 +4,8 @@ applications:
 - fundamental_physics
 - simulation
 - optical_clocks
+atomic_species:
+- Rb
 current_position:
   confidence: confirmed
   institution: University of Colorado Boulder / JILA / NIST
@@ -15,6 +17,16 @@ group_type: experimental
 id: 215-eric-a-cornell
 ion_species:
 - HfF+
+- Rb
+key_papers:
+- doi: 10.1126/science.269.5221.198
+  role: senior_author
+  title: Observation of Bose-Einstein Condensation in a Dilute Atomic Vapor
+  year: 1995
+- doi: 10.1103/physrevlett.83.2498
+  role: senior_author
+  title: Vortices in a Bose-Einstein Condensate
+  year: 1999
 last_verified_at: '2026-06-02'
 links:
   google_scholar: https://scholar.google.com/citations?user=smkK3i8AAAAJ

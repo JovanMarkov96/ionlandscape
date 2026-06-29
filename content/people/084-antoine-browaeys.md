@@ -1,8 +1,14 @@
 ---
 active: active
+affiliations:
+- name: Pasqal
+  role: Co-founder and Scientific Advisor
+  type: company
 applications:
 - computing
 - simulation
+atomic_species:
+- Rb
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
@@ -11,15 +17,18 @@ current_position:
   source: https://www.cnrs.fr/fr/personne/antoine-browaeys-0
   title: Directeur de recherche (Research Director)
 education:
-- degree: PhD (Physics)
-  institution: Université Paris-Sud (now Université Paris-Saclay) / Laboratoire Charles Fabry
-  advisor: Alain Aspect
+- advisor: Alain Aspect
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Université Paris-Sud (now Université Paris-Saclay) / Laboratoire Charles
+    Fabry
   source: https://www.universite-paris-saclay.fr/en/news/antoine-browaeys-quest-quantum-computing-using-cold-atoms
   year: 2000
 entity_type: person
 group_type: experimental
 id: 084-antoine-browaeys
+ion_species:
+- Rb
 key_papers:
 - doi: 10.1038/nphys1183
   role: senior_author
@@ -95,15 +104,11 @@ postdocs:
 schema_version: 2
 sort_name: Browaeys, Antoine
 thesis:
-  title: Piégeage magnétique d'un gaz d'hélium métastable
   note: PhD on magnetic trapping of metastable helium gas toward Bose-Einstein condensation.
+  title: Piégeage magnétique d'un gaz d'hélium métastable
   year: 2000
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 5
-affiliations:
-- name: Pasqal
-  role: Co-founder and Scientific Advisor
-  type: company
 ---
 
 Antoine Browaeys is Directeur de recherche (Research Director) at the French National Centre for Scientific Research (CNRS), based at the Laboratoire Charles Fabry, Institut d'Optique Graduate School in Palaiseau, France. He is one of the world's foremost experimental physicists in the field of neutral atom quantum simulation and computing, pioneering the use of optical tweezer arrays loaded with individual Rydberg atoms.

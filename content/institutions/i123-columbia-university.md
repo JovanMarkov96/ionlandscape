@@ -20,6 +20,7 @@ location:
   region: New York
 name: Columbia University
 platforms_represented:
+- neutral_atom
 - trapped_molecule
 schema_version: 1
 updated_at: '2026-06-29'

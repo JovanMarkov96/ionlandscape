@@ -19,8 +19,10 @@ media:
   logo_path: /img/institutions/i097-university-of-california-berkeley_mark.png
 name: University of California, Berkeley
 platforms_represented:
-- nv_center
 - color_center
+- neutral_atom
+- nv_center
+- trapped_ion
 schema_version: 1
 updated_at: '2026-05-26'
 verification_source_count: 1

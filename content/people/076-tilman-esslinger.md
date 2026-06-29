@@ -3,6 +3,9 @@ active: active
 affiliations: []
 applications:
 - simulation
+atomic_species:
+- K
+- Li
 created_at: '2026-01-30'
 current_position:
   institution: ETH Zֳ¼rich
@@ -18,6 +21,9 @@ education:
 entity_type: person
 group_type: experimental
 id: 076-tilman-esslinger
+ion_species:
+- K
+- Li
 key_papers:
 - doi: 10.1038/415039a
   role: co_author
@@ -44,10 +50,10 @@ lineage_check:
   postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=iHxT7SkAAAAJ
-  wikipedia: https://en.wikipedia.org/wiki/Tilman_Esslinger
   group_page: https://quantumoptics.ethz.ch/
   openalex: https://openalex.org/A5020623477
   orcid: https://orcid.org/0000-0002-8333-107X
+  wikipedia: https://en.wikipedia.org/wiki/Tilman_Esslinger
 location:
   city: Zürich
   country: Switzerland
@@ -77,7 +83,7 @@ thesis:
     title not indexed online.
   title: Unknown
   year: 1995
-updated_at: '2026-05-25'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

@@ -2,6 +2,8 @@
 active: active
 applications:
 - simulation
+atomic_species:
+- Rb
 created_at: '2026-05-26'
 current_position:
   confidence: confirmed
@@ -11,39 +13,41 @@ current_position:
   title: W3 Professor of Experimental Many-Particle Quantum Physics
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: Ruprecht-Karls-Universität Heidelberg
-  year: 2010
-  advisor: Markus Oberthaler
+- advisor: Markus Oberthaler
   advisor_id: null
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: Ruprecht-Karls-Universität Heidelberg
   source: https://www.mpq.mpg.de/5261542/15_11_27_ERC
+  year: 2010
 entity_type: person
 group_type: experimental
 id: 092-christian-gro
+ion_species:
+- Rb
 key_papers:
-- title: Spin- and density-resolved microscopy of antiferromagnetic correlations in
+- doi: 10.1126/science.aag1635
+  role: senior_author
+  title: Spin- and density-resolved microscopy of antiferromagnetic correlations in
     Fermi-Hubbard chains
   year: 2016
-  doi: 10.1126/science.aag1635
+- doi: 10.1126/science.aam8990
   role: senior_author
-- title: Revealing hidden antiferromagnetic correlations in doped Hubbard chains via
+  title: Revealing hidden antiferromagnetic correlations in doped Hubbard chains via
     string correlators
   year: 2017
-  doi: 10.1126/science.aam8990
+- doi: 10.1038/s41586-019-1463-1
   role: senior_author
-- title: Imaging magnetic polarons in the doped Fermi-Hubbard model
+  title: Imaging magnetic polarons in the doped Fermi-Hubbard model
   year: 2019
-  doi: 10.1038/s41586-019-1463-1
-  role: senior_author
-- title: Quantum gas microscopy for single atom and spin detection
-  year: 2021
-  doi: 10.1038/s41567-021-01370-5
+- doi: 10.1038/s41567-021-01370-5
   role: first_author
-- title: Realizing the symmetry-protected Haldane phase in Fermi-Hubbard ladders
-  year: 2022
-  doi: 10.1038/s41586-022-04688-z
+  title: Quantum gas microscopy for single atom and spin detection
+  year: 2021
+- doi: 10.1038/s41586-022-04688-z
   role: senior_author
+  title: Realizing the symmetry-protected Haldane phase in Fermi-Hubbard ladders
+  year: 2022
 keywords:
 - quantum gas microscopes
 - fermionic Hubbard model
@@ -56,8 +60,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=oRZF4xUAAAAJ
   group_page: https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/physik/institute/physikalisches-institut/bereiche/atomphysikquantenoptik/quantum-many-body-physics/
@@ -81,7 +85,7 @@ platforms:
 - neutral_atom
 schema_version: 2
 sort_name: Groß, Christian
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
 
