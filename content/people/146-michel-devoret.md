@@ -103,6 +103,9 @@ postdocs:
   institution: University of California, Berkeley
   source: https://orcid.org/0000-0002-2883-9575
   years: early 1980s
+qubit_type:
+- Transmon
+- Cat qubit
 schema_version: 2
 sort_name: Devoret, Michel
 updated_at: '2026-06-29'

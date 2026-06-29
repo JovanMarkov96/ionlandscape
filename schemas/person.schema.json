@@ -240,6 +240,13 @@
         "pattern": "^[A-Z][a-z]?\\d*$"
       }
     },
+    "qubit_type": {
+      "type": "array",
+      "description": "Qubit type(s) / circuit architecture used (when platforms includes superconducting). Examples: Transmon, Fluxonium, Flux qubit, Charge qubit, Phase qubit, Quantronium, Cat qubit.",
+      "items": {
+        "type": "string"
+      }
+    },
     "education": {
       "type": "array",
       "items": {

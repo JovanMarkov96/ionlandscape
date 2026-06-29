@@ -56,6 +56,8 @@ metrics:
 name: Britton Plourde
 platforms:
 - superconducting
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Plourde, Britton
 updated_at: '2026-06-29'

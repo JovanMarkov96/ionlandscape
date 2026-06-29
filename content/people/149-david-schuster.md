@@ -92,10 +92,14 @@ postdocs:
   note: Remained at RSL lab at Yale after PhD; listed on RSL publications page through
     2011. Joined UChicago faculty around 2012-2013.
   source: http://rsl.yale.edu/publications
-  years: '2008-2011'
+  years: 2008-2011
+qubit_type:
+- Transmon
+- Cat qubit
 schema_version: 2
 sort_name: Schuster, David
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 5
 ---
+
 David Schuster is the Joan Reinhart Professor of Applied Physics at Stanford University, where his group develops superconducting quantum circuits for quantum computing, simulation, and hybrid quantum systems. He previously held a faculty position at the University of Chicago (c. 2012–2022). He completed his PhD and postdoc in the Schoelkopf Lab at Yale, where he was first author on the landmark 2007 Nature paper resolving individual photon number states in a superconducting circuit. His Stanford group pursues fluxonium-based high-fidelity gates, cavity-array quantum simulation, millimeter-wave to optical transduction via cold atoms, electron-on-helium qubits, and quantum-enhanced dark matter detection.

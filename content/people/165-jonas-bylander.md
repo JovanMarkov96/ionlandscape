@@ -88,6 +88,8 @@ postdocs:
     decoupling work
   source: https://news.mit.edu/2011/qubit-practical-0602
   years: 2008-2012
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Bylander, Jonas
 updated_at: '2026-06-29'

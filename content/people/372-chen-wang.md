@@ -42,6 +42,9 @@ postdocs:
   advisor_id: 145-robert-schoelkopf
   confidence: reported
   institution: Yale University
+qubit_type:
+- Cat qubit
+- Transmon
 schema_version: 2
 sort_name: Wang, Chen
 updated_at: '2026-06-29'

@@ -92,6 +92,9 @@ metrics:
 name: Yasunobu Nakamura
 platforms:
 - superconducting
+qubit_type:
+- Transmon
+- Charge qubit
 schema_version: 2
 sort_name: Nakamura, Yasunobu
 updated_at: '2026-06-29'

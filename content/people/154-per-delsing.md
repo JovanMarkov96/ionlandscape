@@ -82,6 +82,8 @@ metrics:
 name: Per Delsing
 platforms:
 - superconducting
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Delsing, Per
 updated_at: '2026-06-29'

@@ -90,6 +90,8 @@ postdocs:
     accessible sources.
   source: https://api.openalex.org/authors/A5009891438
   years: 2007-2009
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Houck, Andrew
 updated_at: '2026-06-29'

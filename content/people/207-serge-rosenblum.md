@@ -95,13 +95,16 @@ postdocs:
   note: Postdoctoral research in circuit QED — error-correctable bosonic qubits encoded
     in superconducting microwave cavities, including a CNOT gate between cavity qubits.
   years: unknown
+qubit_type:
+- Cat qubit
+- Transmon
 schema_version: 2
 sort_name: Rosenblum, Serge
 thesis:
   link: Unknown
   title: Single-photon quantum optics with a single atom
   year: 2015
-updated_at: '2026-05-31'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
 

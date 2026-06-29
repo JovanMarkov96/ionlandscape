@@ -36,6 +36,8 @@ location:
 name: Mikko Mottonen
 platforms:
 - superconducting
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Mottonen, Mikko
 sources:

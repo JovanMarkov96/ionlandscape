@@ -88,6 +88,8 @@ name: Wolfgang Pfaff
 platforms:
 - nv_center
 - superconducting
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Pfaff, Wolfgang
 updated_at: '2026-06-29'

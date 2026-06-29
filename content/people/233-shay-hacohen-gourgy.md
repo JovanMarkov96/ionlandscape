@@ -36,6 +36,8 @@ location:
 name: Shay Hacohen-Gourgy
 platforms:
 - superconducting
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Hacohen-Gourgy, Shay
 sources:

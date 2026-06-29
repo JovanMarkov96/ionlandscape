@@ -85,6 +85,8 @@ postdocs:
   institution: California Institute of Technology
   source: https://iqim.caltech.edu/profile/johannes-fink/
   years: 2012-2016
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Fink, Johannes M.
 updated_at: '2026-06-29'

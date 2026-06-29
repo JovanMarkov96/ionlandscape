@@ -36,6 +36,8 @@ location:
 name: Peter Leek
 platforms:
 - superconducting
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Leek, Peter
 sources:

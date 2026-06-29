@@ -100,6 +100,8 @@ postdocs:
   institution: Yale University
   source: https://www.phi.kit.edu/english/pop.php
   years: 2011–2015
+qubit_type:
+- Fluxonium
 schema_version: 2
 sort_name: Pop, Ioan M.
 updated_at: '2026-06-29'

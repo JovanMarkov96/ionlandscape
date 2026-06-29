@@ -55,6 +55,8 @@ metrics:
 name: Vladimir Manucharyan
 platforms:
 - superconducting
+qubit_type:
+- Fluxonium
 schema_version: 2
 sort_name: Manucharyan, Vladimir
 updated_at: '2026-06-29'

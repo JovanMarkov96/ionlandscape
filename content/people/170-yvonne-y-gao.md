@@ -93,6 +93,9 @@ postdocs:
     before joining NUS faculty.
   source: https://www.science.nus.edu.sg/blog/2020/09/cqt-welcomes-three-new-principal-investigators-meet-yvonne-gao/
   years: 2018-2020
+qubit_type:
+- Cat qubit
+- Transmon
 schema_version: 2
 sort_name: Gao, Yvonne Y.
 updated_at: '2026-06-29'

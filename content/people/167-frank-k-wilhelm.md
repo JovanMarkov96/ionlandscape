@@ -87,6 +87,8 @@ metrics:
 name: Frank K. Wilhelm
 platforms:
 - superconducting
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Wilhelm, Frank K.
 updated_at: '2026-06-29'

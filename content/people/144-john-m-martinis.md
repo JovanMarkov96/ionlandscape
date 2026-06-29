@@ -67,11 +67,11 @@ lineage_check:
   last_checked: '2026-05-26'
   postdoc_verified: false
 links:
-  wikipedia: https://en.wikipedia.org/wiki/John_M._Martinis
   group_page: https://web.physics.ucsb.edu/~martinisgroup/
   institution_profile: https://www.physics.ucsb.edu/people/john-martinis
   openalex: https://openalex.org/A5043106778
   orcid: https://orcid.org/0000-0001-9955-8618
+  wikipedia: https://en.wikipedia.org/wiki/John_M._Martinis
 location:
   city: Santa Barbara
   country: United States
@@ -97,9 +97,12 @@ postdocs:
   institution: Commissariat à l'Energie Atomique, Saclay
   source: https://en.wikipedia.org/wiki/John_M._Martinis
   years: null
+qubit_type:
+- Transmon
+- Phase qubit
 schema_version: 2
 sort_name: Martinis, John M.
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 4
 ---
 

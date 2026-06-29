@@ -98,6 +98,8 @@ postdocs:
   institution: University of California, Santa Barbara
   source: https://www.physics.wisc.edu/directory/mcdermott-robert/rfmcdermott_cv.pdf
   years: 2004-2006
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: McDermott, Robert
 updated_at: '2026-06-29'

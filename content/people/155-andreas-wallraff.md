@@ -88,6 +88,8 @@ postdocs:
     paper (Wallraff et al.); ETH appointment January 2006.
   source: https://doi.org/10.1038/nature02851
   years: 2002-2006
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Wallraff, Andreas
 updated_at: '2026-06-29'

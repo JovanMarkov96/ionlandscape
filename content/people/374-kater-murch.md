@@ -60,6 +60,8 @@ postdocs:
   advisor_id: 150-irfan-siddiqi
   confidence: reported
   institution: University of California, Berkeley
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Murch, Kater
 updated_at: '2026-06-29'

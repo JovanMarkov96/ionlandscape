@@ -80,6 +80,8 @@ metrics:
 name: Mazyar Mirrahimi
 platforms:
 - superconducting
+qubit_type:
+- Cat qubit
 schema_version: 2
 sort_name: Mirrahimi, Mazyar
 updated_at: '2026-06-29'

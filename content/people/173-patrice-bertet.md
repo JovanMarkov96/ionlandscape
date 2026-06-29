@@ -80,6 +80,8 @@ metrics:
 name: Patrice Bertet
 platforms:
 - superconducting
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Bertet, Patrice
 updated_at: '2026-06-29'

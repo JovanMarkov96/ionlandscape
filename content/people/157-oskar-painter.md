@@ -94,6 +94,8 @@ platforms:
 - photonic
 - cavity_qed_hybrid
 postdocs: []
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Painter, Oskar
 updated_at: '2026-06-29'

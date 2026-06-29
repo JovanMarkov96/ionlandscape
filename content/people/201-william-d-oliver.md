@@ -95,6 +95,9 @@ postdocs:
     Laboratory 2008–2012; noise spectroscopy and dynamical decoupling collaboration
   source: https://news.mit.edu/2011/qubit-practical-0602
   years: null
+qubit_type:
+- Transmon
+- Fluxonium
 schema_version: 2
 sort_name: Oliver, William D.
 updated_at: '2026-06-29'

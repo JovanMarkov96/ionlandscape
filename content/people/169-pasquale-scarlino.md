@@ -90,6 +90,8 @@ postdocs:
     worked at Microsoft Copenhagen before joining EPFL October 2020.
   source: https://qudev.phys.ethz.ch/team-member/pasquale-0
   years: 2016-2019
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Scarlino, Pasquale
 updated_at: '2026-06-29'

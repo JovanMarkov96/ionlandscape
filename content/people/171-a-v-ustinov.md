@@ -77,6 +77,8 @@ metrics:
 name: Alexey V. Ustinov
 platforms:
 - superconducting
+qubit_type:
+- Flux qubit
 schema_version: 2
 sort_name: Ustinov, Alexey V.
 updated_at: '2026-06-29'

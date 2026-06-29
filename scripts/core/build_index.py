@@ -95,6 +95,7 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
         "group_type": meta.get("group_type", "experimental"),
         "labels": meta.get("labels", []),
         "ion_species": meta.get("ion_species", []),
+        "qubit_type": meta.get("qubit_type", []),
         "links": meta.get("links", {}),
         "thesis": meta.get("thesis", {}),
         "nobel_prize": meta.get("nobel_prize"),

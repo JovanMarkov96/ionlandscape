@@ -89,6 +89,9 @@ postdocs:
     paper and jointly supervised this postdoc.
   source: https://api.semanticscholar.org/graph/v1/paper/DOI:10.1103/PhysRevA.76.042319
   years: 2006-2009
+qubit_type:
+- Transmon
+- Fluxonium
 schema_version: 2
 sort_name: Koch, Jens
 updated_at: '2026-06-29'

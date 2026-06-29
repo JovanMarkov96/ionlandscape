@@ -98,6 +98,8 @@ postdocs:
   institution: Yale University
   source: https://api.crossref.org/works/10.1103/physrevb.73.054510
   years: 2002-2005
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Siddiqi, Irfan
 updated_at: '2026-06-29'

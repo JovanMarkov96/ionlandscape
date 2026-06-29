@@ -93,6 +93,8 @@ name: Yiwen Chu
 platforms:
 - superconducting
 - cavity_qed_hybrid
+qubit_type:
+- Transmon
 schema_version: 2
 sort_name: Chu, Yiwen
 updated_at: '2026-06-29'

@@ -84,6 +84,8 @@ postdocs:
   institution: Yale University
   source: https://quantic.phys.ens.fr/zaki/index.html
   years: 2012-2015
+qubit_type:
+- Cat qubit
 schema_version: 2
 sort_name: Leghtas, Zaki
 updated_at: '2026-06-29'

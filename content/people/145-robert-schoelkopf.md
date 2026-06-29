@@ -9,7 +9,8 @@ current_position:
   institution: Yale University
   since_year: 1998
   source: https://physics.yale.edu/people/robert-schoelkopf
-  title: Sterling Professor of Applied Physics and Physics; Director, Yale Quantum Institute
+  title: Sterling Professor of Applied Physics and Physics; Director, Yale Quantum
+    Institute
   verified_at: '2026-05-26'
 education:
 - advisor: null
@@ -69,11 +70,11 @@ lineage_check:
   postdoc_verified: true
 links:
   google_scholar: https://scholar.google.com/citations?user=T9a08xsAAAAJ
-  wikipedia: https://en.wikipedia.org/wiki/Robert_J._Schoelkopf
   group_page: http://rsl.yale.edu/
   institution_profile: https://physics.yale.edu/people/robert-schoelkopf
   openalex: https://openalex.org/A5135818918
   orcid: https://orcid.org/0000-0002-2469-5068
+  wikipedia: https://en.wikipedia.org/wiki/Robert_J._Schoelkopf
 location:
   city: New Haven
   country: United States
@@ -100,10 +101,14 @@ postdocs:
     period; formal advisor relationship inferred from Yale faculty bio and co-authorship
     record.
   source: https://physics.yale.edu/people/robert-schoelkopf
-  years: '1995-1998'
+  years: 1995-1998
+qubit_type:
+- Transmon
+- Cat qubit
 schema_version: 2
 sort_name: Schoelkopf, Robert
-updated_at: '2026-05-26'
+updated_at: '2026-06-29'
 verification_source_count: 6
 ---
+
 Robert Schoelkopf is Sterling Professor of Applied Physics and Physics at Yale University and Director of the Yale Quantum Institute. He co-founded circuit quantum electrodynamics (cQED), co-invented the transmon qubit, and has led experimental demonstrations of quantum algorithms and error correction in superconducting integrated circuits.

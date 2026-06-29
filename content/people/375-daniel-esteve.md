@@ -48,6 +48,9 @@ metrics:
 name: Daniel Esteve
 platforms:
 - superconducting
+qubit_type:
+- Quantronium
+- Charge qubit
 schema_version: 2
 sort_name: Esteve, Daniel
 updated_at: '2026-06-29'

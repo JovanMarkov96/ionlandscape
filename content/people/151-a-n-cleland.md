@@ -96,6 +96,9 @@ postdocs:
   institution: California Institute of Technology
   source: https://pme.uchicago.edu/faculty/andrew-cleland
   years: 1993-1997
+qubit_type:
+- Transmon
+- Phase qubit
 schema_version: 2
 sort_name: Cleland, Andrew N.
 updated_at: '2026-06-29'

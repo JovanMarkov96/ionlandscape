@@ -29,6 +29,7 @@ function Groups() {
     const labelFilters = searchParams.getAll('label');
     const appFilters = searchParams.getAll('app');
     const ionFilters = searchParams.getAll('ion');
+    const qubitFilters = searchParams.getAll('qubit');
     const platformFilters = searchParams.getAll('platform');
     const instFilters = searchParams.getAll('inst');
     const countryFilters = searchParams.getAll('country');
@@ -65,6 +66,7 @@ function Groups() {
                     label: labelFilters,
                     app: appFilters,
                     ion: ionFilters,
+                    qubit: qubitFilters,
                     platform: platformFilters,
                     inst: instFilters,
                     country: countryFilters,
@@ -73,7 +75,7 @@ function Groups() {
             }
         }, 300);
         return () => clearTimeout(timer);
-    }, [localSearch, labelFilters, ionFilters, platformFilters, instFilters, countryFilters, category]);
+    }, [localSearch, labelFilters, ionFilters, qubitFilters, platformFilters, instFilters, countryFilters, category]);
 
     // --- Dependent Filter Logic ---
 
@@ -124,25 +126,28 @@ function Groups() {
     }, [people, category, instFilters, countryFilters]);
 
     // Available Labels, Apps, Ions & Platforms (Global context within category)
-    const { availableLabels, availableApps, availableIons, availablePlatforms } = useMemo(() => {
+    const { availableLabels, availableApps, availableIons, availableQubits, availablePlatforms } = useMemo(() => {
         const filtered = getPeopleInContext({}); // Valid in category
         const labels = new Set();
         const apps = new Set();
         const ions = new Set();
+        const qubits = new Set();
         const platforms = new Set();
         filtered.forEach(p => {
             (p.labels || []).forEach(l => labels.add(l));
             (p.applications || []).forEach(a => apps.add(a));
             (p.ion_species || []).forEach(i => ions.add(i));
+            (p.qubit_type || []).forEach(q => qubits.add(q));
             (p.platforms || []).forEach(pl => platforms.add(pl));
         });
         return {
             availableLabels: Array.from(labels).sort().filter(l => !labelFilters.includes(l)),
             availableApps: Array.from(apps).sort().filter(a => !appFilters.includes(a)),
             availableIons: Array.from(ions).sort().filter(i => !ionFilters.includes(i)),
+            availableQubits: Array.from(qubits).sort().filter(q => !qubitFilters.includes(q)),
             availablePlatforms: Array.from(platforms).sort().filter(pl => !platformFilters.includes(pl)),
         };
-    }, [people, category, labelFilters, appFilters, ionFilters, platformFilters]);
+    }, [people, category, labelFilters, appFilters, ionFilters, qubitFilters, platformFilters]);
 
     useEffect(() => {
         // Force body scrolling when on the groups page
@@ -224,6 +229,12 @@ function Groups() {
                 if (!hasAllIons) return false;
             }
 
+            // 3a. Qubit-type Filters (ALL selected)
+            if (qubitFilters.length > 0) {
+                const hasAllQubits = qubitFilters.every(q => p.qubit_type && p.qubit_type.includes(q));
+                if (!hasAllQubits) return false;
+            }
+
             // 3b. Platform Filters (ALL selected)
             if (platformFilters.length > 0) {
                 const hasAllPlatforms = platformFilters.every(pl => p.platforms && p.platforms.includes(pl));
@@ -248,7 +259,7 @@ function Groups() {
             const sb = (b.sort_name || b.name || '').toLowerCase();
             return sa.localeCompare(sb);
         });
-    }, [people, searchQuery, labelFilters, appFilters, ionFilters, platformFilters, instFilters, countryFilters, category]);
+    }, [people, searchQuery, labelFilters, appFilters, ionFilters, qubitFilters, platformFilters, instFilters, countryFilters, category]);
 
     // Update URL with new filters
     const updateUrl = (newParams) => {
@@ -260,6 +271,7 @@ function Groups() {
         (newParams.label || []).forEach(l => params.append('label', l));
         (newParams.app || []).forEach(a => params.append('app', a));
         (newParams.ion || []).forEach(i => params.append('ion', i));
+        (newParams.qubit || []).forEach(q => params.append('qubit', q));
         (newParams.platform || []).forEach(pl => params.append('platform', pl));
         (newParams.inst || []).forEach(i => params.append('inst', i));
         (newParams.country || []).forEach(c => params.append('country', c));
@@ -274,6 +286,7 @@ function Groups() {
             label: labelFilters,
             app: appFilters,
             ion: ionFilters,
+            qubit: qubitFilters,
             platform: platformFilters,
             inst: instFilters,
             country: countryFilters,
@@ -318,6 +331,7 @@ function Groups() {
             label: labelFilters,
             app: appFilters,
             ion: ionFilters,
+            qubit: qubitFilters,
             platform: platformFilters,
             inst: instFilters,
             country: countryFilters,
@@ -333,7 +347,7 @@ function Groups() {
         history.push({ search: '' });
     };
 
-    const hasActiveFilters = searchQuery || labelFilters.length > 0 || appFilters.length > 0 || ionFilters.length > 0 || platformFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
+    const hasActiveFilters = searchQuery || labelFilters.length > 0 || appFilters.length > 0 || ionFilters.length > 0 || qubitFilters.length > 0 || platformFilters.length > 0 || instFilters.length > 0 || countryFilters.length > 0;
 
     // Available options logic already calculated above
 
@@ -351,7 +365,7 @@ function Groups() {
                                     setCategory(cat);
                                     updateUrl({
                                         q: localSearch, label: labelFilters, app: appFilters,
-                                        ion: ionFilters, platform: platformFilters,
+                                        ion: ionFilters, qubit: qubitFilters, platform: platformFilters,
                                         inst: instFilters, country: countryFilters, category: cat,
                                     });
                                 }}
@@ -393,6 +407,13 @@ function Groups() {
                             <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('ion', e.target.value)}>
                                 <option value="">+ {category === 'Neutral Atoms' ? 'Atom Species' : 'Ion Species'}</option>
                                 {availableIons.map(o => <option key={o} value={o}>{o}</option>)}
+                            </select>
+                        )}
+
+                        {availableQubits.length > 0 && (
+                            <select className="filter-select" value="" onChange={(e) => e.target.value && addFilter('qubit', e.target.value)}>
+                                <option value="">+ Qubit type</option>
+                                {availableQubits.map(o => <option key={o} value={o}>{o}</option>)}
                             </select>
                         )}
 
@@ -439,6 +460,11 @@ function Groups() {
                             {ionFilters.map(v => (
                                 <span key={`ion-${v}`} className="filter-chip filter-chip--ion">
                                     {v} <button className="filter-chip-remove" onClick={() => removeFilter('ion', v)}>×</button>
+                                </span>
+                            ))}
+                            {qubitFilters.map(v => (
+                                <span key={`qubit-${v}`} className="filter-chip" style={{ background: '#fff3cd', color: '#664d03', border: '1px solid #ffe69c' }}>
+                                    {v} <button className="filter-chip-remove" onClick={() => removeFilter('qubit', v)}>×</button>
                                 </span>
                             ))}
                             {platformFilters.map(v => (
@@ -523,6 +549,15 @@ function Groups() {
                                                 onClick={() => addFilter('ion', ion)}
                                             >
                                                 {ion}
+                                            </span>
+                                        ))}
+                                        {person.qubit_type?.map(q => (
+                                            <span
+                                                key={q}
+                                                className="badge badge--warning margin-right--xs clickable-badge"
+                                                onClick={() => addFilter('qubit', q)}
+                                            >
+                                                {q}
                                             </span>
                                         ))}
                                     </div>

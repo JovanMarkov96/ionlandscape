@@ -88,6 +88,8 @@ nobel_prize:
   year: 2025
 platforms:
 - superconducting
+qubit_type:
+- Flux qubit
 schema_version: 2
 sort_name: Clarke, John
 updated_at: '2026-06-29'

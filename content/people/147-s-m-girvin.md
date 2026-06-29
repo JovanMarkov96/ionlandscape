@@ -94,6 +94,9 @@ name: S. M. Girvin
 platforms:
 - superconducting
 postdocs: []
+qubit_type:
+- Transmon
+- Cat qubit
 schema_version: 2
 sort_name: Girvin, S. M.
 updated_at: '2026-06-29'

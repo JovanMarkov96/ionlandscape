@@ -285,6 +285,15 @@ function PersonPanel({ personId, location, onPersonSelect, onCompanySelect, onIn
                         {s}
                     </Link>
                 ))}
+                {person.qubit_type?.map(q => (
+                    <Link
+                        key={q}
+                        to={`/groups?qubit=${encodeURIComponent(q)}`}
+                        className="badge badge--warning margin-right--xs"
+                    >
+                        {q}
+                    </Link>
+                ))}
             </div>
 
             {person.affiliations && person.affiliations.length > 0 && (
