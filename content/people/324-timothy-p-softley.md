@@ -13,6 +13,14 @@ group_type: experimental
 id: 324-timothy-p-softley
 ion_species:
 - 40Ca+
+- CaF+
+- H2
+keywords:
+- cold ion-molecule reactions
+- Coulomb crystals
+- Rydberg-Stark deceleration
+- reaction dynamics
+- cold chemistry
 last_verified_at: '2026-06-02'
 links:
   group_page: https://www.birmingham.ac.uk/staff/profiles/university/tim-softley.aspx
@@ -40,6 +48,6 @@ updated_at: '2026-06-29'
 verification_source_count: 1
 ---
 
-Timothy Softley is a physical chemist and Professor of Chemistry at the University of Birmingham, known for cold-molecule and ion-molecule reaction dynamics. His group pioneered the study of low-temperature reactions between laser-cooled calcium-ion (Ca+) Coulomb crystals and neutral molecules, and the Rydberg-Stark deceleration and control of molecular beams.
+Timothy Softley is a physical chemist and Professor of Chemistry at the University of Birmingham, known for cold-molecule and ion-molecule reaction dynamics. His group pioneered the study of low-temperature reactions between laser-cooled calcium-ion (Ca⁺) Coulomb crystals and velocity-selected cold polar molecules such as methyl fluoride (CH₃F) and 1,2-dichloroethene, monitoring state- and isomer-selective reaction rates by imaging the ion fluorescence and forming sympathetically cooled molecular ions including CaF⁺.
 
-He previously held a chair at the University of Oxford, where Stefan Willitsch and Brianna Heazlewood worked in his group.
+He also pioneered the Rydberg-Stark deceleration and trapping of molecular hydrogen (H₂) and hydrogen atoms in high Rydberg states using inhomogeneous electric fields. He previously held a chair at the University of Oxford, where Stefan Willitsch and Brianna Heazlewood worked in his group.
