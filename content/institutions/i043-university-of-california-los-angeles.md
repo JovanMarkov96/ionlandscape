@@ -18,6 +18,7 @@ media:
 name: University of California Los Angeles
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'The University of California, Los Angeles (UCLA) is a public land-grant
   research university in the Westwood neighborhood of Los Angeles, California, United

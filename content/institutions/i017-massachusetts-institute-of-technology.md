@@ -18,6 +18,7 @@ media:
 name: Massachusetts Institute of Technology
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'The Massachusetts Institute of Technology (MIT) is a private research
   university in Cambridge, Massachusetts, United States. Founded in 1861 to advance

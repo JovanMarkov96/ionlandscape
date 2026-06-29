@@ -21,6 +21,7 @@ media:
 name: University of Innsbruck
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'The University of Innsbruck (German: Leopold-Franzens-Universität
   Innsbruck; Latin: Universitas Leopoldino Franciscea) is a public research university

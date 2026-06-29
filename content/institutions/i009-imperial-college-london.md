@@ -18,6 +18,7 @@ media:
 name: Imperial College London
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'The Imperial College of Science, Technology and Medicine, known
   by its trade names Imperial College London and Imperial, is a public research university

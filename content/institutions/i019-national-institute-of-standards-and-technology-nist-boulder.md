@@ -20,6 +20,7 @@ media:
 name: NIST Boulder
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'The National Institute of Standards and Technology (NIST) is an
   agency of the United States Department of Commerce whose mission is to promote American

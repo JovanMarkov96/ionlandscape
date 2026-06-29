@@ -23,6 +23,7 @@ name: French National Centre for Scientific Research (CNRS)
 platforms_represented:
 - neutral_atom
 - rydberg_array
+- trapped_molecule
 schema_version: 1
 short_description: Known in its native language as Centre National de la Recherche
   Scientifique.

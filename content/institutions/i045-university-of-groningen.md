@@ -21,6 +21,7 @@ media:
 name: University of Groningen
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'The University of Groningen (abbreviated as UG; Dutch: Rijksuniversiteit
   Groningen, abbreviated as RUG) is a public research university of more than 30,000

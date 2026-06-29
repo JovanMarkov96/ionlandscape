@@ -20,6 +20,7 @@ media:
 name: ETH Zurich
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'ETH Zurich (German: Eidgenössische Technische Hochschule Zürich;
   English: Federal Institute of Technology Zurich) is a public university in Zurich,

@@ -20,6 +20,7 @@ media:
 name: Harvard University
 platforms_represented:
 - neutral_atom
+- trapped_molecule
 schema_version: 1
 short_description: Harvard University is a private research university in Cambridge,
   Massachusetts; its physics department is a leading centre for neutral-atom quantum

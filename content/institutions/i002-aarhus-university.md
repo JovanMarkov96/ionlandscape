@@ -18,6 +18,7 @@ media:
 name: Aarhus University
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'Aarhus University (Danish: Aarhus Universitet, abbreviated AU)
   is a public research university. Its main campus is located in Aarhus, Denmark.

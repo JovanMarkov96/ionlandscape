@@ -20,6 +20,7 @@ media:
 name: VU Amsterdam
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'The Vrije Universiteit Amsterdam (abbreviated as VU Amsterdam
   or simply VU when in context) is a public research university in Amsterdam, Netherlands,

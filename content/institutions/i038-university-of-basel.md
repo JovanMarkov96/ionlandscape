@@ -18,6 +18,7 @@ media:
 name: University of Basel
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: 'The University of Basel (Latin: Universitas Basiliensis; German:
   Universität Basel) is a public research university in Basel, Switzerland. Founded

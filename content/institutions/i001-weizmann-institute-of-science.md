@@ -55,6 +55,7 @@ media:
 name: Weizmann Institute of Science
 platforms_represented:
 - trapped_ion
+- trapped_molecule
 schema_version: 1
 short_description: The Weizmann Institute of Science is a leading multidisciplinary
   basic research institution located in Rehovot, Israel.
