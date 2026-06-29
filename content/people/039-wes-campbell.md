@@ -21,6 +21,7 @@ group_type: experimental
 id: 039-wes-campbell
 ion_species:
 - 171Yb+
+- NH
 key_papers:
 - doi: 10.1126/science.1252063
   role: co_author
@@ -64,6 +65,7 @@ metrics:
 name: Wesley C. Campbell
 platforms:
 - trapped_ion
+- trapped_molecule
 postdocs:
 - advisor: Christopher Monroe
   advisor_id: 004-christopher-monroe
@@ -77,7 +79,7 @@ thesis:
   link: Unknown
   title: Magnetic Trapping of Imidogen Molecules
   year: 2008
-updated_at: '2026-05-25'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

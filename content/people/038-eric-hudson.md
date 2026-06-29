@@ -21,6 +21,9 @@ id: 038-eric-hudson
 ion_species:
 - 138Ba+
 - 171Yb+
+- BaCl+
+- BaOH+
+- BaOCH3+
 key_papers:
 - doi: 10.1103/PhysRevLett.112.143009
   role: senior_author
@@ -66,6 +69,7 @@ location:
 name: Eric R. Hudson
 platforms:
 - trapped_ion
+- trapped_molecule
 postdocs:
 - advisor: David DeMille
   advisor_id: null
@@ -79,7 +83,7 @@ thesis:
   link: Unknown
   title: Production of cold, absolute ground state OH molecules
   year: 2006
-updated_at: '2026-05-04'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

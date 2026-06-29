@@ -7,41 +7,45 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: JILA, University of Colorado Boulder / NIST
-  source: https://www.nist.gov/people/jun-ye
-  title: JILA and NIST Fellow; Professor Adjoint of Physics, University of Colorado Boulder
   since_year: 2001
+  source: https://www.nist.gov/people/jun-ye
+  title: JILA and NIST Fellow; Professor Adjoint of Physics, University of Colorado
+    Boulder
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: University of Colorado Boulder
-  year: 1997
-  advisor: John L. Hall
+- advisor: John L. Hall
   confidence: confirmed
+  degree: PhD
+  institution: University of Colorado Boulder
   source: https://en.wikipedia.org/wiki/Jun_Ye
+  year: 1997
 entity_type: person
 group_type: experimental
 id: 082-jun-ye
+ion_species:
+- KRb
 key_papers:
-- title: A Fermi-degenerate three-dimensional optical lattice clock
+- doi: 10.1126/science.aam5538
+  role: senior_author
+  title: A Fermi-degenerate three-dimensional optical lattice clock
   year: 2017
-  doi: 10.1126/science.aam5538
+- doi: 10.1126/science.aau7230
   role: senior_author
-- title: A degenerate Fermi gas of polar molecules
+  title: A degenerate Fermi gas of polar molecules
   year: 2019
-  doi: 10.1126/science.aau7230
+- doi: 10.1088/1681-7575/ab4089
   role: senior_author
-- title: JILA SrI optical lattice clock with uncertainty of 2.0e-18
+  title: JILA SrI optical lattice clock with uncertainty of 2.0e-18
   year: 2019
-  doi: 10.1088/1681-7575/ab4089
+- doi: 10.1038/s41586-023-06360-6
   role: senior_author
-- title: Realizing spin squeezing with Rydberg interactions in an optical clock
+  title: Realizing spin squeezing with Rydberg interactions in an optical clock
   year: 2023
-  doi: 10.1038/s41586-023-06360-6
+- doi: 10.1126/science.ado5987
   role: senior_author
-- title: Coherent evolution of superexchange interaction in seconds-long optical clock spectroscopy
+  title: Coherent evolution of superexchange interaction in seconds-long optical clock
+    spectroscopy
   year: 2024
-  doi: 10.1126/science.ado5987
-  role: senior_author
 keywords:
 - optical lattice clocks
 - strontium optical clock
@@ -53,8 +57,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   group_page: https://jila.colorado.edu/yelabs
   institution_profile: https://www.nist.gov/people/jun-ye
@@ -64,7 +68,7 @@ location:
   city: Boulder
   country: United States
   geocode_source: manual
-  lat: 40.0150
+  lat: 40.015
   lon: -105.2705
   precision: city
 metrics:
@@ -77,8 +81,16 @@ name: Jun Ye
 platforms:
 - neutral_atom
 - rydberg_array
+- trapped_molecule
 schema_version: 2
 sort_name: Ye, Jun
-updated_at: '2026-05-30'
+updated_at: '2026-06-29'
 verification_source_count: 3
 ---
+
+Jun Ye is a physicist at JILA, a joint institute of NIST and the University of Colorado Boulder, renowned for ultra-precise optical atomic clocks based on strontium atoms and for ultracold molecules. With Deborah Jin, his group created the first high-phase-space-density gas of ground-state polar potassium-rubidium (KRb) molecules and demonstrated ultracold quantum-state-controlled chemistry.
+
+He is a leader in optical frequency metrology, quantum simulation and precision measurement, and a member of the U.S. National Academy of Sciences.
+
+## Publications
+See full publication list on Google Scholar (link above).

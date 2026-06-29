@@ -21,6 +21,8 @@ group_type: experimental
 id: 018-michael-drewsen
 ion_species:
 - 40Ca+
+- MgH+
+- CaH+
 key_papers:
 - doi: 10.1103/PhysRevLett.81.2922
   role: first_author
@@ -40,8 +42,8 @@ lineage_check:
   last_checked: '2026-05-04'
   postdoc_verified: false
 links:
-  group_page: https://pure.au.dk/portal/en/persons/michael-drewsen(871a704b-943d-4f99-b29d-07bea1bbab80).html
   google_scholar: https://scholar.google.com/citations?user=K1-nzhEAAAAJ
+  group_page: https://pure.au.dk/portal/en/persons/michael-drewsen(871a704b-943d-4f99-b29d-07bea1bbab80).html
   orcid: https://orcid.org/0000-0003-4767-3498
   university_profile: https://pure.au.dk/portal/en/persons/michael-drewsen
 location:
@@ -54,6 +56,7 @@ location:
 name: Michael Drewsen
 platforms:
 - trapped_ion
+- trapped_molecule
 postdocs:
 - advisor: null
   confidence: not_found
@@ -65,7 +68,7 @@ thesis:
   link: Unknown
   title: Investigations of Light-Induced Kinetic Effects on Atoms
   year: 1994
-updated_at: '2026-05-04'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

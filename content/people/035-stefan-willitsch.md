@@ -21,6 +21,7 @@ group_type: experimental
 id: 035-stefan-willitsch
 ion_species:
 - 40Ca+
+- N2+
 key_papers:
 - doi: 10.1126/science.aay3253
   role: senior_author
@@ -71,6 +72,7 @@ metrics:
 name: Stefan Willitsch
 platforms:
 - trapped_ion
+- trapped_molecule
 postdocs:
 - advisor: Timothy P. Softley
   advisor_id: null
@@ -85,7 +87,7 @@ thesis:
   title: 'Photoionisation asymmetrischer Kreisel: Struktur und Dynamik molekularer
     Radikale und Kationen'
   year: 2004
-updated_at: '2026-05-25'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

@@ -12,6 +12,8 @@ current_position:
 entity_type: person
 group_type: experimental
 id: 262-deborah-jin
+ion_species:
+- KRb
 last_verified_at: '2026-06-02'
 links:
   homepage: https://jila.colorado.edu/
@@ -26,6 +28,7 @@ location:
 name: Deborah Jin
 platforms:
 - neutral_atom
+- trapped_molecule
 schema_version: 2
 sort_name: Jin, Deborah
 sources:
@@ -33,9 +36,8 @@ sources:
   url: https://jila.colorado.edu/
 - note: Biography
   url: https://en.wikipedia.org/wiki/Deborah_S._Jin
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 
-
-Deborah Jin was an experimental physicist at JILA who created the first fermionic condensate and pioneered ultracold polar molecules and degenerate Fermi gases. She died in 2016.
+Deborah Jin was an experimental physicist at JILA who created the first fermionic condensate and pioneered ultracold polar molecules and degenerate Fermi gases. With Jun Ye, her group created the first high-phase-space-density gas of ground-state polar potassium-rubidium (KRb) molecules and demonstrated quantum-state-controlled ultracold chemistry. She died in 2016.

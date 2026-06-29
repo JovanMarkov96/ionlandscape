@@ -23,6 +23,9 @@ ion_species:
 - 171Yb+
 - 27Al+
 - 40Ca+
+- MgH+
+- N2+
+- CaH+
 key_papers:
 - doi: 10.1126/science.1114375
   role: first_author
@@ -66,6 +69,7 @@ metrics:
 name: Piet O. Schmidt
 platforms:
 - trapped_ion
+- trapped_molecule
 postdocs:
 - advisor: David Wineland
   advisor_id: 006-david-wineland
@@ -79,7 +83,7 @@ thesis:
   link: Unknown
   title: Scattering Properties of Ultra-cold Chromium Atoms
   year: 2003
-updated_at: '2026-05-25'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 

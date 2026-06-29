@@ -13,12 +13,14 @@ current_position:
 entity_type: person
 group_type: experimental
 id: 215-eric-a-cornell
+ion_species:
+- HfF+
 last_verified_at: '2026-06-02'
 links:
-  group_page: http://jilawww.colorado.edu/bec/CornellGroup/
   google_scholar: https://scholar.google.com/citations?user=smkK3i8AAAAJ
-  orcid: https://orcid.org/0009-0004-8034-9057
+  group_page: http://jilawww.colorado.edu/bec/CornellGroup/
   openalex: https://openalex.org/A5004950660
+  orcid: https://orcid.org/0009-0004-8034-9057
   wikipedia: https://en.wikipedia.org/wiki/Eric_Allin_Cornell
 location:
   city: Boulder
@@ -30,6 +32,7 @@ location:
 name: Eric A. Cornell
 platforms:
 - neutral_atom
+- trapped_molecule
 schema_version: 2
 sort_name: Cornell, Eric A.
 sources:
@@ -37,9 +40,10 @@ sources:
   url: https://www.nobelprize.org/prizes/physics/2001/cornell/facts/
 - note: Biography
   url: https://en.wikipedia.org/wiki/Eric_Allin_Cornell
-updated_at: '2026-06-02'
+updated_at: '2026-06-29'
 verification_source_count: 2
 ---
 
-
 Eric Cornell shared the 2001 Nobel Prize in Physics for producing, with Carl Wieman, the first gaseous Bose-Einstein condensate at JILA in 1995. A NIST and University of Colorado physicist, he continues to lead precision-measurement and ultracold-atom research.
+
+At JILA he leads a precision-measurement program that uses trapped hafnium fluoride molecular ions (HfF+) to set stringent limits on the electron's electric dipole moment, a sensitive probe of time-reversal symmetry violation.
