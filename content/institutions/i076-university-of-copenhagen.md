@@ -20,6 +20,8 @@ media:
 name: University of Copenhagen
 platforms_represented:
 - neutral_atom
+- quantum_dot
+- silicon_spin
 schema_version: 1
 updated_at: '2026-05-26'
 verification_source_count: 1

@@ -7,45 +7,45 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: University of California, Santa Barbara
+  since_year: 2010
   source: https://www.physics.ucsb.edu/people/ania-bleszynski-jayich
   title: Bruker Endowed Chair in Science and Engineering, Professor of Physics
-  since_year: 2010
   verified_at: '2026-05-29'
 education:
-- degree: PhD
-  institution: Harvard University
-  year: 2006
-  advisor: Robert M. Westervelt
+- advisor: Robert M. Westervelt
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: Harvard University
   source: https://en.wikipedia.org/wiki/Ania_Bleszynski_Jayich
+  year: 2006
 entity_type: person
 group_type: experimental
 id: 117-ania-c-bleszynski-jayich
 key_papers:
-- title: Scanned probe imaging of nanoscale magnetism at cryogenic temperatures with
+- doi: 10.1038/nnano.2016.68
+  role: senior_author
+  title: Scanned probe imaging of nanoscale magnetism at cryogenic temperatures with
     a single-spin quantum sensor
   year: 2016
-  doi: 10.1038/nnano.2016.68
+- doi: 10.1038/s41467-018-04798-1
   role: senior_author
-- title: Nanoscale electrical conductivity imaging using a nitrogen-vacancy center
+  title: Nanoscale electrical conductivity imaging using a nitrogen-vacancy center
     in diamond
   year: 2018
-  doi: 10.1038/s41467-018-04798-1
+- doi: 10.1103/PhysRevLett.118.197201
   role: senior_author
-- title: Double-Quantum Spin-Relaxation Limits to Coherence of Near-Surface Nitrogen-Vacancy
+  title: Double-Quantum Spin-Relaxation Limits to Coherence of Near-Surface Nitrogen-Vacancy
     Centers
   year: 2017
-  doi: 10.1103/PhysRevLett.118.197201
+- doi: 10.1038/s41567-023-01944-5
   role: senior_author
-- title: Probing many-body dynamics in a two-dimensional dipolar spin ensemble
+  title: Probing many-body dynamics in a two-dimensional dipolar spin ensemble
   year: 2023
-  doi: 10.1038/s41567-023-01944-5
-  role: senior_author
-- title: Nanoscale diamond quantum sensors for many-body physics
-  year: 2024
-  doi: 10.1038/s42254-024-00775-4
+- doi: 10.1038/s42254-024-00775-4
   role: co_author
+  title: Nanoscale diamond quantum sensors for many-body physics
+  year: 2024
 keywords:
 - NV center quantum sensing
 - scanning NV magnetometry
@@ -58,8 +58,8 @@ keywords:
 last_verified_at: '2026-05-29'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-29'
+  postdoc_verified: false
 links:
   group_page: https://www.10-9lab.com/
   institution_profile: https://www.physics.ucsb.edu/people/ania-bleszynski-jayich
@@ -81,8 +81,12 @@ metrics:
 name: Ania C. Bleszynski Jayich
 platforms:
 - nv_center
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Jayich, Ania C. Bleszynski
-updated_at: '2026-05-29'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
+
+Ania Bleszynski Jayich is a physicist at the University of California, Santa Barbara who uses nitrogen-vacancy (NV) centres in diamond for nanoscale quantum sensing, including scanning NV magnetometry of condensed-matter systems.

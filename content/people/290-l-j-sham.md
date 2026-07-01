@@ -17,8 +17,8 @@ labels:
 last_verified_at: '2026-06-02'
 links:
   google_scholar: https://scholar.google.com/citations?user=qQGZpqYAAAAJ
-  orcid: https://orcid.org/0000-0001-5718-2077
   homepage: https://www.ucsd.edu/
+  orcid: https://orcid.org/0000-0001-5718-2077
   wikipedia: https://en.wikipedia.org/wiki/Lu_Jeu_Sham
 location:
   city: La Jolla
@@ -30,6 +30,8 @@ location:
 name: Lu Jeu Sham
 platforms:
 - quantum_dot
+qubit_type:
+- Quantum dot
 schema_version: 2
 sort_name: Sham, Lu Jeu
 sources:
@@ -37,9 +39,8 @@ sources:
   url: https://www.ucsd.edu/
 - note: Biography
   url: https://en.wikipedia.org/wiki/Lu_Jeu_Sham
-updated_at: '2026-06-02'
+updated_at: '2026-07-01'
 verification_source_count: 2
 ---
-
 
 Lu Jeu Sham is a condensed-matter theorist at UC San Diego, co-developer of the Kohn-Sham density functional theory and a contributor to semiconductor spin-coherence and spintronics.

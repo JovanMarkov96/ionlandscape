@@ -11,6 +11,16 @@ current_position:
 entity_type: person
 group_type: experimental
 id: 291-leo-kouwenhoven
+key_papers:
+- doi: 10.1126/science.1222360
+  role: senior_author
+  title: Signatures of Majorana Fermions in Hybrid Superconductor-Semiconductor Nanowire
+    Devices
+  year: 2012
+- doi: 10.1103/revmodphys.79.1217
+  role: co_author
+  title: Spins in few-electron quantum dots
+  year: 2007
 last_verified_at: '2026-06-02'
 links:
   homepage: https://www.tudelft.nl/
@@ -26,6 +36,8 @@ name: Leo Kouwenhoven
 platforms:
 - topological
 - quantum_dot
+qubit_type:
+- Majorana
 schema_version: 2
 sort_name: Kouwenhoven, Leo
 sources:
@@ -33,9 +45,8 @@ sources:
   url: https://www.tudelft.nl/
 - note: Biography
   url: https://en.wikipedia.org/wiki/Leo_Kouwenhoven
-updated_at: '2026-06-02'
+updated_at: '2026-07-01'
 verification_source_count: 2
 ---
-
 
 Leo Kouwenhoven is an experimental physicist at TU Delft known for semiconductor quantum dots and experiments on Majorana zero modes for topological quantum computing.

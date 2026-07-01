@@ -19,7 +19,10 @@ media:
   logo_path: /img/institutions/i103-stanford-university_mark.png
 name: Stanford University
 platforms_represented:
+- cavity_qed_hybrid
+- color_center
 - neutral_atom
+- photonic
 - superconducting
 schema_version: 1
 updated_at: '2026-05-26'

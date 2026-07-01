@@ -21,6 +21,7 @@ media:
   logo_path: /img/institutions/i110-ecole-polytechnique-federale-de-lausanne_mark.png
 name: EPFL – Swiss Federal Institute of Technology Lausanne
 platforms_represented:
+- quantum_dot
 - superconducting
 schema_version: 1
 short_description: Known in its native language as École Polytechnique Fédérale de

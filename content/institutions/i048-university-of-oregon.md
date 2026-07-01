@@ -17,6 +17,7 @@ media:
   logo_path: /img/institutions/i048-university-of-oregon_mark.png
 name: University of Oregon
 platforms_represented:
+- photonic
 - trapped_ion
 schema_version: 1
 short_description: 'The University of Oregon (UO, U of O or Oregon) is a public research

@@ -7,44 +7,44 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Ministry of Education of China
+  since_year: 2025
   source: https://en.wikipedia.org/wiki/Du_Jiangfeng
   title: Vice Minister of Education
-  since_year: 2025
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: University of Science and Technology of China
-  year: 2000
-  advisor: Rongdian Han
+- advisor: Rongdian Han
   advisor_id: null
   confidence: ambiguous
+  degree: PhD (Physics)
+  institution: University of Science and Technology of China
   source: https://arxiv.org/abs/quant-ph/0104087
+  year: 2000
 entity_type: person
 group_type: experimental
 id: 131-jiangfeng-du
 key_papers:
-- title: Preserving electron spin coherence in solids by optimal dynamical decoupling
-  year: 2009
-  doi: 10.1038/nature08470
+- doi: 10.1038/nature08470
   role: first_author
-- title: Sensing and atomic-scale structure analysis of single nuclear-spin clusters
+  title: Preserving electron spin coherence in solids by optimal dynamical decoupling
+  year: 2009
+- doi: 10.1038/nphys2814
+  role: senior_author
+  title: Sensing and atomic-scale structure analysis of single nuclear-spin clusters
     in diamond
   year: 2014
-  doi: 10.1038/nphys2814
+- doi: 10.1126/science.aaa2253
   role: senior_author
-- title: Single-protein spin resonance spectroscopy under ambient conditions
+  title: Single-protein spin resonance spectroscopy under ambient conditions
   year: 2015
-  doi: 10.1126/science.aaa2253
+- doi: 10.1126/science.aaw8205
   role: senior_author
-- title: Observation of parity-time symmetry breaking in a single-spin system
+  title: Observation of parity-time symmetry breaking in a single-spin system
   year: 2019
-  doi: 10.1126/science.aaw8205
+- doi: 10.1126/sciadv.abg9204
   role: senior_author
-- title: Beating the standard quantum limit under ambient conditions with solid-state
+  title: Beating the standard quantum limit under ambient conditions with solid-state
     spins
   year: 2021
-  doi: 10.1126/sciadv.abg9204
-  role: senior_author
 keywords:
 - Quantum Information and Cryptography
 - Diamond and Carbon-based Materials Research
@@ -57,8 +57,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   group_page: https://spin.ustc.edu.cn/
   institution_profile: https://en.lmmr.ustc.edu.cn/2017/0711/c13356a189307/page.htm
@@ -80,9 +80,11 @@ metrics:
 name: Jiangfeng Du
 platforms:
 - nv_center
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Du, Jiangfeng
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
 

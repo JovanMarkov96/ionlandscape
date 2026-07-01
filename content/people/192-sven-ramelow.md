@@ -8,42 +8,43 @@ created_at: '2026-05-30'
 current_position:
   confidence: confirmed
   institution: Humboldt-Universität zu Berlin
+  since_year: 2016
   source: https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-junior-fellows/sven-ramelow
   title: Assistant Professor and Emmy Noether Group Leader (Nonlinear Quantum Optics)
-  since_year: 2016
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Physics)
-  institution: University of Vienna
-  year: 2011
-  advisor: Anton Zeilinger
+- advisor: Anton Zeilinger
   advisor_id: 000-anton-zeilinger
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: University of Vienna
   source: https://othes.univie.ac.at/18769/
+  year: 2011
 entity_type: person
 group_type: experimental
 id: 192-sven-ramelow
 key_papers:
-- title: Quantum imaging with undetected photons
+- doi: 10.1038/nature13586
+  role: co_author
+  title: Quantum imaging with undetected photons
   year: 2014
-  doi: 10.1038/nature13586
+- doi: 10.1126/sciadv.abd0264
+  role: senior_author
+  title: Microscopy with undetected photons in the mid-infrared
+  year: 2020
+- doi: 10.1364/OPTICA.400128
+  role: senior_author
+  title: Frequency-domain optical coherence tomography with undetected mid-infrared
+    photons
+  year: 2020
+- doi: 10.1088/1367-2630/14/5/053030
   role: co_author
-- title: Microscopy with undetected photons in the mid-infrared
-  year: 2020
-  doi: 10.1126/sciadv.abd0264
-  role: senior_author
-- title: Frequency-domain optical coherence tomography with undetected mid-infrared photons
-  year: 2020
-  doi: 10.1364/OPTICA.400128
-  role: senior_author
-- title: Loophole-free Einstein-Podolsky-Rosen experiment via quantum steering
+  title: Loophole-free Einstein-Podolsky-Rosen experiment via quantum steering
   year: 2012
-  doi: 10.1088/1367-2630/14/5/053030
-  role: co_author
-- title: Discrete Tunable Color Entanglement
-  year: 2009
-  doi: 10.1103/PhysRevLett.103.253601
+- doi: 10.1103/PhysRevLett.103.253601
   role: first_author
+  title: Discrete Tunable Color Entanglement
+  year: 2009
 keywords:
 - quantum imaging with undetected photons
 - nonlinear quantum optics
@@ -57,13 +58,13 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
-  orcid: https://orcid.org/0000-0001-7641-8497
-  openalex: https://openalex.org/A5026398111
   google_scholar: https://scholar.google.de/citations?user=iRiAWXsAAAAJ
   group_page: https://www.physik.hu-berlin.de/en/niqo
+  openalex: https://openalex.org/A5026398111
+  orcid: https://orcid.org/0000-0001-7641-8497
 location:
   city: Berlin
   country: Germany
@@ -81,20 +82,24 @@ name: Sven Ramelow
 platforms:
 - photonic
 postdocs:
-- institution: University of Vienna
-  advisor: null
+- advisor: null
   advisor_id: null
-  years: '2012–2013'
   confidence: ambiguous
+  institution: University of Vienna
   source: https://www.einsteinfoundation.de/en/fellows-projects/einstein-fellows-professors/einstein-junior-fellows/sven-ramelow
-- institution: Cornell University
-  advisor: Alexander Gaeta
+  years: 2012–2013
+- advisor: Alexander Gaeta
   advisor_id: null
-  years: '2013–2015'
   confidence: confirmed
+  institution: Cornell University
   source: https://www.adlershof.de/en/news/new-emmy-noether-junior-research-group-on-mid-infrared-quantum-imaging-and-spectroscopy-for-dr-sven-ramelow
+  years: 2013–2015
+qubit_type:
+- Entangled photon pairs
 schema_version: 2
 sort_name: Ramelow, Sven
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 6
 ---
+
+Sven Ramelow is a physicist at Humboldt University of Berlin working on quantum optics and quantum imaging. His group develops entangled-photon sources, nonlinear interferometry and imaging with undetected photons using quantum correlations.

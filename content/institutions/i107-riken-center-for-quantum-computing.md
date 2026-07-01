@@ -19,6 +19,8 @@ media:
   logo_path: /img/institutions/i107-riken-center-for-quantum-computing_mark.png
 name: RIKEN Center for Quantum Computing
 platforms_represented:
+- quantum_dot
+- silicon_spin
 - superconducting
 schema_version: 1
 updated_at: '2026-05-26'

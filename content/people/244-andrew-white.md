@@ -12,11 +12,16 @@ current_position:
 entity_type: person
 group_type: experimental
 id: 244-andrew-white
+key_papers:
+- doi: 10.1126/science.1231440
+  role: senior_author
+  title: Photonic Boson Sampling in a Tunable Circuit
+  year: 2013
 last_verified_at: '2026-06-02'
 links:
-  orcid: https://orcid.org/0000-0001-6175-1607
-  openalex: https://openalex.org/A5087959120
   homepage: https://www.uq.edu.au/
+  openalex: https://openalex.org/A5087959120
+  orcid: https://orcid.org/0000-0001-6175-1607
   wikipedia: https://en.wikipedia.org/wiki/Andrew_G._White
 location:
   city: Brisbane
@@ -28,6 +33,8 @@ location:
 name: Andrew White
 platforms:
 - photonic
+qubit_type:
+- Single photons
 schema_version: 2
 sort_name: White, Andrew
 sources:
@@ -35,9 +42,8 @@ sources:
   url: https://www.uq.edu.au/
 - note: Biography
   url: https://en.wikipedia.org/wiki/Andrew_G._White
-updated_at: '2026-06-02'
+updated_at: '2026-07-01'
 verification_source_count: 2
 ---
-
 
 Andrew White is an experimental physicist at the University of Queensland and a pioneer of photonic quantum information science and quantum process tomography.

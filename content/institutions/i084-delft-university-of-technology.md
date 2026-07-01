@@ -21,7 +21,10 @@ name: Delft University of Technology
 platforms_represented:
 - color_center
 - nv_center
+- quantum_dot
+- silicon_spin
 - superconducting
+- topological
 schema_version: 1
 updated_at: '2026-05-26'
 verification_source_count: 1

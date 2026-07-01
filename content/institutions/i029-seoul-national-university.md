@@ -17,6 +17,7 @@ media:
   logo_path: /img/institutions/i029-seoul-national-university_mark.png
 name: Seoul National University
 platforms_represented:
+- cavity_qed_hybrid
 - trapped_ion
 schema_version: 1
 short_description: 'Seoul National University (SNU; Korean: 서울대학교; lit. ''Seoul University'')

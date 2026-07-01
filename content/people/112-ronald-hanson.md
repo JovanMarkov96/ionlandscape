@@ -7,43 +7,43 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Delft University of Technology
+  since_year: 2012
   source: https://qutech.nl/person/ronald-hanson/
   title: Distinguished Professor in Quantum Computing and Quantum Internet
-  since_year: 2012
   verified_at: '2026-05-29'
 education:
-- degree: PhD
-  institution: Delft University of Technology
-  year: 2005
-  advisor: Leo Kouwenhoven
+- advisor: Leo Kouwenhoven
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: Delft University of Technology
   source: https://en.wikipedia.org/wiki/Ronald_Hanson
+  year: 2005
 entity_type: person
 group_type: experimental
 id: 112-ronald-hanson
 key_papers:
-- title: 'Loophole-free Bell inequality violation using electron spins separated by
-    1.3 kilometres'
+- doi: 10.1038/nature15759
+  role: senior_author
+  title: Loophole-free Bell inequality violation using electron spins separated by
+    1.3 kilometres
   year: 2015
-  doi: 10.1038/nature15759
+- doi: 10.1126/science.1253512
   role: senior_author
-- title: Unconditional quantum teleportation between distant solid-state quantum bits
+  title: Unconditional quantum teleportation between distant solid-state quantum bits
   year: 2014
-  doi: 10.1126/science.1253512
+- doi: 10.1126/science.abg1919
   role: senior_author
-- title: Realization of a multinode quantum network of remote solid-state qubits
+  title: Realization of a multinode quantum network of remote solid-state qubits
   year: 2021
-  doi: 10.1126/science.abg1919
-  role: senior_author
-- title: 'Spins in few-electron quantum dots'
-  year: 2007
-  doi: 10.1103/RevModPhys.79.1217
+- doi: 10.1103/RevModPhys.79.1217
   role: first_author
-- title: Quantum internet — a vision for the road ahead
-  year: 2018
-  doi: 10.1126/science.aam9288
+  title: Spins in few-electron quantum dots
+  year: 2007
+- doi: 10.1126/science.aam9288
   role: co_author
+  title: Quantum internet — a vision for the road ahead
+  year: 2018
 keywords:
 - Diamond and Carbon-based Materials Research
 - Quantum Information and Cryptography
@@ -57,8 +57,8 @@ keywords:
 last_verified_at: '2026-05-29'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-29'
+  postdoc_verified: false
 links:
   group_page: https://qutech.nl/lab/hanson-lab/
   institution_profile: https://qutech.nl/person/ronald-hanson/
@@ -81,8 +81,12 @@ name: Ronald Hanson
 platforms:
 - nv_center
 - color_center
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Hanson, Ronald
-updated_at: '2026-05-29'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
+
+Ronald Hanson is a physicist at Delft University of Technology (QuTech) who uses nitrogen-vacancy (NV) centres in diamond as spin qubits for quantum networks. His group performed the first loophole-free Bell test and demonstrated entanglement, teleportation and entanglement distillation between remote NV registers — key steps toward a quantum internet.

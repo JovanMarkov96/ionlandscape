@@ -19,6 +19,9 @@ media:
   logo_path: /img/institutions/i005-eth-zurich_mark.png
 name: ETH Zurich
 platforms_represented:
+- cavity_qed_hybrid
+- nv_center
+- quantum_dot
 - superconducting
 - trapped_ion
 - trapped_molecule

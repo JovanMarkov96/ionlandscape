@@ -19,6 +19,7 @@ media:
   logo_path: /img/institutions/i095-heriot-watt-university_mark.png
 name: Heriot-Watt University
 platforms_represented:
+- color_center
 - nv_center
 schema_version: 1
 updated_at: '2026-05-26'

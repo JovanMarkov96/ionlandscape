@@ -7,42 +7,42 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: The University of Melbourne
+  since_year: 2014
   source: https://findanexpert.unimelb.edu.au/profile/3038-lloyd-hollenberg
   title: Thomas Baker Professor of Physical Biosciences
-  since_year: 2014
   verified_at: '2026-05-30'
 education:
-- degree: PhD (Theoretical Particle Physics)
-  institution: University of Melbourne
-  year: 1989
-  advisor: null
+- advisor: null
   advisor_id: null
   confidence: confirmed
+  degree: PhD (Theoretical Particle Physics)
+  institution: University of Melbourne
   source: https://www.cqc2t.org/prof-lloyd-c-l-hollenberg-ac/
+  year: 1989
 entity_type: person
 group_type: mixed
 id: 138-lloyd-c-l-hollenberg
 key_papers:
-- title: "The nitrogen-vacancy colour centre in diamond"
-  year: 2013
-  doi: 10.1016/j.physrep.2013.02.001
+- doi: 10.1016/j.physrep.2013.02.001
   role: senior_author
-- title: "Silicon quantum electronics"
+  title: The nitrogen-vacancy colour centre in diamond
   year: 2013
-  doi: 10.1103/RevModPhys.85.961
+- doi: 10.1103/RevModPhys.85.961
   role: co_author
-- title: "Two-dimensional architectures for donor-based quantum computing"
-  year: 2006
-  doi: 10.1103/PhysRevB.74.045311
+  title: Silicon quantum electronics
+  year: 2013
+- doi: 10.1103/PhysRevB.74.045311
   role: first_author
-- title: "Quantum phase transitions of light"
+  title: Two-dimensional architectures for donor-based quantum computing
   year: 2006
-  doi: 10.1038/nphys466
+- doi: 10.1038/nphys466
   role: senior_author
-- title: "Single-shot readout of an electron spin in silicon"
-  year: 2010
-  doi: 10.1038/nature09392
+  title: Quantum phase transitions of light
+  year: 2006
+- doi: 10.1038/nature09392
   role: co_author
+  title: Single-shot readout of an electron spin in silicon
+  year: 2010
 keywords:
 - NV center theory and quantum sensing
 - Silicon quantum computing architecture
@@ -52,8 +52,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=iueFAVkAAAAJ
   institution_profile: https://findanexpert.unimelb.edu.au/profile/3038-lloyd-hollenberg
@@ -75,8 +75,12 @@ metrics:
 name: Lloyd C. L. Hollenberg
 platforms:
 - nv_center
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Hollenberg, Lloyd C. L.
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
+
+Lloyd Hollenberg is a physicist at the University of Melbourne working on nitrogen-vacancy (NV) centres in diamond for quantum computing and sensing, including quantum probes of biological systems.

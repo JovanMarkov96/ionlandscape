@@ -83,8 +83,13 @@ name: Fabio Sciarrino
 platforms:
 - photonic
 postdocs: []
+qubit_type:
+- Integrated photonics
+- Single photons
 schema_version: 2
 sort_name: Sciarrino, Fabio
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
+
+Fabio Sciarrino is a physicist at Sapienza University of Rome working on photonic quantum information with integrated photonics. His group develops boson sampling, photonic quantum walks and quantum simulation on reconfigurable integrated waveguide circuits.

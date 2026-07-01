@@ -18,6 +18,7 @@ media:
 name: Austrian Academy of Sciences
 platforms_represented:
 - neutral_atom
+- photonic
 - rydberg_array
 schema_version: 1
 updated_at: '2026-05-26'

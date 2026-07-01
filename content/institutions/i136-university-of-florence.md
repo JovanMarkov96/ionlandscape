@@ -25,6 +25,7 @@ location:
 name: University of Florence
 platforms_represented:
 - neutral_atom
+- photonic
 schema_version: 1
 updated_at: '2026-06-29'
 verification_source_count: 1

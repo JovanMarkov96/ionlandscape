@@ -19,6 +19,7 @@ media:
   logo_path: /img/institutions/i061-hebrew-university-of-jerusalem_mark.png
 name: Hebrew University of Jerusalem
 platforms_represented:
+- nv_center
 - trapped_ion
 schema_version: 1
 short_description: The Hebrew University of Jerusalem is Israel's leading research

@@ -77,8 +77,12 @@ name: Alp Sipahigil
 platforms:
 - nv_center
 - color_center
+qubit_type:
+- SiV center
 schema_version: 2
 sort_name: Sipahigil, Alp
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
+
+Alp Sipahigil is a physicist at the University of California, Berkeley working on silicon-vacancy (SiV) colour centres in diamond and nanophotonic and nanomechanical devices for quantum networks.

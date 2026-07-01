@@ -28,16 +28,16 @@ leadership:
   role: Co-Director, Joint Center for Quantum Information and Computer Science (QuICS)
   source: https://quics.umd.edu/
 - name: Alexey V. Gorshkov
-  role: Fellow, Joint Quantum Institute (JQI) and QuICS (NIST/UMD)
   person_id: 100-alexey-v-gorshkov
+  role: Fellow, Joint Quantum Institute (JQI) and QuICS (NIST/UMD)
   source: https://jqi.umd.edu/
 - name: Mohammad Hafezi
   role: Fellow, Joint Quantum Institute (JQI); Professor of Physics and ECE
   source: https://jqi.umd.edu/
 links:
+  quantum_center: https://quantum.umd.edu/
   website: https://umd.edu
   wikipedia: https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park
-  quantum_center: https://quantum.umd.edu/
 location:
   city: College Park
   country: United States
@@ -50,10 +50,10 @@ media:
 mous:
 - date: '2021-01-01'
   partner: IonQ
+  source: https://en.wikipedia.org/wiki/IonQ
   summary: University of Maryland and IonQ launched the National Quantum Laboratory
     (Q-Lab) at College Park, providing researchers and companies hands-on access to
     IonQ's trapped-ion quantum hardware.
-  source: https://en.wikipedia.org/wiki/IonQ
 name: University of Maryland
 national_programs:
 - US National Quantum Initiative
@@ -65,13 +65,14 @@ news:
 - date: '2021-10-01'
   headline: University of Maryland and IonQ open the National Quantum Laboratory (Q-Lab)
     at College Park
+  source: https://en.wikipedia.org/wiki/IonQ
   summary: A public–private partnership giving academic and industry users direct
     access to IonQ trapped-ion quantum computers on the UMD campus.
-  source: https://en.wikipedia.org/wiki/IonQ
 platforms_represented:
-- trapped_ion
 - neutral_atom
+- nv_center
 - superconducting
+- trapped_ion
 schema_version: 1
 short_description: The University of Maryland (UMD), in College Park, Maryland, is
   a leading public research university and a major hub of U.S. quantum science. It

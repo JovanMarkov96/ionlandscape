@@ -82,6 +82,8 @@ postdocs:
   years: 2009-2012
 schema_version: 2
 sort_name: Jiang, Liang
-updated_at: '2026-05-29'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
+
+Liang Jiang is a theoretical physicist at the University of Chicago working on quantum information science across platforms — bosonic quantum error correction, quantum networks and microwave-optical transduction, and quantum sensing with solid-state and superconducting systems.

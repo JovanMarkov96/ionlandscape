@@ -242,7 +242,7 @@
     },
     "qubit_type": {
       "type": "array",
-      "description": "Qubit type(s) / circuit architecture used (when platforms includes superconducting). Examples: Transmon, Fluxonium, Flux qubit, Charge qubit, Phase qubit, Quantronium, Cat qubit.",
+      "description": "Specific qubit realization / physical modality within the platform. Superconducting: Transmon, Fluxonium, Flux/Charge/Phase qubit, Quantronium, Cat qubit. Spin: Si/SiGe, Si MOS, GaAs quantum dot, Ge hole spin, Donor (P:Si). Defect: NV center, SiV center, SnV center, T center, Rare-earth ion. Photonic: Single photons, Squeezed light / CV, Integrated photonics. Topological: Majorana.",
       "items": {
         "type": "string"
       }

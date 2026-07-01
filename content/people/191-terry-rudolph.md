@@ -10,44 +10,44 @@ current_position:
   title: Co-Founder and Chief Architect
   verified_at: '2026-05-30'
 education:
-- degree: BSc (Physics)
+- advisor: null
+  advisor_id: null
+  confidence: confirmed
+  degree: BSc (Physics)
   institution: University of Queensland
-  year: 1994
-  advisor: null
-  advisor_id: null
-  confidence: confirmed
   source: https://en.wikipedia.org/wiki/Terry_Rudolph
-- degree: PhD (Theoretical Quantum Optics)
-  institution: York University
-  year: 1998
-  advisor: Helen Freedhoff
+  year: 1994
+- advisor: Helen Freedhoff
   advisor_id: null
   confidence: confirmed
+  degree: PhD (Theoretical Quantum Optics)
+  institution: York University
   source: https://www.mathgenealogy.org/id.php?id=243319
+  year: 1998
 entity_type: person
 group_type: theory
 id: 191-terry-rudolph
 key_papers:
-- title: 'Fusion-based quantum computation'
+- doi: 10.1038/s41467-023-36493-1
+  role: co_author
+  title: Fusion-based quantum computation
   year: 2023
-  doi: 10.1038/s41467-023-36493-1
+- doi: 10.1103/PhysRevLett.95.010501
   role: co_author
-- title: 'Resource-efficient linear optical quantum computation'
+  title: Resource-efficient linear optical quantum computation
   year: 2005
-  doi: 10.1103/PhysRevLett.95.010501
+- doi: 10.1038/nphys2309
   role: co_author
-- title: 'On the reality of the quantum state'
+  title: On the reality of the quantum state
   year: 2012
-  doi: 10.1038/nphys2309
-  role: co_author
-- title: 'Why I am optimistic about the silicon-photonic route to quantum computing'
-  year: 2017
-  doi: 10.1063/1.4976737
+- doi: 10.1063/1.4976737
   role: first_author
-- title: 'Proposal for pulsed on-demand sources of photonic cluster state strings'
-  year: 2009
-  doi: 10.1103/PhysRevLett.103.113602
+  title: Why I am optimistic about the silicon-photonic route to quantum computing
+  year: 2017
+- doi: 10.1103/PhysRevLett.103.113602
   role: co_author
+  title: Proposal for pulsed on-demand sources of photonic cluster state strings
+  year: 2009
 keywords:
 - fusion-based quantum computing
 - photonic quantum computing
@@ -61,14 +61,14 @@ labels:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
-  wikipedia: https://en.wikipedia.org/wiki/Terry_Rudolph
-  orcid: https://orcid.org/0000-0002-8938-1743
-  openalex: https://openalex.org/A5086614028
   google_scholar: https://scholar.google.com/citations?user=Y8cRR70AAAAJ
   institution_profile: https://profiles.imperial.ac.uk/t.rudolph
+  openalex: https://openalex.org/A5086614028
+  orcid: https://orcid.org/0000-0002-8938-1743
+  wikipedia: https://en.wikipedia.org/wiki/Terry_Rudolph
 location:
   city: Palo Alto
   country: United States
@@ -86,18 +86,23 @@ name: Terry Rudolph
 platforms:
 - photonic
 postdocs:
-- institution: University of Vienna
-  advisor: null
+- advisor: null
   advisor_id: null
-  years: '2000–2001'
+  institution: University of Vienna
   source: https://handwiki.org/wiki/Biography:Terry_Rudolph
-- institution: Bell Labs
-  advisor: null
+  years: 2000–2001
+- advisor: null
   advisor_id: null
-  years: '2001–2003'
+  institution: Bell Labs
   source: https://handwiki.org/wiki/Biography:Terry_Rudolph
+  years: 2001–2003
+qubit_type:
+- Single photons
+- Cluster states
 schema_version: 2
 sort_name: Rudolph, Terry
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 5
 ---
+
+Terry Rudolph is a theoretical physicist at Imperial College London and a co-founder of PsiQuantum. His work develops photonic quantum computing, including measurement-based and fusion-based architectures that build large entangled cluster states from single photons for fault-tolerant computation.

@@ -11,18 +11,39 @@ current_position:
   source: https://nanohub.org/members/143677
   title: Professor of Experimental Nano-Optics
 education:
-- degree: Diplom (Physics)
-  institution: Ludwig-Maximilians-Universität München (LMU Munich)
-  year: 1991
-  confidence: ambiguous
+- confidence: ambiguous
   degree: PhD (Physics)
-  institution: Ludwig-Maximilians-Universität München (LMU Munich) / Max Planck Institute for Quantum Optics
+  institution: Ludwig-Maximilians-Universität München (LMU Munich) / Max Planck Institute
+    for Quantum Optics
   note: Doctoral work carried out at MPI for Quantum Optics, Garching
   source: https://falling-walls.com/foundation/people/oliver-benson
   year: 1995
 entity_type: person
 group_type: experimental
 id: 134-oliver-benson
+key_papers:
+- doi: 10.1038/17295
+  role: co_author
+  title: A single-photon turnstile device
+  year: 1999
+- doi: 10.1103/PhysRevLett.84.2513
+  role: first_author
+  title: Regulated and entangled photons from a single quantum dot
+  year: 2000
+- doi: 10.1063/1.3499300
+  role: senior_author
+  title: Enhancement of the zero phonon line emission from a single nitrogen vacancy
+    center in a nanodiamond via coupling to a photonic crystal cavity
+  year: 2010
+- doi: 10.1088/1367-2630/13/5/055017
+  role: senior_author
+  title: Ultrabright and efficient single-photon generation based on nitrogen-vacancy
+    centres in nanodiamonds on a solid immersion lens
+  year: 2011
+- doi: 10.1038/s41566-020-0609-x
+  role: co_author
+  title: Hybrid integrated quantum photonic circuits
+  year: 2020
 keywords:
 - Photonic and Optical Devices
 - Quantum Information and Cryptography
@@ -51,29 +72,6 @@ location:
   lat: 52.524368
   lon: 13.41053
   precision: city
-key_papers:
-- doi: 10.1038/17295
-  role: co_author
-  title: A single-photon turnstile device
-  year: 1999
-- doi: 10.1103/PhysRevLett.84.2513
-  role: first_author
-  title: Regulated and entangled photons from a single quantum dot
-  year: 2000
-- doi: 10.1063/1.3499300
-  role: senior_author
-  title: Enhancement of the zero phonon line emission from a single nitrogen vacancy
-    center in a nanodiamond via coupling to a photonic crystal cavity
-  year: 2010
-- doi: 10.1088/1367-2630/13/5/055017
-  role: senior_author
-  title: Ultrabright and efficient single-photon generation based on nitrogen-vacancy
-    centres in nanodiamonds on a solid immersion lens
-  year: 2011
-- doi: 10.1038/s41566-020-0609-x
-  role: co_author
-  title: Hybrid integrated quantum photonic circuits
-  year: 2020
 metrics:
   citation_count: 12447
   h_index: 51
@@ -87,15 +85,11 @@ postdocs:
 - advisor: Yoshihisa Yamamoto
   advisor_id: null
   confidence: confirmed
-  institution: Stanford University (Edward L. Ginzton Laboratory)
-  note: Feodor Lynen Fellowship from the Alexander von Humboldt Foundation. Turned
-    to solid-state quantum optics; single-photon turnstile device work.
-  years: 1997-1999
-  advisor_id: null
-  confidence: confirmed
   institution: Universität Konstanz
   note: Led Emmy-Noether Junior Research Group (DFG) before Berlin appointment.
   years: 1999-2001
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Benson, Oliver
 thesis:
@@ -104,7 +98,7 @@ thesis:
     thesis title not publicly available.
   title: Unknown
   year: 1995
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
 

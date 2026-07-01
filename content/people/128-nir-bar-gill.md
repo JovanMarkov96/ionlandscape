@@ -92,9 +92,11 @@ postdocs:
   note: Studied many-body spin physics and coherence properties of NV centres in diamond.
   source: https://nano.huji.ac.il/meet-researcher-prof-nir-bar-gill
   years: 2010-2013
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Bar-Gill, Nir
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
 

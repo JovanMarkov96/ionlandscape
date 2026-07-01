@@ -11,37 +11,41 @@ current_position:
   title: Professeur des universités (classe exceptionnelle)
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: Institut d'Optique Graduate School
-  year: 1992
-  advisor: Philippe Grangier
+- advisor: Philippe Grangier
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: Institut d'Optique Graduate School
   source: https://www.universite-paris-saclay.fr/en/news/jean-francois-roch-when-diamond-defects-transform-matter
+  year: 1992
 entity_type: person
 group_type: experimental
 id: 132-jean-francois-roch
 key_papers:
-- title: 'Experimental Realization of Wheeler''s Delayed-Choice Gedanken Experiment'
+- doi: 10.1126/science.1136303
+  role: senior_author
+  title: Experimental Realization of Wheeler's Delayed-Choice Gedanken Experiment
   year: 2007
-  doi: 10.1126/science.1136303
+- doi: 10.1126/science.aaw4329
   role: senior_author
-- title: Magnetic measurements on micrometer-sized samples under high pressure using designed NV centers
+  title: Magnetic measurements on micrometer-sized samples under high pressure using
+    designed NV centers
   year: 2019
-  doi: 10.1126/science.aaw4329
+- doi: 10.1126/science.1250113
   role: senior_author
-- title: Nanoscale imaging and control of domain-wall hopping with a nitrogen-vacancy center microscope
+  title: Nanoscale imaging and control of domain-wall hopping with a nitrogen-vacancy
+    center microscope
   year: 2014
-  doi: 10.1126/science.1250113
+- doi: 10.1038/ncomms7733
   role: senior_author
-- title: The nature of domain walls in ultrathin ferromagnets revealed by scanning nanomagnetometry
+  title: The nature of domain walls in ultrathin ferromagnets revealed by scanning
+    nanomagnetometry
   year: 2015
-  doi: 10.1038/ncomms7733
+- doi: 10.1103/PhysRevB.107.L220102
   role: senior_author
-- title: Enabling quantum sensing under extreme pressure — Nitrogen-vacancy magnetometry up to 130 GPa
+  title: Enabling quantum sensing under extreme pressure — Nitrogen-vacancy magnetometry
+    up to 130 GPa
   year: 2023
-  doi: 10.1103/PhysRevB.107.L220102
-  role: senior_author
 keywords:
 - Diamond and Carbon-based Materials Research
 - NV center quantum sensing
@@ -52,8 +56,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-30'
+  postdoc_verified: false
 links:
   institution_profile: https://ens-paris-saclay.fr/lecole/enseignants-chercheurs/jean-francois-roch
   openalex: https://openalex.org/A5041645047
@@ -74,8 +78,12 @@ metrics:
 name: Jean-François Roch
 platforms:
 - nv_center
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Roch, Jean-François
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
+
+Jean-François Roch is a physicist at ENS Paris-Saclay working on nitrogen-vacancy (NV) centres in diamond, single-photon sources and quantum sensing, including measurements under extreme pressures.

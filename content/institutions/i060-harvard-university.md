@@ -19,7 +19,10 @@ media:
   logo_path: /img/institutions/i060-harvard-university_mark.png
 name: Harvard University
 platforms_represented:
+- color_center
 - neutral_atom
+- nv_center
+- quantum_dot
 - rydberg_array
 - trapped_molecule
 schema_version: 1

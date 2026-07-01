@@ -20,6 +20,7 @@ media:
   logo_path: /img/institutions/i046-university-of-innsbruck_mark.png
 name: University of Innsbruck
 platforms_represented:
+- cavity_qed_hybrid
 - neutral_atom
 - rydberg_array
 - trapped_ion

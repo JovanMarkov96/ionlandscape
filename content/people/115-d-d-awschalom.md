@@ -7,42 +7,42 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: University of Chicago
+  since_year: 2013
   source: https://pme.uchicago.edu/faculty/david-awschalom
   title: Liew Family Professor in Molecular Engineering
-  since_year: 2013
   verified_at: '2026-05-26'
 education:
-- degree: PhD
-  institution: Cornell University
-  year: 1982
-  advisor: null
+- advisor: null
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: Cornell University
   source: https://news.uchicago.edu/profile/david-d-awschalom
+  year: 1982
 entity_type: person
 group_type: experimental
 id: 115-d-d-awschalom
 key_papers:
-- title: 'Room temperature coherent control of defect spin qubits in silicon carbide'
-  year: 2011
-  doi: 10.1038/nature10562
+- doi: 10.1038/nature10562
   role: senior_author
-- title: 'Quantum spintronics: Engineering and manipulating atom-like spins in semiconductors'
+  title: Room temperature coherent control of defect spin qubits in silicon carbide
+  year: 2011
+- doi: 10.1126/science.1231364
+  role: first_author
+  title: 'Quantum spintronics: Engineering and manipulating atom-like spins in semiconductors'
   year: 2013
-  doi: 10.1126/science.1231364
-  role: first_author
-- title: 'Spin-light coherence for single-spin measurement and control in diamond'
+- doi: 10.1126/science.1196436
+  role: senior_author
+  title: Spin-light coherence for single-spin measurement and control in diamond
   year: 2010
-  doi: 10.1126/science.1196436
-  role: senior_author
-- title: 'Quantum technologies with optically interfaced solid-state spins'
-  year: 2018
-  doi: 10.1038/s41566-018-0232-2
+- doi: 10.1038/s41566-018-0232-2
   role: first_author
-- title: 'A quantum memory intrinsic to single nitrogen-vacancy centres in diamond'
-  year: 2011
-  doi: 10.1038/nphys2026
+  title: Quantum technologies with optically interfaced solid-state spins
+  year: 2018
+- doi: 10.1038/nphys2026
   role: senior_author
+  title: A quantum memory intrinsic to single nitrogen-vacancy centres in diamond
+  year: 2011
 keywords:
 - spin qubits
 - NV centers
@@ -54,8 +54,8 @@ keywords:
 last_verified_at: '2026-05-26'
 lineage_check:
   advisor_verified: false
-  postdoc_verified: false
   last_checked: '2026-05-26'
+  postdoc_verified: false
 links:
   group_page: https://pme.uchicago.edu/group/awschalom-group
   institution_profile: https://pme.uchicago.edu/faculty/david-awschalom
@@ -78,8 +78,13 @@ name: David D. Awschalom
 platforms:
 - nv_center
 - color_center
+qubit_type:
+- NV center
+- SiC divacancy
 schema_version: 2
 sort_name: Awschalom, David D.
-updated_at: '2026-05-26'
+updated_at: '2026-07-01'
 verification_source_count: 5
 ---
+
+David Awschalom is a physicist at the University of Chicago and Argonne National Laboratory and a leader in spintronics and quantum information with defects in wide-bandgap crystals. His group studies nitrogen-vacancy (NV) centres in diamond and divacancies in silicon carbide for quantum sensing, communication and computing, and he directs a national quantum-networking effort.

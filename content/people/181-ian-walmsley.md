@@ -12,21 +12,22 @@ current_position:
   title: Director, Oxford Quantum Institute; Professor of Physics
   verified_at: '2026-05-30'
 education:
-- degree: BSc (Physics)
+- advisor: null
+  advisor_id: null
+  confidence: confirmed
+  degree: BSc (Physics)
   institution: Imperial College London
+  source: https://handwiki.org/wiki/Biography:Ian_Walmsley
   year: null
-  advisor: null
+- advisor: Michael G. Raymer
   advisor_id: null
   confidence: confirmed
-  source: https://handwiki.org/wiki/Biography:Ian_Walmsley
-- degree: PhD (Optics)
+  degree: PhD (Optics)
   institution: University of Rochester (Institute of Optics)
-  year: 1986
-  advisor: Michael G. Raymer
-  advisor_id: null
-  confidence: confirmed
+  note: PhD at the Institute of Optics, University of Rochester; advisor Michael G.
+    Raymer confirmed via HandWiki biography.
   source: https://handwiki.org/wiki/Biography:Ian_Walmsley
-  note: PhD at the Institute of Optics, University of Rochester; advisor Michael G. Raymer confirmed via HandWiki biography.
+  year: 1986
 entity_type: person
 group_type: experimental
 id: 181-ian-walmsley
@@ -67,10 +68,10 @@ lineage_check:
   last_checked: '2026-05-30'
   postdoc_verified: false
 links:
-  wikipedia: https://en.wikipedia.org/wiki/Ian_Walmsley
   group_page: https://www.physics.ox.ac.uk/our-people/walmsley
   openalex: https://openalex.org/A5058419009
   orcid: https://orcid.org/0000-0002-8899-2020
+  wikipedia: https://en.wikipedia.org/wiki/Ian_Walmsley
 location:
   city: Oxford
   country: United Kingdom
@@ -87,9 +88,12 @@ metrics:
 name: Ian Walmsley
 platforms:
 - photonic
+qubit_type:
+- Single photons
 schema_version: 2
 sort_name: Walmsley, Ian
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 6
 ---
+
 Ian Alexander Walmsley CBE FRS is Director of the Oxford Quantum Institute and Professor of Physics at the University of Oxford (from October 2025). He is a world-leading expert in ultrafast and quantum optics, known for inventing the SPIDER (Spectral Phase Interferometry for Direct Electric-field Reconstruction) technique for ultrashort-pulse characterisation, and for foundational contributions to photonic quantum computing, quantum memories, and photon-pair generation. He received his BSc from Imperial College London and his PhD (1986) from the Institute of Optics, University of Rochester, under Michael G. Raymer, before joining the Rochester faculty (1988–2001, including Director of the Institute 2000–2001). He then moved to Oxford as Hooke Professor of Experimental Physics and Pro-Vice-Chancellor for Research, before serving as Provost and Chair of Experimental Physics at Imperial College London (2018–2025). He is a co-founder of ORCA Computing (2019) and was Director of the Networked Quantum Information Technologies (NQIT) Hub. He was elected Fellow of the Royal Society in 2012 and awarded the Rumford Medal in 2018.

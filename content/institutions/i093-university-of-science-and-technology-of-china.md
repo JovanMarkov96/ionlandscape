@@ -20,6 +20,8 @@ media:
 name: University of Science and Technology of China
 platforms_represented:
 - nv_center
+- photonic
+- quantum_dot
 schema_version: 1
 updated_at: '2026-05-26'
 verification_source_count: 1

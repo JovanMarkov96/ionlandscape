@@ -17,7 +17,10 @@ media:
   logo_path: /img/institutions/i017-massachusetts-institute-of-technology_mark.png
 name: Massachusetts Institute of Technology
 platforms_represented:
+- color_center
 - neutral_atom
+- nv_center
+- photonic
 - rydberg_array
 - superconducting
 - trapped_ion

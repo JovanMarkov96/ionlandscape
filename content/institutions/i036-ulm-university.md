@@ -18,6 +18,7 @@ media:
 name: Ulm University
 platforms_represented:
 - neutral_atom
+- nv_center
 - trapped_ion
 schema_version: 1
 short_description: 'Ulm University (German: Universität Ulm) is a public university

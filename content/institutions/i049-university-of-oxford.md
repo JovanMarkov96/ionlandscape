@@ -18,6 +18,7 @@ media:
 name: University of Oxford
 platforms_represented:
 - neutral_atom
+- photonic
 - superconducting
 - trapped_ion
 schema_version: 1

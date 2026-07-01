@@ -7,42 +7,44 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Australian National University
+  since_year: 2012
   source: https://physics.anu.edu.au/contact/people/profile.php?ID=1355
   title: Honorary Professor
-  since_year: 2012
   verified_at: '2026-05-29'
 education:
-- degree: PhD (Physics)
-  institution: University of Melbourne
-  year: 2012
-  advisor: Lloyd C. L. Hollenberg
+- advisor: Lloyd C. L. Hollenberg
   advisor_id: 138-lloyd-c-l-hollenberg
   confidence: confirmed
+  degree: PhD (Physics)
+  institution: University of Melbourne
   source: https://findanexpert.unimelb.edu.au/scholarlywork/1470996-the-theory-of-the-nitrogen-vacancy-colour-centre-in-diamond
+  year: 2012
 entity_type: person
 group_type: mixed
 id: 119-marcus-w-doherty
 key_papers:
-- title: "The nitrogen-vacancy colour centre in diamond"
+- doi: 10.1016/j.physrep.2013.02.001
+  role: first_author
+  title: The nitrogen-vacancy colour centre in diamond
   year: 2013
-  doi: 10.1016/j.physrep.2013.02.001
-  role: first_author
-- title: "Electric-field sensing using single diamond spins"
-  year: 2011
-  doi: 10.1038/nphys1969
+- doi: 10.1038/nphys1969
   role: co_author
-- title: "Theory of the ground-state spin of the NV- center in diamond"
-  year: 2012
-  doi: 10.1103/PhysRevB.85.205203
-  role: first_author
-- title: "Electronic Properties and Metrology Applications of the Diamond NV- Center under Pressure"
-  year: 2014
-  doi: 10.1103/PhysRevLett.112.047601
-  role: first_author
-- title: "The negatively charged nitrogen-vacancy centre in diamond: the electronic solution"
+  title: Electric-field sensing using single diamond spins
   year: 2011
-  doi: 10.1088/1367-2630/13/2/025019
+- doi: 10.1103/PhysRevB.85.205203
   role: first_author
+  title: Theory of the ground-state spin of the NV- center in diamond
+  year: 2012
+- doi: 10.1103/PhysRevLett.112.047601
+  role: first_author
+  title: Electronic Properties and Metrology Applications of the Diamond NV- Center
+    under Pressure
+  year: 2014
+- doi: 10.1088/1367-2630/13/2/025019
+  role: first_author
+  title: 'The negatively charged nitrogen-vacancy centre in diamond: the electronic
+    solution'
+  year: 2011
 keywords:
 - NV center theory and electronic structure
 - Diamond quantum sensing
@@ -52,8 +54,8 @@ keywords:
 last_verified_at: '2026-05-29'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: false
   last_checked: '2026-05-29'
+  postdoc_verified: false
 links:
   google_scholar: https://scholar.google.com/citations?user=0JXIYckAAAAJ
   group_page: https://physics.anu.edu.au/laser/
@@ -77,13 +79,17 @@ name: Marcus W. Doherty
 platforms:
 - nv_center
 postdocs:
-- institution: Australian National University
-  advisor: Neil B. Manson
+- advisor: Neil B. Manson
   advisor_id: null
-  years: "2012"
+  institution: Australian National University
   source: https://physics.anu.edu.au/contact/people/profile.php?ID=1355
+  years: '2012'
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Doherty, Marcus W.
-updated_at: '2026-05-29'
+updated_at: '2026-07-01'
 verification_source_count: 4
 ---
+
+Marcus Doherty is a theoretical physicist (Australian National University) known for the theory of the nitrogen-vacancy (NV) centre in diamond, which underpins NV-based quantum sensing and information.

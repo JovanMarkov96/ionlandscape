@@ -12,13 +12,22 @@ current_position:
 entity_type: person
 group_type: experimental
 id: 264-evelyn-hu
+key_papers:
+- doi: 10.1038/nature05586
+  role: co_author
+  title: Quantum nature of a strongly coupled single quantum dot-cavity system
+  year: 2007
+- doi: 10.1126/science.290.5500.2282
+  role: co_author
+  title: A Quantum Dot Single-Photon Turnstile Device
+  year: 2000
 last_verified_at: '2026-06-02'
 links:
-  group_page: https://hugroup.seas.harvard.edu/
   google_scholar: https://scholar.google.com/citations?user=eqYc1O8AAAAJ
-  orcid: https://orcid.org/0000-0002-8805-1405
-  openalex: https://openalex.org/A5009837711
+  group_page: https://hugroup.seas.harvard.edu/
   homepage: https://seas.harvard.edu/
+  openalex: https://openalex.org/A5009837711
+  orcid: https://orcid.org/0000-0002-8805-1405
   wikipedia: https://en.wikipedia.org/wiki/Evelyn_Hu
 location:
   city: Cambridge
@@ -31,6 +40,8 @@ name: Evelyn Hu
 platforms:
 - color_center
 - quantum_dot
+qubit_type:
+- Color centers
 schema_version: 2
 sort_name: Hu, Evelyn
 sources:
@@ -38,9 +49,8 @@ sources:
   url: https://seas.harvard.edu/
 - note: Biography
   url: https://en.wikipedia.org/wiki/Evelyn_Hu
-updated_at: '2026-06-02'
+updated_at: '2026-07-01'
 verification_source_count: 2
 ---
-
 
 Evelyn Hu is an applied physicist at Harvard working on nanophotonics and quantum materials, including color centers and quantum-dot devices.

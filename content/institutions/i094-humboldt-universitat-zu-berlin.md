@@ -22,6 +22,7 @@ media:
 name: Humboldt University of Berlin
 platforms_represented:
 - nv_center
+- photonic
 schema_version: 1
 short_description: Known in its native language as Humboldt-Universität zu Berlin.
 updated_at: '2026-05-26'

@@ -20,6 +20,7 @@ media:
 name: Princeton University
 platforms_represented:
 - neutral_atom
+- nv_center
 - rydberg_array
 - superconducting
 - trapped_molecule

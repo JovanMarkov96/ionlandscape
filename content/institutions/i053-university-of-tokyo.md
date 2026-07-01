@@ -20,6 +20,7 @@ media:
   logo_path: /img/institutions/i053-university-of-tokyo_mark.png
 name: University of Tokyo
 platforms_represented:
+- photonic
 - trapped_ion
 schema_version: 1
 short_description: 'The University of Tokyo (東京大学, Tōkyō daigaku, abbreviated as Tōdai

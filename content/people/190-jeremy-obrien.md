@@ -85,9 +85,13 @@ name: Jeremy L. O'Brien
 platforms:
 - photonic
 postdocs: []
+qubit_type:
+- Integrated photonics
+- Single photons
 schema_version: 2
 sort_name: O'Brien, Jeremy L.
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 5
 ---
+
 Jeremy L. O'Brien is an experimental quantum physicist who pioneered integrated quantum photonics and co-founded PsiQuantum, the world's largest quantum computing start-up by funding. He received his PhD in physics from the University of New South Wales in 2002, then held a research fellowship at the University of Queensland (2001–2006) before becoming Professor of Physics and Electrical Engineering at the University of Bristol (2006–2016), where he founded and directed the Centre for Quantum Photonics (CQP) and the Quantum Engineering Technology Labs (QET Labs). In 2016 he co-founded PsiQuantum with Terry Rudolph, Pete Shadbolt, and Mark Thompson to build utility-scale fault-tolerant quantum computers using a silicon photonics manufacturing platform. He served as CEO until February 2026, when he became Executive Chairman. O'Brien demonstrated the first optical two-qubit CNOT gate (Nature, 2003), invented integrated quantum photonics by implementing quantum circuits on silica-on-silicon waveguide chips (Science, 2008), and co-invented the variational quantum eigensolver (VQE) algorithm on a photonic processor (Nature Communications, 2014). His group built the first universal linear optics processor (Science, 2015) and implemented Shor's factoring algorithm on a photonic chip (Science, 2009). He holds an h-index of 92 with over 51,000 citations.

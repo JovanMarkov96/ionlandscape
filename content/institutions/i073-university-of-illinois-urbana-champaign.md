@@ -20,6 +20,7 @@ media:
 name: University of Illinois Urbana-Champaign
 platforms_represented:
 - neutral_atom
+- nv_center
 - rydberg_array
 - superconducting
 schema_version: 1

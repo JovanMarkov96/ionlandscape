@@ -54,7 +54,9 @@ media:
   logo_path: /img/institutions/weizmann_logo_mark.png
 name: Weizmann Institute of Science
 platforms_represented:
+- cavity_qed_hybrid
 - neutral_atom
+- photonic
 - rydberg_array
 - superconducting
 - trapped_ion

@@ -13,10 +13,24 @@ current_position:
 entity_type: person
 group_type: experimental
 id: 222-h-jeff-kimble
+key_papers:
+- doi: 10.1038/nature07127
+  role: first_author
+  title: The quantum internet
+  year: 2008
+- doi: 10.1126/science.282.5389.706
+  role: co_author
+  title: Unconditional Quantum Teleportation
+  year: 1998
+- doi: 10.1103/physrevlett.78.3221
+  role: co_author
+  title: Quantum State Transfer and Entanglement Distribution among Distant Nodes
+    in a Quantum Network
+  year: 1997
 last_verified_at: '2026-06-02'
 links:
-  orcid: https://orcid.org/0000-0002-5513-9638
   openalex: https://openalex.org/A5088589128
+  orcid: https://orcid.org/0000-0002-5513-9638
   wikipedia: https://en.wikipedia.org/wiki/H._Jeff_Kimble
 location:
   city: Pasadena
@@ -36,9 +50,8 @@ sources:
   url: https://en.wikipedia.org/wiki/H._Jeff_Kimble
 - note: Caltech faculty affiliation
   url: https://www.caltech.edu/
-updated_at: '2026-06-02'
+updated_at: '2026-07-01'
 verification_source_count: 2
 ---
-
 
 H. Jeff Kimble is a pioneer of experimental quantum optics and cavity QED at Caltech. His group demonstrated landmark results in photon antibunching, quantum teleportation of light, and the concept of the "quantum internet" built from atom-photon interfaces.

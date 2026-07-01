@@ -89,8 +89,12 @@ metrics:
 name: Marco Bellini
 platforms:
 - photonic
+qubit_type:
+- Squeezed light / CV
 schema_version: 2
 sort_name: Bellini, Marco
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 5
 ---
+
+Marco Bellini is a physicist at the National Institute of Optics (CNR-INO) in Florence working on experimental quantum optics. His group engineers non-classical states of light through single-photon addition and subtraction, probing the particle-wave nature of light and continuous-variable quantum states.

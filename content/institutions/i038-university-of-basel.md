@@ -17,6 +17,7 @@ media:
   logo_path: /img/institutions/i038-university-of-basel_mark.png
 name: University of Basel
 platforms_represented:
+- nv_center
 - trapped_ion
 - trapped_molecule
 schema_version: 1

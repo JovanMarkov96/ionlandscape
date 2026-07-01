@@ -20,6 +20,7 @@ media:
 name: University of Stuttgart
 platforms_represented:
 - neutral_atom
+- nv_center
 - rydberg_array
 schema_version: 1
 updated_at: '2026-05-26'

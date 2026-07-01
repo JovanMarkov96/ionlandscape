@@ -17,6 +17,8 @@ media:
   logo_path: /img/institutions/i043-university-of-california-los-angeles_mark.png
 name: University of California Los Angeles
 platforms_represented:
+- quantum_dot
+- silicon_spin
 - trapped_ion
 - trapped_molecule
 schema_version: 1

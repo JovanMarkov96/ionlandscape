@@ -7,42 +7,43 @@ created_at: '2026-05-26'
 current_position:
   confidence: confirmed
   institution: Cornell University
+  since_year: 2011
   source: https://www.duffield.cornell.edu/people/gregory-david-fuchs/
   title: James R. Meehl Professor of Applied and Engineering Physics
-  since_year: 2011
   verified_at: '2026-05-30'
 education:
-- degree: PhD
-  institution: Cornell University
-  year: 2007
-  advisor: Robert A. Buhrman
+- advisor: Robert A. Buhrman
   advisor_id: null
   confidence: confirmed
+  degree: PhD
+  institution: Cornell University
   source: https://cpb-us-w2.wpmucdn.com/sites.coecis.cornell.edu/dist/8/162/files/2017/09/Robert-A-Buhrman-CV-s2riry.pdf
+  year: 2007
 entity_type: person
 group_type: experimental
 id: 125-gregory-d-fuchs
 key_papers:
-- title: 'Gigahertz dynamics of a strongly driven single quantum spin'
+- doi: 10.1126/science.1181193
+  role: first_author
+  title: Gigahertz dynamics of a strongly driven single quantum spin
   year: 2009
-  doi: 10.1126/science.1181193
+- doi: 10.1038/nphys2026
   role: first_author
-- title: 'A quantum memory intrinsic to single nitrogen-vacancy centres in diamond'
+  title: A quantum memory intrinsic to single nitrogen-vacancy centres in diamond
   year: 2011
-  doi: 10.1038/nphys2026
-  role: first_author
-- title: 'Spin-light coherence for single-spin measurement and control in diamond'
-  year: 2010
-  doi: 10.1126/science.1196436
+- doi: 10.1126/science.1196436
   role: co_author
-- title: 'Mechanical spin control of nitrogen-vacancy centers in diamond'
+  title: Spin-light coherence for single-spin measurement and control in diamond
+  year: 2010
+- doi: 10.1103/PhysRevLett.111.227602
+  role: senior_author
+  title: Mechanical spin control of nitrogen-vacancy centers in diamond
   year: 2013
-  doi: 10.1103/PhysRevLett.111.227602
+- doi: 10.1038/s41467-020-19121-0
   role: senior_author
-- title: 'Broadband multi-magnon relaxometry using a quantum spin sensor for high frequency ferromagnetic dynamics sensing'
+  title: Broadband multi-magnon relaxometry using a quantum spin sensor for high frequency
+    ferromagnetic dynamics sensing
   year: 2020
-  doi: 10.1038/s41467-020-19121-0
-  role: senior_author
 keywords:
 - NV center spin control
 - quantum memory
@@ -54,8 +55,8 @@ keywords:
 last_verified_at: '2026-05-30'
 lineage_check:
   advisor_verified: true
-  postdoc_verified: true
   last_checked: '2026-05-30'
+  postdoc_verified: true
 links:
   group_page: https://fuchs.research.engineering.cornell.edu/
   institution_profile: https://www.duffield.cornell.edu/people/gregory-david-fuchs/
@@ -77,8 +78,12 @@ metrics:
 name: Gregory D. Fuchs
 platforms:
 - nv_center
+qubit_type:
+- NV center
 schema_version: 2
 sort_name: Fuchs, Gregory D.
-updated_at: '2026-05-30'
+updated_at: '2026-07-01'
 verification_source_count: 5
 ---
+
+Gregory Fuchs is a physicist at Cornell University working with nitrogen-vacancy (NV) centres in diamond, including spin-mechanical and spin-magnon coupling and high-speed coherent spin control.

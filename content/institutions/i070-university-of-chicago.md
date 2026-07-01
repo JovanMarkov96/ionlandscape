@@ -19,7 +19,11 @@ media:
   logo_path: /img/institutions/i070-university-of-chicago_mark.png
 name: University of Chicago
 platforms_represented:
+- cavity_qed_hybrid
+- color_center
 - neutral_atom
+- nv_center
+- quantum_dot
 - rydberg_array
 - superconducting
 schema_version: 1
