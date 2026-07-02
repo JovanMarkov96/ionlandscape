@@ -10,12 +10,14 @@ Parses Markdown person files in content/people/*.md and generates:
 Run: python scripts/build_index.py
 """
 import os
+import sys
 import glob
 import json
 import csv
 import frontmatter
 import re
 import unicodedata
+from collections import Counter
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -52,7 +54,7 @@ company_features = []
 institution_features = []
 edges = []  # tuples: (source_id, target_id, type)
 
-for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
+for md_path in sorted(glob.glob(os.path.join(CONTENT_DIR, "*.md"))):
     if md_path.endswith(".evidence.md"):
         continue
     post = frontmatter.load(md_path)
@@ -62,7 +64,7 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
     pid = meta.get("id") or slugify(meta.get("name") or base)
     # Prefer explicit frontmatter name; otherwise derive from filename base
     name = meta.get("name") or smart_title(re.sub(r'^(i\d+-)?', '', base).replace('-', ' ').strip())
-    location = meta.get("location", {})
+    location = meta.get("location") or {}
     lat = location.get("lat")
     lon = location.get("lon")
     if lat is None or lon is None:
@@ -79,6 +81,7 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
         "id": pid,
         "name": name,
         "sort_name": meta.get("sort_name", ""),
+        "aliases": meta.get("aliases", []) or [],
         "current_position": meta.get("current_position", {}),
         "platforms": meta.get("platforms", []),
         "affiliations": meta.get("affiliations", []),
@@ -168,7 +171,8 @@ for md_path in glob.glob(os.path.join(CONTENT_DIR, "*.md")):
         edges.append((pid, inst, "affiliated_with"))
 
 # Process Companies
-for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
+parse_errors = 0
+for md_path in sorted(glob.glob(os.path.join(COMPANIES_DIR, "*.md"))):
     if md_path.endswith(".evidence.md"):
         continue
     try:
@@ -177,7 +181,7 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
         base = os.path.splitext(os.path.basename(md_path))[0]
         cid = meta.get("id") or slugify(meta.get("name") or base)
         name = meta.get("name") or smart_title(re.sub(r'^(c\d+-)?', '', base).replace('-', ' ').strip())
-        location = meta.get("location", {})
+        location = meta.get("location") or {}
         lat = location.get("lat")
         lon = location.get("lon")
         
@@ -191,6 +195,7 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
             "id": cid,
             "name": name,
             "sort_name": meta.get("sort_name", name),
+            "aliases": meta.get("aliases", []) or [],
             "entity_type": "company",
             "platforms": meta.get("platforms", []),
             "qubit_type": meta.get("qubit_type"),
@@ -229,7 +234,7 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
             # Check current position
             cp = person.get("current_position", {})
             if isinstance(cp, dict):
-                p_inst = cp.get("institution", "").lower().strip()
+                p_inst = (cp.get("institution") or "").lower().strip()
                 if p_inst in match_names:
                     is_current = True
             
@@ -291,10 +296,11 @@ for md_path in glob.glob(os.path.join(COMPANIES_DIR, "*.md")):
         company_features.append(feature)
 
     except Exception as e:
+        parse_errors += 1
         print(f"Error processing company {md_path}: {e}")
 
 # Process Institutions
-for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
+for md_path in sorted(glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md"))):
     if md_path.endswith(".evidence.md"):
         continue
     try:
@@ -303,7 +309,7 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
         base = os.path.splitext(os.path.basename(md_path))[0]
         iid = meta.get("id") or slugify(meta.get("name") or base)
         name = meta.get("name") or smart_title(re.sub(r'^(i\d+-)?', '', base).replace('-', ' ').strip())
-        location = meta.get("location", {})
+        location = meta.get("location") or {}
         lat = location.get("lat")
         lon = location.get("lon")
 
@@ -323,7 +329,7 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
             # Check current position
             cp = person.get("current_position", {})
             if isinstance(cp, dict):
-                p_inst = cp.get("institution", "").lower().strip()
+                p_inst = (cp.get("institution") or "").lower().strip()
                 if p_inst in match_names:
                     is_current = True
             
@@ -357,15 +363,16 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
                     if spin.get("institution_id") == iid or spin.get("name", "").lower().strip() in match_names:
                         company_spinouts.append(company["id"])
 
+        # Skip entries that are actually companies (e.g. IonQ) — must run
+        # before edge emission so skipped files don't leave dangling edges.
+        if meta.get("entity_type") == "company":
+            continue
+
         # Edges from leadership
         for leader in meta.get("leadership", []):
             l_name = leader.get("name")
             if l_name:
                 edges.append((leader.get("person_id") or l_name, iid, "leadership"))
-
-        # Skip entries that are actually companies (e.g. IonQ)
-        if meta.get("entity_type") == "company":
-            continue
 
         # Diversify sources: include the institution's own website alongside Wikipedia
         inst_sources = list(meta.get("sources", []))
@@ -427,6 +434,7 @@ for md_path in glob.glob(os.path.join(INSTITUTIONS_DIR, "*.md")):
         institution_features.append(feature)
 
     except Exception as e:
+        parse_errors += 1
         print(f"Error processing institution {md_path}: {e}")
 
 # --- Location inheritance: people without coordinates inherit their current
@@ -506,6 +514,13 @@ for person in people:
             _snapped_count += 1
 
 print(f"Location: {_inherited_count} people inherited + {_snapped_count} snapped to institution coordinates")
+
+# Guard: duplicate ids across all entity types would silently last-wins downstream
+_id_counts = Counter([p["id"] for p in people] + [c["id"] for c in companies] + [i["id"] for i in institutions])
+_dups = [k for k, v in _id_counts.items() if v > 1]
+if _dups:
+    print(f"ERROR: duplicate ids across people/companies/institutions: {_dups}")
+    sys.exit(1)
 
 # Write people.json (existing)
 people_json_path = os.path.join(OUT_DIR, "people.json")
@@ -594,8 +609,13 @@ for i in institutions:
     for a in i.get("abbreviations", []):
         _add_keys(i["id"], a)
 
-def _resolve(raw):
-    """Resolve a raw name/id to a node id; None if no confident match."""
+def _resolve(raw, org_fallback=False):
+    """Resolve a raw name/id to a node id; None if no confident match.
+
+    org_fallback enables fuzzy substring/acronym matching against orgs —
+    only safe for endpoints known to be organizations, otherwise a person
+    name like "John Doe (MIT)" would mis-resolve to the institution.
+    """
     if raw in valid_ids:
         return raw
     nk = _norm(raw)
@@ -611,25 +631,30 @@ def _resolve(raw):
     # Org fallback: acronym / substring matching against institutions AND companies
     # (handles "National Institute of Standards and Technology (NIST), Boulder" -> "NIST Boulder"
     #  and "IonQ, Inc. (USA)" -> "IonQ")
-    acronyms = [a.lower() for a in re.findall(r'\b[A-Z]{2,}\b', raw or '')]
-    for entity in list(institutions) + list(companies):
-        ni = _norm(entity.get("name"))
-        if not ni:
-            continue
-        if len(ni) >= 4 and ni in nk:
-            return entity["id"]
-        if len(nk) > 6 and nk in ni:
-            return entity["id"]
-        toks = ni.split(' ')
-        if any(len(a) >= 3 and a in toks for a in acronyms):
-            return entity["id"]
+    if org_fallback:
+        acronyms = [a.lower() for a in re.findall(r'\b[A-Z]{2,}\b', raw or '')]
+        for entity in list(institutions) + list(companies):
+            ni = _norm(entity.get("name"))
+            if not ni:
+                continue
+            if len(ni) >= 4 and ni in nk:
+                return entity["id"]
+            if len(nk) > 6 and nk in ni:
+                return entity["id"]
+            toks = ni.split(' ')
+            if any(len(a) >= 3 and a in toks for a in acronyms):
+                return entity["id"]
     return None
+
+# Edge types whose TARGET endpoint is an organization (fuzzy org matching safe).
+_ORG_TARGET_TYPES = {"affiliated_with", "spun_out_from"}
 
 valid_edges = []
 _seen_edges = set()
 unresolved_edges = []
 for src, tgt, etype in edges:
-    rs, rt = _resolve(src), _resolve(tgt)
+    rs = _resolve(src)
+    rt = _resolve(tgt, org_fallback=etype in _ORG_TARGET_TYPES)
     if rs and rt and rs != rt:
         key = (rs, rt, etype)
         if key not in _seen_edges:
@@ -640,16 +665,18 @@ for src, tgt, etype in edges:
 
 print(f"Edges: {len(valid_edges)} resolved, {len(unresolved_edges)} unresolved")
 
-# Write an unresolved-edges report for human follow-up
-if unresolved_edges:
-    report_dir = os.path.join(ROOT, "reports")
-    os.makedirs(report_dir, exist_ok=True)
-    with open(os.path.join(report_dir, "unresolved_edges.md"), "w", encoding="utf-8") as rf:
-        rf.write("# Unresolved graph edges\n\n")
+# Write an unresolved-edges report for human follow-up (always, so it can't go stale)
+report_dir = os.path.join(ROOT, "reports")
+os.makedirs(report_dir, exist_ok=True)
+with open(os.path.join(report_dir, "unresolved_edges.md"), "w", encoding="utf-8") as rf:
+    rf.write("# Unresolved graph edges\n\n")
+    if unresolved_edges:
         rf.write("Endpoints that could not be matched to a known node.\n\n")
         rf.write("| source | target | type | src ok | tgt ok |\n|---|---|---|---|---|\n")
         for src, tgt, etype, so, to in sorted(unresolved_edges):
             rf.write(f"| {src} | {tgt} | {etype} | {so} | {to} |\n")
+    else:
+        rf.write("None — all edges resolved.\n")
 
 # Write edges.json
 edges_json_path = os.path.join(OUT_DIR, "edges.json")
@@ -672,3 +699,7 @@ print("Wrote:", comp_geojson_path)
 print("Wrote:", inst_geojson_path)
 print("Wrote:", edges_json_path)
 print("Wrote:", edges_path)
+
+if parse_errors:
+    print(f"FAILED: {parse_errors} file(s) had parse errors and were dropped from the output")
+    sys.exit(1)

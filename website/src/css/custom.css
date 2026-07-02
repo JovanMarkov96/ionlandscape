@@ -1,5 +1,5 @@
 /* Custom CSS for Quantum Landscape — Polished Design System (v14) */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700&display=swap');
 
 :root {
   --ifm-color-primary: #4f46e5;
@@ -24,6 +24,21 @@
   --ion-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
   --ion-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.04);
   --ion-shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.06);
+  /* Nanosuit-HUD design tokens (platform switcher) — dark defaults */
+  --hud-line: #5ad1ff;
+  --hud-line-dim: rgba(90, 209, 255, 0.30);
+  --hud-bg-1: rgba(6, 14, 30, 0.88);
+  --hud-bg-2: rgba(10, 22, 44, 0.82);
+  --hud-text: #cfeaff;
+  --hud-font: 'Rajdhani', 'Inter', sans-serif;
+}
+
+[data-theme='light'] {
+  --hud-line: #1f6fbf;
+  --hud-line-dim: rgba(31, 111, 191, 0.35);
+  --hud-bg-1: rgba(244, 249, 255, 0.90);
+  --hud-bg-2: rgba(224, 236, 252, 0.92);
+  --hud-text: #123a63;
 }
 
 /* Full-height layout for map */
@@ -34,11 +49,6 @@ body,
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-.leaflet-container {
-  height: 100%;
-  width: 100%;
 }
 
 /* ===== Map Filters Container (Bottom-Left) */
@@ -109,6 +119,14 @@ body,
 
 /* Map Filter Button Styles for Animation */
 .map-filter-btn {
+  /* Button reset — these are real <button>s for keyboard/screen-reader access */
+  border: 0;
+  background: none;
+  color: inherit;
+  margin: 0;
+  font: inherit;
+  text-align: inherit;
+  width: 100%;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -117,6 +135,11 @@ body,
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
+}
+
+.map-filter-btn:focus-visible {
+  outline: 2px solid var(--hud-line, #5ad1ff);
+  outline-offset: 2px;
 }
 
 .map-filter-btn:hover {
@@ -688,11 +711,11 @@ body,
   color: var(--ifm-color-content) !important;
 }
 
-/* ===== Platform filter: collapsible tech-tile flyout ===== */
+/* ===== Platform filter: nanosuit-HUD tech-tile flyout ===== */
 .map-platforms-divider {
   height: 1px;
   margin: 4px 2px 2px;
-  background: linear-gradient(90deg, transparent, rgba(120, 120, 140, 0.28), transparent);
+  background: linear-gradient(90deg, transparent, var(--hud-line-dim), transparent);
 }
 
 .filter-btn-platforms {
@@ -700,8 +723,8 @@ body,
   border: 1px solid transparent;
 }
 .filter-btn-platforms[data-active="true"] {
-  background: rgba(56, 189, 248, 0.14);
-  border: 1px solid rgba(56, 189, 248, 0.30);
+  background: color-mix(in srgb, var(--hud-line) 14%, transparent);
+  border: 1px solid var(--hud-line-dim);
 }
 .filter-btn-platforms > svg:first-of-type {
   margin-right: 8px;
@@ -709,29 +732,32 @@ body,
   transition: fill 0.2s;
 }
 .filter-btn-platforms[data-active="true"] > svg:first-of-type {
-  fill: #0ea5e9;
+  fill: var(--hud-line);
 }
 .filter-btn-platforms span {
-  font-size: 0.9em;
-  color: #666;
-  font-weight: 500;
+  font-family: var(--hud-font);
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #4a6488;
+  font-weight: 600;
 }
 .filter-btn-platforms[data-active="true"] span {
   color: #0b3a5e;
-  font-weight: 600;
+  font-weight: 700;
 }
-[data-theme='dark'] .filter-btn-platforms span { color: #888; }
+[data-theme='dark'] .filter-btn-platforms span { color: #9fb6d6; }
 [data-theme='dark'] .filter-btn-platforms[data-active="true"] span { color: #cdebff; }
 
-/* Small "filters active" dot. Always rendered (fixed footprint) so toggling
-   it never reflows the panel; only its visibility changes. */
+/* Small "filters active" indicator — HUD hexagon. Always rendered (fixed
+   footprint) so toggling it never reflows the panel; only visibility changes.
+   Flat fill: clip-path would clip any box-shadow/drop-shadow glow anyway. */
 .platforms-active-dot {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 9px;
   margin-left: 6px;
-  border-radius: 50%;
-  background: #0ea5e9;
-  box-shadow: 0 0 7px rgba(14, 165, 233, 0.8);
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: var(--hud-line);
   opacity: 0;
   transform: scale(0.4);
   transition: opacity 0.2s ease, transform 0.2s ease;
@@ -748,120 +774,277 @@ body,
 }
 .filter-btn-platforms[aria-expanded="true"] .platforms-chevron {
   transform: rotate(90deg);
-  color: #0ea5e9;
+  color: var(--hud-line);
 }
 
-/* The flyout panel — opens to the right of the filter stack */
+/* The flyout panel — opens to the right of the filter stack.
+   HUD chamfers are drawn as diagonal accent lines (background layers), not
+   clip-path cuts: clipping the panel would delete its floating box-shadow. */
 .platform-flyout {
   position: absolute;
   left: calc(100% + 14px);
   bottom: 0;
   width: 272px;
   padding: 14px;
-  border-radius: 18px;
-  background: linear-gradient(160deg, rgba(13, 26, 54, 0.82), rgba(8, 16, 36, 0.90));
+  border-radius: 4px;
+  background:
+    linear-gradient(to bottom left, transparent calc(50% - 0.5px), var(--hud-line-dim) calc(50% - 0.5px), var(--hud-line-dim) calc(50% + 0.5px), transparent calc(50% + 0.5px)) top right / 16px 16px no-repeat,
+    linear-gradient(to bottom left, transparent calc(50% - 0.5px), var(--hud-line-dim) calc(50% - 0.5px), var(--hud-line-dim) calc(50% + 0.5px), transparent calc(50% + 0.5px)) bottom left / 8px 8px no-repeat,
+    repeating-linear-gradient(0deg, rgba(90, 209, 255, 0.035) 0 1px, transparent 1px 3px),
+    linear-gradient(160deg, var(--hud-bg-2), var(--hud-bg-1));
   backdrop-filter: blur(18px) saturate(1.6);
   -webkit-backdrop-filter: blur(18px) saturate(1.6);
-  border: 1px solid rgba(56, 189, 248, 0.28);
-  box-shadow: 0 12px 40px rgba(2, 8, 23, 0.55), inset 0 0 26px rgba(56, 189, 248, 0.06);
+  border: 1px solid var(--hud-line-dim);
+  box-shadow: 0 12px 40px rgba(2, 8, 23, 0.55), inset 0 0 26px rgba(90, 209, 255, 0.05);
   transform-origin: left bottom;
   opacity: 0;
   transform: translateX(-10px) scale(0.96);
+  visibility: hidden; /* removes the 10 hidden buttons from the tab order */
   pointer-events: none;
-  transition: opacity 0.22s ease, transform 0.24s cubic-bezier(0.2, 0.9, 0.3, 1.25);
+  transition: opacity 0.22s ease, transform 0.24s cubic-bezier(0.2, 0.9, 0.25, 1), visibility 0s 0.25s;
   z-index: 6;
+  overflow: hidden;
 }
 .platform-flyout.is-open {
   opacity: 1;
   transform: translateX(0) scale(1);
+  visibility: visible;
   pointer-events: auto;
+  /* visibility must flip instantly on open or the panel stays blank mid-fade */
+  transition: opacity 0.22s ease, transform 0.24s cubic-bezier(0.2, 0.9, 0.25, 1), visibility 0s;
+}
+/* One-shot vertical scan line sweeping across on open (left % is relative
+   to the panel, so the sweep spans any panel width incl. mobile) */
+.platform-flyout::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  background: var(--hud-line);
+  opacity: 0;
+  pointer-events: none;
+}
+.platform-flyout.is-open::before {
+  animation: hud-sweep 0.35s ease-out;
+}
+@keyframes hud-sweep {
+  0% { opacity: 0.35; left: 0; }
+  100% { opacity: 0; left: 100%; }
 }
 .platform-flyout-title {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  color: #9fd2ff;
+  align-items: center;
+  font-family: var(--hud-font);
+  color: var(--hud-text);
   font-size: 0.72rem;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 11px;
-  padding-left: 2px;
+  padding: 0 2px 6px;
+  /* 1px underline fading out to the right */
+  background: linear-gradient(90deg, var(--hud-line-dim), transparent 85%) bottom left / 100% 1px no-repeat;
 }
-.platform-flyout-count {
+.platform-flyout-title::before {
+  content: '';
+  width: 6px;
+  height: 8px;
+  margin-right: 6px;
+  background: var(--hud-line);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  flex: none;
+}
+/* "[ N selected ✕ ]" — clears all platform filters */
+.platform-flyout-clear {
+  margin-left: auto;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-family: var(--hud-font);
   font-size: 0.62rem;
   letter-spacing: 0.08em;
+  text-transform: uppercase;
   font-weight: 600;
-  color: #5fb8f0;
-  opacity: 0.9;
+  color: var(--hud-line);
+  min-height: 24px;
+  padding: 2px 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+.platform-flyout-clear::before { content: '['; }
+.platform-flyout-clear::after { content: ']'; }
+.platform-flyout-clear:hover { color: var(--hud-text); }
+.platform-flyout-clear:focus-visible {
+  outline: 2px solid var(--hud-line);
+  outline-offset: 2px;
 }
 .platform-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
 }
+/* Chamfered "nanosuit plate" tile. The button's own background acts as the
+   1px frame; ::after is the inset fill plate (clip-path clips real borders).
+   --accent defaults to the raw per-platform hue; light mode darkens it. */
 .platform-tile {
+  --accent: var(--tile-accent, var(--hud-line));
   position: relative;
+  isolation: isolate;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 6px;
   aspect-ratio: 1 / 1;
-  padding: 6px 4px;
-  border-radius: 12px;
-  background: linear-gradient(155deg, rgba(30, 58, 110, 0.55), rgba(12, 24, 52, 0.65));
-  border: 1px solid rgba(120, 170, 235, 0.18);
+  padding: 8px 4px;
+  border: 0;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  background: var(--hud-line-dim);
   color: #9fb6d6;
   cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, color 0.18s ease, background 0.18s ease;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
   overflow: hidden;
 }
+.platform-tile::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 9px, 100% 100%, 9px 100%, 0 calc(100% - 9px));
+  background: linear-gradient(155deg, var(--hud-bg-2), var(--hud-bg-1));
+  z-index: -1;
+  transition: background 0.18s ease;
+}
 .platform-tile::before {
-  /* faint diagonal scanline sheen */
+  /* diagonal sheen sweep on hover */
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(115deg, transparent 40%, rgba(255, 255, 255, 0.06) 50%, transparent 60%);
+  background: linear-gradient(65deg, transparent 40%, rgba(255, 255, 255, 0.07) 50%, transparent 60%);
   opacity: 0;
   transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+/* Staggered tile intro when the flyout deploys ("backwards" fill so the
+   finished animation releases control back to hover/active transforms). */
+.platform-flyout.is-open .platform-tile {
+  animation: tile-in 180ms cubic-bezier(0.2, 0.9, 0.25, 1) backwards;
+  animation-delay: calc(var(--i, 0) * 24ms);
+}
+@keyframes tile-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 .platform-tile:hover {
-  color: #dbeeff;
-  border-color: rgba(56, 189, 248, 0.55);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(2, 8, 23, 0.45), 0 0 0 1px rgba(56, 189, 248, 0.25);
+  color: #eaf7ff;
+  background: var(--accent);
+  transform: translateY(-1px);
 }
 .platform-tile:hover::before { opacity: 1; }
-.platform-tile.is-active {
+.platform-tile:active { transform: scale(0.97); }
+/* Focus ring can't be an outline (clip-path would clip it away) — light the
+   frame + icon like hover instead. */
+.platform-tile:focus-visible {
   color: #eaf7ff;
-  border-color: rgba(56, 189, 248, 0.9);
-  background: linear-gradient(155deg, rgba(56, 189, 248, 0.28), rgba(14, 40, 84, 0.7));
-  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.6), 0 0 18px rgba(56, 189, 248, 0.35), inset 0 0 14px rgba(56, 189, 248, 0.18);
+  background: var(--accent);
+}
+.platform-tile.is-active {
+  color: #fff;
+  background: var(--accent);
+}
+.platform-tile.is-active::after {
+  /* mix with the opaque panel base, not transparent — the accent-colored
+     frame behind ::after would flood the whole plate otherwise */
+  background: linear-gradient(155deg, color-mix(in srgb, var(--accent) 25%, var(--hud-bg-2)), var(--hud-bg-1));
 }
 .platform-tile-icon {
   display: flex;
-  filter: drop-shadow(0 0 4px rgba(56, 189, 248, 0.25));
+  color: color-mix(in srgb, var(--accent) 70%, #7c93b8);
+  transition: color 0.18s ease;
 }
+.platform-tile-icon svg {
+  filter: drop-shadow(0 0 4px color-mix(in srgb, var(--accent) 25%, transparent));
+  transition: filter 0.18s ease;
+}
+.platform-tile:hover .platform-tile-icon,
+.platform-tile:focus-visible .platform-tile-icon,
 .platform-tile.is-active .platform-tile-icon {
-  filter: drop-shadow(0 0 6px rgba(56, 189, 248, 0.6));
+  color: var(--accent);
 }
+.platform-tile:hover .platform-tile-icon svg,
+.platform-tile:focus-visible .platform-tile-icon svg {
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 45%, transparent));
+}
+.platform-tile.is-active .platform-tile-icon svg {
+  filter: drop-shadow(0 0 6px var(--accent));
+}
+/* HUD corner brackets on selected tiles — anchored to the tile (the icon
+   span must stay filter-free or it becomes their containing block). */
+.platform-tile-icon::before,
+.platform-tile-icon::after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  opacity: 0;
+  transition: opacity 0.18s ease;
+  pointer-events: none;
+}
+.platform-tile-icon::before {
+  top: 3px;
+  left: 3px;
+  border-top: 1.5px solid var(--accent);
+  border-left: 1.5px solid var(--accent);
+}
+.platform-tile-icon::after {
+  bottom: 3px;
+  right: 3px;
+  border-bottom: 1.5px solid var(--accent);
+  border-right: 1.5px solid var(--accent);
+}
+.platform-tile.is-active .platform-tile-icon::before,
+.platform-tile.is-active .platform-tile-icon::after { opacity: 1; }
 .platform-tile-label {
-  font-size: 0.56rem;
+  font-family: var(--hud-font);
+  font-size: 0.6rem;
   line-height: 1.12;
   text-align: center;
   font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--hud-text);
 }
+.platform-tile.is-active .platform-tile-label { color: #fff; }
 .platform-tile-count {
   position: absolute;
-  top: 4px;
-  right: 5px;
-  font-size: 0.54rem;
+  top: 6px;
+  right: 9px;
+  font-family: var(--hud-font);
+  font-size: 0.6rem;
   font-weight: 700;
-  color: #7fb4e6;
-  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+  color: #9fd2ff;
 }
-.platform-tile.is-active .platform-tile-count { color: #bfe6ff; }
+.platform-tile.is-active .platform-tile-count { color: #fff; }
+
+@media (prefers-reduced-motion: reduce) {
+  .platform-flyout,
+  .platform-flyout.is-open,
+  .platform-tile,
+  .platform-tile::before,
+  .platform-tile::after,
+  .platform-tile-icon,
+  .platform-tile-icon svg {
+    transition-duration: 0.01ms;
+    transition-delay: 0s; /* drop the closed-state visibility delay too */
+  }
+  .platform-flyout.is-open::before,
+  .platform-flyout.is-open .platform-tile {
+    animation: none;
+  }
+}
 
 /* On narrow screens, open upward instead of right to avoid overflow */
 @media (max-width: 768px) {
@@ -873,40 +1056,39 @@ body,
   }
 }
 
-/* ── Light-mode theming for the platform flyout ───────────────────────────── */
+/* ── Light-mode theming for the platform flyout ──────────────────────────────
+   Tokens (--hud-*) flip at :root, so most rules adapt automatically. Only
+   genuinely light-specific overrides live here. */
 [data-theme='light'] .platform-flyout {
-  background: linear-gradient(160deg, rgba(255, 255, 255, 0.86), rgba(232, 240, 252, 0.92));
-  border: 1px solid rgba(45, 120, 210, 0.30);
-  box-shadow: 0 12px 40px rgba(31, 56, 110, 0.18), inset 0 0 26px rgba(56, 130, 220, 0.05);
+  /* no scanlines — they read as moiré on a pale gradient; chamfer lines stay */
+  background:
+    linear-gradient(to bottom left, transparent calc(50% - 0.5px), var(--hud-line-dim) calc(50% - 0.5px), var(--hud-line-dim) calc(50% + 0.5px), transparent calc(50% + 0.5px)) top right / 16px 16px no-repeat,
+    linear-gradient(to bottom left, transparent calc(50% - 0.5px), var(--hud-line-dim) calc(50% - 0.5px), var(--hud-line-dim) calc(50% + 0.5px), transparent calc(50% + 0.5px)) bottom left / 8px 8px no-repeat,
+    linear-gradient(160deg, var(--hud-bg-2), var(--hud-bg-1));
+  box-shadow: 0 12px 40px rgba(31, 56, 110, 0.18), inset 0 0 26px rgba(56, 130, 220, 0.04);
 }
-[data-theme='light'] .platform-flyout-title { color: #1f5aa8; }
-[data-theme='light'] .platform-flyout-count { color: #2f7fd0; }
 [data-theme='light'] .platform-tile {
-  background: linear-gradient(155deg, rgba(232, 240, 252, 0.95), rgba(214, 227, 247, 0.95));
-  border: 1px solid rgba(70, 120, 200, 0.22);
-  color: #3a5e8c;
+  /* hue-preserving darkening so all 10 accents pass 3:1 on the pale plate */
+  --accent: color-mix(in oklch, var(--tile-accent, var(--hud-line)) 62%, black);
+  color: #4a6488;
 }
-[data-theme='light'] .platform-tile:hover {
-  color: #143a66;
-  border-color: rgba(37, 130, 220, 0.6);
-  box-shadow: 0 6px 16px rgba(31, 56, 110, 0.15), 0 0 0 1px rgba(37, 130, 220, 0.3);
+[data-theme='light'] .platform-tile:hover,
+[data-theme='light'] .platform-tile:focus-visible { color: #123a63; }
+[data-theme='light'] .platform-tile.is-active { color: #0b3a5e; }
+[data-theme='light'] .platform-tile.is-active .platform-tile-label { color: #0b3a5e; }
+[data-theme='light'] .platform-tile-count { color: #46688f; }
+[data-theme='light'] .platform-tile.is-active .platform-tile-count { color: #0b3a5e; }
+/* halved glows — full-strength drop-shadows read as smudges on white */
+[data-theme='light'] .platform-tile-icon svg {
+  filter: drop-shadow(0 0 3px color-mix(in srgb, var(--accent) 12%, transparent));
 }
-[data-theme='light'] .platform-tile.is-active {
-  color: #0b3a6b;
-  border-color: rgba(31, 120, 215, 0.9);
-  background: linear-gradient(155deg, rgba(56, 150, 235, 0.30), rgba(196, 220, 248, 0.95));
-  box-shadow: 0 0 0 1px rgba(31, 120, 215, 0.55), 0 0 16px rgba(56, 150, 235, 0.30), inset 0 0 12px rgba(56, 150, 235, 0.18);
+[data-theme='light'] .platform-tile:hover .platform-tile-icon svg,
+[data-theme='light'] .platform-tile:focus-visible .platform-tile-icon svg {
+  filter: drop-shadow(0 0 4px color-mix(in srgb, var(--accent) 22%, transparent));
 }
-[data-theme='light'] .platform-tile-icon { filter: drop-shadow(0 0 3px rgba(56, 130, 220, 0.25)); }
-[data-theme='light'] .platform-tile.is-active .platform-tile-icon { filter: drop-shadow(0 0 5px rgba(37, 120, 215, 0.5)); }
-[data-theme='light'] .platform-tile-count { color: #5f86b8; }
-[data-theme='light'] .platform-tile.is-active .platform-tile-count { color: #1f5aa8; }
-[data-theme='light'] .platforms-active-dot {
-  background: #2f7fd0;
-  box-shadow: 0 0 7px rgba(47, 127, 208, 0.7);
+[data-theme='light'] .platform-tile.is-active .platform-tile-icon svg {
+  filter: drop-shadow(0 0 4px color-mix(in srgb, var(--accent) 50%, transparent));
 }
-[data-theme='light'] .filter-btn-platforms[aria-expanded="true"] .platforms-chevron { color: #2f7fd0; }
-[data-theme='light'] .filter-btn-platforms[data-active="true"] > svg:first-of-type { fill: #2f7fd0; }
 
 /* Nobel laureate medallion — inline after a person's name */
 .nobel-medal {
@@ -1551,10 +1733,12 @@ body,
   background: var(--ifm-color-primary);
 }
 
-/* Floating help button to replay the tour */
+/* Floating help button to replay the tour.
+   bottom clears the ~40px fixed footer while staying below the filter
+   stack (which sits at bottom: 90px). */
 .tour-help-btn {
   position: absolute;
-  bottom: 18px;
+  bottom: 48px;
   left: 18px;
   z-index: 30;
   width: 38px;
@@ -1862,19 +2046,6 @@ body,
 
   .back-to-map-btn {
     display: block;
-  }
-
-  /* Larger touch targets for popups */
-  .leaflet-popup-content button {
-    padding: 8px 16px !important;
-    font-size: 14px !important;
-    min-height: 44px;
-  }
-
-  /* Better popup sizing on mobile */
-  .leaflet-popup-content {
-    min-width: 250px !important;
-    max-width: 300px !important;
   }
 
   /* Hide desktop header padding */

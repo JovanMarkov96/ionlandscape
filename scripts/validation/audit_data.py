@@ -13,7 +13,7 @@ import json, os, sys, math
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PEOPLE_JSON = os.path.join(ROOT, 'website', 'static', 'data', 'people.json')
 INST_JSON = os.path.join(ROOT, 'website', 'static', 'data', 'institutions.json')
 

@@ -72,6 +72,14 @@ export default function GuidedTour({ open, steps, onClose }) {
         };
     }, [open, i, measure]);
 
+    const finish = useCallback(() => { onClose && onClose(); }, [onClose]);
+    // Side effects (finish → parent setState/localStorage) must stay outside
+    // the setI updater: React updaters are pure and StrictMode double-invokes them.
+    const next = useCallback(() => {
+        if (i < steps.length - 1) setI(i + 1);
+        else finish();
+    }, [i, steps.length, finish]);
+
     // Keyboard: Esc to skip, arrows / Enter to navigate.
     useEffect(() => {
         if (!open) return;
@@ -82,10 +90,7 @@ export default function GuidedTour({ open, steps, onClose }) {
         };
         window.addEventListener('keydown', onKey);
         return () => window.removeEventListener('keydown', onKey);
-    });
-
-    const finish = () => { onClose && onClose(); };
-    const next = () => { setI(p => (p < steps.length - 1 ? p + 1 : (finish(), p))); };
+    }, [open, finish, next]);
 
     if (!open || !step || typeof document === 'undefined') return null;
 

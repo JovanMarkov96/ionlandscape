@@ -15,10 +15,12 @@ import React from 'react';
 
 // Grouping of raw platform values into user-facing categories.
 // Rydberg arrays fold into Neutral Atoms; NV folds into Color Centers.
+// "Super­conducting" carries a soft hyphen: 15 unbreakable caps overflow
+// the tile's ~68px label column otherwise.
 export const PLATFORM_GROUPS = [
     { key: 'trapped_ion', label: 'Trapped Ions', values: ['trapped_ion'] },
     { key: 'neutral_atom', label: 'Neutral Atoms', values: ['neutral_atom', 'rydberg_array'] },
-    { key: 'superconducting', label: 'Superconducting', values: ['superconducting'] },
+    { key: 'superconducting', label: 'Super­conducting', values: ['superconducting'] },
     { key: 'photonic', label: 'Photonic', values: ['photonic'] },
     { key: 'color_center', label: 'Color Centers', values: ['nv_center', 'color_center'] },
     { key: 'quantum_dot', label: 'Quantum Dots', values: ['quantum_dot'] },
@@ -27,6 +29,23 @@ export const PLATFORM_GROUPS = [
     { key: 'cavity_qed_hybrid', label: 'Hybrid / Cavity QED', values: ['cavity_qed_hybrid'] },
     { key: 'topological', label: 'Topological', values: ['topological'] },
 ];
+
+// Per-platform HUD accent colors (consumed as --tile-accent by the CSS).
+// Idle tiles stay neutral gunmetal; the accent tints the icon and blooms
+// fully on hover/selection. Map markers are colored by entity type, not
+// platform, so these introduce no conflicts.
+const TILE_ACCENT = {
+    trapped_ion: '#ffd24a',
+    neutral_atom: '#7ef0a6',
+    superconducting: '#5ad1ff',
+    photonic: '#ff7ad9',
+    color_center: '#ff6b6b',
+    quantum_dot: '#b48bff',
+    silicon_spin: '#6d8dff',
+    trapped_molecule: '#40e0c8',
+    cavity_qed_hybrid: '#ff9155',
+    topological: '#c3f53c',
+};
 
 // ── Custom line-art platform icons (24×24, stroke = currentColor) ───────────
 const ICON = {
@@ -136,23 +155,30 @@ function PlatformIcon({ name }) {
     );
 }
 
-export default function PlatformFlyout({ open, active, onToggle, counts = {} }) {
+export default function PlatformFlyout({ open, active, onToggle, onClear, counts = {} }) {
     return (
-        <div className={`platform-flyout ${open ? 'is-open' : ''}`} role="menu" aria-hidden={!open}>
+        <div className={`platform-flyout ${open ? 'is-open' : ''}`} role="group"
+            aria-label="Platform filters" aria-hidden={!open}>
             <div className="platform-flyout-title">
                 Platforms
-                {active.length > 0 && <span className="platform-flyout-count">{active.length} selected</span>}
+                {active.length > 0 && (
+                    <button type="button" className="platform-flyout-clear" onClick={onClear}
+                        title="Clear platform filters">
+                        {active.length} selected ✕
+                    </button>
+                )}
             </div>
             <div className="platform-grid">
-                {PLATFORM_GROUPS.map(g => {
+                {PLATFORM_GROUPS.map((g, i) => {
                     const n = g.values.reduce((s, v) => s + (counts[v] || 0), 0);
                     const isActive = active.includes(g.key);
                     return (
                         <button
                             key={g.key}
                             className={`platform-tile ${isActive ? 'is-active' : ''}`}
+                            style={{ '--tile-accent': TILE_ACCENT[g.key], '--i': i }}
                             onClick={() => onToggle(g.key)}
-                            title={`${g.label} — ${n} on map`}
+                            title={`${g.label.replace('­', '')} — ${n} on map`}
                             aria-pressed={isActive}
                         >
                             <span className="platform-tile-icon"><PlatformIcon name={g.key} /></span>

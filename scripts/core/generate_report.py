@@ -15,12 +15,14 @@ def parse_frontmatter(fpath):
     if not match:
         return {}
     try:
-        return yaml.safe_load(match.group(1))
-    except:
+        return yaml.safe_load(match.group(1)) or {}
+    except yaml.YAMLError as e:
+        print(f"WARNING: YAML parse failure in {fpath}: {e}")
         return {}
 
 def main():
-    files = glob.glob(os.path.join(CONTENT_DIR, "*.md"))
+    files = [f for f in glob.glob(os.path.join(CONTENT_DIR, "*.md"))
+             if not f.endswith(".evidence.md")]
     total_profiles = len(files)
     
     # Fields to check
@@ -33,7 +35,7 @@ def main():
         pid = meta.get("id", os.path.basename(fpath))
         name = meta.get("name", "Unknown")
         
-        links = meta.get("links", {})
+        links = meta.get("links") or {}
         education = meta.get("education", [])
         
         # Check specific fields

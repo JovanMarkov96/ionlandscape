@@ -14,7 +14,6 @@ Endpoints that could not be matched to a known node.
 | 069-sadiq-rangwala | Raman Research Institute | affiliated_with | True | False |
 | 097-daniel-barredo | Centro de Investigación en Nanomateriales y Nanotecnología (CINN-CSIC) | affiliated_with | True | False |
 | 098-p-zoller | Institute for Quantum Optics and Quantum Information (IQOQI) | affiliated_with | True | False |
-| 106-thomas-pohl | TU Wien | affiliated_with | True | False |
 | 130-meenakshi-dutt | University of Pittsburgh | affiliated_with | True | False |
 | 131-jiangfeng-du | Ministry of Education of China | affiliated_with | True | False |
 | 132-jean-francois-roch | ENS Paris-Saclay | affiliated_with | True | False |
@@ -29,7 +28,6 @@ Endpoints that could not be matched to a known node.
 | 185-ulrik-andersen | Technical University of Denmark | affiliated_with | True | False |
 | 186-tobias-heindel | University of Münster | affiliated_with | True | False |
 | 187-hugo-zbinden | University of Geneva | affiliated_with | True | False |
-| 189-marco-bellini | Istituto Nazionale di Ottica | affiliated_with | True | False |
 | 194-gerd-leuchs | Max Planck Institute for the Science of Light | affiliated_with | True | False |
 | 197-hugues-de-riedmatten | ICFO - The Institute of Photonic Sciences | affiliated_with | True | False |
 | 198-mikael-afzelius | University of Geneva | affiliated_with | True | False |
@@ -43,7 +41,6 @@ Endpoints that could not be matched to a known node.
 | 225-jean-michel-raimond | Sorbonne Universite / Laboratoire Kastler Brossel | affiliated_with | True | False |
 | 228-marlan-o-scully | Texas A&M University | affiliated_with | True | False |
 | 237-alex-kuzmich | University of Michigan | affiliated_with | True | False |
-| 239-alexander-gaeta | Columbia University | affiliated_with | True | False |
 | 241-alexander-sergienko | Boston University | affiliated_with | True | False |
 | 244-andrew-white | University of Queensland | affiliated_with | True | False |
 | 247-brian-pippard | University of Cambridge | affiliated_with | True | False |
@@ -57,12 +54,9 @@ Endpoints that could not be matched to a known node.
 | 273-halina-rubinsztein-dunlop | University of Queensland | affiliated_with | True | False |
 | 277-jan-michael-rost | Max Planck Institute for the Physics of Complex Systems | affiliated_with | True | False |
 | 278-jay-gupta | Ohio State University | affiliated_with | True | False |
-| 282-jorg-schmiedmayer | TU Wien (Vienna University of Technology) | affiliated_with | True | False |
 | 283-jos-ignacio-latorre | University of Barcelona / Technology Innovation Institute | affiliated_with | True | False |
 | 284-josh-nunn | University of Bath | affiliated_with | True | False |
 | 290-l-j-sham | University of California, San Diego | affiliated_with | True | False |
-| 293-markus-oberthaler | Heidelberg University | affiliated_with | True | False |
-| 295-matthias-weidemuller | Heidelberg University | affiliated_with | True | False |
 | 298-michel-orrit | Leiden University | affiliated_with | True | False |
 | 301-niek-van-hulst | ICFO - The Institute of Photonic Sciences | affiliated_with | True | False |
 | 302-paolo-villoresi | University of Padua | affiliated_with | True | False |
@@ -72,7 +66,6 @@ Endpoints that could not be matched to a known node.
 | 315-roberta-ramponi | Politecnico di Milano / IFN-CNR | affiliated_with | True | False |
 | 316-rodolfo-miranda | Autonomous University of Madrid / IMDEA Nanoscience | affiliated_with | True | False |
 | 319-stephan-reitzenstein | Technical University of Berlin | affiliated_with | True | False |
-| 321-stuart-adams | Durham University | affiliated_with | True | False |
 | 322-thomas-f-gallagher | University of Virginia | affiliated_with | True | False |
 | 324-timothy-p-softley | University of Birmingham | affiliated_with | True | False |
 | 329-ran-finkelstein | Tel Aviv University | affiliated_with | True | False |
@@ -89,7 +82,6 @@ Endpoints that could not be matched to a known node.
 | Andrei Dragomir | c105-aquark-technologies | founder | False | True |
 | Andrew Briggs | c054-quantrolox | founder | False | True |
 | Andrew Childs | i120-university-of-maryland | leadership | False | True |
-| Andrew Dzurak | c040-diraq | founder | False | True |
 | Artur Garcia Saez | c091-qilimanjaro-quantum-tech | founder | False | True |
 | Ashley Montanaro | c048-phasecraft | founder | False | True |
 | Asser Lahdemaki | c108-quanscient | founder | False | True |
@@ -115,6 +107,7 @@ Endpoints that could not be matched to a known node.
 | Domenico Tulli | c092-quside | founder | False | True |
 | Dominic Lennon | c054-quantrolox | founder | False | True |
 | Ed Durkin | c006-quera-computing | leadership | False | True |
+| Edward Hinds | 335-michael-tarbutt | advisor | False | True |
 | Eleni Diamanti | c063-welinq | founder | False | True |
 | Elham Kashefi | c065-veriqloud | founder | False | True |
 | Enrique Lizaso | c090-multiverse-computing | founder | False | True |
@@ -131,6 +124,7 @@ Endpoints that could not be matched to a known node.
 | Gareth Maker | c056-m-squared-lasers | founder | False | True |
 | Georg Gesek | c089-qmware | leadership | False | True |
 | George Dunlop | c051-quantum-dice | founder | False | True |
+| Gerald Gabrielse | 333-tanya-zelevinsky | advisor | False | True |
 | Graeme Malcolm | c056-m-squared-lasers | founder | False | True |
 | Gregoire Ribordy | c085-id-quantique | founder | False | True |
 | Guillermo Garcia-Perez | c101-algorithmiq | founder | False | True |
@@ -167,6 +161,7 @@ Endpoints that could not be matched to a known node.
 | Karel Dumon | c087-miraex | founder | False | True |
 | Karl Eckstein | c084-terra-quantum | founder | False | True |
 | Kevin Berghoff | c106-quantum-diamonds | founder | False | True |
+| Klaus Sengstock | 338-silke-ospelkaus | advisor | False | True |
 | L. J. Sham | 127-sophia-e-economou | advisor | False | True |
 | Laurent Guiraud | c104-colibritd | founder | False | True |
 | Leif Helth Jensen | c096-sparrow-quantum | founder | False | True |
@@ -184,6 +179,8 @@ Endpoints that could not be matched to a known node.
 | Markus Pflitsch | c089-qmware | leadership | False | True |
 | Martin Danoesastro | c068-delft-circuits | leadership | False | True |
 | Martin Wolff | c107-pixel-photonics | founder | False | True |
+| Massimo Inguscio | 365-giacomo-roati | advisor | False | True |
+| Massimo Inguscio | 367-francesca-ferlaino | advisor | False | True |
 | Mateusz Kubica | c059-wave-photonics | founder | False | True |
 | Mathieu Munsch | c086-qnami | founder | False | True |
 | Matteo Rossi | c101-algorithmiq | founder | False | True |
@@ -241,6 +238,7 @@ Endpoints that could not be matched to a known node.
 | Sam Mugel | c090-multiverse-computing | founder | False | True |
 | Sander Dorenbos | c072-single-quantum | founder | False | True |
 | Scott Dufferwiel | c052-aegiq | leadership | False | True |
+| Scott H. Kable | 352-brianna-heazlewood | advisor | False | True |
 | Sebastian Blatt | c036-planqc | founder | False | True |
 | Sebastian Weidt | c016-universal-quantum | founder | False | True |
 | Sebastian Weidt | c016-universal-quantum | leadership | False | True |
@@ -282,12 +280,10 @@ Endpoints that could not be matched to a known node.
 | Yuval Boger | c006-quera-computing | leadership | False | True |
 | Zhanet Zaharieva | c051-quantum-dice | founder | False | True |
 | c019-pasqal | Institut d'Optique | spun_out_from | True | False |
-| c035-quantinuum | Cambridge Quantum | spun_out_from | True | False |
+| c035-quantinuum | Cambridge Quantum | spun_out_from | True | True |
 | c035-quantinuum | Honeywell | spun_out_from | True | False |
 | c037-alice-and-bob | École Normale Supérieure (ENS) / Inria | spun_out_from | True | False |
-| c040-diraq | UNSW Sydney | spun_out_from | True | False |
 | c043-quantum-motion | University College London | spun_out_from | True | False |
-| c044-silicon-quantum-computing | UNSW Sydney | spun_out_from | True | False |
 | c047-riverlane | University of Cambridge | spun_out_from | True | False |
 | c048-phasecraft | University College London | spun_out_from | True | False |
 | c049-nu-quantum | University of Cambridge | spun_out_from | True | False |

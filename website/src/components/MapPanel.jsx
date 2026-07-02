@@ -10,6 +10,10 @@ import PlatformFlyout, { PLATFORM_GROUPS } from './PlatformFlyout';
 const defaultCenter = [10, 50]; // Centered on Europe
 const defaultZoom = 2;
 
+// Escape data-sourced strings before interpolating into raw HTML (popups, markers).
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
 /**
  * Generates the MapLibre style object containing map layers and sources.
  * We use an inline style configuration with public raster tiles so the map
@@ -140,7 +144,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
                 fetch('/data/companies.geojson')
                     .then(res => res.json())
                     .then(data => setCompanies(data.features || []))
-                    .catch(e => console.warn('Could not load companies.json', e));
+                    .catch(e => console.warn('Could not load companies.geojson', e));
             });
 
         // Load institutions
@@ -176,14 +180,19 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
         return features;
     }, [people, companies, institutions, filters]);
 
-    // Per-platform marker counts (across all loaded features, for tile badges)
+    // Per-platform marker counts for tile badges — respects the layer toggles
+    // so a badge never claims more than the map can show.
     const platformCounts = useMemo(() => {
         const counts = {};
-        [...people, ...companies, ...institutions].forEach(f => {
+        let pool = [];
+        if (filters.people) pool = pool.concat(people);
+        if (filters.companies) pool = pool.concat(companies);
+        if (filters.institutions) pool = pool.concat(institutions);
+        pool.forEach(f => {
             (f.properties?.platforms || []).forEach(p => { counts[p] = (counts[p] || 0) + 1; });
         });
         return counts;
-    }, [people, companies, institutions]);
+    }, [people, companies, institutions, filters.people, filters.companies, filters.institutions]);
 
     const coordGroups = useMemo(() => groupByCoordinate(displayFeatures), [displayFeatures]);
 
@@ -198,7 +207,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
     const createPopupHTML = useCallback((group, locationLabel) => {
         let html = '<div class="popup-scroll-container">';
         if (locationLabel) {
-            html += `<div class="popup-location-header">${locationLabel}</div>`;
+            html += `<div class="popup-location-header">${esc(locationLabel)}</div>`;
         }
         group.forEach((feature, idx) => {
             const props = feature.properties || {};
@@ -208,8 +217,8 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
             const cpObj = props.current_position || {};
             const cpInstitution = typeof cpObj === 'string' ? cpObj : (cpObj.institution || '');
             const institutionHtml = affiliations.length > 0
-                ? affiliations.map(inst => `<div class="popup-institution">${inst}</div>`).join('')
-                : (cpInstitution ? `<div class="popup-institution">${cpInstitution}</div>` : '');
+                ? affiliations.map(inst => `<div class="popup-institution">${esc(inst)}</div>`).join('')
+                : (cpInstitution ? `<div class="popup-institution">${esc(cpInstitution)}</div>` : '');
 
             const isCompany = props.entity_type === 'company';
             const isInstitution = props.entity_type === 'institution';
@@ -223,7 +232,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
                 if (summary.length > LIMIT) {
                     summary = summary.slice(0, LIMIT).replace(/\s+\S*$/, '').trim() + '…';
                 }
-                detailText = summary;
+                detailText = esc(summary);
             }
 
             let btnTypeClass = 'person'; // Person
@@ -251,7 +260,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
 
                     logoHtml = `
                     <div class="popup-logo-placeholder">
-                        ${initials}
+                        ${esc(initials)}
                     </div>`;
                 }
             }
@@ -264,7 +273,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
                     <div class="popup-feature-header">
                         <span class="popup-feature-title">
                             ${logoHtml}
-                            <span>${props.name || 'Unknown'}</span>
+                            <span>${esc(props.name || 'Unknown')}</span>
                         </span>
                         ${typeLabel}
                     </div>
@@ -342,8 +351,13 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
         };
     }, []);
 
-    // Update style when color mode changes
+    // Update style when color mode changes (skip mount — init effect already set it)
+    const styleMountedRef = useRef(false);
     useEffect(() => {
+        if (!styleMountedRef.current) {
+            styleMountedRef.current = true;
+            return;
+        }
         if (mapRef.current) {
             mapRef.current.setStyle(createStyle(isDark));
         }
@@ -393,7 +407,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
             let anchorType = 'bottom';
             let popupOffset = [0, -40]; // Popup floats above the pin tip
 
-            const safeId = (props.id || 'new').replace(/[^a-zA-Z0-9_-]/g, '-');
+            const safeId = (props.id || `${lat}_${lon}`).replace(/[^a-zA-Z0-9_-]/g, '-');
             const svgPinContent = `
                 <svg viewBox="0 0 24 24" width="36" height="36" style="filter: drop-shadow(0 4px 6px rgba(0,0,0,0.35)); transition: filter 0.3s ease;">
                     <defs>
@@ -434,7 +448,7 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
                     let initials = 'CO';
                     if (nameParts.length > 1) initials = (nameParts[0][0] + nameParts[1][0]).toUpperCase();
                     else if (nameParts.length === 1) initials = nameParts[0].substring(0, 2).toUpperCase();
-                    logoHtml = `<div class="ion-marker-placeholder"><span>${initials}</span></div>`;
+                    logoHtml = `<div class="ion-marker-placeholder"><span>${esc(initials)}</span></div>`;
                 }
 
                 // Append both representations inside the container
@@ -472,50 +486,56 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
             />
             {/* Filter Controls - Liquid Glass Vertical */}
             <div className="map-filters-container">
-                <div
+                <button
+                    type="button"
                     className="map-filter-btn filter-btn-people"
                     onClick={() => setFilters(prev => ({ ...prev, people: !prev.people }))}
                     data-active={filters.people}
+                    aria-pressed={filters.people}
                     title="Toggle People"
                 >
                     <svg viewBox="0 0 24 24" width="22" height="22">
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
                     <span>People</span>
-                </div>
+                </button>
 
-                <div
+                <button
+                    type="button"
                     className="map-filter-btn filter-btn-companies"
                     onClick={() => setFilters(prev => ({ ...prev, companies: !prev.companies }))}
                     data-active={filters.companies}
+                    aria-pressed={filters.companies}
                     title="Toggle Companies"
                 >
                     <svg viewBox="0 0 24 24" width="22" height="22">
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
                     <span>Companies</span>
-                </div>
+                </button>
 
-                <div
+                <button
+                    type="button"
                     className="map-filter-btn filter-btn-institutions"
                     onClick={() => setFilters(prev => ({ ...prev, institutions: !prev.institutions }))}
                     data-active={filters.institutions}
+                    aria-pressed={filters.institutions}
                     title="Toggle Institutions"
                 >
                     <svg viewBox="0 0 24 24" width="22" height="22">
                         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                     </svg>
                     <span>Institutions</span>
-                </div>
+                </button>
 
                 {/* Platform Filter — collapsible tech-tile flyout */}
                 <div className="map-platforms-divider" />
-                <div
+                <button
+                    type="button"
                     className="map-filter-btn filter-btn-platforms"
                     onClick={() => setPlatformsOpen(o => !o)}
                     data-active={platformsOpen || filters.platforms.length > 0}
                     title="Filter by platform"
-                    role="button"
                     aria-expanded={platformsOpen}
                 >
                     <svg viewBox="0 0 24 24" width="22" height="22">
@@ -531,12 +551,13 @@ const MapPanel = forwardRef(function MapPanel({ onPersonSelect, onCompanySelect,
                         <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2.4"
                             strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                </div>
+                </button>
 
                 <PlatformFlyout
                     open={platformsOpen}
                     active={filters.platforms}
                     onToggle={togglePlatform}
+                    onClear={() => setFilters(prev => ({ ...prev, platforms: [] }))}
                     counts={platformCounts}
                 />
             </div>
